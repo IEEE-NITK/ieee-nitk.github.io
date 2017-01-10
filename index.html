@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="mainApp" ng-controller="mainController">
+    <head>  
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home|IEEE NITK</title>
+        <!--link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Vollkorn"-->
+
+        <link rel="stylesheet" href="res/jquery.fullpage.css">
+        <link rel="stylesheet" href="res/main.css">
+        <script type="text/javascript" src="js/jq.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+    </head>
+    <body>
+        <nav id="menu" class="visible_nav">
+            <a ui-sref="home" title="Home"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
+        </nav>
+
+    <div id="fullpage" full-page options="mainOptions">
+        <div class="landing_page section prociono">
+            <div class="main_container">
+                <div id="text_effect"></div>
+                <div id="logo">
+                    <img src="res/img/ieee_white.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="about section prociono">
+            <div class="wrapper">
+                <div class="col_left col mybox">
+
+                    <img src="res/img/logo.png">
+                    <div class="text1">About</div>
+                    <div class="text2 fly_up_fast">IEEE NITK</div>
+                </div>
+
+                <div class="col_right col fadein mybox">
+                    description of IEEE NITK
+                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+        </div>
+        <div class="sig section sliders`">
+          <div class="slide">one</div>
+          <div class="slide">tewo</div>
+          <div class="slide">three</div>
+          <div class="slide">four</div>
+            SIGs goes here
+            Slider!!!
+        </div>
+        <div class="events section">
+            events
+        </div>
+        <div class="team section">
+            team
+        </div>
+        <div class="projects section">
+            projects
+        </div>
+    </div>
+</body>
+</html>

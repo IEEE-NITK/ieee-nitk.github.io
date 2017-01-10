@@ -1,0 +1,71 @@
+<div class="sig_container">
+    <style>
+    .sig_container {
+        background-color: white;
+    }
+    
+    .img_holder {
+        background-image: url("res/img/comps.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    .img_holder .block_title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .data_holder {
+        padding: 30px;
+        width: 60%;
+        margin: 0px auto;
+    }
+    
+    .data_holder div {
+        padding: 10px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .data_holder {
+            width: 100%!important;
+        }
+    }
+    </style>
+    <div class="img_holder teco">
+        <div class="block_title">
+            {{siginfo.title}}
+        </div>
+    </div>
+    <div class="data_holder  prociono">
+        <div class="intro">
+            <div class="sub_title">
+                <h3>
+				About us
+				</h3>
+            </div>
+            <div class="para" ng-bind-html="sigDescription"></div>
+        </div>
+        <div class="team_members">
+            <a href="" title="">View team members</a>
+        </div>
+        <div class="projects">
+            <a href="" title="">View Projects</a>
+        </div>
+        <div class="inventory">
+            <div class="sub_title">
+                View inventory
+            </div>
+            <div class="inventory_list" style="display: none">
+                <ul>
+                    <li ng-repeat="item in siginfo.inventory">{{item}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

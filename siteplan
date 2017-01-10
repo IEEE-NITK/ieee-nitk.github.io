@@ -1,0 +1,26 @@
+Team page
+
+Only faculty will be shown with pictures
+Then core
+Then SIG wise list
+On clicking on any person will go to the next state with ID
+so will show his/her details
+Also a Filter based search thingy.
+since we add the sig in the object, the search will be also based on the sig
+
+
+SIG Page
+
+logo, Title, blabbering.
+then a link to see its members (as a filter to the "all members page")
+then a link to see its project (as a filter to the "all projects page") 
+
+Projects page
+
+There was something like EPICS which we didnt want to lose out.
+Also all the sig's projects together will appear here.
+with a search option and any possible links
+
+Project page
+
+Title, status, team members, links etc.

@@ -1,0 +1,49 @@
+<div id="fullpage" full-page options="mainOptions">
+    <div class="landing_page section prociono">
+        <div class="main_container">
+            <div id="text_effect"></div>
+            <div id="logo">
+                <img src="res/img/ieee_white.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="about section prociono">
+        <div class="wrapper">
+            <div class="col_left col">
+                <div class="text1">About</div>
+                <div class="text2 fly_up_fast">IEEE NITK</div>
+            </div>
+            <div class="col_right col fadein">
+                description of IEEE NITK
+                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+    </div>
+    <div class="sig section fp-auto-height prociono" ng-repeat="sig_group in sigs">
+        <div class="half_block" ng-repeat="single_sig in sig_group">
+            <a ui-sref="sig({id:single_sig.id})" title="{{single_sig.title}}">
+                <div class="card fly_up {{single_sig.side}}">
+                    <div class="description fadein" ng-if="single_sig.side=='right'">
+                        <div class="content_desc">
+                            <h3>{{single_sig.title}}</h3>
+                            <p>
+                                {{single_sig.info}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pic">
+                        <img src="res/img/{{single_sig.img}}" alt="{{single_sig.title}}">
+                    </div>
+                    <div class="description fadein" ng-if="single_sig.side=='left'">
+                        <div class="content_desc">
+                            <h3>{{single_sig.title}}</h3>
+                            <p>
+                                {{single_sig.info}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
