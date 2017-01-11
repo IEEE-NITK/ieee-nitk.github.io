@@ -79,8 +79,8 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 5vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+    background-color: rgb(255,255,255);
     z-index: 100;
 }
 
@@ -127,7 +127,9 @@ nav #small_logo {
  */
 .mybox{
   display: inline-block;
-  width: 46%;
+  width: 45%;
+  padding: 6%;
+  align-items: center;
 /*border: 5px solid white ;*/
 
 
@@ -143,8 +145,78 @@ nav #small_logo {
 .sub_title {
     font-size: 1.5em;
 }
+/* Slides */
+
+.slide2, .slide4{
+
+  background-color: rgb(242, 239, 233);
 
 
+}
+
+.slide1, .slide3{
+  background-color:#130440;
+}
+.slide .col_right{
+  margin: 0 auto;
+  width: 55%;
+}
+.slide .col_left{
+  padding-right: 0;
+  width: 38%;
+}
+.slide_img{
+
+  margin: 0 auto;
+
+}
+.slide_button{
+
+  margin: 0 auto;
+  border-radius: 5%;
+  background-color: #8E76D4;
+  font-family: Montserrat, serif;
+  text-transform: uppercase;
+  text-align: center;
+  border: solid #8E76D4 4px;
+  width:auto;
+  display:inline-block;
+  margin-top:5%;
+  padding:1%;
+  font-size:20px;
+  box-shadow: inset 0 0 0 0 rgb(90, 212, 238);
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
+
+}
+
+.slide1 .slide_button,.slide3 .slide_button{
+  color:  #130440;
+  background-color:  #8E76D4;
+  border: solid #8E76D4 4px;
+}
+.slide_heading{
+  color: #8E76D4;
+  font-family: Montserrat;
+  font-size:34px;
+}
+
+.slide_content{
+  margin-top: 3%;
+  font-family: Montserrat;
+}
+.slide1 .slide_content, .slide3 .slide_content{
+    color:  rgb(242, 239, 233);
+}
+.slide2 .slide_content, .slide4 .slide_content{
+
+    color: black;
+}
+
+.wrapper{
+  padding: 5%;
+}
 /* Mobile phones */
 
 @media only screen and (max-width: 768px) {
