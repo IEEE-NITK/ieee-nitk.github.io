@@ -216,9 +216,55 @@ nav #small_logo {
 
 .wrapper{
   padding: 5%;
+  height: 100%;
+
 }
 /* Mobile phones */
+.projects{
 
+  background-color:  rgb(242, 239, 233);
+}
+.projectdata{
+  height: 33%;
+  padding: 3%;
+  border-bottom: 0.5px solid gray;
+  font-family: Montserrat, serif;
+}
+
+.last{
+
+  border-bottom: 0;
+}
+
+.leftdata, .rightdata{
+  display: inline-block;
+}
+
+.rightdata{
+
+  width: 70%;
+  height: inherit;
+
+
+}
+
+
+.leftdata{
+  width: 25%;
+  text-align: center;
+  height: inherit;
+
+}
+.view{
+  margin-top: 8px;
+  margin-left: 3px;
+  border: 3px solid black;
+  border-radius: 5%;
+  padding: 0.5%;
+
+  color: #7B90FF;
+  border-color: #7B90FF;
+}
 @media only screen and (max-width: 768px) {
     .landing_page {
         font-size: 4em;
