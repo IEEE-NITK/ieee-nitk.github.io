@@ -1,0 +1,95 @@
+/*
+ * Fonts
+ */
+
+@font-face {
+    src: url(Teko-Light.ttf);
+    font-family: teco;
+}
+
+
+/* 
+ *  Font classes for easy reuse
+ */
+
+.prociono {
+    font-family: 'Prociono';
+}
+
+.teco {
+    font-family: teco;
+}
+.sans{
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* Nav */
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+nav #small_logo {
+    height: 5vh;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* End of Nav */
+body{
+    background-color: white;
+}
+
+.img_holder {
+    background-image: url("img/comps.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.img_holder .block_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    text-align: center;
+}
+.img_holder h1{
+    font-weight: lighter;
+}
+.data_holder {
+    padding: 30px;
+    width: 60%;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+.data_holder div {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .data_holder {
+        width: 100%!important;
+    }
+    .img_holder h1{
+        font-size: 2em;
+        line-height: 95%;
+    }
+
+}
+
