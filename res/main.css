@@ -19,10 +19,11 @@
 .teco {
     font-family: teco;
 }
-.sans{
-    
+
+.sans {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 
 /*
  * Animations
@@ -93,7 +94,7 @@ nav #small_logo {
     vertical-align: middle;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     display: inline-block;
     z-index: 150;
@@ -102,14 +103,18 @@ nav ul{
     font-size: 1.5em;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     padding-right: 10px;
+    cursor: pointer;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+
 /* The cool button */
 
 .nav-icon div {
@@ -278,7 +283,7 @@ nav ul li a{
 
 .sliders {
     color: white;
-    align: center;
+    vertical-align: center;
 }
 
 
@@ -368,11 +373,15 @@ nav ul li a{
     padding: 5%;
 }
 
+
 /* Events */
 
-.events{
+.events {
     background-color: #fff;
 }
+
+
+/*
 .title_holder{
     font-size: 3.5em;
     text-align: center;
@@ -396,13 +405,103 @@ nav ul li a{
 .my_arrow:hover{
     background-color: rgba(0,0,0,0.3);
 }
+*/
+
+.events_wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.events * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.events .box {
+    width: 50%;
+    height: 100vh;
+    display: block;
+    float: left;
+}
+
+.events .event_details {
+    margin-top: 10%;
+}
+
+.events .text2 {
+    font-size: 3.5em;
+    transition-duration: 800ms;
+}
+
+.box_left {
+    background-color: #345492;
+    padding: 60px;
+}
+
+.box_middle {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.box_middle ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.box_middle ul li {
+    border-bottom: 1px dashed #cdcdcd;
+    padding: 10px;
+    cursor: pointer;
+    color: #345492;
+}
+
+.box_middle ul li:hover {
+    font-weight: bolder;
+}
+
+.box_middle ul li:hover::after {
+    content: " >>";
+    color: #345492;
+}
+
+.box_right {
+    background-color: #345492;
+    position: absolute;
+    right: 0px;
+}
+
+.event_info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h3.event_name.teco {
+    font-size: 5em;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+
 
 /* Common css */
 
 .sub_title {
     font-size: 1.5em;
 }
-
 
 
 /* Mobile phones */
@@ -436,7 +535,7 @@ nav ul li a{
         font-size: 1.1em!important;
         text-align: justify;
     }
-    .events li{
+    .events li {
         width: 100%;
     }
     /* The cool button */
@@ -449,3 +548,47 @@ nav ul li a{
 }
 
 @media only screen and (max-width: 1023px) {}
+
+
+/* Projects part */
+
+.projects {
+    background-color: rgb(242, 239, 233);
+}
+
+.projectdata {
+    height: 33%;
+    padding: 3%;
+    border-bottom: 0.5px solid gray;
+    font-family: Montserrat, serif;
+}
+
+.last {
+    border-bottom: 0;
+}
+
+.leftdata,
+.rightdata {
+    display: inline-block;
+}
+
+.rightdata {
+    width: 70%;
+    height: inherit;
+}
+
+.leftdata {
+    width: 25%;
+    text-align: center;
+    height: inherit;
+}
+
+.view {
+    margin-top: 8px;
+    margin-left: 3px;
+    border: 3px solid black;
+    border-radius: 5%;
+    padding: 0.5%;
+    color: #7B90FF;
+    border-color: #7B90FF;
+}

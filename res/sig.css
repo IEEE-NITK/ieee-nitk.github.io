@@ -75,13 +75,40 @@ body{
     padding: 30px;
     width: 60%;
     margin: 0px auto;
+}
+.daa_holder p{
     text-align: justify;
 }
 
-.data_holder div {
-    padding: 10px;
+
+.data_holder>div {
+   padding: 10px;
+}
+.data_holder .sub_title{
+    padding: 10px 0px;
+}
+.members ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.members li{
+    display: block;
+    width: 25%;
+    float: left;
+
 }
 
+/*
+.members .col_left{
+    background-color: red;
+}
+.members .col_middle{
+    background-color: blue;
+}
+.members .col_right{
+    background-color: green;
+}
+*/
 @media only screen and (max-width: 768px) {
     .data_holder {
         width: 100%!important;

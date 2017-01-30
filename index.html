@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html ng-app="mainApp" ng-controller="mainController">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home|IEEE NITK</title>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link rel="stylesheet" href="res/main.css">
-    <link rel="stylesheet" href="res/jquery.fullpage.css">
-    <script type="text/javascript" src="js/jq.js"></script>
-    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
-    <script src="js/slider.js"></script>
-</head>
-
-<body>
-    <nav class="visible_nav">
-        <a ui-sref="home" title=""><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
-        <ul id="menu" class="teco">
-            <li data-menuanchor="landing" class="active" onclick="$.fn.fullpage.moveTo(1)">
-                <a>Home</a>
-            </li>
-            <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
-                <a>About Us</a>
-            </li>
-            <li data-menuanchor="sigs" onclick="$.fn.fullpage.moveTo(3)">
-                <a>SIGs</a>
-            </li>
-            <li data-menuanchor="events" onclick="$.fn.fullpage.moveTo(4)">
-                <a>Events</a>
-            </li>
-            <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
-                <a>Team</a>
-            </li>
-            <li data-menuanchor="projects" onclick="$.fn.fullpage.moveTo(6)">
-                <a>Projects</a>
-            </li>
-        </ul>
-    </nav>
-    <div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home|IEEE NITK</title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel="stylesheet" href="res/main.css">
+        <link rel="stylesheet" href="res/jquery.fullpage.css">
+        <script type="text/javascript" src="js/jq.js"></script>
+        <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/events.js"></script>
+    </head>
+    <body>
+        <nav class="visible_nav">
+            <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
+            <ul id="menu" class="teco">
+                <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
+                    <a>About Us</a>
+                </li>
+                <li data-menuanchor="sigs" onclick="$.fn.fullpage.moveTo(3)">
+                    <a>SIGs</a>
+                </li>
+                <li data-menuanchor="events" onclick="$.fn.fullpage.moveTo(4)">
+                    <a>Events</a>
+                </li>
+                <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
+                    <a>Team</a>
+                </li>
+                <li data-menuanchor="projects" onclick="$.fn.fullpage.moveTo(6)">
+                    <a>Projects</a>
+                </li>
+                <li>
+                    <a href="blog/">Blog</a>
+                </li>
+            </ul>
+        </nav>
         <div id="fullpage" full-page options="mainOptions">
             <div class="landing_page section prociono">
                 <div class="main_container">
@@ -51,7 +49,7 @@
             </div>
             <div class="about section">
                 <div class="wrapper">
-                    <div class="col_left col  prociono">
+                    <div class="col_left col prociono">
                         <div class="text1">About</div>
                         <div class="text2 fly_up_fast">IEEE NITK</div>
                     </div>
@@ -122,6 +120,7 @@
                 </div>
             </div>
             <div class="section events">
+                <!--
                 <div class="title_holder prociono">
                     <h2>Events</h2>
                 </div>
@@ -135,15 +134,77 @@
                         <li>Sample Event</li>
                     </ul>
                 </div>
+                -->
+                <div class="events_wrapper">
+                    <div class="box box_left">
+                        <!--
+                        this is for the fixed section.
+                        It would have a logo, and a big text
+                        -->
+                        <div class="event_info">
+                            <div class="text2 fly_up_fast prociono">Events</div>
+                            <div class="event_details fly_up_fast">
+                                <h3 class="event_name teco">
+                                IGNITE
+                                </h3>
+                                <div class="event_date sans">
+                                    May 2016
+                                </div>
+                                <div class="event_type sans">
+                                    By CompSoc
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box box_middle sans">
+                        <ul id="event_list">
+                            <li id="event1">01 Sample Event </li>
+                            <li id="event2">02 Sample Event </li>
+                            <li id="event3">03 Sample Event </li>
+                            <li id="event4">04 Sample Event </li>
+                            <li id="event5">05 Sample Event </li>
+                            <li id="event6">06 Sample Event </li>
+                        </ul>
+                    </div>
+                    <div class="box box_right">
+                    </div>
+                </div>
             </div>
             <div class="section team">
                 team
             </div>
-            <div class="section projects">
-                projects
+            <div class="projects section">
+                <div class="wrapper">
+                    <div class="projectdata">
+                        <div class="leftdata">
+                            <i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
+                        <br> Compsoc </div>
+                        <div class="rightdata">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+                            <br>
+                            <br>
+                            <button> View All </button>
+                            <button><i class="fa fa-github " aria-hidden="true"></i> github </button>
+                        </div>
+                    </div>
+                    <div class="projectdata last">
+                        <div class="leftdata">
+                            <i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
+                            <br> Piston
+                        </div>
+                        <div class="rightdata">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                            <br>
+                            <br>
+                            <button> View All </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer section fp-auto-height">
+                footer,guys!
             </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
