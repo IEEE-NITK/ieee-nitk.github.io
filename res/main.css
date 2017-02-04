@@ -66,6 +66,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    line-height: 1.66;
 }
 
 body {
@@ -296,30 +297,21 @@ nav ul li a {
 
 /* Slides */
 
-.slide2,
-.slide4 {
+.slide2 .col_right,
+.slide4 .col_right{
     background-color: rgb(242, 239, 233);
 }
 
-.slide1,
-.slide3 {
+.slide1 .col_right,
+.slide3 .col_right{
     background-color: #130440;
 }
-
-.slide .col_right {
-    margin: 0 auto;
-    width: 55%;
+.slide .col{
+    width: 50%;
+    float: left;
+    height: 100vh;
 }
-
-.slide .col_left {
-    padding-right: 0;
-    width: 38%;
-}
-
-.slide_img {
-    margin: 0 auto;
-}
-
+/*
 .slide_button {
     margin: 0 auto;
     border-radius: 5%;
@@ -354,9 +346,19 @@ nav ul li a {
 
 .slide_content {
     margin-top: 3%;
-    /*
     font-family: Montserrat;
-        */
+        
+}*/
+.slide .wrapper{
+    overflow: hidden;
+    width: 100%;
+    padding: 0px!important;
+    height: 100vh;
+}
+.slide .bgbox{
+    background-image: url("img/sig.jpg");
+    height: 100vh;
+    background-size: cover;
 }
 
 .slide1 .slide_content,
@@ -368,12 +370,32 @@ nav ul li a {
 .slide4 .slide_content {
     color: black;
 }
-
-.wrapper {
-    padding: 5%;
+.slide a{
+        text-decoration: none;
+        display: block;
+        color: white;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(255,255,255,0.5);
+    }
+/*
+.fp-controlArrow.fp-prev {
+    left: 0;
+    border: none;
+    width: 50px!important;
+    height: 101px;
+    background: url(img/left_arrow.png) no-repeat;
+    cursor: pointer;
 }
-
-
+.fp-controlArrow.fp-next {
+    right: 0;
+    border: none;
+    width: 50px!important;
+    height: 101px;
+    background: url(img/right_arrow.png) no-repeat;
+    cursor: pointer;
+}*/
 /* Events */
 
 .events {
@@ -446,6 +468,8 @@ nav ul li a {
     position: relative;
     overflow: hidden;
     z-index: 10;
+    transition:1s cubic-bezier(0.22, 0.61, 0.36, 1) all;
+
 }
 
 .box_middle ul {
@@ -477,14 +501,30 @@ nav ul li a {
     background-color: #345492;
     position: absolute;
     right: 0px;
+    padding: 4%;
 }
-
+.box_right h2{
+    text-align: right;
+    font-size: 2em;
+}
+.box_right .event_sub_title{
+    text-align: right;
+}
+.box_right ul{
+    list-style-type: none;
+}
 .event_info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
-
+.event_desc_p{
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+}
+.more{
+    text-align: right;
+}
 h3.event_name.teco {
     font-size: 5em;
     color: white;
@@ -520,12 +560,29 @@ h3.event_name.teco {
     .wrapper .col {
         display: block;
         width: 100%;
-        padding: 0vh 7vh 0vh 7vh;
+        padding: 0vh 5vh 0vh 5vh;
     }
     .col_left {
         padding-top: 5vh!important;
         padding-bottom: 5vh!important;
     }
+    .bgbox{
+        z-index: -100;
+    }
+    .slide .wrapper>div{
+        position: relative;
+        background-color: transparent!important;
+        width: 100%!important;
+    }
+    .slide .col_right{
+        top:-100vh;
+        padding: 15%;
+    }
+    h1.slide_heading{
+        font-size: 4em;
+        text-align: center;
+    }
+    
     .text1,
     .text2 {
         text-align: center;
@@ -534,10 +591,52 @@ h3.event_name.teco {
     .col_right {
         font-size: 1.1em!important;
         text-align: justify;
+        overflow: hidden;
     }
-    .events li {
+    .events .box_left{
+        width: 100%!important;
+        float: none!important;
+        display: block;
+        height: auto;
+    }
+    .events .box_middle{
         width: 100%;
     }
+    .visible_side_menu{
+        width: 10%!important;
+        padding: 0px;
+        transition:1s cubic-bezier(0.22, 0.61, 0.36, 1) all;
+    }
+    .visible_side_menu li .name{
+        display: none;
+    }
+    .events .box_left{
+        height: 20vh;
+        padding: 0px;
+        position: relative;
+    }
+    .events .box_left .event_details{
+        display: none;
+    }
+    .event_info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .events .box_middle{
+        height: 80vh;
+    }
+    .events .box_right{
+        width:90%;
+        height: 80vh;
+        overflow: auto;
+    }
+    .box_middle ul li:hover::after {
+        content: "  ";
+        color: #345492;
+    }
+
     /* The cool button */
     .hover div::before {
         top: -8px!important;
