@@ -1,4 +1,4 @@
-
+/*
 
 var phrases = ["LEARN","TEACH","CREATE"];
 var phraseTimer;
@@ -35,4 +35,4 @@ $(document).ready(function(){
 });
 function popup(){
 		$(".full_screen_menu").slideToggle();
-}
+}*/

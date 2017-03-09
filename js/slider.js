@@ -41,6 +41,12 @@ $(document).ready(function() {
             }, 600, function() {
                 $(".section:nth-of-type(" + index + ") .fadein").fadeIn();
             });
+        },
+        onLeave: function(index,nextIndex){
+            if(index == 6 && nextIndex == 7)
+                $('.icon').addClass('icon_show');
+            else
+                $('.icon').removeClass('icon_show');
         }
     });
 });

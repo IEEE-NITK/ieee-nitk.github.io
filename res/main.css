@@ -278,7 +278,6 @@ nav ul li a {
     width: 45%;
     padding: 6%;
     align-items: center;
-    /*border: 5px solid white ;*/
     color: white;
 }
 
@@ -530,12 +529,63 @@ h3.event_name.teco {
     color: white;
 }
 
-.footer {
+/* Team */
+.title_image{
+    height: 100vh;
+    width:50%;
+    background-image: url("img/sig.jpg");
+    background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.team_title{
+    font-size: 5em;
+    color: white;
+}
+.title_image a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+footer{
     width: 100%;
     height: 50vh;
     background-color: white;
 }
+footer h3{
+    text-align: center;
+}
+footer .icons{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content:center;
+}
+footer .icon{    
+    position: relative;
+    display: inline-block;
+    margin: 400px 10px 0px 10px;
+    transition:1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+}
+.icon_show{
+    margin: 0px 10px 0px 10px!important;
+    transition:1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+}
+.icon2{
+    transition-delay: 0.15s!important;
+}
 
+.icon3{
+    transition-delay: 0.3s!important;
+}
+.icon4{
+    transition-delay: 0.45s!important;
+}
+footer .icon img{
+    width:60px;
+}
 
 /* Common css */
 
@@ -654,40 +704,7 @@ h3.event_name.teco {
 .projects {
     background-color: rgb(242, 239, 233);
 }
-
-.projectdata {
-    height: 33%;
-    padding: 3%;
-    border-bottom: 0.5px solid gray;
-    font-family: Montserrat, serif;
-}
-
-.last {
-    border-bottom: 0;
-}
-
-.leftdata,
-.rightdata {
-    display: inline-block;
-}
-
-.rightdata {
-    width: 70%;
-    height: inherit;
-}
-
-.leftdata {
+.project{
     width: 25%;
-    text-align: center;
-    height: inherit;
-}
-
-.view {
-    margin-top: 8px;
-    margin-left: 3px;
-    border: 3px solid black;
-    border-radius: 5%;
-    padding: 0.5%;
-    color: #7B90FF;
-    border-color: #7B90FF;
+    display: inline-block;
 }
