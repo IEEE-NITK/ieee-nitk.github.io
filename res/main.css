@@ -84,9 +84,10 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-    padding: 5px;
+    height: 5vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
+    overflow: hidden;
 }
 
 nav #small_logo {
@@ -106,7 +107,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    padding-right: 10px;
+    padding: 0px 10px;
     cursor: pointer;
 }
 
@@ -115,6 +116,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li.active{
+    background-color: rgba(255,255,255,0.5);
+    transition-duration: 1s;
+}
+nav ul li.active a{
+    color: black!important;
+    transition-duration: 1s;
+}
 
 /* The cool button */
 
@@ -310,44 +319,7 @@ nav ul li a {
     float: left;
     height: 100vh;
 }
-/*
-.slide_button {
-    margin: 0 auto;
-    border-radius: 5%;
-    background-color: #8E76D4;
-    font-family: Montserrat, serif;
-    text-transform: uppercase;
-    text-align: center;
-    border: solid #8E76D4 4px;
-    width: auto;
-    display: inline-block;
-    margin-top: 5%;
-    padding: 1%;
-    font-size: 20px;
-    box-shadow: inset 0 0 0 0 rgb(90, 212, 238);
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
-}
 
-.slide1 .slide_button,
-.slide3 .slide_button {
-    color: #130440;
-    background-color: #8E76D4;
-    border: solid #8E76D4 4px;
-}
-
-.slide_heading {
-    color: #8E76D4;
-    font-family: Montserrat;
-    font-size: 34px;
-}
-
-.slide_content {
-    margin-top: 3%;
-    font-family: Montserrat;
-        
-}*/
 .slide .wrapper{
     overflow: hidden;
     width: 100%;
@@ -378,23 +350,6 @@ nav ul li a {
         text-align: center;
         background-color: rgba(255,255,255,0.5);
     }
-/*
-.fp-controlArrow.fp-prev {
-    left: 0;
-    border: none;
-    width: 50px!important;
-    height: 101px;
-    background: url(img/left_arrow.png) no-repeat;
-    cursor: pointer;
-}
-.fp-controlArrow.fp-next {
-    right: 0;
-    border: none;
-    width: 50px!important;
-    height: 101px;
-    background: url(img/right_arrow.png) no-repeat;
-    cursor: pointer;
-}*/
 /* Events */
 
 .events {
@@ -402,31 +357,6 @@ nav ul li a {
 }
 
 
-/*
-.title_holder{
-    font-size: 3.5em;
-    text-align: center;
-    padding: 20px;
-}
-.events ul{
-    list-style-type: none;
-}
-.events li {
-    display: inline-block;
-    padding: 20px;
-    font-size: 3em;
-    width: 33%;
-    text-align: center;
-}
-.my_arrow{
-    border:0px solid black!important;
-    color:white;
-    font-family: teco;
-}
-.my_arrow:hover{
-    background-color: rgba(0,0,0,0.3);
-}
-*/
 
 .events_wrapper {
     width: 100%;
@@ -533,11 +463,16 @@ h3.event_name.teco {
 .title_image{
     height: 100vh;
     width:50%;
+    float: left;
     background-image: url("img/sig.jpg");
     background-size: cover;
-    display: table-cell;
-    vertical-align: middle;
     text-align: center;
+    position: relative;
+}
+.title_image .title_contents{
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%);
 }
 .team_title{
     font-size: 5em;
@@ -548,13 +483,52 @@ h3.event_name.teco {
     color: white;
     font-size: 2em;
 }
-
-footer{
-    width: 100%;
-    height: 50vh;
+.core_team{
+    padding: 5vh;
+    display: inline-block;
+    width:50%;
+    height: 100vh;
+    float: left;
     background-color: white;
 }
+.member_card {
+    width: 100%;
+    height: 30vh;
+    border-bottom: 1px dashed #cdcdcd;
+}
+
+.member_card>div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 30vh;
+}
+.card_left>div{
+    float: left;
+}
+.card_right>div{
+    float: right;
+}
+.member_card img {
+    height: 100%;
+}
+.member_item{
+    padding: 10px;
+    width: 20%;
+}
+/* Footer */
+footer{
+    width: 50%;
+    margin: 0px auto;
+    height: 25vh;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content:center;    
+    background-color: white;
+    position: relative;
+}
 footer h3{
+    font-size: 2em;
     text-align: center;
 }
 footer .icons{
@@ -586,7 +560,15 @@ footer .icon{
 footer .icon img{
     width:60px;
 }
-
+footer>div{
+    flex:1;
+}
+footer .offline{
+    text-align: center;
+}
+.footer{
+    background-color: white;
+}
 /* Common css */
 
 .sub_title {
@@ -703,8 +685,24 @@ footer .icon img{
 
 .projects {
     background-color: rgb(242, 239, 233);
+    
+}
+.projects .wrapper{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content:center;
+}
+.projects h1{
+    text-align: center;
+    font-size: 3em;
 }
 .project{
-    width: 25%;
+    width: 20%;
     display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+.project img{
+    width: 90%;
 }
