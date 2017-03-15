@@ -19,6 +19,26 @@ function showTextEffect() {
 
     phraseShow();
     setInterval(phraseShow, 3000);
+
+    //The cool button!!
+    $(".parent").click(function() {
+        $(".nav-icon").toggleClass("active");
+        if($(".nav-icon").hasClass("active"))
+            $(".popup_menu").slideDown();
+        else
+            $(".popup_menu").slideUp();
+
+    });
+    $("#menu li").click(function(){
+        $(".popup_menu").slideUp();
+        $(".nav-icon").removeClass("active");
+    });
+    $(".parent").mouseenter(function() {
+        $(".nav-icon").addClass("hover");
+    });
+    $(".parent").mouseleave(function() {
+        $(".nav-icon").removeClass("hover");
+    });
 }
 
 

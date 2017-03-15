@@ -1,326 +1,355 @@
 <!DOCTYPE html>
 <html ng-app="mainApp" ng-controller="mainController">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home|IEEE NITK</title>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link rel="stylesheet" href="res/main.css">
-    <link rel="stylesheet" href="res/jquery.fullpage.css">
-    <script type="text/javascript" src="js/jq.js"></script>
-    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/events.js"></script>
-</head>
-
-<body>
-    <nav class="visible_nav">
-        <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
-        <ul id="menu" class="teco">
-            <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
-                <a>About Us</a>
-            </li>
-            <li data-menuanchor="sigs" onclick="$.fn.fullpage.moveTo(3)">
-                <a>SIGs</a>
-            </li>
-            <li data-menuanchor="events" onclick="$.fn.fullpage.moveTo(4)">
-                <a>Events</a>
-            </li>
-            <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
-                <a>Team</a>
-            </li>
-            <li data-menuanchor="projects" onclick="$.fn.fullpage.moveTo(6)">
-                <a>Projects</a>
-            </li>
-            <li>
-                <a href="blog/">Blog</a>
-            </li>
-        </ul>
-    </nav>
-    <div id="fullpage" full-page options="mainOptions">
-        <div class="landing_page section prociono">
-            <div class="main_container">
-                <div id="text_effect"></div>
-                <div id="logo">
-                    <img src="res/img/ieee_white.png" alt="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home|IEEE NITK</title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel="stylesheet" href="res/main.css">
+        <link rel="stylesheet" href="res/jquery.fullpage.css">
+        <script type="text/javascript" src="js/jq.js"></script>
+        <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/events.js"></script>
+    </head>
+    <body>
+        <nav class="visible_nav">
+            <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
+            <div class="popup_menu">
+                <ul id="menu" class="teco">
+                    <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
+                        <a>About Us</a>
+                    </li>
+                    <li data-menuanchor="sigs" onclick="$.fn.fullpage.moveTo(3)">
+                        <a>SIGs</a>
+                    </li>
+                    <li data-menuanchor="events" onclick="$.fn.fullpage.moveTo(4)">
+                        <a>Events</a>
+                    </li>
+                    <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
+                        <a>Team</a>
+                    </li>
+                    <li data-menuanchor="projects" onclick="$.fn.fullpage.moveTo(6)">
+                        <a>Projects</a>
+                    </li>
+                    <li>
+                        <a href="blog/">Blog</a>
+                    </li>
+                </ul>  
+            </div>
+            <div class="parent">
+                <div class="nav-icon cross">
+                    <div class="span"></div>
                 </div>
             </div>
-        </div>
-        <div class="about section">
-            <div class="wrapper">
-                <div class="col_left col prociono">
-                    <div class="text1">About</div>
-                    <div class="text2 fly_up_fast">IEEE NITK</div>
-                </div>
-                <div class="col_right col fadein sans">
-                    description of IEEE NITK
-                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </nav>
+        <div id="fullpage" full-page options="mainOptions">
+            <div class="landing_page section prociono">
+                <div class="main_container">
+                    <div id="text_effect"></div>
+                    <div id="logo">
+                        <img src="res/img/ieee_white.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="sig section sliders">
-            <div class="slide  slide1">
+            <div class="about section">
                 <div class="wrapper">
-                    <div class="col_left col mybox bgbox">
-                        <!--img class="slide_img" src="res/img/coding2.svg" onload="this.width/=2;" /-->
+                    <div class="col_left col prociono">
+                        <div class="text1">About</div>
+                        <div class="text2 fly_up_fast">IEEE NITK</div>
                     </div>
-                    <div class="col_right col fadein mybox">
-                        <h1 class="slide_heading teco"> COMPSOC</h1>
-                        <div class="slide_content sans">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </div>
-                        <div class="slide_button sans">
-                            <a href="compsoc.html" title="CompSoc">READ MORE</a>
-                        </div>
+                    <div class="col_right col fadein sans">
+                        description of IEEE NITK
+                        <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
             </div>
-            <div class="slide slide2">
-                <div class="wrapper">
-                    <div class="col_left col mybox bgbox">
-                        <!--img class="slide_img" src="res/img/coding.svg" onload="this.width/=2;" /-->
-                    </div>
-                    <div class="col_right col fadein mybox">
-                        <h1 class="slide_heading teco">DIODE</h1>
-                        <div class="slide_content sans">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="sig section sliders">
+                <div class="slide  slide1">
+                    <div class="wrapper">
+                        <div class="col_left col mybox bgbox">
+                            <!--img class="slide_img" src="res/img/coding2.svg" onload="this.width/=2;" /-->
                         </div>
-                        <div class="slide_button sans">
-                            <a href="#" title="Diode">
+                        <div class="col_right col fadein mybox">
+                            <h1 class="slide_heading teco"> COMPSOC</h1>
+                            <div class="slide_content sans">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            <div class="slide_button sans">
+                                <a href="compsoc.html" title="CompSoc">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide2">
+                    <div class="wrapper">
+                        <div class="col_left col mybox bgbox">
+                            <!--img class="slide_img" src="res/img/coding.svg" onload="this.width/=2;" /-->
+                        </div>
+                        <div class="col_right col fadein mybox">
+                            <h1 class="slide_heading teco">DIODE</h1>
+                            <div class="slide_content sans">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            <div class="slide_button sans">
+                                <a href="#" title="Diode">
                                     READ MORE
                                 </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="slide slide3">
-                <div class="wrapper">
-                    <div class="col_left col mybox bgbox">
-                        <!--img class="slide_img" src="res/img/code.svg" onload="this.width/=2;"/-->
-                    </div>
-                    <div class="col_right col fadein mybox">
-                        <h1 class="slide_heading teco">PISTON</h1>
-                        <div class="slide_content sans">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div class="slide slide3">
+                    <div class="wrapper">
+                        <div class="col_left col mybox bgbox">
+                            <!--img class="slide_img" src="res/img/code.svg" onload="this.width/=2;"/-->
                         </div>
-                        <div class="slide_button sans">
-                            <a href="#" title="Piston">
+                        <div class="col_right col fadein mybox">
+                            <h1 class="slide_heading teco">PISTON</h1>
+                            <div class="slide_content sans">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            <div class="slide_button sans">
+                                <a href="#" title="Piston">
                                     READ MORE
                                 </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="slide slide4">
-                <div class="wrapper">
-                    <div class="col_left col mybox bgbox">
-                        <!--img class="slide_img" src="res/img/coding2.svg" onload="this.width/=2;"/-->
-                    </div>
-                    <div class="col_right col fadein mybox">
-                        <h1 class="slide_heading teco"> WIE</h1>
-                        <div class="slide_content sans">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <div class="slide slide4">
+                    <div class="wrapper">
+                        <div class="col_left col mybox bgbox">
+                            <!--img class="slide_img" src="res/img/coding2.svg" onload="this.width/=2;"/-->
                         </div>
-                        <div class="slide_button sans">
-                            <a href="#" title="WIE">
+                        <div class="col_right col fadein mybox">
+                            <h1 class="slide_heading teco"> WIE</h1>
+                            <div class="slide_content sans">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            <div class="slide_button sans">
+                                <a href="#" title="WIE">
                                     READ MORE
                                 </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="section events">
-            <div class="events_wrapper">
-                <div class="box box_left">
-                    <div class="event_info">
-                        <div class="text2 fly_up_fast prociono">Events</div>
-                        <div class="event_details fly_up_fast">
-                            <h3 class="event_name teco">
+            <div class="section events">
+                <div class="events_wrapper">
+                    <div class="box box_left">
+                        <div class="event_info">
+                            <div class="text2 fly_up_fast prociono">Events</div>
+                            <div class="event_details fly_up_fast">
+                                <h3 class="event_name teco">
                                 IGNITE
                                 </h3>
-                            <div class="event_date sans">
-                                May 2016
-                            </div>
-                            <div class="event_type sans">
-                                By CompSoc
+                                <div class="event_date sans">
+                                    May 2016
+                                </div>
+                                <div class="event_type sans">
+                                    By CompSoc
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="box box_middle sans">
-                    <ul id="event_list">
-                        <li id="event1">
-                            <span class="num">
+                    <div class="box box_middle sans">
+                        <ul id="event_list">
+                            <li id="event1">
+                                <span class="num">
                                     01
                                 </span>
-                            <span class="name">
+                                <span class="name">
                                     Sample Event
                                 </span>
-                        </li>
-                        <li id="event2">
-                            <span class="num">
+                            </li>
+                            <li id="event2">
+                                <span class="num">
                                     02
                                 </span>
-                            <span class="name">
+                                <span class="name">
                                     Sample Event
                                 </span>
-                        </li>
-                        <li id="event3">
-                            <span class="num">
+                            </li>
+                            <li id="event3">
+                                <span class="num">
                                     03
                                 </span>
-                            <span class="name">
+                                <span class="name">
                                     Sample Event
                                 </span>
-                        </li>
-                        <li id="event4">
-                            <span class="num">
+                            </li>
+                            <li id="event4">
+                                <span class="num">
                                     04
-                            </span>
-                            <span class="name">
+                                </span>
+                                <span class="name">
                                     Sample Event
-                            </span>
-                        </li>
-                        <li id="event5">
-                            <span class="num">
+                                </span>
+                            </li>
+                            <li id="event5">
+                                <span class="num">
                                     05
                                 </span>
-                            <span class="name">
+                                <span class="name">
                                     Sample Event
                                 </span>
-                        </li>
-                        <li id="event6">
-                            <span class="num">
+                            </li>
+                            <li id="event6">
+                                <span class="num">
                                     06
                                 </span>
-                            <span class="name">
+                                <span class="name">
                                     Sample Event
                                 </span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="box box_right sans">
-                    <h2>Event Title</h2>
-                    <div class="event_sub_title">By CompSoc</div>
-                    <hr>
-                    <p class="event_desc_p">
-                        This was cool, fun and awesome. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <div class="more">
-                        <h3>More info:</h3>
-                        <ul>
-                            <li>Facebook Post</li>
-                            <li>Github Repo</li>
+                            </li>
                         </ul>
                     </div>
-                    <div class="pictures">
-                        some pics will go here if needed, with a popup like fb. we will keep it for the end
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section team">
-            <div class="title_image">
-                <div class="title_contents">
-                    <div class="team_title teco">
-                    Our Team
-                    </div>
-                    <a href="team.html" title="Full Team" class="teco">View full team</a>
-                </div>
-            </div>
-            <div class="core_team">
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/profile.jpg" alt="">
-                    </div>
-                    <div class="data_section">
-                        <h3>A really important guy</h3>
-                        <h4>From a really good sig</h4>
-                        <p>he is sooo good</p>
-                    </div>
-                </div>
-                <div class="member_card card_right">
-                    <div class="img_section">
-                        <img src="res/img/profile.jpg" alt="">
-                    </div>
-                    <div class="data_section">
-                        <h3>Another Important guy</h3>
-                        <h4>From a really good sig</h4>
-                        <p>blabber about him, too</p>
-                    </div>
-                </div>
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/profile.jpg" alt="">
-                    </div>
-                    <div class="data_section">
-                        <h3>Another important girl</h3>
-                        <h4>Some SIG</h4>
-                        <p>Else they would say IEEE is sexist.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="projects section">
-            <div class="title_center teco">
-                <h1>
-                Our Projects
-                </h1>
-            </div>
-            <div class="wrapper">
-                <div class="project">
-                    <img src="res/img/ieee_cas.png" alt="">
-                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                </div>
-                <div class="project">
-                    <img src="res/img/ieee_cas.png" alt="">
-                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                </div>
-                <div class="project">
-                    <img src="res/img/ieee_cas.png" alt="">
-                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                </div>
-                <div class="project">
-                    <img src="res/img/ieee_cas.png" alt="">
-                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                </div>
-            </div>
-        </div>
-        <div class="footer section fp-auto-height">
-            <footer class="teco">
-                <div class="online">
-                    <h3>Find us online</h3>
-                    <div class="icons">
-                        <div class="icon icon1">
-                            <img src="res/img/icon.jpg" alt="">
+                    <div class="box box_right sans">
+                        <h2>Event Title</h2>
+                        <div class="event_sub_title">By CompSoc</div>
+                        <hr>
+                        <p class="event_desc_p">
+                            This was cool, fun and awesome. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="more">
+                            <h3>More info:</h3>
+                            <ul>
+                                <li>Facebook Post</li>
+                                <li>Github Repo</li>
+                            </ul>
                         </div>
-                        <div class="icon icon2">
-                            <img src="res/img/icon.jpg" alt="">
-                        </div>
-                        <div class="icon icon3">
-                            <img src="res/img/icon.jpg" alt="">
-                        </div>
-                        <div class="icon icon4">
-                            <img src="res/img/icon.jpg" alt="">
+                        <div class="pictures">
+                            some pics will go here if needed, with a popup like fb. we will keep it for the end
                         </div>
                     </div>
                 </div>
-                <div class="offline">
-                    <h3>Find us offline</h3>
-                    <div class="addr">
-                    NITK,<br>
-                    Surathkal,<br>
-                    Mangalore,<br>
-                    Mars
+            </div>
+            <div class="section team">
+                <div class="title_image">
+                    <div class="title_contents">
+                        <div class="team_title teco">
+                            Our Team
+                        </div>
+                        <a href="team.html" title="Full Team" class="teco">View full team</a>
                     </div>
                 </div>
-            </footer>
-        </div>
-    </div>
-</body>
+                <div class="core_team">
+                    <div class="pseudo team_title teco">
+                        Our Team
+                    </div>
+                    <div class="member_card card_left">
+                        <div class="img_section">
+                            <img src="res/img/profile.jpg" alt="">
+                        </div>
+                        <div class="data_section">
+                            <h3>A really important guy</h3>
+                            <h4>From a really good sig</h4>
+                            <p>he is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="member_card card_right">
+                        <div class="img_section">
+                            <img src="res/img/profile.jpg" alt="">
+                        </div>
+                        <div class="data_section">
+                            <h3>Another Important guy</h3>
+                            <h4>From a really good sig</h4>
+                            <p>blabber about him, too</p>
+                        </div>
+                    </div>
+                    <div class="member_card card_left">
+                        <div class="img_section">
+                            <img src="res/img/profile.jpg" alt="">
+                        </div>
+                        <div class="data_section">
+                            <h3>Another important girl</h3>
+                            <h4>Some SIG</h4>
+                            <p>Else they would say IEEE is sexist.</p>
+                        </div>
+                    </div>
+                    <a class = "pseudo teco" href="team.html" title="Full Team">View full team</a>
 
+                </div>
+            </div>
+            <div class="projects section">
+                <div class="title_center teco">
+                    <h1>
+                    Our Projects
+                    </h1>
+                </div>
+                <div class="wrapper">
+                    <div class="project">
+                        <div class="logo">     
+                            <img src="res/img/ieee_cas.png" alt="">
+                        </div>
+                        <div class="info">
+                        <h4>CompSoc</h4>
+                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="logo">     
+                            <img src="res/img/ieee_cas.png" alt="">
+                        </div>
+                        <div class="info">
+                        <h4>CompSoc</h4>
+                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="logo">     
+                            <img src="res/img/ieee_cas.png" alt="">
+                        </div>
+                        <div class="info">
+                        <h4>CompSoc</h4>
+                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="logo">     
+                            <img src="res/img/ieee_cas.png" alt="">
+                        </div>
+                        <div class="info">
+                        <h4>CompSoc</h4>
+                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer section fp-auto-height">
+                <footer class="teco">
+                    <div class="online">
+                        <h3>Find us online</h3>
+                        <div class="icons">
+                            <div class="icon icon1">
+                                <img src="res/img/icon.jpg" alt="">
+                            </div>
+                            <div class="icon icon2">
+                                <img src="res/img/icon.jpg" alt="">
+                            </div>
+                            <div class="icon icon3">
+                                <img src="res/img/icon.jpg" alt="">
+                            </div>
+                            <div class="icon icon4">
+                                <img src="res/img/icon.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offline">
+                        <h3>Find us offline</h3>
+                        <div class="addr">
+                            NITK,<br>
+                            Surathkal,<br>
+                            Mangalore,<br>
+                            Mars
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
 </html>

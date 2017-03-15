@@ -21,7 +21,6 @@ $(document).ready(function() {
         } else {
             //the mobile code
             $(".box_middle").addClass("visible_side_menu");
-            console.log("that wont work here bhai");
         }
 
     });

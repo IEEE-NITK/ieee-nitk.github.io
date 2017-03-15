@@ -96,6 +96,13 @@ nav #small_logo {
     vertical-align: middle;
 }
 
+nav .popup_menu {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+}
+
 nav ul {
     list-style-type: none;
     display: inline-block;
@@ -116,14 +123,16 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li.active{
-    background-color: rgba(255,255,255,0.5);
+nav ul li.active {
+    background-color: rgba(255, 255, 255, 0.5);
     transition-duration: 1s;
 }
-nav ul li.active a{
+
+nav ul li.active a {
     color: black!important;
     transition-duration: 1s;
 }
+
 
 /* The cool button */
 
@@ -208,6 +217,7 @@ nav ul li.active a{
     height: 5vh;
     right: 10px;
     top: 0px;
+    display: none;
 }
 
 
@@ -306,27 +316,29 @@ nav ul li.active a{
 /* Slides */
 
 .slide2 .col_right,
-.slide4 .col_right{
+.slide4 .col_right {
     background-color: rgb(242, 239, 233);
 }
 
 .slide1 .col_right,
-.slide3 .col_right{
+.slide3 .col_right {
     background-color: #130440;
 }
-.slide .col{
+
+.slide .col {
     width: 50%;
     float: left;
     height: 100vh;
 }
 
-.slide .wrapper{
+.slide .wrapper {
     overflow: hidden;
     width: 100%;
     padding: 0px!important;
     height: 100vh;
 }
-.slide .bgbox{
+
+.slide .bgbox {
     background-image: url("img/sig.jpg");
     height: 100vh;
     background-size: cover;
@@ -341,22 +353,23 @@ nav ul li.active a{
 .slide4 .slide_content {
     color: black;
 }
-.slide a{
-        text-decoration: none;
-        display: block;
-        color: white;
-        padding: 10px;
-        width: 100%;
-        text-align: center;
-        background-color: rgba(255,255,255,0.5);
-    }
+
+.slide a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
 /* Events */
 
 .events {
     background-color: #fff;
 }
-
-
 
 .events_wrapper {
     width: 100%;
@@ -397,8 +410,7 @@ nav ul li.active a{
     position: relative;
     overflow: hidden;
     z-index: 10;
-    transition:1s cubic-bezier(0.22, 0.61, 0.36, 1) all;
-
+    transition: 1s cubic-bezier(0.22, 0.61, 0.36, 1) all;
 }
 
 .box_middle ul {
@@ -432,69 +444,87 @@ nav ul li.active a{
     right: 0px;
     padding: 4%;
 }
-.box_right h2{
+
+.box_right h2 {
     text-align: right;
     font-size: 2em;
 }
-.box_right .event_sub_title{
+
+.box_right .event_sub_title {
     text-align: right;
 }
-.box_right ul{
+
+.box_right ul {
     list-style-type: none;
 }
+
 .event_info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
-.event_desc_p{
+
+.event_desc_p {
     padding: 10px 0px 10px 0px;
     text-align: justify;
 }
-.more{
+
+.more {
     text-align: right;
 }
+
 h3.event_name.teco {
     font-size: 5em;
     color: white;
 }
 
+
 /* Team */
-.title_image{
+
+.title_image {
     height: 100vh;
-    width:50%;
+    width: 50%;
     float: left;
     background-image: url("img/sig.jpg");
     background-size: cover;
     text-align: center;
     position: relative;
 }
-.title_image .title_contents{
+
+.title_image .title_contents {
     position: relative;
     top: 50%;
-    transform:translateY(-50%);
+    transform: translateY(-50%);
 }
-.team_title{
+
+.team_title {
     font-size: 5em;
     color: white;
 }
-.title_image a{
+
+.team a {
     text-decoration: none;
     color: white;
     font-size: 2em;
 }
-.core_team{
+
+.core_team {
     padding: 5vh;
     display: inline-block;
-    width:50%;
+    width: 50%;
     height: 100vh;
     float: left;
     background-color: white;
+}
+.pseudo{
+    display: none;
 }
 .member_card {
     width: 100%;
     height: 30vh;
     border-bottom: 1px dashed #cdcdcd;
+    display: flex;
+    display: -webkit-flex;
 }
 
 .member_card>div {
@@ -502,73 +532,90 @@ h3.event_name.teco {
     vertical-align: middle;
     height: 30vh;
 }
-.card_left>div{
-    float: left;
-}
-.card_right>div{
-    float: right;
-}
+
 .member_card img {
     height: 100%;
 }
-.member_item{
+
+.member_card.card_right {
+    text-align: right;
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+}
+
+.member_item {
     padding: 10px;
     width: 20%;
 }
+
+
 /* Footer */
-footer{
+
+footer {
     width: 50%;
     margin: 0px auto;
     height: 25vh;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content:center;    
+    -webkit-justify-content: center;
     background-color: white;
     position: relative;
 }
-footer h3{
+
+footer h3 {
     font-size: 2em;
     text-align: center;
 }
-footer .icons{
+
+footer .icons {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content:center;
+    -webkit-justify-content: center;
 }
-footer .icon{    
+
+footer .icon {
     position: relative;
     display: inline-block;
     margin: 400px 10px 0px 10px;
-    transition:1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
 }
-.icon_show{
+
+.icon_show {
     margin: 0px 10px 0px 10px!important;
-    transition:1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
 }
-.icon2{
+
+.icon2 {
     transition-delay: 0.15s!important;
 }
 
-.icon3{
+.icon3 {
     transition-delay: 0.3s!important;
 }
-.icon4{
+
+.icon4 {
     transition-delay: 0.45s!important;
 }
-footer .icon img{
-    width:60px;
+
+footer .icon img {
+    width: 60px;
 }
-footer>div{
-    flex:1;
+
+footer>div {
+    flex: 1;
 }
-footer .offline{
+
+footer .offline {
     text-align: center;
 }
-.footer{
+
+.footer {
     background-color: white;
 }
+
+
 /* Common css */
 
 .sub_title {
@@ -598,23 +645,22 @@ footer .offline{
         padding-top: 5vh!important;
         padding-bottom: 5vh!important;
     }
-    .bgbox{
+    .bgbox {
         z-index: -100;
     }
-    .slide .wrapper>div{
+    .slide .wrapper>div {
         position: relative;
         background-color: transparent!important;
         width: 100%!important;
     }
-    .slide .col_right{
-        top:-100vh;
+    .slide .col_right {
+        top: -100vh;
         padding: 15%;
     }
-    h1.slide_heading{
+    h1.slide_heading {
         font-size: 4em;
         text-align: center;
     }
-    
     .text1,
     .text2 {
         text-align: center;
@@ -625,42 +671,42 @@ footer .offline{
         text-align: justify;
         overflow: hidden;
     }
-    .events .box_left{
+    .events .box_left {
         width: 100%!important;
         float: none!important;
         display: block;
         height: auto;
     }
-    .events .box_middle{
+    .events .box_middle {
         width: 100%;
     }
-    .visible_side_menu{
+    .visible_side_menu {
         width: 10%!important;
         padding: 0px;
-        transition:1s cubic-bezier(0.22, 0.61, 0.36, 1) all;
+        transition: 1s cubic-bezier(0.22, 0.61, 0.36, 1) all;
     }
-    .visible_side_menu li .name{
+    .visible_side_menu li .name {
         display: none;
     }
-    .events .box_left{
+    .events .box_left {
         height: 20vh;
         padding: 0px;
         position: relative;
     }
-    .events .box_left .event_details{
+    .events .box_left .event_details {
         display: none;
     }
     .event_info {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
     }
-    .events .box_middle{
+    .events .box_middle {
         height: 80vh;
     }
-    .events .box_right{
-        width:90%;
+    .events .box_right {
+        width: 90%;
         height: 80vh;
         overflow: auto;
     }
@@ -668,13 +714,94 @@ footer .offline{
         content: "  ";
         color: #345492;
     }
-
     /* The cool button */
     .hover div::before {
         top: -8px!important;
     }
     .hover div::after {
         top: 8px!important;
+    }
+    .parent{
+        display: block!important;
+    }
+
+    nav .popup_menu {
+        display: none;
+        top: 0px;
+        padding-top: 5vh;
+        z-index: -150;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: rgba(95, 95, 95, 0.7);
+    }
+    nav{
+        overflow: visible!important;
+    }
+    nav ul{
+        position: static!important;
+        width: 100%;
+    }
+    nav li{
+        display: block!important;
+        width: 100%;
+        text-align: center;
+    }
+    /* Team */
+    .core_team{
+        position: absolute!important;
+        width: 100%;
+        top:0px;
+        float: none!important;
+        background-color: transparent!important;
+    }
+    .title_image{
+        width: 100%;
+        float: none!important;
+    }
+    .title_image div, .title_image a{
+        display: none;
+    }
+    .core_team .pseudo{
+        display: block!important;
+        text-align: center;
+    }
+    .member_card img, .member_card{
+        height: 15vh!important;
+    }
+    .member_card p{
+        display: none;
+    }
+    .member_card{
+        background-color: rgba(71, 154, 162, 0.5);
+        margin: 10px 0px;
+    }
+    /* Projects */
+    .projects .wrapper {
+        flex-direction: column!important;
+        -webkit-flex-direction: column!important;
+        width: 90%;
+        margin: 0px auto;
+    }
+    .project {
+        width: 100%!important;
+        padding: 2vh!important;
+        display: flex!important;
+        height: 15vh;
+    }
+    .project .logo{
+        width: 25%!important;
+    }
+    .project img{
+        height: 100%;
+        width: auto!important;
+    }
+    footer{
+        height: 50vh;
+        display: block;
+    }
+    footer>div{
+    display: block;
     }
 }
 
@@ -685,24 +812,27 @@ footer .offline{
 
 .projects {
     background-color: rgb(242, 239, 233);
-    
 }
-.projects .wrapper{
+
+.projects .wrapper {
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content:center;
+    -webkit-justify-content: center;
 }
-.projects h1{
+
+.projects h1 {
     text-align: center;
     font-size: 3em;
 }
-.project{
+
+.project {
     width: 20%;
     display: inline-block;
     padding: 10px;
     text-align: center;
 }
-.project img{
+
+.project img {
     width: 90%;
 }
