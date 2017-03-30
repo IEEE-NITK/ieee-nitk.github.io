@@ -1,0 +1,16 @@
+{
+  "title": "IEEE Ignite",
+  "date": "March 2017",
+  "sig": "All SIGs",
+  "description": "This was a pretty cool,awesome event. We had hell lotta fun",
+  "links": [
+    {
+      "title": "github",
+      "url": "https://www.example.com"
+    },
+    {
+      "title": "fb post",
+      "url": "https://www.anotherfb.com"
+    }
+  ]
+}
