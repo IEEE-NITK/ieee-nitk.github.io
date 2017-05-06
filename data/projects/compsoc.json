@@ -1,0 +1,32 @@
+[{
+		"Title": "Hardware acceleration of face detection using FPGA",
+		"Abstract": "In computing, hardware acceleration is the use of computer hardware to perform some functions more efficiently than it is possible in software running on a more general - purpose CPU. Face detection is the most important step that precedes face recognition.It is used for various real - time applications and hence needs to be performed at a quick pace.The algorithm proposes a step - by - step procedure where every step can be accelerated with the help of hardware.The steps involved are: Hardware acceleration of face detection using FPGA, Color correction: Brightness and contrast increment, RGB to YCbCr conversion, Skin color threshold, Median filtering, Morphological filtering - dilation and erosion and Connected component labeling.",
+		"links": []
+
+	}, {
+		"Title": "Daedalus: A complete attack suite for RSA cryptosystem",
+		"Abstract": "This is an implementation of the paper '20 years of attack on RSA' by Dan Boneh. It is written in SageMath.Currently supports the following attacks - Common Modulus attack, Wieners attack(low private key exponent), Hastad Broadcast attack, Partial Key exposure, Partial message exposure. The last three are low public key exponent attacks which use the Coppersmith Method and the LLL algorithm.",
+		"links": [{
+			"github": "https://www.github.com/IEEE-NITK/Daedalus"
+		}]
+	}, {
+		"Title": "K-Rack: A Metadata encrypted file system",
+		"Abstract": "A new Linux USB file system (Kernel module) with only the metadata such as Superblocks, block group descriptors, block group information, etc and directories are encrypted.This method prevents any unauthorized user from accessing any file in the filesystem.Brute forcing such a system is impossible.The file system intends to solve the Data Security problem on large data stores.A series of Kernel Development tutorial exercises(20 in number) were developed. Several components such as USB drivers, Character device drivers, Proc files modules and Block device drivers were implemented in the learning phase of the project.A full fledged basic filesystem with support to all the userspace operations were implemented.The framework for encryption was set up.For future work, the encryption framework will be implemented.",
+		"links": []
+	},
+	{
+		"Title": "AI-NLP : Deep Learning for Conversational Information Agent",
+		"Abstract": "Deep Learning is a set of techniques and a class of machine learning algorithms that use many layers of nonlinear processing units for feature extraction and transformation.Each successive layer uses the output from the previous layer as input.In our project Deep Learning for Conversational Information Agents we used Natural Language Processing along with Deep Learning techniques by leveraging neural networks libraries like Keras, and TensorFlow. We built an ensemble model consisting of a classifier to classify the incoming user query as either knowledge - seeking(eg.Who is Modi ? ) or conversational(eg.Hi how are you ? ) and then further cascaded the query to our generative seqeunce - to - sequence model for answering the conversational queries and the others to our retrieval seqeunce - autoencoder model for answering the knowledge - seeking queries.This allowed us to tackle the common problem of memories in neural networks. We generalized our code to fit any domain, ie, the program is completely data - driven and acts as a framework for creating closed - domain agents and also can be used for making general - purpose chatbots by feeding it the right kind of data.",
+		"links": []
+	},
+	{
+		"Title": "Age and Gender Classification using CNNs",
+		"Abstract": "Dataset consisted of 60,000 web crawled images and details of each image. Details like Gender, DoB of the person in the image, Date on which the image was taken were given. Dataset preprocessed to remove noise and corrupted images.We used VGG - 16 architecture to train the model. Dense layer adjusted to give the required output which was a sigmoid function. Model gave 91 % cross validation accuracy.For the demonstration, live video is captured and whenever a face is detected in a frame, face is cropped from the frame and given as input to the preloaded model.The model generates a value between 0.0 - 1.0.Values near 1.0 signifies that the model predicted male and values 0.0 signifies that the model predicted female.",
+		"links": []
+	},
+	{
+		"Title": "Data Analysis of Traffic Accident Prone Zones",
+		"Abstract": "This project aims at informing the driver entering into a particular area about the driving and risk conditions prevalent in that location, given by its latitude and longitude.Our web application dynamically detects the latitude and longitude values of a driver and based on his age, gender and expertise it calculates the severity index.Ranges of this index are then used to determine whether the area is an accident zone, safe zone or one to drive with precaution.This is done with the help of Naive Bayes classification, genetic algorithm to optimize the feature set and fuzzy c - means clustering to group the unsupervised data.The dataset collected is of London and contains features like the number of people involved in the accident, the number of pedestrians involved, number of injuries suffered and so on.It is a humanitarian project which helps in ensuring safety of residents of an area.",
+		"links": []
+	}
+]

@@ -1,8 +1,6 @@
 var events = {};
 $(document).ready(function() {
-
     initializeEvents();
-
 });
 
 function listenClick(){
@@ -14,7 +12,7 @@ function listenClick(){
         
         $(".event_details h3").html(hoverEvent.title);
         $(".event_date").html(hoverEvent.date);
-        $("event_type").html(hoverEvent.sig);
+        $(".event_type").html(hoverEvent.sig);
     
     }).click(function(event) {
         var clickEvent = event.target.id;

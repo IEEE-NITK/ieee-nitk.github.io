@@ -255,6 +255,14 @@ nav ul li.active a {
  */
 
 .about {
+    background: rgba(73, 155, 234, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(2%, rgba(73, 155, 234, 1)), color-stop(48%, rgba(57, 126, 196, 1)), color-stop(68%, rgba(50, 114, 179, 1)), color-stop(100%, rgba(50, 114, 179, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(73, 155, 234, 1) 2%, rgba(57, 126, 196, 1) 48%, rgba(50, 114, 179, 1) 68%, rgba(50, 114, 179, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#3272b3', GradientType=1);
     background-color: white;
     position: relative;
 }
@@ -263,7 +271,12 @@ nav ul li.active a {
     display: table;
     width: 100%;
 }
-
+div#particles-js {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+}
 .wrapper .col {
     display: table-cell;
     width: 50%;
@@ -335,7 +348,7 @@ nav ul li.active a {
     overflow: hidden;
     width: 100%;
     padding: 0px!important;
-    height: 100vh;
+    heighbt: 100vh;
 }
 
 .slide .bgbox {
@@ -344,6 +357,15 @@ nav ul li.active a {
     background-size: cover;
 }
 
+.comps_slide .bgbox{
+    background-image: url("img/compsoc.png")!important;
+}
+.diode_slide .bgbox{
+    background-image: url("img/diode.jpg")!important;
+}
+.piston_slide .bgbox{
+    background-image: url("img/piston.jpg")!important;
+}
 .slide1 .slide_content,
 .slide3 .slide_content {
     color: rgb(242, 239, 233);
@@ -400,6 +422,7 @@ nav ul li.active a {
     font-size: 3.5em;
     transition-duration: 400ms;
 }
+
 button#closebutton {
     background-color: transparent;
     border: 0px;
@@ -467,10 +490,12 @@ button#closebutton {
 .box_right ul {
     list-style-type: none;
 }
+
 .box_right a {
     color: white;
     text-decoration: none;
 }
+
 .event_info {
     position: absolute;
     top: 50%;
@@ -491,22 +516,27 @@ h3.event_name.teco {
     color: white;
 }
 
-.visible_left_menu{
+.visible_left_menu {
     padding: 0px!important;
     width: 10%!important;
     transition-duration: 400ms;
 }
-.visible_left_menu .text2{
+
+.visible_left_menu .text2 {
     transform: rotate(-90deg)!important;
 }
-.visible_left_menu .event_details{
+
+.visible_left_menu .event_details {
     display: none!important;
 }
-.visible_middle_menu{
+
+.visible_middle_menu {
     width: 40%!important;
-    padding:0px!important;
+    padding: 0px!important;
     transition-duration: 400ms;
 }
+
+
 /* Team */
 
 .title_image {
@@ -544,9 +574,11 @@ h3.event_name.teco {
     float: left;
     background-color: white;
 }
-.pseudo{
+
+.pseudo {
     display: none;
 }
+
 .member_card {
     width: 100%;
     height: 30vh;
@@ -561,9 +593,11 @@ h3.event_name.teco {
     height: 30vh;
     width: auto;
 }
-.member_card .data_section{
-    padding:10px;
+
+.member_card .data_section {
+    padding: 10px;
 }
+
 .member_card img {
     height: 100%;
 }
@@ -752,10 +786,9 @@ footer .offline {
     .hover div::after {
         top: 8px!important;
     }
-    .parent{
+    .parent {
         display: block!important;
     }
-
     nav .popup_menu {
         display: none;
         top: 0px;
@@ -766,44 +799,46 @@ footer .offline {
         height: auto;
         background-color: rgba(95, 95, 95, 0.7);
     }
-    nav{
+    nav {
         overflow: visible!important;
     }
-    nav ul{
+    nav ul {
         position: static!important;
         width: 100%;
     }
-    nav li{
+    nav li {
         display: block!important;
         width: 100%;
         text-align: center;
     }
     /* Team */
-    .core_team{
+    .core_team {
         position: absolute!important;
         width: 100%;
-        top:0px;
+        top: 0px;
         float: none!important;
         background-color: transparent!important;
     }
-    .title_image{
+    .title_image {
         width: 100%;
         float: none!important;
     }
-    .title_image div, .title_image a{
+    .title_image div,
+    .title_image a {
         display: none;
     }
-    .core_team .pseudo{
+    .core_team .pseudo {
         display: block!important;
         text-align: center;
     }
-    .member_card img, .member_card{
+    .member_card img,
+    .member_card {
         height: 15vh!important;
     }
-    .member_card p{
+    .member_card p {
         display: none;
     }
-    .member_card{
+    .member_card {
         background-color: rgba(71, 154, 162, 0.5);
         margin: 10px 0px;
     }
@@ -820,19 +855,19 @@ footer .offline {
         display: flex!important;
         height: 15vh;
     }
-    .project .logo{
+    .project .logo {
         width: 25%!important;
     }
-    .project img{
+    .project img {
         height: 100%;
         width: auto!important;
     }
-    footer{
+    footer {
         height: 50vh;
         display: block;
     }
-    footer>div{
-    display: block;
+    footer>div {
+        display: block;
     }
 }
 

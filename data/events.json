@@ -1,27 +1,27 @@
 {
   "event1": {
-    "title": "sampletitle",
-    "sig": "samplesig",
-    "date": "sampledate"
+    "title": "Ignite '16",
+    "sig": "ALL Sigs",
+    "date": "August 2016"
   },
   "event2": {
-    "title": "sampletitle",
-    "sig": "samplesig",
-    "date": "sampledate"
+    "title": "HacktoberFest",
+    "sig": "CompSoc",
+    "date": "October 2016"
   },
   "event3": {
-    "title": "sampletitle",
-    "sig": "samplesig",
-    "date": "sampledate"
+    "title": "Envision",
+    "sig": "All sigs",
+    "date": "March 2017--"
   },
   "event4": {
-    "title": "sampletitle",
-    "sig": "samplesig",
-    "date": "sampledate"
+    "title": "Workshop Series",
+    "sig": "All Sigs",
+    "date": "February 2017"
   },
   "event5": {
-    "title": "sampletitle",
-    "sig": "samplesig",
-    "date": "sampledate"
-  }
+    "title": "Project Expo",
+    "sig": "All Sigs",
+    "date": "March 2017"
+  } 
 }

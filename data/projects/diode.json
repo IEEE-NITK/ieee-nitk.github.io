@@ -1,0 +1,34 @@
+[{
+        "Title": "Small scale radar",
+        "Abstract": "Radar is an object-detection system that uses radio waves to determine the range, angle, or velocity of objects.Radar was used as an acronym for RAdio Detection And Ranging.The aim of the project is to build a small scale version of such a RADAR system for educational and laboratory purposes.The radar system has coffee cans for transmit and receive antennae and components from Mini circuits.The system employs a ramp generator with a trigger output for transmission and present target is achieving range and doppler radar.Simulation of the radar system was done using Advanced Design System(ADS) software.For post processing, MATLAB is used to process the received data.The following experiments are planned and the MATLAB algorithms were implemented for the same - Doppler Vs TimeRange Vs TimeSAR imaging. ",
+        "links": []
+    }, {
+        "Title": "Boost Converter",
+        "Abstract": "Solar panels essentially provide DC power and DC to DC converters are used to control voltage         levels and extract maximum power.We have designed a boost converter,         which steps up the input DC voltage from the panel.This can be used to charge a battery or can be connected to an         inverter to supply power back to the grid.PI control and Maximum Power Point Tracking were         simulated using Simulink, MATLAB.The hardware implementation was tested with a panel.         ",
+        "links": []
+    },
+
+    {
+        "Title": "Undersampling and reconstruction of MR images",
+        "Abstract": "Magnetic resonance imaging, one of the foremost non-invasive imaging modalities, suffers from a slow data acquisition rate.Patients must remain in the scanner for extended periods of time, which causes them considerable discomfort, and may even delay a critical diagnosis. Reduced scan times would not only address these issues but also decrease the cost, which is a critical factor in the Indian scenario.This project compares the results obtained by applying compressed sensing and sparse dictionary learning algorithms for MR rimage reconstruction. ",
+        "links": []
+    },
+
+    {
+        "Title": "Single input single output Li-fi network",
+        "Abstract": "Wireless fidelity or Wi-Fi technology has become the norm for data transmission and reception at relatively high data speeds up to 300 Mbps.However, due to ever increasing congestion of bandwidth in the radio frequency and microwave bands, there is a dire need for a new technology that can transmit data at high data rates robustly.This project aims to explore and develop a basic Light Fidelity or Li - Fi communication system operating as a Single Input, Single Output(SISO) system capable of transmitting data over distances with robustness.",
+        "links": []
+    },
+
+    {
+        "Title": "Automatic wheelchair",
+        "Abstract": "Intelligent wheelchairs have been being developed for a long time to support paralysed people with several disability levels.In many cases, the eye muscles of paralysed people are one of the few controllable muscles that still function well. Therefore, using the eye gaze as an interface for paralysed or physically disabled people has been of interest.The particular project is useful for the patients where they can move their wheelchair in their own directions, without any third party’ s help or support.In this project, there will be a wheel chair model as a ROBOT model, which will contain an in built MICRO CONTROLLER and EYE BALL SENSING system, which will do the functions like right, left, forward and reverse operations.The wheel chair is designed in such a way that it can move freely without external support or dependency.Through this feature the patients can enable movements of their wheelchair as per their desire. Different image processing algorithms such as Daugman’ s Algorithm and Hough Transform were used to increase detection accuracy and the speed of execution.An Arduino microcontroller was used to drive the motors on the wheelchair. ",
+        "links": []
+    },
+
+    {
+        "Title": "Wheels on Roll",
+        "Abstract": "To encourage a healthy lifestyle and cut down the carbon footprint in educational campus, students of the technical institute NIT - K, have launched campus bicycle rent startup.This startup is a service - oriented that aims to provide a public bicycle sharing initiative with a fully automated system to dispense the bicycles.The entire automated system is app - based along with website support.WOR is incubated under National Institute of Technology Karnataka - Science & Technology Entrepreneurs Park(NITK - STEP) and mentored by Anmol Nautiyal, director, IBM Cloud Integration.The operational plan in the coming year is to have 500 + bicycles in the NITK campus.There will be four hotspots or docking stations to dispense and collect the rented bicycles.The hotspot will comprise of an app - based automatic bicycle key vending machine and a customized bicycle parking space.The users will be provided with the dual option of booking a ride either with the android app or a smart card.The riders will also have the option to go for distant rides outside the campus at lower rates.The bicycles will be secured with a dual combination of frame locks and RFID tags.Also, IEEE NITK Student Chapter is providing the necessary technical expertise and financial support to build the technology.         NITK administration is helping in setting up the dock across campus. ",
+        "links": []
+    }
+]

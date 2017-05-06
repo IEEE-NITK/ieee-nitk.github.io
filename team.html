@@ -10,32 +10,33 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
         <script src="js/jq.js"></script>
         <script src="js/team.js"></script>
+        <script src="js/particles.js"></script>
     </head>
     <body>
         <div class="overLay">
             <div class="content sans">
-                <div class="top">       
-                    <h3>
+                <div class="top">
+                    <h3 id = "member_name">
                     Chinmay Deshpande
                     </h3>
                 </div>
-                <h4>
-                Compsoc
-                </h4>
-                <h4>
-                IT, Final Year
-                </h4>
-                <p>
+                <h4 id="position"></h4>
+                <h4>Interests</h4>
+                <p id = "member_interests">
                     Interests: CTF, something Else, something else
                 </p>
+                <p id="member_mail">
+                    mail@mail.com
+                </p>
                 <div class="bottom">
-                    
-                    <a href="#" title="">
-                        Link1
-                    </a>
-                    <a href="#" title="">
-                        Link2
-                    </a>
+                    <div id="links">  
+                        <a href="#" title="">
+                            Link1
+                        </a>
+                        <a href="#" title="">
+                            Link2
+                        </a>
+                    </div>
                     <button class="sans" onclick="$('.overLay').removeClass('visible')">Close</button>
                 </div>
             </div>
@@ -44,6 +45,7 @@
             <a href="index.html" title="Home"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
         </nav>
         <div class="img_holder teco">
+            <div id="particles-js"></div>
             <div class="block_title">
                 <h1>
                 Our Team
@@ -110,131 +112,25 @@
                     </div>
                 </div>
             </div>
-            <div class="section">
+            <div class="section core">
                 <div class="sub_title prociono">
                     <h3>
                     Core Members
                     </h3>
                 </div>
                 <div class="sans members">
-                    <div class="member_card">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section">
-                            <h3>Name</h3>
-                            <h4>Role/Dept</h4>
-                            <h4>website</h4>
-                        </div>
-                    </div>
-                    <div class="member_card">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section">
-                            <h3>Name</h3>
-                            <h4>Role/Dept</h4>
-                            <h4>website</h4>
-                        </div>
-                    </div>
-                    <div class="member_card">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section">
-                            <h3>Name</h3>
-                            <h4>Role/Dept</h4>
-                            <h4>website</h4>
-                        </div>
-                    </div>
-                    <div class="member_card">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section">
-                            <h3>Name</h3>
-                            <h4>Role/Dept</h4>
-                            <h4>website</h4>
-                        </div>
-                    </div>
-                    <div class="member_card">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section">
-                            <h3>Name</h3>
-                            <h4>Role/Dept</h4>
-                            <h4>website</h4>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             
-            <div class="section">
+            <div class="section exec">
                 <div class="sub_title prociono">
                     <h3>
                     Executive Members
                     </h3>
                 </div>
                 <div class="members">
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
-                        Sample Member
-                    </div>
-                    <div class="member_item">
+                    <div class="member_item exec_member">
                         Sample Member
                     </div>
                 </div>

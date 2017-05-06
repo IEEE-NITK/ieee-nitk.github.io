@@ -1,0 +1,16 @@
+{
+  "title": "HactoberFest",
+  "date": "October 2016",
+  "sig": "CompSoc",
+  "description": "Introduced NITK into the world of open source, and we did it pretty well and got a global recognition for IEEE NITK as well. Salman will tell more :P",
+  "links": [
+    {
+      "title": "GitHub repository for the project code",
+      "url": "https://www.example.com"
+    },
+    {
+      "title": "Facebook post",
+      "url": "https://www.anotherfb.com"
+    }
+  ]
+}

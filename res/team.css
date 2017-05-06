@@ -56,15 +56,18 @@ body {
 }
 
 .img_holder {
-    background-image: url("img/comps.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+background: #3D7EAA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     height: 50vh;
     width: 100%;
     position: relative;
 }
-
+div#particles-js {
+    height: 50vh;
+}
 .img_holder .block_title {
     position: absolute;
     top: 50%;
@@ -98,7 +101,18 @@ body {
     margin: 25px;
     font-size: 1.6em;
 }
+.sub_title h3::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    margin-top: 10px;
 
+background: #3D7EAA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .members ul {
     list-style-type: none;
     overflow: hidden;
@@ -119,24 +133,24 @@ body {
     -webkit-justify-content:center;
     margin: 0px auto;
 }
-.member_card {
+.member_core {
     width: 100%;
     max-width: 300px;
     height: 20%;
     padding-top: 2%;
 }
 
-.member_card>div {
+.member_core>div {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
 
-.member_card img {
+.member_core img {
     border-radius: 50%;
     width: 60%;
 }
-.member_item{
+.member_exec{
     padding: 10px;
     width: 20%;
     text-align: center;
@@ -161,6 +175,9 @@ h4 {
     .img_holder h1 {
         font-size: 2em;
         line-height: 95%;
+    }
+    .member_exec{
+        width: 100%!important;
     }
 }
 

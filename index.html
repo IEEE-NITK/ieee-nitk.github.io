@@ -12,6 +12,7 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <script type="text/javascript" src="js/jq.js"></script>
         <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+        <script src="js/particles.js"></script>
         <script src="js/slider.js"></script>
         <script src="js/events.js"></script>
     </head>
@@ -56,6 +57,7 @@
                 </div>
             </div>
             <div class="about section">
+                <div id="particles-js"></div>
                 <div class="wrapper">
                     <div class="col_left col prociono">
                         <div class="text1">About</div>
@@ -68,10 +70,9 @@
                 </div>
             </div>
             <div class="sig section sliders">
-                <div class="slide  slide1">
+                <div class="slide  slide1 comps_slide">
                     <div class="wrapper">
                         <div class="col_left col mybox bgbox">
-                            <!--img class="slide_img" src="res/img/coding2.svg" onload="this.width/=2;" /-->
                         </div>
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco"> COMPSOC</h1>
@@ -84,28 +85,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide slide2">
+                <div class="slide slide2 diode_slide">
                     <div class="wrapper">
                         <div class="col_left col mybox bgbox">
-                            <!--img class="slide_img" src="res/img/coding.svg" onload="this.width/=2;" /-->
                         </div>
                         <div class="col_right col fadein mybox">
-                            <h1 class="slide_heading teco">DIODE</h1>
+                            <h1 class="slide_heading teco">CAS</h1>
                             <div class="slide_content sans">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </div>
                             <div class="slide_button sans">
-                                <a href="#" title="Diode">
+                                <a href="cas.html" title="CAS">
                                     READ MORE
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="slide slide3">
+                <div class="slide slide3 piston_slide">
                     <div class="wrapper">
                         <div class="col_left col mybox bgbox">
-                            <!--img class="slide_img" src="res/img/code.svg" onload="this.width/=2;"/-->
                         </div>
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco">PISTON</h1>
@@ -113,17 +112,16 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </div>
                             <div class="slide_button sans">
-                                <a href="#" title="Piston">
+                                <a href="piston.html" title="Piston">
                                     READ MORE
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="slide slide4">
+                <div class="slide slide4 wie_slide">
                     <div class="wrapper">
                         <div class="col_left col mybox bgbox">
-                            <!--img class="slide_img" src="res/img/coding2.svg" onload="this.width/=2;"/-->
                         </div>
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco"> WIE</h1>
@@ -199,9 +197,9 @@
                             <img src="res/img/profile.jpg" alt="">
                         </div>
                         <div class="data_section sans">
-                            <h3>A really important guy</h3>
-                            <h4>From a really good sig</h4>
-                            <p>he is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blahhe is sooo good blh blah blah blah blah blah</p>
+                            <h3>Anand Thamban</h3>
+                            <h4>Convenor, IEEE NITK</h4>
+                            <p>Blabber something, else it would look odd.</p>
                         </div>
                     </div>
                     <div class="member_card card_right">
@@ -210,8 +208,8 @@
                         </div>
                         <div class="data_section sans">
                             <h3>Another Important guy</h3>
-                            <h4>From a really good sig</h4>
-                            <p>blabber about him, too</p>
+                            <h4>Who is he, really?</h4>
+                            <p>blabber about him too, whoever he is.</p>
                         </div>
                     </div>
                     <div class="member_card card_left">
@@ -220,7 +218,7 @@
                         </div>
                         <div class="data_section sans">
                             <h3>Another important girl</h3>
-                            <h4>Some SIG</h4>
+                            <h4>And whatever she is.</h4>
                             <p>Else they would say IEEE is sexist.</p>
                         </div>
                     </div>
@@ -228,6 +226,7 @@
 
                 </div>
             </div>
+            
             <div class="projects section">
                 <div class="title_center teco">
                     <h1>
@@ -279,16 +278,13 @@
                         <h3>Find us online</h3>
                         <div class="icons">
                             <div class="icon icon1">
-                                <img src="res/img/icon.jpg" alt="">
+                                <img src="res/img/fb.png" alt="">
                             </div>
                             <div class="icon icon2">
-                                <img src="res/img/icon.jpg" alt="">
+                                <img src="res/img/yt.png" alt="">
                             </div>
                             <div class="icon icon3">
-                                <img src="res/img/icon.jpg" alt="">
-                            </div>
-                            <div class="icon icon4">
-                                <img src="res/img/icon.jpg" alt="">
+                                <img src="res/img/github.png" alt="">
                             </div>
                         </div>
                     </div>

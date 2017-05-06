@@ -1,54 +1,30 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ieee</title>
-    <link rel="stylesheet" href="res/jquery.fullpage.css">
-    <script type="text/javascript" src="js/jq.js"></script>
-    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
-    <script>
-    $(document).ready(function(){
-    	$('#fullpage').fullpage({
-        	anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
-        	menu: '#myMenu'
-    	});
-    });
-    
-    </script>
-    <style>
-    	nav{
-    		position: fixed;
-    		top:0px;
-    		z-index: 100;
-    	}
-    </style>
-</head>
-
-<body>
-    <nav>
-        <ul id="myMenu">
-            <li data-menuanchor="firstPage" class="active"><a href="#first_Page">First section</a></li>
-            <li data-menuanchor="secondPage"><a href="#second_Page">Second section</a></li>
-            <li data-menuanchor="thirdPage"><a href="#third_Page">Third section</a></li>
-            <li data-menuanchor="fourthPage"><a href="#fourth_Page">Fourth section</a></li>
-        </ul>
-    </nav>
-    <div class="wrapper" id="fullpage">
-        <div class="section" id="first_Page">
-            1 page
-        </div>
-        <div class="section" id="second_Page">
-            Another page
-        </div>
-        <div class="section" id="third_Page">
-            Another page
-        </div>
-        <div class="section" id="fourth_Page">
-            Another page
-        </div>
-    </div>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ieee</title>
+        <link rel="stylesheet" href="res/jquery.fullpage.css">
+        <script type="text/javascript" src="js/jq.js"></script>
+        <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+        <script>
+        function checkForExistance(arrayOfItems, name) {
+        return arrayOfItems.filter(function (item) {
+        return item.Name === name;
+        }).length > 0;
+        }
+        var arr = [{
+        "Name": "blabla",
+        "Id": "1"
+        }, {
+        "Name": "foo",
+        "Id": "2"
+        }]
+        console.log(checkForExistance(arr, "foo"));
+        </script>
+        <style>
+        </style>
+    </head>
+    <body>
+    </body>
 </html>
