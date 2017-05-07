@@ -328,9 +328,8 @@ div#particles-js {
 
 /* Slides */
 
-.slide2 .col_right,
-.slide4 .col_right {
-    background-color: rgb(242, 239, 233);
+.slide2 .col_right, .slide4 .col_right {
+    background-color: rgb(141, 141, 141);
 }
 
 .slide1 .col_right,
@@ -348,9 +347,14 @@ div#particles-js {
     overflow: hidden;
     width: 100%;
     padding: 0px!important;
-    heighbt: 100vh;
-}
+    height: 100vh;
+    transform: scale(1);
+    transition-duration: 500ms;
 
+}
+.shrunk{
+    transform : scale(0.8)!important;
+}
 .slide .bgbox {
     background-image: url("img/sig.jpg");
     height: 100vh;
@@ -383,7 +387,7 @@ div#particles-js {
     padding: 10px;
     width: 100%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 
@@ -715,8 +719,12 @@ footer .offline {
     }
     .slide .wrapper>div {
         position: relative;
-        background-color: transparent!important;
+        background-color: rgba(0,0,0,0.75)!important;
         width: 100%!important;
+        color: white!important;
+    }
+    .slide2 .slide_content, .slide4 .slide_content {
+        color: white!important;
     }
     .slide .col_right {
         top: -100vh;

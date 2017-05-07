@@ -1,3 +1,4 @@
+var enable = true;
 function showTextEffect() {
     var index = 0,
         pos = 0;
@@ -77,6 +78,32 @@ $(document).ready(function() {
                 $('.icon').addClass('icon_show');
             else
                 $('.icon').removeClass('icon_show');
+        },
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
+            if(enable){
+                enable = !enable;
+                console.log("disabled");
+                $(".wrapper").addClass("shrunk");
+                setTimeout(function(){
+                    
+                        //$.fn.fullpage.moveSlideRight();
+                        $.fn.fullpage.moveTo('sigs', nextSlideIndex);
+                    
+                        //$.fn.fullpage.moveTo('sigs', nextSlideIndex);
+                        //$.fn.fullpage.moveSlideLeft();
+                    
+                },500);
+                setTimeout(function(){
+                    enable = true;
+                    console.log("Enabled!");
+                },1000);
+                return false;
+            }
+            
+            //return false;
+        },
+        afterSlideLoad:function(){
+            $(".wrapper").removeClass("shrunk");
         }
     });
 });
