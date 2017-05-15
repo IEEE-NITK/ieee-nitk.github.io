@@ -2,15 +2,7 @@
   "title": "HactoberFest",
   "date": "October 2016",
   "sig": "CompSoc",
-  "description": "Introduced NITK into the world of open source, and we did it pretty well and got a global recognition for IEEE NITK as well. Salman will tell more :P",
+  "description": "HactoberFest Meetup NITK Edition was conducted by IEEE CompSoc. Participants were introduced to basics of Git and GitHub and made to make commits on the IEEE NITK repository, followed by a talk on how to contribute to open source, by Panam Hanji, former GSoCer. The NITK edition gained global recognition with over 168 commits, being one among the top 15 world wide. ",
   "links": [
-    {
-      "title": "GitHub repository for the project code",
-      "url": "https://www.example.com"
-    },
-    {
-      "title": "Facebook post",
-      "url": "https://www.anotherfb.com"
-    }
   ]
 }

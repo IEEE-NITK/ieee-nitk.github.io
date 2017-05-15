@@ -52,9 +52,7 @@ function showTextEffect() {
 $(document).ready(function() {
     showTextEffect();
     console.log("starting...");
-    particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-        console.log('callback - particles.js config loaded');
-    });
+    particlesJS.load('particles-js', 'particlesjs-config.json');
     //The fullpage initialisation
 
     $("#fullpage").fullpage({
@@ -78,32 +76,51 @@ $(document).ready(function() {
                 $('.icon').addClass('icon_show');
             else
                 $('.icon').removeClass('icon_show');
-        },
+        }
+        /*,
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
             if(enable){
                 enable = !enable;
                 console.log("disabled");
                 $(".wrapper").addClass("shrunk");
+                $(".slideTrain .mySpecialSlide").addClass("superShrunk");
+                var shift;
+                var titleShift = nextSlideIndex*$(".section").outerWidth()*0.25;
+                console.log(nextSlideIndex*0.5);
+                for(var i = 0; i < 4; i++){
+                    // 4 because we have 4 slides
+                    shift = i - slideIndex;
+                    shift*=-1*0.5*$(".section").outerWidth();
+                    console.log(i+","+slideIndex+","+shift);
+                    var j = i+1;
+                    $(".superShrunk:nth-of-type("+j+")").css({"left":shift+"px"});
+                }               
+                
                 setTimeout(function(){
-                    
-                        //$.fn.fullpage.moveSlideRight();
                         $.fn.fullpage.moveTo('sigs', nextSlideIndex);
-                    
-                        //$.fn.fullpage.moveTo('sigs', nextSlideIndex);
-                        //$.fn.fullpage.moveSlideLeft();
-                    
-                },500);
+                        //$(".slideTrain").css({transform:"translateX(-"+titleShift+"px)"});
+                    $(".mySpecialSlide").animate({
+                        left : "-="+titleShift+"px"
+                    });
+                    ///css({"left":shift+"px"});
+                        
+                },1500);
+                
                 setTimeout(function(){
                     enable = true;
                     console.log("Enabled!");
-                },1000);
+                },1600);
                 return false;
             }
-            
-            //return false;
         },
         afterSlideLoad:function(){
-            $(".wrapper").removeClass("shrunk");
-        }
+            setTimeout(
+                function(){
+                $(".wrapper").removeClass("shrunk");
+                $(".slideTrain .mySpecialSlide").removeClass("superShrunk");
+                //$(".mySpecialSlide").css({"left":"0px"});
+                },1500);
+
+        }*/
     });
 });

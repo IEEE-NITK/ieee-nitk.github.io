@@ -33,7 +33,7 @@ function renderList(arr) {
 
     for (var i = 0; i < arr.core.length; i++) {
         var htmlStr = $(".core .members").html();
-        htmlStr += '<div class="member_item member_core" id = "core' + i + '"><div class="img_section"><img src="res/img/profile.jpg" alt=""></div><div class="data_section"><h3>';
+        htmlStr += '<div class="member_item member_core" id = "core' + i + '"><div class="data_section"><h3>';
         htmlStr += arr.core[i].name + "</h3>";
         htmlStr += "<h4>" + arr.core[i].position + "</h4>"
         $(".core .members").html(htmlStr);
@@ -61,9 +61,11 @@ function renderList(arr) {
 }
 
 function displayOverlay(member) {
+    var email_link = "<a href='"+member.email+"' target='_blank'>email</a>";
     $(".overLay #member_name").html(member.name);
     $(".overLay #member_interests").html(member.interests);
-    $(".overLay #member_mail").html(member.email);
+
+    $(".overLay #member_mail").html(email_link);
 
     if (member.hasOwnProperty("position") && member.position != '')
         $(".overLay #position").html(member.position);
@@ -73,9 +75,9 @@ function displayOverlay(member) {
     var links = '';
 
     if (member.hasOwnProperty("github") && member.github != '')
-        links = "<a href='" + member.github + "'>GitHub</a> ";
+        links = "<a href='" + member.github + " 'target='_blank'>GitHub</a> ";
     if (member.hasOwnProperty("linkedin") && member.linkedin != '')
-        links += "<a href='" + member.linkedin + "'>LinkedIn</a>";
+        links += "<a href='" + member.linkedin + " 'target='_blank'>LinkedIn</a>";
     $(".overLay #links").html(links);
     $(".overLay").addClass("visible");
 }

@@ -311,6 +311,7 @@ div#particles-js {
     padding: 6%;
     align-items: center;
     color: white;
+    height: 100vh;
 }
 
 .sliders {
@@ -343,6 +344,7 @@ div#particles-js {
     height: 100vh;
 }
 
+
 .slide .wrapper {
     overflow: hidden;
     width: 100%;
@@ -352,9 +354,46 @@ div#particles-js {
     transition-duration: 500ms;
 
 }
+.fp-controlArrow {
+    z-index: 500!important;
+}
+/* This is just an attempt to make a text transition */
+/*
+.title_slides h4{
+    color:red;
+    font-size: 5em;
+    text-align: center;
+}
+.mySpecialSlide {
+    height: 100vh;
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    transition-duration: 500ms;
+
+}
+.title_slides {
+    position: absolute;
+    top: 0px;
+    width: 400%;
+    height: 100vh;
+    z-index: 100;
+}
 .shrunk{
     transform : scale(0.8)!important;
 }
+.superShrunk{
+    transform : scale(0.5)!important;
+    position: relative;
+    transition-duration: 500ms;
+
+}
+.slideTrain{
+    transition-duration: 3s;
+}
+*/
 .slide .bgbox {
     background-image: url("img/sig.jpg");
     height: 100vh;
@@ -564,7 +603,7 @@ h3.event_name.teco {
     color: white;
 }
 
-.team a {
+.title_image a {
     text-decoration: none;
     color: white;
     font-size: 2em;
@@ -585,7 +624,7 @@ h3.event_name.teco {
 
 .member_card {
     width: 100%;
-    height: 30vh;
+    height: 16vh;
     border-bottom: 1px dashed #cdcdcd;
     display: flex;
     display: -webkit-flex;
@@ -594,7 +633,7 @@ h3.event_name.teco {
 .member_card>div {
     display: table-cell;
     vertical-align: middle;
-    height: 30vh;
+    height: 16vh;
     width: auto;
 }
 
@@ -675,7 +714,9 @@ footer .icon img {
 footer>div {
     flex: 1;
 }
-
+.footer .links{
+    text-align: center;
+}
 footer .offline {
     text-align: center;
 }
@@ -683,6 +724,7 @@ footer .offline {
 .footer {
     background-color: white;
 }
+
 
 
 /* Common css */
@@ -714,6 +756,9 @@ footer .offline {
         padding-top: 5vh!important;
         padding-bottom: 5vh!important;
     }
+    .col.col_right {
+        font-size: 0.9em!important;
+    }
     .bgbox {
         z-index: -100;
     }
@@ -737,7 +782,7 @@ footer .offline {
     .text1,
     .text2 {
         text-align: center;
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .col_right {
         font-size: 1.1em!important;
@@ -841,7 +886,7 @@ footer .offline {
     }
     .member_card img,
     .member_card {
-        height: 15vh!important;
+        height: 12vh!important;
     }
     .member_card p {
         display: none;
@@ -871,7 +916,7 @@ footer .offline {
         width: auto!important;
     }
     footer {
-        height: 50vh;
+        height: 75vh;
         display: block;
     }
     footer>div {

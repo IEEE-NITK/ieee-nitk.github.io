@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html ng-app="mainApp" ng-controller="mainController">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home|IEEE NITK</title>
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-        <link rel="stylesheet" href="res/main.css">
-        <link rel="stylesheet" href="res/jquery.fullpage.css">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <script type="text/javascript" src="js/jq.js"></script>
-        <script type="text/javascript" src="js/jquery.fullpage.js"></script>
-        <script src="js/particles.js"></script>
-        <script src="js/slider.js"></script>
-        <script src="js/events.js"></script>
-    </head>
-    <body>
-        <nav class="visible_nav">
-            <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
-            <div class="popup_menu">
-                <ul id="menu" class="teco">
-                    <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
-                        <a>About Us</a>
-                    </li>
-                    <li data-menuanchor="sigs" onclick="$.fn.fullpage.moveTo(3)">
-                        <a>SIGs</a>
-                    </li>
-                    <li data-menuanchor="events" onclick="$.fn.fullpage.moveTo(4)">
-                        <a>Events</a>
-                    </li>
-                    <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
-                        <a>Team</a>
-                    </li>
-                    <li data-menuanchor="projects" onclick="$.fn.fullpage.moveTo(6)">
-                        <a>Projects</a>
-                    </li>
-                    <li>
-                        <a href="blog/">Blog</a>
-                    </li>
-                </ul>  
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|IEEE NITK</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="res/main.css">
+    <link rel="stylesheet" href="res/jquery.fullpage.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/events.js"></script>
+</head>
+
+<body>
+    <nav class="visible_nav">
+        <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
+        <div class="popup_menu">
+            <ul id="menu" class="teco">
+                <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
+                    <a>About Us</a>
+                </li>
+                <li data-menuanchor="sigs" onclick="$.fn.fullpage.moveTo(3)">
+                    <a>SIGs</a>
+                </li>
+                <li data-menuanchor="events" onclick="$.fn.fullpage.moveTo(4)">
+                    <a>Events</a>
+                </li>
+                <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
+                    <a>Team</a>
+                </li>
+                <li data-menuanchor="projects" onclick="$.fn.fullpage.moveTo(6)">
+                    <a>Projects</a>
+                </li>
+                <!--li>
+                    <a href="blog/">Blog</a>
+                </li-->
+            </ul>
+        </div>
+        <div class="parent">
+            <div class="nav-icon cross">
+                <div class="span"></div>
             </div>
-            <div class="parent">
-                <div class="nav-icon cross">
-                    <div class="span"></div>
+        </div>
+    </nav>
+    <div id="fullpage" full-page options="mainOptions">
+        <div class="landing_page section prociono">
+            <div class="main_container">
+                <div id="text_effect"></div>
+                <div id="logo">
+                    <img src="res/img/ieee_white.png" alt="">
                 </div>
             </div>
-        </nav>
-        <div id="fullpage" full-page options="mainOptions">
-            <div class="landing_page section prociono">
-                <div class="main_container">
-                    <div id="text_effect"></div>
-                    <div id="logo">
-                        <img src="res/img/ieee_white.png" alt="">
-                    </div>
+        </div>
+        <div class="about section">
+            <div id="particles-js"></div>
+            <div class="wrapper">
+                <div class="col_left col prociono">
+                    <div class="text1">About</div>
+                    <div class="text2 fly_up_fast">IEEE NITK</div>
+                </div>
+                <div class="col_right col fadein sans">
+                    The IEEE is the world's largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted "voice" for engineering, computing and technology information around the globe. We, IEEE NITK, belongs to the Region 10 of IEEE and under Bangalore section. Founded in 1988, we are an award winning student branch and one of the biggest world wide.
                 </div>
             </div>
-            <div class="about section">
-                <div id="particles-js"></div>
-                <div class="wrapper">
-                    <div class="col_left col prociono">
-                        <div class="text1">About</div>
-                        <div class="text2 fly_up_fast">IEEE NITK</div>
-                    </div>
-                    <div class="col_right col fadein sans">
-                        description of IEEE NITK
-                        <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
-                </div>
-            </div>
-            <div class="sig section sliders">
+        </div>
+        <div class="sig section sliders">
+            <div class="content_slides">
                 <div class="slide  slide1 comps_slide">
                     <div class="wrapper">
                         <div class="col_left col mybox bgbox">
@@ -77,7 +79,12 @@
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco"> COMPSOC</h1>
                             <div class="slide_content sans">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                <p class="main">
+                                    The Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a wonderful platform for those who want to gain expertise in computer based technology.
+                                </p>
+                                <p class="sub">
+                                    In true divide-and-conquer spirit, the SIG is subcategorized many groups like High Performance Computing,Security and Systems Programming,Databases, Data Structures and Algorithms,Web / Mobile Application Development,Networks and Communication,Computer Graphics, Vision and Virtual Reality,Data, Machine Learning and Artificial Intelligence
+                                </p>
                             </div>
                             <div class="slide_button sans">
                                 <a href="compsoc.html" title="CompSoc">READ MORE</a>
@@ -92,12 +99,17 @@
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco">CAS</h1>
                             <div class="slide_content sans">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                <p class="main">
+                                    The Circuits and Systems (CAS) group, also known as Diode consists of a team of students with a strong interest in the field of Electronics and Electrical Science. There are various seminars and talks organised by this SIG to encourage students to learn and gain more knowledge in their particular field of interest. CAS has contributed greatly to the development of interest in the field of robotics and microcontrollers.
+                                </p>
+                                <p class="sub">
+                                    The main focus of the CAS is on small projects, a cross-year collaborative effort among all the members that will help in academics and give us an edge when participating in various technical competitions conducted in many prestigious institutes.
+                                </p>
                             </div>
                             <div class="slide_button sans">
                                 <a href="cas.html" title="CAS">
-                                    READ MORE
-                                </a>
+                                READ MORE
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -109,12 +121,17 @@
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco">PISTON</h1>
                             <div class="slide_content sans">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                <p class="main">
+                                    Piston is a special interest group dedicated to the engineering applications of Mechanical, Automation, Civil, Chemical and Material Sciences. The SIG functions as a platform for students interested in learning and advancing specific areas of knowledge and technology. The SIG members co-operate, communicate, and organise meets, talks and conferences to discuss latest technology advancement and application.
+                                </p>
+                                <p class="sub">
+                                    The SIG consists of 2 societies namely Mach (Mechanical, Automation and Chemical Engineering) and RAS (Robotics and Automation). We specialise on a lot of areas like Aerospace Engineering Automobile engineering, Bio-Mechanical Applications, Chemical and Thermal Engineering, Heat and Renewable Energy Engineering, Robotics, Controls and Mechatronics and Structures and Materials.
+                                </p>
                             </div>
                             <div class="slide_button sans">
                                 <a href="piston.html" title="Piston">
-                                    READ MORE
-                                </a>
+                            READ MORE
+                        </a>
                             </div>
                         </div>
                     </div>
@@ -126,179 +143,162 @@
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco"> WIE</h1>
                             <div class="slide_content sans">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </div>
-                            <div class="slide_button sans">
-                                <a href="#" title="WIE">
-                                    READ MORE
-                                </a>
+                                The IEEE NITK WIE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator.Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section events">
-                <div class="events_wrapper">
-                    <div class="box box_left">
-                        <div class="event_info">
-                            <div class="text2 fly_up_fast prociono">Events</div>
-                            <div class="event_details fly_up_fast">
-                                <h3 class="event_name teco">
-                                    IGNITE
-                                </h3>
-                                <div class="event_date sans">
-                                    May 2016
-                                </div>
-                                <div class="event_type sans">
-                                    By CompSoc
-                                </div>
+
+        </div>
+        <div class="section events">
+            <div class="events_wrapper">
+                <div class="box box_left">
+                    <div class="event_info">
+                        <div class="text2 fly_up_fast prociono">Events</div>
+                        <div class="event_details fly_up_fast">
+                            <h3 class="event_name teco">
+                IGNITE
+                </h3>
+                            <div class="event_date sans">
+                                May 2016
+                            </div>
+                            <div class="event_type sans">
+                                By CompSoc
                             </div>
                         </div>
                     </div>
-                    <div class="box box_middle sans">
-                        <ul id="event_list">
-                            
-                        </ul>
-                    </div>
-                    <div class="box box_right sans">
-                        <button id="closebutton">
-                            CLOSE
-                        </button>
-                        <h2 class = "event_title"></h2>
-                        <div class="event_sub_title"></div>
-                        <hr>
-                        <p class="event_desc_p">
-                            
-                        </p>
-                        <div class="more">
-                            
-                        </div>
-                        <!--div class="pictures">
-                            some pics will go here if needed, with a popup like fb. we will keep it for the end
-                        </div-->
-                    </div>
                 </div>
-            </div>
-            <div class="section team">
-                <div class="title_image">
-                    <div class="title_contents">
-                        <div class="team_title teco">
-                            Our Team
-                        </div>
-                        <a href="team.html" title="Full Team" class="teco">View full team</a>
-                    </div>
+                <div class="box box_middle sans">
+                    <ul id="event_list">
+                    </ul>
                 </div>
-                <div class="core_team">
-                    <div class="pseudo team_title teco">
-                        Our Team
+                <div class="box box_right sans">
+                    <button id="closebutton">
+                        CLOSE
+                    </button>
+                    <h2 class="event_title"></h2>
+                    <div class="event_sub_title"></div>
+                    <hr>
+                    <p class="event_desc_p">
+                    </p>
+                    <div class="more">
                     </div>
-                    <div class="member_card card_left">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section sans">
-                            <h3>Anand Thamban</h3>
-                            <h4>Convenor, IEEE NITK</h4>
-                            <p>Blabber something, else it would look odd.</p>
-                        </div>
-                    </div>
-                    <div class="member_card card_right">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section sans">
-                            <h3>Another Important guy</h3>
-                            <h4>Who is he, really?</h4>
-                            <p>blabber about him too, whoever he is.</p>
-                        </div>
-                    </div>
-                    <div class="member_card card_left">
-                        <div class="img_section">
-                            <img src="res/img/profile.jpg" alt="">
-                        </div>
-                        <div class="data_section sans">
-                            <h3>Another important girl</h3>
-                            <h4>And whatever she is.</h4>
-                            <p>Else they would say IEEE is sexist.</p>
-                        </div>
-                    </div>
-                    <a class = "pseudo teco" href="team.html" title="Full Team">View full team</a>
 
                 </div>
             </div>
-            
-            <div class="projects section">
-                <div class="title_center teco">
-                    <h1>
-                    Our Projects
-                    </h1>
-                </div>
-                <div class="wrapper">
-                    <div class="project">
-                        <div class="logo">     
-                            <img src="res/img/ieee_cas.png" alt="">
-                        </div>
-                        <div class="info">
-                        <h4>CompSoc</h4>
-                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                        </div>
+        </div>
+        <div class="section team">
+            <div class="title_image">
+                <div class="title_contents">
+                    <div class="team_title teco">
+                        Our Team
                     </div>
-                    <div class="project">
-                        <div class="logo">     
-                            <img src="res/img/ieee_cas.png" alt="">
-                        </div>
-                        <div class="info">
-                        <h4>CompSoc</h4>
-                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="logo">     
-                            <img src="res/img/ieee_cas.png" alt="">
-                        </div>
-                        <div class="info">
-                        <h4>CompSoc</h4>
-                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="logo">     
-                            <img src="res/img/ieee_cas.png" alt="">
-                        </div>
-                        <div class="info">
-                        <h4>CompSoc</h4>
-                            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-                        </div>
-                    </div>
+                    <a href="team.html" title="Full Team" class="teco">View full team</a>
                 </div>
             </div>
-            <div class="footer section fp-auto-height">
-                <footer class="teco">
-                    <div class="online">
-                        <h3>Find us online</h3>
-                        <div class="icons">
-                            <div class="icon icon1">
-                                <img src="res/img/fb.png" alt="">
-                            </div>
-                            <div class="icon icon2">
-                                <img src="res/img/yt.png" alt="">
-                            </div>
-                            <div class="icon icon3">
-                                <img src="res/img/github.png" alt="">
-                            </div>
-                        </div>
+            <div class="core_team">
+                <div class="pseudo team_title teco">
+                    Our Team
+                </div>
+                <div class="member_card card_left">
+                    <div class="img_section">
+                        <img src="res/img/faculty/sumam_david.jpg" alt="">
                     </div>
-                    <div class="offline">
-                        <h3>Find us offline</h3>
-                        <div class="addr">
-                            NITK,<br>
-                            Surathkal,<br>
-                            Mangalore,<br>
-                            Mars
-                        </div>
+                    <div class="data_section sans">
+                        <h3>Dr. Sumam David</h3>
+                        <h4>Branch advisor</h4>
+                        <p><a href="http://sumam.nitk.ac.in/" title="Sumam David's Personal Page">Web page</a></p>
                     </div>
-                </footer>
+                </div>
+                <div class="member_card card_right">
+                    <div class="img_section">
+                        <img src="res/img/faculty/annappa.jpg" alt="">
+                    </div>
+                    <div class="data_section sans">
+                        <h3>Dr. Annappa</h3>
+                        <h4>Computer Society faculty advisor</h4>
+                        <p><a href="http://cse.nitk.ac.in/faculty/annappa" title="Annappa's Personal Page">Web page</a></p>
+                    </div>
+                </div>
+                <div class="member_card card_left">
+                    <div class="img_section">
+                        <img src="res/img/faculty/msbhat.png" alt="">
+                    </div>
+                    <div class="data_section sans">
+                        <h3>Dr. M. S. Bhat</h3>
+                        <h4>CAS faculty advisor</h4>
+                        <p><a href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" title="MS Bhat's Personal Page">Web page</a></p>
+                    </div>
+                </div>
+                <div class="member_card card_right">
+                    <div class="img_section">
+                        <img src="res/img/faculty/rkini.jpg" alt="">
+                    </div>
+                    <div class="data_section sans">
+                        <h3>Dr. Ramesh Kini</h3>
+                        <h4>RAS faculty advisor</h4>
+                        <p><a href="http://ece.nitk.ac.in/faculty/ramesh-kini-m" title="Ramesh Kini's Personal Page">Web page</a></p>
+                    </div>
+                </div>
+                <div class="member_card card_left">
+                    <div class="img_section">
+                        <img src="res/img/faculty/deepu.jpg" alt="">
+                    </div>
+                    <div class="data_section sans">
+                        <h3>Dr. Deepu Vijayasenan</h3>
+                        <h4>SPS faculty advisor</h4>
+                        <p><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" title="Deepu Vijayasenan's Personal Page">Web page</a></p>
+                    </div>
+                </div>
+                <a class="pseudo teco" href="team.html" title="Full Team">View full team</a>
             </div>
         </div>
-    </body>
+        <!--div class="projects section">
+            <div class="title_center teco">
+                <h1>
+                    Projects
+                </h1>
+            </div>
+            <div class="wrapper">
+            </div>
+        </div-->
+        <div class="footer section fp-auto-height">
+            <footer class="teco">
+                <div class="online">
+                    <h3>Find us online</h3>
+                    <div class="icons">
+                        <div class="icon icon1">
+                            <a target="blank" href="https://www.facebook.com/IEEENITK/" title="Facebook"><img src="res/img/fb.png" alt="facebook"></a>
+                        </div>
+                        <div class="icon icon2">
+                            <a target="blank" href="https://github.com/IEEE-NITK/" title="Github"><img src="res/img/github.png" alt="github"></a>
+                        </div>
+                        <div class="icon icon3">
+                            <img src="res/img/yt.png" alt="youtube">
+                        </div>
+                    </div>
+                </div>
+                <div class="offline">
+                    <h3>Find us offline</h3>
+                    <div class="addr">
+                        NITK,
+                        <br> Surathkal,
+                        <br> Mangalore,
+                        <br> Karnataka
+                    </div>
+                </div>
+                <div class="links">
+                    <h3>Links</h3>
+                    <a target="blank" href="http://ieeebangalore.org/" title="IEEE Bangalore">IEEE Bangalore Section</a>
+                    <br>
+                    <a target="blank" href="https://ieee.org/" title="IEEE">IEEE</a>
+                    <br>
+                    <a target="blank" href="https://nitk.ac.in" title="NITK Surathkal">NITK Surathkal</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
 </html>

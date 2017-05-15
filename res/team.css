@@ -65,6 +65,14 @@ background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, F
     width: 100%;
     position: relative;
 }
+.img_section {
+    height: 150px;
+    overflow: hidden;
+    padding: 5px;
+}
+.data_section{
+    text-align: center;
+}
 div#particles-js {
     height: 50vh;
 }
@@ -133,6 +141,11 @@ background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, F
     -webkit-justify-content:center;
     margin: 0px auto;
 }
+.member_card {
+
+    margin: 0px auto;
+    text-align: center;
+}
 .member_core {
     width: 100%;
     max-width: 300px;
@@ -140,11 +153,7 @@ background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, F
     padding-top: 2%;
 }
 
-.member_core>div {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
+
 
 .member_core img {
     border-radius: 50%;
