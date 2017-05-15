@@ -166,19 +166,7 @@ background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, F
     width: 20%;
     text-align: center;
 }
-/*
-h3 {
-    font-size: 2em;
-}
 
-h4 {
-    font-size: 1.8em;
-    width: 100%;
-    background-color: #345492;
-    padding: 10px;
-    color: white;
-}
-*/
 @media only screen and (max-width: 768px) {
     .data_holder {
         width: 100%!important;

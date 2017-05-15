@@ -1,3 +1,10 @@
+function compare(a,b) {
+  if (a.name < b.name)
+    return -1;
+  if (a.name > b.name)
+    return 1;
+  return 0;
+}
 $(document).ready(function() {
     var members = {};
     members.core = [];
@@ -23,8 +30,9 @@ function loadAndRenderContacts(members) {
         success: function(result) {
             members.core = result.core;
             members.exec = result.members;
+            members.core.sort(compare);
+            members.exec.sort(compare);
             renderList(members);
-            //search('chin', members);
         }
     });
 }

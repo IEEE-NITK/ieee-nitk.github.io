@@ -357,43 +357,6 @@ div#particles-js {
 .fp-controlArrow {
     z-index: 500!important;
 }
-/* This is just an attempt to make a text transition */
-/*
-.title_slides h4{
-    color:red;
-    font-size: 5em;
-    text-align: center;
-}
-.mySpecialSlide {
-    height: 100vh;
-    display: block;
-    float: left;
-    width: 25%;
-    text-align: center;
-    position: relative;
-    transition-duration: 500ms;
-
-}
-.title_slides {
-    position: absolute;
-    top: 0px;
-    width: 400%;
-    height: 100vh;
-    z-index: 100;
-}
-.shrunk{
-    transform : scale(0.8)!important;
-}
-.superShrunk{
-    transform : scale(0.5)!important;
-    position: relative;
-    transition-duration: 500ms;
-
-}
-.slideTrain{
-    transition-duration: 3s;
-}
-*/
 .slide .bgbox {
     background-image: url("img/sig.jpg");
     height: 100vh;
@@ -965,16 +928,3 @@ footer .offline {
 .list5{
     transition-delay: 0.6s!important; 
 }
-
-/*
-footer .icon {
-    position: relative;
-    display: inline-block;
-    margin: 400px 10px 0px 10px;
-    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
-}
-
-.icon_show {
-    margin: 0px 10px 0px 10px!important;
-    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
-}*/

@@ -21,10 +21,3 @@ function loadAndDisplay(str) {
         }
     });
 }
-
-function displayAll(data) {
-    console.log("Running234");
-}
-function renderList(array){
-	console.log(array);
-}
