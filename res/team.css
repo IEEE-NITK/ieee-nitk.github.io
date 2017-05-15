@@ -153,7 +153,9 @@ background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, F
     padding-top: 2%;
 }
 
-
+.member_item {
+    cursor: pointer;
+}
 
 .member_core img {
     border-radius: 50%;
