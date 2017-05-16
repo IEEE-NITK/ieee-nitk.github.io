@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introduction to IEEE-NITK Chapter"
+author_github: salman-bhai
 date: 2017-05-14 23:32:44
 image: '/assets/img/'
 description: 'Introductory post to IEEE NITK'
