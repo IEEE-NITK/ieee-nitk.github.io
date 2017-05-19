@@ -12,8 +12,10 @@ tags:
 - Diode 
 categories:
 - IEEE
-twitter_text: 'Introduction to IEEE NITK'
-
+author: 'Salman Shah'
+author_image: 'salman_shah.jpg'
+user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
+email: sbs.191197@gmail.com
 ---
 
 IEEE is the world's largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted "voice" for engineering, computing and technology information around the globe.

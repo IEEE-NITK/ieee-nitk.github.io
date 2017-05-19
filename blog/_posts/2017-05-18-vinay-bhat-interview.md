@@ -11,14 +11,13 @@ tags:
 - Career Advice
 categories:
 - IEEE
-twitter_text: 'Introduction to IEEE NITK'
 author: 'Salman Shah'
 author_image: 'salman_shah.jpg'
 user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
+email: sbs.191197@gmail.com
 ---
 
-![Vinay Bhat](/blog/assets/img/vinay_bhat.jpg)
-
+{% responsive_image path: /blog/assets/img/vinay_bhat.jpg %}
 ### Q. What do you think should be done in college to enhance your resume?
 
 Ans: One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. 
