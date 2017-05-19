@@ -7,7 +7,7 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 # User settings
 username: IEEE-NITK 
 user_description: IEEE Student chapter at NITK Surathkal
-user_title: CompSoc
+# user_title: CompSoc
 email: chairman.nitkieee@gmail.com
 twitter_username: IEEE_NITK 
 github_username: IEEE-NITK
