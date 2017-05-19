@@ -1,11 +1,11 @@
 <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="{{
-        site.data.authors.[page.author_github].avatar }}?v=2&s=200">
+\        <img itemprop="image" class="img-rounded" src="{{site.baseurl}}/assets/img/{{ page.author_image }}" alt="{{site.name}}">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name">{{ site.data.authors.[page.author_github].name }}</a>
+            <a itemprop="name" href="https://plus.google.com/{{site.gplus_username}}/posts">{{ page.author }}</a>
         </h3>
-        <p class="desc"> {{ site.data.authors.[page.author_github].desc }} </p>
+        <p class="desc">{{page.user_description}}</p>
+        <a itemprop="email" class="email" href="mailto:{{site.email}}">{{site.email}}</a>
     </div>
 </section>
