@@ -12,7 +12,9 @@ tags:
 categories:
 - IEEE
 twitter_text: 'Introduction to IEEE NITK'
-author: Salman Shah
+author: 'Salman Shah'
+author_image: 'salman_shah.jpg'
+user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
 ---
 
 ![Vinay Bhat](/blog/assets/img/vinay_bhat.jpg)
