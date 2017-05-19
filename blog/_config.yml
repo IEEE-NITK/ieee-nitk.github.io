@@ -8,9 +8,10 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 username: IEEE-NITK 
 user_description: IEEE Student chapter at NITK Surathkal
 user_title: CompSoc
-email: 
+email: chairman.nitkieee@gmail.com
 twitter_username: IEEE_NITK 
 github_username: IEEE-NITK
+facebook_username: IEEENITK
 
 # Build settings
 markdown: kramdown
@@ -29,9 +30,13 @@ compress_html:
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: /blog
   - title: Tags
     url: /blog/tags
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+#Special gems for images
+gems:
+  - jekyll-responsive-image
