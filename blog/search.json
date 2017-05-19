@@ -1,13 +1,19 @@
----
----
 [
-  {% for post in site.posts %}
+  
     {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.categories }}",
-      "tags"     : "{{ post.tags | array_to_sentence_string }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date | date_to_string}}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "title"    : "Advice on Computer Science - Vinay Bhat",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, Internships, and Career Advice",
+      "url"      : "/blog/vinay-bhat-interview/",
+      "date"     : "15 May 2017"
+    } ,
+  
+    {
+      "title"    : "Introduction to IEEE-NITK Chapter",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, Piston, and Diode",
+      "url"      : "/blog/introduction-to-ieee/",
+      "date"     : "15 May 2017"
+    } 
+  
 ]

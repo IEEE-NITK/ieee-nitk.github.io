@@ -38,5 +38,3 @@ links:
 exclude: ['package.json', 'src', 'node_modules']
 
 #Special gems for images
-gems:
-  - jekyll-responsive-image
