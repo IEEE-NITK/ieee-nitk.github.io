@@ -21,7 +21,8 @@
     {% endif %}
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
+    <meta property="og:url" content="{{ site.url }}/{{ base.url }}/{{ page.url }}" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     {% if page.image %}
     <meta property="og:image" content="{{ site.url }}{{page.image }}">
