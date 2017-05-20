@@ -37,9 +37,7 @@ links:
   - title: Tags
     url: /blog/tags
   - title: Main Website
-    url: /
+    url: ../
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
-
-#Special gems for images
