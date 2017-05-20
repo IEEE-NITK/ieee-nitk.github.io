@@ -2,6 +2,14 @@
 
 Members of our community are encouraged to write articles for our blogging platform. When we were deciding which website & blogging platform to use, [Jekyll](https://jekyllrb.com) was the obvious choice because it made it very easy for members to add new articles to it, assisting the platform to keep growing.
 
+## Basic Setup
+
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Will Jekyll Template](https://github.com/willianjusten/will-jekyll-template/fork)
+3. Clone the repo you just forked.
+5. Check out the sample posts in `_posts` to see examples for assigning categories and tags, and other YAML data.
+6. Read the documentation below for further customization pointers and documentation.
+
 Here is a write up on how to start contributing to our blog:
 
 ## Step 1: Fork and clone this repo to your machine
@@ -57,7 +65,6 @@ To get a grasp on we're about to do here, we highly recommend you the [Jekyll do
 Here is an example:
 
 ```
-
 ---
 layout: post
 title: "Introduction to IEEE-NITK Chapter"
@@ -130,17 +137,25 @@ You'll need to install Jekyll on your machine to preview your blog post. Be sure
 The output of `bundle exec jekyll serve --drafts` should look something like this:
 
 ```
-> jekyll serve
-Configuration file: orlandodevs.github.io/_config.yml
-            Source: orlandodevs.github.io
-       Destination: orlandodevs.github.io/_site
-      Generating... done.
- Auto-regeneration: enabled for 'orlandodevs.github.io'
-Configuration file: orlandodevs.github.io/_config.yml
-    Server address: http://0.0.0.0:4000/
+> /ieee-nitk.github.io$ jekyll serve
+Configuration file: none
+            Source: /home/salman/All-Projects/ieee-nitk.github.io
+       Destination: /home/salman/All-Projects/ieee-nitk.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+     Build Warning: Layout 'post' requested in blog_src/_posts/2017-05-14-introduction-to-ieee.md does not exist.
+     Build Warning: Layout 'post' requested in blog_src/_posts/2017-05-18-vinay-bhat-interview.md does not exist.
+     Build Warning: Layout 'default' requested in /blog_src/index.html does not exist.
+     Build Warning: Layout 'minimal' requested in /blog_src/series.html does not exist.
+     Build Warning: Layout 'minimal' requested in /blog_src/tags.html does not exist.
+                    done in 0.103 seconds.
+ Auto-regeneration: enabled for '/home/salman/All-Projects/ieee-nitk.github.io'
+Configuration file: none
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
 ```
 
-- Visit your the address next to "Server address" on your browser to see the local version of your blog running, in my case http://0.0.0.0:4000
+- Visit your the address next to "Server address" on your browser to see the local version of your blog running, in my case http://127.0.0.1:4000
 
 ## Step 4: Publishing your article
 
@@ -169,8 +184,6 @@ This article explains why every web developer should know Angular in 2015.
 
 Now the moderators will know that we need to get somebody that knows Angular to review this article before we publish it. We'll take it from here in other words. And as soon as your article is merged, it'll also be live on our blog (usually takes around 2 minutes to publish).
 
-## Comments
+## Color customization
 
-Any comments? Not satisfied with this description? Simple, open a pull request with the changes you'd like to see to this file :)
-
-Enjoy!
+All color variables are in `src/styl/variable`. To change the main color, just set the new value at `main` assignment. Another colors are for texts and the code background color.
