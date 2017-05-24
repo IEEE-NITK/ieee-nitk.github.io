@@ -5,9 +5,23 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 May 2017 20:28:47 +0530</pubDate>
-    <lastBuildDate>Sat, 20 May 2017 20:28:47 +0530</lastBuildDate>
+    <pubDate>Wed, 24 May 2017 20:00:52 +0530</pubDate>
+    <lastBuildDate>Wed, 24 May 2017 20:00:52 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Installing Ubuntu For Windows Users</title>
+        <description>&lt;h1 id=&quot;installing-ubuntu-for-windows-users&quot;&gt;Installing Ubuntu For Windows Users&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/installing_ubuntu/ubuntu.png&quot; alt=&quot;Ubuntu&quot; /&gt;&lt;/p&gt; &lt;p&gt;Hie&lt;/p&gt; &lt;p&gt;Installing Ubuntu on your machine is really helpfull in college days. It comes free and there are lots of open source softwares available for it. Last year, a lot of people came to my room for installing ubuntu on their machine. I once thought of opening shop for installing ubuntu (Just Kidding :P)&lt;/p&gt; &lt;p&gt;So, this brief blog gives instructions on installing Ubuntu alongside Windows as a dual boot OS.&lt;/p&gt; &lt;h3 id=&quot;creating-a-partition-for-ubuntu&quot;&gt;1. Creating a partition for Ubuntu&lt;/h3&gt; &lt;p&gt;First thing we need to do is create a partition to install ubuntu....</description>
+        <pubDate>Wed, 24 May 2017 01:33:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/installing-ubuntu/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/installing-ubuntu/</guid>
+        
+        <category>Linux</category>
+        
+        <category>Ubuntu</category>
+        
+        
+      </item>
     
       <item>
         <title>Advice on Computer Science - Vinay Bhat</title>
