@@ -7,10 +7,8 @@ description: 'Detailed Instructions on installing Ubuntu on your Windows machine
 tags:
 - Linux
 - Ubuntu
-author: 'Hrishi Hiraskar'
-author_image: 'hrily.jpg'
-user_description: "I'm CodeCrazy. I love Computer."
-email: hrishihiraskar@gmail.com
+github_username: 'hrily'
+comments: true
 ---
 
 # Installing Ubuntu For Windows Users
