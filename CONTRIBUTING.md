@@ -51,7 +51,7 @@ To get a grasp on we're about to do here, we highly recommend you the [Jekyll do
 **1. Add a new file to `blog_src/_posts` with the `.md` extension following these instructions. Make sure you add it to the `blog_src` folder and not the blog folder.**
 
 - Use this convention when naming your file: `year-month-date-your-title-of-blog-post.md`
-Here's an example: `_posts/i-love-ieee-nitk.md`
+Here's an example: `_posts/2017-06-15-i-love-ieee-nitk.md`
 
 **2. Add content to your newly created file.**
 
