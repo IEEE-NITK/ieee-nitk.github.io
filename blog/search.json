@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Getting to love the Terminal",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, Unix, Terminal, and Bash",
+      "url"      : "http://ieeenitk.org/blog//getting-to-love-the-terminal/",
+      "date"     : "24 May 2017"
+    } ,
+  
+    {
       "title"    : "Installing Ubuntu For Windows Users",
       "category" : "",
       "tags"     : "Linux and Ubuntu",
