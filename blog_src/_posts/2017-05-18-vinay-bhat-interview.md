@@ -11,10 +11,7 @@ tags:
 - Career Advice
 categories:
 - IEEE
-author: 'Salman Shah'
-author_image: 'salman_shah.jpg'
-user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
-email: sbs.191197@gmail.com
+github_username: 'salman-bhai'
 comments: true
 ---
 

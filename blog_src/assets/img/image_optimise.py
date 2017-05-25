@@ -6,7 +6,7 @@ from os.path import isfile, join
 files_list = [f for f in listdir(".") if isfile(join(".", f))]
 print(files_list)
 
-file_name = "salman_shah.jpg"
+file_name = "hrily.jpg"
 
 # for file_name in files_list:
 # 	if(file_name == "image_optimise.py"):

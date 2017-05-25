@@ -5,10 +5,10 @@ Members of our community are encouraged to write articles for our blogging platf
 ## Basic Setup
 
 1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Will Jekyll Template](https://github.com/willianjusten/will-jekyll-template/fork)
-3. Clone the repo you just forked.
-5. Check out the sample posts in `_posts` to see examples for assigning categories and tags, and other YAML data.
-6. Read the documentation below for further customization pointers and documentation.
+2. Fork the [IEEE NITK GitHub website repository](https://github.com/IEEE-NITK/ieee-nitk.github.io)
+3. Clone the repo you just forked. You can do this using the `git clone` command. Check out this article for how to install Git on [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04) and on [Windows](http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/)
+4. Check out the sample posts in `blog_src/_posts` to see examples for assigning categories and tags, and other YAML data. Posts are written in Markdown.
+5. Read the documentation below for further customization pointers and documentation.
 
 Here is a write up on how to start contributing to our blog:
 
@@ -16,7 +16,7 @@ Here is a write up on how to start contributing to our blog:
 
 Some experience with GitHub is required to accomplish this step.
 
-Not sure how to fork and clone a GitHub repo? Do some googling, or if now, ask somebody on our Slack channel under #chat. We'll be happy to help you out with this :)
+Not sure how to fork and clone a GitHub repo? Do some googling, or if now, ask somebody on our Slack channel under #github. We'll be happy to help you out with this :)
 
 ## Step 2: First-time authors
 
@@ -24,7 +24,7 @@ Have you ever written an article for our platform? If so, feel free to skip over
 
 ### Adding your self as an author:
 
-**1. Go to the file `_data/authors.yml`**
+**1. Go to the file `blog_src/_data/authors.yml`**
 
 **2. There you will see a list of authors. It should look something like this:**
 
@@ -33,34 +33,27 @@ Have you ever written an article for our platform? If so, feel free to skip over
 salman-bhai:
   name: Salman Shah
   github: salman-bhai
-
-chinmaydd:
-name: Chinmay Deshpande
-  github: chinmaydd
+  author_image: 'salman_shah.jpg'
+  user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
+  email: sbs.191197@gmail.com
 ```
 
 **3. Add your username and subsequent info at the end of the file.**
 
 At the top, we would like you to use the same `username` as your github account (for example `salman-bhai` is Salman's (my) Github username). This will allow us to avoid username collisions within our blog.
 
-The following fields are allowed as of right now:
+## Step 3: Adding your new post to the IEEE-NITK blog
 
-- name
-- github _(optional)_
-
-## Step 3: Adding your new post to the O-Devs blog
-
-Now that your username is under the list of authors, we get to the fun part: adding  your article to our blog.
+Now that your username is under the list of authors, we get to the fun part: adding your article to our blog.
 
 To get a grasp on we're about to do here, we highly recommend you the [Jekyll docs about Posts](http://jekyllrb.com/docs/posts).
 
-**1. Add a new file to `_posts/` with the `.md` extension following these instructions**
+**1. Add a new file to `blog_src/_posts` with the `.md` extension following these instructions. Make sure you add it to the `blog_src` folder and not the blog folder.**
 
-- Use this convention when naming your file: `year-month-date-title.md`
+- Use this convention when naming your file: `your-title-of-blog-post.md`
+Here's an example: `_posts/i-love-ieee-nitk.md`
 
-- Here's an example: `_posts/i-love-ieee-nitk.md`
-
-**2. Add content to your newly created file**
+**2. Add content to your newly created file.**
 
 Here is an example:
 
@@ -75,14 +68,9 @@ description: 'Introductory post to IEEE NITK'
 tags:
 - IEEE NITK 
 - CompSoc
-- Piston
-- Diode 
 categories:
 - IEEE
-author: 'Salman Shah'
-author_image: 'salman_shah.jpg'
-user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
-email: sbs.191197@gmail.com
+github_username: 'Salman Shah'
 ---
 You should use Angular because it's trendy. Here's how to create a directive:
 
@@ -114,27 +102,28 @@ Be sure to change the information on the header of your post file, it is very im
 - description _(A short description to what your post is about)_
 - tags _(post tags separated by spaces)_
 - categories _(category tags separated by spaces)_
-- author _(Your name as it is)_
-- author_image _(Add your image to '/assets/img')_
-- user_description (_Should be a small description about you_)
-- email: (_Put in your user E-Mail ID, preferably your IEEE E-mail ID_)
-me username used on `_data/authors.yml`, same as your github account)_
+- github_username _(Your GitHub username as it is)_
 
 ### Body
 
 The body is where the actual content of your article will be located. Be sure to be comfortable using markdown to write content.
 
-In this blog we use the Github's flavor of markdown.
+In this blog we use the [Github's flavor of markdown](https://guides.github.com/features/mastering-markdown/).
 
 **3. Previewing your post**
 
 You'll need to install Jekyll on your machine to preview your blog post. Be sure to preview your post before making a pull request. This is a community-based blog and we expect you to bullet-proof your article before making a pull request. By bullet-proofing we mean making sure that your content is properly formatted, etc.
 
-- Learn how to install [Jekyll for GitHug Pages](https://help.github.com/articles/using-jekyll-with-pages)
+- Learn how to install [Jekyll for GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages)
 
-- Serve Jekyll locally by running this command on your terminal: `bundle exec jekyll serve --drafts`
+- After that you need to build your blog to the blog repository by running the following command in the `blog_src` directory.
+```
+~/All-Projects/ieee-nitk.github.io/blog_src$ jekyll build --destination ../blog
+```
 
-The output of `bundle exec jekyll serve --drafts` should look something like this:
+- After that serve Jekyll locally by running this command in the root folder of the blog on your terminal: `jekyll serve`
+
+The output of `jekyll serve` should look something like this:
 
 ```
 > /ieee-nitk.github.io$ jekyll serve
@@ -174,16 +163,12 @@ When making the pull request please follow these guidelines:
 Here's an example:
 
 ```
-
 Title:
 New post: Why you should use Angular?`
 
 Description:
 This article explains why every web developer should know Angular in 2015.
 ```
+- Please ask someone to review the article, once you have submitted a Pull Request! 
 
-Now the moderators will know that we need to get somebody that knows Angular to review this article before we publish it. We'll take it from here in other words. And as soon as your article is merged, it'll also be live on our blog (usually takes around 2 minutes to publish).
-
-## Color customization
-
-All color variables are in `src/styl/variable`. To change the main color, just set the new value at `main` assignment. Another colors are for texts and the code background color.
+- As soon as your article is merged, it'll also be live on our blog (usually takes around 2 minutes to publish).
