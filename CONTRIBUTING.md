@@ -5,9 +5,9 @@ Members of our community are encouraged to write articles for our blogging platf
 ## Basic Setup
 
 1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Will Jekyll Template](https://github.com/willianjusten/will-jekyll-template/fork)
+2. Fork the [IEEE NITK GitHub website repository](https://github.com/IEEE-NITK/ieee-nitk.github.io)
 3. Clone the repo you just forked. You can do this using the `git clone` command. Check out this article for how to install Git on [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04) and on [Windows](http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/)
-4. Check out the sample posts in `_posts` to see examples for assigning categories and tags, and other YAML data. Posts are written in Markdown
+4. Check out the sample posts in `blog_src/_posts` to see examples for assigning categories and tags, and other YAML data. Posts are written in Markdown.
 5. Read the documentation below for further customization pointers and documentation.
 
 Here is a write up on how to start contributing to our blog:
@@ -24,7 +24,7 @@ Have you ever written an article for our platform? If so, feel free to skip over
 
 ### Adding your self as an author:
 
-**1. Go to the file `_data/authors.yml`**
+**1. Go to the file `blog_src/_data/authors.yml`**
 
 **2. There you will see a list of authors. It should look something like this:**
 
