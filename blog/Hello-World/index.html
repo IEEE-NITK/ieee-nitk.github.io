@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Installing Ubuntu For Windows Users</title>
-    <meta name="description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <title>Hello World</title>
+    <meta name="description" content="A not so simple Hello World (PS: No need to buy the full version)">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="Installing Ubuntu For Windows Users">
-    <meta name="twitter:description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta name="twitter:title" content="Hello World">
+    <meta name="twitter:description" content="A not so simple Hello World (PS: No need to buy the full version)">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///installing-ubuntu/" />
-    <meta property="og:title" content="Installing Ubuntu For Windows Users">
+    <meta property="og:url" content="http://ieeenitk.org///Hello-World/" />
+    <meta property="og:title" content="Hello World">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta property="og:description" content="A not so simple Hello World (PS: No need to buy the full version)">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Installing Ubuntu For Windows Users"/>
-    <meta itemprop="description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta itemprop="name" content="Hello World"/>
+    <meta itemprop="description" content="A not so simple Hello World (PS: No need to buy the full version)">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -62,7 +62,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/installing-ubuntu/">
+    <link rel="canonical" href="http://ieeenitk.org/blog/Hello-World/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/blog/feed.xml" />
 </head>
@@ -73,10 +73,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-23 20:03:44 +0000" class="date">24 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-25 10:48:33 +0000" class="date">25 May 2017</time>
         
-        <h1 class="post-title" itemprop="name">Installing Ubuntu For Windows Users</h1>
-        <p itemprop="description" class="subtitle">Detailed Instructions on installing Ubuntu on your Windows machine</p>
+        <h1 class="post-title" itemprop="name">Hello World</h1>
+        <p itemprop="description" class="subtitle">A not so simple Hello World (PS: No need to buy the full version)</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -122,121 +122,224 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="installing-ubuntu-for-windows-users">Installing Ubuntu For Windows Users</h1>
+                <h1 id="a-dissection-of-the-hello-world-c-program">A dissection of the hello world C program</h1>
 
-<p><img src="/blog/assets/img/installing_ubuntu/ubuntu.png" alt="Ubuntu" /></p>
+<p>DISCLAMER: The contents on this page are strictly R rated. With R standing for Rigorous material. This is not a beginner’s guide to C. This is more of an article for intermediate/advanced users to explore C a little more in depth. I am not responsible for any earthquakes, alien invasions or epidemics caused directly/indirectly from this material.</p>
 
-<p>Hie</p>
+<p>Given below is a typical C program taught in most of the textbooks.</p>
 
-<p>Installing Ubuntu on your machine is really helpfull in college days. It comes free and there are lots of open source softwares available for it.
-Last year, a lot of people came to my room for installing ubuntu on their machine. I once thought of opening shop for installing ubuntu (Just Kidding :P)</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt;
 
-<p>So, this brief blog gives instructions on installing Ubuntu alongside Windows as a dual boot OS.</p>
+void main()
+{
+    printf("Hello world\n");
+}
+</code></pre>
+</div>
 
-<h3 id="creating-a-partition-for-ubuntu">1. Creating a partition for Ubuntu</h3>
+<p>To compile and run this program, a lot of juggling is done by gcc and the operating system. Of course, standard books and online resources will tell you about how the program works, what each line is and the technical jargon associated with it. Just to recap, here are the fundamental elements of the program:</p>
 
-<p>First thing we need to do is create a partition to install ubuntu. If you already have a partition, empty it and format it. If you don’t have one, follow this <a href="http://www.wikihow.com/Partition-Your-Hard-Drive-in-Windows-7">page</a>.
-<em>Remeber the size of the partition you desire, it will be usefull later.</em></p>
+<ol>
+  <li><code class="highlighter-rouge"> #include &lt;stdio.h&gt; </code> is a preprocessor directive.</li>
+  <li><code class="highlighter-rouge">void</code> is a data type.</li>
+  <li><code class="highlighter-rouge">main()</code> is the entry point of the program.</li>
+  <li><code class="highlighter-rouge">printf()</code> is a C function that is used to print formatted (printf - print format) strings.</li>
+</ol>
 
-<h3 id="create-bootable-live-usb">2. Create Bootable Live USB</h3>
+<p><img src="/blog/assets/img/intro.png" /></p>
 
-<p><a href="https://www.ubuntu.com/download/desktop">Download</a> and create a live USB or DVD. In Windows, my favorite tool to create a live USB is <a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Universal USB Installer</a>.</p>
+<p>The entire post does not even begin to comprehend the amount of work put in ,just to run a simple hello world program. Let us explore some of the complexities of the example program. (Trivia: <em>The first Hello world was written in the BCPL language and was used during the development of the C compiler by dennis ritchie. Henceforth, the hello world program has been deified by all computer enthusiasts.</em>)</p>
 
-<h3 id="boot-up-the-live-usb">3. Boot up the Live USB</h3>
+<h2 id="preprocessor-directives">Preprocessor directives</h2>
 
-<p>Now insert the USB into machine, restart and boot into USB drive from the <strong>Boot Options Menu</strong>. Google for hotkey to get into <strong>Boot Menu Options</strong> of your machine model.</p>
+<p>The first step performed by the gcc compiler is to preprocess the source file. The compilation begins after the preprocessing is complete and there are no errors. The preprocessor directives are commands that gcc understands, and start with the symbol <code class="highlighter-rouge">#</code>. <code class="highlighter-rouge">#include</code> is a preprocessor directive that tells the compiler to include the contents of a  file and paste it in place of the directive.</p>
 
-<h3 id="start-installation">4. Start Installation</h3>
+<p>For example:
+<code class="highlighter-rouge">#include &lt;stdio.h&gt;</code></p>
 
-<p>When prompted for options on booting, select <strong>Install Ubuntu</strong></p>
+<p>is replaced by</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/install_ubuntu.jpg" alt="Install Ubuntu" /></p>
+<div class="highlighter-rouge"><pre class="highlight"><code># 1 "temp.c"
+# 1 "&lt;built-in&gt;"
+# 1 "&lt;command-line&gt;"
+# 31 "&lt;command-line&gt;"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 32 "&lt;command-line&gt;" 2
+# 1 "temp.c"
+# 1 "/usr/include/stdio.h" 1 3 4
+# 28 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/bits/libc-header-start.h" 1 3 4
+# 33 "/usr/include/bits/libc-header-start.h" 3 4
+# 1 "/usr/include/features.h" 1 3 4
+# 410 "/usr/include/features.h" 3 4
+# 1 "/usr/include/sys/cdefs.h" 1 3 4
+# 441 "/usr/include/sys/cdefs.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 442 "/usr/include/sys/cdefs.h" 2 3 4
+...
 
-<p>Select <em>Continue</em> for first few screens</p>
+extern int fprintf (FILE *__restrict __stream,
+      const char *__restrict __format, ...);
 
-<p><img src="/blog/assets/img/installing_ubuntu/first_few.jpg" alt="First Few Screens" /></p>
+extern int printf (const char *__restrict __format, ...);
 
-<h3 id="preparing-partition-for-ubuntu">5. Preparing Partition for Ubuntu</h3>
+extern int sprintf (char *__restrict __s,
+      const char *__restrict __format, ...) __attribute__ ((__nothrow__));
 
-<p>After few screens, you will be prompted for <strong>Installation Type</strong>. Choose <strong>Something Else</strong> and continue.</p>
+...
 
-<p><img src="/blog/assets/img/installing_ubuntu/installation_type.jpg" alt="Installation Type" /></p>
+</code></pre>
+</div>
+<blockquote>
+  <p>Pro Tip: Save a C file with just “#include <stdio.h>" in it. Then run `gcc -c -i <file.c> -o <file.i> to see the actual preprocessing in action. GCC's -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.</file.i></file.c></stdio.h></p>
+</blockquote>
 
-<p>Now select desired partition (match the size of partition with one you created in step one), and click on <strong>-</strong> to delete the partition</p>
+<p>Here, we see that printf is actually defined here. Which is why, folks! you get warnings if you use printf without including the library. But, hold on. Where is the implementation of the printf? To answer the question, please buy the full version here <a href="">#</a></p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/delete_partition.jpg" alt="Ubuntu" /></p>
+<h2 id="compilation">Compilation</h2>
 
-<h3 id="create-root-swap-and-home-partition">6. Create root, swap and home partition</h3>
+<p>The preprocessed file is then parsed and compiled by the <code class="highlighter-rouge">cc1</code> executable. The <code class="highlighter-rouge">cc1</code> executable is a part of the gcc suite of programs, and is used to preprocess and compile the source code. The source code is then transformed from the C code to assembly code. All the basic data types like the void, int, char *, etc are validated by the compiler. Also, syntax checking happens here. If you enable all warnings (<code class="highlighter-rouge">with gcc -Wall</code>: Warnings-all), any compile time errors are detected here and thrown out to the user. It also checks variable usage, references and loop invariant checks too. The entire compilation consists of generating an Abstract Syntax Tree (AST), and then converting it into a GENERIC format(literally). GENERIC trees are then gimplified by a gimplifier also called gimplication into GIMPLE format (Gimply, mind blowing). Then a tree SSA pass is performed. This pass performs several optimizations like:</p>
 
-<p>Now selecting the same partition, click <strong>+</strong> to create <strong>root</strong> partition.
-Enter size <em>14000 MB</em>, select <em>Logical Partition type</em>, <em>Begining of space</em>, and select <strong>/</strong> as <em>Mount Point</em>. Create the partition.</p>
+<ol>
+  <li>Remove useless statements <br /></li>
+  <li>Building the control flow graph<br /></li>
+  <li>Find all referenced variables<br /></li>
+  <li>Warn for unintialized variables<br /></li>
+  <li>Dead code elimination<br /></li>
+  <li>Dominator optimizations<br /></li>
+  <li>Forward propogation of single variables<br /></li>
+  <li>Loop optimizations<br /></li>
+</ol>
 
-<p><img src="/blog/assets/img/installing_ubuntu/create_root.jpg" alt="Create Root Partition" /></p>
+<p>…<br />
+ and many more optimizations, each of which deserve a 15 hour course in it’s entirety.</p>
 
-<p>Follow similar steps for <em>swap</em> and <em>home</em></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>	.file	"temp.c"
+	.section	.rodata
+.LC0:
+	.string	"Hello World"
+	.text
+	.globl	main
+	.type	main, @function
+main:
+.LFB0:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movl	$.LC0, %edi
+	call	puts
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE0:
+	.size	main, .-main
+	.ident	"GCC: (GNU) 6.3.1 20170306"
+	.section	.note.GNU-stack,"",@progbits
+</code></pre>
+</div>
+<blockquote>
+  <p>Pro Tip: Use the source code shown above. Compile it with <code class="highlighter-rouge">gcc -S &lt;file&gt;.c</code>. This makes gcc to output the file after preprocessing and compiling and stops further processing of the file.</p>
+</blockquote>
 
-<h4 id="swap">swap</h4>
-<ul>
-  <li>Size: 16000 (two times your RAM)</li>
-  <li>Logical Partition</li>
-  <li>Begining of Space</li>
-  <li>Use As: swap area</li>
-</ul>
+<p>Don’t worry, compilation is almost over. A step called RTL pass is performed at the end of this phase, which does some cleanup and the final assembly code is ready.</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/create_swap.jpg" alt="Create Swap Partition" /></p>
+<h2 id="assembling">Assembling</h2>
 
-<h4 id="home">home</h4>
-<ul>
-  <li>size: (remaining space)</li>
-  <li>Logical Partition</li>
-  <li>Begining of Space</li>
-  <li>Mount Point: /home</li>
-</ul>
+<p>The assembling is done by the executable called <code class="highlighter-rouge">as</code> which is a part of the binutils package. This program is responsible for converting the generic assembly code into a code that is understood by the local machine. Also, ever wondered why all the C programs always start with main?</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/create_home.jpg" alt="Create Home Partition" /></p>
+<p>As a reward for reading the article so much, here is a nice way to write a C program without main. (WHAT??)</p>
 
-<p>Now select <strong>Install Now</strong></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt; // for our beloved printf()
+#include &lt;stdlib.h&gt; // for our beloved exit()
 
-<h3 id="follow-next-screens">7. Follow next screens</h3>
 
-<p>Your ubuntu installation should begin by now, follow the screens prompted for user name and password and general system setup. 
-After few minutes, the installation will complete</p>
+void _start()
+{
+    printf("Hello world\n");
+    exit(0);
+}
+</code></pre>
+</div>
 
-<h3 id="reboot-and-enjoy">8. Reboot and Enjoy!</h3>
+<blockquote>
+  <p>Compile it with <code class="highlighter-rouge">gcc -nostartfiles &lt;file&gt;.c</code> and run <code class="highlighter-rouge">./a.out</code></p>
+</blockquote>
 
-<p>Your ubuntu installation is complete. Reboot the machine to get into Ubuntu. Don’t worry, you can still use Windows.</p>
+<p>The assembly code generated has extra elements that take care of the arguements passed to the program, the environment setup and wired to start main after performing some checks. Exception handling is also done by this program. Ever wondered why only C compiled programs give segmentation fault (core dumped) errors? Wait a minute, I did not write any exception handling  code. That’s right. GCC adds boilerplate code that automatically terminates the program when wrong addresses are accessed and immediately packs it’s stuff up and terminates the program.</p>
 
-<p>If you ran into any issue during installation, try googling it or you can always ping me over mail.</p>
+<p>The assembler creates an object file (.o). You can make gcc stop at this by running <code class="highlighter-rouge">gcc -c &lt;file&gt;.c</code>. This is usually done in large projects. Multiple .c object files are created. Then they are linked together by the linker into one giant executable by the linker.</p>
 
-<p>Untill then, 
-This is <em>hrily</em> signing off…</p>
+<h2 id="linking">Linking</h2>
+
+<p>One more question, that has not been answered by our dissection so far is: Where is the definition of printf? How come I can’t see the definition of printf?</p>
+
+<p>This is done in the final phase. A basic set of shared libraries called <code class="highlighter-rouge">libc</code>, <code class="highlighter-rouge">linux-vdso</code> and <code class="highlighter-rouge">ld-linux-x86-64</code> are attached to any basic C program. During assembly, dangling references are made to functions. Kind of like,</p>
+
+<blockquote>
+  <p>User: hey computer, use printf here and here</p>
+</blockquote>
+
+<blockquote>
+  <p>Computer: But I don’t know what printf is. ERR..</p>
+</blockquote>
+
+<blockquote>
+  <p>User: wait, don’t throw an error. I will tell you where it is, later. Just assume it is defined for now.</p>
+</blockquote>
+
+<blockquote>
+  <p>Computer: RRMM, oh. Okay.</p>
+</blockquote>
+
+<p>The linker now points to all the dangling functions from these shared libraries. The linker fixes all references to functions. The linker is actually a program called <code class="highlighter-rouge">ld</code>, another member of the gcc core team.</p>
+
+<h3 id="note">NOTE:</h3>
+<p>Shared libraries are C programs, that are compiled before hand and can be attached to any program. There are two kinds of libraries:</p>
+
+<p>1.Static libraries<br />
+2.Dynamic libraries</p>
+
+<p>Nothing to be worried about. You have used both of these kinds of libraries. You just don’t recognize them. Remember compiling C programs with the <code class="highlighter-rouge">-lm</code> option to enable math operations (Other examples are <code class="highlighter-rouge">-lpthread</code>, <code class="highlighter-rouge">-fopenmp</code>,etc), these are shared objects attached to the program. Shared libraries are .so files which are compiled in advance. This is usually done, in order to save memory. For example, if 20 processes are using the math library, then it is a wiser choice to seperate all the math code and leave references to it. During runtime, the process finds the required shared library in memory and resolves all the addresses.</p>
+
+<p>The naming convention for shared libraries is somewhat peculiar. If the file is called libxyz.so, it has to be linked with <code class="highlighter-rouge">-lxyz</code> and vice versa.</p>
+
+<p>Static libraries are just, well static. They are code, that linked during compile time. They are usually .a (archive) files. One can make dynamic libraries be attached statically into the executable by using <code class="highlighter-rouge">gcc -static &lt;file&gt;.c -lm</code>. [Notice the drastic increase in size of the executable output]. You can find out what are the libraries dependent on the executable by running <code class="highlighter-rouge">ldd &lt;executable&gt;</code>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>That’s it folks. The C program is now ready to do your bidding. I am sure, next time someone says a “Hello world” program is easy, you can blow their brains out. Also, the programming languages evolve in a very fascinating way. For example, the token parsing program of the C code is written in C++. But C++ was written in C. This continues backwards until Dennis Ritchie first wrote C using assembly. Later C was rewritten using C. This is sometimes referred to as bootstrapping. Loading oneself using oneself. On a similar note, I hope this article stimulates the readers to read more :)</p>
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/installing-ubuntu/%20via%20&#64;IEEE_NITK&hashtags=Linux,Ubuntu,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/Hello-World/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,GCC,C,Programming,HelloWorld,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//installing-ubuntu/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//Hello-World/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//installing-ubuntu/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//Hello-World/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
 </section>
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/hrily.jpg" alt="Hrishi Hiraskar">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/adithyabk.jpg" alt="Adithya Bhat">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/hrily">Hrishi Hiraskar</a>
+            <a itemprop="name" href="https://github.com/adithyabhatkajake">Adithya Bhat</a>
         </h3>
-        <p class="desc">I'm CodeCrazy. I love Computer.</p>
-        <a itemprop="email" class="email" href="mailto:hrishihiraskar@gmail.com">hrishihiraskar@gmail.com</a>
+        <p class="desc">C, Linux and cryptography - My deathly hallows</p>
+        <a itemprop="email" class="email" href="mailto:dth.bht@gmail.com">dth.bht@gmail.com</a>
     </div>
 </section>
 
@@ -253,7 +356,7 @@ This is <em>hrily</em> signing off…</p>
 
 var disqus_config = function () {
 this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = /installing-ubuntu/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.identifier = /Hello-World/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

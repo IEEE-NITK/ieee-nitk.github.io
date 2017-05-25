@@ -4,7 +4,7 @@ title: "Hello World"
 author_github: adithyabhatkajake
 date: 2017-05-25 10:48:33
 image: '/assets/img/'
-description: 'Getting started with exploring the Bash shell'
+description: 'A not so simple Hello World (PS: No need to buy the full version)'
 tags:
 - IEEE NITK 
 - CompSoc
@@ -42,7 +42,7 @@ To compile and run this program, a lot of juggling is done by gcc and the operat
 4. `printf()` is a C function that is used to print formatted (printf - print format) strings.
 
 
-<img src="/blog/assests/img/intro.png">
+<img src="/blog/assets/img/intro.png">
 
 The entire post does not even begin to comprehend the amount of work put in ,just to run a simple hello world program. Let us explore some of the complexities of the example program. (Trivia: *The first Hello world was written in the BCPL language and was used during the development of the C compiler by dennis ritchie. Henceforth, the hello world program has been deified by all computer enthusiasts.*)
 
@@ -94,15 +94,17 @@ Compilation
 -----------
 
 The preprocessed file is then parsed and compiled by the `cc1` executable. The `cc1` executable is a part of the gcc suite of programs, and is used to preprocess and compile the source code. The source code is then transformed from the C code to assembly code. All the basic data types like the void, int, char \*, etc are validated by the compiler. Also, syntax checking happens here. If you enable all warnings (`with gcc -Wall`: Warnings-all), any compile time errors are detected here and thrown out to the user. It also checks variable usage, references and loop invariant checks too. The entire compilation consists of generating an Abstract Syntax Tree (AST), and then converting it into a GENERIC format(literally). GENERIC trees are then gimplified by a gimplifier also called gimplication into GIMPLE format (Gimply, mind blowing). Then a tree SSA pass is performed. This pass performs several optimizations like:
-1. Remove useless statements
-2. Building the control flow graph
-3. Find all referenced variables
-4. Warn for unintialized variables
-5. Dead code elimination
-6. Dominator optimizations
-7. Forward propogation of single variables
-8. Loop optimizations
-...
+
+1. Remove useless statements <br>
+2. Building the control flow graph<br>
+3. Find all referenced variables<br>
+4. Warn for unintialized variables<br>
+5. Dead code elimination<br>
+6. Dominator optimizations<br>
+7. Forward propogation of single variables<br>
+8. Loop optimizations<br>
+
+...<br>
  and many more optimizations, each of which deserve a 15 hour course in it's entirety.
  
  
@@ -168,24 +170,29 @@ The assembler creates an object file (.o). You can make gcc stop at this by runn
 One more question, that has not been answered by our dissection so far is: Where is the definition of printf? How come I can't see the definition of printf?
 
 This is done in the final phase. A basic set of shared libraries called `libc`, `linux-vdso` and `ld-linux-x86-64` are attached to any basic C program. During assembly, dangling references are made to functions. Kind of like, 
-~~~~
-User: hey computer, use printf here and here
-Computer: But I don't know what printf is. ERR..
-User: wait, don't throw an error. I will tell you where it is, later. Just assume it is defined for now.
-Computer: RRMM, oh. Okay.
-~~~~
+
+> User: hey computer, use printf here and here
+
+> Computer: But I don't know what printf is. ERR..
+
+> User: wait, don't throw an error. I will tell you where it is, later. Just assume it is defined for now.
+
+> Computer: RRMM, oh. Okay.
+
 
 The linker now points to all the dangling functions from these shared libraries. The linker fixes all references to functions. The linker is actually a program called `ld`, another member of the gcc core team.
 
 ### NOTE: 
 Shared libraries are C programs, that are compiled before hand and can be attached to any program. There are two kinds of libraries:
-1. Static libraries
-2. Dynamic libraries
+
+1.Static libraries<br>
+2.Dynamic libraries
+
 Nothing to be worried about. You have used both of these kinds of libraries. You just don't recognize them. Remember compiling C programs with the `-lm` option to enable math operations (Other examples are `-lpthread`, `-fopenmp`,etc), these are shared objects attached to the program. Shared libraries are .so files which are compiled in advance. This is usually done, in order to save memory. For example, if 20 processes are using the math library, then it is a wiser choice to seperate all the math code and leave references to it. During runtime, the process finds the required shared library in memory and resolves all the addresses.
 
 The naming convention for shared libraries is somewhat peculiar. If the file is called libxyz.so, it has to be linked with `-lxyz` and vice versa.
 
-Static libraries are just, well static. They are code, that linked during compile time. They are usually .a (archive) files. One can make dynamic libraries be attached statically into the executable by using `gcc -static <file>.c -lm`. [Notice the drastic increase in size of the executable output]
+Static libraries are just, well static. They are code, that linked during compile time. They are usually .a (archive) files. One can make dynamic libraries be attached statically into the executable by using `gcc -static <file>.c -lm`. [Notice the drastic increase in size of the executable output]. You can find out what are the libraries dependent on the executable by running `ldd <executable>`.
 
 ## Conclusion
 
