@@ -20,21 +20,25 @@ comments: true
 
 # A dissection of the hello world C program
 
-DISCLAMER: The contents on this page are strictly R rated. With R standing for Rigorous material. This is not a beginner's guide to C. This is more of an article for intermediate/advanced users to explore C a little more in depth. I am not responsible for any earthquakes, alien invasions or epidemics caused directly/indirectly from this material.
+DISCLAMER: The contents on this page are strictly R rated. With R standing for Rigorous material. This is not a beginner's guide to C. This is more of an article for intermediate/advanced users to explore C, in depth. I am not responsible for any earthquakes, alien invasions or epidemics caused, directly/indirectly from this material.
 
 
 Given below is a typical C program taught in most of the textbooks.
 
 ~~~~
-#include <stdio.h>
+#include <stdio.h> // An include statement: Preprocessor Directive
 
-void main()
+void main() // An entry function
 {
-    printf("Hello world\n");
+    printf("Hello world\n"); 
 }
 ~~~~
 
-To compile and run this program, a lot of juggling is done by gcc and the operating system. Of course, standard books and online resources will tell you about how the program works, what each line is and the technical jargon associated with it. Just to recap, here are the fundamental elements of the program:
+The entire post does not even begin to comprehend the amount of work put in ,just to run a simple hello world program. To compile and run this program, a lot of juggling is done by gcc and the operating system. Of course, the standard books and online resources will tell you about how the program works, what each line is, and the technical jargon associated with them, but that is not why we are here today. Let us explore the bland hello world program and work out it's internals. I am pretty sure this will be a worthwhile trip. So hold on tight!
+
+(Trivia: *The first Hello world was written in the BCPL language and was used during the development of the C compiler, by Dennis Ritchie. Since then, the hello world program was deified by all the computer enthusiasts.*)
+
+Just to recap, here are the fundamental elements of the program:
 
 1. ` #include <stdio.h> ` is a preprocessor directive.
 2. `void` is a data type.
@@ -44,7 +48,7 @@ To compile and run this program, a lot of juggling is done by gcc and the operat
 
 <img src="/blog/assets/img/intro.png">
 
-The entire post does not even begin to comprehend the amount of work put in ,just to run a simple hello world program. Let us explore some of the complexities of the example program. (Trivia: *The first Hello world was written in the BCPL language and was used during the development of the C compiler by dennis ritchie. Henceforth, the hello world program has been deified by all computer enthusiasts.*)
+Let us start unravelling some of the complexities of the example program. 
 
 ## Preprocessor directives
 
@@ -88,12 +92,14 @@ extern int sprintf (char *__restrict __s,
 ~~~~
 > Pro Tip: Save a C file with just "#include <stdio.h>" in it. Then run `gcc -c -i <file.c> -o <file.i> to see the actual preprocessing in action. GCC's -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.
 
-Here, we see that printf is actually defined here. Which is why, folks! you get warnings if you use printf without including the library. But, hold on. Where is the implementation of the printf? To answer the question, please buy the full version here [#]()
+The preprocessing and compilation, both of them are done by the same program: cc1. The `cc1` executable is a part of the gcc suite of programs. But, hang on! What is this *<stdio.h>*? Angle brackets(yeah, that is what <> are actually called. Not less/greater than symbols) tells the preprocessor that the file inside is present in the standard library path. It is usually defined in an environment variable called C_INCLUDE_PATH. You can also add directories to search for headers with the `-I` flag in gcc. (Example: `gcc -I foo/bar <file>.c` will make gcc search for .h files in foo/bar/ directory first, and then the remaining directories in C_INCLUDE_PATH). For shorthand purposes, you can write `#include "foo.h"` if you want gcc to add foo.h from the current directory.
+
+ We also see that printf is actually defined here. Which is why, folks! you get warnings if you use printf without including the library. But, hold on. Where is the implementation of the printf? To answer the question, please buy the full version here [#]()
 
 Compilation
 -----------
 
-The preprocessed file is then parsed and compiled by the `cc1` executable. The `cc1` executable is a part of the gcc suite of programs, and is used to preprocess and compile the source code. The source code is then transformed from the C code to assembly code. All the basic data types like the void, int, char \*, etc are validated by the compiler. Also, syntax checking happens here. If you enable all warnings (`with gcc -Wall`: Warnings-all), any compile time errors are detected here and thrown out to the user. It also checks variable usage, references and loop invariant checks too. The entire compilation consists of generating an Abstract Syntax Tree (AST), and then converting it into a GENERIC format(literally). GENERIC trees are then gimplified by a gimplifier also called gimplication into GIMPLE format (Gimply, mind blowing). Then a tree SSA pass is performed. This pass performs several optimizations like:
+The preprocessed file is then parsed and compiled by the `cc1` executable. The source code is then transformed from the C code to assembly code. All the basic data types like the void, int, char \*, etc are validated by the compiler. Also, syntax checking happens here. If you enable all warnings (`with gcc -Wall`: Warnings-all), any compile time errors are detected here and thrown out to the user. It also checks variable usage, references and loop invariant checks too. The entire compilation consists of generating an Abstract Syntax Tree (AST), and then converting it into a GENERIC format(literally). GENERIC trees are then gimplified by a gimplifier also called gimplication into GIMPLE format (Gimply, mind blowing). Then a tree SSA pass is performed. This pass performs several optimizations like:
 
 1. Remove useless statements <br>
 2. Building the control flow graph<br>
@@ -105,9 +111,9 @@ The preprocessed file is then parsed and compiled by the `cc1` executable. The `
 8. Loop optimizations<br>
 
 ...<br>
- and many more optimizations, each of which deserve a 15 hour course in it's entirety.
+ and many more optimizations, each of which deserve a 15 hour course in it's entirety. (Nope, I am not going to explain them here)
  
- 
+
 ~~~~
 	.file	"temp.c"
 	.section	.rodata
@@ -144,8 +150,7 @@ Don't worry, compilation is almost over. A step called RTL pass is performed at 
 
 The assembling is done by the executable called `as` which is a part of the binutils package. This program is responsible for converting the generic assembly code into a code that is understood by the local machine. Also, ever wondered why all the C programs always start with main? 
 
-As a reward for reading the article so much, here is a nice way to write a C program without main. (WHAT??)
-
+As a reward for reading the article so much, here is a nice way to write a C program without main. (WHAT?? Yes, it is possible)
 
 ~~~~
 #include <stdio.h> // for our beloved printf()
@@ -161,13 +166,15 @@ void _start()
 
 > Compile it with `gcc -nostartfiles <file>.c` and run `./a.out`
 
-The assembly code generated has extra elements that take care of the arguements passed to the program, the environment setup and wired to start main after performing some checks. Exception handling is also done by this program. Ever wondered why only C compiled programs give segmentation fault (core dumped) errors? Wait a minute, I did not write any exception handling  code. That's right. GCC adds boilerplate code that automatically terminates the program when wrong addresses are accessed and immediately packs it's stuff up and terminates the program.
+The _start program calls main internally and that my dear friend, is why C programs always begin with main. 
 
-The assembler creates an object file (.o). You can make gcc stop at this by running `gcc -c <file>.c`. This is usually done in large projects. Multiple .c object files are created. Then they are linked together by the linker into one giant executable by the linker.
+The assembly code generated has extra elements that take care of the arguements passed to the program, the environment is setup and hard-wired to start main (or whatever entry function, if you read the article in the right order) after performing some checks. Exception handling is also done by this program. Ever wondered why only C compiled programs give segmentation fault (core dumped) errors? Wait a minute, I did not write any exception handling  code. That's right. GCC adds boilerplate code that automatically terminates the program when wrong addresses are accessed and immediately packs it's stuff up, prepares a dump of the core and terminates the program.
+
+The assembler creates an object file (.o). You can make gcc stop at this stage, by running `gcc -c <file>.c`. This is usually done in large projects. Multiple .c object files are created. Then they are linked together by the linker into one giant executable by the linker.
 
 ## Linking
 
-One more question, that has not been answered by our dissection so far is: Where is the definition of printf? How come I can't see the definition of printf?
+One more question, that has not been answered by our dissection so far is: Where is the implementation of printf? How come I can't see the implementation of printf?
 
 This is done in the final phase. A basic set of shared libraries called `libc`, `linux-vdso` and `ld-linux-x86-64` are attached to any basic C program. During assembly, dangling references are made to functions. Kind of like, 
 
@@ -192,7 +199,9 @@ Nothing to be worried about. You have used both of these kinds of libraries. You
 
 The naming convention for shared libraries is somewhat peculiar. If the file is called libxyz.so, it has to be linked with `-lxyz` and vice versa.
 
-Static libraries are just, well static. They are code, that linked during compile time. They are usually .a (archive) files. One can make dynamic libraries be attached statically into the executable by using `gcc -static <file>.c -lm`. [Notice the drastic increase in size of the executable output]. You can find out what are the libraries dependent on the executable by running `ldd <executable>`.
+Static libraries are just, well static. They are code, that linked during compile time. They are usually .a (archive) files. One can make dynamic libraries be attached statically into the executable by using `gcc -static <file>.c -lm`. [Notice the drastic increase in size of the executable output]. You can find out what are the libraries dependent on the executable by running `ldd <executable>`. You can also make the linker look for addition object files in other directories by using the `-L` flag in gcc. (Example: `gcc -Lsome_dir/ foo.o bar.o` where bar.o is in some_dir/)
+
+I hope by now, you are clear on why using printf throws a compiler warning but works anyhow.
 
 ## Conclusion
 
