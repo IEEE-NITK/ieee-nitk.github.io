@@ -45,7 +45,6 @@ Just to recap, here are the fundamental elements of the program:
 3. `main()` is the entry point of the program.
 4. `printf()` is a C function that is used to print formatted (printf - print format) strings.
 
-
 <img src="/blog/assets/img/intro.png">
 
 Let us start unravelling some of the complexities of the example program. 
@@ -168,7 +167,7 @@ void _start()
 
 The _start program calls main internally and that my dear friend, is why C programs always begin with main. 
 
-The assembly code generated has extra elements that take care of the arguements passed to the program, the environment is setup and hard-wired to start main (or whatever entry function, if you read the article in the right order) after performing some checks. Exception handling is also done by this program. Ever wondered why only C compiled programs give segmentation fault (core dumped) errors? Wait a minute, I did not write any exception handling  code. That's right. GCC adds boilerplate code that automatically terminates the program when wrong addresses are accessed and immediately packs it's stuff up, prepares a dump of the core and terminates the program.
+The assembly code generated has extra elements that take care of the arguments passed to the program, the environment is setup and hard-wired to start main (or whatever entry function, if you read the article in the right order) after performing some checks. Exception handling is also done by this program. Ever wondered why only C compiled programs give segmentation fault (core dumped) errors? Wait a minute, I did not write any exception handling  code. That's right. GCC adds boilerplate code that automatically terminates the program when wrong addresses are accessed and immediately packs it's stuff up, prepares a dump of the core and terminates the program.
 
 The assembler creates an object file (.o). You can make gcc stop at this stage, by running `gcc -c <file>.c`. This is usually done in large projects. Multiple .c object files are created. Then they are linked together by the linker into one giant executable by the linker.
 
