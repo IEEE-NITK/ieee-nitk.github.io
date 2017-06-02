@@ -1,11 +1,19 @@
 [
   
     {
+      "title"    : "How to Get Started with Bots",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, Diode, and Bots",
+      "url"      : "http://ieeenitk.org/blog//how-to-get-started-with-bots/",
+      "date"     : "01 Jun 2017"
+    } ,
+  
+    {
       "title"    : "Hello World",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, CompSoc, GCC, C, Programming, and HelloWorld",
       "url"      : "http://ieeenitk.org/blog//Hello-World/",
-      "date"     : "25 May 2017"
+      "date"     : "26 May 2017"
     } ,
   
     {
@@ -13,7 +21,7 @@
       "category" : "IEEE",
       "tags"     : "IEEE NITK, CompSoc, Unix, Terminal, and Bash",
       "url"      : "http://ieeenitk.org/blog//getting-to-love-the-terminal/",
-      "date"     : "25 May 2017"
+      "date"     : "24 May 2017"
     } ,
   
     {

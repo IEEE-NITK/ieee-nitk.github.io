@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Installing Ubuntu For Windows Users</title>
-    <meta name="description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <title>How to Get Started with Bots</title>
+    <meta name="description" content="A guest entry to the world of bots">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="Installing Ubuntu For Windows Users">
-    <meta name="twitter:description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta name="twitter:title" content="How to Get Started with Bots">
+    <meta name="twitter:description" content="A guest entry to the world of bots">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///installing-ubuntu/" />
-    <meta property="og:title" content="Installing Ubuntu For Windows Users">
+    <meta property="og:url" content="http://ieeenitk.org///how-to-get-started-with-bots/" />
+    <meta property="og:title" content="How to Get Started with Bots">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta property="og:description" content="A guest entry to the world of bots">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Installing Ubuntu For Windows Users"/>
-    <meta itemprop="description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta itemprop="name" content="How to Get Started with Bots"/>
+    <meta itemprop="description" content="A guest entry to the world of bots">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -62,7 +62,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/installing-ubuntu/">
+    <link rel="canonical" href="http://ieeenitk.org/blog/how-to-get-started-with-bots/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/blog/feed.xml" />
 </head>
@@ -73,10 +73,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-24 01:33:44 +0530" class="date">24 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-01 23:58:33 +0530" class="date">01 Jun 2017</time>
         
-        <h1 class="post-title" itemprop="name">Installing Ubuntu For Windows Users</h1>
-        <p itemprop="description" class="subtitle">Detailed Instructions on installing Ubuntu on your Windows machine</p>
+        <h1 class="post-title" itemprop="name">How to Get Started with Bots</h1>
+        <p itemprop="description" class="subtitle">A guest entry to the world of bots</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -122,121 +122,81 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="installing-ubuntu-for-windows-users">Installing Ubuntu For Windows Users</h1>
+                <h1 id="how-to-get-started-with-bots">How to get Started with bots</h1>
 
-<p><img src="/blog/assets/img/installing_ubuntu/ubuntu.png" alt="Ubuntu" /></p>
+<p>Have you ever been fascinated by robots - Awestrucking objects which are capable of performing some cool tasks without needing a human intervention (well, unless they decide to go mad! :P) ? And certainly the thought of how these genius creations work and can I make one too? must have crossed your mind. Being in a similar frame of mind couple of years back and having made some basic bots, I thought of writing this article to help the curious people.</p>
 
-<p>Hie</p>
+<h3 id="getting-stuff-together">Getting Stuff together</h3>
 
-<p>Installing Ubuntu on your machine is really helpfull in college days. It comes free and there are lots of open source softwares available for it.
-Last year, a lot of people came to my room for installing ubuntu on their machine. I once thought of opening shop for installing ubuntu (Just Kidding :P)</p>
+<p>It’s surely hard to shell out a few bucks but it’s all worth here. First and foremost you will need a microcontroller. To the beginners out there with no previous experiences with one I will recommend to use Arduino Uno but if you already had enough of Arduino go with MSP430(you will certainly learn more here) from TI. Then comes the robot chassis: buy one which is not too small and strong enough. You will need two DC motors, two wheels, one castor wheel. Also L293d - a motor driver (It is an IC if you didn’t know) which is required to provide extra current to motors. Apart from this you will need a breadboard along with few LEDs and 330Ohm resistors(for testing), jumper wires (M2M, M2F, F2F), sensor components(I will come to these later) and also I highly recommend having a multimeter handy. Lastly a power source: a few 9V batteries ( they drain quickly, you can try rechargable ones) and if you don’t mind shelling out more, buy 12V lead acid battery which are much better than your 9V ones.</p>
 
-<p>So, this brief blog gives instructions on installing Ubuntu alongside Windows as a dual boot OS.</p>
+<p>Where do I buy these? If you are in Bangalore, head to SP road, Lamington road for Mumbaikars ( I am unaware of other cities). You can also buy it online on robocraze.com, robokits.co.in, amazon.in and many other sites.</p>
 
-<h3 id="creating-a-partition-for-ubuntu">1. Creating a partition for Ubuntu</h3>
+<p>Try catching hold of your friend with similar interests and spilt the bill.</p>
 
-<p>First thing we need to do is create a partition to install ubuntu. If you already have a partition, empty it and format it. If you don’t have one, follow this <a href="http://www.wikihow.com/Partition-Your-Hard-Drive-in-Windows-7">page</a>.
-<em>Remeber the size of the partition you desire, it will be usefull later.</em></p>
+<p>Once done with testing on breadboard, people generally prefer to make it permanent by soldering it onto a board which will require a soldering iron.</p>
 
-<h3 id="create-bootable-live-usb">2. Create Bootable Live USB</h3>
+<h3 id="start-building">Start Building</h3>
 
-<p><a href="https://www.ubuntu.com/download/desktop">Download</a> and create a live USB or DVD. In Windows, my favorite tool to create a live USB is <a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Universal USB Installer</a>.</p>
+<p>I believe you are well-versed with Basic C programming and that is enough to get started. Install Arduino IDE and learn basic GPIO functions of Arduino and test them out with LEDs ( use resistor in series to prevent your LED from burning) and breadboards. Go through the example codes in Arduino IDE ( Arduino’s website is the best place for answers to your doubts). 
+Next learn to use the motor driver (here you will have to use your batteries). <a href="http://www.instructables.com/id/Control-your-motors-with-L293D-and-Arduino/">This</a> article will help you.</p>
 
-<h3 id="boot-up-the-live-usb">3. Boot up the Live USB</h3>
+<h3 id="integrating-the-sensor">Integrating the Sensor</h3>
 
-<p>Now insert the USB into machine, restart and boot into USB drive from the <strong>Boot Options Menu</strong>. Google for hotkey to get into <strong>Boot Menu Options</strong> of your machine model.</p>
+<p>IR sensors are the most basic and versatile sensors. They can be used to tell black lines apart from white, measure the distance in analog and digital form, detect obstacle among many others. Refer <a href="http://maxembedded.com/2013/08/how-to-build-an-ir-sensor/">this</a> article which does a very good job of explaining it. You can build a line-following, wall-following,etc with IR sensor.</p>
 
-<h3 id="start-installation">4. Start Installation</h3>
+<p>There are many other interesting sensors like <a href="http://www.buildcircuit.com/darklight-sensor-using-transistor/">light-sensing</a>, then accelerometers, gyro, etc which detect the movement of the robot which you can experiment with once you are done with your first one.</p>
 
-<p>When prompted for options on booting, select <strong>Install Ubuntu</strong></p>
+<p>And if you want your robot to have arms then servo/stepper motor is the answer.</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/install_ubuntu.jpg" alt="Install Ubuntu" /></p>
+<p><img src="/blog/assets/img/rpi.png" alt="Raspberry Pi" /></p>
 
-<p>Select <em>Continue</em> for first few screens</p>
+<h3 id="you-are-almost-there">You are almost there</h3>
 
-<p><img src="/blog/assets/img/installing_ubuntu/first_few.jpg" alt="First Few Screens" /></p>
+<p>Once you have tested your sensor and motor circuits individually, it’s time to bring them together. Write a code ( I leave this to you) which will process the sensor data and intruct the motors. You can improve the efficiency of your code using algorithms like <a href="http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/">PID</a>. 
+Then fix your motors, castor wheel to the chassis. Attach your sensors at the required place.Finally rest your Arduino and sensors on top of  the chassis along with the battery and you are ready to go.</p>
 
-<h3 id="preparing-partition-for-ubuntu">5. Preparing Partition for Ubuntu</h3>
+<h3 id="whats-next">What’s next?</h3>
 
-<p>After few screens, you will be prompted for <strong>Installation Type</strong>. Choose <strong>Something Else</strong> and continue.</p>
+<p>After you build these basic robots, you should try and procure data in other forms like images of surroundings, noises,etc and process them using image/audio processing techniques. Send data to and fro using bluetooth, WiFi. You can perform certain tasks with your robot by including a robotic arm controlled by a stepper/servo motor. Further improvisation is endless and your imagination is the only limit.</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/installation_type.jpg" alt="Installation Type" /></p>
+<h3 id="useful-tips">Useful Tips</h3>
 
-<p>Now select desired partition (match the size of partition with one you created in step one), and click on <strong>-</strong> to delete the partition</p>
-
-<p><img src="/blog/assets/img/installing_ubuntu/delete_partition.jpg" alt="Ubuntu" /></p>
-
-<h3 id="create-root-swap-and-home-partition">6. Create root, swap and home partition</h3>
-
-<p>Now selecting the same partition, click <strong>+</strong> to create <strong>root</strong> partition.
-Enter size <em>14000 MB</em>, select <em>Logical Partition type</em>, <em>Begining of space</em>, and select <strong>/</strong> as <em>Mount Point</em>. Create the partition.</p>
-
-<p><img src="/blog/assets/img/installing_ubuntu/create_root.jpg" alt="Create Root Partition" /></p>
-
-<p>Follow similar steps for <em>swap</em> and <em>home</em></p>
-
-<h4 id="swap">swap</h4>
 <ul>
-  <li>Size: 16000 (two times your RAM)</li>
-  <li>Logical Partition</li>
-  <li>Begining of Space</li>
-  <li>Use As: swap area</li>
+  <li>Make sure all your modules share a common ground.</li>
+  <li>Always have a switch for your robot.</li>
+  <li>Disconnect wires from pins 0 and 1 on Arduino while uploading code.</li>
+  <li>Have a provision to use <a href="http://www.instructables.com/id/Arduino-DC-motor-speed-and-direction-L293D/">variable speed for motors</a></li>
+  <li>Try making your circuit permanent by soldering to avoid lose connections.</li>
+  <li>Never lose hope and keep building!!</li>
 </ul>
-
-<p><img src="/blog/assets/img/installing_ubuntu/create_swap.jpg" alt="Create Swap Partition" /></p>
-
-<h4 id="home">home</h4>
-<ul>
-  <li>size: (remaining space)</li>
-  <li>Logical Partition</li>
-  <li>Begining of Space</li>
-  <li>Mount Point: /home</li>
-</ul>
-
-<p><img src="/blog/assets/img/installing_ubuntu/create_home.jpg" alt="Create Home Partition" /></p>
-
-<p>Now select <strong>Install Now</strong></p>
-
-<h3 id="follow-next-screens">7. Follow next screens</h3>
-
-<p>Your ubuntu installation should begin by now, follow the screens prompted for user name and password and general system setup. 
-After few minutes, the installation will complete</p>
-
-<h3 id="reboot-and-enjoy">8. Reboot and Enjoy!</h3>
-
-<p>Your ubuntu installation is complete. Reboot the machine to get into Ubuntu. Don’t worry, you can still use Windows.</p>
-
-<p>If you ran into any issue during installation, try googling it or you can always ping me over mail.</p>
-
-<p>Untill then, 
-This is <em>hrily</em> signing off…</p>
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/installing-ubuntu/%20via%20&#64;IEEE_NITK&hashtags=Linux,Ubuntu,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/how-to-get-started-with-bots/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,Diode,Bots,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//installing-ubuntu/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//how-to-get-started-with-bots/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//installing-ubuntu/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//how-to-get-started-with-bots/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
 </section>
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/hrily.jpg" alt="Hrishi Hiraskar">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/tarun_mittal.jpg" alt="Tarun Mittal">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/hrily">Hrishi Hiraskar</a>
+            <a itemprop="name" href="https://github.com/trmittal">Tarun Mittal</a>
         </h3>
-        <p class="desc">I'm CodeCrazy. I love Computer.</p>
-        <a itemprop="email" class="email" href="mailto:hrishihiraskar@gmail.com">hrishihiraskar@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:trmittal24@gmail.com">trmittal24@gmail.com</a>
     </div>
 </section>
 
@@ -253,7 +213,7 @@ This is <em>hrily</em> signing off…</p>
 
 var disqus_config = function () {
 this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = /installing-ubuntu/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.identifier = /how-to-get-started-with-bots/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

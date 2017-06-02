@@ -73,7 +73,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-25 10:48:33 +0000" class="date">25 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-26 16:18:33 +0530" class="date">26 May 2017</time>
         
         <h1 class="post-title" itemprop="name">Hello World</h1>
         <p itemprop="description" class="subtitle">A not so simple Hello World (PS: No need to buy the full version)</p>
@@ -128,14 +128,13 @@
 
 <p>Given below is a typical C program taught in most of the textbooks.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt;
+<div class="highlighter-rouge"><pre class="codehilite"><code>#include &lt;stdio.h&gt;
 
 void main()
 {
     printf("Hello world\n");
 }
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>To compile and run this program, a lot of juggling is done by gcc and the operating system. Of course, standard books and online resources will tell you about how the program works, what each line is and the technical jargon associated with it. Just to recap, here are the fundamental elements of the program:</p>
 
@@ -159,7 +158,7 @@ void main()
 
 <p>is replaced by</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># 1 "temp.c"
+<div class="highlighter-rouge"><pre class="codehilite"><code># 1 "temp.c"
 # 1 "&lt;built-in&gt;"
 # 1 "&lt;command-line&gt;"
 # 31 "&lt;command-line&gt;"
@@ -188,8 +187,7 @@ extern int sprintf (char *__restrict __s,
 
 ...
 
-</code></pre>
-</div>
+</code></pre></div>
 <blockquote>
   <p>Pro Tip: Save a C file with just “#include <stdio.h>" in it. Then run `gcc -c -i <file.c> -o <file.i> to see the actual preprocessing in action. GCC's -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.</file.i></file.c></stdio.h></p>
 </blockquote>
@@ -214,7 +212,7 @@ extern int sprintf (char *__restrict __s,
 <p>…<br />
  and many more optimizations, each of which deserve a 15 hour course in it’s entirety.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	.file	"temp.c"
+<div class="highlighter-rouge"><pre class="codehilite"><code>	.file	"temp.c"
 	.section	.rodata
 .LC0:
 	.string	"Hello World"
@@ -240,8 +238,7 @@ main:
 	.size	main, .-main
 	.ident	"GCC: (GNU) 6.3.1 20170306"
 	.section	.note.GNU-stack,"",@progbits
-</code></pre>
-</div>
+</code></pre></div>
 <blockquote>
   <p>Pro Tip: Use the source code shown above. Compile it with <code class="highlighter-rouge">gcc -S &lt;file&gt;.c</code>. This makes gcc to output the file after preprocessing and compiling and stops further processing of the file.</p>
 </blockquote>
@@ -254,7 +251,7 @@ main:
 
 <p>As a reward for reading the article so much, here is a nice way to write a C program without main. (WHAT??)</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt; // for our beloved printf()
+<div class="highlighter-rouge"><pre class="codehilite"><code>#include &lt;stdio.h&gt; // for our beloved printf()
 #include &lt;stdlib.h&gt; // for our beloved exit()
 
 
@@ -263,8 +260,7 @@ void _start()
     printf("Hello world\n");
     exit(0);
 }
-</code></pre>
-</div>
+</code></pre></div>
 
 <blockquote>
   <p>Compile it with <code class="highlighter-rouge">gcc -nostartfiles &lt;file&gt;.c</code> and run <code class="highlighter-rouge">./a.out</code></p>
