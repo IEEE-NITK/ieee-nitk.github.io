@@ -2,7 +2,7 @@
 layout: post
 title: "Getting to love the Terminal"
 author_github: kaushiksk
-date: 2017-05-25 10:48:33
+date: 2017-05-24 10:48:33
 image: '/assets/img/'
 description: 'Getting started with exploring the Bash shell'
 tags:

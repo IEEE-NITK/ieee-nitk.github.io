@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World"
 author_github: adithyabhatkajake
-date: 2017-05-25 10:48:33
+date: 2017-05-26 10:48:33
 image: '/assets/img/'
 description: 'A not so simple Hello World (PS: No need to buy the full version)'
 tags:
