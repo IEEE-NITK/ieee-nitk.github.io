@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>How to Get Started with Bots</title>
-    <meta name="description" content="A guest entry to the world of bots">
+    <title>Introduction to GPU Computing</title>
+    <meta name="description" content="An overview of how GPUs and Graphic rendering works along with an introduction to GPGPUs">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="How to Get Started with Bots">
-    <meta name="twitter:description" content="A guest entry to the world of bots">
+    <meta name="twitter:title" content="Introduction to GPU Computing">
+    <meta name="twitter:description" content="An overview of how GPUs and Graphic rendering works along with an introduction to GPGPUs">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///how-to-get-started-with-bots/" />
-    <meta property="og:title" content="How to Get Started with Bots">
+    <meta property="og:url" content="http://ieeenitk.org///introduction-to-GPU-computing/" />
+    <meta property="og:title" content="Introduction to GPU Computing">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="A guest entry to the world of bots">
+    <meta property="og:description" content="An overview of how GPUs and Graphic rendering works along with an introduction to GPGPUs">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="How to Get Started with Bots"/>
-    <meta itemprop="description" content="A guest entry to the world of bots">
+    <meta itemprop="name" content="Introduction to GPU Computing"/>
+    <meta itemprop="description" content="An overview of how GPUs and Graphic rendering works along with an introduction to GPGPUs">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -62,7 +62,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/how-to-get-started-with-bots/">
+    <link rel="canonical" href="http://ieeenitk.org/blog/introduction-to-GPU-computing/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/blog/feed.xml" />
 </head>
@@ -73,10 +73,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-06-01 23:58:33 +0530" class="date">01 Jun 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-04 17:30:00 +0530" class="date">04 Jun 2017</time>
         
-        <h1 class="post-title" itemprop="name">How to Get Started with Bots</h1>
-        <p itemprop="description" class="subtitle">A guest entry to the world of bots</p>
+        <h1 class="post-title" itemprop="name">Introduction to GPU Computing</h1>
+        <p itemprop="description" class="subtitle">An overview of how GPUs and Graphic rendering works along with an introduction to GPGPUs</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -122,81 +122,100 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="how-to-get-started-with-bots">How to get Started with bots</h1>
+                <h1 id="a-gamers-priced-possession---graphic-cards">A Gamer’s priced possession - Graphic Cards!</h1>
 
-<p>Have you ever been fascinated by robots - Awestrucking objects which are capable of performing some cool tasks without needing a human intervention (well, unless they decide to go mad! :P) ? And certainly the thought of how these genius creations work and can I make one too? must have crossed your mind. Being in a similar frame of mind couple of years back and having made some basic bots, I thought of writing this article to help the curious people.</p>
+<p>Let’s say that you have bought a brand new computer with one of the latest i7 processors but without installing a separate graphics card. And your friend is still using his 5 year PC with an old i3 processor, but with a high end graphics card installed. Both of you play the same game simultaneously on your own computers. But you notice that the gaming performance is better on his PC even though your computer is brand new. You scratch your head not understanding what’s going on here. You have a much better CPU and everyone knows that the CPU is the “brain” or the mastermind of the computer.</p>
 
-<h3 id="getting-stuff-together">Getting Stuff together</h3>
+<p><img src="/blog/assets/img/introduction_to_gpu_computing/gpu.jpg" alt="GPU" /></p>
 
-<p>It’s surely hard to shell out a few bucks but it’s all worth here. First and foremost you will need a microcontroller. To the beginners out there with no previous experiences with one I will recommend to use Arduino Uno but if you already had enough of Arduino go with MSP430(you will certainly learn more here) from TI. Then comes the robot chassis: buy one which is not too small and strong enough. You will need two DC motors, two wheels, one castor wheel. Also L293d - a motor driver (It is an IC if you didn’t know) which is required to provide extra current to motors. Apart from this you will need a breadboard along with few LEDs and 330Ohm resistors(for testing), jumper wires (M2M, M2F, F2F), sensor components(I will come to these later) and also I highly recommend having a multimeter handy. Lastly a power source: a few 9V batteries ( they drain quickly, you can try rechargable ones) and if you don’t mind shelling out more, buy 12V lead acid battery which are much better than your 9V ones.</p>
+<p>So lets dive a bit deeper into the technical details. Most of you may already know - GPU stands for <strong>Graphics Processing Unit</strong> and CPU stands for <strong>Central Processing Unit</strong>. Both of them are basically microprocessor chips that reside on a PCB board (A CPU resides on a motherboard while a GPU resides on a graphics card board). From a high level point of view, both of them appear to be the same. After all, they are just crunching a lot of numbers in binary, your typical 0s and 1s, +’s and -‘s. So what is the need of a separate GPU when the CPU is capable of doing the same tasks?</p>
 
-<p>Where do I buy these? If you are in Bangalore, head to SP road, Lamington road for Mumbaikars ( I am unaware of other cities). You can also buy it online on robocraze.com, robokits.co.in, amazon.in and many other sites.</p>
+<h2 id="cpu-vs-gpu">CPU vs GPU</h2>
 
-<p>Try catching hold of your friend with similar interests and spilt the bill.</p>
+<p>The difference between the two comes in the way they are designed. What tasks can both of them can handle, how fast or efficiently do they handle the same task, how well do they manage multiple tasks together. Things like that.</p>
 
-<p>Once done with testing on breadboard, people generally prefer to make it permanent by soldering it onto a board which will require a soldering iron.</p>
+<p><img src="/blog/assets/img/introduction_to_gpu_computing/cpu_vs_gpu.png" alt="CPU vs GPU" /></p>
 
-<h3 id="start-building">Start Building</h3>
+<p>CPUs are general purpose processors that are designed to handle a very wide range of tasks. Be it some simple addition, multiplication operations, browsing the internet, playing audio/videos, creating/deleting/searching files in your PC etc. But a CPU has a limited number of cores or processing units. A dual-core CPU has 2 cores, each of which can run only a single process or task simultaneously. (Of course, it is possible to execute multiple processes virtually on each core by the means of <strong>hyper-threading</strong> where a single core is split into various logical CPUs. Read more about multi core CPUs and hyper-threading over <a href="https://www.howtogeek.com/194756/cpu-basics-multiple-cpus-cores-and-hyper-threading-explained/">here</a>).</p>
 
-<p>I believe you are well-versed with Basic C programming and that is enough to get started. Install Arduino IDE and learn basic GPIO functions of Arduino and test them out with LEDs ( use resistor in series to prevent your LED from burning) and breadboards. Go through the example codes in Arduino IDE ( Arduino’s website is the best place for answers to your doubts). 
-Next learn to use the motor driver (here you will have to use your batteries). <a href="http://www.instructables.com/id/Control-your-motors-with-L293D-and-Arduino/">This</a> article will help you.</p>
+<p>GPUs are processors that are designed to take a very specialist workload of rendering 2D/3D graphics and it does it much more efficiently. GPUs generally have around hundreds of cores as compared to a CPU. So given a task - lets say adding 2 matrices having a dimension of 1000 x 1000, the GPU can divide the work or region of data to compute among all the cores, which work in parallel and produce the result almost immediately.</p>
 
-<h3 id="integrating-the-sensor">Integrating the Sensor</h3>
+<p>However, a single GPU core has a much lower performance as compared to a single CPU core due to following reasons:</p>
+<ol>
+  <li>GPU cores have a lesser clock frequency (proportional to number of instructions executed per second) as compared to a typical CPU core.</li>
+  <li>GPUs have a smaller instruction set. They deal with mostly floating point arithmetic and instructions like branch predictors are absent. Hence, they struggle while dealing with a lot of conditional statements.</li>
+  <li>They have smaller cache sizes.</li>
+  <li>Hyper-threading is not present in a single GPU core.</li>
+</ol>
 
-<p>IR sensors are the most basic and versatile sensors. They can be used to tell black lines apart from white, measure the distance in analog and digital form, detect obstacle among many others. Refer <a href="http://maxembedded.com/2013/08/how-to-build-an-ir-sensor/">this</a> article which does a very good job of explaining it. You can build a line-following, wall-following,etc with IR sensor.</p>
+<p>GPUs rely mainly on their massively parallel structure. Lets say you give the GPU 2 numbers to add. Sure, you might say it calculates the result slower than a CPU. But if you give the same GPU a million numbers to add, it will return the result almost instantly as compared to a CPU. So what the GPU cares about is not the time taken to do an individual task, but rather what it does when bulk data is given to it.</p>
 
-<p>There are many other interesting sensors like <a href="http://www.buildcircuit.com/darklight-sensor-using-transistor/">light-sensing</a>, then accelerometers, gyro, etc which detect the movement of the robot which you can experiment with once you are done with your first one.</p>
+<h2 id="why-is-the-job-of-rendering-graphics-suitable-for-a-gpu">Why is the job of rendering graphics suitable for a GPU?</h2>
 
-<p>And if you want your robot to have arms then servo/stepper motor is the answer.</p>
+<p><img src="/blog/assets/img/introduction_to_gpu_computing/nfs.jpg" alt="Need For Speed" /></p>
 
-<p><img src="/blog/assets/img/rpi.png" alt="Raspberry Pi" /></p>
+<p>Say you’re playing Need for speed. What exactly happens while rendering the game screen graphics? Usually, the data is given in the form of a 3D model. So basically there is a car of so and so height, width and depth situated at some position given by a set of 3D coordinates in the world. Similarly, there are buildings, trees, people etc. which are the objects of your world. So firstly, you get the coordinate data which says where exactly is something located. Then you get the information about the color of objects. This is also called the texture. Now, we divide the complex surfaces into smaller triangles or quadrilaterals as they are simple shapes that can be managed easily. Any complex shapes in this world can be broken into triangles. The more the number of triangles you have, the more detailed your objects are.</p>
 
-<h3 id="you-are-almost-there">You are almost there</h3>
+<p><img src="/blog/assets/img/introduction_to_gpu_computing/rabbit.png" alt="Rabbit" /></p>
 
-<p>Once you have tested your sensor and motor circuits individually, it’s time to bring them together. Write a code ( I leave this to you) which will process the sensor data and intruct the motors. You can improve the efficiency of your code using algorithms like <a href="http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/">PID</a>. 
-Then fix your motors, castor wheel to the chassis. Attach your sensors at the required place.Finally rest your Arduino and sensors on top of  the chassis along with the battery and you are ready to go.</p>
+<p>Next, you have a “camera” or the place and angle that you are viewing the entire scene from. Obviously, you can see only 2D images on a computer screen, so the 3D objects in your model have to be projected onto a 2D screen. Firstly, you discard or keep aside the objects that are not visible to your camera and then proceed towards projected all objects in what is called the camera’s view space onto a 2D screen. This is followed by rasterization which is to convert the image in vector graphics format to pixels for output on a display screen. After all this, you proceed towards moving your camera so that it gives an impression of moving in a 3D world.</p>
 
-<h3 id="whats-next">What’s next?</h3>
+<p><img src="/blog/assets/img/introduction_to_gpu_computing/3d_2d.png" alt="3D v/s 2D" /></p>
 
-<p>After you build these basic robots, you should try and procure data in other forms like images of surroundings, noises,etc and process them using image/audio processing techniques. Send data to and fro using bluetooth, WiFi. You can perform certain tasks with your robot by including a robotic arm controlled by a stepper/servo motor. Further improvisation is endless and your imagination is the only limit.</p>
+<p>So as you can see, there are different types of calculations happening which involves mostly three dimensional matrix operations, representing the 3D coordinates, the RGB values for the colors, and transferring all the pixels of the image into a memory buffer. Floating point arithmetic operations need to be supported as the coordinates are all floating point numbers. A lot of three dimensional plane equations need to be solved. Most of these operations can be parallelized because the results do not depend on each other. If there is an operation which say has to be done for every vertex in our model, or every pixel in the image, since there are millions of such vertices and pixels, we can divide the data into batches, and compute all units in a batch independently and in parallel. This kind of work is exactly what a GPU is designed for.</p>
 
-<h3 id="useful-tips">Useful Tips</h3>
+<h2 id="general-purpose-gpu-computing">General Purpose GPU Computing</h2>
 
+<p><img src="/blog/assets/img/introduction_to_gpu_computing/gpu_accel.png" alt="GPU Acceleration" /></p>
+
+<p>Over the years, people realized that some types of computational work can be done better by a GPU as compared to a CPU. They realized this could be applied in situations where the data in motion moves much like images, and the required processing is well-suited for vector and matrix mathematical operations. Subsequently, the term “General Purpose GPUs” or GPGPUs was coined and GPU accelerating computing was used to accelerate applications such as deep learning, analytics, scientific computations etc. Frameworks such as OpenCL, CUDA etc. came into existence that abstracted away the underlying GPGPU architecture that made it easier for programmers to work with it. GPU-accelerated computing offloads compute-intensive portions of the application from the CPU to the GPU, while the remainder of the code still runs on the CPU. From a user’s perspective, applications simply run much faster.</p>
+
+<h2 id="interested-to-learn-more-about-gpu-computing">Interested to learn more about GPU Computing?</h2>
+
+<p>Great! :) You could get started with learning how to code using one of the frameworks used for heterogeneous parallel computing such as OpenCL or CUDA C/C++ and maybe try out a few programs on your own. (Although, first check if your graphics card is compatible with these frameworks)</p>
+
+<p>Links:</p>
 <ul>
-  <li>Make sure all your modules share a common ground.</li>
-  <li>Always have a switch for your robot.</li>
-  <li>Disconnect wires from pins 0 and 1 on Arduino while uploading code.</li>
-  <li>Have a provision to use <a href="http://www.instructables.com/id/Arduino-DC-motor-speed-and-direction-L293D/">variable speed for motors</a></li>
-  <li>Try making your circuit permanent by soldering to avoid lose connections.</li>
-  <li>Never lose hope and keep building!!</li>
+  <li>OpenCL:
+    <ol>
+      <li><a href="https://www.fixstars.com/en/opencl/book/">Fixstars OpenCL Programming Book</a></li>
+      <li><a href="http://www.dahlan.id/files/ebooks2/2015%203rd%20Heterogeneous%20Computing%20with%20OpenCL%202.0.pdf">Heterogeneous Parallel Computing with OpenCL 2.0</a></li>
+    </ol>
+  </li>
+  <li>CUDA:
+    <ol>
+      <li><a href="http://www.nvidia.com/docs/io/116711/sc11-cuda-c-basics.pdf">CUDA C/C++ Basics - Nvidia Corporation</a></li>
+      <li><a href="http://docs.nvidia.com/cuda/cuda-c-programming-guide/#axzz4j3ZskSHg">CUDA C programming guide - Nvidia Developers Zone</a></li>
+    </ol>
+  </li>
 </ul>
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/how-to-get-started-with-bots/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,Diode,Bots,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/introduction-to-GPU-computing/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,High Performance Computing,Game Development,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//how-to-get-started-with-bots/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//introduction-to-GPU-computing/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//how-to-get-started-with-bots/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//introduction-to-GPU-computing/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
 </section>
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/tarun_mittal.jpg" alt="Tarun Mittal">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/vilas.jpg" alt="Vilas M">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/trmittal">Tarun Mittal</a>
+            <a itemprop="name" href="https://github.com/vilas897">Vilas M</a>
         </h3>
-        <p class="desc">Technology Enthusiast currently exploring embedded systems</p>
-        <a itemprop="email" class="email" href="mailto:trmittal24@gmail.com">trmittal24@gmail.com</a>
+        <p class="desc">Leaving the ordinary behind</p>
+        <a itemprop="email" class="email" href="mailto:vilasnitk19@gmail.com">vilasnitk19@gmail.com</a>
     </div>
 </section>
 
@@ -213,7 +232,7 @@ Then fix your motors, castor wheel to the chassis. Attach your sensors at the re
 
 var disqus_config = function () {
 this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = /how-to-get-started-with-bots/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.identifier = /introduction-to-GPU-computing/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

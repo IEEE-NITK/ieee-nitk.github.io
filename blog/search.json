@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Introduction to GPU Computing",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, High Performance Computing, and Game Development",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-GPU-computing/",
+      "date"     : "04 Jun 2017"
+    } ,
+  
+    {
       "title"    : "How to Get Started with Bots",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, Diode, and Bots",

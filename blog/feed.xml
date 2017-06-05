@@ -5,9 +5,29 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 02 Jun 2017 18:57:49 +0530</pubDate>
-    <lastBuildDate>Fri, 02 Jun 2017 18:57:49 +0530</lastBuildDate>
+    <pubDate>Mon, 05 Jun 2017 06:10:52 +0530</pubDate>
+    <lastBuildDate>Mon, 05 Jun 2017 06:10:52 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Introduction to GPU Computing</title>
+        <description>&lt;h1 id=&quot;a-gamers-priced-possession---graphic-cards&quot;&gt;A Gamer’s priced possession - Graphic Cards!&lt;/h1&gt; &lt;p&gt;Let’s say that you have bought a brand new computer with one of the latest i7 processors but without installing a separate graphics card. And your friend is still using his 5 year PC with an old i3 processor, but with a high end graphics card installed. Both of you play the same game simultaneously on your own computers. But you notice that the gaming performance is better on his PC even though your computer is brand new. You scratch your head not understanding what’s going on here. You have a much...</description>
+        <pubDate>Sun, 04 Jun 2017 17:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/introduction-to-GPU-computing/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-GPU-computing/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>High Performance Computing</category>
+        
+        <category>Game Development</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>How to Get Started with Bots</title>
