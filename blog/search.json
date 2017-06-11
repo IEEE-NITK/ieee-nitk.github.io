@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Implementing Google Image Search Style Grid",
+      "category" : "IEEE",
+      "tags"     : "Design and Grid",
+      "url"      : "http://ieeenitk.org/blog//google-image-search-grid/",
+      "date"     : "10 Jun 2017"
+    } ,
+  
+    {
       "title"    : "Lighting Up your Room!",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, Diode, CAS, SPS, and EEE",
