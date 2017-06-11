@@ -36,7 +36,11 @@ IEEE NITK is recognized as a dynamic body of enthusiastic engineers with a passi
 
 IEEE NITK provides its student members with good platforms for sharing knowledge and implementing technology in practical projects through Special Interest Groups (SIGs). 
 
+![IEEE NITK Team](/blog/assets/img/introduction-to-ieee/IEEE_2017.JPG)
+
 The primary SIGs of IEEE NITK are: Diode, Piston and Python.
+
+Apart from that secondary SIGs include WIE(Women in Engineering) and SIGHT(Special Interest Group for Humanitarian Technologies).
 
 In broad terms the objectives of the club are:
 

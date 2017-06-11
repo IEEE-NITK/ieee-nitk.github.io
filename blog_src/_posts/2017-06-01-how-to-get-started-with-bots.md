@@ -43,7 +43,7 @@ There are many other interesting sensors like [light-sensing](http://www.buildci
 
 And if you want your robot to have arms then servo/stepper motor is the answer.
 
-![Raspberry Pi](/blog/assets/img/rpi.png)
+![Raspberry Pi](/blog/assets/img/how-to-get-started-with-bots/rpi.jpg)
 
 ### You are almost there
 

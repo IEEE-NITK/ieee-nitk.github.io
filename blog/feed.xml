@@ -5,9 +5,31 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jun 2017 06:10:52 +0530</pubDate>
-    <lastBuildDate>Mon, 05 Jun 2017 06:10:52 +0530</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 06:20:43 +0530</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 06:20:43 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Lighting Up your Room!</title>
+        <description>&lt;h2 id=&quot;apparatus&quot;&gt;Apparatus:&lt;/h2&gt; &lt;p&gt;1.&lt;strong&gt;LED strips&lt;/strong&gt; &lt;br /&gt; You should find these in most home decor stores. They could turn out to be expensive depending upon the quality of light you expect. There are RGB strips available too! &lt;br /&gt;&lt;/p&gt; &lt;p&gt;2.&lt;strong&gt;TIP 31 switch&lt;/strong&gt;&lt;br /&gt; Now this is a power transistor that can withstand large currents that the LED strips demand&lt;/p&gt; &lt;p&gt;3.&lt;strong&gt;AUX cable&lt;/strong&gt;&lt;br /&gt; This is to connect your music player to the device&lt;/p&gt; &lt;p&gt;4.&lt;strong&gt;12V battery&lt;/strong&gt;&lt;br /&gt; The LED strips demand a lot of current, so get one that supplies enough. There are rechargeable lead acid batteries available. They are cheaper, but bulkier...</description>
+        <pubDate>Sat, 10 Jun 2017 16:18:33 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/lighting-up-your-room/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/lighting-up-your-room/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Diode</category>
+        
+        <category>CAS</category>
+        
+        <category>SPS</category>
+        
+        <category>EEE</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Introduction to GPU Computing</title>
@@ -109,7 +131,7 @@
     
       <item>
         <title>Advice on Computer Science - Vinay Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/vinay_bhat.jpg&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;q-what-do-you-think-should-be-done-in-college-to-enhance-your-resume&quot;&gt;Q. What do you think should be done in college to enhance your resume?&lt;/h3&gt; &lt;p&gt;Ans: One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. It is ideal to contribute to Big Open Source repositories to understand big projects. Best thing is to try to leverage these projects into your first internship. It is more important to learn one language properly rather than every langauge and not master any one of...</description>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/vinay-bhat-interview/vinay_bhat.jpg&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;q-what-do-you-think-should-be-done-in-college-to-enhance-your-resume&quot;&gt;Q. What do you think should be done in college to enhance your resume?&lt;/h3&gt; &lt;p&gt;Ans: One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. It is ideal to contribute to Big Open Source repositories to understand big projects. Best thing is to try to leverage these projects into your first internship. It is more important to learn one language properly rather than every langauge and not master any one of...</description>
         <pubDate>Mon, 15 May 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/vinay-bhat-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/vinay-bhat-interview/</guid>
