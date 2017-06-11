@@ -13,17 +13,13 @@ if len(argv) != 2:
 
 file_name = argv[1]
 
-# for file_name in files_list:
-# 	if(file_name == "image_optimise.py"):
-# 		continue
-# 	else:
 with Image.open(file_name) as img:
 	width,height = img.size
 	print(str(width) + " " + str(height))
 
-	if height > 200:
-		new_width = ((int)((width/height)*200))
-		img = img.resize((new_width,200), Image.ANTIALIAS)
+	if height > 400:
+		new_width = ((int)((width/height)*400))
+		img = img.resize((new_width,400), Image.ANTIALIAS)
 
 	print("Image size after resizing")
 	width,height = img.size
