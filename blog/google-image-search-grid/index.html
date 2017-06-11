@@ -159,7 +159,7 @@ For each image in images:
 BUILD_ROW(images):
 	SET row_width := 0
 	Initialize row_list
-	While row_width &lt; MAX_WIDTH OR images.size &gt; 0:
+	While row_width &lt; MAX_WIDTH AND images.size &gt; 0:
 		Dequeue an image from images
 		Append image to row_list
 		row_width := row_width + image.width

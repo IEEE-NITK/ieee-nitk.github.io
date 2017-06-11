@@ -52,7 +52,7 @@ So now that we have normalized the image heights, let's build a row. First we'll
 BUILD_ROW(images):
 	SET row_width := 0
 	Initialize row_list
-	While row_width < MAX_WIDTH OR images.size > 0:
+	While row_width < MAX_WIDTH AND images.size > 0:
 		Dequeue an image from images
 		Append image to row_list
 		row_width := row_width + image.width
