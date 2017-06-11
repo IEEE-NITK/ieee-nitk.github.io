@@ -51,7 +51,7 @@ Select *Continue* for first few screens
 
 After few screens, you will be prompted for **Installation Type**. Choose **Something Else** and continue.
 
-![Installation Type](/blog/assets/img/installing_ubuntu/installation_type.jpg)
+![Installation Type](/blog/assets/img/installing_ubuntu/something_else.jpg)
 
 Now select desired partition (match the size of partition with one you created in step one), and click on **-** to delete the partition
 
