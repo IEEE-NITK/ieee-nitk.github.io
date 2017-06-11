@@ -34,6 +34,18 @@ trmittal:
 vilas897:
   name: Vilas M
   github: vilas897
-  author_image: 'vilas.jpg'
+  author_image: 'blog-author.jpg'
   user_description: 'Leaving the ordinary behind'
   email: vilasnitk19@gmail.com
+AbhijithKamath:
+  name: Abhijith Kamath
+  github: AbhijithKamath
+  author_image: 'blog-author.jpg'
+  user_description: 'I Hate Books'
+  email: 'kamath.abhijith@gmail.com'
+Anupama:
+  name: Anupama G
+  github: Anupama
+  author_image: 'blog-author.jpg'
+  user_description: 'Chemical Enthusiast'
+  email: 'anupamagvs@gmail.com'
