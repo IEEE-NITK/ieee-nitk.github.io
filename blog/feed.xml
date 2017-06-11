@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Jun 2017 16:33:02 +0530</pubDate>
-    <lastBuildDate>Sun, 11 Jun 2017 16:33:02 +0530</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 16:51:37 +0530</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 16:51:37 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -25,6 +25,26 @@
         <category>SPS</category>
         
         <category>EEE</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>The Class of NP</title>
+        <description>&lt;p&gt;Many of us have this notion that NP stands for “Non Polynomial”, the problems which can’t be solved in polynomial time. This is not true. First of all, NP consist of only decision problem (given any problem, the answer should be yes or no) solvable in polynomial time by a theoretical non-deterministic Turing machine. Well, I am not going to cover non-deterministic Turing machine in this blog, so I will give another verifier based definition.&lt;/p&gt; &lt;h3 id=&quot;verifier-based-definition&quot;&gt;Verifier Based Definition:&lt;/h3&gt; &lt;p&gt;Consider a decision problem X. Let I be an instance of X for which the answer is “yes”. Now if we...</description>
+        <pubDate>Fri, 09 Jun 2017 22:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-class-of-np/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-class-of-np/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Algorithms</category>
+        
+        <category>P v/s NP</category>
         
         
         <category>IEEE</category>
