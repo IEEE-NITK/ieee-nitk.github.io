@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Installing Ubuntu For Windows Users</title>
-    <meta name="description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <title>Implementing Google Image Search Style Grid</title>
+    <meta name="description" content="A walkthrough of implementing image grid similar to Google Search">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="Installing Ubuntu For Windows Users">
-    <meta name="twitter:description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta name="twitter:title" content="Implementing Google Image Search Style Grid">
+    <meta name="twitter:description" content="A walkthrough of implementing image grid similar to Google Search">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///installing-ubuntu/" />
-    <meta property="og:title" content="Installing Ubuntu For Windows Users">
+    <meta property="og:url" content="http://ieeenitk.org///google-image-search-grid/" />
+    <meta property="og:title" content="Implementing Google Image Search Style Grid">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta property="og:description" content="A walkthrough of implementing image grid similar to Google Search">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Installing Ubuntu For Windows Users"/>
-    <meta itemprop="description" content="Detailed Instructions on installing Ubuntu on your Windows machine">
+    <meta itemprop="name" content="Implementing Google Image Search Style Grid"/>
+    <meta itemprop="description" content="A walkthrough of implementing image grid similar to Google Search">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -62,7 +62,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/installing-ubuntu/">
+    <link rel="canonical" href="http://ieeenitk.org/blog/google-image-search-grid/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/blog/feed.xml" />
 </head>
@@ -73,10 +73,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-24 01:33:44 +0530" class="date">24 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-10 17:40:44 +0530" class="date">10 Jun 2017</time>
         
-        <h1 class="post-title" itemprop="name">Installing Ubuntu For Windows Users</h1>
-        <p itemprop="description" class="subtitle">Detailed Instructions on installing Ubuntu on your Windows machine</p>
+        <h1 class="post-title" itemprop="name">Implementing Google Image Search Style Grid</h1>
+        <p itemprop="description" class="subtitle">A walkthrough of implementing image grid similar to Google Search</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -122,108 +122,125 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="installing-ubuntu-for-windows-users">Installing Ubuntu For Windows Users</h1>
+                <h1 id="implementing-google-image-search-style-grid">Implementing Google Image Search Style Grid</h1>
 
-<p><img src="/blog/assets/img/installing_ubuntu/ubuntu.png" alt="Ubuntu" /></p>
+<p>I love design principles of Google. The way they present things is really awesome. One such presentation is Google Image Search.</p>
 
-<p>Hie</p>
+<p><img src="/blog/assets/img/google_image_search/google_image_search.png" alt="Google Image Search" /></p>
 
-<p>Installing Ubuntu on your machine is really helpfull in college days. It comes free and there are lots of open source softwares available for it.
-Last year, a lot of people came to my room for installing ubuntu on their machine. I once thought of opening shop for installing ubuntu (Just Kidding :P)</p>
+<p>Look at the way they arrange images. Each row has a fixed width, but their are no columns. The images have arranges themselves, intelligently, just enough to fit the row. I always wondered, what algorithm they must have used to achieve this.</p>
 
-<p>So, this brief blog gives instructions on installing Ubuntu alongside Windows as a dual boot OS.</p>
+<h3 id="what-i-thought">What I thought</h3>
 
-<h3 id="creating-a-partition-for-ubuntu">1. Creating a partition for Ubuntu</h3>
+<p>So my search began. Initially I thought they might have used some kind of knapsack algorithm to fit images to the row width. It means rearragning the positions of images, shifting them from one row to another. But if you inspect, the images don’t change their positions, yet they can fit in the row, amazing!</p>
 
-<p>First thing we need to do is create a partition to install ubuntu. If you already have a partition, empty it and format it. If you don’t have one, follow this <a href="http://www.wikihow.com/Partition-Your-Hard-Drive-in-Windows-7">page</a>.
-<em>Remeber the size of the partition you desire, it will be usefull later.</em></p>
+<p>I searched the internet to find whats behind the amazing grid. It turns out that, the technique which is used is far simpler than knapsack and yet brilliant. So, here I present you a really simple technique to achive the <strong>Google Image Search style grid</strong></p>
 
-<h3 id="create-bootable-live-usb">2. Create Bootable Live USB</h3>
+<p><em>NOTE: This post does not provide any ‘ready to copy+paste’ code. I will only provide pseudo code, you are free to implement it in any language you prefer.</em></p>
 
-<p><a href="https://www.ubuntu.com/download/desktop">Download</a> and create a live USB or DVD. In Windows, my favorite tool to create a live USB is <a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Universal USB Installer</a>.</p>
+<h3 id="initial-intuition">Initial intuition</h3>
 
-<h3 id="boot-up-the-live-usb">3. Boot up the Live USB</h3>
+<p>If we look closely, we can see that the images in a row have equal height. Also, the heights of rows are not same. So the first intuition is to make the heights of images equal. Lets say we have list of <code class="highlighter-rouge">images</code> which stores <code class="highlighter-rouge">height</code> and <code class="highlighter-rouge">width</code> of each image.</p>
 
-<p>Now insert the USB into machine, restart and boot into USB drive from the <strong>Boot Options Menu</strong>. Google for hotkey to get into <strong>Boot Menu Options</strong> of your machine model.</p>
+<div class="highlighter-rouge"><pre class="codehilite"><code>Set CONST_HEIGHT := 160
+For each image in images:
+	Resize image to height CONST_HEIGHT, constraint ratio
+</code></pre></div>
 
-<h3 id="start-installation">4. Start Installation</h3>
+<h3 id="building-a-row">Building a Row</h3>
 
-<p>When prompted for options on booting, select <strong>Install Ubuntu</strong></p>
+<p>So now that we have normalized the image heights, let’s build a row. First we’ll have a look at the pseudo code, explanation is on the way…</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/install_ubuntu.jpg" alt="Install Ubuntu" /></p>
+<div class="highlighter-rouge"><pre class="codehilite"><code>/**
+ * Procedure to build a single row
+ * parameter: images - list of images
+ * returns: row - list of images in the built row
+ */
+BUILD_ROW(images):
+	SET row_width := 0
+	Initialize row_list
+	While row_width &lt; MAX_WIDTH OR images.size &gt; 0:
+		Dequeue an image from images
+		Append image to row_list
+		row_width := row_width + image.width
+	If row_width &gt; MAX_WIDTH:
+		Create new image row_image, with height = CONST_HEIGHT and width = row_width
+		Resize row_image to width MAX_WIDTH, constraint ratio
+		For each image in row_list:
+			Resize image to height row_image.height, constraint ratio
+	return row_list
+</code></pre></div>
 
-<p>Select <em>Continue</em> for first few screens</p>
+<p>So let’s see whats happening here. First we intialized row_list which stores the images in that particular row, and a variable row_width which will store the total width of the row. 
+Now we keep adding images to row from original list until the row_width exceeds the <code class="highlighter-rouge">MAX_WIDTH</code>, which is maximum width of the screen. Now we have a row which looks something like this.</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/first_few.jpg" alt="First Few Screens" /></p>
+<p><img src="/blog/assets/img/google_image_search/row.jpg" alt="Row" /></p>
 
-<h3 id="preparing-partition-for-ubuntu">5. Preparing Partition for Ubuntu</h3>
+<p>Now comes the trick. We won’t try to fit the images in row, instead we will try to fit our created row in the maximum width of the screen. So we create an dummy <code class="highlighter-rouge">row_image</code>, which represents the entire row, with height equal to <code class="highlighter-rouge">CONST_HEIGHT</code> and width equal to <code class="highlighter-rouge">row_width</code>. Now we resize the <code class="highlighter-rouge">row_image</code> to width equal to <code class="highlighter-rouge">MAX_WIDTH</code> and then we resize all the images in <code class="highlighter-rouge">row_list</code> to height equal to the new height of <code class="highlighter-rouge">row_image</code>.
+Here’s a depiction of the process…</p>
 
-<p>After few screens, you will be prompted for <strong>Installation Type</strong>. Choose <strong>Something Else</strong> and continue.</p>
+<p><img src="/blog/assets/img/google_image_search/resized_row.jpg" alt="Resized Row" /></p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/something_else.jpg" alt="Installation Type" /></p>
+<h3 id="building-the-grid">Building the Grid</h3>
 
-<p>Now select desired partition (match the size of partition with one you created in step one), and click on <strong>-</strong> to delete the partition</p>
+<p>Now that we know how to build a row, building the grid is easy.</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/delete_partition.jpg" alt="Ubuntu" /></p>
+<div class="highlighter-rouge"><pre class="codehilite"><code>/**
+ * Procedure to build the grid
+ * parameter: images - list of images
+ * returns: grid - list of rows
+ */
+BUILD_GRID(images):
+	Initialize grid
+	While images.size &gt; 0:
+		SET row := BUILD_ROW(images)
+		Append row to grid
+	return grid
+</code></pre></div>
 
-<h3 id="create-root-swap-and-home-partition">6. Create root, swap and home partition</h3>
+<p>Nice, we just made a Google Image Search style grid, where images fit in a row, intelligently.</p>
 
-<p>Now selecting the same partition, click <strong>+</strong> to create <strong>root</strong> partition.
-Enter size <em>14000 MB</em>, select <em>Logical Partition type</em>, <em>Begining of space</em>, and select <strong>/</strong> as <em>Mount Point</em>. Create the partition.</p>
+<h3 id="theres-more">There’s more</h3>
 
-<p><img src="/blog/assets/img/installing_ubuntu/create_root.jpg" alt="Create Root Partition" /></p>
+<p>Hold on, there’s little more. While resizing the images, due to floating point divisions and floor operations, we lose some units in the row. If we neglect them, the rows won’t have equal widths. To overcome this, we just need to know the units we have lost and divide them equally among the images.</p>
 
-<p>Follow similar steps for <em>swap</em> and <em>home</em></p>
+<div class="highlighter-rouge"><pre class="codehilite"><code>BUILD_ROW(images):
+	...
+	// After resizing the images
+	// Calculate width of resized row
+	SET row_width := 0
+	For each image in row_list:
+		row_width := row_widt-h + image.width
+	// Calculate the lost units
+	SET delta := MAX_WIDTH - row_width
+	// Divide the lost units among the images
+	While delta &gt; 0:
+		For each image in row_list:
+			image.width := image.width + 1
+			delta := delta - 1
+	return row_list
+</code></pre></div>
 
-<h4 id="swap">swap</h4>
-<ul>
-  <li>Size: 16000 (two times your RAM)</li>
-  <li>Logical Partition</li>
-  <li>Begining of Space</li>
-  <li>Use As: swap area</li>
-</ul>
+<p>You might be thinking that, aren’t we changing image aspect ratio here? Yes, but one can lose a single unit in a single division. So the maximum number of lost units is equal to number of images in row. So width of each image will be increased by atmost one, which isn’t a big deal. Also you can center crop the images, so that there isn’t any empty space left out.</p>
 
-<p><img src="/blog/assets/img/installing_ubuntu/create_swap.jpg" alt="Create Swap Partition" /></p>
+<p>Go ahead, try implementing it in your next web or mobile app. If you find any issues, you can always mail me…</p>
 
-<h4 id="home">home</h4>
-<ul>
-  <li>size: (remaining space)</li>
-  <li>Logical Partition</li>
-  <li>Begining of Space</li>
-  <li>Mount Point: /home</li>
-</ul>
-
-<p><img src="/blog/assets/img/installing_ubuntu/create_home.jpg" alt="Create Home Partition" /></p>
-
-<p>Now select <strong>Install Now</strong></p>
-
-<h3 id="follow-next-screens">7. Follow next screens</h3>
-
-<p>Your ubuntu installation should begin by now, follow the screens prompted for user name and password and general system setup. 
-After few minutes, the installation will complete</p>
-
-<h3 id="reboot-and-enjoy">8. Reboot and Enjoy!</h3>
-
-<p>Your ubuntu installation is complete. Reboot the machine to get into Ubuntu. Don’t worry, you can still use Windows.</p>
-
-<p>If you ran into any issue during installation, try googling it or you can always ping me over mail.</p>
-
-<p>Untill then, 
-This is <em>hrily</em> signing off…</p>
+<p>That’s it guys, until then, 
+This is <em>hrily</em> signing of…</p>
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/installing-ubuntu/%20via%20&#64;IEEE_NITK&hashtags=Linux,Ubuntu,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/google-image-search-grid/%20via%20&#64;IEEE_NITK&hashtags=Design,Grid,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//installing-ubuntu/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//google-image-search-grid/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//installing-ubuntu/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//google-image-search-grid/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -253,7 +270,7 @@ This is <em>hrily</em> signing off…</p>
 
 var disqus_config = function () {
 this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = /installing-ubuntu/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.identifier = /google-image-search-grid/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Implementing Google Image Search Style Grid"
-date: 2017-06-11 12:10:44
+date: 2017-06-10 12:10:44
 image: '/assets/img/'
 description: 'A walkthrough of implementing image grid similar to Google Search'
 tags:
 - Design
 - Grid
-author: 'Hrishi Hiraskar'
-author_image: 'hrily.jpg'
-user_description: "I'm CodeCrazy. I love Computer."
-email: hrishihiraskar@gmail.com
+categories:
+- IEEE
+github_username: 'hrily'
+comments: true
 ---
 
 # Implementing Google Image Search Style Grid

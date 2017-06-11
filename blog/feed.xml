@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Jun 2017 16:51:37 +0530</pubDate>
-    <lastBuildDate>Sun, 11 Jun 2017 16:51:37 +0530</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 17:00:23 +0530</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 17:00:23 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Implementing Google Image Search Style Grid</title>
+        <description>&lt;h1 id=&quot;implementing-google-image-search-style-grid&quot;&gt;Implementing Google Image Search Style Grid&lt;/h1&gt; &lt;p&gt;I love design principles of Google. The way they present things is really awesome. One such presentation is Google Image Search.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/google_image_search/google_image_search.png&quot; alt=&quot;Google Image Search&quot; /&gt;&lt;/p&gt; &lt;p&gt;Look at the way they arrange images. Each row has a fixed width, but their are no columns. The images have arranges themselves, intelligently, just enough to fit the row. I always wondered, what algorithm they must have used to achieve this.&lt;/p&gt; &lt;h3 id=&quot;what-i-thought&quot;&gt;What I thought&lt;/h3&gt; &lt;p&gt;So my search began. Initially I thought they might have used some kind of knapsack algorithm to fit images to...</description>
+        <pubDate>Sat, 10 Jun 2017 17:40:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/google-image-search-grid/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/google-image-search-grid/</guid>
+        
+        <category>Design</category>
+        
+        <category>Grid</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Lighting Up your Room!</title>
@@ -183,26 +199,6 @@
         <category>Internships</category>
         
         <category>Career Advice</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to IEEE-NITK Chapter</title>
-        <description>&lt;p&gt;IEEE is the world’s largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing and technology information around the globe.&lt;/p&gt; &lt;p&gt;IEEE is incorporated under the Not-for-Profit Corporation Law of the state of New York. It was formed in 1963 by the merger of the Institute of Radio Engineers (IRE, founded 1912) and the American Institute of Electrical Engineers (AIEE, founded 1884).&lt;/p&gt; &lt;h2 id=&quot;beginning-of-ieee-nitk&quot;&gt;Beginning...</description>
-        <pubDate>Mon, 15 May 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/introduction-to-ieee/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-ieee/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
-        <category>Piston</category>
-        
-        <category>Diode</category>
         
         
         <category>IEEE</category>
