@@ -11,10 +11,8 @@ tags:
 - Career Advice
 categories:
 - IEEE
-author: 'Salman Shah'
-author_image: 'salman_shah.jpg'
-user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
-email: sbs.191197@gmail.com
+github_username: 'salman-bhai'
+comments: true
 ---
 
 ![Vinay Bhat](/blog/assets/img/vinay_bhat.jpg)
@@ -50,3 +48,5 @@ Make sure you have a technical resume which doesn't not include unnecessary thin
 ### Q. How useful is an winter internship ?
 
 Ans: Internships in general are useful beyond a classroom. The skills acquired are very different and gives you a new experience which is very helpful. One month isn't quite a lot of time but it does make you grow, especially if it's something different from what you've done earlier. It's always better to spend time fruitfully rather than staying home and doing nothing.
+
+{% if page.comments %} • <a href="{{site.url}}{{site.baseurl}}{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}

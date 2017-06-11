@@ -13,6 +13,9 @@ twitter_username: IEEE_NITK
 github_username: IEEE-NITK
 facebook_username: IEEENITK
 
+#Facebook Sharing
+facebook_app_id: 0011038251882641
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -38,5 +41,3 @@ links:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
-
-#Special gems for images

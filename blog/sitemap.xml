@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieeenitk.org/blog/introduction-to-GPU-computing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/how-to-get-started-with-bots/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Hello-World/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/getting-to-love-the-terminal/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/installing-ubuntu/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieeenitk.org/blog/vinay-bhat-interview/</loc>
 	  </url>
 	

@@ -1,10 +1,50 @@
 [
   
     {
+      "title"    : "Introduction to GPU Computing",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, High Performance Computing, and Game Development",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-GPU-computing/",
+      "date"     : "04 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "How to Get Started with Bots",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, Diode, and Bots",
+      "url"      : "http://ieeenitk.org/blog//how-to-get-started-with-bots/",
+      "date"     : "01 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Hello World",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, GCC, C, Programming, and HelloWorld",
+      "url"      : "http://ieeenitk.org/blog//Hello-World/",
+      "date"     : "26 May 2017"
+    } ,
+  
+    {
+      "title"    : "Getting to love the Terminal",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, Unix, Terminal, and Bash",
+      "url"      : "http://ieeenitk.org/blog//getting-to-love-the-terminal/",
+      "date"     : "24 May 2017"
+    } ,
+  
+    {
+      "title"    : "Installing Ubuntu For Windows Users",
+      "category" : "",
+      "tags"     : "Linux and Ubuntu",
+      "url"      : "http://ieeenitk.org/blog//installing-ubuntu/",
+      "date"     : "24 May 2017"
+    } ,
+  
+    {
       "title"    : "Advice on Computer Science - Vinay Bhat",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, CompSoc, Internships, and Career Advice",
-      "url"      : "/blog/vinay-bhat-interview/",
+      "url"      : "http://ieeenitk.org/blog//vinay-bhat-interview/",
       "date"     : "15 May 2017"
     } ,
   
@@ -12,7 +52,7 @@
       "title"    : "Introduction to IEEE-NITK Chapter",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, CompSoc, Piston, and Diode",
-      "url"      : "/blog/introduction-to-ieee/",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-ieee/",
       "date"     : "15 May 2017"
     } 
   

@@ -28,6 +28,10 @@ layout: default
                             <a href="{{ site.baseurl }}/blog/tags/#{{tag | slugify }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
+
+                    <div class="comments">
+                    <a href="{{ site.baseurl }}{{ post.url }}#{{disqus_thread | slugify}}">0 Comments</a>
+                    </div>
                 </div>
         </article>
     {% endfor %}

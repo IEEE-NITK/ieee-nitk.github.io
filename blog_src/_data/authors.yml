@@ -1,9 +1,39 @@
+kaushiksk:
+  name: Kaushik S Kalmady
+  github: kaushiksk
+  author_image: 'kaushik_sk.jpg'
+  user_description: "Learn. Build. Build on it."
+  email: kaushikskalmady@outlook.com
 salman-bhai:
   name: Salman Shah
   github: salman-bhai
-chinmaydd:
-  name: Chinmay Deshpande
-  github: chinmaydd
+  author_image: 'salman_shah.jpg'
+  user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
+  email: sbs.191197@gmail.com
 hrily:
   name: Hrishi Hiraskar
   github: hrily
+  author_image: 'hrily.jpg'
+  user_description: "I'm CodeCrazy. I love Computer."
+  email: hrishihiraskar@gmail.com
+chinmaydd:
+  name: Chinmay Deshpande
+  github: chinmaydd
+adithyabhatkajake:
+  name: Adithya Bhat
+  github: adithyabhatkajake
+  author_image: 'adithyabk.jpg'
+  user_description: "C, Linux and cryptography - My deathly hallows"
+  email: dth.bht@gmail.com
+trmittal:
+  name: Tarun Mittal
+  github: trmittal
+  author_image: 'tarun_mittal.jpg'
+  user_description: "Technology Enthusiast currently exploring embedded systems"
+  email: 'trmittal24@gmail.com'
+vilas897:
+  name: Vilas M
+  github: vilas897
+  author_image: 'vilas.jpg'
+  user_description: 'Leaving the ordinary behind'
+  email: vilasnitk19@gmail.com
