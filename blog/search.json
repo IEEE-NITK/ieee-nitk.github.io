@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "Why Not Chemical Engineering",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, Chemical, Piston, and Career Advice",
+      "url"      : "http://ieeenitk.org/blog//why-not-chemical-engineering/",
+      "date"     : "07 Jun 2017"
+    } ,
+  
+    {
       "title"    : "Introduction to GPU Computing",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, CompSoc, High Performance Computing, and Game Development",
