@@ -20,6 +20,8 @@ IEEE is the world's largest professional association advancing innovation and te
 
 IEEE is incorporated under the Not-for-Profit Corporation Law of the state of New York. It was formed in 1963 by the merger of the Institute of Radio Engineers (IRE, founded 1912) and the American Institute of Electrical Engineers (AIEE, founded 1884). 
 
+![IEEE NITK Team](/blog/assets/img/blog-image.png)
+
 ## Beginning of IEEE NITK
 
 Started in 1988, IEEE NITK has progressed exponentially and involved itself in various regional and global technical activities. Our effort has been fruitful in the form of various awards and laurels, the Best Student Branch Award (2007), GINI Student Branch Award (2010) and The Darrel Chong Student Activity Award (Silver Medal). Now one of the largest student branches worldwide, we are getting bigger and better.
