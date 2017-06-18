@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 19:43:16 +0530</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 19:43:16 +0530</lastBuildDate>
-    <generator>Jekyll v3.4.4</generator>
+    <pubDate>Sun, 18 Jun 2017 23:06:27 +0530</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 23:06:27 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Fluid mechanics in everyday life</title>
@@ -44,7 +44,7 @@
       </item>
     
       <item>
-        <title>Through the eyes of a computer</title>
+        <title>Through the eyes of a Computer</title>
         <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/through-the-eyes-of-a-computer/image001.jpg&quot; alt=&quot;Intro&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Robot&lt;/strong&gt; – A word that might remind you of a Rajnikanth starrer or give you the picture of a metallic body going here and there and doing things that humans do quite naturally, on their own. All of us have at least once thought of owning a robot that could do our assignments, or just do things that we are lazy to do. And then, as you enter your college, you take online courses for learning how to build robots that follow lines, identify colours and do all sorts of things that you think it should...</description>
         <pubDate>Wed, 14 Jun 2017 18:40:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/through-the-eyes-of-a-computer/</link>

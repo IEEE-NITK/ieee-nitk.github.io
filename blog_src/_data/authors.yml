@@ -56,10 +56,10 @@ isha97:
   user_description: 'Theoretical Computer Science Enthusiast'
   email: 'tarteisha@gmail.com'
 mohita:
-  name: Mohita Chowdhury
+  name: Mohiitaa Chowdhury
   github: mohita
   author_image: 'mohita.jpg'
-  user_description: 'Breathing in oxygen, breathing out ideas :P'
+  user_description: 'Breathing in oxygen, breathing out ideas'
   email: 'chowdhury.mohita@gmail.com'
 jeshventhraja:
   name: Jeshventh Raja
@@ -82,6 +82,6 @@ vasista:
 shreyas:
   name: Shreyas Hegde
   github: shreyas
-  author_image: 'shreyas.jpg'
+  author_image: 'shreyas.jpeg'
   user_description: 'Mechanical Engineering MS Admit at Duke University'
   email: 'shreyas.hegde7@gmail.com'

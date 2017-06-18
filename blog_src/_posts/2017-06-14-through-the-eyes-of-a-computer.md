@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Through the eyes of a computer"
+title: "Through the eyes of a Computer"
 author_github: mohita
 date: 2017-06-14 13:10:44
 image: '/assets/img/'
@@ -52,14 +52,15 @@ Most of the online tutorials on Computer Vision properly cover the basics of Cam
 When you start learning the epipolar constraints and camera calibration, it does get intimidating at first. But don’t worry my friend, it’s just a phase :P. It’s just a simple change of coordinates – You project your point in the world frame to the camera frame (using Extrinsics) and then bring it from the camera frame to the image frame(using Intrinsics). Well, it’s not this simple , but trust me, it’s really interesting. And if you want to go further, you can use Machine Learning to unleash the power of your CV algorithms.
 
 I will give some references in the end so that you can also embark onto this journey.
+
 Talking about applications, I forgot to mention about Virtual Reality (ahh! That’s what we wanted to hear :P). There is an enormous scope of Computer Vison in this field. Imagine clicking pictures of a place you are holidaying at and your friend gets to see the entire place in a 3D view in Real time! Won’t that be cool? Well, of course it will be unless you spent lakhs to actually go to that place :P.
 
 That was a lot of introduction I suppose. So, let’s start learning!
 Here are some good resources to get started :D
 * [Introduction to Computer Vision by Udacity](https://www.udacity.com/course/introduction-to-computer-vision--ud810) - A well designed and fun filled course that takes you from the theory to applications
-*	This course is good for deep intuition in the image processing part
+* This course is good for deep intuition in the image processing part
 <iframe width="560" height="315" src="https://www.youtube.com/embed/715uLCHt4jE" frameborder="0" allowfullscreen></iframe>
-*	The book “Multi view Geometry” for those who want to go into the depths of geometry.
+* The book “Multi view Geometry” for those who want to go into the depths of geometry.
 
 These are the resources that should be more than enough to get a little idea on how you do things. To actually do things, you can solve problem sets online or pick up OpenCV documentation and start exploring. By the way, OpenCV is a library that has millions of functions already implemented for you so that you can get yourself involved in what’s yet to be done :)
 
