@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Introduction to Reverse Engineering",
+      "category" : "IEEE",
+      "tags"     : "CTF, CompSoc, Ethical Hacking, and Security",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-reverse-engineering/",
+      "date"     : "14 Jun 2017"
+    } ,
+  
+    {
       "title"    : "Implementing Google Image Search Style Grid",
       "category" : "IEEE",
       "tags"     : "Design and Grid",
