@@ -34,6 +34,24 @@ trmittal:
 vilas897:
   name: Vilas M
   github: vilas897
-  author_image: 'vilas.jpg'
+  author_image: 'blog-author.jpg'
   user_description: 'Leaving the ordinary behind'
   email: vilasnitk19@gmail.com
+AbhijithKamath:
+  name: Abhijith Kamath
+  github: AbhijithKamath
+  author_image: 'abhijith_kamath.jpeg'
+  user_description: 'To the brave to tread the path less taken, to the ones who believe the answer to everything lies in data'
+  email: 'kamath.abhijith@gmail.com'
+Anupama:
+  name: Anupama G
+  github: Anupama
+  author_image: 'anupama.jpeg'
+  user_description: 'Lover of formalised curiosity'
+  email: 'anupamagvs@gmail.com'
+isha97:
+  name: Isha Tarte
+  github: isha97
+  author_image: 'isha.jpg'
+  user_description: 'Theoretical Computer Science Enthusiast'
+  email: 'tarteisha@gmail.com'

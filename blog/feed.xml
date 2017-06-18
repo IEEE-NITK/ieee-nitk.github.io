@@ -5,9 +5,87 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jun 2017 06:10:52 +0530</pubDate>
-    <lastBuildDate>Mon, 05 Jun 2017 06:10:52 +0530</lastBuildDate>
+    <pubDate>Sat, 17 Jun 2017 06:10:04 +0530</pubDate>
+    <lastBuildDate>Sat, 17 Jun 2017 06:10:04 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Implementing Google Image Search Style Grid</title>
+        <description>&lt;h1 id=&quot;implementing-google-image-search-style-grid&quot;&gt;Implementing Google Image Search Style Grid&lt;/h1&gt; &lt;p&gt;I love design principles of Google. The way they present things is really awesome. One such presentation is Google Image Search.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/google_image_search/google_image_search.png&quot; alt=&quot;Google Image Search&quot; /&gt;&lt;/p&gt; &lt;p&gt;Look at the way they arrange images. Each row has a fixed width, but their are no columns. The images have arranges themselves, intelligently, just enough to fit the row. I always wondered, what algorithm they must have used to achieve this.&lt;/p&gt; &lt;h3 id=&quot;what-i-thought&quot;&gt;What I thought&lt;/h3&gt; &lt;p&gt;So my search began. Initially I thought they might have used some kind of knapsack algorithm to fit images to...</description>
+        <pubDate>Sat, 10 Jun 2017 17:40:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/google-image-search-grid/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/google-image-search-grid/</guid>
+        
+        <category>Design</category>
+        
+        <category>Grid</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>Lighting Up your Room!</title>
+        <description>&lt;h2 id=&quot;apparatus&quot;&gt;Apparatus:&lt;/h2&gt; &lt;p&gt;1.&lt;strong&gt;LED strips&lt;/strong&gt; &lt;br /&gt; You should find these in most home decor stores. They could turn out to be expensive depending upon the quality of light you expect. There are RGB strips available too! &lt;br /&gt;&lt;/p&gt; &lt;p&gt;2.&lt;strong&gt;TIP 31 switch&lt;/strong&gt;&lt;br /&gt; Now this is a power transistor that can withstand large currents that the LED strips demand&lt;/p&gt; &lt;p&gt;3.&lt;strong&gt;AUX cable&lt;/strong&gt;&lt;br /&gt; This is to connect your music player to the device&lt;/p&gt; &lt;p&gt;4.&lt;strong&gt;12V battery&lt;/strong&gt;&lt;br /&gt; The LED strips demand a lot of current, so get one that supplies enough. There are rechargeable lead acid batteries available. They are cheaper, but bulkier...</description>
+        <pubDate>Sat, 10 Jun 2017 16:18:33 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/lighting-up-your-room/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/lighting-up-your-room/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Diode</category>
+        
+        <category>CAS</category>
+        
+        <category>SPS</category>
+        
+        <category>EEE</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>The Class of NP</title>
+        <description>&lt;p&gt;Many of us have this notion that NP stands for “Non Polynomial”, the problems which can’t be solved in polynomial time. This is not true. First of all, NP consist of only decision problem (given any problem, the answer should be yes or no) solvable in polynomial time by a theoretical non-deterministic Turing machine. Well, I am not going to cover non-deterministic Turing machine in this blog, so I will give another verifier based definition.&lt;/p&gt; &lt;h3 id=&quot;verifier-based-definition&quot;&gt;Verifier Based Definition:&lt;/h3&gt; &lt;p&gt;Consider a decision problem X. Let I be an instance of X for which the answer is “yes”. Now if we...</description>
+        <pubDate>Fri, 09 Jun 2017 22:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-class-of-np/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-class-of-np/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Algorithms</category>
+        
+        <category>P v/s NP</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>Why Not Chemical Engineering</title>
+        <description>&lt;p&gt;I don’t know what kind of fascination it is, probably parents sermon their little ones or the Indian school teachers are rather pedagogues, but this one notion of securing admission for undergraduation in a leading institute with specialisation in computer science is considered to be victory. I too was once a prey to this concept. The D-day shattered my dreams and landed me to choose one among the core branches. Hence, by elimination, the same technique one might use in the exams (xD), I chose chemical.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Preliminary thoughts:&lt;/strong&gt; Chemical engineering = Chemistry. Bury myself. Very disinclined to the idea of...</description>
+        <pubDate>Wed, 07 Jun 2017 12:18:33 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/why-not-chemical-engineering/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/why-not-chemical-engineering/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Chemical</category>
+        
+        <category>Piston</category>
+        
+        <category>Career Advice</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Introduction to GPU Computing</title>
@@ -109,7 +187,7 @@
     
       <item>
         <title>Advice on Computer Science - Vinay Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/vinay_bhat.jpg&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;q-what-do-you-think-should-be-done-in-college-to-enhance-your-resume&quot;&gt;Q. What do you think should be done in college to enhance your resume?&lt;/h3&gt; &lt;p&gt;Ans: One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. It is ideal to contribute to Big Open Source repositories to understand big projects. Best thing is to try to leverage these projects into your first internship. It is more important to learn one language properly rather than every langauge and not master any one of...</description>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/vinay-bhat-interview/vinay_bhat.jpg&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;q-what-do-you-think-should-be-done-in-college-to-enhance-your-resume&quot;&gt;Q. What do you think should be done in college to enhance your resume?&lt;/h3&gt; &lt;p&gt;Ans: One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. It is ideal to contribute to Big Open Source repositories to understand big projects. Best thing is to try to leverage these projects into your first internship. It is more important to learn one language properly rather than every langauge and not master any one of...</description>
         <pubDate>Mon, 15 May 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/vinay-bhat-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/vinay-bhat-interview/</guid>
@@ -121,26 +199,6 @@
         <category>Internships</category>
         
         <category>Career Advice</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to IEEE-NITK Chapter</title>
-        <description>&lt;p&gt;IEEE is the world’s largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing and technology information around the globe.&lt;/p&gt; &lt;p&gt;IEEE is incorporated under the Not-for-Profit Corporation Law of the state of New York. It was formed in 1963 by the merger of the Institute of Radio Engineers (IRE, founded 1912) and the American Institute of Electrical Engineers (AIEE, founded 1884).&lt;/p&gt; &lt;h2 id=&quot;beginning-of-ieee-nitk&quot;&gt;Beginning...</description>
-        <pubDate>Mon, 15 May 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/introduction-to-ieee/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-ieee/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
-        <category>Piston</category>
-        
-        <category>Diode</category>
         
         
         <category>IEEE</category>

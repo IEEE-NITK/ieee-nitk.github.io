@@ -45,7 +45,7 @@ Just to recap, here are the fundamental elements of the program:
 3. `main()` is the entry point of the program.
 4. `printf()` is a C function that is used to print formatted (printf - print format) strings.
 
-<img src="/blog/assets/img/intro.png">
+<img src="/blog/assets/img/hello-world/intro.png">
 
 Let us start unravelling some of the complexities of the example program. 
 
