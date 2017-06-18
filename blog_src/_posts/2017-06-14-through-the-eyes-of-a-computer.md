@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Through the eyes of a computer"
+title: "Through the eyes of a Computer"
 author_github: mohita
 date: 2017-06-14 13:10:44
 image: '/assets/img/'
@@ -10,7 +10,7 @@ tags:
 - CompSoc
 - Diode
 - Image Processing
-- artificial intelligence
+- Artificial Intelligence
 categories:
 - IEEE
 github_username: 'mohita'
@@ -45,21 +45,22 @@ First of all, let me make somethings clear! There are many misconceptions people
 
 Didn’t like Geometry in school? I bet you will start loving it when you are introduced to problems that transform basic geometry into a higher level of application. Loved geometry, you will start loving it more! :P
 
-Most of the online tutorials on Computer Vision properly cover the basics of Cameras and Geometry but the major struggle is understanding the algorithms without a proper knowledge of Linear algebra. Reducing huge matrices and finding eigenvectors (oh! Jargons: P) never made so much sense when we were doing them in our 3rdSEM. But as they say, everything happens for good :P. You will realise that it is indeed true and it’s worth spending time on basics of linear algebra. It not only helps in the understanding the existing algorithms, but also helps in getting the intuition with which those great scientists came out with those algorithms. And when you know this formula, you are ready to devise algorithms of your own!
+Most of the online tutorials on Computer Vision properly cover the basics of Cameras and Geometry but the major struggle is understanding the algorithms without a proper knowledge of Linear algebra. Reducing huge matrices and finding eigenvectors (oh! Jargons: P) never made so much sense when we were doing them in our 3rd semester. But as they say, everything happens for good :P. You will realise that it is indeed true and it’s worth spending time on basics of linear algebra. It not only helps in the understanding the existing algorithms, but also helps in getting the intuition with which those great scientists came out with those algorithms. And when you know this formula, you are ready to devise algorithms of your own!
 
 ![img4](/blog/assets/img/through-the-eyes-of-a-computer/image004.jpg)
 
 When you start learning the epipolar constraints and camera calibration, it does get intimidating at first. But don’t worry my friend, it’s just a phase :P. It’s just a simple change of coordinates – You project your point in the world frame to the camera frame (using Extrinsics) and then bring it from the camera frame to the image frame(using Intrinsics). Well, it’s not this simple , but trust me, it’s really interesting. And if you want to go further, you can use Machine Learning to unleash the power of your CV algorithms.
 
 I will give some references in the end so that you can also embark onto this journey.
-Talking about applications, I forgot to mention about Virtual Reality (ahh! That’s what we wanted to hear :P). There is enormous scope of Computer Vison in this field. Imagine clicking pictures of a place you are holidaying at and your friend gets to see the entire place in a 3D view in Real time! Won’t that be cool? Well, of course it will be unless you spent lakhs to actually go to that place :P.
+
+Talking about applications, I forgot to mention about Virtual Reality (ahh! That’s what we wanted to hear :P). There is an enormous scope of Computer Vison in this field. Imagine clicking pictures of a place you are holidaying at and your friend gets to see the entire place in a 3D view in Real time! Won’t that be cool? Well, of course it will be unless you spent lakhs to actually go to that place :P.
 
 That was a lot of introduction I suppose. So, let’s start learning!
-Here are some good resources to get started :D –
-1.	Introduction to Computer Vision by Udacity. A well designed and fun filled course that takes you from the theory to https://www.youtube.com/watch?v=Qv_4eR-P58E
-2.	This course is good for deep intuition in the image processing part
-https://www.youtube.com/watch?v=715uLCHt4jE
-3.	The book “Multi view Geometry” for those who want to go into the depths of geometry.
+Here are some good resources to get started :D
+* [Introduction to Computer Vision by Udacity](https://www.udacity.com/course/introduction-to-computer-vision--ud810) - A well designed and fun filled course that takes you from the theory to applications
+* This course is good for deep intuition in the image processing part
+<iframe width="560" height="315" src="https://www.youtube.com/embed/715uLCHt4jE" frameborder="0" allowfullscreen></iframe>
+* The book “Multi view Geometry” for those who want to go into the depths of geometry.
 
 These are the resources that should be more than enough to get a little idea on how you do things. To actually do things, you can solve problem sets online or pick up OpenCV documentation and start exploring. By the way, OpenCV is a library that has millions of functions already implemented for you so that you can get yourself involved in what’s yet to be done :)
 
