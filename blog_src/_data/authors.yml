@@ -59,7 +59,7 @@ mohita:
   name: Mohita Chowdhury
   github: mohita
   author_image: 'mohita.jpg'
-  user_description: 'Breathing in oxygen, breathing out ideas'
+  user_description: 'Breathing in oxygen, breathing out ideas :P'
   email: 'chowdhury.mohita@gmail.com'
 jeshventhraja:
   name: Jeshventh Raja
@@ -79,3 +79,9 @@ vasista:
   author_image: 'vasista.jpg'
   user_description: 'Radiating intellectual aura'
   email: 'vasista1997@gmail.com'
+shreyas:
+  name: Shreyas Hegde
+  github: shreyas
+  author_image: 'shreyas.jpg'
+  user_description: 'Mechanical Engineering MS Admit at Duke University'
+  email: 'shreyas.hegde7@gmail.com'

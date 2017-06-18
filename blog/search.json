@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Fluid mechanics in everyday life",
+      "category" : "IEEE",
+      "tags"     : "Piston and Fluid Mechanics",
+      "url"      : "http://ieeenitk.org/blog//fluid-mechanics-in-everyday-life/",
+      "date"     : "18 Jun 2017"
+    } ,
+  
+    {
       "title"    : "The Fourth Industrial Revolution",
       "category" : "IEEE",
       "tags"     : "Piston, IoT, and Automation",
