@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Advice on Computer Science - Vinay Bhat</title>
-    <meta name="description" content="Final Year IEEE Executive Member Vinay Bhat gives advice on how to apply and look out for internships.">
+    <title>Introduction to Reverse Engineering</title>
+    <meta name="description" content="Learn how to break your code and make it better!">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="Advice on Computer Science - Vinay Bhat">
-    <meta name="twitter:description" content="Final Year IEEE Executive Member Vinay Bhat gives advice on how to apply and look out for internships.">
+    <meta name="twitter:title" content="Introduction to Reverse Engineering">
+    <meta name="twitter:description" content="Learn how to break your code and make it better!">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///vinay-bhat-interview/" />
-    <meta property="og:title" content="Advice on Computer Science - Vinay Bhat">
+    <meta property="og:url" content="http://ieeenitk.org///introduction-to-reverse-engineering/" />
+    <meta property="og:title" content="Introduction to Reverse Engineering">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="Final Year IEEE Executive Member Vinay Bhat gives advice on how to apply and look out for internships.">
+    <meta property="og:description" content="Learn how to break your code and make it better!">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Advice on Computer Science - Vinay Bhat"/>
-    <meta itemprop="description" content="Final Year IEEE Executive Member Vinay Bhat gives advice on how to apply and look out for internships.">
+    <meta itemprop="name" content="Introduction to Reverse Engineering"/>
+    <meta itemprop="description" content="Learn how to break your code and make it better!">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -80,7 +80,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/vinay-bhat-interview/">
+    <link rel="canonical" href="http://ieeenitk.org/blog/introduction-to-reverse-engineering/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/blog/feed.xml" />
 </head>
@@ -91,10 +91,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-14 23:32:44 +0000" class="date">15 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-14 12:10:44 +0000" class="date">14 Jun 2017</time>
         
-        <h1 class="post-title" itemprop="name">Advice on Computer Science - Vinay Bhat</h1>
-        <p itemprop="description" class="subtitle">Final Year IEEE Executive Member Vinay Bhat gives advice on how to apply and look out for internships.</p>
+        <h1 class="post-title" itemprop="name">Introduction to Reverse Engineering</h1>
+        <p itemprop="description" class="subtitle">Learn how to break your code and make it better!</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -140,66 +140,83 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><img src="/blog/assets/img/vinay-bhat-interview/vinay_bhat.jpg" alt="Vinay Bhat" /></p>
+                <p>I am sure you would have fixed a bug if you have done programming. Going through your code, identifying places where it could have gone wrong, trying out different inputs to make it easier, each one with your own different methods! You also would have learnt to make your debugging process simpler with your experience for sure. Congratulations for your first step towards an important skill required for reverse engineering :)</p>
 
-<h3 id="q-what-do-you-think-should-be-done-in-college-to-enhance-your-resume">Q. What do you think should be done in college to enhance your resume?</h3>
+<p>Lets begin with a simple intuitive understanding of reverse engineering. You have a toy gun in which you can load bullets and shoot. One fine day, it stops working! (Hmm, not a fine day maybe). Having “Jugaad” skills, you will surely not throw it :P You open it and understand how it works. You find that it works on spring mechanism. Being a little technical (:P), You provide potential energy when you compress the spring and at a stage, it gets locked. It is released by pressing the trigger (releasing the lock effectively) and give the bullet kinetic energy and BOOM!
+You find the trigger was displaced and unable to release the lock and hence you fix it! Feels good isn’t it? :D Not a bad day after all :) Similar process takes place with a software product too. From the application, you extract the source code and understand the logic, flow of information and the loopholes.</p>
 
-<p>Ans: One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. 
-It is ideal to contribute to Big Open Source repositories to understand big projects. 
-Best thing is to try to leverage these projects into your first internship. 
-It is more important to learn one language properly rather than every langauge and not master any one of them.
-Ideally, one static - compiled language like C,C++,  one dynamic language like Python or ruby and one esoteric language like Haskell, Erlang should be learnt properly. 
-The final Goal at the end of the day is to translate your thoughts into code and knowing a language thoroughly helps in that immensely.</p>
+<p>People who enjoy debugging will love this field. But don’t think it’s very easy. A complete understanding of the system is very important. Say in the case of your toy gun, an improper understanding could have worsened the situation of the gun. You can start by learning how your computer works, going deeper and deeper eventually. Slowly you will start identifying possible bugs and might end up finding out how it is taken care off also. This also is an important step because this is how you learn great ideas!</p>
 
-<h3 id="q-how-to-apply-for-internships---on-and-off-campus-research-and-industry">Q. How to apply for internships - on and off campus, research and industry?</h3>
+<p>I will share how I gained interest in this field with the same example I saw. Instead of explaining the whole assembly code obtained from the executable of a program, I will concentrate on attacking the loophole found.</p>
 
-<p>Ans: Be on the lookout for opportunities through class groups or club groups and always apply irrespective of what you think of yourself. Have a habit of saying yes. 
-Try to use online resources like LinkedIn, sites like Internshaala. 
-Do research. Try to have a rapport with a professor-ask him questions about his research and then follow up with your doubts and then as you have more questions, ask for an opportunity to work for him. It’s a good way to show interest with the professor and so when opportunities come across, you have a short and concise resume. Have one thing which sets you aside from the others-something technical; some unique skill should be there in your resume.</p>
+<p>This a simple program which takes a password as input and grants access only if the password is “password1” or “password2”. You will soon find out this is not true! Let us go through the program.</p>
 
-<h3 id="q-how-was-your-experience-in-both-your-internships">Q: How was your experience in both your internships?</h3>
+<p><img src="/blog/assets/img/introduction-to-reverse-engineering/4.png" alt="Image1" /></p>
 
-<p>Ans: In some ways, a research lab is where you’ll do something normal and be free of trying to create a product while in the Industry, there is usually an end-goal. Research is a lot more open ended. 
-A startup is different from a company though; there is always a high learning curve in a startup. There you will learn to play a variety of roles while industry teaches you the structure and allows you to solve the problem systematically. 
-Meanwhile, in research you have a higher sense of autonomy where you can make more design choices of your own will.</p>
+<p>The program intends to grant access only when auth_flag is 1, which happens when right password is submitted. But any positive value of auth_flag will also grant us access. See an example run of the program.</p>
 
-<h3 id="q-what-is-your-suggestion-to-the-juniors-who-will-be-applying-this-summer-for-internships">Q. What is your suggestion to the juniors who will be applying this summer for internships?</h3>
+<p><img src="/blog/assets/img/introduction-to-reverse-engineering/3.png" alt="Image2" /></p>
 
-<p>Ans: For any internal applications, make sure you have a high GPA. Have one topic you deeply want to pursue so that you can write a good SOP for yourself. So if you’re in one particular specification, you can easily talk about it. Ask seniors if they can refer you at their previous internship workplaces; ask your professors for openings in other universities. 
-Make sure you have a technical resume which doesn’t not include unnecessary things like 8th standard grades. A clean resume is very important and it makes you distinguishable from the others.</p>
+<p>The program gave access with not only password1 and password2 but also a sequence of ‘a’s. Lets see what the flaw here is.</p>
 
-<h3 id="q-how-useful-is-an-winter-internship-">Q. How useful is an winter internship ?</h3>
+<p><img src="/blog/assets/img/introduction-to-reverse-engineering/5.png" alt="Image3" /></p>
 
-<p>Ans: Internships in general are useful beyond a classroom. The skills acquired are very different and gives you a new experience which is very helpful. One month isn’t quite a lot of time but it does make you grow, especially if it’s something different from what you’ve done earlier. It’s always better to spend time fruitfully rather than staying home and doing nothing.</p>
+<p><img src="/blog/assets/img/introduction-to-reverse-engineering/1.png" alt="Image4" /></p>
 
-<p>• <a href="http://ieeenitk.org/blog/vinay-bhat-interview/#disqus_thread">0 Comments</a></p>
+<p>We use gdb to find the addresses of password_buffer and auth_flag variables and find that there is 28 bytes gap between them. Hence any string of greater length will write in the address of auth_flag giving it a positive value and hence grant access. Hence we have broken into the password checking system!! In fact, this is a common method called buffer overflow. Well, that was fun. <strong>Fire in the</strong> loop<strong>hole</strong>!(CS fans here? :P ). Unfortunately, most compilers do not allow overflow these days. We have allowed overflow in this program by using the command ‘-zexecstack -fno-stack-protector -g’ while compiling (Don’t worry, even I cannot read that xD).</p>
+
+<p>Lets see what you can do with the understanding you gained. You can:</p>
+<ul>
+  <li>replicate the product</li>
+  <li>fix bug issues</li>
+  <li>add extra features</li>
+  <li>acquire extra access</li>
+  <li>find loopholes to understand the flaws in your software</li>
+  <li>Or do it for fun :)</li>
+</ul>
+
+<p>All these things can result into ethical or unethical hacking, hackers and crackers respectively. An interesting question for everyone. Is it legal? If you have got the software legally, you are free to reverse engineer it but replicating it exactly will be a problem. Check this interesting solution to the problem! :P</p>
+
+<p><img src="/blog/assets/img/introduction-to-reverse-engineering/6.jpg" alt="Image5" /></p>
+
+<p>How to start?</p>
+<ol>
+  <li>“Hacking – The art of exploitation” is a good book</li>
+  <li>Learn how computers work at lower level</li>
+  <li>Programming in assembly language</li>
+  <li>Tools like gdb, radare2 will help you disassemble the executable</li>
+  <li>Play CTFs – They are fun and will help you improve your skills!!</li>
+</ol>
+
+<p>So, That was about it! Have a great Summer!
+Any doubts, feel free to ask :) !</p>
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/vinay-bhat-interview/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,Internships,Career Advice,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/introduction-to-reverse-engineering/%20via%20&#64;IEEE_NITK&hashtags=CTF,CompSoc,Ethical Hacking,Security,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//vinay-bhat-interview/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//introduction-to-reverse-engineering/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//vinay-bhat-interview/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//introduction-to-reverse-engineering/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
 </section>
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/salman_shah.jpg" alt="Salman Shah">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/jeshventh.jpg" alt="Jeshventh Raja">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/salman-bhai">Salman Shah</a>
+            <a itemprop="name" href="https://github.com/jeshventhraja">Jeshventh Raja</a>
         </h3>
-        <p class="desc">Coder, Blogger and Developer interested in Machine Learning and Deep Learning</p>
-        <a itemprop="email" class="email" href="mailto:sbs.191197@gmail.com">sbs.191197@gmail.com</a>
+        <p class="desc">A budding entrepreneur, app developer and lover of security sciences</p>
+        <a itemprop="email" class="email" href="mailto:jeshvanthtk@gmail.com">jeshvanthtk@gmail.com</a>
     </div>
 </section>
 
@@ -216,7 +233,7 @@ Make sure you have a technical resume which doesn’t not include unnecessary th
 
 var disqus_config = function () {
 this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = /vinay-bhat-interview/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.identifier = /introduction-to-reverse-engineering/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
