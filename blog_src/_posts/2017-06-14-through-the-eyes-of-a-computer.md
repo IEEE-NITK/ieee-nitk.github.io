@@ -10,7 +10,7 @@ tags:
 - CompSoc
 - Diode
 - Image Processing
-- artificial intelligence
+- Artificial Intelligence
 categories:
 - IEEE
 github_username: 'mohita'

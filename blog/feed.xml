@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 17:50:55 +0530</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 17:50:55 +0530</lastBuildDate>
+    <pubDate>Sun, 18 Jun 2017 18:22:59 +0530</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 18:22:59 +0530</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
+    
+      <item>
+        <title>The Fourth Industrial Revolution</title>
+        <description>&lt;p&gt;Automation, Internet of Things, Genetic engineering, cloud computing, renewable energy, sustainable development. Welcome to the Future. Welcome to the 4th Industrial revolution.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-fourth-industrial-revolution/pic1.jpg&quot; alt=&quot;image1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Professor Klaus Schwab, Founder and Executive Chairman of the World Economic Forum published the ‘The Fourth Industrial Revolution’. Through this he explained its impact on economies, countries, politics and even ideologies. The fourth industrial revolution focuses on making our industries more productive with automation cloud computing and IoT, shying away from fossil fuels and making super-soldiers (through genetic engineering!). That last one is questionable though…&lt;/p&gt; &lt;p&gt;Genetic engineering will help us in not only rectifying...</description>
+        <pubDate>Fri, 16 Jun 2017 18:40:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-fourth-industrial-revolution/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-fourth-industrial-revolution/</guid>
+        
+        <category>Piston</category>
+        
+        <category>IoT</category>
+        
+        <category>Automation</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Through the eyes of a computer</title>
@@ -24,7 +42,7 @@
         
         <category>Image Processing</category>
         
-        <category>artificial intelligence</category>
+        <category>Artificial Intelligence</category>
         
         
         <category>IEEE</category>
@@ -185,28 +203,6 @@
         <category>Programming</category>
         
         <category>HelloWorld</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Getting to love the Terminal</title>
-        <description>&lt;h2 id=&quot;i-just-got-ubuntu&quot;&gt;I Just Got Ubuntu!&lt;/h2&gt; &lt;p&gt;&lt;sub&gt;But I’m not so sure about this command line&lt;/sub&gt;&lt;/p&gt; &lt;p&gt;Early days with the Unix command line interface, or the terminal (bash shell by default) can be pretty annoying and intimidating.&lt;/p&gt; &lt;p&gt;But it doesn’t have to be. Getting to know the shell and writing shell scripts is exciting as well as extremely useful and something everyone should get familiar with. Once you get a hang of it you’ll start loving the flexibility Unix provides &lt;a href=&quot;https://xkcd.com/456/&quot;&gt;in no time&lt;/a&gt;. But I wont go into too much details about shell scripting here, I’ll leave resources at the end...</description>
-        <pubDate>Wed, 24 May 2017 16:18:33 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/getting-to-love-the-terminal/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/getting-to-love-the-terminal/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
-        <category>Unix</category>
-        
-        <category>Terminal</category>
-        
-        <category>Bash</category>
         
         
         <category>IEEE</category>

@@ -1,9 +1,17 @@
 [
   
     {
+      "title"    : "The Fourth Industrial Revolution",
+      "category" : "IEEE",
+      "tags"     : "Piston, IoT, and Automation",
+      "url"      : "http://ieeenitk.org/blog//the-fourth-industrial-revolution/",
+      "date"     : "16 Jun 2017"
+    } ,
+  
+    {
       "title"    : "Through the eyes of a computer",
       "category" : "IEEE",
-      "tags"     : "Computer Vision, CompSoc, Diode, Image Processing, and artificial intelligence",
+      "tags"     : "Computer Vision, CompSoc, Diode, Image Processing, and Artificial Intelligence",
       "url"      : "http://ieeenitk.org/blog//through-the-eyes-of-a-computer/",
       "date"     : "14 Jun 2017"
     } ,
