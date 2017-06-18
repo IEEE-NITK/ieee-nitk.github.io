@@ -5,9 +5,31 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 17:18:07 +0530</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 17:18:07 +0530</lastBuildDate>
+    <pubDate>Sun, 18 Jun 2017 17:50:55 +0530</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 17:50:55 +0530</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
+    
+      <item>
+        <title>Through the eyes of a computer</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/through-the-eyes-of-a-computer/image001.jpg&quot; alt=&quot;Intro&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Robot&lt;/strong&gt; – A word that might remind you of a Rajnikanth starrer or give you the picture of a metallic body going here and there and doing things that humans do quite naturally, on their own. All of us have at least once thought of owning a robot that could do our assignments, or just do things that we are lazy to do. And then, as you enter your college, you take online courses for learning how to build robots that follow lines, identify colours and do all sorts of things that you think it should...</description>
+        <pubDate>Wed, 14 Jun 2017 18:40:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/through-the-eyes-of-a-computer/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/through-the-eyes-of-a-computer/</guid>
+        
+        <category>Computer Vision</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Diode</category>
+        
+        <category>Image Processing</category>
+        
+        <category>artificial intelligence</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Introduction to Reverse Engineering</title>
@@ -188,20 +210,6 @@
         
         
         <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Installing Ubuntu For Windows Users</title>
-        <description>&lt;h1 id=&quot;installing-ubuntu-for-windows-users&quot;&gt;Installing Ubuntu For Windows Users&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/installing_ubuntu/ubuntu.png&quot; alt=&quot;Ubuntu&quot; /&gt;&lt;/p&gt; &lt;p&gt;Hie&lt;/p&gt; &lt;p&gt;Installing Ubuntu on your machine is really helpfull in college days. It comes free and there are lots of open source softwares available for it. Last year, a lot of people came to my room for installing ubuntu on their machine. I once thought of opening shop for installing ubuntu (Just Kidding :P)&lt;/p&gt; &lt;p&gt;So, this brief blog gives instructions on installing Ubuntu alongside Windows as a dual boot OS.&lt;/p&gt; &lt;h3 id=&quot;1-creating-a-partition-for-ubuntu&quot;&gt;1. Creating a partition for Ubuntu&lt;/h3&gt; &lt;p&gt;First thing we need to do is create a partition to install ubuntu....</description>
-        <pubDate>Wed, 24 May 2017 01:33:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/installing-ubuntu/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/installing-ubuntu/</guid>
-        
-        <category>Linux</category>
-        
-        <category>Ubuntu</category>
-        
         
       </item>
     
