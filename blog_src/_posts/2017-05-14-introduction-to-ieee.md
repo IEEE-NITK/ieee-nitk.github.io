@@ -6,10 +6,8 @@ date: 2017-05-14 23:32:44
 image: '/assets/img/'
 description: 'Introductory post to IEEE NITK'
 tags:
-- IEEE NITK 
-- CompSoc
-- Piston
-- Diode 
+- Graphene 
+- Diode
 categories:
 - IEEE
 github_username: 'salman-bhai'
@@ -18,7 +16,7 @@ comments: true
 
 IEEE is the world's largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted "voice" for engineering, computing and technology information around the globe.
 
-IEEE is incorporated under the Not-for-Profit Corporation Law of the state of New York. It was formed in 1963 by the merger of the Institute of Radio Engineers (IRE, founded 1912) and the American Institute of Electrical Engineers (AIEE, founded 1884). 
+IEEE is incorporated under the Not-for-Profit Corporation Law of the state of New York. It was formed in 1963 by the merger of the Institute of Radio Engineers (IRE, founded 1912) and the American Institute of Electrical Engineers (AIEE, founded 1884).
 
 ![IEEE NITK Team](/blog/assets/img/blog-image.png)
 
@@ -36,7 +34,7 @@ IEEE as a professional club provides learning opportunities within the engineeri
 
 IEEE NITK is recognized as a dynamic body of enthusiastic engineers with a passion to create change with innovation. With membership strength of 600, IEEE NITK strives towards excellence and justifies IEEE as a pioneer of technological innovations. IEEE NITK actively organizes intra-branch activities, institute level activities and actively participates in initiatives of its affinity groups such as WIE (Women in Engineering) and SIGHT (Special Interest Group for Humanitarian Technologies). IEEE NITK's participation in GINI (Global Integrated Network of IEEE) has been of great importance to the growth of the student branch.
 
-IEEE NITK provides its student members with good platforms for sharing knowledge and implementing technology in practical projects through Special Interest Groups (SIGs). 
+IEEE NITK provides its student members with good platforms for sharing knowledge and implementing technology in practical projects through Special Interest Groups (SIGs).
 
 ![IEEE NITK Team](/blog/assets/img/introduction-to-ieee/IEEE_2017.JPG)
 
@@ -48,4 +46,4 @@ In broad terms the objectives of the club are:
 
 * Add on to the student member benefits by involving student members in different innovative projects and research.
 * Improve global presence of the student chapter by taking part in international competitions, conferences and talks.
-* Act as an effective platform to share and build technical knowledge inside the college and support. 
+* Act as an effective platform to share and build technical knowledge inside the college and support.
