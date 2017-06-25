@@ -5,9 +5,59 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 23:06:27 +0530</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 23:06:27 +0530</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Sun, 25 Jun 2017 18:10:08 +0530</pubDate>
+    <lastBuildDate>Sun, 25 Jun 2017 18:10:08 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>Hyperloop</title>
+        <description>&lt;h1 id=&quot;hyperloop&quot;&gt;Hyperloop&lt;/h1&gt; &lt;p&gt;  &lt;img src=&quot;/blog/assets/img/hyperloop/1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt; &lt;p&gt;One of the most valued and important entity nowadays is time. To help the people around the world to save their   travelling time, Elon Musk came up with an innovative idea of hyperloop. Hyperloop is a proposed mode of passenger and freight transportation that would propel a pod-like vehicle through a reduced-pressure tube that could potentially exceed airliner speeds. The pods would accelerate to cruising speed gradually using a linear electric motor and glide above their track using passive magnetic levitation or air bearings. The tubes could also go above ground on columns...</description>
+        <pubDate>Sun, 25 Jun 2017 06:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/hyperloop/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/hyperloop/</guid>
+        
+        <category>hyperloop</category>
+        
+        <category>Piston</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>A talk with - Gaurav Hegde</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/gaurav_hegde_interview/Gaurav.jpg&quot; alt=&quot;Gaurav Hegde&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;back-story&quot;&gt;Back-Story&lt;/h2&gt; &lt;p&gt;Hello guys, I am Abijith, third year EEE. I had this opportunity among many opportunities to interview and talk to Gaurav. In my two years of IEEE and NITK life, I have been in touch with him for only one semester, because he took a semester off in his 7th semester. That semester has been the best academic semester for me. The discussions, the treats, the interactions, the projects, the amount of knowledge that this person has! Oh good lord!&lt;/p&gt; &lt;p&gt;Anyway, without any further ado, presenting Gaurav. Note: Questions are in &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt; &lt;h3...</description>
+        <pubDate>Tue, 20 Jun 2017 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/gaurav-hegde-interview/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/gaurav-hegde-interview/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Diode</category>
+        
+        <category>Math</category>
+        
+        <category>Gyan</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>Graphene - A Wonder Material</title>
+        <description>&lt;h1 id=&quot;graphene--a-wonder-material&quot;&gt;GRAPHENE – A WONDER MATERIAL&lt;/h1&gt; &lt;p&gt;“I have never even heard of this term graphene before”, might be your thought process presently. Read further to understand why I call it a wonder material. What’s running in your mind at this point of time due to similarity in what you have studied is Graphite, an allotrope of Carbon which is very commonly found. But, what’s Graphene then? Yes, graphite and graphene are in fact the same except for a few structural differences which brings in unexpected properties. Graphite consists of various layers of Carbon atoms where each layer is arranged in...</description>
+        <pubDate>Mon, 19 Jun 2017 21:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/graphene/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/graphene/</guid>
+        
+        <category>Diode</category>
+        
+        <category>Graphene</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Fluid mechanics in everyday life</title>
@@ -137,64 +187,6 @@
         <category>Algorithms</category>
         
         <category>P v/s NP</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Why Not Chemical Engineering</title>
-        <description>&lt;p&gt;I don’t know what kind of fascination it is, probably parents sermon their little ones or the Indian school teachers are rather pedagogues, but this one notion of securing admission for undergraduation in a leading institute with specialisation in computer science is considered to be victory. I too was once a prey to this concept. The D-day shattered my dreams and landed me to choose one among the core branches. Hence, by elimination, the same technique one might use in the exams (xD), I chose chemical.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Preliminary thoughts:&lt;/strong&gt; Chemical engineering = Chemistry. Bury myself. Very disinclined to the idea of...</description>
-        <pubDate>Wed, 07 Jun 2017 12:18:33 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/why-not-chemical-engineering/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/why-not-chemical-engineering/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Chemical</category>
-        
-        <category>Piston</category>
-        
-        <category>Career Advice</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to GPU Computing</title>
-        <description>&lt;h1 id=&quot;a-gamers-priced-possession---graphic-cards&quot;&gt;A Gamer’s priced possession - Graphic Cards!&lt;/h1&gt; &lt;p&gt;Let’s say that you have bought a brand new computer with one of the latest i7 processors but without installing a separate graphics card. And your friend is still using his 5 year PC with an old i3 processor, but with a high end graphics card installed. Both of you play the same game simultaneously on your own computers. But you notice that the gaming performance is better on his PC even though your computer is brand new. You scratch your head not understanding what’s going on here. You have a much...</description>
-        <pubDate>Sun, 04 Jun 2017 17:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/introduction-to-GPU-computing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-GPU-computing/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
-        <category>High Performance Computing</category>
-        
-        <category>Game Development</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>How to Get Started with Bots</title>
-        <description>&lt;h1 id=&quot;how-to-get-started-with-bots&quot;&gt;How to get Started with bots&lt;/h1&gt; &lt;p&gt;Have you ever been fascinated by robots - Awestrucking objects which are capable of performing some cool tasks without needing a human intervention (well, unless they decide to go mad! :P) ? And certainly the thought of how these genius creations work and can I make one too? must have crossed your mind. Being in a similar frame of mind couple of years back and having made some basic bots, I thought of writing this article to help the curious people.&lt;/p&gt; &lt;h3 id=&quot;getting-stuff-together&quot;&gt;Getting Stuff together&lt;/h3&gt; &lt;p&gt;It’s surely hard to shell out a few...</description>
-        <pubDate>Thu, 01 Jun 2017 23:58:33 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/how-to-get-started-with-bots/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/how-to-get-started-with-bots/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Diode</category>
-        
-        <category>Bots</category>
         
         
         <category>IEEE</category>
