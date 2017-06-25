@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Jun 2017 18:10:08 +0530</pubDate>
-    <lastBuildDate>Sun, 25 Jun 2017 18:10:08 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.0</generator>
+    <pubDate>Sun, 25 Jun 2017 14:23:49 +0530</pubDate>
+    <lastBuildDate>Sun, 25 Jun 2017 14:23:49 +0530</lastBuildDate>
+    <generator>Jekyll v3.4.4</generator>
     
       <item>
         <title>Hyperloop</title>
@@ -20,6 +20,42 @@
         
         <category>Piston</category>
         
+        
+      </item>
+    
+      <item>
+        <title>Graphene - A Wonder Material</title>
+        <description>&lt;h1 id=&quot;graphene--a-wonder-material&quot;&gt;GRAPHENE – A WONDER MATERIAL&lt;/h1&gt; &lt;p&gt;“I have never even heard of this term graphene before”, might be your thought process presently. Read further to understand why I call it a wonder material. What’s running in your mind at this point of time due to similarity in what you have studied is Graphite, an allotrope of Carbon which is very commonly found. But, what’s Graphene then? Yes, graphite and graphene are in fact the same except for a few structural differences which brings in unexpected properties. Graphite consists of various layers of Carbon atoms where each layer is arranged in...</description>
+        <pubDate>Sat, 24 Jun 2017 21:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/graphene/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/graphene/</guid>
+        
+        <category>Diode</category>
+        
+        <category>Graphene</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>Promises, Closures and Potatoes</title>
+        <description>&lt;h1 id=&quot;promises-closures-and-potatoes&quot;&gt;Promises, Closures and Potatoes.&lt;/h1&gt; &lt;p&gt;Well this article is mainly about Promises and Closures, two concepts that most of us don’t really care about in the beginning, but in reality, we have been using it a lot. “Promises and Closures” would’t sound cool so I thought of this much innovative title.&lt;/p&gt; &lt;h2 id=&quot;so-what-are-promises&quot;&gt;So what are promises?&lt;/h2&gt; &lt;p&gt;They are not new, and they are pretty popular for a long time. &lt;img src=&quot;/blog/assets/img/promises-closures-and-potatoes/image1.png&quot; alt=&quot;image1&quot; /&gt; Promises gives you this feature of asynchronous nature in the code. It actually lets a third agent interact with your code: let’s take a small example. Assume...</description>
+        <pubDate>Fri, 23 Jun 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/promises-closures-and-potatoes/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/promises-closures-and-potatoes/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>JavaScript</category>
+        
+        <category>Programming</category>
+        
+        
+        <category>IEEE</category>
         
       </item>
     
@@ -37,22 +73,6 @@
         <category>Math</category>
         
         <category>Gyan</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Graphene - A Wonder Material</title>
-        <description>&lt;h1 id=&quot;graphene--a-wonder-material&quot;&gt;GRAPHENE – A WONDER MATERIAL&lt;/h1&gt; &lt;p&gt;“I have never even heard of this term graphene before”, might be your thought process presently. Read further to understand why I call it a wonder material. What’s running in your mind at this point of time due to similarity in what you have studied is Graphite, an allotrope of Carbon which is very commonly found. But, what’s Graphene then? Yes, graphite and graphene are in fact the same except for a few structural differences which brings in unexpected properties. Graphite consists of various layers of Carbon atoms where each layer is arranged in...</description>
-        <pubDate>Mon, 19 Jun 2017 21:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/graphene/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/graphene/</guid>
-        
-        <category>Diode</category>
-        
-        <category>Graphene</category>
         
         
         <category>IEEE</category>
@@ -167,26 +187,6 @@
         <category>SPS</category>
         
         <category>EEE</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>The Class of NP</title>
-        <description>&lt;p&gt;Many of us have this notion that NP stands for “Non Polynomial”, the problems which can’t be solved in polynomial time. This is not true. First of all, NP consist of only decision problem (given any problem, the answer should be yes or no) solvable in polynomial time by a theoretical non-deterministic Turing machine. Well, I am not going to cover non-deterministic Turing machine in this blog, so I will give another verifier based definition.&lt;/p&gt; &lt;h3 id=&quot;verifier-based-definition&quot;&gt;Verifier Based Definition:&lt;/h3&gt; &lt;p&gt;Consider a decision problem X. Let I be an instance of X for which the answer is “yes”. Now if we...</description>
-        <pubDate>Fri, 09 Jun 2017 22:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-class-of-np/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-class-of-np/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
-        <category>Algorithms</category>
-        
-        <category>P v/s NP</category>
         
         
         <category>IEEE</category>

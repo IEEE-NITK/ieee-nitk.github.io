@@ -9,19 +9,27 @@
     } ,
   
     {
+      "title"    : "Graphene - A Wonder Material",
+      "category" : "IEEE",
+      "tags"     : "Diode and Graphene",
+      "url"      : "http://ieeenitk.org/blog//graphene/",
+      "date"     : "24 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Promises, Closures and Potatoes",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, JavaScript, and Programming",
+      "url"      : "http://ieeenitk.org/blog//promises-closures-and-potatoes/",
+      "date"     : "23 Jun 2017"
+    } ,
+  
+    {
       "title"    : "A talk with - Gaurav Hegde",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, Diode, Math, and Gyan",
       "url"      : "http://ieeenitk.org/blog//gaurav-hegde-interview/",
       "date"     : "20 Jun 2017"
-    } ,
-  
-    {
-      "title"    : "Graphene - A Wonder Material",
-      "category" : "IEEE",
-      "tags"     : "Diode and Graphene",
-      "url"      : "http://ieeenitk.org/blog//graphene/",
-      "date"     : "19 Jun 2017"
     } ,
   
     {
