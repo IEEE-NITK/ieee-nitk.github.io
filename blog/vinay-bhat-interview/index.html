@@ -78,6 +78,10 @@
     <meta name="msapplication-square310x310logo" content="largetile.png" />
     <!-- Android Lolipop Theme Color -->
     <meta name="theme-color" content="#0562DC">
+    <!-- highlighter theme -->
+    <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
+    <!-- jQuery for highlighter -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
     <link rel="canonical" href="http://ieeenitk.org/blog/vinay-bhat-interview/">
@@ -91,7 +95,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-14 23:32:44 +0000" class="date">15 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-15 05:02:44 +0530" class="date">15 May 2017</time>
         
         <h1 class="post-title" itemprop="name">Advice on Computer Science - Vinay Bhat</h1>
         <p itemprop="description" class="subtitle">Final Year IEEE Executive Member Vinay Bhat gives advice on how to apply and look out for internships.</p>
@@ -203,7 +207,7 @@ Make sure you have a technical resume which doesn’t not include unnecessary th
     </div>
 </section>
 
-            <!-- include comments.html when disqus is setup -->
+            <!-- include comments.html when disqus is setup 
             <section class="comments">
     <h3>Comments</h3>
     <div id="disqus_thread"></div>
@@ -228,11 +232,25 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>     
 
-</section>
+</section>-->
             <footer>
     <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
 </footer>
 <script src="/blog/assets/js/main.js"></script>
+            
+<script>
+	$(document).ready(function(){
+		if($("pre code").length){
+			
+			$.getScript('../assets/js/highlight.pack.js', function(){
+    			// load the highlighter script only if we have code snippets.
+    			$('pre code').each(function(i, block) {
+    				hljs.highlightBlock(block);
+  				});	
+    		});
+		}
+	});
+</script>
         </section>
     </body>
 </html>

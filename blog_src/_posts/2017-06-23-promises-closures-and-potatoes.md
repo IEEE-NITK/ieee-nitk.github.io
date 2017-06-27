@@ -19,14 +19,13 @@ comments: true
 
 Well this article is mainly about Promises and Closures, two concepts that
 most of us don't really care about in the beginning, but in reality, we have been
-using it a lot. "Promises and Closures" would't sound cool so I thought of this much
-innovative title.
+using it a lot. "Promises and Closures" wouldn't sound cool so I thought of slightly innovative title.
 
 ## So what are promises?
 They are not new, and they are pretty popular for a long time.
 ![image1](/blog/assets/img/promises-closures-and-potatoes/image1.png)
 Promises gives you this feature of asynchronous nature in the code. It actually lets a third agent interact with your code: let's take a small example.
-Assume that we are doing a function fileRead() which will take unpredictable time.
+Assume that we are doing a function `getTextFromFile()` which will take unpredictable time.
 ```
     function getTextFromFile(fileEvent){
                 var input = fileEvent.target;
@@ -48,10 +47,10 @@ such that the following snippet may not work the right way:
     var myText = getTextFromFile(fileEvent);
     console.log(myText);
 ```
-Similar with AJAX requests, and any other asynchronous event.
-So we have a better way of dealing this, a promise.
+The same applies for AJAX requests or any other asynchronous event.
+So we have a much better way of dealing this: using a **promise**.
 All promises need not be fulfilled, it could be **resolved** or it could be **rejected**.
-It could take some time to resolve/reject a promise, and either way it would be **settled** :).
+It could take some time to **resolve**/**reject** a promise, and either way it would be **settled** :).
 Let's rewrite the `getTextFromFile()` :
 ```
     function getTextFromFile(fileEvent){
@@ -78,7 +77,7 @@ now we can use this function to handle file read much better way:
         console.log(error);
     })
 ```
-So you have the anonymous functions in .then and .catch to work asychrnously, ie they will wait for the promise to resolve/reject.
+So you have the anonymous functions in `.then` and `.catch` to work asychronously, ie they will wait for the promise to resolve/reject.
 Promises are much more flexible, and they could be chained.
 ```
     function middleGuy(text){
@@ -101,9 +100,9 @@ Promises are much more flexible, and they could be chained.
             console.log(error);
         });
 ```
-See a simple demo of promises with the above code:
+[This](https://gist.github.com/viggi-v/cf996ad839a7b9525dc0e1ea89d45346) is a simple demo of promises with the above code.
 
-https://gist.github.com/viggi-v/cf996ad839a7b9525dc0e1ea89d45346
+
 
 There are plenty of resources out there for Promises,
 and my favourite ones are:
@@ -112,10 +111,10 @@ and my favourite ones are:
 
 ## Closures
 
-Closures were this one tricky thing in the beginning: and quoting *Rohit Varkey*, batch of '16,
+Closures were this one tricky thing in the beginning for me, and quoting *Rohit Varkey*, batch of '16,
 > It (closures) guarantees you no side effects. Plus this way you have everything you need that is used in the function wrapped along with it. No ugly global changes that could **** everything up. This leads to interesting things like lazy evaluation, loop fusion and even easier process migration.
 
-This was about closures in a general perspective, but from the view of a js developer like me, this offers a scope that persist just for my function.
+This was about closures in a general perspective, but from the view of a js developer like me, this offers a scope that persists just for my function.
 An example would be, (from w3Schools)
 ```
     var add = (function () {
@@ -134,4 +133,3 @@ An example would be, (from w3Schools)
 a good set of resources would be:
 * [W3 Schools](https://www.w3schools.com/js/js_function_closures.asp)
 * [Medium article by Eric Elliott](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
-Thank you!

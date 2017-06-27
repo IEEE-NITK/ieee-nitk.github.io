@@ -78,6 +78,10 @@
     <meta name="msapplication-square310x310logo" content="largetile.png" />
     <!-- Android Lolipop Theme Color -->
     <meta name="theme-color" content="#0562DC">
+    <!-- highlighter theme -->
+    <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
+    <!-- jQuery for highlighter -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
     <link rel="canonical" href="http://ieeenitk.org/blog/promises-closures-and-potatoes/">
@@ -144,14 +148,13 @@
 
 <p>Well this article is mainly about Promises and Closures, two concepts that
 most of us don’t really care about in the beginning, but in reality, we have been
-using it a lot. “Promises and Closures” would’t sound cool so I thought of this much
-innovative title.</p>
+using it a lot. “Promises and Closures” wouldn’t sound cool so I thought of slightly innovative title.</p>
 
 <h2 id="so-what-are-promises">So what are promises?</h2>
 <p>They are not new, and they are pretty popular for a long time.
 <img src="/blog/assets/img/promises-closures-and-potatoes/image1.png" alt="image1" />
 Promises gives you this feature of asynchronous nature in the code. It actually lets a third agent interact with your code: let’s take a small example.
-Assume that we are doing a function fileRead() which will take unpredictable time.</p>
+Assume that we are doing a function <code class="highlighter-rouge">getTextFromFile()</code> which will take unpredictable time.</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>    function getTextFromFile(fileEvent){
                 var input = fileEvent.target;
 
@@ -173,10 +176,10 @@ such that the following snippet may not work the right way:</p>
     console.log(myText);
 </code></pre>
 </div>
-<p>Similar with AJAX requests, and any other asynchronous event.
-So we have a better way of dealing this, a promise.
+<p>The same applies for AJAX requests or any other asynchronous event.
+So we have a much better way of dealing this: using a <strong>promise</strong>.
 All promises need not be fulfilled, it could be <strong>resolved</strong> or it could be <strong>rejected</strong>.
-It could take some time to resolve/reject a promise, and either way it would be <strong>settled</strong> :).
+It could take some time to <strong>resolve</strong>/<strong>reject</strong> a promise, and either way it would be <strong>settled</strong> :).
 Let’s rewrite the <code class="highlighter-rouge">getTextFromFile()</code> :</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>    function getTextFromFile(fileEvent){
         return new Promise(function(resolve,reject){
@@ -203,7 +206,7 @@ Let’s rewrite the <code class="highlighter-rouge">getTextFromFile()</code> :</
     })
 </code></pre>
 </div>
-<p>So you have the anonymous functions in .then and .catch to work asychrnously, ie they will wait for the promise to resolve/reject.
+<p>So you have the anonymous functions in <code class="highlighter-rouge">.then</code> and <code class="highlighter-rouge">.catch</code> to work asychronously, ie they will wait for the promise to resolve/reject.
 Promises are much more flexible, and they could be chained.</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>    function middleGuy(text){
         return new Promise(function(resolve){
@@ -226,9 +229,7 @@ Promises are much more flexible, and they could be chained.</p>
         });
 </code></pre>
 </div>
-<p>See a simple demo of promises with the above code:</p>
-
-<p>https://gist.github.com/viggi-v/cf996ad839a7b9525dc0e1ea89d45346</p>
+<p><a href="https://gist.github.com/viggi-v/cf996ad839a7b9525dc0e1ea89d45346">This</a> is a simple demo of promises with the above code.</p>
 
 <p>There are plenty of resources out there for Promises,
 and my favourite ones are:</p>
@@ -239,12 +240,12 @@ and my favourite ones are:</p>
 
 <h2 id="closures">Closures</h2>
 
-<p>Closures were this one tricky thing in the beginning: and quoting <em>Rohit Varkey</em>, batch of ‘16,</p>
+<p>Closures were this one tricky thing in the beginning for me, and quoting <em>Rohit Varkey</em>, batch of ‘16,</p>
 <blockquote>
   <p>It (closures) guarantees you no side effects. Plus this way you have everything you need that is used in the function wrapped along with it. No ugly global changes that could <em>**</em> everything up. This leads to interesting things like lazy evaluation, loop fusion and even easier process migration.</p>
 </blockquote>
 
-<p>This was about closures in a general perspective, but from the view of a js developer like me, this offers a scope that persist just for my function.
+<p>This was about closures in a general perspective, but from the view of a js developer like me, this offers a scope that persists just for my function.
 An example would be, (from w3Schools)</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>    var add = (function () {
         var counter = 0;
@@ -263,8 +264,7 @@ An example would be, (from w3Schools)</p>
 <p>a good set of resources would be:</p>
 <ul>
   <li><a href="https://www.w3schools.com/js/js_function_closures.asp">W3 Schools</a></li>
-  <li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36">Medium article by Eric Elliott</a>
-Thank you!</li>
+  <li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36">Medium article by Eric Elliott</a></li>
 </ul>
 
             </article>
@@ -296,7 +296,7 @@ Thank you!</li>
     </div>
 </section>
 
-            <!-- include comments.html when disqus is setup -->
+            <!-- include comments.html when disqus is setup 
             <section class="comments">
     <h3>Comments</h3>
     <div id="disqus_thread"></div>
@@ -321,11 +321,25 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>     
 
-</section>
+</section>-->
             <footer>
     <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
 </footer>
 <script src="/blog/assets/js/main.js"></script>
+            
+<script>
+	$(document).ready(function(){
+		if($("pre code").length){
+			
+			$.getScript('../assets/js/highlight.pack.js', function(){
+    			// load the highlighter script only if we have code snippets.
+    			$('pre code').each(function(i, block) {
+    				hljs.highlightBlock(block);
+  				});	
+    		});
+		}
+	});
+</script>
         </section>
     </body>
 </html>
