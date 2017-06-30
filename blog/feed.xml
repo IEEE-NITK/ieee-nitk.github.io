@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Jun 2017 14:23:49 +0530</pubDate>
-    <lastBuildDate>Sun, 25 Jun 2017 14:23:49 +0530</lastBuildDate>
-    <generator>Jekyll v3.4.4</generator>
+    <pubDate>Tue, 27 Jun 2017 22:39:29 +0530</pubDate>
+    <lastBuildDate>Tue, 27 Jun 2017 22:39:29 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
     
       <item>
         <title>Hyperloop</title>
@@ -41,7 +41,7 @@
     
       <item>
         <title>Promises, Closures and Potatoes</title>
-        <description>&lt;h1 id=&quot;promises-closures-and-potatoes&quot;&gt;Promises, Closures and Potatoes.&lt;/h1&gt; &lt;p&gt;Well this article is mainly about Promises and Closures, two concepts that most of us don’t really care about in the beginning, but in reality, we have been using it a lot. “Promises and Closures” would’t sound cool so I thought of this much innovative title.&lt;/p&gt; &lt;h2 id=&quot;so-what-are-promises&quot;&gt;So what are promises?&lt;/h2&gt; &lt;p&gt;They are not new, and they are pretty popular for a long time. &lt;img src=&quot;/blog/assets/img/promises-closures-and-potatoes/image1.png&quot; alt=&quot;image1&quot; /&gt; Promises gives you this feature of asynchronous nature in the code. It actually lets a third agent interact with your code: let’s take a small example. Assume...</description>
+        <description>&lt;h1 id=&quot;promises-closures-and-potatoes&quot;&gt;Promises, Closures and Potatoes.&lt;/h1&gt; &lt;p&gt;Well this article is mainly about Promises and Closures, two concepts that most of us don’t really care about in the beginning, but in reality, we have been using it a lot. “Promises and Closures” wouldn’t sound cool so I thought of slightly innovative title.&lt;/p&gt; &lt;h2 id=&quot;so-what-are-promises&quot;&gt;So what are promises?&lt;/h2&gt; &lt;p&gt;They are not new, and they are pretty popular for a long time. &lt;img src=&quot;/blog/assets/img/promises-closures-and-potatoes/image1.png&quot; alt=&quot;image1&quot; /&gt; Promises gives you this feature of asynchronous nature in the code. It actually lets a third agent interact with your code: let’s take a small example. Assume that...</description>
         <pubDate>Fri, 23 Jun 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/promises-closures-and-potatoes/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/promises-closures-and-potatoes/</guid>
