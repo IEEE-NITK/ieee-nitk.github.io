@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Jun 2017 11:46:03 +0530</pubDate>
-    <lastBuildDate>Fri, 30 Jun 2017 11:46:03 +0530</lastBuildDate>
+    <pubDate>Sun, 02 Jul 2017 18:06:34 +0530</pubDate>
+    <lastBuildDate>Sun, 02 Jul 2017 18:06:34 +0530</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -73,6 +73,48 @@
         <category>Math</category>
         
         <category>Gyan</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>A talk with - Abin Alex Pothen</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/abin-alex-interview/abinn.jpg&quot; alt=&quot;Abin Alex&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;back-story&quot;&gt;Back-Story&lt;/h2&gt; &lt;p&gt;Hello guys, today I had a great opportunity to interview Abin Alex. He has done his BTech in Mechanical from NITK. He was an executive member of IEEE and SIGHT Chair in 2015. He is currently a Research Assistant in IISc and is working on stability of systems. With the amount of experience he possesses and the air of intelligence he creates around the person he is interacting with, it was a great opportunity for me.&lt;/p&gt; &lt;h3 id=&quot;what-is-one-thing-you-want-mechanical-students-to-remember&quot;&gt;What is one thing you want mechanical students to remember?&lt;/h3&gt; &lt;p&gt;That question can be answered in...</description>
+        <pubDate>Tue, 20 Jun 2017 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/abin-alex-interview/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/abin-alex-interview/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Piston</category>
+        
+        <category>Research</category>
+        
+        <category>Gyan</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>Dealing with Underdetermined Systems</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/ee0208dc07116e4d32bcc9952a015b43b63d91a2&quot; alt=&quot;incidence matrix&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-meant-by-under-constrained-system&quot;&gt;What is meant by “under-constrained” system?&lt;/h2&gt; &lt;p&gt;I will start off this segment with my favourite quote.&lt;/p&gt; &lt;p&gt;&lt;em&gt;“To the ones who tread the path less taken; To the ones who believe the answer to everything lies in data.”&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The answer to all problems lies in how much you know about it. Most engineering problems and their math models are inherently under-constrained. It is not surprising, we have all seen physics problems give under-constrained systems. The best example is in the definition of electric potential. All electric potentials are with reference to potentials at infinity where...</description>
+        <pubDate>Tue, 20 Jun 2017 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Unix</category>
+        
+        <category>Terminal</category>
+        
+        <category>Bash</category>
         
         
         <category>IEEE</category>
@@ -149,44 +191,6 @@
         <category>Ethical Hacking</category>
         
         <category>Security</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Implementing Google Image Search Style Grid</title>
-        <description>&lt;h1 id=&quot;implementing-google-image-search-style-grid&quot;&gt;Implementing Google Image Search Style Grid&lt;/h1&gt; &lt;p&gt;I love design principles of Google. The way they present things is really awesome. One such presentation is Google Image Search.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/google_image_search/google_image_search.png&quot; alt=&quot;Google Image Search&quot; /&gt;&lt;/p&gt; &lt;p&gt;Look at the way they arrange images. Each row has a fixed width, but their are no columns. The images have arranges themselves, intelligently, just enough to fit the row. I always wondered, what algorithm they must have used to achieve this.&lt;/p&gt; &lt;h3 id=&quot;what-i-thought&quot;&gt;What I thought&lt;/h3&gt; &lt;p&gt;So my search began. Initially I thought they might have used some kind of knapsack algorithm to fit images to...</description>
-        <pubDate>Sat, 10 Jun 2017 17:40:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/google-image-search-grid/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/google-image-search-grid/</guid>
-        
-        <category>Design</category>
-        
-        <category>Grid</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Lighting Up your Room!</title>
-        <description>&lt;h2 id=&quot;apparatus&quot;&gt;Apparatus:&lt;/h2&gt; &lt;p&gt;1.&lt;strong&gt;LED strips&lt;/strong&gt; &lt;br /&gt; You should find these in most home decor stores. They could turn out to be expensive depending upon the quality of light you expect. There are RGB strips available too! &lt;br /&gt;&lt;/p&gt; &lt;p&gt;2.&lt;strong&gt;TIP 31 switch&lt;/strong&gt;&lt;br /&gt; Now this is a power transistor that can withstand large currents that the LED strips demand&lt;/p&gt; &lt;p&gt;3.&lt;strong&gt;AUX cable&lt;/strong&gt;&lt;br /&gt; This is to connect your music player to the device&lt;/p&gt; &lt;p&gt;4.&lt;strong&gt;12V battery&lt;/strong&gt;&lt;br /&gt; The LED strips demand a lot of current, so get one that supplies enough. There are rechargeable lead acid batteries available. They are cheaper, but bulkier...</description>
-        <pubDate>Sat, 10 Jun 2017 16:18:33 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/lighting-up-your-room/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/lighting-up-your-room/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Diode</category>
-        
-        <category>CAS</category>
-        
-        <category>SPS</category>
-        
-        <category>EEE</category>
         
         
         <category>IEEE</category>

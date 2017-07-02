@@ -33,6 +33,22 @@
     } ,
   
     {
+      "title"    : "A talk with - Abin Alex Pothen",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, Piston, Research, and Gyan",
+      "url"      : "http://ieeenitk.org/blog//abin-alex-interview/",
+      "date"     : "20 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Dealing with Underdetermined Systems",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, Unix, Terminal, and Bash",
+      "url"      : "http://ieeenitk.org/blog//Dealing-with-underdetermined-systems/",
+      "date"     : "20 Jun 2017"
+    } ,
+  
+    {
       "title"    : "Fluid mechanics in everyday life",
       "category" : "IEEE",
       "tags"     : "Piston and Fluid Mechanics",
@@ -102,6 +118,14 @@
       "tags"     : "IEEE NITK, CompSoc, High Performance Computing, and Game Development",
       "url"      : "http://ieeenitk.org/blog//introduction-to-GPU-computing/",
       "date"     : "04 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, Cyber Security, and CTFs",
+      "url"      : "http://ieeenitk.org/blog//kishor-bhat-interview/",
+      "date"     : "02 Jun 2017"
     } ,
   
     {
