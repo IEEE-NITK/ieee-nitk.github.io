@@ -8,7 +8,7 @@ pranaypraveen:
     name: Pranay Praveen
     github: pranaypraveen
     author_image: 'pranay_praveen.jpg'
-    user_description: "Hyperloop Enthusiast"
+    user_description: "Sometimes the questions are complicated and the answers are simple."
     email: pranay2098@gmail.com
 kaushiksk:
   name: Kaushik S Kalmady
@@ -97,3 +97,9 @@ shreyas:
   author_image: 'shreyas.jpeg'
   user_description: 'Mechanical Engineering MS Admit at Duke University'
   email: 'shreyas.hegde7@gmail.com'
+swathisbhat:
+  name: Swathi S Bhat
+  github: swathisbhat
+  author_image: 'swathi.png'
+  user_description:
+  email: 'swathibhat282@gmail.com'
