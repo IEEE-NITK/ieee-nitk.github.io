@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieeenitk.org/blog/kishor-bhat-interview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/abin-alex-interview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieeenitk.org/blog/hyperloop/</loc>
 	  </url>
 	
@@ -15,14 +27,6 @@
 	
 	  <url>
 		<loc>http://ieeenitk.org/blog/gaurav-hegde-interview/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://ieeenitk.org/blog/abin-alex-interview/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</loc>
 	  </url>
 	
 	  <url>
@@ -59,10 +63,6 @@
 	
 	  <url>
 		<loc>http://ieeenitk.org/blog/introduction-to-GPU-computing/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://ieeenitk.org/blog/kishor-bhat-interview/</loc>
 	  </url>
 	
 	  <url>
