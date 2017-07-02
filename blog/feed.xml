@@ -5,9 +5,71 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Jul 2017 18:06:34 +0530</pubDate>
-    <lastBuildDate>Sun, 02 Jul 2017 18:06:34 +0530</lastBuildDate>
+    <pubDate>Sun, 02 Jul 2017 19:38:06 +0530</pubDate>
+    <lastBuildDate>Sun, 02 Jul 2017 19:38:06 +0530</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>Peeking into a hacker's mind - an Interview with Kishor Bhat</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/kishor-bhat-interview/kishor.jpg&quot; alt=&quot;Kishor Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.&lt;/p&gt; &lt;h3 id=&quot;1-how-important-are-ctfs-to-a-security-enthusiast-give-an-account-of-your-experiences-from-playing-ctfs&quot;&gt;1. How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs&lt;/h3&gt; &lt;p&gt;In my opinion, pretty important.&lt;/p&gt; &lt;p&gt;For the uninitiated, CTFs or Capture the Flag contests are security competitions that...</description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/kishor-bhat-interview/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/kishor-bhat-interview/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Cyber Security</category>
+        
+        <category>CTFs</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>A talk with - Abin Alex Pothen</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/abin-alex-interview/abin.jpg&quot; alt=&quot;Abin Alex&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;back-story&quot;&gt;Back-Story&lt;/h2&gt; &lt;p&gt;Hello guys, today I had a great opportunity to interview Abin Alex. He has done his BTech in Mechanical from NITK. He was an executive member of IEEE and SIGHT Chair in 2015. He is currently a Research Assistant in IISc and is working on stability of systems. With the amount of experience he possesses and the air of intelligence he creates around the person he is interacting with, it was a great opportunity for me.&lt;/p&gt; &lt;h3 id=&quot;what-is-one-thing-you-want-mechanical-students-to-remember&quot;&gt;What is one thing you want mechanical students to remember?&lt;/h3&gt; &lt;p&gt;That question can be answered in...</description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/abin-alex-interview/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/abin-alex-interview/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Piston</category>
+        
+        <category>Research</category>
+        
+        <category>Gyan</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>Dealing with Underdetermined Systems</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/ee0208dc07116e4d32bcc9952a015b43b63d91a2&quot; alt=&quot;incidence matrix&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-meant-by-under-constrained-system&quot;&gt;What is meant by “under-constrained” system?&lt;/h2&gt; &lt;p&gt;I will start off this segment with my favourite quote.&lt;/p&gt; &lt;p&gt;&lt;em&gt;“To the ones who tread the path less taken; To the ones who believe the answer to everything lies in data.”&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The answer to all problems lies in how much you know about it. Most engineering problems and their math models are inherently under-constrained. It is not surprising, we have all seen physics problems give under-constrained systems. The best example is in the definition of electric potential. All electric potentials are with reference to potentials at infinity where...</description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Unix</category>
+        
+        <category>Terminal</category>
+        
+        <category>Bash</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Hyperloop</title>
@@ -80,48 +142,6 @@
       </item>
     
       <item>
-        <title>A talk with - Abin Alex Pothen</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/abin-alex-interview/abinn.jpg&quot; alt=&quot;Abin Alex&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;back-story&quot;&gt;Back-Story&lt;/h2&gt; &lt;p&gt;Hello guys, today I had a great opportunity to interview Abin Alex. He has done his BTech in Mechanical from NITK. He was an executive member of IEEE and SIGHT Chair in 2015. He is currently a Research Assistant in IISc and is working on stability of systems. With the amount of experience he possesses and the air of intelligence he creates around the person he is interacting with, it was a great opportunity for me.&lt;/p&gt; &lt;h3 id=&quot;what-is-one-thing-you-want-mechanical-students-to-remember&quot;&gt;What is one thing you want mechanical students to remember?&lt;/h3&gt; &lt;p&gt;That question can be answered in...</description>
-        <pubDate>Tue, 20 Jun 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/abin-alex-interview/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/abin-alex-interview/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Piston</category>
-        
-        <category>Research</category>
-        
-        <category>Gyan</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Dealing with Underdetermined Systems</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/ee0208dc07116e4d32bcc9952a015b43b63d91a2&quot; alt=&quot;incidence matrix&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-meant-by-under-constrained-system&quot;&gt;What is meant by “under-constrained” system?&lt;/h2&gt; &lt;p&gt;I will start off this segment with my favourite quote.&lt;/p&gt; &lt;p&gt;&lt;em&gt;“To the ones who tread the path less taken; To the ones who believe the answer to everything lies in data.”&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The answer to all problems lies in how much you know about it. Most engineering problems and their math models are inherently under-constrained. It is not surprising, we have all seen physics problems give under-constrained systems. The best example is in the definition of electric potential. All electric potentials are with reference to potentials at infinity where...</description>
-        <pubDate>Tue, 20 Jun 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
-        <category>Unix</category>
-        
-        <category>Terminal</category>
-        
-        <category>Bash</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
         <title>Fluid mechanics in everyday life</title>
         <description>&lt;h2 id=&quot;applying-makeup&quot;&gt;Applying Makeup!&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/fluid-mech-everyday-life/1.jpg&quot; alt=&quot;Image1&quot; /&gt;&lt;/p&gt; &lt;p&gt;When you put on eye shadow or powder, you are most definitely applying shear and pressure forces. When you put foundation on a sponge and smear it over your face you can feel the shear stress acting on your face. Furthermore, the shear stress increases as the foundation moves from the sponge to your face. This causes no slip at the boundary, which allows the foundation to stick to your face rather than slide off. This is a great example of Couette Flow!!! It is amazing to realize how much fluid mechanics applies...</description>
         <pubDate>Sun, 18 Jun 2017 17:40:44 +0530</pubDate>
@@ -171,26 +191,6 @@
         <category>Image Processing</category>
         
         <category>Artificial Intelligence</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to Reverse Engineering</title>
-        <description>&lt;p&gt;I am sure you would have fixed a bug if you have done programming. Going through your code, identifying places where it could have gone wrong, trying out different inputs to make it easier, each one with your own different methods! You also would have learnt to make your debugging process simpler with your experience for sure. Congratulations for your first step towards an important skill required for reverse engineering :)&lt;/p&gt; &lt;p&gt;Lets begin with a simple intuitive understanding of reverse engineering. You have a toy gun in which you can load bullets and shoot. One fine day, it stops working!...</description>
-        <pubDate>Wed, 14 Jun 2017 17:40:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/introduction-to-reverse-engineering/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-reverse-engineering/</guid>
-        
-        <category>CTF</category>
-        
-        <category>CompSoc</category>
-        
-        <category>Ethical Hacking</category>
-        
-        <category>Security</category>
         
         
         <category>IEEE</category>
