@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Jul 2017 19:38:06 +0530</pubDate>
-    <lastBuildDate>Sun, 02 Jul 2017 19:38:06 +0530</lastBuildDate>
+    <pubDate>Mon, 03 Jul 2017 10:09:35 +0530</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 10:09:35 +0530</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -31,7 +31,7 @@
     
       <item>
         <title>A talk with - Abin Alex Pothen</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/abin-alex-interview/abin.jpg&quot; alt=&quot;Abin Alex&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;back-story&quot;&gt;Back-Story&lt;/h2&gt; &lt;p&gt;Hello guys, today I had a great opportunity to interview Abin Alex. He has done his BTech in Mechanical from NITK. He was an executive member of IEEE and SIGHT Chair in 2015. He is currently a Research Assistant in IISc and is working on stability of systems. With the amount of experience he possesses and the air of intelligence he creates around the person he is interacting with, it was a great opportunity for me.&lt;/p&gt; &lt;h3 id=&quot;what-is-one-thing-you-want-mechanical-students-to-remember&quot;&gt;What is one thing you want mechanical students to remember?&lt;/h3&gt; &lt;p&gt;That question can be answered in...</description>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/abin-alex-interview/abin.jpg&quot; alt=&quot;Abin Alex&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;back-story&quot;&gt;Back-Story&lt;/h2&gt; &lt;p&gt;Hello guys, today I had a great opportunity to interview Abin Alex Pothen. He has done his BTech in Mechanical from NITK. He was an executive member of IEEE and SIGHT Chair in 2015. He is currently a Project Assistant at IISc and is working on non-linear control. With the amount of experience he possesses and the ‘air of intelligence’ he creates around the person he is interacting with, it was a great opportunity for me.&lt;/p&gt; &lt;h3 id=&quot;what-is-one-thing-you-want-mechanical-students-to-remember&quot;&gt;What is one thing you want mechanical students to remember?&lt;/h3&gt; &lt;p&gt;That question can be answered in...</description>
         <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/abin-alex-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/abin-alex-interview/</guid>
@@ -58,13 +58,13 @@
         
         <category>IEEE NITK</category>
         
-        <category>CompSoc</category>
+        <category>Diode</category>
         
-        <category>Unix</category>
+        <category>SPS</category>
         
-        <category>Terminal</category>
+        <category>Image Processing</category>
         
-        <category>Bash</category>
+        <category>Linear Algebra</category>
         
         
         <category>IEEE</category>
