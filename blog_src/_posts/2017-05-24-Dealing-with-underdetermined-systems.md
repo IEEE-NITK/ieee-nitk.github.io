@@ -7,10 +7,10 @@ image: '/assets/img/'
 description: 'Mathematical models of engineering systems are inherently underdetermined'
 tags:
 - IEEE NITK
-- CompSoc
-- Unix
-- Terminal
-- Bash
+- Diode
+- SPS
+- Image Processing
+- Linear Algebra
 categories:
 - IEEE
 github_username: 'abhijithkamath'
