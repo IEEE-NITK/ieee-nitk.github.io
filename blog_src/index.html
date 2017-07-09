@@ -3,7 +3,9 @@ layout: default
 ---
 
 <main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    {% for post in site.posts %}
+
+
+    {% for post in paginator.posts %}
         <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                 <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
                     <meta itemprop="datePublished" content="{{post.date}}">
@@ -29,9 +31,9 @@ layout: default
                         {% endfor %}
                     </div>
 
-                    <div class="comments">
+                    <!--div class="comments">
                     <a href="{{ site.baseurl }}{{ post.url }}#{{disqus_thread | slugify}}">0 Comments</a>
-                    </div>
+                    </div-->
                 </div>
         </article>
     {% endfor %}
