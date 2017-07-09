@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "Introduction to big data and hadoop",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, CompSoc, and Big Data",
+      "url"      : "http://ieeenitk.org/blog//big-data/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "All about FinFETS",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK and FinFETS",
+      "url"      : "http://ieeenitk.org/blog//FinFETS/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "FASCINATING WORLD OF COMPLIANT MECHANISMS",
+      "category" : "IEEE",
+      "tags"     : "IEEE NITK, Piston, and Compliant mechanisms",
+      "url"      : "http://ieeenitk.org/blog//Compliant-Mechanisms/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
       "title"    : "Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat",
       "category" : "IEEE",
       "tags"     : "IEEE NITK, CompSoc, Cyber Security, and CTFs",
