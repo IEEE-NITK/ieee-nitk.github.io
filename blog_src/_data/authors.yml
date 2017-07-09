@@ -103,3 +103,21 @@ swathisbhat:
   author_image: 'swathi.png'
   user_description:
   email: 'swathibhat282@gmail.com'
+aditya5558:
+  name: A Aditya
+  github: aditya5558
+  author_image: 'a_aditya.jpeg'
+  user_description: 'A Data Science Enthusiast'
+  email: 'adityanant@gmail.com'
+megha68:
+  name: Megha Mantur
+  github: megha68
+  author_image: 'megha.jpg'
+  user_description: 'Yet to learn a lot!'
+  email: 'meghamantur060896@gmail.com'
+shuvam96:
+  name: Shuvam Senapati
+  github: shuvam96
+  author_image: 'shuvam.jpg'
+  user_description: 'Seeking Nirvana through CAD Modelling'
+  email: 'senapati.shuvam96@gmail.com'

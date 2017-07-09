@@ -5,9 +5,64 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 14:09:51 +0530</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 14:09:51 +0530</lastBuildDate>
+
+    <pubDate>Sun, 09 Jul 2017 15:35:32 +0530</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 15:35:32 +0530</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>Introduction to big data and hadoop</title>
+        <description>&lt;h1 id=&quot;what-is-big-data&quot;&gt;What is ‘Big data’?&lt;/h1&gt; &lt;p&gt;In simple terms, Big data is data which can’t comfortably be processed on a single machine. We live in a world increasingly driven by data. Try googling about big data and you will find some staggering facts like :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The amount of data produced by us from the beginning of time till 2003 was 5 billion gigabytes. The same amount was created in every two days in 2011, and in every ten minutes in 2013 !!!&lt;/li&gt; &lt;li&gt;90% of the world’s data was generated in the last few years.&lt;/li&gt; &lt;li&gt;A report from McKinsey &amp;amp; Co....</description>
+        <pubDate>Sat, 08 Jul 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/big-data/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/big-data/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Big Data</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>All about FinFETS</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Hello folks, today I’m going to discuss in detail about FinFET technology. The demand for smartphones and tablets with better performance and longer battery life has been driving the industry to come up with chips that are faster, smaller and use less power. To remain on this treadmill known as Moore’s Law, chipmakers have in recent years relied on a series of technological breakthroughs, most recently 3-D transistors known as FinFETs.&lt;/p&gt; &lt;p&gt;The FinFET technology promises to provide the deliver superior levels of scalability needed to ensure that the current progress with increased levels of integration within integrated circuits...</description>
+        <pubDate>Sat, 08 Jul 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/FinFETS/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/FinFETS/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Diode</category>
+        
+        <category>FinFETS</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
+    
+      <item>
+        <title>Fascinating World Of Compliant Mechanisms</title>
+        <description>&lt;h1 id=&quot;what-is-a-mechanism&quot;&gt;WHAT IS A MECHANISM?&lt;/h1&gt; &lt;p&gt;A mechanism is a mechanical device used to transfer or transform motion, force, or energy. Traditional rigid- body mechanisms consist of rigid links connected at movable joints. Whatever machines you see in your day to day life has some underlying mechanisms that govern its motion to produce the desired output. For example A NUT CRACKER works on the principle of MECHANICAL ADVANTAGE based on LEVER MECHANISM. This mechanism transfers energy from the input to the output. Since energy is conserved between the input and output (neglecting friction losses), the output force may be much larger...</description>
+        <pubDate>Sat, 08 Jul 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Compliant-Mechanisms/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Compliant-Mechanisms/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Piston</category>
+        
+        <category>Compliant mechanisms</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Peeking into a hacker's mind - an Interview with Kishor Bhat</title>
@@ -135,62 +190,6 @@
         <category>Math</category>
         
         <category>Gyan</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Fluid mechanics in everyday life</title>
-        <description>&lt;h2 id=&quot;applying-makeup&quot;&gt;Applying Makeup!&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/fluid-mech-everyday-life/1.jpg&quot; alt=&quot;Image1&quot; /&gt;&lt;/p&gt; &lt;p&gt;When you put on eye shadow or powder, you are most definitely applying shear and pressure forces. When you put foundation on a sponge and smear it over your face you can feel the shear stress acting on your face. Furthermore, the shear stress increases as the foundation moves from the sponge to your face. This causes no slip at the boundary, which allows the foundation to stick to your face rather than slide off. This is a great example of Couette Flow!!! It is amazing to realize how much fluid mechanics applies...</description>
-        <pubDate>Sun, 18 Jun 2017 17:40:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/fluid-mechanics-in-everyday-life/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/fluid-mechanics-in-everyday-life/</guid>
-        
-        <category>Piston</category>
-        
-        <category>Fluid Mechanics</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>The Fourth Industrial Revolution</title>
-        <description>&lt;p&gt;Automation, Internet of Things, Genetic engineering, cloud computing, renewable energy, sustainable development. Welcome to the Future. Welcome to the 4th Industrial revolution.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-fourth-industrial-revolution/pic1.jpg&quot; alt=&quot;image1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Professor Klaus Schwab, Founder and Executive Chairman of the World Economic Forum published the ‘The Fourth Industrial Revolution’. Through this he explained its impact on economies, countries, politics and even ideologies. The fourth industrial revolution focuses on making our industries more productive with automation cloud computing and IoT, shying away from fossil fuels and making super-soldiers (through genetic engineering!). That last one is questionable though…&lt;/p&gt; &lt;p&gt;Genetic engineering will help us in not only rectifying...</description>
-        <pubDate>Fri, 16 Jun 2017 18:40:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-fourth-industrial-revolution/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-fourth-industrial-revolution/</guid>
-        
-        <category>Piston</category>
-        
-        <category>IoT</category>
-        
-        <category>Automation</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>Through the eyes of a Computer</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/through-the-eyes-of-a-computer/image001.jpg&quot; alt=&quot;Intro&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Robot&lt;/strong&gt; – A word that might remind you of a Rajnikanth starrer or give you the picture of a metallic body going here and there and doing things that humans do quite naturally, on their own. All of us have at least once thought of owning a robot that could do our assignments, or just do things that we are lazy to do. And then, as you enter your college, you take online courses for learning how to build robots that follow lines, identify colours and do all sorts of things that you think it should...</description>
-        <pubDate>Wed, 14 Jun 2017 18:40:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/through-the-eyes-of-a-computer/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/through-the-eyes-of-a-computer/</guid>
-        
-        <category>Computer Vision</category>
-        
-        <category>CompSoc</category>
-        
-        <category>Diode</category>
-        
-        <category>Image Processing</category>
-        
-        <category>Artificial Intelligence</category>
         
         
         <category>IEEE</category>
