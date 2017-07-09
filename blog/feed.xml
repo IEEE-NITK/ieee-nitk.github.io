@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 13:07:23 +0530</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 13:07:23 +0530</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2017 15:35:32 +0530</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 15:35:32 +0530</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
       <item>
@@ -36,6 +36,8 @@
         
         <category>IEEE NITK</category>
         
+        <category>Diode</category>
+        
         <category>FinFETS</category>
         
         
@@ -44,7 +46,7 @@
       </item>
     
       <item>
-        <title>FASCINATING WORLD OF COMPLIANT MECHANISMS</title>
+        <title>Fascinating World Of Compliant Mechanisms</title>
         <description>&lt;h1 id=&quot;what-is-a-mechanism&quot;&gt;WHAT IS A MECHANISM?&lt;/h1&gt; &lt;p&gt;A mechanism is a mechanical device used to transfer or transform motion, force, or energy. Traditional rigid- body mechanisms consist of rigid links connected at movable joints. Whatever machines you see in your day to day life has some underlying mechanisms that govern its motion to produce the desired output. For example A NUT CRACKER works on the principle of MECHANICAL ADVANTAGE based on LEVER MECHANISM. This mechanism transfers energy from the input to the output. Since energy is conserved between the input and output (neglecting friction losses), the output force may be much larger...</description>
         <pubDate>Sat, 08 Jul 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/Compliant-Mechanisms/</link>
