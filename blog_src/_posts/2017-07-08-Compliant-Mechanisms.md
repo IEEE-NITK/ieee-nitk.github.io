@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FASCINATING WORLD OF COMPLIANT MECHANISMS"
+title: "Fascinating world of Compliant Mechanisms"
 date: 2017-07-08 0:0:0
 author_github: shuvam96
 image: '/assets/img/'
