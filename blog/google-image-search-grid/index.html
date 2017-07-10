@@ -164,17 +164,16 @@
 
 <p>If we look closely, we can see that the images in a row have equal height. Also, the heights of rows are not same. So the first intuition is to make the heights of images equal. Lets say we have list of <code class="highlighter-rouge">images</code> which stores <code class="highlighter-rouge">height</code> and <code class="highlighter-rouge">width</code> of each image.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Set CONST_HEIGHT := 160
+<div class="highlighter-rouge"><pre class="codehilite"><code>Set CONST_HEIGHT := 160
 For each image in images:
 	Resize image to height CONST_HEIGHT, constraint ratio
-</code></pre>
-</div>
+</code></pre></div>
 
 <h3 id="building-a-row">Building a Row</h3>
 
 <p>So now that we have normalized the image heights, let’s build a row. First we’ll have a look at the pseudo code, explanation is on the way…</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/**
+<div class="highlighter-rouge"><pre class="codehilite"><code>/**
  * Procedure to build a single row
  * parameter: images - list of images
  * returns: row - list of images in the built row
@@ -192,8 +191,7 @@ BUILD_ROW(images):
 		For each image in row_list:
 			Resize image to height row_image.height, constraint ratio
 	return row_list
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>So let’s see whats happening here. First we intialized row_list which stores the images in that particular row, and a variable row_width which will store the total width of the row. 
 Now we keep adding images to row from original list until the row_width exceeds the <code class="highlighter-rouge">MAX_WIDTH</code>, which is maximum width of the screen. Now we have a row which looks something like this.</p>
@@ -209,7 +207,7 @@ Here’s a depiction of the process…</p>
 
 <p>Now that we know how to build a row, building the grid is easy.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/**
+<div class="highlighter-rouge"><pre class="codehilite"><code>/**
  * Procedure to build the grid
  * parameter: images - list of images
  * returns: grid - list of rows
@@ -220,8 +218,7 @@ BUILD_GRID(images):
 		SET row := BUILD_ROW(images)
 		Append row to grid
 	return grid
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>Nice, we just made a Google Image Search style grid, where images fit in a row, intelligently.</p>
 
@@ -229,7 +226,7 @@ BUILD_GRID(images):
 
 <p>Hold on, there’s little more. While resizing the images, due to floating point divisions and floor operations, we lose some units in the row. If we neglect them, the rows won’t have equal widths. To overcome this, we just need to know the units we have lost and divide them equally among the images.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>BUILD_ROW(images):
+<div class="highlighter-rouge"><pre class="codehilite"><code>BUILD_ROW(images):
 	...
 	// After resizing the images
 	// Calculate width of resized row
@@ -244,8 +241,7 @@ BUILD_GRID(images):
 			image.width := image.width + 1
 			delta := delta - 1
 	return row_list
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>You might be thinking that, aren’t we changing image aspect ratio here? Yes, but one can lose a single unit in a single division. So the maximum number of lost units is equal to number of images in row. So width of each image will be increased by atmost one, which isn’t a big deal. Also you can center crop the images, so that there isn’t any empty space left out.</p>
 
@@ -273,7 +269,7 @@ This is <em>hrily</em> signing of…</p>
 </section>
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/hrily.jpg" alt="Hrishi Hiraskar">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/hrily.jpg" alt="Hrishi Hiraskar">
         <p class="def">Author</p>
         <h3 class="name">
             <a itemprop="name" href="https://github.com/hrily">Hrishi Hiraskar</a>
@@ -285,28 +281,30 @@ This is <em>hrily</em> signing of…</p>
 
             <!-- include comments.html when disqus is setup 
             <section class="comments">
-    <h3>Comments</h3>
-    <div id="disqus_thread"></div>
-<div id="disqus_thread"></div>
-<script>
+	<h3>Comments</h3>
+	<div id="disqus_thread"></div>
+	<div id="disqus_thread"></div>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+	<script>
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-var disqus_config = function () {
-this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = /google-image-search-grid/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
+	var disqus_config = function () {
+	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = /google-image-search-grid/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://ieeenitk.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>     
+	(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://ieeenitk.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+	</script>
+
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
+	<script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
 
 </section>-->
             <footer>

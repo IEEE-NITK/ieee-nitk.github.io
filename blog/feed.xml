@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 15:35:32 +0530</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 15:35:32 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.0</generator>
+    <pubDate>Mon, 10 Jul 2017 11:05:16 +0530</pubDate>
+    <lastBuildDate>Mon, 10 Jul 2017 11:05:16 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Introduction to big data and hadoop</title>
@@ -64,8 +64,8 @@
       </item>
     
       <item>
-        <title>Peeking into a hacker's mind - an Interview with Kishor Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/kishor-bhat-interview/kishor.jpg&quot; alt=&quot;Kishor Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.&lt;/p&gt; &lt;h3 id=&quot;1-how-important-are-ctfs-to-a-security-enthusiast-give-an-account-of-your-experiences-from-playing-ctfs&quot;&gt;1. How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs&lt;/h3&gt; &lt;p&gt;In my opinion, pretty important.&lt;/p&gt; &lt;p&gt;For the uninitiated, CTFs or Capture the Flag contests are security competitions that...</description>
+        <title>Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/kishor-bhat-interview/kishor.jpg&quot; alt=&quot;Kishor Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.&lt;/p&gt; &lt;h3 id=&quot;how-important-are-ctfs-to-a-security-enthusiast-give-an-account-of-your-experiences-from-playing-ctfs&quot;&gt;1. How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs&lt;/h3&gt; &lt;p&gt;In my opinion, pretty important.&lt;/p&gt; &lt;p&gt;For the uninitiated, CTFs or Capture the Flag contests are security competitions that...</description>
         <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/kishor-bhat-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/kishor-bhat-interview/</guid>
