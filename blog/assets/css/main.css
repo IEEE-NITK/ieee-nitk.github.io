@@ -4,19 +4,19 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 		text-align: justify;
 	}
 /* Custom css for pagination */
-.pagination{
-	color: #333;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1.25rem;
-}
-.pagelist{
-	list-style-type: none;
-	width: 100%;
-	text-align: center;
-}
-.pagelist li{
-	display: inline-block;
-	padding: 0.5rem;
-}
+	.pagination{
+		color: #333;
+	    font-family: 'Open Sans',sans-serif;
+	    font-weight: 300;
+	    font-style: normal;
+	    font-size: 1.25rem;
+	}
+	.pagelist{
+		list-style-type: none;
+		width: 100%;
+		text-align: center;
+	}
+	.pagelist li{
+		display: inline-block;
+		padding: 0.5rem;
+	}
