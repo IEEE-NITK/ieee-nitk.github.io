@@ -6,12 +6,10 @@ author_github: swathisbhat
 image: '/assets/img/'
 description: 'Capture the fun and magic of hacking along with a great insight to the field of cyber-security through this interview with Kishor Bhat'
 tags:
-- IEEE NITK 
-- CompSoc
 - Cyber Security
 - CTFs
 categories:
-- IEEE
+- CompSoc
 github_username: 'swathisbhat'
 comments: true
 ---

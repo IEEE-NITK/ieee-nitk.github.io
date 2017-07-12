@@ -6,6 +6,7 @@ image: '/assets/img/'
 description: 'Basics of working of Hyperloop'
 tags:
 - hyperloop
+categories:
 - Piston
 github_username: 'pranaypraveen'
 comments: true

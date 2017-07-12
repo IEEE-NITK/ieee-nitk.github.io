@@ -6,12 +6,10 @@ date: 2017-06-23
 image: '/assets/img/'
 description: 'A very basic introduction to some lesser explored stuff in javascript'
 tags:
-- IEEE NITK
-- CompSoc
 - JavaScript
 - Programming
 categories:
-- IEEE
+- CompSoc
 github_username: 'viggi'
 comments: true
 ---

@@ -6,12 +6,10 @@ author_github: pranaypraveen
 image: '/assets/img/'
 description: 'Mech Batch of 2016, Former SIGHT chair 2015'
 tags:
-- IEEE NITK
-- Piston
 - Research
 - Gyan
 categories:
-- IEEE
+- Piston
 github_username: 'pranaypraveen'
 comments: true
 ---

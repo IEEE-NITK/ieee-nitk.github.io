@@ -6,12 +6,10 @@ date: 2017-06-07 06:48:33
 image: '/assets/img/'
 description: 'Why Chemical Enginnering is not a bad choice after all!'
 tags:
-- IEEE NITK
 - Chemical
-- Piston
 - Career Advice
 categories:
-- IEEE
+- Piston
 github_username: 'Anupama'
 comments: true
 ---

@@ -6,12 +6,10 @@ date: 2017-06-04 12:00:00
 image: '/assets/img/'
 description: 'An overview of how GPUs and Graphic rendering works along with an introduction to GPGPUs'
 tags:
-- IEEE NITK
-- CompSoc
 - High Performance Computing
 - Game Development
 categories:
-- IEEE
+- CompSoc
 github_username: 'vilas897'
 comments: true
 ---

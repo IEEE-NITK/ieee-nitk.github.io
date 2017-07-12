@@ -6,11 +6,10 @@ date: 2017-06-16 13:10:44
 image: '/assets/img/'
 description: 'What the future beholds!'
 tags:
-- Piston
 - IoT
 - Automation
 categories:
-- IEEE
+- Piston
 github_username: 'vasista'
 comments: true
 ---

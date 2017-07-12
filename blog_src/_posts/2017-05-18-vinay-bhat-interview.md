@@ -5,12 +5,10 @@ date: 2017-05-14 23:32:44
 image: '/assets/img/'
 description: 'Final Year IEEE Executive Member Vinay Bhat gives advice on how to apply and look out for internships.'
 tags:
-- IEEE NITK 
-- CompSoc
 - Internships
 - Career Advice
 categories:
-- IEEE
+- CompSoc
 github_username: 'salman-bhai'
 comments: true
 ---

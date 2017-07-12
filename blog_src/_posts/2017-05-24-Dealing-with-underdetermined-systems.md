@@ -6,13 +6,11 @@ date: 2017-07-02 0:0:0
 image: '/assets/img/'
 description: 'Mathematical models of engineering systems are inherently underdetermined'
 tags:
-- IEEE NITK
-- Diode
 - SPS
 - Image Processing
 - Linear Algebra
 categories:
-- IEEE
+- Diode
 github_username: 'abhijithkamath'
 comments: true
 ---

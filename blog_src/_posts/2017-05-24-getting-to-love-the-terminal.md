@@ -6,13 +6,11 @@ date: 2017-05-24 10:48:33
 image: '/assets/img/'
 description: 'Getting started with exploring the Bash shell'
 tags:
-- IEEE NITK 
-- CompSoc
 - Unix
 - Terminal
 - Bash
 categories:
-- IEEE
+- CompSoc
 github_username: 'kaushiksk'
 comments: true
 ---

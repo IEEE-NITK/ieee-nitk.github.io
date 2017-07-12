@@ -5,12 +5,10 @@ date: 2017-06-09 16:32:44
 image: '/assets/img/'
 description: 'The basic understanding of problems belonging to class of NP, NP hard and NP complete.'
 tags:
-- IEEE NITK 
-- CompSoc
 - Algorithms
 - P v/s NP
 categories:
-- IEEE
+- CompSoc
 github_username: 'isha97'
 comments: true
 ---

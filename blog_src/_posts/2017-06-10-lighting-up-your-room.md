@@ -6,13 +6,11 @@ date: 2017-06-10 10:48:33
 image: '/assets/img/'
 description: 'Three components that dance to music'
 tags:
-- IEEE NITK
-- Diode
 - CAS
 - SPS
 - EEE
 categories:
-- IEEE
+- Diode
 github_username: 'AbhijithKamath'
 comments: true
 ---

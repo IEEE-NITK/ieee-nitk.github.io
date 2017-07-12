@@ -7,6 +7,8 @@ description: 'Detailed Instructions on installing Ubuntu on your Windows machine
 tags:
 - Linux
 - Ubuntu
+categories:
+- CompSoc
 github_username: 'hrily'
 comments: true
 ---

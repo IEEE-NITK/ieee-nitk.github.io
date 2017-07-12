@@ -7,12 +7,11 @@ image: '/assets/img/'
 description: 'Learn how to make your computers see the world like you do'
 tags:
 - Computer Vision
-- CompSoc
-- Diode
 - Image Processing
 - Artificial Intelligence
 categories:
-- IEEE
+- CompSoc
+- Diode
 github_username: 'mohita'
 comments: true
 ---

@@ -6,10 +6,11 @@ date: 2017-05-14 23:32:44
 image: '/assets/img/'
 description: 'Introductory post to IEEE NITK'
 tags:
-- Graphene 
-- Diode
+- Introduction
 categories:
-- IEEE
+- CompSoc
+- Diode
+- Piston
 github_username: 'salman-bhai'
 comments: true
 ---

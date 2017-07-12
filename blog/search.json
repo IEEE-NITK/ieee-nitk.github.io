@@ -2,183 +2,183 @@
   
     {
       "title"    : "Introduction to big data and hadoop",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, and Big Data",
+      "category" : "CompSoc",
+      "tags"     : "Big Data",
       "url"      : "http://ieeenitk.org/blog//big-data/",
       "date"     : "08 Jul 2017"
     } ,
   
     {
       "title"    : "All about FinFETS",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Diode, and FinFETS",
+      "category" : "Diode",
+      "tags"     : "FinFETS",
       "url"      : "http://ieeenitk.org/blog//FinFETS/",
       "date"     : "08 Jul 2017"
     } ,
   
     {
       "title"    : "Fascinating World Of Compliant Mechanisms",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Piston, and Compliant mechanisms",
+      "category" : "Piston",
+      "tags"     : "Compliant mechanisms",
       "url"      : "http://ieeenitk.org/blog//Compliant-Mechanisms/",
       "date"     : "08 Jul 2017"
     } ,
   
     {
       "title"    : "Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, Cyber Security, and CTFs",
+      "category" : "CompSoc",
+      "tags"     : "Cyber Security and CTFs",
       "url"      : "http://ieeenitk.org/blog//kishor-bhat-interview/",
       "date"     : "02 Jul 2017"
     } ,
   
     {
       "title"    : "A talk with - Abin Alex Pothen",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Piston, Research, and Gyan",
+      "category" : "Piston",
+      "tags"     : "Research and Gyan",
       "url"      : "http://ieeenitk.org/blog//abin-alex-interview/",
       "date"     : "02 Jul 2017"
     } ,
   
     {
       "title"    : "Dealing with Underdetermined Systems",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Diode, SPS, Image Processing, and Linear Algebra",
+      "category" : "Diode",
+      "tags"     : "SPS, Image Processing, and Linear Algebra",
       "url"      : "http://ieeenitk.org/blog//Dealing-with-underdetermined-systems/",
       "date"     : "02 Jul 2017"
     } ,
   
     {
       "title"    : "Hyperloop",
-      "category" : "",
-      "tags"     : "hyperloop and Piston",
+      "category" : "Piston",
+      "tags"     : "hyperloop",
       "url"      : "http://ieeenitk.org/blog//hyperloop/",
       "date"     : "25 Jun 2017"
     } ,
   
     {
       "title"    : "Graphene - A Wonder Material",
-      "category" : "IEEE",
-      "tags"     : "Diode and Graphene",
+      "category" : "Diode",
+      "tags"     : "Graphene",
       "url"      : "http://ieeenitk.org/blog//graphene/",
       "date"     : "24 Jun 2017"
     } ,
   
     {
       "title"    : "Promises, Closures and Potatoes",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, JavaScript, and Programming",
+      "category" : "CompSoc",
+      "tags"     : "JavaScript and Programming",
       "url"      : "http://ieeenitk.org/blog//promises-closures-and-potatoes/",
       "date"     : "23 Jun 2017"
     } ,
   
     {
       "title"    : "A talk with - Gaurav Hegde",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Diode, Math, and Gyan",
+      "category" : "Diode",
+      "tags"     : "Math and Gyan",
       "url"      : "http://ieeenitk.org/blog//gaurav-hegde-interview/",
       "date"     : "20 Jun 2017"
     } ,
   
     {
       "title"    : "Fluid mechanics in everyday life",
-      "category" : "IEEE",
-      "tags"     : "Piston and Fluid Mechanics",
+      "category" : "Piston",
+      "tags"     : "Fluid Mechanics",
       "url"      : "http://ieeenitk.org/blog//fluid-mechanics-in-everyday-life/",
       "date"     : "18 Jun 2017"
     } ,
   
     {
       "title"    : "The Fourth Industrial Revolution",
-      "category" : "IEEE",
-      "tags"     : "Piston, IoT, and Automation",
+      "category" : "Piston",
+      "tags"     : "IoT and Automation",
       "url"      : "http://ieeenitk.org/blog//the-fourth-industrial-revolution/",
       "date"     : "16 Jun 2017"
     } ,
   
     {
       "title"    : "Through the eyes of a Computer",
-      "category" : "IEEE",
-      "tags"     : "Computer Vision, CompSoc, Diode, Image Processing, and Artificial Intelligence",
+      "category" : "CompSocDiode",
+      "tags"     : "Computer Vision, Image Processing, and Artificial Intelligence",
       "url"      : "http://ieeenitk.org/blog//through-the-eyes-of-a-computer/",
       "date"     : "14 Jun 2017"
     } ,
   
     {
       "title"    : "Introduction to Reverse Engineering",
-      "category" : "IEEE",
-      "tags"     : "CTF, CompSoc, Ethical Hacking, and Security",
+      "category" : "CompSoc",
+      "tags"     : "CTF, Ethical Hacking, and Security",
       "url"      : "http://ieeenitk.org/blog//introduction-to-reverse-engineering/",
       "date"     : "14 Jun 2017"
     } ,
   
     {
       "title"    : "Implementing Google Image Search Style Grid",
-      "category" : "IEEE",
-      "tags"     : "Design and Grid",
+      "category" : "CompSoc",
+      "tags"     : "Web Design and Grid",
       "url"      : "http://ieeenitk.org/blog//google-image-search-grid/",
       "date"     : "10 Jun 2017"
     } ,
   
     {
       "title"    : "Lighting Up your Room!",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Diode, CAS, SPS, and EEE",
+      "category" : "Diode",
+      "tags"     : "CAS, SPS, and EEE",
       "url"      : "http://ieeenitk.org/blog//lighting-up-your-room/",
       "date"     : "10 Jun 2017"
     } ,
   
     {
       "title"    : "The Class of NP",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, Algorithms, and P v/s NP",
+      "category" : "CompSoc",
+      "tags"     : "Algorithms and P v/s NP",
       "url"      : "http://ieeenitk.org/blog//the-class-of-np/",
       "date"     : "09 Jun 2017"
     } ,
   
     {
       "title"    : "Why Not Chemical Engineering",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Chemical, Piston, and Career Advice",
+      "category" : "Piston",
+      "tags"     : "Chemical and Career Advice",
       "url"      : "http://ieeenitk.org/blog//why-not-chemical-engineering/",
       "date"     : "07 Jun 2017"
     } ,
   
     {
       "title"    : "Introduction to GPU Computing",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, High Performance Computing, and Game Development",
+      "category" : "CompSoc",
+      "tags"     : "High Performance Computing and Game Development",
       "url"      : "http://ieeenitk.org/blog//introduction-to-GPU-computing/",
       "date"     : "04 Jun 2017"
     } ,
   
     {
       "title"    : "How to Get Started with Bots",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, Diode, and Bots",
+      "category" : "Diode",
+      "tags"     : "Bots",
       "url"      : "http://ieeenitk.org/blog//how-to-get-started-with-bots/",
       "date"     : "01 Jun 2017"
     } ,
   
     {
       "title"    : "Hello World",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, GCC, C, Programming, and HelloWorld",
+      "category" : "CompSoc",
+      "tags"     : "GCC, C, Programming, and HelloWorld",
       "url"      : "http://ieeenitk.org/blog//Hello-World/",
       "date"     : "26 May 2017"
     } ,
   
     {
       "title"    : "Getting to love the Terminal",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, Unix, Terminal, and Bash",
+      "category" : "CompSoc",
+      "tags"     : "Unix, Terminal, and Bash",
       "url"      : "http://ieeenitk.org/blog//getting-to-love-the-terminal/",
       "date"     : "24 May 2017"
     } ,
   
     {
       "title"    : "Installing Ubuntu For Windows Users",
-      "category" : "",
+      "category" : "CompSoc",
       "tags"     : "Linux and Ubuntu",
       "url"      : "http://ieeenitk.org/blog//installing-ubuntu/",
       "date"     : "24 May 2017"
@@ -186,16 +186,16 @@
   
     {
       "title"    : "Advice on Computer Science - Vinay Bhat",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, Internships, and Career Advice",
+      "category" : "CompSoc",
+      "tags"     : "Internships and Career Advice",
       "url"      : "http://ieeenitk.org/blog//vinay-bhat-interview/",
       "date"     : "15 May 2017"
     } ,
   
     {
       "title"    : "Introduction to IEEE-NITK Chapter",
-      "category" : "IEEE",
-      "tags"     : "Graphene and Diode",
+      "category" : "CompSocDiodePiston",
+      "tags"     : "Introduction",
       "url"      : "http://ieeenitk.org/blog//introduction-to-ieee/",
       "date"     : "15 May 2017"
     } 

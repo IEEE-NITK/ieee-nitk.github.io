@@ -5,10 +5,10 @@ date: 2017-06-10 12:10:44
 image: '/assets/img/'
 description: 'A walkthrough of implementing image grid similar to Google Search'
 tags:
-- Design
+- Web Design
 - Grid
 categories:
-- IEEE
+- CompSoc
 github_username: 'hrily'
 comments: true
 ---

@@ -6,11 +6,9 @@ date: 2017-06-01 18:28:33
 image: '/assets/img/'
 description: 'A guest entry to the world of bots'
 tags:
-- IEEE NITK 
-- Diode
 - Bots
 categories:
-- IEEE
+- Diode
 github_username: 'trmittal'
 comments: true
 ---

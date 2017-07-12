@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Jul 2017 11:05:16 +0530</pubDate>
-    <lastBuildDate>Mon, 10 Jul 2017 11:05:16 +0530</lastBuildDate>
+    <pubDate>Wed, 12 Jul 2017 15:25:05 +0530</pubDate>
+    <lastBuildDate>Wed, 12 Jul 2017 15:25:05 +0530</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -16,14 +16,10 @@
         <link>http://ieeenitk.org/blog/big-data/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/big-data/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
         <category>Big Data</category>
         
         
-        <category>IEEE</category>
+        <category>CompSoc</category>
         
       </item>
     
@@ -34,14 +30,10 @@
         <link>http://ieeenitk.org/blog/FinFETS/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/FinFETS/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>Diode</category>
-        
         <category>FinFETS</category>
         
         
-        <category>IEEE</category>
+        <category>Diode</category>
         
       </item>
     
@@ -52,14 +44,10 @@
         <link>http://ieeenitk.org/blog/Compliant-Mechanisms/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Compliant-Mechanisms/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>Piston</category>
-        
         <category>Compliant mechanisms</category>
         
         
-        <category>IEEE</category>
+        <category>Piston</category>
         
       </item>
     
@@ -70,16 +58,12 @@
         <link>http://ieeenitk.org/blog/kishor-bhat-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/kishor-bhat-interview/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
         <category>Cyber Security</category>
         
         <category>CTFs</category>
         
         
-        <category>IEEE</category>
+        <category>CompSoc</category>
         
       </item>
     
@@ -90,16 +74,12 @@
         <link>http://ieeenitk.org/blog/abin-alex-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/abin-alex-interview/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>Piston</category>
-        
         <category>Research</category>
         
         <category>Gyan</category>
         
         
-        <category>IEEE</category>
+        <category>Piston</category>
         
       </item>
     
@@ -110,10 +90,6 @@
         <link>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>Diode</category>
-        
         <category>SPS</category>
         
         <category>Image Processing</category>
@@ -121,7 +97,7 @@
         <category>Linear Algebra</category>
         
         
-        <category>IEEE</category>
+        <category>Diode</category>
         
       </item>
     
@@ -134,8 +110,8 @@
         
         <category>hyperloop</category>
         
-        <category>Piston</category>
         
+        <category>Piston</category>
         
       </item>
     
@@ -146,12 +122,10 @@
         <link>http://ieeenitk.org/blog/graphene/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/graphene/</guid>
         
-        <category>Diode</category>
-        
         <category>Graphene</category>
         
         
-        <category>IEEE</category>
+        <category>Diode</category>
         
       </item>
     
@@ -162,16 +136,12 @@
         <link>http://ieeenitk.org/blog/promises-closures-and-potatoes/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/promises-closures-and-potatoes/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>CompSoc</category>
-        
         <category>JavaScript</category>
         
         <category>Programming</category>
         
         
-        <category>IEEE</category>
+        <category>CompSoc</category>
         
       </item>
     
@@ -182,16 +152,12 @@
         <link>http://ieeenitk.org/blog/gaurav-hegde-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/gaurav-hegde-interview/</guid>
         
-        <category>IEEE NITK</category>
-        
-        <category>Diode</category>
-        
         <category>Math</category>
         
         <category>Gyan</category>
         
         
-        <category>IEEE</category>
+        <category>Diode</category>
         
       </item>
     

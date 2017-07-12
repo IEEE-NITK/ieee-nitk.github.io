@@ -7,11 +7,10 @@ image: '/assets/img/'
 description: 'Learn how to break your code and make it better!'
 tags:
 - CTF
-- CompSoc
 - Ethical Hacking
 - Security
 categories:
-- IEEE
+- CompSoc
 github_username: 'jeshventhraja'
 comments: true
 ---

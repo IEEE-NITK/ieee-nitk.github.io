@@ -6,14 +6,12 @@ date: 2017-05-26 10:48:33
 image: '/assets/img/'
 description: 'A not so simple Hello World (PS: No need to buy the full version)'
 tags:
-- IEEE NITK 
-- CompSoc
 - GCC
 - C
 - Programming
 - HelloWorld
 categories:
-- IEEE
+- CompSoc
 github_username: 'adithyabhatkajake'
 comments: true
 ---

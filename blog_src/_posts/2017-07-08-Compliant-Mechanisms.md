@@ -6,11 +6,9 @@ author_github: shuvam96
 image: '/assets/img/'
 description: 'The world around us is fast changing. Soon most of the machines will work on Compliant Mechanisms. Never heard of it eh? Come lets see what this revolutionary technique is and what scope does it have in powering future machines.'
 tags:
-- IEEE NITK 
-- Piston
 - Compliant mechanisms
 categories:
-- IEEE
+- Piston
 github_username: 'shuvam96'
 comments: true
 ---
