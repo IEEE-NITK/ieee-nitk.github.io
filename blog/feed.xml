@@ -5,9 +5,63 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Jul 2017 19:44:11 +0530</pubDate>
-    <lastBuildDate>Sat, 15 Jul 2017 19:44:11 +0530</lastBuildDate>
+    <pubDate>Sat, 15 Jul 2017 23:55:50 +0530</pubDate>
+    <lastBuildDate>Sat, 15 Jul 2017 23:55:50 +0530</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>A talk with - Vijayakrishna Naganoor</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/vk-interview/vk.jpg&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;why-signal-processing-why-not-core-electrical-what-fascinated-you-take-up-sp&quot;&gt;Why signal processing? Why not core electrical? What fascinated you take up SP?&lt;/h2&gt; &lt;p&gt;Honestly, in the beginning of my second year, I just decided to choose a topic and go deep into it so that it will help me fetch an internship easily. Having a few projects related to music processing in mind, I decided to learn more about Signal Processing. With the recent boom in Machine Learning applications in SP, I realized that there were a lot of problem statements which could be taken up even at the B.Tech level. Having developed this interest in SP, I decided to...</description>
+        <pubDate>Sat, 15 Jul 2017 05:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/vk-interview/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/vk-interview/</guid>
+        
+        <category>Gyan</category>
+        
+        <category>SPS</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Multitenancy</title>
+        <description>&lt;h1 id=&quot;what-is-multitenancy&quot;&gt;What is Multitenancy?&lt;/h1&gt; &lt;p&gt;According to Wikipedia, the term “software multitenancy” refers to a software architecture in which a single instance of software runs on a server and serves multiple tenants. With a multitenant architecture, a software application is designed to provide every tenant a dedicated share of the resources.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/multitenancy/difference.png&quot; alt=&quot;alt text&quot; title=&quot;Single tenancy vs Multitenancy&quot; /&gt;&lt;/p&gt; &lt;p&gt;The initial aim of a multitenant architecture was to optimise resource allocation in an application. Instead of providing multiple instances of the same software, a single instance of the software was used to serve multiple tenants. But times have changed. Today, 15 years or more after the creation of...</description>
+        <pubDate>Sat, 15 Jul 2017 05:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/multitenancy/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/multitenancy/</guid>
+        
+        <category>Multitenancy</category>
+        
+        <category>Cloud Computing</category>
+        
+        <category>SaaS</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Continuously Variable Transmission</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;A Continuously variable transmission is a type of power transmission which be called as an efficient replacement for a conventional automobile gearbox with a gearshift. A CVT is a system of belt and pulleys which is used to achieve infinite gear ratios between the 2 transmission shafts. The CVT consists of 2 pulleys – the primary and the secondary. Both the pulleys have one movable sheave and one stationary sheave. A belt (V shaped) goes over these pulleys. The angle of the V belt is equal to the angle between the facing sides of movable and stationary sheave...</description>
+        <pubDate>Sat, 15 Jul 2017 05:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/cvt/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/cvt/</guid>
+        
+        <category>CVT</category>
+        
+        <category>Transmission</category>
+        
+        <category>Constant Engine RPM</category>
+        
+        <category>Infinite gear ratio</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Introduction to big data and hadoop</title>
@@ -112,52 +166,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Graphene - A Wonder Material</title>
-        <description>&lt;h1 id=&quot;graphene--a-wonder-material&quot;&gt;GRAPHENE – A WONDER MATERIAL&lt;/h1&gt; &lt;p&gt;“I have never even heard of this term graphene before”, might be your thought process presently. Read further to understand why I call it a wonder material. What’s running in your mind at this point of time due to similarity in what you have studied is Graphite, an allotrope of Carbon which is very commonly found. But, what’s Graphene then? Yes, graphite and graphene are in fact the same except for a few structural differences which brings in unexpected properties. Graphite consists of various layers of Carbon atoms where each layer is arranged in...</description>
-        <pubDate>Sat, 24 Jun 2017 21:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/graphene/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/graphene/</guid>
-        
-        <category>Graphene</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Promises, Closures and Potatoes</title>
-        <description>&lt;h1 id=&quot;promises-closures-and-potatoes&quot;&gt;Promises, Closures and Potatoes.&lt;/h1&gt; &lt;p&gt;Well this article is mainly about Promises and Closures, two concepts that most of us don’t really care about in the beginning, but in reality, we have been using it a lot. “Promises and Closures” wouldn’t sound cool so I thought of slightly innovative title.&lt;/p&gt; &lt;h2 id=&quot;so-what-are-promises&quot;&gt;So what are promises?&lt;/h2&gt; &lt;p&gt;They are not new, and they are pretty popular for a long time. &lt;img src=&quot;/blog/assets/img/promises-closures-and-potatoes/image1.png&quot; alt=&quot;image1&quot; /&gt; Promises gives you this feature of asynchronous nature in the code. It actually lets a third agent interact with your code: let’s take a small example. Assume that...</description>
-        <pubDate>Fri, 23 Jun 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/promises-closures-and-potatoes/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/promises-closures-and-potatoes/</guid>
-        
-        <category>JavaScript</category>
-        
-        <category>Programming</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>A talk with - Gaurav Hegde</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/gaurav_hegde_interview/Gaurav.jpg&quot; alt=&quot;Gaurav Hegde&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;back-story&quot;&gt;Back-Story&lt;/h2&gt; &lt;p&gt;Hello guys, I am Abijith, third year EEE. I had this opportunity among many opportunities to interview and talk to Gaurav. In my two years of IEEE and NITK life, I have been in touch with him for only one semester, because he took a semester off in his 7th semester. That semester has been the best academic semester for me. The discussions, the treats, the interactions, the projects, the amount of knowledge that this person has! Oh good lord!&lt;/p&gt; &lt;p&gt;Anyway, without any further ado, presenting Gaurav. Note: Questions are in &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt; &lt;h3...</description>
-        <pubDate>Tue, 20 Jun 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/gaurav-hegde-interview/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/gaurav-hegde-interview/</guid>
-        
-        <category>Math</category>
-        
-        <category>Gyan</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     

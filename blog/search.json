@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "A talk with - Vijayakrishna Naganoor",
+      "category" : "Diode",
+      "tags"     : "Gyan and SPS",
+      "url"      : "http://ieeenitk.org/blog//vk-interview/",
+      "date"     : "15 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Multitenancy",
+      "category" : "CompSoc",
+      "tags"     : "Multitenancy, Cloud Computing, and SaaS",
+      "url"      : "http://ieeenitk.org/blog//multitenancy/",
+      "date"     : "15 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Continuously Variable Transmission",
+      "category" : "Piston",
+      "tags"     : "CVT, Transmission, Constant Engine RPM, and Infinite gear ratio",
+      "url"      : "http://ieeenitk.org/blog//cvt/",
+      "date"     : "15 Jul 2017"
+    } ,
+  
+    {
       "title"    : "Introduction to big data and hadoop",
       "category" : "CompSoc",
       "tags"     : "Big Data",
