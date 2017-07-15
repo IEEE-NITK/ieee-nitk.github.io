@@ -43,7 +43,7 @@ Just to recap, here are the fundamental elements of the program:
 3. `main()` is the entry point of the program.
 4. `printf()` is a C function that is used to print formatted (printf - print format) strings.
 
-<img src="/blog/assets/img/hello-world/intro.png">
+<img src="/blog/assets/img/Hello-World/intro.png">
 
 Let us start unravelling some of the complexities of the example program. 
 
@@ -87,9 +87,9 @@ extern int sprintf (char *__restrict __s,
 ...
 
 ~~~~
-> Pro Tip: Save a C file with just "#include <stdio.h>" in it. Then run `gcc -c -i <file.c> -o <file.i> to see the actual preprocessing in action. GCC's -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.
+> Pro Tip: Save a C file with just "#include &lt;stdio.h&gt;" in it. Then run `gcc -c -i &lt;file.c&gt; -o &lt;file.i&gt; to see the actual preprocessing in action. GCC's -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.
 
-The preprocessing and compilation, both of them are done by the same program: cc1. The `cc1` executable is a part of the gcc suite of programs. But, hang on! What is this *<stdio.h>*? Angle brackets(yeah, that is what <> are actually called. Not less/greater than symbols) tells the preprocessor that the file inside is present in the standard library path. It is usually defined in an environment variable called C_INCLUDE_PATH. You can also add directories to search for headers with the `-I` flag in gcc. (Example: `gcc -I foo/bar <file>.c` will make gcc search for .h files in foo/bar/ directory first, and then the remaining directories in C_INCLUDE_PATH). For shorthand purposes, you can write `#include "foo.h"` if you want gcc to add foo.h from the current directory.
+The preprocessing and compilation, both of them are done by the same program: cc1. The `cc1` executable is a part of the gcc suite of programs. But, hang on! What is this *&lt;stdio.h&gt;*? Angle brackets(yeah, that is what <> are actually called. Not less/greater than symbols) tells the preprocessor that the file inside is present in the standard library path. It is usually defined in an environment variable called C_INCLUDE_PATH. You can also add directories to search for headers with the `-I` flag in gcc. (Example: `gcc -I foo/bar <file>.c` will make gcc search for .h files in foo/bar/ directory first, and then the remaining directories in C_INCLUDE_PATH). For shorthand purposes, you can write `#include "foo.h"` if you want gcc to add foo.h from the current directory.
 
  We also see that printf is actually defined here. Which is why, folks! you get warnings if you use printf without including the library. But, hold on. Where is the implementation of the printf? To answer the question, please buy the full version here [#]()
 
