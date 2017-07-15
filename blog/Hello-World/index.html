@@ -95,7 +95,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-26 16:18:33 +0530" class="date">26 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-26 10:48:33 +0000" class="date">26 May 2017</time>
         
         <h1 class="post-title" itemprop="name">Hello World</h1>
         <p itemprop="description" class="subtitle">A not so simple Hello World (PS: No need to buy the full version)</p>
@@ -172,7 +172,7 @@ void main() // An entry function
   <li><code class="highlighter-rouge">printf()</code> is a C function that is used to print formatted (printf - print format) strings.</li>
 </ol>
 
-<p><img src="/blog/assets/img/hello-world/intro.png" /></p>
+<p><img src="/blog/assets/img/Hello-World/intro.png" /></p>
 
 <p>Let us start unravelling some of the complexities of the example program.</p>
 
@@ -217,10 +217,10 @@ extern int sprintf (char *__restrict __s,
 </code></pre>
 </div>
 <blockquote>
-  <p>Pro Tip: Save a C file with just “#include <stdio.h>" in it. Then run `gcc -c -i <file.c> -o <file.i> to see the actual preprocessing in action. GCC's -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.</file.i></file.c></stdio.h></p>
+  <p>Pro Tip: Save a C file with just “#include &lt;stdio.h&gt;” in it. Then run `gcc -c -i &lt;file.c&gt; -o &lt;file.i&gt; to see the actual preprocessing in action. GCC’s -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.</p>
 </blockquote>
 
-<p>The preprocessing and compilation, both of them are done by the same program: cc1. The <code class="highlighter-rouge">cc1</code> executable is a part of the gcc suite of programs. But, hang on! What is this *<stdio.h>*? Angle brackets(yeah, that is what &lt;&gt; are actually called. Not less/greater than symbols) tells the preprocessor that the file inside is present in the standard library path. It is usually defined in an environment variable called C_INCLUDE_PATH. You can also add directories to search for headers with the `-I` flag in gcc. (Example: `gcc -I foo/bar <file>.c` will make gcc search for .h files in foo/bar/ directory first, and then the remaining directories in C_INCLUDE_PATH). For shorthand purposes, you can write `#include "foo.h"` if you want gcc to add foo.h from the current directory.</file></stdio.h></p>
+<p>The preprocessing and compilation, both of them are done by the same program: cc1. The <code class="highlighter-rouge">cc1</code> executable is a part of the gcc suite of programs. But, hang on! What is this <em>&lt;stdio.h&gt;</em>? Angle brackets(yeah, that is what &lt;&gt; are actually called. Not less/greater than symbols) tells the preprocessor that the file inside is present in the standard library path. It is usually defined in an environment variable called C_INCLUDE_PATH. You can also add directories to search for headers with the <code class="highlighter-rouge">-I</code> flag in gcc. (Example: <code class="highlighter-rouge">gcc -I foo/bar &lt;file&gt;.c</code> will make gcc search for .h files in foo/bar/ directory first, and then the remaining directories in C_INCLUDE_PATH). For shorthand purposes, you can write <code class="highlighter-rouge">#include "foo.h"</code> if you want gcc to add foo.h from the current directory.</p>
 
 <p>We also see that printf is actually defined here. Which is why, folks! you get warnings if you use printf without including the library. But, hold on. Where is the implementation of the printf? To answer the question, please buy the full version here <a href="">#</a></p>
 
