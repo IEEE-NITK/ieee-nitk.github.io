@@ -182,11 +182,10 @@ We’ll mainly talk about bash <a href="https://en.wikipedia.org/wiki/Alias_(com
 
 <p>Some other common aliases you would like to use can be</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>alias ..="cd .."
+<div class="highlighter-rouge"><pre class="codehilite"><code>alias ..="cd .."
 alias ...="cd ../.."
 alias myfolder="cd path/to/my/folder"
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>You can now just use the placeholders instead of the entire command. I use a lot of aliases to <code class="highlighter-rouge">cd</code> into my frequent folders and it really saves a lot of time and a lot of typing.</p>
 
@@ -204,13 +203,12 @@ alias myfolder="cd path/to/my/folder"
 
 <p>Now move all the way down to the bottom of the file and add the following lines there.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>alias lhid='ls -A|grep '^\..*''
+<div class="highlighter-rouge"><pre class="codehilite"><code>alias lhid='ls -A|grep '^\..*''
 alias ..="cd .."
 alias ...="cd ../.."
 alias myfolder="cd path/to/my/folder"
 
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>Save the file and exit (<code class="highlighter-rouge">Ctrl X + Y</code> in nano).</p>
 
@@ -230,21 +228,6 @@ alias myfolder="cd path/to/my/folder"
 
             </article>
 
-            <section class="share">
-    <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/getting-to-love-the-terminal/%20via%20&#64;IEEE_NITK&hashtags=Unix,Terminal,Bash,"
-    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
-        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-    </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//getting-to-love-the-terminal/"
-    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
-        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
-    </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//getting-to-love-the-terminal/"
-    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
-        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
-    </a>
-</section>
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
         <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/kaushik_sk.jpg" alt="Kaushik S Kalmady">
@@ -257,9 +240,8 @@ alias myfolder="cd path/to/my/folder"
     </div>
 </section>
 
-            <!-- include comments.html when disqus is setup 
             <section class="comments">
-	<h3>Comments</h3>
+<!-- 	<h3>Comments</h3>
 	<div id="disqus_thread"></div>
 	<div id="disqus_thread"></div>
 
@@ -283,8 +265,40 @@ alias myfolder="cd path/to/my/folder"
 
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
 	<script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
+ -->
 
-</section>-->
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>
+            
+                <section class="comments">
+                    <h4>Comments</h4>
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/getting-to-love-the-terminal/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    </div>
+                </section>
+            
+            <section class="share">
+    <h3>Share</h3>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/getting-to-love-the-terminal/%20via%20&#64;IEEE_NITK&hashtags=Unix,Terminal,Bash,"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//getting-to-love-the-terminal/"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+    </a>
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//getting-to-love-the-terminal/"
+    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+    </a>
+</section>
+
             <footer>
     <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
 </footer>
@@ -304,6 +318,7 @@ alias myfolder="cd path/to/my/folder"
 	});
 </script>
         </section>
+
     </body>
 </html>
             

@@ -182,21 +182,6 @@
 
             </article>
 
-            <section class="share">
-    <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/introduction-to-ieee/%20via%20&#64;IEEE_NITK&hashtags=Introduction,"
-    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
-        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-    </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//introduction-to-ieee/"
-    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
-        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
-    </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//introduction-to-ieee/"
-    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
-        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
-    </a>
-</section>
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
         <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/salman_shah.jpg" alt="Salman Shah">
@@ -209,9 +194,8 @@
     </div>
 </section>
 
-            <!-- include comments.html when disqus is setup 
             <section class="comments">
-	<h3>Comments</h3>
+<!-- 	<h3>Comments</h3>
 	<div id="disqus_thread"></div>
 	<div id="disqus_thread"></div>
 
@@ -235,8 +219,40 @@
 
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
 	<script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
+ -->
 
-</section>-->
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>
+            
+                <section class="comments">
+                    <h4>Comments</h4>
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/introduction-to-ieee/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    </div>
+                </section>
+            
+            <section class="share">
+    <h3>Share</h3>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/introduction-to-ieee/%20via%20&#64;IEEE_NITK&hashtags=Introduction,"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//introduction-to-ieee/"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+    </a>
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//introduction-to-ieee/"
+    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+    </a>
+</section>
+
             <footer>
     <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
 </footer>
@@ -256,6 +272,7 @@
 	});
 </script>
         </section>
+
     </body>
 </html>
             
