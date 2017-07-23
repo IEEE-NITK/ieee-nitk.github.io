@@ -43,8 +43,12 @@ links:
 exclude: ['package.json', 'src', 'node_modules']
 
 # extra plugins
-plugins: 
+plugins_dir: 
   ['jekyll-paginate']
+
+# Gems
+gems: [jekyll-paginate]
+
 #make 5 articles per page
 paginate: 5
 paginate_path: "/page:num/"
