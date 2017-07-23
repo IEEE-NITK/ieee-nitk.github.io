@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Is Random really Random?"
+title: "Is random really random"
 date: 2017-07-23 0:0:0
-image: '/assets/img/'
 author_github: subbalakshmi
-description: 'Random implies indeterminacy( One can't possibly know, what will happen next).At the same time,  the result of a computer program is deterministic( If you know the algo, then you know the answer). If that is the case, then is it possible that the random numbers that a computer generates is not truly random?'
+image: '/assets/img/'
+description: 'Random implies indeterminacy (One can't possibly know, what will happen next). At the same time, the result of a computer program is deterministic (If you know the algo, then you know the answer). If that is the case, then is it possible that the random numbers that a computer generates is not truly random?'
 tags:
 - Cryptography
 categories:
 - Diode
-- CompSoc
+- Compsoc
 comments: true
 ---
 
