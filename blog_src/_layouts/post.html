@@ -10,13 +10,21 @@
                 {{ content }}
             </article>
 
-            {% include share.html %}
             {% include author.html %}
-            <!-- include comments.html when disqus is setup 
-            {% include comments.html %}-->
+            {% include comments.html %}
+            {% if page.comments %}
+                <section class="comments">
+                    <h4>Comments</h4>
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    </div>
+                </section>
+            {% endif %}
+            {% include share.html %}
+
             {% include footer.html %}
             {% include highlighter.html %}
         </section>
+
     </body>
 </html>
             
