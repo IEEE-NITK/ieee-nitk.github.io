@@ -5,11 +5,11 @@ viggi:
   user_description: 'That guy who always spends time in front of laptop and loves js'
   email: 'vighneshvelayudhan@gmail.com'
 pranaypraveen:
-    name: Pranay Praveen
-    github: pranaypraveen
-    author_image: 'pranay_praveen.jpg'
-    user_description: "Sometimes the questions are complicated and the answers are simple."
-    email: pranay2098@gmail.com
+  name: Pranay Praveen
+  github: pranaypraveen
+  author_image: 'pranay_praveen.jpg'
+  user_description: "Sometimes the questions are complicated and the answers are simple."
+  email: pranay2098@gmail.com
 kaushiksk:
   name: Kaushik S Kalmady
   github: kaushiksk
@@ -143,5 +143,3 @@ karthik:
   author_image: 'blog-author.jpg'
   user_description: 'Computers and Coding'
   email: karthik@gmail.com
-  
-  
