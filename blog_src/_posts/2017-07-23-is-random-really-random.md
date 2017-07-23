@@ -9,7 +9,7 @@ tags:
 categories:
 - Diode
 - Compsoc
-github_username: 'subbulali'
+github_username: 'subbalakshmi'
 comments: true
 ---
 
