@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is random really random"
-date: 2017-07-23 0:0:0
+date: 2017-07-23 
 image: '/assets/img/'
 description: 'Random implies indeterminacy (One can't possibly know, what will happen next). At the same time, the result of a computer program is deterministic (If you know the algo, then you know the answer). If that is the case, then is it possible that the random numbers that a computer generates is not truly random?'
 tags:
