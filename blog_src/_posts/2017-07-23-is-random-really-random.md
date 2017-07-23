@@ -1,6 +1,4 @@
-
 ---
-
 layout: post
 title: "Is Random really Random?"
 date: 2017-07-23 0:0:0
@@ -9,11 +7,10 @@ author_github: subbalakshmi
 description: 'Random implies indeterminacy( One can't possibly know, what will happen next).At the same time,  the result of a computer program is deterministic( If you know the algo, then you know the answer). If that is the case, then is it possible that the random numbers that a computer generates is not truly random?'
 tags:
 - Cryptography
-
 categories:
 - Diode
-
-comment: true
+- CompSoc
+comments: true
 ---
 
 Random numbers have been used for many thousands of years. Roll a dice. Flip a coin. Pick a card from a deck .Whatever the result may be in these three situations, it’s completely random each time and there’s no way of predicting it by looking at the previous outcomes. In other words, the end result is left to random chance.

@@ -143,5 +143,10 @@ subbalakshmi:
   author_image: 'subbu.jpg'
   user_description: 'Always eager to learn something new!'
   email: subbalakshmi.n18@gmail.com
+karthik:
+  name: Karthik
+  author_image: 'blog-author.jpg'
+  user_description: 'Computers and Coding'
+  email: karthik@gmail.com
   
   
