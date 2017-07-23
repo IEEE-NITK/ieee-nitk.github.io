@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Log file parsing and formats of report generation",
+      "category" : "CompSoc",
+      "tags"     : "File Parsing and Logging",
+      "url"      : "http://ieeenitk.org/blog//Log-file-parsing-and-report-generation/",
+      "date"     : "23 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Cuba and Candela - Thin shell structures and their strength through curvature",
+      "category" : "Piston",
+      "tags"     : "Structural engineering and Felix Candela",
+      "url"      : "http://ieeenitk.org/blog//Cuba-and-Candela-Thin-shell-structures-and-their-strength-through-curvature/",
+      "date"     : "22 Jul 2017"
+    } ,
+  
+    {
       "title"    : "A talk with - Vijayakrishna Naganoor",
       "category" : "Diode",
       "tags"     : "Gyan and SPS",
