@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Number Theory",
+      "category" : "CompSoc",
+      "tags"     : "Number Theory, Group, Ring, Rng, Field, Finite Field, and Galois Field",
+      "url"      : "http://ieeenitk.org/blog//NumberTheory/",
+      "date"     : "23 Jul 2017"
+    } ,
+  
+    {
       "title"    : "Log file parsing and formats of report generation",
       "category" : "CompSoc",
       "tags"     : "File Parsing and Logging",
