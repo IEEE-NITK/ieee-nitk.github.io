@@ -2,7 +2,7 @@
 layout: post
 title: "Number Theory"
 author_github: adithyabhatkajake
-date: 2017-05-26 10:48:33
+date: 2017-07-23 10:48:33
 image: '/assets/img/'
 description: 'Number Theory'
 tags:
@@ -17,6 +17,7 @@ categories:
 - CompSoc
 github_username: 'adithyabhatkajake'
 comments: true
+use_math: true
 ---
  
 
@@ -118,7 +119,7 @@ The set of Integers $Z$ with $+$ and $*$, however can claim the title of the **L
 
 A set $F$(see how I am conveniently changing the letters of the set as the definition changes, get used to it when reading math books) is said to be a Field with respect to the operations $+$ and $*$ if the following field axioms are satisfied:
 - ($F,+$) must be an abelian group
-- ($F-\{0\},*$) must be an abelian group [0 is the additive identity]
+- ($F-\\{0\\},\*$) must be an abelian group [0 is the additive identity]
 
 #### Characteristic of a Field:
 A positive integer n is said to be a characteristic of a field $F$, if
@@ -135,13 +136,13 @@ We need not take only 1 here. In fact, for any element $x \in F$, $n.x = 0$ is t
 
 #### Subfield
 
-A field ($G,+,*$) is said to be a subfield of ($F,+,*$), if $0$ in $F = 0$ in $G$, both the operations are the same and $G\subset F$.
+A field $(G,+,\*)$ is said to be a subfield of $(F,+,\*)$, if $0$ in $F = 0$ in $G$, both the operations are the same and $G\subset F$.
 
 ### Prime Field
 
 Given a prime number $p$, we can build a prime number field.
 Let the $+$ operation be a $+modulo$ p operation:if the sum exceeds p, we mod it with p.
-Let the $*$ operation be a $*modulo$ p operation:if the product exceeds p, we mod it with p.
+Let the $\*$ operation be a $\*modulo$ p operation:if the product exceeds p, we mod it with p.
 Add these two operations with a set consisting of integers from $0$ to $p-1$, we get a prime field.
 
 This field is commonly referred to as $\mathbb{Z}_p$.

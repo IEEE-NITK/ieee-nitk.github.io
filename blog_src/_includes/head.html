@@ -89,4 +89,8 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
     href="{{ "/blog/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    {% if page.use_math %}
+        {% include math.html %}
+    {% endif %}
 </head>
