@@ -115,4 +115,5 @@ At higher angles of attack, however, it generates a vortex that is positioned t
 The swirling action of the vortex increases the speed of airflow over the wing, so reducing the pressure and providing greater lift. 
 LERX systems are notable for the potentially large angles in which they are effective.
 
+![](/blog/assets/img/High-Lift-devices/lerx.png)
 ![](/blog/assets/img/High-Lift-devices/lerx.jpg)
