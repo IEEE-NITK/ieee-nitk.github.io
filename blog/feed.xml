@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jul 2017 18:00:39 +0530</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2017 18:00:39 +0530</lastBuildDate>
+    <pubDate>Sat, 29 Jul 2017 15:06:28 +0530</pubDate>
+    <lastBuildDate>Sat, 29 Jul 2017 15:06:28 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>An Introduction to Reinforcement Learning</title>
+        <description>&lt;h1 id=&quot;an-introduction-to-reinforcement-learning&quot;&gt;An Introduction to Reinforcement Learning&lt;/h1&gt; &lt;p&gt;Imagine you are trying to train a dog to do fetch a ball. What you’d normally do is that you would reward it a snack every time it fetched the ball. The dog would then associate the snack with the act of fetching and would do it every time in the hope of a treat. Ladies and gentlemen, this is Reinforcement Learning. Cue the curtains. We’re done here. ;)&lt;/p&gt; &lt;h3 id=&quot;wait-what-you-didnt-tell-me-what-reinforcement-learning-actually-is&quot;&gt;Wait what? You didn’t tell me what Reinforcement Learning actually is.&lt;/h3&gt; &lt;p&gt;All jokes aside, Reinforcement Learning is the area of machine learning which resembles...</description>
+        <pubDate>Fri, 28 Jul 2017 19:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Reinforcement-Learning/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Reinforcement-Learning/</guid>
+        
+        <category>Machine Learning</category>
+        
+        <category>AI</category>
+        
+        <category>Bots</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Number Theory</title>
@@ -160,22 +178,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Peeking into a hacker's mind - an Interview with Kishor Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/kishor-bhat-interview/kishor.jpg&quot; alt=&quot;Kishor Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.&lt;/p&gt; &lt;h3 id=&quot;1-how-important-are-ctfs-to-a-security-enthusiast-give-an-account-of-your-experiences-from-playing-ctfs&quot;&gt;1. How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs&lt;/h3&gt; &lt;p&gt;In my opinion, pretty important.&lt;/p&gt; &lt;p&gt;For the uninitiated, CTFs or Capture the Flag contests are security competitions that...</description>
-        <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/kishor-bhat-interview/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/kishor-bhat-interview/</guid>
-        
-        <category>Cyber Security</category>
-        
-        <category>CTFs</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

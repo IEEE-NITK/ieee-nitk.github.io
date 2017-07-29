@@ -129,6 +129,7 @@ gitmenonsandu:
   email: 'menonsandu@gmail.com'
 prajwal:
   name: Prajwal Bharadwaj
+  github: ''
   author_image: 'prajwal.jpg'
   user_description: 'Amazed by the power of knowledge which increases aesthetic value'
   email: 'prajwalb9897@gmail.com'
@@ -140,6 +141,13 @@ prafulitti:
   email: 'praful.itti@gmail.com'
 karthik:
   name: Karthik
+  github: ''
   author_image: 'blog-author.jpg'
   user_description: 'Computers and Coding'
   email: karthik@gmail.com
+aneesh297:
+  name: Aneesh Aithal
+  github: aneesh297
+  author_image: 'aneesh.jpg'
+  user_description: "The future is now"
+  email: aneesh297@gmail.com
