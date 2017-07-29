@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "An Introduction to Reinforcement Learning",
+      "category" : "CompSoc",
+      "tags"     : "Machine Learning, AI, and Bots",
+      "url"      : "http://ieeenitk.org/blog//Reinforcement-Learning/",
+      "date"     : "28 Jul 2017"
+    } ,
+  
+    {
       "title"    : "Number Theory",
       "category" : "CompSoc",
       "tags"     : "Number Theory, Group, Ring, Rng, Field, Finite Field, and Galois Field",
