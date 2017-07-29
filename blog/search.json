@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "3D Printing",
+      "category" : "IEEE",
+      "tags"     : "3D Printing, Additive Manufacturing, and SIS",
+      "url"      : "http://ieeenitk.org/blog//3D-Printing/",
+      "date"     : "28 Jul 2017"
+    } ,
+  
+    {
       "title"    : "An Introduction to Reinforcement Learning",
       "category" : "CompSoc",
       "tags"     : "Machine Learning, AI, and Bots",

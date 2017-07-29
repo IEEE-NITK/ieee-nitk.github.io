@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Jul 2017 15:13:33 +0530</pubDate>
-    <lastBuildDate>Sat, 29 Jul 2017 15:13:33 +0530</lastBuildDate>
+    <pubDate>Sat, 29 Jul 2017 16:52:29 +0530</pubDate>
+    <lastBuildDate>Sat, 29 Jul 2017 16:52:29 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>3D Printing</title>
+        <description>&lt;h1 id=&quot;3-d-printing-a-world-beyond-2d&quot;&gt;3-D Printing-A world beyond 2D&lt;/h1&gt; &lt;h3 id=&quot;-the-emerging-world-of-3d-printing-&quot;&gt;&lt;center&gt; The emerging world of 3D printing &lt;/center&gt;&lt;/h3&gt; &lt;p&gt;3D Printing is something all of us have come across in today’s world. It may seem like a new technology but history points out that it is no recent development.[ In fact, 3D printing has its roots in the 1980s. In 1984, Chuck Hull, invented a process called “stereolithography” which used UV lasers to solidify photopolymer that created 3D parts layer by layer. A technology which initially began with the aim of prototyping has today secured its place in the manufacturing industry. Today its use is far more...</description>
+        <pubDate>Fri, 28 Jul 2017 21:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/3D-Printing/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/3D-Printing/</guid>
+        
+        <category>3D Printing</category>
+        
+        <category>Additive Manufacturing</category>
+        
+        <category>SIS</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>An Introduction to Reinforcement Learning</title>
@@ -164,20 +182,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Fascinating World Of Compliant Mechanisms</title>
-        <description>&lt;h1 id=&quot;what-is-a-mechanism&quot;&gt;WHAT IS A MECHANISM?&lt;/h1&gt; &lt;p&gt;A mechanism is a mechanical device used to transfer or transform motion, force, or energy. Traditional rigid- body mechanisms consist of rigid links connected at movable joints. Whatever machines you see in your day to day life has some underlying mechanisms that govern its motion to produce the desired output. For example A NUT CRACKER works on the principle of MECHANICAL ADVANTAGE based on LEVER MECHANISM. This mechanism transfers energy from the input to the output. Since energy is conserved between the input and output (neglecting friction losses), the output force may be much larger...</description>
-        <pubDate>Sat, 08 Jul 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Compliant-Mechanisms/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Compliant-Mechanisms/</guid>
-        
-        <category>Compliant mechanisms</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
