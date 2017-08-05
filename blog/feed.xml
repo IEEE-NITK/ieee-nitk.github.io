@@ -5,9 +5,31 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Jul 2017 01:07:36 +0530</pubDate>
-    <lastBuildDate>Sun, 30 Jul 2017 01:07:36 +0530</lastBuildDate>
+    <pubDate>Sat, 05 Aug 2017 21:29:50 +0530</pubDate>
+    <lastBuildDate>Sat, 05 Aug 2017 21:29:50 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Is Random really Random?</title>
+        <description>&lt;h1 id=&quot;is-random-really-random&quot;&gt;Is Random really Random?&lt;/h1&gt; &lt;p&gt;Random numbers have been used for many thousands of years. Roll a dice. Flip a coin. Pick a card from a deck. Whatever the result may be in these three situations, it’s completely random each time and there’s no way of predicting it by looking at the previous outcomes. In other words, the end result is left to random chance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/random-number-generator/dice.jpg&quot; alt=&quot;Dice&quot; /&gt;&lt;/p&gt; &lt;p&gt;Random number generators in a computer are similar: they’re an attempt to achieve an unpredictable, random result. From creating random keys for data encryption to random shuffling cards in a poker...</description>
+        <pubDate>Fri, 04 Aug 2017 09:18:33 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/random-number-generator/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/random-number-generator/</guid>
+        
+        <category>random</category>
+        
+        <category>PRNG</category>
+        
+        <category>TRNGs</category>
+        
+        <category>cryptography</category>
+        
+        <category>Lehmer's RNG</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Ever wondered why exactly are high lift devices needed? Let me tell you...</title>
@@ -168,20 +190,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to big data and hadoop</title>
-        <description>&lt;h1 id=&quot;what-is-big-data&quot;&gt;What is ‘Big data’?&lt;/h1&gt; &lt;p&gt;In simple terms, Big data is data which can’t comfortably be processed on a single machine. We live in a world increasingly driven by data. Try googling about big data and you will find some staggering facts like :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The amount of data produced by us from the beginning of time till 2003 was 5 billion gigabytes. The same amount was created in every two days in 2011, and in every ten minutes in 2013 !!!&lt;/li&gt; &lt;li&gt;90% of the world’s data was generated in the last few years.&lt;/li&gt; &lt;li&gt;A report from McKinsey &amp;amp; Co....</description>
-        <pubDate>Sat, 08 Jul 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/big-data/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/big-data/</guid>
-        
-        <category>Big Data</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
