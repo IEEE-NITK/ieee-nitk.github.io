@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Jul 2017 01:07:36 +0530</pubDate>
-    <lastBuildDate>Sun, 30 Jul 2017 01:07:36 +0530</lastBuildDate>
+    <pubDate>Sat, 05 Aug 2017 12:19:55 +0530</pubDate>
+    <lastBuildDate>Sat, 05 Aug 2017 12:19:55 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Of a tooth and a pie</title>
+        <description>&lt;h1 id=&quot;of-a-tooth-and-a-pie&quot;&gt;OF A TOOTH AND A PIE&lt;/h1&gt; &lt;p&gt;At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. Give you a little insight into how it works, the various layers of Bluetooth, it’s profiles and so on. But I guess Wikipedia would do a much better job at it. So, I decided to share something I learned during my internship- how we can &lt;strong&gt;make use of the inbuilt Bluetooth controller in Raspberry Pi 3 to implement some of the profiles of Bluetooth.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;First, you need to know that &lt;strong&gt;Raspberry Pi&lt;/strong&gt; is nothing but a Linux machine and can...</description>
+        <pubDate>Fri, 04 Aug 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/raspberry-pi-bluetooth/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/raspberry-pi-bluetooth/</guid>
+        
+        <category>Bluetooth</category>
+        
+        <category>Raspberry Pi 3</category>
+        
+        <category>Internship</category>
+        
+        
+        <category>IEEE</category>
+        
+      </item>
     
       <item>
         <title>Ever wondered why exactly are high lift devices needed? Let me tell you...</title>
@@ -168,20 +186,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to big data and hadoop</title>
-        <description>&lt;h1 id=&quot;what-is-big-data&quot;&gt;What is ‘Big data’?&lt;/h1&gt; &lt;p&gt;In simple terms, Big data is data which can’t comfortably be processed on a single machine. We live in a world increasingly driven by data. Try googling about big data and you will find some staggering facts like :&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The amount of data produced by us from the beginning of time till 2003 was 5 billion gigabytes. The same amount was created in every two days in 2011, and in every ten minutes in 2013 !!!&lt;/li&gt; &lt;li&gt;90% of the world’s data was generated in the last few years.&lt;/li&gt; &lt;li&gt;A report from McKinsey &amp;amp; Co....</description>
-        <pubDate>Sat, 08 Jul 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/big-data/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/big-data/</guid>
-        
-        <category>Big Data</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

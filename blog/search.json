@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Of a tooth and a pie",
+      "category" : "IEEE",
+      "tags"     : "Bluetooth, Raspberry Pi 3, and Internship",
+      "url"      : "http://ieeenitk.org/blog//raspberry-pi-bluetooth/",
+      "date"     : "04 Aug 2017"
+    } ,
+  
+    {
       "title"    : "Ever wondered why exactly are high lift devices needed? Let me tell you...",
       "category" : "IEEE",
       "tags"     : "High Lift devices",
