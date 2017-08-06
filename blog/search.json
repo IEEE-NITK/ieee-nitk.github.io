@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Smart Phones and Health issues",
+      "category" : "Piston",
+      "tags"     : "Smartphone and Negative effects",
+      "url"      : "http://ieeenitk.org/blog//Smartphones-and-health/",
+      "date"     : "04 Aug 2017"
+    } ,
+  
+    {
       "title"    : "Of a tooth and a pie",
       "category" : "Diode",
       "tags"     : "Bluetooth, Raspberry Pi 3, and Internship",

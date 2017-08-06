@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Aug 2017 15:54:02 +0530</pubDate>
-    <lastBuildDate>Sun, 06 Aug 2017 15:54:02 +0530</lastBuildDate>
+    <pubDate>Sun, 06 Aug 2017 22:53:47 +0530</pubDate>
+    <lastBuildDate>Sun, 06 Aug 2017 22:53:47 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Smart Phones and Health issues</title>
+        <description>&lt;p&gt;The way smartphones have changed our lives is amazing. Technology has been ever bringing multiple facets of our daily lives within the scope of smartphones, which in turn gets smaller and slimmer. No more does our parents bother us to go and pay telephone or electricity bills (if you were a 90’s kid :P) neither does shopkeepers curse you for not having suitable denominations. It has all come down to few swipes and touches. As new innovations brought the world closer and time shorter, it has not come without any drawbacks, same with the case of smartphones. Again, it’s the...</description>
+        <pubDate>Fri, 04 Aug 2017 01:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Smartphones-and-health/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Smartphones-and-health/</guid>
+        
+        <category>Smartphone</category>
+        
+        <category>Negative effects</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Of a tooth and a pie</title>
@@ -166,26 +182,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Continuously Variable Transmission</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;A Continuously variable transmission is a type of power transmission which be called as an efficient replacement for a conventional automobile gearbox with a gearshift. A CVT is a system of belt and pulleys which is used to achieve infinite gear ratios between the 2 transmission shafts. The CVT consists of 2 pulleys – the primary and the secondary. Both the pulleys have one movable sheave and one stationary sheave. A belt (V shaped) goes over these pulleys. The angle of the V belt is equal to the angle between the facing sides of movable and stationary sheave...</description>
-        <pubDate>Sat, 15 Jul 2017 05:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/cvt/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/cvt/</guid>
-        
-        <category>CVT</category>
-        
-        <category>Transmission</category>
-        
-        <category>Constant Engine RPM</category>
-        
-        <category>Infinite gear ratio</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
