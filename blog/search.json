@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Is Random really Random?",
+      "category" : "Diode",
+      "tags"     : "random, PRNG, TRNGs, cryptography, and Lehmer's RNG",
+      "url"      : "http://ieeenitk.org/blog//random-number-generator/",
+      "date"     : "04 Aug 2017"
+    } ,
+  
+    {
       "title"    : "Smart Phones and Health issues",
       "category" : "Piston",
       "tags"     : "Smartphone and Negative effects",
