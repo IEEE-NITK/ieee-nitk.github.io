@@ -10,12 +10,12 @@ tags:
 - Raspberry Pi 3
 - Internship
 categories:
-- IEEE
+- Diode
 github_username: Shwetha
 comments: true
 ---
 
-# OF A TOOTH AND A PIE
+
 At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. 
 Give you a little insight into how it works, the various layers of Bluetooth, it's profiles and so on. 
 But I guess Wikipedia would do a much better job at it. 
