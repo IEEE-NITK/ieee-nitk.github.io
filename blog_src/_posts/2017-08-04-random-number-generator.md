@@ -12,12 +12,10 @@ tags:
 - cryptography
 - Lehmer's RNG
 categories:
-- IEEE
+- Diode
 github_username: 'subbalakshmi'
 comments: true
 ---
-
-# Is Random really Random?
 
 Random numbers have been used for many thousands of years. 
 Roll a dice. 

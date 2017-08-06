@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Aug 2017 21:29:50 +0530</pubDate>
-    <lastBuildDate>Sat, 05 Aug 2017 21:29:50 +0530</lastBuildDate>
+    <pubDate>Sun, 06 Aug 2017 16:03:05 +0530</pubDate>
+    <lastBuildDate>Sun, 06 Aug 2017 16:03:05 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>Is Random really Random?</title>
-        <description>&lt;h1 id=&quot;is-random-really-random&quot;&gt;Is Random really Random?&lt;/h1&gt; &lt;p&gt;Random numbers have been used for many thousands of years. Roll a dice. Flip a coin. Pick a card from a deck. Whatever the result may be in these three situations, it’s completely random each time and there’s no way of predicting it by looking at the previous outcomes. In other words, the end result is left to random chance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/random-number-generator/dice.jpg&quot; alt=&quot;Dice&quot; /&gt;&lt;/p&gt; &lt;p&gt;Random number generators in a computer are similar: they’re an attempt to achieve an unpredictable, random result. From creating random keys for data encryption to random shuffling cards in a poker...</description>
+        <description>&lt;p&gt;Random numbers have been used for many thousands of years. Roll a dice. Flip a coin. Pick a card from a deck. Whatever the result may be in these three situations, it’s completely random each time and there’s no way of predicting it by looking at the previous outcomes. In other words, the end result is left to random chance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/random-number-generator/dice.jpg&quot; alt=&quot;Dice&quot; /&gt;&lt;/p&gt; &lt;p&gt;Random number generators in a computer are similar: they’re an attempt to achieve an unpredictable, random result. From creating random keys for data encryption to random shuffling cards in a poker website, generation of random numbers...</description>
         <pubDate>Fri, 04 Aug 2017 09:18:33 +0530</pubDate>
         <link>http://ieeenitk.org/blog/random-number-generator/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/random-number-generator/</guid>
@@ -27,7 +27,7 @@
         <category>Lehmer's RNG</category>
         
         
-        <category>IEEE</category>
+        <category>Diode</category>
         
       </item>
     

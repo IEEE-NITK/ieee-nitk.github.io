@@ -2,7 +2,7 @@
   
     {
       "title"    : "Is Random really Random?",
-      "category" : "IEEE",
+      "category" : "Diode",
       "tags"     : "random, PRNG, TRNGs, cryptography, and Lehmer's RNG",
       "url"      : "http://ieeenitk.org/blog//random-number-generator/",
       "date"     : "04 Aug 2017"
