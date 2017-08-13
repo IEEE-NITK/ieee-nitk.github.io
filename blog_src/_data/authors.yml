@@ -174,3 +174,21 @@ subbalakshmi:
   author_image: 'subbalakshmi.jpg'
   email: 'subbalakshmi.n18@gmail.com'
   user_description: 'Always eager to learn something new'
+natasha-jeppu:
+  name: Natasha Jeppu 
+  github: natasha-jeppu
+  author_image: 'natasha-jeppu.jpg'
+  user_description: 'Avid researcher and DAAD scholar'
+  email: natasha.jeppu@gmail.com
+vinayakvenugopal27:
+  name: Vinayak V Gopal 
+  github: vinayakvenugopal27
+  author_image: 'vinayak.jpg'
+  user_description: 'Human'
+  email: vinayakvenugopal27@gmail.com
+santosh-kodali:
+  name: Santosh Kodali 
+  github: santosh-kodali
+  author_image: 'santosh.jpg'
+  user_description: 'The World is rapidly changing, let us try and keep up.'
+  email: santoshkvk@gmail.com
