@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "When strokes are six",
+      "category" : "Piston",
+      "tags"     : "six stroke engines",
+      "url"      : "http://ieeenitk.org/blog//six_stroke_engine/",
+      "date"     : "13 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "A QuickStart Guide to Image Processing with OpenCV",
+      "category" : "Diode",
+      "tags"     : "OpenCV",
+      "url"      : "http://ieeenitk.org/blog//opencv/",
+      "date"     : "13 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Internships Abroad",
+      "category" : "CompSoc",
+      "tags"     : "Internships",
+      "url"      : "http://ieeenitk.org/blog//internships-Abroad/",
+      "date"     : "12 Aug 2017"
+    } ,
+  
+    {
       "title"    : "Is Random really Random?",
       "category" : "Diode",
       "tags"     : "random, PRNG, TRNGs, cryptography, and Lehmer's RNG",
