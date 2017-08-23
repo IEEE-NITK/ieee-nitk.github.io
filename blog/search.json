@@ -1,7 +1,23 @@
 [
   
     {
-      "title"    : "When strokes are six",
+      "title"    : "Technology in Sports",
+      "category" : "Diode",
+      "tags"     : "Sports",
+      "url"      : "http://ieeenitk.org/blog//Technology-in-Sports/",
+      "date"     : "22 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Hashing in Competitive Programming",
+      "category" : "CompSoc",
+      "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
+      "url"      : "http://ieeenitk.org/blog//Hashing-in-Competitive-Programming/",
+      "date"     : "22 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "When Strokes are Six",
       "category" : "Piston",
       "tags"     : "six stroke engines",
       "url"      : "http://ieeenitk.org/blog//six_stroke_engine/",
