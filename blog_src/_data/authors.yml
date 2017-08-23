@@ -184,7 +184,7 @@ vinayakvenugopal27:
   name: Vinayak V Gopal 
   github: vinayakvenugopal27
   author_image: 'vinayak.jpg'
-  user_description: 'Human'
+  user_description: 'Just another human over here!'
   email: vinayakvenugopal27@gmail.com
 santosh-kodali:
   name: Santosh Kodali 
@@ -192,6 +192,18 @@ santosh-kodali:
   author_image: 'santosh.jpg'
   user_description: 'The World is rapidly changing, let us try and keep up.'
   email: santoshkvk@gmail.com
+somnathsarkar:
+  name: Somanth Sarkar 
+  github: somnathsarkar
+  author_image: 'blog-author.jpg'
+  user_description: 'Programmer, interested in CP.'
+  email: somnath.k.sarkar@gmail.com
+abhishekthigale:
+  name: Abhishek Thigale 
+  github: abhishekthigale
+  author_image: 'abhishek.jpg'
+  user_description: 'Mech Engineer for Life!'
+  email: abhithigale3@gmail.com
 mahirjain25:
   name: Mahir Jain
   github: mahirjain25
