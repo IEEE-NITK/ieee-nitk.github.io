@@ -47,7 +47,9 @@ plugins_dir:
   ['jekyll-paginate']
 
 # Gems
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
+
+# plugins: [jekyll-paginate]
 
 #make 5 articles per page
 paginate: 5
