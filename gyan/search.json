@@ -1,0 +1,51 @@
+[
+  
+    {
+      "title"    : "Internships Abroad",
+      "category" : "CompSoc",
+      "tags"     : "Internships",
+      "url"      : "http://ieeenitk.org/blog//internships-Abroad/",
+      "date"     : "12 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "A talk with - Vijayakrishna Naganoor",
+      "category" : "Diode",
+      "tags"     : "Gyan and SPS",
+      "url"      : "http://ieeenitk.org/blog//vk-interview/",
+      "date"     : "15 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat",
+      "category" : "CompSoc",
+      "tags"     : "Cyber Security and CTFs",
+      "url"      : "http://ieeenitk.org/blog//kishor-bhat-interview/",
+      "date"     : "02 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "A talk with - Abin Alex Pothen",
+      "category" : "Piston",
+      "tags"     : "Research and Gyan",
+      "url"      : "http://ieeenitk.org/blog//abin-alex-interview/",
+      "date"     : "02 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "A talk with - Gaurav Hegde",
+      "category" : "Diode",
+      "tags"     : "Math and Gyan",
+      "url"      : "http://ieeenitk.org/blog//gaurav-hegde-interview/",
+      "date"     : "20 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Advice on Computer Science - Vinay Bhat",
+      "category" : "CompSoc",
+      "tags"     : "Internships and Career Advice",
+      "url"      : "http://ieeenitk.org/blog//vinay-bhat-interview/",
+      "date"     : "15 May 2017"
+    } 
+  
+]
