@@ -1,13 +1,13 @@
 # Site settings
-title: A blog about our findings and musings
-description: IEEE NITK is a student branch of IEEE located at NITK Surathkal. This blog serves as a collection of ideas and thoughts of different members in various technical areas.
+title: Gyan passed down from one batch to another
+description: IEEE NITK is a student branch of IEEE located at NITK Surathkal. This section called Gyan serves as a collection of experiences of various seniors throughout the years.
 baseurl: "/gyan" # the subpath of your site, e.g. /blog
-url: "http://ieeenitk.org" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "http://ieeenitk.org" # the base hostname & protocol for your site e.g. http://ieeenitk.org
 
 # User settings
 username: IEEE-NITK 
 user_description: IEEE Student chapter at NITK Surathkal
-description: A blog documenting random findings and musings of our members
+description: Gyan passed down from one batch to another
 email: chairman.nitkieee@gmail.com
 twitter_username: IEEE_NITK 
 github_username: IEEE-NITK
@@ -21,7 +21,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
-
 # html minify
 compress_html:
   clippings: all
@@ -33,11 +32,13 @@ compress_html:
 # For external links add external: true
 links:
   - title: Home
-    url: /blog
+    url: /gyan
   - title: Tags
-    url: /blog/tags
+    url: /gyan/tags
   - title: Main Website
     url: /
+  - title: Blog
+    url: /blog
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

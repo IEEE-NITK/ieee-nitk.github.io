@@ -38,6 +38,8 @@ links:
     url: /blog/tags
   - title: Main Website
     url: /
+  - title: Gyan
+    url: /gyan
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
