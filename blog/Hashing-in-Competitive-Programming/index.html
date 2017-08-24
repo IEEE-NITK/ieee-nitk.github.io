@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>When Strokes are Six</title>
-    <meta name="description" content="Ever heard about six stroke engines?? ">
+    <title>Hashing in Competitive Programming</title>
+    <meta name="description" content="A look at hashing and its role in Competitive Programming">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="When Strokes are Six">
-    <meta name="twitter:description" content="Ever heard about six stroke engines?? ">
+    <meta name="twitter:title" content="Hashing in Competitive Programming">
+    <meta name="twitter:description" content="A look at hashing and its role in Competitive Programming">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///six_stroke_engine/" />
-    <meta property="og:title" content="When Strokes are Six">
+    <meta property="og:url" content="http://ieeenitk.org///Hashing-in-Competitive-Programming/" />
+    <meta property="og:title" content="Hashing in Competitive Programming">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="Ever heard about six stroke engines?? ">
+    <meta property="og:description" content="A look at hashing and its role in Competitive Programming">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="When Strokes are Six"/>
-    <meta itemprop="description" content="Ever heard about six stroke engines?? ">
+    <meta itemprop="name" content="Hashing in Competitive Programming"/>
+    <meta itemprop="description" content="A look at hashing and its role in Competitive Programming">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -84,9 +84,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/six_stroke_engine/">
+    <link rel="canonical" href="http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/blog/feed.xml" />
+
+    
+        <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> 
 
     
 </head>
@@ -97,10 +111,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-08-13 00:00:00 +0530" class="date">13 Aug 2017</time>
+            <time itemprop="datePublished" datetime="2017-08-22 01:10:58 +0530" class="date">22 Aug 2017</time>
         
-        <h1 class="post-title" itemprop="name">When Strokes are Six</h1>
-        <p itemprop="description" class="subtitle">Ever heard about six stroke engines?? </p>
+        <h1 class="post-title" itemprop="name">Hashing in Competitive Programming</h1>
+        <p itemprop="description" class="subtitle">A look at hashing and its role in Competitive Programming</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -150,36 +164,67 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h3 id="man-and-his-car">Man and his Car</h3>
+                <h2 id="introduction">Introduction</h2>
+<p>At it’s most basic hashing is a technique to identify a particular value of a certain type among other values of the same type. To achieve this we typically make use of a hash function: a function that takes a value of the required type as input and generates a “key” that (hopefully) can uniquely identify this value. In this article we’ll look at how this function works, how it’s implemented in C++, and how to apply hashing to solve a Competitive Programming problem.</p>
 
-<p>The stories are different, yet the same . From the spark that taught him about fire and the wheels that took him to places, to the roads that he hit everyday, he has come a long way. The love and passion to be in one, to feel its heartbeat and power, to drive and tame them, he has always loved them. But rare are those who are interested in the technology that drives their beasts.</p>
+<h2 id="hashing-in-c">Hashing in C++</h2>
+<p>C++ offers 2 containers in C++ that are often useful for hashing problems: map and unordered map. Both containers store elements in a “mapped fashion”: we associate a key value to a mapped value, typically (but not necessarily) of a different data type. Out of these two the unordered map is the one that is typically implemented using a traditional hash function whereas the map represents a balanced binary search tree.</p>
 
-<p>It is said that technology advances in rapid pace. Though it is right for a majority of areas, advancements in technology seldom has been helpful in improving engine efficiency.  And at a time where we seriously discuss about energy sources and their availability in near future, it is true that this matter require some serious attention. This is where the concept of 6 stroke engines come into play.</p>
+<h3 id="stdmap">$std::map$</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>1. Implemented with red-black tree.
+2. Elements are sorted.
+3. Small memory usage.
+4. O(log N) lookup time.
+</code></pre>
+</div>
 
-<p>Even though the notions of two-stroke engines and four stroke engines are common as their applications, the six-stroke engines has never gained popularity that it should have. Driven by overcoming the shortcomings of a normal four stroke engine, the six- stroke engines are essentially the beasts.</p>
+<h3 id="stdunorderedmap">$std::unordered$_$map$</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>1. Implemented with a hash function
+2. Elements are not sorted.
+3. Requires additional memory to keep the hash-table.
+4. Lookup is usually O(1), dependent on hash function.
+</code></pre>
+</div>
 
-<h3 id="so-what-is-a-six-stroke-engine">So what is a six-stroke engine?</h3>
-<p>It has nothing special, but two extra strokes than the conventional four stroke engine.</p>
+<h3 id="why-use-stdmap-over-stdunorderedmap">Why use $std::map$ over $std::unordered$_$map$?</h3>
+<p>A quick look at the comparison between the two containers gives us the impression that we should use $std::unordered$_$map$ in most cases (except those where we require a sorted traversal through all keys), and we would be right to do so normally. After all, $O(1)$ lookup and insertion is a lot more appealing than the $O(log N)$ operations of $std::map$. However, there are a few things to keep in mind. Namely that the worst-case runtime of unordered_map is $O(N)$ not $O(1)$. This is because of how it is implemented. As we’ll see later, hash functions have a chance of “colliding”; that is, two distinct inputs to the hash function give the same output. This causes the unordered_map to store the associated values corresponding to these colliding keys in a list. In the worst case, when all keys collide, the lookup time for each key is $O(N)$.</p>
 
-<h4 id="so-how-does-this-work">So how does this work?</h4>
-<p>Think about a normal four-stroke engine. The piston moves down to suck in air and fuel, then the fuel pushes up to compress, then the spark plug fires and the burning gas forces the piston down. Then the piston moves back up to push up the exhaust. The six-stroke engine adds two more strokes after the exhaust stroke. Water is injected, and as it turns into steam, it pushes the piston down. Then the piston comes back up to force out the steam. It’s really simple.</p>
+<p>For more:<a href="http://codeforces.com/blog/entry/44731">Reference 1</a>
+<a href="http://codeforces.com/blog/entry/4898">Reference 2</a></p>
 
-<p>A six-stroke engine combines an internal combustion engine with a steam engine to turn some of the waste heat into power. The only catch is that you have to add a water tank to your car that’s about the same size as the gas tank. The good news is that you can probably eliminate the radiator.</p>
+<h2 id="a-hash-function">A hash function</h2>
+<p>Let’s look at the case where we need to map a string to an integer: we need to take care of the distinct characters present in the string as well as their position in the string. A common strategy is to take the ASCII value of each character and multiply it by a prime p to the power of the index of the character. In order to ensure it fits in a C++ variable we typically take the hash mod a large prime M.</p>
 
-<p>Now…
-The question is: Why don’t we see such cars in the street? Probably, because people like you and me are not trying harder. This is surely not the one to be left unexplored.</p>
+<p>\begin{equation}
+F(R) = hash(S[0,R]) = (\sum_{i=0}^{R}S_i * p^i)\% MOD
+\end{equation}</p>
+
+<h2 id="looking-at-a-problem">Looking at a problem</h2>
+<p>Let’s try and apply the hashing technique to a competitive programming problem
+<a href="https://www.codechef.com/COOK82/problems/COOK82D">here</a>. 
+We are given a graph with a list of edges from $1 … M$. 
+The queries are of the form $[L, R]$. 
+For each query we look at the graph containing all the edges numbered from L to R. 
+We need to determine whether all the connected components of such a graph have Euler cycles. 
+The answer will then be “YES” if all vertex degrees are even, and “NO” otherwise. 
+A naïve solution would be to store the parity of each vertex of the graph for all edges from $1 … X$, for all $X$ from $1$ to $M$. 
+Using these prefix parity values we can say the answer for a range L to R is “YES” when $pref[R] = pref[L-1]$ and “NO” otherwise. 
+Memory use here is $O(N^2)$ and query time is $O(N)$. 
+This can be improved by storing each prefix parity value as a hash. 
+In the above expression $S_i = 0$ if degree of $i^{th}$ vertex is even and 1 otherwise. 
+This reduces memory use to $O(N)$ and query time to $O(1)$.</p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/vinayak.jpg" alt="Vinayak V Gopal">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/blog-author.jpg" alt="Somanth Sarkar">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/vinayakvenugopal27">Vinayak V Gopal</a>
+            <a itemprop="name" href="https://github.com/somnathsarkar">Somanth Sarkar</a>
         </h3>
-        <p class="desc">Just another human over here!</p>
-        <a itemprop="email" class="email" href="mailto:vinayakvenugopal27@gmail.com">vinayakvenugopal27@gmail.com</a>
+        <p class="desc">Programmer, interested in CP.</p>
+        <a itemprop="email" class="email" href="mailto:somnath.k.sarkar@gmail.com">somnath.k.sarkar@gmail.com</a>
     </div>
 </section>
 
@@ -195,7 +240,7 @@ The question is: Why don’t we see such cars in the street? Probably, because p
 
 	var disqus_config = function () {
 	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-	this.page.identifier = /six_stroke_engine/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	this.page.identifier = /Hashing-in-Competitive-Programming/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 
 	(function() { // DON'T EDIT BELOW THIS LINE
@@ -222,21 +267,21 @@ The question is: Why don’t we see such cars in the street? Probably, because p
             
                 <section class="comments">
                     <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/six_stroke_engine/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/" data-colorscheme="dark" data-num-posts="4" data-width="706">
                     </div>
                 </section>
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/six_stroke_engine/%20via%20&#64;IEEE_NITK&hashtags=six stroke engines,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/%20via%20&#64;IEEE_NITK&hashtags=Hashing,C++,Competitive Programming,Data Structures,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//six_stroke_engine/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//Hashing-in-Competitive-Programming/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//six_stroke_engine/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//Hashing-in-Competitive-Programming/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
