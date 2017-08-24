@@ -1,7 +1,7 @@
 [
   
     {
-      "title"    : "When strokes are six",
+      "title"    : "When Strokes are Six",
       "category" : "Piston",
       "tags"     : "six stroke engines",
       "url"      : "http://ieeenitk.org/blog//six_stroke_engine/",
@@ -14,14 +14,6 @@
       "tags"     : "OpenCV",
       "url"      : "http://ieeenitk.org/blog//opencv/",
       "date"     : "13 Aug 2017"
-    } ,
-  
-    {
-      "title"    : "Internships Abroad",
-      "category" : "CompSoc",
-      "tags"     : "Internships",
-      "url"      : "http://ieeenitk.org/blog//internships-Abroad/",
-      "date"     : "12 Aug 2017"
     } ,
   
     {
@@ -97,14 +89,6 @@
     } ,
   
     {
-      "title"    : "A talk with - Vijayakrishna Naganoor",
-      "category" : "Diode",
-      "tags"     : "Gyan and SPS",
-      "url"      : "http://ieeenitk.org/blog//vk-interview/",
-      "date"     : "15 Jul 2017"
-    } ,
-  
-    {
       "title"    : "Multitenancy",
       "category" : "CompSoc",
       "tags"     : "Multitenancy, Cloud Computing, and SaaS",
@@ -145,22 +129,6 @@
     } ,
   
     {
-      "title"    : "Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat",
-      "category" : "CompSoc",
-      "tags"     : "Cyber Security and CTFs",
-      "url"      : "http://ieeenitk.org/blog//kishor-bhat-interview/",
-      "date"     : "02 Jul 2017"
-    } ,
-  
-    {
-      "title"    : "A talk with - Abin Alex Pothen",
-      "category" : "Piston",
-      "tags"     : "Research and Gyan",
-      "url"      : "http://ieeenitk.org/blog//abin-alex-interview/",
-      "date"     : "02 Jul 2017"
-    } ,
-  
-    {
       "title"    : "Dealing with Underdetermined Systems",
       "category" : "Diode",
       "tags"     : "SPS, Image Processing, and Linear Algebra",
@@ -190,14 +158,6 @@
       "tags"     : "JavaScript and Programming",
       "url"      : "http://ieeenitk.org/blog//promises-closures-and-potatoes/",
       "date"     : "23 Jun 2017"
-    } ,
-  
-    {
-      "title"    : "A talk with - Gaurav Hegde",
-      "category" : "Diode",
-      "tags"     : "Math and Gyan",
-      "url"      : "http://ieeenitk.org/blog//gaurav-hegde-interview/",
-      "date"     : "20 Jun 2017"
     } ,
   
     {
@@ -302,14 +262,6 @@
       "tags"     : "Linux and Ubuntu",
       "url"      : "http://ieeenitk.org/blog//installing-ubuntu/",
       "date"     : "24 May 2017"
-    } ,
-  
-    {
-      "title"    : "Advice on Computer Science - Vinay Bhat",
-      "category" : "CompSoc",
-      "tags"     : "Internships and Career Advice",
-      "url"      : "http://ieeenitk.org/blog//vinay-bhat-interview/",
-      "date"     : "15 May 2017"
     } ,
   
     {

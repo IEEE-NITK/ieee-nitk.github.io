@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Aug 2017 12:16:18 +0530</pubDate>
-    <lastBuildDate>Sun, 13 Aug 2017 12:16:18 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Thu, 24 Aug 2017 13:29:31 +0530</pubDate>
+    <lastBuildDate>Thu, 24 Aug 2017 13:29:31 +0530</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>When strokes are six</title>
-        <description>&lt;p&gt;Man and his car - The stories are different, yet the same . From the spark that taught him about fire and the wheels that took him to places, to the roads that he hit everyday, he has come a long way. The love and passion to be in one, to feel its heartbeat and power, to drive and tame them, he has always loved them. But rare are those who are interested in the technology that drives their beasts.&lt;/p&gt; &lt;p&gt;It is said that technology advances in rapid pace. Though it is right for a majority of areas, advancements in...</description>
+        <title>When Strokes are Six</title>
+        <description>&lt;h3 id=&quot;man-and-his-car&quot;&gt;Man and his Car&lt;/h3&gt; &lt;p&gt;The stories are different, yet the same . From the spark that taught him about fire and the wheels that took him to places, to the roads that he hit everyday, he has come a long way. The love and passion to be in one, to feel its heartbeat and power, to drive and tame them, he has always loved them. But rare are those who are interested in the technology that drives their beasts.&lt;/p&gt; &lt;p&gt;It is said that technology advances in rapid pace. Though it is right for a majority of areas, advancements in...</description>
         <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/six_stroke_engine/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/six_stroke_engine/</guid>
@@ -25,7 +25,7 @@
     
       <item>
         <title>A QuickStart Guide to Image Processing with OpenCV</title>
-        <description>&lt;p&gt;Why learn Image Processing? This is the question I was primarily asked when I first started exploring just exactly what Image Processing can offer. As time passed, I soon found the now seemingly obvious answer. Although the name, Image Processing, itself suggests manipulating an image for either aesthetic pleasure or requirement, Image Processing actually provides a gateway for the next revolution in engineering. As more and more people become accustomed to having human tasks being done by machines, image processing becomes crucial in training and programming these machines to flourish. Image processing not only provides the framework for Computer Vision...</description>
+        <description>&lt;h3 id=&quot;why-learn-image-processing&quot;&gt;Why learn Image Processing?&lt;/h3&gt; &lt;p&gt;This is the question I was primarily asked when I first started exploring just exactly what Image Processing can offer. As time passed, I soon found the now seemingly obvious answer. Although the name, Image Processing, itself suggests manipulating an image for either aesthetic pleasure or requirement, Image Processing actually provides a gateway for the next revolution in engineering. As more and more people become accustomed to having human tasks being done by machines, image processing becomes crucial in training and programming these machines to flourish. Image processing not only provides the framework for Computer...</description>
         <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/opencv/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/opencv/</guid>
@@ -34,20 +34,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Internships Abroad</title>
-        <description>&lt;h3 id=&quot;daad&quot;&gt;DAAD&lt;/h3&gt; &lt;p&gt;The &lt;a href=&quot;https://www.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?daad=1&amp;amp;detail=50015295&amp;amp;origin=4&amp;amp;page=1&amp;amp;q=wise&amp;amp;status=1&amp;amp;subjectGrps&quot;&gt;DAAD WISE&lt;/a&gt; scholarship provides an opportunity for students to apply to colleges in Germany.&lt;/p&gt; &lt;p&gt;What you need:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;CGPA of 8.5/10 above as per the website&lt;/li&gt; &lt;li&gt;An acceptance from a professor in Germany (Mail as many professors as possible, some may not reply and some reply really late, so start immediately)&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;Application requirements:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Online application form - (available once the portal opens, it’s a long form, fill it in carefully)&lt;/li&gt; &lt;li&gt;Your resume or CV&lt;/li&gt; &lt;li&gt;DAAD form “Certificate of Enrolment”) filled in by home institution as proof of current enrolment (available on the website, download...</description>
-        <pubDate>Sat, 12 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/internships-Abroad/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/internships-Abroad/</guid>
-        
-        <category>Internships</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
@@ -66,7 +52,7 @@
         
         <category>cryptography</category>
         
-        <category>Lehmer's RNG</category>
+        <category>Lehmer&#39;s RNG</category>
         
         
         <category>Diode</category>
@@ -177,6 +163,22 @@
         <category>Finite Field</category>
         
         <category>Galois Field</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Log file parsing and formats of report generation</title>
+        <description>&lt;p&gt;Hello everyone, today I will be talking about the core part of my work during my summer internship at Samsung Semiconductor India R&amp;amp;D Center, Bengaluru. Our project team consisted of four members and we were given the task to parse log files generated by a testing framework called as Jenkins (now a very popular tool for continuous integration and deployment of source code) and present the parsed data in a HTML, XLSX and JSON format. We were also required to develop plotting and charting utilities for the parsed data in the Excel files.&lt;/p&gt; &lt;h3 id=&quot;log-file-parsing&quot;&gt;Log file parsing&lt;/h3&gt; &lt;p&gt;Log files are...</description>
+        <pubDate>Sun, 23 Jul 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Log-file-parsing-and-report-generation/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Log-file-parsing-and-report-generation/</guid>
+        
+        <category>File Parsing</category>
+        
+        <category>Logging</category>
         
         
         <category>CompSoc</category>
