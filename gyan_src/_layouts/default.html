@@ -1,0 +1,19 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-default.html %}
+            <section class="content">
+                {{ content }}
+            </section>
+            {% include paginator.html%}
+        {% include footer.html %}
+        <script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
+
+    </body>
+</html>
