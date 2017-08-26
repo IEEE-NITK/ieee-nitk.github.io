@@ -111,7 +111,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-07-23 16:18:33 +0530" class="date">23 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-07-23 10:48:33 +0000" class="date">23 Jul 2017</time>
         
         <h1 class="post-title" itemprop="name">Number Theory</h1>
         <p itemprop="description" class="subtitle">Number Theory</p>
@@ -172,17 +172,21 @@
 
 <h3 id="group">Group</h3>
 
-<p>A group is a set of elements $G = {…}$ and an operation $#$. For G to be called a Group with respect to $#$, it must satisfy the following four group axioms or conditions:
-- Closure: For any $x$,$y$ $\in G$, $x$ $#$ $y$ $\in G$
-- Associativity: If $x$, $y$, $z$ $\in G$, then ($x$ $#$ $y$) $#$ $z = x$ $#$ ($y$ $#$ $z$)
-- Identity: $\exists e \in G$ such that for any $x \in G$,  $x$ $#$ $e = e$ $#$ $x$ = $x$ 
-- Invertibility: For every $x \in G$, there must exist an element $x^{-1}$ or $y \in G$ such that, $x$ $#$ $y = y$ $#$ $x = e$, where $e$ is the identity element.</p>
+<p>A group is a set of elements $G = {…}$ and an operation $#$. For G to be called a Group with respect to $#$, it must satisfy the following four group axioms or conditions:</p>
+<ul>
+  <li>Closure: For any $x$,$y$ $\in G$, $x$ $#$ $y$ $\in G$</li>
+  <li>Associativity: If $x$, $y$, $z$ $\in G$, then ($x$ $#$ $y$) $#$ $z = x$ $#$ ($y$ $#$ $z$)</li>
+  <li>Identity: $\exists e \in G$ such that for any $x \in G$,  $x$ $#$ $e = e$ $#$ $x$ = $x$</li>
+  <li>Invertibility: For every $x \in G$, there must exist an element $x^{-1}$ or $y \in G$ such that, $x$ $#$ $y = y$ $#$ $x = e$, where $e$ is the identity element.</li>
+</ul>
 
-<p>Integers form a group with the operation of addition. Let us check to see if they follow the rules of the Group Axioms:
-- Closure: For any two integers a and b, a+b is also an integer.
-- Associativity: Obviously
-- Identity: 0 is the identity integer
-- Invertibility: For every integer a, -a is also an integer and a + (-a) is 0.</p>
+<p>Integers form a group with the operation of addition. Let us check to see if they follow the rules of the Group Axioms:</p>
+<ul>
+  <li>Closure: For any two integers a and b, a+b is also an integer.</li>
+  <li>Associativity: Obviously</li>
+  <li>Identity: 0 is the identity integer</li>
+  <li>Invertibility: For every integer a, -a is also an integer and a + (-a) is 0.</li>
+</ul>
 
 <p>** Note that, group operations need not be commutative. **</p>
 
@@ -234,13 +238,15 @@ By this definition, a Rubik’s cube, molecules like ammonia, permuations of num
 
 <p>A ring is an abelian group $R$ but it has two operations, usually denoted as $+$ and $*$. But in order to make things simpler, let us consider them as $#1$ and $#2$.</p>
 
-<p>Conditions for a Group $R$ to be a ring:
-1. $R$ is an abelian group (i.e closure, associativity, commutative, identity and invertibility in $#1$)
-2. $R$ is monoid in $#2$, i.e
-    + For any $x,y,z\in R$, ($x$ $#2$ $y$) $#2$ $z = x$ $#2$ ($y$ $#2$ $z$) [Associative]
-    + There exists an element $e \in R$, such that for any element $x \in R$, $x$ $#2$ $e = e$ $#2$ $x = x$ [Identity]</p>
-
+<p>Conditions for a Group $R$ to be a ring:</p>
 <ol>
+  <li>$R$ is an abelian group (i.e closure, associativity, commutative, identity and invertibility in $#1$)</li>
+  <li>$R$ is monoid in $#2$, i.e
+    <ul>
+      <li>For any $x,y,z\in R$, ($x$ $#2$ $y$) $#2$ $z = x$ $#2$ ($y$ $#2$ $z$) [Associative]</li>
+      <li>There exists an element $e \in R$, such that for any element $x \in R$, $x$ $#2$ $e = e$ $#2$ $x = x$ [Identity]</li>
+    </ul>
+  </li>
   <li>The two operations must be distributive over the first operation $#1$. For all $x,y,z \in R$:
     <ul>
       <li>$x$ $#2$ ($y$ $#1$ $z$) = ($x$ $#2$ $y$) $#1$ ($x$ $#2$ $z$) [Left distributivity]</li>
@@ -263,9 +269,11 @@ and the operations addition $+$ and multiplication $*$. They form a $rng$ but no
 
 <h3 id="field">Field</h3>
 
-<p>A set $F$(see how I am conveniently changing the letters of the set as the definition changes, get used to it when reading math books) is said to be a Field with respect to the operations $+$ and $*$ if the following field axioms are satisfied:
-- ($F,+$) must be an abelian group
-- ($F-\{0\},*$) must be an abelian group [0 is the additive identity]</p>
+<p>A set $F$(see how I am conveniently changing the letters of the set as the definition changes, get used to it when reading math books) is said to be a Field with respect to the operations $+$ and $*$ if the following field axioms are satisfied:</p>
+<ul>
+  <li>($F,+$) must be an abelian group</li>
+  <li>($F-\{0\},*$) must be an abelian group [0 is the additive identity]</li>
+</ul>
 
 <h4 id="characteristic-of-a-field">Characteristic of a Field:</h4>
 <p>A positive integer n is said to be a characteristic of a field $F$, if
