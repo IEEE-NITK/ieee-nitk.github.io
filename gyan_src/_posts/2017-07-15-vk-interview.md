@@ -13,7 +13,7 @@ github_username: 'samarth'
 comments: true
 ---
 
-![alt text](/blog/assets/img/vk-interview/vk.jpg)
+![VK Photo](/gyan/assets/img/vk-interview/vk.jpg)
 
 
 ## Why signal processing? Why not core electrical? What fascinated you take up SP?

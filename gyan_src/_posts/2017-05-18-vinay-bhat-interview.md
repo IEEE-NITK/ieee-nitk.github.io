@@ -13,7 +13,7 @@ github_username: 'salman-bhai'
 comments: true
 ---
 
-![Vinay Bhat](/blog/assets/img/vinay-bhat-interview/vinay_bhat.jpg)
+![Vinay Bhat](/gyan/assets/img/vinay-bhat-interview/vinay_bhat.jpg)
 
 ### Q. What do you think should be done in college to enhance your resume?
 
@@ -46,5 +46,3 @@ Make sure you have a technical resume which doesn't not include unnecessary thin
 ### Q. How useful is an winter internship ?
 
 Ans: Internships in general are useful beyond a classroom. The skills acquired are very different and gives you a new experience which is very helpful. One month isn't quite a lot of time but it does make you grow, especially if it's something different from what you've done earlier. It's always better to spend time fruitfully rather than staying home and doing nothing.
-
-{% if page.comments %} • <a href="{{site.url}}{{site.baseurl}}{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
