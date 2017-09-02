@@ -203,6 +203,12 @@ somnathsarkar:
   author_image: 'blog-author.jpg'
   user_description: 'Programmer, interested in CP.'
   email: somnath.k.sarkar@gmail.com
+abhishekthigale:
+  name: Abhishek Thigale
+  github: abhishekthigale
+  author_image: 'abhishek.jpg'
+  user_description: 'Mech Engineer for Life!'
+  email: abhithigale3@gmail.com
 mahirjain25:
   name: Mahir Jain
   github: mahirjain25
@@ -215,9 +221,3 @@ adwait1-G:
   author_image: ""
   user_description: "boom! boom!"
   email: adwait.gautham@gmail.com
-abhishekthigale:
-  name: Abhishek Thigale
-  github: abhishekthigale
-  author_image: 'abhishek.jpg'
-  user_description: 'Mech Engineer for Life!'
-  email: abhithigale3@gmail.com
