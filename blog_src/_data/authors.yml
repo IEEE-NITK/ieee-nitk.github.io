@@ -196,16 +196,17 @@ santosh-kodali:
 chennakeshava1998:
   name: Chenna Keshava B S
   github: chennakeshava1998
+  author_image: 'ck.jpg'
   email: ckeshavabs@gmail.com
 =======
 somnathsarkar:
-  name: Somanth Sarkar 
+  name: Somanth Sarkar
   github: somnathsarkar
   author_image: 'blog-author.jpg'
   user_description: 'Programmer, interested in CP.'
   email: somnath.k.sarkar@gmail.com
 abhishekthigale:
-  name: Abhishek Thigale 
+  name: Abhishek Thigale
   github: abhishekthigale
   author_image: 'abhishek.jpg'
   user_description: 'Mech Engineer for Life!'
@@ -217,15 +218,21 @@ mahirjain25:
   user_description: 'Hard work beats talent when talent fails to work hard.'
   email: mahirjain25@gmail.com
 somnathsarkar:
-  name: Somanth Sarkar 
+  name: Somanth Sarkar
   github: somnathsarkar
   author_image: 'blog-author.jpg'
   user_description: 'Programmer, interested in CP.'
   email: somnath.k.sarkar@gmail.com
 abhishekthigale:
-  name: Abhishek Thigale 
+  name: Abhishek Thigale
   github: abhishekthigale
   author_image: 'abhishek.jpg'
   user_description: 'Mech Engineer for Life!'
   email: abhithigale3@gmail.com
+adwait1-G:
+  name: Adwaith Gautham
+  github: adwait1-G
+  author_image: ""
+  user_description: "boom! boom!"
+  email: adwait.gautham@gmail.com
 >>>>>>> 57ac64961b34d06b552dc6f85e3e86a806b9bd26
