@@ -1,7 +1,15 @@
 [
   
     {
-      "title"    : "When strokes are six",
+      "title"    : "Safety Issues in AI Systems",
+      "category" : "IEEE",
+      "tags"     : "ML, AI, and Security AI",
+      "url"      : "http://ieeenitk.org/blog//Safety-Issues-in-AI-Systems/",
+      "date"     : "01 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "When Strokes are Six",
       "category" : "Piston",
       "tags"     : "six stroke engines",
       "url"      : "http://ieeenitk.org/blog//six_stroke_engine/",
