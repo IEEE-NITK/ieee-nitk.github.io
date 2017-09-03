@@ -26,8 +26,6 @@ angular
   });
 {% endhighlight %}
 
-# BitTorrent Explained
-
 >"Just torrent it!"
 > 
 >"You can torrent any type of file, its all there on the internet..."
@@ -36,7 +34,7 @@ These are just some of the common sentences one hears when it comes to downloadi
 
 ## A simple introduction
 
-![BitTorrent Logo](https://github.com/IEEE-NITK/ieee-nitk.github.io/blob/master/blog/assets/img/BitTorrent-Explained/pic1.png)
+![BitTorrent Logo](https://github.com/mahirjain25/ieee-nitk.github.io/blob/master/blog_src/assets/img/BitTorrent-Explained/pic1.png)
 
 BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of [peer-to-peer file sharing](https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing).
 
@@ -49,7 +47,7 @@ Now, to implement this protocol, we need:
 
 ## How it works
 
-![Operation Explained](https://github.com/IEEE-NITK/ieee-nitk.github.io/blob/master/blog/assets/img/BitTorrent-Explained/pic2.jpg)
+![Operation Explained](https://github.com/mahirjain25/ieee-nitk.github.io/blob/master/blog_src/assets/img/BitTorrent-Explained/pic2.jpg)
 
 Using BitTorrent is different from any other common download or upload. Usually, users download from a single host server, but this protocol allows users to become a host , joining several other such user-hosts in the "swarm", and upload as well as download files all at the same time. Consider the following simple example:
 
@@ -60,7 +58,7 @@ Now, each of the leachers begin to download segments/pieces of the file from the
 Once the file is completely downloaded, the leacher becomes an additional seeder, and the greater the number of such transitions, the better the "health" of the file.
 
 
-## Why is this benefitial?
+## Why is this beneficial?
 
 * The data pieces are all of the same size. Hence, one can pause their download, and resume at any later point of time. There is **no loss in information.**
 
