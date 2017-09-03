@@ -5,10 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Mon, 04 Sep 2017 23:45:38 +0530</pubDate>
-    <lastBuildDate>Mon, 04 Sep 2017 23:45:38 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <pubDate>Tue, 05 Sep 2017 19:56:04 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2017 19:56:04 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>Safety Issues in AI Systems</title>
@@ -61,11 +60,24 @@
         <category>IEEE NITK</category>
         
       </item>
-=======
-    <pubDate>Mon, 04 Sep 2017 00:56:17 +0530</pubDate>
-    <lastBuildDate>Mon, 04 Sep 2017 00:56:17 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
->>>>>>> 89aae2b0b7615e467e6d4e043112c0020c967291
+    
+      <item>
+        <title>BitTorrent Explained</title>
+        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'app'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'E'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Sup yo'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h1 id=&quot;bittorrent-explained&quot;&gt;BitTorrent Explained&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading...</description>
+        <pubDate>Sat, 02 Sep 2017 16:22:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/BitTorrentExplained/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/BitTorrentExplained/</guid>
+        
+        <category>Networking</category>
+        
+        <category>Torrents</category>
+        
+        <category>P2P</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Technology in Sports</title>
@@ -164,24 +176,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Of a tooth and a pie</title>
-        <description>&lt;p&gt;At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. Give you a little insight into how it works, the various layers of Bluetooth, it’s profiles and so on. But I guess Wikipedia would do a much better job at it. So, I decided to share something I learned during my internship- how we can &lt;strong&gt;make use of the inbuilt Bluetooth controller in Raspberry Pi 3 to implement some of the profiles of Bluetooth.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;First, you need to know that &lt;strong&gt;Raspberry Pi&lt;/strong&gt; is nothing but a Linux machine and can be governed by some commands that you...</description>
-        <pubDate>Fri, 04 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/raspberry-pi-bluetooth/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/raspberry-pi-bluetooth/</guid>
-        
-        <category>Bluetooth</category>
-        
-        <category>Raspberry Pi 3</category>
-        
-        <category>Internship</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     

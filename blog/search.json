@@ -25,6 +25,14 @@
     } ,
   
     {
+      "title"    : "BitTorrent Explained",
+      "category" : "CompSoc",
+      "tags"     : "Networking, Torrents, and P2P",
+      "url"      : "http://ieeenitk.org/blog//BitTorrentExplained/",
+      "date"     : "02 Sep 2017"
+    } ,
+  
+    {
       "title"    : "Technology in Sports",
       "category" : "Diode",
       "tags"     : "Sports",
