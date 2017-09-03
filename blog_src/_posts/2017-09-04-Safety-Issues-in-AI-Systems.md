@@ -2,8 +2,8 @@
 layout: post
 title: "Safety Issues in AI Systems"
 author_github: chennakeshava1998
-date: 2017-09-04 02:30:00
-image: '/blog_src/assets/img/safety-issues-in-ai-systems'
+date: 2017-09-04 02:30:00'
+image: '/assets/img/'
 description: 'Description of the causes of unexpected behaviour of AI models'
 tags:
 - ML
@@ -40,12 +40,12 @@ Hence many attempts have been made at evaluating a system’s performance and so
 
 **Adversarial Examples:** As the name suggests, we are trying to create inputs that bypass an ML algorithm. This is probably one of the segments that is receiving a lot of focus in the recent years. Neural Networks have been immensely popular for computer vision tasks, but of late they have been prone to a lot of adversarial loopholes. Initially, a ML algorithm will have correctly classified an input. But a very slight perturbation is added to the original input, which is so subtle that it is nearly imperceptible to humans, but this often “fools” the classifier and results in an incorrect output. Consider this,
 
-![Misclassification of Panda](/blog_src/assets/img/safety-issues-in-ai-systems/panda.png)
+![Misclassification of Panda](/blog/assets/img/safety-issues-in-ai-systems/panda.png)
 
 On the LHS, the image is classified as a panda with 57% confidence. Although the middle image appears as random noise, it’s obtained by maximising the prediction error of the classifier, but this surprisingly results in the wrong classification as a “gibbon”. As we can observe, the difference between RHS and LHS images is quite imperceptible. It is true that, an attacker may not have access to directly input data into a classifier, so experiments were done to take input from camera devices, but similar results were obtained. Epsilon refers to the extent of perturbation added. In the below image, the image classifier is fooled into classifying the washing machine as a safe
  (34% probability) and as a loudspeaker(24% probability).
 
-![Misclassification of pictures from cameras](/blog_src/assets/img/safety-issues-in-ai-systems/washing_machine.png)
+![Misclassification of pictures from cameras](/blog/assets/img/safety-issues-in-ai-systems/washing_machine.png)
 
 
 Further, it was believed that since Autonomous vehicles take many pictures from varied angles, perspectives and scales they would not be deceived very easily. But researchers were able to generate scale-invariant and transformation-invariant adversarial inputs also - [Synthesizing Robust Adversarial Examples](https://arxiv.org/abs/1707.07397). Scale invariance implies, even if all the dimensions of input are multiplied by a common factor, the output is still misclassified. Similarly, the results won't change much, even if tranforms(like geometric/morphological transforms) are applied onto these images. Hence, Adversarial Examples is one of the critical research areas in ML Security. The [cleverhans](http://www.cleverhans.io/) library is used to benchmark and evaluate the vulnerability of ML models against adversarial inputs.
