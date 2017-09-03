@@ -5,29 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Sun, 03 Sep 2017 01:45:09 +0530</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 01:45:09 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
-    
-      <item>
-        <title>Safety Issues in AI Systems</title>
-        <description>&lt;p&gt;I am pretty sure the title will flood the reader’s mind with images of Skynet and Matrix, but this post focuses on the shortcomings of AI technologies that are currently in vogue. It’s much more productive to contemplate on the loopholes in technologies like Neural Networks, as we are still a far cry from building systems that are at least as intelligent as earthworms.&lt;/p&gt; &lt;p&gt;AI has made several inroads into diverse fields like NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the environment. Accidents,...</description>
-        <pubDate>Fri, 01 Sep 2017 08:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</guid>
-        
-        <category>ML</category>
-        
-        <category>AI</category>
-        
-        <category>Security AI</category>
-        
-        
-        <category>IEEE</category>
-=======
-    <pubDate>Sat, 26 Aug 2017 17:23:23 +0530</pubDate>
-    <lastBuildDate>Sat, 26 Aug 2017 17:23:23 +0530</lastBuildDate>
+    <pubDate>Sun, 03 Sep 2017 18:31:08 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 18:31:08 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -61,7 +40,6 @@
         
         
         <category>CompSoc</category>
->>>>>>> 57ac64961b34d06b552dc6f85e3e86a806b9bd26
         
       </item>
     
@@ -94,23 +72,6 @@
       </item>
     
       <item>
-<<<<<<< HEAD
-        <title>Internships Abroad</title>
-        <description>&lt;h2 id=&quot;daad&quot;&gt;DAAD&lt;/h2&gt; &lt;p&gt;The &lt;a href=&quot;https://www.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?daad=1&amp;amp;detail=50015295&amp;amp;origin=4&amp;amp;page=1&amp;amp;q=wise&amp;amp;status=1&amp;amp;subjectGrps&quot;&gt;DAAD WISE&lt;/a&gt; scholarship provides an opportunity for students to apply to colleges in Germany.&lt;/p&gt; &lt;h3 id=&quot;what-you-need&quot;&gt;What you need:&lt;/h3&gt; &lt;ol&gt; &lt;li&gt;CGPA of 8.5/10 above as per the website&lt;/li&gt; &lt;li&gt;An acceptance from a professor in Germany (Mail as many professors as possible, some may not reply and some reply really late, so start immediately)&lt;/li&gt; &lt;/ol&gt; &lt;h3 id=&quot;application-requirements&quot;&gt;Application requirements:&lt;/h3&gt; &lt;ol&gt; &lt;li&gt;Online application form - (available once the portal opens, it’s a long form, fill it in carefully)&lt;/li&gt; &lt;li&gt;Your resume or CV&lt;/li&gt; &lt;li&gt;DAAD form “Certificate of Enrolment”) filled in by home institution as proof of current enrolment (available on the...</description>
-        <pubDate>Sat, 12 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/internships-Abroad/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/internships-Abroad/</guid>
-        
-        <category>Internships</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-=======
->>>>>>> 57ac64961b34d06b552dc6f85e3e86a806b9bd26
         <title>Is Random really Random?</title>
         <description>&lt;p&gt;Random numbers have been used for many thousands of years. Roll a dice. Flip a coin. Pick a card from a deck. Whatever the result may be in these three situations, it’s completely random each time and there’s no way of predicting it by looking at the previous outcomes. In other words, the end result is left to random chance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/random-number-generator/dice.jpg&quot; alt=&quot;Dice&quot; /&gt;&lt;/p&gt; &lt;p&gt;Random number generators in a computer are similar: they’re an attempt to achieve an unpredictable, random result. From creating random keys for data encryption to random shuffling cards in a poker website, generation of random numbers...</description>
         <pubDate>Fri, 04 Aug 2017 09:18:33 +0530</pubDate>

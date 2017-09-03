@@ -5,13 +5,13 @@
     <description>Gyan passed down from one batch to another</description>
     <link>http://ieeenitk.org/gyan/</link>
     <atom:link href="http://ieeenitk.org/gyan/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Aug 2017 09:33:09 +0530</pubDate>
-    <lastBuildDate>Wed, 30 Aug 2017 09:33:09 +0530</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sun, 03 Sep 2017 18:23:26 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 18:23:26 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>Advice on Computer Science - Vinay Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;&#39;/assets/img/authors/vinay_bhat.jpg&#39;&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;Hi, my name is Vinay Bhat and I’m a final year undergraduate student in the IT department. This summer I had interned at Siemens Research Labs, Bangalore. I had applied there because it involved the field of Artificial Intelligence, which I’m greatly interested in.&lt;/p&gt; &lt;p&gt;As I am a part of IEEE club in campus, a senior from my club forwarded this opportunity to us. I applied and sent my resume, after which there were about two telephonic interviews and I was selected for the internship.&lt;/p&gt; &lt;h3 id=&quot;work-culture&quot;&gt;Work Culture&lt;/h3&gt; &lt;p&gt;Work culture here at Siemens was really...</description>
+        <description>&lt;p&gt;&lt;img src=&quot;'/assets/img/authors/vinay_bhat.jpg'&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;Hi, my name is Vinay Bhat and I’m a final year undergraduate student in the IT department. This summer I had interned at Siemens Research Labs, Bangalore. I had applied there because it involved the field of Artificial Intelligence, which I’m greatly interested in.&lt;/p&gt; &lt;p&gt;As I am a part of IEEE club in campus, a senior from my club forwarded this opportunity to us. I applied and sent my resume, after which there were about two telephonic interviews and I was selected for the internship.&lt;/p&gt; &lt;h3 id=&quot;work-culture&quot;&gt;Work Culture&lt;/h3&gt; &lt;p&gt;Work culture here at Siemens was really...</description>
         <pubDate>Sun, 27 Aug 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/gyan/vinay-siemens/</link>
         <guid isPermaLink="true">http://ieeenitk.org/gyan/vinay-siemens/</guid>
@@ -41,7 +41,7 @@
     
       <item>
         <title>Insight 2k17 - CompSoc</title>
-        <description>&lt;h2 id=&quot;insight-2k17---compsoc-talk&quot;&gt;Insight 2k17 - CompSoc Talk&lt;/h2&gt; &lt;p&gt;Insight 2k17, the first event for IEEE NITK Student Chapter started off with a huge response from the Computer Science Community at NITK with a jam-packed hall of students turning up to attend the talk given by final years. The talk was mainly focussed on tips and tricks to apply for research and industry internships off-campus.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/gyan/assets/img/insight-2k17/crowd.jpg&quot; alt=&quot;Crowd for Insight&quot; /&gt;&lt;/p&gt; &lt;p&gt;The talk was given by three final years: 1. Natasha Jeppu - DAAD Wise Scholar (Interned in Germany) and Mathworks. 2. Ananda Rao - CSE Topper and interned at IIT Bombay and...</description>
+        <description>&lt;h2 id=&quot;insight-2k17---compsoc-talk&quot;&gt;Insight 2k17 - CompSoc Talk&lt;/h2&gt; &lt;p&gt;Insight 2k17, the first event for IEEE NITK Student Chapter started off with a huge response from the Computer Science Community at NITK with a jam-packed hall of students turning up to attend the talk given by final years. The talk was mainly focussed on tips and tricks to apply for research and industry internships off-campus.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/gyan/assets/img/insight-2k17/crowd.jpg&quot; alt=&quot;Crowd for Insight&quot; /&gt;&lt;/p&gt; &lt;p&gt;The talk was given by three final years:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Natasha Jeppu - DAAD Wise Scholar (Interned in Germany) and Mathworks.&lt;/li&gt; &lt;li&gt;Ananda Rao - CSE Topper and interned at IIT Bombay and Google...</description>
         <pubDate>Sat, 12 Aug 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/gyan/insight-2k17/</link>
         <guid isPermaLink="true">http://ieeenitk.org/gyan/insight-2k17/</guid>
@@ -86,8 +86,8 @@
       </item>
     
       <item>
-        <title>Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/gyan/assets/img/kishor-bhat-interview/kishor.jpg&quot; alt=&quot;Kishor Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.&lt;/p&gt; &lt;h3 id=&quot;how-important-are-ctfs-to-a-security-enthusiast-give-an-account-of-your-experiences-from-playing-ctfs&quot;&gt;1. How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs&lt;/h3&gt; &lt;p&gt;In my opinion, pretty important.&lt;/p&gt; &lt;p&gt;For the uninitiated, CTFs or Capture the Flag contests are security competitions that...</description>
+        <title>Peeking into a hacker's mind - an Interview with Kishor Bhat</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/gyan/assets/img/kishor-bhat-interview/kishor.jpg&quot; alt=&quot;Kishor Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.&lt;/p&gt; &lt;h3 id=&quot;1-how-important-are-ctfs-to-a-security-enthusiast-give-an-account-of-your-experiences-from-playing-ctfs&quot;&gt;1. How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs&lt;/h3&gt; &lt;p&gt;In my opinion, pretty important.&lt;/p&gt; &lt;p&gt;For the uninitiated, CTFs or Capture the Flag contests are security competitions that...</description>
         <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/gyan/kishor-bhat-interview/</link>
         <guid isPermaLink="true">http://ieeenitk.org/gyan/kishor-bhat-interview/</guid>

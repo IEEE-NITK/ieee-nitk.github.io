@@ -1,13 +1,6 @@
 [
   
     {
-<<<<<<< HEAD
-      "title"    : "Safety Issues in AI Systems",
-      "category" : "IEEE",
-      "tags"     : "ML, AI, and Security AI",
-      "url"      : "http://ieeenitk.org/blog//Safety-Issues-in-AI-Systems/",
-      "date"     : "01 Sep 2017"
-=======
       "title"    : "Technology in Sports",
       "category" : "Diode",
       "tags"     : "Sports",
@@ -21,7 +14,6 @@
       "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
       "url"      : "http://ieeenitk.org/blog//Hashing-in-Competitive-Programming/",
       "date"     : "22 Aug 2017"
->>>>>>> 57ac64961b34d06b552dc6f85e3e86a806b9bd26
     } ,
   
     {
