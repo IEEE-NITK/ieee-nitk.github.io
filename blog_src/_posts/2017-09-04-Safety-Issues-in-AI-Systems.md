@@ -10,7 +10,7 @@ tags:
 - AI
 - Security AI
 categories:
-- IEEE
+- IEEE Compsoc
 github_username: 'chennakeshava1998'
 ---
 
@@ -50,4 +50,4 @@ On the LHS, the image is classified as a panda with 57% confidence. Although the
 
 Further, it was believed that since Autonomous vehicles take many pictures from varied angles, perspectives and scales they would not be deceived very easily. But researchers were able to generate scale-invariant and transformation-invariant adversarial inputs also - [Synthesizing Robust Adversarial Examples](https://arxiv.org/abs/1707.07397). Scale invariance implies, even if all the dimensions of input are multiplied by a common factor, the output is still misclassified. Similarly, the results won't change much, even if tranforms(like geometric/morphological transforms) are applied onto these images. Hence, Adversarial Examples is one of the critical research areas in ML Security. The [cleverhans](http://www.cleverhans.io/) library is used to benchmark and evaluate the vulnerability of ML models against adversarial inputs.
 
-I think that Safety of ML models is a very exciting and crucial area in the coming years. It is quintessential to resolve these issues for the realization of products like Autonomous Driving Vehicles and Personal Robots. As AI systems make deeper inroads into our lives, ensuring the safety and reliability of these systems is of paramount importance. Please do put in your comments/suggestions regarding this article below. 
+I think that Safety of ML models is a very exciting and crucial area in the coming years. It is quintessential to resolve these issues for the realization of products like Autonomous Driving Vehicles and Personal Robots. As AI systems make deeper inroads into our lives, ensuring the safety and reliability of these systems is of paramount importance. Please do put in your comments/suggestions regarding this article below.
