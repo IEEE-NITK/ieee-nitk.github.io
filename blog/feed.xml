@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Sep 2017 19:19:10 +0530</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2017 19:19:10 +0530</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2017 19:20:34 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2017 19:20:34 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -133,7 +133,7 @@
     
       <item>
         <title>BitTorrent Explained</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading files as well)&lt;/p&gt; &lt;h2 id=&quot;a-simple-introduction&quot;&gt;A simple introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;https://github.com/IEEE-NITK/ieee-nitk.github.io/blob/master/blog_src/assets/img/BitTorrent-Explained/pic1.png&quot; alt=&quot;BitTorrent Logo&quot; /&gt;&lt;/p&gt; &lt;p&gt;BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing&quot;&gt;peer-to-peer file sharing&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Now,...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading files as well)&lt;/p&gt; &lt;h2 id=&quot;a-simple-introduction&quot;&gt;A simple introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/BitTorrent-Explained/pic1.png&quot; alt=&quot;BitTorrent Logo&quot; /&gt;&lt;/p&gt; &lt;p&gt;BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing&quot;&gt;peer-to-peer file sharing&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Now,...</description>
         <pubDate>Sat, 02 Sep 2017 16:22:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/BitTorrentExplained/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/BitTorrentExplained/</guid>
