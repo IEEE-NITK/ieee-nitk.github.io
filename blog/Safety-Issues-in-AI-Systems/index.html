@@ -17,7 +17,7 @@
     <meta name="twitter:title" content="Safety Issues in AI Systems">
     <meta name="twitter:description" content="Description of the causes of unexpected behaviour of AI models">
     
-    <meta property="twitter:image:src" content="http://ieeenitk.org/blog_src/assets/img/safety-issues-in-ai-systems">
+    <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
@@ -25,7 +25,7 @@
     <meta property="og:url" content="http://ieeenitk.org///Safety-Issues-in-AI-Systems/" />
     <meta property="og:title" content="Safety Issues in AI Systems">
     
-    <meta property="og:image" content="http://ieeenitk.org/blog_src/assets/img/safety-issues-in-ai-systems">
+    <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
     <meta property="og:description" content="Description of the causes of unexpected behaviour of AI models">
     <meta property="og:site_name" content="A blog about our findings and musings">
@@ -97,7 +97,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-04 02:30:00 +0000" class="date">04 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-04 02:30:00 +0530" class="date">04 Sep 2017</time>
         
         <h1 class="post-title" itemprop="name">Safety Issues in AI Systems</h1>
         <p itemprop="description" class="subtitle">Description of the causes of unexpected behaviour of AI models</p>
@@ -152,7 +152,11 @@
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
                 <p>I am pretty sure the title will flood the reader’s mind with images of Skynet and Matrix, but this post focuses on the shortcomings of AI technologies that are currently in vogue. It’s much more productive to contemplate on the loopholes in technologies like Neural Networks, as we are still a far cry from building systems that are at least as intelligent as earthworms.</p>
 
-<p>AI has made several inroads into diverse fields like NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the environment. Accidents, in the context of AI, is defined as unintended or unexpected actions of the system, that might be harmful to human beings, and might cause irreversible damage to the environment variables. These may be caused due to reasons like incorrect objective function, errors in the implementation or the systems not being robust to outlier inputs.One more reason, that reinforces research in this area is that, the Value Alignment problem shares a major intersection of ideas with the security concerns. Most of the alignment problems initially show up as security issues itself. The value alignment problem isn’t born out of the spooky fears of evil-intent and consciousness arising out of super-intelligent machines, but because of the following reasons:</p>
+<p>AI has made several inroads into diverse fields such as NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the society. Accidents, in the context of AI, are defined as unintended or unexpected actions of the system, that might be harmful to human beings, and might cause irreversible damage to the environment. These may be caused due to reasons like incorrect objective function, errors in the implementation or the systems not being robust to outlier inputs. Many of ML problems are solved by designing algorithms that optimise a particular function - this function is known as the objective function. An objective function can be specified either as a cost functions(that gives us the error in the predictions, and hence has to be minimised) or as utility function(used to specify rewards for Reinforcement Learning agents, which try to maximise this reward). Another reason, that augments research in this area is that, the Value Alignment problem shares a major intersection of ideas with the security concerns.</p>
+
+<p>So what exactly is the Value Alignment problem? Suppose that our system consists of n variables, and we define our objective / utility function in terms of k variables, where k is a subset of n. So, there are chances of the system optimising the utility function by setting the other variables to extreme values. This might cause a lot of permanent damage. Suppose we design genuine AGI(Artificial General Intelligence) for getting us medicines. Now, we wouldn’t want it to imfringe upon others’ rights when we want it to get medicines in the most optimal way right? Like, it shouldn’t break the trafffic rules, it should stand in a queue, it must not steal the medicines,etc. The <strong>paperclip maximiser</strong> is a funny, but instructive example that demonstrates this problem.</p>
+
+<p>Most of the alignment problems initially show up as security issues itself. The value alignment problem isn’t born out of the spooky fears of evil-intent and consciousness arising out of super-intelligent machines, but because of the following reasons:</p>
 
 <ol>
   <li>It’s very hard to clearly define the cost/utility functions of agents which align perfectly with that of the human race.</li>
@@ -170,30 +174,30 @@ This was not because the AI system wanted to hurt the sentiments of particular s
 
 <p>Hence many attempts have been made at evaluating a system’s performance and solving the “reward engineering problem”. For instance consider, Cooperative Inverse Reinforcement Learning(CIRL) - here, a robot observes a human being in an open environment and ‘infers’ the reward function by itself, rather than being explicitly specified. This is a paper on CIRL from researchers at BAIR - <a href="https://arxiv.org/abs/1606.03137">Cooperative Inverse Reinforcement Learning</a> . OpenAI has also released <a href="https://universe.openai.com/">Universe</a>, which makes it easier to compare a machine’s performance in a game with that of a human being.</p>
 
-<p><strong>Adversarial Examples:</strong> This is probably one of the segments that is receiving a lot of focus in the recent years.Initially, a ML algorithm will have correctly classified an input. But a very slight perturbation is added to the original input, which is so subtle that it is nearly imperceptible to humans, but this often “fools” the classifier and results in an incorrect output. Consider this,</p>
+<p><strong>Adversarial Examples:</strong> As the name suggests, we are trying to create inputs that bypass an ML algorithm. This is probably one of the segments that is receiving a lot of focus in the recent years. Neural Networks have been immensely popular for computer vision tasks, but of late they have been prone to a lot of adversarial loopholes. Initially, a ML algorithm will have correctly classified an input. But a very slight perturbation is added to the original input, which is so subtle that it is nearly imperceptible to humans, but this often “fools” the classifier and results in an incorrect output. Consider this,</p>
 
-<p><img src="/blog_src/assets/img/safety-issues-in-ai-systems/panda.png" alt="alt text" /></p>
+<p><img src="/blog/assets/img/safety-issues-in-ai-systems/panda.png" alt="Misclassification of Panda" /></p>
 
 <p>On the LHS, the image is classified as a panda with 57% confidence. Although the middle image appears as random noise, it’s obtained by maximising the prediction error of the classifier, but this surprisingly results in the wrong classification as a “gibbon”. As we can observe, the difference between RHS and LHS images is quite imperceptible. It is true that, an attacker may not have access to directly input data into a classifier, so experiments were done to take input from camera devices, but similar results were obtained. Epsilon refers to the extent of perturbation added. In the below image, the image classifier is fooled into classifying the washing machine as a safe
  (34% probability) and as a loudspeaker(24% probability).</p>
 
-<p><img src="/blog_src/assets/img/safety-issues-in-ai-systems/washing_machine.png" alt="alt text" /></p>
+<p><img src="/blog/assets/img/safety-issues-in-ai-systems/washing_machine.png" alt="Misclassification of pictures from cameras" /></p>
 
-<p>Further, it was believed that since Autonomous vehicles take many pictures from varied angles, perspectives and scales they would not be deceived very easily. But researchers were able to generate scale-invariant and transformation-invariant adversarial inputs also - <a href="https://arxiv.org/abs/1707.07397">Synthesizing Robust Adversarial Examples</a>. Hence, Adversarial Examples is one of the critical research areas in ML Security. The <a href="http://www.cleverhans.io/">cleverhans</a> library is used to benchmark and evaluate the vulnerability of ML models against adversarial inputs.</p>
+<p>Further, it was believed that since Autonomous vehicles take many pictures from varied angles, perspectives and scales they would not be deceived very easily. But researchers were able to generate scale-invariant and transformation-invariant adversarial inputs also - <a href="https://arxiv.org/abs/1707.07397">Synthesizing Robust Adversarial Examples</a>. Scale invariance implies, even if all the dimensions of input are multiplied by a common factor, the output is still misclassified. Similarly, the results won’t change much, even if tranforms(like geometric/morphological transforms) are applied onto these images. Hence, Adversarial Examples is one of the critical research areas in ML Security. The <a href="http://www.cleverhans.io/">cleverhans</a> library is used to benchmark and evaluate the vulnerability of ML models against adversarial inputs.</p>
 
-<p>I think that Safety of ML models is a very exciting and crucial area in the coming years. It is quintessential to resolve these issues for the realization of products like Autonomous Driving Vehicles and Personal Robots. As AI systems make deeper inroads into our lives, ensuring the safety and reliability of these systems is of paramount importance.</p>
+<p>I think that Safety of ML models is a very exciting and crucial area in the coming years. It is quintessential to resolve these issues for the realization of products like Autonomous Driving Vehicles and Personal Robots. As AI systems make deeper inroads into our lives, ensuring the safety and reliability of these systems is of paramount importance. Please do put in your comments/suggestions regarding this article below.</p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/" alt="">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/ck.jpg" alt="Chenna Keshava B S">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/chennakeshava1998"></a>
+            <a itemprop="name" href="https://github.com/chennakeshava1998">Chenna Keshava B S</a>
         </h3>
         <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:"></a>
+        <a itemprop="email" class="email" href="mailto:ckeshavabs@gmail.com">ckeshavabs@gmail.com</a>
     </div>
 </section>
 

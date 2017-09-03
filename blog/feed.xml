@@ -5,14 +5,14 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Sep 2017 19:37:18 +0530</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2017 19:37:18 +0530</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2017 19:39:59 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2017 19:39:59 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>Safety Issues in AI Systems</title>
-        <description>&lt;p&gt;I am pretty sure the title will flood the reader’s mind with images of Skynet and Matrix, but this post focuses on the shortcomings of AI technologies that are currently in vogue. It’s much more productive to contemplate on the loopholes in technologies like Neural Networks, as we are still a far cry from building systems that are at least as intelligent as earthworms.&lt;/p&gt; &lt;p&gt;AI has made several inroads into diverse fields like NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the environment. Accidents,...</description>
-        <pubDate>Mon, 04 Sep 2017 08:00:00 +0530</pubDate>
+        <description>&lt;p&gt;I am pretty sure the title will flood the reader’s mind with images of Skynet and Matrix, but this post focuses on the shortcomings of AI technologies that are currently in vogue. It’s much more productive to contemplate on the loopholes in technologies like Neural Networks, as we are still a far cry from building systems that are at least as intelligent as earthworms.&lt;/p&gt; &lt;p&gt;AI has made several inroads into diverse fields such as NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the society....</description>
+        <pubDate>Mon, 04 Sep 2017 02:30:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</guid>
         
@@ -23,7 +23,7 @@
         <category>Security AI</category>
         
         
-        <category>IEEE</category>
+        <category>IEEE Compsoc</category>
         
       </item>
     
