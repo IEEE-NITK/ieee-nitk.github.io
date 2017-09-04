@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Sep 2017 19:44:40 +0530</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2017 19:44:40 +0530</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2017 19:46:36 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2017 19:46:36 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -98,18 +98,18 @@
       </item>
     
       <item>
-        <title>Water Memory</title>
-        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'app'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'E'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Sup yo'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h1 id=&quot;water-memory-what-a-memory&quot;&gt;WATER MEMORY, WHAT A MEMORY!&lt;/h1&gt; &lt;p&gt;What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!&lt;/p&gt; &lt;p&gt;Scientists from Germany now believe that water has a memory, meaning that what once was seen as a simple commodity has been closely examined to reveal a scientific revelation, uncovering a mind-blowing...</description>
-        <pubDate>Sat, 02 Sep 2017 16:22:30 +0530</pubDate>
+        <title>Water Memory, What A Memory</title>
+        <description>&lt;h1 id=&quot;water-memory-what-a-memory&quot;&gt;WATER MEMORY, WHAT A MEMORY!&lt;/h1&gt; &lt;p&gt;#&lt;/p&gt; &lt;p&gt;What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!&lt;/p&gt; &lt;p&gt;Scientists from Germany now believe that water has a memory, meaning that what once was seen as a simple commodity has been closely examined to reveal a scientific revelation, uncovering a mind-blowing truth.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;THEORY:&lt;/strong&gt; Individual drops of water from the same sample were examined at incredibly high magnification, probably the first experiment of this kind and surprisingly scientists were able to physically see that each droplet of water has its own &lt;em&gt;individual microscopic...</description>
+        <pubDate>Sun, 03 Sep 2017 02:30:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/Water-Memory,-What-A-Memory/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Water-Memory,-What-A-Memory/</guid>
         
-        <category>Innovation</category>
-        
-        <category>Data Storage</category>
+        <category>Water memory</category>
         
         
         <category>CAS</category>
+        
+        <category>IEEE NITK</category>
         
       </item>
     
