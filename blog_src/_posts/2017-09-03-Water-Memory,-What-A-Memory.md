@@ -12,18 +12,6 @@ categories:
 - CAS
 github_username: 'mahirjain25'
 ---
-
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
-
 # WATER MEMORY, WHAT A MEMORY!
 
 
