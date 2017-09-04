@@ -5,13 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Tue, 05 Sep 2017 19:39:59 +0530</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2017 19:39:59 +0530</lastBuildDate>
-=======
-    <pubDate>Mon, 04 Sep 2017 00:51:01 +0530</pubDate>
-    <lastBuildDate>Mon, 04 Sep 2017 00:51:01 +0530</lastBuildDate>
->>>>>>> added profile pic
+    <pubDate>Tue, 05 Sep 2017 19:44:40 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2017 19:44:40 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -28,21 +23,7 @@
         <category>Security AI</category>
         
         
-        <category>IEEE Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>What makes a Smart Home Smart?</title>
-        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'app'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'E'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Sup yo'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h1 id=&quot;what-makes-a-smart-home-smart&quot;&gt;What makes a Smart Home Smart?&lt;/h1&gt; &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?&lt;/p&gt; &lt;p&gt;With the introduction of smart homes these will no longer be a bother to us...</description>
-        <pubDate>Sun, 03 Sep 2017 20:54:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</guid>
-        
-        <category>IoT</category>
-        
-        
-        <category>CAS</category>
+        <category>Compsoc</category>
         
       </item>
     
@@ -95,6 +76,24 @@
         
         
         <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>What makes a Smart Home Smart</title>
+        <description>&lt;h1 id=&quot;what-makes-a-smart-home-smart&quot;&gt;What makes a Smart Home Smart?&lt;/h1&gt; &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?&lt;/p&gt; &lt;p&gt;With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even you’re your coffee maker, every electrical appliance in our homes can be hooked up the home network. This will basically allow us to control our entire house with...</description>
+        <pubDate>Sun, 03 Sep 2017 02:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</guid>
+        
+        <category>Smart homes</category>
+        
+        <category>Internet of things</category>
+        
+        
+        <category>CAS</category>
+        
+        <category>IEEE NITK</category>
         
       </item>
     
