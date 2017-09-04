@@ -1,31 +1,21 @@
 ---
 layout: post
-title: "Water Memory"
-author_github: mahirjain25
-date: 2017-09-02 10:52:30
+title: "Water Memory, What A Memory"
+author_github:
+date: 2017-09-03 02:30:00'
 image: '/assets/img/'
-description: 'An article describing the results of an interesting experiment where water is used to store '
+description: 'Know about this very new form of memory-the water memory concept and its significance.'
 tags:
-- Innovation
-- Data Storage
+- Water memory
 categories:
 - CAS
-github_username: 'mahirjain25'
+- IEEE NITK
+github_username: ''
 ---
-
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
 
 # WATER MEMORY, WHAT A MEMORY!
 
+#
 
 What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!
 
