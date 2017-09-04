@@ -5,10 +5,15 @@
     <description>Gyan passed down from one batch to another</description>
     <link>http://ieeenitk.org/gyan/</link>
     <atom:link href="http://ieeenitk.org/gyan/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
 
     <pubDate>Sun, 03 Sep 2017 18:51:32 +0530</pubDate>
     <lastBuildDate>Sun, 03 Sep 2017 18:51:32 +0530</lastBuildDate>
 
+=======
+    <pubDate>Mon, 04 Sep 2017 00:56:10 +0530</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2017 00:56:10 +0530</lastBuildDate>
+>>>>>>> 89aae2b0b7615e467e6d4e043112c0020c967291
     <generator>Jekyll v3.5.1</generator>
 
       <item>

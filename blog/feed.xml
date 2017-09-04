@@ -5,6 +5,7 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Mon, 04 Sep 2017 23:45:38 +0530</pubDate>
     <lastBuildDate>Mon, 04 Sep 2017 23:45:38 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
@@ -60,6 +61,11 @@
         <category>IEEE NITK</category>
         
       </item>
+=======
+    <pubDate>Mon, 04 Sep 2017 00:56:17 +0530</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2017 00:56:17 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+>>>>>>> 89aae2b0b7615e467e6d4e043112c0020c967291
     
       <item>
         <title>Technology in Sports</title>
