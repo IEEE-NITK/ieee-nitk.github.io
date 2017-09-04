@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Safety Issues in AI Systems",
+      "category" : "Compsoc",
+      "tags"     : "ML, AI, and Security AI",
+      "url"      : "http://ieeenitk.org/blog//Safety-Issues-in-AI-Systems/",
+      "date"     : "04 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "What makes a Smart Home Smart",
+      "category" : "CASIEEE NITK",
+      "tags"     : "Smart homes and Internet of things",
+      "url"      : "http://ieeenitk.org/blog//What-Makes-a-Smart-Home-Smart/",
+      "date"     : "03 Sep 2017"
+    } ,
+  
+    {
       "title"    : "Technology in Sports",
       "category" : "Diode",
       "tags"     : "Sports",

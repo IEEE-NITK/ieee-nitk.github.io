@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Technology in Sports</title>
-    <meta name="description" content="Modern Technology in Sports">
+    <title>Safety Issues in AI Systems</title>
+    <meta name="description" content="Description of the causes of unexpected behaviour of AI models">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="Technology in Sports">
-    <meta name="twitter:description" content="Modern Technology in Sports">
+    <meta name="twitter:title" content="Safety Issues in AI Systems">
+    <meta name="twitter:description" content="Description of the causes of unexpected behaviour of AI models">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///Technology-in-Sports/" />
-    <meta property="og:title" content="Technology in Sports">
+    <meta property="og:url" content="http://ieeenitk.org///Safety-Issues-in-AI-Systems/" />
+    <meta property="og:title" content="Safety Issues in AI Systems">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="Modern Technology in Sports">
+    <meta property="og:description" content="Description of the causes of unexpected behaviour of AI models">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Technology in Sports"/>
-    <meta itemprop="description" content="Modern Technology in Sports">
+    <meta itemprop="name" content="Safety Issues in AI Systems"/>
+    <meta itemprop="description" content="Description of the causes of unexpected behaviour of AI models">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -84,7 +84,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/Technology-in-Sports/">
+    <link rel="canonical" href="http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/blog/feed.xml" />
 
@@ -97,10 +97,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-08-22 04:45:10 +0530" class="date">22 Aug 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-04 02:30:00 +0530" class="date">04 Sep 2017</time>
         
-        <h1 class="post-title" itemprop="name">Technology in Sports</h1>
-        <p itemprop="description" class="subtitle">Modern Technology in Sports</p>
+        <h1 class="post-title" itemprop="name">Safety Issues in AI Systems</h1>
+        <p itemprop="description" class="subtitle">Description of the causes of unexpected behaviour of AI models</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -150,38 +150,54 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>The world of sport is continually changing over the years, and the use of technology is just one of those areas that has made an impact on many sports. It has changed the way players approach a particular sport. Various technologies are used to assist umpires or referees, while some of them are used for advanced coaching and enhanced experience for fans.</p>
+                <p>I am pretty sure the title will flood the reader’s mind with images of Skynet and Matrix, but this post focuses on the shortcomings of AI technologies that are currently in vogue. It’s much more productive to contemplate on the loopholes in technologies like Neural Networks, as we are still a far cry from building systems that are at least as intelligent as earthworms.</p>
 
-<h2 id="a-digital-coach">A digital coach…</h2>
-<p>In the recently concluded Champions Trophy 2017, smart bats were used to obtain various data. Small sensors, fixed at the top of the handle, were used. 
-The bat sensor, powered by the Intel Curie technology, can be mounted on any cricket bat to generate data for every stroke that the batsman plays. With this technology, parameters like back-lift, bat speed from start of the shot till the end of bat swing and follow-through can be tracked for every stroke. This can be used for efficient coaching and improving the game level. After making smart bats, Intel is working on a future smart ball to obtain data for each delivery.</p>
+<p>AI has made several inroads into diverse fields such as NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the society. Accidents, in the context of AI, are defined as unintended or unexpected actions of the system, that might be harmful to human beings, and might cause irreversible damage to the environment. These may be caused due to reasons like incorrect objective function, errors in the implementation or the systems not being robust to outlier inputs. Many of ML problems are solved by designing algorithms that optimise a particular function - this function is known as the objective function. An objective function can be specified either as a cost functions(that gives us the error in the predictions, and hence has to be minimised) or as utility function(used to specify rewards for Reinforcement Learning agents, which try to maximise this reward). Another reason, that augments research in this area is that, the Value Alignment problem shares a major intersection of ideas with the security concerns.</p>
 
-<h2 id="hawkeye">Hawkeye</h2>
-<p><img src="/blog/assets/img/technology-in-sports/w.jpg" alt="Hawkeye" />
-Hawkeye hit the screens in 2001. It is the technology used to track a ball’s trajectory. Hawk-Eye uses technology originally used for brain surgery and missile tracking. It uses six or more computer-linked television cameras situated around the court. Six separate views are obtained and then combined together to produce an accurate 3D representation of the path of the ball. It is presently being used in international cricket and tennis, and many other sports are also looking at making use of this technology. The review system through the use of Hawkeye helps in correcting many umpiring errors.</p>
+<p>So what exactly is the Value Alignment problem? Suppose that our system consists of n variables, and we define our objective / utility function in terms of k variables, where k is a subset of n. So, there are chances of the system optimising the utility function by setting the other variables to extreme values. This might cause a lot of permanent damage. Suppose we design genuine AGI(Artificial General Intelligence) for getting us medicines. Now, we wouldn’t want it to imfringe upon others’ rights when we want it to get medicines in the most optimal way right? Like, it shouldn’t break the trafffic rules, it should stand in a queue, it must not steal the medicines,etc. The <strong>paperclip maximiser</strong> is a funny, but instructive example that demonstrates this problem.</p>
 
-<h2 id="data-analysis">Data analysis</h2>
-<p>Data Analysis is changing the nature of sports science. Huge amount of data is collected through special field cameras for analysis. This analysis helps them to appropriately determine the skill set of players, uncover undervalued players, pinpoint aspects of team play that need to be worked on, and selecting the right players in a lineup for optimal performance. This is widely used to figure out the opponents’ weaknesses and make suitable strategies.</p>
+<p>Most of the alignment problems initially show up as security issues itself. The value alignment problem isn’t born out of the spooky fears of evil-intent and consciousness arising out of super-intelligent machines, but because of the following reasons:</p>
 
-<h2 id="few-other-examples">Few other examples</h2>
-<p>Hot Spot is an infrared imaging system used in cricket to determine whether the ball has struck the batsman, bat or pad. Hot Spot requires two infra-red cameras on opposite sides of the ground above the field of play that are continuously recording images. Any suspected snick or bat/pad event can be verified by examining the infrared image, which usually shows a bright spot where contact friction from the ball has elevated the local temperature. 
-Snick-o-Meter is a very sensitive microphone located in one of the stumps, which can pick up the sound when the ball nicks the bat. This technology is currently used to in the review system to show if the ball did or did not actually hit the bat.</p>
+<ol>
+  <li>It’s very hard to clearly define the cost/utility functions of agents which align perfectly with that of the human race.</li>
+  <li>Any sufficiently intelligent AI will try to acquire more physical and computational resources, not to take over the world, but to succeed in its task more efficiently.</li>
+</ol>
 
-<h2 id="future">Future!</h2>
-<p>Over the past few years media broadcasting has improved with advancement in camera technology. Technology is being used for deciding players’ diet, proper clothing material for match comfort and the players’ safety. 
-Research is going on to discover how technology can be used in sports. Various equipment designs for players safety, apps and websites for fans are being developed. Seeing the technology growth, one won’t be surprised to see a robot-umpire in the future.</p>
+<p>Let’s explore some of the ways in which AI systems can malfunction:</p>
+
+<p><strong>Incorrect Reward Functions:</strong> We are quite familiar with Sorcerer’s Apprentice or King Midas’ story - “We all get what we ask for, not what we want”. For instance, consider the case when google photos tagged a person as Gorrilla - <a href="http://www.bbc.com/news/technology-33347866">Google apologises for Photos app’s racist blunder</a>
+This was not because the AI system wanted to hurt the sentiments of particular section of society. It might be because, the cost function for misclassification of inanimate objects is the same as that of misclassifying people as animals/objects. On the contrary, greater cost should have been associated with misclassification of humans. This illustrates the unintended effects of faulty reward functions.</p>
+
+<p><strong>Negative side effects:</strong> The AI system may try to maximise its reward function, without heeding to the other environment variables. For instance, consider the example of a robot used to clean office spaces: The robot must not break an expensive vase in it’s way, and must search for an alternative path, although the cleaning process might be faster in the former approach.</p>
+
+<p><strong>Reward Hacking:</strong> The system may find out a clever/easy way of increasing the reward, but might be against the spirit with which it was designed. Continuing with the same analogy, the robot might purposefully shut it’s vision system so that it cannot ‘see’ any dirt, or it might hide the existing dirt with objects, so that the dirt is not visible to others. Take a look at this AI bot, that’s designed to play the speedboat game of <a href="https://youtu.be/tlOIHko8ySg">CoastRunners</a>. Here, the boat that finishes first gets the maximum points. So, when this RL agent was given reward function of obtaining maximum points, it does not participate in the race, but rather tries to obtain higher points by perfecting it’s timing of going around in the circle as shown. Indeed, the number of points obtained by the bot was 20% higher than an average human player, but this was not what the designer had in her mind. More on this by OpenAI - <a href="https://blog.openai.com/faulty-reward-functions/">Faulty Reward Functions</a></p>
+
+<p>Hence many attempts have been made at evaluating a system’s performance and solving the “reward engineering problem”. For instance consider, Cooperative Inverse Reinforcement Learning(CIRL) - here, a robot observes a human being in an open environment and ‘infers’ the reward function by itself, rather than being explicitly specified. This is a paper on CIRL from researchers at BAIR - <a href="https://arxiv.org/abs/1606.03137">Cooperative Inverse Reinforcement Learning</a> . OpenAI has also released <a href="https://universe.openai.com/">Universe</a>, which makes it easier to compare a machine’s performance in a game with that of a human being.</p>
+
+<p><strong>Adversarial Examples:</strong> As the name suggests, we are trying to create inputs that bypass an ML algorithm. This is probably one of the segments that is receiving a lot of focus in the recent years. Neural Networks have been immensely popular for computer vision tasks, but of late they have been prone to a lot of adversarial loopholes. Initially, a ML algorithm will have correctly classified an input. But a very slight perturbation is added to the original input, which is so subtle that it is nearly imperceptible to humans, but this often “fools” the classifier and results in an incorrect output. Consider this,</p>
+
+<p><img src="/blog/assets/img/safety-issues-in-ai-systems/panda.png" alt="Misclassification of Panda" /></p>
+
+<p>On the LHS, the image is classified as a panda with 57% confidence. Although the middle image appears as random noise, it’s obtained by maximising the prediction error of the classifier, but this surprisingly results in the wrong classification as a “gibbon”. As we can observe, the difference between RHS and LHS images is quite imperceptible. It is true that, an attacker may not have access to directly input data into a classifier, so experiments were done to take input from camera devices, but similar results were obtained. Epsilon refers to the extent of perturbation added. In the below image, the image classifier is fooled into classifying the washing machine as a safe
+ (34% probability) and as a loudspeaker(24% probability).</p>
+
+<p><img src="/blog/assets/img/safety-issues-in-ai-systems/washing_machine.png" alt="Misclassification of pictures from cameras" /></p>
+
+<p>Further, it was believed that since Autonomous vehicles take many pictures from varied angles, perspectives and scales they would not be deceived very easily. But researchers were able to generate scale-invariant and transformation-invariant adversarial inputs also - <a href="https://arxiv.org/abs/1707.07397">Synthesizing Robust Adversarial Examples</a>. Scale invariance implies, even if all the dimensions of input are multiplied by a common factor, the output is still misclassified. Similarly, the results won’t change much, even if tranforms(like geometric/morphological transforms) are applied onto these images. Hence, Adversarial Examples is one of the critical research areas in ML Security. The <a href="http://www.cleverhans.io/">cleverhans</a> library is used to benchmark and evaluate the vulnerability of ML models against adversarial inputs.</p>
+
+<p>I think that Safety of ML models is a very exciting and crucial area in the coming years. It is quintessential to resolve these issues for the realization of products like Autonomous Driving Vehicles and Personal Robots. As AI systems make deeper inroads into our lives, ensuring the safety and reliability of these systems is of paramount importance. Please do put in your comments/suggestions regarding this article below.</p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/abhishek.jpg" alt="Abhishek Thigale">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/ck.jpg" alt="Chenna Keshava B S">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/abhishekthigale">Abhishek Thigale</a>
+            <a itemprop="name" href="https://github.com/chennakeshava1998">Chenna Keshava B S</a>
         </h3>
-        <p class="desc">Mech Engineer for Life!</p>
-        <a itemprop="email" class="email" href="mailto:abhithigale3@gmail.com">abhithigale3@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:ckeshavabs@gmail.com">ckeshavabs@gmail.com</a>
     </div>
 </section>
 
@@ -197,7 +213,7 @@ Research is going on to discover how technology can be used in sports. Various e
 
 	var disqus_config = function () {
 	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-	this.page.identifier = /Technology-in-Sports/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	this.page.identifier = /Safety-Issues-in-AI-Systems/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 
 	(function() { // DON'T EDIT BELOW THIS LINE
@@ -222,23 +238,17 @@ Research is going on to discover how technology can be used in sports. Various e
   }(document, 'script', 'facebook-jssdk'));</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/Technology-in-Sports/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/Technology-in-Sports/%20via%20&#64;IEEE_NITK&hashtags=Sports,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/%20via%20&#64;IEEE_NITK&hashtags=ML,AI,Security AI,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//Technology-in-Sports/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//Safety-Issues-in-AI-Systems/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//Technology-in-Sports/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//Safety-Issues-in-AI-Systems/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
