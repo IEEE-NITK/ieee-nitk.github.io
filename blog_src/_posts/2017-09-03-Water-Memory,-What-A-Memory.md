@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Water Memory, What A Memory"
-author_github:
+author_github: ayush9753
 date: 2017-09-03 02:30:00'
 image: '/assets/img/'
 description: 'Know about this very new form of memory-the water memory concept and its significance.'
@@ -10,12 +10,12 @@ tags:
 categories:
 - CAS
 - IEEE NITK
-github_username: ''
+github_username: 'ayush9753'
 ---
 
 # WATER MEMORY, WHAT A MEMORY!
 
-#
+
 
 What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!
 
