@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Sep 2017 18:51:15 +0530</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 18:51:15 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Sun, 03 Sep 2017 20:44:33 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 20:44:33 +0530</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>BitTorrent Explained</title>
+        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;app&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;foo&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Sup yo&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h1 id=&quot;bittorrent-explained&quot;&gt;BitTorrent Explained&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading...</description>
+        <pubDate>Sat, 02 Sep 2017 16:22:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/BitTorrentExplained/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/BitTorrentExplained/</guid>
+        
+        <category>Networking</category>
+        
+        <category>Torrents</category>
+        
+        <category>P2P</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Technology in Sports</title>
@@ -86,7 +104,7 @@
         
         <category>cryptography</category>
         
-        <category>Lehmer's RNG</category>
+        <category>Lehmer&#39;s RNG</category>
         
         
         <category>Diode</category>
@@ -143,7 +161,7 @@
     
       <item>
         <title>3D Printing</title>
-        <description>&lt;h1 id=&quot;3-d-printing-a-world-beyond-2d&quot;&gt;3-D Printing-A world beyond 2D&lt;/h1&gt; &lt;h3 id=&quot;-the-emerging-world-of-3d-printing-&quot;&gt;&lt;center&gt; The emerging world of 3D printing &lt;/center&gt;&lt;/h3&gt; &lt;p&gt;3D Printing is something all of us have come across in today’s world. It may seem like a new technology but history points out that it is no recent development.[ In fact, 3D printing has its roots in the 1980s. In 1984, Chuck Hull, invented a process called “stereolithography” which used UV lasers to solidify photopolymer that created 3D parts layer by layer. A technology which initially began with the aim of prototyping has today secured its place in the manufacturing industry. Today its use is far more...</description>
+        <description>&lt;h1 id=&quot;d-printing-a-world-beyond-2d&quot;&gt;3-D Printing-A world beyond 2D&lt;/h1&gt; &lt;h3 id=&quot;center-the-emerging-world-of-3d-printing-center&quot;&gt;&lt;center&gt; The emerging world of 3D printing &lt;/center&gt;&lt;/h3&gt; &lt;p&gt;3D Printing is something all of us have come across in today’s world. It may seem like a new technology but history points out that it is no recent development.[ In fact, 3D printing has its roots in the 1980s. In 1984, Chuck Hull, invented a process called “stereolithography” which used UV lasers to solidify photopolymer that created 3D parts layer by layer. A technology which initially began with the aim of prototyping has today secured its place in the manufacturing industry. Today its use is far more...</description>
         <pubDate>Fri, 28 Jul 2017 21:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/3D-Printing/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/3D-Printing/</guid>
@@ -156,24 +174,6 @@
         
         
         <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>An Introduction to Reinforcement Learning</title>
-        <description>&lt;h1 id=&quot;an-introduction-to-reinforcement-learning&quot;&gt;An Introduction to Reinforcement Learning&lt;/h1&gt; &lt;p&gt;Imagine you are trying to train a dog to do fetch a ball. What you’d normally do is that you would reward it a snack every time it fetched the ball. The dog would then associate the snack with the act of fetching and would do it every time in the hope of a treat. Ladies and gentlemen, this is Reinforcement Learning. Cue the curtains. We’re done here. ;)&lt;/p&gt; &lt;h3 id=&quot;wait-what-you-didnt-tell-me-what-reinforcement-learning-actually-is&quot;&gt;Wait what? You didn’t tell me what Reinforcement Learning actually is.&lt;/h3&gt; &lt;p&gt;All jokes aside, Reinforcement Learning is the area of machine learning which resembles...</description>
-        <pubDate>Fri, 28 Jul 2017 19:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Reinforcement-Learning/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Reinforcement-Learning/</guid>
-        
-        <category>Machine Learning</category>
-        
-        <category>AI</category>
-        
-        <category>Bots</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
