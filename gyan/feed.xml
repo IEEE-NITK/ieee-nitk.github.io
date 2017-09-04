@@ -5,9 +5,39 @@
     <description>Gyan passed down from one batch to another</description>
     <link>http://ieeenitk.org/gyan/</link>
     <atom:link href="http://ieeenitk.org/gyan/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Aug 2017 17:32:58 +0530</pubDate>
-    <lastBuildDate>Sat, 26 Aug 2017 17:32:58 +0530</lastBuildDate>
+    <pubDate>Sun, 03 Sep 2017 18:51:32 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 18:51:32 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Advice on Computer Science - Vinay Bhat</title>
+        <description>&lt;p&gt;&lt;img src=&quot;'/assets/img/authors/vinay_bhat.jpg'&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;Hi, my name is Vinay Bhat and I’m a final year undergraduate student in the IT department. This summer I had interned at Siemens Research Labs, Bangalore. I had applied there because it involved the field of Artificial Intelligence, which I’m greatly interested in.&lt;/p&gt; &lt;p&gt;As I am a part of IEEE club in campus, a senior from my club forwarded this opportunity to us. I applied and sent my resume, after which there were about two telephonic interviews and I was selected for the internship.&lt;/p&gt; &lt;h3 id=&quot;work-culture&quot;&gt;Work Culture&lt;/h3&gt; &lt;p&gt;Work culture here at Siemens was really...</description>
+        <pubDate>Sun, 27 Aug 2017 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/gyan/vinay-siemens/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/gyan/vinay-siemens/</guid>
+        
+        <category>Internships</category>
+        
+        <category>Career Advice</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Mathworks Internship Experience</title>
+        <description>&lt;blockquote&gt; Taking the path less trodden (Formal methods and my Internship at MathWorks Inc) &lt;br /&gt; -Natasha Y Jeppu &lt;/blockquote&gt; &lt;p&gt;I am a final year BTech Computer Science student. I did my second year summer internship at MathWorks Inc. Bangalore. I worked on formal methods for system verification during my internship there and helped develop a library for MathWorks Simulink Design Verifier (SLDV).&lt;/p&gt; &lt;p&gt;I’m pretty sure all of you are quite confused by now of the words I used up here. I myself was introduced to these terms at the end of my first year, when I helped my Dad...</description>
+        <pubDate>Sat, 19 Aug 2017 13:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/gyan/natasha-mathworks/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/gyan/natasha-mathworks/</guid>
+        
+        <category>Internships</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Insight 2k17 - CompSoc</title>

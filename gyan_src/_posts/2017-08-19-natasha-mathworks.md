@@ -12,11 +12,19 @@ categories:
 github_username: 'natasha-jeppu'
 comments: true
 ---
+<<<<<<< HEAD
 
 <pre>
 Taking the path less trodden (Formal methods and my Internship at MathWorks Inc)
 -Natasha Y Jeppu
 </pre>
+=======
+<blockquote>
+Taking the path less trodden (Formal methods and my Internship at MathWorks Inc) <br>
+-Natasha Y Jeppu
+</blockquote>
+
+>>>>>>> 0d1561dfaf4f21c820201d6699b77b80455a6686
 
 I am a final year BTech Computer Science student. I did my second year summer internship at MathWorks Inc. Bangalore. I worked on formal methods for system verification during my internship there and helped develop a library for MathWorks Simulink Design Verifier (SLDV).
 
