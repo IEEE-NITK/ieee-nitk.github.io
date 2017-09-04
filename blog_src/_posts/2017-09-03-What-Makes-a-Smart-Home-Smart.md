@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What makes a Smart Home Smart"
-author_github:
+author_github: anirudhbh
 date: 2017-09-03 02:30:00'
 image: '/assets/img/'
 description: 'Explore this new world of smart homes'
@@ -12,7 +12,7 @@ tags:
 categories:
 - CAS
 - IEEE NITK
-github_username: ''
+github_username: 'anirudh0707'
 ---
 
 # What makes a Smart Home Smart?

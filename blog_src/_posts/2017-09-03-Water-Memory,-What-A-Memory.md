@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Water Memory"
-author_github: mahirjain25
-date: 2017-09-02 10:52:30
+title: "Water Memory, What A Memory"
+author_github: ayush9753
+date: 2017-09-03 02:30:00'
 image: '/assets/img/'
 description: 'An article describing the results of an interesting experiment where water is used to store '
 tags:
@@ -10,7 +10,8 @@ tags:
 - Data Storage
 categories:
 - CAS
-github_username: 'mahirjain25'
+- IEEE NITK
+github_username: 'ayush9753'
 ---
 # WATER MEMORY, WHAT A MEMORY!
 
