@@ -70,7 +70,7 @@ date: 2017-05-14 23:32:44
 image: '/assets/img/'
 description: 'Introductory post to IEEE NITK'
 tags:
-- IEEE NITK 
+- IEEE NITK
 - CompSoc
 categories:
 - IEEE
@@ -135,7 +135,7 @@ Configuration file: none
             Source: /home/salman/All-Projects/ieee-nitk.github.io
        Destination: /home/salman/All-Projects/ieee-nitk.github.io/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
      Build Warning: Layout 'post' requested in blog_src/_posts/2017-05-14-introduction-to-ieee.md does not exist.
      Build Warning: Layout 'post' requested in blog_src/_posts/2017-05-18-vinay-bhat-interview.md does not exist.
      Build Warning: Layout 'default' requested in /blog_src/index.html does not exist.
@@ -151,6 +151,9 @@ Configuration file: none
 - Visit your the address next to "Server address" on your browser to see the local version of your blog running, in my case http://127.0.0.1:4000
 
 ## Step 4: Publishing your article
+
+Create a new branch in your local repo by the command `git checkout -b <branch_name>`
+
 
 Commit and push your changes to your forked repo. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
 
@@ -173,6 +176,6 @@ New post: Why you should use Angular?`
 Description:
 This article explains why every web developer should know Angular in 2015.
 ```
-- Please ask someone to review the article, once you have submitted a Pull Request! 
+- Please ask someone to review the article, once you have submitted a Pull Request!
 
 - As soon as your article is merged, it'll also be live on our blog (usually takes around 2 minutes to publish).

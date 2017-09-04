@@ -9,14 +9,6 @@
     } ,
   
     {
-      "title"    : "What makes a Smart Home Smart?",
-      "category" : "CAS",
-      "tags"     : "IoT",
-      "url"      : "http://ieeenitk.org/blog//What-Makes-a-Smart-Home-Smart/",
-      "date"     : "03 Sep 2017"
-    } ,
-  
-    {
       "title"    : "Rock Paper Scissors",
       "category" : "CAS",
       "tags"     : "Game Theory and Strategy",
@@ -37,6 +29,14 @@
       "category" : "Piston",
       "tags"     : "Space, NASA, and Case Study",
       "url"      : "http://ieeenitk.org/blog//Challenger-disaster/",
+      "date"     : "03 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "What makes a Smart Home Smart",
+      "category" : "CASIEEE NITK",
+      "tags"     : "Smart homes and Internet of things",
+      "url"      : "http://ieeenitk.org/blog//What-Makes-a-Smart-Home-Smart/",
       "date"     : "03 Sep 2017"
     } ,
   
