@@ -73,7 +73,7 @@ tags:
 - IEEE NITK
 - CompSoc
 categories:
-- IEEE
+- Compsoc/Diode/Piston
 github_username: 'Salman Shah'
 ---
 You should use Angular because it's trendy. Here's how to create a directive:
@@ -155,7 +155,7 @@ Configuration file: none
 Create a new branch in your local repo by the command `git checkout -b <branch_name>`
 
 
-Commit and push your changes to your forked repo. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
+Commit and push your changes to your repository. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
 
 Not sure how to do this? Do some googling first, and if no luck just ask somebody on our Slack channel under the #github channel and we'll be happy to help you out.
 
