@@ -16,7 +16,6 @@ github_username: 'ayush9753'
 # WATER MEMORY, WHAT A MEMORY!
 
 
-
 What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!
 
 Scientists from Germany now believe that water has a memory, meaning that what once was seen as a simple commodity has been closely examined to reveal a scientific revelation, uncovering a mind-blowing truth.
