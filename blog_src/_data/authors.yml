@@ -192,6 +192,11 @@ santosh-kodali:
   author_image: 'santosh.jpg'
   user_description: 'The World is rapidly changing, let us try and keep up.'
   email: santoshkvk@gmail.com
+chennakeshava1998:
+  name: Chenna Keshava B S
+  github: chennakeshava1998
+  author_image: 'ck.jpg'
+  email: ckeshavabs@gmail.com
 somnathsarkar:
   name: Somanth Sarkar
   github: somnathsarkar
@@ -210,11 +215,12 @@ mahirjain25:
   author_image: 'mahir.jpg'
   user_description: 'Hard work beats talent when talent fails to work hard.'
   email: mahirjain25@gmail.com
-chennakeshava1998:
-  name: Chenna Keshava B S
-  github: chennakeshava1998
-  author_image: 'ck.jpg'
-  email: ckeshavabs@gmail.com
+adwait1-G:
+  name: Adwaith Gautham
+  github: adwait1-G
+  author_image: ""
+  user_description: "boom! boom!"
+  email: adwait.gautham@gmail.com
 anirudh0707:
   name: Anirudh B H
   github: ''
