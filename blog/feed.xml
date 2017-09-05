@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Sep 2017 19:20:34 +0530</pubDate>
-    <lastBuildDate>Tue, 05 Sep 2017 19:20:34 +0530</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2017 20:17:28 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2017 20:17:28 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -104,9 +104,7 @@
         <link>http://ieeenitk.org/blog/Water-Memory,-What-A-Memory/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Water-Memory,-What-A-Memory/</guid>
         
-        <category>Innovation</category>
-        
-        <category>Data Storage</category>
+        <category>Water memory</category>
         
         
         <category>CAS</category>

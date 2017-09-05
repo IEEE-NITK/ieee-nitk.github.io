@@ -4,10 +4,9 @@ title: "Water Memory, What A Memory"
 author_github: ayush9753
 date: 2017-09-03 02:30:00'
 image: '/assets/img/'
-description: 'An article describing the results of an interesting experiment where water is used to store '
+description: 'Know about this very new form of memory-the water memory concept and its significance.'
 tags:
-- Innovation
-- Data Storage
+- Water memory
 categories:
 - CAS
 - IEEE NITK
