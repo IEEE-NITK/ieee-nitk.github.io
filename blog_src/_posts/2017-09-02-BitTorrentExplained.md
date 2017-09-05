@@ -15,16 +15,6 @@ categories:
 github_username: 'mahirjain25'
 ---
 
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
 
 >"Just torrent it!"
 > 
