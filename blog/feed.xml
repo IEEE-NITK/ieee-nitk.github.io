@@ -5,13 +5,65 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Sep 2017 20:44:33 +0530</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 20:44:33 +0530</lastBuildDate>
+    <pubDate>Tue, 05 Sep 2017 14:54:29 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Sep 2017 14:54:29 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
+        <title>Storing energy in molten salt</title>
+        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;app&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;foo&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Sup yo&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the answer to sustainable development. It is the hot topic of our generation and even though it is in its rudimentary stage, it is the best solution in maintaining the balance between environment and our energy needs. We all know that a lot of research is going on in this field, whether it...</description>
+        <pubDate>Sun, 03 Sep 2017 16:25:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/storing-energy-in-salt!/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/storing-energy-in-salt!/</guid>
+        
+        <category>Energy</category>
+        
+        <category>Research</category>
+        
+        <category>Innovation</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>The Challenger Disaster</title>
+        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;app&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;foo&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Sup yo&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;&lt;strong&gt;&lt;em&gt;The Challenger Disaster&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;On January 28&lt;sup&gt;th&lt;/sup&gt; 1986, the scheduled launch for NASA’s space orbiter- the Challenger, took place as planned. But the launch was the only part of the mission that stuck to plan. 73 seconds after liftoff, the shuttle exploded and broke up, bringing a devastating end to the spacecraft’s 10&lt;sup&gt;th&lt;/sup&gt; mission, claiming all 7 lives onboard....</description>
+        <pubDate>Sun, 03 Sep 2017 16:22:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Challenger-disaster/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Challenger-disaster/</guid>
+        
+        <category>Space</category>
+        
+        <category>NASA</category>
+        
+        <category>Case Study</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Airbus E-Fan</title>
+        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;app&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;foo&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Sup yo&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h1 id=&quot;the-airbus-e-fan-project&quot;&gt;The Airbus E-Fan Project&lt;/h1&gt; &lt;p&gt;For over a hundred years - and certainly many to follow, the aircraft industry, for the most part, has relied upon combustion based engines, ranging from the long-forgotten piston-prop through the state of the art Turbofan. Yet, no matter what the degree of advancement is in the field of such engines, what’s guaranteed...</description>
+        <pubDate>Sat, 02 Sep 2017 16:22:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Airbus-E-Fan/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Airbus-E-Fan/</guid>
+        
+        <category>Aviation</category>
+        
+        <category>Environment</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
         <title>BitTorrent Explained</title>
-        <description>&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;app&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;foo&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Sup yo&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;h1 id=&quot;bittorrent-explained&quot;&gt;BitTorrent Explained&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading files as well)&lt;/p&gt; &lt;h2 id=&quot;a-simple-introduction&quot;&gt;A simple introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;https://github.com/IEEE-NITK/ieee-nitk.github.io/blob/master/blog_src/assets/img/BitTorrent-Explained/pic1.png&quot; alt=&quot;BitTorrent Logo&quot; /&gt;&lt;/p&gt; &lt;p&gt;BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing&quot;&gt;peer-to-peer file sharing&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Now,...</description>
         <pubDate>Sat, 02 Sep 2017 16:22:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/BitTorrentExplained/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/BitTorrentExplained/</guid>
@@ -124,56 +176,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Of a tooth and a pie</title>
-        <description>&lt;p&gt;At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. Give you a little insight into how it works, the various layers of Bluetooth, it’s profiles and so on. But I guess Wikipedia would do a much better job at it. So, I decided to share something I learned during my internship- how we can &lt;strong&gt;make use of the inbuilt Bluetooth controller in Raspberry Pi 3 to implement some of the profiles of Bluetooth.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;First, you need to know that &lt;strong&gt;Raspberry Pi&lt;/strong&gt; is nothing but a Linux machine and can be governed by some commands that you...</description>
-        <pubDate>Fri, 04 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/raspberry-pi-bluetooth/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/raspberry-pi-bluetooth/</guid>
-        
-        <category>Bluetooth</category>
-        
-        <category>Raspberry Pi 3</category>
-        
-        <category>Internship</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Ever wondered why exactly are high lift devices needed? Let me tell you...</title>
-        <description>&lt;h1 id=&quot;ever-wondered-why-exactly-are-high-lift-devices-needed-let-me-tell-you&quot;&gt;Ever wondered why exactly are high lift devices needed? Let me tell you…&lt;/h1&gt; &lt;p&gt;Lift generated by wings of an aircraft is estimated by the following relationship,&lt;/p&gt; &lt;p&gt;\begin{equation} L = \frac{1}{2}\rho v^2 A C_L \end{equation}&lt;/p&gt; &lt;p&gt;Where:&lt;/p&gt; &lt;p&gt;$L$ = lift force generated&lt;/p&gt; &lt;p&gt;$\rho$ = air density&lt;/p&gt; &lt;p&gt;$v$ = true air speed&lt;/p&gt; &lt;p&gt;$A$ = lifting area of the wing&lt;/p&gt; &lt;p&gt;$C_L$ = coefficient of lift&lt;/p&gt; &lt;p&gt;Clearly, same amount of lift can be generated by various permutations and combinations of $\rho$, $v$, $A$ and $C_L$.&lt;/p&gt; &lt;p&gt;Now, let us think about situations when $v$ is quite less, take-off or landing for instance, that the lift...</description>
-        <pubDate>Fri, 28 Jul 2017 23:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/HIgh-Lift-devices/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/HIgh-Lift-devices/</guid>
-        
-        <category>High Lift devices</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>3D Printing</title>
-        <description>&lt;h1 id=&quot;d-printing-a-world-beyond-2d&quot;&gt;3-D Printing-A world beyond 2D&lt;/h1&gt; &lt;h3 id=&quot;center-the-emerging-world-of-3d-printing-center&quot;&gt;&lt;center&gt; The emerging world of 3D printing &lt;/center&gt;&lt;/h3&gt; &lt;p&gt;3D Printing is something all of us have come across in today’s world. It may seem like a new technology but history points out that it is no recent development.[ In fact, 3D printing has its roots in the 1980s. In 1984, Chuck Hull, invented a process called “stereolithography” which used UV lasers to solidify photopolymer that created 3D parts layer by layer. A technology which initially began with the aim of prototyping has today secured its place in the manufacturing industry. Today its use is far more...</description>
-        <pubDate>Fri, 28 Jul 2017 21:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/3D-Printing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/3D-Printing/</guid>
-        
-        <category>3D Printing</category>
-        
-        <category>Additive Manufacturing</category>
-        
-        <category>SIS</category>
-        
-        
-        <category>IEEE</category>
         
       </item>
     
