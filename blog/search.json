@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Safety Issues in AI Systems",
+      "category" : "Compsoc",
+      "tags"     : "ML, AI, and Security AI",
+      "url"      : "http://ieeenitk.org/blog//Safety-Issues-in-AI-Systems/",
+      "date"     : "04 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Rock Paper Scissors",
+      "category" : "CAS",
+      "tags"     : "Game Theory and Strategy",
+      "url"      : "http://ieeenitk.org/blog//Rock-Paper-Scissors/",
+      "date"     : "03 Sep 2017"
+    } ,
+  
+    {
       "title"    : "Storing energy in molten salt",
       "category" : "Piston",
       "tags"     : "Energy, Research, and Innovation",
@@ -13,6 +29,22 @@
       "category" : "Piston",
       "tags"     : "Space, NASA, and Case Study",
       "url"      : "http://ieeenitk.org/blog//Challenger-disaster/",
+      "date"     : "03 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "What makes a Smart Home Smart",
+      "category" : "CASIEEE NITK",
+      "tags"     : "Smart homes and Internet of things",
+      "url"      : "http://ieeenitk.org/blog//What-Makes-a-Smart-Home-Smart/",
+      "date"     : "03 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Water Memory, What A Memory",
+      "category" : "CASIEEE NITK",
+      "tags"     : "Water memory",
+      "url"      : "http://ieeenitk.org/blog//Water-Memory,-What-A-Memory/",
       "date"     : "03 Sep 2017"
     } ,
   

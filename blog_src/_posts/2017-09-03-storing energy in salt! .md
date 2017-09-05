@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Storing energy in molten salt"
-author_github: mahirjain25
+author_github: adilamrajiv
 date: 2017-09-03 10:55:30
 image: '/assets/img/'
 description: 'An article describing an interesting energy storage alternative'
@@ -11,22 +11,11 @@ tags:
 - Innovation
 categories:
 - Piston
-github_username: 'mahirjain25'
+github_username: 'adilamrajiv'
 ---
 
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
 
-
-##Introduction
+## Introduction
 
 
 Renewable energy is the answer to sustainable development. It is the hot
@@ -47,7 +36,7 @@ environment friendly and cost effective as well. One of these methods is
 storing energy in molten salt.
 
 
-##What is the molten salt technology?
+## What is the molten salt technology?
 
 
 Basically, it stores energy in molten salts. Salt at the room
@@ -79,4 +68,3 @@ over the world. The University of South Australia recently won the ANSTO
 Eureka Prize for Innovative Use of Technology for their ground-breaking
 work in this field.
 
--Adila M Rajiv

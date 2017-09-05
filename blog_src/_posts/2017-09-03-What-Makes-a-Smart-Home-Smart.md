@@ -1,28 +1,19 @@
 ---
 layout: post
-title: "What makes a Smart Home Smart?"
-author_github: mahirjain25
-date: 2017-09-03 15:24:30
+title: "What makes a Smart Home Smart"
+author_github: anirudhbh
+date: 2017-09-03 02:30:00'
 image: '/assets/img/'
-description: 'A brief introduction to the Internet of Things'
+description: 'Explore this new world of smart homes'
 tags:
-- IoT
+- Smart homes
+- Internet of things
+
 categories:
 - CAS
-github_username: 'mahirjain25'
+- IEEE NITK
+github_username: 'anirudh0707'
 ---
-
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
-
 
 # What makes a Smart Home Smart?
 

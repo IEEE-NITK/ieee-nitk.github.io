@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rock Paper Scissors"
-author_github: mahirjain25
+author_github: sssachin300
 date: 2017-09-03 15:11:30
 image: '/assets/img/'
 description: 'A deeper look into a popular childhood game'
@@ -10,24 +10,8 @@ tags:
 - Strategy
 categories:
 - CAS
-github_username: 'mahirjain25'
+github_username: 'sssachin300'
 ---
-
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
-
-
-
-
-# Rock, Paper, Scissors
 
 # A Nasty Game
 
@@ -38,6 +22,9 @@ Now the situation changes entirely when you introduce a third party in the game 
 …. One strategy would be to play rock all the time and tell this to them. If the other two play rock, then it is a draw. If one of them plays scissors, then they lose to the rock. If they play paper, then there's always a chance that the other plays scissors and wins but in turn the other player would lose to the rock. This makes it obvious that there is no way for one to beat both you and the other person at the same time.
 
 This is what **game theory** is all about. Popularized by Nobel laureate **John Nash** (notice the name of the article 😉) game theory deals with forming strategies to get the best possible moves you can make without ignoring the self-interests that human beings have. Despite its name it not only deals with games but with any form of strategic decision making including politics, defence, economics, trade, traffic control etc.
+
+
+## A look at a real world problem 
 
 As a real world example I present to you the following problem on traffic lanes.
 
@@ -53,7 +40,7 @@ Mathematicians have shown that if everyone adopted this strategy we would achiev
 
 The problem here is, of course, that it requires everyone on the road to have read game theory 😊.
 
-References:
+### References
 
 1. Read Rock, Paper, Scissors: Game Theory in Everyday Life by Len Fisher.
 

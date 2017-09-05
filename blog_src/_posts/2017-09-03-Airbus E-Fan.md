@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Airbus E-Fan"
-author_github: mahirjain25
+author_github: sachitkrishnan
 date: 2017-09-02 10:52:30
 image: '/assets/img/'
 description: 'A post explaining an environmental approach taken by Airbus'
@@ -10,23 +10,13 @@ tags:
 - Environment
 categories:
 - Piston
-github_username: 'mahirjain25'
+github_username: 'sachitkrishnan'
 ---
 
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
 
 
 
-#The Airbus E-Fan Project
+# The Airbus E-Fan Project
 
 For over a hundred years - and certainly many to follow, the aircraft
 industry, for the most part, has relied upon combustion based engines,
@@ -85,4 +75,3 @@ electrical power to re-charge the energy storage system. Finally, for
 landing the gas power unit is restarted, offering low levels of power
 for propulsion as a safety measure during this phase of flight.
 
-Sachit Krishnan Electrical and Electronics Engineering BTech II Year
