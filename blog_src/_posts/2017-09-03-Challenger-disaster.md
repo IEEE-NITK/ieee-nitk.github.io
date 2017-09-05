@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Challenger Disaster"
-author_github: mahirjain25
+author_github: nikhilgovindarajan
 date: 2017-09-03 10:52:30
 image: '/assets/img/'
 description: 'Examining a space exploration disaster'
@@ -11,25 +11,11 @@ tags:
 - Case Study
 categories:
 - Piston
-github_username: 'mahirjain25'
+github_username: 'nikhilgovindarajan'
 ---
 
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
 
-
-
-
-
-***The Challenger Disaster***
+# INTRODUCTION
 
 On January 28<sup>th</sup> 1986, the scheduled launch for NASA’s space
 orbiter- the Challenger, took place as planned. But the launch was the
@@ -50,6 +36,8 @@ temperature( T<sub>g</sub>). Each and every polymer material has a glass
 transition temperature that varies with its structure, substituent
 groups, molecular mass etc.
 
+# AN ANALOGY TO MAKE THINGS CLEAR
+
 A good way to understand why this transition occurs is to use an anology
 of snakes. Polymers exist as highly coiled chains. Consider a room full
 of snakes. Let each snake represent a polymer chain. We know that snakes
@@ -60,6 +48,9 @@ and tend to stay still. They’re still wrapped around, over and under
 each other, but there is no motion. Polymer chains work similarly. This
 lack of movement in the polymer chains causes it to become a brittle
 mass.
+
+
+# SCIENTIFIC BACKGROUND TO THE PROBLEM
 
 The O-Ring in the Challenger shuttle was made of nitrile rubber- a
 synthetic variant of natural rubber. The glass transition temperature of
@@ -78,7 +69,10 @@ warnings were unheeded. This was also the first time NASA launched
 shuttles at such low temperatures. The coldest temperature of a previous
 launch was 11<sup>o</sup>C higher.
 
-Almost a billion US dollars and, more importantly, seven lives were lost
+
+# IMPACT OF THE DISASTER
+
+> Almost a billion US dollars and, more importantly, seven lives were lost
 because world renowned scientists and engineers forgot to keep in mind
 basic concepts of simple materials. Law suits were filed against both
 NASA and the company responsible for designing the rocket boosters and
@@ -87,7 +81,3 @@ the tanks- Morton Thiokol.
 To this day, this incident is a case study in many discussions of
 engineering safety and workplace ethics. This incident only goes on to
 prove the importance of materials used when designing structures.
-
---
-
-Nikhil Govindarajan
