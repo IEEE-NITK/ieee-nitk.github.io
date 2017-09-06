@@ -2,7 +2,7 @@
 layout: post
 title: "BitTorrent Explained"
 author_github: mahirjain25
-date: 2017-09-02 10:52:30
+date: 2017-09-24 10:52:30
 image: '/assets/img/'
 description: 'A post explaining the basic concepts of BitTorrent'
 tags:

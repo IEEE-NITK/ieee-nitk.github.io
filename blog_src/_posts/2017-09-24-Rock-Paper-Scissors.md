@@ -2,7 +2,7 @@
 layout: post
 title: "Rock Paper Scissors"
 author_github: mahirjain25
-date: 2017-09-03 15:11:30
+date: 2017-09-24 15:11:30
 image: '/assets/img/'
 description: 'A deeper look into a popular childhood game'
 tags:
@@ -13,23 +13,7 @@ categories:
 github_username: 'mahirjain25'
 ---
 
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
-
-
-
-
-# Rock, Paper, Scissors
-
-# A Nasty Game
+## A Nasty Game
 
 If you have ever played the game of rock, paper scissors I bet that the best strategy you had was trying to predict your opponent's move which is a pretty appealing idea. But given that it is nigh impossible to do that (unless, of course, you can read minds), is that really a sound strategy to adopt? If you think about it in a rational way there is no method to predict your opponent and basing your strategy on such an unpredictable thing is kind of dumb. I think the best approach to this problem is to make sure your opponent doesn't beat you more than half the time.  If both players play random moves, then both have an equal probability of winning. If there's a pattern in your moves, in a large number of matches your opponent can easily figure it out and increase his winning chances considerably. So the obvious thing to do is to randomize your moves. This, you can do, in a number of ways and I leave it to you to find them out: P
 
@@ -57,8 +41,8 @@ References:
 
 1. Read Rock, Paper, Scissors: Game Theory in Everyday Life by Len Fisher.
 
-2. PittsBurgh Post-Gazette [http://www.post-gazette.com/opinion/Op-Ed/2013/02/03/The-Next-Page-Everyday-uses-for-game-theory-such-as-when-to-wash-the-dishes/stories/201302030375](http://www.post-gazette.com/opinion/Op-Ed/2013/02/03/The-Next-Page-Everyday-uses-for-game-theory-such-as-when-to-wash-the-dishes/stories/201302030375)
+2. [PittsBurgh Post-Gazette](http://www.post-gazette.com/opinion/Op-Ed/2013/02/03/The-Next-Page-Everyday-uses-for-game-theory-such-as-when-to-wash-the-dishes/stories/201302030375)
 
-3. [http://ncase.me/trust/](http://ncase.me/trust/)
+3. [Reference 1](http://ncase.me/trust/)
 
-4. [https://www.khanacademy.org/economics-finance-domain/microeconomics/nash-equilibrium-tutorial](https://www.khanacademy.org/economics-finance-domain/microeconomics/nash-equilibrium-tutorial)
+4. [Khan Academy](https://www.khanacademy.org/economics-finance-domain/microeconomics/nash-equilibrium-tutorial)

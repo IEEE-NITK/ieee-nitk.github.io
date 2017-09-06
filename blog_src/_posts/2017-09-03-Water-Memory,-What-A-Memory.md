@@ -12,7 +12,6 @@ categories:
 - IEEE NITK
 github_username: 'ayush9753'
 ---
-# WATER MEMORY, WHAT A MEMORY!
 
 
 What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!
@@ -37,6 +36,6 @@ This has even been compared to the human body, of which each is incredibly uniqu
 
 This video will give you a brief insight into the basic of water - memory theory.
 
-[https://youtu.be/ILSyt\_Hhbjg](https://youtu.be/ILSyt_Hhbjg)
+[Youtube](https://youtu.be/ILSyt_Hhbjg)
 
 Reference: Jess Murray Truth Theory

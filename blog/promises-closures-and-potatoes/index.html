@@ -160,118 +160,92 @@ using it a lot. “Promises and Closures” wouldn’t sound cool so I thought o
 <p>They are not new, and they are pretty popular for a long time.
 <img src="/blog/assets/img/promises-closures-and-potatoes/image1.png" alt="image1" />
 Promises gives you this feature of asynchronous nature in the code. It actually lets a third agent interact with your code: let’s take a small example.
-Assume that we are doing a function <code class="highlighter-rouge">getTextFromFile()</code> which will take unpredictable time.</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>    function getTextFromFile(fileEvent){
-                var input = fileEvent.target;
+Assume that we are doing a function <code class="highlighter-rouge">getTextFromFile()</code> which will take unpredictable time.
+```
+    function getTextFromFile(fileEvent){
+                var input = fileEvent.target;</p>
 
-                var reader = new FileReader();
-                reader.onload = function(){
-                    var text = reader.result;
-                    return text;
-                };
-                reader.onerror = function(){
-                    console.log(Error(reader.error));
-                }
-                reader.readAsText(input.files[0])
-            }
-</code></pre>
-</div>
-<p>This method would not let you really specify the actions to be done on file read externally. It just returns the text, and it could actually take unpredictable time,
-such that the following snippet may not work the right way:</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>    var myText = getTextFromFile(fileEvent);
-    console.log(myText);
-</code></pre>
-</div>
-<p>The same applies for AJAX requests or any other asynchronous event.
-So we have a much better way of dealing this: using a <strong>promise</strong>.
-All promises need not be fulfilled, it could be <strong>resolved</strong> or it could be <strong>rejected</strong>.
-It could take some time to <strong>resolve</strong>/<strong>reject</strong> a promise, and either way it would be <strong>settled</strong> :).
-Let’s rewrite the <code class="highlighter-rouge">getTextFromFile()</code> :</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>    function getTextFromFile(fileEvent){
-        return new Promise(function(resolve,reject){
-            var input = fileEvent.target;
-            var reader = new FileReader();
+<div class="highlighter-rouge"><pre class="highlight"><code>            var reader = new FileReader();
             reader.onload = function(){
-                resolve(reader.result);
+                var text = reader.result;
+                return text;
             };
             reader.onerror = function(){
-                reject(Error(reader.error));
+                console.log(Error(reader.error));
             }
             reader.readAsText(input.files[0])
-        });
-    }
-</code></pre>
-</div>
-<p>now we can use this function to handle file read much better way:</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>    getTextFromFile(fileEvent).then(function(text){
+        } ``` This method would not let you really specify the actions to be done on file read externally. It just returns the text, and it could actually take unpredictable time, such that the following snippet may not work the right way: ```
+var myText = getTextFromFile(fileEvent);
+console.log(myText); ``` The same applies for AJAX requests or any other asynchronous event. So we have a much better way of dealing this: using a **promise**. All promises need not be fulfilled, it could be **resolved** or it could be **rejected**. It could take some time to **resolve**/**reject** a promise, and either way it would be **settled** :). Let's rewrite the `getTextFromFile()` : ```
+function getTextFromFile(fileEvent){
+    return new Promise(function(resolve,reject){
+        var input = fileEvent.target;
+        var reader = new FileReader();
+        reader.onload = function(){
+            resolve(reader.result);
+        };
+        reader.onerror = function(){
+            reject(Error(reader.error));
+        }
+        reader.readAsText(input.files[0])
+    });
+} ``` now we can use this function to handle file read much better way: ```
+getTextFromFile(fileEvent).then(function(text){
+    // yaay! I did it!
+    console.log(text);
+}).catch(function(error){
+    // oops! something went wrong.
+    console.log(error);
+}) ``` So you have the anonymous functions in `.then` and `.catch` to work asychronously, ie they will wait for the promise to resolve/reject. Promises are much more flexible, and they could be chained. ```
+function middleGuy(text){
+    return new Promise(function(resolve){
+        console.log("Hello from the middle guy!");
+        // just to show that this could be done.
+        resolve(text);
+    });
+} ```  and boom! we can do this: ```
+getTextFromFile(fileEvent)
+    .then(middleGuy)
+    .then(function(text){
         // yaay! I did it!
         console.log(text);
     }).catch(function(error){
         // oops! something went wrong.
         console.log(error);
-    })
+    }); ``` [This](https://gist.github.com/viggi-v/cf996ad839a7b9525dc0e1ea89d45346) is a simple demo of promises with the above code.
 </code></pre>
 </div>
-<p>So you have the anonymous functions in <code class="highlighter-rouge">.then</code> and <code class="highlighter-rouge">.catch</code> to work asychronously, ie they will wait for the promise to resolve/reject.
-Promises are much more flexible, and they could be chained.</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>    function middleGuy(text){
-        return new Promise(function(resolve){
-            console.log("Hello from the middle guy!");
-            // just to show that this could be done.
-            resolve(text);
-        });
-    }
-</code></pre>
-</div>
-<p>and boom! we can do this:</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>    getTextFromFile(fileEvent)
-        .then(middleGuy)
-        .then(function(text){
-            // yaay! I did it!
-            console.log(text);
-        }).catch(function(error){
-            // oops! something went wrong.
-            console.log(error);
-        });
-</code></pre>
-</div>
-<p><a href="https://gist.github.com/viggi-v/cf996ad839a7b9525dc0e1ea89d45346">This</a> is a simple demo of promises with the above code.</p>
 
 <p>There are plenty of resources out there for Promises,
-and my favourite ones are:</p>
-<ul>
-  <li><a href="https://scotch.io/tutorials/javascript-promises-for-dummies">Scotch Blog</a></li>
-  <li><a href="https://developers.google.com/web/fundamentals/getting-started/primers/promises">Article by Jake Archibald</a></li>
-</ul>
+and my favourite ones are:
+* <a href="https://scotch.io/tutorials/javascript-promises-for-dummies">Scotch Blog</a>
+* <a href="https://developers.google.com/web/fundamentals/getting-started/primers/promises">Article by Jake Archibald</a></p>
 
 <h2 id="closures">Closures</h2>
 
-<p>Closures were this one tricky thing in the beginning for me, and quoting <em>Rohit Varkey</em>, batch of ‘16,</p>
-<blockquote>
-  <p>It (closures) guarantees you no side effects. Plus this way you have everything you need that is used in the function wrapped along with it. No ugly global changes that could <em>**</em> everything up. This leads to interesting things like lazy evaluation, loop fusion and even easier process migration.</p>
-</blockquote>
+<p>Closures were this one tricky thing in the beginning for me, and quoting <em>Rohit Varkey</em>, batch of ‘16,
+&gt; It (closures) guarantees you no side effects. Plus this way you have everything you need that is used in the function wrapped along with it. No ugly global changes that could <em>**</em> everything up. This leads to interesting things like lazy evaluation, loop fusion and even easier process migration.</p>
 
 <p>This was about closures in a general perspective, but from the view of a js developer like me, this offers a scope that persists just for my function.
-An example would be, (from w3Schools)</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>    var add = (function () {
+An example would be, (from w3Schools)
+```
+    var add = (function () {
         var counter = 0;
         return function () {
             return counter += 1;
             }
-    })();
+    })();</p>
 
-    add(); // prints 1
-    add(); // prints 2
-    add(); // prints 3
-    // counter is not accessible here.
+<div class="highlighter-rouge"><pre class="highlight"><code>add(); // prints 1
+add(); // prints 2
+add(); // prints 3
+// counter is not accessible here. ```
 </code></pre>
 </div>
 
-<p>a good set of resources would be:</p>
-<ul>
-  <li><a href="https://www.w3schools.com/js/js_function_closures.asp">W3 Schools</a></li>
-  <li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36">Medium article by Eric Elliott</a></li>
-</ul>
+<p>a good set of resources would be:
+* <a href="https://www.w3schools.com/js/js_function_closures.asp">W3 Schools</a>
+* <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36">Medium article by Eric Elliott</a></p>
 
             </article>
 

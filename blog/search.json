@@ -9,30 +9,6 @@
     } ,
   
     {
-      "title"    : "Rock Paper Scissors",
-      "category" : "CAS",
-      "tags"     : "Game Theory and Strategy",
-      "url"      : "http://ieeenitk.org/blog//Rock-Paper-Scissors/",
-      "date"     : "03 Sep 2017"
-    } ,
-  
-    {
-      "title"    : "Storing energy in molten salt",
-      "category" : "Piston",
-      "tags"     : "Energy, Research, and Innovation",
-      "url"      : "http://ieeenitk.org/blog//storing-energy-in-salt!/",
-      "date"     : "03 Sep 2017"
-    } ,
-  
-    {
-      "title"    : "The Challenger Disaster",
-      "category" : "Piston",
-      "tags"     : "Space, NASA, and Case Study",
-      "url"      : "http://ieeenitk.org/blog//Challenger-disaster/",
-      "date"     : "03 Sep 2017"
-    } ,
-  
-    {
       "title"    : "What makes a Smart Home Smart",
       "category" : "CASIEEE NITK",
       "tags"     : "Smart homes and Internet of things",
@@ -46,22 +22,6 @@
       "tags"     : "Water memory",
       "url"      : "http://ieeenitk.org/blog//Water-Memory,-What-A-Memory/",
       "date"     : "03 Sep 2017"
-    } ,
-  
-    {
-      "title"    : "Airbus E-Fan",
-      "category" : "Piston",
-      "tags"     : "Aviation and Environment",
-      "url"      : "http://ieeenitk.org/blog//Airbus-E-Fan/",
-      "date"     : "02 Sep 2017"
-    } ,
-  
-    {
-      "title"    : "BitTorrent Explained",
-      "category" : "CompSoc",
-      "tags"     : "Networking, Torrents, and P2P",
-      "url"      : "http://ieeenitk.org/blog//BitTorrentExplained/",
-      "date"     : "02 Sep 2017"
     } ,
   
     {

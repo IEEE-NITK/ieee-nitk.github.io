@@ -2,7 +2,7 @@
 layout: post
 title: "Airbus E-Fan"
 author_github: mahirjain25
-date: 2017-09-02 10:52:30
+date: 2017-09-24 10:52:30
 image: '/assets/img/'
 description: 'A post explaining an environmental approach taken by Airbus'
 tags:
@@ -12,21 +12,6 @@ categories:
 - Piston
 github_username: 'mahirjain25'
 ---
-
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
-
-
-
-#The Airbus E-Fan Project
 
 For over a hundred years - and certainly many to follow, the aircraft
 industry, for the most part, has relied upon combustion based engines,

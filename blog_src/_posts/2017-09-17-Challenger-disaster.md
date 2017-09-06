@@ -2,7 +2,7 @@
 layout: post
 title: "The Challenger Disaster"
 author_github: mahirjain25
-date: 2017-09-03 10:52:30
+date: 2017-09-17 10:52:30
 image: '/assets/img/'
 description: 'Examining a space exploration disaster'
 tags:
@@ -13,23 +13,6 @@ categories:
 - Piston
 github_username: 'mahirjain25'
 ---
-
-{% highlight javascript %}
-angular
-  .module('app')
-  .directive('foo', function() {
-    return {
-      restrict: 'E',
-      template: 'Sup yo'
-    }
-  });
-{% endhighlight %}
-
-
-
-
-
-***The Challenger Disaster***
 
 On January 28<sup>th</sup> 1986, the scheduled launch for NASA’s space
 orbiter- the Challenger, took place as planned. But the launch was the
