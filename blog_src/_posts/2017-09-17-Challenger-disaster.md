@@ -15,7 +15,7 @@ github_username: 'nikhilgovindarajan'
 ---
 
 
-# INTRODUCTION
+## Introduction
 
 On January 28<sup>th</sup> 1986, the scheduled launch for NASA’s space
 orbiter- the Challenger, took place as planned. But the launch was the
@@ -36,7 +36,7 @@ temperature( T<sub>g</sub>). Each and every polymer material has a glass
 transition temperature that varies with its structure, substituent
 groups, molecular mass etc.
 
-# AN ANALOGY TO MAKE THINGS CLEAR
+## An analogy to make things clear
 
 A good way to understand why this transition occurs is to use an anology
 of snakes. Polymers exist as highly coiled chains. Consider a room full
@@ -50,7 +50,7 @@ lack of movement in the polymer chains causes it to become a brittle
 mass.
 
 
-# SCIENTIFIC BACKGROUND TO THE PROBLEM
+## Scientific background to the problem
 
 The O-Ring in the Challenger shuttle was made of nitrile rubber- a
 synthetic variant of natural rubber. The glass transition temperature of
@@ -69,8 +69,7 @@ warnings were unheeded. This was also the first time NASA launched
 shuttles at such low temperatures. The coldest temperature of a previous
 launch was 11<sup>o</sup>C higher.
 
-
-# IMPACT OF THE DISASTER
+## Impact of the disaster
 
 > Almost a billion US dollars and, more importantly, seven lives were lost
 because world renowned scientists and engineers forgot to keep in mind

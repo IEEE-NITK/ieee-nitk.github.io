@@ -13,9 +13,6 @@ categories:
 github_username: 'sachitkrishnan'
 ---
 
-
-
-
 # The Airbus E-Fan Project
 
 For over a hundred years - and certainly many to follow, the aircraft

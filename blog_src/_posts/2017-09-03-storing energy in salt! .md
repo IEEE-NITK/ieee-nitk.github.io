@@ -14,7 +14,6 @@ categories:
 github_username: 'adilamrajiv'
 ---
 
-
 ## Introduction
 
 
@@ -34,7 +33,6 @@ A lot of this storage is now being done on Lithium ion batteries but
 we’re still trying to find new ways to store it which is more efficient,
 environment friendly and cost effective as well. One of these methods is
 storing energy in molten salt.
-
 
 ## What is the molten salt technology?
 
