@@ -14,7 +14,7 @@ github_username: 'swathisbhat'
 comments: true
 ---
 
-![Kishor Bhat](/blog/assets/img/kishor-bhat-interview/kishor.jpg)
+![Kishor Bhat](/gyan/assets/img/kishor-bhat-interview/kishor.jpg)
 
  As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.
 
@@ -80,9 +80,3 @@ That said, I do suggest that everyone try their hands at CTFs; IMO, they're one 
 **Twitter** - [@therealkbhat](https://twitter.com/therealkbhat)  
 **Email** - [kishorbhat@gmail.com](mailto:kishorbhat@gmail.com)  
 **Website** -  [https://kbhat.rocks](https://kbhat.rocks)  
-
-
-{% if page.comments %} • <a href="{{site.url}}{{site.baseurl}}{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
-
-
-

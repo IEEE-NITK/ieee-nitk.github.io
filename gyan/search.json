@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "Advice on Computer Science - Vinay Bhat",
+      "category" : "CompSoc",
+      "tags"     : "Internships and Career Advice",
+      "url"      : "http://ieeenitk.org/gyan//vinay-siemens/",
+      "date"     : "27 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Mathworks Internship Experience",
+      "category" : "CompSoc",
+      "tags"     : "Internships",
+      "url"      : "http://ieeenitk.org/gyan//natasha-mathworks/",
+      "date"     : "19 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Insight 2k17 - CompSoc",
+      "category" : "CompSoc",
+      "tags"     : "Internships and Insight",
+      "url"      : "http://ieeenitk.org/gyan//insight-2k17/",
+      "date"     : "12 Aug 2017"
+    } ,
+  
+    {
       "title"    : "Internships Abroad",
       "category" : "CompSoc",
       "tags"     : "Internships",

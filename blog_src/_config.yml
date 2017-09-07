@@ -50,7 +50,7 @@ plugins_dir:
 
 # Gems
 # plugins: [jekyll-paginate]
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jemoji]
 
 #make 5 articles per page
 paginate: 5

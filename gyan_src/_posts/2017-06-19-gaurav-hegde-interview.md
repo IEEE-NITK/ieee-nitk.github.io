@@ -13,7 +13,7 @@ github_username: 'abhijithkamath'
 comments: true
 ---
 
-![Gaurav Hegde](/blog/assets/img/gaurav_hegde_interview/Gaurav.jpg)
+![Gaurav Hegde](/gyan/assets/img/gaurav_hegde_interview/Gaurav.jpg)
 
 ## Back-Story
 
@@ -54,5 +54,3 @@ Seriously, all these advices and stuff throw it out the window. Everything "good
 <sub> Thanks for your time, Gaurav </sub>
 
 The last one was a trick question in having to advice juniors. He believes in the ideas and not the person telling them. I remember one thing that he advised when talking about grades and courses that I don't like. He said, "Even I don't like a lot of things. I don't do them! You can't force someone to do something he/she doens't like." If I had to take a lesson from Gaurav, it would be the following. Do what you want to do well, don't think about anything other than that. Your current situation might support your interest, it might not; but if you forego your interests, it might have never been one. Dedication is key, rewards and awards will come when they will. But what you learn has a timeline and there is no going back. When you learn something, do it with all the interest you have, do it because you want to and not because someone else wants you to, or for something else. It is giving respect to what you're learning by devoting the time that it deserves.
-
-{% if page.comments %} • <a href="{{site.url}}{{site.baseurl}}{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}

@@ -14,7 +14,7 @@ github_username: 'pranaypraveen'
 comments: true
 ---
 
-![Abin Alex](/blog/assets/img/abin-alex-interview/abin.jpg)
+![Abin Alex](/gyan/assets/img/abin-alex-interview/abin.jpg)
 
 ## Back-Story
 
@@ -49,5 +49,3 @@ I am currently working on non-linear control. I started with unmanned aerial veh
 <sub> That was the end of the interview. </sub>
 
 Abin and us had just the one year of overlap in undergrad, yet managed to share key insights about research that we still use today. The quadcopter his team built won the Student Exemplary Award for the IEEE NITK Student Branch and still funds the club today. If we could only take only one message from Abin, it would be to keep reminding ourselves to take proper rest. Nothing will come in a day, nothing will come when you’re tired. Continual work will only drain yourself and you need to charge yourself that often. Results will come, they will come in plenty! All you need is patience.
-
-{% if page.comments %} • <a href="{{site.url}}{{site.baseurl}}{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}

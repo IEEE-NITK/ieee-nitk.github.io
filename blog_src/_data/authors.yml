@@ -175,31 +175,31 @@ subbalakshmi:
   email: 'subbalakshmi.n18@gmail.com'
   user_description: 'Always eager to learn something new'
 natasha-jeppu:
-  name: Natasha Jeppu 
+  name: Natasha Jeppu
   github: natasha-jeppu
   author_image: 'natasha-jeppu.jpg'
   user_description: 'Avid researcher and DAAD scholar'
   email: natasha.jeppu@gmail.com
 vinayakvenugopal27:
-  name: Vinayak V Gopal 
+  name: Vinayak V Gopal
   github: vinayakvenugopal27
   author_image: 'vinayak.jpg'
   user_description: 'Just another human over here!'
   email: vinayakvenugopal27@gmail.com
 santosh-kodali:
-  name: Santosh Kodali 
+  name: Santosh Kodali
   github: santosh-kodali
   author_image: 'santosh.jpg'
   user_description: 'The World is rapidly changing, let us try and keep up.'
   email: santoshkvk@gmail.com
 somnathsarkar:
-  name: Somanth Sarkar 
+  name: Somanth Sarkar
   github: somnathsarkar
   author_image: 'blog-author.jpg'
   user_description: 'Programmer, interested in CP.'
   email: somnath.k.sarkar@gmail.com
 abhishekthigale:
-  name: Abhishek Thigale 
+  name: Abhishek Thigale
   github: abhishekthigale
   author_image: 'abhishek.jpg'
   user_description: 'Mech Engineer for Life!'
@@ -210,15 +210,20 @@ mahirjain25:
   author_image: 'mahir.jpg'
   user_description: 'Hard work beats talent when talent fails to work hard.'
   email: mahirjain25@gmail.com
-somnathsarkar:
-  name: Somanth Sarkar 
-  github: somnathsarkar
-  author_image: 'blog-author.jpg'
-  user_description: 'Programmer, interested in CP.'
-  email: somnath.k.sarkar@gmail.com
-abhishekthigale:
-  name: Abhishek Thigale 
-  github: abhishekthigale
-  author_image: 'abhishek.jpg'
-  user_description: 'Mech Engineer for Life!'
-  email: abhithigale3@gmail.com
+chennakeshava1998:
+  name: Chenna Keshava B S
+  github: chennakeshava1998
+  author_image: 'ck.jpg'
+  email: ckeshavabs@gmail.com
+anirudh0707:
+  name: Anirudh B H
+  github: ''
+  user_description: 'If you can’t have the best, make the best of what you have!'
+  author_image: 'anirudh.jpg'
+  email: yani.bh@gmail.com
+ayush9753:
+  name: Ayush G S
+  github:
+  author_image: 'ayush.png'
+  user_description: 'Keep experimenting!'
+  email: Ayush.gs1998@gmail.com

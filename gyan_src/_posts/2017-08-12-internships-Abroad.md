@@ -99,3 +99,7 @@ Please read this carefully.
 
 ### Last year deadline: 
 15th November
+
+## Other scholarship programs :
+[SN Bose](http://iusstf.org/story/53-74-For-Indian-Students.html)
+[Charpak (France)](http://www.inde.campusfrance.org/en/node/11234)
