@@ -5,9 +5,67 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Sep 2017 18:51:15 +0530</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 18:51:15 +0530</lastBuildDate>
+<<<<<<< HEAD
+    <pubDate>Mon, 04 Sep 2017 23:45:38 +0530</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2017 23:45:38 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Safety Issues in AI Systems</title>
+        <description>&lt;p&gt;I am pretty sure the title will flood the reader’s mind with images of Skynet and Matrix, but this post focuses on the shortcomings of AI technologies that are currently in vogue. It’s much more productive to contemplate on the loopholes in technologies like Neural Networks, as we are still a far cry from building systems that are at least as intelligent as earthworms.&lt;/p&gt; &lt;p&gt;AI has made several inroads into diverse fields such as NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the society....</description>
+        <pubDate>Mon, 04 Sep 2017 02:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</guid>
+        
+        <category>ML</category>
+        
+        <category>AI</category>
+        
+        <category>Security AI</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>What makes a Smart Home Smart</title>
+        <description>&lt;h1 id=&quot;what-makes-a-smart-home-smart&quot;&gt;What makes a Smart Home Smart?&lt;/h1&gt; &lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?&lt;/p&gt; &lt;p&gt;With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even you’re your coffee maker, every electrical appliance in our homes can be hooked up the home network. This will basically allow us to control our entire house with...</description>
+        <pubDate>Sun, 03 Sep 2017 02:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</guid>
+        
+        <category>Smart homes</category>
+        
+        <category>Internet of things</category>
+        
+        
+        <category>CAS</category>
+        
+        <category>IEEE NITK</category>
+        
+      </item>
+    
+      <item>
+        <title>Water Memory, What A Memory</title>
+        <description>&lt;h1 id=&quot;water-memory-what-a-memory&quot;&gt;WATER MEMORY, WHAT A MEMORY!&lt;/h1&gt; &lt;p&gt;What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!&lt;/p&gt; &lt;p&gt;Scientists from Germany now believe that water has a memory, meaning that what once was seen as a simple commodity has been closely examined to reveal a scientific revelation, uncovering a mind-blowing truth.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;THEORY:&lt;/strong&gt; Individual drops of water from the same sample were examined at incredibly high magnification, probably the first experiment of this kind and surprisingly scientists were able to physically see that each droplet of water has its own &lt;em&gt;individual microscopic pattern,&lt;/em&gt;...</description>
+        <pubDate>Sun, 03 Sep 2017 02:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Water-Memory,-What-A-Memory/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Water-Memory,-What-A-Memory/</guid>
+        
+        <category>Water memory</category>
+        
+        
+        <category>CAS</category>
+        
+        <category>IEEE NITK</category>
+        
+      </item>
+=======
+    <pubDate>Mon, 04 Sep 2017 00:56:17 +0530</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2017 00:56:17 +0530</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
+>>>>>>> 89aae2b0b7615e467e6d4e043112c0020c967291
     
       <item>
         <title>Technology in Sports</title>
@@ -124,56 +182,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Ever wondered why exactly are high lift devices needed? Let me tell you...</title>
-        <description>&lt;h1 id=&quot;ever-wondered-why-exactly-are-high-lift-devices-needed-let-me-tell-you&quot;&gt;Ever wondered why exactly are high lift devices needed? Let me tell you…&lt;/h1&gt; &lt;p&gt;Lift generated by wings of an aircraft is estimated by the following relationship,&lt;/p&gt; &lt;p&gt;\begin{equation} L = \frac{1}{2}\rho v^2 A C_L \end{equation}&lt;/p&gt; &lt;p&gt;Where:&lt;/p&gt; &lt;p&gt;$L$ = lift force generated&lt;/p&gt; &lt;p&gt;$\rho$ = air density&lt;/p&gt; &lt;p&gt;$v$ = true air speed&lt;/p&gt; &lt;p&gt;$A$ = lifting area of the wing&lt;/p&gt; &lt;p&gt;$C_L$ = coefficient of lift&lt;/p&gt; &lt;p&gt;Clearly, same amount of lift can be generated by various permutations and combinations of $\rho$, $v$, $A$ and $C_L$.&lt;/p&gt; &lt;p&gt;Now, let us think about situations when $v$ is quite less, take-off or landing for instance, that the lift...</description>
-        <pubDate>Fri, 28 Jul 2017 23:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/HIgh-Lift-devices/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/HIgh-Lift-devices/</guid>
-        
-        <category>High Lift devices</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>3D Printing</title>
-        <description>&lt;h1 id=&quot;3-d-printing-a-world-beyond-2d&quot;&gt;3-D Printing-A world beyond 2D&lt;/h1&gt; &lt;h3 id=&quot;-the-emerging-world-of-3d-printing-&quot;&gt;&lt;center&gt; The emerging world of 3D printing &lt;/center&gt;&lt;/h3&gt; &lt;p&gt;3D Printing is something all of us have come across in today’s world. It may seem like a new technology but history points out that it is no recent development.[ In fact, 3D printing has its roots in the 1980s. In 1984, Chuck Hull, invented a process called “stereolithography” which used UV lasers to solidify photopolymer that created 3D parts layer by layer. A technology which initially began with the aim of prototyping has today secured its place in the manufacturing industry. Today its use is far more...</description>
-        <pubDate>Fri, 28 Jul 2017 21:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/3D-Printing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/3D-Printing/</guid>
-        
-        <category>3D Printing</category>
-        
-        <category>Additive Manufacturing</category>
-        
-        <category>SIS</category>
-        
-        
-        <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>An Introduction to Reinforcement Learning</title>
-        <description>&lt;h1 id=&quot;an-introduction-to-reinforcement-learning&quot;&gt;An Introduction to Reinforcement Learning&lt;/h1&gt; &lt;p&gt;Imagine you are trying to train a dog to do fetch a ball. What you’d normally do is that you would reward it a snack every time it fetched the ball. The dog would then associate the snack with the act of fetching and would do it every time in the hope of a treat. Ladies and gentlemen, this is Reinforcement Learning. Cue the curtains. We’re done here. ;)&lt;/p&gt; &lt;h3 id=&quot;wait-what-you-didnt-tell-me-what-reinforcement-learning-actually-is&quot;&gt;Wait what? You didn’t tell me what Reinforcement Learning actually is.&lt;/h3&gt; &lt;p&gt;All jokes aside, Reinforcement Learning is the area of machine learning which resembles...</description>
-        <pubDate>Fri, 28 Jul 2017 19:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Reinforcement-Learning/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Reinforcement-Learning/</guid>
-        
-        <category>Machine Learning</category>
-        
-        <category>AI</category>
-        
-        <category>Bots</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
