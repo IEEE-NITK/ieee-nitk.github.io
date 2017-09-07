@@ -2,7 +2,7 @@
 layout: post
 title: "Water Memory, What A Memory"
 author_github: ayush9753
-date: 2017-09-03 02:30:00'
+date: 2017-09-11 10:00:00'
 image: '/assets/img/'
 description: 'Know about this very new form of memory-the water memory concept and its significance.'
 tags:

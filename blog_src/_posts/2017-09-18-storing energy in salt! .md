@@ -2,7 +2,7 @@
 layout: post
 title: "Storing energy in molten salt"
 author_github: adilamrajiv
-date: 2017-09-03 10:55:30
+date: 2017-09-18 10:00:00
 image: '/assets/img/'
 description: 'An article describing an interesting energy storage alternative'
 tags:

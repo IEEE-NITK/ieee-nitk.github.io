@@ -2,7 +2,7 @@
 layout: post
 title: "Airbus E-Fan"
 author_github: sachitkrishnan
-date: 2017-09-02 10:52:30
+date: 2017-09-04 10:00:30
 image: '/assets/img/'
 description: 'A post explaining an environmental approach taken by Airbus'
 tags:
@@ -12,6 +12,9 @@ categories:
 - Piston
 github_username: 'sachitkrishnan'
 ---
+
+
+
 
 # The Airbus E-Fan Project
 

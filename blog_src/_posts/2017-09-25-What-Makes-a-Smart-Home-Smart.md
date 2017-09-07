@@ -2,7 +2,7 @@
 layout: post
 title: "What makes a Smart Home Smart"
 author_github: anirudhbh
-date: 2017-09-03 02:30:00'
+date: 2017-09-25 10:00:00'
 image: '/assets/img/'
 description: 'Explore this new world of smart homes'
 tags:
