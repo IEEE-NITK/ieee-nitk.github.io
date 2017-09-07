@@ -60,6 +60,5 @@ Combined with a smooth interface this system is really user friendly and really 
 
 For further references about Smart home systems and the principles
 
- 1) [Smart Home](http://home.howstuffworks.com/smart-home1.htm)
-
- 2) [Home Automation](https://en.wikipedia.org/wiki/Home\_automation)
+ 1. [Smart Home](http://home.howstuffworks.com/smart-home1.htm)
+ 2. [Home Automation](https://en.wikipedia.org/wiki/Home\_automation)
