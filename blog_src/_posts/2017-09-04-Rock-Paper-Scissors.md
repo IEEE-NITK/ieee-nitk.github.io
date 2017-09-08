@@ -13,8 +13,6 @@ categories:
 github_username: 'sssachin300'
 ---
 
-# A Nasty Game
-
 If you have ever played the game of rock, paper scissors I bet that the best strategy you had was trying to predict your opponent's move which is a pretty appealing idea. But given that it is nigh impossible to do that (unless, of course, you can read minds), is that really a sound strategy to adopt? If you think about it in a rational way there is no method to predict your opponent and basing your strategy on such an unpredictable thing is kind of dumb. I think the best approach to this problem is to make sure your opponent doesn't beat you more than half the time.  If both players play random moves, then both have an equal probability of winning. If there's a pattern in your moves, in a large number of matches your opponent can easily figure it out and increase his winning chances considerably. So the obvious thing to do is to randomize your moves. This, you can do, in a number of ways and I leave it to you to find them out: P
 
 Now the situation changes entirely when you introduce a third party in the game and all three of you play simultaneously. Try to think of a strategy which you can use here.

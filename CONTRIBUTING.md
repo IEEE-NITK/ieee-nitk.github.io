@@ -155,19 +155,7 @@ Configuration file: none
 Create a new branch in your local repo by the command `git checkout -b <branch_name>`
 
 
-<<<<<<< HEAD
 Commit and push your changes to your repository. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-Commit and push your changes to your repository. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
-=======
-Commit and push your changes to your forked repo. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
->>>>>>> Added anirudh's post and modified contributing.md
-=======
-Commit and push your changes to your repository. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
->>>>>>> 5953afd225010c2698237837c76d92d34fb99ab0
->>>>>>> 2148b46dbf38849ec068a8dd7e37c01ee272caad
 
 Not sure how to do this? Do some googling first, and if no luck just ask somebody on our Slack channel under the #github channel and we'll be happy to help you out.
 

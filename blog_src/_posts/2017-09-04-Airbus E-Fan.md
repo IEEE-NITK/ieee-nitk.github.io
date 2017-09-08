@@ -13,11 +13,6 @@ categories:
 github_username: 'sachitkrishnan'
 ---
 
-
-
-
-# The Airbus E-Fan Project
-
 For over a hundred years - and certainly many to follow, the aircraft
 industry, for the most part, has relied upon combustion based engines,
 ranging from the long-forgotten piston-prop through the state of the art

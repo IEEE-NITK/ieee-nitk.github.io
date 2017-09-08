@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Sep 2017 23:38:56 +0530</pubDate>
-    <lastBuildDate>Thu, 07 Sep 2017 23:38:56 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Fri, 08 Sep 2017 09:56:17 +0530</pubDate>
+    <lastBuildDate>Fri, 08 Sep 2017 09:56:17 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>Rock Paper Scissors</title>
-        <description>&lt;h1 id=&quot;a-nasty-game&quot;&gt;A Nasty Game&lt;/h1&gt; &lt;p&gt;If you have ever played the game of rock, paper scissors I bet that the best strategy you had was trying to predict your opponent’s move which is a pretty appealing idea. But given that it is nigh impossible to do that (unless, of course, you can read minds), is that really a sound strategy to adopt? If you think about it in a rational way there is no method to predict your opponent and basing your strategy on such an unpredictable thing is kind of dumb. I think the best approach to this problem is...</description>
+        <description>&lt;p&gt;If you have ever played the game of rock, paper scissors I bet that the best strategy you had was trying to predict your opponent’s move which is a pretty appealing idea. But given that it is nigh impossible to do that (unless, of course, you can read minds), is that really a sound strategy to adopt? If you think about it in a rational way there is no method to predict your opponent and basing your strategy on such an unpredictable thing is kind of dumb. I think the best approach to this problem is to make sure your...</description>
         <pubDate>Mon, 04 Sep 2017 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/Rock-Paper-Scissors/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Rock-Paper-Scissors/</guid>
@@ -27,7 +27,7 @@
     
       <item>
         <title>Airbus E-Fan</title>
-        <description>&lt;h1 id=&quot;the-airbus-e-fan-project&quot;&gt;The Airbus E-Fan Project&lt;/h1&gt; &lt;p&gt;For over a hundred years - and certainly many to follow, the aircraft industry, for the most part, has relied upon combustion based engines, ranging from the long-forgotten piston-prop through the state of the art Turbofan. Yet, no matter what the degree of advancement is in the field of such engines, what’s guaranteed is an ever-increasing tally of CO2 and other greenhouse gases.&lt;/p&gt; &lt;p&gt;The intuitive solution for sustainable development is, as in nearly all domains of power generation, especially in transportation, is electricity. Presently, every mode of transport (save for aviation) employs at least a...</description>
+        <description>&lt;p&gt;For over a hundred years - and certainly many to follow, the aircraft industry, for the most part, has relied upon combustion based engines, ranging from the long-forgotten piston-prop through the state of the art Turbofan. Yet, no matter what the degree of advancement is in the field of such engines, what’s guaranteed is an ever-increasing tally of CO2 and other greenhouse gases.&lt;/p&gt; &lt;p&gt;The intuitive solution for sustainable development is, as in nearly all domains of power generation, especially in transportation, is electricity. Presently, every mode of transport (save for aviation) employs at least a certain level of technological know-how...</description>
         <pubDate>Mon, 04 Sep 2017 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/Airbus-E-Fan/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Airbus-E-Fan/</guid>
