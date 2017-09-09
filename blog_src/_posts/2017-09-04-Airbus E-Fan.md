@@ -13,28 +13,29 @@ categories:
 github_username: 'sachitkrishnan'
 ---
 
+## The Airbus E-Fan Project
+
 For over a hundred years - and certainly many to follow, the aircraft
 industry, for the most part, has relied upon combustion based engines,
 ranging from the long-forgotten piston-prop through the state of the art
 Turbofan. Yet, no matter what the degree of advancement is in the field
-of such engines, what’s guaranteed is an ever-increasing tally of CO2
-and other greenhouse gases.
+of such engines, what’s guaranteed is an ever-increasing toll of CO2 and
+other greenhouse gases.
 
-The intuitive solution for sustainable development is, as in nearly all
+The intuitive solution for sustainable development, as in nearly all
 domains of power generation, especially in transportation, is
 electricity. Presently, every mode of transport (save for aviation)
-employs at least a certain level of technological know-how about the
+employs at least a certain level of technological know-how of the
 utilisation of electrical energy to power any system that would
 otherwise use energy from combustion of fossil fuels.
 
-However, in the tale of the aircraft, no such concrete technology is in
+However, no such concrete technology in the aircraft domain is in
 existence yet, due primarily to the commendable figures of power output
 and efficiencies of the contemporary combustion engines. But then,
 electric engines were never invented with the aim of outperforming the
 existing engines (though with the current trends of R&D, such a thought
 could be realised), but to rather mimic them without using non-renewable
 resources and reducing greenhouse emissions in parallel.
-
 
 The E-Fan Programme of Airbus is one such initiative that aims to
 accelerate developments towards environment-friendly aviation. The E-Fan
