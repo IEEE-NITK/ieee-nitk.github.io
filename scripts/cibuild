@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 jekyll build
-htmlproofer ./_site
+htmlproofer ./_site --disable-external
