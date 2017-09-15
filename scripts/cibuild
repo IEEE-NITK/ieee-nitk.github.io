@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+jekyll build
+htmlproofer ./_site

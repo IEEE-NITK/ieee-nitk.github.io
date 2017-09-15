@@ -77,6 +77,5 @@ That said, I do suggest that everyone try their hands at CTFs; IMO, they're one 
 
 
 #### Contact Details:
-**Twitter** - [@therealkbhat](https://twitter.com/therealkbhat)  
 **Email** - [kishorbhat@gmail.com](mailto:kishorbhat@gmail.com)  
 **Website** -  [https://kbhat.rocks](https://kbhat.rocks)  

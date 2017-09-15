@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Water Memory What A Memory",
+      "category" : "CAS",
+      "tags"     : "Water Memory",
+      "url"      : "http://ieeenitk.org/blog//Water-Memory-What-A-Memory/",
+      "date"     : "11 Sep 2017"
+    } ,
+  
+    {
       "title"    : "Rock Paper Scissors",
       "category" : "CAS",
       "tags"     : "Game Theory and Strategy",
@@ -82,9 +90,9 @@
   
     {
       "title"    : "Ever wondered why exactly are high lift devices needed? Let me tell you...",
-      "category" : "IEEE",
+      "category" : "Piston",
       "tags"     : "High Lift devices",
-      "url"      : "http://ieeenitk.org/blog//HIgh-Lift-devices/",
+      "url"      : "http://ieeenitk.org/blog//High-Lift-devices/",
       "date"     : "28 Jul 2017"
     } ,
   

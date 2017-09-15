@@ -38,7 +38,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
     <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
+<!--     <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
@@ -61,7 +61,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/img/icons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/icons/favicon-16x16.png">
-	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+ -->	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -84,9 +84,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/big-data/">
+    <link rel="canonical" href="/blog/big-data/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-    href="http://ieeenitk.org/blog/blog/feed.xml" />
+    href="http://ieeenitk.org/blog/feed.xml" />
 
     
 </head>
@@ -150,7 +150,8 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="what-is-big-data">What is ‘Big data’?</h1>
+                <h2 id="what-is-big-data">What is ‘Big data’?</h2>
+
 <p>In simple terms, Big data is data which can’t comfortably be processed on a single machine. 
 We live in a world increasingly driven by data. Try googling about big data and you will find some staggering facts like :</p>
 <ul>
@@ -164,21 +165,22 @@ We live in a world increasingly driven by data. Try googling about big data and 
 <ul>
   <li><strong>Volume</strong> refers to the size of data that you’re dealing with.</li>
   <li><strong>Variety</strong> refers to the fact that the data is often coming from lots of different sources and in many different formats.</li>
-  <li><strong>Velocity</strong> refers to the speed at which the data is being generated, and the speed at which it needs to be made available for processing.
-#</li>
+  <li><strong>Velocity</strong> refers to the speed at which the data is being generated, and the speed at which it needs to be made available for processing.</li>
 </ul>
 
-<h4 id="how-useful-is-big-data-">How useful is Big Data ?</h4>
+<h2 id="how-useful-is-big-data-">How useful is Big Data ?</h2>
 
-<p>It is very useful….
-Think about an e-commerce website. How does Amazon recommend similar products to what you have looked at in the past?
-Earlier we could only store records of actual purchases. But nowadays,we can store and process all of our Web server log files, along with the purchase data that’s in our traditional data warehouse, with this data we can give the customer a much better shopping experience which should directly translate into bigger profits.</p>
+<p>It is very useful….</p>
+
+<p>Think about an e-commerce website. How does Amazon recommend similar products to what you have looked at in the past?</p>
+
+<p>Earlier we could only store records of actual purchases. But nowadays,we can store and process all of our Web server log files, along with the purchase data that’s in our traditional data warehouse, with this data we can give the customer a much better shopping experience which should directly translate into bigger profits.</p>
 
 <p>Another example is Facebook, every day we feed Facebook’s data beast with mounds of information in the form of likes, messages and picture uploads. With data like this, Facebook knows who our friends are, what we look like, where we are, what we are doing, our likes, our dislikes, and so much more. With this information it is able to suggest us friends, target us with activities and advertisements, use our past activities to get to know our interests and a lot more.</p>
 
 <p>In fact, Facebook Inc. analytics chief Ken Rudin says, “Big Data is crucial to the company’s very being”.</p>
 
-<h4 id="challenges-with-big-data">Challenges with Big Data…</h4>
+<h2 id="challenges-with-big-data">Challenges with Big Data…</h2>
 
 <ul>
   <li>Storing huge amounts of data.</li>
@@ -186,28 +188,26 @@ Earlier we could only store records of actual purchases. But nowadays,we can sto
   <li>Time taken to process the data.</li>
 </ul>
 
-<p>This is where hadoop comes into the picture.</p>
+<p>This is where Hadoop comes into the picture.</p>
 
-<h1 id="meet-the-elephant---hadoop-">Meet the Elephant - Hadoop !</h1>
-<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8I9CmKx2HWXSiBdGBM1VFacBN5QGnPnG6ULd4QlI5wQrjJ1vd" alt="alt text" /></p>
+<h2 id="meet-the-elephant---hadoop-">Meet the Elephant - Hadoop !</h2>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8I9CmKx2HWXSiBdGBM1VFacBN5QGnPnG6ULd4QlI5wQrjJ1vd" alt="Hadoop Logo" /></p>
 
 <p>Hadoop is an open source, Java-based programming framework that supports the processing and storage of extremely large data sets in a distributed computing environment. Hadoop with its distributed processing, handles large volumes of structured and unstructured data more efficiently than the traditional enterprise data warehouse.</p>
 
-<h4 id="how-does-hadoop-help-">How does Hadoop help ?</h4>
+<h3 id="how-does-hadoop-help-">How does Hadoop help ?</h3>
 
 <p>The <strong>key concept</strong> in hadoop is that we split the the data up and store it across a collection of machines, known as a cluster. Then, when we want to process the data, we process it where it’s actually stored. Rather than retrieving the data from a central server, instead it’s already on the cluster, and we can process it in place.</p>
 
-<h4 id="history">History…</h4>
+<h3 id="history">History…</h3>
 
 <p>It all started when Google published a paper about their distributed file system and about their processing framework, MapReduce in 2003. At the same time computer scientists Doug Cutting and Mike Cafarella were working on an Open Source web search engine called Nutch. They needed something scalable because the web was you know, billions of pages - terabytes, petabytes, of data, that needed to be processed. So they decided to reimplement what Google had done in open source. After a couple of years Nutch was up and running on 20 to 40 machines. It wasn’t perfect, it wasn’t totally reliable, but it worked. In January, 2006 Doug went to work for Yahoo and it was there that ‘Hadoop’ came into being. After years of development within the open source community, Hadoop 1.0 became publically available in November 2012 as part of the Apache project sponsored by the Apache Software Foundation.</p>
 
-<h4 id="the-hadoop-ecosystem">The Hadoop ecosystem</h4>
+<h3 id="the-hadoop-ecosystem">The Hadoop ecosystem</h3>
 
 <p>The core of Apache Hadoop consists of a storage part, known as <a href="https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html">Hadoop Distributed File System (HDFS)</a>, and a processing part called <a href="https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html">Hadoop MapReduce</a>. <a href="https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html">Hadoop Yet Another Resource Negotiator (YARN)</a> is the brain of the Hadoop Ecosystem, which provides resource management and scheduling for user applications.</p>
 
 <p>Today, Hadoop is a collection of related subprojects that fall under the umbrella of infrastructure for distributed computing.</p>
-
-<p><img src="https://cdn.edureka.co/blog/wp-content/uploads/2016/10/HADOOP-ECOSYSTEM-Edureka.png" alt="alt text" title="Hadoop ecosystem" /></p>
 
 <p>These include:</p>
 <ul>
@@ -223,7 +223,7 @@ Earlier we could only store records of actual purchases. But nowadays,we can sto
   <li><strong>ZooKeeper</strong> : An open source configuration, synchronization and naming registry service for large distributed systems.</li>
 </ul>
 
-<p>Some great resources to get started with Hadoop :</p>
+<h4 id="some-great-resources-to-get-started-with-hadoop-">Some great resources to get started with Hadoop :</h4>
 
 <ul>
   <li><a href="https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html">Setting up Hadoop on your systems</a></li>
@@ -234,9 +234,6 @@ Earlier we could only store records of actual purchases. But nowadays,we can sto
 
 <p>Happy Hadooping!</p>
 
-<p>• <a href="http://ieeenitk.org/blog/big-data/#disqus_thread">0 Comments</a></p>
-
-
             </article>
 
             <section class="author" itemprop="author">
@@ -244,7 +241,7 @@ Earlier we could only store records of actual purchases. But nowadays,we can sto
         <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/a_aditya.jpeg" alt="A Aditya">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/aditya5558">A Aditya</a>
+            <a itemprop="name" href="/">A Aditya</a>
         </h3>
         <p class="desc">A Data Science Enthusiast</p>
         <a itemprop="email" class="email" href="mailto:adityanant@gmail.com">adityanant@gmail.com</a>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dealing with Underdetermined Systems"
-author_github: abhijithkamath
+author_github: AbhijithKamath
 date: 2017-07-02 0:0:0
 image: '/assets/img/'
 description: 'Mathematical models of engineering systems are inherently underdetermined'
@@ -11,7 +11,7 @@ tags:
 - Linear Algebra
 categories:
 - Diode
-github_username: 'abhijithkamath'
+github_username: 'AbhijithKamath'
 comments: true
 ---
 ![incidence matrix](https://wikimedia.org/api/rest_v1/media/math/render/svg/ee0208dc07116e4d32bcc9952a015b43b63d91a2)

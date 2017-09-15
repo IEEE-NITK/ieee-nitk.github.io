@@ -38,7 +38,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
     <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
+<!--     <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
@@ -61,7 +61,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/img/icons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/icons/favicon-16x16.png">
-	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+ -->	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -84,9 +84,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/raspberry-pi-bluetooth/">
+    <link rel="canonical" href="/blog/raspberry-pi-bluetooth/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-    href="http://ieeenitk.org/blog/blog/feed.xml" />
+    href="http://ieeenitk.org/blog/feed.xml" />
 
     
 </head>
@@ -150,51 +150,37 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. 
-Give you a little insight into how it works, the various layers of Bluetooth, it’s profiles and so on. 
-But I guess Wikipedia would do a much better job at it. 
-So, I decided to share something I learned during my internship- how we can <strong>make use of the inbuilt Bluetooth controller in Raspberry Pi 3 to implement some of the profiles of Bluetooth.</strong></p>
+                <p>At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. Give you a little insight into how it works, the various layers of Bluetooth, it’s profiles and so on.</p>
 
-<p>First, you need to know that <strong>Raspberry Pi</strong> is nothing but a Linux machine and can be governed by some commands that you can type in the terminal. 
-Also, there will be a repository associated with each Raspbian version (Raspbian is an OS), from which you can download software packages and perform various tasks on your Pi.</p>
+<p>But I guess Wikipedia would do a much better job at it. So, I decided to share something I learned during my internship- how we can <strong>make use of the inbuilt Bluetooth controller in Raspberry Pi 3 to implement some of the profiles of Bluetooth.</strong></p>
 
-<p>Second, though the latest model of Raspberry Pi, the 3B model, is equipped with an inbuilt bluetooth controller, you need to carry out some steps to enable it. 
-The most widely used package to carry this out is <code class="highlighter-rouge">bluez</code>. 
-With a <code class="highlighter-rouge">sudo apt-get install bluez</code> command, you can install it in your Pi. 
-There is another package called <code class="highlighter-rouge">bluetooth</code> which also needs to be installed and then you are good to go. 
-This offers a tool called <code class="highlighter-rouge">bluetoothctl</code> and once this is launched, you can scan, pair, trust or connect any Bluetooth device to the Pi just like you can in a mobile phone.</p>
+<p>First, you need to know that <strong>Raspberry Pi</strong> is nothing but a Linux machine and can be governed by some commands that you can type in the terminal. Also, there will be a repository associated with each Raspbian version (Raspbian is an OS), from which you can download software packages and perform various tasks on your Pi.</p>
 
-<p>Now, I hope you know what a <strong>Bluetooth profile</strong> is. 
-It is nothing but a specification concerning a particular aspect of Bluetooth-based wireless communication between devices. 
-For example, transferring files is associated with the profile FTP, hearing quality music is associated with A2DP, VoIP calls or using a bluetooth headset to make handsfree calls is associated with HSP/HFP and so on. 
-So basically, if you connect a Bluetooth device to your Raspberry Pi, you can transfer files to and from the device, or play music on your device and hear it through speakers connected to your Pi, or play a music on the Pi and hear it through the bluetooth headset connected to your Pi. 
-The applications are endless.</p>
+<p>Second, though the latest model of Raspberry Pi, the 3B model, is equipped with an inbuilt bluetooth controller, you need to carry out some steps to enable it. The most widely used package to carry this out is <code class="highlighter-rouge">bluez</code>.</p>
 
-<p>I am going to just give you a sneak-peek on how to get started on doing all this. 
-We will start with the easiest one, the A2DP profile which is an acronym for <strong>Advanced Audio Distribution Profile</strong>. 
-Using this profile, you can play high quality music both on the Pi output (speakers or HDMI analog out) or on a bluetooth headset connected to it. 
-For this, you need to install a sound server package called <code class="highlighter-rouge">Pulseaudio</code> which deals with all the sound streams passing via Bluetooth. 
-Pulseaudio provides you with the option to select a source (from where the audio is taken) or a sink (to where the audio must be played). 
-It also allows you to select the Bluetooth profile in which you want your Bluetooth device connected to the Pi work and can even do the same for Pi as well. 
-That is, if you are connecting a bluetooth headset to the Pi, it can either be used as an A2DP sink or can be used to attend calls for HSP/HFP (Headset/Handsfree) purposes. 
-Once you configure the source and sink to route your audio through the Pi, you are done. 
-Now, the Pi can act like a music player and all you have to do is feed in your playlist into the Pi.</p>
+<p>With a <code class="highlighter-rouge">sudo apt-get install bluez</code> command, you can install it in your Pi.</p>
+
+<p>There is another package called <code class="highlighter-rouge">bluetooth</code> which also needs to be installed and then you are good to go. This offers a tool called <code class="highlighter-rouge">bluetoothctl</code> and once this is launched, you can scan, pair, trust or connect any Bluetooth device to the Pi just like you can in a mobile phone.</p>
+
+<p>Now, I hope you know what a <strong>Bluetooth profile</strong> is. It is nothing but a specification concerning a particular aspect of Bluetooth-based wireless communication between devices. For example, transferring files is associated with the profile FTP, hearing quality music is associated with A2DP, VoIP calls or using a bluetooth headset to make handsfree calls is associated with HSP/HFP and so on.</p>
+
+<p>So basically, if you connect a Bluetooth device to your Raspberry Pi, you can transfer files to and from the device, or play music on your device and hear it through speakers connected to your Pi, or play a music on the Pi and hear it through the bluetooth headset connected to your Pi. The applications are endless.</p>
+
+<p>I am going to just give you a sneak-peek on how to get started on doing all this. We will start with the easiest one, the A2DP profile which is an acronym for <strong>Advanced Audio Distribution Profile</strong>. Using this profile, you can play high quality music both on the Pi output (speakers or HDMI analog out) or on a bluetooth headset connected to it.</p>
+
+<p>For this, you need to install a sound server package called <code class="highlighter-rouge">Pulseaudio</code> which deals with all the sound streams passing via Bluetooth. Pulseaudio provides you with the option to select a source (from where the audio is taken) or a sink (to where the audio must be played). It also allows you to select the Bluetooth profile in which you want your Bluetooth device connected to the Pi work and can even do the same for Pi as well.</p>
+
+<p>That is, if you are connecting a bluetooth headset to the Pi, it can either be used as an A2DP sink or can be used to attend calls for HSP/HFP (Headset/Handsfree) purposes. Once you configure the source and sink to route your audio through the Pi, you are done. Now, the Pi can act like a music player and all you have to do is feed in your playlist into the Pi.</p>
 
 <p>Coming to transfer of files, which is namely the FTP or File Transfer Protocol, again, you have readily available packages like <code class="highlighter-rouge">ussp-push</code> and <code class="highlighter-rouge">obexpushd</code> which are once again armed with ready-to-go commands to enable easy transfer of files from Raspberry Pi to your bluetooth device and vice-versa.</p>
 
-<p>A small glitch, however, occurs when you try to use the Raspberry Pi as a <strong>handsfree</strong> device. 
-By handsfree device, I mean the exact handsfree device you have in your cars, using which you can attend calls coming to a device connected via bluetooth to it. 
-Our Pi too can perform the same task, but since we require live transmission of audio or more precisely voice data, the inbuilt bluetooth controller faces trouble and is not feasible owing to its huge latency and difference in the sampling rates of the two devices. 
-But you can always go for a Bluetooth dongle in that case. 
-Using the inbuilt bluetooth you can, however, place calls or answer them and do other related operations using a software for telephony called <code class="highlighter-rouge">ofono</code>. 
-A joint effort of Intel and Nokia, this package is available for download in the repository and provides test files which you can run to do any call related operations, provided your connected device supports it. 
-While implementing this, the problem I faced was that audio could be heard neither through the Pi nor through the connected mobile phone.</p>
+<p>A small glitch, however, occurs when you try to use the Raspberry Pi as a <strong>handsfree</strong> device. By handsfree device, I mean the exact handsfree device you have in your cars, using which you can attend calls coming to a device connected via bluetooth to it. Our Pi too can perform the same task, but since we require live transmission of audio or more precisely voice data, the inbuilt bluetooth controller faces trouble and is not feasible owing to its huge latency and difference in the sampling rates of the two devices.</p>
 
-<p>I guess I have introduced you to a plausible aspect of Bluetooth usage in Raspberry Pi. 
-It is a fun field to explore and the possibilities are plenty. 
-Please do check these sites out for more details.</p>
+<p>But you can always go for a Bluetooth dongle in that case. Using the inbuilt bluetooth you can, however, place calls or answer them and do other related operations using a software for telephony called <code class="highlighter-rouge">ofono</code>.</p>
 
-<p><a href="http://yountess.net/raspberry-pi/bluetooth-headset-raspberry-pi-3-ad2p-hsp">Bluetooth Headset</a></p>
+<p>A joint effort of Intel and Nokia, this package is available for download in the repository and provides test files which you can run to do any call related operations, provided your connected device supports it. While implementing this, the problem I faced was that audio could be heard neither through the Pi nor through the connected mobile phone.</p>
+
+<p>I guess I have introduced you to a plausible aspect of Bluetooth usage in Raspberry Pi. It is a fun field to explore and the possibilities are plenty. Please do check these sites out for more details.</p>
 
 <p><a href="http://www.jamesrobertson.eu/clf/2014/jun/28/sending-a-file-over-bluetooth-from-your-phone-to.html">Bluetooth file transfer</a></p>
 
@@ -205,7 +191,7 @@ Please do check these sites out for more details.</p>
         <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/shwetha.png" alt="Shwetha S V">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/Shwetha">Shwetha S V</a>
+            <a itemprop="name" href="/">Shwetha S V</a>
         </h3>
         <p class="desc">Passion drives you. Hardwork gets you there.</p>
         <a itemprop="email" class="email" href="mailto:shwethasv97@gmail.com">shwethasv97@gmail.com</a>

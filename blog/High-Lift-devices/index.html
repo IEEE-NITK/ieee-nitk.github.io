@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Dealing with Underdetermined Systems</title>
-    <meta name="description" content="Mathematical models of engineering systems are inherently underdetermined">
+    <title>Ever wondered why exactly are high lift devices needed? Let me tell you...</title>
+    <meta name="description" content="This article explains the need for the usage of high lift devices">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/?rel=author">
@@ -14,25 +14,25 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="Dealing with Underdetermined Systems">
-    <meta name="twitter:description" content="Mathematical models of engineering systems are inherently underdetermined">
+    <meta name="twitter:title" content="Ever wondered why exactly are high lift devices needed? Let me tell you...">
+    <meta name="twitter:description" content="This article explains the need for the usage of high lift devices">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
-    <meta property="og:url" content="http://ieeenitk.org///Dealing-with-underdetermined-systems/" />
-    <meta property="og:title" content="Dealing with Underdetermined Systems">
+    <meta property="og:url" content="http://ieeenitk.org///High-Lift-devices/" />
+    <meta property="og:title" content="Ever wondered why exactly are high lift devices needed? Let me tell you...">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
-    <meta property="og:description" content="Mathematical models of engineering systems are inherently underdetermined">
+    <meta property="og:description" content="This article explains the need for the usage of high lift devices">
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Dealing with Underdetermined Systems"/>
-    <meta itemprop="description" content="Mathematical models of engineering systems are inherently underdetermined">
+    <meta itemprop="name" content="Ever wondered why exactly are high lift devices needed? Let me tell you..."/>
+    <meta itemprop="description" content="This article explains the need for the usage of high lift devices">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -84,9 +84,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="/blog/Dealing-with-underdetermined-systems/">
+    <link rel="canonical" href="/blog/High-Lift-devices/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
     href="http://ieeenitk.org/blog/feed.xml" />
+
+    
+        <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> 
 
     
 </head>
@@ -97,10 +111,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-07-02 00:00:00 +0530" class="date">02 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-07-28 23:02:44 +0530" class="date">28 Jul 2017</time>
         
-        <h1 class="post-title" itemprop="name">Dealing with Underdetermined Systems</h1>
-        <p itemprop="description" class="subtitle">Mathematical models of engineering systems are inherently underdetermined</p>
+        <h1 class="post-title" itemprop="name">Ever wondered why exactly are high lift devices needed? Let me tell you...</h1>
+        <p itemprop="description" class="subtitle">This article explains the need for the usage of high lift devices</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -150,55 +164,121 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ee0208dc07116e4d32bcc9952a015b43b63d91a2" alt="incidence matrix" /></p>
+                <h1 id="ever-wondered-why-exactly-are-high-lift-devices-needed-let-me-tell-you">Ever wondered why exactly are high lift devices needed? Let me tell you…</h1>
 
-<h2 id="what-is-meant-by-under-constrained-system">What is meant by “under-constrained” system?</h2>
+<p>Lift generated by wings of an aircraft is estimated by the following relationship,</p>
 
-<p>I will start off this segment with my favourite quote.</p>
+<p>\begin{equation}
+L = \frac{1}{2}\rho v^2 A C_L
+\end{equation}</p>
 
-<p><em>“To the ones who tread the path less taken; To the ones who believe the answer to everything lies in data.”</em></p>
+<p>Where:</p>
 
-<p>The answer to all problems lies in how much you know about it. Most engineering problems and their math models are inherently under-constrained. It is not surprising, we have all seen physics problems give under-constrained systems. The best example is in the definition of electric potential. All electric potentials are with reference to potentials at infinity where the potential is assumed to be zero. In classical terms, it would sound like this.</p>
+<p>$L$ = lift force generated</p>
 
-<p><em>“If the potential at infinity is zero, the potential at x is V(x)”</em></p>
+<p>$\rho$ = air density</p>
 
-<p>Engineering systems have to mean a lot more than <em>“if”</em> s. At the end of the day, we have to be able to use it and it has to make sense. An under-constrained system like this is seen more often than an engineer like to see and we have to find a way around it while keeping reality. Let’s look at some interesting examples.</p>
+<p>$v$ = true air speed</p>
 
-<h3 id="linear-networks">Linear Networks</h3>
+<p>$A$ = lifting area of the wing</p>
 
-<p>Most electric circuits, linear in nature and electronic circuits are linearised, are underdetermined. Starting from the point when we have to define potentials at nodes stating <em>“if the potential at infinity was zero, then the potential here is ..”</em>. To realise, analyse, debug and re-create such devices are impossible in that case. We construct a model using classical graph theory. Linear components give an incidence matrix for the linear network. The system equation then reduces to the normal equation. Even then, the square matrix constructed out of the incidence matrix A, will not be invertible because A has linearly dependent columns. How do we fix this? How do we have all our systems working if we can’t debug them?</p>
+<p>$C_L$ = coefficient of lift</p>
 
-<p>The insight is in localising infinity. Engineers call it circuit ground node. The simplest setup is to set it at zero and reduce the square matrix by one row and one column which then gives an invertible system. Now everything is merry and we move on debugging and building better circuits!</p>
+<p>Clearly, same amount of lift can be generated by various permutations and combinations of $\rho$, $v$, $A$ and $C_L$.</p>
 
-<p><img src="https://i.stack.imgur.com/bpC7a.png" alt="Ground Node" /></p>
+<p>Now, let us think about situations when $v$ is quite less, take-off or landing for instance, that the lift generated cannot balance the total weight of the flight. 
+At such situations, we need to alter the other three factors in order to make the aircraft fly. 
+$\rho$ is something that is quite out of our control. 
+Hence, we need to do something which increases the other two factors. Here is where high lift devices come into the play.</p>
 
-<h3 id="optical-flow">Optical Flow</h3>
+<h2 id="knowing-cl">Knowing CL</h2>
 
-<p>This problem is more in my research areas. Optical flow algorithms for calculating motion of objects in a video. The foundations layed by Horn and Schunk are based on <em>“brightness constancy”</em>, a very simple idea and practical in most cases since most videos are shot at more than 25fps. Turns out this is another under-constrained system. Optical flow is a displacement vector of every pixel in a movie frame. So that means every pixel needs two numbers to give its optical flow and we only have one constraint, brightness constancy. How do we deal with this?</p>
+<p>One should know how $C_L$ behaves, before one can commend the work done by the high lift devices. 
+Airfoils are of various types. 
+One of the basic types of differentiating them is into symmetrical and cambered airfoils.</p>
 
-<p>This is more of what Indians like to call “Jugaad”. We will expect more and then come up with another constraint. If brightness constancy gave us two conditions, we would never think of this. Jugaad for real! We will expect motions in the video to be smooth. Now of course, this wouldn’t happen in a Harry Potter movie where things magically appear and disappear, but let’s keep things “real” :P The solutions now are given from a functional that Horn and Schunk construct based on the smoothness constraint and brightness constancy. Two conditions to give two numbers and we can happily move on!</p>
+<p><img src="/blog/assets/img/High-Lift-devices/img1.jpg" alt="Types of Airfoils" /></p>
 
-<p>There are faster, traditional methods to use the smoothness constraint and this time jugaad is more real! It is so jugaad-y that it lead me to write this blog on <em>‘Dealing with under-constrained systems’</em>. But it makes good sense in most cases and gives good results and that’s what matters. The idea that Lucas-Kanade proposed is in using the smoothness constraint in using the same optical flow in a nine point neighbourhood. Now it suddenly becomes over-determined and the system is solved by a least-squares approximation over the nine-points. This now gives smooth variations in the optical flow of the frame! Problem solved and we make it better!</p>
+<p>The above figure represents the difference between symmetrical and cambered airfoils schematically. 
+Let us look what effect cambering has on the lift of an airfoil.</p>
 
-<p><img src="https://www.researchgate.net/profile/Alexandru_Telea/publication/250199688/figure/fig3/AS:298282552184833@1448127510079/Fig-6-The-taxi-sequence-Original-image-left-Flow-extraction-without-the-projection.png" alt="Hamburg Taxi Sequence" /></p>
+<p><img src="/blog/assets/img/High-Lift-devices/img2.png" alt="Effects of cambering on Lift" /></p>
 
-<h3 id="sub-nyquist-sampling-and-reconstruction">Sub-Nyquist Sampling and Reconstruction</h3>
+<p>It can be seen that having a camber in the airfoil increases the highest attainable lift coefficient. 
+However, there is a decrease in the critical angle of attack, which is the highest angle of attack that can be deployed without letting the airfoil to stall.</p>
 
-<p>This is something everyone wants. Sub-Nyquist sampling, slower sampling rates and money to invest in more accuracy. Well, Shannon-Nyquist designed a theorem for the entire sampling framework and there is proof to why you cannot perfectly reconstruct every signal while sampling below Nyquist rate. Why? Simply because the system then becomes under-constrained. To what signals can we develop plausible constraints?</p>
+<h2 id="what-is-this-stall-then">What is this stall then?</h2>
 
-<p>We look at a class of signals called <em>‘FRI’</em> or signals with Finite Rate of Innovation. These signals are seen in transrecivers where the signal received is only a combination of delayed and attenuated versions of the signal that is transmitted. Now we have two parameters for every replication of the transmitted signal that is received and we need just twice the number of samples to the number of replications received. Then the system has enough constraints to solve! Job done again! And we see again that under-constrained systems are very much solvable under certain situations.</p>
+<p>Air does have certain viscosity and it does develop a boundary layer. 
+Thus, the molecules in the boundary layer experience viscous forces against each other. 
+In addition to this, they might also have to face adverse pressure gradients along their way ahead along the boundary layer. 
+Hence, the molecules which become devoid of energy while they try to overcome both viscous forces and adverse pressure gradients, cease to continue in the boundary layer and get separated from the skin of the airfoil. 
+This is what is called as a stall.</p>
+
+<p><img src="/blog/assets/img/High-Lift-devices/phew.jpg" alt="Tired Man" />
+<img src="/blog/assets/img/High-Lift-devices/boost.jpg" alt="Dhoni Boost" /></p>
+
+<p>When M. S. Dhoni, or Sachin Tendulkar if you think of him, faces a similar situation, he takes a cup of Boost in order to continue playing. 
+On similar lines, if one can, somehow, provide energy to the flow, the stall will be delayed thus making it possible to increase the critical angle of attack.</p>
+
+<p>So, in order to increase the lift supporting area of the wing and to increase the lift coefficient either by increasing camber or by delaying stall or both, some special devices are used known as High Lift Devices.</p>
+
+<h2 id="high-lift-devices">High Lift Devices</h2>
+
+<p>There are various ways in which the aforesaid objectives can be met. 
+Following are some of those.</p>
+
+<h3 id="flaps">Flaps</h3>
+
+<p>These are the high lift devices (HLDs) that are generally deployed at the trailing edge of the wings. 
+These devices, change the effective camber of the wing cross sections. 
+Flaps are again of different types. 
+The following figure illustrates some.</p>
+
+<p><img src="/blog/assets/img/High-Lift-devices/flaps.gif" alt="Flaps" /></p>
+
+<h3 id="slats-and-slots">Slats and Slots</h3>
+
+<p>These are the HLDs usually placed at the leading edge of the wings. 
+Slats are small, retractable airfoils attached to the wing leading edges, generally just before the ailerons so that the latter remain operable even when rest of the wing enters stall. 
+When slats are made open, they create slots (gaps) between them and the main airfoil and high pressure air on the lower surface of the airfoil is directed to the upper surface, making the flow over the upper surface smoother and delaying the stall to higher angles of attack. 
+The effect of flaps and slats is shown below.</p>
+
+<p><img src="/blog/assets/img/High-Lift-devices/chords.gif" alt="Chords" /></p>
+
+<p><img src="/blog/assets/img/High-Lift-devices/slats1.png" alt="Slats" />
+<img src="/blog/assets/img/High-Lift-devices/slats2.png" alt="Slats" /></p>
+
+<h3 id="boundary-layer-control-and-blown-flaps">Boundary layer control and Blown Flaps</h3>
+
+<p>These come under the powered high lift systems. 
+Generally, these systems involve blowing of air from some powered source, like compressor of an engine or exhaust of the engine, using ducts and other mechanisms to achieve the desired lift characteristics. 
+Here is a small description of such devices.</p>
+
+<p><img src="/blog/assets/img/High-Lift-devices/img3.jpg" alt="Engine Air" /></p>
+
+<h3 id="leading-edge-root-extensions">Leading Edge Root Extensions</h3>
+
+<p>A LERX typically consist of a small triangular fillet attached to the wing leading edge root and to the fuselage. 
+In normal flight the LERX generates little lift. 
+At higher angles of attack, however, it generates a vortex that is positioned to lie on the upper surface of the main wing. 
+The swirling action of the vortex increases the speed of airflow over the wing, so reducing the pressure and providing greater lift. 
+LERX systems are notable for the potentially large angles in which they are effective.</p>
+
+<p><img src="/blog/assets/img/High-Lift-devices/lerx.png" alt="LERX Systems" />
+<img src="/blog/assets/img/High-Lift-devices/lerx.jpg" alt="Graphical Lerx" /></p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/abhijith_kamath.jpeg" alt="Abhijith Kamath">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/akulasricharan.jpg" alt="Sri Charan Akula">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Abhijith Kamath</a>
+            <a itemprop="name" href="/">Sri Charan Akula</a>
         </h3>
-        <p class="desc">To the brave to tread the path less taken, to the ones who believe the answer to everything lies in data</p>
-        <a itemprop="email" class="email" href="mailto:kamath.abhijith@gmail.com">kamath.abhijith@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:akulasricharan.asc@gmail.com">akulasricharan.asc@gmail.com</a>
     </div>
 </section>
 
@@ -214,7 +294,7 @@
 
 	var disqus_config = function () {
 	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-	this.page.identifier = /Dealing-with-underdetermined-systems/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	this.page.identifier = /High-Lift-devices/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 
 	(function() { // DON'T EDIT BELOW THIS LINE
@@ -241,21 +321,21 @@
             
                 <section class="comments">
                     <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/High-Lift-devices/" data-colorscheme="dark" data-num-posts="4" data-width="706">
                     </div>
                 </section>
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/%20via%20&#64;IEEE_NITK&hashtags=SPS,Image Processing,Linear Algebra,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/High-Lift-devices/%20via%20&#64;IEEE_NITK&hashtags=High Lift devices,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//Dealing-with-underdetermined-systems/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//High-Lift-devices/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//Dealing-with-underdetermined-systems/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//High-Lift-devices/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

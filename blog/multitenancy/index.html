@@ -38,7 +38,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
     <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
+<!--     <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
@@ -61,7 +61,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/img/icons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/icons/favicon-16x16.png">
-	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+ -->	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -84,9 +84,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/multitenancy/">
+    <link rel="canonical" href="/blog/multitenancy/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-    href="http://ieeenitk.org/blog/blog/feed.xml" />
+    href="http://ieeenitk.org/blog/feed.xml" />
 
     
 </head>
@@ -97,7 +97,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-07-15 00:00:00 +0000" class="date">15 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-07-15 05:30:00 +0530" class="date">15 Jul 2017</time>
         
         <h1 class="post-title" itemprop="name">Multitenancy</h1>
         <p itemprop="description" class="subtitle">There is no doubt that our world is data driven. It is the most important asset of any business. But why would anyone trust a business with their data? The answer is Multitenancy.</p>
@@ -153,20 +153,21 @@
                 <h1 id="what-is-multitenancy">What is Multitenancy?</h1>
 <p>According to Wikipedia, the term “software multitenancy” refers to a software architecture in which a single instance of software runs on a server and serves multiple tenants. With a multitenant architecture, a software application is designed to provide every tenant a dedicated share of the resources.</p>
 
-<p><img src="/blog/assets/img/multitenancy/difference.png" alt="alt text" title="Single tenancy vs Multitenancy" /></p>
+<p><img src="/blog/assets/img/multitenancy/difference.png" alt="Single tenancy vs Multitenancy" /></p>
 
 <p>The initial aim of a multitenant architecture was to optimise resource allocation in an application. Instead of providing multiple instances of the same software, a single instance of the software was used to serve multiple tenants. But times have changed. Today, 15 years or more after the creation of application and database multi-tenancy, things are different; the economic necessity for multi-tenancy at the application tier has disappeared. We have huge clouds offering cheap infrastructure and tools creating new instances and tearing them down again without any of the manual interventions that used to be necessary.</p>
 
 <h3 id="then-why-do-we-still-need-multitenant-architecture">Then why do we still need multitenant architecture?</h3>
 
-<p>Trust, or the lack thereof, is the number one factor blocking the adoption of <a href="https://en.wikipedia.org/wiki/Software_as_a_service">software as a service (SaaS)</a>.  SaaS applications provide customers with centralized, network-based access to data with less overhead than is possible when using a locally-installed application. But in order to take advantage of the benefits of SaaS, an organization must surrender a level of control over its own data, trusting the SaaS vendor to keep it safe and away from prying eyes. 
+<p>Trust, or the lack thereof, is the number one factor blocking the adoption of <a href="https://en.wikipedia.org/wiki/Software_as_a_service">Software as a Service (SaaS)</a>.  SaaS applications provide customers with centralized, network-based access to data with less overhead than is possible when using a locally-installed application. But in order to take advantage of the benefits of SaaS, an organization must surrender a level of control over its own data, trusting the SaaS vendor to keep it safe and away from prying eyes. 
 To earn this trust, one of the highest priorities for a prospective SaaS architect is creating a SaaS data architecture that is both robust and secure enough to satisfy tenants or clients who are concerned about surrendering control of vital business data to a third party, while also being efficient and cost-effective to administer and maintain.</p>
 
-<p><img src="/blog/assets/img/multitenancy/db_schema.png" alt="alt text" /></p>
+<p><img src="/blog/assets/img/multitenancy/db_schema.png" alt="dB Schema" /></p>
 
 <p>In Multi-tenant applications, one instance serves more than one organization, but at the same time provides virtual isolation to data and applications from other tenants of the application. Multitenancy is applied to data, operating system and even hardware. But in this article we talk only about data.</p>
 
 <h2 id="machine-learning-and-multitenancy">Machine learning and Multitenancy</h2>
+
 <p>We live in the world of artificial intelligence and machine learning. Every application and website has some form of intelligence incorporated into it. But the learning curve of the machine learning models depend on the data provided by the user. Do you see how multitenancy gets applied here? Let me explain with a scenario. You have deployed a website which provides description of an image that you upload. Like you see in many cognitive services, if you put a picture of a guy trekking, it will say “ A picture of a guy trekking”. The training model is trained with some data which you had collected. But since you have deployed and people are using the, you decide you can improve the model by retraining the model with the new pictures and also correct the model based on the feedback of the results that you provide. Sounds good right, you have a cool website which learns on its own through time. But there is one problem. What if one day, a user mails you asking whether the pictures he upload are private and are not shared. You say that they are private and cannot be accessed by anyone. He decides to check it out by uploading an image from his own account. He gave a feedback regarding the prediction. Then he creates a new account and tries with the same picture. He gets the updated result, ie. the result considering his feedback. This makes him feel insecure about using your website. This is the trust issue that we talked about earlier.</p>
 
 <p>In the case of SaaS applications, the application vendor does not own the customer data. So it cannot use one customers data to train a model which is used by other customers.
@@ -174,7 +175,7 @@ To tackle this issue, we need an architecture which does not use one user’s da
 
 <h3 id="choosing-an-approach">Choosing an Approach</h3>
 
-<p><img src="/blog/assets/img/multitenancy/approach.png" alt="alt text" /></p>
+<p><img src="/blog/assets/img/multitenancy/approach.png" alt="Approach" /></p>
 
 <p>Factors influencing</p>
 <ol>
@@ -187,7 +188,6 @@ To tackle this issue, we need an architecture which does not use one user’s da
 
 <h4 id="resources">Resources</h4>
 <ol>
-  <li><a href="https://msdn.microsoft.com/en-us/library/aa479086.aspx">Multi-Tenant Data Architecture </a></li>
   <li><a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-design-patterns-multi-tenancy-saas-applications">Design Patterns for multitenant SaaS application</a></li>
   <li><a href="https://cloud.google.com/appengine/docs/standard/python/multitenancy/multitenancy">Implementing multitenancy using namespace</a></li>
 </ol>
@@ -199,7 +199,7 @@ To tackle this issue, we need an architecture which does not use one user’s da
         <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/sandeep.jpeg" alt="Sandeep Menon">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/gitmenonsandu">Sandeep Menon</a>
+            <a itemprop="name" href="/">Sandeep Menon</a>
         </h3>
         <p class="desc">Dream the future, they come true</p>
         <a itemprop="email" class="email" href="mailto:menonsandu@gmail.com">menonsandu@gmail.com</a>

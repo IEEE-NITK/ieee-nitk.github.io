@@ -13,7 +13,7 @@ github_username: 'salman-bhai'
 comments: true
 ---
 
-![Vinay Bhat](/gyan/assets/img/vinay-bhat-interview/vinay_bhat.jpg)
+![Vinay Bhat](/gyan/assets/img/authors/vinay_bhat.jpg)
 
 ### Q. What do you think should be done in college to enhance your resume?
 
