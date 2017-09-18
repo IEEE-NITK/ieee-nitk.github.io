@@ -2,16 +2,14 @@
 layout: post
 title: "What makes a Smart Home Smart"
 author_github: anirudhbh
-date: 2017-09-25 10:00:00'
+date: 2017-09-18 10:00:00'
 image: '/assets/img/'
 description: 'Explore this new world of smart homes'
 tags:
 - Smart homes
-- Internet of things
-
+- IoT
 categories:
-- CAS
-- IEEE NITK
+- Diode
 github_username: 'anirudh0707'
 ---
 

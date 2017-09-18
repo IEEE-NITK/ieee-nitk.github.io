@@ -5,9 +5,61 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Sep 2017 00:46:25 +0530</pubDate>
-    <lastBuildDate>Sat, 16 Sep 2017 00:46:25 +0530</lastBuildDate>
+    <pubDate>Mon, 18 Sep 2017 20:35:53 +0530</pubDate>
+    <lastBuildDate>Mon, 18 Sep 2017 20:35:53 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>BitTorrent Explained</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading files as well)&lt;/p&gt; &lt;h2 id=&quot;a-simple-introduction&quot;&gt;A simple introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/BitTorrent-Explained/pic1.png&quot; alt=&quot;BitTorrent Logo&quot; /&gt;&lt;/p&gt; &lt;p&gt;BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing&quot;&gt;peer-to-peer file sharing&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Now,...</description>
+        <pubDate>Mon, 18 Sep 2017 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/BitTorrentExplained/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/BitTorrentExplained/</guid>
+        
+        <category>Networking</category>
+        
+        <category>Torrents</category>
+        
+        <category>P2P</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Storing energy in molten salt</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the answer to sustainable development. It is the hot topic of our generation and even though it is in its rudimentary stage, it is the best solution in maintaining the balance between environment and our energy needs. We all know that a lot of research is going on in this field, whether it is the oft talked about and used solar and wind energy, or the slightly less used ocean thermal energy.&lt;/p&gt; &lt;p&gt;But, what do you do after you produce this energy? What if it is in excess to your current need? You need to...</description>
+        <pubDate>Mon, 18 Sep 2017 15:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/storing-energy-in-salt!/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/storing-energy-in-salt!/</guid>
+        
+        <category>Energy</category>
+        
+        <category>Research</category>
+        
+        <category>Innovation</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>What makes a Smart Home Smart</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?&lt;/p&gt; &lt;p&gt;With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even you’re your coffee maker, every electrical appliance in our homes can be hooked up the home network. This will basically allow us to control our entire house with our laptops or something as simple as...</description>
+        <pubDate>Mon, 18 Sep 2017 10:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</guid>
+        
+        <category>Smart homes</category>
+        
+        <category>IoT</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>Water Memory What A Memory</title>
@@ -115,58 +167,6 @@
         <guid isPermaLink="true">http://ieeenitk.org/blog/six_stroke_engine/</guid>
         
         <category>six stroke engines</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>A QuickStart Guide to Image Processing with OpenCV</title>
-        <description>&lt;h3 id=&quot;why-learn-image-processing&quot;&gt;Why learn Image Processing?&lt;/h3&gt; &lt;p&gt;This is the question I was primarily asked when I first started exploring just exactly what Image Processing can offer. As time passed, I soon found the now seemingly obvious answer. Although the name, Image Processing, itself suggests manipulating an image for either aesthetic pleasure or requirement, Image Processing actually provides a gateway for the next revolution in engineering. As more and more people become accustomed to having human tasks being done by machines, image processing becomes crucial in training and programming these machines to flourish. Image processing not only provides the framework for Computer...</description>
-        <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/opencv/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/opencv/</guid>
-        
-        <category>OpenCV</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Is Random really Random?</title>
-        <description>&lt;p&gt;Random numbers have been used for many thousands of years. Roll a dice. Flip a coin. Pick a card from a deck. Whatever the result may be in these three situations, it’s completely random each time and there’s no way of predicting it by looking at the previous outcomes. In other words, the end result is left to random chance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/random-number-generator/dice.jpg&quot; alt=&quot;Dice&quot; /&gt;&lt;/p&gt; &lt;p&gt;Random number generators in a computer are similar: they’re an attempt to achieve an unpredictable, random result. From creating random keys for data encryption to random shuffling cards in a poker website, generation of random numbers...</description>
-        <pubDate>Fri, 04 Aug 2017 09:18:33 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/random-number-generator/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/random-number-generator/</guid>
-        
-        <category>random</category>
-        
-        <category>PRNG</category>
-        
-        <category>TRNGs</category>
-        
-        <category>cryptography</category>
-        
-        <category>Lehmer's RNG</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Smart Phones and Health issues</title>
-        <description>&lt;p&gt;The way smartphones have changed our lives is amazing. Technology has been ever bringing multiple facets of our daily lives within the scope of smartphones, which in turn gets smaller and slimmer. No more does our parents bother us to go and pay telephone or electricity bills (if you were a 90’s kid :P) neither does shopkeepers curse you for not having suitable denominations. It has all come down to few swipes and touches. As new innovations brought the world closer and time shorter, it has not come without any drawbacks, same with the case of smartphones. Again, it’s the...</description>
-        <pubDate>Fri, 04 Aug 2017 01:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Smartphones-and-health/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Smartphones-and-health/</guid>
-        
-        <category>Smartphone</category>
-        
-        <category>Negative effects</category>
         
         
         <category>Piston</category>

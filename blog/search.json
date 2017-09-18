@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "BitTorrent Explained",
+      "category" : "CompSoc",
+      "tags"     : "Networking, Torrents, and P2P",
+      "url"      : "http://ieeenitk.org/blog//BitTorrentExplained/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Storing energy in molten salt",
+      "category" : "Piston",
+      "tags"     : "Energy, Research, and Innovation",
+      "url"      : "http://ieeenitk.org/blog//storing-energy-in-salt!/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "What makes a Smart Home Smart",
+      "category" : "Diode",
+      "tags"     : "Smart homes and IoT",
+      "url"      : "http://ieeenitk.org/blog//What-Makes-a-Smart-Home-Smart/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
       "title"    : "Water Memory What A Memory",
       "category" : "CAS",
       "tags"     : "Water Memory",
