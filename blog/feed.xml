@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Sep 2017 22:40:28 +0530</pubDate>
-    <lastBuildDate>Mon, 18 Sep 2017 22:40:28 +0530</lastBuildDate>
+    <pubDate>Mon, 18 Sep 2017 22:47:12 +0530</pubDate>
+    <lastBuildDate>Mon, 18 Sep 2017 22:47:12 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -42,6 +42,22 @@
         
         
         <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>What makes a Smart Home Smart</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?&lt;/p&gt; &lt;p&gt;With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even you’re your coffee maker, every electrical appliance in our homes can be hooked up the home network. This will basically allow us to control our entire house with our laptops or something as simple as...</description>
+        <pubDate>Mon, 18 Sep 2017 10:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</guid>
+        
+        <category>Smart homes</category>
+        
+        <category>IoT</category>
+        
+        
+        <category>Diode</category>
         
       </item>
     
@@ -154,20 +170,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>A QuickStart Guide to Image Processing with OpenCV</title>
-        <description>&lt;h3 id=&quot;why-learn-image-processing&quot;&gt;Why learn Image Processing?&lt;/h3&gt; &lt;p&gt;This is the question I was primarily asked when I first started exploring just exactly what Image Processing can offer. As time passed, I soon found the now seemingly obvious answer. Although the name, Image Processing, itself suggests manipulating an image for either aesthetic pleasure or requirement, Image Processing actually provides a gateway for the next revolution in engineering. As more and more people become accustomed to having human tasks being done by machines, image processing becomes crucial in training and programming these machines to flourish. Image processing not only provides the framework for Computer...</description>
-        <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/opencv/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/opencv/</guid>
-        
-        <category>OpenCV</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
