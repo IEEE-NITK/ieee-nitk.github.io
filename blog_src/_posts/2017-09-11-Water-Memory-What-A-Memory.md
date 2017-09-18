@@ -36,8 +36,8 @@ Through this discovery which shows that water has a memory, according to scienti
 
 This has even been compared to the human body, of which each is incredibly unique and has an individual DNA unlike any other. Whilst the human body is made up of 70% water, conclusions could be drawn from these new discoveries that human tears _can hold a unique memory of an individual being_, through the body&#39;s store of water hosting a complete store of information that is linked to individual experience suggesting that everyone is globally connected by the water in the human body which travels through ongoing journeys, whereby information along the way is always stored.
 
-This video will give you a brief insight into the basic of water - Memory Theory.
 
+## Reference: 
+* Jess Murray Truth Theory
+* This video will give you a brief insight into the basic of water - Memory Theory.
 [Youtube](https://www.youtube.com/watch?v=ILSyt_Hhbjg&feature=youtu.be)
-
-Reference: Jess Murray Truth Theory
