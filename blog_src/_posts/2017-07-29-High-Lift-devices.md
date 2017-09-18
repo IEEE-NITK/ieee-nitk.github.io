@@ -4,11 +4,11 @@ title: "Ever wondered why exactly are high lift devices needed? Let me tell you.
 author_github: akula-sri-charan
 date: 2017-07-28 17:32:44
 image: '/assets/img/'
-description: 'this article explains the need for the usage of high lift devices'
+description: 'This article explains the need for the usage of high lift devices'
 tags:
 - High Lift devices
 categories:
-- IEEE
+- Piston
 github_username: 'akula-sri-charan'
 comments: true
 use_math: true
@@ -65,8 +65,8 @@ In addition to this, they might also have to face adverse pressure gradients alo
 Hence, the molecules which become devoid of energy while they try to overcome both viscous forces and adverse pressure gradients, cease to continue in the boundary layer and get separated from the skin of the airfoil. 
 This is what is called as a stall.
 
-![](/blog/assets/img/High-Lift-devices/phew.jpg)
-![](/blog/assets/img/High-Lift-devices/boost.jpg)
+![Tired Man](/blog/assets/img/High-Lift-devices/phew.jpg)
+![Dhoni Boost](/blog/assets/img/High-Lift-devices/boost.jpg)
 
 When M. S. Dhoni, or Sachin Tendulkar if you think of him, faces a similar situation, he takes a cup of Boost in order to continue playing. 
 On similar lines, if one can, somehow, provide energy to the flow, the stall will be delayed thus making it possible to increase the critical angle of attack.
@@ -96,8 +96,8 @@ The effect of flaps and slats is shown below.
 
 ![Chords](/blog/assets/img/High-Lift-devices/chords.gif)
 
-<img src="/blog/assets/img/High-Lift-devices/slats1.png" />
-<img src="/blog/assets/img/High-Lift-devices/slats2.png" />
+![Slats](/blog/assets/img/High-Lift-devices/slats1.png)
+![Slats](/blog/assets/img/High-Lift-devices/slats2.png)
   
 ### Boundary layer control and Blown Flaps
 
@@ -105,7 +105,7 @@ These come under the powered high lift systems.
 Generally, these systems involve blowing of air from some powered source, like compressor of an engine or exhaust of the engine, using ducts and other mechanisms to achieve the desired lift characteristics. 
 Here is a small description of such devices.
 
-![](/blog/assets/img/High-Lift-devices/img3.jpg)
+![Engine Air](/blog/assets/img/High-Lift-devices/img3.jpg)
 
 ### Leading Edge Root Extensions
 
@@ -115,5 +115,5 @@ At higher angles of attack, however, it generates a vortex that is positioned t
 The swirling action of the vortex increases the speed of airflow over the wing, so reducing the pressure and providing greater lift. 
 LERX systems are notable for the potentially large angles in which they are effective.
 
-![](/blog/assets/img/High-Lift-devices/lerx.png)
-![](/blog/assets/img/High-Lift-devices/lerx.jpg)
+![LERX Systems](/blog/assets/img/High-Lift-devices/lerx.png)
+![Graphical Lerx](/blog/assets/img/High-Lift-devices/lerx.jpg)

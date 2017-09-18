@@ -38,7 +38,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
     <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
+<!--     <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
@@ -61,7 +61,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/img/icons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/icons/favicon-16x16.png">
-	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+ -->	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -84,9 +84,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/Hello-World/">
+    <link rel="canonical" href="/blog/Hello-World/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-    href="http://ieeenitk.org/blog/blog/feed.xml" />
+    href="http://ieeenitk.org/blog/feed.xml" />
 
     
 </head>
@@ -97,7 +97,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-26 10:48:33 +0000" class="date">26 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-26 16:18:33 +0530" class="date">26 May 2017</time>
         
         <h1 class="post-title" itemprop="name">Hello World</h1>
         <p itemprop="description" class="subtitle">A not so simple Hello World (PS: No need to buy the full version)</p>
@@ -178,7 +178,7 @@ void main() // An entry function
   <li><code class="highlighter-rouge">printf()</code> is a C function that is used to print formatted (printf - print format) strings.</li>
 </ol>
 
-<p><img src="/blog/assets/img/Hello-World/intro.png" /></p>
+<p><img src="/blog/assets/img/Hello-World/intro.png" alt="Introduction" /></p>
 
 <p>Let us start unravelling some of the complexities of the example program.</p>
 
@@ -228,7 +228,7 @@ extern int sprintf (char *__restrict __s,
 
 <p>The preprocessing and compilation, both of them are done by the same program: cc1. The <code class="highlighter-rouge">cc1</code> executable is a part of the gcc suite of programs. But, hang on! What is this <em>&lt;stdio.h&gt;</em>? Angle brackets(yeah, that is what &lt;&gt; are actually called. Not less/greater than symbols) tells the preprocessor that the file inside is present in the standard library path. It is usually defined in an environment variable called C_INCLUDE_PATH. You can also add directories to search for headers with the <code class="highlighter-rouge">-I</code> flag in gcc. (Example: <code class="highlighter-rouge">gcc -I foo/bar &lt;file&gt;.c</code> will make gcc search for .h files in foo/bar/ directory first, and then the remaining directories in C_INCLUDE_PATH). For shorthand purposes, you can write <code class="highlighter-rouge">#include "foo.h"</code> if you want gcc to add foo.h from the current directory.</p>
 
-<p>We also see that printf is actually defined here. Which is why, folks! you get warnings if you use printf without including the library. But, hold on. Where is the implementation of the printf? To answer the question, please buy the full version here <a href="">#</a></p>
+<p>We also see that printf is actually defined here. Which is why, folks! you get warnings if you use printf without including the library. But, hold on. Where is the implementation of the printf? To answer the question, please buy the full version here.</p>
 
 <h2 id="compilation">Compilation</h2>
 
@@ -359,7 +359,7 @@ void _start()
         <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/adithyabk.jpg" alt="Adithya Bhat">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="https://github.com/adithyabhatkajake">Adithya Bhat</a>
+            <a itemprop="name" href="/">Adithya Bhat</a>
         </h3>
         <p class="desc">C, Linux and cryptography - My deathly hallows</p>
         <a itemprop="email" class="email" href="mailto:dth.bht@gmail.com">dth.bht@gmail.com</a>

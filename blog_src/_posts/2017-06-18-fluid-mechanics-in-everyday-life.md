@@ -12,6 +12,7 @@ categories:
 github_username: 'shreyas'
 comments: true
 ---
+
 ## Applying Makeup!
 ![Image1](/blog/assets/img/fluid-mech-everyday-life/1.jpg)
 

@@ -48,7 +48,7 @@ We want the transistor to operate as a switch, so we will use the LEDs as loads 
 
 Get the components on to a perforated board and solder the connections once you check them. It is advised not to use a breadboard if you're using longer LED strips, you could leave residues on the breadboard or even completely damage it.
 
-![Transistor Switch](https://www.electronicspoint.com/attachments/plans-jpeg.4315/)
+![Transistor Switch](/blog/assets/img/lighting-up-your-room/plans.jpeg)
 
 That's how to make your room cooler! Engineering FTW!
 

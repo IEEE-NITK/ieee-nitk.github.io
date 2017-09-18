@@ -28,7 +28,7 @@ As a real world example I present to you the following problem on traffic lanes.
 
 Suppose you are in a heavy traffic and want to change lanes (you cannot do that in my country India though, because we don't have many lanes ☹). When do you switch lanes? When the lane beside you are faster than the current one? Which is a good approach in the long run?
 
-![](/blog/asssets/img/rock-paper-scissors/traffic.jpg)
+![Traffic](/blog/assets/img/rock-paper-scissors/traffic.jpg)
 
 Let us first make the simple assumption that a lane is faster only because it has fewer number of vehicles. Suppose you are impatient and switch to the fast lane. If there aren't many who think like you, then it is your lucky day. If not, the fast lane will get crowded and become the slow lane. If everyone thinks in this way and stays in the same lane, then the lanes maintain their speed and you have to waste your time. So, either way, you can only do a successful thing provided the others don't think of the same strategy as you.
 

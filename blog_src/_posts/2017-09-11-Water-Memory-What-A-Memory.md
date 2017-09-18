@@ -1,19 +1,18 @@
 ---
 layout: post
-title: "Water Memory, What A Memory"
+title: "Water Memory What A Memory"
 author_github: ayush9753
 date: 2017-09-11 10:00:00'
 image: '/assets/img/'
 description: 'Know about this very new form of memory-the water memory concept and its significance.'
 tags:
-- Water memory
+- Water Memory
 categories:
 - CAS
-- IEEE NITK
 github_username: 'ayush9753'
 ---
 
-What would you preferably use to store your precious data- a hard disk, a pen-drive, a DVD; or perhaps WATER!
+What would you preferably use to store your precious data - a hard disk, a pen-drive, a DVD; or perhaps WATER!
 
 Scientists from Germany now believe that water has a memory, meaning that what once was seen as a simple commodity has been closely examined to reveal a scientific revelation, uncovering a mind-blowing truth.
 
@@ -37,8 +36,8 @@ Through this discovery which shows that water has a memory, according to scienti
 
 This has even been compared to the human body, of which each is incredibly unique and has an individual DNA unlike any other. Whilst the human body is made up of 70% water, conclusions could be drawn from these new discoveries that human tears _can hold a unique memory of an individual being_, through the body&#39;s store of water hosting a complete store of information that is linked to individual experience suggesting that everyone is globally connected by the water in the human body which travels through ongoing journeys, whereby information along the way is always stored.
 
-This video will give you a brief insight into the basic of water - memory theory.
+This video will give you a brief insight into the basic of water - Memory Theory.
 
-[Youtube](https://youtu.be/ILSyt_Hhbjg)
+[Youtube](https://www.youtube.com/watch?v=ILSyt_Hhbjg&feature=youtu.be)
 
 Reference: Jess Murray Truth Theory

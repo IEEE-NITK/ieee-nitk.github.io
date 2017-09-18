@@ -5,9 +5,23 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Sep 2017 21:17:37 +0530</pubDate>
-    <lastBuildDate>Sat, 09 Sep 2017 21:17:37 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Sat, 16 Sep 2017 00:46:25 +0530</pubDate>
+    <lastBuildDate>Sat, 16 Sep 2017 00:46:25 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Water Memory What A Memory</title>
+        <description>&lt;p&gt;What would you preferably use to store your precious data - a hard disk, a pen-drive, a DVD; or perhaps WATER!&lt;/p&gt; &lt;p&gt;Scientists from Germany now believe that water has a memory, meaning that what once was seen as a simple commodity has been closely examined to reveal a scientific revelation, uncovering a mind-blowing truth.&lt;/p&gt; &lt;h2 id=&quot;theory&quot;&gt;Theory&lt;/h2&gt; &lt;p&gt;Individual drops of water from the same sample were examined at incredibly high magnification, probably the first experiment of this kind and surprisingly scientists were able to physically see that each droplet of water has its own &lt;em&gt;individual microscopic pattern,&lt;/em&gt; distinguishable from the next...</description>
+        <pubDate>Mon, 11 Sep 2017 10:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Water-Memory-What-A-Memory/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Water-Memory-What-A-Memory/</guid>
+        
+        <category>Water Memory</category>
+        
+        
+        <category>CAS</category>
+        
+      </item>
     
       <item>
         <title>Rock Paper Scissors</title>
@@ -156,24 +170,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Of a tooth and a pie</title>
-        <description>&lt;p&gt;At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. Give you a little insight into how it works, the various layers of Bluetooth, it’s profiles and so on. But I guess Wikipedia would do a much better job at it. So, I decided to share something I learned during my internship- how we can &lt;strong&gt;make use of the inbuilt Bluetooth controller in Raspberry Pi 3 to implement some of the profiles of Bluetooth.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;First, you need to know that &lt;strong&gt;Raspberry Pi&lt;/strong&gt; is nothing but a Linux machine and can be governed by some commands that you...</description>
-        <pubDate>Fri, 04 Aug 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/raspberry-pi-bluetooth/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/raspberry-pi-bluetooth/</guid>
-        
-        <category>Bluetooth</category>
-        
-        <category>Raspberry Pi 3</category>
-        
-        <category>Internship</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
