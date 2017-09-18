@@ -59,11 +59,3 @@ Once the file is completely downloaded, the leacher becomes an additional seeder
 It is quite clear how using this protocol to transfer data is different than the orthodox method. The download in this case is in a random order, whereas it is sequential otherwise. There are security concerns that have been raised about the misuse of the technology, as it is harder to track down several different hosts rather than a single host. 
 
 For further reference, you can read up on [Wikipedia](https://en.wikipedia.org/wiki/BitTorrent#Technologies_built_on_BitTorrent) or watch this video on [YouTube](https://www.youtube.com/watch?v=urzQeD7ftbI)
- 
-
-
-
-
-
-
-
