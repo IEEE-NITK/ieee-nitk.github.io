@@ -25,6 +25,14 @@
     } ,
   
     {
+      "title"    : "You don&#39;t really know Arduino",
+      "category" : "Diode",
+      "tags"     : "Arduino",
+      "url"      : "http://ieeenitk.org/blog//you-dont-really-know-arduino/",
+      "date"     : "12 Sep 2017"
+    } ,
+  
+    {
       "title"    : "Water Memory What A Memory",
       "category" : "CAS",
       "tags"     : "Water Memory",
