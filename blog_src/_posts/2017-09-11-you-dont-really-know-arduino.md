@@ -17,7 +17,7 @@ Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino i
 * It is too simple
 * It's performance is limited
 * It does not feels like embedded programming
-* There is a library for literally everything (sounds like an advantage?
+* There is a library for literally everything (sounds like an advantage?)
   
 Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. "*It Kills the Spirit of Embedded Programming.*" And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it's the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL's (now owned by Microchip) AVR Studio to program these boards, it's yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. *Arduino does have advantages over its primitive alternatives.*
 
@@ -30,7 +30,7 @@ My point is that Arduino is good for building projects quickly and hassle-free b
 ```
 "*Done!*"
 
-So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one's comfort Arduino IDE supports it out of the box. (right after installation?
+So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one's comfort Arduino IDE supports it out of the box. (right after installation?)
 
 ### The conservative face of Arduino
 
@@ -81,12 +81,12 @@ Still not convinced about the boost in performance possible by coding using prim
 
 If you think that speed and space is the only argument then let me include power considerations. AVR micro-controllers come with a bunch of peripherals that may or maynot be used by your code. In a scenario where the entire setup runs on a battery you might want to shut down unused peripherals (like ADC or counter units) to save power and increase the running time. Kevin Darrah's [video](https://www.youtube.com/watch?v=urLSDi7SD8M) will help you appreciate the power saver modes the micro-controller offers.
 
-On the already fantastic recipe of Arduino the icing is yet to come.:yum: You can code the __blocks that need to be fast__ for your project using primitive C codes and still use the abstract arduino functions for the __less time critical part__ of the code. For example, If you are working on a fast multiplexing application like an LED cube where data is sent to Arduino from PC, you would want to make sure that multiplexing is done at a very high speed (enough to fool human eyes at least) whereas you can still use the Serial.read() function to fetch data over serial port. 
+On the already fantastic recipe of Arduino the icing is yet to come. You can code the __blocks that need to be fast__ for your project using primitive C codes and still use the abstract arduino functions for the __less time critical part__ of the code. For example, If you are working on a fast multiplexing application like an LED cube where data is sent to Arduino from PC, you would want to make sure that multiplexing is done at a very high speed (enough to fool human eyes at least) whereas you can still use the Serial.read() function to fetch data over serial port. 
 
 >A word of advice: While programming in such a mixed style make sure the code doesn't create conflicts with itself (like trying digitalWrite() on a pin which is configured to read analog values).  
 
 ### Ready, Steady, Go!
 
-Congratulations if you made it till the end of this blog. Hopefully your arduino sketches are more optimized and gives you that _sense of pride_.:sunglasses: Now what are you waiting for? Find your arduino and maybe make an 8x8x8 multiplexed L.E.D cube or something! 
+Congratulations if you made it till the end of this blog. Hopefully your arduino sketches are more optimized and gives you that _sense of pride_. Now what are you waiting for? Find your arduino and maybe make an 8x8x8 multiplexed L.E.D cube or something! 
 
 ![Credits AVRfreaks](http://www.avrfreaks.net/sites/default/files/4CubeWave.gif)
