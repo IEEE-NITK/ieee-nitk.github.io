@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Sep 2017 22:36:07 +0530</pubDate>
-    <lastBuildDate>Wed, 20 Sep 2017 22:36:07 +0530</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2017 08:58:04 +0530</pubDate>
+    <lastBuildDate>Thu, 21 Sep 2017 08:58:04 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -63,7 +63,7 @@
     
       <item>
         <title>You don't really know Arduino</title>
-        <description>&lt;p&gt;Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making &lt;strong&gt;witty&lt;/strong&gt; electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;It is too simple&lt;/li&gt; &lt;li&gt;It’s performance is limited&lt;/li&gt; &lt;li&gt;It does not feels like embedded programming&lt;/li&gt; &lt;li&gt;There is a library for literally everything (sounds like an advantage?&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “&lt;em&gt;It...</description>
+        <description>&lt;p&gt;Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making &lt;strong&gt;witty&lt;/strong&gt; electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;It is too simple&lt;/li&gt; &lt;li&gt;It’s performance is limited&lt;/li&gt; &lt;li&gt;It does not feels like embedded programming&lt;/li&gt; &lt;li&gt;There is a library for literally everything (sounds like an advantage?)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “&lt;em&gt;It...</description>
         <pubDate>Tue, 12 Sep 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/you-dont-really-know-arduino/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/you-dont-really-know-arduino/</guid>
