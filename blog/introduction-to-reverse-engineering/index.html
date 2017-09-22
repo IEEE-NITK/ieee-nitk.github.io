@@ -37,31 +37,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
-    <!-- Apple Touch Icons -->
-<!--     <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/img/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/img/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/img/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/img/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/img/icons/apple-touch-icon-152x152.png" />
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/img/icons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/img/icons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/img/icons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/img/icons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/img/icons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/blog/assets/img/icons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/blog/assets/img/icons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/img/icons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/icons/favicon-16x16.png">
- -->	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+    <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -175,28 +151,24 @@ You find the trigger was displaced and unable to release the lock and hence you 
 
 <p>We use gdb to find the addresses of password_buffer and auth_flag variables and find that there is 28 bytes gap between them. Hence any string of greater length will write in the address of auth_flag giving it a positive value and hence grant access. Hence we have broken into the password checking system!! In fact, this is a common method called buffer overflow. Well, that was fun. <strong>Fire in the</strong> loop<strong>hole</strong>!(CS fans here? :P ). Unfortunately, most compilers do not allow overflow these days. We have allowed overflow in this program by using the command ‘-zexecstack -fno-stack-protector -g’ while compiling (Don’t worry, even I cannot read that xD).</p>
 
-<p>Lets see what you can do with the understanding you gained. You can:</p>
-<ul>
-  <li>replicate the product</li>
-  <li>fix bug issues</li>
-  <li>add extra features</li>
-  <li>acquire extra access</li>
-  <li>find loopholes to understand the flaws in your software</li>
-  <li>Or do it for fun :)</li>
-</ul>
+<p>Lets see what you can do with the understanding you gained. You can:
+*	replicate the product
+*	fix bug issues
+*	add extra features
+*	acquire extra access
+*	find loopholes to understand the flaws in your software
+*	Or do it for fun :)</p>
 
 <p>All these things can result into ethical or unethical hacking, hackers and crackers respectively. An interesting question for everyone. Is it legal? If you have got the software legally, you are free to reverse engineer it but replicating it exactly will be a problem. Check this interesting solution to the problem! :P</p>
 
 <p><img src="/blog/assets/img/introduction-to-reverse-engineering/6.jpg" alt="Image5" /></p>
 
-<p>How to start?</p>
-<ol>
-  <li>“Hacking – The art of exploitation” is a good book</li>
-  <li>Learn how computers work at lower level</li>
-  <li>Programming in assembly language</li>
-  <li>Tools like gdb, radare2 will help you disassemble the executable</li>
-  <li>Play CTFs – They are fun and will help you improve your skills!!</li>
-</ol>
+<p>How to start?
+1. “Hacking – The art of exploitation” is a good book
+2. Learn how computers work at lower level
+3. Programming in assembly language
+4. Tools like gdb, radare2 will help you disassemble the executable
+5. Play CTFs – They are fun and will help you improve your skills!!</p>
 
 <p>So, That was about it! Have a great Summer!
 Any doubts, feel free to ask :) !</p>

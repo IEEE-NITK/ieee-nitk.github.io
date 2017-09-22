@@ -17,7 +17,7 @@ github_username: 'anirudh0707'
 
 When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?
 
-With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even you're your coffee maker, every electrical appliance in our homes can be hooked up the home network. This will basically allow us to control our entire house with our laptops or something as simple as our smart-phone. These smart homes are now very common and have now started to create a revolution.
+With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even your coffee maker, every electrical appliance in our homes can be hooked up to the home network. This will basically allow us to control our entire house with our laptops or something as simple as our smart-phone. These smart homes are now very common and have now started to create a revolution.
 
 ## What is the principle behind it?
 

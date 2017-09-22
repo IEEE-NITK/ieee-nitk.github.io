@@ -37,31 +37,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
-    <!-- Apple Touch Icons -->
-<!--     <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/img/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/img/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/img/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/img/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/img/icons/apple-touch-icon-152x152.png" />
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/img/icons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/img/icons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/img/icons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/img/icons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/img/icons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/blog/assets/img/icons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/blog/assets/img/icons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/img/icons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/icons/favicon-16x16.png">
- -->	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+    <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -178,7 +154,7 @@
 </code></pre>
 </div>
 
-<h3 id="stdunordered_map">$std::unordered$_$map$</h3>
+<h3 id="stdunorderedmap">$std::unordered$_$map$</h3>
 <div class="highlighter-rouge"><pre class="highlight"><code>1. Implemented with a hash function
 2. Elements are not sorted.
 3. Requires additional memory to keep the hash-table.
@@ -186,7 +162,7 @@
 </code></pre>
 </div>
 
-<h3 id="why-use-stdmap-over-stdunordered_map">Why use $std::map$ over $std::unordered$_$map$?</h3>
+<h3 id="why-use-stdmap-over-stdunorderedmap">Why use $std::map$ over $std::unordered$_$map$?</h3>
 <p>A quick look at the comparison between the two containers gives us the impression that we should use $std::unordered$_$map$ in most cases (except those where we require a sorted traversal through all keys), and we would be right to do so normally. After all, $O(1)$ lookup and insertion is a lot more appealing than the $O(log N)$ operations of $std::map$. However, there are a few things to keep in mind. Namely that the worst-case runtime of unordered_map is $O(N)$ not $O(1)$. This is because of how it is implemented. As we’ll see later, hash functions have a chance of “colliding”; that is, two distinct inputs to the hash function give the same output. This causes the unordered_map to store the associated values corresponding to these colliding keys in a list. In the worst case, when all keys collide, the lookup time for each key is $O(N)$.</p>
 
 <p>For more:<a href="http://codeforces.com/blog/entry/44731">Reference 1</a>

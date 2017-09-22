@@ -37,31 +37,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
-    <!-- Apple Touch Icons -->
-<!--     <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/img/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/img/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/img/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/img/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/img/icons/apple-touch-icon-152x152.png" />
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/img/icons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/img/icons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/img/icons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/img/icons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/img/icons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/blog/assets/img/icons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/blog/assets/img/icons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/blog/assets/img/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/blog/assets/img/icons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/blog/assets/img/icons/favicon-16x16.png">
- -->	<link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+    <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -161,20 +137,20 @@ Last year, a lot of people came to my room for installing ubuntu on their machin
 
 <p>So, this brief blog gives instructions on installing Ubuntu alongside Windows as a dual boot OS.</p>
 
-<h3 id="1-creating-a-partition-for-ubuntu">1. Creating a partition for Ubuntu</h3>
+<h3 id="creating-a-partition-for-ubuntu">1. Creating a partition for Ubuntu</h3>
 
 <p>First thing we need to do is create a partition to install ubuntu. If you already have a partition, empty it and format it. If you don’t have one, follow this <a href="http://www.wikihow.com/Partition-Your-Hard-Drive-in-Windows-7">page</a>.
 <em>Remeber the size of the partition you desire, it will be usefull later.</em></p>
 
-<h3 id="2-create-bootable-live-usb">2. Create Bootable Live USB</h3>
+<h3 id="create-bootable-live-usb">2. Create Bootable Live USB</h3>
 
 <p><a href="https://www.ubuntu.com/download/desktop">Download</a> and create a live USB or DVD. In Windows, my favorite tool to create a live USB is <a href="http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/">Universal USB Installer</a>.</p>
 
-<h3 id="3-boot-up-the-live-usb">3. Boot up the Live USB</h3>
+<h3 id="boot-up-the-live-usb">3. Boot up the Live USB</h3>
 
 <p>Now insert the USB into machine, restart and boot into USB drive from the <strong>Boot Options Menu</strong>. Google for hotkey to get into <strong>Boot Menu Options</strong> of your machine model.</p>
 
-<h3 id="4-start-installation">4. Start Installation</h3>
+<h3 id="start-installation">4. Start Installation</h3>
 
 <p>When prompted for options on booting, select <strong>Install Ubuntu</strong></p>
 
@@ -184,7 +160,7 @@ Last year, a lot of people came to my room for installing ubuntu on their machin
 
 <p><img src="/blog/assets/img/installing_ubuntu/first_few.jpg" alt="First Few Screens" /></p>
 
-<h3 id="5-preparing-partition-for-ubuntu">5. Preparing Partition for Ubuntu</h3>
+<h3 id="preparing-partition-for-ubuntu">5. Preparing Partition for Ubuntu</h3>
 
 <p>After few screens, you will be prompted for <strong>Installation Type</strong>. Choose <strong>Something Else</strong> and continue.</p>
 
@@ -194,7 +170,7 @@ Last year, a lot of people came to my room for installing ubuntu on their machin
 
 <p><img src="/blog/assets/img/installing_ubuntu/delete_partition.jpg" alt="Ubuntu" /></p>
 
-<h3 id="6-create-root-swap-and-home-partition">6. Create root, swap and home partition</h3>
+<h3 id="create-root-swap-and-home-partition">6. Create root, swap and home partition</h3>
 
 <p>Now selecting the same partition, click <strong>+</strong> to create <strong>root</strong> partition.
 Enter size <em>14000 MB</em>, select <em>Logical Partition type</em>, <em>Begining of space</em>, and select <strong>/</strong> as <em>Mount Point</em>. Create the partition.</p>
@@ -225,12 +201,12 @@ Enter size <em>14000 MB</em>, select <em>Logical Partition type</em>, <em>Begini
 
 <p>Now select <strong>Install Now</strong></p>
 
-<h3 id="7-follow-next-screens">7. Follow next screens</h3>
+<h3 id="follow-next-screens">7. Follow next screens</h3>
 
 <p>Your ubuntu installation should begin by now, follow the screens prompted for user name and password and general system setup. 
 After few minutes, the installation will complete</p>
 
-<h3 id="8-reboot-and-enjoy">8. Reboot and Enjoy!</h3>
+<h3 id="reboot-and-enjoy">8. Reboot and Enjoy!</h3>
 
 <p>Your ubuntu installation is complete. Reboot the machine to get into Ubuntu. Don’t worry, you can still use Windows.</p>
 
