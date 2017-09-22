@@ -150,10 +150,22 @@ Configuration file: none
 
 - Visit your the address next to "Server address" on your browser to see the local version of your blog running, in my case http://127.0.0.1:4000
 
-## Step 4: Publishing your article
+## Step 4: Testing your article
+
+- To test if you're article has passed all cases and would be working fine, use the following code to check. If you haven't installed the gem `html-proofer` you can install it by using the following command.
+```
+sudo gem install html-proofer
+```
+
+- If you have already installed the above gem, you can run the script by going to the root folder and then running the following command.
+```
+./scripts/cibuild
+```
+
+
+## Step 5: Publishing your article
 
 Create a new branch in your local repo by the command `git checkout -b <branch_name>`
-
 
 Commit and push your changes to your repository. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
 
