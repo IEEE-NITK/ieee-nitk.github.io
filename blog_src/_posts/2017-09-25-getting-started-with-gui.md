@@ -2,7 +2,7 @@
 layout: post
 title: "Getting Started with GUIs"
 author_github: archpndy
-date: 2017-09-18 10:00:30
+date: 2017-09-25 10:00:30
 image: '/assets/img/'
 description: 'Stepping into software development'
 tags:
