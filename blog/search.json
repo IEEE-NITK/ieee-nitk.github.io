@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Getting Started with GUIs",
+      "category" : "CompSoc",
+      "tags"     : "GUI, GTK+, and Gnome",
+      "url"      : "http://ieeenitk.org/blog//getting-started-with-gui/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
       "title"    : "BitTorrent Explained",
       "category" : "CompSoc",
       "tags"     : "Networking, Torrents, and P2P",

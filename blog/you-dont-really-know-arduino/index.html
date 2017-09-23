@@ -126,11 +126,13 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:
-* It is too simple
-* It’s performance is limited
-* It does not feels like embedded programming
-* There is a library for literally everything (sounds like an advantage?)</p>
+                <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:</p>
+<ul>
+  <li>It is too simple</li>
+  <li>It’s performance is limited</li>
+  <li>It does not feels like embedded programming</li>
+  <li>There is a library for literally everything (sounds like an advantage?)</li>
+</ul>
 
 <p>Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “<em>It Kills the Spirit of Embedded Programming.</em>” And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it’s the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL’s (now owned by Microchip) AVR Studio to program these boards, it’s yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. <em>Arduino does have advantages over its primitive alternatives.</em></p>
 
@@ -138,10 +140,10 @@
 
 <p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
 
-<p><code class="highlighter-rouge">c
-#include &lt;servo.h&gt; 
-</code>
-“<em>Done!</em>”</p>
+<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
+</span></code></pre>
+</div>
+<p>“<em>Done!</em>”</p>
 
 <p>So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one’s comfort Arduino IDE supports it out of the box. (right after installation?)</p>
 
@@ -170,24 +172,24 @@
 <h3 id="an-example">An Example</h3>
 <p>Enough with the blabbering, lets look at a simple example.</p>
 
-<p>```c
-#define BLINK_DELAY_MS 1000
-void setup()
-{
- //set pin 5 of PORTB to output
- DDRB |= _BV(DDB5);
- }</p>
-
-<p>void loop()
-{
-  //set pin 5 high to turn led on
-  PORTB |= _BV(PORTB5);
-  _delay_ms(BLINK_DELAY_MS);
-  //set pin 5 low to turn led off
-  PORTB &amp;= ~_BV(PORTB5);
-  _delay_ms(BLINK_DELAY_MS);
-}
-```</p>
+<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
+</span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<span class="p">{</span>
+ <span class="c1">//set pin 5 of PORTB to output
+</span> <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
+ <span class="p">}</span>
+ 
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="c1">//set pin 5 high to turn led on
+</span>  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
+  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
+  <span class="c1">//set pin 5 low to turn led off
+</span>  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
+  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre>
+</div>
 
 <p>If you copy-paste the above code to Arduino IDE and upload it, it will mimic the classic Blink LED  code. The catch is that the built in Blink example takes 928 bytes of program memory while the above code takes just 486 bytes. (Almost half the space!)</p>
 

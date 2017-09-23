@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Sep 2017 15:55:35 +0530</pubDate>
-    <lastBuildDate>Fri, 22 Sep 2017 15:55:35 +0530</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sat, 23 Sep 2017 15:56:35 +0530</pubDate>
+    <lastBuildDate>Sat, 23 Sep 2017 15:56:35 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Getting Started with GUIs</title>
+        <description>&lt;p&gt;While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And the first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, you’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.&lt;/p&gt; &lt;h1 id=&quot;what-are-guis&quot;&gt;What are &lt;em&gt;GUIs&lt;/em&gt;?&lt;/h1&gt; &lt;p&gt;According to Wikipedia, the graphical user interface, is a type of user interface that...</description>
+        <pubDate>Mon, 18 Sep 2017 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/getting-started-with-gui/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/getting-started-with-gui/</guid>
+        
+        <category>GUI</category>
+        
+        <category>GTK+</category>
+        
+        <category>Gnome</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>BitTorrent Explained</title>
@@ -62,8 +80,8 @@
       </item>
     
       <item>
-        <title>You don&#39;t really know Arduino</title>
-        <description>&lt;p&gt;Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making &lt;strong&gt;witty&lt;/strong&gt; electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons: * It is too simple * It’s performance is limited * It does not feels like embedded programming * There is a library for literally everything (sounds like an advantage?)&lt;/p&gt; &lt;p&gt;Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the...</description>
+        <title>You don't really know Arduino</title>
+        <description>&lt;p&gt;Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making &lt;strong&gt;witty&lt;/strong&gt; electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;It is too simple&lt;/li&gt; &lt;li&gt;It’s performance is limited&lt;/li&gt; &lt;li&gt;It does not feels like embedded programming&lt;/li&gt; &lt;li&gt;There is a library for literally everything (sounds like an advantage?)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “&lt;em&gt;It...</description>
         <pubDate>Tue, 12 Sep 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/you-dont-really-know-arduino/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/you-dont-really-know-arduino/</guid>
@@ -150,26 +168,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Hashing in Competitive Programming</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;At it’s most basic hashing is a technique to identify a particular value of a certain type among other values of the same type. To achieve this we typically make use of a hash function: a function that takes a value of the required type as input and generates a “key” that (hopefully) can uniquely identify this value. In this article we’ll look at how this function works, how it’s implemented in C++, and how to apply hashing to solve a Competitive Programming problem.&lt;/p&gt; &lt;h2 id=&quot;hashing-in-c&quot;&gt;Hashing in C++&lt;/h2&gt; &lt;p&gt;C++ offers 2 containers in C++ that are often useful...</description>
-        <pubDate>Tue, 22 Aug 2017 01:10:58 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</guid>
-        
-        <category>Hashing</category>
-        
-        <category>C++</category>
-        
-        <category>Competitive Programming</category>
-        
-        <category>Data Structures</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
