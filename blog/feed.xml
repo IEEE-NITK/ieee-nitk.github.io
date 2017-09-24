@@ -5,16 +5,16 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Sep 2017 15:56:35 +0530</pubDate>
-    <lastBuildDate>Sat, 23 Sep 2017 15:56:35 +0530</lastBuildDate>
+    <pubDate>Sun, 24 Sep 2017 22:22:02 +0530</pubDate>
+    <lastBuildDate>Sun, 24 Sep 2017 22:22:02 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
-        <title>Getting Started with GUIs</title>
-        <description>&lt;p&gt;While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And the first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, you’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.&lt;/p&gt; &lt;h1 id=&quot;what-are-guis&quot;&gt;What are &lt;em&gt;GUIs&lt;/em&gt;?&lt;/h1&gt; &lt;p&gt;According to Wikipedia, the graphical user interface, is a type of user interface that...</description>
+        <title>Quantum Computers and The Future of Computation</title>
+        <description>&lt;h3 id=&quot;background&quot;&gt;Background:&lt;/h3&gt; &lt;p&gt;Quantum Mechanics a realm of physics where the tiny subatomic particles reside and whose physics is beyond the perception of the classical physical world.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;1] What makes this realm so weird and different in working??!!!!!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The behaviour working of these particles was resolved by proposing of a mathematical model governed by the principle of Superposition, entanglement and tunnelling.&lt;/p&gt; &lt;p&gt;Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.&lt;/p&gt; &lt;p&gt;The first ever made quantum computer (fig 1)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;BREAKING THE MYTH OF SUPERPOSITION THEOREM&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Before dwelling...</description>
         <pubDate>Mon, 18 Sep 2017 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/getting-started-with-gui/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/getting-started-with-gui/</guid>
+        <link>http://ieeenitk.org/blog/quantum-computers/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/quantum-computers/</guid>
         
         <category>GUI</category>
         
