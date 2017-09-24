@@ -23,6 +23,7 @@ The behaviour working of these particles   was resolved by proposing of a mathem
 Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.
  
 The first ever made quantum computer (fig 1)
+![quantum computer](/blog/assets/img/quantum-computers/1.jpg)
 
 ## Breaking The Myth of Superposition Theorem
 
@@ -33,6 +34,8 @@ Before dwelling into the topic, I would like to make one thing clear the superpo
 A quantum computer maintains a sequence of qubits. A single qubit can represent a one, a zero, or any quantum superposition of those two qubit states a pair of qubits can be in any quantum superposition of 4 states, and three qubits in any superposition of 8 states. In general, a quantum computer with **N* qubits can be in an arbitrary superposition of up to 2^N{\displaystyle 2^{n}}different states simultaneously.
 
 The qubits can be made of quantities which obey the principles of Quantum Mechanics i.e. an electron spin or a proton spin can be considered as qubits where spin up represents a 0 state and spin down represents a 1 state or they can also be represented using polarised light meeting its applicability.
+
+![qubits](/blog/assets/img/quantum-computers/2.jpg)
 
 ## What Makes Quantum Computers so Special?!
 
@@ -70,13 +73,14 @@ Present computer puts a person or any object at the centre and tries all differe
 
 The quantum computers would work on superposition it would consider the object as if its probability density is spread all over the 3D space and it would consider them as different state probabilities and send it different path to check whether that (ball) object would reach out or not, in this case the computation would also involve the property of entanglement and tunnelling to determine the final out put in a single step.
 
- 
+![maze](/blog/assets/img/quantum-computers/3.jpg)
 
 *A] Shor's algorithm* - exponential speedup of factoring – Depends on fast quantum technique for finding the period of a periodic function
 
 *B] Grover's algorithm*  – quadratic speedup of search – works by gradually focusing an initially uniform superposition over all candidates into one concentrated on the designated element. Speedup arises from the fact that a linear growth of the amplitude of the desired element in the superposition causes a quadratic growth in the element's probability.
 
 
+![encryption](/blog/assets/img/quantum-computers/4.jpg)
 
 ## Encryption : Is Quantum Computing A Threat To Encryption
 
@@ -106,6 +110,7 @@ Its applications include what's called the quantum key distribution(QKD). Basica
 
 This is just one possible work around. Other methods are being developed, including code-based cryptography and lattice-based cryptography. In any case, there's time to improve it. In the same way that quantum computing is still being refined, network infrastructure can be improved to allow for quantum secure cryptography.
 
+![cryptography](/blog/assets/img/quantum-computers/5.jpg)
 
 ## For The Interested Ones
 
