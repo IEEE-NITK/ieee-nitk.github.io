@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Quantum Computers and The Future of Computation",
+      "category" : "CAS/SPS",
+      "tags"     : "Quantum Computing",
+      "url"      : "http://ieeenitk.org/blog//quantum-computers/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
       "title"    : "BitTorrent Explained",
       "category" : "CompSoc",
       "tags"     : "Networking, Torrents, and P2P",
