@@ -8,7 +8,7 @@ description: 'A look at the future of computing'
 tags:
 - Quantum Computing
 categories:
-- CAS/SPS
+- Diode
 github_username: 'sampathkoti'
 ---
 
@@ -22,8 +22,8 @@ The behaviour working of these particles   was resolved by proposing of a mathem
 
 Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.
  
-The first ever made quantum computer (fig 1)
 ![quantum computer](/blog/assets/img/quantum-computers/1.jpg)
+*The first ever made quantum computer*
 
 ## Breaking The Myth of Superposition Theorem
 
@@ -31,7 +31,7 @@ Before dwelling into the topic, I would like to make one thing clear the superpo
 
 ### Qubits
 
-A quantum computer maintains a sequence of qubits. A single qubit can represent a one, a zero, or any quantum superposition of those two qubit states a pair of qubits can be in any quantum superposition of 4 states, and three qubits in any superposition of 8 states. In general, a quantum computer with **N* qubits can be in an arbitrary superposition of up to 2^N{\displaystyle 2^{n}}different states simultaneously.
+A quantum computer maintains a sequence of qubits. A single qubit can represent a one, a zero, or any quantum superposition of those two qubit states a pair of qubits can be in any quantum superposition of 4 states, and three qubits in any superposition of 8 states. In general, a quantum computer with **N** qubits can be in an arbitrary superposition of up to 2^N{\displaystyle 2^{n}}different states simultaneously.
 
 The qubits can be made of quantities which obey the principles of Quantum Mechanics i.e. an electron spin or a proton spin can be considered as qubits where spin up represents a 0 state and spin down represents a 1 state or they can also be represented using polarised light meeting its applicability.
 
@@ -114,12 +114,12 @@ This is just one possible work around. Other methods are being developed, includ
 
 ## For The Interested Ones
 
-1. Shor's algorithm: [**www.youtube.com/watch?v=FA21Dj2l3Ac**](http://www.youtube.com/watch?v=FA21Dj2l3Ac)
+1. [Shor's algorithm](www.youtube.com/watch?v=FA21Dj2l3Ac)
 
-2. Maze analogy: [**https://www.nature.com/articles/ncomms11682**](https://www.nature.com/articles/ncomms11682)
+2. [Maze analogy](https://www.nature.com/articles/ncomms11682)
 
-3. Quantum crypto: [**http://www.popsci.com/what-is-quantum-cryptography**](http://www.popsci.com/what-is-quantum-cryptography)
+3. [Quantum crypto](http://www.popsci.com/what-is-quantum-cryptography)
 
-4. Cryptography: [**https://www.youtube.com/watch?v=Kf9KjCKmDcU&amp;list=PL7AEDF86AABA1AA9A**](https://www.youtube.com/watch?v=Kf9KjCKmDcU&amp;list=PL7AEDF86AABA1AA9A)
+4. [Crptography](https://www.youtube.com/watch?v=Kf9KjCKmDcU&amp;list=PL7AEDF86AABA1AA9A)
 
-5.  IBM: [**https://www.youtube.com/watch?v=jf7D8snlsnQ&amp;feature=youtu.be**](https://www.youtube.com/watch?v=jf7D8snlsnQ&amp;feature=youtu.be)
+5. [IBM](https://www.youtube.com/watch?v=jf7D8snlsnQ&amp;feature=youtu.be)
