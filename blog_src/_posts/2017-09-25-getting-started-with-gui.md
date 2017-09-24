@@ -120,6 +120,3 @@ GTK+ uses layouts to store the UI elements. First we create a widget for window 
 
 ## Going Forward
 We just created a simple program using GTK+. This has taught us how to respond to clicks and perform a function. And also that the basis for all UIs is a simple widget based structure. Understanding these two things can help us create usable programs. GTK+ is the toolkit used to code all of Ubuntu's GUI and most programs used on Linux and Windows. Hence it's capabilities shouldn't be underestimated. Learning the toolkit, can equip us to create complex UIs such as those seen on popular applications.
-
-
-

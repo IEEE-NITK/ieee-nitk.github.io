@@ -2,7 +2,7 @@
 layout: post
 title: "Quantum Computers and The Future of Computation"
 author_github: sampathkoti
-date: 2017-09-18 10:00:30
+date: 2017-09-25 10:00:30
 image: '/assets/img/'
 description: 'A look at the future of computing'
 tags:
@@ -112,14 +112,14 @@ This is just one possible work around. Other methods are being developed, includ
 
 ![cryptography](/blog/assets/img/quantum-computers/5.jpg)
 
-## For The Interested Ones
+## For The Interested Ones (Resources)
 
-1. [Shor's algorithm](www.youtube.com/watch?v=FA21Dj2l3Ac)
+* [Shor's algorithm](www.youtube.com/watch?v=FA21Dj2l3Ac)
 
-2. [Maze analogy](https://www.nature.com/articles/ncomms11682)
+* [Maze analogy](https://www.nature.com/articles/ncomms11682)
 
-3. [Quantum crypto](http://www.popsci.com/what-is-quantum-cryptography)
+* [Quantum crypto](http://www.popsci.com/what-is-quantum-cryptography)
 
-4. [Crptography](https://www.youtube.com/watch?v=Kf9KjCKmDcU&amp;list=PL7AEDF86AABA1AA9A)
+* [Crptography](https://www.youtube.com/watch?v=Kf9KjCKmDcU&amp;list=PL7AEDF86AABA1AA9A)
 
-5. [IBM](https://www.youtube.com/watch?v=jf7D8snlsnQ&amp;feature=youtu.be)
+* [IBM](https://www.youtube.com/watch?v=jf7D8snlsnQ&amp;feature=youtu.be)
