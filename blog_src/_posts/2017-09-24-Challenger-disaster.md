@@ -2,7 +2,7 @@
 layout: post
 title: "The Challenger Disaster"
 author_github: nikhilgovindarajan
-date: 2017-09-25 10:00:30
+date: 2017-09-24 10:00:30
 image: '/assets/img/'
 description: 'Examining a space exploration disaster'
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: "Quantum Computers and The Future of Computation"
 author_github: sampathkoti
-date: 2017-09-25 10:00:30
+date: 2017-09-24 10:00:30
 image: '/assets/img/'
 description: 'A look at the future of computing'
 tags:
@@ -114,7 +114,7 @@ This is just one possible work around. Other methods are being developed, includ
 
 ## For The Interested Ones (Resources)
 
-* [Shor's algorithm](www.youtube.com/watch?v=FA21Dj2l3Ac)
+* [Shor's algorithm](https://www.youtube.com/watch?v=FA21Dj2l3Ac)
 
 * [Maze analogy](https://www.nature.com/articles/ncomms11682)
 

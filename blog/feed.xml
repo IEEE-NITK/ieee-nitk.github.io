@@ -5,9 +5,59 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Sep 2017 23:40:46 +0530</pubDate>
-    <lastBuildDate>Sun, 24 Sep 2017 23:40:46 +0530</lastBuildDate>
+    <pubDate>Sun, 24 Sep 2017 23:44:18 +0530</pubDate>
+    <lastBuildDate>Sun, 24 Sep 2017 23:44:18 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Quantum Computers and The Future of Computation</title>
+        <description>&lt;h2 id=&quot;background&quot;&gt;Background:&lt;/h2&gt; &lt;p&gt;Quantum Mechanics a realm of physics where the tiny subatomic particles reside and whose physics is beyond the perception of the classical physical world.&lt;/p&gt; &lt;h3 id=&quot;1-what-makes-this-realm-so-weird-and-different-in-working&quot;&gt;1] What makes this realm so weird and different in working?&lt;/h3&gt; &lt;p&gt;The behaviour working of these particles was resolved by proposing of a mathematical model governed by the principle of Superposition, entanglement and tunnelling.&lt;/p&gt; &lt;p&gt;Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/quantum-computers/1.jpg&quot; alt=&quot;quantum computer&quot; /&gt; &lt;em&gt;The first ever made quantum computer&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;breaking-the-myth-of-superposition-theorem&quot;&gt;Breaking The Myth...</description>
+        <pubDate>Sun, 24 Sep 2017 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/quantum-computers/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/quantum-computers/</guid>
+        
+        <category>Quantum Computing</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started with GUIs</title>
+        <description>&lt;p&gt;While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And a good first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, we’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.&lt;/p&gt; &lt;h2 id=&quot;what-are-guis&quot;&gt;What are &lt;em&gt;GUIs&lt;/em&gt;?&lt;/h2&gt; &lt;p&gt;According to Wikipedia, the graphical user interface, is a type of user interface...</description>
+        <pubDate>Sun, 24 Sep 2017 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/getting-started-with-gui/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/getting-started-with-gui/</guid>
+        
+        <category>GUI</category>
+        
+        <category>GTK+</category>
+        
+        <category>Gnome</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>The Challenger Disaster</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;On January 28&lt;sup&gt;th&lt;/sup&gt; 1986, the scheduled launch for NASA’s space orbiter- the Challenger, took place as planned. But the launch was the only part of the mission that stuck to plan. 73 seconds after liftoff, the shuttle exploded and broke up, bringing a devastating end to the spacecraft’s 10&lt;sup&gt;th&lt;/sup&gt; mission, claiming all 7 lives onboard. All because of a tiny, rather overlooked aspect of a structure failing due to a very basic property of the given material.&lt;/p&gt; &lt;p&gt;After extensive failure analysis, it was determined that the failure of 2 rubber O-rings caused the disaster.&lt;/p&gt; &lt;p&gt;To understand why the...</description>
+        <pubDate>Sun, 24 Sep 2017 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Challenger-disaster/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Challenger-disaster/</guid>
+        
+        <category>Space</category>
+        
+        <category>NASA</category>
+        
+        <category>Case Study</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>BitTorrent Explained</title>
@@ -118,58 +168,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Safety Issues in AI Systems</title>
-        <description>&lt;p&gt;I am pretty sure the title will flood the reader’s mind with images of Skynet and Matrix, but this post focuses on the shortcomings of AI technologies that are currently in vogue. It’s much more productive to contemplate on the loopholes in technologies like Neural Networks, as we are still a far cry from building systems that are at least as intelligent as earthworms.&lt;/p&gt; &lt;p&gt;AI has made several inroads into diverse fields such as NLP, Computer Vision, Autonomous Vehicles, Personal Assistants, and Game playing bots. AI has become truly ubiquitous. This magnifies the impact of security loopholes on the society....</description>
-        <pubDate>Mon, 04 Sep 2017 02:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</guid>
-        
-        <category>ML</category>
-        
-        <category>AI</category>
-        
-        <category>Security AI</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Technology in Sports</title>
-        <description>&lt;p&gt;The world of sport is continually changing over the years, and the use of technology is just one of those areas that has made an impact on many sports. It has changed the way players approach a particular sport. Various technologies are used to assist umpires or referees, while some of them are used for advanced coaching and enhanced experience for fans.&lt;/p&gt; &lt;h2 id=&quot;a-digital-coach&quot;&gt;A digital coach…&lt;/h2&gt; &lt;p&gt;In the recently concluded Champions Trophy 2017, smart bats were used to obtain various data. Small sensors, fixed at the top of the handle, were used. The bat sensor, powered by the Intel Curie technology,...</description>
-        <pubDate>Tue, 22 Aug 2017 04:45:10 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Technology-in-Sports/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Technology-in-Sports/</guid>
-        
-        <category>Sports</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Hashing in Competitive Programming</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;At it’s most basic hashing is a technique to identify a particular value of a certain type among other values of the same type. To achieve this we typically make use of a hash function: a function that takes a value of the required type as input and generates a “key” that (hopefully) can uniquely identify this value. In this article we’ll look at how this function works, how it’s implemented in C++, and how to apply hashing to solve a Competitive Programming problem.&lt;/p&gt; &lt;h2 id=&quot;hashing-in-c&quot;&gt;Hashing in C++&lt;/h2&gt; &lt;p&gt;C++ offers 2 containers in C++ that are often useful...</description>
-        <pubDate>Tue, 22 Aug 2017 01:10:58 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</guid>
-        
-        <category>Hashing</category>
-        
-        <category>C++</category>
-        
-        <category>Competitive Programming</category>
-        
-        <category>Data Structures</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
