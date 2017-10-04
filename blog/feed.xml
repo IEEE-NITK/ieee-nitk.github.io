@@ -5,13 +5,31 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Oct 2017 22:27:34 +0530</pubDate>
-    <lastBuildDate>Wed, 04 Oct 2017 22:27:34 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.0</generator>
+    <pubDate>Thu, 05 Oct 2017 00:39:59 +0530</pubDate>
+    <lastBuildDate>Thu, 05 Oct 2017 00:39:59 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Fingerprint Recognition</title>
+        <description>&lt;p&gt;Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Today we take a look at how the whole system of fingerprint recognition works.&lt;/p&gt; &lt;p&gt;Fingerprints are the tiny friction ridges on the ends of our fingers and thumbs make it easier to grip things. By making our fingers rougher, these ridges increase the force of friction between our hands and the objects we hold, making it harder to drop things. Unless you have accidents with your hands, your fingerprints remain the same throughout...</description>
+        <pubDate>Tue, 03 Oct 2017 03:05:05 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/fingerprint-recognition/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/fingerprint-recognition/</guid>
+        
+        <category>fingerprint</category>
+        
+        <category>sensors</category>
+        
+        <category>fingerprint sensor</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>The Intriguing World of Chatbots</title>
-        <description>&lt;p&gt;﻿&lt;/p&gt; &lt;h1 id=&quot;the-intriguing-world-of-chatbots&quot;&gt;The Intriguing World of Chatbots&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“Hey Siri, What’s my schedule for today”&lt;br /&gt; “Hey Cortana, when is my appointment with the dentist today”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are a few phrases that we use casually from day to day in order to make our life a tad bit easier. In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field...</description>
+        <description>&lt;p&gt;﻿&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;“Hey Siri, What’s my schedule for today”&lt;br /&gt; “Hey Cortana, when is my appointment with the dentist today”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are a few phrases that we use casually from day to day in order to make our life a tad bit easier. In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field that is rapidly gaining traction, namely...</description>
         <pubDate>Tue, 03 Oct 2017 03:03:05 +0530</pubDate>
         <link>http://ieeenitk.org/blog/chatbot/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/chatbot/</guid>
@@ -28,6 +46,28 @@
         
         
         <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Biohacking</title>
+        <description>&lt;p&gt;﻿Ever fantasied becoming the Cyborg from DC comics universe? Well, brace yourself, because that dream is soon to come into reality.&lt;/p&gt; &lt;p&gt;Introducing Biohacking, a fairly new practice that could bring major changes in human life as we know it. Biohacking can be defined as a “social movement involving studying basic biology and exploiting it to make electronic implants made using easily available equipment”. In short, you make a cyborg out of yourself. As “punk” as it sounds, this practice caught the attention of media because of the possibilities it opens.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/biohacking/1.jpg&quot; alt=&quot;RFID chip&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Ron Shigeta&lt;/strong&gt; runs Berkeley Biolabs,...</description>
+        <pubDate>Tue, 03 Oct 2017 02:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/biohacking/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/biohacking/</guid>
+        
+        <category>biology</category>
+        
+        <category>hacking</category>
+        
+        <category>biological hacking</category>
+        
+        <category>superhuman</category>
+        
+        <category>cyborgs</category>
+        
+        
+        <category>Piston</category>
         
       </item>
     
@@ -144,36 +184,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Water Memory What A Memory</title>
-        <description>&lt;p&gt;What would you preferably use to store your precious data - a hard disk, a pen-drive, a DVD; or perhaps WATER!&lt;/p&gt; &lt;p&gt;Scientists from Germany now believe that water has a memory, meaning that what once was seen as a simple commodity has been closely examined to reveal a scientific revelation, uncovering a mind-blowing truth.&lt;/p&gt; &lt;h2 id=&quot;theory&quot;&gt;Theory&lt;/h2&gt; &lt;p&gt;Individual drops of water from the same sample were examined at incredibly high magnification, probably the first experiment of this kind and surprisingly scientists were able to physically see that each droplet of water has its own &lt;em&gt;individual microscopic pattern,&lt;/em&gt; distinguishable from the next...</description>
-        <pubDate>Mon, 11 Sep 2017 10:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Water-Memory-What-A-Memory/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Water-Memory-What-A-Memory/</guid>
-        
-        <category>Water Memory</category>
-        
-        
-        <category>CAS</category>
-        
-      </item>
-    
-      <item>
-        <title>Rock Paper Scissors</title>
-        <description>&lt;p&gt;If you have ever played the game of rock, paper scissors I bet that the best strategy you had was trying to predict your opponent’s move which is a pretty appealing idea. But given that it is nigh impossible to do that (unless, of course, you can read minds), is that really a sound strategy to adopt? If you think about it in a rational way there is no method to predict your opponent and basing your strategy on such an unpredictable thing is kind of dumb. I think the best approach to this problem is to make sure your...</description>
-        <pubDate>Mon, 04 Sep 2017 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Rock-Paper-Scissors/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Rock-Paper-Scissors/</guid>
-        
-        <category>Game Theory</category>
-        
-        <category>Strategy</category>
-        
-        
-        <category>CAS</category>
         
       </item>
     

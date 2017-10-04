@@ -16,8 +16,6 @@ categories:
 github_username: 'andydandyy'
 ---
 
-# Biohacking
-
 ﻿Ever fantasied becoming the Cyborg from DC comics universe? Well, brace
 yourself, because that dream is soon to come into reality.  
 
@@ -34,7 +32,7 @@ human life as we know it. Biohacking can be defined as a "social movement involv
 
 It maybe Bluetooth implants allowing you to control the electrical devices around you, or headbands which allow you to boost your cognitive senses by sending electric impulses directly to your brain. Just imagine the possibilities. People with no vision can experience the beauty of the world, people with no hearing can experience sounds of nature, people with no olfactory senses can smell and taste. All this, in their own garage!  
 
-![MUSE headband](/blog/assets/img/biohacking/2.jpg)
+![MUSE headband](/blog/assets/img/biohacking/2.png)
 
 **Dave Asprey**, a nutritionist and the CEO of Bulletproof, tries to incorporate biohacking to improve people's senses. [Check his blog out!](https://blog.bulletproof.com/)
 

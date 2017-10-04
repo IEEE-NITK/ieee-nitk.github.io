@@ -1,10 +1,26 @@
 [
   
     {
+      "title"    : "Fingerprint Recognition",
+      "category" : "Diode",
+      "tags"     : "fingerprint, sensors, and fingerprint sensor",
+      "url"      : "http://ieeenitk.org/blog//fingerprint-recognition/",
+      "date"     : "03 Oct 2017"
+    } ,
+  
+    {
       "title"    : "The Intriguing World of Chatbots",
       "category" : "Compsoc",
       "tags"     : "Chatbot, Chat, Bots, Language Processing, and IoT",
       "url"      : "http://ieeenitk.org/blog//chatbot/",
+      "date"     : "03 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Biohacking",
+      "category" : "Piston",
+      "tags"     : "biology, hacking, biological hacking, superhuman, and cyborgs",
+      "url"      : "http://ieeenitk.org/blog//biohacking/",
       "date"     : "03 Oct 2017"
     } ,
   
