@@ -5,9 +5,31 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Sep 2017 23:44:18 +0530</pubDate>
-    <lastBuildDate>Sun, 24 Sep 2017 23:44:18 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <pubDate>Wed, 04 Oct 2017 22:27:34 +0530</pubDate>
+    <lastBuildDate>Wed, 04 Oct 2017 22:27:34 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>The Intriguing World of Chatbots</title>
+        <description>&lt;p&gt;﻿&lt;/p&gt; &lt;h1 id=&quot;the-intriguing-world-of-chatbots&quot;&gt;The Intriguing World of Chatbots&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“Hey Siri, What’s my schedule for today”&lt;br /&gt; “Hey Cortana, when is my appointment with the dentist today”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are a few phrases that we use casually from day to day in order to make our life a tad bit easier. In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field...</description>
+        <pubDate>Tue, 03 Oct 2017 03:03:05 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/chatbot/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/chatbot/</guid>
+        
+        <category>Chatbot</category>
+        
+        <category>Chat</category>
+        
+        <category>Bots</category>
+        
+        <category>Language Processing</category>
+        
+        <category>IoT</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Quantum Computers and The Future of Computation</title>
@@ -152,22 +174,6 @@
         
         
         <category>CAS</category>
-        
-      </item>
-    
-      <item>
-        <title>Airbus E-Fan</title>
-        <description>&lt;h2 id=&quot;the-airbus-e-fan-project&quot;&gt;The Airbus E-Fan Project&lt;/h2&gt; &lt;p&gt;For over a hundred years - and certainly many to follow, the aircraft industry, for the most part, has relied upon combustion based engines, ranging from the long-forgotten piston-prop through the state of the art Turbofan. Yet, no matter what the degree of advancement is in the field of such engines, what’s guaranteed is an ever-increasing toll of CO2 and other greenhouse gases.&lt;/p&gt; &lt;p&gt;The intuitive solution for sustainable development, as in nearly all domains of power generation, especially in transportation, is electricity. Presently, every mode of transport (save for aviation) employs at least a certain...</description>
-        <pubDate>Mon, 04 Sep 2017 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Airbus-E-Fan/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Airbus-E-Fan/</guid>
-        
-        <category>Aviation</category>
-        
-        <category>Environment</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

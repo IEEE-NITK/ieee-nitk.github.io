@@ -21,7 +21,7 @@ Quantum Mechanics a realm of physics where the tiny subatomic particles reside a
 The behaviour working of these particles   was resolved by proposing of a mathematical model governed by the principle of Superposition, entanglement and tunnelling.
 
 Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.
- 
+
 ![quantum computer](/blog/assets/img/quantum-computers/1.jpg)
 *The first ever made quantum computer*
 

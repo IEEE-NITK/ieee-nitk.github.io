@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "The Intriguing World of Chatbots",
+      "category" : "Compsoc",
+      "tags"     : "Chatbot, Chat, Bots, Language Processing, and IoT",
+      "url"      : "http://ieeenitk.org/blog//chatbot/",
+      "date"     : "03 Oct 2017"
+    } ,
+  
+    {
       "title"    : "Quantum Computers and The Future of Computation",
       "category" : "Diode",
       "tags"     : "Quantum Computing",
