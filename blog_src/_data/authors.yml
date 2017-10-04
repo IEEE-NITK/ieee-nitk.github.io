@@ -1,3 +1,21 @@
+andydandyy:
+  name: Anand Pathak
+  github: andydandyy
+  author_image: 'blog-author.jpg'
+  user_description: 'Overenthusiastic Introvert.'
+  email: 'andy.pathak1@gmail.com'
+manan-sharma:
+  name: Manan Sharma
+  github: manan-sharma
+  author_image: 'blog-author.jpg'
+  user_description: 'Imagination at work.'
+  email: 'manansharma296@gmail.com'
+adilashique:
+  name: Adil Ashique
+  github: adilashique
+  author_image: 'adilashique.jpg'
+  user_description: 'Start unknown. End unforgettable.'
+  email: 'adilashique@gmail.com'
 viggi:
   name: Vighnesh Velayudhan
   github: viggi-v
