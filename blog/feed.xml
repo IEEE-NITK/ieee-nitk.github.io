@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Oct 2017 00:39:59 +0530</pubDate>
-    <lastBuildDate>Thu, 05 Oct 2017 00:39:59 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <pubDate>Fri, 06 Oct 2017 02:21:51 +0530</pubDate>
+    <lastBuildDate>Fri, 06 Oct 2017 02:21:51 +0530</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Fingerprint Recognition</title>
-        <description>&lt;p&gt;Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Today we take a look at how the whole system of fingerprint recognition works.&lt;/p&gt; &lt;p&gt;Fingerprints are the tiny friction ridges on the ends of our fingers and thumbs make it easier to grip things. By making our fingers rougher, these ridges increase the force of friction between our hands and the objects we hold, making it harder to drop things. Unless you have accidents with your hands, your fingerprints remain the same throughout...</description>
+        <description>&lt;p&gt;Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Here’s a look at how the whole system of fingerprint recognition works.&lt;/p&gt; &lt;p&gt;Fingerprints are the tiny friction ridges on the ends of our fingers and thumbs make it easier to grip things. By making our fingers rougher, these ridges increase the force of friction between our hands and the objects we hold, making it harder to drop things. Unless you have accidents with your hands, your fingerprints remain the same throughout your life.&lt;/p&gt;...</description>
         <pubDate>Tue, 03 Oct 2017 03:05:05 +0530</pubDate>
         <link>http://ieeenitk.org/blog/fingerprint-recognition/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/fingerprint-recognition/</guid>
