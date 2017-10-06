@@ -14,7 +14,7 @@ categories:
 github_username: 'manan-sharma'
 ---
 
-Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Today we take a look at how the whole system of fingerprint recognition works.  
+Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Here's a look at how the whole system of fingerprint recognition works.  
 
 Fingerprints are the tiny friction ridges on the ends of our fingers and thumbs make it easier to grip things. By making our fingers rougher, these ridges increase the force of friction between our hands and the objects we hold, making it harder to drop things. Unless you have accidents with your hands, your fingerprints remain the same throughout your life.
 
