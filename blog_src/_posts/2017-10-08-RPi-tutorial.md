@@ -68,7 +68,7 @@ Follow the below mentioned steps if you are working in the comfort of your home 
 
 1) Take your Raspberry Pi and connect to the router (for example, DLink router) directly using a LAN cable.
 
-2) By typing `ipconfig` (in Windows) in your command prompt, find out the IP address of the machine you are using.
+2) By typing ipconfig (in Windows) in your command prompt, find out the IP address of the machine you are using.
 
 Check the Active Client Table of your router configuration. There will be an IP address allocated for your RPi. Note the IP address (e.g. 192.168.0.12).
 

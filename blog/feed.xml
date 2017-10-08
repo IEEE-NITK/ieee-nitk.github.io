@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Oct 2017 15:11:03 +0530</pubDate>
-    <lastBuildDate>Sun, 08 Oct 2017 15:11:03 +0530</lastBuildDate>
+    <pubDate>Sun, 08 Oct 2017 21:54:35 +0530</pubDate>
+    <lastBuildDate>Sun, 08 Oct 2017 21:54:35 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -38,6 +38,20 @@
         
         
         <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Aircraft Engines</title>
+        <description>&lt;h2 id=&quot;jet-engines---the-different-types-and-how-they-work&quot;&gt;Jet Engines - The different types and how they work&lt;/h2&gt; &lt;p&gt;Many of you might have flown in an aircraft at least once in your lifetime and even if you haven’t, you might have at least seen one in a picture. You might have noticed that there are different types of aircraft for different purposes.&lt;/p&gt; &lt;p&gt;Some are small and can accommodate only 5 people while some are huge and can carry more than 600 people, some are used for dropping bombs while some others are used for rescuing people during disasters.&lt;/p&gt; &lt;p&gt;One of the most essential parts of any of...</description>
+        <pubDate>Sun, 08 Oct 2017 10:25:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Aircraft-Engines/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Aircraft-Engines/</guid>
+        
+        <category>Aircraft Engines</category>
+        
+        
+        <category>Piston</category>
         
       </item>
     
@@ -168,24 +182,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Storing energy in molten salt</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the answer to sustainable development. It is the hot topic of our generation and even though it is in its rudimentary stage, it is the best solution in maintaining the balance between environment and our energy needs. We all know that a lot of research is going on in this field, whether it is the oft talked about and used solar and wind energy, or the slightly less used ocean thermal energy.&lt;/p&gt; &lt;p&gt;But, what do you do after you produce this energy? What if it is in excess to your current need? You need to...</description>
-        <pubDate>Mon, 18 Sep 2017 15:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/storing-energy-in-salt/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/storing-energy-in-salt/</guid>
-        
-        <category>Energy</category>
-        
-        <category>Research</category>
-        
-        <category>Innovation</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

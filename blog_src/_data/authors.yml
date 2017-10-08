@@ -281,7 +281,7 @@ vibhoregit:
   author_image: vibhore.jpg
   user_description: '"Everyone is special" - a classic example of Oxymoron...'
   email: jainvibhore1997@gmail.com
-archpndy:
+mirthunrajarchpndy:
   name: Archit Pandey
   github: archpndy
   author_image: archit.jpg
@@ -305,3 +305,9 @@ varsh2506:
   author_image: varshini.jpg
   user_description: 'The more I learn, the more I realise how much I don’t know.'
   email: varshini.srinivasan@gmail.com
+mirthunraj:
+  name: Mithun Raj
+  github: mirthunraj
+  author_image: blog-author.jpg
+  user_description: 'TBD'
+  email: mithunraj@gmail.com
