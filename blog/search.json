@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Search Engine Optimisation",
+      "category" : "Compsoc",
+      "tags"     : "SEO, Google, and Web",
+      "url"      : "http://ieeenitk.org/blog//Search-Engine-Optimisation/",
+      "date"     : "08 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Raspberry Pi Tutorial",
+      "category" : "CAS",
+      "tags"     : "Raspberry",
+      "url"      : "http://ieeenitk.org/blog//RPi-tutorial/",
+      "date"     : "08 Oct 2017"
+    } ,
+  
+    {
       "title"    : "Fingerprint Recognition",
       "category" : "Diode",
       "tags"     : "fingerprint, sensors, and fingerprint sensor",

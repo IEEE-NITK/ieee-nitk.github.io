@@ -2,7 +2,7 @@
 layout: post
 title: "Search Engine Optimisation"
 author_github: pvgupta24
-date: 2017-10-09 09:00:00
+date: 2017-10-08 05:05:00
 image: '/assets/img/'
 description: 'Basic Concepts of Search Engine Optimisation'
 tags:

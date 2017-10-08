@@ -5,9 +5,41 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Oct 2017 10:45:59 +0530</pubDate>
-    <lastBuildDate>Sun, 08 Oct 2017 10:45:59 +0530</lastBuildDate>
+    <pubDate>Sun, 08 Oct 2017 13:05:23 +0530</pubDate>
+    <lastBuildDate>Sun, 08 Oct 2017 13:05:23 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Search Engine Optimisation</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Guess how many websites come up each day.&lt;br /&gt; Any ideas?&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;A survey by Netcraft in 2012 showed that total number of websites launched in 2012 were &lt;em&gt;51 million&lt;/em&gt; i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;~140,000 per day&lt;/code&gt;.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This flood makes it necessary for your website to stand out from the rest. But , how can this be done ?&lt;/p&gt; &lt;p&gt;This is where &lt;strong&gt;SEO i.e. Search Engine Optimisation&lt;/strong&gt; comes into play.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/SEO/gif.gif&quot; alt=&quot;SEO and Ranking&quot; /&gt;&lt;/p&gt; &lt;p&gt;In a world where &lt;strong&gt;over 90% of online experiences start with a search engine,&lt;/strong&gt; showing up on the front page of Google Search...</description>
+        <pubDate>Sun, 08 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Search-Engine-Optimisation/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Search-Engine-Optimisation/</guid>
+        
+        <category>SEO</category>
+        
+        <category>Google</category>
+        
+        <category>Web</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Raspberry Pi Tutorial</title>
+        <description>&lt;h2 id=&quot;how-to-set-up-your-raspberry-pi-and-use-your-laptop-display-as-monitor&quot;&gt;&lt;strong&gt;How to set up your Raspberry Pi and use your laptop display as monitor&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can...</description>
+        <pubDate>Sun, 08 Oct 2017 10:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/RPi-tutorial/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/RPi-tutorial/</guid>
+        
+        <category>Raspberry</category>
+        
+        
+        <category>CAS</category>
+        
+      </item>
     
       <item>
         <title>Fingerprint Recognition</title>
@@ -154,36 +186,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>What makes a Smart Home Smart</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?&lt;/p&gt; &lt;p&gt;With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even your coffee maker, every electrical appliance in our homes can be hooked up to the home network. This will basically allow us to control our entire house with our laptops or something as simple as...</description>
-        <pubDate>Mon, 18 Sep 2017 10:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</guid>
-        
-        <category>Smart homes</category>
-        
-        <category>IoT</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>You don't really know Arduino</title>
-        <description>&lt;p&gt;Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making &lt;strong&gt;witty&lt;/strong&gt; electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons: * It is too simple * It’s performance is limited * It does not feels like embedded programming * There is a library for literally everything (sounds like an advantage?)&lt;/p&gt; &lt;p&gt;Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the...</description>
-        <pubDate>Tue, 12 Sep 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/you-dont-really-know-arduino/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/you-dont-really-know-arduino/</guid>
-        
-        <category>Arduino</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
