@@ -13,10 +13,11 @@ categories:
 - CompSoc
 github_username: 'pvgupta24'
 ---
+
 > Guess how many websites come up each day.<br>
  Any ideas?
 
-> A survey by Netcraft in 2012 showed that total number of websites launched in 2012 were *51 million* i.e. `~140,000 per day`.
+> A survey by Netcraft in 2012 showed that total number of websites launched in 2012 were *51 million* i.e. ~140,000 per day.
 
 This flood makes it necessary for your website to stand out from the rest. But , how can this be done ?
 
@@ -37,6 +38,7 @@ Here's a short video that will give you a clear picture about SEO.
 
 
 ### What do Search Engines look for ?
+
 1) How **Relevant** is the page w.r.t the user's search. Search Engines makes use of the keywords , user location , history, time period and many other factors to show the user results which is accurate and relevant.
 
 2) **Content Quality** is as important as the keywords. Websites publishing regular, fresh and helpful articles and videos are usually ranked higher.
@@ -65,8 +67,8 @@ Check if your website is mobile friendly using this [Google tool](https://search
 </head>
 </html>
 ```
-![Tags](/blog/assets/img/SEO/titlemeta.png)
 
+![Tags](/blog/assets/img/SEO/titlemeta.png)
 
 Use separate description meta tags for each page.
 
@@ -81,5 +83,7 @@ Today, making it to the first page of Google Search has become the deciding fact
 
 #### References
 * [Google SEO Starter Guide](https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
+
 * [Simple SEO Guide for Starters](https://blog.kissmetrics.com/simple-guide-to-seo/)
+
 * [Essentials for optimizing your site](https://searchenginewatch.com/sew/how-to/2259693/seo-basics-8-essentials-when-optimizing-your-site)
