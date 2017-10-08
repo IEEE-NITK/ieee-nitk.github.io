@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Oct 2017 13:05:23 +0530</pubDate>
-    <lastBuildDate>Sun, 08 Oct 2017 13:05:23 +0530</lastBuildDate>
+    <pubDate>Sun, 08 Oct 2017 15:11:03 +0530</pubDate>
+    <lastBuildDate>Sun, 08 Oct 2017 15:11:03 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -23,21 +23,21 @@
         <category>Web</category>
         
         
-        <category>Compsoc</category>
+        <category>CompSoc</category>
         
       </item>
     
       <item>
         <title>Raspberry Pi Tutorial</title>
-        <description>&lt;h2 id=&quot;how-to-set-up-your-raspberry-pi-and-use-your-laptop-display-as-monitor&quot;&gt;&lt;strong&gt;How to set up your Raspberry Pi and use your laptop display as monitor&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can...</description>
+        <description>&lt;h2 id=&quot;how-to-set-up-your-raspberry-pi-and-use-your-laptop-display-as-monitor&quot;&gt;How to set up your Raspberry Pi and use your laptop display as monitor&lt;/h2&gt; &lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can...</description>
         <pubDate>Sun, 08 Oct 2017 10:30:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/RPi-tutorial/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/RPi-tutorial/</guid>
         
-        <category>Raspberry</category>
+        <category>Raspberry Pi</category>
         
         
-        <category>CAS</category>
+        <category>Diode</category>
         
       </item>
     

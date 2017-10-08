@@ -2,7 +2,7 @@
   
     {
       "title"    : "Search Engine Optimisation",
-      "category" : "Compsoc",
+      "category" : "CompSoc",
       "tags"     : "SEO, Google, and Web",
       "url"      : "http://ieeenitk.org/blog//Search-Engine-Optimisation/",
       "date"     : "08 Oct 2017"
@@ -10,8 +10,8 @@
   
     {
       "title"    : "Raspberry Pi Tutorial",
-      "category" : "CAS",
-      "tags"     : "Raspberry",
+      "category" : "Diode",
+      "tags"     : "Raspberry Pi",
       "url"      : "http://ieeenitk.org/blog//RPi-tutorial/",
       "date"     : "08 Oct 2017"
     } ,

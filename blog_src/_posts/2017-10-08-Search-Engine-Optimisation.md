@@ -10,7 +10,7 @@ tags:
 - Google
 - Web
 categories:
-- Compsoc
+- CompSoc
 github_username: 'pvgupta24'
 ---
 > Guess how many websites come up each day.<br>
@@ -80,6 +80,6 @@ SEO is no longer an option in today's crowded online world.
 Today, making it to the first page of Google Search has become the deciding factor for a website's success.
 
 #### References
-* [https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf](https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
-* [https://blog.kissmetrics.com/simple-guide-to-seo/](https://blog.kissmetrics.com/simple-guide-to-seo/)
-* [https://searchenginewatch.com/sew/how-to/2259693/seo-basics-8-essentials-when-optimizing-your-site](https://searchenginewatch.com/sew/how-to/2259693/seo-basics-8-essentials-when-optimizing-your-site)
+* [Google SEO Starter Guide](https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
+* [Simple SEO Guide for Starters](https://blog.kissmetrics.com/simple-guide-to-seo/)
+* [Essentials for optimizing your site](https://searchenginewatch.com/sew/how-to/2259693/seo-basics-8-essentials-when-optimizing-your-site)
