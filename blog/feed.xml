@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Oct 2017 02:21:51 +0530</pubDate>
-    <lastBuildDate>Fri, 06 Oct 2017 02:21:51 +0530</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Sun, 08 Oct 2017 10:45:59 +0530</pubDate>
+    <lastBuildDate>Sun, 08 Oct 2017 10:45:59 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>Fingerprint Recognition</title>
@@ -29,7 +29,7 @@
     
       <item>
         <title>The Intriguing World of Chatbots</title>
-        <description>&lt;p&gt;﻿&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;“Hey Siri, What’s my schedule for today”&lt;br /&gt; “Hey Cortana, when is my appointment with the dentist today”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are a few phrases that we use casually from day to day in order to make our life a tad bit easier. In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field that is rapidly gaining traction, namely...</description>
+        <description>&lt;p&gt;﻿ &amp;gt;”Hey Siri, What’s my schedule for today”&lt;br /&gt; &amp;gt;“Hey Cortana, when is my appointment with the dentist today”&lt;/p&gt; &lt;p&gt;These are a few phrases that we use casually from day to day in order to make our life a tad bit easier. In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field that is rapidly gaining traction, namely IoT.&lt;/p&gt; &lt;p&gt;&lt;img...</description>
         <pubDate>Tue, 03 Oct 2017 03:03:05 +0530</pubDate>
         <link>http://ieeenitk.org/blog/chatbot/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/chatbot/</guid>
@@ -73,7 +73,7 @@
     
       <item>
         <title>Quantum Computers and The Future of Computation</title>
-        <description>&lt;h2 id=&quot;background&quot;&gt;Background:&lt;/h2&gt; &lt;p&gt;Quantum Mechanics a realm of physics where the tiny subatomic particles reside and whose physics is beyond the perception of the classical physical world.&lt;/p&gt; &lt;h3 id=&quot;1-what-makes-this-realm-so-weird-and-different-in-working&quot;&gt;1] What makes this realm so weird and different in working?&lt;/h3&gt; &lt;p&gt;The behaviour working of these particles was resolved by proposing of a mathematical model governed by the principle of Superposition, entanglement and tunnelling.&lt;/p&gt; &lt;p&gt;Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/quantum-computers/1.jpg&quot; alt=&quot;quantum computer&quot; /&gt; &lt;em&gt;The first ever made quantum computer&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;breaking-the-myth-of-superposition-theorem&quot;&gt;Breaking The Myth...</description>
+        <description>&lt;h2 id=&quot;background&quot;&gt;Background:&lt;/h2&gt; &lt;p&gt;Quantum Mechanics a realm of physics where the tiny subatomic particles reside and whose physics is beyond the perception of the classical physical world.&lt;/p&gt; &lt;h3 id=&quot;what-makes-this-realm-so-weird-and-different-in-working&quot;&gt;1] What makes this realm so weird and different in working?&lt;/h3&gt; &lt;p&gt;The behaviour working of these particles was resolved by proposing of a mathematical model governed by the principle of Superposition, entanglement and tunnelling.&lt;/p&gt; &lt;p&gt;Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/quantum-computers/1.jpg&quot; alt=&quot;quantum computer&quot; /&gt; &lt;em&gt;The first ever made quantum computer&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;breaking-the-myth-of-superposition-theorem&quot;&gt;Breaking The Myth...</description>
         <pubDate>Sun, 24 Sep 2017 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/quantum-computers/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/quantum-computers/</guid>
@@ -175,7 +175,7 @@
     
       <item>
         <title>You don't really know Arduino</title>
-        <description>&lt;p&gt;Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making &lt;strong&gt;witty&lt;/strong&gt; electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;It is too simple&lt;/li&gt; &lt;li&gt;It’s performance is limited&lt;/li&gt; &lt;li&gt;It does not feels like embedded programming&lt;/li&gt; &lt;li&gt;There is a library for literally everything (sounds like an advantage?)&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “&lt;em&gt;It...</description>
+        <description>&lt;p&gt;Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making &lt;strong&gt;witty&lt;/strong&gt; electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons: * It is too simple * It’s performance is limited * It does not feels like embedded programming * There is a library for literally everything (sounds like an advantage?)&lt;/p&gt; &lt;p&gt;Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the...</description>
         <pubDate>Tue, 12 Sep 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/you-dont-really-know-arduino/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/you-dont-really-know-arduino/</guid>
