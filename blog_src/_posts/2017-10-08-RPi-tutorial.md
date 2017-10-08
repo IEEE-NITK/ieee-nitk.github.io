@@ -176,6 +176,6 @@ vncserver :1
 
 ==> Now the Raspberry Pi's display will be shown on the laptop display.
 
-![RaspberryPi](/blog/assets/img/Raspberry-Pi-Tutorial/view.png)
+[RaspberryPi](/blog/assets/img/Raspberry-Pi-Tutorial/view.png)
 
 And finally, you are done! Without further ado, enjoy exploring!
