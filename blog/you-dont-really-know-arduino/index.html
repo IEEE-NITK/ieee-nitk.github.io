@@ -126,13 +126,11 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:</p>
-<ul>
-  <li>It is too simple</li>
-  <li>It’s performance is limited</li>
-  <li>It does not feels like embedded programming</li>
-  <li>There is a library for literally everything (sounds like an advantage?)</li>
-</ul>
+                <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:
+* It is too simple
+* It’s performance is limited
+* It does not feels like embedded programming
+* There is a library for literally everything (sounds like an advantage?)</p>
 
 <p>Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “<em>It Kills the Spirit of Embedded Programming.</em>” And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it’s the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL’s (now owned by Microchip) AVR Studio to program these boards, it’s yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. <em>Arduino does have advantages over its primitive alternatives.</em></p>
 
@@ -140,7 +138,7 @@
 
 <p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
 
-<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
 </span></code></pre>
 </div>
 <p>“<em>Done!</em>”</p>
@@ -172,7 +170,7 @@
 <h3 id="an-example">An Example</h3>
 <p>Enough with the blabbering, lets look at a simple example.</p>
 
-<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
 </span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
 <span class="p">{</span>
  <span class="c1">//set pin 5 of PORTB to output

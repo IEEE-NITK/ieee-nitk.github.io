@@ -293,3 +293,21 @@ sampathkoti:
   author_image: blog-author.jpg
   user_description: "ECE, NIT-K"
   email: sampath21021999@gmail.com
+pvgupta24:
+  name: Praveen Gupta
+  github: pvgupta24
+  author_image: pvgupta24.jpg
+  user_description: 'Turning Caffeine to Code :P'
+  email: pvgupta24@gmail.com
+varsh2506:
+  name: Varshini Srinivasan
+  github: varsh2506
+  author_image: varshini.jpg
+  user_description: 'The more I learn, the more I realise how much I don’t know.'
+  email: varshini.srinivasan@gmail.com
+mirthunraj:
+  name: Mirthun Raj
+  github: mirthunraj
+  author_image: blog-author.jpg
+  user_description: 'TBD'
+  email: mithunraj@gmail.com
