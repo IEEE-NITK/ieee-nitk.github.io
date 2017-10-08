@@ -41,14 +41,15 @@ to format the full space present in SD card if formatting the SD card for the fi
 
 2) Click on Raspbian (so as to flash the Raspbian image on to SD card).
 
-( Note: NOOBS can be used for installation if we have HDMI cable and display monitor).
+Note: NOOBS can be used for installation if we have HDMI cable and display monitor.
 ![Raspberry](/blog/assets/img/Raspberry-Pi-Tutorial/raspbian.png)
+
 3) Download RASPBIAN STRETCH WITH DESKTOP so that we can have a desktop to work on, if necessary.
 Download Torrent (it is faster )
 
 4) Extract the files from the zip file downloaded in Step 3 to extract the Raspbian image (.img file).
 
-5) From  [here](http://www.etcher.io/), download and install the Etcher SD card image utility.
+5) From [here](http://www.etcher.io/), download and install the Etcher SD card image utility.
 
 6) Run Etcher and select the Raspbian image you unzipped (.img file) on your computer or laptop.
 
@@ -168,7 +169,7 @@ Now, if you are equipped with a HDMI cable, a monitor, a keyboard and a mouse, y
 vncserver :1
 ```
 
-2) In the client side laptop, Download VNC Viewer from  [here](https://www.realvnc.com/download/viewer/)
+2) In the client side laptop, Download VNC Viewer from [here](https://www.realvnc.com/download/viewer/)
 
 > Make sure to select Windows if installing VNC Viewer for Windows laptop
 
@@ -176,6 +177,6 @@ vncserver :1
 
 ==> Now the Raspberry Pi's display will be shown on the laptop display.
 
-[RaspberryPi](/blog/assets/img/Raspberry-Pi-Tutorial/view.png)
+![RaspberryPi](/blog/assets/img/Raspberry-Pi-Tutorial/view.png)
 
 And finally, you are done! Without further ado, enjoy exploring!
