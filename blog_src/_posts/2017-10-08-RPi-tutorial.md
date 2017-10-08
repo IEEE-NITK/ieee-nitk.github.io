@@ -4,15 +4,13 @@ title: "Raspberry Pi Tutorial"
 author_github: varsh2506
 date: 2017-10-08 05:00:00
 image: '/assets/img/'
-description: 'This post shows how to setup Raspberry Pi and use laptop as monitor'
+description: 'This post shows how to setup Raspberry Pi and to use laptop as monitor'
 tags:
 - Raspberry Pi
 categories:
 - Diode
 github_username: 'varsh2506'
 ---
-
-## How to set up your Raspberry Pi and use your laptop display as monitor
 
 If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model. 
 

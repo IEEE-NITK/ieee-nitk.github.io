@@ -82,8 +82,8 @@ SEO is no longer an option in today's crowded online world.
 Today, making it to the first page of Google Search has become the deciding factor for a website's success.
 
 #### References
-* [Google SEO Starter Guide](https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
+1)  [Google SEO Starter Guide](https://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 
-* [Simple SEO Guide for Starters](https://blog.kissmetrics.com/simple-guide-to-seo/)
+2) [Simple SEO Guide for Starters](https://blog.kissmetrics.com/simple-guide-to-seo/)
 
-* [Essentials for optimizing your site](https://searchenginewatch.com/sew/how-to/2259693/seo-basics-8-essentials-when-optimizing-your-site)
+3)  [Essentials for optimizing your site](https://searchenginewatch.com/sew/how-to/2259693/seo-basics-8-essentials-when-optimizing-your-site)

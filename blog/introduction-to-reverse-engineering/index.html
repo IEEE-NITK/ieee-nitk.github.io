@@ -151,28 +151,24 @@ You find the trigger was displaced and unable to release the lock and hence you 
 
 <p>We use gdb to find the addresses of password_buffer and auth_flag variables and find that there is 28 bytes gap between them. Hence any string of greater length will write in the address of auth_flag giving it a positive value and hence grant access. Hence we have broken into the password checking system!! In fact, this is a common method called buffer overflow. Well, that was fun. <strong>Fire in the</strong> loop<strong>hole</strong>!(CS fans here? :P ). Unfortunately, most compilers do not allow overflow these days. We have allowed overflow in this program by using the command ‘-zexecstack -fno-stack-protector -g’ while compiling (Don’t worry, even I cannot read that xD).</p>
 
-<p>Lets see what you can do with the understanding you gained. You can:</p>
-<ul>
-  <li>replicate the product</li>
-  <li>fix bug issues</li>
-  <li>add extra features</li>
-  <li>acquire extra access</li>
-  <li>find loopholes to understand the flaws in your software</li>
-  <li>Or do it for fun :)</li>
-</ul>
+<p>Lets see what you can do with the understanding you gained. You can:
+*	replicate the product
+*	fix bug issues
+*	add extra features
+*	acquire extra access
+*	find loopholes to understand the flaws in your software
+*	Or do it for fun :)</p>
 
 <p>All these things can result into ethical or unethical hacking, hackers and crackers respectively. An interesting question for everyone. Is it legal? If you have got the software legally, you are free to reverse engineer it but replicating it exactly will be a problem. Check this interesting solution to the problem! :P</p>
 
 <p><img src="/blog/assets/img/introduction-to-reverse-engineering/6.jpg" alt="Image5" /></p>
 
-<p>How to start?</p>
-<ol>
-  <li>“Hacking – The art of exploitation” is a good book</li>
-  <li>Learn how computers work at lower level</li>
-  <li>Programming in assembly language</li>
-  <li>Tools like gdb, radare2 will help you disassemble the executable</li>
-  <li>Play CTFs – They are fun and will help you improve your skills!!</li>
-</ol>
+<p>How to start?
+1. “Hacking – The art of exploitation” is a good book
+2. Learn how computers work at lower level
+3. Programming in assembly language
+4. Tools like gdb, radare2 will help you disassemble the executable
+5. Play CTFs – They are fun and will help you improve your skills!!</p>
 
 <p>So, That was about it! Have a great Summer!
 Any doubts, feel free to ask :) !</p>

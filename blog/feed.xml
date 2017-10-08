@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Oct 2017 22:42:42 +0530</pubDate>
-    <lastBuildDate>Sun, 08 Oct 2017 22:42:42 +0530</lastBuildDate>
+    <pubDate>Sun, 08 Oct 2017 23:09:48 +0530</pubDate>
+    <lastBuildDate>Sun, 08 Oct 2017 23:09:48 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -29,7 +29,7 @@
     
       <item>
         <title>Raspberry Pi Tutorial</title>
-        <description>&lt;h2 id=&quot;how-to-set-up-your-raspberry-pi-and-use-your-laptop-display-as-monitor&quot;&gt;How to set up your Raspberry Pi and use your laptop display as monitor&lt;/h2&gt; &lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can...</description>
+        <description>&lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can use your laptop display itself to work with your Rpi. This requires a few additional...</description>
         <pubDate>Sun, 08 Oct 2017 10:30:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/RPi-tutorial/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/RPi-tutorial/</guid>
@@ -43,7 +43,7 @@
     
       <item>
         <title>Aircraft Engines</title>
-        <description>&lt;h2 id=&quot;jet-engines---the-different-types-and-how-they-work&quot;&gt;Jet Engines - The different types and how they work&lt;/h2&gt; &lt;p&gt;Many of you might have flown in an aircraft at least once in your lifetime and even if you haven’t, you might have at least seen one in a picture. You might have noticed that there are different types of aircraft for different purposes.&lt;/p&gt; &lt;p&gt;Some are small and can accommodate only 5 people while some are huge and can carry more than 600 people, some are used for dropping bombs while some others are used for rescuing people during disasters.&lt;/p&gt; &lt;p&gt;One of the most essential parts of any of...</description>
+        <description>&lt;p&gt;Many of you might have flown in an aircraft at least once in your lifetime and even if you haven’t, you might have at least seen one in a picture. You might have noticed that there are different types of aircraft for different purposes.&lt;/p&gt; &lt;p&gt;Some are small and can accommodate only 5 people while some are huge and can carry more than 600 people, some are used for dropping bombs while some others are used for rescuing people during disasters.&lt;/p&gt; &lt;p&gt;One of the most essential parts of any of these aircrafts is the engine. The engine provides the thrust required...</description>
         <pubDate>Sun, 08 Oct 2017 10:25:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/Aircraft-Engines/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Aircraft-Engines/</guid>
@@ -75,7 +75,7 @@
     
       <item>
         <title>The Intriguing World of Chatbots</title>
-        <description>&lt;p&gt;﻿&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;“Hey Siri, What’s my schedule for today”&lt;br /&gt; “Hey Cortana, when is my appointment with the dentist today”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are a few phrases that we use casually from day to day in order to make our life a tad bit easier. In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field that is rapidly gaining traction, namely...</description>
+        <description>&lt;p&gt;﻿ &amp;gt;”Hey Siri, What’s my schedule for today”&lt;br /&gt; &amp;gt;“Hey Cortana, when is my appointment with the dentist today”&lt;/p&gt; &lt;p&gt;These are a few phrases that we use casually from day to day in order to make our life a tad bit easier. In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field that is rapidly gaining traction, namely IoT.&lt;/p&gt; &lt;p&gt;&lt;img...</description>
         <pubDate>Tue, 03 Oct 2017 03:03:05 +0530</pubDate>
         <link>http://ieeenitk.org/blog/chatbot/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/chatbot/</guid>
@@ -119,7 +119,7 @@
     
       <item>
         <title>Quantum Computers and The Future of Computation</title>
-        <description>&lt;h2 id=&quot;background&quot;&gt;Background:&lt;/h2&gt; &lt;p&gt;Quantum Mechanics a realm of physics where the tiny subatomic particles reside and whose physics is beyond the perception of the classical physical world.&lt;/p&gt; &lt;h3 id=&quot;1-what-makes-this-realm-so-weird-and-different-in-working&quot;&gt;1] What makes this realm so weird and different in working?&lt;/h3&gt; &lt;p&gt;The behaviour working of these particles was resolved by proposing of a mathematical model governed by the principle of Superposition, entanglement and tunnelling.&lt;/p&gt; &lt;p&gt;Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/quantum-computers/1.jpg&quot; alt=&quot;quantum computer&quot; /&gt; &lt;em&gt;The first ever made quantum computer&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;breaking-the-myth-of-superposition-theorem&quot;&gt;Breaking The Myth...</description>
+        <description>&lt;h2 id=&quot;background&quot;&gt;Background:&lt;/h2&gt; &lt;p&gt;Quantum Mechanics a realm of physics where the tiny subatomic particles reside and whose physics is beyond the perception of the classical physical world.&lt;/p&gt; &lt;h3 id=&quot;what-makes-this-realm-so-weird-and-different-in-working&quot;&gt;1] What makes this realm so weird and different in working?&lt;/h3&gt; &lt;p&gt;The behaviour working of these particles was resolved by proposing of a mathematical model governed by the principle of Superposition, entanglement and tunnelling.&lt;/p&gt; &lt;p&gt;Quantum Computers makes use of these physical phenomena to do it calculation and this is where the speciality of the futuristic computing machines lies.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/quantum-computers/1.jpg&quot; alt=&quot;quantum computer&quot; /&gt; &lt;em&gt;The first ever made quantum computer&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;breaking-the-myth-of-superposition-theorem&quot;&gt;Breaking The Myth...</description>
         <pubDate>Sun, 24 Sep 2017 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/quantum-computers/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/quantum-computers/</guid>
