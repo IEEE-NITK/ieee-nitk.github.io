@@ -68,11 +68,12 @@ Follow the below mentioned steps if you are working in the comfort of your home 
 
 1) Take your Raspberry Pi and connect to the router (for example, DLink router) directly using a LAN cable.
 
-2) By typing ipconfig (in Windows) in your command prompt, find out the IP address of the machine you are using.
+2) By typing **ipconfig** (in Windows) in your command prompt, find out the IP address of the machine you are using.
 
 Check the Active Client Table of your router configuration. There will be an IP address allocated for your RPi. Note the IP address (e.g. 192.168.0.12).
 
 ![ActiveClientTable](/blog/assets/img/Raspberry-Pi-Tutorial/ActiveClientTable.png)
+
 3) Using PuTTY, connect to the IP address, 192.168.0.12(this is just an example).
 
 4) It will get connected to Raspberry Pi and will ask for username/password. 
@@ -95,7 +96,9 @@ Connecting to a WiFi network when you are on the go can be a hassle as finding t
 
 1) In the SSH terminal of PuTTY, give the command 
 
-`sudo iwlist wlan0 scan`
+```
+sudo iwlist wlan0 scan
+```
 
 You will be able to see the list of WiFi connections available.
 
@@ -103,9 +106,11 @@ You will be able to see the list of WiFi connections available.
 
 > /etc/wpa_supplicant/wpa_supplicant.conf
 
-   `wpa_passphrase "rpi" "wifipassword"`
+```
+wpa_passphrase "rpi" "wifipassword"
+```
 
-   The output will be as follows:
+The output will be as follows:
 
 ```apacheconf
 network={
@@ -123,42 +128,54 @@ Note: This is just an example. You need to specify your network name in place of
 
 3) The above output needs to be copied to bottom of the file 
 
-> /etc/wpa_supplicant/wpa_supplicant.conf 
+```
+/etc/wpa_supplicant/wpa_supplicant.conf 
+```
 
 after removing the line containing #psk for security purpose as we do not want to store the WiFi password in plain text.
 
 4) Command to open the file and copy the network settings at the bottom on the file -
 
- `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+```
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
 
 5) Automatically, WiFi will be configured after sometime. We can also make sure it happens by issuing the following command
 
- `sudo wpa_cli reconfigure`
+```
+sudo wpa_cli reconfigure
+```
 
 6) You can verify whether it has successfully connected, using the command 
 
-> `ifconfig wlan0`
+```
+ifconfig wlan0
+```
 
- If the inet addr field has an address beside it, the Raspberry Pi has connected to the network.
- For example, the IP address may be 192.168.0.5. This is the IP address of Raspberry Pi through WiFi connection `rpi` (example).
+If the inet addr field has an address beside it, the Raspberry Pi has connected to the network.
+ 
+For example, the IP address may be 192.168.0.5. This is the IP address of Raspberry Pi through WiFi connection **rpi** (example).
 
 Now, if you are equipped with a HDMI cable, a monitor, a keyboard and a mouse, you are all set to go and discover the capabilities of the credit card sized computer that you possess. However, if you do not have a monitor, do not worry as the last step of this tutorial is aimed to eliminate that need. You can use your laptop display and remotely access your RPi using SSH. So, do not give up hopes after coming this far! One final step and you are done!
 
 #### V - Setting up the Raspberry Pi to connect to laptop display
- [DIY Hack - Connect RPI to Laptop's Display](https://diyhacking.com/connect-raspberry-pi-to-laptop-display/)
+
+[DIY Hack - Connect RPI to Laptop's Display](https://diyhacking.com/connect-raspberry-pi-to-laptop-display/)
 
 1) To start VNC, enter the following command in the SSH terminal:
 
-`vncserver :1`
+```
+vncserver :1
+```
 
 2) In the client side laptop, Download VNC Viewer from  [here](https://www.realvnc.com/download/viewer/)
 
 > Make sure to select Windows if installing VNC Viewer for Windows laptop
 
-3) Now click on VNC Viewer. A dialog box will be displayed. If the Raspberry Pi's IP address is say 192.168.0.5, in the `VNC Server` field, provide the value as [192.168.0.5:1](http://192.168.0.5:1/) and click OK. For password, enter Raspberry's username and password.
+3) Now click on VNC Viewer. A dialog box will be displayed. If the Raspberry Pi's IP address is say 192.168.0.5, in the **VNC Server** field, provide the value as [192.168.0.5:1](http://192.168.0.5:1/) and click OK. For password, enter Raspberry's username and password.
 
 ==> Now the Raspberry Pi's display will be shown on the laptop display.
 
-![RaspberryPi](/blog/assets/img/Raspberry-Pi-Tutorial/view.png)
+[RaspberryPi](/blog/assets/img/Raspberry-Pi-Tutorial/view.png)
 
 And finally, you are done! Without further ado, enjoy exploring!
