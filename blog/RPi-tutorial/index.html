@@ -155,14 +155,15 @@ to format the full space present in SD card if formatting the SD card for the fi
 
 <p>2) Click on Raspbian (so as to flash the Raspbian image on to SD card).</p>
 
-<p>( Note: NOOBS can be used for installation if we have HDMI cable and display monitor).
-<img src="/blog/assets/img/Raspberry-Pi-Tutorial/raspbian.png" alt="Raspberry" />
-3) Download RASPBIAN STRETCH WITH DESKTOP so that we can have a desktop to work on, if necessary.
+<p>Note: NOOBS can be used for installation if we have HDMI cable and display monitor.
+<img src="/blog/assets/img/Raspberry-Pi-Tutorial/raspbian.png" alt="Raspberry" /></p>
+
+<p>3) Download RASPBIAN STRETCH WITH DESKTOP so that we can have a desktop to work on, if necessary.
 Download Torrent (it is faster )</p>
 
 <p>4) Extract the files from the zip file downloaded in Step 3 to extract the Raspbian image (.img file).</p>
 
-<p>5) From  <a href="http://www.etcher.io/">here</a>, download and install the Etcher SD card image utility.</p>
+<p>5) From <a href="http://www.etcher.io/">here</a>, download and install the Etcher SD card image utility.</p>
 
 <p>6) Run Etcher and select the Raspbian image you unzipped (.img file) on your computer or laptop.</p>
 
@@ -182,15 +183,18 @@ Download Torrent (it is faster )</p>
 
 <p>1) Take your Raspberry Pi and connect to the router (for example, DLink router) directly using a LAN cable.</p>
 
-<p>2) By typing ipconfig (in Windows) in your command prompt, find out the IP address of the machine you are using.</p>
+<p>2) By typing <strong>ipconfig</strong> (in Windows) in your command prompt, find out the IP address of the machine you are using.</p>
 
 <p>Check the Active Client Table of your router configuration. There will be an IP address allocated for your RPi. Note the IP address (e.g. 192.168.0.12).</p>
 
-<p><img src="/blog/assets/img/Raspberry-Pi-Tutorial/ActiveClientTable.png" alt="ActiveClientTable" />
-3) Using PuTTY, connect to the IP address, 192.168.0.12(this is just an example).</p>
+<p><img src="/blog/assets/img/Raspberry-Pi-Tutorial/ActiveClientTable.png" alt="ActiveClientTable" /></p>
 
-<p>4) It will get connected to Raspberry Pi and will ask for username/password. 
-&gt; Provide username as pi and password as raspberry (Pi is the default username and raspberry is the default password)</p>
+<p>3) Using PuTTY, connect to the IP address, 192.168.0.12(this is just an example).</p>
+
+<p>4) It will get connected to Raspberry Pi and will ask for username/password.</p>
+<blockquote>
+  <p>Provide username as pi and password as raspberry (Pi is the default username and raspberry is the default password)</p>
+</blockquote>
 
 <p>We can see the RaspberryPi prompt getting displayed and we are connected to the Raspberry Pi through SSH.</p>
 
@@ -208,7 +212,9 @@ Download Torrent (it is faster )</p>
 
 <p>1) In the SSH terminal of PuTTY, give the command</p>
 
-<p><code class="highlighter-rouge">sudo iwlist wlan0 scan</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo iwlist wlan0 scan
+</code></pre>
+</div>
 
 <p>You will be able to see the list of WiFi connections available.</p>
 
@@ -218,7 +224,9 @@ Download Torrent (it is faster )</p>
   <p>/etc/wpa_supplicant/wpa_supplicant.conf</p>
 </blockquote>
 
-<p><code class="highlighter-rouge">wpa_passphrase "rpi" "wifipassword"</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>wpa_passphrase "rpi" "wifipassword"
+</code></pre>
+</div>
 
 <p>The output will be as follows:</p>
 
@@ -237,45 +245,53 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
 
 <p>3) The above output needs to be copied to bottom of the file</p>
 
-<blockquote>
-  <p>/etc/wpa_supplicant/wpa_supplicant.conf</p>
-</blockquote>
+<div class="highlighter-rouge"><pre class="highlight"><code>/etc/wpa_supplicant/wpa_supplicant.conf 
+</code></pre>
+</div>
 
 <p>after removing the line containing #psk for security purpose as we do not want to store the WiFi password in plain text.</p>
 
 <p>4) Command to open the file and copy the network settings at the bottom on the file -</p>
 
-<p><code class="highlighter-rouge">sudo nano /etc/wpa_supplicant/wpa_supplicant.conf</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+</code></pre>
+</div>
 
 <p>5) Automatically, WiFi will be configured after sometime. We can also make sure it happens by issuing the following command</p>
 
-<p><code class="highlighter-rouge">sudo wpa_cli reconfigure</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo wpa_cli reconfigure
+</code></pre>
+</div>
 
 <p>6) You can verify whether it has successfully connected, using the command</p>
 
-<blockquote>
-  <p><code class="highlighter-rouge">ifconfig wlan0</code></p>
-</blockquote>
+<div class="highlighter-rouge"><pre class="highlight"><code>ifconfig wlan0
+</code></pre>
+</div>
 
-<p>If the inet addr field has an address beside it, the Raspberry Pi has connected to the network.
- For example, the IP address may be 192.168.0.5. This is the IP address of Raspberry Pi through WiFi connection <code class="highlighter-rouge">rpi</code> (example).</p>
+<p>If the inet addr field has an address beside it, the Raspberry Pi has connected to the network.</p>
+
+<p>For example, the IP address may be 192.168.0.5. This is the IP address of Raspberry Pi through WiFi connection <strong>rpi</strong> (example).</p>
 
 <p>Now, if you are equipped with a HDMI cable, a monitor, a keyboard and a mouse, you are all set to go and discover the capabilities of the credit card sized computer that you possess. However, if you do not have a monitor, do not worry as the last step of this tutorial is aimed to eliminate that need. You can use your laptop display and remotely access your RPi using SSH. So, do not give up hopes after coming this far! One final step and you are done!</p>
 
 <h4 id="v---setting-up-the-raspberry-pi-to-connect-to-laptop-display">V - Setting up the Raspberry Pi to connect to laptop display</h4>
+
 <p><a href="https://diyhacking.com/connect-raspberry-pi-to-laptop-display/">DIY Hack - Connect RPI to Laptop’s Display</a></p>
 
 <p>1) To start VNC, enter the following command in the SSH terminal:</p>
 
-<p><code class="highlighter-rouge">vncserver :1</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>vncserver :1
+</code></pre>
+</div>
 
-<p>2) In the client side laptop, Download VNC Viewer from  <a href="https://www.realvnc.com/download/viewer/">here</a></p>
+<p>2) In the client side laptop, Download VNC Viewer from <a href="https://www.realvnc.com/download/viewer/">here</a></p>
 
 <blockquote>
   <p>Make sure to select Windows if installing VNC Viewer for Windows laptop</p>
 </blockquote>
 
-<p>3) Now click on VNC Viewer. A dialog box will be displayed. If the Raspberry Pi’s IP address is say 192.168.0.5, in the <code class="highlighter-rouge">VNC Server</code> field, provide the value as <a href="http://192.168.0.5:1/">192.168.0.5:1</a> and click OK. For password, enter Raspberry’s username and password.</p>
+<p>3) Now click on VNC Viewer. A dialog box will be displayed. If the Raspberry Pi’s IP address is say 192.168.0.5, in the <strong>VNC Server</strong> field, provide the value as <a href="http://192.168.0.5:1/">192.168.0.5:1</a> and click OK. For password, enter Raspberry’s username and password.</p>
 
 <p>==&gt; Now the Raspberry Pi’s display will be shown on the laptop display.</p>
 
