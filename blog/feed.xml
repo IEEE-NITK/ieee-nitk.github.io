@@ -5,31 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Oct 2017 15:15:19 +0530</pubDate>
-    <lastBuildDate>Sun, 15 Oct 2017 15:15:19 +0530</lastBuildDate>
+    <pubDate>Sun, 15 Oct 2017 15:37:26 +0530</pubDate>
+    <lastBuildDate>Sun, 15 Oct 2017 15:37:26 +0530</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
-    
-      <item>
-        <title>Generative Adversarial Networks</title>
-        <description>&lt;p&gt;In the last 2 years, &lt;strong&gt;Generative Models&lt;/strong&gt; have been one of the most active areas of research in the field of Deep Learning. The paper on &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (a.k.a GANs) published by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; in 2014 triggered a new wave of research in the field of Generative Models. Today we’ll explore what makes GANs so different and interesting.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GAN/ideal-gen-model.jpeg&quot; alt=&quot;Ideal Generative Model&quot; /&gt;&lt;/p&gt; &lt;p&gt;The main objective of a Generative Model is to learn the &lt;em&gt;probability distribution&lt;/em&gt; from which the training data is sampled. Once the model learns the probability distribution, it can sample new data from...</description>
-        <pubDate>Fri, 13 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Generative-Adversarial-Networks/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Generative-Adversarial-Networks/</guid>
-        
-        <category>Deep Learning</category>
-        
-        <category>Generative Adversarial Networks</category>
-        
-        <category>GANs</category>
-        
-        <category>Generative Models</category>
-        
-        <category>Machine Learning</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
     
       <item>
         <title>Search Engine Optimisation</title>
@@ -186,6 +164,24 @@
         
         
         <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>BitTorrent Explained</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading files as well)&lt;/p&gt; &lt;h2 id=&quot;a-simple-introduction&quot;&gt;A simple introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/BitTorrent-Explained/pic1.png&quot; alt=&quot;BitTorrent Logo&quot; /&gt;&lt;/p&gt; &lt;p&gt;BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing&quot;&gt;peer-to-peer file sharing&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Now,...</description>
+        <pubDate>Mon, 18 Sep 2017 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/BitTorrentExplained/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/BitTorrentExplained/</guid>
+        
+        <category>Networking</category>
+        
+        <category>Torrents</category>
+        
+        <category>P2P</category>
+        
+        
+        <category>CompSoc</category>
         
       </item>
     

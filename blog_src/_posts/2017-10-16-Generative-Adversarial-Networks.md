@@ -2,7 +2,7 @@
 layout: post
 title: "Generative Adversarial Networks"
 author_github: mj10
-date: 2017-10-13 05:05:00
+date: 2017-10-16 05:05:00
 image: '/assets/img/'
 description: 'A brief overview of GANs'
 tags:

@@ -315,5 +315,11 @@ mj10:
   name: Moksh Jain
   github: mj10
   author_image: mokshjain.jpg
-  user_description: 'Something interesting'
+  user_description: 'I like Computers. Computers like me.'
   email: mokshjn00@gmail.com
+anirudhsundar:
+  name: Anirudh Sundar
+  github: anirudhsundar
+  author_image: anirudhsundar.jpg
+  user_description: 'LOTR fan, poké-nerd, F1 addict'
+  email: anirudhs1997@gmail.com
