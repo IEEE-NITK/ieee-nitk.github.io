@@ -5,9 +5,65 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Oct 2017 21:09:51 +0530</pubDate>
-    <lastBuildDate>Sat, 14 Oct 2017 21:09:51 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <pubDate>Mon, 16 Oct 2017 14:03:18 +0530</pubDate>
+    <lastBuildDate>Mon, 16 Oct 2017 14:03:18 +0530</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>The Brain behind a Formula One Car</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;The track belongs to the driver, the pits belong to the engineers&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Formula One cars are mean machines. They have been fine tuned for one purpose- Speed. In fact, they are the most efficient mode of transport after space shuttles.&lt;/p&gt; &lt;p&gt;Be it aerodynamic performance, super-efficient engines or state of the art tyre management strategies, engineers have scaled new heights in their pursuit for speed.&lt;/p&gt; &lt;h2 id=&quot;the-ecu&quot;&gt;The ECU:&lt;/h2&gt; &lt;p&gt;However, one aspect of the car that goes largely unnoticed is the electrical system. If the chassis and the engine form the arms and legs, &lt;strong&gt;the Electronic Control Unit&lt;/strong&gt;, or &lt;strong&gt;the...</description>
+        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</guid>
+        
+        <category>Formula One</category>
+        
+        <category>ECU</category>
+        
+        <category>TAG-320</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Robots Can Now See In 3D</title>
+        <description>&lt;p&gt;Autonomous robots can inspect nuclear power plants, clean up oil spills in the ocean, accompany fighter planes into combat and explore the surface of Mars.&lt;/p&gt; &lt;p&gt;Yet for all their talents, robots still can’t make a cup of tea.&lt;/p&gt; &lt;p&gt;That’s because tasks such as turning the stove on, fetching the kettle and finding the milk and sugar require perceptual abilities that, for most machines, are still a fantasy.&lt;/p&gt; &lt;p&gt;Among them is the ability to make sense of 3-D objects. While it’s relatively straightforward for robots to “see” objects with cameras and other sensors, interpreting what they see, from a single glimpse,...</description>
+        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Robots-can-see-in-3d/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Robots-can-see-in-3d/</guid>
+        
+        <category>Robots</category>
+        
+        <category>Computer Vision</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Generative Adversarial Networks</title>
+        <description>&lt;p&gt;In the last 2 years, &lt;strong&gt;Generative Models&lt;/strong&gt; have been one of the most active areas of research in the field of Deep Learning. The paper on &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (a.k.a GANs) published by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; in 2014 triggered a new wave of research in the field of Generative Models. Today we’ll explore what makes GANs so different and interesting.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GAN/ideal-gen-model.jpeg&quot; alt=&quot;Ideal Generative Model&quot; /&gt;&lt;/p&gt; &lt;p&gt;The main objective of a Generative Model is to learn the &lt;em&gt;probability distribution&lt;/em&gt; from which the training data is sampled. Once the model learns the probability distribution, it can sample new data from...</description>
+        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Generative-Adversarial-Networks/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Generative-Adversarial-Networks/</guid>
+        
+        <category>Deep Learning</category>
+        
+        <category>Generative Adversarial Networks</category>
+        
+        <category>GANs</category>
+        
+        <category>Generative Models</category>
+        
+        <category>Machine Learning</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Search Engine Optimisation</title>
@@ -128,60 +184,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Getting Started with GUIs</title>
-        <description>&lt;p&gt;While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And a good first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, we’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.&lt;/p&gt; &lt;h2 id=&quot;what-are-guis&quot;&gt;What are &lt;em&gt;GUIs&lt;/em&gt;?&lt;/h2&gt; &lt;p&gt;According to Wikipedia, the graphical user interface, is a type of user interface...</description>
-        <pubDate>Sun, 24 Sep 2017 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/getting-started-with-gui/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/getting-started-with-gui/</guid>
-        
-        <category>GUI</category>
-        
-        <category>GTK+</category>
-        
-        <category>Gnome</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The Challenger Disaster</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;On January 28&lt;sup&gt;th&lt;/sup&gt; 1986, the scheduled launch for NASA’s space orbiter- the Challenger, took place as planned. But the launch was the only part of the mission that stuck to plan. 73 seconds after liftoff, the shuttle exploded and broke up, bringing a devastating end to the spacecraft’s 10&lt;sup&gt;th&lt;/sup&gt; mission, claiming all 7 lives onboard. All because of a tiny, rather overlooked aspect of a structure failing due to a very basic property of the given material.&lt;/p&gt; &lt;p&gt;After extensive failure analysis, it was determined that the failure of 2 rubber O-rings caused the disaster.&lt;/p&gt; &lt;p&gt;To understand why the...</description>
-        <pubDate>Sun, 24 Sep 2017 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Challenger-disaster/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Challenger-disaster/</guid>
-        
-        <category>Space</category>
-        
-        <category>NASA</category>
-        
-        <category>Case Study</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>BitTorrent Explained</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“Just torrent it!”&lt;/p&gt; &lt;p&gt;“You can torrent any type of file, its all there on the internet…”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading files as well)&lt;/p&gt; &lt;h2 id=&quot;a-simple-introduction&quot;&gt;A simple introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/BitTorrent-Explained/pic1.png&quot; alt=&quot;BitTorrent Logo&quot; /&gt;&lt;/p&gt; &lt;p&gt;BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of &lt;a href=&quot;https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing&quot;&gt;peer-to-peer file sharing&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Now,...</description>
-        <pubDate>Mon, 18 Sep 2017 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/BitTorrentExplained/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/BitTorrentExplained/</guid>
-        
-        <category>Networking</category>
-        
-        <category>Torrents</category>
-        
-        <category>P2P</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

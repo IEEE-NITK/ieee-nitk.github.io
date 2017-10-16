@@ -311,3 +311,21 @@ mirthunraj:
   author_image: blog-author.jpg
   user_description: 'TBD'
   email: mithunraj@gmail.com
+mj10:
+  name: Moksh Jain
+  github: mj10
+  author_image: mokshjain.jpg
+  user_description: 'I like Computers. Computers like me.'
+  email: mokshjn00@gmail.com
+anirudhsundar:
+  name: Anirudh Sundar
+  github: anirudhsundar
+  author_image: anirudhsundar.jpg
+  user_description: 'LOTR fan, poké-nerd, F1 addict'
+  email: anirudhs1997@gmail.com
+sinchana-hegde:
+  name: Sinchana Hegde
+  github: sinchana-hegde
+  author_image: sinchana.jpg
+  user_description: 'Dancer, Theatre lover, Robotics enthusiast'
+  email: sinchanah@gmail.com
