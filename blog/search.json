@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "The Brain behind a Formula One Car",
+      "category" : "Diode",
+      "tags"     : "Formula One, ECU, and TAG-320",
+      "url"      : "http://ieeenitk.org/blog//The-Brain-behind-a-Formula-One-car/",
+      "date"     : "16 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Robots Can Now See In 3D",
+      "category" : "Piston",
+      "tags"     : "Robots and Computer Vision",
+      "url"      : "http://ieeenitk.org/blog//Robots-can-see-in-3d/",
+      "date"     : "16 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Generative Adversarial Networks",
+      "category" : "CompSoc",
+      "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, and Machine Learning",
+      "url"      : "http://ieeenitk.org/blog//Generative-Adversarial-Networks/",
+      "date"     : "16 Oct 2017"
+    } ,
+  
+    {
       "title"    : "Search Engine Optimisation",
       "category" : "CompSoc",
       "tags"     : "SEO, Google, and Web",

@@ -35,7 +35,7 @@ More concretely, the discriminator and generator can be represented by *two sepa
 
 This is equivalent to G and D playing a **two-player minimax game**. In the ideal scenario, the generator would generate samples that are indistinguishable from the real data and the output of D would be *1/2*, that is the sample is equally likely to be either real or fake. 
 
-_Value function V(G, D) for the minimax game_ ![G and Minimax Game](/blog/assets/img/GAN/minimax-objective.jpeg)
+__Value function V(G, D) for the minimax game__ ![G and Minimax Game](/blog/assets/img/GAN/minimax-objective.jpeg)
 
 ### Advantages and Disadvantages
 This adversarial approach is very effective in building generative models. GANs have a number of computational as well as statistical advantages such as using only *simple backpropogation to obtain gradients*, *no need of inferences during training* among others. It also comes with its own set of drawbacks. One of them is the difficulty in training the model. **The Helvetica Scenario** occurs quite often during training, where the generator finds one sample which fools the discriminator, and then keeps on generating simple variations of the same sample without learning to generate other distinct samples.

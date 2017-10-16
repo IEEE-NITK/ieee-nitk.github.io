@@ -13,10 +13,8 @@ categories:
 - Diode
 github_username: 'anirudhsundar'
 ---
-# Introduction
 
->The track belongs to the driver
-The pits belong to the engineers
+>The track belongs to the driver, the pits belong to the engineers
 
 Formula One cars are mean machines. They have been fine tuned for one purpose- Speed. In fact, they are the most efficient mode of transport after space shuttles.
 
