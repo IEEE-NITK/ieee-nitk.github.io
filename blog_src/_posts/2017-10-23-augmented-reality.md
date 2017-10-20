@@ -20,7 +20,7 @@ Whether you have played “Pokémon Go” or not, you’ve probably at least hea
 
 In most augmented reality applications, a user will see both synthetic and natural light. This is done by overlaying projected images on top of a pair of see-through goggles or glasses, which allow the images and **interactive virtual objects** to layer on top of the user's view of the real world.
 
-![Augmented1](/blog/assets/img/augmented-reality/Augmented1.jpg)
+![Augmented1](/blog_src/assets/img/augmented-reality/Augmented1.jpg)
 
 ## Key Components to Augmented Reality devices
 
@@ -46,7 +46,7 @@ Augmented reality devices are basically mini-supercomputers packed into tiny wea
 
 >Facebook believes that consumer-ready Augmented Reality glasses are bit far from everyday use, but instant and ready-to-use AR devices exist right in our pockets.
 
-![Facebook](/blog/assets/img/augmented-reality/Facebook.jpg)
+![Facebook](/blog_src/assets/img/augmented-reality/Facebook.jpg)
 
 ## Future of Augmented Reality
 
