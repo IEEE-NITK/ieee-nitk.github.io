@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "The Honeycomb Conjecture",
+      "category" : "Piston",
+      "tags"     : "Honeycomb Conjecture and Hexagonal cells",
+      "url"      : "http://ieeenitk.org/blog//the-honeycomb-conjecture/",
+      "date"     : "23 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Charge your phone whenever you walk into the room",
+      "category" : "CAS",
+      "tags"     : "transmitter and reciever",
+      "url"      : "http://ieeenitk.org/blog//charge-your-phone/",
+      "date"     : "23 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Augmented Reality",
+      "category" : "CompSoc",
+      "tags"     : "Virtual Image and Augmented Reality",
+      "url"      : "http://ieeenitk.org/blog//augmented-reality/",
+      "date"     : "23 Oct 2017"
+    } ,
+  
+    {
       "title"    : "The Brain behind a Formula One Car",
       "category" : "Diode",
       "tags"     : "Formula One, ECU, and TAG-320",
