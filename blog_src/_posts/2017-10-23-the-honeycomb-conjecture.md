@@ -12,7 +12,7 @@ categories:
 github_username: 'rajatchandavar'
 comments: true
 ---
-### Honeycomb Conjecture
+
 
 Why do bees build **hexagonal structured** hives? Why not any other shape? Let us deliberate these questions which troubled many thinkers.
 ![img1](/blog/assets/img/the-honeycomb-conjecture/img1.jpg)

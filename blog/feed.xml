@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Oct 2017 02:23:24 +0530</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 02:23:24 +0530</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2017 10:51:03 +0530</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2017 10:51:03 +0530</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>The Honeycomb Conjecture</title>
-        <description>&lt;h3 id=&quot;honeycomb-conjecture&quot;&gt;Honeycomb Conjecture&lt;/h3&gt; &lt;p&gt;Why do bees build &lt;strong&gt;hexagonal structured&lt;/strong&gt; hives? Why not any other shape? Let us deliberate these questions which troubled many thinkers. &lt;img src=&quot;/blog/assets/img/the-honeycomb-conjecture/img1.jpg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Consider prisms of different regular polygons and assume them to have same height and volume. This means that the one with the &lt;strong&gt;least&lt;/strong&gt; perimeter will require the least material to build. We know that as we increase number of sides in the polygon, perimeter decreases. So, cylinder will use the least amount of material (circle can be considered as a polygon with infinite sides).&lt;/p&gt; &lt;p&gt;But cylinders are economical only if they stand...</description>
+        <description>&lt;p&gt;Why do bees build &lt;strong&gt;hexagonal structured&lt;/strong&gt; hives? Why not any other shape? Let us deliberate these questions which troubled many thinkers. &lt;img src=&quot;/blog/assets/img/the-honeycomb-conjecture/img1.jpg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Consider prisms of different regular polygons and assume them to have same height and volume. This means that the one with the &lt;strong&gt;least&lt;/strong&gt; perimeter will require the least material to build. We know that as we increase number of sides in the polygon, perimeter decreases. So, cylinder will use the least amount of material (circle can be considered as a polygon with infinite sides).&lt;/p&gt; &lt;p&gt;But cylinders are economical only if they stand alone. If placed...</description>
         <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
         <link>http://ieeenitk.org/blog/the-honeycomb-conjecture/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/the-honeycomb-conjecture/</guid>
@@ -27,7 +27,7 @@
     
       <item>
         <title>Charge your phone whenever you walk into the room</title>
-        <description>&lt;h2 id=&quot;charge-your-phone-whenever&quot;&gt;&lt;strong&gt;CHARGE YOUR PHONE WHENEVER&lt;/strong&gt;&lt;/h2&gt; &lt;h2 id=&quot;you-walk-into-the-room&quot;&gt;&lt;strong&gt;YOU WALK INTO THE ROOM&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.&lt;/p&gt; &lt;p&gt;Wi-charge technology provides us finally a way to get rid of the power cord, efficiently and safely....</description>
+        <description>&lt;h2 id=&quot;charge-your-phone-whenever-you-walk-into-the-room&quot;&gt;CHARGE YOUR PHONE WHENEVER YOU WALK INTO THE ROOM&lt;/h2&gt; &lt;p&gt;One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.&lt;/p&gt; &lt;p&gt;Wi-charge technology provides us finally a way to get rid of the power cord, efficiently and safely. The...</description>
         <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
         <link>http://ieeenitk.org/blog/charge-your-phone/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/charge-your-phone/</guid>

@@ -13,9 +13,7 @@ github_username: 'sowjanyakandula'
 comments: true
 ---
 
-## **CHARGE YOUR PHONE WHENEVER**
-
-## **YOU WALK INTO THE ROOM**
+## CHARGE YOUR PHONE WHENEVER YOU WALK INTO THE ROOM
 
 One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.
 
