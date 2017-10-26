@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Oct 2017 10:51:03 +0530</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 10:51:03 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.0</generator>
+    <pubDate>Thu, 26 Oct 2017 20:30:48 +0530</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2017 20:30:48 +0530</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Making Iot communications easy using mDNS</title>
+        <description>&lt;p&gt;A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.&lt;/p&gt; &lt;p&gt;What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.&lt;/p&gt; &lt;h1 id=&quot;what-is-mdns&quot;&gt;What is mDNS?&lt;/h1&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot;&gt;mDNS&lt;/a&gt; stands for Multicast Domain Name System. Apple needed to use readable machine names on a local network without a nameserver, so...</description>
+        <pubDate>Thu, 26 Oct 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/using-mdns-in-iot/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/using-mdns-in-iot/</guid>
+        
+        <category>Iot</category>
+        
+        <category>Networking</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>The Honeycomb Conjecture</title>
@@ -156,24 +172,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Fingerprint Recognition</title>
-        <description>&lt;p&gt;Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Here’s a look at how the whole system of fingerprint recognition works.&lt;/p&gt; &lt;p&gt;Fingerprints are the tiny friction ridges on the ends of our fingers and thumbs make it easier to grip things. By making our fingers rougher, these ridges increase the force of friction between our hands and the objects we hold, making it harder to drop things. Unless you have accidents with your hands, your fingerprints remain the same throughout your life.&lt;/p&gt;...</description>
-        <pubDate>Tue, 03 Oct 2017 03:05:05 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/fingerprint-recognition/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/fingerprint-recognition/</guid>
-        
-        <category>fingerprint</category>
-        
-        <category>sensors</category>
-        
-        <category>fingerprint sensor</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
