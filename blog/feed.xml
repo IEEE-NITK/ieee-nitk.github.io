@@ -5,18 +5,18 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Oct 2017 19:59:53 +0530</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2017 19:59:53 +0530</lastBuildDate>
+    <pubDate>Thu, 26 Oct 2017 20:30:48 +0530</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2017 20:30:48 +0530</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Making IOT communications easy using mDNS</title>
-        <description>&lt;h1 id=&quot;making-iot-communications-easy-using-mdns&quot;&gt;Making IOT communications easy using mDNS&lt;/h1&gt; &lt;p&gt;A project in IOT often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.&lt;/p&gt; &lt;p&gt;What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.&lt;/p&gt; &lt;h1 id=&quot;what-is-mdns&quot;&gt;What is mDNS?&lt;/h1&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot;&gt;mDNS&lt;/a&gt; stands for Multicast Domain Name System. Apple needed to use readable machine names on...</description>
+        <title>Making Iot communications easy using mDNS</title>
+        <description>&lt;p&gt;A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.&lt;/p&gt; &lt;p&gt;What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.&lt;/p&gt; &lt;h1 id=&quot;what-is-mdns&quot;&gt;What is mDNS?&lt;/h1&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot;&gt;mDNS&lt;/a&gt; stands for Multicast Domain Name System. Apple needed to use readable machine names on a local network without a nameserver, so...</description>
         <pubDate>Thu, 26 Oct 2017 00:00:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/using-mdns-in-iot/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/using-mdns-in-iot/</guid>
         
-        <category>IOT</category>
+        <category>Iot</category>
         
         <category>Networking</category>
         

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Making IOT communications easy using mDNS</title>
+    <title>Making Iot communications easy using mDNS</title>
     <meta name="description" content="Forget IP addresses when in local network">
 
     <!-- Google Authorship Markup -->
@@ -14,7 +14,7 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@IEEE_NITK">
-    <meta name="twitter:title" content="Making IOT communications easy using mDNS">
+    <meta name="twitter:title" content="Making Iot communications easy using mDNS">
     <meta name="twitter:description" content="Forget IP addresses when in local network">
     
     <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
@@ -23,7 +23,7 @@
     <!-- Social: Facebook / Open Graph -->
     <meta property="fb:app_id" content="0011038251882641" />
     <meta property="og:url" content="http://ieeenitk.org///using-mdns-in-iot/" />
-    <meta property="og:title" content="Making IOT communications easy using mDNS">
+    <meta property="og:title" content="Making Iot communications easy using mDNS">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
     
@@ -31,7 +31,7 @@
     <meta property="og:site_name" content="A blog about our findings and musings">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Making IOT communications easy using mDNS"/>
+    <meta itemprop="name" content="Making Iot communications easy using mDNS"/>
     <meta itemprop="description" content="Forget IP addresses when in local network">
     <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
 
@@ -86,7 +86,7 @@
         
             <time itemprop="datePublished" datetime="2017-10-26 00:00:00 +0530" class="date">26 Oct 2017</time>
         
-        <h1 class="post-title" itemprop="name">Making IOT communications easy using mDNS</h1>
+        <h1 class="post-title" itemprop="name">Making Iot communications easy using mDNS</h1>
         <p itemprop="description" class="subtitle">Forget IP addresses when in local network</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
@@ -137,9 +137,7 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="making-iot-communications-easy-using-mdns">Making IOT communications easy using mDNS</h1>
-
-<p>A project in IOT often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.</p>
+                <p>A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.</p>
 
 <p>What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.</p>
 
@@ -151,7 +149,7 @@
 
 <h1 id="how-to-use-mdns">How to use mDNS?</h1>
 
-<p>I found about this cool feature recently. Most of the modern OSes support mDNS out of the box. In dedication to popular IOT device Raspberry Pi, I will tell you the usage of mDNS in linux.</p>
+<p>I found about this cool feature recently. Most of the modern OSes support mDNS out of the box. In dedication to popular Iot device Raspberry Pi, I will tell you the usage of mDNS in linux.</p>
 
 <p>Linux uses <a href="https://www.avahi.org/">Avahi</a> library for mDNS. To install Avahi on your linux/ubuntu system</p>
 
@@ -174,14 +172,14 @@ Now we’ll need to configure our system to listen to mDNS. To do this, edit <co
 
 <p>If you’re using IPv4 only, then use mdns4_minimal and mdns4 instead.</p>
 
-<p>Now you are all setup. You can check by resolving you own domain:</p>
+<p>Now you are all set to go. You can check by resolving your own domain:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>$ dig +short &lt;hostname&gt;.local @224.0.0.251 -p 5353
 </code></pre>
 </div>
 
 <p><br />
-Here the <code class="highlighter-rouge">&lt;hostname&gt;</code> is the systems hostname. If you don’t know this, then execute <code class="highlighter-rouge">hostname</code> to get it. For example, my hostname is <code class="highlighter-rouge">hrily</code>, so following is the output of <code class="highlighter-rouge">hostname</code>.</p>
+Here the <code class="highlighter-rouge">&lt;hostname&gt;</code> is the system’s hostname. If you don’t know this, then execute <code class="highlighter-rouge">hostname</code> to get it. For example, my hostname is <code class="highlighter-rouge">hrily</code>, so following is the output of <code class="highlighter-rouge">hostname</code>.</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>$ hostname
 hrily
@@ -189,7 +187,7 @@ hrily
 </div>
 
 <p><br />
-So when I resolved myself, I got:</p>
+So when I resolved my hostname, I got:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>$ dig +short hrily.local @224.0.0.251 -p 5353
 10.50.47.112
@@ -200,16 +198,16 @@ So when I resolved myself, I got:</p>
 <br /></p>
 <h1 id="applications">Applications</h1>
 
-<p>Now that we know how to use hostnames instead of IP addresses, we have cool set of applications. Whenever you want to ssh to your RPi hostnamed <code class="highlighter-rouge">myrpi</code>, you just need to do:</p>
+<p>Now that we know how to use hostnames instead of IP addresses, we have a cool set of applications. Whenever you want to ssh to your RPi with hostname <code class="highlighter-rouge">myrpi</code>, you just need to do:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>$ ssh user@`dig +short myrpi.local @224.0.0.251 -p 5353`
 </code></pre>
 </div>
 
 <p><br />
-This is realy good usage that I need constantly. When I’m in my cammpus network, but not in reach of my laptop and need to do some work on it, I just ssh into it using my phone using above command. I don’t really need to know what IP address was assigned to my laptop.</p>
+This is really good usage that I need constantly. When I’m in my cammpus network, but not in reach of my laptop and need to do some work on it, I just ssh into it using my phone using above command. I don’t really need to know what IP address was assigned to my laptop.</p>
 
-<p>I hope you find mDNS usefull to you. Untill then, this is <em>hrily</em> signing off…</p>
+<p>I hope you find mDNS useful. Untill then, this is <em>hrily</em> signing off…</p>
 
             </article>
 
@@ -270,7 +268,7 @@ This is realy good usage that I need constantly. When I’m in my cammpus networ
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/using-mdns-in-iot/%20via%20&#64;IEEE_NITK&hashtags=IOT,Networking,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/using-mdns-in-iot/%20via%20&#64;IEEE_NITK&hashtags=Iot,Networking,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
