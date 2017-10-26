@@ -5,47 +5,175 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 May 2017 02:43:52 +0530</pubDate>
-    <lastBuildDate>Sat, 20 May 2017 02:43:52 +0530</lastBuildDate>
-    <generator>Jekyll v3.2.0</generator>
+    <pubDate>Sun, 22 Oct 2017 10:51:03 +0530</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2017 10:51:03 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
     
       <item>
-        <title>Advice on Computer Science - Vinay Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/vinay_bhat.jpg&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;q-what-do-you-think-should-be-done-in-college-to-enhance-your-resume&quot;&gt;Q. What do you think should be done in college to enhance your resume?&lt;/h3&gt; &lt;p&gt;Ans: One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. It is ideal to contribute to Big Open Source repositories to understand big projects. Best thing is to try to leverage these projects into your first internship. It is more important to learn one language properly rather than every langauge and not master any one of...</description>
-        <pubDate>Mon, 15 May 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/vinay-bhat-interview/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/vinay-bhat-interview/</guid>
+        <title>The Honeycomb Conjecture</title>
+        <description>&lt;p&gt;Why do bees build &lt;strong&gt;hexagonal structured&lt;/strong&gt; hives? Why not any other shape? Let us deliberate these questions which troubled many thinkers. &lt;img src=&quot;/blog/assets/img/the-honeycomb-conjecture/img1.jpg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Consider prisms of different regular polygons and assume them to have same height and volume. This means that the one with the &lt;strong&gt;least&lt;/strong&gt; perimeter will require the least material to build. We know that as we increase number of sides in the polygon, perimeter decreases. So, cylinder will use the least amount of material (circle can be considered as a polygon with infinite sides).&lt;/p&gt; &lt;p&gt;But cylinders are economical only if they stand alone. If placed...</description>
+        <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-honeycomb-conjecture/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-honeycomb-conjecture/</guid>
         
-        <category>IEEE NITK</category>
+        <category>Honeycomb Conjecture</category>
         
-        <category>CompSoc</category>
-        
-        <category>Internships</category>
-        
-        <category>Career Advice</category>
+        <category>Hexagonal cells</category>
         
         
-        <category>IEEE</category>
+        <category>Piston</category>
         
       </item>
     
       <item>
-        <title>Introduction to IEEE-NITK Chapter</title>
-        <description>&lt;p&gt;IEEE is the world’s largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing and technology information around the globe.&lt;/p&gt; &lt;p&gt;IEEE is incorporated under the Not-for-Profit Corporation Law of the state of New York. It was formed in 1963 by the merger of the Institute of Radio Engineers (IRE, founded 1912) and the American Institute of Electrical Engineers (AIEE, founded 1884).&lt;/p&gt; &lt;h2 id=&quot;beginning-of-ieee-nitk&quot;&gt;Beginning...</description>
-        <pubDate>Mon, 15 May 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/introduction-to-ieee/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-ieee/</guid>
+        <title>Charge your phone whenever you walk into the room</title>
+        <description>&lt;h2 id=&quot;charge-your-phone-whenever-you-walk-into-the-room&quot;&gt;CHARGE YOUR PHONE WHENEVER YOU WALK INTO THE ROOM&lt;/h2&gt; &lt;p&gt;One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.&lt;/p&gt; &lt;p&gt;Wi-charge technology provides us finally a way to get rid of the power cord, efficiently and safely. The...</description>
+        <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/charge-your-phone/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/charge-your-phone/</guid>
         
-        <category>IEEE NITK</category>
+        <category>transmitter</category>
+        
+        <category>reciever</category>
+        
+        
+        <category>CAS</category>
+        
+      </item>
+    
+      <item>
+        <title>Augmented Reality</title>
+        <description>&lt;p&gt;Whether you have played “Pokémon Go” or not, you’ve probably at least heard of the game. A special app on your smartphone or tablet makes it look like Pokémon is right there in front of you  while you search for and “capture” the different characters.  This game aquainted the world with this fast growing technology Augmented Reality. This new technology, blurs the line between what’s real and what’s computer-generated by enhancing what we see, hear, feel and smell.&lt;/p&gt; &lt;h2 id=&quot;how-does-augmented-reality-work&quot;&gt;How does Augmented Reality work&lt;/h2&gt; &lt;p&gt;In most augmented reality applications, a user will see both synthetic and natural light. This is...</description>
+        <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/augmented-reality/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/augmented-reality/</guid>
+        
+        <category>Virtual Image</category>
+        
+        <category>Augmented Reality</category>
+        
         
         <category>CompSoc</category>
         
-        <category>Piston</category>
+      </item>
+    
+      <item>
+        <title>The Brain behind a Formula One Car</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;The track belongs to the driver, the pits belong to the engineers&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Formula One cars are mean machines. They have been fine tuned for one purpose- Speed. In fact, they are the most efficient mode of transport after space shuttles.&lt;/p&gt; &lt;p&gt;Be it aerodynamic performance, super-efficient engines or state of the art tyre management strategies, engineers have scaled new heights in their pursuit for speed.&lt;/p&gt; &lt;h2 id=&quot;the-ecu&quot;&gt;The ECU:&lt;/h2&gt; &lt;p&gt;However, one aspect of the car that goes largely unnoticed is the electrical system. If the chassis and the engine form the arms and legs, &lt;strong&gt;the Electronic Control Unit&lt;/strong&gt;, or &lt;strong&gt;the...</description>
+        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</guid>
+        
+        <category>Formula One</category>
+        
+        <category>ECU</category>
+        
+        <category>TAG-320</category>
+        
         
         <category>Diode</category>
         
+      </item>
+    
+      <item>
+        <title>Robots Can Now See In 3D</title>
+        <description>&lt;p&gt;Autonomous robots can inspect nuclear power plants, clean up oil spills in the ocean, accompany fighter planes into combat and explore the surface of Mars.&lt;/p&gt; &lt;p&gt;Yet for all their talents, robots still can’t make a cup of tea.&lt;/p&gt; &lt;p&gt;That’s because tasks such as turning the stove on, fetching the kettle and finding the milk and sugar require perceptual abilities that, for most machines, are still a fantasy.&lt;/p&gt; &lt;p&gt;Among them is the ability to make sense of 3-D objects. While it’s relatively straightforward for robots to “see” objects with cameras and other sensors, interpreting what they see, from a single glimpse,...</description>
+        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Robots-can-see-in-3d/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Robots-can-see-in-3d/</guid>
         
-        <category>IEEE</category>
+        <category>Robots</category>
+        
+        <category>Computer Vision</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Generative Adversarial Networks</title>
+        <description>&lt;p&gt;In the last 2 years, &lt;strong&gt;Generative Models&lt;/strong&gt; have been one of the most active areas of research in the field of Deep Learning. The paper on &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (a.k.a GANs) published by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; in 2014 triggered a new wave of research in the field of Generative Models. Today we’ll explore what makes GANs so different and interesting.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GAN/ideal-gen-model.jpeg&quot; alt=&quot;Ideal Generative Model&quot; /&gt;&lt;/p&gt; &lt;p&gt;The main objective of a Generative Model is to learn the &lt;em&gt;probability distribution&lt;/em&gt; from which the training data is sampled. Once the model learns the probability distribution, it can sample new data from...</description>
+        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Generative-Adversarial-Networks/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Generative-Adversarial-Networks/</guid>
+        
+        <category>Deep Learning</category>
+        
+        <category>Generative Adversarial Networks</category>
+        
+        <category>GANs</category>
+        
+        <category>Generative Models</category>
+        
+        <category>Machine Learning</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Search Engine Optimisation</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Guess how many websites come up each day.&lt;br /&gt; Any ideas?&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;A survey by Netcraft in 2012 showed that total number of websites launched in 2012 were &lt;em&gt;51 million&lt;/em&gt; i.e. ~140,000 per day.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This flood makes it necessary for your website to stand out from the rest. But , how can this be done ?&lt;/p&gt; &lt;p&gt;This is where &lt;strong&gt;SEO i.e. Search Engine Optimisation&lt;/strong&gt; comes into play.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/SEO/gif.gif&quot; alt=&quot;SEO and Ranking&quot; /&gt;&lt;/p&gt; &lt;p&gt;In a world where &lt;strong&gt;over 90% of online experiences start with a search engine,&lt;/strong&gt; showing up on the front page of Google Search can...</description>
+        <pubDate>Sun, 08 Oct 2017 10:35:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Search-Engine-Optimisation/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Search-Engine-Optimisation/</guid>
+        
+        <category>SEO</category>
+        
+        <category>Google</category>
+        
+        <category>Web</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Raspberry Pi Tutorial</title>
+        <description>&lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can use your laptop display itself to work with your Rpi. This requires a few additional...</description>
+        <pubDate>Sun, 08 Oct 2017 10:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/RPi-tutorial/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/RPi-tutorial/</guid>
+        
+        <category>Raspberry Pi</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Aircraft Engines</title>
+        <description>&lt;p&gt;Many of you might have flown in an aircraft at least once in your lifetime and even if you haven’t, you might have at least seen one in a picture. You might have noticed that there are different types of aircraft for different purposes.&lt;/p&gt; &lt;p&gt;Some are small and can accommodate only 5 people while some are huge and can carry more than 600 people, some are used for dropping bombs while some others are used for rescuing people during disasters.&lt;/p&gt; &lt;p&gt;One of the most essential parts of any of these aircrafts is the engine. The engine provides the thrust required...</description>
+        <pubDate>Sun, 08 Oct 2017 10:25:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Aircraft-Engines/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Aircraft-Engines/</guid>
+        
+        <category>Aircraft Engines</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Fingerprint Recognition</title>
+        <description>&lt;p&gt;Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Here’s a look at how the whole system of fingerprint recognition works.&lt;/p&gt; &lt;p&gt;Fingerprints are the tiny friction ridges on the ends of our fingers and thumbs make it easier to grip things. By making our fingers rougher, these ridges increase the force of friction between our hands and the objects we hold, making it harder to drop things. Unless you have accidents with your hands, your fingerprints remain the same throughout your life.&lt;/p&gt;...</description>
+        <pubDate>Tue, 03 Oct 2017 03:05:05 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/fingerprint-recognition/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/fingerprint-recognition/</guid>
+        
+        <category>fingerprint</category>
+        
+        <category>sensors</category>
+        
+        <category>fingerprint sensor</category>
+        
+        
+        <category>Diode</category>
         
       </item>
     

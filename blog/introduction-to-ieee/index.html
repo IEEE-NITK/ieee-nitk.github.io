@@ -21,7 +21,8 @@
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="http://ieeenitk.org/blog/introduction-to-ieee/">
+    <meta property="fb:app_id" content="0011038251882641" />
+    <meta property="og:url" content="http://ieeenitk.org///introduction-to-ieee/" />
     <meta property="og:title" content="Introduction to IEEE-NITK Chapter">
     
     <meta property="og:image" content="http://ieeenitk.org/assets/img/">
@@ -36,16 +37,10 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
-    <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="/blog/assets/img/icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/blog/assets/img/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/blog/assets/img/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/blog/assets/img/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/blog/assets/img/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/blog/assets/img/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/blog/assets/img/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/blog/assets/img/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/blog/assets/img/icons/apple-touch-icon-152x152.png" />
+    <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
     
     <!-- Include Font Awesome -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -59,11 +54,28 @@
     <meta name="msapplication-square310x310logo" content="largetile.png" />
     <!-- Android Lolipop Theme Color -->
     <meta name="theme-color" content="#0562DC">
+    <!-- highlighter theme -->
+    <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
+    <!-- jQuery for highlighter -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/blog/assets/css/main.css">
-    <link rel="canonical" href="http://ieeenitk.org/blog/introduction-to-ieee/">
+    <link rel="canonical" href="/blog/introduction-to-ieee/">
     <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-    href="http://ieeenitk.org/blog/blog/feed.xml" />
+    href="http://ieeenitk.org/blog/feed.xml" />
+
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-106590424-3');
+    </script>
+
 </head>
 
     <body>
@@ -108,6 +120,10 @@
       <li><a href="http://ieeenitk.org/">Main Website</a></li>
     
     
+    
+      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+    
+    
     <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
@@ -125,6 +141,8 @@
 
 <p>IEEE is incorporated under the Not-for-Profit Corporation Law of the state of New York. It was formed in 1963 by the merger of the Institute of Radio Engineers (IRE, founded 1912) and the American Institute of Electrical Engineers (AIEE, founded 1884).</p>
 
+<p><img src="/blog/assets/img/blog-image.png" alt="IEEE NITK Team" /></p>
+
 <h2 id="beginning-of-ieee-nitk">Beginning of IEEE NITK</h2>
 
 <p>Started in 1988, IEEE NITK has progressed exponentially and involved itself in various regional and global technical activities. Our effort has been fruitful in the form of various awards and laurels, the Best Student Branch Award (2007), GINI Student Branch Award (2010) and The Darrel Chong Student Activity Award (Silver Medal). Now one of the largest student branches worldwide, we are getting bigger and better.</p>
@@ -141,7 +159,11 @@
 
 <p>IEEE NITK provides its student members with good platforms for sharing knowledge and implementing technology in practical projects through Special Interest Groups (SIGs).</p>
 
+<p><img src="/blog/assets/img/introduction-to-ieee/IEEE_2017.JPG" alt="IEEE NITK Team" /></p>
+
 <p>The primary SIGs of IEEE NITK are: Diode, Piston and Python.</p>
+
+<p>Apart from that secondary SIGs include WIE(Women in Engineering) and SIGHT(Special Interest Group for Humanitarian Technologies).</p>
 
 <p>In broad terms the objectives of the club are:</p>
 
@@ -153,38 +175,97 @@
 
             </article>
 
+            <section class="author" itemprop="author">
+    <div class="details" itemscope itemtype="http://schema.org/Person">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/salman_shah.jpg" alt="Salman Shah">
+        <p class="def">Author</p>
+        <h3 class="name">
+            <a itemprop="name" href="/">Salman Shah</a>
+        </h3>
+        <p class="desc">Coder, Blogger and Developer interested in Machine Learning and Deep Learning</p>
+        <a itemprop="email" class="email" href="mailto:sbs.191197@gmail.com">sbs.191197@gmail.com</a>
+    </div>
+</section>
+
+            <section class="comments">
+<!-- 	<h3>Comments</h3>
+	<div id="disqus_thread"></div>
+	<div id="disqus_thread"></div>
+
+	<script>
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+	var disqus_config = function () {
+	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = /introduction-to-ieee/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+
+	(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://ieeenitk.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+	</script>
+
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
+	<script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
+ -->
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>
+            
+                <section class="comments">
+                    <h4>Comments</h4>
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/introduction-to-ieee/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    </div>
+                </section>
+            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/introduction-to-ieee/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,Piston,Diode,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/introduction-to-ieee/%20via%20&#64;IEEE_NITK&hashtags=Introduction,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org/introduction-to-ieee/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//introduction-to-ieee/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org/introduction-to-ieee/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//introduction-to-ieee/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
 </section>
-            <section class="author" itemprop="author">
-    <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/salman_shah.jpg" alt="">
-        <p class="def">Author</p>
-        <h3 class="name">
-            <a itemprop="name" href="https://plus.google.com//posts">Salman Shah</a>
-        </h3>
-        <p class="desc">Coder, Blogger and Developer interested in Machine Learning and Deep Learning</p>
-        <a itemprop="email" class="email" href="mailto:chairman.nitkieee@gmail.com">sbs.191197@gmail.com</a>
-    </div>
-</section>
 
-            <!-- include comments.html when disqus is setup -->
             <footer>
     <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
 </footer>
 <script src="/blog/assets/js/main.js"></script>
+            
+<script>
+	$(document).ready(function(){
+		if($("pre code").length){
+			
+			$.getScript('../assets/js/highlight.pack.js', function(){
+    			// load the highlighter script only if we have code snippets.
+    			$('pre code').each(function(i, block) {
+    				hljs.highlightBlock(block);
+  				});	
+    		});
+		}
+	});
+</script>
         </section>
+
     </body>
 </html>
+            

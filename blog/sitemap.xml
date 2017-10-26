@@ -2,7 +2,235 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/vinay-bhat-interview/</loc>
+		<loc>http://ieeenitk.org/blog/the-honeycomb-conjecture/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/charge-your-phone/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/augmented-reality/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Robots-can-see-in-3d/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Generative-Adversarial-Networks/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Search-Engine-Optimisation/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/RPi-tutorial/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Aircraft-Engines/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/fingerprint-recognition/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/chatbot/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/biohacking/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/quantum-computers/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/getting-started-with-gui/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Challenger-disaster/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/BitTorrentExplained/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/storing-energy-in-salt/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/What-Makes-a-Smart-Home-Smart/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/you-dont-really-know-arduino/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Water-Memory-What-A-Memory/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Rock-Paper-Scissors/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Airbus-E-Fan/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Technology-in-Sports/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/six_stroke_engine/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/opencv/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/random-number-generator/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Smartphones-and-health/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/raspberry-pi-bluetooth/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/High-Lift-devices/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/3D-Printing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Reinforcement-Learning/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/NumberTheory/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Log-file-parsing-and-report-generation/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Cuba-and-Candela-Thin-shell-structures-and-their-strength-through-curvature/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/multitenancy/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/cvt/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/big-data/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/FinFETS/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Compliant-Mechanisms/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/hyperloop/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/graphene/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/promises-closures-and-potatoes/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/fluid-mechanics-in-everyday-life/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/the-fourth-industrial-revolution/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/through-the-eyes-of-a-computer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/introduction-to-reverse-engineering/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/google-image-search-grid/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/lighting-up-your-room/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/the-class-of-np/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/why-not-chemical-engineering/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/introduction-to-GPU-computing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/how-to-get-started-with-bots/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/Hello-World/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/getting-to-love-the-terminal/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/installing-ubuntu/</loc>
 	  </url>
 	
 	  <url>

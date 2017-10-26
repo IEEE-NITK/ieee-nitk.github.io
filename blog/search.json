@@ -1,18 +1,474 @@
 [
   
     {
-      "title"    : "Advice on Computer Science - Vinay Bhat",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, Internships, and Career Advice",
-      "url"      : "/blog/vinay-bhat-interview/",
-      "date"     : "15 May 2017"
+      "title"    : "The Honeycomb Conjecture",
+      "category" : "Piston",
+      "tags"     : "Honeycomb Conjecture and Hexagonal cells",
+      "url"      : "http://ieeenitk.org/blog//the-honeycomb-conjecture/",
+      "date"     : "23 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Charge your phone whenever you walk into the room",
+      "category" : "CAS",
+      "tags"     : "transmitter and reciever",
+      "url"      : "http://ieeenitk.org/blog//charge-your-phone/",
+      "date"     : "23 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Augmented Reality",
+      "category" : "CompSoc",
+      "tags"     : "Virtual Image and Augmented Reality",
+      "url"      : "http://ieeenitk.org/blog//augmented-reality/",
+      "date"     : "23 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "The Brain behind a Formula One Car",
+      "category" : "Diode",
+      "tags"     : "Formula One, ECU, and TAG-320",
+      "url"      : "http://ieeenitk.org/blog//The-Brain-behind-a-Formula-One-car/",
+      "date"     : "16 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Robots Can Now See In 3D",
+      "category" : "Piston",
+      "tags"     : "Robots and Computer Vision",
+      "url"      : "http://ieeenitk.org/blog//Robots-can-see-in-3d/",
+      "date"     : "16 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Generative Adversarial Networks",
+      "category" : "CompSoc",
+      "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, and Machine Learning",
+      "url"      : "http://ieeenitk.org/blog//Generative-Adversarial-Networks/",
+      "date"     : "16 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Search Engine Optimisation",
+      "category" : "CompSoc",
+      "tags"     : "SEO, Google, and Web",
+      "url"      : "http://ieeenitk.org/blog//Search-Engine-Optimisation/",
+      "date"     : "08 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Raspberry Pi Tutorial",
+      "category" : "Diode",
+      "tags"     : "Raspberry Pi",
+      "url"      : "http://ieeenitk.org/blog//RPi-tutorial/",
+      "date"     : "08 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Aircraft Engines",
+      "category" : "Piston",
+      "tags"     : "Aircraft Engines",
+      "url"      : "http://ieeenitk.org/blog//Aircraft-Engines/",
+      "date"     : "08 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Fingerprint Recognition",
+      "category" : "Diode",
+      "tags"     : "fingerprint, sensors, and fingerprint sensor",
+      "url"      : "http://ieeenitk.org/blog//fingerprint-recognition/",
+      "date"     : "03 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "The Intriguing World of Chatbots",
+      "category" : "Compsoc",
+      "tags"     : "Chatbot, Chat, Bots, Language Processing, and IoT",
+      "url"      : "http://ieeenitk.org/blog//chatbot/",
+      "date"     : "03 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Biohacking",
+      "category" : "Piston",
+      "tags"     : "biology, hacking, biological hacking, superhuman, and cyborgs",
+      "url"      : "http://ieeenitk.org/blog//biohacking/",
+      "date"     : "03 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Quantum Computers and The Future of Computation",
+      "category" : "Diode",
+      "tags"     : "Quantum Computing",
+      "url"      : "http://ieeenitk.org/blog//quantum-computers/",
+      "date"     : "24 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Getting Started with GUIs",
+      "category" : "CompSoc",
+      "tags"     : "GUI, GTK+, and Gnome",
+      "url"      : "http://ieeenitk.org/blog//getting-started-with-gui/",
+      "date"     : "24 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "The Challenger Disaster",
+      "category" : "Piston",
+      "tags"     : "Space, NASA, and Case Study",
+      "url"      : "http://ieeenitk.org/blog//Challenger-disaster/",
+      "date"     : "24 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "BitTorrent Explained",
+      "category" : "CompSoc",
+      "tags"     : "Networking, Torrents, and P2P",
+      "url"      : "http://ieeenitk.org/blog//BitTorrentExplained/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Storing energy in molten salt",
+      "category" : "Piston",
+      "tags"     : "Energy, Research, and Innovation",
+      "url"      : "http://ieeenitk.org/blog//storing-energy-in-salt/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "What makes a Smart Home Smart",
+      "category" : "Diode",
+      "tags"     : "Smart homes and IoT",
+      "url"      : "http://ieeenitk.org/blog//What-Makes-a-Smart-Home-Smart/",
+      "date"     : "18 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "You don&#39;t really know Arduino",
+      "category" : "Diode",
+      "tags"     : "Arduino",
+      "url"      : "http://ieeenitk.org/blog//you-dont-really-know-arduino/",
+      "date"     : "12 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Water Memory What A Memory",
+      "category" : "CAS",
+      "tags"     : "Water Memory",
+      "url"      : "http://ieeenitk.org/blog//Water-Memory-What-A-Memory/",
+      "date"     : "11 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Rock Paper Scissors",
+      "category" : "CAS",
+      "tags"     : "Game Theory and Strategy",
+      "url"      : "http://ieeenitk.org/blog//Rock-Paper-Scissors/",
+      "date"     : "04 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Airbus E-Fan",
+      "category" : "Piston",
+      "tags"     : "Aviation and Environment",
+      "url"      : "http://ieeenitk.org/blog//Airbus-E-Fan/",
+      "date"     : "04 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Safety Issues in AI Systems",
+      "category" : "Compsoc",
+      "tags"     : "ML, AI, and Security AI",
+      "url"      : "http://ieeenitk.org/blog//Safety-Issues-in-AI-Systems/",
+      "date"     : "04 Sep 2017"
+    } ,
+  
+    {
+      "title"    : "Technology in Sports",
+      "category" : "Diode",
+      "tags"     : "Sports",
+      "url"      : "http://ieeenitk.org/blog//Technology-in-Sports/",
+      "date"     : "22 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Hashing in Competitive Programming",
+      "category" : "CompSoc",
+      "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
+      "url"      : "http://ieeenitk.org/blog//Hashing-in-Competitive-Programming/",
+      "date"     : "22 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "When Strokes are Six",
+      "category" : "Piston",
+      "tags"     : "six stroke engines",
+      "url"      : "http://ieeenitk.org/blog//six_stroke_engine/",
+      "date"     : "13 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "A QuickStart Guide to Image Processing with OpenCV",
+      "category" : "Diode",
+      "tags"     : "OpenCV",
+      "url"      : "http://ieeenitk.org/blog//opencv/",
+      "date"     : "13 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Is Random really Random?",
+      "category" : "Diode",
+      "tags"     : "random, PRNG, TRNGs, cryptography, and Lehmer's RNG",
+      "url"      : "http://ieeenitk.org/blog//random-number-generator/",
+      "date"     : "04 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Smart Phones and Health issues",
+      "category" : "Piston",
+      "tags"     : "Smartphone and Negative effects",
+      "url"      : "http://ieeenitk.org/blog//Smartphones-and-health/",
+      "date"     : "04 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Of a tooth and a pie",
+      "category" : "Diode",
+      "tags"     : "Bluetooth, Raspberry Pi 3, and Internship",
+      "url"      : "http://ieeenitk.org/blog//raspberry-pi-bluetooth/",
+      "date"     : "04 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Ever wondered why exactly are high lift devices needed? Let me tell you...",
+      "category" : "Piston",
+      "tags"     : "High Lift devices",
+      "url"      : "http://ieeenitk.org/blog//High-Lift-devices/",
+      "date"     : "28 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "3D Printing",
+      "category" : "piston",
+      "tags"     : "3D Printing, Additive Manufacturing, and SIS",
+      "url"      : "http://ieeenitk.org/blog//3D-Printing/",
+      "date"     : "28 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "An Introduction to Reinforcement Learning",
+      "category" : "CompSoc",
+      "tags"     : "Machine Learning, AI, and Bots",
+      "url"      : "http://ieeenitk.org/blog//Reinforcement-Learning/",
+      "date"     : "28 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Number Theory",
+      "category" : "CompSoc",
+      "tags"     : "Number Theory, Group, Ring, Rng, Field, Finite Field, and Galois Field",
+      "url"      : "http://ieeenitk.org/blog//NumberTheory/",
+      "date"     : "23 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Log file parsing and formats of report generation",
+      "category" : "CompSoc",
+      "tags"     : "File Parsing and Logging",
+      "url"      : "http://ieeenitk.org/blog//Log-file-parsing-and-report-generation/",
+      "date"     : "23 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Cuba and Candela - Thin shell structures and their strength through curvature",
+      "category" : "Piston",
+      "tags"     : "Structural engineering and Felix Candela",
+      "url"      : "http://ieeenitk.org/blog//Cuba-and-Candela-Thin-shell-structures-and-their-strength-through-curvature/",
+      "date"     : "22 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Multitenancy",
+      "category" : "CompSoc",
+      "tags"     : "Multitenancy, Cloud Computing, and SaaS",
+      "url"      : "http://ieeenitk.org/blog//multitenancy/",
+      "date"     : "15 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Continuously Variable Transmission",
+      "category" : "Piston",
+      "tags"     : "CVT, Transmission, Constant Engine RPM, and Infinite gear ratio",
+      "url"      : "http://ieeenitk.org/blog//cvt/",
+      "date"     : "15 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Introduction to big data and hadoop",
+      "category" : "CompSoc",
+      "tags"     : "Big Data",
+      "url"      : "http://ieeenitk.org/blog//big-data/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "All about FinFETS",
+      "category" : "Diode",
+      "tags"     : "FinFETS",
+      "url"      : "http://ieeenitk.org/blog//FinFETS/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Fascinating World Of Compliant Mechanisms",
+      "category" : "Piston",
+      "tags"     : "Compliant mechanisms",
+      "url"      : "http://ieeenitk.org/blog//Compliant-Mechanisms/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Dealing with Underdetermined Systems",
+      "category" : "Diode",
+      "tags"     : "SPS, Image Processing, and Linear Algebra",
+      "url"      : "http://ieeenitk.org/blog//Dealing-with-underdetermined-systems/",
+      "date"     : "02 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Hyperloop",
+      "category" : "Piston",
+      "tags"     : "hyperloop",
+      "url"      : "http://ieeenitk.org/blog//hyperloop/",
+      "date"     : "25 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Graphene - A Wonder Material",
+      "category" : "Diode",
+      "tags"     : "Graphene",
+      "url"      : "http://ieeenitk.org/blog//graphene/",
+      "date"     : "24 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Promises, Closures and Potatoes",
+      "category" : "CompSoc",
+      "tags"     : "JavaScript and Programming",
+      "url"      : "http://ieeenitk.org/blog//promises-closures-and-potatoes/",
+      "date"     : "23 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Fluid mechanics in everyday life",
+      "category" : "Piston",
+      "tags"     : "Fluid Mechanics",
+      "url"      : "http://ieeenitk.org/blog//fluid-mechanics-in-everyday-life/",
+      "date"     : "18 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "The Fourth Industrial Revolution",
+      "category" : "Piston",
+      "tags"     : "IoT and Automation",
+      "url"      : "http://ieeenitk.org/blog//the-fourth-industrial-revolution/",
+      "date"     : "16 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Through the eyes of a Computer",
+      "category" : "CompSocDiode",
+      "tags"     : "Computer Vision, Image Processing, and Artificial Intelligence",
+      "url"      : "http://ieeenitk.org/blog//through-the-eyes-of-a-computer/",
+      "date"     : "14 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Introduction to Reverse Engineering",
+      "category" : "CompSoc",
+      "tags"     : "CTF, Ethical Hacking, and Security",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-reverse-engineering/",
+      "date"     : "14 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Implementing Google Image Search Style Grid",
+      "category" : "CompSoc",
+      "tags"     : "Web Design and Grid",
+      "url"      : "http://ieeenitk.org/blog//google-image-search-grid/",
+      "date"     : "10 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Lighting Up your Room!",
+      "category" : "Diode",
+      "tags"     : "CAS, SPS, and EEE",
+      "url"      : "http://ieeenitk.org/blog//lighting-up-your-room/",
+      "date"     : "10 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "The Class of NP",
+      "category" : "CompSoc",
+      "tags"     : "Algorithms and P v/s NP",
+      "url"      : "http://ieeenitk.org/blog//the-class-of-np/",
+      "date"     : "09 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Why Not Chemical Engineering",
+      "category" : "Piston",
+      "tags"     : "Chemical and Career Advice",
+      "url"      : "http://ieeenitk.org/blog//why-not-chemical-engineering/",
+      "date"     : "07 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Introduction to GPU Computing",
+      "category" : "CompSoc",
+      "tags"     : "High Performance Computing and Game Development",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-GPU-computing/",
+      "date"     : "04 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "How to Get Started with Bots",
+      "category" : "Diode",
+      "tags"     : "Bots",
+      "url"      : "http://ieeenitk.org/blog//how-to-get-started-with-bots/",
+      "date"     : "01 Jun 2017"
+    } ,
+  
+    {
+      "title"    : "Hello World",
+      "category" : "CompSoc",
+      "tags"     : "GCC, C, Programming, and HelloWorld",
+      "url"      : "http://ieeenitk.org/blog//Hello-World/",
+      "date"     : "26 May 2017"
+    } ,
+  
+    {
+      "title"    : "Getting to love the Terminal",
+      "category" : "CompSoc",
+      "tags"     : "Unix, Terminal, and Bash",
+      "url"      : "http://ieeenitk.org/blog//getting-to-love-the-terminal/",
+      "date"     : "24 May 2017"
+    } ,
+  
+    {
+      "title"    : "Installing Ubuntu For Windows Users",
+      "category" : "CompSoc",
+      "tags"     : "Linux and Ubuntu",
+      "url"      : "http://ieeenitk.org/blog//installing-ubuntu/",
+      "date"     : "24 May 2017"
     } ,
   
     {
       "title"    : "Introduction to IEEE-NITK Chapter",
-      "category" : "IEEE",
-      "tags"     : "IEEE NITK, CompSoc, Piston, and Diode",
-      "url"      : "/blog/introduction-to-ieee/",
+      "category" : "CompSocDiodePiston",
+      "tags"     : "Introduction",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-ieee/",
       "date"     : "15 May 2017"
     } 
   

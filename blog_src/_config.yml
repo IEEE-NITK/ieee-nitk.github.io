@@ -13,6 +13,9 @@ twitter_username: IEEE_NITK
 github_username: IEEE-NITK
 facebook_username: IEEENITK
 
+#Facebook Sharing
+facebook_app_id: 0011038251882641
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -35,8 +38,22 @@ links:
     url: /blog/tags
   - title: Main Website
     url: /
+  - title: Gyan
+    url: /gyan
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
 
-#Special gems for images
+# extra plugins
+plugins_dir: 
+  ['jekyll-paginate']
+
+# Gems
+# plugins: [jekyll-paginate]
+gems: [jekyll-paginate, jemoji]
+
+#make 5 articles per page
+paginate: 5
+paginate_path: "/page:num/"
+
+future: true
