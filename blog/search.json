@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Making IOT communications easy using mDNS",
+      "category" : "CompSoc",
+      "tags"     : "IOT and Networking",
+      "url"      : "http://ieeenitk.org/blog//using-mdns-in-iot/",
+      "date"     : "26 Oct 2017"
+    } ,
+  
+    {
       "title"    : "The Honeycomb Conjecture",
       "category" : "Piston",
       "tags"     : "Honeycomb Conjecture and Hexagonal cells",
