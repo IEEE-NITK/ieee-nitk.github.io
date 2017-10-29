@@ -41,31 +41,31 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Number Theory">
+        <meta name="description" content="A brief introduction to Docker">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Number Theory">
-        <meta name="twitter:description" content="Number Theory">
+        <meta name="twitter:title" content="Docker">
+        <meta name="twitter:description" content="A brief introduction to Docker">
         
         <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
         
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///NumberTheory/" />
-        <meta property="og:title" content="Number Theory">
+        <meta property="og:url" content="http://ieeenitk.org///Intoduction-to-Docker/" />
+        <meta property="og:title" content="Docker">
         
         <meta property="og:image" content="http://ieeenitk.org/assets/img/">
         
-        <meta property="og:description" content="Number Theory">
+        <meta property="og:description" content="A brief introduction to Docker">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Number Theory"/>
-        <meta itemprop="description" content="Number Theory">
+        <meta itemprop="name" content="Docker"/>
+        <meta itemprop="description" content="A brief introduction to Docker">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -89,29 +89,15 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Number Theory</title>
+        <title>Docker</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/NumberTheory/">
+        <link rel="canonical" href="/blog/Intoduction-to-Docker/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
-
-        
-            <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script> 
 
         
 
@@ -135,10 +121,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-07-23 16:18:33 +0530" class="date">23 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-10-30 15:40:10 +0530" class="date">30 Oct 2017</time>
         
-        <h1 class="post-title" itemprop="name">Number Theory</h1>
-        <p itemprop="description" class="subtitle">Number Theory</p>
+        <h1 class="post-title" itemprop="name">Docker</h1>
+        <p itemprop="description" class="subtitle">A brief introduction to Docker</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -188,189 +174,90 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="the-mathematics-of-123-">The Mathematics of 1,2,3, …</h1>
+                <p>Docker is probably the most talked-about infrastructure technology of the past few years. And why not? It makes managing and deploying applications so much easier without the overhead of a Virtual Machine. Here’s how:</p>
 
-<h2 id="number-theory">Number Theory</h2>
+<p><strong>Docker</strong> is a tool designed to make it easier to create, deploy, and run applications by using containers. <strong>Containers</strong> allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on <strong>any other machine</strong> regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.</p>
 
-<p>Number theory is a field of mathematics that deals with the study of numbers and their properties. It is just like how chemists study different elements, their reactivity, their compounds, etc, in number theory mathematicians boil numbers, titrate them, react with numbers and form number complexes (complex numbers).</p>
+<p>In a way, Docker is a bit like a virtual machine. But unlike a virtual machine, rather than creating a whole virtual operating system, Docker allows applications to use the same Linux kernel as the system that they’re running on and only requires applications be shipped with things not already running on the host computer. This gives a significant performance boost and reduces the size of the application.</p>
 
-<h3 id="group">Group</h3>
+<h2 id="containers">Containers</h2>
 
-<p>A group is a set of elements $G = {…}$ and an operation $#$. For G to be called a Group with respect to $#$, it must satisfy the following four group axioms or conditions:</p>
-<ul>
-  <li>Closure: For any $x$,$y$ $\in G$, $x$ $#$ $y$ $\in G$</li>
-  <li>Associativity: If $x$, $y$, $z$ $\in G$, then ($x$ $#$ $y$) $#$ $z = x$ $#$ ($y$ $#$ $z$)</li>
-  <li>Identity: $\exists e \in G$ such that for any $x \in G$,  $x$ $#$ $e = e$ $#$ $x$ = $x$</li>
-  <li>Invertibility: For every $x \in G$, there must exist an element $x^{-1}$ or $y \in G$ such that, $x$ $#$ $y = y$ $#$ $x = e$, where $e$ is the identity element.</li>
-</ul>
+<p>An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.</p>
 
-<p>Integers form a group with the operation of addition. Let us check to see if they follow the rules of the Group Axioms:</p>
-<ul>
-  <li>Closure: For any two integers a and b, a+b is also an integer.</li>
-  <li>Associativity: Obviously</li>
-  <li>Identity: 0 is the identity integer</li>
-  <li>Invertibility: For every integer a, -a is also an integer and a + (-a) is 0.</li>
-</ul>
+<p>A container is a runtime instance of an image—what the image becomes in memory when actually executed.
+It runs completely isolated from the host environment by default, only accessing host files and ports if
+configured to do so.</p>
 
-<p>** Note that, group operations need not be commutative. **</p>
+<p>Containers run apps natively on the host machine’s kernel. They have better performance characteristics
+than virtual machines that only get virtual access to host resources through a hypervisor. Containers can
+get native access, each one running in a discrete process, taking no more memory than any other executable.</p>
 
-<p>The order of a group $G$, is the number of elements in the set $G$.</p>
+<h2 id="containers-vs-virtual-machines">Containers vs. Virtual Machines</h2>
 
-<p>There are many interesting Groups in nature. Some of them are called symmetric groups and abelian groups. Let us discuss them one by one.</p>
+<p><img src="/blog/assets/img/Docker/docker-vm-container.png" alt="Containers vs VM" /></p>
 
-<h4 id="symmetric-groups">Symmetric Groups</h4>
+<p><strong>Virtual Machines</strong> run guest operating systems—note the OS layer in each box. This is resource intensive,
+and the resulting disk image and application state is an entanglement of OS settings, system-installed
+dependencies, OS security patches, and other easy-to-lose, hard-to-replicate ephemera.</p>
 
-<p>In general, symmetric groups are defined on a set $X$ and the group elements consist of bijective functions defined from X to X and the group operation is composition of functions.</p>
+<p><strong>Containers</strong> can share a single kernel, and the only information that needs to be in a container image is
+the executable and its package dependencies, which never need to be installed on the host system. These
+processes run like native processes, and you can manage them individually by running commands like docker
+ps—just like you would run ps on Linux to see active processes. Finally, because they contain all their
+dependencies, there is no configuration entanglement; a containerized app <strong>“runs anywhere”</strong>.</p>
 
-<p>Let us take two elements in the group. Each element is a bijective function from X to X. Let $f$ and $g$ be two such functions.</p>
+<h2 id="who-is-docker-for">Who is Docker for?</h2>
 
-<p>Now, $f:X\rightarrow X$ and $g:X \rightarrow X$.</p>
+<p>Docker is a tool that is designed to benefit both developers and system administrators, making it a part
+of many DevOps (developers + operations) toolchains. For <em>developers</em>, it means that they can focus on writing
+code without worrying about the system that it will ultimately be running on. It also allows them to get a
+head start by using one of thousands of programs already designed to run in a Docker container as a part of
+their application. For <em>operations</em>, Docker gives flexibility and potentially reduces the number of
+systems needed because of its small footprint and lower overhead.</p>
 
-<p>Consider the composition of f and g, $g o f:X \rightarrow X$ also belongs to the group by definition.
-Identity elements always exist in these groups and therefore they form a symmetric group.</p>
+<h2 id="in-a-nutshell-heres-what-docker-can-do-for-you">In a nutshell, here’s what Docker can do for you:</h2>
 
-<p>Here, taking the first N natural numbers, the bijection becomes a mere permutation of re-arrangement.</p>
+<p>It can get more applications running on the same hardware than other technologies; it makes it easy for
+developers to quickly create ready-to-run containered applications; and it makes managing and deploying
+applications much easier. Put it all together and I can see why Docker is riding the hype cycle as fast
+as I can recall ever seeing an enterprise technology go.</p>
 
-<p>On a set $X_n$, for example consisting of numbers 1 to n.
-\begin{equation}
-S_n = { 1, 2, 3, … , n-1, n }
-\end{equation}</p>
+<h2 id="setup">Setup</h2>
 
-<p>the symmetric group on the set $S_n$ consists of all the permutations of the numbers from 1 to n taken all at once.</p>
+<p>Docker is available on multiple platforms, on cloud and on-premises. It can be downloaded and installed by
+following the instructions <a href="https://docs.docker.com/engine/installation/">here</a></p>
 
-<p>For example, let
-\begin{equation}
-S_n = {1,2,3}
-\end{equation}
-Then it’s symmetric group is:
-\begin{equation}
-G = {(1,2,3),(1,3,2),(2,3,1),(2,1,3),(3,1,2),(3,2,1)}
-\end{equation}</p>
+<blockquote>
+  <p>Installation on Windows and Mac OS have standalone install packages with some prerequisites for the OS.
+If your system does not meet the requirements, you can install Docker Toolbox.</p>
+</blockquote>
 
-<p>For $n$ elements there are $n!$ permutations. Hence, the order of the symmetric group of $S_n$ is $n!$.
-By this definition, a Rubik’s cube, molecules like ammonia, permuations of numbers and millions of other objects in the real world that contain states can be mathematically modelled into a symmetric group.</p>
+<p>You should be able to run docker run hello-world and see a response like this:</p>
 
-<h4 id="abelian-groups">Abelian Groups</h4>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>docker run hello-world
 
-<p>An abelian group is a special form of a group, which adds the condition of commutativity to the group. A group $G$ is said to be an abelian group with respect to an operation $#$, if $G$ is a group and:</p>
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
 
-<p>For any $x,y\in G$, $x$ $#$ $y = y$ $#$ $x$</p>
+To generate this message, Docker took the following steps:
+...<span class="o">(</span>snipped<span class="o">)</span>...
+</code></pre></div></div>
 
-<p>The concept of Abelian Groups are important when it comes to rings, fields and finite fields.</p>
-
-<h3 id="ring">Ring</h3>
-
-<p>A ring is an abelian group $R$ but it has two operations, usually denoted as $+$ and $*$. But in order to make things simpler, let us consider them as $#1$ and $#2$.</p>
-
-<p>Conditions for a Group $R$ to be a ring:</p>
-<ol>
-  <li>$R$ is an abelian group (i.e closure, associativity, commutative, identity and invertibility in $#1$)</li>
-  <li>$R$ is monoid in $#2$, i.e
-    <ul>
-      <li>For any $x,y,z\in R$, ($x$ $#2$ $y$) $#2$ $z = x$ $#2$ ($y$ $#2$ $z$) [Associative]</li>
-      <li>There exists an element $e \in R$, such that for any element $x \in R$, $x$ $#2$ $e = e$ $#2$ $x = x$ [Identity]</li>
-    </ul>
-  </li>
-  <li>The two operations must be distributive over the first operation $#1$. For all $x,y,z \in R$:
-    <ul>
-      <li>$x$ $#2$ ($y$ $#1$ $z$) = ($x$ $#2$ $y$) $#1$ ($x$ $#2$ $z$) [Left distributivity]</li>
-      <li>($y$ $#1$ $z$) $#2$ $x$ = ($y$ $#2$ $x$) $#1$ ($z$ $#2$ $x$) [Right distributivity]</li>
-    </ul>
-  </li>
-</ol>
-
-<p>** Note: Other sources use, $+$ and $*$ to denote the operations $#1$ and $#2$ respectively.**</p>
-
-<p>There is an interesting concept here called the <em>rng</em> (without the $i$), also known as the pseudo ring.
-A rng has all the properties of a ring except that it need not have a multiplicative identity.
-Consider, the set of even integers,
-\begin{equation}
-S = {…,-8,-6,-4,-2,0,2,4,6,8,…}
-\end{equation}
-and the operations addition $+$ and multiplication $*$. They form a $rng$ but not a $ring$ because there is no multiplicative identity $1$ in $S$.</p>
-
-<p>The set of Integers $Z$ with $+$ and $*$, however can claim the title of the <strong>LORD of the RINGS</strong>. Because they form a ring. Get it?Nope? Moving on!</p>
-
-<h3 id="field">Field</h3>
-
-<p>A set $F$(see how I am conveniently changing the letters of the set as the definition changes, get used to it when reading math books) is said to be a Field with respect to the operations $+$ and $*$ if the following field axioms are satisfied:</p>
-<ul>
-  <li>($F,+$) must be an abelian group</li>
-  <li>($F-\{0\},*$) must be an abelian group [0 is the additive identity]</li>
-</ul>
-
-<h4 id="characteristic-of-a-field">Characteristic of a Field:</h4>
-<p>A positive integer n is said to be a characteristic of a field $F$, if
-\begin{equation}
-n . 1 = 0
-\end{equation}
-i.e.
-\begin{equation}
-1 + 1 + … + 1 = 0 
-\end{equation}
-Here, 0 is the identity of the $+$ operation. If there is no positive integer n that satisfies this condition, then the field is said to have a zero characteristic.</p>
-
-<p>We need not take only 1 here. In fact, for any element $x \in F$, $n.x = 0$ is true. We also want the least positive positive integer n that satisfies this condition for all the elements in the set $F.</p>
-
-<h4 id="subfield">Subfield</h4>
-
-<p>A field $(G,+,*)$ is said to be a subfield of $(F,+,*)$, if $0$ in $F = 0$ in $G$, both the operations are the same and $G\subset F$.</p>
-
-<h3 id="prime-field">Prime Field</h3>
-
-<p>Given a prime number $p$, we can build a prime number field.
-Let the $+$ operation be a $+modulo$ p operation:if the sum exceeds p, we mod it with p.
-Let the $*$ operation be a $*modulo$ p operation:if the product exceeds p, we mod it with p.
-Add these two operations with a set consisting of integers from $0$ to $p-1$, we get a prime field.</p>
-
-<p>This field is commonly referred to as $\mathbb{Z}_p$.</p>
-
-<p>For example, 
-\begin{equation}
-\mathbb{Z}_7 = {0,1,2,3,4,5,6}
-\end{equation}</p>
-
-<h3 id="finite-field">Finite Field</h3>
-
-<p>By the blessings from the gods of obviousness, a finite field is a field containing a finite number of elements in its set. One interesting finite field is the finite field of prime order, also called the Galois Field ($GF(p)$ or $\mathbb{Z}/p\mathbb{Z}$ or $\mathbb{F}_{p}$).</p>
-
-<p>The elements of a Galois Field are actually generally defined as,</p>
-
-<p>\begin{align}
-    gf(p^n) = &amp;&amp; (0,1,2,…, p-1) \cup \\
-               &amp;&amp; (p,p+1,p+2,…,p+p-1) \cup \\
-               &amp;&amp; (p^2, p^2+1,p^2+2,…,p^2+p-1) \cup … \cup \\
-               &amp;&amp; (p^{n-1},p^{n-1}+1, p^{n-1}+2,…,p^{n-1}+p-1)
-\end{align}
-where $p \in \mathbb{P}$ and $n \in \mathbb{Z}^{+}$</p>
-
-<p>Let us try to compute $gf(3^2)$:</p>
-
-<p>\begin{equation}
-gf(3^2) = {0,1,2,3,4,5}
-\end{equation}</p>
-
-<p>The operations here are $+modulo3$ and $*modulo3$.</p>
-
-<p>One can easily note that, $gf(p^1)$ is nothing but the prime field $\mathbb{Z}_p$. However, $gf(p^n)$ is considered to be an extension to the prime field $\mathbb{Z}_p$. The addition of the new elements to the set do not violate any of the field properties.</p>
-
-<p>All of this number physics is beautiful actually. Mathematics is the purest form of art and knowledge to have ever been invented by mankind. It is certainly very true that numbers never lie. In the upcoming blogs, let us explore the application of number theory in cryptography.</p>
-
-<p>Feel free to contact me at dth.bht@gmail.com for any queries, complaints or suggestions.</p>
-
-<p>Signing off, Yours truly, the Hermitsage</p>
+<blockquote>
+  <p>Note: version 1.13 or higher is required</p>
+</blockquote>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/adithyabk.jpg" alt="Adithya Bhat">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/mahim_agrawal.jpg" alt="Mahim Agrawal">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Adithya Bhat</a>
+            <a itemprop="name" href="/">Mahim Agrawal</a>
         </h3>
-        <p class="desc">C, Linux and cryptography - My deathly hallows</p>
-        <a itemprop="email" class="email" href="mailto:dth.bht@gmail.com">dth.bht@gmail.com</a>
+        <p class="desc">Football freak, Gamer</p>
+        <a itemprop="email" class="email" href="mailto:mahim23agrawal@gmail.com">mahim23agrawal@gmail.com</a>
     </div>
 </section>
 
@@ -386,7 +273,7 @@ gf(3^2) = {0,1,2,3,4,5}
 
 	var disqus_config = function () {
 	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-	this.page.identifier = /NumberTheory/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	this.page.identifier = /Intoduction-to-Docker/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 
 	(function() { // DON'T EDIT BELOW THIS LINE
@@ -411,23 +298,17 @@ gf(3^2) = {0,1,2,3,4,5}
   }(document, 'script', 'facebook-jssdk'));</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/NumberTheory/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/NumberTheory/%20via%20&#64;IEEE_NITK&hashtags=Number Theory,Group,Ring,Rng,Field,Finite Field,Galois Field,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/Intoduction-to-Docker/%20via%20&#64;IEEE_NITK&hashtags=Docker,Containers,DevOps,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//NumberTheory/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//Intoduction-to-Docker/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//NumberTheory/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//Intoduction-to-Docker/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
