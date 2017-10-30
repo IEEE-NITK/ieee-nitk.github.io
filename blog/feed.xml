@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Oct 2017 00:48:27 +0530</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2017 00:48:27 +0530</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2017 11:04:54 +0530</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2017 11:04:54 +0530</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -29,7 +29,7 @@
     
       <item>
         <title>The LIGO Experiment</title>
-        <description>&lt;p&gt;The LIGO (Laser Interferometer Gravitational-Wave Observatory) Experiment – A completely different perspective of studying the universe.&lt;/p&gt; &lt;h2 id=&quot;einsteins-prediction&quot;&gt;Einstein’s Prediction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-ligo-experiment/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;Over a century ago, Albert Einstein proposed the idea of something called a Gravitational Wave which was a part of his General Theory of Relativity. The concept of Gravitational waves suggests that, the force of gravity is not an actual force but rather, a distortion in the fabric of spacetime. This was just an idea, as there was no experimental evidence to support Einstein’s claim.&lt;/p&gt; &lt;h2 id=&quot;what-is-a-gravitational-wave&quot;&gt;What is a gravitational wave?&lt;/h2&gt; &lt;p&gt;A gravitational wave is much like...</description>
+        <description>&lt;p&gt;The LIGO (Laser Interferometer Gravitational-Wave Observatory) Experiment – A completely different perspective of studying the universe.&lt;/p&gt; &lt;h2 id=&quot;einsteins-prediction&quot;&gt;Einstein’s Prediction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-ligo-experiment/image1.jpeg&quot; alt=&quot;Einstein’s Prediction&quot; height=&quot;294px&quot; width=&quot;270px&quot; /&gt;&lt;/p&gt; &lt;p&gt;Over a century ago, Albert Einstein proposed the idea of something called a Gravitational Wave which was a part of his General Theory of Relativity. The concept of Gravitational waves suggests that, the force of gravity is not an actual force but rather, a distortion in the fabric of spacetime. This was just an idea, as there was no experimental evidence to support Einstein’s claim.&lt;/p&gt; &lt;h2 id=&quot;what-is-a-gravitational-wave&quot;&gt;What is a gravitational wave?&lt;/h2&gt; &lt;p&gt;A gravitational wave...</description>
         <pubDate>Mon, 30 Oct 2017 15:40:09 +0530</pubDate>
         <link>http://ieeenitk.org/blog/the-ligo-experiment/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/the-ligo-experiment/</guid>
