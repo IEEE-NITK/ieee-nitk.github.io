@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "Docker",
+      "category" : "CompSoc",
+      "tags"     : "Docker, Containers, and DevOps",
+      "url"      : "http://ieeenitk.org/blog//Intoduction-to-Docker/",
+      "date"     : "30 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "The LIGO Experiment",
+      "category" : "CAS",
+      "tags"     : "LIGO",
+      "url"      : "http://ieeenitk.org/blog//the-ligo-experiment/",
+      "date"     : "30 Oct 2017"
+    } ,
+  
+    {
+      "title"    : "Wireless Power Transmission",
+      "category" : "Piston",
+      "tags"     : "Power",
+      "url"      : "http://ieeenitk.org/blog//wireless-power-transmission/",
+      "date"     : "30 Oct 2017"
+    } ,
+  
+    {
       "title"    : "Making Iot communications easy using mDNS",
       "category" : "CompSoc",
       "tags"     : "Iot and Networking",

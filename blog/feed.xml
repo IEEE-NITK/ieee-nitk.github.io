@@ -5,9 +5,55 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Oct 2017 20:30:48 +0530</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2017 20:30:48 +0530</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Mon, 30 Oct 2017 11:04:54 +0530</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2017 11:04:54 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Docker</title>
+        <description>&lt;p&gt;Docker is probably the most talked-about infrastructure technology of the past few years. And why not? It makes managing and deploying applications so much easier without the overhead of a Virtual Machine. Here’s how:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Docker&lt;/strong&gt; is a tool designed to make it easier to create, deploy, and run applications by using containers. &lt;strong&gt;Containers&lt;/strong&gt; allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container the developer can rest assured that the application will run on...</description>
+        <pubDate>Mon, 30 Oct 2017 15:40:10 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Intoduction-to-Docker/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Intoduction-to-Docker/</guid>
+        
+        <category>Docker</category>
+        
+        <category>Containers</category>
+        
+        <category>DevOps</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>The LIGO Experiment</title>
+        <description>&lt;p&gt;The LIGO (Laser Interferometer Gravitational-Wave Observatory) Experiment – A completely different perspective of studying the universe.&lt;/p&gt; &lt;h2 id=&quot;einsteins-prediction&quot;&gt;Einstein’s Prediction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-ligo-experiment/image1.jpeg&quot; alt=&quot;Einstein’s Prediction&quot; height=&quot;294px&quot; width=&quot;270px&quot; /&gt;&lt;/p&gt; &lt;p&gt;Over a century ago, Albert Einstein proposed the idea of something called a Gravitational Wave which was a part of his General Theory of Relativity. The concept of Gravitational waves suggests that, the force of gravity is not an actual force but rather, a distortion in the fabric of spacetime. This was just an idea, as there was no experimental evidence to support Einstein’s claim.&lt;/p&gt; &lt;h2 id=&quot;what-is-a-gravitational-wave&quot;&gt;What is a gravitational wave?&lt;/h2&gt; &lt;p&gt;A gravitational wave...</description>
+        <pubDate>Mon, 30 Oct 2017 15:40:09 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-ligo-experiment/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-ligo-experiment/</guid>
+        
+        <category>LIGO</category>
+        
+        
+        <category>CAS</category>
+        
+      </item>
+    
+      <item>
+        <title>Wireless Power Transmission</title>
+        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally the power is transmitted through wires. there is an original idea to eradicate the hazardous usage of electrical wires which involve lot of confusion in particularly organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not effect the environment surrounding.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate...</description>
+        <pubDate>Mon, 30 Oct 2017 15:40:08 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/wireless-power-transmission/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/wireless-power-transmission/</guid>
+        
+        <category>Power</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Making Iot communications easy using mDNS</title>
@@ -126,52 +172,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Search Engine Optimisation</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;Guess how many websites come up each day.&lt;br /&gt; Any ideas?&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;A survey by Netcraft in 2012 showed that total number of websites launched in 2012 were &lt;em&gt;51 million&lt;/em&gt; i.e. ~140,000 per day.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This flood makes it necessary for your website to stand out from the rest. But , how can this be done ?&lt;/p&gt; &lt;p&gt;This is where &lt;strong&gt;SEO i.e. Search Engine Optimisation&lt;/strong&gt; comes into play.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/SEO/gif.gif&quot; alt=&quot;SEO and Ranking&quot; /&gt;&lt;/p&gt; &lt;p&gt;In a world where &lt;strong&gt;over 90% of online experiences start with a search engine,&lt;/strong&gt; showing up on the front page of Google Search can...</description>
-        <pubDate>Sun, 08 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Search-Engine-Optimisation/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Search-Engine-Optimisation/</guid>
-        
-        <category>SEO</category>
-        
-        <category>Google</category>
-        
-        <category>Web</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Raspberry Pi Tutorial</title>
-        <description>&lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can use your laptop display itself to work with your Rpi. This requires a few additional...</description>
-        <pubDate>Sun, 08 Oct 2017 10:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/RPi-tutorial/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/RPi-tutorial/</guid>
-        
-        <category>Raspberry Pi</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Aircraft Engines</title>
-        <description>&lt;p&gt;Many of you might have flown in an aircraft at least once in your lifetime and even if you haven’t, you might have at least seen one in a picture. You might have noticed that there are different types of aircraft for different purposes.&lt;/p&gt; &lt;p&gt;Some are small and can accommodate only 5 people while some are huge and can carry more than 600 people, some are used for dropping bombs while some others are used for rescuing people during disasters.&lt;/p&gt; &lt;p&gt;One of the most essential parts of any of these aircrafts is the engine. The engine provides the thrust required...</description>
-        <pubDate>Sun, 08 Oct 2017 10:25:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Aircraft-Engines/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Aircraft-Engines/</guid>
-        
-        <category>Aircraft Engines</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
