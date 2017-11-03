@@ -121,7 +121,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-12 05:02:44 +0530" class="date">12 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-11 23:32:44 +0000" class="date">12 Sep 2017</time>
         
         <h1 class="post-title" itemprop="name">You don't really know Arduino</h1>
         <p itemprop="description" class="subtitle">Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.</p>
@@ -188,8 +188,9 @@
 
 <p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
-</span></code></pre></div></div>
+<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
+</span></code></pre>
+</div>
 <p>“<em>Done!</em>”</p>
 
 <p>So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one’s comfort Arduino IDE supports it out of the box. (right after installation?)</p>
@@ -219,7 +220,7 @@
 <h3 id="an-example">An Example</h3>
 <p>Enough with the blabbering, lets look at a simple example.</p>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
+<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
 </span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
 <span class="p">{</span>
  <span class="c1">//set pin 5 of PORTB to output
@@ -235,7 +236,8 @@
 </span>  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
   <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>If you copy-paste the above code to Arduino IDE and upload it, it will mimic the classic Blink LED  code. The catch is that the built in Blink example takes 928 bytes of program memory while the above code takes just 486 bytes. (Almost half the space!)</p>
 
@@ -274,40 +276,17 @@
 </section>
 
             <section class="comments">
-<!-- 	<h3>Comments</h3>
-	<div id="disqus_thread"></div>
-	<div id="disqus_thread"></div>
 
-	<script>
-	/**
-	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-	var disqus_config = function () {
-	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-	this.page.identifier = /you-dont-really-know-arduino/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-	};
-
-	(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = 'https://ieeenitk.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-	})();
+	<div id="fb-root"></div>
+	
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 	</script>
-
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
-	<script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
- -->
-
-<div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
 </section>
             
                 <section class="comments">

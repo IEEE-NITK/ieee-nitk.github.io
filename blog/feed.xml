@@ -5,16 +5,16 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Oct 2017 11:04:54 +0530</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2017 11:04:54 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.0</generator>
+    <pubDate>Sat, 04 Nov 2017 01:08:16 +0530</pubDate>
+    <lastBuildDate>Sat, 04 Nov 2017 01:08:16 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Docker</title>
+        <title>Introduction to Docker</title>
         <description>&lt;p&gt;Docker is probably the most talked-about infrastructure technology of the past few years. And why not? It makes managing and deploying applications so much easier without the overhead of a Virtual Machine. Here’s how:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Docker&lt;/strong&gt; is a tool designed to make it easier to create, deploy, and run applications by using containers. &lt;strong&gt;Containers&lt;/strong&gt; allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container the developer can rest assured that the application will run on...</description>
         <pubDate>Mon, 30 Oct 2017 15:40:10 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Intoduction-to-Docker/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Intoduction-to-Docker/</guid>
+        <link>http://ieeenitk.org/blog/introduction-to-docker/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-docker/</guid>
         
         <category>Docker</category>
         
@@ -43,7 +43,7 @@
     
       <item>
         <title>Wireless Power Transmission</title>
-        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally the power is transmitted through wires. there is an original idea to eradicate the hazardous usage of electrical wires which involve lot of confusion in particularly organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not effect the environment surrounding.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate...</description>
+        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not effect the environment surrounding.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate...</description>
         <pubDate>Mon, 30 Oct 2017 15:40:08 +0530</pubDate>
         <link>http://ieeenitk.org/blog/wireless-power-transmission/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/wireless-power-transmission/</guid>
@@ -123,8 +123,8 @@
         <title>The Brain behind a Formula One Car</title>
         <description>&lt;blockquote&gt; &lt;p&gt;The track belongs to the driver, the pits belong to the engineers&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Formula One cars are mean machines. They have been fine tuned for one purpose- Speed. In fact, they are the most efficient mode of transport after space shuttles.&lt;/p&gt; &lt;p&gt;Be it aerodynamic performance, super-efficient engines or state of the art tyre management strategies, engineers have scaled new heights in their pursuit for speed.&lt;/p&gt; &lt;h2 id=&quot;the-ecu&quot;&gt;The ECU:&lt;/h2&gt; &lt;p&gt;However, one aspect of the car that goes largely unnoticed is the electrical system. If the chassis and the engine form the arms and legs, &lt;strong&gt;the Electronic Control Unit&lt;/strong&gt;, or &lt;strong&gt;the...</description>
         <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</guid>
+        <link>http://ieeenitk.org/blog/the-brain-behind-a-formula-one-car/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-brain-behind-a-formula-one-car/</guid>
         
         <category>Formula One</category>
         
@@ -141,8 +141,8 @@
         <title>Robots Can Now See In 3D</title>
         <description>&lt;p&gt;Autonomous robots can inspect nuclear power plants, clean up oil spills in the ocean, accompany fighter planes into combat and explore the surface of Mars.&lt;/p&gt; &lt;p&gt;Yet for all their talents, robots still can’t make a cup of tea.&lt;/p&gt; &lt;p&gt;That’s because tasks such as turning the stove on, fetching the kettle and finding the milk and sugar require perceptual abilities that, for most machines, are still a fantasy.&lt;/p&gt; &lt;p&gt;Among them is the ability to make sense of 3-D objects. While it’s relatively straightforward for robots to “see” objects with cameras and other sensors, interpreting what they see, from a single glimpse,...</description>
         <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Robots-can-see-in-3d/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Robots-can-see-in-3d/</guid>
+        <link>http://ieeenitk.org/blog/robots-can-see-in-3d/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/robots-can-see-in-3d/</guid>
         
         <category>Robots</category>
         
@@ -157,8 +157,8 @@
         <title>Generative Adversarial Networks</title>
         <description>&lt;p&gt;In the last 2 years, &lt;strong&gt;Generative Models&lt;/strong&gt; have been one of the most active areas of research in the field of Deep Learning. The paper on &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (a.k.a GANs) published by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; in 2014 triggered a new wave of research in the field of Generative Models. Today we’ll explore what makes GANs so different and interesting.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GAN/ideal-gen-model.jpeg&quot; alt=&quot;Ideal Generative Model&quot; /&gt;&lt;/p&gt; &lt;p&gt;The main objective of a Generative Model is to learn the &lt;em&gt;probability distribution&lt;/em&gt; from which the training data is sampled. Once the model learns the probability distribution, it can sample new data from...</description>
         <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Generative-Adversarial-Networks/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Generative-Adversarial-Networks/</guid>
+        <link>http://ieeenitk.org/blog/generative-adversarial-networks/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/generative-adversarial-networks/</guid>
         
         <category>Deep Learning</category>
         
