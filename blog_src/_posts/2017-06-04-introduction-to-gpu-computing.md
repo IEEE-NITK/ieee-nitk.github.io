@@ -4,7 +4,7 @@ title: "Introduction to GPU Computing"
 author_github: vilas897
 date: 2017-06-04 12:00:00
 image: '/assets/img/'
-description: 'An overview of how GPUs and Graphic rendering works along with an introduction to GPGPUs'
+description: 'An overview of how GPUs and Graphic rendering works along with an introduction to GPUs'
 tags:
 - High Performance Computing
 - Game Development

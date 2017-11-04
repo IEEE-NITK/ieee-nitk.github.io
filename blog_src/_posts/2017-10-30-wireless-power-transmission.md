@@ -14,7 +14,7 @@ github_username: 'vansjyo'
 
 We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.
 
-Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not effect the environment surrounding.
+Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not affect the environment.
 
 In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate in that regime in a given system, the energy transfer can be very efficient. Scientists have tried to develop methods of wireless power transmission that could cut the clutter or lead to clean sources of electricity. 
 

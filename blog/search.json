@@ -236,7 +236,7 @@
       "title"    : "When Strokes are Six",
       "category" : "Piston",
       "tags"     : "six stroke engines",
-      "url"      : "http://ieeenitk.org/blog//six_stroke_engine/",
+      "url"      : "http://ieeenitk.org/blog//six-stroke-engine/",
       "date"     : "13 Aug 2017"
     } ,
   
@@ -345,18 +345,18 @@
     } ,
   
     {
-      "title"    : "Introduction to big data and hadoop",
-      "category" : "CompSoc",
-      "tags"     : "Big Data",
-      "url"      : "http://ieeenitk.org/blog//big-data/",
+      "title"    : "Fascinating World Of Compliant Mechanisms",
+      "category" : "Piston",
+      "tags"     : "Compliant mechanisms",
+      "url"      : "http://ieeenitk.org/blog//compliant-mechanisms/",
       "date"     : "08 Jul 2017"
     } ,
   
     {
-      "title"    : "Fascinating World Of Compliant Mechanisms",
-      "category" : "Piston",
-      "tags"     : "Compliant mechanisms",
-      "url"      : "http://ieeenitk.org/blog//Compliant-Mechanisms/",
+      "title"    : "Introduction to big data and hadoop",
+      "category" : "CompSoc",
+      "tags"     : "Big Data",
+      "url"      : "http://ieeenitk.org/blog//big-data/",
       "date"     : "08 Jul 2017"
     } ,
   
@@ -460,7 +460,7 @@
       "title"    : "Introduction to GPU Computing",
       "category" : "CompSoc",
       "tags"     : "High Performance Computing and Game Development",
-      "url"      : "http://ieeenitk.org/blog//introduction-to-GPU-computing/",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-gpu-computing/",
       "date"     : "04 Jun 2017"
     } ,
   

@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Nov 2017 01:08:16 +0530</pubDate>
-    <lastBuildDate>Sat, 04 Nov 2017 01:08:16 +0530</lastBuildDate>
+    <pubDate>Sat, 04 Nov 2017 15:44:55 +0530</pubDate>
+    <lastBuildDate>Sat, 04 Nov 2017 15:44:55 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -43,7 +43,7 @@
     
       <item>
         <title>Wireless Power Transmission</title>
-        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not effect the environment surrounding.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate...</description>
+        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not affect the environment.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate in...</description>
         <pubDate>Mon, 30 Oct 2017 15:40:08 +0530</pubDate>
         <link>http://ieeenitk.org/blog/wireless-power-transmission/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/wireless-power-transmission/</guid>
