@@ -121,7 +121,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-24 16:18:33 +0530" class="date">24 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-24 10:48:33 +0000" class="date">24 May 2017</time>
         
         <h1 class="post-title" itemprop="name">Getting to love the Terminal</h1>
         <p itemprop="description" class="subtitle">Getting started with exploring the Bash shell</p>
@@ -212,10 +212,11 @@ We’ll mainly talk about bash <a href="https://en.wikipedia.org/wiki/Alias_(com
 
 <p>Some other common aliases you would like to use can be</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alias ..="cd .."
+<div class="highlighter-rouge"><pre class="highlight"><code>alias ..="cd .."
 alias ...="cd ../.."
 alias myfolder="cd path/to/my/folder"
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>You can now just use the placeholders instead of the entire command. I use a lot of aliases to <code class="highlighter-rouge">cd</code> into my frequent folders and it really saves a lot of time and a lot of typing.</p>
 
@@ -233,12 +234,13 @@ alias myfolder="cd path/to/my/folder"
 
 <p>Now move all the way down to the bottom of the file and add the following lines there.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alias lhid='ls -A|grep '^\..*''
+<div class="highlighter-rouge"><pre class="highlight"><code>alias lhid='ls -A|grep '^\..*''
 alias ..="cd .."
 alias ...="cd ../.."
 alias myfolder="cd path/to/my/folder"
 
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>Save the file and exit (<code class="highlighter-rouge">Ctrl X + Y</code> in nano).</p>
 
@@ -271,40 +273,17 @@ alias myfolder="cd path/to/my/folder"
 </section>
 
             <section class="comments">
-<!-- 	<h3>Comments</h3>
-	<div id="disqus_thread"></div>
-	<div id="disqus_thread"></div>
 
-	<script>
-	/**
-	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-	var disqus_config = function () {
-	this.page.url = http://ieeenitk.org/blog;  // Replace PAGE_URL with your page's canonical URL variable
-	this.page.identifier = /getting-to-love-the-terminal/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-	};
-
-	(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = 'https://ieeenitk.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-	})();
+	<div id="fb-root"></div>
+	
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 	</script>
-
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
-	<script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
- -->
-
-<div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
 </section>
             
                 <section class="comments">

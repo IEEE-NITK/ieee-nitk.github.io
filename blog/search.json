@@ -1,10 +1,10 @@
 [
   
     {
-      "title"    : "Docker",
+      "title"    : "Introduction to Docker",
       "category" : "CompSoc",
       "tags"     : "Docker, Containers, and DevOps",
-      "url"      : "http://ieeenitk.org/blog//Intoduction-to-Docker/",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-docker/",
       "date"     : "30 Oct 2017"
     } ,
   
@@ -60,7 +60,7 @@
       "title"    : "The Brain behind a Formula One Car",
       "category" : "Diode",
       "tags"     : "Formula One, ECU, and TAG-320",
-      "url"      : "http://ieeenitk.org/blog//The-Brain-behind-a-Formula-One-car/",
+      "url"      : "http://ieeenitk.org/blog//the-brain-behind-a-formula-one-car/",
       "date"     : "16 Oct 2017"
     } ,
   
@@ -68,7 +68,7 @@
       "title"    : "Robots Can Now See In 3D",
       "category" : "Piston",
       "tags"     : "Robots and Computer Vision",
-      "url"      : "http://ieeenitk.org/blog//Robots-can-see-in-3d/",
+      "url"      : "http://ieeenitk.org/blog//robots-can-see-in-3d/",
       "date"     : "16 Oct 2017"
     } ,
   
@@ -76,7 +76,7 @@
       "title"    : "Generative Adversarial Networks",
       "category" : "CompSoc",
       "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, and Machine Learning",
-      "url"      : "http://ieeenitk.org/blog//Generative-Adversarial-Networks/",
+      "url"      : "http://ieeenitk.org/blog//generative-adversarial-networks/",
       "date"     : "16 Oct 2017"
     } ,
   
@@ -84,7 +84,7 @@
       "title"    : "Search Engine Optimisation",
       "category" : "CompSoc",
       "tags"     : "SEO, Google, and Web",
-      "url"      : "http://ieeenitk.org/blog//Search-Engine-Optimisation/",
+      "url"      : "http://ieeenitk.org/blog//search-engine-optimisation/",
       "date"     : "08 Oct 2017"
     } ,
   
@@ -92,7 +92,7 @@
       "title"    : "Raspberry Pi Tutorial",
       "category" : "Diode",
       "tags"     : "Raspberry Pi",
-      "url"      : "http://ieeenitk.org/blog//RPi-tutorial/",
+      "url"      : "http://ieeenitk.org/blog//rpi-tutorial/",
       "date"     : "08 Oct 2017"
     } ,
   
@@ -100,7 +100,7 @@
       "title"    : "Aircraft Engines",
       "category" : "Piston",
       "tags"     : "Aircraft Engines",
-      "url"      : "http://ieeenitk.org/blog//Aircraft-Engines/",
+      "url"      : "http://ieeenitk.org/blog//aircraft-engines/",
       "date"     : "08 Oct 2017"
     } ,
   
@@ -148,7 +148,7 @@
       "title"    : "The Challenger Disaster",
       "category" : "Piston",
       "tags"     : "Space, NASA, and Case Study",
-      "url"      : "http://ieeenitk.org/blog//Challenger-disaster/",
+      "url"      : "http://ieeenitk.org/blog//challenger-disaster/",
       "date"     : "24 Sep 2017"
     } ,
   
@@ -156,7 +156,7 @@
       "title"    : "BitTorrent Explained",
       "category" : "CompSoc",
       "tags"     : "Networking, Torrents, and P2P",
-      "url"      : "http://ieeenitk.org/blog//BitTorrentExplained/",
+      "url"      : "http://ieeenitk.org/blog//bit-torrent-explained/",
       "date"     : "18 Sep 2017"
     } ,
   
@@ -172,7 +172,7 @@
       "title"    : "What makes a Smart Home Smart",
       "category" : "Diode",
       "tags"     : "Smart homes and IoT",
-      "url"      : "http://ieeenitk.org/blog//What-Makes-a-Smart-Home-Smart/",
+      "url"      : "http://ieeenitk.org/blog//what-makes-a-smart-home-smart/",
       "date"     : "18 Sep 2017"
     } ,
   
@@ -188,7 +188,7 @@
       "title"    : "Water Memory What A Memory",
       "category" : "CAS",
       "tags"     : "Water Memory",
-      "url"      : "http://ieeenitk.org/blog//Water-Memory-What-A-Memory/",
+      "url"      : "http://ieeenitk.org/blog//water-memory-what-a-memory/",
       "date"     : "11 Sep 2017"
     } ,
   
@@ -196,7 +196,7 @@
       "title"    : "Rock Paper Scissors",
       "category" : "CAS",
       "tags"     : "Game Theory and Strategy",
-      "url"      : "http://ieeenitk.org/blog//Rock-Paper-Scissors/",
+      "url"      : "http://ieeenitk.org/blog//rock-paper-scissors/",
       "date"     : "04 Sep 2017"
     } ,
   
@@ -204,7 +204,7 @@
       "title"    : "Airbus E-Fan",
       "category" : "Piston",
       "tags"     : "Aviation and Environment",
-      "url"      : "http://ieeenitk.org/blog//Airbus-E-Fan/",
+      "url"      : "http://ieeenitk.org/blog//airbus-e-fan/",
       "date"     : "04 Sep 2017"
     } ,
   
@@ -212,7 +212,7 @@
       "title"    : "Safety Issues in AI Systems",
       "category" : "Compsoc",
       "tags"     : "ML, AI, and Security AI",
-      "url"      : "http://ieeenitk.org/blog//Safety-Issues-in-AI-Systems/",
+      "url"      : "http://ieeenitk.org/blog//safety-issues-in-ai-systems/",
       "date"     : "04 Sep 2017"
     } ,
   
@@ -220,7 +220,7 @@
       "title"    : "Technology in Sports",
       "category" : "Diode",
       "tags"     : "Sports",
-      "url"      : "http://ieeenitk.org/blog//Technology-in-Sports/",
+      "url"      : "http://ieeenitk.org/blog//technology-in-sports/",
       "date"     : "22 Aug 2017"
     } ,
   
@@ -228,7 +228,7 @@
       "title"    : "Hashing in Competitive Programming",
       "category" : "CompSoc",
       "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
-      "url"      : "http://ieeenitk.org/blog//Hashing-in-Competitive-Programming/",
+      "url"      : "http://ieeenitk.org/blog//hashing-in-competitive-programming/",
       "date"     : "22 Aug 2017"
     } ,
   
@@ -236,7 +236,7 @@
       "title"    : "When Strokes are Six",
       "category" : "Piston",
       "tags"     : "six stroke engines",
-      "url"      : "http://ieeenitk.org/blog//six_stroke_engine/",
+      "url"      : "http://ieeenitk.org/blog//six-stroke-engine/",
       "date"     : "13 Aug 2017"
     } ,
   
@@ -260,7 +260,7 @@
       "title"    : "Smart Phones and Health issues",
       "category" : "Piston",
       "tags"     : "Smartphone and Negative effects",
-      "url"      : "http://ieeenitk.org/blog//Smartphones-and-health/",
+      "url"      : "http://ieeenitk.org/blog//smartphones-and-health/",
       "date"     : "04 Aug 2017"
     } ,
   
@@ -276,7 +276,7 @@
       "title"    : "Ever wondered why exactly are high lift devices needed? Let me tell you...",
       "category" : "Piston",
       "tags"     : "High Lift devices",
-      "url"      : "http://ieeenitk.org/blog//High-Lift-devices/",
+      "url"      : "http://ieeenitk.org/blog//high-lift-devices/",
       "date"     : "28 Jul 2017"
     } ,
   
@@ -284,7 +284,7 @@
       "title"    : "3D Printing",
       "category" : "piston",
       "tags"     : "3D Printing, Additive Manufacturing, and SIS",
-      "url"      : "http://ieeenitk.org/blog//3D-Printing/",
+      "url"      : "http://ieeenitk.org/blog//3d-printing/",
       "date"     : "28 Jul 2017"
     } ,
   
@@ -292,7 +292,7 @@
       "title"    : "An Introduction to Reinforcement Learning",
       "category" : "CompSoc",
       "tags"     : "Machine Learning, AI, and Bots",
-      "url"      : "http://ieeenitk.org/blog//Reinforcement-Learning/",
+      "url"      : "http://ieeenitk.org/blog//reinforcement-learning/",
       "date"     : "28 Jul 2017"
     } ,
   
@@ -300,7 +300,7 @@
       "title"    : "Number Theory",
       "category" : "CompSoc",
       "tags"     : "Number Theory, Group, Ring, Rng, Field, Finite Field, and Galois Field",
-      "url"      : "http://ieeenitk.org/blog//NumberTheory/",
+      "url"      : "http://ieeenitk.org/blog//number-theory/",
       "date"     : "23 Jul 2017"
     } ,
   
@@ -308,7 +308,7 @@
       "title"    : "Log file parsing and formats of report generation",
       "category" : "CompSoc",
       "tags"     : "File Parsing and Logging",
-      "url"      : "http://ieeenitk.org/blog//Log-file-parsing-and-report-generation/",
+      "url"      : "http://ieeenitk.org/blog//log-file-parsing-and-report-generation/",
       "date"     : "23 Jul 2017"
     } ,
   
@@ -316,7 +316,7 @@
       "title"    : "Cuba and Candela - Thin shell structures and their strength through curvature",
       "category" : "Piston",
       "tags"     : "Structural engineering and Felix Candela",
-      "url"      : "http://ieeenitk.org/blog//Cuba-and-Candela-Thin-shell-structures-and-their-strength-through-curvature/",
+      "url"      : "http://ieeenitk.org/blog//cuba-and-candela-thin-shell-structures-and-their-strength-through-curvature/",
       "date"     : "22 Jul 2017"
     } ,
   
@@ -337,6 +337,22 @@
     } ,
   
     {
+      "title"    : "All about FinFETS",
+      "category" : "Diode",
+      "tags"     : "FinFETS",
+      "url"      : "http://ieeenitk.org/blog//finfets/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
+      "title"    : "Fascinating World Of Compliant Mechanisms",
+      "category" : "Piston",
+      "tags"     : "Compliant mechanisms",
+      "url"      : "http://ieeenitk.org/blog//compliant-mechanisms/",
+      "date"     : "08 Jul 2017"
+    } ,
+  
+    {
       "title"    : "Introduction to big data and hadoop",
       "category" : "CompSoc",
       "tags"     : "Big Data",
@@ -345,26 +361,10 @@
     } ,
   
     {
-      "title"    : "All about FinFETS",
-      "category" : "Diode",
-      "tags"     : "FinFETS",
-      "url"      : "http://ieeenitk.org/blog//FinFETS/",
-      "date"     : "08 Jul 2017"
-    } ,
-  
-    {
-      "title"    : "Fascinating World Of Compliant Mechanisms",
-      "category" : "Piston",
-      "tags"     : "Compliant mechanisms",
-      "url"      : "http://ieeenitk.org/blog//Compliant-Mechanisms/",
-      "date"     : "08 Jul 2017"
-    } ,
-  
-    {
       "title"    : "Dealing with Underdetermined Systems",
       "category" : "Diode",
       "tags"     : "SPS, Image Processing, and Linear Algebra",
-      "url"      : "http://ieeenitk.org/blog//Dealing-with-underdetermined-systems/",
+      "url"      : "http://ieeenitk.org/blog//dealing-with-underdetermined-systems/",
       "date"     : "02 Jul 2017"
     } ,
   
@@ -460,7 +460,7 @@
       "title"    : "Introduction to GPU Computing",
       "category" : "CompSoc",
       "tags"     : "High Performance Computing and Game Development",
-      "url"      : "http://ieeenitk.org/blog//introduction-to-GPU-computing/",
+      "url"      : "http://ieeenitk.org/blog//introduction-to-gpu-computing/",
       "date"     : "04 Jun 2017"
     } ,
   
@@ -476,7 +476,7 @@
       "title"    : "Hello World",
       "category" : "CompSoc",
       "tags"     : "GCC, C, Programming, and HelloWorld",
-      "url"      : "http://ieeenitk.org/blog//Hello-World/",
+      "url"      : "http://ieeenitk.org/blog//hello-world/",
       "date"     : "26 May 2017"
     } ,
   
