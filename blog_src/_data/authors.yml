@@ -1,4 +1,4 @@
-andydandyy:
+﻿andydandyy:
   name: Anand Pathak
   github: andydandyy
   author_image: 'blog-author.jpg'
@@ -353,8 +353,21 @@ sowjanyakandula:
   author_image: palak.jpg
   user_description: 'while(!(succeed=try()));'
   email: smarty1palak@gmail.com
-
-
-
-
-
+mahim23:
+  name: Mahim Agrawal
+  github: mahim23
+  author_image: mahim_agrawal.jpg
+  user_description: 'Football freak, Gamer'
+  email: mahim23agrawal@gmail.com
+meghbhalerao:
+  name: Megh Bhalerao
+  github: meghbhalerao
+  author_image: megh_bhalerao.jpeg
+  user_description: 'Wake up kick-ass repeat'
+  email: megh.bhalerao@gmail.com
+vansjyo:
+  name: Vanshika Gupta
+  github: vansjyo
+  author_image: blog-author.jpg
+  user_description: 'Web development, energy'
+  email: vanshika421@gmail.com
