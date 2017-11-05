@@ -347,11 +347,11 @@ sowjanyakandula:
   author_image: sowjanya.jpg
   user_description: 'Passionate about learning new things'
   email: sowjanyakandula99@gmail.com
- smarty1palak:
+smarty1palak:
   name: Palak Singhal
   github: smarty1palak
   author_image: palak.jpg
-  user_description: 'while(!(succeed=try()));'
+  user_description: 'while(!(succeed())) try();'
   email: smarty1palak@gmail.com
 mahim23:
   name: Mahim Agrawal
