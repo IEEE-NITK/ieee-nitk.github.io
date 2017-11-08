@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "The Beginning Of The End - Have The Machines Won?",
+      "category" : "Compsoc",
+      "tags"     : "Artificial Intelligence and AI threat",
+      "url"      : "http://ieeenitk.org/blog//the-beginning-of-the-end-have-the-machines-won/",
+      "date"     : "05 Nov 2017"
+    } ,
+  
+    {
       "title"    : "Introduction to Docker",
       "category" : "CompSoc",
       "tags"     : "Docker, Containers, and DevOps",

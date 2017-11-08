@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Nov 2017 15:44:55 +0530</pubDate>
-    <lastBuildDate>Sat, 04 Nov 2017 15:44:55 +0530</lastBuildDate>
+    <pubDate>Mon, 06 Nov 2017 18:02:44 +0530</pubDate>
+    <lastBuildDate>Mon, 06 Nov 2017 18:02:44 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>The Beginning Of The End - Have The Machines Won?</title>
+        <description>&lt;p&gt;Wondering when artificially intelligent robots will take over the Earth? Wonder no more — they’ve already done it! You’re probably thinking&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;But wait. Wouldn’t I have noticed if chrome-plated autonomous killing machines began to exterminate humans? Not necessarily.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;It turns out evil robots in cyber-space are nowhere near as flashy as their science-fiction counterparts. We envisioned Cylons, Terminators, and Cyborgs but failed to imagine the much more immediate threat of helpful neural-network learning algorithms. I’m talking about Alexa, Echo, Siri, Google Home, the Internet of Things, even social networking platforms masquerading as news sources. They control content. They learn...</description>
+        <pubDate>Sun, 05 Nov 2017 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-beginning-of-the-end-have-the-machines-won/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-beginning-of-the-end-have-the-machines-won/</guid>
+        
+        <category>Artificial Intelligence</category>
+        
+        <category>AI threat</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Introduction to Docker</title>
@@ -150,28 +166,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Generative Adversarial Networks</title>
-        <description>&lt;p&gt;In the last 2 years, &lt;strong&gt;Generative Models&lt;/strong&gt; have been one of the most active areas of research in the field of Deep Learning. The paper on &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (a.k.a GANs) published by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; in 2014 triggered a new wave of research in the field of Generative Models. Today we’ll explore what makes GANs so different and interesting.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GAN/ideal-gen-model.jpeg&quot; alt=&quot;Ideal Generative Model&quot; /&gt;&lt;/p&gt; &lt;p&gt;The main objective of a Generative Model is to learn the &lt;em&gt;probability distribution&lt;/em&gt; from which the training data is sampled. Once the model learns the probability distribution, it can sample new data from...</description>
-        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/generative-adversarial-networks/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/generative-adversarial-networks/</guid>
-        
-        <category>Deep Learning</category>
-        
-        <category>Generative Adversarial Networks</category>
-        
-        <category>GANs</category>
-        
-        <category>Generative Models</category>
-        
-        <category>Machine Learning</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
