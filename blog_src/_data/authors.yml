@@ -1,4 +1,4 @@
-andydandyy:
+﻿andydandyy:
   name: Anand Pathak
   github: andydandyy
   author_image: 'blog-author.jpg'
@@ -347,14 +347,39 @@ sowjanyakandula:
   author_image: sowjanya.jpg
   user_description: 'Passionate about learning new things'
   email: sowjanyakandula99@gmail.com
- smarty1palak:
+smarty1palak:
   name: Palak Singhal
   github: smarty1palak
   author_image: palak.jpg
-  user_description: 'while(!(succeed=try()));'
+  user_description: 'while(!(succeed())) try();'
   email: smarty1palak@gmail.com
-
-
-
-
-
+mahim23:
+  name: Mahim Agrawal
+  github: mahim23
+  author_image: mahim_agrawal.jpg
+  user_description: 'Football freak, Gamer'
+  email: mahim23agrawal@gmail.com
+meghbhalerao:
+  name: Megh Bhalerao
+  github: meghbhalerao
+  author_image: megh_bhalerao.jpeg
+  user_description: 'Wake up kick-ass repeat'
+  email: megh.bhalerao@gmail.com
+vansjyo:
+  name: Vanshika Gupta
+  github: vansjyo
+  author_image: blog-author.jpg
+  user_description: 'Web development, energy'
+  email: vanshika421@gmail.com
+Shama-Vasisht:
+  name: Shama Vasisht
+  github: Shama-Vasisht
+  author_image: Profile_Picture.png
+  user_description: 'The perfect ones are always flawed.'
+  email: shamagvasisht23998@gmail.com
+sonalparab10:
+  name: Sonal S. Parab
+  github: sonalparab10
+  author_image: 
+  user_description:
+  email: parab.sonal108@gmail.com

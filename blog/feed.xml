@@ -5,9 +5,71 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Oct 2017 10:51:03 +0530</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 10:51:03 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.0</generator>
+    <pubDate>Sat, 04 Nov 2017 15:44:55 +0530</pubDate>
+    <lastBuildDate>Sat, 04 Nov 2017 15:44:55 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Introduction to Docker</title>
+        <description>&lt;p&gt;Docker is probably the most talked-about infrastructure technology of the past few years. And why not? It makes managing and deploying applications so much easier without the overhead of a Virtual Machine. Here’s how:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Docker&lt;/strong&gt; is a tool designed to make it easier to create, deploy, and run applications by using containers. &lt;strong&gt;Containers&lt;/strong&gt; allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container the developer can rest assured that the application will run on...</description>
+        <pubDate>Mon, 30 Oct 2017 15:40:10 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/introduction-to-docker/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-docker/</guid>
+        
+        <category>Docker</category>
+        
+        <category>Containers</category>
+        
+        <category>DevOps</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>The LIGO Experiment</title>
+        <description>&lt;p&gt;The LIGO (Laser Interferometer Gravitational-Wave Observatory) Experiment – A completely different perspective of studying the universe.&lt;/p&gt; &lt;h2 id=&quot;einsteins-prediction&quot;&gt;Einstein’s Prediction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-ligo-experiment/image1.jpeg&quot; alt=&quot;Einstein’s Prediction&quot; height=&quot;294px&quot; width=&quot;270px&quot; /&gt;&lt;/p&gt; &lt;p&gt;Over a century ago, Albert Einstein proposed the idea of something called a Gravitational Wave which was a part of his General Theory of Relativity. The concept of Gravitational waves suggests that, the force of gravity is not an actual force but rather, a distortion in the fabric of spacetime. This was just an idea, as there was no experimental evidence to support Einstein’s claim.&lt;/p&gt; &lt;h2 id=&quot;what-is-a-gravitational-wave&quot;&gt;What is a gravitational wave?&lt;/h2&gt; &lt;p&gt;A gravitational wave...</description>
+        <pubDate>Mon, 30 Oct 2017 15:40:09 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-ligo-experiment/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-ligo-experiment/</guid>
+        
+        <category>LIGO</category>
+        
+        
+        <category>CAS</category>
+        
+      </item>
+    
+      <item>
+        <title>Wireless Power Transmission</title>
+        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not affect the environment.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate in...</description>
+        <pubDate>Mon, 30 Oct 2017 15:40:08 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/wireless-power-transmission/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/wireless-power-transmission/</guid>
+        
+        <category>Power</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Making Iot communications easy using mDNS</title>
+        <description>&lt;p&gt;A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.&lt;/p&gt; &lt;p&gt;What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.&lt;/p&gt; &lt;h1 id=&quot;what-is-mdns&quot;&gt;What is mDNS?&lt;/h1&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot;&gt;mDNS&lt;/a&gt; stands for Multicast Domain Name System. Apple needed to use readable machine names on a local network without a nameserver, so...</description>
+        <pubDate>Thu, 26 Oct 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/using-mdns-in-iot/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/using-mdns-in-iot/</guid>
+        
+        <category>Iot</category>
+        
+        <category>Networking</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>The Honeycomb Conjecture</title>
@@ -61,8 +123,8 @@
         <title>The Brain behind a Formula One Car</title>
         <description>&lt;blockquote&gt; &lt;p&gt;The track belongs to the driver, the pits belong to the engineers&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Formula One cars are mean machines. They have been fine tuned for one purpose- Speed. In fact, they are the most efficient mode of transport after space shuttles.&lt;/p&gt; &lt;p&gt;Be it aerodynamic performance, super-efficient engines or state of the art tyre management strategies, engineers have scaled new heights in their pursuit for speed.&lt;/p&gt; &lt;h2 id=&quot;the-ecu&quot;&gt;The ECU:&lt;/h2&gt; &lt;p&gt;However, one aspect of the car that goes largely unnoticed is the electrical system. If the chassis and the engine form the arms and legs, &lt;strong&gt;the Electronic Control Unit&lt;/strong&gt;, or &lt;strong&gt;the...</description>
         <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/The-Brain-behind-a-Formula-One-car/</guid>
+        <link>http://ieeenitk.org/blog/the-brain-behind-a-formula-one-car/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-brain-behind-a-formula-one-car/</guid>
         
         <category>Formula One</category>
         
@@ -79,8 +141,8 @@
         <title>Robots Can Now See In 3D</title>
         <description>&lt;p&gt;Autonomous robots can inspect nuclear power plants, clean up oil spills in the ocean, accompany fighter planes into combat and explore the surface of Mars.&lt;/p&gt; &lt;p&gt;Yet for all their talents, robots still can’t make a cup of tea.&lt;/p&gt; &lt;p&gt;That’s because tasks such as turning the stove on, fetching the kettle and finding the milk and sugar require perceptual abilities that, for most machines, are still a fantasy.&lt;/p&gt; &lt;p&gt;Among them is the ability to make sense of 3-D objects. While it’s relatively straightforward for robots to “see” objects with cameras and other sensors, interpreting what they see, from a single glimpse,...</description>
         <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Robots-can-see-in-3d/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Robots-can-see-in-3d/</guid>
+        <link>http://ieeenitk.org/blog/robots-can-see-in-3d/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/robots-can-see-in-3d/</guid>
         
         <category>Robots</category>
         
@@ -95,8 +157,8 @@
         <title>Generative Adversarial Networks</title>
         <description>&lt;p&gt;In the last 2 years, &lt;strong&gt;Generative Models&lt;/strong&gt; have been one of the most active areas of research in the field of Deep Learning. The paper on &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (a.k.a GANs) published by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; in 2014 triggered a new wave of research in the field of Generative Models. Today we’ll explore what makes GANs so different and interesting.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GAN/ideal-gen-model.jpeg&quot; alt=&quot;Ideal Generative Model&quot; /&gt;&lt;/p&gt; &lt;p&gt;The main objective of a Generative Model is to learn the &lt;em&gt;probability distribution&lt;/em&gt; from which the training data is sampled. Once the model learns the probability distribution, it can sample new data from...</description>
         <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Generative-Adversarial-Networks/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Generative-Adversarial-Networks/</guid>
+        <link>http://ieeenitk.org/blog/generative-adversarial-networks/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/generative-adversarial-networks/</guid>
         
         <category>Deep Learning</category>
         
@@ -110,70 +172,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Search Engine Optimisation</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;Guess how many websites come up each day.&lt;br /&gt; Any ideas?&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;A survey by Netcraft in 2012 showed that total number of websites launched in 2012 were &lt;em&gt;51 million&lt;/em&gt; i.e. ~140,000 per day.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This flood makes it necessary for your website to stand out from the rest. But , how can this be done ?&lt;/p&gt; &lt;p&gt;This is where &lt;strong&gt;SEO i.e. Search Engine Optimisation&lt;/strong&gt; comes into play.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/SEO/gif.gif&quot; alt=&quot;SEO and Ranking&quot; /&gt;&lt;/p&gt; &lt;p&gt;In a world where &lt;strong&gt;over 90% of online experiences start with a search engine,&lt;/strong&gt; showing up on the front page of Google Search can...</description>
-        <pubDate>Sun, 08 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Search-Engine-Optimisation/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Search-Engine-Optimisation/</guid>
-        
-        <category>SEO</category>
-        
-        <category>Google</category>
-        
-        <category>Web</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Raspberry Pi Tutorial</title>
-        <description>&lt;p&gt;If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.&lt;/p&gt; &lt;p&gt;Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can use your laptop display itself to work with your Rpi. This requires a few additional...</description>
-        <pubDate>Sun, 08 Oct 2017 10:30:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/RPi-tutorial/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/RPi-tutorial/</guid>
-        
-        <category>Raspberry Pi</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Aircraft Engines</title>
-        <description>&lt;p&gt;Many of you might have flown in an aircraft at least once in your lifetime and even if you haven’t, you might have at least seen one in a picture. You might have noticed that there are different types of aircraft for different purposes.&lt;/p&gt; &lt;p&gt;Some are small and can accommodate only 5 people while some are huge and can carry more than 600 people, some are used for dropping bombs while some others are used for rescuing people during disasters.&lt;/p&gt; &lt;p&gt;One of the most essential parts of any of these aircrafts is the engine. The engine provides the thrust required...</description>
-        <pubDate>Sun, 08 Oct 2017 10:25:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Aircraft-Engines/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Aircraft-Engines/</guid>
-        
-        <category>Aircraft Engines</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Fingerprint Recognition</title>
-        <description>&lt;p&gt;Fingerprint recognition systems are practically everywhere today, from your smartphone, laptops, and are an integral part of the Aadhar system enabling us to authenticate our identity easily. Here’s a look at how the whole system of fingerprint recognition works.&lt;/p&gt; &lt;p&gt;Fingerprints are the tiny friction ridges on the ends of our fingers and thumbs make it easier to grip things. By making our fingers rougher, these ridges increase the force of friction between our hands and the objects we hold, making it harder to drop things. Unless you have accidents with your hands, your fingerprints remain the same throughout your life.&lt;/p&gt;...</description>
-        <pubDate>Tue, 03 Oct 2017 03:05:05 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/fingerprint-recognition/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/fingerprint-recognition/</guid>
-        
-        <category>fingerprint</category>
-        
-        <category>sensors</category>
-        
-        <category>fingerprint sensor</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     

@@ -191,3 +191,22 @@ This article explains why every web developer should know Angular in 2015.
 - Please ask someone to review the article, once you have submitted a Pull Request!
 
 - As soon as your article is merged, it'll also be live on our blog (usually takes around 2 minutes to publish).
+
+## Testing your Jekyll build
+
+1. After you build your jekyll build, it is important to test whether everything has been done properly or not. 
+2. To do this first install **HTML Proofer** with the following command:
+```
+gem install html-proofer
+``` 
+3. Then run the command `./scripts/cibuild` and if you get the following output in the end you're good to go.
+```
+Running ["ScriptCheck", "LinkCheck", "ImageCheck"] on ["./_site"] on *.html... 
+
+
+Ran on xxx files!
+
+
+HTML-Proofer finished successfully.
+
+```
