@@ -8,7 +8,7 @@ description: 'A Viewpoint on the immense growth of artificial intelligence in th
 tags:
 - Artificial Intelligence
 - AI threat
-categories
+categories:
 - Compsoc
 github_username: smarty1palak
 ---
