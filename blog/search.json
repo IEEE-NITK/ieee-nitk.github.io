@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Smart Grid",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "http://ieeenitk.org/blog//smart-grid/",
+      "date"     : "08 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Magnetically Repelling Ice",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "http://ieeenitk.org/blog//magnetically-repelling-ice/",
+      "date"     : "08 Nov 2017"
+    } ,
+  
+    {
       "title"    : "The Beginning Of The End - Have The Machines Won?",
       "category" : "Compsoc",
       "tags"     : "Artificial Intelligence and AI threat",

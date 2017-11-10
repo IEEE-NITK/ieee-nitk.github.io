@@ -5,9 +5,29 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Nov 2017 18:02:44 +0530</pubDate>
-    <lastBuildDate>Mon, 06 Nov 2017 18:02:44 +0530</lastBuildDate>
+    <pubDate>Fri, 10 Nov 2017 18:20:00 +0530</pubDate>
+    <lastBuildDate>Fri, 10 Nov 2017 18:20:00 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Smart Grid</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Introduction&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;How many times have you felt guilty about excessive usage of electricity when you see your monthly bill? Imagine managing the electricity delivered to your house like you manage activities like personal banking from a computer!&lt;/p&gt; &lt;p&gt;You will no longer have to wait till the end of the month to know how many units you have consumed- you have “Smart meters,” and other mechanisms, will allow you to see how much electricity you use, when you use it, and its cost. It also comes with real-time pricing, which will allow you to save money by using less power when...</description>
+        <pubDate>Wed, 08 Nov 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/smart-grid/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/smart-grid/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Magnetically Repelling Ice</title>
+        <description>&lt;p&gt;Magnetically Repelling Ice&lt;/p&gt; &lt;p&gt;People can be nervous fliers to begin with. Even when there isn’t a cloud in the sky, there are few words that cause anxiety in some like, “Prepare for takeoff.” But add wintry conditions to the mix, add some ice, and the uneasy feeling can turn to fear.&lt;/p&gt; &lt;p&gt;HOW DOES ICE CAUSE A PLANE TO CRASH? Ice typically builds up when tiny cloud droplets impact and freeze on the leading edges, or front surfaces, of the plane. The ice alters airflow over the wing and tail, reducing the lift force that keeps the plane in the air,...</description>
+        <pubDate>Wed, 08 Nov 2017 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/magnetically-repelling-ice/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/magnetically-repelling-ice/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Beginning Of The End - Have The Machines Won?</title>
@@ -132,40 +152,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The Brain behind a Formula One Car</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;The track belongs to the driver, the pits belong to the engineers&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Formula One cars are mean machines. They have been fine tuned for one purpose- Speed. In fact, they are the most efficient mode of transport after space shuttles.&lt;/p&gt; &lt;p&gt;Be it aerodynamic performance, super-efficient engines or state of the art tyre management strategies, engineers have scaled new heights in their pursuit for speed.&lt;/p&gt; &lt;h2 id=&quot;the-ecu&quot;&gt;The ECU:&lt;/h2&gt; &lt;p&gt;However, one aspect of the car that goes largely unnoticed is the electrical system. If the chassis and the engine form the arms and legs, &lt;strong&gt;the Electronic Control Unit&lt;/strong&gt;, or &lt;strong&gt;the...</description>
-        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-brain-behind-a-formula-one-car/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-brain-behind-a-formula-one-car/</guid>
-        
-        <category>Formula One</category>
-        
-        <category>ECU</category>
-        
-        <category>TAG-320</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Robots Can Now See In 3D</title>
-        <description>&lt;p&gt;Autonomous robots can inspect nuclear power plants, clean up oil spills in the ocean, accompany fighter planes into combat and explore the surface of Mars.&lt;/p&gt; &lt;p&gt;Yet for all their talents, robots still can’t make a cup of tea.&lt;/p&gt; &lt;p&gt;That’s because tasks such as turning the stove on, fetching the kettle and finding the milk and sugar require perceptual abilities that, for most machines, are still a fantasy.&lt;/p&gt; &lt;p&gt;Among them is the ability to make sense of 3-D objects. While it’s relatively straightforward for robots to “see” objects with cameras and other sensors, interpreting what they see, from a single glimpse,...</description>
-        <pubDate>Mon, 16 Oct 2017 10:35:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/robots-can-see-in-3d/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/robots-can-see-in-3d/</guid>
-        
-        <category>Robots</category>
-        
-        <category>Computer Vision</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
