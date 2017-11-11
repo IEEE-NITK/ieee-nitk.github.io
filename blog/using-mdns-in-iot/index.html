@@ -190,15 +190,17 @@
 
 <p>Linux uses <a href="https://www.avahi.org/">Avahi</a> library for mDNS. To install Avahi on your linux/ubuntu system</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install avahi nss-mdns
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo apt-get install avahi nss-mdns
+</code></pre>
+</div>
 
 <p><br />
 Most probably above packages are installed by default. Now start <code class="highlighter-rouge">avahi-daemon</code> which will handle mDNS functions.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ system-ctl start avahi-daemon
+<div class="highlighter-rouge"><pre class="highlight"><code>$ system-ctl start avahi-daemon
 $ system-ctl enable avahi-daemon
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p><br />
 Now we’ll need to configure our system to listen to mDNS. To do this, edit <code class="highlighter-rouge">/etc/nsswitch.conf</code> and modify the <code class="highlighter-rouge">host :</code> line as follows:</p>
@@ -209,22 +211,25 @@ Now we’ll need to configure our system to listen to mDNS. To do this, edit <co
 
 <p>Now you are all set to go. You can check by resolving your own domain:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ dig +short &lt;hostname&gt;.local @224.0.0.251 -p 5353
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ dig +short &lt;hostname&gt;.local @224.0.0.251 -p 5353
+</code></pre>
+</div>
 
 <p><br />
 Here the <code class="highlighter-rouge">&lt;hostname&gt;</code> is the system’s hostname. If you don’t know this, then execute <code class="highlighter-rouge">hostname</code> to get it. For example, my hostname is <code class="highlighter-rouge">hrily</code>, so following is the output of <code class="highlighter-rouge">hostname</code>.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ hostname
+<div class="highlighter-rouge"><pre class="highlight"><code>$ hostname
 hrily
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p><br />
 So when I resolved my hostname, I got:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ dig +short hrily.local @224.0.0.251 -p 5353
+<div class="highlighter-rouge"><pre class="highlight"><code>$ dig +short hrily.local @224.0.0.251 -p 5353
 10.50.47.112
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p><br />
 <br /></p>
@@ -232,8 +237,9 @@ So when I resolved my hostname, I got:</p>
 
 <p>Now that we know how to use hostnames instead of IP addresses, we have a cool set of applications. Whenever you want to ssh to your RPi with hostname <code class="highlighter-rouge">myrpi</code>, you just need to do:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh user@`dig +short myrpi.local @224.0.0.251 -p 5353`
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ssh user@`dig +short myrpi.local @224.0.0.251 -p 5353`
+</code></pre>
+</div>
 
 <p><br />
 This is really good usage that I need constantly. When I’m in my cammpus network, but not in reach of my laptop and need to do some work on it, I just ssh into it using my phone using above command. I don’t really need to know what IP address was assigned to my laptop.</p>

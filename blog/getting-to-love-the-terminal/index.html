@@ -121,7 +121,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-24 16:18:33 +0530" class="date">24 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-24 10:48:33 +0000" class="date">24 May 2017</time>
         
         <h1 class="post-title" itemprop="name">Getting to love the Terminal</h1>
         <p itemprop="description" class="subtitle">Getting started with exploring the Bash shell</p>
@@ -212,10 +212,11 @@ We’ll mainly talk about bash <a href="https://en.wikipedia.org/wiki/Alias_(com
 
 <p>Some other common aliases you would like to use can be</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alias ..="cd .."
+<div class="highlighter-rouge"><pre class="highlight"><code>alias ..="cd .."
 alias ...="cd ../.."
 alias myfolder="cd path/to/my/folder"
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>You can now just use the placeholders instead of the entire command. I use a lot of aliases to <code class="highlighter-rouge">cd</code> into my frequent folders and it really saves a lot of time and a lot of typing.</p>
 
@@ -233,12 +234,13 @@ alias myfolder="cd path/to/my/folder"
 
 <p>Now move all the way down to the bottom of the file and add the following lines there.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alias lhid='ls -A|grep '^\..*''
+<div class="highlighter-rouge"><pre class="highlight"><code>alias lhid='ls -A|grep '^\..*''
 alias ..="cd .."
 alias ...="cd ../.."
 alias myfolder="cd path/to/my/folder"
 
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>Save the file and exit (<code class="highlighter-rouge">Ctrl X + Y</code> in nano).</p>
 
