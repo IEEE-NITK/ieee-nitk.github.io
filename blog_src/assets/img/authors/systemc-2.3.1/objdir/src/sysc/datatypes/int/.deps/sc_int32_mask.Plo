@@ -1,0 +1,5 @@
+int/sc_int32_mask.lo: \
+ ../../../../src/sysc/datatypes/int/sc_int32_mask.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
