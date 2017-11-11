@@ -13,7 +13,6 @@ categories:
 - CompSoc
 github_username: 'suraj44'
 ---
-#Using Machine Learning for Investing in the Stock Market
 
 >Arthur Lee Samuel, the man who coined the term "machine learning" defined it as the field of
 study that gives computers the ability to learn without being explicitly programmed. 
@@ -87,7 +86,7 @@ Here's some code on preprocessing the dataset from Quandl that would transform t
 					    L.append(d) #Adding to the list 
 				
  	
-s
+
 
 At this point, we would apply the smoothing technique on the data. The final step is just feeding the data to the algorithm and letting it work it's magic!
 
