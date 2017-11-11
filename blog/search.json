@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Using Machine Learning for Investing in the Stock Market",
+      "category" : "CompSoc",
+      "tags"     : "Machine Learning, Stock Market, and Support Vector Machine",
+      "url"      : "http://ieeenitk.org/blog//using-machine-learning-for-investing-in-the-stock-market/",
+      "date"     : "25 Nov 2017"
+    } ,
+  
+    {
       "title"    : "Smart Grid",
       "category" : "Piston",
       "tags"     : "Ice and Fluid Dynamics",
