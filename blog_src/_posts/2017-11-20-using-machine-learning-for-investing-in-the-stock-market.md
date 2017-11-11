@@ -2,7 +2,7 @@
 layout: post
 title: "Using Machine Learning for Investing in the Stock Market"
 author_github: suraj44
-date: 2017-11-25 00:00:30
+date: 2017-11-20 00:00:30
 image: '/assets/img/'
 description: 'An introduction to Machine Learning and how it can be applied to the stock market'
 tags:
