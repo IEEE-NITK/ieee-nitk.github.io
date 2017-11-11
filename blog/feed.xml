@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Nov 2017 15:36:35 +0530</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2017 15:36:35 +0530</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2017 16:22:38 +0530</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 16:22:38 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>RADIO-FREQUENCY IDENTIFICATION</title>
+        <description>&lt;p&gt;RFID technology has been in circulation for many years now. You may have encountered it first-hand while borrowing library books, or while swiping for attendance in school. Recently, the government issued RFID chips to be installed in cars so that we can zoom through toll booths instead of waiting in long queues. RFID technology has also got a fair share of screen time. Remember Casino Royale? Her Majesty’s Secret Service injects Bond with a glass-enclosed, rice-sized RFID chip, so that, in M’s words, “they’ll know where he is”. Here is a little insight into the technology that is taking the world by...</description>
+        <pubDate>Sat, 25 Nov 2017 06:00:02 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/RFID/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/RFID/</guid>
+        
+        <category>RFID</category>
+        
+        <category>ADC</category>
+        
+        
+        <category>CAS</category>
+        
+      </item>
     
       <item>
         <title>Using Machine Learning for Investing in the Stock Market</title>
@@ -150,22 +166,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Charge your phone whenever you walk into the room</title>
-        <description>&lt;h2 id=&quot;charge-your-phone-whenever-you-walk-into-the-room&quot;&gt;CHARGE YOUR PHONE WHENEVER YOU WALK INTO THE ROOM&lt;/h2&gt; &lt;p&gt;One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.&lt;/p&gt; &lt;p&gt;Wi-charge technology provides us finally a way to get rid of the power cord, efficiently and safely. The...</description>
-        <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/charge-your-phone/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/charge-your-phone/</guid>
-        
-        <category>transmitter</category>
-        
-        <category>reciever</category>
-        
-        
-        <category>CAS</category>
         
       </item>
     

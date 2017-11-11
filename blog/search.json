@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "RADIO-FREQUENCY IDENTIFICATION",
+      "category" : "CAS",
+      "tags"     : "RFID and ADC",
+      "url"      : "http://ieeenitk.org/blog//RFID/",
+      "date"     : "25 Nov 2017"
+    } ,
+  
+    {
       "title"    : "Using Machine Learning for Investing in the Stock Market",
       "category" : "CompSoc",
       "tags"     : "Machine Learning, Stock Market, and Support Vector Machine",
