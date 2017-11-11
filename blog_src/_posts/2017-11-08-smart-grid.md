@@ -23,7 +23,7 @@ You will no longer have to wait till the end of the month to know how many units
 
 The grid, is an electric grid which is a network of transmission lines, stations, transformers and more that deliver electricity from the power plant to your houses or establishments. When you connect any device to the switch, you are actually logging onto this grid. This grid is made ‘smart’ by establishing a two way communication between the customers and the supply, digitally. Technologies will work with the electrical grid to respond digitally to our quickly changing electric demand, at the consumer end.
 
-![Smart Grid](/blog/assets/img/image1.gif)
+![Smart Grid](/blog/assets/img/smart-grid/image1.gif)
 
 ## How does it work?
 
