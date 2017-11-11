@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Nov 2017 20:34:08 +0530</pubDate>
-    <lastBuildDate>Sat, 11 Nov 2017 20:34:08 +0530</lastBuildDate>
+    <pubDate>Sat, 11 Nov 2017 21:26:25 +0530</pubDate>
+    <lastBuildDate>Sat, 11 Nov 2017 21:26:25 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -44,12 +44,20 @@
       </item>
     
       <item>
-        <title>Evacuated tube Collector</title>
-        <description>&lt;p&gt;﻿— layout: post title: “Evacuated Tube Collectors” author_github: sanathbk date: 2017-11-20 00:30:02 image: ‘/assets/img/’ description: ‘Extracting solar radiation in one of the more efficient ways.’ tags: - Energy - Renewables - Thermal Sciences categories: - Piston github_username: ‘sanathbk’ comments: true —&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt; &lt;p&gt;Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of...</description>
-        <pubDate>Mon, 20 Nov 2017 00:00:00 +0530</pubDate>
+        <title>Evacuated Tube Collectors</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt; &lt;p&gt;Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents. Great amount of research is carried in improving the efficiency of renewable energy and making it inexpensive. The main objective is to minimize or eliminate the usage of electricity...</description>
+        <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/evacuated-tube-collector/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/evacuated-tube-collector/</guid>
         
+        <category>Energy</category>
+        
+        <category>Renewables</category>
+        
+        <category>Thermal Sciences</category>
+        
+        
+        <category>Piston</category>
         
       </item>
     
