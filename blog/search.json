@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "RADIO-FREQUENCY IDENTIFICATION",
+      "category" : "CAS",
+      "tags"     : "RFID and ADC",
+      "url"      : "http://ieeenitk.org/blog//RFID/",
+      "date"     : "20 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Using Machine Learning for Investing in the Stock Market",
+      "category" : "CompSoc",
+      "tags"     : "Machine Learning, Stock Market, and Support Vector Machine",
+      "url"      : "http://ieeenitk.org/blog//using-machine-learning-for-investing-in-the-stock-market/",
+      "date"     : "20 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Evacuated Tube Collectors",
+      "category" : "Piston",
+      "tags"     : "Energy, Renewables, and Thermal Sciences",
+      "url"      : "http://ieeenitk.org/blog//evacuated-tube-collector/",
+      "date"     : "20 Nov 2017"
+    } ,
+  
+    {
       "title"    : "Smart Grid",
       "category" : "Piston",
       "tags"     : "Ice and Fluid Dynamics",

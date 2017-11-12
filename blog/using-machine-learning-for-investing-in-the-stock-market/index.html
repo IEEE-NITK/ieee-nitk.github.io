@@ -41,31 +41,31 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="A walkthrough of implementing image grid similar to Google Search">
+        <meta name="description" content="An introduction to Machine Learning and how it can be applied to the stock market">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Implementing Google Image Search Style Grid">
-        <meta name="twitter:description" content="A walkthrough of implementing image grid similar to Google Search">
+        <meta name="twitter:title" content="Using Machine Learning for Investing in the Stock Market">
+        <meta name="twitter:description" content="An introduction to Machine Learning and how it can be applied to the stock market">
         
         <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
         
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///google-image-search-grid/" />
-        <meta property="og:title" content="Implementing Google Image Search Style Grid">
+        <meta property="og:url" content="http://ieeenitk.org///using-machine-learning-for-investing-in-the-stock-market/" />
+        <meta property="og:title" content="Using Machine Learning for Investing in the Stock Market">
         
         <meta property="og:image" content="http://ieeenitk.org/assets/img/">
         
-        <meta property="og:description" content="A walkthrough of implementing image grid similar to Google Search">
+        <meta property="og:description" content="An introduction to Machine Learning and how it can be applied to the stock market">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Implementing Google Image Search Style Grid"/>
-        <meta itemprop="description" content="A walkthrough of implementing image grid similar to Google Search">
+        <meta itemprop="name" content="Using Machine Learning for Investing in the Stock Market"/>
+        <meta itemprop="description" content="An introduction to Machine Learning and how it can be applied to the stock market">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -89,13 +89,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Implementing Google Image Search Style Grid</title>
+        <title>Using Machine Learning for Investing in the Stock Market</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/google-image-search-grid/">
+        <link rel="canonical" href="/blog/using-machine-learning-for-investing-in-the-stock-market/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -121,10 +121,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-06-10 17:40:44 +0530" class="date">10 Jun 2017</time>
+            <time itemprop="datePublished" datetime="2017-11-20 05:30:30 +0530" class="date">20 Nov 2017</time>
         
-        <h1 class="post-title" itemprop="name">Implementing Google Image Search Style Grid</h1>
-        <p itemprop="description" class="subtitle">A walkthrough of implementing image grid similar to Google Search</p>
+        <h1 class="post-title" itemprop="name">Using Machine Learning for Investing in the Stock Market</h1>
+        <p itemprop="description" class="subtitle">An introduction to Machine Learning and how it can be applied to the stock market</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -174,127 +174,125 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="implementing-google-image-search-style-grid">Implementing Google Image Search Style Grid</h1>
+                <blockquote>
+  <p>Arthur Lee Samuel, the man who coined the term “machine learning” defined it as the field of study that gives computers the ability to learn without being explicitly programmed.</p>
+</blockquote>
 
-<p>I love design principles of Google. The way they present things is really awesome. One such presentation is Google Image Search.</p>
+<p>A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the child is the ‘machine’, the record of chess games would be the data (which the child is ‘learning’ from) and the rules of the game would be the algorithm.</p>
 
-<p><img src="/blog/assets/img/google_image_search/google_image_search.png" alt="Google Image Search" /></p>
+<p><img src="https://i.imgur.com/VG0it3w.png" alt="overview" /></p>
 
-<p>Look at the way they arrange images. Each row has a fixed width, but their are no columns. The images have arranges themselves, intelligently, just enough to fit the row. I always wondered, what algorithm they must have used to achieve this.</p>
+<p>Now, let’s talk about how this can be applied to predicting the likelihood of a stock doing well.</p>
 
-<h3 id="what-i-thought">What I thought</h3>
+<h2 id="the-algorithm">1. The Algorithm</h2>
+<p>We’ll be using a <em>Support Vector Machine</em> (SVM) in this example. SVMs are based on the idea of finding a hyperplane that best divides a dataset into two classes, as shown in the image below. How do we find the right hyperplane? The distance between the hyperplane and the nearest data point from either set is known as the margin. The goal is to choose a hyperplane with the greatest possible margin between the hyperplane and any point within the training set, giving a greater chance of new data being classified correctly. However, if there isn’t a clear margin between the support vectors like there is in the image below, things get tricky. To overcome this problem, we would use a kernel which would transform our support vectors to a different coordinate system which would make the classification problem easier.</p>
 
-<p>So my search began. Initially I thought they might have used some kind of knapsack algorithm to fit images to the row width. It means rearragning the positions of images, shifting them from one row to another. But if you inspect, the images don’t change their positions, yet they can fit in the row, amazing!</p>
+<p><img src="http://blog.aylien.com/wp-content/uploads/2016/06/tumblr_inline_o9aa8dYRkB1u37g00_540.png" alt="SVM" /> <img src="http://blog.aylien.com/wp-content/uploads/2016/06/tumblr_inline_o9aa9nH3WQ1u37g00_540.png" alt="Margins" /> <img src="http://blog.aylien.com/wp-content/uploads/2016/06/tumblr_inline_o9aabehtqP1u37g00_540.png" alt="UseOfAKernel" /></p>
 
-<p>I searched the internet to find whats behind the amazing grid. It turns out that, the technique which is used is far simpler than knapsack and yet brilliant. So, here I present you a really simple technique to achive the <strong>Google Image Search style grid</strong></p>
+<h2 id="the-tools">2. The Tools</h2>
+<p>There are a few challenges to our problem. Firstly, the stock market is closed on weekends and hence, there are no open/close prices for any stocks on those days which hampers our dataset. Hence, we would need to interpolate the data on these days to better our prediction. Secondly, the stock market is highly fluctuating and hence, we would need to use a technique called smoothing. Here’s an example of how data looks before and after applying smoothing:</p>
 
-<p><em>NOTE: This post does not provide any ‘ready to copy+paste’ code. I will only provide pseudo code, you are free to implement it in any language you prefer.</em></p>
+<p><img src="https://i.imgur.com/tJSnvVq.png" alt="Smoothing" />
+The most important tool needed however for machine learning is the dataset itself. A good resource for data on the stock market is <a href="https://www.quandl.com/product/WIKIP/WIKI/PRICES-Quandl-End-Of-Day-Stocks-Info">Quandl</a>. <a href="https://raw.githubusercontent.com/michaelgu95/machine-learning-stocks/master/YAHOO-INDEX_GSPC.csv"><em>Here’s</em></a> a dataset of ten years’ data on SMP 500 Companies in the US and thirty five features to learn on. The SVM algorithm will try seeing if there is any correlation between these parameters and stock price.  We will be using the Python framework Scikit-learn which allows us to use Machine Learning tools almost as a black box, without having explicit knowledge on how these algorithms work.</p>
 
-<h3 id="initial-intuition">Initial intuition</h3>
+<h2 id="the-prestige">3. The Prestige</h2>
+<p>Here’s some code on preprocessing the dataset from Quandl that would transform the data into a form recognisable to the SVM:</p>
 
-<p>If we look closely, we can see that the images in a row have equal height. Also, the heights of rows are not same. So the first intuition is to make the heights of images equal. Lets say we have list of <code class="highlighter-rouge">images</code> which stores <code class="highlighter-rouge">height</code> and <code class="highlighter-rouge">width</code> of each image.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>def key_Stats(gather=["Total Debt/Equity",'Trailing P/E','Price/Sales','Price/Book','Profit Margin', 'Parameters that we wil learn on']):
+    L = []
+    statspath = path + '/_KeyStats'
+    stock_list = [x[0] for x in os.walk(statspath)]
+ 	
+    sp500 = pd.DataFrame.from_csv("YAHOO-INDEX_GSPC.csv")
+    ticker_list = []
+ 	
+    for each_dir in stock_list[1:]:
+ 		each_file = os.listdir(each_dir)
+ 		
+ 		ticker = each_dir.split("/")[6]
+ 		ticker_list.append(ticker)
+ 		starting_stock_value = False
+ 		starting_sp500_value = False
+ 		if len(each_file)&gt;0:
+ 			for file in each_file:
+ 				date_stamp = datetime.strptime(file,'%Y%m%d%H%M%S.html')
+ 				unix_time = time.mktime(date_stamp.timetuple())
+ 				full_file_path = each_dir + '/' + file 
+ 				source = open(full_file_path, 'r').read()
+			    value_list = []
+			    for each_data in gather:
+				    #Preprocessing for determining stock price
+			
+			    try:
+				    stock_price = float(source.split('&lt;/small&gt;&lt;big&gt;&lt;b&gt;')[1].split('&lt;/b&gt;&lt;/big&gt;')[0])
+			    if not(starting_stock_value):
+				    starting_stock_value = stock_price
+			    if not(starting_sp500_value):
+				    starting_sp500_value= sp500_value
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Set CONST_HEIGHT := 160
-For each image in images:
-	Resize image to height CONST_HEIGHT, constraint ratio
+			    stock_p_change = (stock_price - starting_stock_value)/ starting_stock_value *100
+			    sp500_p_change = (sp500_value - starting_sp500_value)/starting_sp500_value * 100
+
+			    difference = (stock_p_change - sp500_p_change)
+			    if difference &gt; 0:
+				    status = "outperform"
+			    else:
+				    status = "underperform"
+			    if value_list.count("N/A")&gt;0:
+				    pass
+			    else:
+				    d  = {...} #Dictionary of parameters for the stock being traversed 
+				    L.append(d) #Adding to the list 
 </code></pre>
 </div>
 
-<h3 id="building-a-row">Building a Row</h3>
+<p>At this point, we would apply the smoothing technique on the data. The final step is just feeding the data to the algorithm and letting it work it’s magic!</p>
 
-<p>So now that we have normalized the image heights, let’s build a row. First we’ll have a look at the pseudo code, explanation is on the way…</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>def analysis():
+    # Fit the SVC (exclude the last column).
+    X_train, y_train = build_data_set()
+    clf = svm.SVC(kernel="rbf", C=8, gamma=0.3)
+    clf.fit(X_train[:-1], y_train[:-1])
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/**
- * Procedure to build a single row
- * parameter: images - list of images
- * returns: row - list of images in the built row
- */
-BUILD_ROW(images):
-	SET row_width := 0
-	Initialize row_list
-	While row_width &lt; MAX_WIDTH AND images.size &gt; 0:
-		Dequeue an image from images
-		Append image to row_list
-		row_width := row_width + image.width
-	If row_width &gt; MAX_WIDTH:
-		Create new image row_image, with height = CONST_HEIGHT and width = row_width
-		Resize row_image to width MAX_WIDTH, constraint ratio
-		For each image in row_list:
-			Resize image to height row_image.height, constraint ratio
-	return row_list
+    # Now we get the actual data from which we want to generate predictions.
+    data = pd.DataFrame.from_csv("YAHOO-INDEX_GSPC.csv")
+    data = data.replace("N/A", 0).replace("NaN", 0)
+
+    X_test = preprocessing.scale(np.array(data[FEATURES].values))
+    Z = data["Ticker"].values.tolist()
+    invest_list = []
+
+    # If our SVM predicts outperformance, append that stock to an invest_list.
+    for i in range(len(X_test)):
+        p = clf.predict(X_test[i])[0]
+        if p:
+            invest_list.append(Z[i])
+
+    return invest_list
 </code></pre>
 </div>
 
-<p>So let’s see whats happening here. First we intialized row_list which stores the images in that particular row, and a variable row_width which will store the total width of the row. 
-Now we keep adding images to row from original list until the row_width exceeds the <code class="highlighter-rouge">MAX_WIDTH</code>, which is maximum width of the screen. Now we have a row which looks something like this.</p>
+<p>We’re comparing the performance of each stock represented by  <code class="highlighter-rouge">stock_p_change</code> against how the market collectively is doing which is represented by <code class="highlighter-rouge">sp500_p_change</code>. If it outperforms the market, we would consider it as a stock that’s doing well and assign it the parameter <code class="highlighter-rouge">outperform</code>. This is equivalent to a person ‘winning’ a game of chess as used in the analogy above and is what the SVM uses in its classification. 
+We’re done! <code class="highlighter-rouge">invest_list</code> would represent which stocks are likely to do well as predicted by our SVM. With about 150 lines of code, we’ve managed to get a prediction accuracy of 63%.</p>
 
-<p><img src="/blog/assets/img/google_image_search/row.jpg" alt="Row" /></p>
+<h3 id="room-for-improvement">Room for Improvement</h3>
+<p>The stock market isn’t as dependant on its history as it on current events and how companies are doing in real life. One way to increase our prediction accuracy would be to parse the headlines of newspaper articles relating to the companies we’re interested in and use that as data in addition to the other parameters. Scikit learn really is meant for beginners just getting started on machine learning. The next step would be to move to a framework like <a href="https://www.tensorflow.org/">TensorFlow</a> and either write your own code for applying a machine learning algorithm on your dataset or to use the built in functions of the framework which do offer better results.</p>
 
-<p>Now comes the trick. We won’t try to fit the images in row, instead we will try to fit our created row in the maximum width of the screen. So we create an dummy <code class="highlighter-rouge">row_image</code>, which represents the entire row, with height equal to <code class="highlighter-rouge">CONST_HEIGHT</code> and width equal to <code class="highlighter-rouge">row_width</code>. Now we resize the <code class="highlighter-rouge">row_image</code> to width equal to <code class="highlighter-rouge">MAX_WIDTH</code> and then we resize all the images in <code class="highlighter-rouge">row_list</code> to height equal to the new height of <code class="highlighter-rouge">row_image</code>.
-Here’s a depiction of the process…</p>
+<h3 id="resources">Resources</h3>
+<p>To get started on Machine Learning, I would highly recommend watching the MIT <a href="https://www.youtube.com/watch?v=TjZBTDzGeGg&amp;list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi">OCW</a> lectures. Along with this material, getting started on small <a href="https://elitedatascience.com/machine-learning-projects-for-beginners">projects</a> in Python is the only way to get the sense of achievement needed to stay driven. Happy learning!</p>
 
-<p><img src="/blog/assets/img/google_image_search/resized_row.jpg" alt="Resized Row" /></p>
-
-<h3 id="building-the-grid">Building the Grid</h3>
-
-<p>Now that we know how to build a row, building the grid is easy.</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>/**
- * Procedure to build the grid
- * parameter: images - list of images
- * returns: grid - list of rows
- */
-BUILD_GRID(images):
-	Initialize grid
-	While images.size &gt; 0:
-		SET row := BUILD_ROW(images)
-		Append row to grid
-	return grid
-</code></pre>
-</div>
-
-<p>Nice, we just made a Google Image Search style grid, where images fit in a row, intelligently.</p>
-
-<h3 id="theres-more">There’s more</h3>
-
-<p>Hold on, there’s little more. While resizing the images, due to floating point divisions and floor operations, we lose some units in the row. If we neglect them, the rows won’t have equal widths. To overcome this, we just need to know the units we have lost and divide them equally among the images.</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>BUILD_ROW(images):
-	...
-	// After resizing the images
-	// Calculate width of resized row
-	SET row_width := 0
-	For each image in row_list:
-		row_width := row_widt-h + image.width
-	// Calculate the lost units
-	SET delta := MAX_WIDTH - row_width
-	// Divide the lost units among the images
-	While delta &gt; 0:
-		For each image in row_list:
-			image.width := image.width + 1
-			delta := delta - 1
-	return row_list
-</code></pre>
-</div>
-
-<p>You might be thinking that, aren’t we changing image aspect ratio here? Yes, but one can lose a single unit in a single division. So the maximum number of lost units is equal to number of images in row. So width of each image will be increased by atmost one, which isn’t a big deal. Also you can center crop the images, so that there isn’t any empty space left out.</p>
-
-<p>Go ahead, try implementing it in your next web or mobile app. If you find any issues, you can always mail me…</p>
-
-<p>That’s it guys, until then, 
-This is <em>hrily</em> signing of…</p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/hrily.jpg" alt="Hrishi Hiraskar">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/suraj.png" alt="Suraj Singh">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Hrishi Hiraskar</a>
+            <a itemprop="name" href="/">Suraj Singh</a>
         </h3>
-        <p class="desc">I'm CodeCrazy. I love Computer.</p>
-        <a itemprop="email" class="email" href="mailto:hrishihiraskar@gmail.com">hrishihiraskar@gmail.com</a>
+        <p class="desc">I'm more of a # than a // kind of guy</p>
+        <a itemprop="email" class="email" href="mailto:surajnitk4@gmail.com">surajnitk4@gmail.com</a>
     </div>
 </section>
 
@@ -312,23 +310,17 @@ This is <em>hrily</em> signing of…</p>
 	</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/google-image-search-grid/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/google-image-search-grid/%20via%20&#64;IEEE_NITK&hashtags=Web Design,Grid,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/using-machine-learning-for-investing-in-the-stock-market/%20via%20&#64;IEEE_NITK&hashtags=Machine Learning,Stock Market,Support Vector Machine,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//google-image-search-grid/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//using-machine-learning-for-investing-in-the-stock-market/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//google-image-search-grid/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//using-machine-learning-for-investing-in-the-stock-market/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
