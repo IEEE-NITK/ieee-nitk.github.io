@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieeenitk.org/blog/rfid/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieeenitk.org/blog/smart-grid/</loc>
 	  </url>
 	
@@ -263,6 +267,10 @@
 	
 	  <url>
 		<loc>http://ieeenitk.org/blog/introduction-to-ieee/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/evacuated-tube-collector/</loc>
 	  </url>
 	
 </urlset>

@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Radio-frequency Identification:",
+      "category" : "Diode",
+      "tags"     : "",
+      "url"      : "http://ieeenitk.org/blog//rfid/",
+      "date"     : "12 Nov 2017"
+    } ,
+  
+    {
       "title"    : "Smart Grid",
       "category" : "Piston",
       "tags"     : "Ice and Fluid Dynamics",
@@ -526,6 +534,14 @@
       "tags"     : "Introduction",
       "url"      : "http://ieeenitk.org/blog//introduction-to-ieee/",
       "date"     : "15 May 2017"
+    } ,
+  
+    {
+      "title"    : "Evacuated Tube Collectors",
+      "category" : "Piston",
+      "tags"     : "",
+      "url"      : "http://ieeenitk.org/blog//evacuated-tube-collector/",
+      "date"     : "14 May 2017"
     } 
   
 ]
