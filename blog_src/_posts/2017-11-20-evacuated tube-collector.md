@@ -25,16 +25,17 @@ The conventional solar water heaters used flat-plate collectors with water as th
 
 ## Working
 Air between the two glass tubes is evacuated. It results in high level vacuum which acts as insulation and minimizes heat loss from the inner tube. The black coating in the inner tube absorbs the solar energy and transfers it to the heat transfer fluid. 
-![Img-1_ETC](https://www.homepower.com/sites/default/files/articles/ajax/docs/5_Evac-detail-shadows.jpg)
+![Evac details](https://www.homepower.com/sites/default/files/articles/ajax/docs/5_Evac-detail-shadows.jpg)
 An evacuated tube collector can achieve high temperatures in the range of 350K-450K, and work very efficiently. Although, they are more expensive than the flat plate collectors, the return would be greater for ETCs.
 There are a few different vacuum tube configurations, single wall tube, double wall tube, direct flow, heat pipe, and these differences can determine how the fluid is circulated around the solar hot water panel.
 
 In heat pipe ETC, a heat pipe is connected to an absorber plate inside a vacuum sealed tube.
- ![Img-2_](http://www.alternative-energy-tutorials.com/images/stories/heating/alt36.gif)
+ ![Heating](http://www.alternative-energy-tutorials.com/images/stories/heating/alt36.gif)
  The heat pipe is hollow and is evacuated. Inside the heat pipe is small quantity of heat transfer fluid like alcohol with some additives. The heat pipe is connected to a manifold. Vacuum enables the liquid to boil at lower temperatures. The hot vapour rises and heats the heat pipe which heats the manifold. The fluid flowing through manifold picks up the heat. The connection between absorber and manifold is dry and thus can be easily setup and replaced.
 
 In direct flow ETC, two pipes run through the vacuum sealed tube. 
-![Img-3](http://www.alternative-energy-tutorials.com/images/stories/heating/alt38.gif)
+
+![evactube](http://www.alternative-energy-tutorials.com/images/stories/heating/alt38.gif)
 The fluid to be heated directly flows through these pipes and heats up. The arrangement is similar to flat-plate collectors, with the addition of evacuated tubes. Since the fluid flows into and out of each tube, it cannot be easily replaced.
 
 The need was to minimize heat losses through convection and what better way can be, than to stop it completely from happening. The application of the simplest of concepts of eliminating convection by getting rid of the material medium itself has led to major improvements in this field as the efficiency has risen manifold.The understanding of fundamental sciences has provided one of the biggest leaps in the effort of making renewable energy efficient and inexpensive.

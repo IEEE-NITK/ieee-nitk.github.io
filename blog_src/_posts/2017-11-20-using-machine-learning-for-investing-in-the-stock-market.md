@@ -14,8 +14,7 @@ categories:
 github_username: 'suraj44'
 ---
 
-> Arthur Lee Samuel, the man who coined the term "machine learning" defined it as the field of
-study that gives computers the ability to learn without being explicitly programmed. 
+> Arthur Lee Samuel, the man who coined the term "machine learning" defined it as the field of study that gives computers the ability to learn without being explicitly programmed. 
 
 A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the child is the 'machine', the record of chess games would be the data (which the child is 'learning' from) and the rules of the game would be the algorithm.
 
