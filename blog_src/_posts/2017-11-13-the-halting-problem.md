@@ -16,9 +16,9 @@ github_username: 'ShashankP19'
 
 ## Introduction
 
-If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever. This is called the **halting problem**.
+If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever. 
  
-The halting problem is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever. Now let me define two terms- **decidable** and **undecidable**. A problem is decidable if it has a solution. If there is no algorithm that solves the problem in a finite amount of time, the problem is undecidable. 
+The **halting problem** is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever. Now let me define two terms- **decidable** and **undecidable**. A problem is decidable if it has a solution. If there is no algorithm that solves the problem in a finite amount of time, the problem is undecidable. 
 
 ![Halting-problem](/blog/assets/img/the-halting-problem/halting-problem.png)
 
@@ -43,8 +43,8 @@ Now let me create another program that uses “Does it halt?” as a subprogram.
 
 Now here is the paradox. What happens when I input “Paradox” program to itself. Clearly one of the two things can happen:  either it runs forever or it stops and outputs “halted” depending on whether the program “Does it halt?” outputs “yes” or “no”.
 
-*If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.
-*If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.
+* If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.
+* If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.
 
 We have therefore led ourselves to a contradiction that “Paradox” **halts if and only if it runs forever**. Since this is impossible, one of our assumptions must be invalid. By tracing our reasoning backwards, we find that it is therefore impossible to have written “Does it halt?” in the first place. In other words, the **halting problem is undecidable**.
 

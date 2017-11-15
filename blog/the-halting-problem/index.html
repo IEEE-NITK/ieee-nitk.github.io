@@ -176,9 +176,9 @@
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
                 <h2 id="introduction">Introduction</h2>
 
-<p>If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever. This is called the <strong>halting problem</strong>.</p>
+<p>If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.</p>
 
-<p>The halting problem is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever. Now let me define two terms- <strong>decidable</strong> and <strong>undecidable</strong>. A problem is decidable if it has a solution. If there is no algorithm that solves the problem in a finite amount of time, the problem is undecidable.</p>
+<p>The <strong>halting problem</strong> is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever. Now let me define two terms- <strong>decidable</strong> and <strong>undecidable</strong>. A problem is decidable if it has a solution. If there is no algorithm that solves the problem in a finite amount of time, the problem is undecidable.</p>
 
 <p><img src="/blog/assets/img/the-halting-problem/halting-problem.png" alt="Halting-problem" /></p>
 
@@ -203,8 +203,10 @@ A few years later, <strong>Alan Turing</strong> proved an analogous theorem in C
 
 <p>Now here is the paradox. What happens when I input “Paradox” program to itself. Clearly one of the two things can happen:  either it runs forever or it stops and outputs “halted” depending on whether the program “Does it halt?” outputs “yes” or “no”.</p>
 
-<p>*If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.
-*If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.</p>
+<ul>
+  <li>If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.</li>
+  <li>If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.</li>
+</ul>
 
 <p>We have therefore led ourselves to a contradiction that “Paradox” <strong>halts if and only if it runs forever</strong>. Since this is impossible, one of our assumptions must be invalid. By tracing our reasoning backwards, we find that it is therefore impossible to have written “Does it halt?” in the first place. In other words, the <strong>halting problem is undecidable</strong>.</p>
 

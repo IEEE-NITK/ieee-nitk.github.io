@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Nov 2017 13:48:17 +0530</pubDate>
-    <lastBuildDate>Wed, 15 Nov 2017 13:48:17 +0530</lastBuildDate>
+    <pubDate>Wed, 15 Nov 2017 21:44:23 +0530</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2017 21:44:23 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>The Halting Problem</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever. This is called...</description>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.&lt;/p&gt; &lt;p&gt;The &lt;strong&gt;halting problem&lt;/strong&gt;...</description>
         <pubDate>Mon, 13 Nov 2017 02:06:15 +0530</pubDate>
         <link>http://ieeenitk.org/blog/the-halting-problem/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/the-halting-problem/</guid>
