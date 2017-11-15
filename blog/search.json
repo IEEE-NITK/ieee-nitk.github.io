@@ -1,10 +1,26 @@
 [
   
     {
-      "title"    : "Radio-frequency Identification:",
+      "title"    : "The Halting Problem",
+      "category" : "CompSoc",
+      "tags"     : "Complexity theory, Logic, and Mathematics",
+      "url"      : "http://ieeenitk.org/blog//the-halting-problem/",
+      "date"     : "13 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Design of Aircraft Windows",
+      "category" : "Piston",
+      "tags"     : "Aeronautics",
+      "url"      : "http://ieeenitk.org/blog//design-of-aircraft-windows/",
+      "date"     : "12 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "How QR code was invented",
       "category" : "Diode",
-      "tags"     : "",
-      "url"      : "http://ieeenitk.org/blog//rfid/",
+      "tags"     : "QR code",
+      "url"      : "http://ieeenitk.org/blog//how-qr-code-was-invented/",
       "date"     : "12 Nov 2017"
     } ,
   
@@ -534,14 +550,6 @@
       "tags"     : "Introduction",
       "url"      : "http://ieeenitk.org/blog//introduction-to-ieee/",
       "date"     : "15 May 2017"
-    } ,
-  
-    {
-      "title"    : "Evacuated Tube Collectors",
-      "category" : "Piston",
-      "tags"     : "",
-      "url"      : "http://ieeenitk.org/blog//evacuated-tube-collector/",
-      "date"     : "14 May 2017"
     } 
   
 ]
