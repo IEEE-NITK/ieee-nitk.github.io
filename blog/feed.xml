@@ -5,9 +5,67 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Wed, 15 Nov 2017 21:44:23 +0530</pubDate>
     <lastBuildDate>Wed, 15 Nov 2017 21:44:23 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+=======
+    <pubDate>Sun, 12 Nov 2017 21:42:27 +0530</pubDate>
+    <lastBuildDate>Sun, 12 Nov 2017 21:42:27 +0530</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>RADIO-FREQUENCY IDENTIFICATION</title>
+        <description>&lt;p&gt;RFID technology has been in circulation for many years now. You may have encountered it first-hand while borrowing library books, or while swiping for attendance in school. Recently, the government issued RFID chips to be installed in cars so that we can zoom through toll booths instead of waiting in long queues. RFID technology has also got a fair share of screen time. Remember Casino Royale? Her Majesty’s Secret Service injects Bond with a glass-enclosed, rice-sized RFID chip, so that, in M’s words, “they’ll know where he is”. Here is a little insight into the technology that is taking the world by...</description>
+        <pubDate>Mon, 20 Nov 2017 06:00:02 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/RFID/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/RFID/</guid>
+        
+        <category>RFID</category>
+        
+        <category>ADC</category>
+        
+        
+        <category>CAS</category>
+        
+      </item>
+    
+      <item>
+        <title>Using Machine Learning for Investing in the Stock Market</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Arthur Lee Samuel, the man who coined the term “machine learning” defined it as the field of study that gives computers the ability to learn without being explicitly programmed.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the child...</description>
+        <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/using-machine-learning-for-investing-in-the-stock-market/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/using-machine-learning-for-investing-in-the-stock-market/</guid>
+        
+        <category>Machine Learning</category>
+        
+        <category>Stock Market</category>
+        
+        <category>Support Vector Machine</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Evacuated Tube Collectors</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents. Great amount of research is carried in improving the efficiency of renewable energy and making it inexpensive. The main objective is to minimize or eliminate the usage of electricity...</description>
+        <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/evacuated-tube-collector/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/evacuated-tube-collector/</guid>
+        
+        <category>Energy</category>
+        
+        <category>Renewables</category>
+        
+        <category>Thermal Sciences</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
     
       <item>
         <title>The Halting Problem</title>

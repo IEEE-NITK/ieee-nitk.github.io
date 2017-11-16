@@ -1,6 +1,7 @@
 [
   
     {
+<<<<<<< HEAD
       "title"    : "The Halting Problem",
       "category" : "CompSoc",
       "tags"     : "Complexity theory, Logic, and Mathematics",
@@ -22,6 +23,29 @@
       "tags"     : "QR code",
       "url"      : "http://ieeenitk.org/blog//how-qr-code-was-invented/",
       "date"     : "12 Nov 2017"
+=======
+      "title"    : "RADIO-FREQUENCY IDENTIFICATION",
+      "category" : "CAS",
+      "tags"     : "RFID and ADC",
+      "url"      : "http://ieeenitk.org/blog//RFID/",
+      "date"     : "20 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Using Machine Learning for Investing in the Stock Market",
+      "category" : "CompSoc",
+      "tags"     : "Machine Learning, Stock Market, and Support Vector Machine",
+      "url"      : "http://ieeenitk.org/blog//using-machine-learning-for-investing-in-the-stock-market/",
+      "date"     : "20 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Evacuated Tube Collectors",
+      "category" : "Piston",
+      "tags"     : "Energy, Renewables, and Thermal Sciences",
+      "url"      : "http://ieeenitk.org/blog//evacuated-tube-collector/",
+      "date"     : "20 Nov 2017"
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
     } ,
   
     {

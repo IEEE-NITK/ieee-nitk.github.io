@@ -383,6 +383,7 @@ sonalparab10:
   author_image: 
   user_description:
   email: parab.sonal108@gmail.com
+<<<<<<< HEAD
 shashank-ravichandir: 
   name: Shashank Ravichandir
   github: shashank-ravichandir
@@ -401,3 +402,23 @@ ShashankP19:
   author_image: shashank_p.jpg
   user_description: 'Fascinated about computer science and mathematics'
   email: shashankp5424@gmail.com
+=======
+suraj44:
+  name: Suraj Singh
+  github: suraj44
+  author_image: suraj.png
+  user_description: "I'm more of a # than a // kind of guy"
+  email: surajnitk4@gmail.com
+mehakarora:
+  name: Mehak Arora
+  github: mehakarora
+  author_image: mehak.jpg
+  user_description: 'Your strongest muscle and your worst enemy is your mind. Train it well.'
+  email: mehakarora23@gmail.com
+sanathbk:
+  name: Sanath K.
+  github: sanathbk
+  author_image: blog-author.jpg
+  user_description: 'Mechanical Engineer. Let the world wait.'
+  email: sanathkshettar@gmail.com
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22

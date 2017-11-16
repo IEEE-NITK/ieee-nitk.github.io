@@ -192,13 +192,11 @@
 
 <p>GPUs are processors that are designed to take a very specialist workload of rendering 2D/3D graphics and it does it much more efficiently. GPUs generally have around hundreds of cores as compared to a CPU. So given a task - lets say adding 2 matrices having a dimension of 1000 x 1000, the GPU can divide the work or region of data to compute among all the cores, which work in parallel and produce the result almost immediately.</p>
 
-<p>However, a single GPU core has a much lower performance as compared to a single CPU core due to following reasons:</p>
-<ol>
-  <li>GPU cores have a lesser clock frequency (proportional to number of instructions executed per second) as compared to a typical CPU core.</li>
-  <li>GPUs have a smaller instruction set. They deal with mostly floating point arithmetic and instructions like branch predictors are absent. Hence, they struggle while dealing with a lot of conditional statements.</li>
-  <li>They have smaller cache sizes.</li>
-  <li>Hyper-threading is not present in a single GPU core.</li>
-</ol>
+<p>However, a single GPU core has a much lower performance as compared to a single CPU core due to following reasons:
+1. GPU cores have a lesser clock frequency (proportional to number of instructions executed per second) as compared to a typical CPU core.
+2. GPUs have a smaller instruction set. They deal with mostly floating point arithmetic and instructions like branch predictors are absent. Hence, they struggle while dealing with a lot of conditional statements.
+3. They have smaller cache sizes.
+4. Hyper-threading is not present in a single GPU core.</p>
 
 <p>GPUs rely mainly on their massively parallel structure. Lets say you give the GPU 2 numbers to add. Sure, you might say it calculates the result slower than a CPU. But if you give the same GPU a million numbers to add, it will return the result almost instantly as compared to a CPU. So what the GPU cares about is not the time taken to do an individual task, but rather what it does when bulk data is given to it.</p>
 
@@ -226,13 +224,11 @@
 
 <p>Great! :) You could get started with learning how to code using one of the frameworks used for heterogeneous parallel computing such as OpenCL or CUDA C/C++ and maybe try out a few programs on your own. (Although, first check if your graphics card is compatible with these frameworks)</p>
 
-<p>Links:</p>
+<p>Links:
+* OpenCL:
+    1. <a href="https://www.fixstars.com/en/opencl/book/">Fixstars OpenCL Programming Book</a></p>
+
 <ul>
-  <li>OpenCL:
-    <ol>
-      <li><a href="https://www.fixstars.com/en/opencl/book/">Fixstars OpenCL Programming Book</a></li>
-    </ol>
-  </li>
   <li>CUDA:
     <ol>
       <li><a href="http://www.nvidia.com/docs/io/116711/sc11-cuda-c-basics.pdf">CUDA C/C++ Basics - Nvidia Corporation</a></li>

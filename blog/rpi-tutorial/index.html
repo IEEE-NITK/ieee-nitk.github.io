@@ -237,10 +237,8 @@ Download Torrent (it is faster )</p>
 
 <p>3) Using PuTTY, connect to the IP address, 192.168.0.12(this is just an example).</p>
 
-<p>4) It will get connected to Raspberry Pi and will ask for username/password.</p>
-<blockquote>
-  <p>Provide username as pi and password as raspberry (Pi is the default username and raspberry is the default password)</p>
-</blockquote>
+<p>4) It will get connected to Raspberry Pi and will ask for username/password. 
+&gt; Provide username as pi and password as raspberry (Pi is the default username and raspberry is the default password)</p>
 
 <p>We can see the RaspberryPi prompt getting displayed and we are connected to the Raspberry Pi through SSH.</p>
 
@@ -258,8 +256,14 @@ Download Torrent (it is faster )</p>
 
 <p>1) In the SSH terminal of PuTTY, give the command</p>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo iwlist wlan0 scan
 </code></pre></div></div>
+=======
+<p><code class="highlighter-rouge">
+sudo iwlist wlan0 scan
+</code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>You will be able to see the list of WiFi connections available.</p>
 
@@ -269,33 +273,47 @@ Download Torrent (it is faster )</p>
   <p>/etc/wpa_supplicant/wpa_supplicant.conf</p>
 </blockquote>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wpa_passphrase "rpi" "wifipassword"
 </code></pre></div></div>
+=======
+<p><code class="highlighter-rouge">
+wpa_passphrase "rpi" "wifipassword"
+</code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>The output will be as follows:</p>
 
-<pre><code class="language-apacheconf">network={
+<p>```apacheconf
+network={</p>
 
-ssid = &lt;rpi&gt;
+<p>ssid = <rpi></rpi></p>
 
-#psk = &lt;wifipassword&gt;
+<h1 id="psk--wifipassword">psk = <wifipassword></wifipassword></h1>
 
-psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
+<p>psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8</p>
 
-}
-</code></pre>
+<p>}
+```</p>
 
 <p>Note: This is just an example. You need to specify your network name in place of rpi and the password for it in place of wifipassword.</p>
 
 <p>3) The above output needs to be copied to bottom of the file</p>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/etc/wpa_supplicant/wpa_supplicant.conf 
 </code></pre></div></div>
+=======
+<p><code class="highlighter-rouge">
+/etc/wpa_supplicant/wpa_supplicant.conf 
+</code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>after removing the line containing #psk for security purpose as we do not want to store the WiFi password in plain text.</p>
 
 <p>4) Command to open the file and copy the network settings at the bottom on the file -</p>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 </code></pre></div></div>
 
@@ -308,6 +326,23 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ifconfig wlan0
 </code></pre></div></div>
+=======
+<p><code class="highlighter-rouge">
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+</code></p>
+
+<p>5) Automatically, WiFi will be configured after sometime. We can also make sure it happens by issuing the following command</p>
+
+<p><code class="highlighter-rouge">
+sudo wpa_cli reconfigure
+</code></p>
+
+<p>6) You can verify whether it has successfully connected, using the command</p>
+
+<p><code class="highlighter-rouge">
+ifconfig wlan0
+</code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>If the inet addr field has an address beside it, the Raspberry Pi has connected to the network.</p>
 
@@ -321,8 +356,14 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
 
 <p>1) To start VNC, enter the following command in the SSH terminal:</p>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vncserver :1
 </code></pre></div></div>
+=======
+<p><code class="highlighter-rouge">
+vncserver :1
+</code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>2) In the client side laptop, Download VNC Viewer from <a href="https://www.realvnc.com/download/viewer/">here</a></p>
 
