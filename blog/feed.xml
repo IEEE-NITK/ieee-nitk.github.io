@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Nov 2017 21:42:27 +0530</pubDate>
-    <lastBuildDate>Sun, 12 Nov 2017 21:42:27 +0530</lastBuildDate>
+    <pubDate>Thu, 16 Nov 2017 22:02:12 +0530</pubDate>
+    <lastBuildDate>Thu, 16 Nov 2017 22:02:12 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -21,7 +21,7 @@
         <category>ADC</category>
         
         
-        <category>CAS</category>
+        <category>Diode</category>
         
       </item>
     
