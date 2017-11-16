@@ -5,6 +5,11 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
+    <pubDate>Wed, 15 Nov 2017 21:44:23 +0530</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2017 21:44:23 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+=======
     <pubDate>Sun, 12 Nov 2017 21:42:27 +0530</pubDate>
     <lastBuildDate>Sun, 12 Nov 2017 21:42:27 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
@@ -58,6 +63,53 @@
         
         
         <category>Piston</category>
+        
+      </item>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
+    
+      <item>
+        <title>The Halting Problem</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.&lt;/p&gt; &lt;p&gt;The &lt;strong&gt;halting problem&lt;/strong&gt;...</description>
+        <pubDate>Mon, 13 Nov 2017 02:06:15 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-halting-problem/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-halting-problem/</guid>
+        
+        <category>Complexity theory</category>
+        
+        <category>Logic</category>
+        
+        <category>Mathematics</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Design of Aircraft Windows</title>
+        <description>&lt;p&gt;Everything in an aircraft you see is for a reason. Nothing is there coincidentally. And one such thing is the shape and design of the windows.&lt;/p&gt; &lt;p&gt;With increase in commutation through flights, the aeroplanes started flying at higher altitudes, since lesser air density meant lesser drag which directly affected fuel efficiency. Also turbulence due to atmosphere is less. But some modifications had to be done to make the conditions safe for the passengers at high altitudes. So, a pressurized cabin was introduced into the flights. This pressurized cabin keeps the interior of the flight at a higher pressure compared to...</description>
+        <pubDate>Sun, 12 Nov 2017 22:35:21 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/design-of-aircraft-windows/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/design-of-aircraft-windows/</guid>
+        
+        <category>Aeronautics</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>How QR code was invented</title>
+        <description>&lt;h2 id=&quot;how-qr-code-was-invented&quot;&gt;How QR code was invented&lt;/h2&gt; &lt;p&gt;Denso Wave a subsidiary of the Toyota Group are attributed with the creation of the QR Code back in 1994. Originally it was used to track parts in the vehicle manufacturing industry, but its use and scope has since grown tremendously. One of the main objectives when creating the QR Code was to come up with a new barcode that allowed more data to be encoded without increasing the size (dimensions / surface area) of existing barcodes. This was achieved by including a second dimension. The QR Code was born.&lt;/p&gt; &lt;h2 id=&quot;working-of-qr-code&quot;&gt;Working of QR...</description>
+        <pubDate>Sun, 12 Nov 2017 22:07:21 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/how-qr-code-was-invented/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/how-qr-code-was-invented/</guid>
+        
+        <category>QR code</category>
+        
+        
+        <category>Diode</category>
         
       </item>
     

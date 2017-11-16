@@ -256,9 +256,14 @@ Download Torrent (it is faster )</p>
 
 <p>1) In the SSH terminal of PuTTY, give the command</p>
 
+<<<<<<< HEAD
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo iwlist wlan0 scan
+</code></pre></div></div>
+=======
 <p><code class="highlighter-rouge">
 sudo iwlist wlan0 scan
 </code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>You will be able to see the list of WiFi connections available.</p>
 
@@ -268,9 +273,14 @@ sudo iwlist wlan0 scan
   <p>/etc/wpa_supplicant/wpa_supplicant.conf</p>
 </blockquote>
 
+<<<<<<< HEAD
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wpa_passphrase "rpi" "wifipassword"
+</code></pre></div></div>
+=======
 <p><code class="highlighter-rouge">
 wpa_passphrase "rpi" "wifipassword"
 </code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>The output will be as follows:</p>
 
@@ -290,14 +300,33 @@ network={</p>
 
 <p>3) The above output needs to be copied to bottom of the file</p>
 
+<<<<<<< HEAD
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/etc/wpa_supplicant/wpa_supplicant.conf 
+</code></pre></div></div>
+=======
 <p><code class="highlighter-rouge">
 /etc/wpa_supplicant/wpa_supplicant.conf 
 </code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>after removing the line containing #psk for security purpose as we do not want to store the WiFi password in plain text.</p>
 
 <p>4) Command to open the file and copy the network settings at the bottom on the file -</p>
 
+<<<<<<< HEAD
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+</code></pre></div></div>
+
+<p>5) Automatically, WiFi will be configured after sometime. We can also make sure it happens by issuing the following command</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo wpa_cli reconfigure
+</code></pre></div></div>
+
+<p>6) You can verify whether it has successfully connected, using the command</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ifconfig wlan0
+</code></pre></div></div>
+=======
 <p><code class="highlighter-rouge">
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 </code></p>
@@ -313,6 +342,7 @@ sudo wpa_cli reconfigure
 <p><code class="highlighter-rouge">
 ifconfig wlan0
 </code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>If the inet addr field has an address beside it, the Raspberry Pi has connected to the network.</p>
 
@@ -326,9 +356,14 @@ ifconfig wlan0
 
 <p>1) To start VNC, enter the following command in the SSH terminal:</p>
 
+<<<<<<< HEAD
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vncserver :1
+</code></pre></div></div>
+=======
 <p><code class="highlighter-rouge">
 vncserver :1
 </code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>2) In the client side laptop, Download VNC Viewer from <a href="https://www.realvnc.com/download/viewer/">here</a></p>
 

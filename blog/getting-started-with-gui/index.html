@@ -189,9 +189,14 @@
 <p>### Installing GTK+
 Open up terminal and type the following command in. Enter your password when asked for.</p>
 
+<<<<<<< HEAD
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span><span class="nb">sudo </span>apt-get install build-essential libgtk-3-dev
+</code></pre></div></div>
+=======
 <p><code class="highlighter-rouge">shell
 archit@archit-len-510s ~ $ sudo apt-get install build-essential libgtk-3-dev
 </code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <p>Once you have these packages installed, it’s time to start coding and creating our first GTK+ application.</p>
 
@@ -247,6 +252,27 @@ Now, in order to compile the code, we need to tell the compiler where to find th
 
 <p>The following code demonstrates how <em>pkg-config</em> is used.</p>
 
+<<<<<<< HEAD
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config <span class="nt">--cflags</span> gtk+-3.0 <span class="nt">-pthread</span>
+<span class="nt">-I</span>/usr/include/gtk-3.0 <span class="nt">-I</span>/usr/lib64/gtk-3.0/include <span class="nt">-I</span>/usr/include/atk-1.0
+<span class="nt">-I</span>/usr/include/cairo <span class="nt">-I</span>/usr/include/pango-1.0 <span class="nt">-I</span>/usr/include/glib-2.0
+<span class="nt">-I</span>/usr/lib64/glib-2.0/include <span class="nt">-I</span>/usr/include/pixman-1 <span class="nt">-I</span>/usr/include/freetype2
+<span class="nt">-I</span>/usr/include/libpng12
+
+archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config <span class="nt">--libs</span> gtk+-3.0 <span class="nt">-pthread</span> <span class="nt">-lgtk-3</span> <span class="nt">-lgdk-3</span>
+<span class="nt">-latk-1</span>.0 <span class="nt">-lgio-2</span>.0 <span class="nt">-lpangoft2-1</span>.0 <span class="nt">-lgdk_pixbuf-2</span>.0 <span class="nt">-lpangocairo-1</span>.0
+<span class="nt">-lcairo</span> <span class="nt">-lpango-1</span>.0 <span class="nt">-lfreetype</span> <span class="nt">-lfontconfig</span> <span class="nt">-lgobject-2</span>.0 <span class="nt">-lgmodule-2</span>.0
+<span class="nt">-lgthread-2</span>.0 <span class="nt">-lrt</span> <span class="nt">-lglib-2</span>.0     
+</code></pre></div></div>
+<p>Now we are ready to compile our first program.</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>gcc <span class="sb">`</span>pkg-config <span class="nt">--cflags</span> gtk+-3.0<span class="sb">`</span> <span class="nt">-o</span>
+helloworld helloworld.c <span class="sb">`</span>pkg-config <span class="nt">--libs</span> gtk+-3.0<span class="sb">`</span>
+</code></pre></div></div>
+
+<p>Now the program can be run using the command,</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-lev-510s ~ <span class="nv">$ </span>./helloworld
+</code></pre></div></div>
+=======
 <p>```shell
 archit@archit-len-510s ~ $ pkg-config –cflags gtk+-3.0 -pthread
 -I/usr/include/gtk-3.0 -I/usr/lib64/gtk-3.0/include -I/usr/include/atk-1.0
@@ -269,6 +295,7 @@ helloworld helloworld.c <code class="highlighter-rouge">pkg-config --libs gtk+-3
 <code class="highlighter-rouge">shell
 archit@archit-lev-510s ~ $ ./helloworld
 </code></p>
+>>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 
 <h3 id="understanding-the-program">Understanding the program</h3>
 <p>GTK+ uses layouts to store the UI elements. First we create a widget for window using <em>gtk_application_window_new(app)</em>. Then in order to store the <em>button</em>, a <em>button_box</em> is used. <em>GtkButtonBox</em> is created for this purpose. This newly created button box is then added to the window widget. The button itself is then inialized using <em>gtk_button_new_with_label()</em> which returns a <em>GtkButton</em> to be stored inside <em>button</em>. Later <em>button</em> is added to <em>button_box</em>. Next we need to add functionality to close the app once the button is clicked. This is achieved using <em>g_signal_connect()</em> which is connected to <em>button</em>. After connecting <em>print_hello()</em>, another signal is connected to “clicked” state of the button. This calls the <em>gtk_widget_destroy()</em> and takes <em>window</em> as parameter. This destroys the window when the button is clicked. This completes the functionality we require for our simple applcation.</p>
