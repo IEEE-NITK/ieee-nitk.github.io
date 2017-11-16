@@ -121,7 +121,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-24 15:30:30 +0530" class="date">24 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-24 10:00:30 +0000" class="date">24 Sep 2017</time>
         
         <h1 class="post-title" itemprop="name">Getting Started with GUIs</h1>
         <p itemprop="description" class="subtitle">Stepping into software development</p>
@@ -186,12 +186,12 @@
 <p>GTK+ or Gimp Toolkit is a toolkit for creating GUIs using widgets. Initially, development of GTK+ was started for use with the GIMP image manipulation program. Later, the toolkit was expanded for use with other software as well. It’s currently one of the best toolkits for creating GUIs in C. And since it’s free software, it can be freely used and softwares created using GTK+ can be freely distributed. GTK+ is based upon four libraries - <em>GLib</em>, <em>Pango</em>, <em>Cairo</em> and <em>ATK</em>. Each user interface created using GTK+ consists of widgets, since GTK+ is essentially a set of widgets.</p>
 
 <h2 id="getting-started-with-gtk">Getting Started with GTK+</h2>
-<p>### Installing GTK+
-Open up terminal and type the following command in. Enter your password when asked for.</p>
+<h3 id="installing-gtk">Installing GTK+</h3>
+<p>Open up terminal and type the following command in. Enter your password when asked for.</p>
 
-<p><code class="highlighter-rouge">shell
-archit@archit-len-510s ~ $ sudo apt-get install build-essential libgtk-3-dev
-</code></p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>sudo apt-get install build-essential libgtk-3-dev
+</code></pre>
+</div>
 
 <p>Once you have these packages installed, it’s time to start coding and creating our first GTK+ application.</p>
 
@@ -201,74 +201,73 @@ This we shall achieve using the given code.</p>
 
 <p>Open up a text-editor and copy the following code into it, and save it as <em>helloworld.c</em>.</p>
 
-<p>```C
-#include &lt;gtk/gtk.h&gt;</p>
+<pre><code class="language-C">#include &lt;gtk/gtk.h&gt;
 
-<p>static void print_hello (GtkWidget *widget, gpointer data)
+static void print_hello (GtkWidget *widget, gpointer data)
 {
-  g_print (“Hello World\n”);
-}</p>
+  g_print ("Hello World\n");
+}
 
-<p>static void activate (GtkApplication *app, gpointer user_data)
+static void activate (GtkApplication *app, gpointer user_data)
 {
   GtkWidget *window;
   GtkWidget *button;
-  GtkWidget *button_box;</p>
+  GtkWidget *button_box;
 
-<p>window = gtk_application_window_new (app);
-  gtk_window_set_title (GTK_WINDOW (window), “Window”);
-  gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);</p>
+  window = gtk_application_window_new (app);
+  gtk_window_set_title (GTK_WINDOW (window), "Window");
+  gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);
 
-<p>button_box = gtk_button_box_new (GTK_ORIENTATION_HORIZONTAL);
-  gtk_container_add (GTK_CONTAINER (window), button_box);</p>
+  button_box = gtk_button_box_new (GTK_ORIENTATION_HORIZONTAL);
+  gtk_container_add (GTK_CONTAINER (window), button_box);
 
-<p>button = gtk_button_new_with_label (“Hello World”);
-  g_signal_connect (button, “clicked”, G_CALLBACK (print_hello), NULL);
-  g_signal_connect_swapped (button, “clicked”, G_CALLBACK(gtk_widget_destroy), window);
-  gtk_container_add (GTK_CONTAINER (button_box), button);</p>
+  button = gtk_button_new_with_label ("Hello World");
+  g_signal_connect (button, "clicked", G_CALLBACK (print_hello), NULL);
+  g_signal_connect_swapped (button, "clicked", G_CALLBACK(gtk_widget_destroy), window);
+  gtk_container_add (GTK_CONTAINER (button_box), button);
 
-<p>gtk_widget_show_all (window);
-}</p>
+  gtk_widget_show_all (window);
+}
 
-<p>int main (int argc, char **argv)
+int main (int argc, char **argv)
 {
   GtkApplication *app;
-  int status;</p>
+  int status;
 
-<p>app = gtk_application_new (“org.gtk.example”, G_APPLICATION_FLAGS_NONE);
-  g_signal_connect (app, “activate”, G_CALLBACK (activate), NULL);
+  app = gtk_application_new ("org.gtk.example", G_APPLICATION_FLAGS_NONE);
+  g_signal_connect (app, "activate", G_CALLBACK (activate), NULL);
   status = g_application_run (G_APPLICATION (app), argc, argv);
-  g_object_unref (app);</p>
+  g_object_unref (app);
 
-<p>return status;
+  return status;
 }
-```
-Now, in order to compile the code, we need to tell the compiler where to find the GTK+ header files and libraries. This is done with the <em>pkg-config</em> utility.</p>
+</code></pre>
+<p>Now, in order to compile the code, we need to tell the compiler where to find the GTK+ header files and libraries. This is done with the <em>pkg-config</em> utility.</p>
 
 <p>The following code demonstrates how <em>pkg-config</em> is used.</p>
 
-<p>```shell
-archit@archit-len-510s ~ $ pkg-config –cflags gtk+-3.0 -pthread
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config --cflags gtk+-3.0 -pthread
 -I/usr/include/gtk-3.0 -I/usr/lib64/gtk-3.0/include -I/usr/include/atk-1.0
 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/glib-2.0
 -I/usr/lib64/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2
--I/usr/include/libpng12</p>
+-I/usr/include/libpng12
 
-<p>archit@archit-len-510s ~ $ pkg-config –libs gtk+-3.0 -pthread -lgtk-3 -lgdk-3
+archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config --libs gtk+-3.0 -pthread -lgtk-3 -lgdk-3
 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lgdk_pixbuf-2.0 -lpangocairo-1.0
 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0
--lgthread-2.0 -lrt -lglib-2.0   <br />
-<code class="highlighter-rouge">
-Now we are ready to compile our first program.
-</code>shell
-archit@archit-len-510s ~ $ gcc <code class="highlighter-rouge">pkg-config --cflags gtk+-3.0</code> -o
-helloworld helloworld.c <code class="highlighter-rouge">pkg-config --libs gtk+-3.0</code>
-```</p>
+-lgthread-2.0 -lrt -lglib-2.0     
+</code></pre>
+</div>
+<p>Now we are ready to compile our first program.</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>gcc <span class="sb">`</span>pkg-config --cflags gtk+-3.0<span class="sb">`</span> -o
+helloworld helloworld.c <span class="sb">`</span>pkg-config --libs gtk+-3.0<span class="sb">`</span>
+</code></pre>
+</div>
 
-<p>Now the program can be run using the command,
-<code class="highlighter-rouge">shell
-archit@archit-lev-510s ~ $ ./helloworld
-</code></p>
+<p>Now the program can be run using the command,</p>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>archit@archit-lev-510s ~ <span class="nv">$ </span>./helloworld
+</code></pre>
+</div>
 
 <h3 id="understanding-the-program">Understanding the program</h3>
 <p>GTK+ uses layouts to store the UI elements. First we create a widget for window using <em>gtk_application_window_new(app)</em>. Then in order to store the <em>button</em>, a <em>button_box</em> is used. <em>GtkButtonBox</em> is created for this purpose. This newly created button box is then added to the window widget. The button itself is then inialized using <em>gtk_button_new_with_label()</em> which returns a <em>GtkButton</em> to be stored inside <em>button</em>. Later <em>button</em> is added to <em>button_box</em>. Next we need to add functionality to close the app once the button is clicked. This is achieved using <em>g_signal_connect()</em> which is connected to <em>button</em>. After connecting <em>print_hello()</em>, another signal is connected to “clicked” state of the button. This calls the <em>gtk_widget_destroy()</em> and takes <em>window</em> as parameter. This destroys the window when the button is clicked. This completes the functionality we require for our simple applcation.</p>

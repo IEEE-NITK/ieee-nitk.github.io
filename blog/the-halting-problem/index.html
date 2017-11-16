@@ -41,31 +41,31 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="The Radio-frequency Identification technology is game changer.">
+        <meta name="description" content="Does there exist a program to check an infinite loop?">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="RADIO-FREQUENCY IDENTIFICATION">
-        <meta name="twitter:description" content="The Radio-frequency Identification technology is game changer.">
+        <meta name="twitter:title" content="The Halting Problem">
+        <meta name="twitter:description" content="Does there exist a program to check an infinite loop?">
         
         <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
         
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///RFID/" />
-        <meta property="og:title" content="RADIO-FREQUENCY IDENTIFICATION">
+        <meta property="og:url" content="http://ieeenitk.org///the-halting-problem/" />
+        <meta property="og:title" content="The Halting Problem">
         
         <meta property="og:image" content="http://ieeenitk.org/assets/img/">
         
-        <meta property="og:description" content="The Radio-frequency Identification technology is game changer.">
+        <meta property="og:description" content="Does there exist a program to check an infinite loop?">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="RADIO-FREQUENCY IDENTIFICATION"/>
-        <meta itemprop="description" content="The Radio-frequency Identification technology is game changer.">
+        <meta itemprop="name" content="The Halting Problem"/>
+        <meta itemprop="description" content="Does there exist a program to check an infinite loop?">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -89,13 +89,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>RADIO-FREQUENCY IDENTIFICATION</title>
+        <title>The Halting Problem</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/RFID/">
+        <link rel="canonical" href="/blog/the-halting-problem/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -121,10 +121,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-11-20 06:00:02 +0530" class="date">20 Nov 2017</time>
+            <time itemprop="datePublished" datetime="2017-11-12 20:36:15 +0000" class="date">13 Nov 2017</time>
         
-        <h1 class="post-title" itemprop="name">RADIO-FREQUENCY IDENTIFICATION</h1>
-        <p itemprop="description" class="subtitle">The Radio-frequency Identification technology is game changer.</p>
+        <h1 class="post-title" itemprop="name">The Halting Problem</h1>
+        <p itemprop="description" class="subtitle">Does there exist a program to check an infinite loop?</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -174,50 +174,76 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>RFID technology has been in circulation for many years now. You may have encountered it first-hand while borrowing library books, or while swiping for attendance in school. Recently, the government issued RFID chips to be installed in cars so that we can zoom through toll booths instead of waiting in long queues. RFID technology has also got a fair share of screen time. Remember Casino Royale? Her Majesty’s Secret Service injects Bond with a glass-enclosed, rice-sized RFID chip, so that, in M’s words, “they’ll know where he is”. Here is a little insight into the technology that is taking the world by storm.</p>
+                <h2 id="introduction">Introduction</h2>
 
-<h2 id="what-is-rfid">What is RFID?</h2>
-<p>Radio-frequency Identification is an Automated Data Collection (ADC) technology that uses radio-frequency waves to transfer data between a reader and an object with an RFID chip. It is used to track, categorise, and uniquely identify objects. The main advantage of RFID over other ADC technologies like barcode, Optical Character Readers etc., is that the object need not be in the line of sight of the reader. It uses tags which act as labels for the object to be identified. Tags generally have an integrated circuit for processing and storing information that
-modulates and demodulates the RF signals and antenna for receiving and transmitting the signals. Passive tags have a device that collects DC power from the reader. Active tags are powered by a locally connected battery, and have a much longer read range than passive tags. The reader, or interrogator, is a two-way radio transmitter-receiver which
-sends signals to the tags and reads their response.</p>
+<p>If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.</p>
 
-<p><img src="https://i.imgur.com/UwZIYoE.png" alt="RFID" /></p>
+<p>The <strong>halting problem</strong> is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever. Now let me define two terms- <strong>decidable</strong> and <strong>undecidable</strong>. A problem is decidable if it has a solution. If there is no algorithm that solves the problem in a finite amount of time, the problem is undecidable.</p>
 
-<h2 id="real-world-applications-of-rfid">Real World Applications of RFID:</h2>
+<p><img src="/blog/assets/img/the-halting-problem/halting-problem.png" alt="Halting-problem" /></p>
+
+<h2 id="a-little-history">A little history</h2>
+
+<p>Are all problems decidable? Given enough thought, can we always come up with a well-defined procedure that takes some input and answers a given question about it? At the start of the 20th century, the belief was that this was true. Mathematicians (there were no computer scientists back then!) believed that we would eventually discover tools that we could use to answer any question we wanted (provided we could express it in the language of logic).</p>
+
+<p>In 1931, <strong>Kurt Gödel</strong> shocked them all by proving that this was impossible. Using some very clever techniques, he showed that as soon as we devise a system that’s sufficiently powerful and well-behaved to encompass mathematical reasoning, that system will necessarily contain a statement that we could never prove is true, even though it is true.</p>
+
+<p>A few years later, <strong>Alan Turing</strong> proved an analogous theorem in Computer science. He showed that there must exist undecidable problems, questions for which there is no definable solution. His proof relied on some of the same clever techniques used by Gödel. The halting problem is one such undecidable problem</p>
+
+<p><img src="/blog/assets/img/the-halting-problem/turing.png" alt="Turing" /></p>
+
+<h2 id="turings-argument">Turing’s Argument</h2>
+
+<p>Lets say I came up with an algorithm to solve the halting problem. Then I can write a computer program for this. For simplicity, wrap this program inside a black box. Let’s call this black box - “Does it halt?”. “Does it halt?” takes a program as input and outputs “yes” if the input program halts and outputs “no” if the input program does not halt.</p>
+
+<p><img src="/blog/assets/img/the-halting-problem/img1.jpg" alt="Does it halt" /></p>
+
+<p>Now let me create another program that uses “Does it halt?” as a subprogram. If the output of “Does it halt?” subprogram is “yes”, then it  loops forever (like a while(1){}; in C language). If the output of “Does it halt?”  subprogram is a “no”, then it halts and outputs ”halted”. Lets call this new program “Paradox”.</p>
+
+<p><img src="/blog/assets/img/the-halting-problem/img2.jpg" alt="Paradox" /></p>
+
+<p>Now here is the paradox. What happens when I input “Paradox” program to itself. Clearly one of the two things can happen:  either it runs forever or it stops and outputs “halted” depending on whether the program “Does it halt?” outputs “yes” or “no”.</p>
+
+<ul>
+  <li>
+    <p>If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.</p>
+  </li>
+  <li>
+    <p>If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.</p>
+  </li>
+</ul>
+
+<p>We have therefore led ourselves to a contradiction that “Paradox” <strong>halts if and only if it runs forever</strong>. Since this is impossible, one of our assumptions must be invalid. By tracing our reasoning backwards, we find that it is therefore impossible to have written “Does it halt?” in the first place. In other words, the <strong>halting problem is undecidable</strong>.</p>
+
+<h2 id="equivalent-problems-in-real-life">Equivalent problems in real life</h2>
+
+<p>A lot of really practical problems are the halting problem in disguise. A solution to them solves the halting problem.</p>
+
 <ol>
-  <li>
-    <p>Supply Chain Management, Manufacturing and Processing industry: RFID is used to take inventory and track manufactured products, tools and other assets.</p>
-  </li>
-  <li>
-    <p>Race Timing: Timing marathons and races are one of the most popular uses of RFID. The runners wear tags which are read by readers placed alongside the tracks. This is a huge advantage while timing marathons and other races with a large number of participants because participants don’t need to start as batch.</p>
-  </li>
-  <li>
-    <p>Access Control: Certain areas require a higher level of security. From doors to parking lots, <a href="http://www.atlasrfidstore.com/access-control-rfid-tag-sample-pack-uhf-passive/">RFID access control tags</a> restrict access to only those pre-approved.</p>
-  </li>
-  <li>
-    <p>Library systems: RFID tagged books improve the efficacy of the borrowing process. While barcodes require line of sight, RFID tags can be read from multiple angles which means the checkout and check-in process is significantly faster. Also, taking inventory of books on the shelf is dramatically faster.</p>
-  </li>
-  <li>
-    <p>Smart Groceries: RFID Tags are added to all grocery items. While leaving the store, the customer walks through an RFID interrogator which rings up the items in the cart. This greatly reduces the checkout wait time.</p>
-  </li>
-  <li>
-    <p>Smart Fridges: By recognising what is being put in and what is being taken out, smart fridges can make their own shopping lists and can even suggest recipes based on what is present in the fridge.</p>
-  </li>
+  <li>You want a compiler that finds the fastest possible machine code for a given program?   Actually the halting problem.</li>
+  <li>You have JavaScript, with some variables at a high security levels, and some at a low security level. You want to make sure that an attacker can’t get at the high security information. This is also just the halting problem.</li>
+  <li>You have a parser for your programming language. You change it, but you want to make sure it still parses all the programs it used to. Actually the halting problem.</li>
+  <li>You have an anti-virus program, and you want to see if it ever executes a malicious instruction. Actually just the halting problem.</li>
 </ol>
 
-<p>Likewise, RFID can be used to make several things “smart” such as smart currency, for anti-counterfeiting and tracking, or smart airline tickets which indicate the location of the airport. In recent years, with the advent of the Internet of Things, the scope of RFID technology has increased by manifolds. However, as it is with most new, disruptive technologies, it can be abused in ways that have generated breach of privacy concerns, as tags can easily be used to track people instead of just objects. But if used smartly, this technology can go a long way in making the world around us smarter.</p>
+<h3 id="cool-links">Cool Links</h3>
+<ul>
+  <li><a href="https://thorehusfeldt.wordpress.com/2012/06/25/the-freeze-app-does-not-exist/">The Freeze App Does Not Exist</a></li>
+  <li><a href="http://www.cgl.uwaterloo.ca/csk/halt/">The Halting Problem</a></li>
+  <li><a href="https://www.cs.rice.edu/~vardi/comp409/scooping.pdf">Poetic proof of Halting problem</a></li>
+</ul>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/mehak.jpg" alt="Mehak Arora">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/shashank_p.jpg" alt="Shashank P">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Mehak Arora</a>
+            <a itemprop="name" href="/">Shashank P</a>
         </h3>
-        <p class="desc">Your strongest muscle and your worst enemy is your mind. Train it well.</p>
-        <a itemprop="email" class="email" href="mailto:mehakarora23@gmail.com">mehakarora23@gmail.com</a>
+        <p class="desc">Fascinated about computer science and mathematics</p>
+        <a itemprop="email" class="email" href="mailto:shashankp5424@gmail.com">shashankp5424@gmail.com</a>
     </div>
 </section>
 
@@ -235,23 +261,17 @@ sends signals to the tags and reads their response.</p>
 	</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/RFID/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/RFID/%20via%20&#64;IEEE_NITK&hashtags=RFID,ADC,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/the-halting-problem/%20via%20&#64;IEEE_NITK&hashtags=Complexity theory,Logic,Mathematics,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//RFID/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//the-halting-problem/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//RFID/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//the-halting-problem/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

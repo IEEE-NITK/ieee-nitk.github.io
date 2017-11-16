@@ -1,18 +1,22 @@
 [
   
     {
+<<<<<<< HEAD
       "title"    : "RADIO-FREQUENCY IDENTIFICATION",
+=======
+      "title"    : "Radio Frequency Identification",
+>>>>>>> cbd5d81733802314a784d90f078b994fb300d3e9
       "category" : "Diode",
       "tags"     : "RFID and ADC",
-      "url"      : "http://ieeenitk.org/blog//RFID/",
+      "url"      : "http://ieeenitk.org/blog//rfid/",
       "date"     : "20 Nov 2017"
     } ,
   
     {
-      "title"    : "Using Machine Learning for Investing in the Stock Market",
+      "title"    : "Machine Learning for Stock Market Investment",
       "category" : "CompSoc",
       "tags"     : "Machine Learning, Stock Market, and Support Vector Machine",
-      "url"      : "http://ieeenitk.org/blog//using-machine-learning-for-investing-in-the-stock-market/",
+      "url"      : "http://ieeenitk.org/blog//machine-learning-for-stock-market-investment/",
       "date"     : "20 Nov 2017"
     } ,
   
@@ -22,6 +26,30 @@
       "tags"     : "Energy, Renewables, and Thermal Sciences",
       "url"      : "http://ieeenitk.org/blog//evacuated-tube-collector/",
       "date"     : "20 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "The Halting Problem",
+      "category" : "CompSoc",
+      "tags"     : "Complexity theory, Logic, and Mathematics",
+      "url"      : "http://ieeenitk.org/blog//the-halting-problem/",
+      "date"     : "13 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "Design of Aircraft Windows",
+      "category" : "Piston",
+      "tags"     : "Aeronautics",
+      "url"      : "http://ieeenitk.org/blog//design-of-aircraft-windows/",
+      "date"     : "12 Nov 2017"
+    } ,
+  
+    {
+      "title"    : "How QR code was invented",
+      "category" : "Diode",
+      "tags"     : "QR code",
+      "url"      : "http://ieeenitk.org/blog//how-qr-code-was-invented/",
+      "date"     : "12 Nov 2017"
     } ,
   
     {
