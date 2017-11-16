@@ -1,11 +1,7 @@
 [
   
     {
-<<<<<<< HEAD
-      "title"    : "RADIO-FREQUENCY IDENTIFICATION",
-=======
       "title"    : "Radio Frequency Identification",
->>>>>>> cbd5d81733802314a784d90f078b994fb300d3e9
       "category" : "Diode",
       "tags"     : "RFID and ADC",
       "url"      : "http://ieeenitk.org/blog//rfid/",
