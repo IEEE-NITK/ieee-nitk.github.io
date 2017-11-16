@@ -56,7 +56,7 @@ Here's some code on preprocessing the dataset from Quandl that would transform t
 	    ticker_list = []
      	
 	    for each_dir in stock_list[1:]:
-     		each_file = os.listdir(each_dir)http://scikit-learn.org/stable/
+     		each_file = os.listdir(each_dir)
      		
      		ticker = each_dir.split("/")[6]
      		ticker_list.append(ticker)
