@@ -121,7 +121,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-05-26 16:18:33 +0530" class="date">26 May 2017</time>
+            <time itemprop="datePublished" datetime="2017-05-26 10:48:33 +0000" class="date">26 May 2017</time>
         
         <h1 class="post-title" itemprop="name">Hello World</h1>
         <p itemprop="description" class="subtitle">A not so simple Hello World (PS: No need to buy the full version)</p>
@@ -180,13 +180,14 @@
 
 <p>Given below is a typical C program taught in most of the textbooks.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt; // An include statement: Preprocessor Directive
+<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt; // An include statement: Preprocessor Directive
 
 void main() // An entry function
 {
     printf("Hello world\n"); 
 }
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <p>The entire post does not even begin to comprehend the amount of work put in ,just to run a simple hello world program. To compile and run this program, a lot of juggling is done by gcc and the operating system. Of course, the standard books and online resources will tell you about how the program works, what each line is, and the technical jargon associated with them, but that is not why we are here today. Let us explore the bland hello world program and work out it’s internals. I am pretty sure this will be a worthwhile trip. So hold on tight!</p>
 
@@ -214,7 +215,7 @@ void main() // An entry function
 
 <p>is replaced by</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 1 "temp.c"
+<div class="highlighter-rouge"><pre class="highlight"><code># 1 "temp.c"
 # 1 "&lt;built-in&gt;"
 # 1 "&lt;command-line&gt;"
 # 31 "&lt;command-line&gt;"
@@ -243,7 +244,8 @@ extern int sprintf (char *__restrict __s,
 
 ...
 
-</code></pre></div></div>
+</code></pre>
+</div>
 <blockquote>
   <p>Pro Tip: Save a C file with just “#include &lt;stdio.h&gt;” in it. Then run `gcc -c -i &lt;file.c&gt; -o &lt;file.i&gt; to see the actual preprocessing in action. GCC’s -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.</p>
 </blockquote>
@@ -270,7 +272,7 @@ extern int sprintf (char *__restrict __s,
 <p>…<br />
  and many more optimizations, each of which deserve a 15 hour course in it’s entirety. (Nope, I am not going to explain them here)</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	.file	"temp.c"
+<div class="highlighter-rouge"><pre class="highlight"><code>	.file	"temp.c"
 	.section	.rodata
 .LC0:
 	.string	"Hello World"
@@ -296,7 +298,8 @@ main:
 	.size	main, .-main
 	.ident	"GCC: (GNU) 6.3.1 20170306"
 	.section	.note.GNU-stack,"",@progbits
-</code></pre></div></div>
+</code></pre>
+</div>
 <blockquote>
   <p>Pro Tip: Use the source code shown above. Compile it with <code class="highlighter-rouge">gcc -S &lt;file&gt;.c</code>. This makes gcc to output the file after preprocessing and compiling and stops further processing of the file.</p>
 </blockquote>
@@ -309,7 +312,7 @@ main:
 
 <p>As a reward for reading the article so much, here is a nice way to write a C program without main. (WHAT?? Yes, it is possible)</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt; // for our beloved printf()
+<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt; // for our beloved printf()
 #include &lt;stdlib.h&gt; // for our beloved exit()
 
 
@@ -318,7 +321,8 @@ void _start()
     printf("Hello world\n");
     exit(0);
 }
-</code></pre></div></div>
+</code></pre>
+</div>
 
 <blockquote>
   <p>Compile it with <code class="highlighter-rouge">gcc -nostartfiles &lt;file&gt;.c</code> and run <code class="highlighter-rouge">./a.out</code></p>

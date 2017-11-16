@@ -5,37 +5,32 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Wed, 15 Nov 2017 21:44:23 +0530</pubDate>
-    <lastBuildDate>Wed, 15 Nov 2017 21:44:23 +0530</lastBuildDate>
+    <pubDate>Thu, 16 Nov 2017 21:52:17 +0530</pubDate>
+    <lastBuildDate>Thu, 16 Nov 2017 21:52:17 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
-=======
-    <pubDate>Sun, 12 Nov 2017 21:42:27 +0530</pubDate>
-    <lastBuildDate>Sun, 12 Nov 2017 21:42:27 +0530</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>RADIO-FREQUENCY IDENTIFICATION</title>
+        <title>Radio Frequency Identification</title>
         <description>&lt;p&gt;RFID technology has been in circulation for many years now. You may have encountered it first-hand while borrowing library books, or while swiping for attendance in school. Recently, the government issued RFID chips to be installed in cars so that we can zoom through toll booths instead of waiting in long queues. RFID technology has also got a fair share of screen time. Remember Casino Royale? Her Majesty’s Secret Service injects Bond with a glass-enclosed, rice-sized RFID chip, so that, in M’s words, “they’ll know where he is”. Here is a little insight into the technology that is taking the world by...</description>
         <pubDate>Mon, 20 Nov 2017 06:00:02 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/RFID/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/RFID/</guid>
+        <link>http://ieeenitk.org/blog/rfid/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/rfid/</guid>
         
         <category>RFID</category>
         
         <category>ADC</category>
         
         
-        <category>CAS</category>
+        <category>Diode</category>
         
       </item>
     
       <item>
-        <title>Using Machine Learning for Investing in the Stock Market</title>
+        <title>Machine Learning for Stock Market Investment</title>
         <description>&lt;blockquote&gt; &lt;p&gt;Arthur Lee Samuel, the man who coined the term “machine learning” defined it as the field of study that gives computers the ability to learn without being explicitly programmed.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the child...</description>
         <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/using-machine-learning-for-investing-in-the-stock-market/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/using-machine-learning-for-investing-in-the-stock-market/</guid>
+        <link>http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/</guid>
         
         <category>Machine Learning</category>
         
@@ -65,7 +60,6 @@
         <category>Piston</category>
         
       </item>
->>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
     
       <item>
         <title>The Halting Problem</title>
@@ -101,7 +95,7 @@
     
       <item>
         <title>How QR code was invented</title>
-        <description>&lt;h2 id=&quot;how-qr-code-was-invented&quot;&gt;How QR code was invented&lt;/h2&gt; &lt;p&gt;Denso Wave a subsidiary of the Toyota Group are attributed with the creation of the QR Code back in 1994. Originally it was used to track parts in the vehicle manufacturing industry, but its use and scope has since grown tremendously. One of the main objectives when creating the QR Code was to come up with a new barcode that allowed more data to be encoded without increasing the size (dimensions / surface area) of existing barcodes. This was achieved by including a second dimension. The QR Code was born.&lt;/p&gt; &lt;h2 id=&quot;working-of-qr-code&quot;&gt;Working of QR...</description>
+        <description>&lt;h2 id=&quot;how-qr-code-was-invented&quot;&gt;How QR code was invented&lt;/h2&gt; &lt;p&gt;Denso Wave a subsidiary of the Toyota Group are attributed with the creation of the QR Code back in 1994. Originally it was used to track parts in the vehicle manufacturing industry, but its use and scope has since grown tremendously. One of the main objectives when creating the QR Code was to come up with a new barcode that allowed more data to be encoded without increasing the size (dimensions / surface area) of existing barcodes. This was achieved by including a second dimension.&lt;/p&gt; &lt;p&gt;The QR Code was born.&lt;/p&gt; &lt;h2 id=&quot;working-of-qr-code&quot;&gt;Working of QR...</description>
         <pubDate>Sun, 12 Nov 2017 22:07:21 +0530</pubDate>
         <link>http://ieeenitk.org/blog/how-qr-code-was-invented/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/how-qr-code-was-invented/</guid>
@@ -173,50 +167,6 @@
         <category>Containers</category>
         
         <category>DevOps</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The LIGO Experiment</title>
-        <description>&lt;p&gt;The LIGO (Laser Interferometer Gravitational-Wave Observatory) Experiment – A completely different perspective of studying the universe.&lt;/p&gt; &lt;h2 id=&quot;einsteins-prediction&quot;&gt;Einstein’s Prediction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-ligo-experiment/image1.jpeg&quot; alt=&quot;Einstein’s Prediction&quot; height=&quot;294px&quot; width=&quot;270px&quot; /&gt;&lt;/p&gt; &lt;p&gt;Over a century ago, Albert Einstein proposed the idea of something called a Gravitational Wave which was a part of his General Theory of Relativity. The concept of Gravitational waves suggests that, the force of gravity is not an actual force but rather, a distortion in the fabric of spacetime. This was just an idea, as there was no experimental evidence to support Einstein’s claim.&lt;/p&gt; &lt;h2 id=&quot;what-is-a-gravitational-wave&quot;&gt;What is a gravitational wave?&lt;/h2&gt; &lt;p&gt;A gravitational wave...</description>
-        <pubDate>Mon, 30 Oct 2017 15:40:09 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-ligo-experiment/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-ligo-experiment/</guid>
-        
-        <category>LIGO</category>
-        
-        
-        <category>CAS</category>
-        
-      </item>
-    
-      <item>
-        <title>Wireless Power Transmission</title>
-        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not affect the environment.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate in...</description>
-        <pubDate>Mon, 30 Oct 2017 15:40:08 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/wireless-power-transmission/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/wireless-power-transmission/</guid>
-        
-        <category>Power</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Making Iot communications easy using mDNS</title>
-        <description>&lt;p&gt;A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.&lt;/p&gt; &lt;p&gt;What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.&lt;/p&gt; &lt;h1 id=&quot;what-is-mdns&quot;&gt;What is mDNS?&lt;/h1&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot;&gt;mDNS&lt;/a&gt; stands for Multicast Domain Name System. Apple needed to use readable machine names on a local network without a nameserver, so...</description>
-        <pubDate>Thu, 26 Oct 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/using-mdns-in-iot/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/using-mdns-in-iot/</guid>
-        
-        <category>Iot</category>
-        
-        <category>Networking</category>
         
         
         <category>CompSoc</category>

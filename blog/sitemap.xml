@@ -2,7 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-<<<<<<< HEAD
+		<loc>http://ieeenitk.org/blog/rfid/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/evacuated-tube-collector/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieeenitk.org/blog/the-halting-problem/</loc>
 	  </url>
 	
@@ -12,17 +23,6 @@
 	
 	  <url>
 		<loc>http://ieeenitk.org/blog/how-qr-code-was-invented/</loc>
-=======
-		<loc>http://ieeenitk.org/blog/RFID/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://ieeenitk.org/blog/using-machine-learning-for-investing-in-the-stock-market/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://ieeenitk.org/blog/evacuated-tube-collector/</loc>
->>>>>>> 7727d4848a496d4e90f929332f40a2245ca0ca22
 	  </url>
 	
 	  <url>

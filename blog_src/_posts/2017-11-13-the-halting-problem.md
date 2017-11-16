@@ -4,7 +4,7 @@ title: "The Halting Problem"
 author_github: ShashankP19
 date: 2017-11-12 20:36:15
 image: '/assets/img/'
-description: 'Does there exist a program to check an infinite loop'
+description: 'Does there exist a program to check an infinite loop?'
 tags:
 - Complexity theory
 - Logic
@@ -27,6 +27,7 @@ The **halting problem** is the problem of determining, from a description of an 
 Are all problems decidable? Given enough thought, can we always come up with a well-defined procedure that takes some input and answers a given question about it? At the start of the 20th century, the belief was that this was true. Mathematicians (there were no computer scientists back then!) believed that we would eventually discover tools that we could use to answer any question we wanted (provided we could express it in the language of logic).
 
 In 1931, **Kurt Gödel** shocked them all by proving that this was impossible. Using some very clever techniques, he showed that as soon as we devise a system that's sufficiently powerful and well-behaved to encompass mathematical reasoning, that system will necessarily contain a statement that we could never prove is true, even though it is true.
+
 A few years later, **Alan Turing** proved an analogous theorem in Computer science. He showed that there must exist undecidable problems, questions for which there is no definable solution. His proof relied on some of the same clever techniques used by Gödel. The halting problem is one such undecidable problem
 
 ![Turing](/blog/assets/img/the-halting-problem/turing.png)
@@ -44,6 +45,7 @@ Now let me create another program that uses “Does it halt?” as a subprogram.
 Now here is the paradox. What happens when I input “Paradox” program to itself. Clearly one of the two things can happen:  either it runs forever or it stops and outputs “halted” depending on whether the program “Does it halt?” outputs “yes” or “no”.
 
 * If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.
+
 * If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.
 
 We have therefore led ourselves to a contradiction that “Paradox” **halts if and only if it runs forever**. Since this is impossible, one of our assumptions must be invalid. By tracing our reasoning backwards, we find that it is therefore impossible to have written “Does it halt?” in the first place. In other words, the **halting problem is undecidable**.
@@ -61,6 +63,3 @@ A lot of really practical problems are the halting problem in disguise. A soluti
 * [The Freeze App Does Not Exist](https://thorehusfeldt.wordpress.com/2012/06/25/the-freeze-app-does-not-exist/)
 * [The Halting Problem](http://www.cgl.uwaterloo.ca/csk/halt/)
 * [Poetic proof of Halting problem](https://www.cs.rice.edu/~vardi/comp409/scooping.pdf)
-
-
- 

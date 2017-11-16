@@ -41,14 +41,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Does there exist a program to check an infinite loop">
+        <meta name="description" content="Does there exist a program to check an infinite loop?">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="The Halting Problem">
-        <meta name="twitter:description" content="Does there exist a program to check an infinite loop">
+        <meta name="twitter:description" content="Does there exist a program to check an infinite loop?">
         
         <meta property="twitter:image:src" content="http://ieeenitk.org/assets/img/">
         
@@ -60,12 +60,12 @@
         
         <meta property="og:image" content="http://ieeenitk.org/assets/img/">
         
-        <meta property="og:description" content="Does there exist a program to check an infinite loop">
+        <meta property="og:description" content="Does there exist a program to check an infinite loop?">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="The Halting Problem"/>
-        <meta itemprop="description" content="Does there exist a program to check an infinite loop">
+        <meta itemprop="description" content="Does there exist a program to check an infinite loop?">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -121,10 +121,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-11-13 02:06:15 +0530" class="date">13 Nov 2017</time>
+            <time itemprop="datePublished" datetime="2017-11-12 20:36:15 +0000" class="date">13 Nov 2017</time>
         
         <h1 class="post-title" itemprop="name">The Halting Problem</h1>
-        <p itemprop="description" class="subtitle">Does there exist a program to check an infinite loop</p>
+        <p itemprop="description" class="subtitle">Does there exist a program to check an infinite loop?</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -186,8 +186,9 @@
 
 <p>Are all problems decidable? Given enough thought, can we always come up with a well-defined procedure that takes some input and answers a given question about it? At the start of the 20th century, the belief was that this was true. Mathematicians (there were no computer scientists back then!) believed that we would eventually discover tools that we could use to answer any question we wanted (provided we could express it in the language of logic).</p>
 
-<p>In 1931, <strong>Kurt Gödel</strong> shocked them all by proving that this was impossible. Using some very clever techniques, he showed that as soon as we devise a system that’s sufficiently powerful and well-behaved to encompass mathematical reasoning, that system will necessarily contain a statement that we could never prove is true, even though it is true.
-A few years later, <strong>Alan Turing</strong> proved an analogous theorem in Computer science. He showed that there must exist undecidable problems, questions for which there is no definable solution. His proof relied on some of the same clever techniques used by Gödel. The halting problem is one such undecidable problem</p>
+<p>In 1931, <strong>Kurt Gödel</strong> shocked them all by proving that this was impossible. Using some very clever techniques, he showed that as soon as we devise a system that’s sufficiently powerful and well-behaved to encompass mathematical reasoning, that system will necessarily contain a statement that we could never prove is true, even though it is true.</p>
+
+<p>A few years later, <strong>Alan Turing</strong> proved an analogous theorem in Computer science. He showed that there must exist undecidable problems, questions for which there is no definable solution. His proof relied on some of the same clever techniques used by Gödel. The halting problem is one such undecidable problem</p>
 
 <p><img src="/blog/assets/img/the-halting-problem/turing.png" alt="Turing" /></p>
 
@@ -204,8 +205,12 @@ A few years later, <strong>Alan Turing</strong> proved an analogous theorem in C
 <p>Now here is the paradox. What happens when I input “Paradox” program to itself. Clearly one of the two things can happen:  either it runs forever or it stops and outputs “halted” depending on whether the program “Does it halt?” outputs “yes” or “no”.</p>
 
 <ul>
-  <li>If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.</li>
-  <li>If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.</li>
+  <li>
+    <p>If “Paradox” goes into an infinite loop, it is because “Does it halt?” outputs “yes”. Since “Does it halt?” outputs “yes”, we conclude that “Paradox” halts. But this is a contradiction to the assumption that “Paradox” goes into an infinite loop.</p>
+  </li>
+  <li>
+    <p>If “Paradox” halts and outputs “halted”, it is because “Does it halt?” outputs “no”. Since “Does it halt?” outputs “no”, we conclude that “Paradox” does not halt. But this is a contradiction to the assumption that “Paradox” halts.</p>
+  </li>
 </ul>
 
 <p>We have therefore led ourselves to a contradiction that “Paradox” <strong>halts if and only if it runs forever</strong>. Since this is impossible, one of our assumptions must be invalid. By tracing our reasoning backwards, we find that it is therefore impossible to have written “Does it halt?” in the first place. In other words, the <strong>halting problem is undecidable</strong>.</p>
@@ -227,7 +232,6 @@ A few years later, <strong>Alan Turing</strong> proved an analogous theorem in C
   <li><a href="http://www.cgl.uwaterloo.ca/csk/halt/">The Halting Problem</a></li>
   <li><a href="https://www.cs.rice.edu/~vardi/comp409/scooping.pdf">Poetic proof of Halting problem</a></li>
 </ul>
-
 
             </article>
 
