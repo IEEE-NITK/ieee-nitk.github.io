@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Smart- grid"
+author_github: Shama-Vasisht
+date: 2017-11-04 23:32:44
+tags:
+- Smart grid
+- Electric grid
+categories:
+- CAS/SPS
+github_username: Shama-Vasisht
+---
 ***Introduction***
 
 How many times have you felt guilty about excessive usage of electricity
