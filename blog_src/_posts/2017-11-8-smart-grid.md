@@ -3,6 +3,8 @@ layout: post
 title: "Smart- grid"
 author_github: Shama-Vasisht
 date: 2017-11-04 23:32:44
+image: '/assets/img/'
+description: 'How smart technology helps us in acheving our purpose.'
 tags:
 - Smart grid
 - Electric grid
