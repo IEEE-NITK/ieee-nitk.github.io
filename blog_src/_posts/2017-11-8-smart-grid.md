@@ -7,7 +7,7 @@ tags:
 - Smart grid
 - Electric grid
 categories:
-- CAS/SPS
+- Diode
 github_username: Shama-Vasisht
 ---
 ***Introduction***
