@@ -1,3 +1,18 @@
+---
+layout: post
+title: "Magnetically repelling ice"
+author_github: sonalparab10
+date: 2017-11-04 23:32:44
+image: '/assets/img/'
+description: 'How to use ice for magnetic purposes'
+tags:
+- Magnetically repelling ice
+- 
+categories:
+- Piston
+github_username: sonalparab10
+---
+
 Magnetically Repelling Ice
 
 People can be nervous fliers to begin with. Even when there isn’t a
