@@ -5,9 +5,107 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Nov 2017 12:06:27 +0530</pubDate>
-    <lastBuildDate>Fri, 17 Nov 2017 12:06:27 +0530</lastBuildDate>
+    <pubDate>Fri, 17 Nov 2017 13:24:07 +0530</pubDate>
+    <lastBuildDate>Fri, 17 Nov 2017 13:24:07 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Radio Frequency Identification</title>
+        <description>&lt;p&gt;RFID technology has been in circulation for many years now. You may have encountered it first-hand while borrowing library books, or while swiping for attendance in school. Recently, the government issued RFID chips to be installed in cars so that we can zoom through toll booths instead of waiting in long queues. RFID technology has also got a fair share of screen time. Remember Casino Royale? Her Majesty’s Secret Service injects Bond with a glass-enclosed, rice-sized RFID chip, so that, in M’s words, “they’ll know where he is”. Here is a little insight into the technology that is taking the world by...</description>
+        <pubDate>Mon, 20 Nov 2017 06:00:02 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/rfid/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/rfid/</guid>
+        
+        <category>RFID</category>
+        
+        <category>ADC</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Learning for Stock Market Investment</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;Arthur Lee Samuel, the man who coined the term “machine learning” defined it as the field of study that gives computers the ability to learn without being explicitly programmed.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the child...</description>
+        <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/</guid>
+        
+        <category>Machine Learning</category>
+        
+        <category>Stock Market</category>
+        
+        <category>Support Vector Machine</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Evacuated Tube Collectors</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents. Great amount of research is carried in improving the efficiency of renewable energy and making it inexpensive. The main objective is to minimize or eliminate the usage of electricity...</description>
+        <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/evacuated-tube-collector/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/evacuated-tube-collector/</guid>
+        
+        <category>Energy</category>
+        
+        <category>Renewables</category>
+        
+        <category>Thermal Sciences</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>The Halting Problem</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.&lt;/p&gt; &lt;p&gt;The &lt;strong&gt;halting problem&lt;/strong&gt;...</description>
+        <pubDate>Mon, 13 Nov 2017 02:06:15 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-halting-problem/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-halting-problem/</guid>
+        
+        <category>Complexity theory</category>
+        
+        <category>Logic</category>
+        
+        <category>Mathematics</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Design of Aircraft Windows</title>
+        <description>&lt;p&gt;Everything in an aircraft you see is for a reason. Nothing is there coincidentally. And one such thing is the shape and design of the windows.&lt;/p&gt; &lt;p&gt;With increase in commutation through flights, the aeroplanes started flying at higher altitudes, since lesser air density meant lesser drag which directly affected fuel efficiency. Also turbulence due to atmosphere is less. But some modifications had to be done to make the conditions safe for the passengers at high altitudes. So, a pressurized cabin was introduced into the flights. This pressurized cabin keeps the interior of the flight at a higher pressure compared to...</description>
+        <pubDate>Sun, 12 Nov 2017 22:35:21 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/design-of-aircraft-windows/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/design-of-aircraft-windows/</guid>
+        
+        <category>Aeronautics</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>How QR code was invented</title>
+        <description>&lt;h2 id=&quot;how-qr-code-was-invented&quot;&gt;How QR code was invented&lt;/h2&gt; &lt;p&gt;Denso Wave a subsidiary of the Toyota Group are attributed with the creation of the QR Code back in 1994. Originally it was used to track parts in the vehicle manufacturing industry, but its use and scope has since grown tremendously. One of the main objectives when creating the QR Code was to come up with a new barcode that allowed more data to be encoded without increasing the size (dimensions / surface area) of existing barcodes. This was achieved by including a second dimension.&lt;/p&gt; &lt;p&gt;The QR Code was born.&lt;/p&gt; &lt;h2 id=&quot;working-of-qr-code&quot;&gt;Working of QR...</description>
+        <pubDate>Sun, 12 Nov 2017 22:07:21 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/how-qr-code-was-invented/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/how-qr-code-was-invented/</guid>
+        
+        <category>QR code</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>Smart- grid</title>
@@ -67,98 +165,6 @@
         <category>Containers</category>
         
         <category>DevOps</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The LIGO Experiment</title>
-        <description>&lt;p&gt;The LIGO (Laser Interferometer Gravitational-Wave Observatory) Experiment – A completely different perspective of studying the universe.&lt;/p&gt; &lt;h2 id=&quot;einsteins-prediction&quot;&gt;Einstein’s Prediction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-ligo-experiment/image1.jpeg&quot; alt=&quot;Einstein’s Prediction&quot; height=&quot;294px&quot; width=&quot;270px&quot; /&gt;&lt;/p&gt; &lt;p&gt;Over a century ago, Albert Einstein proposed the idea of something called a Gravitational Wave which was a part of his General Theory of Relativity. The concept of Gravitational waves suggests that, the force of gravity is not an actual force but rather, a distortion in the fabric of spacetime. This was just an idea, as there was no experimental evidence to support Einstein’s claim.&lt;/p&gt; &lt;h2 id=&quot;what-is-a-gravitational-wave&quot;&gt;What is a gravitational wave?&lt;/h2&gt; &lt;p&gt;A gravitational wave...</description>
-        <pubDate>Mon, 30 Oct 2017 15:40:09 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-ligo-experiment/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-ligo-experiment/</guid>
-        
-        <category>LIGO</category>
-        
-        
-        <category>CAS</category>
-        
-      </item>
-    
-      <item>
-        <title>Wireless Power Transmission</title>
-        <description>&lt;p&gt;We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.&lt;/p&gt; &lt;p&gt;Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not affect the environment.&lt;/p&gt; &lt;p&gt;In any system of coupled resonators there often exists a so-called “strongly coupled” regime of operation. If one ensures to operate in...</description>
-        <pubDate>Mon, 30 Oct 2017 15:40:08 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/wireless-power-transmission/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/wireless-power-transmission/</guid>
-        
-        <category>Power</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Making Iot communications easy using mDNS</title>
-        <description>&lt;p&gt;A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.&lt;/p&gt; &lt;p&gt;What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.&lt;/p&gt; &lt;h1 id=&quot;what-is-mdns&quot;&gt;What is mDNS?&lt;/h1&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Multicast_DNS&quot;&gt;mDNS&lt;/a&gt; stands for Multicast Domain Name System. Apple needed to use readable machine names on a local network without a nameserver, so...</description>
-        <pubDate>Thu, 26 Oct 2017 00:00:00 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/using-mdns-in-iot/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/using-mdns-in-iot/</guid>
-        
-        <category>Iot</category>
-        
-        <category>Networking</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The Honeycomb Conjecture</title>
-        <description>&lt;p&gt;Why do bees build &lt;strong&gt;hexagonal structured&lt;/strong&gt; hives? Why not any other shape? Let us deliberate these questions which troubled many thinkers. &lt;img src=&quot;/blog/assets/img/the-honeycomb-conjecture/img1.jpg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Consider prisms of different regular polygons and assume them to have same height and volume. This means that the one with the &lt;strong&gt;least&lt;/strong&gt; perimeter will require the least material to build. We know that as we increase number of sides in the polygon, perimeter decreases. So, cylinder will use the least amount of material (circle can be considered as a polygon with infinite sides).&lt;/p&gt; &lt;p&gt;But cylinders are economical only if they stand alone. If placed...</description>
-        <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-honeycomb-conjecture/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-honeycomb-conjecture/</guid>
-        
-        <category>Honeycomb Conjecture</category>
-        
-        <category>Hexagonal cells</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Charge your phone whenever you walk into the room</title>
-        <description>&lt;h2 id=&quot;charge-your-phone-whenever-you-walk-into-the-room&quot;&gt;CHARGE YOUR PHONE WHENEVER YOU WALK INTO THE ROOM&lt;/h2&gt; &lt;p&gt;One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.&lt;/p&gt; &lt;p&gt;Wi-charge technology provides us finally a way to get rid of the power cord, efficiently and safely. The...</description>
-        <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/charge-your-phone/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/charge-your-phone/</guid>
-        
-        <category>transmitter</category>
-        
-        <category>reciever</category>
-        
-        
-        <category>CAS</category>
-        
-      </item>
-    
-      <item>
-        <title>Augmented Reality</title>
-        <description>&lt;p&gt;Whether you have played “Pokémon Go” or not, you’ve probably at least heard of the game. A special app on your smartphone or tablet makes it look like Pokémon is right there in front of you  while you search for and “capture” the different characters.  This game aquainted the world with this fast growing technology Augmented Reality. This new technology, blurs the line between what’s real and what’s computer-generated by enhancing what we see, hear, feel and smell.&lt;/p&gt; &lt;h2 id=&quot;how-does-augmented-reality-work&quot;&gt;How does Augmented Reality work&lt;/h2&gt; &lt;p&gt;In most augmented reality applications, a user will see both synthetic and natural light. This is...</description>
-        <pubDate>Mon, 23 Oct 2017 19:21:02 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/augmented-reality/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/augmented-reality/</guid>
-        
-        <category>Virtual Image</category>
-        
-        <category>Augmented Reality</category>
         
         
         <category>CompSoc</category>
