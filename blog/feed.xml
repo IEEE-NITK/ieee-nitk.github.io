@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Nov 2017 23:04:56 +0530</pubDate>
-    <lastBuildDate>Thu, 16 Nov 2017 23:04:56 +0530</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sat, 18 Nov 2017 16:45:33 +0530</pubDate>
+    <lastBuildDate>Sat, 18 Nov 2017 16:45:33 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Radio Frequency Identification</title>
@@ -108,31 +108,29 @@
       </item>
     
       <item>
-        <title>Smart Grid</title>
+        <title>Smart grid</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;How many times have you felt guilty about excessive usage of electricity when you see your monthly bill? Imagine managing the electricity delivered to your house like you manage activities like personal banking from a computer!&lt;/p&gt; &lt;p&gt;You will no longer have to wait till the end of the month to know how many units you have consumed- you have “Smart meters,” and other mechanisms, will allow you to see how much electricity you use, when you use it, and its cost. It also comes with real-time pricing, which will allow you to save money by using less power...</description>
         <pubDate>Sun, 05 Nov 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/smart-grid/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/smart-grid/</guid>
         
-        <category>Ice</category>
+        <category>Smart grid</category>
         
-        <category>Fluid Dynamics</category>
+        <category>Electric grid</category>
         
         
-        <category>Piston</category>
+        <category>Diode</category>
         
       </item>
     
       <item>
-        <title>Magnetically Repelling Ice</title>
+        <title>Magnetically repelling ice</title>
         <description>&lt;p&gt;People can be nervous fliers to begin with. Even when there isn’t a cloud in the sky, there are few words that cause anxiety in some like, “Prepare for takeoff.” But add wintry conditions to the mix, add some ice, and the uneasy feeling can turn to fear.&lt;/p&gt; &lt;h2 id=&quot;how-does-ice-cause-a-plane-to-crash&quot;&gt;How does ice cause a plane to crash?&lt;/h2&gt; &lt;p&gt;Ice typically builds up when tiny cloud droplets impact and freeze on the leading edges, or front surfaces, of the plane. The ice alters airflow over the wing and tail, reducing the lift force that keeps the plane in the air, and potentially...</description>
         <pubDate>Sun, 05 Nov 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/magnetically-repelling-ice/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/magnetically-repelling-ice/</guid>
         
-        <category>Ice</category>
-        
-        <category>Fluid Dynamics</category>
+        <category>Magnetism</category>
         
         
         <category>Piston</category>
