@@ -16,7 +16,7 @@ github_username: 'suraj44'
 
 > Arthur Lee Samuel, the man who coined the term "machine learning" defined it as the field of study that gives computers the ability to learn without being explicitly programmed. 
 
-A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the child is the 'machine', the record of chess games would be the data (which the child is 'learning' from) and the rules of the game would be the algorithm.
+A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred previous games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the child is the 'machine', the record of chess games would be the data (which the child is 'learning' from) and the rules of the game would be the algorithm.
 
 ![overview](https://i.imgur.com/VG0it3w.png)
 
@@ -126,10 +126,10 @@ We're comparing the performance of each stock represented by  `stock_p_change` a
 We're done! `invest_list` would represent which stocks are likely to do well as predicted by our SVM. With about 150 lines of code, we've managed to get a prediction accuracy of 63%.
 
 ### Room for Improvement
-The stock market isn't as dependant on its history as it on current events and how companies are doing in real life. One way to increase our prediction accuracy would be to parse the headlines of newspaper articles relating to the companies we're interested in and use that as data in addition to the other parameters. Scikit learn really is meant for beginners just getting started on machine learning. The next step would be to move to a framework like [TensorFlow](https://www.tensorflow.org/) and either write your own code for applying a machine learning algorithm on your dataset or to use the built in functions of the framework which do offer better results.
+The stock market isn't as dependant on its history as it is on current events and how companies are doing in real life. One way to increase our prediction accuracy would be to parse the headlines of newspaper articles relating to the companies we're interested in and use that as data in addition to the other parameters. [Scikit-learn](http://scikit-learn.org/stable/) really is meant for beginners just getting started on machine learning. The next step would be to move to a framework like [TensorFlow](https://www.tensorflow.org/) and either write your own code for applying a machine learning algorithm on your dataset or to use the built in functions of the framework which do offer better results.
 
 ### Resources
 
-To get started on Machine Learning, I would highly recommend watching the MIT [OCW](https://www.youtube.com/watch?v=TjZBTDzGeGg&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi) lectures. Along with this material, getting started on small [projects](https://elitedatascience.com/machine-learning-projects-for-beginners) in Python is the only way to get the sense of achievement needed to stay driven. 
+To get started on Machine Learning, I would highly recommend watching the [MIT Open Courseware](https://www.youtube.com/watch?v=TjZBTDzGeGg&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi) lectures. Along with this material, getting started on small [projects](https://elitedatascience.com/machine-learning-projects-for-beginners) in Python is the only way to get the sense of achievement needed to stay driven. 
 
 Happy learning!
