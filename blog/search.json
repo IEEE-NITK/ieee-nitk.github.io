@@ -49,7 +49,7 @@
     } ,
   
     {
-      "title"    : "Smart- grid",
+      "title"    : "Smart grid",
       "category" : "Diode",
       "tags"     : "Smart grid and Electric grid",
       "url"      : "http://ieeenitk.org/blog//smart-grid/",
@@ -59,7 +59,7 @@
     {
       "title"    : "Magnetically repelling ice",
       "category" : "Piston",
-      "tags"     : "Magnetically repelling ice",
+      "tags"     : "Magnetism",
       "url"      : "http://ieeenitk.org/blog//magnetically-repelling-ice/",
       "date"     : "05 Nov 2017"
     } ,

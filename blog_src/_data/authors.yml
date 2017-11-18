@@ -374,14 +374,14 @@ vansjyo:
 Shama-Vasisht:
   name: Shama G Vasisht
   github: Shama-Vasisht
-  author_image: Profile_Picture.png
+  author_image: blog-author.jpg
   user_description: 'The perfect ones are always flawed.'
   email: shamagvasisht23998@gmail.com
 sonalparab10:
   name: Sonal S. Parab
   github: sonalparab10
-  author_image: 
-  user_description:
+  author_image: blog-author.jpg
+  user_description: 'Piston, IEEE NITK'
   email: parab.sonal108@gmail.com
 shashank-ravichandir: 
   name: Shashank Ravichandir
@@ -416,6 +416,6 @@ mehakarora:
 sanathbk:
   name: Sanath K.
   github: sanathbk
-  author_image: blog-author.jpg
+  author_image: sanath.jpg
   user_description: 'Mechanical Engineer. Let the world wait.'
   email: sanathkshettar@gmail.com
