@@ -53,7 +53,7 @@ plugins: [jekyll-paginate]
 # gems: [jekyll-paginate, jemoji]
 
 #make 5 articles per page
-paginate: 5
+paginate: 6
 paginate_path: "/page:num/"
 
 future: true
