@@ -24,6 +24,7 @@ Now, let's talk about how this can be applied to predicting the likelihood of a 
 
 
 ## 1. The Algorithm
+
 We'll be using a *Support Vector Machine* (SVM) in this example. SVMs are based on the idea of finding a hyperplane that best divides a dataset into two classes, as shown in the image below. How do we find the right hyperplane? The distance between the hyperplane and the nearest data point from either set is known as the margin. The goal is to choose a hyperplane with the greatest possible margin between the hyperplane and any point within the training set, giving a greater chance of new data being classified correctly. However, if there isn't a clear margin between the support vectors like there is in the image below, things get tricky. To overcome this problem, we would use a kernel which would transform our support vectors to a different coordinate system which would make the classification problem easier. 
 
 ![SVM](http://blog.aylien.com/wp-content/uploads/2016/06/tumblr_inline_o9aa8dYRkB1u37g00_540.png) 
@@ -43,8 +44,6 @@ The most important tool needed however for machine learning is the dataset itsel
 
 ## 3. The Prestige
 Here's some code on preprocessing the dataset from Quandl that would transform the data into a form recognisable to the SVM:
-
-
 
 
     def key_Stats(gather=["Total Debt/Equity",'Trailing P/E','Price/Sales','Price/Book','Profit Margin', 'Parameters that we wil learn on']):
@@ -95,7 +94,6 @@ Here's some code on preprocessing the dataset from Quandl that would transform t
 				
  	
 
-
 At this point, we would apply the smoothing technique on the data. The final step is just feeding the data to the algorithm and letting it work it's magic!
 
 
@@ -130,6 +128,8 @@ The stock market isn't as dependant on its history as it is on current events an
 
 ### Resources
 
-To get started on Machine Learning, I would highly recommend watching the [MIT Open Courseware](https://www.youtube.com/watch?v=TjZBTDzGeGg&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi) lectures. Along with this material, getting started on small [projects](https://elitedatascience.com/machine-learning-projects-for-beginners) in Python is the only way to get the sense of achievement needed to stay driven. 
+To get started on Machine Learning, I would highly recommend watching the [MIT Open Courseware](https://www.youtube.com/watch?v=TjZBTDzGeGg&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi) lectures. 
+
+Along with this material, getting started on small [projects](https://elitedatascience.com/machine-learning-projects-for-beginners) in Python is the only way to get the sense of achievement needed to stay driven. 
 
 Happy learning!

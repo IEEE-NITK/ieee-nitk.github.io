@@ -194,9 +194,12 @@
 
 <p>This is equivalent to G and D playing a <strong>two-player minimax game</strong>. In the ideal scenario, the generator would generate samples that are indistinguishable from the real data and the output of D would be <em>1/2</em>, that is the sample is equally likely to be either real or fake.</p>
 
-<p><strong>Value function V(G, D) for the minimax game</strong> <img src="/blog/assets/img/GAN/minimax-objective.jpeg" alt="G and Minimax Game" /></p>
+<p><strong>Value function V(G, D) for the minimax game</strong></p>
+
+<p><img src="/blog/assets/img/GAN/minimax-objective.jpeg" alt="G and Minimax Game" /></p>
 
 <h3 id="advantages-and-disadvantages">Advantages and Disadvantages</h3>
+
 <p>This adversarial approach is very effective in building generative models. GANs have a number of computational as well as statistical advantages such as using only <em>simple backpropogation to obtain gradients</em>, <em>no need of inferences during training</em> among others. It also comes with its own set of drawbacks. One of them is the difficulty in training the model. <strong>The Helvetica Scenario</strong> occurs quite often during training, where the generator finds one sample which fools the discriminator, and then keeps on generating simple variations of the same sample without learning to generate other distinct samples.</p>
 
 <h2 id="fantastic-gans-and-where-to-find-them"><em>Fantastic GANs And Where To Find Them</em></h2>

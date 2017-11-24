@@ -39,6 +39,7 @@ Since a magnetic field spreads in all directions, making a larger one would wast
 The secret to the SHARP's(the unmanned plane's) long flight time was a large, ground-based microwave transmitter. The SHARP's circular flight path kept it in range of this transmitter. A large, disc-shaped rectifying antenna, or rectenna, just behind the plane's wings changed the microwave energy from the transmitter into direct-current (DC) electricity. Because of the microwaves' interaction with the rectenna, the SHARP had a constant power supply as long as it was in range of a functioning microwave array. 
 
 ## Conclusion
+
 The crucial advantage of using the non-radiative field lies in the fact that most of the power is not picked up by the receiving coil, remains bound to the vicinity of the sending unit, instead of being radiated into the environment and lost. With such a design, power transfer for laptop-sized coils are more than sufficient to run a laptop that can be transferred over room-sized distances nearly omni-directionally and efficiently, irrespective of the geometry of the surrounding space, even when environmental objects **completely obstruct the line-of-sight** between the two coils. As long as the laptop is in a room equipped with a source of such wireless power, it would charge automatically, without having to be plugged in. In fact, it would not even need a battery to operate inside of such a room.
 
 ## Resources

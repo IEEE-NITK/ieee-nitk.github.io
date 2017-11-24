@@ -22,7 +22,7 @@ The **halting problem** is the problem of determining, from a description of an 
 
 ![Halting-problem](/blog/assets/img/the-halting-problem/halting-problem.png)
 
-## A little history
+## A Little History
 
 Are all problems decidable? Given enough thought, can we always come up with a well-defined procedure that takes some input and answers a given question about it? At the start of the 20th century, the belief was that this was true. Mathematicians (there were no computer scientists back then!) believed that we would eventually discover tools that we could use to answer any question we wanted (provided we could express it in the language of logic).
 
@@ -59,7 +59,7 @@ A lot of really practical problems are the halting problem in disguise. A soluti
 3. You have a parser for your programming language. You change it, but you want to make sure it still parses all the programs it used to. Actually the halting problem.
 4. You have an anti-virus program, and you want to see if it ever executes a malicious instruction. Actually just the halting problem.
 
-### Cool Links
+## Cool Links
 * [The Freeze App Does Not Exist](https://thorehusfeldt.wordpress.com/2012/06/25/the-freeze-app-does-not-exist/)
 * [The Halting Problem](http://www.cgl.uwaterloo.ca/csk/halt/)
 * [Poetic proof of Halting problem](https://www.cs.rice.edu/~vardi/comp409/scooping.pdf)

@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Nov 2017 18:31:45 +0530</pubDate>
-    <lastBuildDate>Mon, 20 Nov 2017 18:31:45 +0530</lastBuildDate>
+    <pubDate>Fri, 24 Nov 2017 16:02:54 +0530</pubDate>
+    <lastBuildDate>Fri, 24 Nov 2017 16:02:54 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -45,7 +45,7 @@
     
       <item>
         <title>Evacuated Tube Collectors</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents. Great amount of research is carried in improving the efficiency of renewable energy and making it inexpensive. The main objective is to minimize or eliminate the usage of electricity...</description>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents.&lt;/p&gt; &lt;p&gt;Great amount of research is carried in improving the efficiency of renewable energy and making it inexpensive. The main objective is to minimize or eliminate the usage of electricity...</description>
         <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/evacuated-tube-collector/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/evacuated-tube-collector/</guid>
@@ -108,7 +108,7 @@
       </item>
     
       <item>
-        <title>Smart grid</title>
+        <title>Smart Grid</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;How many times have you felt guilty about excessive usage of electricity when you see your monthly bill? Imagine managing the electricity delivered to your house like you manage activities like personal banking from a computer!&lt;/p&gt; &lt;p&gt;You will no longer have to wait till the end of the month to know how many units you have consumed- you have “Smart meters,” and other mechanisms, will allow you to see how much electricity you use, when you use it, and its cost. It also comes with real-time pricing, which will allow you to save money by using less power...</description>
         <pubDate>Sun, 05 Nov 2017 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/smart-grid/</link>
