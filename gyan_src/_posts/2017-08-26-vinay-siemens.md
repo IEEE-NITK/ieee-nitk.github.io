@@ -7,6 +7,7 @@ description: 'Final Year IEEE Executive Member Vinay Bhat gives advice on how to
 tags:
 - Internships
 - Career Advice
+- Industry
 categories:
 - CompSoc
 github_username: 'vshan'

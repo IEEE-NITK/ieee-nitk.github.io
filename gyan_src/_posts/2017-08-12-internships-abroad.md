@@ -7,6 +7,7 @@ image: '/assets/img/'
 description: 'Everything you need to know about applying to internships abroad!'
 tags:
 - Internships
+- Research
 categories:
 - CompSoc
 github_username: 'natasha-jeppu'
