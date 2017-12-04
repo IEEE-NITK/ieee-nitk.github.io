@@ -47,21 +47,13 @@
         <meta name="twitter:site" content="@{{site.twitter_username}}">
         <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
         <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-        {% if page.image %}
-        <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
-        {% else %}
         <meta property="twitter:image:src" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
-        {% endif %}
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
         <meta property="og:url" content="{{ site.url }}/{{ base.url }}/{{ page.url }}" />
         <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-        {% if page.image %}
-        <meta property="og:image" content="{{ site.url }}{{page.image }}">
-        {% else %}
         <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
-        {% endif %}
         <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
         <meta property="og:site_name" content="{{ site.title }}">
 
@@ -72,6 +64,7 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
+
         <!-- Windows 8 Tile Icons -->
         <meta name="application-name" content="{{site.username}} Blog">
         <meta name="msapplication-TileColor" content="#0562DC">
