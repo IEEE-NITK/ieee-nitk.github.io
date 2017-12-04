@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Mathworks Internship Experience"
+title: "Mathworks Internship Experience - Natasha Jeppu"
 date: 2017-08-19 08:00:00
 author_github: natasha-jeppu
 image: '/assets/img/'
 description: 'Everything you need to know about applying for internships off-campus!'
 tags:
 - Internships
+- Industry
 categories:
 - CompSoc
 github_username: 'natasha-jeppu'
