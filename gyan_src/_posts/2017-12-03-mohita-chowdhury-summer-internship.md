@@ -17,7 +17,7 @@ comments: true
 ## Where did you get your internship and why did you apply there? 
 ### What interested you or attracted you to this particular internship and why?
 
-I got my internship at IIT Delhi. I came here through the Research Fellowship Programme, Summer Research Internship by the Indian Academy of Sciences. This programme doesn't give you the choice of the place where you want to intern. It just gives you the best place in India to do your summer research based on your interest. So, you never know where you might end up but it's assured that it'll be the best place. This internship programme is one of the most coveted internship programmes. It gives you an edge over others given the quality of research work you can learn and do. And yes, there's stipend too. 
+I got my internship at IIT Delhi. I came here through the Research Fellowship Programme, by the Indian Academy of Sciences. This programme doesn't give you the choice of the place where you want to intern. It just gives you the best place in India to do your Summer Research Internship based on your interest. So, you never know where you might end up but it's assured that it'll be the best place. This internship programme is one of the most coveted internship programmes. It gives you an edge over others given the quality of research work you can learn and do. And yes, there's stipend too. 
 
 ## How did you get your internship? 
 ### Was it through the college or off-campus or through a senior/prof or through an internship website?
