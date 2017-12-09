@@ -41,6 +41,10 @@
     <!-- Fixing viewport on mobile views -->
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
 
+    <!-- Default Image present -->
+    <meta property="og:image" content="/blog/assets/blog-image.png">
+
+
     <!-- Page Title -->
     <title>Home|IEEE NITK</title>
 
@@ -67,6 +71,45 @@
 
       gtag('config', 'UA-106590424-3');
     </script>
+
+    <!--Structured Data-->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "description":"IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section",
+            "email":"chairman.nitkieee@gmail.com",
+            "url": "https://www.ieeenitk.org",
+            "name": "IEEE NITK",
+            "foundingDate":"1988",
+            "location" : {
+                "@type": "Place",
+                "name": "NITK",
+                "map": "https://goo.gl/maps/qitf7bZSSBR2",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "National Institute of Technology Karnataka",
+                    "addressLocality": "Surathkal, Mangalore",
+                    "addressRegion": "Karnataka",
+                    "postalCode": "575025",
+                    "addressCountry": "India"
+                }
+            },
+            "member": {
+                "@type": "Person",
+                "name": "Anand Thamban",
+                "jobTitle":"Convener",
+                "email":"anandthamban@gmail.com"      
+            },
+            "parentOrganization":["IEEE","IEEE Bangalore"],
+            //"logo":"ieee-nitk logo url",  
+            "subOrganization":["CompSoc","CAS","Piston"],
+            "sameAs": [
+                    "https://www.facebook.com/IEEENITK/",
+                    "https://github.com/IEEE-NITK/"]
+        }
+    </script>
+
 
 </head>
 <body>
