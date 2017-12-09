@@ -19,7 +19,7 @@ with Image.open(file_name) as img:
 	width,height = img.size
 	print(str(width) + " " + str(height))
 
-	if height > 200:
+	if height < 200:
 		new_width = ((int)((width*1.0/height)*200))
 		print(width/height)
 		img = img.resize((new_width,200), Image.ANTIALIAS)

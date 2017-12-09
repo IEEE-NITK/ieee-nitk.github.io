@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IAS Internship Experience - Mohita Chowdhury "
+title: "IAS Internship Experience - Mohita Chowdhury"
 date: 2017-12-03 23:32:44
 image: '/assets/img/'
 description: 'Third Year IEEE Executive Member Mohita Chowdhury gives advice on how to apply and look out for research internships.'
