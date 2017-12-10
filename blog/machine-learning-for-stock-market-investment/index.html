@@ -181,7 +181,7 @@
 
 <p>Now, let’s talk about how this can be applied to predicting the likelihood of a stock doing well.</p>
 
-<h2 id="the-algorithm">1. The Algorithm</h2>
+<h2 id="1-the-algorithm">1. The Algorithm</h2>
 
 <p>We’ll be using a <em>Support Vector Machine</em> (SVM) in this example. SVMs are based on the idea of finding a hyperplane that best divides a dataset into two classes, as shown in the image below. How do we find the right hyperplane? The distance between the hyperplane and the nearest data point from either set is known as the margin. The goal is to choose a hyperplane with the greatest possible margin between the hyperplane and any point within the training set, giving a greater chance of new data being classified correctly. However, if there isn’t a clear margin between the support vectors like there is in the image below, things get tricky. To overcome this problem, we would use a kernel which would transform our support vectors to a different coordinate system which would make the classification problem easier.</p>
 
@@ -191,7 +191,7 @@
 
 <p><img src="http://blog.aylien.com/wp-content/uploads/2016/06/tumblr_inline_o9aabehtqP1u37g00_540.png" alt="UseOfAKernel" /></p>
 
-<h2 id="the-tools">2. The Tools</h2>
+<h2 id="2-the-tools">2. The Tools</h2>
 
 <p>There are a few challenges to our problem. Firstly, the stock market is closed on weekends and hence, there are no open/close prices for any stocks on those days which hampers our dataset. Hence, we would need to interpolate the data on these days to better our prediction. Secondly, the stock market is highly fluctuating and hence, we would need to use a technique called smoothing. Here’s an example of how data looks before and after applying smoothing:</p>
 
@@ -199,7 +199,7 @@
 
 <p>The most important tool needed however for machine learning is the dataset itself. A good resource for data on the stock market is <a href="https://www.quandl.com/product/WIKIP/WIKI/PRICES-Quandl-End-Of-Day-Stocks-Info">Quandl</a>. <a href="https://raw.githubusercontent.com/michaelgu95/machine-learning-stocks/master/YAHOO-INDEX_GSPC.csv"><em>Here’s</em></a> a dataset of ten years’ data on SMP 500 Companies in the US and thirty five features to learn on. The SVM algorithm will try seeing if there is any correlation between these parameters and stock price.  We will be using the Python framework Scikit-learn which allows us to use Machine Learning tools almost as a black box, without having explicit knowledge on how these algorithms work.</p>
 
-<h2 id="the-prestige">3. The Prestige</h2>
+<h2 id="3-the-prestige">3. The Prestige</h2>
 <p>Here’s some code on preprocessing the dataset from Quandl that would transform the data into a form recognisable to the SVM:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>def key_Stats(gather=["Total Debt/Equity",'Trailing P/E','Price/Sales','Price/Book','Profit Margin', 'Parameters that we wil learn on']):

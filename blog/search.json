@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "A step ahead in Reverse Engineering!",
+      "category" : "CompSoc",
+      "tags"     : "CTF, Ethical Hacking, and Security",
+      "url"      : "http://ieeenitk.org/blog//A-step-ahead-in-Reverse-Engineering/",
+      "date"     : "07 Dec 2017"
+    } ,
+  
+    {
       "title"    : "Radio Frequency Identification",
       "category" : "Diode",
       "tags"     : "RFID and ADC",

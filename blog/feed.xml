@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Dec 2017 12:07:44 +0530</pubDate>
-    <lastBuildDate>Sat, 02 Dec 2017 12:07:44 +0530</lastBuildDate>
+    <pubDate>Sun, 10 Dec 2017 11:20:54 +0530</pubDate>
+    <lastBuildDate>Sun, 10 Dec 2017 11:20:54 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>A step ahead in Reverse Engineering!</title>
+        <description>&lt;p&gt;Hello to all the computer enthusiasts out there!&lt;/p&gt; &lt;p&gt;In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform. SO,WE WILL BE TRYING TO FOOL THE COMPUTER!&lt;/p&gt; &lt;p&gt;Pre-requisites : 1.A computer which runs linux 2.A curious mind which wants to know how stuff actually works!&lt;/p&gt; &lt;p&gt;We will be using GDB(GNU Debugger) to understand the C program at the assembly level.&lt;/p&gt; &lt;p&gt;If GDB is not installed in your box,you can type in this command to install it.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;$sudo apt-get install gdb&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Here is the...</description>
+        <pubDate>Thu, 07 Dec 2017 07:30:10 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/</guid>
+        
+        <category>CTF</category>
+        
+        <category>Ethical Hacking</category>
+        
+        <category>Security</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Radio Frequency Identification</title>
@@ -150,24 +168,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to Docker</title>
-        <description>&lt;p&gt;Docker is probably the most talked-about infrastructure technology of the past few years. And why not? It makes managing and deploying applications so much easier without the overhead of a Virtual Machine. Here’s how:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Docker&lt;/strong&gt; is a tool designed to make it easier to create, deploy, and run applications by using containers. &lt;strong&gt;Containers&lt;/strong&gt; allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container the developer can rest assured that the application will run on...</description>
-        <pubDate>Mon, 30 Oct 2017 15:40:10 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/introduction-to-docker/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/introduction-to-docker/</guid>
-        
-        <category>Docker</category>
-        
-        <category>Containers</category>
-        
-        <category>DevOps</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
