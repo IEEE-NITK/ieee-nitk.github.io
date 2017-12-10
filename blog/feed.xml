@@ -5,16 +5,16 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Dec 2017 16:47:33 +0530</pubDate>
-    <lastBuildDate>Sun, 10 Dec 2017 16:47:33 +0530</lastBuildDate>
+    <pubDate>Sun, 10 Dec 2017 17:59:50 +0530</pubDate>
+    <lastBuildDate>Sun, 10 Dec 2017 17:59:50 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
-        <title>THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLES</title>
-        <description>&lt;p&gt;&lt;strong&gt;THE AIRBAG SYSTEM FOR 2-WHEELER VEHICLE SYSTEM&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;1. Introduction&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Airbag system is first introduced in 4 -wheeler vehicles, this paper gives an information about the introduction of the airbag system can be used in the two wheelers(bikes) this paper shows the working, construction, installation and what will be problems can occurs are discussed.&lt;/p&gt; &lt;p&gt;The concept of this airbag system is “To reduce the injuries to a rider when impacting with an opposing vehicle and/or opposing object in frontal collisions by absorbing rider kinetic energy and by reducing rider separation velocity from motorcycle in the forward direction.” With the help...</description>
+        <title>Airbag System for 2-Wheeler vehicles</title>
+        <description>&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt; &lt;p&gt;The Airbag system was first introduced in 4-wheelers . This paper gives information about the introduction of the airbag system can be used in the two wheelers(bikes). This paper shows the working, construction, installation of this system and problems that can occur in this system.&lt;/p&gt; &lt;p&gt;The concept of this airbag system is “To reduce the injuries to a rider when impacting with an opposing vehicle and/or opposing object in frontal collisions by absorbing rider kinetic energy and by reducing rider separation velocity from motorcycle in the forward direction.” With the help of the ANGLE sensor with an...</description>
         <pubDate>Fri, 08 Dec 2017 07:30:10 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/</guid>
+        <link>http://ieeenitk.org/blog/The-airbag-system-for-2wheeler-vehicle/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/The-airbag-system-for-2wheeler-vehicle/</guid>
         
         
         <category>Piston</category>
@@ -23,19 +23,19 @@
     
       <item>
         <title>BoT</title>
-        <description>&lt;p&gt;&lt;em&gt;Botnet of things&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The Internet of Things aka IoT is one of the hot trending topics in the tech world right now. The IoT is basically a network of devices connected to the internet, each having a unique IP address. Today, the Internet of Things plays with the idea of connecting nearly every manufactured object to the Internet. It is being incorporated into smart homes, watches, cars, fitness trackers, power grids, thermostats, contact lenses, pacemakers and what not.&lt;/p&gt; &lt;p&gt;While the Internet of Things brings a new horizon of opportunities, there are several barriers in respect to making IoT implementations successful....</description>
+        <description>&lt;h2 id=&quot;botnet-of-things&quot;&gt;Botnet of things&lt;/h2&gt; &lt;p&gt;The Internet of Things aka IoT is one of the hot trending topics in the tech world right now. The IoT is basically a network of devices connected to the internet, each having a unique IP address. Today, the Internet of Things plays with the idea of connecting nearly every manufactured object to the Internet. It is being incorporated into smart homes, watches, cars, fitness trackers, power grids, thermostats, contact lenses, pacemakers and what not.&lt;/p&gt; &lt;p&gt;While the Internet of Things brings a new horizon of opportunities, there are several barriers in respect to making IoT implementations...</description>
         <pubDate>Fri, 08 Dec 2017 07:30:10 +0530</pubDate>
         <link>http://ieeenitk.org/blog/BoT/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/BoT/</guid>
         
         
-        <category>CAS/SPS</category>
+        <category>Diode</category>
         
       </item>
     
       <item>
         <title>A step ahead in Reverse Engineering!</title>
-        <description>&lt;p&gt;Hello to all the computer enthusiasts out there!&lt;/p&gt; &lt;p&gt;In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform. SO,WE WILL BE TRYING TO FOOL THE COMPUTER!&lt;/p&gt; &lt;p&gt;Pre-requisites : 1.A computer which runs linux &lt;br /&gt; 2.A curious mind which wants to know how stuff actually works!&lt;/p&gt; &lt;p&gt;We will be using GDB(GNU Debugger) to understand the C program at the assembly level.&lt;/p&gt; &lt;p&gt;If GDB is not installed in your box,you can type in this command to install it.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;$sudo apt-get install gdb&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Here...</description>
+        <description>&lt;p&gt;Hello to all the computer enthusiasts out there!&lt;/p&gt; &lt;p&gt;In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform. SO,WE WILL BE TRYING TO FOOL THE COMPUTER!&lt;/p&gt; &lt;h1 id=&quot;pre-requisites-&quot;&gt;Pre-requisites :&lt;/h1&gt; &lt;p&gt;1.A computer which runs linux &lt;br /&gt; 2.A curious mind which wants to know how stuff actually works!&lt;/p&gt; &lt;p&gt;We will be using GDB(GNU Debugger) to understand the C program at the assembly level.&lt;/p&gt; &lt;p&gt;If GDB is not installed in your box,you can type in this command to install it.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;$sudo apt-get install gdb&lt;/strong&gt;&lt;/p&gt;...</description>
         <pubDate>Thu, 07 Dec 2017 07:30:10 +0530</pubDate>
         <link>http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/</guid>

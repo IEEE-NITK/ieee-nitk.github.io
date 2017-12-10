@@ -20,7 +20,7 @@ Hello to all the computer enthusiasts out there!
 In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform.
 SO,WE WILL BE TRYING TO FOOL THE COMPUTER!
 
-Pre-requisites :
+# Pre-requisites :
 1.A computer which runs linux     
 2.A curious mind which wants to know how stuff actually works!   
 
@@ -33,7 +33,7 @@ If GDB is not installed in your box,you can type in this command to install it.
 Here is the source code of the executable we will be dealing with. It is named overflow.c. You will know by the end of this article,Why it was named so.  
 ![Image1](/blog/assets/img/A-step-ahead-in-Reverse-Engineering/source_code1.png)
 
-**1.What does this program do?**  
+## 1.What does this program do?
 
 **a.** In the main function,a printf() function is called to print the string “Before function call” .  
 **b.** The main function simply calls another function “print_string()” .   
@@ -46,7 +46,7 @@ Here is the source code of the executable we will be dealing with. It is named o
 Think for a moment why the 2 printf() statements are present before and
 after the function call.
 
-**2.Compile the program(normally) using gcc :**   
+## 2.Compile the program(normally) using gcc :
 
 **$gcc overflow.c -o overflow**   
 This gives an executable named "overflow".   
@@ -58,7 +58,7 @@ It is important to note the second warning(the overflow.c : (.text + 0x39))
 
 You would have used gets() before. **Have you given a thought of why this warning came up?**
 
-**3.Running the executable with random inputs and observing what happens.**
+## 3.Running the executable with random inputs and observing what happens.  
 
 ![Image3](/blog/assets/img/A-step-ahead-in-Reverse-Engineering/random_input.png)
 
@@ -82,7 +82,7 @@ Execute the program in following manner :  __$ python -c "print 'a' * 35" | ./ov
 
 The 35 can be replaced by any number you want as showed in the above screenshot.
 
-**4.Analyse the above screenshot :**  
+## 4.Analyse the above screenshot :  
 
 __a.__ Though the string storage capacity is 30 bytes,in the first case,the program is able to take 35 bytes.  
 __b.__ In the third case,something __wierd__ happened. It says "__Illegal Instruction__" and "After function call" was __not__ printed. So,control didn't get transferred to the main program.   
@@ -90,7 +90,7 @@ __c.__ In the last case,again something __wierd__ happened. It said "__segmentat
 
 We obviously have to investigate the wierd cases and know if we can do something about it.
 
-__5.Finally,it is time to fireup your debugger!__
+## 5.Finally,it is time to fireup your debugger!    
 
 __$ gdb -q overflow__
 
@@ -102,12 +102,13 @@ __a. (gdb)set disassembly-flavor intel__ : This means there are other flavors al
 __b. (gdb)disass main__  : This dumped the assembly equivalent of the main function written in C.   
 __c. (gdb)disass__ print_string() : This dumped the assembly equivalent of the print_string() function.   
 
-__6.ANALYSIS OF main() :__  
+## 6.ANALYSIS OF main() :    
+
 __a.__ In the main function,we had 3 main tasks 1.printf() , 2.function call 3.again a printf().   
 __b.__ We can easily figure out that tha main<+9> instruction is the printf("\nBefore function call\n"), and main<+29> is printf("\nAfter function call\n");   
 __c.__ What does main<+19> do? It says __<+19> call 0x40058f__ < print_string > . From this,it is clear that our "print_string" function is __called at <+19> instruction.(Address of this instruction is 0x400579)__.   
 
-__7.ANALYSIS OF__ print_string() :
+## 7.ANALYSIS OF print_string() :
 
 __a.__ push rbp
        mov rbp,rsp
@@ -121,7 +122,7 @@ After the execution of print_string(), How does the computer know that control s
 
 (__NOTE : The 0x0000000000400566 is the starting point of main() IN MY COMPUTER. IT MIGHT BE DIFFERENT IN DIFFERENT COMPUTERS__).
 
-__8.Note our observation points and then run the program.__
+## 8.Note our observation points and then run the program.
 
 __a.__ Let us stop before print_string() is called.   
 __b.__ Let us stop after print_string() is called and then go step by step.   
@@ -187,7 +188,7 @@ __(Note:The number of a's that I have put to reach the space where return addres
 So,analyse the assembly code properly,make a note of all the important addresses and then proceed.
 
 
-There are a few things that were left unexplained:
+## There are a few things that were left unexplained:
 
 __1.__ Why the source code was named "overflow.c" :What you have just done is a simple but an authentic example of what is known as "BUFFER OVERFLOW" . The a[30] is the buffer we had to store the string. When the strig length exceeded 30,the string is said to have overflown the buffer.   
 

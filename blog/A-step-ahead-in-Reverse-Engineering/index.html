@@ -176,8 +176,8 @@
 <p>In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform.
 SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
 
-<p>Pre-requisites :
-1.A computer which runs linux   <br />
+<h1 id="pre-requisites-">Pre-requisites :</h1>
+<p>1.A computer which runs linux   <br />
 2.A curious mind which wants to know how stuff actually works!</p>
 
 <p>We will be using GDB(GNU Debugger) to understand the C program at the assembly level.</p>
@@ -189,7 +189,7 @@ SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
 <p>Here is the source code of the executable we will be dealing with. It is named overflow.c. You will know by the end of this article,Why it was named so.<br />
 <img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/source_code1.png" alt="Image1" /></p>
 
-<p><strong>1.What does this program do?</strong></p>
+<h2 id="1what-does-this-program-do">1.What does this program do?</h2>
 
 <p><strong>a.</strong> In the main function,a printf() function is called to print the string “Before function call” .<br />
 <strong>b.</strong> The main function simply calls another function “print_string()” . <br />
@@ -202,7 +202,7 @@ SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
 <p>Think for a moment why the 2 printf() statements are present before and
 after the function call.</p>
 
-<p><strong>2.Compile the program(normally) using gcc :</strong></p>
+<h2 id="2compile-the-programnormally-using-gcc-">2.Compile the program(normally) using gcc :</h2>
 
 <p><strong>$gcc overflow.c -o overflow</strong> <br />
 This gives an executable named “overflow”.</p>
@@ -214,7 +214,7 @@ This gives an executable named “overflow”.</p>
 
 <p>You would have used gets() before. <strong>Have you given a thought of why this warning came up?</strong></p>
 
-<p><strong>3.Running the executable with random inputs and observing what happens.</strong></p>
+<h2 id="3running-the-executable-with-random-inputs-and-observing-what-happens">3.Running the executable with random inputs and observing what happens.</h2>
 
 <p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/random_input.png" alt="Image3" /></p>
 
@@ -238,7 +238,7 @@ Execute the program in following manner :  <strong>$ python -c “print ‘a’ 
 
 <p>The 35 can be replaced by any number you want as showed in the above screenshot.</p>
 
-<p><strong>4.Analyse the above screenshot :</strong></p>
+<h2 id="4analyse-the-above-screenshot-">4.Analyse the above screenshot :</h2>
 
 <p><strong>a.</strong> Though the string storage capacity is 30 bytes,in the first case,the program is able to take 35 bytes.<br />
 <strong>b.</strong> In the third case,something <strong>wierd</strong> happened. It says “<strong>Illegal Instruction</strong>” and “After function call” was <strong>not</strong> printed. So,control didn’t get transferred to the main program. <br />
@@ -246,7 +246,7 @@ Execute the program in following manner :  <strong>$ python -c “print ‘a’ 
 
 <p>We obviously have to investigate the wierd cases and know if we can do something about it.</p>
 
-<p><strong>5.Finally,it is time to fireup your debugger!</strong></p>
+<h2 id="5finallyit-is-time-to-fireup-your-debugger">5.Finally,it is time to fireup your debugger!</h2>
 
 <p><strong>$ gdb -q overflow</strong></p>
 
@@ -258,12 +258,13 @@ Execute the program in following manner :  <strong>$ python -c “print ‘a’ 
 <strong>b. (gdb)disass main</strong>  : This dumped the assembly equivalent of the main function written in C. <br />
 <strong>c. (gdb)disass</strong> print_string() : This dumped the assembly equivalent of the print_string() function.</p>
 
-<p><strong>6.ANALYSIS OF main() :</strong><br />
-<strong>a.</strong> In the main function,we had 3 main tasks 1.printf() , 2.function call 3.again a printf(). <br />
+<h2 id="6analysis-of-main-">6.ANALYSIS OF main() :</h2>
+
+<p><strong>a.</strong> In the main function,we had 3 main tasks 1.printf() , 2.function call 3.again a printf(). <br />
 <strong>b.</strong> We can easily figure out that tha main&lt;+9&gt; instruction is the printf(“\nBefore function call\n”), and main&lt;+29&gt; is printf(“\nAfter function call\n”); <br />
 <strong>c.</strong> What does main&lt;+19&gt; do? It says <strong>&lt;+19&gt; call 0x40058f</strong> &lt; print_string &gt; . From this,it is clear that our “print_string” function is <strong>called at &lt;+19&gt; instruction.(Address of this instruction is 0x400579)</strong>.</p>
 
-<p><strong>7.ANALYSIS OF</strong> print_string() :</p>
+<h2 id="7analysis-of-print_string-">7.ANALYSIS OF print_string() :</h2>
 
 <p><strong>a.</strong> push rbp
        mov rbp,rsp
@@ -277,7 +278,7 @@ Execute the program in following manner :  <strong>$ python -c “print ‘a’ 
 
 <p>(<strong>NOTE : The 0x0000000000400566 is the starting point of main() IN MY COMPUTER. IT MIGHT BE DIFFERENT IN DIFFERENT COMPUTERS</strong>).</p>
 
-<p><strong>8.Note our observation points and then run the program.</strong></p>
+<h2 id="8note-our-observation-points-and-then-run-the-program">8.Note our observation points and then run the program.</h2>
 
 <p><strong>a.</strong> Let us stop before print_string() is called. <br />
 <strong>b.</strong> Let us stop after print_string() is called and then go step by step.</p>
@@ -342,7 +343,7 @@ Then again,check the stack by using <strong>$(gdb) x/32xw $rsp</strong> . (refer
 
 <p>So,analyse the assembly code properly,make a note of all the important addresses and then proceed.</p>
 
-<p>There are a few things that were left unexplained:</p>
+<h2 id="there-are-a-few-things-that-were-left-unexplained">There are a few things that were left unexplained:</h2>
 
 <p><strong>1.</strong> Why the source code was named “overflow.c” :What you have just done is a simple but an authentic example of what is known as “BUFFER OVERFLOW” . The a[30] is the buffer we had to store the string. When the strig length exceeded 30,the string is said to have overflown the buffer.</p>
 
