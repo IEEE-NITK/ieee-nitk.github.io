@@ -208,5 +208,3 @@ I know this is a lot of stuff to know at once.Go through the article several tim
 I hoped you enjoyed the article and learnt something new out of it.
 Any kind of suggestion,feedback or appreciation:P ,leave a comment below.
 
-If you have any doubts regarding the article,feel free to email me.
-__EMAIL: adwait.gautham@gmail.com__
