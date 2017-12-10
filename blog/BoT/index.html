@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="A peek at how a computer can be fooled because of bad coding practices">
+        <meta name="description" content="How IoT devices are being used in cyber-attacks">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="A step ahead in Reverse Engineering!">
-        <meta name="twitter:description" content="A peek at how a computer can be fooled because of bad coding practices">
+        <meta name="twitter:title" content="BoT">
+        <meta name="twitter:description" content="How IoT devices are being used in cyber-attacks">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///A-step-ahead-in-Reverse-Engineering/" />
-        <meta property="og:title" content="A step ahead in Reverse Engineering!">
+        <meta property="og:url" content="http://ieeenitk.org///BoT/" />
+        <meta property="og:title" content="BoT">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="A peek at how a computer can be fooled because of bad coding practices">
+        <meta property="og:description" content="How IoT devices are being used in cyber-attacks">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="A step ahead in Reverse Engineering!"/>
-        <meta itemprop="description" content="A peek at how a computer can be fooled because of bad coding practices">
+        <meta itemprop="name" content="BoT"/>
+        <meta itemprop="description" content="How IoT devices are being used in cyber-attacks">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>A step ahead in Reverse Engineering!</title>
+        <title>BoT</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/A-step-ahead-in-Reverse-Engineering/">
+        <link rel="canonical" href="/blog/BoT/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-12-07 07:30:10 +0530" class="date">07 Dec 2017</time>
+            <time itemprop="datePublished" datetime="2017-12-08 07:30:10 +0530" class="date">08 Dec 2017</time>
         
-        <h1 class="post-title" itemprop="name">A step ahead in Reverse Engineering!</h1>
-        <p itemprop="description" class="subtitle">A peek at how a computer can be fooled because of bad coding practices</p>
+        <h1 class="post-title" itemprop="name">BoT</h1>
+        <p itemprop="description" class="subtitle">How IoT devices are being used in cyber-attacks</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,210 +171,105 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Hello to all the computer enthusiasts out there!</p>
-
-<p>In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform.
-SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
-
-<p>Pre-requisites :
-1.A computer which runs linux   <br />
-2.A curious mind which wants to know how stuff actually works!</p>
-
-<p>We will be using GDB(GNU Debugger) to understand the C program at the assembly level.</p>
-
-<p>If GDB is not installed in your box,you can type in this command to install it.</p>
-
-<p><strong>$sudo apt-get install gdb</strong></p>
-
-<p>Here is the source code of the executable we will be dealing with. It is named overflow.c. You will know by the end of this article,Why it was named so.<br />
-<img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/source_code1.png" alt="Image1" /></p>
-
-<p><strong>1.What does this program do?</strong></p>
-
-<p><strong>a.</strong> In the main function,a printf() function is called to print the string “Before function call” .<br />
-<strong>b.</strong> The main function simply calls another function “print_string()” . <br />
-<strong>c.</strong> In the print_string() function , We have an uninitialised character array and WE HAVE ALLOCATED 30 BYTES OF SPACE for it.  <br />
-<strong>d.</strong> In this function,Using gets() function , it asks us to enter a string.  <br />
-<strong>e.</strong> It will simply print the string that we have entered.  <br />
-<strong>f.</strong> After the “print_string” function is executed completely,CONTROL IS TRANSFERED BACK TO THE main function.  <br />
-<strong>g.</strong> At the end,there is another printf () statement which prints “After function call”.</p>
-
-<p>Think for a moment why the 2 printf() statements are present before and
-after the function call.</p>
-
-<p><strong>2.Compile the program(normally) using gcc :</strong></p>
-
-<p><strong>$gcc overflow.c -o overflow</strong> <br />
-This gives an executable named “overflow”.</p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/warning.png" alt="Image2" /></p>
-
-<p>It is important to note the second warning(the overflow.c : (.text + 0x39))
-<strong>It says “the gets() function is dangerous and should not be used”.</strong></p>
-
-<p>You would have used gets() before. <strong>Have you given a thought of why this warning came up?</strong></p>
-
-<p><strong>3.Running the executable with random inputs and observing what happens.</strong></p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/random_input.png" alt="Image3" /></p>
-
-<p>Let us go step by step.</p>
-
-<p><strong>a.</strong> The first 2 times it was executed,These are normal cases because the number of characters were less than 30. <br />
-<strong>b.</strong> The third time,The string length is greater than 30 but nothing <strong>wierd</strong> happened. <br />
-<strong>c.</strong> The last time it was executed,we get this “ <strong>stack smashing detected</strong> “ and the program is terminated right there. IF YOU NOTICE,The string “After function call” is not printed. This means BEFORE THE CONTROL GOT TRANSFERRED TO THE main function,THE PROGRAM WAS TERMINATED. Why did this happen? <strong>One obvious guess is that our string length was way more than 30 bytes.</strong> But what exactly happened??  <br />
-<strong>d.</strong> To analyse this,we will have to compile our code in the following manner.</p>
-
-<p><strong>$gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g</strong></p>
-
-<p><strong>e.</strong> One more thing,we will have to give random inputs like above to analyse
-the behavior of the executable. So everytime typing “aaaaaaaaaaaaaa….”
-100 a’s for example is very cumbersome.WE HAVE A SOLUTION!</p>
-
-<p>We will use <strong>python</strong> to solve this problem.
-Execute the program in following manner :  <strong>$ python -c “print ‘a’ * 35” | ./overflow</strong></p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/use_python.png" alt="Image4" /></p>
-
-<p>The 35 can be replaced by any number you want as showed in the above screenshot.</p>
-
-<p><strong>4.Analyse the above screenshot :</strong></p>
-
-<p><strong>a.</strong> Though the string storage capacity is 30 bytes,in the first case,the program is able to take 35 bytes.<br />
-<strong>b.</strong> In the third case,something <strong>wierd</strong> happened. It says “<strong>Illegal Instruction</strong>” and “After function call” was <strong>not</strong> printed. So,control didn’t get transferred to the main program. <br />
-<strong>c.</strong> In the last case,again something <strong>wierd</strong> happened. It said “<strong>segmentation fault”</strong> and the program was <strong>terminated right away</strong>.</p>
-
-<p>We obviously have to investigate the wierd cases and know if we can do something about it.</p>
-
-<p><strong>5.Finally,it is time to fireup your debugger!</strong></p>
-
-<p><strong>$ gdb -q overflow</strong></p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/disass.png" alt="Image5" /></p>
-
-<p>Follow the instruction in the screenshot.</p>
-
-<p><strong>a. (gdb)set disassembly-flavor intel</strong> : This means there are other flavors also right?Research about them. <br />
-<strong>b. (gdb)disass main</strong>  : This dumped the assembly equivalent of the main function written in C. <br />
-<strong>c. (gdb)disass</strong> print_string() : This dumped the assembly equivalent of the print_string() function.</p>
-
-<p><strong>6.ANALYSIS OF main() :</strong><br />
-<strong>a.</strong> In the main function,we had 3 main tasks 1.printf() , 2.function call 3.again a printf(). <br />
-<strong>b.</strong> We can easily figure out that tha main&lt;+9&gt; instruction is the printf(“\nBefore function call\n”), and main&lt;+29&gt; is printf(“\nAfter function call\n”); <br />
-<strong>c.</strong> What does main&lt;+19&gt; do? It says <strong>&lt;+19&gt; call 0x40058f</strong> &lt; print_string &gt; . From this,it is clear that our “print_string” function is <strong>called at &lt;+19&gt; instruction.(Address of this instruction is 0x400579)</strong>.</p>
-
-<p><strong>7.ANALYSIS OF</strong> print_string() :</p>
-
-<p><strong>a.</strong> push rbp
-       mov rbp,rsp
-       sub rsp,0x20</p>
-
-<p>What this does is,The system is making space(<strong>in the stack</strong>) to store our 30 bytes(string) .
-<strong>b.</strong> print_string&lt;+20&gt; ,the <strong>gets()</strong> is called.<strong>(important!)</strong> <br />
-<strong>c.</strong> print_string&lt;+32&gt; ,the <strong>puts()</strong> is called.</p>
-
-<p>After the execution of print_string(), How does the computer know that control should <strong>return</strong> ed back to main() again? <strong>Notice that there is something called “ret”</strong> in print_string&lt;+39&gt; .</p>
-
-<p>(<strong>NOTE : The 0x0000000000400566 is the starting point of main() IN MY COMPUTER. IT MIGHT BE DIFFERENT IN DIFFERENT COMPUTERS</strong>).</p>
-
-<p><strong>8.Note our observation points and then run the program.</strong></p>
-
-<p><strong>a.</strong> Let us stop before print_string() is called. <br />
-<strong>b.</strong> Let us stop after print_string() is called and then go step by step.</p>
-
-<p>We can stop using the “<strong>break</strong>” instruction of gdb.</p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/break_points.png" alt="Image6" /></p>
-
-<p>First,we break at main() and then at print_string() .Now we run the program.<strong>$(gdb)run</strong></p>
-
-<p><strong>c. (gdb)ni</strong>-&gt; means <strong>next instruction</strong>.Using “ni”,we can analyse each instruction as we go.
-<strong>AT 0X400579</strong>,print_string() is present.This is <strong>important</strong>.</p>
-
-<p>Finally,we have stopped at gets(a).This instruction is not yet executed.</p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/before_gets.png" alt="Image6" /></p>
-
-<p>In the above screenshot,
-<strong>d. (gdb) x/32xw $rsp</strong> shows us the memory space (the space in stack) that system has allocated to store the string we input. There is something that is highlighted in the screenshot. Can you guess what this could be??</p>
-
-<p><strong>e. 0x0040057e</strong> -&gt; Address of the instruction after “call print_string() “ in the main() function . [Go back to the assembly code of main() and check] . This means,when print_string() function is called, <strong>THIS “0X0040057e” or THE RETURN ADDRESS is stored.</strong></p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/after_gets.png" alt="Image7" /></p>
-
-<p><strong>f.</strong> After a few “ni”s,gets(a) is executed and we input our string.
-Then again,check the stack by using <strong>$(gdb) x/32xw $rsp</strong> . (refer the above screenshot).</p>
-
-<p><strong>g.</strong> We will run it again with nore ‘a’s and see what happens.</p>
-
-<p><strong>The space where return address or 0x0040057e is supposed to be present has now become 0x00400061.</strong> 0x61 is the ascii equivalent of ‘a’.So, <strong>Our string this time tried to overwrite the return address.</strong></p>
-
-<p>The computer now <strong>thinks</strong> that the return address is <strong>0x00400061</strong> ,but that is an <strong>invalid address</strong> (Or an address which is not used in this particular program).</p>
-
-<p>Check out the screenshot below .</p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/illegal_instruction.png" alt="Image8" /></p>
-
-<p>Let us see and check what happens . After a few “ni”s,The string is printed and then “<strong>Segmentation fault</strong>“Remember we had got the same error in the very beginning . (before we started analysing with gdb) .</p>
-
-<p>Now <strong>we know</strong> why the error occurred. <strong>The address “0x00400061” was not accessible(or not a valid address)</strong> and that’s why we got an error. The control was <strong>NOT</strong> transferred back to main() .</p>
-
-<p>Think about it once,<strong>What if we overwrite the actual return address by a new VALID address where the new address has instructions that WE want to execute?</strong></p>
-
-<p>THIS WAY,WE CAN EXECUTE WHICHEVER INSTRUCTIONS WE WANT.The statement we had at the beginning (trying to fool the computer) is slowly coming to our light right?</p>
-
-<p><strong>h.</strong> Ok,now that we know the trick,we can give any valid address and the instruction in that address will be executed.</p>
-
-<p>WHAT IF WE GIVE THE ADDRESS OF “print_string()”, will it be executed twice,<strong>Will it print the inputed string twice?</strong> . Let us see..</p>
-
-<p><strong>Let us note that the address of the instruction which calls</strong> print_string() <strong>is at 0x0000000000400579 .</strong></p>
-
-<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/final.png" alt="Image9" /></p>
-
-<p>Instead of using python,we will use another useful tool,the <strong>printf</strong> . <br />
-		<strong>$ printf “aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40”|./overflow</strong></p>
-
-<p>There are 39 a’s and the address which calls print_string() in the reverse order.(WHY IS THAT??)</p>
-
-<p>AND WE HAVE ACHIEVED IT!!The print_string() function was executed twice silently(with no wierdness) and control was returned back to main() again silently.</p>
-
-<p><strong>(Note:The number of a’s that I have put to reach the space where return address is stored may or may not be same as the number of a’s you might have to put to reach it. AND AGAIN,Our addresses need not be same.)</strong></p>
-
-<p>So,analyse the assembly code properly,make a note of all the important addresses and then proceed.</p>
-
-<p>There are a few things that were left unexplained:</p>
-
-<p><strong>1.</strong> Why the source code was named “overflow.c” :What you have just done is a simple but an authentic example of what is known as “BUFFER OVERFLOW” . The a[30] is the buffer we had to store the string. When the strig length exceeded 30,the string is said to have overflown the buffer.</p>
-
-<p><strong>2.</strong> When compiled normally,we could not have done all the analysis that we did now. The latest compilers keep a check on buffer sizes and protects us from buffer overflows.</p>
-
-<p><strong>3.</strong> Check why we added -fno-stack-protector and -zexecstack while compiling the sourcecode.</p>
-
-<p><strong>4.</strong> Why we typed in the address in the reverse order in the last part?</p>
-
-<p>And a few more for you to research.</p>
-
-<p>There was one more thing. <strong>Executing instruction that WE wanted.</strong> That is definitely possible but is beyond the scope of this article. READ ABOUT THE ACTUAL IMPLICATIONS OF A BUFFER OVERFLOW. It is very interesting!</p>
-
-<p>I know this is a lot of stuff to know at once.Go through the article several times,understand each and every bit.</p>
-
-<p>I hoped you enjoyed the article and learnt something new out of it.
-Any kind of suggestion,feedback or appreciation:P ,leave a comment below.</p>
-
-<p>If you have any doubts regarding the article,feel free to email me.
-<strong>EMAIL: adwait.gautham@gmail.com</strong></p>
+                <p><em>Botnet of things</em></p>
+
+<p>The Internet of Things aka IoT is one of the hot trending topics in the
+tech world right now. The IoT is basically a network of devices
+connected to the internet, each having a unique IP address. Today, the
+Internet of Things plays with the idea of connecting nearly every
+manufactured object to the Internet. It is being incorporated into smart
+homes, watches, cars, fitness trackers, power grids, thermostats,
+contact lenses, pacemakers and what not.</p>
+
+<p>While the Internet of Things brings a new horizon of opportunities,
+there are several barriers in respect to making IoT implementations
+successful. These include grave security and privacy concerns. Recent
+distributed denial of service (DDoS) attacks are forcing a shift in how
+we think about the Internet of Things (IoT). The debate on the security
+risks posed by widespread use of IoT devices has intensified after the
+cyber-attack on DNS provider Dyn in October 2016, which affected many
+high-profile online service providers like Twitter, Netflix, GitHub and
+Quora. This was carried out using a malware named ‘Mirai’, which used a
+“botnet of things”.</p>
+
+<p><em>What is a botnet?</em><br />
+A botnet is a collection of internet-connected devices, which may
+include PCs, servers, mobile devices and internet of things devices that
+are infected and controlled by a common type of malware. The hacker
+instructs these botnets to certain things like overloading a website
+with a huge number of requests to effectively shut it down, to send
+spam, to make money out of clickbaits, and to further spread the malware
+itself. These botnets are pretty hard to track and bring down.</p>
+
+<p><img src="/blog/assets/img/BoT/image1.jpg" alt="Image1" /></p>
+
+<p><em>Botnet of things</em></p>
+
+<p>Until fairly recently, devices used as components of botnets were
+usually Windows PCs. The problem, for hackers, with PCs is that their
+defence is being strengthened every day. Antimalware tools are pretty
+good at detecting problems and evicting botnets. Hence, in recent times,
+“Thingbots”, i.e. compromising IoT devices for this purpose is a growing
+trend. IoT devices currently are not really sophisticated in terms of
+security. The meteoric rise of the IoT industry has forced manufacturers
+to prioritise impressive features and cot efficiency, leaving security
+as an afterthought. Most of the cheaper IoT devices on the market are
+not designed with security in mind, and their hardware isn’t capable of
+supporting advanced encryption techniques. One of the biggest
+contributors to the risk of future attack is the fact that many IoT
+devices have long-standing, widely known software vulnerabilities that
+make them vulnerable to exploit and control by remote attackers. Many of
+these devices still have their default passwords. These are very easy
+targets for hackers, and are being used in botnets. The device will
+still work normally, with a lesser bandwidth and might be a bit
+sluggish.</p>
+
+<p>Although the Dyn incident caused large-scale disruption, it is
+noteworthy that the attack involved only a few hundred thousand
+endpoints and a traffic rate of about 1.2 terabits per second. IT firm
+Gartner has predicted that there will be more than 20 billion devices
+connected to IoT by 2020. If the IoT remains vulnerable to attacks of
+this nature, the risk of similar attacks, on a much larger scale is
+imminent.<br />
+Some experts are not alarmed by this, as the Dyn attack required 100,000
+infected devices and taking control of so many devices on a regular
+basis is borderline impossible. However, devices that have been part of
+the Mirai botnet will always be infected. If another attack was to take
+place, these devices could be called upon as part of the botnet army.
+Once a device has been infected, it is very difficult to get rid of the
+virus, making discarding the device the only viable solution. </p>
+
+<p>How to mitigate this problem?<br />
+IoT botnets will continue to rise. Right now they are an easy resource
+to harvest. IoT device manufacturers must act now to build in better
+security capabilities and controls. Security standards must be set by
+the government for all IoT devices. Until manufacturers step up their
+game and create better security practices, it’s up to cyber security
+firms and the public to be more informed in their daily interactions
+with smart objects. Default passwords should be changed and the devices
+should be secured. As IoT botnets becoming a clear-and-present danger,
+it is only the combined efforts of everyone involved — including
+consumers, manufacturers and IT pros — that can stop the threat.</p>
+
+<p>Further reading:<br />
+<a href="https://www.technologyreview.com/s/603500/10-breakthrough-technologies-2017-botnets-of-things/">Botnet of
+things</a><br />
+<a href="https://securityintelligence.com/the-weaponization-of-iot-rise-of-the-thingbots/">The Weaponisation of IoT: Rise of the
+Thingbots</a><br />
+<a href="https://www.kaspersky.com/blog/attack-on-dyn-explained/13325/">Role of IoT in the Dyn
+Attack</a></p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/adwait.jpg" alt="Adwaith V Gautham">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Ashwin_Hebbar.jpg" alt="Ashwin Hebbar">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Adwaith V Gautham</a>
+            <a itemprop="name" href="/">Ashwin Hebbar</a>
         </h3>
-        <p class="desc">On a mission of securing the cyberspace from bad guys</p>
-        <a itemprop="email" class="email" href="mailto:adwait.gautham@gmail.com">adwait.gautham@gmail.com</a>
+        <p class="desc">I'm not lazy , I'm just overflowing with potential energy. :P</p>
+        <a itemprop="email" class="email" href="mailto:hebbarashwin@gmail.com">hebbarashwin@gmail.com</a>
     </div>
 </section>
 
@@ -394,21 +289,21 @@ Any kind of suggestion,feedback or appreciation:P ,leave a comment below.</p>
             
                 <section class="comments">
                     <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/BoT/" data-colorscheme="dark" data-num-posts="4" data-width="706">
                     </div>
                 </section>
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/%20via%20&#64;IEEE_NITK&hashtags=CTF,Ethical Hacking,Security,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/BoT/%20via%20&#64;IEEE_NITK&hashtags="
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//A-step-ahead-in-Reverse-Engineering/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//BoT/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//A-step-ahead-in-Reverse-Engineering/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//BoT/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

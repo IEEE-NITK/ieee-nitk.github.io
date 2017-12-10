@@ -5,13 +5,37 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Dec 2017 11:20:54 +0530</pubDate>
-    <lastBuildDate>Sun, 10 Dec 2017 11:20:54 +0530</lastBuildDate>
+    <pubDate>Sun, 10 Dec 2017 15:06:20 +0530</pubDate>
+    <lastBuildDate>Sun, 10 Dec 2017 15:06:20 +0530</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
+        <title>THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLES</title>
+        <description>&lt;p&gt;&lt;strong&gt;THE AIRBAG SYSTEM FOR 2-WHEELER VEHICLE SYSTEM&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;1. Introduction&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Airbag system is first introduced in 4 -wheeler vehicles, this paper gives an information about the introduction of the airbag system can be used in the two wheelers(bikes) this paper shows the working, construction, installation and what will be problems can occurs are discussed.&lt;/p&gt; &lt;p&gt;The concept of this airbag system is “To reduce the injuries to a rider when impacting with an opposing vehicle and/or opposing object in frontal collisions by absorbing rider kinetic energy and by reducing rider separation velocity from motorcycle in the forward direction.” With the help...</description>
+        <pubDate>Fri, 08 Dec 2017 07:30:10 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/</guid>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>BoT</title>
+        <description>&lt;p&gt;&lt;em&gt;Botnet of things&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The Internet of Things aka IoT is one of the hot trending topics in the tech world right now. The IoT is basically a network of devices connected to the internet, each having a unique IP address. Today, the Internet of Things plays with the idea of connecting nearly every manufactured object to the Internet. It is being incorporated into smart homes, watches, cars, fitness trackers, power grids, thermostats, contact lenses, pacemakers and what not.&lt;/p&gt; &lt;p&gt;While the Internet of Things brings a new horizon of opportunities, there are several barriers in respect to making IoT implementations successful....</description>
+        <pubDate>Fri, 08 Dec 2017 07:30:10 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/BoT/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/BoT/</guid>
+        
+        
+        <category>CAS/SPS</category>
+        
+      </item>
+    
+      <item>
         <title>A step ahead in Reverse Engineering!</title>
-        <description>&lt;p&gt;Hello to all the computer enthusiasts out there!&lt;/p&gt; &lt;p&gt;In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform. SO,WE WILL BE TRYING TO FOOL THE COMPUTER!&lt;/p&gt; &lt;p&gt;Pre-requisites : 1.A computer which runs linux 2.A curious mind which wants to know how stuff actually works!&lt;/p&gt; &lt;p&gt;We will be using GDB(GNU Debugger) to understand the C program at the assembly level.&lt;/p&gt; &lt;p&gt;If GDB is not installed in your box,you can type in this command to install it.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;$sudo apt-get install gdb&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Here is the...</description>
+        <description>&lt;p&gt;Hello to all the computer enthusiasts out there!&lt;/p&gt; &lt;p&gt;In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform. SO,WE WILL BE TRYING TO FOOL THE COMPUTER!&lt;/p&gt; &lt;p&gt;Pre-requisites : 1.A computer which runs linux &lt;br /&gt; 2.A curious mind which wants to know how stuff actually works!&lt;/p&gt; &lt;p&gt;We will be using GDB(GNU Debugger) to understand the C program at the assembly level.&lt;/p&gt; &lt;p&gt;If GDB is not installed in your box,you can type in this command to install it.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;$sudo apt-get install gdb&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Here...</description>
         <pubDate>Thu, 07 Dec 2017 07:30:10 +0530</pubDate>
         <link>http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/A-step-ahead-in-Reverse-Engineering/</guid>
@@ -138,36 +162,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Magnetically repelling ice</title>
-        <description>&lt;p&gt;People can be nervous fliers to begin with. Even when there isn’t a cloud in the sky, there are few words that cause anxiety in some like, “Prepare for takeoff.” But add wintry conditions to the mix, add some ice, and the uneasy feeling can turn to fear.&lt;/p&gt; &lt;h2 id=&quot;how-does-ice-cause-a-plane-to-crash&quot;&gt;How does ice cause a plane to crash?&lt;/h2&gt; &lt;p&gt;Ice typically builds up when tiny cloud droplets impact and freeze on the leading edges, or front surfaces, of the plane. The ice alters airflow over the wing and tail, reducing the lift force that keeps the plane in the air, and potentially...</description>
-        <pubDate>Sun, 05 Nov 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/magnetically-repelling-ice/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/magnetically-repelling-ice/</guid>
-        
-        <category>Magnetism</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>The Beginning Of The End - Have The Machines Won?</title>
-        <description>&lt;p&gt;Wondering when artificially intelligent robots will take over the Earth? Wonder no more — they’ve already done it! You’re probably thinking&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;But wait. Wouldn’t I have noticed if chrome-plated autonomous killing machines began to exterminate humans? Not necessarily.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;It turns out evil robots in cyber-space are nowhere near as flashy as their science-fiction counterparts. We envisioned Cylons, Terminators, and Cyborgs but failed to imagine the much more immediate threat of helpful neural-network learning algorithms. I’m talking about Alexa, Echo, Siri, Google Home, the Internet of Things, even social networking platforms masquerading as news sources. They control content. They learn...</description>
-        <pubDate>Sun, 05 Nov 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-beginning-of-the-end-have-the-machines-won/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-beginning-of-the-end-have-the-machines-won/</guid>
-        
-        <category>Artificial Intelligence</category>
-        
-        <category>AI threat</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     

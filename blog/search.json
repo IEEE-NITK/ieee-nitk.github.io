@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLES",
+      "category" : "Piston",
+      "tags"     : "",
+      "url"      : "http://ieeenitk.org/blog//THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/",
+      "date"     : "08 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "BoT",
+      "category" : "CAS/SPS",
+      "tags"     : "",
+      "url"      : "http://ieeenitk.org/blog//BoT/",
+      "date"     : "08 Dec 2017"
+    } ,
+  
+    {
       "title"    : "A step ahead in Reverse Engineering!",
       "category" : "CompSoc",
       "tags"     : "CTF, Ethical Hacking, and Security",
