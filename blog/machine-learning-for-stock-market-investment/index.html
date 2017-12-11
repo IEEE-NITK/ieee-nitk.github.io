@@ -202,7 +202,7 @@
 <h2 id="3-the-prestige">3. The Prestige</h2>
 <p>Here’s some code on preprocessing the dataset from Quandl that would transform the data into a form recognisable to the SVM:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>def key_Stats(gather=["Total Debt/Equity",'Trailing P/E','Price/Sales','Price/Book','Profit Margin', 'Parameters that we wil learn on']):
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def key_Stats(gather=["Total Debt/Equity",'Trailing P/E','Price/Sales','Price/Book','Profit Margin', 'Parameters that we wil learn on']):
     L = []
     statspath = path + '/_KeyStats'
     stock_list = [x[0] for x in os.walk(statspath)]
@@ -247,12 +247,11 @@
 			    else:
 				    d  = {...} #Dictionary of parameters for the stock being traversed 
 				    L.append(d) #Adding to the list 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>At this point, we would apply the smoothing technique on the data. The final step is just feeding the data to the algorithm and letting it work it’s magic!</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>def analysis():
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def analysis():
     # Fit the SVC (exclude the last column).
     X_train, y_train = build_data_set()
     clf = svm.SVC(kernel="rbf", C=8, gamma=0.3)
@@ -273,8 +272,7 @@
             invest_list.append(Z[i])
 
     return invest_list
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>We’re comparing the performance of each stock represented by  <code class="highlighter-rouge">stock_p_change</code> against how the market collectively is doing which is represented by <code class="highlighter-rouge">sp500_p_change</code>. If it outperforms the market, we would consider it as a stock that’s doing well and assign it the parameter <code class="highlighter-rouge">outperform</code>. This is equivalent to a person ‘winning’ a game of chess as used in the analogy above and is what the SVM uses in its classification.</p>
 

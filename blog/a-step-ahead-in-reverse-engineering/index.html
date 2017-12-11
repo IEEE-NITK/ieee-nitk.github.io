@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Is bike safety a concern , this new technology is here to protect you">
+        <meta name="description" content="A peek at how a computer can be fooled because of bad coding practices">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Airbag System for 2-Wheeler vehicles">
-        <meta name="twitter:description" content="Is bike safety a concern , this new technology is here to protect you">
+        <meta name="twitter:title" content="A step ahead in Reverse Engineering!">
+        <meta name="twitter:description" content="A peek at how a computer can be fooled because of bad coding practices">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///The-airbag-system-for-2wheeler-vehicle/" />
-        <meta property="og:title" content="Airbag System for 2-Wheeler vehicles">
+        <meta property="og:url" content="http://ieeenitk.org///a-step-ahead-in-reverse-engineering/" />
+        <meta property="og:title" content="A step ahead in Reverse Engineering!">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Is bike safety a concern , this new technology is here to protect you">
+        <meta property="og:description" content="A peek at how a computer can be fooled because of bad coding practices">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Airbag System for 2-Wheeler vehicles"/>
-        <meta itemprop="description" content="Is bike safety a concern , this new technology is here to protect you">
+        <meta itemprop="name" content="A step ahead in Reverse Engineering!"/>
+        <meta itemprop="description" content="A peek at how a computer can be fooled because of bad coding practices">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Airbag System for 2-Wheeler vehicles</title>
+        <title>A step ahead in Reverse Engineering!</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/The-airbag-system-for-2wheeler-vehicle/">
+        <link rel="canonical" href="/blog/a-step-ahead-in-reverse-engineering/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-12-08 07:30:10 +0530" class="date">08 Dec 2017</time>
+            <time itemprop="datePublished" datetime="2017-12-07 07:30:10 +0530" class="date">07 Dec 2017</time>
         
-        <h1 class="post-title" itemprop="name">Airbag System for 2-Wheeler vehicles</h1>
-        <p itemprop="description" class="subtitle">Is bike safety a concern , this new technology is here to protect you</p>
+        <h1 class="post-title" itemprop="name">A step ahead in Reverse Engineering!</h1>
+        <p itemprop="description" class="subtitle">A peek at how a computer can be fooled because of bad coding practices</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,152 +171,215 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="1-introduction">1. Introduction</h2>
+                <p>Hello to all the computer enthusiasts out there!</p>
 
-<p>The Airbag system was first introduced in 4-wheelers . This paper
-gives information about the introduction of the airbag system can be
-used in the two wheelers(bikes). This paper shows the working,
-construction, installation of this system and problems that can occur in this system.</p>
+<p>In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform.
+SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
 
-<p>The concept of this airbag system is “To reduce the injuries to a rider
-when impacting with an opposing vehicle and/or opposing object in
-frontal collisions by absorbing rider kinetic energy and by reducing
-rider separation velocity from motorcycle in the forward direction.”
-With the help of the ANGLE sensor with an angle indicator and sense of
-the collision and the large frequency vibration for to open the air bag.</p>
+<h1 id="pre-requisites-">Pre-requisites :</h1>
+<ol>
+  <li>A computer which runs Linux.</li>
+  <li>A curious mind which wants to know how stuff actually works!</li>
+</ol>
 
-<h2 id="2-design-with-required-instruments">2. Design with required instruments</h2>
+<p>We will be using GDB(GNU Debugger) to understand the C program at the assembly level.</p>
 
-<p>The following instruments are used for the 2 wheeler AIRBAG system —</p>
+<p>If GDB is not installed in your box,you can type in this command to install it.</p>
 
-<p>2.1 Air bag (leather material with grip technology)</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install gdb   
+</code></pre></div></div>
 
-<p>2.2 Chemical cylinders for releasing the air or gas</p>
+<p>Here is the source code of the executable we will be dealing with. It is named overflow.c. You will know by the end of this article,Why it was named so.<br />
+<img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/source_code1.png" alt="Image1" /></p>
 
-<p>2.3 Sensors (angle sensor and crash sensor)</p>
+<h2 id="what-does-this-program-do">What does this program do?</h2>
 
-<p>2.4 Fitting cage</p>
+<p><strong>a.</strong> In the main function,a printf() function is called to print the string “Before function call” .<br />
+<strong>b.</strong> The main function simply calls another function “print_string()” . <br />
+<strong>c.</strong> In the print_string() function , We have an uninitialised character array and WE HAVE ALLOCATED 30 BYTES OF SPACE for it.  <br />
+<strong>d.</strong> In this function,Using gets() function , it asks us to enter a string.  <br />
+<strong>e.</strong> It will simply print the string that we have entered.  <br />
+<strong>f.</strong> After the “print_string” function is executed completely,CONTROL IS TRANSFERED BACK TO THE main function.  <br />
+<strong>g.</strong> At the end,there is another printf () statement which prints “After function call”.</p>
 
-<p>2.5 Inflator</p>
+<p>Think for a moment why the 2 printf() statements are present before and
+after the function call.</p>
 
-<h2 id="21-air-bag-leather-material-with-grip-technology">2.1 Air bag (leather material with grip technology)</h2>
+<h2 id="compile-the-programnormally-using-gcc-">Compile the program(normally) using gcc :</h2>
 
-<p>Airbags are stretchable fabrics or other materials that are tightly
-packed in various locations throughout your vehicle. These bags are
-compressed and kept in a small area. When there is an accident, the
-airbags fill up with air very quickly to provide a cushioning system for
-the people on the motorcycle so that they are not thrown around in the
-event of a crash. While this does not necessarily prevent total injury
-or death, it can be very helpful in cushioning the passengers in many
-cases.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc overflow.c -o overflow   
+</code></pre></div></div>
 
-<h2 id="22-chemical-reaction-behind-opening-of-airbag">2.2 Chemical reaction behind opening of airbag</h2>
+<p>This gives an executable named “overflow”.</p>
 
-<p>Actual opening of air bag is due to the chemical reaction occurred in
-between two chemical cylinders which are fit at the bottom of bike.
-When an external force or collision of two objects with bike occur then
-the chemicals in those two chemical cylinders mix with each other and the chemical reaction takes place inside the cylinder.</p>
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/warning.png" alt="Image2" /></p>
 
-<p>In 2-wheeler vehicle system, the air bags are fit in both sides of
-the bike. Figure shows the position of the air bag system to be fitted
-so that the total protection of the vehicle can be covered hence they
-pedestrian safety can be achieved.</p>
+<p>It is important to note the second warning(the overflow.c : (.text + 0x39))
+<strong>It says “the gets() function is dangerous and should not be used”.</strong></p>
 
-<h2 id="23-sensors-angle-sensor-and-crash-sensor">2.3 Sensors (angle sensor and crash sensor)</h2>
+<p>You would have used gets() before. <strong>Have you given a thought of why this warning came up?</strong></p>
 
-<p>The most important parts behind the success of the airbag system are the
-sensors. These are small pieces of electronics that are designed to tell when the vehicle has been damaged in an accident. They respond to several
-different sets of stimuli, including sudden stopping, increased pressure
-as pieces of the motorcycle are moved due to the force of the collision,
-and angle between road surface and tires of motorcycle. Different types
-of sensors measuring wheel speed, seat occupant status, brake pressure
-and impact, and other vehicle status indicators are monitored by the
-airbag control unit located in the front portion of the cabin.</p>
+<h2 id="running-the-executable-with-random-inputs-and-observing-what-happens">Running the executable with random inputs and observing what happens.</h2>
 
-<h2 id="24-fitting-cage">2.4 Fitting cage</h2>
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/random_input.png" alt="Image3" /></p>
 
-<p><img src="/blog/assets/img/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/image1.jpeg" alt="Image1" /></p>
+<p>Let us go step by step.</p>
 
-<p>Figure 1 - Modification for the airbag container</p>
+<p><strong>a.</strong> The first 2 times it was executed,These are normal cases because the number of characters were less than 30. <br />
+<strong>b.</strong> The third time,The string length is greater than 30 but nothing <strong>wierd</strong> happened. <br />
+<strong>c.</strong> The last time it was executed,we get this “ <strong>stack smashing detected</strong> “ and the program is terminated right there. IF YOU NOTICE,The string “After function call” is not printed. This means BEFORE THE CONTROL GOT TRANSFERRED TO THE main function,THE PROGRAM WAS TERMINATED. Why did this happen? <strong>One obvious guess is that our string length was way more than 30 bytes.</strong> But what exactly happened??  <br />
+<strong>d.</strong> To analyse this,we will have to compile our code in the following manner.</p>
 
-<p>Figure 1 shows that the modification is required for the storage of
-airbag. This cage is made up of metal strips with two openings for
-airbag.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g   
+</code></pre></div></div>
 
-<p><img src="/blog/assets/img/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/image2.jpeg" alt="Image2" /></p>
+<p><strong>e.</strong> One more thing,we will have to give random inputs like above to analyse
+the behavior of the executable. So everytime typing “aaaaaaaaaaaaaa….”
+100 a’s for example is very cumbersome.WE HAVE A SOLUTION!</p>
 
-<p>Figure 2 -Airbag opens up on the  right side of bike as the angle exceeds 30 degrees.</p>
+<p>We will use <strong>python</strong> to solve this problem.
+Execute the program in following manner :  <strong>$ python -c “print ‘a’ * 35” | ./overflow</strong></p>
 
-<p>From figure 2  The angle between road surface and motorcycle tyres exceeding 30 degrees is detected by using an angle sensor, hence as given above chemical reaction takes place and airbag opens up on right side of the motorcycle. In this figure 2 shows that the airbag contains Grips to the lower surface of it.</p>
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/use_python.png" alt="Image4" /></p>
 
-<p><img src="/blog/assets/img/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/image3.jpeg" alt="Image3" /></p>
+<p>The 35 can be replaced by any number you want as showed in the above screenshot.</p>
 
-<p>Figure 3-airbag opens up in both directions when any object collapses to the
-motorcycle.</p>
+<h2 id="analyse-the-above-screenshot">Analyse the above screenshot</h2>
 
-<p>When any object collides with the motorcycle ,at that time the airbag opens up in both directions to protect the passenger who is riding.</p>
+<p><strong>a.</strong> Though the string storage capacity is 30 bytes,in the first case,the program is able to take 35 bytes.<br />
+<strong>b.</strong> In the third case,something <strong>wierd</strong> happened. It says “<strong>Illegal Instruction</strong>” and “After function call” was <strong>not</strong> printed. So,control didn’t get transferred to the main program. <br />
+<strong>c.</strong> In the last case,again something <strong>wierd</strong> happened. It said “<strong>segmentation fault”</strong> and the program was <strong>terminated right away</strong>.</p>
 
-<h2 id="25-inflator">2.5 Inflator</h2>
+<p>We obviously have to investigate the wierd cases and know if we can do something about it.</p>
 
-<p>Once the control unit determines there is an accident, it sends a signal
-to the inflator system. The inflator sets off a chemical charge,
-producing an explosion of nitrogen gas, filling up the airbag. As the
-airbag fills up, it bursts through the paneling that contains it in order to protect you.</p>
+<h2 id="finally-it-is-time-to-fireup-your-debugger">Finally, it is time to fireup your debugger!</h2>
 
-<p>All this happens in an instant, usually within 25 or 50 milliseconds.
-That translates to almost 200 miles per hour. The airbag then will
-deflate itself on its own once it gets deployed.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gdb -q overflow
+</code></pre></div></div>
 
-<h2 id="how-air-bag-system-protects-the-human-body-parts-">How air bag system protects the human body parts ??</h2>
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/disass.png" alt="Image5" /></p>
 
-<p>The provision of air bags on motorcycles is more complex than
-installation in cars, because the dynamics of a motorcycle crash are
-more difficult to predict . But we discussed the following points on accident.These characteristics leads to act with very short reaction time and fast inflation but only if the motorcycle is involved in the accident . Limitation of this system is that they work properly only under particular conditions , especially  the rider must remain on the motorcycle during the accident and the impact dynamics must lead him to hit exactly
-the part of his vehicle protected by airbags.</p>
+<p>Follow the instruction in the screenshot.</p>
 
-<p>Normally, following kinds of bodily harms occur in the accident</p>
+<p><strong>a. (gdb)set disassembly-flavor intel</strong> : This means there are other flavors also right?Research about them. <br />
+<strong>b. (gdb)disass main</strong>  : This dumped the assembly equivalent of the main function written in C. <br />
+<strong>c. (gdb)disass</strong> print_string() : This dumped the assembly equivalent of the print_string() function.</p>
 
-<p>-Hand/leg Cracks or fractures</p>
+<h2 id="analysis-of-main-">Analysis OF main() :</h2>
 
-<p>-Head injury</p>
+<p><strong>a.</strong> In the main function,we had 3 main tasks 1.printf() , 2.function call 3.again a printf(). <br />
+<strong>b.</strong> We can easily figure out that tha main&lt;+9&gt; instruction is the printf(“\nBefore function call\n”), and main&lt;+29&gt; is printf(“\nAfter function call\n”); <br />
+<strong>c.</strong> What does main&lt;+19&gt; do? It says <strong>&lt;+19&gt; call 0x40058f</strong> &lt; print_string &gt; . From this,it is clear that our “print_string” function is <strong>called at &lt;+19&gt; instruction.(Address of this instruction is 0x400579)</strong>.</p>
 
-<p>-Bleeding from body parts</p>
+<h2 id="analysis-of-print_string-">Analysis of print_string() :</h2>
 
-<p>-Getting thrown from bike</p>
+<p><strong>a.</strong> push rbp
+       mov rbp,rsp
+       sub rsp,0x20</p>
 
-<p><img src="/blog/assets/img/THE_AIRBAG_SYSTEM_FOR_2-WHEELER_VEHICLE/image4.jpeg" alt="Image4" /></p>
+<p>What this does is,The system is making space(<strong>in the stack</strong>) to store our 30 bytes(string) .
+<strong>b.</strong> print_string&lt;+20&gt; ,the <strong>gets()</strong> is called.<strong>(important!)</strong> <br />
+<strong>c.</strong> print_string&lt;+32&gt; ,the <strong>puts()</strong> is called.</p>
 
-<p>The passenger can be protected from the above mentioned bodily harms as described
-as, the air bag system opens from the bottom to the left or right side
-of bike; hence we can avoid hand/leg cracks or fractures. The diameter
-of the air bag when opened is more than height of the bike and that of
-the rider, hence head injury is avoided. As the material used in the air
-bag construction is light weight strong leather the chances of bike
-skidding or slipping is diminished and external injuries like scratches
-are avoided. The chances of the rider being thrown from the bike are
-avoided as the leather belts are provided on both sides of the bike to
-secure the legs of the rider. The material used for manufacturing these
-belts is similar to those used for manufacturing seat belts of cars.</p>
+<p>After the execution of print_string(), How does the computer know that control should <strong>return</strong> ed back to main() again? <strong>Notice that there is something called “ret”</strong> in print_string&lt;+39&gt; .</p>
 
-<h2 id="conclusion">Conclusion</h2>
+<p>(<strong>NOTE : The 0x0000000000400566 is the starting point of main() IN MY COMPUTER. IT MIGHT BE DIFFERENT IN DIFFERENT COMPUTERS</strong>).</p>
 
-<p>By providing  total safety to the motorcycle rider by implanting the
-airbags on both sides of the motorcycle as mention in this article  , we
-will reduce the fatality rate by 20% to 30%. By using this technology
-there is not only a reduce in death rate but also gives the total
-protection to the rider as well as motorcycle.</p>
+<h2 id="note-our-observation-points-and-then-run-the-program">Note our observation points and then run the program.</h2>
+
+<p><strong>a.</strong> Let us stop before print_string() is called. <br />
+<strong>b.</strong> Let us stop after print_string() is called and then go step by step.</p>
+
+<p>We can stop using the “<strong>break</strong>” instruction of gdb.</p>
+
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/break_points.png" alt="Image6" /></p>
+
+<p>First,we break at main() and then at print_string() .Now we run the program.<strong>$(gdb)run</strong></p>
+
+<p><strong>c. (gdb)ni</strong>-&gt; means <strong>next instruction</strong>.Using “ni”,we can analyse each instruction as we go.
+<strong>AT 0X400579</strong>,print_string() is present.This is <strong>important</strong>.</p>
+
+<p>Finally,we have stopped at gets(a).This instruction is not yet executed.</p>
+
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/before_gets.png" alt="Image6" /></p>
+
+<p>In the above screenshot,
+<strong>d. (gdb) x/32xw $rsp</strong> shows us the memory space (the space in stack) that system has allocated to store the string we input. There is something that is highlighted in the screenshot. Can you guess what this could be??</p>
+
+<p><strong>e. 0x0040057e</strong> -&gt; Address of the instruction after “call print_string() “ in the main() function . [Go back to the assembly code of main() and check] . This means,when print_string() function is called, <strong>THIS “0X0040057e” or THE RETURN ADDRESS is stored.</strong></p>
+
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/after_gets.png" alt="Image7" /></p>
+
+<p><strong>f.</strong> After a few “ni”s,gets(a) is executed and we input our string.
+Then again,check the stack by using <strong>$(gdb) x/32xw $rsp</strong> . (refer the above screenshot).</p>
+
+<p><strong>g.</strong> We will run it again with nore ‘a’s and see what happens.</p>
+
+<p><strong>The space where return address or 0x0040057e is supposed to be present has now become 0x00400061.</strong> 0x61 is the ascii equivalent of ‘a’.So, <strong>Our string this time tried to overwrite the return address.</strong></p>
+
+<p>The computer now <strong>thinks</strong> that the return address is <strong>0x00400061</strong> ,but that is an <strong>invalid address</strong> (Or an address which is not used in this particular program).</p>
+
+<p>Check out the screenshot below .</p>
+
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/illegal_instruction.png" alt="Image8" /></p>
+
+<p>Let us see and check what happens . After a few “ni”s,The string is printed and then “<strong>Segmentation fault</strong>“Remember we had got the same error in the very beginning . (before we started analysing with gdb) .</p>
+
+<p>Now <strong>we know</strong> why the error occurred. <strong>The address “0x00400061” was not accessible(or not a valid address)</strong> and that’s why we got an error. The control was <strong>NOT</strong> transferred back to main() .</p>
+
+<p>Think about it once,<strong>What if we overwrite the actual return address by a new VALID address where the new address has instructions that WE want to execute?</strong></p>
+
+<p>THIS WAY,WE CAN EXECUTE WHICHEVER INSTRUCTIONS WE WANT.The statement we had at the beginning (trying to fool the computer) is slowly coming to our light right?</p>
+
+<p><strong>h.</strong> Ok,now that we know the trick,we can give any valid address and the instruction in that address will be executed.</p>
+
+<p>What if we give the address of “print_string()”, will it be executed twice,<strong>Will it print the inputed string twice?</strong> . Let us see..</p>
+
+<p><strong>Let us note that the address of the instruction which calls</strong> print_string() <strong>is at 0x0000000000400579 .</strong></p>
+
+<p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/final.png" alt="Image9" /></p>
+
+<p>Instead of using python,we will use another useful tool,the <strong>printf</strong> .</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40"|./overflow
+</code></pre></div></div>
+<p>There are 39 a’s and the address which calls print_string() in the reverse order.(WHY IS THAT??)</p>
+
+<p>AND WE HAVE ACHIEVED IT!!The print_string() function was executed twice silently(with no wierdness) and control was returned back to main() again silently.</p>
+
+<p><strong>(Note:The number of a’s that I have put to reach the space where return address is stored may or may not be same as the number of a’s you might have to put to reach it. AND AGAIN,Our addresses need not be same.)</strong></p>
+
+<p>So,analyse the assembly code properly,make a note of all the important addresses and then proceed.</p>
+
+<h2 id="there-are-a-few-things-that-were-left-unexplained">There are a few things that were left unexplained:</h2>
+
+<p><strong>1.</strong> Why the source code was named “overflow.c” :What you have just done is a simple but an authentic example of what is known as “BUFFER OVERFLOW” . The a[30] is the buffer we had to store the string. When the strig length exceeded 30,the string is said to have overflown the buffer.</p>
+
+<p><strong>2.</strong> When compiled normally,we could not have done all the analysis that we did now. The latest compilers keep a check on buffer sizes and protects us from buffer overflows.</p>
+
+<p><strong>3.</strong> Check why we added -fno-stack-protector and -zexecstack while compiling the sourcecode.</p>
+
+<p><strong>4.</strong> Why we typed in the address in the reverse order in the last part?</p>
+
+<p>And a few more for you to research.</p>
+
+<p>There was one more thing. <strong>Executing instruction that WE wanted.</strong> That is definitely possible but is beyond the scope of this article. READ ABOUT THE ACTUAL IMPLICATIONS OF A BUFFER OVERFLOW. It is very interesting!</p>
+
+<p>I know this is a lot of stuff to know at once.Go through the article several times,understand each and every bit.</p>
+
+<p>I hoped you enjoyed the article and learnt something new out of it. Any kind of suggestion,feedback or appreciation:P ,leave a comment below.</p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/kirankumar.jpg" alt="Kiran Kumar G">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/adwait.jpg" alt="Adwaith V Gautham">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Kiran Kumar G</a>
+            <a itemprop="name" href="/">Adwaith V Gautham</a>
         </h3>
-        <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:kirankumar.kiran78@gmail.com">kirankumar.kiran78@gmail.com</a>
+        <p class="desc">On a mission of securing the cyberspace from bad guys</p>
+        <a itemprop="email" class="email" href="mailto:adwait.gautham@gmail.com">adwait.gautham@gmail.com</a>
     </div>
 </section>
 
@@ -336,21 +399,21 @@ protection to the rider as well as motorcycle.</p>
             
                 <section class="comments">
                     <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/The-airbag-system-for-2wheeler-vehicle/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/a-step-ahead-in-reverse-engineering/" data-colorscheme="dark" data-num-posts="4" data-width="706">
                     </div>
                 </section>
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/The-airbag-system-for-2wheeler-vehicle/%20via%20&#64;IEEE_NITK&hashtags="
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/a-step-ahead-in-reverse-engineering/%20via%20&#64;IEEE_NITK&hashtags=CTF,Ethical Hacking,Security,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//The-airbag-system-for-2wheeler-vehicle/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//a-step-ahead-in-reverse-engineering/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//The-airbag-system-for-2wheeler-vehicle/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//a-step-ahead-in-reverse-engineering/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

@@ -21,19 +21,21 @@ In this article,we will look into a simple C program intended to perform a parti
 SO,WE WILL BE TRYING TO FOOL THE COMPUTER!
 
 # Pre-requisites :
-1.A computer which runs linux     
-2.A curious mind which wants to know how stuff actually works!   
+1. A computer which runs Linux.     
+2. A curious mind which wants to know how stuff actually works!   
 
 We will be using GDB(GNU Debugger) to understand the C program at the assembly level.    
 
 If GDB is not installed in your box,you can type in this command to install it.    
 
-**$sudo apt-get install gdb**    
+~~~~
+sudo apt-get install gdb   
+~~~~
 
 Here is the source code of the executable we will be dealing with. It is named overflow.c. You will know by the end of this article,Why it was named so.  
 ![Image1](/blog/assets/img/A-step-ahead-in-Reverse-Engineering/source_code1.png)
 
-## 1.What does this program do?
+## What does this program do?
 
 **a.** In the main function,a printf() function is called to print the string “Before function call” .  
 **b.** The main function simply calls another function “print_string()” .   
@@ -46,9 +48,12 @@ Here is the source code of the executable we will be dealing with. It is named o
 Think for a moment why the 2 printf() statements are present before and
 after the function call.
 
-## 2.Compile the program(normally) using gcc :
+## Compile the program(normally) using gcc :
 
-**$gcc overflow.c -o overflow**   
+~~~~
+gcc overflow.c -o overflow   
+~~~~
+
 This gives an executable named "overflow".   
 
 ![Image2](/blog/assets/img/A-step-ahead-in-Reverse-Engineering/warning.png)
@@ -58,7 +63,7 @@ It is important to note the second warning(the overflow.c : (.text + 0x39))
 
 You would have used gets() before. **Have you given a thought of why this warning came up?**
 
-## 3.Running the executable with random inputs and observing what happens.  
+## Running the executable with random inputs and observing what happens.  
 
 ![Image3](/blog/assets/img/A-step-ahead-in-Reverse-Engineering/random_input.png)
 
@@ -69,7 +74,9 @@ Let us go step by step.
 **c.** The last time it was executed,we get this " **stack smashing detected** " and the program is terminated right there. IF YOU NOTICE,The string "After function call" is not printed. This means BEFORE THE CONTROL GOT TRANSFERRED TO THE main function,THE PROGRAM WAS TERMINATED. Why did this happen? **One obvious guess is that our string length was way more than 30 bytes.** But what exactly happened??    
 **d.** To analyse this,we will have to compile our code in the following manner.   
 
-**$gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g**   
+~~~~
+gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g   
+~~~~
 
 **e.** One more thing,we will have to give random inputs like above to analyse
 the behavior of the executable. So everytime typing “aaaaaaaaaaaaaa....”
@@ -82,7 +89,7 @@ Execute the program in following manner :  __$ python -c "print 'a' * 35" | ./ov
 
 The 35 can be replaced by any number you want as showed in the above screenshot.
 
-## 4.Analyse the above screenshot :  
+## Analyse the above screenshot   
 
 __a.__ Though the string storage capacity is 30 bytes,in the first case,the program is able to take 35 bytes.  
 __b.__ In the third case,something __wierd__ happened. It says "__Illegal Instruction__" and "After function call" was __not__ printed. So,control didn't get transferred to the main program.   
@@ -90,9 +97,11 @@ __c.__ In the last case,again something __wierd__ happened. It said "__segmentat
 
 We obviously have to investigate the wierd cases and know if we can do something about it.
 
-## 5.Finally,it is time to fireup your debugger!    
+## Finally, it is time to fireup your debugger!    
 
-__$ gdb -q overflow__
+~~~~
+$ gdb -q overflow
+~~~~
 
 ![Image5](/blog/assets/img/A-step-ahead-in-Reverse-Engineering/disass.png)
 
@@ -102,13 +111,13 @@ __a. (gdb)set disassembly-flavor intel__ : This means there are other flavors al
 __b. (gdb)disass main__  : This dumped the assembly equivalent of the main function written in C.   
 __c. (gdb)disass__ print_string() : This dumped the assembly equivalent of the print_string() function.   
 
-## 6.ANALYSIS OF main() :    
+## Analysis OF main() :    
 
 __a.__ In the main function,we had 3 main tasks 1.printf() , 2.function call 3.again a printf().   
 __b.__ We can easily figure out that tha main<+9> instruction is the printf("\nBefore function call\n"), and main<+29> is printf("\nAfter function call\n");   
 __c.__ What does main<+19> do? It says __<+19> call 0x40058f__ < print_string > . From this,it is clear that our "print_string" function is __called at <+19> instruction.(Address of this instruction is 0x400579)__.   
 
-## 7.ANALYSIS OF print_string() :
+## Analysis of print_string() :
 
 __a.__ push rbp
        mov rbp,rsp
@@ -122,7 +131,7 @@ After the execution of print_string(), How does the computer know that control s
 
 (__NOTE : The 0x0000000000400566 is the starting point of main() IN MY COMPUTER. IT MIGHT BE DIFFERENT IN DIFFERENT COMPUTERS__).
 
-## 8.Note our observation points and then run the program.
+## Note our observation points and then run the program.
 
 __a.__ Let us stop before print_string() is called.   
 __b.__ Let us stop after print_string() is called and then go step by step.   
@@ -170,15 +179,17 @@ THIS WAY,WE CAN EXECUTE WHICHEVER INSTRUCTIONS WE WANT.The statement we had at t
 
 __h.__ Ok,now that we know the trick,we can give any valid address and the instruction in that address will be executed.
 
-WHAT IF WE GIVE THE ADDRESS OF "print_string()", will it be executed twice,__Will it print the inputed string twice?__ . Let us see..
+What if we give the address of "print_string()", will it be executed twice,__Will it print the inputed string twice?__ . Let us see..
 
 __Let us note that the address of the instruction which calls__ print_string() __is at 0x0000000000400579 .__
 
 ![Image9](/blog/assets/img/A-step-ahead-in-Reverse-Engineering/final.png)
 
-Instead of using python,we will use another useful tool,the __printf__ .   
-		**$ printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40"|./overflow**
+Instead of using python,we will use another useful tool,the __printf__ .
 
+~~~~
+printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40"|./overflow
+~~~~
 There are 39 a's and the address which calls print_string() in the reverse order.(WHY IS THAT??)
 
 AND WE HAVE ACHIEVED IT!!The print_string() function was executed twice silently(with no wierdness) and control was returned back to main() again silently.
@@ -200,12 +211,8 @@ __4.__ Why we typed in the address in the reverse order in the last part?
 
 And a few more for you to research.   
 
-
 There was one more thing. __Executing instruction that WE wanted.__ That is definitely possible but is beyond the scope of this article. READ ABOUT THE ACTUAL IMPLICATIONS OF A BUFFER OVERFLOW. It is very interesting!
-
 
 I know this is a lot of stuff to know at once.Go through the article several times,understand each and every bit.
 
-I hoped you enjoyed the article and learnt something new out of it.
-Any kind of suggestion,feedback or appreciation:P ,leave a comment below.
-
+I hoped you enjoyed the article and learnt something new out of it. Any kind of suggestion,feedback or appreciation:P ,leave a comment below.
