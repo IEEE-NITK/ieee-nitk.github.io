@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "The Future of Computing: Quantum Computing",
+      "category" : "CompSoc",
+      "tags"     : "Quantum Computing and Qubits",
+      "url"      : "http://ieeenitk.org/blog//Future-of-computing-Quantum-computing/",
+      "date"     : "18 Dec 2017"
+    } ,
+  
+    {
       "title"    : "Technology in Sports",
       "category" : "Diode",
       "tags"     : "Sports",
@@ -13,7 +21,7 @@
       "category" : "CompSoc",
       "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
       "url"      : "http://ieeenitk.org/blog//Hashing-in-Competitive-Programming/",
-      "date"     : "22 Aug 2017"
+      "date"     : "21 Aug 2017"
     } ,
   
     {

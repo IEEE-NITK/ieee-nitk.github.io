@@ -5,14 +5,30 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Aug 2017 17:23:23 +0530</pubDate>
-    <lastBuildDate>Sat, 26 Aug 2017 17:23:23 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Tue, 19 Dec 2017 15:20:41 +0400</pubDate>
+    <lastBuildDate>Tue, 19 Dec 2017 15:20:41 +0400</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>The Future of Computing: Quantum Computing</title>
+        <description>&lt;p&gt;Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s doing it? Read this article to find out!&lt;/p&gt; &lt;p&gt;Even though they may be fragile today as well as they need to be kept at temperatures close to absolute zero, Quantum computers aren’t much like the desktop PCs we’re all so familiar with—they’re...</description>
+        <pubDate>Mon, 18 Dec 2017 16:19:03 +0400</pubDate>
+        <link>http://ieeenitk.org/blog/Future-of-computing-Quantum-computing/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Future-of-computing-Quantum-computing/</guid>
+        
+        <category>Quantum Computing</category>
+        
+        <category>Qubits</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Technology in Sports</title>
         <description>&lt;p&gt;The world of sport is continually changing over the years, and the use of technology is just one of those areas that has made an impact on many sports. It has changed the way players approach a particular sport. Various technologies are used to assist umpires or referees, while some of them are used for advanced coaching and enhanced experience for fans.&lt;/p&gt; &lt;h2 id=&quot;a-digital-coach&quot;&gt;A digital coach…&lt;/h2&gt; &lt;p&gt;In the recently concluded Champions Trophy 2017, smart bats were used to obtain various data. Small sensors, fixed at the top of the handle, were used. The bat sensor, powered by the Intel Curie technology,...</description>
-        <pubDate>Tue, 22 Aug 2017 04:45:10 +0530</pubDate>
+        <pubDate>Tue, 22 Aug 2017 03:15:10 +0400</pubDate>
         <link>http://ieeenitk.org/blog/Technology-in-Sports/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Technology-in-Sports/</guid>
         
@@ -26,7 +42,7 @@
       <item>
         <title>Hashing in Competitive Programming</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;At it’s most basic hashing is a technique to identify a particular value of a certain type among other values of the same type. To achieve this we typically make use of a hash function: a function that takes a value of the required type as input and generates a “key” that (hopefully) can uniquely identify this value. In this article we’ll look at how this function works, how it’s implemented in C++, and how to apply hashing to solve a Competitive Programming problem.&lt;/p&gt; &lt;h2 id=&quot;hashing-in-c&quot;&gt;Hashing in C++&lt;/h2&gt; &lt;p&gt;C++ offers 2 containers in C++ that are often useful...</description>
-        <pubDate>Tue, 22 Aug 2017 01:10:58 +0530</pubDate>
+        <pubDate>Mon, 21 Aug 2017 23:40:58 +0400</pubDate>
         <link>http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</guid>
         
@@ -46,7 +62,7 @@
       <item>
         <title>When Strokes are Six</title>
         <description>&lt;h3 id=&quot;man-and-his-car&quot;&gt;Man and his Car&lt;/h3&gt; &lt;p&gt;The stories are different, yet the same . From the spark that taught him about fire and the wheels that took him to places, to the roads that he hit everyday, he has come a long way. The love and passion to be in one, to feel its heartbeat and power, to drive and tame them, he has always loved them. But rare are those who are interested in the technology that drives their beasts.&lt;/p&gt; &lt;p&gt;It is said that technology advances in rapid pace. Though it is right for a majority of areas, advancements in...</description>
-        <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
+        <pubDate>Sun, 13 Aug 2017 00:00:00 +0400</pubDate>
         <link>http://ieeenitk.org/blog/six_stroke_engine/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/six_stroke_engine/</guid>
         
@@ -60,7 +76,7 @@
       <item>
         <title>A QuickStart Guide to Image Processing with OpenCV</title>
         <description>&lt;h3 id=&quot;why-learn-image-processing&quot;&gt;Why learn Image Processing?&lt;/h3&gt; &lt;p&gt;This is the question I was primarily asked when I first started exploring just exactly what Image Processing can offer. As time passed, I soon found the now seemingly obvious answer. Although the name, Image Processing, itself suggests manipulating an image for either aesthetic pleasure or requirement, Image Processing actually provides a gateway for the next revolution in engineering. As more and more people become accustomed to having human tasks being done by machines, image processing becomes crucial in training and programming these machines to flourish. Image processing not only provides the framework for Computer...</description>
-        <pubDate>Sun, 13 Aug 2017 00:00:00 +0530</pubDate>
+        <pubDate>Sun, 13 Aug 2017 00:00:00 +0400</pubDate>
         <link>http://ieeenitk.org/blog/opencv/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/opencv/</guid>
         
@@ -74,7 +90,7 @@
       <item>
         <title>Is Random really Random?</title>
         <description>&lt;p&gt;Random numbers have been used for many thousands of years. Roll a dice. Flip a coin. Pick a card from a deck. Whatever the result may be in these three situations, it’s completely random each time and there’s no way of predicting it by looking at the previous outcomes. In other words, the end result is left to random chance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/random-number-generator/dice.jpg&quot; alt=&quot;Dice&quot; /&gt;&lt;/p&gt; &lt;p&gt;Random number generators in a computer are similar: they’re an attempt to achieve an unpredictable, random result. From creating random keys for data encryption to random shuffling cards in a poker website, generation of random numbers...</description>
-        <pubDate>Fri, 04 Aug 2017 09:18:33 +0530</pubDate>
+        <pubDate>Fri, 04 Aug 2017 07:48:33 +0400</pubDate>
         <link>http://ieeenitk.org/blog/random-number-generator/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/random-number-generator/</guid>
         
@@ -96,7 +112,7 @@
       <item>
         <title>Smart Phones and Health issues</title>
         <description>&lt;p&gt;The way smartphones have changed our lives is amazing. Technology has been ever bringing multiple facets of our daily lives within the scope of smartphones, which in turn gets smaller and slimmer. No more does our parents bother us to go and pay telephone or electricity bills (if you were a 90’s kid :P) neither does shopkeepers curse you for not having suitable denominations. It has all come down to few swipes and touches. As new innovations brought the world closer and time shorter, it has not come without any drawbacks, same with the case of smartphones. Again, it’s the...</description>
-        <pubDate>Fri, 04 Aug 2017 01:00:00 +0530</pubDate>
+        <pubDate>Fri, 04 Aug 2017 01:00:00 +0400</pubDate>
         <link>http://ieeenitk.org/blog/Smartphones-and-health/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/Smartphones-and-health/</guid>
         
@@ -112,7 +128,7 @@
       <item>
         <title>Of a tooth and a pie</title>
         <description>&lt;p&gt;At first, I thought I would write about the wonder creation of yesteryear-Bluetooth. Give you a little insight into how it works, the various layers of Bluetooth, it’s profiles and so on. But I guess Wikipedia would do a much better job at it. So, I decided to share something I learned during my internship- how we can &lt;strong&gt;make use of the inbuilt Bluetooth controller in Raspberry Pi 3 to implement some of the profiles of Bluetooth.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;First, you need to know that &lt;strong&gt;Raspberry Pi&lt;/strong&gt; is nothing but a Linux machine and can be governed by some commands that you...</description>
-        <pubDate>Fri, 04 Aug 2017 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 04 Aug 2017 00:00:00 +0400</pubDate>
         <link>http://ieeenitk.org/blog/raspberry-pi-bluetooth/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/raspberry-pi-bluetooth/</guid>
         
@@ -130,7 +146,7 @@
       <item>
         <title>Ever wondered why exactly are high lift devices needed? Let me tell you...</title>
         <description>&lt;h1 id=&quot;ever-wondered-why-exactly-are-high-lift-devices-needed-let-me-tell-you&quot;&gt;Ever wondered why exactly are high lift devices needed? Let me tell you…&lt;/h1&gt; &lt;p&gt;Lift generated by wings of an aircraft is estimated by the following relationship,&lt;/p&gt; &lt;p&gt;\begin{equation} L = \frac{1}{2}\rho v^2 A C_L \end{equation}&lt;/p&gt; &lt;p&gt;Where:&lt;/p&gt; &lt;p&gt;$L$ = lift force generated&lt;/p&gt; &lt;p&gt;$\rho$ = air density&lt;/p&gt; &lt;p&gt;$v$ = true air speed&lt;/p&gt; &lt;p&gt;$A$ = lifting area of the wing&lt;/p&gt; &lt;p&gt;$C_L$ = coefficient of lift&lt;/p&gt; &lt;p&gt;Clearly, same amount of lift can be generated by various permutations and combinations of $\rho$, $v$, $A$ and $C_L$.&lt;/p&gt; &lt;p&gt;Now, let us think about situations when $v$ is quite less, take-off or landing for instance, that the lift...</description>
-        <pubDate>Fri, 28 Jul 2017 23:02:44 +0530</pubDate>
+        <pubDate>Fri, 28 Jul 2017 21:32:44 +0400</pubDate>
         <link>http://ieeenitk.org/blog/HIgh-Lift-devices/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/HIgh-Lift-devices/</guid>
         
@@ -144,7 +160,7 @@
       <item>
         <title>3D Printing</title>
         <description>&lt;h1 id=&quot;3-d-printing-a-world-beyond-2d&quot;&gt;3-D Printing-A world beyond 2D&lt;/h1&gt; &lt;h3 id=&quot;-the-emerging-world-of-3d-printing-&quot;&gt;&lt;center&gt; The emerging world of 3D printing &lt;/center&gt;&lt;/h3&gt; &lt;p&gt;3D Printing is something all of us have come across in today’s world. It may seem like a new technology but history points out that it is no recent development.[ In fact, 3D printing has its roots in the 1980s. In 1984, Chuck Hull, invented a process called “stereolithography” which used UV lasers to solidify photopolymer that created 3D parts layer by layer. A technology which initially began with the aim of prototyping has today secured its place in the manufacturing industry. Today its use is far more...</description>
-        <pubDate>Fri, 28 Jul 2017 21:02:44 +0530</pubDate>
+        <pubDate>Fri, 28 Jul 2017 19:32:44 +0400</pubDate>
         <link>http://ieeenitk.org/blog/3D-Printing/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/3D-Printing/</guid>
         
@@ -156,24 +172,6 @@
         
         
         <category>IEEE</category>
-        
-      </item>
-    
-      <item>
-        <title>An Introduction to Reinforcement Learning</title>
-        <description>&lt;h1 id=&quot;an-introduction-to-reinforcement-learning&quot;&gt;An Introduction to Reinforcement Learning&lt;/h1&gt; &lt;p&gt;Imagine you are trying to train a dog to do fetch a ball. What you’d normally do is that you would reward it a snack every time it fetched the ball. The dog would then associate the snack with the act of fetching and would do it every time in the hope of a treat. Ladies and gentlemen, this is Reinforcement Learning. Cue the curtains. We’re done here. ;)&lt;/p&gt; &lt;h3 id=&quot;wait-what-you-didnt-tell-me-what-reinforcement-learning-actually-is&quot;&gt;Wait what? You didn’t tell me what Reinforcement Learning actually is.&lt;/h3&gt; &lt;p&gt;All jokes aside, Reinforcement Learning is the area of machine learning which resembles...</description>
-        <pubDate>Fri, 28 Jul 2017 19:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Reinforcement-Learning/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Reinforcement-Learning/</guid>
-        
-        <category>Machine Learning</category>
-        
-        <category>AI</category>
-        
-        <category>Bots</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
