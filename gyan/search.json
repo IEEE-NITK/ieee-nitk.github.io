@@ -1,34 +1,74 @@
 [
   
     {
+      "title"    : "University of Illinois at Urbana-Champaign, Internship Experience - Anand Thamban",
+      "category" : "Diode",
+      "tags"     : "Internships and Research",
+      "url"      : "https://ieeenitk.org/gyan//anand-thamban-summer-internship/",
+      "date"     : "17 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "Samsung Semiconductor India R&amp;D Centre, Internship Experience - Aditya Kulkarni",
+      "category" : "Diode",
+      "tags"     : "Internships and Industry",
+      "url"      : "https://ieeenitk.org/gyan//aditya-kulkarni-summer-internship/",
+      "date"     : "10 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "IAS Internship Experience - Mohita Chowdhury",
+      "category" : "Diode",
+      "tags"     : "Internships, IAS, and Research",
+      "url"      : "https://ieeenitk.org/gyan//mohita-chowdhury-summer-internship/",
+      "date"     : "04 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "Advice on Computer Science - Vinay Bhat",
+      "category" : "CompSoc",
+      "tags"     : "Internships, Career Advice, and Industry",
+      "url"      : "https://ieeenitk.org/gyan//vinay-siemens/",
+      "date"     : "27 Aug 2017"
+    } ,
+  
+    {
+      "title"    : "Mathworks Internship Experience - Natasha Jeppu",
+      "category" : "CompSoc",
+      "tags"     : "Internships and Industry",
+      "url"      : "https://ieeenitk.org/gyan//natasha-mathworks/",
+      "date"     : "19 Aug 2017"
+    } ,
+  
+    {
       "title"    : "Insight 2k17 - CompSoc",
       "category" : "CompSoc",
-      "tags"     : "Internships and Insight",
-      "url"      : "http://ieeenitk.org/gyan//insight-2k17/",
+      "tags"     : "Internships, Research, and Industry",
+      "url"      : "https://ieeenitk.org/gyan//insight-2k17/",
       "date"     : "12 Aug 2017"
     } ,
   
     {
       "title"    : "Internships Abroad",
       "category" : "CompSoc",
-      "tags"     : "Internships",
-      "url"      : "http://ieeenitk.org/gyan//internships-Abroad/",
+      "tags"     : "Internships and Research",
+      "url"      : "https://ieeenitk.org/gyan//internships-abroad/",
       "date"     : "12 Aug 2017"
     } ,
   
     {
       "title"    : "A talk with - Vijayakrishna Naganoor",
       "category" : "Diode",
-      "tags"     : "Gyan and SPS",
-      "url"      : "http://ieeenitk.org/gyan//vk-interview/",
+      "tags"     : "Gyan",
+      "url"      : "https://ieeenitk.org/gyan//vk-interview/",
       "date"     : "15 Jul 2017"
     } ,
   
     {
       "title"    : "Peeking into a hacker&#39;s mind - an Interview with Kishor Bhat",
       "category" : "CompSoc",
-      "tags"     : "Cyber Security and CTFs",
-      "url"      : "http://ieeenitk.org/gyan//kishor-bhat-interview/",
+      "tags"     : "Gyan",
+      "url"      : "https://ieeenitk.org/gyan//kishor-bhat-interview/",
       "date"     : "02 Jul 2017"
     } ,
   
@@ -36,23 +76,23 @@
       "title"    : "A talk with - Abin Alex Pothen",
       "category" : "Piston",
       "tags"     : "Research and Gyan",
-      "url"      : "http://ieeenitk.org/gyan//abin-alex-interview/",
+      "url"      : "https://ieeenitk.org/gyan//abin-alex-interview/",
       "date"     : "02 Jul 2017"
     } ,
   
     {
       "title"    : "A talk with - Gaurav Hegde",
       "category" : "Diode",
-      "tags"     : "Math and Gyan",
-      "url"      : "http://ieeenitk.org/gyan//gaurav-hegde-interview/",
+      "tags"     : "Gyan",
+      "url"      : "https://ieeenitk.org/gyan//gaurav-hegde-interview/",
       "date"     : "20 Jun 2017"
     } ,
   
     {
       "title"    : "Advice on Computer Science - Vinay Bhat",
       "category" : "CompSoc",
-      "tags"     : "Internships and Career Advice",
-      "url"      : "http://ieeenitk.org/gyan//vinay-bhat-interview/",
+      "tags"     : "Internships, Career Advice, and Industry",
+      "url"      : "https://ieeenitk.org/gyan//vinay-bhat-interview/",
       "date"     : "15 May 2017"
     } 
   

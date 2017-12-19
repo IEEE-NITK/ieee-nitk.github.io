@@ -5,7 +5,6 @@ date: 2017-06-19 23:32:44
 image: '/assets/img/'
 description: 'ECE Batch of 2017 and Former Secretary IEEE NITK'
 tags:
-- Math
 - Gyan
 categories:
 - Diode

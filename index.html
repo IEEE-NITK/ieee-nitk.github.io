@@ -1,24 +1,120 @@
 <!DOCTYPE html>
 <html ng-app="mainApp" ng-controller="mainController">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags-->
+    <!-- Give a small description in 3-4 sentences about the website -->
+    <meta name="description" content="IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section. IEEE NITK undertakes lots of projects by its various SIGs which are formed and projects undertaken by students are futher applied to help solve daily world problems.">
+    <!-- A small abstract idea about the website -->
+    <meta name="abstract" content="This Website is about IEEE NITK Student Chapter">
+    <!-- Important Keywords to be noted in the website  -->
+    <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+    <!-- Tell the spider to index the first page and other pages as well-->
+    <meta name="robots" content="index, follow">    
+    <!-- How often should spiders come back to your page -->
+    <meta name="revisit-after" content="3 days">
+
+    <!-- Copyright regarding the website -->
+    <meta name="copyright" content="IEEE NITK">
+    <!-- Tells Google Bot not to duplicate description -->
+    <meta name="googlebot" content="noodp">
+    <!-- Language for the website -->
+    <meta name="language" content="English">  
+
+    <!-- Web Author for the image -->
+    <meta name="web_author" content="IEEE NITK">
+    <meta name="author" content="Salman Shah">
+    <!-- Email ID -->
+    <meta name="contact" content="chairman.nitkieee@gmail.com" />
+    <!-- Email ID to reply to -->
+    <meta name="reply-to" content="chairman.nitkieee@gmail.com">
+
+    <!-- Refers to distribution of the page -->
+    <meta name="distribution" content="global">
+    <!-- Generator or formatter tag -->
+    <meta name="generator" content="Jekyll">
+    <!-- Disallow spammers for the webpage -->
+    <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+    <!-- Rating for the page -->
+    <meta name="rating" content="general">
+    <!-- Content Type for the page -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Fixing viewport on mobile views -->
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+
+    <!-- Default Image present -->
+    <meta property="og:image" content="/blog/assets/blog-image.png">
+
+
+    <!-- Page Title -->
     <title>Home|IEEE NITK</title>
+
+    <!-- Linked Sheets needed -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="res/main.css">
     <link rel="stylesheet" href="res/jquery.fullpage.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Linked Scripts needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullpage.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/events.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-106590424-3');
+    </script>
+
+    <!--Structured Data-->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "description":"IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section",
+            "email":"chairman.nitkieee@gmail.com",
+            "url": "https://www.ieeenitk.org",
+            "name": "IEEE NITK",
+            "foundingDate":"1988",
+            "location" : {
+                "@type": "Place",
+                "name": "NITK",
+                "map": "https://goo.gl/maps/qitf7bZSSBR2",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "National Institute of Technology Karnataka",
+                    "addressLocality": "Surathkal, Mangalore",
+                    "addressRegion": "Karnataka",
+                    "postalCode": "575025",
+                    "addressCountry": "India"
+                }
+            },
+            "member": {
+                "@type": "Person",
+                "name": "Anand Thamban",
+                "jobTitle":"Convener",
+                "email":"anandthamban@gmail.com"      
+            },
+            "parentOrganization":["IEEE","IEEE Bangalore"],
+            //"logo":"ieee-nitk logo url",  
+            "subOrganization":["CompSoc","CAS","Piston"],
+            "sameAs": [
+                    "https://www.facebook.com/IEEENITK/",
+                    "https://github.com/IEEE-NITK/"]
+        }
+    </script>
+
+
 </head>
 <body>
     <nav class="visible_nav">
-        <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt=""></a>
+        <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
         <div class="popup_menu">
             <ul id="menu" class="teco">
                 <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
@@ -55,7 +151,7 @@
             <div class="main_container">
                 <div id="text_effect"></div>
                 <div id="logo">
-                    <img src="res/img/ieee_white.png" alt="">
+                    <img src="res/img/ieee_white.png" alt="IEEE Logo">
                 </div>
             </div>
         </div>
@@ -202,7 +298,7 @@
                 </div>
                 <div class="member_card card_left">
                     <div class="img_section">
-                        <img src="res/img/faculty/sumam_david.jpg" alt="">
+                        <img src="res/img/faculty/sumam_david.jpg" alt="Sumam David">
                     </div>
                     <div class="data_section sans">
                         <h3>Dr. Sumam David</h3>
@@ -212,7 +308,7 @@
                 </div>
                 <div class="member_card card_right">
                     <div class="img_section">
-                        <img src="res/img/faculty/annappa.jpg" alt="">
+                        <img src="res/img/faculty/annappa.jpg" alt="Anappa">
                     </div>
                     <div class="data_section sans">
                         <h3>Dr. Annappa</h3>
@@ -222,7 +318,7 @@
                 </div>
                 <div class="member_card card_left">
                     <div class="img_section">
-                        <img src="res/img/faculty/msbhat.png" alt="">
+                        <img src="res/img/faculty/msbhat.png" alt="MS Bhat">
                     </div>
                     <div class="data_section sans">
                         <h3>Dr. M. S. Bhat</h3>
@@ -232,7 +328,7 @@
                 </div>
                 <div class="member_card card_right">
                     <div class="img_section">
-                        <img src="res/img/faculty/rkini.jpg" alt="">
+                        <img src="res/img/faculty/rkini.jpg" alt="R Kini">
                     </div>
                     <div class="data_section sans">
                         <h3>Dr. Ramesh Kini</h3>
@@ -242,7 +338,7 @@
                 </div>
                 <div class="member_card card_left">
                     <div class="img_section">
-                        <img src="res/img/faculty/deepu.jpg" alt="">
+                        <img src="res/img/faculty/deepu.jpg" alt="Deepu">
                     </div>
                     <div class="data_section sans">
                         <h3>Dr. Deepu Vijayasenan</h3>
@@ -306,11 +402,11 @@
                 </div>
                 <div class="links">
                     <h3>Links</h3>
-                    <a target="blank" href="http://ieeebangalore.org/" title="IEEE Bangalore">IEEE Bangalore Section</a>
+                    <a target="blank" href="http://www.ieeebangalore.org/" title="IEEE Bangalore">IEEE Bangalore Section</a>
                     <br>
-                    <a target="blank" href="https://ieee.org/" title="IEEE">IEEE</a>
+                    <a target="blank" href="https://www.ieee.org/" title="IEEE">IEEE</a>
                     <br>
-                    <a target="blank" href="https://nitk.ac.in" title="NITK Surathkal">NITK Surathkal</a>
+                    <a target="blank" href="http://nitk.ac.in/" title="NITK Surathkal">NITK Surathkal</a>
                 </div>
             </footer>
         </div>

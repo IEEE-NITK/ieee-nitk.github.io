@@ -2,7 +2,7 @@
 title: Gyan passed down from one batch to another
 description: IEEE NITK is a student branch of IEEE located at NITK Surathkal. This section called Gyan serves as a collection of experiences of various seniors throughout the years.
 baseurl: "/gyan" # the subpath of your site, e.g. /blog
-url: "http://ieeenitk.org" # the base hostname & protocol for your site e.g. http://ieeenitk.org
+url: "https://ieeenitk.org" # the base hostname & protocol for your site e.g. http://ieeenitk.org
 
 # User settings
 username: IEEE-NITK 
@@ -48,8 +48,8 @@ plugins_dir:
   ['jekyll-paginate']
 
 # Gems
-# plugins: [jekyll-paginate]
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+# gems: [jekyll-paginate]
 
 #make 5 articles per page
 paginate: 5
