@@ -14,7 +14,7 @@ github_username: 'RosaGeorge31'
 comments: true
 ---
 
-Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of  of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s doing it? Read this article to find out! 
+Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s working on it? Read this article to find out! 
 
 Even though they may be fragile today as well as they need to be kept at temperatures close to absolute zero, Quantum computers aren’t much like the desktop PCs we’re all so familiar with—they’re a whole new kind of machine, capable of calculations so complex, it’s like **upgrading from black-and-white to a full color spectrum**.
 
