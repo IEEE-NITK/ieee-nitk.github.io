@@ -24,7 +24,6 @@ The company mainly deals with design and technology supplies in various fields l
 It was basically an internal project wherein you were trying out the feasibility of using a Raspberry Pi inside a set-top box to deal with all the Bluetooth related functions like transfering text files or images, or playing music on it , etc
 
 ## How was the work culture?
-### Was it challenging for you to do it? What new skills did you develop?
 
 Since it was an internal project, only two people, including myself, was assigned to it. The office timings were actually flexible but there was a lot of work to be completed, so I usually worked for 9 hours per day.
 

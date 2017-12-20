@@ -28,7 +28,6 @@ I directly mailed the professor, stating my interest. I did sent mails to few ot
 I worked as part of a team, which modified a software tool being devoloped at CPDM, IISC. It aims to guide designers through a structured design process, helped by design methods and governed by sustainability definitions. Such a process promotes innovation, sustainability and creativity in the designs being devoloped.
 
 ## How was the work culture?
-### Was it challenging for you to do it? What new skills did you develop?
 
 The work culture at IISc was something that inspired me to the core. Everyone, including the professors and research assistants, were helpful and humble too. The timings were flexible, we just had to make sure the work is done and deadlines are met. When the people around you show such professionalism and character, you too tend to leave behind your laziness and work sincerely.
 

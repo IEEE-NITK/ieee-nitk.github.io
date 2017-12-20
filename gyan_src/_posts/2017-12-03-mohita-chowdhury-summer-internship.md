@@ -29,7 +29,6 @@ I applied for the Summer Research Fellowship Programme by the Indian Academy of 
 My internship was in the field of Computer Vision. It's a relatively new topic in India and there are very less institutes having a good infrastructure for it. SRFP ensured that I get the best place possible. So, I'm working on the project "Object Segmentation and Labelling using Stereo Images". If you want the details, you can contact me anytime.
 
 ## How was the work culture?
-### Was it challenging for you to do it? What new skills did you develop?
 
 It's pretty chill here. But it's good if you can work for 6-7 hours a day. It's more of a target based work. It is not stressful, just that, you will have to properly keep a track of your daily work for the reports that need to be submitted after every month. I also enrolled for the Global Internship Programme for Engineering Design and Innovation(GIPEDI) at IIT Delhi. They directly select IAS fellows and provide training for soft skills and other professional ethics In addition to research based skills. 
 

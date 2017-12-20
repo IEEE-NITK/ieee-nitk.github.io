@@ -38,7 +38,6 @@ As to what was asked in the group discussion, the HR had asked the shortlisted c
 My internship was in the field of CMOS image sensor design, specifically in the analog design domain. CMOS design utilizes nanometer length transistors to design microscopic and compact circuits to make devices compact and more power efficient. My work mainly revolved around designing image filter models to remove temporal and spatial noise on images.
 
 ## How was the work culture?
-### Was it challenging for you to do it? What new skills did you develop?
 
 We had compulsory 9 hour per day work timings, but the entry timings were pretty flexible. Objective setting was done once every fortnight and weekly reviews were conducted by our managers and mentors. However, the unlimited supply of coffee, tea and soft drinks kept our juices running through the day.
 

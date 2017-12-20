@@ -34,7 +34,6 @@ My Internship involved implementing the paper:
 We basically used Matlab and a couple of Spark V robots for testing on a platform called ROS (Robot Operating System) and simulated the algorithm on a ROS compliant simulator called Gazebo.
 
 ## How was the work culture?
-### Was it challenging for you to do it? What new skills did you develop?
 
 The work culture was far from stringent; but, it was target-based. All the professors want are results and they don't bother how you get it done. You are free to work wherever and whenever you wish as per your convinience.
 

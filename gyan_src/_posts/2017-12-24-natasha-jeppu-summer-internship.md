@@ -1,4 +1,3 @@
----
 layout: post
 title: "TU Munich (DAAD WISE), Internship Experience - Natasha Jeppu"
 date: 2017-12-24 11:32:44
@@ -36,7 +35,6 @@ I worked on developing interfaces between some simulation and verification tools
 2. Simulation and Analysis of FlexRay networks using Simulink and TrueTime library.
 
 ## How was the work culture?
-### Was it challenging for you to do it? What new skills did you develop?
 
 The work culture at TUM is very relaxed, I didn't have to adhere to any fixed timings. The labs are open everyday, including weekends and you can use the lab facilities freely to complete your projects. Other students and research interns are helpful and the professors and your project mentors also take time to help you in case you are stuck.
 

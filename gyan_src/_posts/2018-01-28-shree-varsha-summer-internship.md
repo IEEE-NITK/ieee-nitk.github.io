@@ -31,7 +31,6 @@ The company visited the campus in the odd semester. There was an online test in 
 As a materials engineer, my project was broadly titled as - Future Materials Research. It involved a lot of learning on how an aircraft works, how it's manufactured, aerodynamics, electrical aspects and materials selection. Based on these, I had to work on novel materials for future helicopters.
 
 ## How was the work culture?
-### Was it challenging for you to do it? What new skills did you develop?
 
 The working environment is very relaxed and healthy. The office timings were 9am-6pm, but the interns were relieved from strictly following it. It is definitely a target-based approach.
 
