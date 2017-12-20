@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Dec 2017 18:29:54 +0530</pubDate>
-    <lastBuildDate>Mon, 11 Dec 2017 18:29:54 +0530</lastBuildDate>
+    <pubDate>Wed, 20 Dec 2017 11:53:47 +0530</pubDate>
+    <lastBuildDate>Wed, 20 Dec 2017 11:53:47 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>The Future of Computing: Quantum Computing</title>
+        <description>&lt;p&gt;Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s doing it? Read this article to find out!&lt;/p&gt; &lt;p&gt;Even though they may be fragile today as well as they need to be kept at temperatures close to absolute zero, Quantum computers aren’t much like the desktop PCs we’re all so familiar with—they’re...</description>
+        <pubDate>Mon, 18 Dec 2017 17:49:03 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/future-of-computing-quantum-computing/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/future-of-computing-quantum-computing/</guid>
+        
+        <category>Quantum Computing</category>
+        
+        <category>Qubits</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Airbag System for two Wheeler vehicles</title>
@@ -143,22 +159,6 @@
         <guid isPermaLink="true">http://ieeenitk.org/blog/how-qr-code-was-invented/</guid>
         
         <category>QR code</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Smart Grid</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;How many times have you felt guilty about excessive usage of electricity when you see your monthly bill? Imagine managing the electricity delivered to your house like you manage activities like personal banking from a computer!&lt;/p&gt; &lt;p&gt;You will no longer have to wait till the end of the month to know how many units you have consumed- you have “Smart meters,” and other mechanisms, will allow you to see how much electricity you use, when you use it, and its cost. It also comes with real-time pricing, which will allow you to save money by using less power...</description>
-        <pubDate>Sun, 05 Nov 2017 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/smart-grid/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/smart-grid/</guid>
-        
-        <category>Smart grid</category>
-        
-        <category>Electric grid</category>
         
         
         <category>Diode</category>

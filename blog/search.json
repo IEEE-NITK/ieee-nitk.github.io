@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "The Future of Computing: Quantum Computing",
+      "category" : "CompSoc",
+      "tags"     : "Quantum Computing and Qubits",
+      "url"      : "http://ieeenitk.org/blog//future-of-computing-quantum-computing/",
+      "date"     : "18 Dec 2017"
+    } ,
+  
+    {
       "title"    : "Airbag System for two Wheeler vehicles",
       "category" : "Piston",
       "tags"     : "",
