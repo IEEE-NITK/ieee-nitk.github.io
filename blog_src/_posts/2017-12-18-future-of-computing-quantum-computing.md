@@ -21,6 +21,7 @@ Even though they may be fragile today as well as they need to be kept at tempera
 Currently we’re in the midst of entering a new era of quantum computing called the **NISQ era**, for Noisy, Intermediate-Scale quantum computer as John Preskill, a CalTech theoretical physicist calls it. Quantum computing is more or less in the era that classical computing was in the ‘50s, when room-sized hulks ran on vacuum tubes. But it could potentially revolutionize computing. 
 
 Let’s first understand the mathematical theory of quantum mechanics. 
+
 ### When one thing is two things at the same time
 In our universe, we are used to a thing being one thing. A coin, for example, can be heads, or it can be tails. But if the coin followed the rules of quantum mechanics, the coin would be flipping midair.(Amazing right?) So until it lands and we look at it, we don’t know if it’s heads or tails. Effectively, it’s both heads and tails at the same time. 
 
@@ -83,13 +84,19 @@ Better qubits and further research continue to bring us closer to the threshold 
 
 ## Who’s working on it?
 Universities, national labs, and companies like IBM, Google, Microsoft and Intel are pursuing qubits set-ups in logic circuits similar to regular bits, all with less than 20 qubits so far. Companies are simultaneously simulating quantum computers with classical computers, but around 50 qubits is seen as the limit—IBM recently simulated 56 qubits, which took 4.5 terabytes of memory in a classical computer.
-#### A quick look at the progress of the mentioned companies:
+
+### A quick look at the progress of the mentioned companies:
+
 1. **IBM** is taking a long-term approach, hoping to one day release a general-purpose quantum computer that classical computers rely on, when needed, through the cloud. 
 Intel has just entered the race with their 17-qubit processor released in October.
-1. **Microsoft** is working on a different kind of “topological” qubit based on the behaviors of many electrons, and described a similar long-term goal for quantum computing involving scalable hardware. 
-1. **Google** has been rumored to unleash a quantum computer that will achieve “quantum supremacy” with 49 or 50 qubits. Quantum supremacy simply means finding one single algorithm for which a quantum computer always win, and for which a classical workaround can’t be found to solve the same problem. In Google’s case, the team will set up a quantum circuit with their qubits by entangling them (essentially, setting up a quantum link between them) and then allowing the system to evolve over time. At the end, how the qubits evolve is set by the rules of quantum mechanics, but the final measurement could take on different values with different probabilities. Figuring out the possible outcomes of the qubits, alongside the probability of measuring the outcomes, is so complex that the classical computer needs to simulate the quantum computer in order to do so, and might take weeks to do what the quantum computer can do in minutes.
-1. **IonQ**,a startup will use atoms trapped by lasers.
-1. **D-Wave**, a longtime quantum computing business uses a specialized system called quantum annealing to perform optimization problems. Rather than just a dozen to a few dozen qubits, D-Wave has announced a computer with 2,000 qubits and rather than rely on quantum logic circuits like the rest of the pack, their computer solves one type of problem—optimization problems, like finding the best solution from a range of okay solutions, or finding the best taxi route from point A to point B staying as far as possible from other taxis. These kind of problems are potentially useful in finance.
+
+2. **Microsoft** is working on a different kind of “topological” qubit based on the behaviors of many electrons, and described a similar long-term goal for quantum computing involving scalable hardware. 
+
+3. **Google** has been rumored to unleash a quantum computer that will achieve “quantum supremacy” with 49 or 50 qubits. Quantum supremacy simply means finding one single algorithm for which a quantum computer always win, and for which a classical workaround can’t be found to solve the same problem. In Google’s case, the team will set up a quantum circuit with their qubits by entangling them (essentially, setting up a quantum link between them) and then allowing the system to evolve over time. At the end, how the qubits evolve is set by the rules of quantum mechanics, but the final measurement could take on different values with different probabilities. Figuring out the possible outcomes of the qubits, alongside the probability of measuring the outcomes, is so complex that the classical computer needs to simulate the quantum computer in order to do so, and might take weeks to do what the quantum computer can do in minutes.
+
+4. **IonQ**,a startup will use atoms trapped by lasers.
+
+5. **D-Wave**, a longtime quantum computing business uses a specialized system called quantum annealing to perform optimization problems. Rather than just a dozen to a few dozen qubits, D-Wave has announced a computer with 2,000 qubits and rather than rely on quantum logic circuits like the rest of the pack, their computer solves one type of problem—optimization problems, like finding the best solution from a range of okay solutions, or finding the best taxi route from point A to point B staying as far as possible from other taxis. These kind of problems are potentially useful in finance.
 
 ## The outlook
 Everyone agrees that we’re far from seeing quantum computers used in everyday life—there’s a lot of excitement but we’re still in the early days. There are still loads of challenges to overcome, like error correction. Then comes the related problem of transmitting quantum information between distant computers or storing quantum information long term in memory.
@@ -98,10 +105,8 @@ While 2017 seems to be a year amidst a sort-of quantum boom, having a consumer-f
 
 ## Some Cool Links to checkout!
 
-
 [Try Your Hand at Quantum Computing](http://research.ibm.com/ibm-q/quantum-card-test/)
 
 [IBM’s 5 qubit quantum computer](https://arstechnica.com/science/2016/05/how-ibms-new-five-qubit-universal-quantum-computer-works/)
 
 [Want a quantum experience?](https://quantumexperience.ng.bluemix.net/qx/editor)
-
