@@ -25,7 +25,7 @@ I did my internship at the Energy Transport Research Lab, Mechanical Engineering
 
 A senior from IEEE had done his internship under the same professor back in Summer 2016. After sharing his experience at the lab, I sent out an email to the professor. He agreed to let me work in his lab for Summer 2017.
 
-Your email should be brief and to the point. Professors generally do not have much time and patience to go through your whole email. In many cases they might even not read it. Include your past research work and experience in any particular field. If you have conference papers mention that. Don't talk about how the internship  will help your career and future, they know it will help you. If you don't have previous works to mention, talk about your interest in a particular field and mention you are interested in a particular work of the professor you want to work with
+Your email should be brief and to the point. Professors generally do not have much time and patience to go through your whole email. In many cases they might even not read it. Include your past research work and experience in any particular field. If you have conference papers mention that. Don't talk about how the internship  will help your career and future, they know it will help you. If you don't have previous works to mention, talk about your interest in a particular field and mention you are interested in a particular work of the professor you want to work with.
 
 ## What was your internship about?
 
@@ -40,7 +40,7 @@ Work culture was very flexible. The lab I worked in had flexible timings. As lon
 
 My work was mostly experimental, so I was involved in designing the whole setup for future work. Experimental work can get stressful if you cannot find out solutions to problems. It is mostly observing the problems carefully and bringing all your core engineering knowledge to solve major problems. It was challenging, yes. This kind of work is something you wont do in India. The exposure is brilliant.
 
-I will be the co-author of a research paper to be published in December, 2017.
+I am one of the Co-authors of the experimental work presented in the ASME Summer Heat Transfer Conference 2017.
 
 ## Tell us about the fun/ interesting incidents during the course of your internship.
 
