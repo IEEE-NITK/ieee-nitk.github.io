@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "How NASA discovered planets using AI",
+      "category" : "CompSoc",
+      "tags"     : "Space, NASA, Exoplanet, Machine Learning, Deep Learning, Artificial Intelligence, AI, and Data Science",
+      "url"      : "http://ieeenitk.org/blog//space-ml/",
+      "date"     : "18 Dec 2017"
+    } ,
+  
+    {
       "title"    : "The Future of Computing: Quantum Computing",
       "category" : "CompSoc",
       "tags"     : "Quantum Computing and Qubits",
@@ -333,7 +341,7 @@
       "category" : "CompSoc",
       "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
       "url"      : "http://ieeenitk.org/blog//hashing-in-competitive-programming/",
-      "date"     : "22 Aug 2017"
+      "date"     : "21 Aug 2017"
     } ,
   
     {

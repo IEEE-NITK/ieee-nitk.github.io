@@ -1,4 +1,10 @@
-﻿vshan:
+﻿gurupunskill:
+  name: Gurupungav Narayanan
+  github: gurupunskill
+  author_image: 'guru.jpg'
+  user_description: 'Living thing.'
+  email: gurupungavn@gmail.com
+vshan:
   name: Vinay Bhat
   github: vshan
   author_image: 'vinay_bhat.jpg'
