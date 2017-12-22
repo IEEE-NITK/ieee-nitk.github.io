@@ -5,14 +5,14 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Dec 2017 16:41:42 +0400</pubDate>
-    <lastBuildDate>Fri, 22 Dec 2017 16:41:42 +0400</lastBuildDate>
+    <pubDate>Fri, 22 Dec 2017 17:40:43 +0400</pubDate>
+    <lastBuildDate>Fri, 22 Dec 2017 17:40:43 +0400</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>How NASA discovered planets using AI</title>
-        <description>&lt;p&gt;A Convolutional Neural Network. A Convolutional Neural Network and 90 minutes of training.&lt;/p&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;. But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made by AI.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;###Where did the data come from?&lt;/p&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of &lt;em&gt;stars of interest&lt;/em&gt; every...</description>
-        <pubDate>Mon, 18 Dec 2017 16:19:03 +0400</pubDate>
+        <title>How NASA discovered planets using Artificial Intelligence</title>
+        <description>&lt;p&gt;&lt;strong&gt;A Convolutional Neural Network.&lt;/strong&gt;&lt;br /&gt; &lt;strong&gt;A Convolutional Neural Network and 90 minutes of training.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;.&lt;br /&gt; But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h3 id=&quot;where-did-the-data-come-from&quot;&gt;Where did the data come from?&lt;/h3&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of...</description>
+        <pubDate>Thu, 21 Dec 2017 20:44:03 +0400</pubDate>
         <link>http://ieeenitk.org/blog/space-ml/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/space-ml/</guid>
         
@@ -34,6 +34,20 @@
         
         
         <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>The E INK</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;THE E INK&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Let’s start with talking about the screen you’re currently glaring at to read this article. If you don’t scroll down then the screen is pretty much static right? Not really. Behind the screen, all the pixels controlling what you see is getting multiplexed so fast that our eyes make it out as a constant one. Basically, a word is constantly consuming energy just to remain onscreen.&lt;/p&gt; &lt;p&gt;If you write a word on paper, does it need any more energy to remain on the paper? No. It remains there forever. This is the basic idea behind E Ink....</description>
+        <pubDate>Thu, 21 Dec 2017 20:40:03 +0400</pubDate>
+        <link>http://ieeenitk.org/blog/E-Ink/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/E-Ink/</guid>
+        
+        <category>E Ink</category>
+        
+        
+        <category>Diode</category>
         
       </item>
     
@@ -162,20 +176,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Design of Aircraft Windows</title>
-        <description>&lt;p&gt;Everything in an aircraft you see is for a reason. Nothing is there coincidentally. And one such thing is the shape and design of the windows.&lt;/p&gt; &lt;p&gt;With increase in commutation through flights, the aeroplanes started flying at higher altitudes, since lesser air density meant lesser drag which directly affected fuel efficiency. Also turbulence due to atmosphere is less. But some modifications had to be done to make the conditions safe for the passengers at high altitudes. So, a pressurized cabin was introduced into the flights. This pressurized cabin keeps the interior of the flight at a higher pressure compared to...</description>
-        <pubDate>Sun, 12 Nov 2017 21:05:21 +0400</pubDate>
-        <link>http://ieeenitk.org/blog/design-of-aircraft-windows/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/design-of-aircraft-windows/</guid>
-        
-        <category>Aeronautics</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

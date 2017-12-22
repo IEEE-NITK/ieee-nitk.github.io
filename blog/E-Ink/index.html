@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="How deep learning was used to discover an exoplanet">
+        <meta name="description" content="An Apple iPad mini with retina display lasts 10 hours while kindle paperwhite lasts 8 weeks. Why the big difference?">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="How NASA discovered planets using Artificial Intelligence">
-        <meta name="twitter:description" content="How deep learning was used to discover an exoplanet">
+        <meta name="twitter:title" content="The E INK">
+        <meta name="twitter:description" content="An Apple iPad mini with retina display lasts 10 hours while kindle paperwhite lasts 8 weeks. Why the big difference?">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///space-ml/" />
-        <meta property="og:title" content="How NASA discovered planets using Artificial Intelligence">
+        <meta property="og:url" content="http://ieeenitk.org///E-Ink/" />
+        <meta property="og:title" content="The E INK">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="How deep learning was used to discover an exoplanet">
+        <meta property="og:description" content="An Apple iPad mini with retina display lasts 10 hours while kindle paperwhite lasts 8 weeks. Why the big difference?">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="How NASA discovered planets using Artificial Intelligence"/>
-        <meta itemprop="description" content="How deep learning was used to discover an exoplanet">
+        <meta itemprop="name" content="The E INK"/>
+        <meta itemprop="description" content="An Apple iPad mini with retina display lasts 10 hours while kindle paperwhite lasts 8 weeks. Why the big difference?">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>How NASA discovered planets using Artificial Intelligence</title>
+        <title>The E INK</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/space-ml/">
+        <link rel="canonical" href="/blog/E-Ink/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-12-21 16:44:03 +0000" class="date">21 Dec 2017</time>
+            <time itemprop="datePublished" datetime="2017-12-21 16:40:03 +0000" class="date">21 Dec 2017</time>
         
-        <h1 class="post-title" itemprop="name">How NASA discovered planets using Artificial Intelligence</h1>
-        <p itemprop="description" class="subtitle">How deep learning was used to discover an exoplanet</p>
+        <h1 class="post-title" itemprop="name">The E INK</h1>
+        <p itemprop="description" class="subtitle">An Apple iPad mini with retina display lasts 10 hours while kindle paperwhite lasts 8 weeks. Why the big difference?</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,100 +171,92 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><strong>A Convolutional Neural Network.</strong><br />
-<strong>A Convolutional Neural Network and 90 minutes of training.</strong></p>
+                <p><strong><em>THE E INK</em></strong></p>
 
-<p>Clearly, the hard part wasn’t the training or the model but to get the <em>training set</em>.<br />
-But what is the <em>data</em>? and where did we get it form?</p>
+<p>Let’s start with talking about the screen you’re currently glaring at to
+read this article. If you don’t scroll down then the screen is pretty
+much static right? Not really. Behind the screen, all the pixels
+controlling what you see is getting multiplexed so fast that our eyes
+make it out as a constant one. Basically, a word is constantly consuming
+energy just to remain onscreen.</p>
 
-<blockquote>
-  <p>On December 14, 2017 NASA <a href="https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star">announced</a> the discovery of an eigth planet in the <em>Kepler-90</em> system. <em>Kepler-90</em> is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.</p>
-</blockquote>
+<p>If you write a word on paper, does it need any more energy to remain on
+the paper? No. It remains there forever. This is the basic idea behind E
+Ink. Energy should only be used to ‘write’ the word. After that, no more
+energy should be consumed.</p>
 
-<h3 id="where-did-the-data-come-from">Where did the data come from?</h3>
-<p>NASA has this huge camera up in space that has been sending us videos of <em>stars of interest</em> every 29.4 minutes. That’s an oversimplification of what the <a href="https://www.nasa.gov/mission_pages/kepler/main/index.html" title="Kepler Mission Homepage">Kepler Space Telescope</a> does, but it’s enough for the purpose and essence of this article. <em>Kepler</em>’s 94.6 megapixel<sup>[1]</sup> camera has a fixed field of view, which means it’s been looking at the same spot in the sky since it launched in 2009.<br />
-That’s a <em>lot</em> of data.</p>
+<p>The notion of a low-power paper-like display had existed since the
+1970’s, originally conceived by researchers at Xerox PARC, but had never
+been realized. MIT undergrads J.D. Albert and Barret Comiskey came up
+with the idea of microencapsulated electrophoretic display to solve this
+problem. The initial idea was to create small spheres of half black and
+half white particles and somehow manipulate them to create images.
+Comiskey while experimenting could create tiny all white particles.
+Comiskey experimented with charging and encapsulating those all-white in
+microcapsules mixed in with a dark dye. The result was a system of
+microcapsules which could be applied to a surface and then could be
+charged independently to create black and white images.Once the
+orientation is attained, no energy is required to keep them in that
+fashion. Thus the image remains in that state forever.</p>
 
-<h3 id="what-is-the-data">What <em>is</em> the data?</h3>
-<p>To understand the data, we need to first understand how NASA detect planets.<br />
-Planets don’t emit light. So how does <em>Kepler</em> even see planets that are lightyears away?<br />
-Planets don’t emit light… but Stars do. <em>Kepler</em> measures the brightness of stars over several years and since planets orbit around stars, they must cross the line of sight between kepler and the star periodically.</p>
+<p><img src="/blog/assets/img/inkd/image1.png" alt="E_Ink" /></p>
 
-<p><img src="/blog/assets/img/space-ml/kepler-graph.gif" alt="Kepler Transit Graph" title="Kepler Transit Graph" /></p>
+<p>The above picture depicts how the pixels of E Ink display can be
+controlled using the potential difference. The MIT undergrads went on to
+create the E Ink Corporation in 1997 which created several new designs
+of the E Ink technology. Since then the technology has been improved
+tremendously. The first generation was called vizplex. Next came pearl
+and mobius. Pearl is used in almost all amazon kindle products except
+the paperwhite and oasis series. Pearl’s major disadvantage was it’s
+substrate made of thin glass which made it’s structure fragile. This
+disadvantage was overcame by mobius which has a substrate of flexible
+plastic. The third generation E Ink called triton features a colour
+display which is easy to read in high light. The next updates carta and
+carta HD improved the resolution of the screen.</p>
 
-<p>So, <em>Kepler</em> puts up a nice <em>brightness vs time</em> graph and sends it back to us every 29 minutes. A <em>periodic dip</em> in the graph implies that there must be a planet. NASA classified periodic dips that may be consistent with transiting planets as <strong>Threshold Crossing Events</strong> (TCE). The <em>Kepler</em> team initially heterogenously put together TCEs by hand, but later on they designed an <em>Auto Vetter</em> that automatically eliminates uninteresting candidates.</p>
+<p><img src="/blog/assets/img/inkd/image2.png" alt="E_Ink" /></p>
 
-<p>And this gives the raw unprocessed dataset: The <em>Autovetter Planet Candidate Catalogue</em> hosted at the <em><a href="http://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a></em>. The light curves that were used to find the new planets are from the <em><a href="http://archive.stsci.edu/">Mikulski Archive for Space Telescopes</a></em>. Each light curve in this dataset consists of integrated flux (brightness) measurements spaced at 29.4 minute intervals for upto 4 years<sup>[2]</sup>.</p>
+<p>zoomed image of E Ink display. The black white sphere demarcation can be
+seen clearly.</p>
 
-<h3 id="processing-the-dataset">Processing the dataset</h3>
-<p>The researchers at NASA then followed this up with <em>flattening</em> the light curve by fitting a <a href="https://en.wikipedia.org/wiki/B-spline">basis spline</a> (removes the low frequency variability) and then dividing it by the <a href="https://en.wikipedia.org/wiki/Curve_fitting">best-fit spline</a> (connect the dots and smoothen them).</p>
+<p>That was all about how the E Ink was made and how it developed. Where is
+“reads like paper” part? Well, this was achieved using the screen
+lighting properties. A general screen like the one you are using is
+backlit. Meaning it produces light of its own below the screen surface.
+‘Electronic paper’ mimics the normal paper, it does not produce light,
+rather reflects it. This means that they are more comfortable to read
+and have wider viewing angles than most light-emitting displays. The
+contrast ratio in e-paper available as of 2008 approaches newspaper and
+newly developed displays are slightly better. An ideal e-paper display
+can be read in direct sunlight without image appearing to fade. Since it
+uses light reflected on it to display, thus you won’t be able to see
+anything in a dark room (just like paper!). But have you seen the new
+kindle paperwhite? It boasts of it’s readability even in dark with
+almost zero glare. Paperwhite uses an integrated lighting system. It’s
+not a backlight. Its a small light shown onto the front screen which
+hits the screen and bounces back to you.</p>
 
-<p>They had to then <em>fold</em> (to make it event centered<sup>[3]</sup>) and <em>bin</em> the flattened curve to produce a 1D vector.</p>
-
-<p>Binning and folding are two methods of making trends in messy data more apparent.</p>
-
-<blockquote>
-  <p>Folding is useful when a source has periodic variability; the data is plotted in terms of phase, such that all the data are plotted together as a single period, in order to see what the repeated pattern of variability is.</p>
-</blockquote>
-
-<p>Folding is basically splitting the graph into blocks and then overlapping all the blocks on top of one another. This way we can notice repeated patterns more easily.</p>
-<blockquote>
-  <p>Random variations from this pattern can be reduced by binning the data in time, which involves splitting the phase range into steps (bins) in which all the data are averaged, using a weighted mean.</p>
-</blockquote>
-
-<p>Even if we do fold the graph, it’s still really messy since there may be random variations in the data. Binning can be thought as averaging the data out at a folded point in time to give 1 point.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">Original Light Curve</th>
-      <th style="text-align: center">Folded Curve</th>
-      <th style="text-align: center">Binned Curve</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><img src="/blog/assets/img/space-ml/lightcurve.png" alt="" /></td>
-      <td style="text-align: center"><img src="/blog/assets/img/space-ml/foldedcurve.png" alt="" /></td>
-      <td style="text-align: center"><img src="/blog/assets/img/space-ml/binnedcurve.png" alt="" /></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>The problem with binning the TCE dataset is that all the periods in our light curves are of different lengths. Different planets have different orbital lengths, different orbital periods and different distances from Earth. Hence, different periods of transits. So, how <em>did</em> they bin these light curves to act as inputs?</p>
-
-<p>They generated two separate <em>views</em> of the same light curve:</p>
-<ol>
-  <li>
-    <p>A <em>global view</em> which was generated by binning by a fraction of the TCE <strong>period</strong>. These views, the <em>global views</em> of the light curves, were all binned to the same length, and each view represents the same number of points, on average, across all light curves.</p>
-  </li>
-  <li>
-    <p>A <em>local view</em> which was generated by binning by a fraction of the TCE <strong>duration</strong>. This results in a zoomed in view of the TCEs. It treats short and long TCEs equally and so might miss out on some information. It looks at only a part of the curve.</p>
-  </li>
-</ol>
-
-<p><a href="https://www.cfa.harvard.edu/~avanderb/kepler90i.pdf"><img src="/blog/assets/img/space-ml/binning_example.png" alt="Source" /></a></p>
-
-<p><strong>The dataset is now ready.</strong>
-The researchers then passed these views as inputs into the their multilayered convolutional network and trained.<br />
-Although this post is not going to divulge into the details of the neural netowrk, you can check it out on their research paper: <a href="https://www.cfa.harvard.edu/~avanderb/kepler90i.pdf">Identifying Exoplanets with Deep learning</a>.<br />
-If you want to know more about binning, folding and how to apply them with numpy, go <a href="https://www.southampton.ac.uk/~sdc1g08/BinningFolding.html">here</a>.</p>
-
-<p><sup>[1] Kepler only sends back about 5% of the 94.6MP based on our <em>Stars of Interest</em></sup><br />
-<sup>[2] Roughly 70000 points </sup><br />
-<sup>[3] There are 4 years of data and planets don’t cross all the time. So, we need to remove the parts where they aren’t crossing.</sup></p>
+<p>Nice right? Lots of innovations like these are happening in the world of
+E Ink. E Ink is slowly replacing LCD screens in lots of applications
+without us even noticing. The newly announced Advanced Colour E- Paper
+(ACeP) boasts of a display of 32000 colours. Currently they have a
+refresh rate of 2 seconds. Yes, the future is exciting. These durable
+easy to read screens are taking over the world from billboards to price
+tags to walls of your house. We have been imagining this future forever:
+the all screen worlds of <em>total recall, minority report, blade runner</em>,
+and other less dystopian movies.</p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/guru.jpg" alt="Gurupungav Narayanan">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/satyam_shivam.jpg" alt="Satyam Shivam">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Gurupungav Narayanan</a>
+            <a itemprop="name" href="/">Satyam Shivam</a>
         </h3>
-        <p class="desc">Living thing.</p>
-        <a itemprop="email" class="email" href="mailto:gurupungavn@gmail.com">gurupungavn@gmail.com</a>
+        <p class="desc">More confused than curious.</p>
+        <a itemprop="email" class="email" href="mailto:satyam.shivam76@gmail.com">satyam.shivam76@gmail.com</a>
     </div>
 </section>
 
@@ -284,21 +276,21 @@ If you want to know more about binning, folding and how to apply them with numpy
             
                 <section class="comments">
                     <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/space-ml/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/E-Ink/" data-colorscheme="dark" data-num-posts="4" data-width="706">
                     </div>
                 </section>
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/space-ml/%20via%20&#64;IEEE_NITK&hashtags=Space,NASA,Exoplanet,Machine Learning,Deep Learning,Artificial Intelligence,AI,Data Science,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/E-Ink/%20via%20&#64;IEEE_NITK&hashtags=E Ink,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//space-ml/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//E-Ink/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//space-ml/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//E-Ink/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

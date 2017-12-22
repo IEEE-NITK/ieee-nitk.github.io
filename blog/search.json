@@ -1,11 +1,19 @@
 [
   
     {
-      "title"    : "How NASA discovered planets using AI",
+      "title"    : "How NASA discovered planets using Artificial Intelligence",
       "category" : "CompSoc",
       "tags"     : "Space, NASA, Exoplanet, Machine Learning, Deep Learning, Artificial Intelligence, AI, and Data Science",
       "url"      : "http://ieeenitk.org/blog//space-ml/",
-      "date"     : "18 Dec 2017"
+      "date"     : "21 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "The E INK",
+      "category" : "Diode",
+      "tags"     : "E Ink",
+      "url"      : "http://ieeenitk.org/blog//E-Ink/",
+      "date"     : "21 Dec 2017"
     } ,
   
     {
