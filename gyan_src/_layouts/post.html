@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-post.html %}
+        <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                {{ content }}
+            </article>
+
+            {% include author.html %}
+            {% include comments.html %}
+            {% if page.comments %}
+                <section class="comments">
+                    <h4>Comments</h4>
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    </div>
+                </section>
+            {% endif %}
+            {% include share.html %}
+
+            {% include footer.html %}
+            {% include highlighter.html %}
+        </section>
+
+    </body>
+</html>
+            
