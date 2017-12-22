@@ -17,6 +17,14 @@
     } ,
   
     {
+      "title"    : "The Rocker-Bogie Mechanism",
+      "category" : "Piston",
+      "tags"     : "Space, Rovers, Rocker, Bogie, Rocker Bogie, Mechanism, and Wheels",
+      "url"      : "http://ieeenitk.org/blog//rocker-bogie/",
+      "date"     : "21 Dec 2017"
+    } ,
+  
+    {
       "title"    : "The Future of Computing: Quantum Computing",
       "category" : "CompSoc",
       "tags"     : "Quantum Computing and Qubits",

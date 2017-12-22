@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Dec 2017 17:40:43 +0400</pubDate>
-    <lastBuildDate>Fri, 22 Dec 2017 17:40:43 +0400</lastBuildDate>
+    <pubDate>Fri, 22 Dec 2017 18:04:08 +0400</pubDate>
+    <lastBuildDate>Fri, 22 Dec 2017 18:04:08 +0400</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -48,6 +48,32 @@
         
         
         <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>The Rocker-Bogie Mechanism</title>
+        <description>&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt; &lt;p&gt;Everyone might know what a rover is. It is a space exploration device designed to move across the surface of celestial bodies. Have you ever wondered how these rovers are capable of traversing the rough and rocky terrains of a planet? Different kinds of suspension systems are employed to help them achieve this task. Rocker-Bogie is one such suspension system which is very popular and widely used. It is currently NASA’s favoured design for wheeled mobile rovers. NASA’s Curiosity rover uses this mechanism.&lt;/p&gt; &lt;h3 id=&quot;design--features&quot;&gt;Design &amp;amp; Features&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/rocker-bogie/image1.jpg&quot; width=&quot;346&quot; height=&quot;174&quot; /&gt;&lt;/p&gt; &lt;p&gt;The largest link on each side...</description>
+        <pubDate>Thu, 21 Dec 2017 19:40:03 +0400</pubDate>
+        <link>http://ieeenitk.org/blog/rocker-bogie/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/rocker-bogie/</guid>
+        
+        <category>Space</category>
+        
+        <category>Rovers</category>
+        
+        <category>Rocker</category>
+        
+        <category>Bogie</category>
+        
+        <category>Rocker Bogie</category>
+        
+        <category>Mechanism</category>
+        
+        <category>Wheels</category>
+        
+        
+        <category>Piston</category>
         
       </item>
     
@@ -158,24 +184,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>The Halting Problem</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.&lt;/p&gt; &lt;p&gt;The &lt;strong&gt;halting problem&lt;/strong&gt;...</description>
-        <pubDate>Mon, 13 Nov 2017 00:36:15 +0400</pubDate>
-        <link>http://ieeenitk.org/blog/the-halting-problem/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-halting-problem/</guid>
-        
-        <category>Complexity theory</category>
-        
-        <category>Logic</category>
-        
-        <category>Mathematics</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
