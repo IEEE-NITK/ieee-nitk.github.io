@@ -1,6 +1,7 @@
+---
 layout: post
 title: "TU Munich (DAAD WISE), Internship Experience - Natasha Jeppu"
-date: 2017-12-24 11:32:44
+date: 2017-12-23 11:32:44
 image: '/assets/img/'
 description: 'Final Year IEEE Executive Member Natasha Jeppu gives advice on how to excel to get an internship at DAAD Wise Scholarship to intern in Germany.'
 tags:
@@ -35,6 +36,7 @@ I worked on developing interfaces between some simulation and verification tools
 2. Simulation and Analysis of FlexRay networks using Simulink and TrueTime library.
 
 ## How was the work culture?
+---
 
 The work culture at TUM is very relaxed, I didn't have to adhere to any fixed timings. The labs are open everyday, including weekends and you can use the lab facilities freely to complete your projects. Other students and research interns are helpful and the professors and your project mentors also take time to help you in case you are stuck.
 
