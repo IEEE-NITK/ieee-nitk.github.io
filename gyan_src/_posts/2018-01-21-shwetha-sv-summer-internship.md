@@ -9,7 +9,7 @@ tags:
 - Industry
 categories:
 - Diode
-github_username: 'shweta'
+github_username: 'shwetha'
 comments: true
 ---
 

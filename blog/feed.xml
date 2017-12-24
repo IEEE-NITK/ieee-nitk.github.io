@@ -5,9 +5,59 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Dec 2017 15:34:31 +0530</pubDate>
-    <lastBuildDate>Sun, 24 Dec 2017 15:34:31 +0530</lastBuildDate>
+    <pubDate>Sun, 24 Dec 2017 16:06:26 +0530</pubDate>
+    <lastBuildDate>Sun, 24 Dec 2017 16:06:26 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>How NASA discovered planets using Artificial Intelligence</title>
+        <description>&lt;h2 id=&quot;a-convolutional-neural-network-and-90-minutes-of-training&quot;&gt;A Convolutional Neural Network and 90 minutes of training&lt;/h2&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;.&lt;br /&gt; But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h3 id=&quot;where-did-the-data-come-from&quot;&gt;Where did the data come from?&lt;/h3&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of &lt;em&gt;stars of interest&lt;/em&gt; every...</description>
+        <pubDate>Thu, 21 Dec 2017 22:14:03 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/space-ml/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/space-ml/</guid>
+        
+        <category>Space</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>Deep Learning</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>The E INK</title>
+        <description>&lt;p&gt;Let’s start with talking about the screen you’re currently glaring at to read this article. If you don’t scroll down then the screen is pretty much static right? Not really. Behind the screen, all the pixels controlling what you see is getting multiplexed so fast that our eyes make it out as a constant one. Basically, a word is constantly consuming energy just to remain onscreen.&lt;/p&gt; &lt;p&gt;If you write a word on paper, does it need any more energy to remain on the paper? No. It remains there forever. This is the basic idea behind E Ink. Energy should only...</description>
+        <pubDate>Thu, 21 Dec 2017 22:10:03 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/e-Ink/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/e-Ink/</guid>
+        
+        <category>E Ink</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>The Rocker-Bogie Mechanism</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Everyone might know what a rover is. It is a space exploration device designed to move across the surface of celestial bodies. Have you ever wondered how these rovers are capable of traversing the rough and rocky terrains of a planet? Different kinds of suspension systems are employed to help them achieve this task. Rocker-Bogie is one such suspensionsystem which is very popular and widely used. It is currently NASA’s favoured design for wheeled mobile rovers. NASA’s Curiosity rover uses this mechanism.&lt;/p&gt; &lt;h2 id=&quot;design--features&quot;&gt;Design &amp;amp; Features&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/rocker-bogie/image1.jpg&quot; width=&quot;346&quot; height=&quot;174&quot; alt=&quot;Rocker Bogie&quot; /&gt;&lt;/p&gt; &lt;p&gt;The largest link on each...</description>
+        <pubDate>Thu, 21 Dec 2017 21:10:03 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/rocker-bogie/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/rocker-bogie/</guid>
+        
+        <category>Space</category>
+        
+        <category>Rovers</category>
+        
+        <category>Rocker Bogie</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>The Future of Computing: Quantum Computing</title>
@@ -116,52 +166,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>The Halting Problem</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.&lt;/p&gt; &lt;p&gt;The &lt;strong&gt;halting problem&lt;/strong&gt;...</description>
-        <pubDate>Mon, 13 Nov 2017 02:06:15 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-halting-problem/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-halting-problem/</guid>
-        
-        <category>Complexity theory</category>
-        
-        <category>Logic</category>
-        
-        <category>Mathematics</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Design of Aircraft Windows</title>
-        <description>&lt;p&gt;Everything in an aircraft you see is for a reason. Nothing is there coincidentally. And one such thing is the shape and design of the windows.&lt;/p&gt; &lt;p&gt;With increase in commutation through flights, the aeroplanes started flying at higher altitudes, since lesser air density meant lesser drag which directly affected fuel efficiency. Also turbulence due to atmosphere is less. But some modifications had to be done to make the conditions safe for the passengers at high altitudes. So, a pressurized cabin was introduced into the flights. This pressurized cabin keeps the interior of the flight at a higher pressure compared to...</description>
-        <pubDate>Sun, 12 Nov 2017 22:35:21 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/design-of-aircraft-windows/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/design-of-aircraft-windows/</guid>
-        
-        <category>Aeronautics</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>How QR code was invented</title>
-        <description>&lt;h2 id=&quot;how-qr-code-was-invented&quot;&gt;How QR code was invented&lt;/h2&gt; &lt;p&gt;Denso Wave a subsidiary of the Toyota Group are attributed with the creation of the QR Code back in 1994. Originally it was used to track parts in the vehicle manufacturing industry, but its use and scope has since grown tremendously. One of the main objectives when creating the QR Code was to come up with a new barcode that allowed more data to be encoded without increasing the size (dimensions / surface area) of existing barcodes. This was achieved by including a second dimension.&lt;/p&gt; &lt;p&gt;The QR Code was born.&lt;/p&gt; &lt;h2 id=&quot;working-of-qr-code&quot;&gt;Working of QR...</description>
-        <pubDate>Sun, 12 Nov 2017 22:07:21 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/how-qr-code-was-invented/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/how-qr-code-was-invented/</guid>
-        
-        <category>QR code</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
