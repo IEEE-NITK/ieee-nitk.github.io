@@ -1,4 +1,21 @@
-﻿vshan:
+﻿nithinme:
+  name: Nithin M Eapen
+  author_image: 'blog-author.jpg'
+  user_description: 'The more you dream, the farther you get'
+  email: nithinme@gmail.com
+nightzoomer:
+  name: Satyam Shivam
+  github: nightzoomer
+  author_image: 'satyam_shivam.jpg'
+  user_description: 'More confused than curious.'
+  email: satyam.shivam76@gmail.com
+gurupunskill:
+  name: Gurupungav Narayanan
+  github: gurupunskill
+  author_image: 'guru.jpg'
+  user_description: 'Living thing.'
+  email: gurupungavn@gmail.com
+vshan:
   name: Vinay Bhat
   github: vshan
   author_image: 'vinay_bhat.jpg'
