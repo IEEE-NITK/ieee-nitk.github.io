@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "How NASA discovered planets using Artificial Intelligence",
+      "category" : "CompSoc",
+      "tags"     : "Space, Machine Learning, and Deep Learning",
+      "url"      : "http://ieeenitk.org/blog//space-ml/",
+      "date"     : "21 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "The E INK",
+      "category" : "Diode",
+      "tags"     : "E Ink",
+      "url"      : "http://ieeenitk.org/blog//e-Ink/",
+      "date"     : "21 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "The Rocker-Bogie Mechanism",
+      "category" : "Piston",
+      "tags"     : "Space, Rovers, and Rocker Bogie",
+      "url"      : "http://ieeenitk.org/blog//rocker-bogie/",
+      "date"     : "21 Dec 2017"
+    } ,
+  
+    {
       "title"    : "The Future of Computing: Quantum Computing",
       "category" : "CompSoc",
       "tags"     : "Quantum Computing and Qubits",
