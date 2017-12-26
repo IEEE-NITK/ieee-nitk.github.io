@@ -34,3 +34,5 @@ Now when you are busy doing something that could “Change the world” (:P) the
 I worked for 2 months at MathWorks and it was a wonderful experience. Working at a company is something new to many of us and this internship gave me enough exposure to a job environment. Doing something that could perhaps, one day, become a tool or feature used by thousands of engineers has given me the confidence to explore new fields and dream bigger. I thank MathWorks for giving me this opportunity. 
 
 A final word of advice: <b>Do not hesitate to try something new, something not in our syllabus. Who knows, it might be the right thing for you.</b>
+
+You can also read my article on ['How to apply for Foreign Internships'](/gyan/internships-abroad)
