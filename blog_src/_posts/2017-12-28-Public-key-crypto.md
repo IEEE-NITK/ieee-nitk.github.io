@@ -15,19 +15,19 @@ comments: true
 ---
 
 The inherent need for human beings has always been to communicate and share information,albeit selectively. For this purpose, the information is to be coded in such a way that it can be deciphered only by the recipient, regardless of whether the recipient is right next to the sender or on the other side of the world. __*The communication channel is assumed to be plagued with adversaries.*__.These adversaries have access to this coded information and are constantly trying to pry.So, the basic problem has always been to: 
-__* transfer secure information over such insecure channels. *__
+__*transfer secure information over such insecure channels.*__
 
 So, how DO you communicate when everyone is an adversary and nobody is trustworthy?
 The answer is simple.
 
-#Cryptography
+## Cryptography
 
 > "Cryptography is the art and science of making a crypto system that is capable of providing information security."
 
 The primary objective of cryptography is to provide basic security services like data integrity, confidentiality, user-authenticity and non-repudiation.
 
 
-##Crypto-systems
+## Crypto-systems
 
 Given below is a simple model of a crypto-system
 
@@ -38,7 +38,7 @@ Given below is a simple model of a crypto-system
 
 There are two types of crypto-systems,based on how the encryption is carried out.
 
-__1.__ __* Symmetric key encryption *__ 
+### 1.Symmetric key encryption  
 
 Here, a single key is used for both encryption and decryption of the messages and such a key is established in advance by both the sender and the recipient.Thus,there has to exist "trust" between both sender and receiver, so as to not divulge the key.This was the most common method of encryption before the 1970's.
 
@@ -48,7 +48,7 @@ Here, a single key is used for both encryption and decryption of the messages an
 
 Suppose Alex wants to send a message to Carl using symmetric key encryption , then both of them will have to agree upon a key beforehand and use it to encrypt and decrypt the messages.
 
-__2.__ __*Asymmetric key encryption/Public Key Cryptography *__
+### 2. Asymmetric key encryption/Public Key Cryptography 
 
 Here, two different keys are used for both encryption and decryption purposes and there exists some mathematical relation between the keys and thus decryption is possible.One of them is the private key and the other one is the public key.It is assumed that the private key is kept secret by a particular individual.
 
@@ -67,7 +67,7 @@ Suppose Alex sends a message(Using Carl's public key) and a digitally signed doc
 
 __1.__ It is possible to ascertain Alex's identity from his public key and digital signature on the document.
 
-__2.__ Only Alex could have signed the document,since he alone possesses the private key. Therefore it is not plausible for him to deny sending it.
+__2.__ Only Alex could have signed the document,since he alone possesses the private key. Therefore it is not plausible for him to deny   sending it.
 
 __3.__ Only Carl possesses the private key for decrypting the message. He,alone can decrypt the message.
 
@@ -75,23 +75,24 @@ __4.__ When the signature is verified by Carl, it checks that the contents of th
 
 
 
-##The SSL Protocol
+## The SSL Protocol
 
-One of the major applications of public key cryptography is it's use in Secure Sockets Layer(SSL) protocol to ensure secure transactions between web browsers and servers.The protocol uses a CA to identify one or both end of the transactions.This,in short, is how it works:
 
-__1.__A browser requests a secure page (usually https://).
+ One of the major applications of public key cryptography is it's use in Secure Sockets Layer(SSL) protocol to ensure secure transactions   between web browsers and servers.The protocol uses a CA to identify one or both end of the transactions.This,in short, is how it works:
 
-__2.__The web server sends its public key with its certificate.
+__1.__ A browser requests a secure page (usually https://).
 
-__3.__The browser checks that the certificate was issued by a trusted party (usually a trusted root CA), that the certificate is still valid and that the certificate is related to the site contacted.
+__2.__ The web server sends its public key with its certificate.
 
-__4.__The browser then uses the public key, to encrypt a random symmetric encryption key and sends it to the server with the encrypted URL required as well as other encrypted http data.
+__3.__ The browser checks that the certificate was issued by a trusted party (usually a trusted root CA), that the certificate is still valid and that the certificate is related to the site contacted.
 
-__5.__The web server decrypts the symmetric encryption key using its private key and uses the symmetric key to decrypt the URL and http data.
+__4.__ The browser then uses the public key, to encrypt a random symmetric encryption key and sends it to the server with the encrypted URL required as well as other encrypted http data.
 
-__6.__The web server sends back the requested html document and http data encrypted with the symmetric key.
+__5.__ The web server decrypts the symmetric encryption key using its private key and uses the symmetric key to decrypt the URL and htp data.
 
-__7.__The browser decrypts the http data and html document using the symmetric key and displays the information.
+__6.__ The web server sends back the requested html document and http data encrypted with the symmetric key.
+
+__7.__ The browser decrypts the http data and html document using the symmetric key and displays the information.
 
 Thus, as long as the CA is trustworthy, it is possible for the web browsers and servers to communicate securely and that is how all the information that is continuously exchanged on the internet stays safe and secure.
 
