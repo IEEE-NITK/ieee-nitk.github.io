@@ -23,7 +23,7 @@ Additive manufacturing startup **Carbon 3D** has developed an efficient technolo
 
 In order to properly understand how the CLIP technology differs, we need to learn about the basic principles involved in Stereolithography. It's the process by which a uniquely designed 3D printing machine, called a stereolithograph apparatus (SLA) converts liquid plastic into solid objects layer-by-layer.
 
-###How Stereolithography works: 
+### How Stereolithography works: 
 
 **From CAD to STL:**
 
@@ -36,7 +36,7 @@ There are many different ways to 3D print an object. But nearly all of them util
 A SLA machine has four main parts: a tank that can be filled with **liquid plastic or photopolymer**, a **perforated platform** that is lowered into the tank, an **ultraviolet (UV) laser** and a **computer** controlling the platform and the laser. It starts with an excess of liquid plastic called as photopolymer, which is cured or hardened to form a solid object.  In the initial step of the SLA process, a thin layer of photopolymer is exposed above the perforated platform. The UV laser hits the perforated platform, "painting" the pattern of the object being printed. The UV-curable liquid hardens instantly when the UV laser touches it, forming the first layer of the 3D-printed object. Once the initial layer of the object has hardened, the platform is lowered, exposing a new surface layer of liquid polymer. The laser again traces a cross section of the object being printed, which instantly bonds to the hardened section beneath it. This process is repeated again and again until the entire object has been formed and is fully submerged in the tank. The platform is then raised to expose a three-dimensional object. After it is rinsed with a liquid solvent to free it of excess resin, the object is baked in an ultraviolet oven to further cure the plastic. 
 SLA can go **top-down** (build platform facing up, descending while printing) or **bottom-up** (build platform facing down, ascending while printing). The bottom-up approach has the advantage that the object can be much larger than the vat itself, as the other approach requires the vat to contain the object. Bottom-up approaches also have an extra step where once a layer is done, the vat needs to 'rock' it off the resin ("flexing and peeling the bottom of the vat away from the hardened photopolymer" so that the build platform can be pulled up cleanly.
 
-###Continuous Liquid Interface Production
+### Continuous Liquid Interface Production
 
 ![CLIP](/blog/assets/img/Speed-Printing/image1.jpg)
 
@@ -63,7 +63,7 @@ During the development stage, images are fed into the system using a digital lig
 
 The second phase consists of thermal curing by baking the parts in a forced circulation oven to set off the properties of the materials. Through this process, a secondary chemical reaction sets off and causes the materials to adapt and strengthen, ultimately achieving desired engineering-grade mechanical properties.
 
-###Comparison:
+### Comparison:
 Now, as we are aware of the basic working of both the techniques, we can now understand what sets them apart in terms of speed. CLIP is much faster than bottom-up technologies that require a **peel** step between every layer as the cured layers stick to the resin container. That is, by far, the slowest step of SLA printing with most modern light sources. CLIP is a bottom-up technique that doesn't require a peel step, because the vat creates an oxygen layer over the window that keeps the resin from curing directly on the surface and sticking. In that way, it arguably performs more like a top-down printer than a bottom-up printer. 
 
 
