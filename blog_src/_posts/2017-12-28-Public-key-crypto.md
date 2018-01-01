@@ -2,7 +2,7 @@
 layout: post
 title: "How do websites communicate securely?"
 author_github: nishanthebbar2011
-date: 2017-12-18 23:33:44
+date: 2017-12-28 23:33:44
 image: '/assets/img/'
 description: 'How cryptography ensures secure communication'
 tags:
