@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieeenitk.org/blog/public-key-cryptography/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/war-of-the-currents/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/speed-printing/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieeenitk.org/blog/space-ml/</loc>
 	  </url>
 	

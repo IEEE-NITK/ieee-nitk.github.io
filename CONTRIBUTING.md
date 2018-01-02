@@ -46,6 +46,12 @@ salman-bhai:
 
 At the top, we would like you to use the same `username` as your github account (for example `salman-bhai` is Salman's (my) Github username). This will allow us to avoid username collisions within our blog.
 
+
+**4. Adding your image to the blog.**
+
+Go to the directory `blog_src/assets/img/authors` and add your author image there. Make sure you have a **square image**. Later you have to compress your image via a Python script. To compress your image you can run the command `python image_optimise.py <image-name>`.
+
+
 ## Step 3: Adding your new post to the IEEE-NITK blog
 
 Now that your username is under the list of authors, we get to the fun part: adding your article to our blog.

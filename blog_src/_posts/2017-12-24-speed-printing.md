@@ -13,9 +13,8 @@ categories:
 github_username: 'HarshitRanjan'
 ---	
 
-
 ## Introduction
- 3D printing technology is often used to construct highly complex objects of different kinds, properties and materials. Despite its numerous advantages, one major drawback of 3D printers is its traditionally slow speed. This is where it fails miserably, in its large scale applicability, against other major manufacturing processes like injection moulding. To overcome this major industry challenge, several 3D companies have come up with more updated and efficient technologies that guarantee quick speeds and utmost accuracy. One of the successful and modern technology is **CLIP (short for, continuous liquid interface production)**.
+3D printing technology is often used to construct highly complex objects of different kinds, properties and materials. Despite its numerous advantages, one major drawback of 3D printers is its traditionally slow speed. This is where it fails miserably, in its large scale applicability, against other major manufacturing processes like injection moulding. To overcome this major industry challenge, several 3D companies have come up with more updated and efficient technologies that guarantee quick speeds and utmost accuracy. One of the successful and modern technology is **CLIP (short for, continuous liquid interface production)**.
 
 > A typical 3D printing machine such as Stereolithography (SLA) can take several hours to print a 55mm diameter object and maybe several days to complete a larger object, while injection moulding takes minutes for the same.
 
@@ -40,14 +39,13 @@ SLA can go **top-down** (build platform facing up, descending while printing) or
 
 ![CLIP](/blog/assets/img/Speed-Printing/image1.jpg)
 
-
 CLIP, which stands for Continuous Liquid Interface Production, eliminates shortcomings of other 3D printing technology by emphasizing a *tunable photochemical process* over a traditional mechanical approach. The control over the solidification occurs by balancing oxygen and light to discriminately cure photo liquid resin. Continuous Liquid Interface Production technology uses components as shown in the image above such as
 
-  1. BUILD PLATFORM
-  2. UV CURABLE RESIN
-  3. OXYGEN-PERMEABLE WINDOW
-  4. DEAD ZONE 
-  5. PROJECTOR
+1. BUILD PLATFORM
+2. UV CURABLE RESIN
+3. OXYGEN-PERMEABLE WINDOW
+4. DEAD ZONE 
+5. PROJECTOR
 
 ![CLIP](/blog/assets/img/Speed-Printing/image2.jpg)
 
@@ -64,6 +62,5 @@ During the development stage, images are fed into the system using a digital lig
 The second phase consists of thermal curing by baking the parts in a forced circulation oven to set off the properties of the materials. Through this process, a secondary chemical reaction sets off and causes the materials to adapt and strengthen, ultimately achieving desired engineering-grade mechanical properties.
 
 ### Comparison:
+
 Now, as we are aware of the basic working of both the techniques, we can now understand what sets them apart in terms of speed. CLIP is much faster than bottom-up technologies that require a **peel** step between every layer as the cured layers stick to the resin container. That is, by far, the slowest step of SLA printing with most modern light sources. CLIP is a bottom-up technique that doesn't require a peel step, because the vat creates an oxygen layer over the window that keeps the resin from curing directly on the surface and sticking. In that way, it arguably performs more like a top-down printer than a bottom-up printer. 
-
-

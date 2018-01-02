@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="The war that changed the world more than both the world wars.">
+        <meta name="description" content="How cryptography ensures secure communication">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="War of the Currents">
-        <meta name="twitter:description" content="The war that changed the world more than both the world wars.">
+        <meta name="twitter:title" content="How do websites communicate securely?">
+        <meta name="twitter:description" content="How cryptography ensures secure communication">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///War_of_the_Currents/" />
-        <meta property="og:title" content="War of the Currents">
+        <meta property="og:url" content="http://ieeenitk.org///public-key-cryptography/" />
+        <meta property="og:title" content="How do websites communicate securely?">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="The war that changed the world more than both the world wars.">
+        <meta property="og:description" content="How cryptography ensures secure communication">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="War of the Currents"/>
-        <meta itemprop="description" content="The war that changed the world more than both the world wars.">
+        <meta itemprop="name" content="How do websites communicate securely?"/>
+        <meta itemprop="description" content="How cryptography ensures secure communication">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>War of the Currents</title>
+        <title>How do websites communicate securely?</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/War_of_the_Currents/">
+        <link rel="canonical" href="/blog/public-key-cryptography/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -120,8 +120,8 @@
         
             <time itemprop="datePublished" datetime="2017-12-29 05:03:44 +0530" class="date">29 Dec 2017</time>
         
-        <h1 class="post-title" itemprop="name">War of the Currents</h1>
-        <p itemprop="description" class="subtitle">The war that changed the world more than both the world wars.</p>
+        <h1 class="post-title" itemprop="name">How do websites communicate securely?</h1>
+        <p itemprop="description" class="subtitle">How cryptography ensures secure communication</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,101 +171,90 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><strong>THE WAR OF THE CURRENTS</strong></p>
+                <p>The inherent need for human beings has always been to communicate and share information,albeit selectively. For this purpose, the information is to be coded in such a way that it can be deciphered only by the recipient, regardless of whether the recipient is right next to the sender or on the other side of the world. <strong><em>The communication channel is assumed to be plagued with adversaries.</em></strong>.These adversaries have access to this coded information and are constantly trying to pry.So, the basic problem has always been to: 
+<strong><em>transfer secure information over such insecure channels.</em></strong></p>
 
-<p><img src="/blog_src/assets/img/War-of-the-currents/image1.png" alt="current" />
-<strong>Thomas Edison</strong></p>
+<p>So, how DO you communicate when everyone is an adversary and nobody is trustworthy?
+The answer is simple.</p>
 
-<p><img src="/blog_src/assets/img/War-of-the-currents/image2.png" alt="current" />
-<strong>Nikola Tesla</strong></p>
+<h2 id="cryptography">Cryptography</h2>
 
-<p>At the end of the 19th century, the world witnessed one of the greatest
-scientific feuds of all times, which changed the course of the history.
-Three brilliant inventors, Thomas Edison, Nikola Tesla and George
-Westinghouse, battled over which electricity system—direct current (DC)
-or alternating current (AC)–would become standard. This would go on to
-be known as the ‘War of the Currents’.</p>
+<blockquote>
+  <p>“Cryptography is the art and science of making a crypto system that is capable of providing information security.”</p>
+</blockquote>
 
-<p>By 1880, Edison had created a model for the incandescent lamp that was
-commercially viable. But to make a profit out of the electric lights
-that he had invented, he realized that electricity would have to be
-brought to people’s homes. Thus he began devising a system for
-generation and distribution of power. Edison’s distribution system would
-supply 110 V DC voltage. In 1882, Edison opened the first ever electric
-power plant in Pearl Street, New York. The problem with Edison’s system
-was that it could only deliver electricity within a half-mile radius
-from the plant.</p>
+<p>The primary objective of cryptography is to provide basic security services like data integrity, confidentiality, user-authenticity and non-repudiation.</p>
 
-<p><img src="/blog_src/assets/img/War-of-the-currents/image3.png" alt="current" /></p>
+<h2 id="crypto-systems">Crypto-systems</h2>
 
-<p><strong>The first induction motor</strong></p>
+<p>Given below is a simple model of a crypto-system</p>
 
-<p>Two years later, A young Serbian engineer, Nikola Tesla immigrated to
-America and started working under Edison. He improved Edison’s existing
-DC system in order to interest him in an AC motor that he had been
-developing. But Edison, a firm supporter of DC, said that AC has no
-future.</p>
+<p><img src="/blog/assets/img/Public-key-crypto/cryptosystem.jpg" alt="Crypto-system" /></p>
 
-<p>Tesla quit his job in 1885 and a few years later received a number of
-patents for his AC technology. In 1888, he sold his patents to
-industrialist George Westinghouse, whose Westinghouse Electric Company
-had quickly become an Edison competitor. Feeling threatened by this
-competition, Edison started a propaganda to malign George Westinghouse
-and his AC System in the eyes of the public. As a part of this
-propaganda, Edison electrocuted a number of animals just to prove how
-dangerous high voltage AC is. Edison even suggesting electrocution as a
-way of executing criminals and in 1890 convicted murderer William
-Kemmler became the first person to die on an electric chair which was
-powered by a Westinghouse generator. This marked one of the darkest
-events of the war.</p>
+<p>There are two types of crypto-systems,based on how the encryption is carried out.</p>
 
-<p>With the advent of the alternating current transformer, high voltage AC
-produced by the generators could be stepped down to lower voltages
-within the safety standard. This was an important event in the War of
-The Currents. Now AC could be safely supplied at everyone’s doorstep.
-This made Edison’s argument obsolete.</p>
+<h3 id="1symmetric-key-encryption">1.Symmetric key encryption</h3>
 
-<p>Despite all his efforts to discredit AC, Edison failed. Westinghouse won
-the contract to supply electricity to the 1893 World’s Fair in
-Chicago—beating out rival General Electric, which was formed in 1892 by
-a merger involving Edison’s company—and the expo became a dazzling
-showcase for Tesla’s AC system. Westinghouse also received an important
-contract to construct the AC generators for a hydro-electric power plant
-at Niagara Falls; in 1896, the plant started delivering electricity all
-the way to Buffalo, New York, 26 miles away. Thus the first electric
-grid came into being. The achievement was regarded as the unofficial end
-to the War of the Currents, and AC became dominant in the electric power
-industry.</p>
+<p>Here, a single key is used for both encryption and decryption of the messages and such a key is established in advance by both the sender and the recipient.Thus,there has to exist “trust” between both sender and receiver, so as to not divulge the key.This was the most common method of encryption before the 1970’s.</p>
 
-<p>The war pushed Westinghouse into bankruptcy. To save his friend, Tesla
-gave up all his perks that he had gained from his patents. As he grew
-old, the genius mind of Tesla took a toll on him and it drove him
-towards insanity. In his last days, Tesla lived in a hotel alone and
-without any cash. In 1943, Nikola Tesla died. Tesla was never given
-credit for his works and he ended penniless when he could have earned
-millions from his patents. Tesla’s story is one of the msot tragic story
-in the history of science.</p>
+<p><img src="/blog/assets/img/Public-key-crypto/symmetric_key_encryption.jpg" alt="Symmetric key" /></p>
 
-<p>The war of the currents changed the course of the history. We cannot
-imagine our lives without electricity. We today reap the benefits of the
-pioneering works of Edison and Tesla. Although today AC is the standard,
-DC is gaining importance with the advent of digital electronics. So it
-appears the War of the Currents may not be over yet. But instead of
-continuing in a heated AC vs. DC battle, it looks like the two currents
-will end up working parallel to each other in a sort of hybrid
-armistice.</p>
+<p>Suppose Alex wants to send a message to Carl using symmetric key encryption , then both of them will have to agree upon a key beforehand and use it to encrypt and decrypt the messages.</p>
+
+<h3 id="2-asymmetric-key-encryptionpublic-key-cryptography">2. Asymmetric key encryption/Public Key Cryptography</h3>
+
+<p>Here, two different keys are used for both encryption and decryption purposes and there exists some mathematical relation between the keys and thus decryption is possible.One of them is the private key and the other one is the public key.It is assumed that the private key is kept secret by a particular individual.</p>
+
+<p>An individual(recipient) makes one of his keys public.A sender can encrypt a message with the help of this public key and such an encrypted message is transmitted over the insecure channel. Only the recipient can decrypt this message with the help of his private key, since he alone possesses it. This is clearly a more elegant solution than symmetric key encryption, that relies on “trust”.</p>
+
+<p><img src="/blog/assets/img/Public-key-crypto/asymmetric_key_encryption.jpg" alt="Asymmetric key " /></p>
+
+<p>The crux of this system is to ensure that it is computationally infeasible to deduce the private key from the public key and the encrypted message.Obviously, it is important to ensure that the public key actually belongs to the recipient. This is usually accomplished with the help of a trusted third party, that hands out digital certificates.These parties are called <strong><em>Certificate Authorities(CA’s)</em></strong>.The public key is usually huge and is stored on such digital certificates whereas, the private key is stored on the system itself.</p>
+
+<p>Also with public-key encryption systems, authenticity of digital systems or documents can also be ascertained with the help of Digital signatures. The content is signed with an individual’s private key , and since the public key is easily available, the identity of the user is easily verified.</p>
+
+<p>Suppose Alex sends a message(Using Carl’s public key) and a digitally signed document to Carl, using a public-key encryption system, these are the advantages,in a nutshell:</p>
+
+<p><strong>1.</strong> It is possible to ascertain Alex’s identity from his public key and digital signature on the document.</p>
+
+<p><strong>2.</strong> Only Alex could have signed the document,since he alone possesses the private key. Therefore it is not plausible for him to deny   sending it.</p>
+
+<p><strong>3.</strong> Only Carl possesses the private key for decrypting the message. He,alone can decrypt the message.</p>
+
+<p><strong>4.</strong> When the signature is verified by Carl, it checks that the contents of the document or message match what was in there when the signature was applied. Thus, integrity of the data is preserved.</p>
+
+<h2 id="the-ssl-protocol">The SSL Protocol</h2>
+
+<p>One of the major applications of public key cryptography is it’s use in Secure Sockets Layer(SSL) protocol to ensure secure transactions   between web browsers and servers.The protocol uses a CA to identify one or both end of the transactions.This,in short, is how it works:</p>
+
+<p><strong>1.</strong> A browser requests a secure page (usually https://).</p>
+
+<p><strong>2.</strong> The web server sends its public key with its certificate.</p>
+
+<p><strong>3.</strong> The browser checks that the certificate was issued by a trusted party (usually a trusted root CA), that the certificate is still valid and that the certificate is related to the site contacted.</p>
+
+<p><strong>4.</strong> The browser then uses the public key, to encrypt a random symmetric encryption key and sends it to the server with the encrypted URL required as well as other encrypted http data.</p>
+
+<p><strong>5.</strong> The web server decrypts the symmetric encryption key using its private key and uses the symmetric key to decrypt the URL and htp data.</p>
+
+<p><strong>6.</strong> The web server sends back the requested html document and http data encrypted with the symmetric key.</p>
+
+<p><strong>7.</strong> The browser decrypts the http data and html document using the symmetric key and displays the information.</p>
+
+<p>Thus, as long as the CA is trustworthy, it is possible for the web browsers and servers to communicate securely and that is how all the information that is continuously exchanged on the internet stays safe and secure.</p>
+
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/AdityaRangarajan.jpeg" alt="Aditya Rangarajan">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Nishanth.jpg" alt="Nishanth P Hebbar">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Aditya Rangarajan</a>
+            <a itemprop="name" href="/">Nishanth P Hebbar</a>
         </h3>
-        <p class="desc">I am not lazy, I just really enjoy doing nothing!</p>
-        <a itemprop="email" class="email" href="mailto:arangarajan834@gmail.com">arangarajan834@gmail.com</a>
+        <p class="desc">If it is to be, it is up to me</p>
+        <a itemprop="email" class="email" href="mailto:nishanthebbar@gmail.com">nishanthebbar@gmail.com</a>
     </div>
 </section>
 
@@ -285,21 +274,21 @@ armistice.</p>
             
                 <section class="comments">
                     <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/War_of_the_Currents/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/public-key-cryptography/" data-colorscheme="dark" data-num-posts="4" data-width="706">
                     </div>
                 </section>
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/War_of_the_Currents/%20via%20&#64;IEEE_NITK&hashtags=Tesla,Edison,AC/DC,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/public-key-cryptography/%20via%20&#64;IEEE_NITK&hashtags=SSL,Public Key Cryptography,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//War_of_the_Currents/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//public-key-cryptography/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//War_of_the_Currents/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//public-key-cryptography/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

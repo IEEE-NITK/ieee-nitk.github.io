@@ -5,13 +5,63 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Dec 2017 16:06:26 +0530</pubDate>
-    <lastBuildDate>Sun, 24 Dec 2017 16:06:26 +0530</lastBuildDate>
+    <pubDate>Tue, 02 Jan 2018 09:14:41 +0530</pubDate>
+    <lastBuildDate>Tue, 02 Jan 2018 09:14:41 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
+        <title>How do websites communicate securely?</title>
+        <description>&lt;p&gt;The inherent need for human beings has always been to communicate and share information,albeit selectively. For this purpose, the information is to be coded in such a way that it can be deciphered only by the recipient, regardless of whether the recipient is right next to the sender or on the other side of the world. &lt;strong&gt;&lt;em&gt;The communication channel is assumed to be plagued with adversaries.&lt;/em&gt;&lt;/strong&gt;.These adversaries have access to this coded information and are constantly trying to pry.So, the basic problem has always been to: &lt;strong&gt;&lt;em&gt;transfer secure information over such insecure channels.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So, how DO you communicate when everyone...</description>
+        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/public-key-cryptography/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/public-key-cryptography/</guid>
+        
+        <category>SSL</category>
+        
+        <category>Public Key Cryptography</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>War of the Currents</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image1.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Thomas Edison&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image2.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Nikola Tesla&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;At the end of the 19th century, the world witnessed one of the greatest scientific feuds of all times, which changed the course of the history.&lt;/p&gt; &lt;p&gt;Three brilliant inventors, Thomas Edison, Nikola Tesla and George Westinghouse, battled over which electricity system—direct current (DC) or alternating current (AC)–would become standard. This would go on to be known as the ‘War of the Currents’.&lt;/p&gt; &lt;p&gt;By 1880, Edison had created a model for the incandescent lamp that was commercially viable. But to make a profit out of the electric lights that...</description>
+        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/war-of-the-currents/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/war-of-the-currents/</guid>
+        
+        <category>Tesla</category>
+        
+        <category>Edison</category>
+        
+        <category>AC/DC</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Speed Printing</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;3D printing technology is often used to construct highly complex objects of different kinds, properties and materials. Despite its numerous advantages, one major drawback of 3D printers is its traditionally slow speed. This is where it fails miserably, in its large scale applicability, against other major manufacturing processes like injection moulding. To overcome this major industry challenge, several 3D companies have come up with more updated and efficient technologies that guarantee quick speeds and utmost accuracy. One of the successful and modern technology is &lt;strong&gt;CLIP (short for, continuous liquid interface production)&lt;/strong&gt;.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A typical 3D printing machine such...</description>
+        <pubDate>Thu, 28 Dec 2017 22:35:21 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/speed-printing/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/speed-printing/</guid>
+        
+        <category>Speed Printing</category>
+        
+        <category>Stereolithography</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
         <title>How NASA discovered planets using Artificial Intelligence</title>
-        <description>&lt;h2 id=&quot;a-convolutional-neural-network-and-90-minutes-of-training&quot;&gt;A Convolutional Neural Network and 90 minutes of training&lt;/h2&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;.&lt;br /&gt; But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h3 id=&quot;where-did-the-data-come-from&quot;&gt;Where did the data come from?&lt;/h3&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of &lt;em&gt;stars of interest&lt;/em&gt; every...</description>
+        <description>&lt;p&gt;A Convolutional Neural Network.&lt;br /&gt; &lt;strong&gt;A Convolutional Neural Network and 90 minutes of training&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;.&lt;br /&gt; But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h3 id=&quot;where-did-the-data-come-from&quot;&gt;Where did the data come from?&lt;/h3&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of...</description>
         <pubDate>Thu, 21 Dec 2017 22:14:03 +0530</pubDate>
         <link>http://ieeenitk.org/blog/space-ml/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/space-ml/</guid>
@@ -114,58 +164,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Radio Frequency Identification</title>
-        <description>&lt;p&gt;RFID technology has been in circulation for many years now. You may have encountered it first-hand while borrowing library books, or while swiping for attendance in school. Recently, the government issued RFID chips to be installed in cars so that we can zoom through toll booths instead of waiting in long queues. RFID technology has also got a fair share of screen time. Remember Casino Royale? Her Majesty’s Secret Service injects Bond with a glass-enclosed, rice-sized RFID chip, so that, in M’s words, “they’ll know where he is”. Here is a little insight into the technology that is taking the world by...</description>
-        <pubDate>Mon, 20 Nov 2017 06:00:02 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/rfid/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/rfid/</guid>
-        
-        <category>RFID</category>
-        
-        <category>ADC</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Machine Learning for Stock Market Investment</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;Arthur Lee Samuel, the man who coined the term “machine learning” defined it as the field of study that gives computers the ability to learn without being explicitly programmed.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;A good analogy to how it actually works would be teaching a child to play chess by locking him in a room with nothing but the rules of the game and a record of say, a hundred previous games (and of course, food and water). After a period of five days, the child would walk out of the room as a pretty good chess player. In our analogy, the...</description>
-        <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/</guid>
-        
-        <category>Machine Learning</category>
-        
-        <category>Stock Market</category>
-        
-        <category>Support Vector Machine</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Evacuated Tube Collectors</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents.&lt;/p&gt; &lt;p&gt;Great amount of research is carried in improving the efficiency of renewable energy and making it inexpensive. The main objective is to minimize or eliminate the usage of electricity...</description>
-        <pubDate>Mon, 20 Nov 2017 05:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/evacuated-tube-collector/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/evacuated-tube-collector/</guid>
-        
-        <category>Energy</category>
-        
-        <category>Renewables</category>
-        
-        <category>Thermal Sciences</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

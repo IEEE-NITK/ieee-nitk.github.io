@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "How do websites communicate securely?",
+      "category" : "CompSoc",
+      "tags"     : "SSL and Public Key Cryptography",
+      "url"      : "http://ieeenitk.org/blog//public-key-cryptography/",
+      "date"     : "29 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "War of the Currents",
+      "category" : "Diode",
+      "tags"     : "Tesla, Edison, and AC/DC",
+      "url"      : "http://ieeenitk.org/blog//war-of-the-currents/",
+      "date"     : "29 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "Speed Printing",
+      "category" : "Piston",
+      "tags"     : "Speed Printing and Stereolithography",
+      "url"      : "http://ieeenitk.org/blog//speed-printing/",
+      "date"     : "28 Dec 2017"
+    } ,
+  
+    {
       "title"    : "How NASA discovered planets using Artificial Intelligence",
       "category" : "CompSoc",
       "tags"     : "Space, Machine Learning, and Deep Learning",

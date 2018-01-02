@@ -171,7 +171,8 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="a-convolutional-neural-network-and-90-minutes-of-training">A Convolutional Neural Network and 90 minutes of training</h2>
+                <p>A Convolutional Neural Network.<br />
+<strong>A Convolutional Neural Network and 90 minutes of training</strong></p>
 
 <p>Clearly, the hard part wasn’t the training or the model but to get the <em>training set</em>.<br />
 But what is the <em>data</em>? and where did we get it form?</p>
@@ -215,17 +216,22 @@ But what is the <em>data</em>? and where did we get it form?</p>
 
 <p>Even if we do fold the graph, it’s still really messy since there may be random variations in the data. Binning can be thought as averaging the data out at a folded point in time to give 1 point.</p>
 
-<p>Original Light Curve |  Folded Curve      |   Binned Curve
-:——————-:|:——————:|:——————–:</p>
-
-<p><img src="/blog/assets/img/space-ml/lightcurve.png" alt="Light Curve" /><br />
-Light Curve</p>
-
-<p><img src="/blog/assets/img/space-ml/foldedcurve.png" alt="Folded Curve" />
-Folded Curve</p>
-
-<p><img src="/blog/assets/img/space-ml/binnedcurve.png" alt="Binned Curve" />
-Binned Curve</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Original Light Curve</th>
+      <th style="text-align: center">Folded Curve</th>
+      <th style="text-align: center">Binned Curve</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/blog/assets/img/space-ml/lightcurve.png" alt="Light Curve" /></td>
+      <td style="text-align: center"><img src="/blog/assets/img/space-ml/foldedcurve.png" alt="Folded Curve" /></td>
+      <td style="text-align: center"><img src="/blog/assets/img/space-ml/binnedcurve.png" alt="Binned Curve" /></td>
+    </tr>
+  </tbody>
+</table>
 
 <p>The problem with binning the TCE dataset is that all the periods in our light curves are of different lengths. Different planets have different orbital lengths, different orbital periods and different distances from Earth. Hence, different periods of transits. So, how <em>did</em> they bin these light curves to act as inputs?</p>
 
@@ -245,9 +251,9 @@ Binned Curve</p>
 <h3 id="the-dataset-is-now-ready">The dataset is now ready.</h3>
 <p>The researchers then passed these views as inputs into the their multilayered convolutional network and trained.</p>
 
-<h2 id="resources">Resources</h2>
+<h3 id="resources">Resources</h3>
 
-<p>Although this post is not going to divulge into the details of the neural netowrk, you can check it out on their research paper: <a href="https://www.cfa.harvard.edu/~avanderb/kepler90i.pdf">Identifying Exoplanets with Deep learning</a>.</p>
+<p>Although this post is not going to divulge into the details of the neural network, you can check it out on their research paper: <a href="https://www.cfa.harvard.edu/~avanderb/kepler90i.pdf">Identifying Exoplanets with Deep learning</a>.</p>
 
 <p>If you want to know more about binning, folding and how to apply them with numpy, go <a href="https://www.southampton.ac.uk/~sdc1g08/BinningFolding.html">here</a>.</p>
 
