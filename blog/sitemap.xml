@@ -2,159 +2,179 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Rock-Paper-Scissors/</loc>
+		<loc>/piston/2017/09/25/Challenger-disaster.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Airbus-E-Fan/</loc>
+		<loc>/cas/ieee%20nitk/2017/09/25/What-Makes-a-Smart-Home-Smart.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Safety-Issues-in-AI-Systems/</loc>
+		<loc>/compsoc/2017/09/18/BitTorrentExplained.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Technology-in-Sports/</loc>
+		<loc>/piston/2017/09/18/storing-energy-in-salt!.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Hashing-in-Competitive-Programming/</loc>
+		<loc>/cas/ieee%20nitk/2017/09/11/Water-Memory,-What-A-Memory.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/six_stroke_engine/</loc>
+		<loc>/cas/2017/09/04/Rock-Paper-Scissors.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/opencv/</loc>
+		<loc>/piston/2017/09/04/Airbus-E-Fan.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/random-number-generator/</loc>
+		<loc>/compsoc/2017/09/04/Safety-Issues-in-AI-Systems.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Smartphones-and-health/</loc>
+		<loc>/diode/2017/08/22/Technology-in-Sports.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/raspberry-pi-bluetooth/</loc>
+		<loc>/compsoc/2017/08/22/Hashing-in-Competitive-Programming.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/HIgh-Lift-devices/</loc>
+		<loc>/piston/2017/08/13/six_stroke_engine.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/3D-Printing/</loc>
+		<loc>/diode/2017/08/13/opencv.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Reinforcement-Learning/</loc>
+		<loc>/diode/2017/08/04/random-number-generator.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/NumberTheory/</loc>
+		<loc>/piston/2017/08/04/Smartphones-and-health.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Log-file-parsing-and-report-generation/</loc>
+		<loc>/diode/2017/08/04/raspberry-pi-bluetooth.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Cuba-and-Candela-Thin-shell-structures-and-their-strength-through-curvature/</loc>
+		<loc>/ieee/2017/07/28/HIgh-Lift-devices.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/multitenancy/</loc>
+		<loc>/ieee/2017/07/28/3D-Printing.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/cvt/</loc>
+		<loc>/compsoc/2017/07/28/Reinforcement-Learning.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/big-data/</loc>
+		<loc>/compsoc/2017/07/23/NumberTheory.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/FinFETS/</loc>
+		<loc>/compsoc/2017/07/23/Log-file-parsing-and-report-generation.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Compliant-Mechanisms/</loc>
+		<loc>/piston/2017/07/22/Cuba-and-Candela-Thin-shell-structures-and-their-strength-through-curvature.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Dealing-with-underdetermined-systems/</loc>
+		<loc>/compsoc/2017/07/15/multitenancy.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/hyperloop/</loc>
+		<loc>/piston/2017/07/15/cvt.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/graphene/</loc>
+		<loc>/compsoc/2017/07/08/big-data.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/promises-closures-and-potatoes/</loc>
+		<loc>/diode/2017/07/08/FinFETS.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/fluid-mechanics-in-everyday-life/</loc>
+		<loc>/piston/2017/07/08/Compliant-Mechanisms.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/the-fourth-industrial-revolution/</loc>
+		<loc>/diode/2017/07/02/Dealing-with-underdetermined-systems.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/through-the-eyes-of-a-computer/</loc>
+		<loc>/piston/2017/06/25/hyperloop.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/introduction-to-reverse-engineering/</loc>
+		<loc>/diode/2017/06/24/graphene.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/google-image-search-grid/</loc>
+		<loc>/compsoc/2017/06/23/promises-closures-and-potatoes.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/lighting-up-your-room/</loc>
+		<loc>/piston/2017/06/18/fluid-mechanics-in-everyday-life.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/the-class-of-np/</loc>
+		<loc>/piston/2017/06/16/the-fourth-industrial-revolution.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/why-not-chemical-engineering/</loc>
+		<loc>/compsoc/diode/2017/06/14/through-the-eyes-of-a-computer.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/introduction-to-GPU-computing/</loc>
+		<loc>/compsoc/2017/06/14/introduction-to-reverse-engineering.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/how-to-get-started-with-bots/</loc>
+		<loc>/compsoc/2017/06/10/google-image-search-grid.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/Hello-World/</loc>
+		<loc>/diode/2017/06/10/lighting-up-your-room.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/getting-to-love-the-terminal/</loc>
+		<loc>/compsoc/2017/06/09/the-class-of-np.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/installing-ubuntu/</loc>
+		<loc>/piston/2017/06/07/why-not-chemical-engineering.html</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/introduction-to-ieee/</loc>
+		<loc>/compsoc/2017/06/04/introduction-to-GPU-computing.html</loc>
+	  </url>
+	
+	  <url>
+		<loc>/diode/2017/06/01/how-to-get-started-with-bots.html</loc>
+	  </url>
+	
+	  <url>
+		<loc>/compsoc/2017/05/26/Hello-World.html</loc>
+	  </url>
+	
+	  <url>
+		<loc>/compsoc/2017/05/24/getting-to-love-the-terminal.html</loc>
+	  </url>
+	
+	  <url>
+		<loc>/compsoc/2017/05/24/installing-ubuntu.html</loc>
+	  </url>
+	
+	  <url>
+		<loc>/compsoc/diode/piston/2017/05/15/introduction-to-ieee.html</loc>
 	  </url>
 	
 </urlset>
