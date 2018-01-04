@@ -1,96 +1,111 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <!-- Give a small description in 3-4 sentences about the website -->
+        <meta name="abstract" content="This Website is about IEEE NITK Student Chapter">
+        <!-- Important Keywords to be noted in the website  -->
+        <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+        <!-- Tell the spider to index the first page and other pages as well-->
+        <meta name="robots" content="index, follow">    
+        <!-- How often should spiders come back to your page -->
+        <meta name="revisit-after" content="3 days">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        <!-- Copyright regarding the website -->
+        <meta name="copyright" content="IEEE NITK">
+        <!-- Tells Google Bot not to duplicate description -->
+        <meta name="googlebot" content="noodp">
+        <!-- Language for the website -->
+        <meta name="language" content="English">  
 
-    <!-- Google Authorship Markup -->
-    <link rel="author" href="https://plus.google.com/{{site.gplus_username}}?rel=author">
+        <!-- Web Author for the image -->
+        <meta name="web_author" content="IEEE NITK">
+        <meta name="author" content="Salman Shah">
+        <!-- Email ID -->
+        <meta name="contact" content="chairman.nitkieee@gmail.com" />
+        <!-- Email ID to reply to -->
+        <meta name="reply-to" content="chairman.nitkieee@gmail.com">
 
-    <!-- Social: Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@{{site.twitter_username}}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    {% if page.image %}
-    <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
-    {% else %}
-    <meta property="twitter:image:src" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
+        <!-- Refers to distribution of the page -->
+        <meta name="distribution" content="global">
+        <!-- Generator or formatter tag -->
+        <meta name="generator" content="Jekyll">
+        <!-- Disallow spammers for the webpage -->
+        <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+        <!-- Rating for the page -->
+        <meta name="rating" content="general">
+        <!-- Content Type for the page -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- Fixing viewport on mobile views -->
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
 
-    <!-- Social: Facebook / Open Graph -->
-    <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
-    <meta property="og:url" content="{{ site.url }}/{{ base.url }}/{{ page.url }}" />
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{page.image }}">
-    {% else %}
-    <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
-    {% endif %}
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:site_name" content="{{ site.title }}">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-    <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta itemprop="image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}"/>
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="{{site.baseurl}}/assets/img/icons/favicon.ico" type="image/x-icon" />
-    <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon-152x152.png" />
+        <!-- Google Authorship Markup -->
+        <link rel="author" href="https://plus.google.com/{{site.gplus_username}}?rel=author">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/assets/img/icons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/assets/img/icons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/assets/img/icons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/assets/img/icons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/img/icons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/assets/img/icons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/assets/img/icons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/img/icons/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/img/icons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="{{site.baseurl}}/assets/img/icons/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/img/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="{{site.baseurl}}/assets/img/icons/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/img/icons/favicon-16x16.png">
-	<link rel="manifest" href="{{site.baseurl}}/assets/img/icons/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-    
-    <!-- Include Font Awesome -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <!-- Social: Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@{{site.twitter_username}}">
+        <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        <meta property="twitter:image:src" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
 
-    <!-- Windows 8 Tile Icons -->
-    <meta name="application-name" content="{{site.username}} Blog">
-    <meta name="msapplication-TileColor" content="#0562DC">
-    <meta name="msapplication-square70x70logo" content="smalltile.png" />
-    <meta name="msapplication-square150x150logo" content="mediumtile.png" />
-    <meta name="msapplication-wide310x150logo" content="widetile.png" />
-    <meta name="msapplication-square310x310logo" content="largetile.png" />
-    <!-- Android Lolipop Theme Color -->
-    <meta name="theme-color" content="#0562DC">
-    <!-- highlighter theme -->
-    <link rel="stylesheet" href="{{ "/assets/css/monokai-sublime.css" | prepend: site.baseurl }}">
-    <!-- jQuery for highlighter -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- Social: Facebook / Open Graph -->
+        <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
+        <meta property="og:url" content="{{ site.url }}/{{ base.url }}/{{ page.url }}" />
+        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+        <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+        <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        <meta property="og:site_name" content="{{ site.title }}">
 
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
-    href="{{ "/blog/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+        <!-- Social: Google+ / Schema.org  -->
+        <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+        <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        <meta itemprop="image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
-    {% if page.use_math %}
-        {% include math.html %}
-    {% endif %}
-</head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{{site.baseurl}}/assets/img/icons/favicon.ico" type="image/x-icon" />
+    	<link rel="manifest" href="{{site.baseurl}}/assets/img/icons/manifest.json">
+    	<meta name="msapplication-TileColor" content="#ffffff">
+    	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    	<meta name="theme-color" content="#ffffff">
+        
+        <!-- Include Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <!-- Windows 8 Tile Icons -->
+        <meta name="application-name" content="{{site.username}} Blog">
+        <meta name="msapplication-TileColor" content="#0562DC">
+        <meta name="msapplication-square70x70logo" content="smalltile.png" />
+        <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+        <meta name="msapplication-wide310x150logo" content="widetile.png" />
+        <meta name="msapplication-square310x310logo" content="largetile.png" />
+        <!-- Android Lolipop Theme Color -->
+        <meta name="theme-color" content="#0562DC">
+        <!-- highlighter theme -->
+        <link rel="stylesheet" href="{{ "/assets/css/monokai-sublime.css" | prepend: site.baseurl }}">
+        <!-- jQuery for highlighter -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
+        href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+        {% if page.use_math %}
+            {% include math.html %}
+        {% endif %}
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-106590424-3');
+        </script>
+
+    </head>

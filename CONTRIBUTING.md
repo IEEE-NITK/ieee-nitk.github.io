@@ -46,6 +46,12 @@ salman-bhai:
 
 At the top, we would like you to use the same `username` as your github account (for example `salman-bhai` is Salman's (my) Github username). This will allow us to avoid username collisions within our blog.
 
+
+**4. Adding your image to the blog.**
+
+Go to the directory `blog_src/assets/img/authors` and add your author image there. Make sure you have a **square image**. Later you have to compress your image via a Python script. To compress your image you can run the command `python image_optimise.py <image-name>`.
+
+
 ## Step 3: Adding your new post to the IEEE-NITK blog
 
 Now that your username is under the list of authors, we get to the fun part: adding your article to our blog.
@@ -150,10 +156,22 @@ Configuration file: none
 
 - Visit your the address next to "Server address" on your browser to see the local version of your blog running, in my case http://127.0.0.1:4000
 
-## Step 4: Publishing your article
+## Step 4: Testing your article
+
+- To test if you're article has passed all cases and would be working fine, use the following code to check. If you haven't installed the gem `html-proofer` you can install it by using the following command.
+```
+sudo gem install html-proofer
+```
+
+- If you have already installed the above gem, you can run the script by going to the root folder and then running the following command.
+```
+./scripts/cibuild
+```
+
+
+## Step 5: Publishing your article
 
 Create a new branch in your local repo by the command `git checkout -b <branch_name>`
-
 
 Commit and push your changes to your repository. Once those changes are in, go ahead and make a pull request to the [main blog's repo](https://github.com/IEEE-NITK/ieee-nitk.github.io).
 
@@ -179,3 +197,22 @@ This article explains why every web developer should know Angular in 2015.
 - Please ask someone to review the article, once you have submitted a Pull Request!
 
 - As soon as your article is merged, it'll also be live on our blog (usually takes around 2 minutes to publish).
+
+## Testing your Jekyll build
+
+1. After you build your jekyll build, it is important to test whether everything has been done properly or not. 
+2. To do this first install **HTML Proofer** with the following command:
+```
+gem install html-proofer
+``` 
+3. Then run the command `./scripts/cibuild` and if you get the following output in the end you're good to go.
+```
+Running ["ScriptCheck", "LinkCheck", "ImageCheck"] on ["./_site"] on *.html... 
+
+
+Ran on xxx files!
+
+
+HTML-Proofer finished successfully.
+
+```

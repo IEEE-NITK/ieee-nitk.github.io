@@ -7,13 +7,14 @@ description: 'Final Year IEEE Executive Member Vinay Bhat gives advice on how to
 tags:
 - Internships
 - Career Advice
+- Industry
 categories:
 - CompSoc
 github_username: 'vshan'
 comments: true
 ---
 
-![Vinay Bhat]('/assets/img/authors/vinay_bhat.jpg')
+![Vinay Bhat](/gyan/assets/img/authors/vinay_bhat.jpg)
 
 Hi, my name is Vinay Bhat and I’m a final year undergraduate student in the IT department. This summer I had interned at Siemens Research Labs, Bangalore. I had applied there because it involved the field of Artificial Intelligence, which I'm greatly interested in.
 
