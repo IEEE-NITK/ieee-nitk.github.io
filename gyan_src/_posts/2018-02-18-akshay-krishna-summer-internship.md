@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IISc, Bangalore, Internship Experience - Akshay Krishna"
-date: 2017-12-31 11:32:44
+date: 2018-02-18 11:32:44
 image: '/assets/img/'
 description: 'Third Year IEEE Executive Member Akshay Krishna gives advice on how to apply and look out for research internships.'
 tags:

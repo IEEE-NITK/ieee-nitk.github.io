@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IITB, Mumbai, Internship Experience - Shashank Rao"
-date: 2018-01-07 11:32:44
+date: 2018-01-06 11:32:44
 image: '/assets/img/'
 description: 'Third Year IEEE Executive Member Shashank Rao gives advice on how to apply and look out for research internships at IIT Bombay in the field of Robotics.'
 tags:

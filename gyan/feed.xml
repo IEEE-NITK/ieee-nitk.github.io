@@ -5,9 +5,25 @@
     <description>Gyan passed down from one batch to another</description>
     <link>https://ieeenitk.org/gyan/</link>
     <atom:link href="https://ieeenitk.org/gyan/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Dec 2017 13:18:30 +0530</pubDate>
-    <lastBuildDate>Tue, 26 Dec 2017 13:18:30 +0530</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2018 15:30:07 +0530</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2018 15:30:07 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>IITB, Mumbai, Internship Experience - Shashank Rao</title>
+        <description>&lt;p&gt;I am interested in all aspects of Robotics: Path-Planning, Perception, ROS, Mobility, Locomotion, Dynamics etc. I also wish to venture into the field of Machine Learning and Artificial Intelligence.&lt;/p&gt; &lt;h2 id=&quot;where-did-you-get-your-internship-and-why-did-you-apply-there&quot;&gt;Where did you get your internship and why did you apply there?&lt;/h2&gt; &lt;h3 id=&quot;what-interested-you-or-attracted-you-to-this-particular-internship-and-why&quot;&gt;What interested you or attracted you to this particular internship and why?&lt;/h3&gt; &lt;p&gt;I interned at IIT Bombay, Systems and Control Engineering Department. My area of interest is robotics, and the professors of said department mainly deal with controls and robotics.&lt;/p&gt; &lt;h2 id=&quot;how-did-you-get-your-internship&quot;&gt;How did you get your internship?&lt;/h2&gt; &lt;h3 id=&quot;was-it-through-the-college-or-off-campus-or-through-a-seniorprof-or-through-an-internship-website&quot;&gt;Was it through the college or off-campus or through...</description>
+        <pubDate>Sat, 06 Jan 2018 17:02:44 +0530</pubDate>
+        <link>https://ieeenitk.org/gyan/shahsank-rao-summer-internship/</link>
+        <guid isPermaLink="true">https://ieeenitk.org/gyan/shahsank-rao-summer-internship/</guid>
+        
+        <category>Internships</category>
+        
+        <category>Research</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>TU Munich (DAAD WISE), Internship Experience - Natasha Jeppu</title>
@@ -156,20 +172,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Peeking into a hacker's mind - an Interview with Kishor Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/gyan/assets/img/kishor-bhat-interview/kishor.jpg&quot; alt=&quot;Kishor Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.&lt;/p&gt; &lt;h2 id=&quot;how-important-are-ctfs-to-a-security-enthusiast-give-an-account-of-your-experiences-from-playing-ctfs&quot;&gt;How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs&lt;/h2&gt; &lt;p&gt;In my opinion, pretty important.&lt;/p&gt; &lt;p&gt;For the uninitiated, CTFs or Capture the Flag contests are security competitions that come...</description>
-        <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
-        <link>https://ieeenitk.org/gyan/kishor-bhat-interview/</link>
-        <guid isPermaLink="true">https://ieeenitk.org/gyan/kishor-bhat-interview/</guid>
-        
-        <category>Gyan</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
