@@ -1021,9 +1021,90 @@
     "name": "Vinay Bhat",
     "year": "Final Year",
     "sig": "CompSoc",
-    "interests": "Metal alloys, composites, applications of ceramics and polymers. Thermodynamics",
+    "interests": "Systems, Machine Learning, Functional Programming",
     "linkedin": "https://www.linkedin.com/in/vinay-bhat",
-    "github": "https://github.com/mohitreddy1996/"
+    "github": "https://github.com/vshan/"
+  },
+  {
+    "email": "mailto:trmittal24@gmail.com",
+    "name": "Tarun Mittal",
+    "year": "Third Year",
+    "sig": "CAS/SPS",
+    "interests": "Embedded Systems, IoT, Digital System Design, Cryptography",
+    "linkedin": "https://www.linkedin.com/in/trmittal24/",
+    "github": "https://github.com/trmittal24"
+  },
+  {
+    "email": "mailto:hebbarashwin@gmail.com",
+    "name": "Ashwin Hebbar",
+    "year": "Second Year",
+    "sig": "CAS/SPS",
+    "interests": "Electronics",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/"
+  },
+  {
+    "email": "mailto:harini.25697@gmail.com",
+    "name": "Harini S",
+    "year": "Third Year",
+    "sig": "CAS/SPS",
+    "interests": "Digital System Design, Image Processing, ML",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/"
+  },
+  {
+    "email": "mailto:mittu97@gmail.com",
+    "name": "Shwetha SV",
+    "year": "Third Year",
+    "sig": "CAS/SPS",
+    "interests": "Analog, Control Systems, Machine Learning",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/"
+  },
+  {
+    "email": "mailto:vasista1997@gmail.com",
+    "name": "Vasista Ayyagari",
+    "year": "Third Year",
+    "sig": "Piston",
+    "interests": "Robotics and Thermal Engineering",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/"
+  },
+  {
+    "email": "mailto:rosageorge97@gmail.com",
+    "name": "Rosa Anil George",
+    "year": "Second Year",
+    "sig": "Compsoc",
+    "interests": "Database Management System and Machine Learning",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/RosaGeorge31"
+  },
+  {
+    "email": "mailto:sachitk777@gmail.com",
+    "name": "Sachit Krishnan",
+    "year": "Second Year",
+    "sig": "Piston",
+    "interests": "Signal Processing, Electromagnetics, Aerodynamics",
+    "linkedin": "https://www.linkedin.com/in/sachit-krishnan-a434b1148",
+    "github": "https://github.com/sachitkrishnan"
+  },
+  {
+    "email": "mailto:adilashique@gmail.com",
+    "name": "Adil Mohammed Ashique",
+    "year": "Second Year",
+    "sig": "Compsoc",
+    "interests": "Machine Learning, Robotics and AI",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/adilashique"
+  },
+  {
+    "email": "mailto:rohanbfg@gmail.com",
+    "name": "Rohan Surve",
+    "year": "Third Year",
+    "sig": "CAS/SPS",
+    "interests": "Signal processing",
+    "linkedin": "https://www.linkedin.com/",
+    "github": "https://github.com/"
   },
   {
     "email": "mailto:samhitav@gmail.com",
@@ -1060,7 +1141,8 @@
             "github": "",
             "linkedin": "www.linkedin.com/in/adityakulkarni95",
             "position": "Chairman"
-        }, {
+        }, 
+        {
             "id": "Megha Mantur",
             "name": "Megha Mantur",
             "interests": "I like Reading, sketching, painting, art stuff, playing badminton, chess, listening to music.Technically my interest lies in digital electronics, signal processing and microcontrollers.",
@@ -1068,7 +1150,8 @@
             "github": "",
             "linkedin": "https://in.linkedin.com/pub/megha-mantur/a4/105/19a",
             "position": "Vice Chair"
-        }, {
+        }, 
+        {
             "id": "Aditya.S",
             "name": "Aditya.S",
             "interests": "Automobiles, networking",
@@ -1076,7 +1159,8 @@
             "github": "",
             "linkedin": "",
             "position": "Secretary"
-        }, {
+        }, 
+        {
             "id": "Akarsh P",
             "name": "Akarsh P",
             "interests": "Multidisciplinary projects, Microcontroller programming, Signal processing, Machine learning, Table tennis, Cricket",
@@ -1084,7 +1168,8 @@
             "github": "",
             "linkedin": "https://.linkedin.com/in/akarshprabhakar",
             "position": "Joint Secretary"
-        }, {
+        }, 
+        {
             "id": "Sandeep N Menon",
             "name": "Sandeep N Menon",
             "interests": "Algorithms, Coding",
@@ -1092,7 +1177,8 @@
             "github": "https://github.com/gitmenonsandu",
             "linkedin": "",
             "position": "Engineer Joint Convenor"
-        }, {
+        }, 
+        {
             "id": "Prachi Shahi",
             "name": "Prachi Shahi",
             "interests": "HPC, Security",
@@ -1100,7 +1186,8 @@
             "github": "https://github.com/prachi29",
             "linkedin": "",
             "position": " WIE Chair"
-        }, {
+        }, 
+        {
             "id": "Natasha Y Jeppu",
             "name": "Natasha Y Jeppu",
             "interests": "Security, HPC",
@@ -1108,7 +1195,8 @@
             "github": "https://github.com/natasha-jeppu",
             "linkedin": "",
             "position": "India Council CompSoc SAC Core Team"
-        },{
+        },
+        {
             "id": "Prajwal G S",
             "name": "Prajwal G S",
             "interests": "Automobiles, particularly transmissions",
@@ -1116,7 +1204,8 @@
             "github": "",
             "linkedin": "https://in.linkedin.com/pub/prajwal-g-s/103/6b6/b64",
             "position": "Piston Secretary"
-        },{
+        },
+        {
             "id": "Sai Velamala",
             "name": "Sai Velamala",
             "interests": "Robotics,Automated control systems,Drones and quadrocopters,Machine learning",
@@ -1124,7 +1213,8 @@
             "github": "",
             "linkedin": "",
             "position": "Piston Secretary"
-        }, {
+        }, 
+        {
             "id": "Chirag Gourav G",
             "name": "Chirag Gourav G",
             "interests": "Embedded system(Raspberry Pi, MSP430), Sensors, Digital electronics programming.",
@@ -1132,7 +1222,8 @@
             "github": "",
             "linkedin": "https://in.linkedin.com/in/chiraggourav18",
             "position": "Circuits and Systems Chair"
-        }, {
+        }, 
+        {
             "id": "Maitreyee Marathe",
             "name": "Maitreyee Marathe",
             "interests": "Alternative Energy",
@@ -1141,15 +1232,16 @@
             "linkedin": "https://in.linkedin.com/pub/maitreyee-marathe/103/794/912",
             "position": "CAS Secretary"
         },
-        {   "id":"Adarsh Rajesh",
+        {   
+          "id":"Adarsh Rajesh",
             "name":"Adarsh Rajesh",
             "interests":"Machine learning, computational neuroscience",
             "email":"mailto:adarshrajesh19@gmail.com",
             "github":"https://github.com/AdarshRajesh/",
             "linkedin":"https://www.linkedin.com/in/adarsh-rajesh-25a319104",
             "position":"SIGHT Chair"
-
-            }, {
+            }, 
+            {
             "id": "Deepesh Agarawal",
             "name": "Deepesh Agarawal",
             "interests": "Technical-\nSignals and systems\nComputer architecture\nSignal processing\nNon technical-\nTable tennis\nMusic\n",
@@ -1157,7 +1249,8 @@
             "github": "",
             "linkedin": "https://in.linkedin.com/pub/deepesh-agarawal/103/64/24b",
             "position": "Signal Processing Society Chair"
-        }, {
+        }, 
+        {
             "id": "Chaithya G R",
             "name": "Chaithya G R",
             "interests": "Signal processing, Computer architecture, Coding",
@@ -1165,7 +1258,8 @@
             "github": "",
             "linkedin": "https://in.linkedin.com/pub/chaithya-gr/44/aab/b08",
             "position": "Signal Processing Society Secretary"
-        }, {
+        }, 
+        {
             "id": "Adithya Bhat",
             "name": "Adithya Bhat",
             "interests": "Security, Networks",
@@ -1173,7 +1267,8 @@
             "github": "https://github.com/adithyabhatkajake",
             "linkedin": "",
             "position": "Computer Society Chair"
-        }, {
+        }, 
+        {
             "id": "Ananda Rao H",
             "name": "Ananda Rao H",
             "interests": "Algorithms, Coding",
@@ -1182,8 +1277,6 @@
             "linkedin": "",
             "position": "Computer Society Secretary"
         },
-
-
         {
             "id": "Prabhanjan P M",
             "name": "Prabhanjan P M",
@@ -1193,8 +1286,6 @@
             "linkedin": "",
             "position": "Computer Society Secretary"
         },
-
-
         {
             "id": "AKSHAY KRISHNA ",
             "name": "Akshay Krishna ",
