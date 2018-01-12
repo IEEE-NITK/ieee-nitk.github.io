@@ -5,14 +5,14 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jan 2018 19:26:28 +0530</pubDate>
-    <lastBuildDate>Thu, 04 Jan 2018 19:26:28 +0530</lastBuildDate>
+    <pubDate>Fri, 12 Jan 2018 15:18:54 +0530</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2018 15:18:54 +0530</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
         <title>Bit Manipulation</title>
         <description>&lt;p&gt;All data in computer programs is internally stored as bits, i.e., as numbers 0 and 1. It turns out that there are many uses for bit manipulation in competitive programming.&lt;/p&gt; &lt;p&gt;In programming, an n bit integer is internally stored as a binary number that consists of n bits. For example, the C++ type int is a 32-bit type, which means that every int number consists of 32 bits. For exmaple, the bit representation of the int number 42 is &lt;code class=&quot;highlighter-rouge&quot;&gt;00000000000000000000000000101010&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;There are several bit operations supported by a typical ALU, some of them being AND, OR, NOT, XOR, and...</description>
-        <pubDate>Mon, 01 Jan 2018 19:45:53 +0530</pubDate>
+        <pubDate>Fri, 12 Jan 2018 16:45:53 +0530</pubDate>
         <link>http://ieeenitk.org/blog/bit-manipulation/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/bit-manipulation/</guid>
         
@@ -26,6 +26,46 @@
         
         
         <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Fluids and Satellites</title>
+        <description>&lt;p&gt;&lt;em&gt;The increasingly large volumes of fluid that have to be carried aboard satellites designed for long operating lifetimes, but which often must also deliver high-accuracy pointing, mean that special attention has to be paid to the behavior of fluids in low gravity.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;low-gravity-and-fluid-dynamics&quot;&gt;Low gravity and fluid dynamics&lt;/h2&gt; &lt;p&gt;There are several methods for analyzing the dynamic behavior of fluids under normal gravity conditions on Earth. A common assumption in such methods is that the free surface of the fluid is flat and at right angles to the direction in which gravity is acting, i.e. normal to the gravity vector. In...</description>
+        <pubDate>Fri, 12 Jan 2018 16:35:53 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/fluids-and-satellites/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/fluids-and-satellites/</guid>
+        
+        <category>Fluid Dynamics</category>
+        
+        <category>Satellites</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>How is Technology Helping the Differently Abled People?</title>
+        <description>&lt;p&gt;This year, the government of India dedicated the National Science Day to the theme “Science and Technology for specially-abled people”. The main aim was to encourage innovation and also to ease the difficulties of differently abled people. So here are 10 assistive technologies to assist them.&lt;/p&gt; &lt;h2 id=&quot;devices-for-people-with-visual-impairment&quot;&gt;Devices for people with visual Impairment&lt;/h2&gt; &lt;h3 id=&quot;dot&quot;&gt;DOT&lt;/h3&gt; &lt;p&gt;It is the world’s first Braille smart watch which is affordable compared to the regular e-Braille devices. Technically this device consists of 6 dots on four cells on the screen of the watch which forms 4 letters in Braille at any time. This tool helps...</description>
+        <pubDate>Fri, 12 Jan 2018 16:30:53 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/how-is-technology-helping-the-differently-abled-people/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/how-is-technology-helping-the-differently-abled-people/</guid>
+        
+        <category>differently-abled</category>
+        
+        <category>assistive technology</category>
+        
+        <category>text scanners</category>
+        
+        <category>optical sensors</category>
+        
+        <category>bionic</category>
+        
+        <category>eye tracking system.</category>
+        
+        
+        <category>CAS/SPS</category>
         
       </item>
     
@@ -142,30 +182,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Airbag System for two Wheeler vehicles</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;The Airbag system was first introduced in 4-wheelers . This paper gives information about the introduction of the airbag system can be used in the two wheelers(bikes). This paper shows the working, construction, installation of this system and problems that can occur in this system.&lt;/p&gt; &lt;p&gt;The concept of this airbag system is “To reduce the injuries to a rider when impacting with an opposing vehicle and/or opposing object in frontal collisions by absorbing rider kinetic energy and by reducing rider separation velocity from motorcycle in the forward direction.” With the help of the ANGLE sensor with an angle...</description>
-        <pubDate>Fri, 08 Dec 2017 07:30:10 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/the-airbag-system-for-two-wheeler-vehicle/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/the-airbag-system-for-two-wheeler-vehicle/</guid>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>BoT</title>
-        <description>&lt;h2 id=&quot;botnet-of-things&quot;&gt;Botnet of things&lt;/h2&gt; &lt;p&gt;The Internet of Things aka IoT is one of the hot trending topics in the tech world right now. The IoT is basically a network of devices connected to the internet, each having a unique IP address. Today, the Internet of Things plays with the idea of connecting nearly every manufactured object to the Internet. It is being incorporated into smart homes, watches, cars, fitness trackers, power grids, thermostats, contact lenses, pacemakers and what not.&lt;/p&gt; &lt;p&gt;While the Internet of Things brings a new horizon of opportunities, there are several barriers in respect to making IoT implementations...</description>
-        <pubDate>Fri, 08 Dec 2017 07:30:10 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/bot/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/bot/</guid>
-        
-        
-        <category>Diode</category>
         
       </item>
     

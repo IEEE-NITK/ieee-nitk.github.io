@@ -132,7 +132,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-01-01 19:45:53 +0530" class="date">01 Jan 2018</time>
+            <time itemprop="datePublished" datetime="2018-01-12 16:45:53 +0530" class="date">12 Jan 2018</time>
         
         <h1 class="post-title" itemprop="name">Bit Manipulation</h1>
         <p itemprop="description" class="subtitle">An introduction to Bit Manipulation and its use in Competitive Programming</p>
@@ -185,17 +185,11 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>All data in computer programs is internally stored as bits, i.e., as numbers 0
-and 1. It turns out that there are many uses for bit manipulation in
-competitive programming.</p>
+                <p>All data in computer programs is internally stored as bits, i.e., as numbers 0 and 1. It turns out that there are many uses for bit manipulation in competitive programming.</p>
 
-<p>In programming, an n bit integer is internally stored as a binary number that
-consists of n bits. For example, the C++ type int is a 32-bit type, which means
-that every int number consists of 32 bits.
-For exmaple, the bit representation of the int number 42 is <code class="highlighter-rouge">00000000000000000000000000101010</code>.</p>
+<p>In programming, an n bit integer is internally stored as a binary number that consists of n bits. For example, the C++ type int is a 32-bit type, which means that every int number consists of 32 bits. For exmaple, the bit representation of the int number 42 is <code class="highlighter-rouge">00000000000000000000000000101010</code>.</p>
 
-<p>There are several bit operations supported by a typical ALU, some of them being
-AND, OR, NOT, XOR, and bit shifts</p>
+<p>There are several bit operations supported by a typical ALU, some of them being AND, OR, NOT, XOR, and bit shifts</p>
 
 <h4 id="some-basic-applications-of-bit-operations">Some basic applications of bit operations</h4>
 <ol>
@@ -207,13 +201,8 @@ AND, OR, NOT, XOR, and bit shifts</p>
  }
 </code></pre>
   </li>
-  <li>It is also possible to modify single bits of numbers using similar ideas. For
-example, the formula <code class="highlighter-rouge">x |= (1 &lt;&lt; k)</code> sets the k th bit of x to one, the formula <code class="highlighter-rouge">x &amp;=
-~(1 &lt;&lt; k)</code> sets the k th bit of x to zero, and the formula <code class="highlighter-rouge">x ^= (1 &lt;&lt; k)</code> inverts the
-k th bit of x.</li>
-  <li>The formula <code class="highlighter-rouge">x &amp;= (x − 1)</code> sets the last one bit of x to zero, and the formula <code class="highlighter-rouge">x &amp;=
-− x</code> sets all the one bits to zero, except for the last one bit. The formula <code class="highlighter-rouge">x |= (x − 1)</code> inverts all the bits after the last one bit. Also note that a positive number x is a
-power of two exactly when <code class="highlighter-rouge">x &amp; (x − 1) = 0</code>, and <code class="highlighter-rouge">x&amp;(-x)</code> gives the highest power of 2 which divides x.</li>
+  <li>It is also possible to modify single bits of numbers using similar ideas. For example, the formula <code class="highlighter-rouge">x |= (1 &lt;&lt; k)</code> sets the k th bit of x to one, the formula <code class="highlighter-rouge">x &amp;= ~(1 &lt;&lt; k)</code> sets the k th bit of x to zero, and the formula <code class="highlighter-rouge">x ^= (1 &lt;&lt; k)</code> inverts the k th bit of x.</li>
+  <li>The formula <code class="highlighter-rouge">x &amp;= (x − 1)</code> sets the last one bit of x to zero, and the formula <code class="highlighter-rouge">x &amp;= − x</code> sets all the one bits to zero, except for the last one bit. The formula <code class="highlighter-rouge">x |= (x − 1)</code> inverts all the bits after the last one bit. Also note that a positive number x is a power of two exactly when <code class="highlighter-rouge">x &amp; (x − 1) = 0</code>, and <code class="highlighter-rouge">x&amp;(-x)</code> gives the highest power of 2 which divides x.</li>
 </ol>
 
 <h4 id="additional-functions">Additional functions</h4>
@@ -227,9 +216,7 @@ power of two exactly when <code class="highlighter-rouge">x &amp; (x − 1) = 0<
 
 <h2 id="bit-optimazations">Bit Optimazations</h2>
 <h4 id="counting-subgrids-problem">Counting subgrids problem</h4>
-<p>Consider the following problem: Given an $N * N$ grid whose
-each square is either black (1) or white (0), calculate the number of subgrids
-whose all corners are black. For example, the grid</p>
+<p>Consider the following problem: Given an $N * N$ grid whose each square is either black (1) or white (0), calculate the number of subgrids whose all corners are black. For example, the grid</p>
 
 <p><img src="../assets/img/Bit Manipulation/grid1.png" /></p>
 
@@ -237,22 +224,13 @@ whose all corners are black. For example, the grid</p>
 
 <p><img src="../assets/img/Bit Manipulation/grid2.png" /></p>
 
-<p>There is an $O(n^3)$ time algorithm for solving the problem: go through all
-$O(n^2)$ pairs of rows and for each pair $(a, b)$ calculate the number of columns that
-contain a black square in both rows in $O(n)$ time. The following code assumes
-that $color[y][x]$ denotes the color in row y and column x :</p>
+<p>There is an $O(n^3)$ time algorithm for solving the problem: go through all $O(n^2)$ pairs of rows and for each pair $(a, b)$ calculate the number of columns that contain a black square in both rows in $O(n)$ time. The following code assumes that $color[y][x]$ denotes the color in row y and column x :</p>
 <pre><code class="language-C++">int count = 0;
 for (int i = 0; i &lt; n; i++) {
     if (color[a][i] == 1 &amp;&amp; color[b][i] == 1) count++;
 }
 </code></pre>
-<p>Then, those columns account for <code class="highlighter-rouge">count*(count − 1)/2</code> subgrids with black corners,
-because we can choose any two of them to form a subgrid.
-To optimize this algorithm, we divide the grid into blocks of columns such that
-each block consists of N consecutive columns. Then, each row is stored as a list
-of N-bit numbers that describe the colors of the squares. Now we can process N
-columns at the same time using bit operations. In the following code, $color[y][k]$
-represents a block of N colors as bits.</p>
+<p>Then, those columns account for <code class="highlighter-rouge">count*(count − 1)/2</code> subgrids with black corners, because we can choose any two of them to form a subgrid. To optimize this algorithm, we divide the grid into blocks of columns such that each block consists of N consecutive columns. Then, each row is stored as a list of N-bit numbers that describe the colors of the squares. Now we can process N columns at the same time using bit operations. In the following code, $color[y][k]$ represents a block of N colors as bits.</p>
 <pre><code class="language-C++">int count = 0;
 for (int i = 0; i &lt;= n/N; i++) {
     count += __builtin_popcount(color[a][i]&amp;color[b][i]);
@@ -260,26 +238,17 @@ for (int i = 0; i &lt;= n/N; i++) {
 </code></pre>
 <p>The resulting algorithm works in $O(n^3/N)$ time.</p>
 
-<p>A comparison was done for a randomly generated grid of size 2500 × 2500 between the original
-and bit optimized implementation. While the original code took 29.6 seconds, the
-bit optimized version only took 3.1 seconds with N = 32 (int numbers) and 1.7
-seconds with N = 64 (long long numbers).</p>
+<p>A comparison was done for a randomly generated grid of size 2500 × 2500 between the original and bit optimized implementation. While the original code took 29.6 seconds, the bit optimized version only took 3.1 seconds with N = 32 (int numbers) and 1.7 seconds with N = 64 (long long numbers).</p>
 
 <h2 id="dynamic-programming-and-bit-masks">Dynamic programming and bit masks</h2>
 <h4 id="optimal-selection-problem">Optimal selection problem</h4>
-<p>Consider the following problem: We are given the prices of k
-products over n days, and we want to buy each product exactly once. However,
-we are allowed to buy at most one product in a day. What is the minimum total
-price? For example, consider the following scenario ( k = 3 and n = 8):</p>
+<p>Consider the following problem: We are given the prices of k products over n days, and we want to buy each product exactly once. However, we are allowed to buy at most one product in a day. What is the minimum total price? For example, consider the following scenario ( k = 3 and n = 8):</p>
 <center><img src="../assets/img/Bit Manipulation/optimal1.png" /></center>
 
 <p>In this scenario, the minimum total price is 5:</p>
 <center><img src="../assets/img/Bit Manipulation/optimal2.png" /></center>
 
-<p>Let $price[x][d]$ denote the price of product x on day d. For example, in the
-above scenario $price[2][3]$ = $7$. Then, let <code class="highlighter-rouge">total(S, d)</code> denote the minimum total
-price for buying a subset S of products by day d . Using this function, the solution
-to the problem is <code class="highlighter-rouge">total({0 . . . k − 1}, n − 1)</code>.</p>
+<p>Let $price[x][d]$ denote the price of product x on day d. For example, in the above scenario $price[2][3]$ = $7$. Then, let <code class="highlighter-rouge">total(S, d)</code> denote the minimum total price to buy all products by day d, when a subset S has already been bought. Using this function, the solution to the problem is <code class="highlighter-rouge">total({}, n − 1)</code>.</p>
 
 <p>To represent the subset S, we use <strong>bit masks</strong>. Consider a 32-bit integer N. If the kth bit (from the right) of N is set, then the kth product is a part of the subset, else not.</p>
 
@@ -291,7 +260,7 @@ to the problem is <code class="highlighter-rouge">total({0 . . . k − 1}, n −
 
 <p>Therefore the C++ code is as follows:</p>
 <pre><code class="language-C++">int total(int mask, int day){
-    if(mask == (1&lt;&lt;(k+1) -1))
+    if(mask == ((1&lt;&lt;k) -1)) //All products have been bought.
         return 0;
     if(day == -1)
         return INF;
@@ -301,7 +270,7 @@ to the problem is <code class="highlighter-rouge">total({0 . . . k − 1}, n −
         if(mask &amp; (1&lt;&lt;i) == 0) //Product i hasn't been bought yet.
             ans = min(ans, total(mask | (1&lt;&lt;i), day-1) + price[i][day]);
 
-    //Don't buy anything
+    //Not buying anything
     ans = min(ans, total(mask, day -1));
 
     return ans;
@@ -310,7 +279,7 @@ to the problem is <code class="highlighter-rouge">total({0 . . . k − 1}, n −
 <p>Optimizing the above code by memoizing:</p>
 <pre><code class="language-C++">int dp[1&lt;&lt;k][n]; //Initially all values set to -1
 int total(int mask, int day){
-    if(mask == (1&lt;&lt;(k+1) -1))
+    if(mask == ((1&lt;&lt;k) -1))
         return 0;
     if(day == -1)
         return INF;
