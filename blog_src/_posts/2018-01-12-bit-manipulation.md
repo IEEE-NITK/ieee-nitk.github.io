@@ -45,11 +45,11 @@ The g++ compiler provides the following functions for counting bits:
 #### Counting subgrids problem
 Consider the following problem: Given an $N * N$ grid whose each square is either black (1) or white (0), calculate the number of subgrids whose all corners are black. For example, the grid
 
-<img src="../assets/img/Bit Manipulation/grid1.png">
+![Bit Manipulation Grid](../assets/img/Bit-Manipulation/grid1.png) 
 
 contains two such subgrids:
 
-<img src="../assets/img/Bit Manipulation/grid2.png">
+![Bit Manipulation Grid](../assets/img/Bit-Manipulation/grid2.png) 
 
 There is an $O(n^3)$ time algorithm for solving the problem: go through all $O(n^2)$ pairs of rows and for each pair $(a, b)$ calculate the number of columns that contain a black square in both rows in $O(n)$ time. The following code assumes that $color[y][x]$ denotes the color in row y and column x :
 ```C++
@@ -72,10 +72,10 @@ A comparison was done for a randomly generated grid of size 2500 × 2500 between
 ## Dynamic programming and bit masks
 #### Optimal selection problem
 Consider the following problem: We are given the prices of k products over n days, and we want to buy each product exactly once. However, we are allowed to buy at most one product in a day. What is the minimum total price? For example, consider the following scenario ( k = 3 and n = 8):
-<center><img src="../assets/img/Bit Manipulation/optimal1.png"></center>
+![Bit Manipulation Optimal](../assets/img/Bit-Manipulation/optimal1.png) 
 
 In this scenario, the minimum total price is 5:
-<center><img src="../assets/img/Bit Manipulation/optimal2.png"></center>
+![Bit Manipulation Optimal](../assets/img/Bit-Manipulation/optimal2.png) 
 
 Let $price[x][d]$ denote the price of product x on day d. For example, in the above scenario $price[2][3]$ = $7$. Then, let ```total(S, d)``` denote the minimum total price to buy all products by day d, when a subset S has already been bought. Using this function, the solution to the problem is ```total({}, n − 1)```.
 

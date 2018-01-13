@@ -13,7 +13,7 @@ tags:
 - bionic
 - eye tracking system.
 categories:
-- CAS/SPS
+- Diode
 github_username: 'Shruti-Deshpande'
 ---
 This year, the government of India dedicated the National Science Day to the theme “Science and Technology for specially-abled people”. The main aim was to encourage innovation and also to ease the difficulties of differently abled people. So here are 10 assistive technologies to assist them.
