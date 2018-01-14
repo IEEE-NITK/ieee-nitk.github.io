@@ -43,7 +43,7 @@ The analysis is conducted in three steps. As a first step, the shape of the flui
 As mentioned earlier, the two shape extremes are the flat free surface obtained when the surface tension is negligible, and the spherical surface in zero gravity. Numerical analysis is necessary when gravity and surface tension are taken into account simultaneously, and in most cases a non-linear iteration process is required to derive the free-surface shape. The latter is discretized using finite elements, and this idealization is employed to describe the boundary of the fluid.
 
 Following figure shows the different shapes of the free surface at different Bond numbers for fluid contained in a cylindrical tank. It is possible in the analysis to define an offset angle between the tank's axis and gravity vector. The surface shapes displayed in the right-hand figure are for an offset angle of 5 degrees.
-![bionic](../assets/img/fluids-and-satellites/1.gif)
+![bionic](/blog/assets/img/fluids-and-satellites/1.gif)
 
 Once the free surface and its contact line with the tank wall have been established, it is easy to determine the fluid boundary necessary to establish the fluid dynamics.
 
@@ -53,7 +53,7 @@ To account for the effect of the fluid on the satellite, the fluid mass and stif
 evaluations.
 
 As an example of the analysis possibilities, following figure shows the first mode of vibration of the fluid in a satellite tank.
-![bionic](../assets/img/fluids-and-satellites/2.gif)
+![bionic](/blog/assets/img/fluids-and-satellites/2.gif)
 The first fluid sloshing mode at 0.02 Hz
 
 ## Derivation of dynamically equivalent simple models
@@ -61,7 +61,7 @@ The first fluid sloshing mode at 0.02 Hz
 The importance of each mode of vibration depends on the load generated at the tank interface with the satellite. The interface force depends on the effective modal mass matrix of the vibrational modes. It is possible to derive from the latter single-degree-of-freedom models which have equivalent dynamic behavior in terms of tank interface loads.
 
 Mass-spring and pendulum models are two types of models which can be inserted directly into the satellite AOCS model
-![bionic](../assets/img/fluids-and-satellites/3.gif)
+![bionic](/blog/assets/img/fluids-and-satellites/3.gif)
 The mass-spring and pendulum models
 
 The simplified mass-spring models are determined by the vibrating mass and its location, the spring stiffness, and the residual mass and its location. The vibration characteristics of the pendulum model are determined by the pendulum length rather than the spring stiffness, and can be used for non-zero-gravity conditions.

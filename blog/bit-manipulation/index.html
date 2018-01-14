@@ -218,11 +218,11 @@
 <h4 id="counting-subgrids-problem">Counting subgrids problem</h4>
 <p>Consider the following problem: Given an $N * N$ grid whose each square is either black (1) or white (0), calculate the number of subgrids whose all corners are black. For example, the grid</p>
 
-<p><img src="../assets/img/Bit-Manipulation/grid1.png" alt="Bit Manipulation Grid" /></p>
+<p><img src="/blog/assets/img/Bit-Manipulation/grid1.png" alt="Bit Manipulation Grid" /></p>
 
 <p>contains two such subgrids:</p>
 
-<p><img src="../assets/img/Bit-Manipulation/grid2.png" alt="Bit Manipulation Grid" /></p>
+<p><img src="/blog/assets/img/Bit-Manipulation/grid2.png" alt="Bit Manipulation Grid" /></p>
 
 <p>There is an $O(n^3)$ time algorithm for solving the problem: go through all $O(n^2)$ pairs of rows and for each pair $(a, b)$ calculate the number of columns that contain a black square in both rows in $O(n)$ time. The following code assumes that $color[y][x]$ denotes the color in row y and column x :</p>
 <pre><code class="language-C++">int count = 0;
@@ -243,10 +243,10 @@ for (int i = 0; i &lt;= n/N; i++) {
 <h2 id="dynamic-programming-and-bit-masks">Dynamic programming and bit masks</h2>
 <h4 id="optimal-selection-problem">Optimal selection problem</h4>
 <p>Consider the following problem: We are given the prices of k products over n days, and we want to buy each product exactly once. However, we are allowed to buy at most one product in a day. What is the minimum total price? For example, consider the following scenario ( k = 3 and n = 8):
-<img src="../assets/img/Bit-Manipulation/optimal1.png" alt="Bit Manipulation Optimal" /></p>
+<img src="/blog/assets/img/Bit-Manipulation/optimal1.png" alt="Bit Manipulation Optimal" /></p>
 
 <p>In this scenario, the minimum total price is 5:
-<img src="../assets/img/Bit-Manipulation/optimal2.png" alt="Bit Manipulation Optimal" /></p>
+<img src="/blog/assets/img/Bit-Manipulation/optimal2.png" alt="Bit Manipulation Optimal" /></p>
 
 <p>Let $price[x][d]$ denote the price of product x on day d. For example, in the above scenario $price[2][3]$ = $7$. Then, let <code class="highlighter-rouge">total(S, d)</code> denote the minimum total price to buy all products by day d, when a subset S has already been bought. Using this function, the solution to the problem is <code class="highlighter-rouge">total({}, n − 1)</code>.</p>
 
