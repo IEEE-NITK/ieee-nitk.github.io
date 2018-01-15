@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "Bit Manipulation",
+      "category" : "Compsoc",
+      "tags"     : "Bit masks, DP, Competitive Programming, and C++",
+      "url"      : "http://ieeenitk.org/blog//bit-manipulation/",
+      "date"     : "12 Jan 2018"
+    } ,
+  
+    {
+      "title"    : "Fluids and Satellites",
+      "category" : "Piston",
+      "tags"     : "Fluid Dynamics and Satellites",
+      "url"      : "http://ieeenitk.org/blog//fluids-and-satellites/",
+      "date"     : "12 Jan 2018"
+    } ,
+  
+    {
+      "title"    : "How is Technology Helping the Differently Abled People?",
+      "category" : "Diode",
+      "tags"     : "differently-abled, assistive technology, text scanners, optical sensors, bionic, and eye tracking system.",
+      "url"      : "http://ieeenitk.org/blog//how-is-technology-helping-the-differently-abled-people/",
+      "date"     : "12 Jan 2018"
+    } ,
+  
+    {
       "title"    : "How do websites communicate securely?",
       "category" : "CompSoc",
       "tags"     : "SSL and Public Key Cryptography",

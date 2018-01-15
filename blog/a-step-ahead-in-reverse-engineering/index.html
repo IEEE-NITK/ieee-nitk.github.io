@@ -186,8 +186,9 @@ SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
 
 <p>If GDB is not installed in your box,you can type in this command to install it.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install gdb   
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install gdb   
+</code></pre>
+</div>
 
 <p>Here is the source code of the executable we will be dealing with. It is named overflow.c. You will know by the end of this article,Why it was named so.<br />
 <img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/source_code1.png" alt="Image1" /></p>
@@ -207,8 +208,9 @@ after the function call.</p>
 
 <h2 id="compile-the-programnormally-using-gcc-">Compile the program(normally) using gcc :</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc overflow.c -o overflow   
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>gcc overflow.c -o overflow   
+</code></pre>
+</div>
 
 <p>This gives an executable named “overflow”.</p>
 
@@ -230,8 +232,9 @@ after the function call.</p>
 <strong>c.</strong> The last time it was executed,we get this “ <strong>stack smashing detected</strong> “ and the program is terminated right there. IF YOU NOTICE,The string “After function call” is not printed. This means BEFORE THE CONTROL GOT TRANSFERRED TO THE main function,THE PROGRAM WAS TERMINATED. Why did this happen? <strong>One obvious guess is that our string length was way more than 30 bytes.</strong> But what exactly happened??  <br />
 <strong>d.</strong> To analyse this,we will have to compile our code in the following manner.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g   
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g   
+</code></pre>
+</div>
 
 <p><strong>e.</strong> One more thing,we will have to give random inputs like above to analyse
 the behavior of the executable. So everytime typing “aaaaaaaaaaaaaa….”
@@ -254,8 +257,9 @@ Execute the program in following manner :  <strong>$ python -c “print ‘a’ 
 
 <h2 id="finally-it-is-time-to-fireup-your-debugger">Finally, it is time to fireup your debugger!</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gdb -q overflow
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ gdb -q overflow
+</code></pre>
+</div>
 
 <p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/disass.png" alt="Image5" /></p>
 
@@ -341,8 +345,9 @@ Then again,check the stack by using <strong>$(gdb) x/32xw $rsp</strong> . (refer
 
 <p>Instead of using python,we will use another useful tool,the <strong>printf</strong> .</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40"|./overflow
-</code></pre></div></div>
+<div class="highlighter-rouge"><pre class="highlight"><code>printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40"|./overflow
+</code></pre>
+</div>
 <p>There are 39 a’s and the address which calls print_string() in the reverse order.(WHY IS THAT??)</p>
 
 <p>AND WE HAVE ACHIEVED IT!!The print_string() function was executed twice silently(with no wierdness) and control was returned back to main() again silently.</p>
