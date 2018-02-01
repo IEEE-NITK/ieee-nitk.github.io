@@ -26,6 +26,8 @@
 ## Bugs
 * In case you find bugs on the website, please create an Issue in the Issue Tab or [email](mailto:sbs.191197@gmail.com) one of the Contributors.
 
-## License
+## Wiki
+* Currently under development, the IEEE-NITK Wiki will provide all information regarding **How to Contribute** to the website and blog development. 
 
+## License
 This theme is free and open source software, distributed under the The MIT License. 
