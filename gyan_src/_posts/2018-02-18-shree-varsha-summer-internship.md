@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bell Helicopter-Textron India Private Limited (TIPL), Internship Experience - Shreevarsha"
-date: 2018-02-04 11:32:44
+date: 2018-02-18 11:32:44
 image: '/assets/img/'
 description: 'Final Year IEEE Executive Member Shreevarsha gives advice on how to apply for internships in core branches.'
 tags:
