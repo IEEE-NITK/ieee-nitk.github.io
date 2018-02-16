@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "Evolution of bicycle",
+      "category" : "",
+      "tags"     : "Piston",
+      "url"      : "http://ieeenitk.org/blog//Evolution-of-bicycle/",
+      "date"     : "17 Feb 2018"
+    } ,
+  
+    {
+      "title"    : "Should you really buy electric cars??",
+      "category" : "Diode",
+      "tags"     : "Electric Cars and CAS/SPS",
+      "url"      : "http://ieeenitk.org/blog//Electric-Cars/",
+      "date"     : "17 Feb 2018"
+    } ,
+  
+    {
+      "title"    : "t-SNE",
+      "category" : "MLData Visualization",
+      "tags"     : "CompSoc, t-SNE, and Data Visualization",
+      "url"      : "http://ieeenitk.org/blog//tSNE/",
+      "date"     : "16 Feb 2018"
+    } ,
+  
+    {
       "title"    : "Bit Manipulation",
       "category" : "Compsoc",
       "tags"     : "Bit masks, DP, Competitive Programming, and C++",

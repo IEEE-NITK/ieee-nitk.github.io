@@ -319,7 +319,7 @@ adilamrajiv:
 sssachin300:
   name: Sachin Sampath
   github: sssachin300
-  author_image: blog-author.jpg
+  author_image: sachin.png
   user_description: 'IEEE Enthusiast interested in Engineering'
   email: sssachin300@gmail.com
 vibhoregit:
@@ -526,3 +526,7 @@ Shruti-Deshpande:
   author_image: Shruti-Deshpande.jpeg
   user_description: 'Do or Do not. There Is no Try.'
   email: shrutideshpande9598@gmail.com
+adithyaprabhu98:
+  name: Aditya Prabhu
+  github: adithyaprabhu98
+  author_image: aditya.jpg

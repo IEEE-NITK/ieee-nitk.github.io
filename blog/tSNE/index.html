@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="A deeper look into a popular childhood game">
+        <meta name="description" content="Description of t-SNE algorithm">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Rock Paper Scissors">
-        <meta name="twitter:description" content="A deeper look into a popular childhood game">
+        <meta name="twitter:title" content="t-SNE">
+        <meta name="twitter:description" content="Description of t-SNE algorithm">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///rock-paper-scissors/" />
-        <meta property="og:title" content="Rock Paper Scissors">
+        <meta property="og:url" content="http://ieeenitk.org///tSNE/" />
+        <meta property="og:title" content="t-SNE">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="A deeper look into a popular childhood game">
+        <meta property="og:description" content="Description of t-SNE algorithm">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Rock Paper Scissors"/>
-        <meta itemprop="description" content="A deeper look into a popular childhood game">
+        <meta itemprop="name" content="t-SNE"/>
+        <meta itemprop="description" content="Description of t-SNE algorithm">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Rock Paper Scissors</title>
+        <title>t-SNE</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/rock-paper-scissors/">
+        <link rel="canonical" href="/blog/tSNE/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-04 15:30:30 +0530" class="date">04 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2018-02-16 05:02:44 +0530" class="date">16 Feb 2018</time>
         
-        <h1 class="post-title" itemprop="name">Rock Paper Scissors</h1>
-        <p itemprop="description" class="subtitle">A deeper look into a popular childhood game</p>
+        <h1 class="post-title" itemprop="name">t-SNE</h1>
+        <p itemprop="description" class="subtitle">Description of t-SNE algorithm</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,50 +171,139 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>If you have ever played the game of rock, paper scissors I bet that the best strategy you had was trying to predict your opponent’s move which is a pretty appealing idea. But given that it is nigh impossible to do that (unless, of course, you can read minds), is that really a sound strategy to adopt? If you think about it in a rational way there is no method to predict your opponent and basing your strategy on such an unpredictable thing is kind of dumb. I think the best approach to this problem is to make sure your opponent doesn’t beat you more than half the time.  If both players play random moves, then both have an equal probability of winning. If there’s a pattern in your moves, in a large number of matches your opponent can easily figure it out and increase his winning chances considerably. So the obvious thing to do is to randomize your moves. This, you can do, in a number of ways and I leave it to you to find them out: P</p>
+                <p>It’s manually impossible to understand the structure of a dataset with 100 dimensions. And it’s fairly common to come across data having so many features. And the exploratory-analysis of data is a preliminary step, before proceeding to other aspects of data-wrangling and models. This is where t-SNE comes in.</p>
 
-<p>Now the situation changes entirely when you introduce a third party in the game and all three of you play simultaneously. Try to think of a strategy which you can use here.</p>
+<p><a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a> is non-linear dimensionality reduction algorithm. It reduces each high-dimensional point and embeds them into a 2D/3D map. Additionally, it ensures that similar objects are nearby and dissimilar points are kept apart.</p>
 
-<p>One strategy would be to play rock all the time and tell this to them. If the other two play rock, then it is a draw. If one of them plays scissors, then they lose to the rock. If they play paper, then there’s always a chance that the other plays scissors and wins but in turn the other player would lose to the rock. This makes it obvious that there is no way for one to beat both you and the other person at the same time.</p>
+<p><strong>Internals of t-SNE: The math behind t-SNE</strong></p>
+<ul>
+  <li>There are two stages in the algorithm. First, it builds a probability distribution for each pair of high-dimensional points such that similar objects have a high probability of being picked, unlike dissimilar ones. Then in stage-2, a similar probability distribution is defined over the final 2D/3D map, and then KL Divergence between the two distributions is minimised. We essentially set up two distance-measures in the original high-dimensional space and the embedded space and try to minimise the differences between them.</li>
+  <li>t-SNE performs different transformations on different parts of the data. An important property of KL divergence is that it penalises the differences between points in an asymmetric way. It strives very hard to preserve local structure of data.</li>
+  <li>If points are close by in original space, then they are mandated to be kept nearby in the embedded space. But if the points are far-apart in the original space, the algorithm is free to choose the placement of points</li>
+</ul>
 
-<p>This is what <strong>game theory</strong> is all about. Popularized by Nobel laureate <strong>John Nash</strong> (notice the name of the article 😉) game theory deals with forming strategies to get the best possible moves you can make without ignoring the self-interests that human beings have. Despite its name it not only deals with games but with any form of strategic decision making including politics, defence, economics, trade, traffic control etc.</p>
+<p><strong>Uses of t-SNE:</strong></p>
 
-<h2 id="a-look-at-a-real-world-problem">A look at a real world problem</h2>
+<ul>
+  <li>It’s hard to visualize high-dimensional objects</li>
+  <li>Existing data-visualization techniques only enable visualization of <strong>few variables at a time</strong>.</li>
+  <li>Helps to find the local structures in data, and see if there are any clusters of points in the high-dimensional manifold.</li>
+  <li>Helps us decide if there are any distinct classes in the data, whether they are linearly or nonlinearly separable, etc.</li>
+  <li>It’s used in a lot of applications cutting across Computer Security, Music Analysis, Cancer research, and in abstract cases like visualising the learnings of different layers of a Artificial Neural Network, etc.</li>
+</ul>
 
-<p>As a real world example I present to you the following problem on traffic lanes.</p>
+<p>It’s necessary to know about other dimensionality reduction techniques like Principal Component Analysis (PCA) to truly appreciate the distinctive nature of t-SNE.</p>
 
-<p>Suppose you are in a heavy traffic and want to change lanes (you cannot do that in my country India though, because we don’t have many lanes ☹). When do you switch lanes? When the lane beside you are faster than the current one? Which is a good approach in the long run?</p>
+<p><strong>PCA</strong> tries to retain the maximum information about high-dimensional data even after embedding it into a low dimension. It does this by finding out a few components in the higher dimension along which the maximum variation of the data is ensured. Hence it preserves the variation in the data even after reducing it to a lower dimension. Mathematically, PCA minimises the squared-error between points - essentially ensures that far-away points in the original dataset remain in the same way in the 2D map also. So PCA preserves large pairwise distances(global structure and properties), but these distances do not imply any meaningful property.
+But it loses the the low-variance deviations between neighbours. t-SNE filled this gap by accounting for local properties, which have a lot of significance irrespective of the overall structure/topology of data.</p>
 
-<p><img src="/blog/assets/img/rock-paper-scissors/traffic.jpg" alt="Traffic" /></p>
+<p>Moreover PCA is not very useful for unlabelled data. This is quite evident by looking at the visualizations produced by PCA and t-SNE on the MNIST dataset.</p>
 
-<p>Let us first make the simple assumption that a lane is faster only because it has fewer number of vehicles. Suppose you are impatient and switch to the fast lane. If there aren’t many who think like you, then it is your lucky day. If not, the fast lane will get crowded and become the slow lane. If everyone thinks in this way and stays in the same lane, then the lanes maintain their speed and you have to waste your time. So, either way, you can only do a successful thing provided the others don’t think of the same strategy as you.</p>
+<p><img src="/blog/assets/img/t-SNE/pca_mnist.png" alt="" /></p>
 
-<p>There is, in fact, a way out of this pickle. Pick a random amount of time (say t). After time to check the lane speeds. If the lane beside you are faster, then switch. Else stay in your lane. Repeat the process after time t.</p>
+<p>Distinct clusters are not produced by PCA. The distinctness is evident only because of the color-coding, so PCA is not very helpful for unlabelled data.</p>
 
-<p>Mathematicians have shown that if everyone adopted this strategy we would achieve an equilibrium state with both lanes having the same speed. Though this may not suit your individual preference (you would rather have the entire lane or even all the lanes to yourself) this is the best we can do while being fair to everyone.</p>
+<p><img src="/blog/assets/img/t-SNE/tsne_mnist.jpeg" alt="" /></p>
 
-<p>The problem here is, of course, that it requires everyone on the road to have read game theory 😊.</p>
+<p>On the other hand, the presence of clusters is striking with unlabelled-data using t-SNE. The bottom right, we can see the labelled version of the same. Hence, t-SNE finds a lot of utility with unlabelled data, over and above PCA.</p>
 
-<h3 id="references">References</h3>
+<p><strong>Some Interesting properties of t-SNE:</strong></p>
 
+<ul>
+  <li><strong>Crowding problem:</strong> Semantically similar points in higher dimension will collapse onto one-another when brought down to a lower dimension. t-SNE solves this problem, unlike the previous dimensionality algorithms like PCA and SNE.</li>
+</ul>
+
+<p>So the effectiveness/relevance of t-SNE is put into question if the required output is in a fairly higher dimension, where the possibility of crowding is low. On the other hand, PCA always gives the best components along which the variance of the data is maximised.</p>
+
+<p>Hence, the results of t-SNE is much better if the degrees of freedom is increased, because the crowding problem is less severe. Consequently, visualising data in 3D rather than 2D gives a lot of gains in using t-SNE.</p>
+
+<ul>
+  <li><strong>t-SNE does not intentionally retain distances/densities:</strong> It only retains the probabilities. It adapts it’s idea of distance to the local-variations of densities. So it automatically expands dense clusters (to prevent overcrowding) and expands sparse ones. This effect is expected due to the design of the algorithm. Relative sizes/distances between clusters in a t-SNE do not have any sensible interpretation. The same reason can be attributed to why we can’t perform “clustering upon the output of t-SNE” using distance/density based algorithms like KNN/K-means.  But neighbourhood-graph based clustering approaches will produce the desired result. Hence t-SNE is best used for visualization purposes only.</li>
+</ul>
+
+<blockquote>
+  <p>Do not apply clustering upon the output of t-SNE</p>
+</blockquote>
+
+<ul>
+  <li><strong>t-SNE uses a non-convex objective function:</strong> The error/divergence is minimised using gradient descent(which is initialised randomly), so we might get different results for different iterations/initialisations.  t-SNE might have multiple minima which necessitates multiple runs, and places a question on the reproducibility of results. Practically, t-SNE is iterated until the results stabilise.</li>
+</ul>
+
+<blockquote>
+  <p>Multiple runs with the same parameters might not give the same result</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><strong>Perplexity</strong> is one of the parameters required by the algorithm. It dictates the number of effective of neighbours to be considered while calculating probabilities. So, the perplexity of a distribution over N items can never be higher than N (in this case, the distribution will be uniform). At low values of perplexity, the local variations might dominate, so usually values between 5 and 50 are chosen. We don’t have a universal value of ideal perplexity that gives the best results for all types of datasets, so we will have to tune it as a hyper parameter. With increase in number and density of data points, perplexity should also increase.</p>
+  </li>
+  <li>
+    <p>t-SNE can generate <strong>fake patterns</strong> at suboptimal perplexities. We may be on a wild-goose chase if we incorrectly expect clusters when there are actually none.</p>
+  </li>
+</ul>
+
+<p>Consider a gaussian distribution with 250 points in (-2, 0) and 500 points in (0, 2).</p>
+
+<p><img src="/blog/assets/img/t-SNE/orig.png" alt="Original Distribution" /></p>
+
+<p>Using EM(Expectation Maximisation) clustering algorithm produces this result:</p>
+
+<p><img src="/blog/assets/img/t-SNE/EM.png" alt="Clustering using EM" /></p>
+
+<p>The following are the visualizations produced by t-SNE:</p>
+
+<p><img src="/blog/assets/img/t-SNE/20.png" alt="Perplexity = 20" /></p>
+
+<p>It’s easy to conclude that there are 4 clusters here, while there are only two.</p>
+
+<p><img src="/blog/assets/img/t-SNE/40.png" alt="Perplexity = 40 (default)" /></p>
+
+<p>Here, there are too many clusters, and it’s hard for any dim-reduction algorithm to find them.
+(Note: The color coding is only for our interpretation)</p>
+
+<p><img src="/blog/assets/img/t-SNE/80.png" alt="Perplexity = 80 (optimum)" /></p>
+
+<p>This result is from the optimum perplexity of 80, but since perplexity is a global parameter that needs to be tuned and is not the same for every dataset.</p>
+
+<p>The results are even more stark when these visualizations are obtained from a gaussian distribution as illustrated here. (https://distill.pub/2016/misread-tsne/)</p>
+
+<ul>
+  <li><strong>Time complexity</strong> of t-SNE is O(N^2), N = Number of Data points. (grows quadratically)
+Since t-SNE, doesn’t scale well, PCA is first applied to the data (PCA has a better complexity) and number of features is reduced to a maximum of 50 dimensions. t-SNE is then applied onto the output of PCA. This step also ensures that t-SNE works with lesser noisy data.</li>
+</ul>
+
+<p>But later implementations of t-SNE have better time complexity</p>
+
+<p>There are certain cases t-SNE could be sub-optimal:</p>
+
+<ul>
+  <li><strong>Interpretability:</strong> t-SNE only maps the local l variables correctly, and the global trends in the data isn’t accurately represented. But PCA’s results can be explained very easily.</li>
+  <li><strong>Application to new data:</strong> t-SNE learns a non-parametric mapping - it does not learn an explicit function from the input space to the map. The embedding in t-SNE is learnt by directly moving the data from high-dimension to low dimension. So we can’t apply t-SNE on the fly for an incoming test data point. But we can always apply t-SNE on the whole dataset again. Alternately, we can train a multivariable regressor to predict the position of an input point in the map or directly minimise the t-SNE loss (https://lvdmaaten.github.io/publications/papers/AISTATS_2009.pdf).</li>
+  <li><strong>Incomplete Data:</strong> t-SNE cannot handle incomplete data. A popular workaround is to use probabilistic PCA on the data, and then use t-SNE.</li>
+</ul>
+
+<p>Further Reading:</p>
 <ol>
-  <li>Read Rock, Paper, Scissors: Game Theory in Everyday Life by Len Fisher.</li>
-  <li><a href="http://www.post-gazette.com/opinion/Op-Ed/2013/02/03/The-Next-Page-Everyday-uses-for-game-theory-such-as-when-to-wash-the-dishes/stories/201302030375">PittsBurgh Post-Gazette</a></li>
-  <li><a href="http://ncase.me/trust/">Reference 1</a></li>
-  <li><a href="https://www.khanacademy.org/economics-finance-domain/microeconomics/nash-equilibrium-tutorial">Khan Academy</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a></li>
+  <li><a href="https://colah.github.io/posts/2015-01-Visualizing-Representations/">Visualizing Representations: Deep Learning and Human Beings Christopher Olah’s blog, 2015</a></li>
+  <li>https://distill.pub/2016/misread-tsne/</li>
+  <li><a href="https://www.youtube.com/watch?v=RJVL80Gg3lA">Visualizing Data Using t-SNE</a></li>
 </ol>
+
+<p>Despite these misgivings, t-SNE might probably be the first tool a data scientist uses in the morning! Have fun exploring it. Do comment below for any clarifications or suggestions.</p>
+
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/sachin.png" alt="Sachin Sampath">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/ck.jpg" alt="Chenna Keshava B S">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Sachin Sampath</a>
+            <a itemprop="name" href="/">Chenna Keshava B S</a>
         </h3>
-        <p class="desc">IEEE Enthusiast interested in Engineering</p>
-        <a itemprop="email" class="email" href="mailto:sssachin300@gmail.com">sssachin300@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:ckeshavabs@gmail.com">ckeshavabs@gmail.com</a>
     </div>
 </section>
 
@@ -234,15 +323,15 @@
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/rock-paper-scissors/%20via%20&#64;IEEE_NITK&hashtags=Game Theory,Strategy,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/tSNE/%20via%20&#64;IEEE_NITK&hashtags=CompSoc,t-SNE,Data Visualization,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//rock-paper-scissors/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//tSNE/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//rock-paper-scissors/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//tSNE/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

@@ -5,9 +5,57 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jan 2018 18:25:02 +0530</pubDate>
-    <lastBuildDate>Mon, 15 Jan 2018 18:25:02 +0530</lastBuildDate>
-    <generator>Jekyll v3.7.0</generator>
+    <pubDate>Sat, 17 Feb 2018 00:06:44 +0530</pubDate>
+    <lastBuildDate>Sat, 17 Feb 2018 00:06:44 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Evolution of bicycle</title>
+        <description>&lt;p&gt;&lt;strong&gt;Evolution of bicycle&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Ever since a person began thinking of sources of transportation, maximum development until date has been in the field of bicycle.&lt;/p&gt; &lt;p&gt;Here are a few of the designs discussed briefly, innovation in them and the reasons for their failure or upgradation.&lt;/p&gt; &lt;p&gt;The first known bicycle was the &lt;strong&gt;velocipede&lt;/strong&gt;, a human powered vehicle which required the person riding it to actually push himself against the ground in order to move. No pedals, chain whatsoever, just 2 wheels, a frame and a seat.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;media/e1074583fe8f083cc2b7e8326019e8f9.jpg&quot; alt=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Draisine_or_Laufmaschine%2C_around_1820._Archetype_of_the_Bicycle._Pic_01.jpg/800px-Draisine_or_Laufmaschine%2C_around_1820._Archetype_of_the_Bicycle._Pic_01.jpg&quot; /&gt;&lt;/p&gt; &lt;p&gt;Slowly, came an era of multi-wheeled bicycles. Improved stability, increased load carrying...</description>
+        <pubDate>Sat, 17 Feb 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Evolution-of-bicycle/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Evolution-of-bicycle/</guid>
+        
+        <category>Piston</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Should you really buy electric cars??</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Should you really buy an electric car?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Electric vehicles are hitting the world’s roads and with government support behind them these are hyped up to be the next big thing in the automobile industry . Combustion engine vehicles generate huge quantities of pollution, and developed economies create more than their fair share of this . The US transportation sector accounts for around 30 percent of US global warming emissions which is an order of magnitude more than most countries . In this blog I will tell you what I think on buying an electric car .&lt;/p&gt; &lt;p&gt;First come the pros&lt;/p&gt;...</description>
+        <pubDate>Sat, 17 Feb 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/Electric-Cars/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/Electric-Cars/</guid>
+        
+        <category>Electric Cars</category>
+        
+        <category>CAS/SPS</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>t-SNE</title>
+        <description>&lt;p&gt;It’s manually impossible to understand the structure of a dataset with 100 dimensions. And it’s fairly common to come across data having so many features. And the exploratory-analysis of data is a preliminary step, before proceeding to other aspects of data-wrangling and models. This is where t-SNE comes in.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding&quot;&gt;t-SNE&lt;/a&gt; is non-linear dimensionality reduction algorithm. It reduces each high-dimensional point and embeds them into a 2D/3D map. Additionally, it ensures that similar objects are nearby and dissimilar points are kept apart.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Internals of t-SNE: The math behind t-SNE&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;There are two stages in the algorithm. First, it builds...</description>
+        <pubDate>Fri, 16 Feb 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/tSNE/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/tSNE/</guid>
+        
+        <category>CompSoc</category>
+        
+        <category>t-SNE</category>
+        
+        <category>Data Visualization</category>
+        
+        
+        <category>ML</category>
+        
+        <category>Data Visualization</category>
+        
+      </item>
     
       <item>
         <title>Bit Manipulation</title>
@@ -131,54 +179,6 @@
         <category>Machine Learning</category>
         
         <category>Deep Learning</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The E INK</title>
-        <description>&lt;p&gt;Let’s start with talking about the screen you’re currently glaring at to read this article. If you don’t scroll down then the screen is pretty much static right? Not really. Behind the screen, all the pixels controlling what you see is getting multiplexed so fast that our eyes make it out as a constant one. Basically, a word is constantly consuming energy just to remain onscreen.&lt;/p&gt; &lt;p&gt;If you write a word on paper, does it need any more energy to remain on the paper? No. It remains there forever. This is the basic idea behind E Ink. Energy should only...</description>
-        <pubDate>Thu, 21 Dec 2017 22:10:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/e-Ink/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/e-Ink/</guid>
-        
-        <category>E Ink</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>The Rocker-Bogie Mechanism</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Everyone might know what a rover is. It is a space exploration device designed to move across the surface of celestial bodies. Have you ever wondered how these rovers are capable of traversing the rough and rocky terrains of a planet? Different kinds of suspension systems are employed to help them achieve this task. Rocker-Bogie is one such suspensionsystem which is very popular and widely used. It is currently NASA’s favoured design for wheeled mobile rovers. NASA’s Curiosity rover uses this mechanism.&lt;/p&gt; &lt;h2 id=&quot;design--features&quot;&gt;Design &amp;amp; Features&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/rocker-bogie/image1.jpg&quot; width=&quot;346&quot; height=&quot;174&quot; alt=&quot;Rocker Bogie&quot; /&gt;&lt;/p&gt; &lt;p&gt;The largest link on each...</description>
-        <pubDate>Thu, 21 Dec 2017 21:10:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/rocker-bogie/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/rocker-bogie/</guid>
-        
-        <category>Space</category>
-        
-        <category>Rovers</category>
-        
-        <category>Rocker Bogie</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>The Future of Computing: Quantum Computing</title>
-        <description>&lt;p&gt;Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s doing it? Read this article to find out!&lt;/p&gt; &lt;p&gt;Even though they may be fragile today as well as they need to be kept at temperatures close to absolute zero, Quantum computers aren’t much like the desktop PCs we’re all so familiar with—they’re a...</description>
-        <pubDate>Mon, 18 Dec 2017 17:49:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/future-of-computing-quantum-computing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/future-of-computing-quantum-computing/</guid>
-        
-        <category>Quantum Computing</category>
-        
-        <category>Qubits</category>
         
         
         <category>CompSoc</category>
