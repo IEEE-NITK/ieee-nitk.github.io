@@ -46,7 +46,7 @@ First come the pros
 
 Now the cons,
 
-1.Limited range :Electric engines are the kings of limited mileage range
+1. Limited range : Electric engines are the kings of limited mileage range
 .The Nissan Leaf has been claimed to go up to a 100 miles and the
 Chevorlet Volt 40 miles on all completely electric power .Although this
 may seem sufficient for daily commute you will have to part with your
