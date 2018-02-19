@@ -175,14 +175,7 @@
 
 <p><a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a> is non-linear dimensionality reduction algorithm. It reduces each high-dimensional point and embeds them into a 2D/3D map. Additionally, it ensures that similar objects are nearby and dissimilar points are kept apart.</p>
 
-<p><strong>Internals of t-SNE: The math behind t-SNE</strong></p>
-<ul>
-  <li>There are two stages in the algorithm. First, it builds a probability distribution for each pair of high-dimensional points such that similar objects have a high probability of being picked, unlike dissimilar ones. Then in stage-2, a similar probability distribution is defined over the final 2D/3D map, and then KL Divergence between the two distributions is minimised. We essentially set up two distance-measures in the original high-dimensional space and the embedded space and try to minimise the differences between them.</li>
-  <li>t-SNE performs different transformations on different parts of the data. An important property of KL divergence is that it penalises the differences between points in an asymmetric way. It strives very hard to preserve local structure of data.</li>
-  <li>If points are close by in original space, then they are mandated to be kept nearby in the embedded space. But if the points are far-apart in the original space, the algorithm is free to choose the placement of points</li>
-</ul>
-
-<p><strong>Uses of t-SNE:</strong></p>
+<h2 id="uses-of-t-sne">Uses of t-SNE</h2>
 
 <ul>
   <li>It’s hard to visualize high-dimensional objects</li>
@@ -192,18 +185,22 @@
   <li>It’s used in a lot of applications cutting across Computer Security, Music Analysis, Cancer research, and in abstract cases like visualising the learnings of different layers of a Artificial Neural Network, etc.</li>
 </ul>
 
+<p>Here’s a nice example of t-SNE’s usage in last year’s IEEE project(GoT chabot) https://gist.github.com/kaushiksk/ea0c0f25c082acb8604ad84466f85ca8</p>
+
 <p>It’s necessary to know about other dimensionality reduction techniques like Principal Component Analysis (PCA) to truly appreciate the distinctive nature of t-SNE.</p>
+
+<h2 id="pca">PCA</h2>
 
 <p><strong>PCA</strong> tries to retain the maximum information about high-dimensional data even after embedding it into a low dimension. It does this by finding out a few components in the higher dimension along which the maximum variation of the data is ensured. Hence it preserves the variation in the data even after reducing it to a lower dimension. Mathematically, PCA minimises the squared-error between points - essentially ensures that far-away points in the original dataset remain in the same way in the 2D map also. So PCA preserves large pairwise distances(global structure and properties), but these distances do not imply any meaningful property.
 But it loses the the low-variance deviations between neighbours. t-SNE filled this gap by accounting for local properties, which have a lot of significance irrespective of the overall structure/topology of data.</p>
 
 <p>Moreover PCA is not very useful for unlabelled data. This is quite evident by looking at the visualizations produced by PCA and t-SNE on the MNIST dataset.</p>
 
-<p><img src="/blog/assets/img/t-SNE/pca_mnist.png" alt="" /></p>
+<p><img src="/blog/assets/img/t-SNE/pca_mnist.png" alt="Output of PCA over the MNIST dataset" /></p>
 
 <p>Distinct clusters are not produced by PCA. The distinctness is evident only because of the color-coding, so PCA is not very helpful for unlabelled data.</p>
 
-<p><img src="/blog/assets/img/t-SNE/tsne_mnist.jpeg" alt="" /></p>
+<p><img src="/blog/assets/img/t-SNE/tsne_mnist.jpeg" alt="Output of t-SNE over the MNIST dataset" /></p>
 
 <p>On the other hand, the presence of clusters is striking with unlabelled-data using t-SNE. The bottom right, we can see the labelled version of the same. Hence, t-SNE finds a lot of utility with unlabelled data, over and above PCA.</p>
 
@@ -277,9 +274,15 @@ Since t-SNE, doesn’t scale well, PCA is first applied to the data (PCA has a b
 <p>There are certain cases t-SNE could be sub-optimal:</p>
 
 <ul>
-  <li><strong>Interpretability:</strong> t-SNE only maps the local l variables correctly, and the global trends in the data isn’t accurately represented. But PCA’s results can be explained very easily.</li>
-  <li><strong>Application to new data:</strong> t-SNE learns a non-parametric mapping - it does not learn an explicit function from the input space to the map. The embedding in t-SNE is learnt by directly moving the data from high-dimension to low dimension. So we can’t apply t-SNE on the fly for an incoming test data point. But we can always apply t-SNE on the whole dataset again. Alternately, we can train a multivariable regressor to predict the position of an input point in the map or directly minimise the t-SNE loss (https://lvdmaaten.github.io/publications/papers/AISTATS_2009.pdf).</li>
-  <li><strong>Incomplete Data:</strong> t-SNE cannot handle incomplete data. A popular workaround is to use probabilistic PCA on the data, and then use t-SNE.</li>
+  <li>
+    <p><strong>Interpretability:</strong> t-SNE only maps the local l variables correctly, and the global trends in the data isn’t accurately represented. But PCA’s results can be explained very easily.</p>
+  </li>
+  <li>
+    <p><strong>Application to new data:</strong> t-SNE learns a non-parametric mapping - it does not learn an explicit function from the input space to the map. The embedding in t-SNE is learnt by directly moving the data from high-dimension to low dimension. So we can’t apply t-SNE on the fly for an incoming test data point. But we can always apply t-SNE on the whole dataset again. Alternately, we can train a multivariable regressor to predict the position of an input point in the map or directly minimise the t-SNE loss (https://lvdmaaten.github.io/publications/papers/AISTATS_2009.pdf).</p>
+  </li>
+  <li>
+    <p><strong>Incomplete Data:</strong> t-SNE cannot handle incomplete data. A popular workaround is to use probabilistic PCA on the data, and then use t-SNE.</p>
+  </li>
 </ul>
 
 <p>Further Reading:</p>
@@ -291,7 +294,6 @@ Since t-SNE, doesn’t scale well, PCA is first applied to the data (PCA has a b
 </ol>
 
 <p>Despite these misgivings, t-SNE might probably be the first tool a data scientist uses in the morning! Have fun exploring it. Do comment below for any clarifications or suggestions.</p>
-
 
             </article>
 
@@ -323,7 +325,7 @@ Since t-SNE, doesn’t scale well, PCA is first applied to the data (PCA has a b
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/tSNE/%20via%20&#64;IEEE_NITK&hashtags=CompSoc,t-SNE,Data Visualization,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/tSNE/%20via%20&#64;IEEE_NITK&hashtags=Data Visualization,t-SNE,ML,Data Visualization,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>

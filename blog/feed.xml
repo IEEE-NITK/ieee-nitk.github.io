@@ -5,16 +5,16 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Feb 2018 00:06:44 +0530</pubDate>
-    <lastBuildDate>Sat, 17 Feb 2018 00:06:44 +0530</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <pubDate>Tue, 20 Feb 2018 02:47:24 +0530</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2018 02:47:24 +0530</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Evolution of bicycle</title>
-        <description>&lt;p&gt;&lt;strong&gt;Evolution of bicycle&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Ever since a person began thinking of sources of transportation, maximum development until date has been in the field of bicycle.&lt;/p&gt; &lt;p&gt;Here are a few of the designs discussed briefly, innovation in them and the reasons for their failure or upgradation.&lt;/p&gt; &lt;p&gt;The first known bicycle was the &lt;strong&gt;velocipede&lt;/strong&gt;, a human powered vehicle which required the person riding it to actually push himself against the ground in order to move. No pedals, chain whatsoever, just 2 wheels, a frame and a seat.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;media/e1074583fe8f083cc2b7e8326019e8f9.jpg&quot; alt=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Draisine_or_Laufmaschine%2C_around_1820._Archetype_of_the_Bicycle._Pic_01.jpg/800px-Draisine_or_Laufmaschine%2C_around_1820._Archetype_of_the_Bicycle._Pic_01.jpg&quot; /&gt;&lt;/p&gt; &lt;p&gt;Slowly, came an era of multi-wheeled bicycles. Improved stability, increased load carrying...</description>
+        <description>&lt;p&gt;Ever since a person began thinking of sources of transportation, maximum development until date has been in the field of bicycle.&lt;/p&gt; &lt;p&gt;Here are a few of the designs discussed briefly, innovation in them and the reasons for their failure or upgradation.&lt;/p&gt; &lt;p&gt;The first known bicycle was the &lt;strong&gt;velocipede&lt;/strong&gt;, a human powered vehicle which required the person riding it to actually push himself against the ground in order to move. No pedals, chain whatsoever, just 2 wheels, a frame and a seat.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/cycle/1.jpg&quot; alt=&quot;Archetype of a Bicycle&quot; /&gt;&lt;/p&gt; &lt;p&gt;Slowly, came an era of multi-wheeled bicycles. Improved stability, increased load carrying...</description>
         <pubDate>Sat, 17 Feb 2018 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Evolution-of-bicycle/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Evolution-of-bicycle/</guid>
+        <link>http://ieeenitk.org/blog/evolution-of-bicycle/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/evolution-of-bicycle/</guid>
         
         <category>Piston</category>
         
@@ -22,11 +22,11 @@
       </item>
     
       <item>
-        <title>Should you really buy electric cars??</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Should you really buy an electric car?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Electric vehicles are hitting the world’s roads and with government support behind them these are hyped up to be the next big thing in the automobile industry . Combustion engine vehicles generate huge quantities of pollution, and developed economies create more than their fair share of this . The US transportation sector accounts for around 30 percent of US global warming emissions which is an order of magnitude more than most countries . In this blog I will tell you what I think on buying an electric car .&lt;/p&gt; &lt;p&gt;First come the pros&lt;/p&gt;...</description>
+        <title>Electric Cars - The Future</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Should you really buy an electric car?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Electric vehicles are hitting the world’s roads and with government support behind them these are hyped up to be the next big thing in the automobile industry . Combustion engine vehicles generate huge quantities of pollution, and developed economies create more than their fair share of this. The US transportation sector accounts for around 30 percent of US global warming emissions which is an order of magnitude more than most countries. In this blog I will tell you what I think on buying an electric car.&lt;/p&gt; &lt;h2 id=&quot;pros&quot;&gt;Pros&lt;/h2&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Quick and Quiet...</description>
         <pubDate>Sat, 17 Feb 2018 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/Electric-Cars/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/Electric-Cars/</guid>
+        <link>http://ieeenitk.org/blog/electric-cars/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/electric-cars/</guid>
         
         <category>Electric Cars</category>
         
@@ -39,21 +39,21 @@
     
       <item>
         <title>t-SNE</title>
-        <description>&lt;p&gt;It’s manually impossible to understand the structure of a dataset with 100 dimensions. And it’s fairly common to come across data having so many features. And the exploratory-analysis of data is a preliminary step, before proceeding to other aspects of data-wrangling and models. This is where t-SNE comes in.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding&quot;&gt;t-SNE&lt;/a&gt; is non-linear dimensionality reduction algorithm. It reduces each high-dimensional point and embeds them into a 2D/3D map. Additionally, it ensures that similar objects are nearby and dissimilar points are kept apart.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Internals of t-SNE: The math behind t-SNE&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;There are two stages in the algorithm. First, it builds...</description>
+        <description>&lt;p&gt;It’s manually impossible to understand the structure of a dataset with 100 dimensions. And it’s fairly common to come across data having so many features. And the exploratory-analysis of data is a preliminary step, before proceeding to other aspects of data-wrangling and models. This is where t-SNE comes in.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding&quot;&gt;t-SNE&lt;/a&gt; is non-linear dimensionality reduction algorithm. It reduces each high-dimensional point and embeds them into a 2D/3D map. Additionally, it ensures that similar objects are nearby and dissimilar points are kept apart.&lt;/p&gt; &lt;h2 id=&quot;uses-of-t-sne&quot;&gt;Uses of t-SNE&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;It’s hard to visualize high-dimensional objects&lt;/li&gt; &lt;li&gt;Existing data-visualization techniques only enable visualization of...</description>
         <pubDate>Fri, 16 Feb 2018 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/tSNE/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/tSNE/</guid>
         
-        <category>CompSoc</category>
-        
-        <category>t-SNE</category>
-        
         <category>Data Visualization</category>
         
+        <category>t-SNE</category>
         
         <category>ML</category>
         
         <category>Data Visualization</category>
+        
+        
+        <category>CompSoc</category>
         
       </item>
     

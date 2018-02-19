@@ -4,22 +4,22 @@
       "title"    : "Evolution of bicycle",
       "category" : "",
       "tags"     : "Piston",
-      "url"      : "http://ieeenitk.org/blog//Evolution-of-bicycle/",
+      "url"      : "http://ieeenitk.org/blog//evolution-of-bicycle/",
       "date"     : "17 Feb 2018"
     } ,
   
     {
-      "title"    : "Should you really buy electric cars??",
+      "title"    : "Electric Cars - The Future",
       "category" : "Diode",
       "tags"     : "Electric Cars and CAS/SPS",
-      "url"      : "http://ieeenitk.org/blog//Electric-Cars/",
+      "url"      : "http://ieeenitk.org/blog//electric-cars/",
       "date"     : "17 Feb 2018"
     } ,
   
     {
       "title"    : "t-SNE",
-      "category" : "MLData Visualization",
-      "tags"     : "CompSoc, t-SNE, and Data Visualization",
+      "category" : "CompSoc",
+      "tags"     : "Data Visualization, t-SNE, ML, and Data Visualization",
       "url"      : "http://ieeenitk.org/blog//tSNE/",
       "date"     : "16 Feb 2018"
     } ,
