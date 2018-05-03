@@ -1118,188 +1118,206 @@
 ],
     "core": [
         {
-            "id": "Anand Thamban",
-            "name": "Anand Thamban",
-            "interests": "Fluid Dynamics and Heat Transfer",
-            "email": "mailto:anandthamban@gmail.com",
-            "github": "",
-            "linkedin": "https://in.linkedin.com/pub/anand-thamban/103/787/b1b",
+            "id": "Salman Shah",
+            "name": "Salman Shah",
+            "interests": "Machine Learning, Systems",
+            "email": "mailto:sbs.191197@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/sbshah97",
+            "github": "https://www.github.com/salman-bhai",
             "position": "Convenor"
         }, 
+       
         {
-            "id" : "Tanmay Gadgil",
-            "name" : "Tanmay Gadgil",
-            "email" : "mailto:tanmaygadgil96@gmail.com",
-            "interests" : "Robotics and Control Systems",
-            "position" : "Joint Convenor"
-        },
-        {
-            "id": "Aditya Kulkarni",
-            "name": "Aditya Kulkarni",
-            "interests": "Microcontrollers, Signal Processing, Analog Circuits",
-            "email": "mailto:adityakul995@gmail.com",
+            "id": "Samarth Bonthala",
+            "name": "Samarth Bonthala",
+            "interests": "Mixed Signal Design, Internet of Things, Nanotechnology",
+            "email": "mailto:samarth.bonthala@gmail.com",
             "github": "",
-            "linkedin": "www.linkedin.com/in/adityakulkarni95",
+            "linkedin": "https://in.linkedin.com/in/samarth-bonthala",
             "position": "Chairman"
         }, 
         {
-            "id": "Megha Mantur",
-            "name": "Megha Mantur",
-            "interests": "I like Reading, sketching, painting, art stuff, playing badminton, chess, listening to music.Technically my interest lies in digital electronics, signal processing and microcontrollers.",
-            "email": "mailto:meghamantur060896@gmail.com",
+            "id": "Anupama G",
+            "name": "Anupama G",
+            "interests": "Polymer Rheology, Mathematical modeling, nanotechnology",
+            "email": "mailto:anupamagvs@gmail.com",
             "github": "",
-            "linkedin": "https://in.linkedin.com/pub/megha-mantur/a4/105/19a",
+            "linkedin": "",
             "position": "Vice Chair"
         }, 
         {
-            "id": "Aditya.S",
-            "name": "Aditya.S",
-            "interests": "Automobiles, networking",
-            "email": "mailto:aditya.shashidhar@gmail.com",
-            "github": "",
-            "linkedin": "",
+            "id": "Abijith Jagannath Kamath",
+            "name": "Abijith Jagannath Kamath",
+            "interests": "Signal Processing, Image Processing, Circuit Theory",
+            "email": "mailto:kamath.abijith.j@ieee.org",
+            "linkedin": "https://www.linkedin.com/in/abijith-kamath-556870111/",
+            "github": "https://gitlab.com/kamath.abijith.j",
             "position": "Secretary"
         }, 
+        
         {
-            "id": "Akarsh P",
-            "name": "Akarsh P",
-            "interests": "Multidisciplinary projects, Microcontroller programming, Signal processing, Machine learning, Table tennis, Cricket",
-            "email": "mailto:akarsh.9996@gmail.com",
+            "id": "Akshay Krishna",
+            "name": "Akshay Krishna",
+            "interests": "Structural Analysis,  CAD/CAM",
+            "email": "mailto:akshay062@gmail.com",
             "github": "",
-            "linkedin": "https://.linkedin.com/in/akarshprabhakar",
-            "position": "Joint Secretary"
-        }, 
-        {
-            "id": "Sandeep N Menon",
-            "name": "Sandeep N Menon",
-            "interests": "Algorithms, Coding",
-            "email": "mailto:menonsandu@gmail.com",
-            "github": "https://github.com/gitmenonsandu",
             "linkedin": "",
             "position": "Engineer Joint Convenor"
         }, 
         {
-            "id": "Prachi Shahi",
-            "name": "Prachi Shahi",
-            "interests": "HPC, Security",
-            "email": "mailto:prachi.shahi@gmail.com",
-            "github": "https://github.com/prachi29",
-            "linkedin": "",
+            "id": "Mohita Chowdhury",
+            "name": "Mohita Chowdhury",
+            "interests": "Computer Vision, Image Processing, Machine Learning",
+            "email": "mailto:chowdhury.mohita@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/mohita-chowdhury-838643131/",
+            "github": "https://github.com/mohiitaa",
             "position": " WIE Chair"
         }, 
         {
-            "id": "Natasha Y Jeppu",
-            "name": "Natasha Y Jeppu",
-            "interests": "Security, HPC",
-            "email": "mailto:natasha.jeppu@gmail.com",
-            "github": "https://github.com/natasha-jeppu",
+            "id": "K V Krishna",
+            "name": "K V Krishna",
+            "interests": "Aerodynamics, Aeronautics, Fluid mechanics and Computational Fluid Dynamics",
+            "email": "mailto:krishnakv98@ieee.org",
             "linkedin": "",
+            "github": "",
             "position": "India Council CompSoc SAC Core Team"
         },
         {
-            "id": "Prajwal G S",
-            "name": "Prajwal G S",
-            "interests": "Automobiles, particularly transmissions",
-            "email": "mailto:prajju1996@gmail",
+            "id": "Shuvam Senapati",
+            "name": "Shuvam Senapati",
+            "interests": "Design and Manufacturing ",
+            "email": "mailto:senapati.shuvam96@gmail.com",
+            "linkedin": "",
             "github": "",
-            "linkedin": "https://in.linkedin.com/pub/prajwal-g-s/103/6b6/b64",
             "position": "Piston Secretary"
         },
         {
-            "id": "Sai Velamala",
-            "name": "Sai Velamala",
-            "interests": "Robotics,Automated control systems,Drones and quadrocopters,Machine learning",
-            "email": "mailto:my.cloud.sai@gmail.com",
-            "github": "",
+            "id": "Pranay Nagrani",
+            "name": "Pranay Nagrani",
+            "interests": "Aerodynamics and fluid dynamics",
+            "email": "mailto:pranay_nagrani@ieee.org",
             "linkedin": "",
-            "position": "Piston Secretary"
+            "github": "",
+            "position": "Piston Chair"
         }, 
         {
-            "id": "Chirag Gourav G",
-            "name": "Chirag Gourav G",
-            "interests": "Embedded system(Raspberry Pi, MSP430), Sensors, Digital electronics programming.",
-            "email": "mailto:chiraggourav18@gmail.com",
-            "github": "",
-            "linkedin": "https://in.linkedin.com/in/chiraggourav18",
+            "id": "Tarun Mittal",
+            "name": "Tarun Mittal",
+            "interests": "Embedded Systems, IoT, Digital System Design, Cryptography",
+            "email": "mailto:trmittal24@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/trmittal24/",
+            "github": "https://github.com/trmittal24",
             "position": "Circuits and Systems Chair"
         }, 
         {
-            "id": "Maitreyee Marathe",
-            "name": "Maitreyee Marathe",
-            "interests": "Alternative Energy",
-            "email": "mailto:maitreyeemarathe23@gmail.com",
+            "id": "Vibhore Jain",
+            "name": "Vibhore Jain",
+            "interests": "Analog System Design, Embedded Systems",
+            "email": "mailto:jainvibhore1997@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/vibhore-jain-b57022117/",
+            "github": "https://github.com/vibhoregit" ,
+            "position": "Diode Secretary"
+        },
+        {
+            "id": "Sandesh Kanchodu",
+            "name": "Sandesh Kanchodu",
+            "interests": "Analog and power electronics",
+            "email": "mailto:kanchodusandesh@gmail.com", 
+            "linkedin": "",
             "github": "",
-            "linkedin": "https://in.linkedin.com/pub/maitreyee-marathe/103/794/912",
-            "position": "CAS Secretary"
+            "position": "Diode Secretary"
         },
         {   
-          "id":"Adarsh Rajesh",
-            "name":"Adarsh Rajesh",
-            "interests":"Machine learning, computational neuroscience",
-            "email":"mailto:adarshrajesh19@gmail.com",
-            "github":"https://github.com/AdarshRajesh/",
-            "linkedin":"https://www.linkedin.com/in/adarsh-rajesh-25a319104",
+          "id":"Vasista Ayyagari",
+            "name":"Vasista Ayyagari",
+            "interests": "Robotics and Thermal Engineering",
+            "email":"mailto:vasista1997@gmail.com",
+            "linkedin": "https://www.linkedin.com/",
+            "github": "https://github.com/",
             "position":"SIGHT Chair"
             }, 
             {
-            "id": "Deepesh Agarawal",
-            "name": "Deepesh Agarawal",
-            "interests": "Technical-\nSignals and systems\nComputer architecture\nSignal processing\nNon technical-\nTable tennis\nMusic\n",
+            "id": "Harini S",
+            "name": "Harini S",
+            "interests": "Digital System Design, Image Processing, ML",
             "email": "mailto:deepesh.agarawal@gmail.com",
-            "github": "",
-            "linkedin": "https://in.linkedin.com/pub/deepesh-agarawal/103/64/24b",
+            "linkedin": "https://www.linkedin.com/",
+            "github": "https://github.com/",
             "position": "Signal Processing Society Chair"
         }, 
+      
         {
-            "id": "Chaithya G R",
-            "name": "Chaithya G R",
-            "interests": "Signal processing, Computer architecture, Coding",
-            "email": "mailto:chaithyagr@gmail.com",
-            "github": "",
-            "linkedin": "https://in.linkedin.com/pub/chaithya-gr/44/aab/b08",
-            "position": "Signal Processing Society Secretary"
-        }, 
-        {
-            "id": "Adithya Bhat",
-            "name": "Adithya Bhat",
-            "interests": "Security, Networks",
-            "email": "mailto:dth.bht@gmail.com",
-            "github": "https://github.com/adithyabhatkajake",
-            "linkedin": "",
+            "id": "Kaushik S Kalmady",
+            "name": "Kaushik S Kalmady",
+            "interests": "Data Analysis, Machine Learning, Deep Learning , Linux.",
+            "email": "mailto:kaushiks.s.kalmady@ieee.org",
+            "linkedin": "linkedin.com/kaushiksk",
+            "github": "github.com/kaushiksk",
             "position": "Computer Society Chair"
         }, 
-        {
-            "id": "Ananda Rao H",
-            "name": "Ananda Rao H",
-            "interests": "Algorithms, Coding",
-            "email": "mailto:anandarao.h8@gmail.com",
-            "github": "https://github.com/anandarao",
+            {
+            "id": "Ambareesh",
+            "name": "Ambareesh",
+            "interests": "Machine Learning and Artificial Intelligence namely Markov Chain Monte Carlo methods, Deep Learning, Ensemble  Methods",
+            "email": "mailto:ambareesh.prakash@gmail.com",
             "linkedin": "",
-            "position": "Computer Society Secretary"
+            "github": "https://github.com/AeroDeath/",
+            "position": "Intelligence Group Head"
         },
         {
-            "id": "Prabhanjan P M",
-            "name": "Prabhanjan P M",
-            "interests": "Algorithms, CTF",
-            "email": "mailto:promad.holmes@gmail.com",
-            "github": "https://github.com/PrabhanjanPM",
-            "linkedin": "",
-            "position": "Computer Society Secretary"
+            "id": "Rakshith G",
+            "name": "Rakshith G",
+            "interests": "Systems, security & programming languages",
+            "email": "mailto:in.rakshith.g@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/rakshithg/",
+            "github": "http://github.com/hehaichi",
+            "position": "Systems Group Head"
+        }, 
+         {
+            "id": "Vilas",
+            "name": "Vilas",
+            "email": "mailto:vilasnitk19@gmail.com",
+            "interests": "Algorithms, High Performance Computing",
+            "linkedin": "https://www.linkedin.com/in/vilas-m-745101128",
+            "github": "https://github.com/vilas897",
+            "position": "Theory Group Head"
         },
         {
-            "id": "AKSHAY KRISHNA ",
-            "name": "Akshay Krishna ",
-            "interests": "Structural Analysis,  CAD/CAM",
-            "email": "mailto:akshay062@gmail.com",
+            "id": "Varshini Srinivasan ",
+            "name": "Varshini Srinivasan ",
+            "interests": "Digital Electronics, Embedded Systems and IOT",
+            "email": "mailto:varshini.srinivasan@ieee.org",
+            "linkedin": "https://www.linkedin.com/in/varshini-srinivasan-a65bb9136/",
+            "github": "https://github.com/varsh2506",
             "position": "Treasurer"
         }, 
         {
-            "id": "N Subbalakshmi",
-            "name": "N Subbalakshmi",
-            "interests": "Signal Processing, Image Processing, Machine Learning",
-            "email": "mailto:subbulali97@gmail.com",
-            "position": "Treasurer"
+            "id": "Adithya Prabhu",
+            "name": "Adithya Prabhu",
+            "interests": "Product Design, Acoustics",
+            "linkedin": "https://www.linkedin.com/in/adithya-prabhu-702b6b141",
+            "github": "https://github.com/adithyaprabhu98",
+            "email": "mailto:adithyaprabhu98@ieee.org",
+            "position": "Publicity Coordinator"
+        }, 
+        {
+            "id": "Anumeha Agrawal ",
+            "name": "Anumeha Agrawal ",
+            "email": "mailto:anumehaagrawal29@gmail.com",
+            "interests": "Web and App development, Machine Learning , AI, Open Source",
+            "linkedin": "https://www.linkedin.com/in/anumeha-agrawal-0854a0138",
+            "github": "www.github.io/anumehaagrawal/",
+            "position": "Webmaster"
+        },
+        {
+            "id": "Anirudh B H ",
+            "name": "Anirudh B H",
+            "email": "mailto:yani.bh@gmail.com",
+            "interests": "Analog and Digital Electronics",
+            "linkedin": "https://www.linkedin.com/in/anirudh-b-h-30a453149",
+            "github": "https://github.com/Anirudh0707",
+            "position": "Envision Head"
         }
-
+       
     ]
 }
