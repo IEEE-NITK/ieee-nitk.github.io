@@ -1,10 +1,6 @@
-/*
- * Fonts
- */
-
 @font-face {
-    src: url(Teko-Light.ttf);
-    font-family: teco;
+
+    font-family: Verdana;
 }
 
 
@@ -13,16 +9,20 @@
  */
 
 .prociono {
-    font-family: 'Prociono';
+    font-family: "Times New Roman", Times, serif;
 }
 
 .teco {
-    font-family: teco;
+    font-family: Verdana, Geneva, sans-serif;
 }
-.sans{
-    
-    font-family: 'Open Sans Condensed', sans-serif;
+
+.sans {
+    font-family: 'Formata', sans-serif;
 }
+
+/*
+ * Animations
+ */
 
 *{
     box-sizing: border-box;
