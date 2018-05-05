@@ -105,7 +105,7 @@ nav #small_logo {
 nav .popup_menu {
     top: 0px;
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 7vh;
 }
 
@@ -221,7 +221,7 @@ nav ul li.active a {
 .parent {
     position: fixed;
     width: 5vh;
-    height: 5vh;
+    height: 7vh;
     right: 10px;
     top: 0px;
     display: none;

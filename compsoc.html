@@ -51,7 +51,8 @@
         <script src="js/sig.js"></script>
 	    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-        <script src="js/particles.js"></script>
+		<script src="js/particles.js"></script>
+		<script src="js/slider.js"></script>
         <script>
         	$(document).ready(function(){
         		loadAndDisplay("compsoc.json");
@@ -88,8 +89,38 @@
 	
 	</head>
 	<body>
-		<nav>
-			<a href="/" title="Home"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
+		<nav class="visible_nav">
+			<a class="logo" title="home" href="/"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
+			<div class="popup_menu">
+				<ul id="menu" class="teco">
+					<li data-menuanchor="about">
+						<a href="./index.html#about">About Us</a>
+					</li>
+					<li data-menuanchor="sigs">
+						<a href="./index.html#sigs">SIGs</a>
+					</li>
+					<li data-menuanchor="events">
+						<a href="./index.html#events">Events</a>
+					</li>
+					<li data-menuanchor="team">
+						<a href="./index.html#team">Team</a>
+					</li>
+					<li data-menuanchor="achievements">
+						<a href="./index.html#achievements">Achievements</a>
+					</li>
+					<li>
+						<a href="./blog/">Blog</a>
+					</li>
+					<li>
+						<a href="./gyan/">Gyan</a>
+					</li>
+				</ul>
+			</div>
+			<div class="parent">
+				<div class="nav-icon cross">
+					<div class="span"></div>
+				</div>
+			</div>
 		</nav>
 		<div class="img_holder teco">
             <div id="particles-js"></div>
