@@ -25,13 +25,9 @@ The front-end of the project comprises of an Android app and a Website. Android 
 
 The back-end of project used python as a primary programming environment and Django framework. It uses MySQL database. The algorithm tries to create an overlap in the student profile and professor requirements and make a ranked list of recommended candidates.
 
-## Role of Mentors
-
-Mentors played a vital role in the development of this project. They started helping us by giving us the resources to learn the languages and technologies that were required for the project. They helped us in setting up GitHub repositories thus helping us start the project efficiently. In the later stages they helped us in developing the recommender system. They also helped us when we had problems with our front end. Basically, they helped us whenever we had any problem, hence we could develop such a good platform even though we were first years’.
-
 ## How did IEEE benefit us?
 
-IEEE envision project helped us to learn different programming languages and technologies. In the process we also learned how to use GitHub effectively. We also learned how to work as a team, how to devise a plan and how to go about developing such projects. Also, helped us in getting along with a better peer group with like minded people!
+IEEE envision project helped us to learn different programming languages and technologies. In the process we also learned how to use GitHub effectively. We also learned how to work as a team, how to devise a plan and how to go about developing such projects. Also, helped us in getting along with a better peer group with like minded people! Basically, IEEE mentors helped us whenever we had any problem, hence we could develop such a good platform even though we were first years’.
 
 ## Why should you take this up?
 
@@ -43,16 +39,16 @@ Taking up this project in your first year is a good idea as it helps you in lear
 * Ranjana K
 * Nisarg S. Joshi
 
+![The Team](/blog/assets/img/prof-matching/team.jpg)
+The Team
+
 ## Mentors
 * Mahim Agrawal
 * Ashwin Joisa
 * Praveen Gupta
 * Moksh Jain
 
-## Images
-
-![The Team](/blog/assets/img/prof-matching/team.jpg)
-The Team
+## Images form the App
 
 ![Login Screen](/blog/assets/img/prof-matching/login.jpg)
 Login Screen
