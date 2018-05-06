@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Feb 2018 02:47:24 +0530</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2018 02:47:24 +0530</lastBuildDate>
+    <pubDate>Sun, 06 May 2018 13:23:41 +0530</pubDate>
+    <lastBuildDate>Sun, 06 May 2018 13:23:41 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Evolution of bicycle</title>
+        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;Finding research/internship opportunity under a professor’s guidance is exceedingly difficult because the professors are very busy and students are not well aware of the professors who are ready to give internship opportunities. The professor has to shortlist the resumes and the student has to find out and send a resume to every professor offering a research opportunity. Obviously, this is a time consuming and tiresome process for both students and the professors.&lt;/p&gt; &lt;p&gt;We came up with a idea which not only speeds up this process but also makes it hassle-free. The idea is to create a platform which...</description>
+        <pubDate>Sun, 06 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/prof-matching-envision/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/prof-matching-envision/</guid>
+        
+        <category>Android</category>
+        
+        <category>Web</category>
+        
+        <category>Django</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Evolution of bicycle</title>
@@ -164,24 +182,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>How NASA discovered planets using Artificial Intelligence</title>
-        <description>&lt;p&gt;A Convolutional Neural Network.&lt;br /&gt; &lt;strong&gt;A Convolutional Neural Network and 90 minutes of training&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;.&lt;br /&gt; But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h3 id=&quot;where-did-the-data-come-from&quot;&gt;Where did the data come from?&lt;/h3&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of...</description>
-        <pubDate>Thu, 21 Dec 2017 22:14:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/space-ml/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/space-ml/</guid>
-        
-        <category>Space</category>
-        
-        <category>Machine Learning</category>
-        
-        <category>Deep Learning</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

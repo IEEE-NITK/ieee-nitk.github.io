@@ -2,6 +2,14 @@
   
     {
       "title"    : "Evolution of bicycle",
+      "category" : "CompSoc",
+      "tags"     : "Android, Web, and Django",
+      "url"      : "http://ieeenitk.org/blog//prof-matching-envision/",
+      "date"     : "06 May 2018"
+    } ,
+  
+    {
+      "title"    : "Evolution of bicycle",
       "category" : "",
       "tags"     : "Piston",
       "url"      : "http://ieeenitk.org/blog//evolution-of-bicycle/",
