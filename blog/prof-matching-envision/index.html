@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Explore this new world of smart homes">
+        <meta name="description" content="Matching students with professors based on similar interests for Research internships">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="What makes a Smart Home Smart">
-        <meta name="twitter:description" content="Explore this new world of smart homes">
+        <meta name="twitter:title" content="Envision Project 1 - Professor Matching for Research Internships">
+        <meta name="twitter:description" content="Matching students with professors based on similar interests for Research internships">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///what-makes-a-smart-home-smart/" />
-        <meta property="og:title" content="What makes a Smart Home Smart">
+        <meta property="og:url" content="http://ieeenitk.org///prof-matching-envision/" />
+        <meta property="og:title" content="Envision Project 1 - Professor Matching for Research Internships">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Explore this new world of smart homes">
+        <meta property="og:description" content="Matching students with professors based on similar interests for Research internships">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="What makes a Smart Home Smart"/>
-        <meta itemprop="description" content="Explore this new world of smart homes">
+        <meta itemprop="name" content="Envision Project 1 - Professor Matching for Research Internships"/>
+        <meta itemprop="description" content="Matching students with professors based on similar interests for Research internships">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>What makes a Smart Home Smart</title>
+        <title>Envision Project 1 - Professor Matching for Research Internships</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/what-makes-a-smart-home-smart/">
+        <link rel="canonical" href="/blog/prof-matching-envision/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-18 10:00:00 +0530" class="date">18 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2018-05-06 05:02:44 +0530" class="date">06 May 2018</time>
         
-        <h1 class="post-title" itemprop="name">What makes a Smart Home Smart</h1>
-        <p itemprop="description" class="subtitle">Explore this new world of smart homes</p>
+        <h1 class="post-title" itemprop="name">Envision Project 1 - Professor Matching for Research Internships</h1>
+        <p itemprop="description" class="subtitle">Matching students with professors based on similar interests for Research internships</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,54 +171,55 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+                <h2 id="idea">Idea</h2>
+<p>Finding research/internship opportunity under a professor’s guidance is exceedingly difficult because the professors are very busy and students are not well aware of the professors who are ready to give internship opportunities. The professor has to shortlist the resumes and the student has to find out and send a resume to every professor offering a research opportunity. Obviously, this is a time consuming and tiresome process for both students and the professors.</p>
 
-<p>When you leave your home have you been bothered by these little doubts like have I turned the water heater off? Did I set the security at home? Did I switch off the TV?</p>
+<p>We came up with a idea which not only speeds up this process but also makes it hassle-free. The idea is to create a platform which comprises of students and professors and then, try to create a match from their preferences. The professor and student both login into this platform and set their preferences (for example professor sets his minimum cgpa as 8 while the student can set the cgpa he secured as 8.2). A recommender system works in the background which takes up each professor, one at a time and tries to create a match with the students in the platform. It then generates a list of students which match the criteria and the professor can just pick the students from the list.</p>
 
-<p>With the introduction of smart homes these will no longer be a bother to us anymore. Any electrical component, may it be a fan or your TV or even your coffee maker, every electrical appliance in our homes can be hooked up to the home network. This will basically allow us to control our entire house with our laptops or something as simple as our smart-phone. These smart homes are now very common and have now started to create a revolution.</p>
+<h2 id="implementation">Implementation</h2>
 
-<h2 id="what-is-the-principle-behind-it">What is the principle behind it?</h2>
+<p>The front-end of the project comprises of an Android app and a Website. Android app is developed on Android Studio using libraries such as Volley and Gson and with Java as the primary language. The Web Frontend is built using the standard web technologies like HTML, CSS , JavaScript , libraries and Frameworks of JavaScript. Login and signup system is implemented using the OAuth standards via Google/Facebook.</p>
 
-<p>So people generally ask themselves, what exactly makes these smart homes so smart?</p>
+<p>The back-end of project used python as a primary programming environment and Django framework. It uses MySQL database. The algorithm tries to create an overlap in the student profile and professor requirements and make a ranked list of recommended candidates.</p>
 
-<p>Well, it’s due to the ability to connect multiple devices to your net and then wirelessly use them. This allows us to easily give commands to the system and control them.</p>
+<h2 id="role-of-mentors">Role of Mentors</h2>
 
-<p>How is this possible you ask?  It’s all thanks to The  Internet of Things. This basically allows a person to interconnect multiple things to the internet and then use them to exchange data with one another and execute appropriate commands according to the data. You may find yourself what these “things” are. These “things” (also known as smart devices) could be anything ranging from sensors to even our daily appliances.</p>
+<p>Mentors played a vital role in the development of this project. They started helping us by giving us the resources to learn the languages and technologies that were required for the project. They helped us in setting up GitHub repositories thus helping us start the project efficiently. In the later stages they helped us in developing the recommender system. They also helped us when we had problems with our front end. Basically, they helped us whenever we had any problem, hence we could develop such a good platform even though we were first years’.</p>
 
-<h2 id="what-actually-happens-in-the-network">What actually happens in the network?</h2>
+<h2 id="how-did-ieee-benefit-us">How did IEEE benefit us?</h2>
 
-<p>What do you think happens when you send a command to one your appliances?</p>
+<p>IEEE envision project helped us to learn different programming languages and technologies. In the process we also learned how to use GitHub effectively. We also learned how to work as a team, how to devise a plan and how to go about developing such projects. Also, helped us in getting along with a better peer group with like minded people!</p>
 
-<p>Let’s visualize this with an example.</p>
+<h2 id="why-should-you-take-this-up">Why should you take this up?</h2>
 
-<p>Now you want to turn one of your appliance, let’s say your water heater. You will send a command through one of your transmitters ( phone, laptop or even one of your interfaces that is connected to the network) which will be later sent to the receivers with the help of the network. Two of the most used networks are Z-ware and ZigBee.</p>
+<p>Taking up this project in your first year is a good idea as it helps you in learning new stuff. It makes you do something productive. You would be learning so many new things while developing this project which makes it worth the time you spend on it. One will get to meet seniors and get to know about their project, hence a great exposure. Also… Club recruitments. :P</p>
 
-<p>These transmitters will first issue a command to the system its giving the command. Then it will identify the corresponding device with its item number. Once confirmed it will send the main command, that is the OFF command which will alter the state of the appliance and thereby allowing you to control the working of the device.</p>
+<h2 id="team">Team</h2>
+<ul>
+  <li>Prajwal S Belagavi</li>
+  <li>Vaibhav G</li>
+  <li>Ranjana K</li>
+  <li>Nisarg S. Joshi</li>
+</ul>
 
-<h2 id="how-does-this-help-us">How does this help Us?</h2>
+<h2 id="mentors">Mentors</h2>
+<ul>
+  <li>Mahim Agrawal</li>
+  <li>Ashwin Joisa</li>
+  <li>Praveen Gupta</li>
+  <li>Moksh Jain</li>
+</ul>
 
-<p>Now let’s look at how these homes work and how they help us.</p>
+<h2 id="images">Images</h2>
 
-<p><img src="/blog/assets/img/what-makes-a-smart-home-smart/Smart homes.jpg" alt="Smart Homes" /></p>
+<p><img src="/blog/assets/img/prof-matching/team.jpg" alt="The Team" />
+The Team</p>
 
-<p>With the help of this picture we can get a pretty good picture as to how a smart house works. So basically in a smart house all the appliances are connected to the net and with the help of controllers like laptop, mobile phones and other interfaces we can controls all the appliances wirelessly. It is not only about controlling them wirelessly. They can be automated as well so that we need not bother with all the minor details in our day to day life.</p>
+<p><img src="/blog/assets/img/prof-matching/login.jpg" alt="Login Screen" />
+Login Screen</p>
 
-<p>Having doubts? Let us take an example.</p>
-
-<p>All of us find it hard and very troublesome to go and buy grocery for our kitchen when they get over. Now imagine a situation where you need not do any of this. You can now automate your refrigerator to sense when your supplies are getting over and then directly place an order for new stock of supplies. This would save so much time and effort.</p>
-
-<p>This is just the beginning. You would be able to control all the LEDs in the house, adjust their color and brightness as you would like it. You can even deactivate all your appliances except your security systems when you are leaving.</p>
-
-<p><img src="/blog/assets/img/what-makes-a-smart-home-smart/Control.jpg" alt="Control" /></p>
-
-<p>Combined with a smooth interface this system is really user friendly and really reduces the amount of work that we do and not only saves our time but also saves our other resources as well. All these factors make these smart homes really smart and a great place to live in.</p>
-
-<p>For further references about Smart home systems and the principles</p>
-
-<ol>
-  <li><a href="http://home.howstuffworks.com/smart-home1.htm">Smart Home</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/Home\_automation">Home Automation</a></li>
-</ol>
+<p><img src="/blog/assets/img/prof-matching/list-of-students.jpg" alt="List of Students" />
+List of students who match a Professor’s Criteria</p>
 
             </article>
 
@@ -250,15 +251,15 @@
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/what-makes-a-smart-home-smart/%20via%20&#64;IEEE_NITK&hashtags=Smart homes,IoT,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/prof-matching-envision/%20via%20&#64;IEEE_NITK&hashtags=Android,Web,Django,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//what-makes-a-smart-home-smart/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//prof-matching-envision/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//what-makes-a-smart-home-smart/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//prof-matching-envision/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
