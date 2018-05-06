@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Evolution of bicycle"
+title: "Envision Project 1 - Professor Matching for Research Internships"
 author_github: anirudh0707
 date: 2018-05-05 23:32:44
 image: '/assets/img/'
-description: 'Professor Matching - Envision'
+description: 'Matching students with professors based on similar interests for Research internships'
 tags:
 - Android
 - Web 
@@ -25,11 +25,11 @@ The front-end of the project comprises of an Android app and a Website. Android 
 
 The back-end of project used python as a primary programming environment and Django framework. It uses MySQL database. The algorithm tries to create an overlap in the student profile and professor requirements and make a ranked list of recommended candidates.
 
-## Mentor’s help
+## Role of Mentors
 
-Mentors played a vital role in the development of this project. They started by giving resources to learn the languages and the technologies we used. They helped us in setting up GitHub repositories thus helping us start the project efficiently. In the later stages they helped us in developing the recommender system. They also helped us when we had problems with our front end. Basically, they helped us whenever we had any problem, hence we could develop such a good platform even though we were first years’.
+Mentors played a vital role in the development of this project. They started helping us by giving us the resources to learn the languages and technologies that were required for the project. They helped us in setting up GitHub repositories thus helping us start the project efficiently. In the later stages they helped us in developing the recommender system. They also helped us when we had problems with our front end. Basically, they helped us whenever we had any problem, hence we could develop such a good platform even though we were first years’.
 
-## IEEE benefitted us in the following way
+## How did IEEE benefit us?
 
 IEEE envision project helped us to learn different programming languages and technologies. In the process we also learned how to use GitHub effectively. We also learned how to work as a team, how to devise a plan and how to go about developing such projects. Also, helped us in getting along with a better peer group with like minded people!
 
