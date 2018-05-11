@@ -83,7 +83,7 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 7vh;
+    height: 10vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
     overflow: hidden;
@@ -92,8 +92,11 @@ nav {
 .logo {
     position: absolute;
     right: 8px;
-    line-height: 7vh;
-    margin-top: -2px;
+    line-height: 33px;
+    margin: 2.5vh;
+    margin-bottom: 2.5vh;
+
+    width: 100px;
 }
 
 nav #small_logo {
@@ -525,8 +528,9 @@ button#closebutton {
 }
 
 h3.event_name.teco {
-    font-size: 5em;
+    font-size: 2.7em;
     color: white;
+    word-wrap: break-word;
 }
 
 
