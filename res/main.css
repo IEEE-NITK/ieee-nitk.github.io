@@ -259,6 +259,55 @@ nav ul li.active a {
     height: auto;
 }
 
+.cta_container {
+    position: absolute;
+    bottom: 8%;
+    left: 12.5%;
+    width: 75%;
+    height: 12vh;
+    display: flex;
+}
+
+.cta {
+    height: 92%;
+    width: 42%;
+    margin: 4% 4%;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.cta .cta_heading {
+    font-size: 1.2rem;
+    font-weight: normal;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cta .tags_container {
+    display: flex;
+}
+
+.cta .cta_tag {
+    margin: 4px 8px 2px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0 8px;
+    font-size: 0.7rem;
+}
+
+.cta_section {
+    font-size: 0.9rem;
+    padding: 2px 8px 0 0;
+    font-weight: bold;
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+}
 
 /*
  * About Page
@@ -822,6 +871,31 @@ footer .offline {
     .landing_page .main_container #logo img {
         width: 50%
     }
+
+    .cta_container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 24vh;
+        left: 0;
+        bottom: 4%;
+    }
+
+    .cta {
+        height: 48%;
+        width: 92%;
+        margin: 1% 4%;
+    }
+
+    .cta .cta_heading {
+        font-size: 0.9rem;
+    }
+
+    .cta .cta_tag {
+        font-size: 0.5rem;
+        margin: 4px 4px 4px 0;
+    }
+
     .about .wrapper {
         display: block;
         width: 100%;
