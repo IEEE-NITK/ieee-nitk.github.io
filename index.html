@@ -114,8 +114,46 @@
 
 </head>
 <body>
-    <nav class="visible_nav">
-        <a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
+     
+    <nav class="visible_nav ieee_tops">
+        <div class="popup_menu">
+            <ul id="menu" class="teco">
+                <li class ="ieee_nav">
+                    <a href="https://www.ieee.org/">IEEE.org | </a>
+                </li>
+                <li>
+                    <a href ="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore Digital Library | </a>
+                </li>
+                <li>
+                    <a href="http://standards.ieee.org/">IEEE Standards | </a>
+                </li>
+                <li>
+                    <a href="https://spectrum.ieee.org/">IEEE Spectrum | </a>
+                </li>
+                <li>
+                    <a href="https://www.ieee.org/sitemap.html">More Sites</a>
+                </li>
+            </ul>
+        </div>
+        <div class="parent">
+            <div class="nav-icon cross">
+                <div class="span"></div>
+            </div>
+        </div>
+    </nav>
+    <div class = "ieee_logo">
+        <div class = "wrapper">
+        
+            <div class="col_left col_nav">
+                <a class="logo" href="https://www.ieee.org/"><img id ="nitk_icon" src="res/img/nitk_logo.png" alt="IEEE Logo" style="height: 50px; width: 100px;  "></a>
+            </div>
+            <div class="col_right col">
+                <a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo" style="height: 33px; width: 100px; "></a>
+            </div>
+        
+        </div>
+    </div>
+    <nav class="visible_nav ieee_second">
         <div class="popup_menu">
             <ul id="menu" class="teco">
                 <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
@@ -129,7 +167,6 @@
                 </li>
                 <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
                     <a>Team</a>
-                </li>
                 <li data-menuanchor="achievements" onclick="$.fn.fullpage.moveTo(6)">
                     <a>Achievements</a>
                 </li>
@@ -152,6 +189,7 @@
             <div class="main_container">
                 <div id="text_effect"></div>
                 <div id="logo">
+
                     <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo"></a>
                 </div>
             </div>
