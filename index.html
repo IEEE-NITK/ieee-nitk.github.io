@@ -61,6 +61,7 @@
     <script src="js/particles.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/events.js"></script>
+    <script src="js/cta.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
@@ -97,9 +98,9 @@
             },
             "member": {
                 "@type": "Person",
-                "name": "Anand Thamban",
+                "name": "Salman Shah",
                 "jobTitle":"Convener",
-                "email":"anandthamban@gmail.com"      
+                "email":"sbs.191197@gmail.com"      
             },
             "parentOrganization":["IEEE","IEEE Bangalore"],
             //"logo":"ieee-nitk logo url",  
@@ -114,7 +115,7 @@
 </head>
 <body>
     <nav class="visible_nav">
-        <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
+        <a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
         <div class="popup_menu">
             <ul id="menu" class="teco">
                 <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
@@ -151,7 +152,23 @@
             <div class="main_container">
                 <div id="text_effect"></div>
                 <div id="logo">
-                    <img src="res/img/ieee_white.png" alt="IEEE Logo">
+                    <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo"></a>
+                </div>
+            </div>
+            <div class="cta_container teco">
+                <div class="cta" id="article1">
+                    <div class="cta_heading"></div>
+                    <div style="display: flex">
+                        <div class="cta_section"></div>
+                        <div class="tags_container"></div>
+                    </div>
+                </div>
+                <div class="cta" id="article2">
+                    <div class="cta_heading"></div>
+                    <div style="display: flex">
+                        <div class="cta_section"></div>
+                        <div class="tags_container"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -184,7 +201,7 @@
                                 </p>
                             </div>
                             <div class="slide_button sans">
-                                <a href="/compsoc.html" title="CompSoc">READ MORE</a>
+                                <a href="./compsoc.html" title="CompSoc">READ MORE</a>
                             </div>
                         </div>
                     </div>
@@ -204,7 +221,7 @@
                                 </p>
                             </div>
                             <div class="slide_button sans">
-                                <a href="/cas.html" title="CAS">
+                                <a href="./cas.html" title="CAS">
                                 READ MORE
                             </a>
                             </div>
@@ -226,7 +243,7 @@
                                 </p>
                             </div>
                             <div class="slide_button sans">
-                                <a href="/piston.html" title="Piston">
+                                <a href="./piston.html" title="Piston">
                             READ MORE
                         </a>
                             </div>
@@ -296,14 +313,15 @@
                 <div class="pseudo team_title teco">
                     Our Team
                 </div>
-                <div class="member_card card_left">
+                 <div class="member_card card_left">
                     <div class="img_section">
-                        <img src="res/img/faculty/sumam_david.jpg" alt="Sumam David">
+                        <img src="res/img/faculty/msbhat.png" alt="MS Bhat">
                     </div>
                     <div class="data_section sans">
-                        <h3>Dr. Sumam David</h3>
+                        <h3>Dr. M. S. Bhat</h3>
                         <h4>Branch advisor</h4>
-                        <p><a href="http://sumam.nitk.ac.in/" title="Sumam David's Personal Page">Web page</a></p>
+                        <div class="web-page"><a target="_blank" href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" 
+                            title="MS Bhat's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_right">
@@ -313,17 +331,19 @@
                     <div class="data_section sans">
                         <h3>Dr. Annappa</h3>
                         <h4>Computer Society faculty advisor</h4>
-                        <p><a href="http://cse.nitk.ac.in/faculty/annappa" title="Annappa's Personal Page">Web page</a></p>
+                        <div class="web-page"><a href="http://cse.nitk.ac.in/faculty/annappa" 
+                            title="Annappa's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_left">
                     <div class="img_section">
-                        <img src="res/img/faculty/msbhat.png" alt="MS Bhat">
+                        <img src="res/img/faculty/bvp.jpg" alt="MS Bhat">
                     </div>
                     <div class="data_section sans">
-                        <h3>Dr. M. S. Bhat</h3>
+                        <h3>B Venkatesa Perumal</h3>
                         <h4>CAS faculty advisor</h4>
-                        <p><a href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" title="MS Bhat's Personal Page">Web page</a></p>
+                        <div class="web-page"><a target="_blank" href="http://eee.nitk.ac.in/professor/BVP"
+                            title="BVP's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_right">
@@ -333,7 +353,8 @@
                     <div class="data_section sans">
                         <h3>Dr. Ramesh Kini</h3>
                         <h4>RAS faculty advisor</h4>
-                        <p><a href="http://ece.nitk.ac.in/faculty/ramesh-kini-m" title="Ramesh Kini's Personal Page">Web page</a></p>
+                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/ramesh-kini-m" 
+                            title="Ramesh Kini's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_left">
@@ -343,7 +364,8 @@
                     <div class="data_section sans">
                         <h3>Dr. Deepu Vijayasenan</h3>
                         <h4>SPS faculty advisor</h4>
-                        <p><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" title="Deepu Vijayasenan's Personal Page">Web page</a></p>
+                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" 
+                            title="Deepu Vijayasenan's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <a class="pseudo teco" href="/team.html" title="Full Team">View full team</a>
@@ -386,7 +408,7 @@
         </div>
         <div class="footer section fp-auto-height">
             <footer class="teco">
-                <div class="online">
+                <!-- <div class="online">
                     <h3>Find us online</h3>
                     <div class="icons">
                         <div class="icon icon1">
@@ -416,6 +438,24 @@
                     <a target="blank" href="https://www.ieee.org/" title="IEEE">IEEE</a>
                     <br>
                     <a target="blank" href="http://nitk.ac.in/" title="NITK Surathkal">NITK Surathkal</a>
+                </div> -->
+                <div class="footer-div">
+                    <ul class="footer-links">
+                        <li style="border-left: none"><a href="https://ieeenitk.org">Home</a></li>
+                        <li><a href="sitemap-main.xml">Sitemap</a></li>
+                        <li><a href="mailto:convenor.nitkieee@gmail.com">Contact</a></li>
+                        <li><a href="http://www.ieee.org/accessibility_statement.html">Accessibility</a></li>
+                        <li><a href="http://www.ieee.org/about/corporate/governance/p9-26.html">Nondiscrimination Policy</a></li>
+                        <li><a href="http://www.ieee.org/about/help/security_privacy.html">IEEE Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <div>
+                        © Copyright 2018 IEEE – All rights reserved. Use of this website signifies your agreement to the <a href="http://www.ieee.org/about/help/site_terms_conditions.html" style="color: black">IEEE Terms and Conditions</a>.
+                    </div>
+                    <div>
+                        A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+                    </div>
                 </div>
             </footer>
         </div>

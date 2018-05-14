@@ -5,9 +5,41 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Feb 2018 02:47:24 +0530</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2018 02:47:24 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Mon, 14 May 2018 16:35:22 +0530</pubDate>
+    <lastBuildDate>Mon, 14 May 2018 16:35:22 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Envision Project 2: Smart Lighting Systems</title>
+        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;With the ongoing developments in the technological World, a lot of efforts have been invested in the field of automation to make everyone's life easier. As engineering students and the future of the World, it is our responsibility to lead the world into a better future via introducing technology which would reduce human effort as much as possible. Our project, &quot;Smart Lighting System&quot; aimed at automating the process of lighting of homes in order to personalize the control over system and to adapt itself to surroundings for better experience. So basically we decided to introduce 3 main features...</description>
+        <pubDate>Sun, 13 May 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/smart-lighting-systems/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/smart-lighting-systems/</guid>
+        
+        <category>IoT</category>
+        
+        
+        <category>Envision</category>
+        
+      </item>
+    
+      <item>
+        <title>Envision Project 1 - Professor Matching for Research Internships</title>
+        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;Finding research/internship opportunity under a professor’s guidance is exceedingly difficult because the professors are very busy and students are not well aware of the professors who are ready to give internship opportunities. The professor has to shortlist the resumes and the student has to find out and send a resume to every professor offering a research opportunity. Obviously, this is a time consuming and tiresome process for both students and the professors.&lt;/p&gt; &lt;p&gt;We came up with a idea which not only speeds up this process but also makes it hassle-free. The idea is to create a platform which...</description>
+        <pubDate>Sun, 06 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/prof-matching-envision/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/prof-matching-envision/</guid>
+        
+        <category>Android</category>
+        
+        <category>Web</category>
+        
+        <category>Django</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Evolution of bicycle</title>
@@ -148,40 +180,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Speed Printing</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;3D printing technology is often used to construct highly complex objects of different kinds, properties and materials. Despite its numerous advantages, one major drawback of 3D printers is its traditionally slow speed. This is where it fails miserably, in its large scale applicability, against other major manufacturing processes like injection moulding. To overcome this major industry challenge, several 3D companies have come up with more updated and efficient technologies that guarantee quick speeds and utmost accuracy. One of the successful and modern technology is &lt;strong&gt;CLIP (short for, continuous liquid interface production)&lt;/strong&gt;.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A typical 3D printing machine such...</description>
-        <pubDate>Thu, 28 Dec 2017 22:35:21 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/speed-printing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/speed-printing/</guid>
-        
-        <category>Speed Printing</category>
-        
-        <category>Stereolithography</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>How NASA discovered planets using Artificial Intelligence</title>
-        <description>&lt;p&gt;A Convolutional Neural Network.&lt;br /&gt; &lt;strong&gt;A Convolutional Neural Network and 90 minutes of training&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;.&lt;br /&gt; But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h3 id=&quot;where-did-the-data-come-from&quot;&gt;Where did the data come from?&lt;/h3&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of...</description>
-        <pubDate>Thu, 21 Dec 2017 22:14:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/space-ml/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/space-ml/</guid>
-        
-        <category>Space</category>
-        
-        <category>Machine Learning</category>
-        
-        <category>Deep Learning</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

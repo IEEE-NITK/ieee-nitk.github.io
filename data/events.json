@@ -5,7 +5,7 @@
     "date": "13th-14th August, 2016"
   },
   "event2": {
-    "title": "Algorithmic​ Trading​ and​ Machine Learning​ by​ ​Two​ Road​ Tech.",
+    "title": "Algorithmic​ Trading​ <br> and​ ML by​ ​Two​ Road​Tech.",
     "sig": "All SIGs",
     "date": "22nd​​ February, 2017"
   },
@@ -25,12 +25,12 @@
     "date": "23rd-24th August 2017"
   },
   "event6": {
-    "title": "IGNITE",
+    "title": "EUREKA",
     "sig": "All SIGs",
     "date": "24th-28th September 2017"
   },
   "event7": {
-    "title": "Student Membership Drive",
+    "title": "Student Membership <br> Drive",
     "sig": "All SIGs",
     "date": "2nd October 2017"
   },
@@ -40,13 +40,9 @@
     "date": "October 2017"
   },
   "event9": {
-    "title": "University​ Collaboration organised​ by​ Nokia​ Bangalore​.",
+    "title": "University​ <br> Collaboration by​ Nokia",
     "sig": "Diode",
     "date": "13th October 2017"
-  },
-  "event10": {
-    "title": "High Frequency Trading and Machine Learning Workshops by Two​ Road​ Tech",
-    "sig": "CompSoc",
-    "date": "31st October 2017"
   }
+  
 }
