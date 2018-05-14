@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Stepping into software development">
+        <meta name="description" content="A blog documenting random findings and musings of our members">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Getting Started with GUIs">
-        <meta name="twitter:description" content="Stepping into software development">
+        <meta name="twitter:title" content="Smart Lighting Systems">
+        <meta name="twitter:description" content="A blog documenting random findings and musings of our members">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///getting-started-with-gui/" />
-        <meta property="og:title" content="Getting Started with GUIs">
+        <meta property="og:url" content="http://ieeenitk.org///smart-lighting-systems/" />
+        <meta property="og:title" content="Smart Lighting Systems">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Stepping into software development">
+        <meta property="og:description" content="A blog documenting random findings and musings of our members">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Getting Started with GUIs"/>
-        <meta itemprop="description" content="Stepping into software development">
+        <meta itemprop="name" content="Smart Lighting Systems"/>
+        <meta itemprop="description" content="A blog documenting random findings and musings of our members">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Getting Started with GUIs</title>
+        <title>Smart Lighting Systems</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/getting-started-with-gui/">
+        <link rel="canonical" href="/blog/smart-lighting-systems/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-24 15:30:30 +0530" class="date">24 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2018-05-13 15:30:30 +0530" class="date">13 May 2018</time>
         
-        <h1 class="post-title" itemprop="name">Getting Started with GUIs</h1>
-        <p itemprop="description" class="subtitle">Stepping into software development</p>
+        <h1 class="post-title" itemprop="name">Smart Lighting Systems</h1>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,122 +171,61 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And a good first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, we’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.</p>
+                <h2 id="idea">Idea</h2>
 
-<h2 id="what-are-guis">What are <em>GUIs</em>?</h2>
+<p>With the ongoing developments in the technological World, a lot of efforts have been invested in the field of automation to make everyone's life easier. As engineering students and the future of the World, it is our responsibility to lead the world into a better future via introducing technology which would reduce human effort as much as possible. Our project, "Smart Lighting System" aimed at automating the process of lighting of homes in order to personalize the control over system and to adapt itself to surroundings for better experience. So basically we decided to introduce 3 main features in the system:1. Voice Control 2. People Counter 3. Adaptive Brightness</p>
 
-<p>According to Wikipedia, the graphical user interface, is a type of user interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation, instead of text-based user interfaces, typed command labels or text navigation. GUIs are one way to make programs interactive. Almost every program we use has a GUI. Having one makes a program easier to understand for users.</p>
+<h2 id="implementation">Implementation</h2>
 
-<p><img src="/blog/assets/img/getting-started-with-gui/guivscli.jpg" alt="Graphical User Interface (GUI) vs Command Line Interface (CLI)" /></p>
+<p>The idea of a smart lighting system was conceived in the month of December 2017. Soon, a basic circuit was designed to give the project a start. After discussions, the team decided to implement the system using light dependent resistors (LDR), an LED, an Arduino board and Lasers as the major components. The team consisted of four first year students who were divided into two groups to take care of the software and hardware part of the project separately. The software part included setting up of a voice control interface to switch the light on or off. The hardware part included setting up the person counter and adaptive brightness feature of the project.</p>
 
-<p><em>What are GUIs? : Graphical User Interface (GUI) vs Command Line Interface (CLI)</em></p>
+<p>After division of the team, the software group began their work to set up a voice control interface. The initial period (January-February) was spent in learning the basics of signal processing which would be needed throughout the project. Topics such as energy of signals, convolution and correlation were learnt during this time. The basic idea was to compare real time signals with a pre-recorded signal and compare the two signals to test for their similarity. If a certain threshold value was cleared, a suitable message was sent to the system to execute a certain function. All this was done using normalized correlation using Python by converting signals into arrays. The code was written in the month of March (till mid-march) and certain difficulties were faced due to the fact that these were relatively new topics to the students. Post writing the code, the team tested the code by using pre-recorded signals "ON" and "OFF" to switch the system on and off respectively. In order to cut-out background noise, low pass and high pass filters were also used to enhance the performance of the code.</p>
 
-<h2 id="introduction-to-gtk">Introduction to GTK+</h2>
+<p><img src="\blog\assets\img\smart-lighting\Basic.jpg" alt="Basic" /></p>
 
-<p>GTK+ or GIMP Toolkit is a toolkit for creating GUIs using widgets. Initially, development of GTK+ was started for use with the GIMP image manipulation program. Later, the toolkit was expanded for use with other software as well. It’s currently one of the best toolkits for creating GUIs in C. And since it’s free software, it can be freely used and softwares created using GTK+ can be freely distributed. GTK+ is based upon four libraries - <em>GLib</em>, <em>Pango</em>, <em>Cairo</em> and <em>ATK</em>. Each user interface created using GTK+ consists of widgets, since GTK+ is essentially a set of widgets.</p>
+<p>The hardware group implemented their part by using an Arduino board as the main component of the project. In order to count the number of people in the room, two lasers and two LDRs were used and the data received by the LDRs was forwarded to the Arduino board. An Arduino code was written in order to differentiate between a person entering and exiting the room and even a few unwanted situations were taken care of through the code. The adaptive brightness was executed using an LDR kept in isolation from the system. Based on the intensity of light falling on the isolated LDR, the brightness of the LED was made to vary inversely using an Arduino code. The two codes were integrated to work together in harmony. The components used included an LED, LDRs, lasers, jumper wires, a breadboard and an Arduino board.</p>
 
-<h2 id="getting-started-with-gtk">Getting Started with GTK+</h2>
-<h3 id="installing-gtk">Installing GTK+</h3>
-<p>Open up terminal and type the following command in. Enter your password when asked for.</p>
+<p><img src="\blog\assets\img\smart-lighting\Circuit.jpg" alt="Circuit" /></p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential libgtk-3-dev
-</code></pre></div></div>
+<p>After the basic work done by both the groups, it was time to integrate them both in order to make the system work as intended. The python and Arduino code were integrated using Py-serial. As a result, the team was able to complete a smart lighting system which was able to take in voice commands, switch itself on/off by itself according to the need and also reduce/increase its brightness according to the need. The project was exhibited by the team in the IEEE Envision Project Expo 2018 which was held in NITK, Surathkal.</p>
 
-<p>Once you have these packages installed, it’s time to start coding and creating our first GTK+ application.</p>
+<h2 id="how-did-ieee-benefit-us"><strong>How did IEEE benefit us?</strong></h2>
 
-<h3 id="hello-world">Hello, world</h3>
-<p>We wish to create a simple program which opens up in a window, displays a button which says “Hello, world” and closes the window when clicked.
-This we shall achieve using the given code.</p>
+<p>Throughout the project, the team learnt the basics of signal processing, python programming, Arduino programming and the working of components such as LDRs, LEDs and lasers. Teamwork was an essential quality of the team's work which was required for completion of project. The project gave the team a lot to learn and they thank IEEE for providing them with an opportunity to give their ideas a proper shape and direction. On individual basis also, we learnt how to work as a team and cooperate with each other for proper implementation of project. Excellent guidance was provided at each and every step by the mentors to group members. They were available almost every time of the day for clearing doubts and helping members troubleshooting problems and never hesitated in clarifying any kind of doubts and problems. The project truly was successful only because of their consistent and sincere efforts and group members highly appreciate and thank them for the same.</p>
 
-<p>Open up a text-editor and copy the following code into it, and save it as <em>helloworld.c</em>.</p>
+<h2 id="the-team"><strong>The Team</strong></h2>
 
-<pre><code class="language-C">#include &lt;gtk/gtk.h&gt;
+<ul>
+  <li>Abhi Kalra</li>
+  <li>Praveen Maiya</li>
+  <li>Rohan Garg</li>
+  <li>Iteesha V A</li>
+</ul>
 
-static void print_hello (GtkWidget *widget, gpointer data)
-{
-  g_print ("Hello World\n");
-}
+<p><img src="\blog\assets\img\smart-lighting\Team.jpg" alt="Team" /></p>
 
-static void activate (GtkApplication *app, gpointer user_data)
-{
-  GtkWidget *window;
-  GtkWidget *button;
-  GtkWidget *button_box;
+<h2 id="mentors"><strong>Mentors</strong></h2>
 
-  window = gtk_application_window_new (app);
-  gtk_window_set_title (GTK_WINDOW (window), "Window");
-  gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);
-
-  button_box = gtk_button_box_new (GTK_ORIENTATION_HORIZONTAL);
-  gtk_container_add (GTK_CONTAINER (window), button_box);
-
-  button = gtk_button_new_with_label ("Hello World");
-  g_signal_connect (button, "clicked", G_CALLBACK (print_hello), NULL);
-  g_signal_connect_swapped (button, "clicked", G_CALLBACK(gtk_widget_destroy), window);
-  gtk_container_add (GTK_CONTAINER (button_box), button);
-
-  gtk_widget_show_all (window);
-}
-
-int main (int argc, char **argv)
-{
-  GtkApplication *app;
-  int status;
-
-  app = gtk_application_new ("org.gtk.example", G_APPLICATION_FLAGS_NONE);
-  g_signal_connect (app, "activate", G_CALLBACK (activate), NULL);
-  status = g_application_run (G_APPLICATION (app), argc, argv);
-  g_object_unref (app);
-
-  return status;
-}
-</code></pre>
-<p>Now, in order to compile the code, we need to tell the compiler where to find the GTK+ header files and libraries. This is done with the <em>pkg-config</em> utility.</p>
-
-<p>The following code demonstrates how <em>pkg-config</em> is used.</p>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config <span class="nt">--cflags</span> gtk+-3.0 <span class="nt">-pthread</span>
-<span class="nt">-I</span>/usr/include/gtk-3.0 <span class="nt">-I</span>/usr/lib64/gtk-3.0/include <span class="nt">-I</span>/usr/include/atk-1.0
-<span class="nt">-I</span>/usr/include/cairo <span class="nt">-I</span>/usr/include/pango-1.0 <span class="nt">-I</span>/usr/include/glib-2.0
-<span class="nt">-I</span>/usr/lib64/glib-2.0/include <span class="nt">-I</span>/usr/include/pixman-1 <span class="nt">-I</span>/usr/include/freetype2
-<span class="nt">-I</span>/usr/include/libpng12
-
-archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config <span class="nt">--libs</span> gtk+-3.0 <span class="nt">-pthread</span> <span class="nt">-lgtk-3</span> <span class="nt">-lgdk-3</span>
-<span class="nt">-latk-1</span>.0 <span class="nt">-lgio-2</span>.0 <span class="nt">-lpangoft2-1</span>.0 <span class="nt">-lgdk_pixbuf-2</span>.0 <span class="nt">-lpangocairo-1</span>.0
-<span class="nt">-lcairo</span> <span class="nt">-lpango-1</span>.0 <span class="nt">-lfreetype</span> <span class="nt">-lfontconfig</span> <span class="nt">-lgobject-2</span>.0 <span class="nt">-lgmodule-2</span>.0
-<span class="nt">-lgthread-2</span>.0 <span class="nt">-lrt</span> <span class="nt">-lglib-2</span>.0     
-</code></pre></div></div>
-<p>Now we are ready to compile our first program.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>gcc <span class="sb">`</span>pkg-config <span class="nt">--cflags</span> gtk+-3.0<span class="sb">`</span> <span class="nt">-o</span>
-helloworld helloworld.c <span class="sb">`</span>pkg-config <span class="nt">--libs</span> gtk+-3.0<span class="sb">`</span>
-</code></pre></div></div>
-
-<p>Now the program can be run using the command,</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-lev-510s ~ <span class="nv">$ </span>./helloworld
-</code></pre></div></div>
-
-<h3 id="understanding-the-program">Understanding the program</h3>
-
-<p>GTK+ uses layouts to store the UI elements. First we create a widget for window using <em>gtk_application_window_new(app)</em>. Then in order to store the <em>button</em>, a <em>button_box</em> is used. <em>GtkButtonBox</em> is created for this purpose. This newly created button box is then added to the window widget. The button itself is then inialized using <em>gtk_button_new_with_label()</em> which returns a <em>GtkButton</em> to be stored inside <em>button</em>. Later <em>button</em> is added to <em>button_box</em>. Next we need to add functionality to close the app once the button is clicked. This is achieved using <em>g_signal_connect()</em> which is connected to <em>button</em>. After connecting <em>print_hello()</em>, another signal is connected to “clicked” state of the button. This calls the <em>gtk_widget_destroy()</em> and takes <em>window</em> as parameter. This destroys the window when the button is clicked. This completes the functionality we require for our simple applcation.</p>
-
-<p><img src="/blog/assets/img/getting-started-with-gui/gimp.jpg" alt="GIMP" /></p>
-
-<p><em>Going Forward : GIMP - a popular Linux program made using GTK+</em></p>
-
-<h2 id="going-forward">Going Forward</h2>
-<p>We just created a simple program using GTK+. This has taught us how to respond to clicks and perform a function. And also that the basis for all UIs is a simple widget based structure. Understanding these two things can help us create usable programs. GTK+ is the toolkit used to code all of Ubuntu’s GUI and most programs used on Linux and Windows. Hence it’s capabilities shouldn’t be underestimated. Learning the toolkit, can equip us to create complex UIs such as those seen on popular applications.</p>
+<ul>
+  <li>
+    <p>Manan Sharma</p>
+  </li>
+  <li>
+    <p>Anirudh B H</p>
+  </li>
+</ul>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/archit.jpg" alt="Archit Pandey">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/anirudh.jpg" alt="Anirudh B H">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Archit Pandey</a>
+            <a itemprop="name" href="/">Anirudh B H</a>
         </h3>
-        <p class="desc">Open-source and Linux Enthusiast</p>
-        <a itemprop="email" class="email" href="mailto:archpndy@gmail.com">archpndy@gmail.com</a>
+        <p class="desc">Envision Coordinator - 2018-2019</p>
+        <a itemprop="email" class="email" href="mailto:yani.bh@gmail.com">yani.bh@gmail.com</a>
     </div>
 </section>
 
@@ -306,15 +245,15 @@ helloworld helloworld.c <span class="sb">`</span>pkg-config <span class="nt">--l
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/getting-started-with-gui/%20via%20&#64;IEEE_NITK&hashtags=GUI,GTK+,Gnome,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/smart-lighting-systems/%20via%20&#64;IEEE_NITK&hashtags=IoT,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//getting-started-with-gui/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//smart-lighting-systems/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//getting-started-with-gui/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//smart-lighting-systems/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

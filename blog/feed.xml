@@ -5,9 +5,43 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 May 2018 16:02:11 +0530</pubDate>
-    <lastBuildDate>Sun, 06 May 2018 16:02:11 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Mon, 14 May 2018 12:04:34 +0530</pubDate>
+    <lastBuildDate>Mon, 14 May 2018 12:04:34 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Smart Lighting Systems</title>
+        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;With the ongoing developments in the technological World, a lot of efforts have been invested in the field of automation to make everyone's life easier. As engineering students and the future of the World, it is our responsibility to lead the world into a better future via introducing technology which would reduce human effort as much as possible. Our project, &quot;Smart Lighting System&quot; aimed at automating the process of lighting of homes in order to personalize the control over system and to adapt itself to surroundings for better experience. So basically we decided to introduce 3 main features...</description>
+        <pubDate>Sun, 13 May 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/smart-lighting-systems/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/smart-lighting-systems/</guid>
+        
+        <category>IoT</category>
+        
+        
+        <category>Envision</category>
+        
+      </item>
+    
+      <item>
+        <title>Washable Electronics</title>
+        <description>&lt;p&gt;&lt;strong&gt;Washable electronics? Water-repellent graphene circuits make it possible!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;New graphene printing technology can produce electronic circuits that are low-cost, flexible, highly conductive and water repellent.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The nanotechnology “would lend enormous value to self-cleaning wearable/washable electronics that are resistant to stains, or ice and biofilm formation,” according to a recent paper describing the discovery.&lt;/p&gt; &lt;p&gt;According to Jonathan Claussen, an Iowa State University assistant professor of mechanical engineering, an associate of the U.S. Department of Energy’s Ames Laboratory, they’re taking low-cost, inkjet-printed graphene and tuning it with a laser to make functional materials.&lt;/p&gt; &lt;p&gt;The research group used inkjet printing technology to create...</description>
+        <pubDate>Sun, 13 May 2018 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/washable-electronics/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/washable-electronics/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Amazon Go</title>
+        <description>&lt;h1 id=&quot;what-exactly-is-amazon-go&quot;&gt;&lt;strong&gt;What exactly is Amazon Go?&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Amazon Go is Amazon’s cashier-less shopping platform. Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store. What’s unique about the Go is that you can pick up an item and just walk out of the store without having to wait in line to pay for it. The store sells ordinary grocery items like bread, dairy and packaged ready to eat meals.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://cdn.vox-cdn.com/thumbor/Bt-SIGm_gZkzinkwUtHNwCpmJUI=/0x0:650x370/1200x800/filters:focal(273x133:377x237)/cdn.vox-cdn.com/uploads/chorus_image/image/52140057/amazon_go.0.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h2&gt; &lt;p&gt;A customer has to hold up a QR code on the Amazon Go app...</description>
+        <pubDate>Sun, 13 May 2018 00:00:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/amazon-go/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/amazon-go/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Envision Project 1 - Professor Matching for Research Internships</title>
@@ -132,56 +166,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>How do websites communicate securely?</title>
-        <description>&lt;p&gt;The inherent need for human beings has always been to communicate and share information,albeit selectively. For this purpose, the information is to be coded in such a way that it can be deciphered only by the recipient, regardless of whether the recipient is right next to the sender or on the other side of the world. &lt;strong&gt;&lt;em&gt;The communication channel is assumed to be plagued with adversaries.&lt;/em&gt;&lt;/strong&gt;.These adversaries have access to this coded information and are constantly trying to pry.So, the basic problem has always been to: &lt;strong&gt;&lt;em&gt;transfer secure information over such insecure channels.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So, how DO you communicate when everyone...</description>
-        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/public-key-cryptography/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/public-key-cryptography/</guid>
-        
-        <category>SSL</category>
-        
-        <category>Public Key Cryptography</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>War of the Currents</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image1.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Thomas Edison&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image2.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Nikola Tesla&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;At the end of the 19th century, the world witnessed one of the greatest scientific feuds of all times, which changed the course of the history.&lt;/p&gt; &lt;p&gt;Three brilliant inventors, Thomas Edison, Nikola Tesla and George Westinghouse, battled over which electricity system—direct current (DC) or alternating current (AC)–would become standard. This would go on to be known as the ‘War of the Currents’.&lt;/p&gt; &lt;p&gt;By 1880, Edison had created a model for the incandescent lamp that was commercially viable. But to make a profit out of the electric lights that...</description>
-        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/war-of-the-currents/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/war-of-the-currents/</guid>
-        
-        <category>Tesla</category>
-        
-        <category>Edison</category>
-        
-        <category>AC/DC</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Speed Printing</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;3D printing technology is often used to construct highly complex objects of different kinds, properties and materials. Despite its numerous advantages, one major drawback of 3D printers is its traditionally slow speed. This is where it fails miserably, in its large scale applicability, against other major manufacturing processes like injection moulding. To overcome this major industry challenge, several 3D companies have come up with more updated and efficient technologies that guarantee quick speeds and utmost accuracy. One of the successful and modern technology is &lt;strong&gt;CLIP (short for, continuous liquid interface production)&lt;/strong&gt;.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A typical 3D printing machine such...</description>
-        <pubDate>Thu, 28 Dec 2017 22:35:21 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/speed-printing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/speed-printing/</guid>
-        
-        <category>Speed Printing</category>
-        
-        <category>Stereolithography</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
