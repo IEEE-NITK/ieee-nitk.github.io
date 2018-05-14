@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Envision Project 2: Smart Lighting Systems",
+      "category" : "Envision",
+      "tags"     : "IoT",
+      "url"      : "http://ieeenitk.org/blog//smart-lighting-systems/",
+      "date"     : "13 May 2018"
+    } ,
+  
+    {
       "title"    : "Envision Project 1 - Professor Matching for Research Internships",
       "category" : "CompSoc",
       "tags"     : "Android, Web, and Django",

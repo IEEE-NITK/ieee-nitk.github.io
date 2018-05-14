@@ -5,9 +5,23 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 May 2018 16:02:11 +0530</pubDate>
-    <lastBuildDate>Sun, 06 May 2018 16:02:11 +0530</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Mon, 14 May 2018 16:35:22 +0530</pubDate>
+    <lastBuildDate>Mon, 14 May 2018 16:35:22 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Envision Project 2: Smart Lighting Systems</title>
+        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;With the ongoing developments in the technological World, a lot of efforts have been invested in the field of automation to make everyone's life easier. As engineering students and the future of the World, it is our responsibility to lead the world into a better future via introducing technology which would reduce human effort as much as possible. Our project, &quot;Smart Lighting System&quot; aimed at automating the process of lighting of homes in order to personalize the control over system and to adapt itself to surroundings for better experience. So basically we decided to introduce 3 main features...</description>
+        <pubDate>Sun, 13 May 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/smart-lighting-systems/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/smart-lighting-systems/</guid>
+        
+        <category>IoT</category>
+        
+        
+        <category>Envision</category>
+        
+      </item>
     
       <item>
         <title>Envision Project 1 - Professor Matching for Research Internships</title>
@@ -166,22 +180,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Speed Printing</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;3D printing technology is often used to construct highly complex objects of different kinds, properties and materials. Despite its numerous advantages, one major drawback of 3D printers is its traditionally slow speed. This is where it fails miserably, in its large scale applicability, against other major manufacturing processes like injection moulding. To overcome this major industry challenge, several 3D companies have come up with more updated and efficient technologies that guarantee quick speeds and utmost accuracy. One of the successful and modern technology is &lt;strong&gt;CLIP (short for, continuous liquid interface production)&lt;/strong&gt;.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A typical 3D printing machine such...</description>
-        <pubDate>Thu, 28 Dec 2017 22:35:21 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/speed-printing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/speed-printing/</guid>
-        
-        <category>Speed Printing</category>
-        
-        <category>Stereolithography</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
