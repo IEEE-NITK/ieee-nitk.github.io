@@ -1,14 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A blog about our findings and musings</title>
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-
-    <pubDate>Thu, 17 May 2018 00:44:14 +0530</pubDate>
-    <lastBuildDate>Thu, 17 May 2018 00:44:14 +0530</lastBuildDate>
-
+    <pubDate>Thu, 17 May 2018 00:53:28 +0530</pubDate>
+    <lastBuildDate>Thu, 17 May 2018 00:53:28 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
