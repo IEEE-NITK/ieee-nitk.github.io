@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A blog about our findings and musings</title>
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
+
     <pubDate>Thu, 17 May 2018 00:44:14 +0530</pubDate>
     <lastBuildDate>Thu, 17 May 2018 00:44:14 +0530</lastBuildDate>
+
     <generator>Jekyll v3.8.1</generator>
     
       <item>
@@ -57,7 +59,7 @@
     
       <item>
         <title>Envision Project 2: Smart Lighting Systems</title>
-        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;With the ongoing developments in the technological World, a lot of efforts have been invested in the field of automation to make everyone's life easier. As engineering students and the future of the World, it is our responsibility to lead the world into a better future via introducing technology which would reduce human effort as much as possible. Our project, &quot;Smart Lighting System&quot; aimed at automating the process of lighting of homes in order to personalize the control over system and to adapt itself to surroundings for better experience. So basically we decided to introduce 3 main features...</description>
+        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;With the ongoing developments in the technological World, a lot of efforts have been invested in the field of automation to make everyone’s life easier. As engineering students and the future of the World, it is our responsibility to lead the world into a better future via introducing technology which would reduce human effort as much as possible. Our project, &lt;strong&gt;Smart Lighting System&lt;/strong&gt; is aimed at automating the process of lighting of homes in order to personalize the control over the system and to adapt itself to its surroundings for better experience. So basically we decided to introduce...</description>
         <pubDate>Sun, 13 May 2018 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/smart-lighting-systems/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/smart-lighting-systems/</guid>
