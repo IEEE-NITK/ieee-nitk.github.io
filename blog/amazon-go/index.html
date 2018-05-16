@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Stepping into software development">
+        <meta name="description" content="A blog documenting random findings and musings of our members">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Getting Started with GUIs">
-        <meta name="twitter:description" content="Stepping into software development">
+        <meta name="twitter:title" content="Amazon Go - Cashier Less Shopping">
+        <meta name="twitter:description" content="A blog documenting random findings and musings of our members">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///getting-started-with-gui/" />
-        <meta property="og:title" content="Getting Started with GUIs">
+        <meta property="og:url" content="http://ieeenitk.org///amazon-go/" />
+        <meta property="og:title" content="Amazon Go - Cashier Less Shopping">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Stepping into software development">
+        <meta property="og:description" content="A blog documenting random findings and musings of our members">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Getting Started with GUIs"/>
-        <meta itemprop="description" content="Stepping into software development">
+        <meta itemprop="name" content="Amazon Go - Cashier Less Shopping"/>
+        <meta itemprop="description" content="A blog documenting random findings and musings of our members">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Getting Started with GUIs</title>
+        <title>Amazon Go - Cashier Less Shopping</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/getting-started-with-gui/">
+        <link rel="canonical" href="/blog/amazon-go/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-24 15:30:30 +0530" class="date">24 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2018-05-16 15:30:30 +0530" class="date">16 May 2018</time>
         
-        <h1 class="post-title" itemprop="name">Getting Started with GUIs</h1>
-        <p itemprop="description" class="subtitle">Stepping into software development</p>
+        <h1 class="post-title" itemprop="name">Amazon Go - Cashier Less Shopping</h1>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,122 +171,69 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And a good first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, we’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.</p>
+                <h1 id="what-exactly-is-amazon-go"><strong>What exactly is Amazon Go?</strong></h1>
 
-<h2 id="what-are-guis">What are <em>GUIs</em>?</h2>
+<p>Amazon Go is Amazon’s cashier-less shopping platform.
+Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store.
+What’s unique about the Go is that you can pick up an item and just walk out of the store without having to wait in line to pay for it. The store sells ordinary grocery items like bread, dairy and packaged ready to eat meals.</p>
 
-<p>According to Wikipedia, the graphical user interface, is a type of user interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation, instead of text-based user interfaces, typed command labels or text navigation. GUIs are one way to make programs interactive. Almost every program we use has a GUI. Having one makes a program easier to understand for users.</p>
+<p><img src="https://cdn.vox-cdn.com/thumbor/Bt-SIGm_gZkzinkwUtHNwCpmJUI=/0x0:650x370/1200x800/filters:focal(273x133:377x237)/cdn.vox-cdn.com/uploads/chorus_image/image/52140057/amazon_go.0.jpeg" alt="" /></p>
 
-<p><img src="/blog/assets/img/getting-started-with-gui/guivscli.jpg" alt="Graphical User Interface (GUI) vs Command Line Interface (CLI)" /></p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>A customer has to hold up a QR code on the Amazon Go app onto scanning devices, similar to subway turnstiles. After that they just start shopping as they normally would.
+Cameras mounted on the ceiling track each person and what item they pick up or put down and updates that on their cart. When done, he/she just has to walk out of the store and is billed only for the items picked up.</p>
 
-<p><em>What are GUIs? : Graphical User Interface (GUI) vs Command Line Interface (CLI)</em></p>
+<h2 id="whats-the-technology-behind-it">What’s the technology behind it?</h2>
+<p>Naturally, Amazon is pretty secretive about the technology used. However, what they have revealed is that it’s a combination of Artificial Intelligence, Computer Vision, Deep Learning and data pulled up from multiple sensors that enables this cashier-less experience.
+In Amazon’s own words,</p>
+<blockquote>
+  <p>“It’s similar to the same technology you’d find in self driving cars. We’re calling it ‘Just Walk Out’ technology”</p>
+</blockquote>
 
-<h2 id="introduction-to-gtk">Introduction to GTK+</h2>
+<h2 id="what-exactly-is-this-technology">What exactly is this technology?</h2>
 
-<p>GTK+ or GIMP Toolkit is a toolkit for creating GUIs using widgets. Initially, development of GTK+ was started for use with the GIMP image manipulation program. Later, the toolkit was expanded for use with other software as well. It’s currently one of the best toolkits for creating GUIs in C. And since it’s free software, it can be freely used and softwares created using GTK+ can be freely distributed. GTK+ is based upon four libraries - <em>GLib</em>, <em>Pango</em>, <em>Cairo</em> and <em>ATK</em>. Each user interface created using GTK+ consists of widgets, since GTK+ is essentially a set of widgets.</p>
+<h4 id="artificial-intelligence">Artificial Intelligence:</h4>
+<p>AI is pretty much the rage these days and everyone’s heard more than enough about it.</p>
 
-<h2 id="getting-started-with-gtk">Getting Started with GTK+</h2>
-<h3 id="installing-gtk">Installing GTK+</h3>
-<p>Open up terminal and type the following command in. Enter your password when asked for.</p>
+<h4 id="computer-vision">Computer Vision</h4>
+<p>Computer Vision however, is something that’s a little vague. It deals with teaching computers to make educated guesses based on visual cues like images or video feeds. It aims at automating the human visual system.</p>
 
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential libgtk-3-dev
-</code></pre></div></div>
+<p><img src="https://is.tuebingen.mpg.de/uploads/ckeditor/pictures/48/content_img2.png" alt="alt text" />
+Computer Vision deals with acquiring information from digital images, and then processing them to arrive at a digital output, like numeric or symbolic information in the form of decisions.</p>
 
-<p>Once you have these packages installed, it’s time to start coding and creating our first GTK+ application.</p>
+<p>Using the horde of cameras on the ceiling, the software is able to uniquely classify and track each individual. In fact, the software is so good that it was able to uniquely distinguish between an army of customers in Pikachu costumes.</p>
 
-<h3 id="hello-world">Hello, world</h3>
-<p>We wish to create a simple program which opens up in a window, displays a button which says “Hello, world” and closes the window when clicked.
-This we shall achieve using the given code.</p>
+<p><img src="https://i.blogs.es/60cd6a/captura-de-pantalla-2018-01-22-a-las-9.07.43/1366_2000.jpg" alt="alt text" title="a view of the cameras" />
+<em>The Cameras</em></p>
 
-<p>Open up a text-editor and copy the following code into it, and save it as <em>helloworld.c</em>.</p>
+<p>After that, the program follows each person around virtually and keeps track of what they pick up and put down. The program analyzes which shelves a customer interacts with to determine what item they chose. In order to aid the system, there are weight sensors on the shelves that help the program narrow down on an item.</p>
 
-<pre><code class="language-C">#include &lt;gtk/gtk.h&gt;
+<p><img src="https://static.seattletimes.com/wp-content/uploads/2018/01/d796cf0a-fb0f-11e7-ac18-1748e9e8125a-1136x757.jpg" alt="alt text" />
+<em>The Shelves with items</em></p>
 
-static void print_hello (GtkWidget *widget, gpointer data)
-{
-  g_print ("Hello World\n");
-}
+<p>In addition to this, Amazon also keeps a track of each person’s previous shopping history to zero-in on an item in the event of the program being confused. For example- if the program is unable to determine whether someone picked up a bottle of mustard or ketchup, it simply looks at the person’s previous choices. If the person buys mustard more often than not, then that’s what they’re more likely to have picked up this time as well.</p>
 
-static void activate (GtkApplication *app, gpointer user_data)
-{
-  GtkWidget *window;
-  GtkWidget *button;
-  GtkWidget *button_box;
+<h3 id="what-are-the-drawbacks">What are the drawbacks?</h3>
+<p>Like any new software, Amazon Go has its fair share of problems.
+Some customers have been able to leave the store without being charged for certain items.
+The program also has trouble when there are more than 20 people in the store at once.
+It also runs into issues when there is a group of people shopping together- like families. There is the added issue of dealing with grabbers- kids that impulsively pick up items only to have their parents put it back immediately. It is still unknown as to how the system would deal with such issues.</p>
 
-  window = gtk_application_window_new (app);
-  gtk_window_set_title (GTK_WINDOW (window), "Window");
-  gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);
+<p>Furthermore, many people feel vulnerable about their shopping habits being monitored. A lot of people also feel uncomfortable being tracked by cameras while they shop. Another issue is that the technology facilitates impulse buying.</p>
 
-  button_box = gtk_button_box_new (GTK_ORIENTATION_HORIZONTAL);
-  gtk_container_add (GTK_CONTAINER (window), button_box);
-
-  button = gtk_button_new_with_label ("Hello World");
-  g_signal_connect (button, "clicked", G_CALLBACK (print_hello), NULL);
-  g_signal_connect_swapped (button, "clicked", G_CALLBACK(gtk_widget_destroy), window);
-  gtk_container_add (GTK_CONTAINER (button_box), button);
-
-  gtk_widget_show_all (window);
-}
-
-int main (int argc, char **argv)
-{
-  GtkApplication *app;
-  int status;
-
-  app = gtk_application_new ("org.gtk.example", G_APPLICATION_FLAGS_NONE);
-  g_signal_connect (app, "activate", G_CALLBACK (activate), NULL);
-  status = g_application_run (G_APPLICATION (app), argc, argv);
-  g_object_unref (app);
-
-  return status;
-}
-</code></pre>
-<p>Now, in order to compile the code, we need to tell the compiler where to find the GTK+ header files and libraries. This is done with the <em>pkg-config</em> utility.</p>
-
-<p>The following code demonstrates how <em>pkg-config</em> is used.</p>
-
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config <span class="nt">--cflags</span> gtk+-3.0 <span class="nt">-pthread</span>
-<span class="nt">-I</span>/usr/include/gtk-3.0 <span class="nt">-I</span>/usr/lib64/gtk-3.0/include <span class="nt">-I</span>/usr/include/atk-1.0
-<span class="nt">-I</span>/usr/include/cairo <span class="nt">-I</span>/usr/include/pango-1.0 <span class="nt">-I</span>/usr/include/glib-2.0
-<span class="nt">-I</span>/usr/lib64/glib-2.0/include <span class="nt">-I</span>/usr/include/pixman-1 <span class="nt">-I</span>/usr/include/freetype2
-<span class="nt">-I</span>/usr/include/libpng12
-
-archit@archit-len-510s ~ <span class="nv">$ </span>pkg-config <span class="nt">--libs</span> gtk+-3.0 <span class="nt">-pthread</span> <span class="nt">-lgtk-3</span> <span class="nt">-lgdk-3</span>
-<span class="nt">-latk-1</span>.0 <span class="nt">-lgio-2</span>.0 <span class="nt">-lpangoft2-1</span>.0 <span class="nt">-lgdk_pixbuf-2</span>.0 <span class="nt">-lpangocairo-1</span>.0
-<span class="nt">-lcairo</span> <span class="nt">-lpango-1</span>.0 <span class="nt">-lfreetype</span> <span class="nt">-lfontconfig</span> <span class="nt">-lgobject-2</span>.0 <span class="nt">-lgmodule-2</span>.0
-<span class="nt">-lgthread-2</span>.0 <span class="nt">-lrt</span> <span class="nt">-lglib-2</span>.0     
-</code></pre></div></div>
-<p>Now we are ready to compile our first program.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-len-510s ~ <span class="nv">$ </span>gcc <span class="sb">`</span>pkg-config <span class="nt">--cflags</span> gtk+-3.0<span class="sb">`</span> <span class="nt">-o</span>
-helloworld helloworld.c <span class="sb">`</span>pkg-config <span class="nt">--libs</span> gtk+-3.0<span class="sb">`</span>
-</code></pre></div></div>
-
-<p>Now the program can be run using the command,</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>archit@archit-lev-510s ~ <span class="nv">$ </span>./helloworld
-</code></pre></div></div>
-
-<h3 id="understanding-the-program">Understanding the program</h3>
-
-<p>GTK+ uses layouts to store the UI elements. First we create a widget for window using <em>gtk_application_window_new(app)</em>. Then in order to store the <em>button</em>, a <em>button_box</em> is used. <em>GtkButtonBox</em> is created for this purpose. This newly created button box is then added to the window widget. The button itself is then inialized using <em>gtk_button_new_with_label()</em> which returns a <em>GtkButton</em> to be stored inside <em>button</em>. Later <em>button</em> is added to <em>button_box</em>. Next we need to add functionality to close the app once the button is clicked. This is achieved using <em>g_signal_connect()</em> which is connected to <em>button</em>. After connecting <em>print_hello()</em>, another signal is connected to “clicked” state of the button. This calls the <em>gtk_widget_destroy()</em> and takes <em>window</em> as parameter. This destroys the window when the button is clicked. This completes the functionality we require for our simple applcation.</p>
-
-<p><img src="/blog/assets/img/getting-started-with-gui/gimp.jpg" alt="GIMP" /></p>
-
-<p><em>Going Forward : GIMP - a popular Linux program made using GTK+</em></p>
-
-<h2 id="going-forward">Going Forward</h2>
-<p>We just created a simple program using GTK+. This has taught us how to respond to clicks and perform a function. And also that the basis for all UIs is a simple widget based structure. Understanding these two things can help us create usable programs. GTK+ is the toolkit used to code all of Ubuntu’s GUI and most programs used on Linux and Windows. Hence it’s capabilities shouldn’t be underestimated. Learning the toolkit, can equip us to create complex UIs such as those seen on popular applications.</p>
+<p>It is yet to be seen how Amazon will deal with these issues. However, the technology is still impressive and is completely unparalleled. It goes to show just how far Artificial Intelligence and Deep Learning will go on to influence our daily lives and how the future of retail shopping is shaping up.</p>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/archit.jpg" alt="Archit Pandey">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Ashwin_Hebbar.jpg" alt="Ashwin Hebbar">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Archit Pandey</a>
+            <a itemprop="name" href="/">Ashwin Hebbar</a>
         </h3>
-        <p class="desc">Open-source enthusiast</p>
-        <a itemprop="email" class="email" href="mailto:archpndy@gmail.com">archpndy@gmail.com</a>
+        <p class="desc">I'm not lazy , I'm just overflowing with potential energy. :P</p>
+        <a itemprop="email" class="email" href="mailto:hebbarashwin@gmail.com">hebbarashwin@gmail.com</a>
     </div>
 </section>
 
@@ -306,15 +253,15 @@ helloworld helloworld.c <span class="sb">`</span>pkg-config <span class="nt">--l
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/getting-started-with-gui/%20via%20&#64;IEEE_NITK&hashtags=GUI,GTK+,Gnome,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/amazon-go/%20via%20&#64;IEEE_NITK&hashtags=IoT,spatial imaging,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//getting-started-with-gui/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//amazon-go/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//getting-started-with-gui/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//amazon-go/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
