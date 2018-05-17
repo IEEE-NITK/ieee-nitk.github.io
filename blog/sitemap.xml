@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieeenitk.org/blog/washable-electonics/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/qemu-vitualization/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/amazon-go/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieeenitk.org/blog/smart-lighting-systems/</loc>
 	  </url>
 	
