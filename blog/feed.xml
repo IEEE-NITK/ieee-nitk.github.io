@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 May 2018 00:53:28 +0530</pubDate>
-    <lastBuildDate>Thu, 17 May 2018 00:53:28 +0530</lastBuildDate>
+    <pubDate>Thu, 17 May 2018 21:58:02 +0530</pubDate>
+    <lastBuildDate>Thu, 17 May 2018 21:58:02 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
@@ -41,7 +41,7 @@
     
       <item>
         <title>Amazon Go - Cashier Less Shopping</title>
-        <description>&lt;h1 id=&quot;what-exactly-is-amazon-go&quot;&gt;&lt;strong&gt;What exactly is Amazon Go?&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Amazon Go is Amazon’s cashier-less shopping platform. Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store. What’s unique about the Go is that you can pick up an item and just walk out of the store without having to wait in line to pay for it. The store sells ordinary grocery items like bread, dairy and packaged ready to eat meals.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://cdn.vox-cdn.com/thumbor/Bt-SIGm_gZkzinkwUtHNwCpmJUI=/0x0:650x370/1200x800/filters:focal(273x133:377x237)/cdn.vox-cdn.com/uploads/chorus_image/image/52140057/amazon_go.0.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h2&gt; &lt;p&gt;A customer has to hold up a QR code on the Amazon Go app...</description>
+        <description>&lt;h1 id=&quot;what-exactly-is-amazon-go&quot;&gt;&lt;strong&gt;What exactly is Amazon Go?&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Amazon Go is Amazon’s cashier-less shopping platform. Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store. What’s unique about the Go is that you can pick up an item and just walk out of the store without having to wait in line to pay for it. The store sells ordinary grocery items like bread, dairy and packaged ready to eat meals.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/amazon-go/1.jpeg&quot; alt=&quot;Landing image&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h2&gt; &lt;p&gt;A customer has to hold up a QR code on the Amazon Go...</description>
         <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/amazon-go/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/amazon-go/</guid>
