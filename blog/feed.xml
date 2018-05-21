@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 May 2018 11:28:26 +0530</pubDate>
-    <lastBuildDate>Mon, 21 May 2018 11:28:26 +0530</lastBuildDate>
+    <pubDate>Mon, 21 May 2018 11:30:26 +0530</pubDate>
+    <lastBuildDate>Mon, 21 May 2018 11:30:26 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
@@ -20,6 +20,52 @@
         
         
         <category>Envision</category>
+        
+      </item>
+    
+      <item>
+        <title>Washable Electronics using Water repellant Graphene Circuits</title>
+        <description>&lt;p&gt;&lt;strong&gt;Washable electronics? Water-repellent graphene circuits make it possible!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;New graphene printing technology can produce electronic circuits that are low-cost, flexible, highly conductive and water repellent.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/washable-electonics/1.jpg&quot; alt=&quot;Landing image&quot; /&gt; The nanotechnology “would lend enormous value to self-cleaning wearable/washable electronics that are resistant to stains, or ice and biofilm formation,” according to a recent paper describing the discovery.&lt;/p&gt; &lt;p&gt;According to Jonathan Claussen, an Iowa State University assistant professor of mechanical engineering, an associate of the U.S. Department of Energy’s Ames Laboratory, they’re taking low-cost, inkjet-printed graphene and tuning it with a laser to make functional materials.&lt;/p&gt; &lt;p&gt;The research group used...</description>
+        <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/washable-electonics/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/washable-electonics/</guid>
+        
+        <category>graphene</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>QEMU/KVM for Virtual Machines</title>
+        <description>&lt;p&gt;A “virtual machine” or “VM” is a virtual computer system. It is a tightly isolated software container with an operating system and application inside. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or “host.”&lt;/p&gt; &lt;p&gt;A thin layer of software called a “hypervisor” decouples the virtual machines from the host and dynamically allocates computing resources to each virtual machine as needed.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;h3 id=&quot;qemu-and-kvm&quot;&gt;QEMU and KVM&lt;/h3&gt; &lt;p&gt;QEMU or Quick Emulator is an open-source machine emulator and virtualizer. It can be used for full-system emulation, user-mode emulation as well...</description>
+        <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/qemu-vitualization/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/qemu-vitualization/</guid>
+        
+        <category>virtualization</category>
+        
+        <category>qemu</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Amazon Go - Cashier Less Shopping</title>
+        <description>&lt;h1 id=&quot;what-exactly-is-amazon-go&quot;&gt;&lt;strong&gt;What exactly is Amazon Go?&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Amazon Go is Amazon’s cashier-less shopping platform. Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store. What’s unique about the Go is that you can pick up an item and just walk out of the store without having to wait in line to pay for it. The store sells ordinary grocery items like bread, dairy and packaged ready to eat meals.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/amazon-go/1.jpeg&quot; alt=&quot;Landing image&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h2&gt; &lt;p&gt;A customer has to hold up a QR code on the Amazon Go...</description>
+        <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/amazon-go/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/amazon-go/</guid>
+        
+        <category>IoT</category>
+        
+        <category>spatial imaging</category>
+        
+        
+        <category>CAS/SPS</category>
         
       </item>
     
@@ -120,62 +166,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Fluids and Satellites</title>
-        <description>&lt;p&gt;&lt;em&gt;The increasingly large volumes of fluid that have to be carried aboard satellites designed for long operating lifetimes, but which often must also deliver high-accuracy pointing, mean that special attention has to be paid to the behavior of fluids in low gravity.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;low-gravity-and-fluid-dynamics&quot;&gt;Low gravity and fluid dynamics&lt;/h2&gt; &lt;p&gt;There are several methods for analyzing the dynamic behavior of fluids under normal gravity conditions on Earth. A common assumption in such methods is that the free surface of the fluid is flat and at right angles to the direction in which gravity is acting, i.e. normal to the gravity vector. In...</description>
-        <pubDate>Fri, 12 Jan 2018 16:35:53 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/fluids-and-satellites/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/fluids-and-satellites/</guid>
-        
-        <category>Fluid Dynamics</category>
-        
-        <category>Satellites</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>How is Technology Helping the Differently Abled People?</title>
-        <description>&lt;p&gt;This year, the government of India dedicated the National Science Day to the theme “Science and Technology for specially-abled people”. The main aim was to encourage innovation and also to ease the difficulties of differently abled people. So here are 10 assistive technologies to assist them.&lt;/p&gt; &lt;h2 id=&quot;devices-for-people-with-visual-impairment&quot;&gt;Devices for people with visual Impairment&lt;/h2&gt; &lt;h3 id=&quot;dot&quot;&gt;DOT&lt;/h3&gt; &lt;p&gt;It is the world’s first Braille smart watch which is affordable compared to the regular e-Braille devices. Technically this device consists of 6 dots on four cells on the screen of the watch which forms 4 letters in Braille at any time. This tool helps...</description>
-        <pubDate>Fri, 12 Jan 2018 16:30:53 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/how-is-technology-helping-the-differently-abled-people/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/how-is-technology-helping-the-differently-abled-people/</guid>
-        
-        <category>differently-abled</category>
-        
-        <category>assistive technology</category>
-        
-        <category>text scanners</category>
-        
-        <category>optical sensors</category>
-        
-        <category>bionic</category>
-        
-        <category>eye tracking system.</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>How do websites communicate securely?</title>
-        <description>&lt;p&gt;The inherent need for human beings has always been to communicate and share information,albeit selectively. For this purpose, the information is to be coded in such a way that it can be deciphered only by the recipient, regardless of whether the recipient is right next to the sender or on the other side of the world. &lt;strong&gt;&lt;em&gt;The communication channel is assumed to be plagued with adversaries.&lt;/em&gt;&lt;/strong&gt;.These adversaries have access to this coded information and are constantly trying to pry.So, the basic problem has always been to: &lt;strong&gt;&lt;em&gt;transfer secure information over such insecure channels.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So, how DO you communicate when everyone...</description>
-        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/public-key-cryptography/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/public-key-cryptography/</guid>
-        
-        <category>SSL</category>
-        
-        <category>Public Key Cryptography</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

@@ -9,6 +9,30 @@
     } ,
   
     {
+      "title"    : "Washable Electronics using Water repellant Graphene Circuits",
+      "category" : "Piston",
+      "tags"     : "graphene",
+      "url"      : "http://ieeenitk.org/blog//washable-electonics/",
+      "date"     : "16 May 2018"
+    } ,
+  
+    {
+      "title"    : "QEMU/KVM for Virtual Machines",
+      "category" : "CompSoc",
+      "tags"     : "virtualization and qemu",
+      "url"      : "http://ieeenitk.org/blog//qemu-vitualization/",
+      "date"     : "16 May 2018"
+    } ,
+  
+    {
+      "title"    : "Amazon Go - Cashier Less Shopping",
+      "category" : "CAS/SPS",
+      "tags"     : "IoT and spatial imaging",
+      "url"      : "http://ieeenitk.org/blog//amazon-go/",
+      "date"     : "16 May 2018"
+    } ,
+  
+    {
       "title"    : "Envision Project 2: Smart Lighting Systems",
       "category" : "Envision",
       "tags"     : "IoT",
