@@ -9,6 +9,8 @@ from sys import argv
 #files_list = [f for f in listdir(".") if isfile(join(".", f))]
 #print(files_list)
 
+max_height = 600
+
 if len(argv) != 2:
     print("Incorrect usage: %s <filename>" %(argv[0]))
     exit()
@@ -19,10 +21,10 @@ with Image.open(file_name) as img:
 	width,height = img.size
 	print(str(width) + " " + str(height))
 
-	if height > 200:
-		new_width = ((int)((width*1.0/height)*200))
+	if height > max_height:
+		new_width = ((int)((width*1.0/height)*max_height))
 		print(width/height)
-		img = img.resize((new_width,200), Image.ANTIALIAS)
+		img = img.resize((new_width,max_height), Image.ANTIALIAS)
 
 	width,height = img.size
 	print(str(width) + " " + str(height))

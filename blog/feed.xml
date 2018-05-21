@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 May 2018 22:23:31 +0530</pubDate>
-    <lastBuildDate>Mon, 14 May 2018 22:23:31 +0530</lastBuildDate>
+    <pubDate>Mon, 21 May 2018 11:24:58 +0530</pubDate>
+    <lastBuildDate>Mon, 21 May 2018 11:24:58 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
@@ -37,7 +37,7 @@
         <category>Django</category>
         
         
-        <category>CompSoc</category>
+        <category>Envision</category>
         
       </item>
     

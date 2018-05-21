@@ -10,7 +10,7 @@ tags:
 - Web 
 - Django
 categories:
-- CompSoc
+- Envision
 github_username: 'anirudh0707'
 ---
 
