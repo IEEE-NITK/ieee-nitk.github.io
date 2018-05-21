@@ -5,9 +5,23 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 May 2018 11:24:58 +0530</pubDate>
-    <lastBuildDate>Mon, 21 May 2018 11:24:58 +0530</lastBuildDate>
+    <pubDate>Mon, 21 May 2018 11:28:26 +0530</pubDate>
+    <lastBuildDate>Mon, 21 May 2018 11:28:26 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Degenarative Braking</title>
+        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea:&lt;/h2&gt; &lt;p&gt;Regenerative braking is an energy recovery mechanism which slows a vehicle or object by converting its kinetic energy into a form which can be either be used immediately or stored until needed. We have implemented this RBS in bicycles for generating electricity which can be used for different purposes like charging phones. For this we constructed a circuit to convert mechanical energy to electrical energy.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/regenerative-braking/pic1.jpeg&quot; alt=&quot;pic1&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;implementation&quot;&gt;Implementation&lt;/h2&gt; &lt;p&gt;RBS is based on the principle of electromagnetic induction. On the application of brakes, the gears on the brakes come in contact with the rim of the...</description>
+        <pubDate>Mon, 21 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/degenerative-braking/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/degenerative-braking/</guid>
+        
+        <category>Braking</category>
+        
+        
+        <category>Envision</category>
+        
+      </item>
     
       <item>
         <title>Envision Project 2: Smart Lighting Systems</title>
@@ -162,24 +176,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>War of the Currents</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image1.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Thomas Edison&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image2.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Nikola Tesla&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;At the end of the 19th century, the world witnessed one of the greatest scientific feuds of all times, which changed the course of the history.&lt;/p&gt; &lt;p&gt;Three brilliant inventors, Thomas Edison, Nikola Tesla and George Westinghouse, battled over which electricity system—direct current (DC) or alternating current (AC)–would become standard. This would go on to be known as the ‘War of the Currents’.&lt;/p&gt; &lt;p&gt;By 1880, Edison had created a model for the incandescent lamp that was commercially viable. But to make a profit out of the electric lights that...</description>
-        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/war-of-the-currents/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/war-of-the-currents/</guid>
-        
-        <category>Tesla</category>
-        
-        <category>Edison</category>
-        
-        <category>AC/DC</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     

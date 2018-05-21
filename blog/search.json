@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Degenarative Braking",
+      "category" : "Envision",
+      "tags"     : "Braking",
+      "url"      : "http://ieeenitk.org/blog//degenerative-braking/",
+      "date"     : "21 May 2018"
+    } ,
+  
+    {
       "title"    : "Envision Project 2: Smart Lighting Systems",
       "category" : "Envision",
       "tags"     : "IoT",
