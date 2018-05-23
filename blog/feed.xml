@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 May 2018 20:21:54 +0530</pubDate>
-    <lastBuildDate>Wed, 23 May 2018 20:21:54 +0530</lastBuildDate>
+    <pubDate>Wed, 23 May 2018 20:31:52 +0530</pubDate>
+    <lastBuildDate>Wed, 23 May 2018 20:31:52 +0530</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -32,6 +32,8 @@
         
         <category>graphene</category>
         
+        <category>electronics</category>
+        
         
         <category>Piston</category>
         
@@ -41,8 +43,8 @@
         <title>QEMU/KVM for Virtual Machines</title>
         <description>&lt;p&gt;A “virtual machine” or “VM” is a virtual computer system. It is a tightly isolated software container with an operating system and application inside. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or “host.”&lt;/p&gt; &lt;p&gt;A thin layer of software called a “hypervisor” decouples the virtual machines from the host and dynamically allocates computing resources to each virtual machine as needed.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;h3 id=&quot;qemu-and-kvm&quot;&gt;QEMU and KVM&lt;/h3&gt; &lt;p&gt;QEMU or Quick Emulator is an open-source machine emulator and virtualizer. It can be used for full-system emulation, user-mode emulation as well...</description>
         <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/qemu-vitualization/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/qemu-vitualization/</guid>
+        <link>http://ieeenitk.org/blog/qemu-virtualization/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/qemu-virtualization/</guid>
         
         <category>virtualization</category>
         

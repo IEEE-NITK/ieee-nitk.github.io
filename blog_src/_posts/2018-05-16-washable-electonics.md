@@ -6,6 +6,7 @@ image: '/assets/img/'
 author_github: sonalparab10
 tags:
 - graphene
+- electronics
 categories:
 - Piston
 github_username: 'sonalparab10'
