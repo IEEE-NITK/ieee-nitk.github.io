@@ -11,8 +11,8 @@
     {
       "title"    : "Washable Electronics using Water repellant Graphene Circuits",
       "category" : "Piston",
-      "tags"     : "graphene",
-      "url"      : "http://ieeenitk.org/blog//washable-electonics/",
+      "tags"     : "graphene and electronics",
+      "url"      : "http://ieeenitk.org/blog//washable-electronics/",
       "date"     : "16 May 2018"
     } ,
   
@@ -20,7 +20,7 @@
       "title"    : "QEMU/KVM for Virtual Machines",
       "category" : "CompSoc",
       "tags"     : "virtualization and qemu",
-      "url"      : "http://ieeenitk.org/blog//qemu-vitualization/",
+      "url"      : "http://ieeenitk.org/blog//qemu-virtualization/",
       "date"     : "16 May 2018"
     } ,
   
