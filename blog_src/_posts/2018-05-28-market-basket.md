@@ -36,7 +36,6 @@ The measure of certainty or trustworthiness associated with each discovered patt
 Confidence (Keyboard -> Mouse) = ![Confidence](/blog/assets/img/market-basket/conf.png)
 
 MBA is being used in all aspects of business from small scale retailing to large scale marketing .Its being used extensively in the food industry as well .Suppose that the sales report in a confectionary shop shows that on the first Monday of the month of 1,000 customers, 200 bought cupcakes, and from those who bought cupcakes , 50 bought chocolates as well . Here we see a rule that if someone buys cupcakes, also buys chocolates, which support is 5% (50/1000), and the confidence is 25% (50/200). 
-IEEE as a professional club provides learning opportunities within the engineering sciences, research, and technology. The goal of the IEEE education programs is to ensure the growth of skill and knowledge in the electricity-related technical professions and to foster individual commitment to continuing education among IEEE members, the engineering and scientific communities, and the general public.
 
 ### How can you use MBA for your own store !
 

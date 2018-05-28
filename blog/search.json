@@ -2,7 +2,7 @@
   
     {
       "title"    : "Why 50Hz ?",
-      "category" : "CompSoc",
+      "category" : "CAS/SPS",
       "tags"     : "electric power grid and 50Hz frequency",
       "url"      : "http://ieeenitk.org/blog//why-50hz/",
       "date"     : "29 May 2018"
@@ -18,7 +18,7 @@
   
     {
       "title"    : "Alterego",
-      "category" : "CompSoc",
+      "category" : "Piston",
       "tags"     : "Alterego",
       "url"      : "http://ieeenitk.org/blog//alterego/",
       "date"     : "29 May 2018"
