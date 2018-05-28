@@ -1,6 +1,30 @@
 [
   
     {
+      "title"    : "Why 50Hz ?",
+      "category" : "CAS/SPS",
+      "tags"     : "electric power grid and 50Hz frequency",
+      "url"      : "http://ieeenitk.org/blog//why-50hz/",
+      "date"     : "29 May 2018"
+    } ,
+  
+    {
+      "title"    : "Market Basket Analysis",
+      "category" : "CompSoc",
+      "tags"     : "Data mining and Apriori",
+      "url"      : "http://ieeenitk.org/blog//market-basket/",
+      "date"     : "29 May 2018"
+    } ,
+  
+    {
+      "title"    : "Alterego",
+      "category" : "Piston",
+      "tags"     : "Alterego",
+      "url"      : "http://ieeenitk.org/blog//alterego/",
+      "date"     : "29 May 2018"
+    } ,
+  
+    {
       "title"    : "Envision Project 3: Regenerative Braking",
       "category" : "Envision",
       "tags"     : "Braking",
