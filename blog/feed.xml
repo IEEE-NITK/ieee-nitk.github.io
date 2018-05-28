@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 May 2018 11:01:22 +0530</pubDate>
-    <lastBuildDate>Mon, 28 May 2018 11:01:22 +0530</lastBuildDate>
+    <pubDate>Mon, 28 May 2018 11:31:24 +0530</pubDate>
+    <lastBuildDate>Mon, 28 May 2018 11:31:24 +0530</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Why 50Hz ?</title>
+        <description>&lt;h2 id=&quot;why-do-most-of-the-countries-use-a-5060-hz-110220-v-power-supply-and-not-any-othervalue&quot;&gt;Why do most of the countries use a 50/60 Hz, 110/220 V power supply and not any othervalue?&lt;/h2&gt; &lt;p&gt;The answer to this question is not definite but quite a few technical and historical reasons can be found to support this which date back to the very beginning of the development of the electrical power system.&lt;/p&gt; &lt;h2 id=&quot;what-is-supply-frequency-and-why-is-it-an-important-parameter-in-the-electrical-grid&quot;&gt;What is supply frequency and why is it an important parameter in the electrical grid?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/why-50hz/image001.jpg&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt; &lt;p&gt;The electrical power grid consists of a massive network of generators, transmission lines, transformers, substations and a variety of loads drawing real and reactive...</description>
+        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/why-50hz/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/why-50hz/</guid>
+        
+        <category>electric power grid</category>
+        
+        <category>50Hz frequency</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Market Basket Analysis</title>
@@ -19,6 +35,20 @@
         <category>Data mining</category>
         
         <category>Apriori</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Alterego</title>
+        <description>&lt;h1 id=&quot;alterego&quot;&gt;AlterEgo&lt;/h1&gt; &lt;p&gt;We basically can’t live without our cell phones, our digital devices. But at the moment, the use of those devices is very disruptive. Wouldn’t it be rather nice if we could just think of the question and a device could just Google it real quick and give the answer? Well, we’ve reached the point where robots can now read your mind. Kind of. Researchers at MIT have developed a wearable gadget that transcribes and responds to conversations users have with themselves in their heads. &lt;img src=&quot;/blog/assets/img/alterego/alterego.jpg&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt; &lt;p&gt;Comprised of a wearable device and a small computing system,...</description>
+        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/alterego/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/alterego/</guid>
+        
+        <category>Alterego</category>
         
         
         <category>CompSoc</category>
@@ -128,42 +158,6 @@
         
         <category>Piston</category>
         
-        
-      </item>
-    
-      <item>
-        <title>Electric Cars - The Future</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Should you really buy an electric car?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Electric vehicles are hitting the world’s roads and with government support behind them these are hyped up to be the next big thing in the automobile industry . Combustion engine vehicles generate huge quantities of pollution, and developed economies create more than their fair share of this. The US transportation sector accounts for around 30 percent of US global warming emissions which is an order of magnitude more than most countries. In this blog I will tell you what I think on buying an electric car.&lt;/p&gt; &lt;h2 id=&quot;pros&quot;&gt;Pros&lt;/h2&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;Quick and Quiet...</description>
-        <pubDate>Sat, 17 Feb 2018 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/electric-cars/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/electric-cars/</guid>
-        
-        <category>Electric Cars</category>
-        
-        <category>CAS/SPS</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>t-SNE</title>
-        <description>&lt;p&gt;It’s manually impossible to understand the structure of a dataset with 100 dimensions. And it’s fairly common to come across data having so many features. And the exploratory-analysis of data is a preliminary step, before proceeding to other aspects of data-wrangling and models. This is where t-SNE comes in.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding&quot;&gt;t-SNE&lt;/a&gt; is non-linear dimensionality reduction algorithm. It reduces each high-dimensional point and embeds them into a 2D/3D map. Additionally, it ensures that similar objects are nearby and dissimilar points are kept apart.&lt;/p&gt; &lt;h2 id=&quot;uses-of-t-sne&quot;&gt;Uses of t-SNE&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;It’s hard to visualize high-dimensional objects&lt;/li&gt; &lt;li&gt;Existing data-visualization techniques only enable visualization of...</description>
-        <pubDate>Fri, 16 Feb 2018 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/tSNE/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/tSNE/</guid>
-        
-        <category>Data Visualization</category>
-        
-        <category>t-SNE</category>
-        
-        <category>ML</category>
-        
-        <category>Data Visualization</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
