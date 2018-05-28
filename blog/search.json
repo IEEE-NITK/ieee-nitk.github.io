@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Market Basket Analysis",
+      "category" : "CompSoc",
+      "tags"     : "Data mining and Apriori",
+      "url"      : "http://ieeenitk.org/blog//market-basket/",
+      "date"     : "29 May 2018"
+    } ,
+  
+    {
       "title"    : "Envision Project 3: Regenerative Braking",
       "category" : "Envision",
       "tags"     : "Braking",

@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 May 2018 20:56:00 +0530</pubDate>
-    <lastBuildDate>Wed, 23 May 2018 20:56:00 +0530</lastBuildDate>
+    <pubDate>Mon, 28 May 2018 11:01:22 +0530</pubDate>
+    <lastBuildDate>Mon, 28 May 2018 11:01:22 +0530</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Market Basket Analysis</title>
+        <description>&lt;h1 id=&quot;market-basket-analysis&quot;&gt;Market Basket Analysis&lt;/h1&gt; &lt;p&gt;Ever wondered how Flipkart knows what items to suggest to you before and after you make a purchase? The is an aspect of analysis created specifically to promote sales called market basket analysis (MBA). In the retail industry, MBA refers to an unsupervised data mining technique that discovers co-occurrence relationships among customers’ purchase activities. The technique is based on the theory that if you buy a certain group of items, you are likely to buy another group of items. For example: while at McDonald’s, if you buy sandwiches and cookies, you are more likely to buy...</description>
+        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/market-basket/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/market-basket/</guid>
+        
+        <category>Data mining</category>
+        
+        <category>Apriori</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Envision Project 3: Regenerative Braking</title>
@@ -148,26 +164,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Bit Manipulation</title>
-        <description>&lt;p&gt;All data in computer programs is internally stored as bits, i.e., as numbers 0 and 1. It turns out that there are many uses for bit manipulation in competitive programming.&lt;/p&gt; &lt;p&gt;In programming, an n bit integer is internally stored as a binary number that consists of n bits. For example, the C++ type int is a 32-bit type, which means that every int number consists of 32 bits. For exmaple, the bit representation of the int number 42 is &lt;code class=&quot;highlighter-rouge&quot;&gt;00000000000000000000000000101010&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;There are several bit operations supported by a typical ALU, some of them being AND, OR, NOT, XOR, and...</description>
-        <pubDate>Fri, 12 Jan 2018 16:45:53 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/bit-manipulation/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/bit-manipulation/</guid>
-        
-        <category>Bit masks</category>
-        
-        <category>DP</category>
-        
-        <category>Competitive Programming</category>
-        
-        <category>C++</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
