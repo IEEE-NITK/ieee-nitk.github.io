@@ -3,12 +3,12 @@ layout: post
 title: "Charge Crowding"
 author_github: sampathkoti
 date: 2018-06-05 23:32:44
-description: 'The smallest entity 'charge' can cause the greatest disasters in electronic devices'
+description: "The smallest entity 'charge' can cause the greatest disasters in electronic devices"
 tags:
 - CAS/SPS
 - electronic devices
 categories:
-- CAS/SPS
+- Diode
 github_username: 'sampathkoti'
 ---
 

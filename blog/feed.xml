@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jun 2018 23:02:05 +0530</pubDate>
-    <lastBuildDate>Wed, 06 Jun 2018 23:02:05 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.2</generator>
+    <pubDate>Wed, 06 Jun 2018 23:21:48 +0530</pubDate>
+    <lastBuildDate>Wed, 06 Jun 2018 23:21:48 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
     
       <item>
         <title>Diving into and Exploiting the Heap</title>
@@ -46,6 +46,22 @@
         
         
         <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Charge Crowding</title>
+        <description>&lt;h1 id=&quot;charge-crowding&quot;&gt;Charge crowding&lt;/h1&gt; &lt;h2 id=&quot;electrostatic-discharge&quot;&gt;Electrostatic Discharge&lt;/h2&gt; &lt;p&gt;Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other. ESD can also occur when a high electrostatic field develops between two objects in close proximity. ESD is one of the major causes of device failures in the semiconductor industry Electrostatic charge build-up occurs as a result of an imbalance of electrons on the surface of a material. Such a charge build-up develops an electric field that has measurable effects on other objects at...</description>
+        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/charge-crowding/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/charge-crowding/</guid>
+        
+        <category>CAS/SPS</category>
+        
+        <category>electronic devices</category>
+        
+        
+        <category>Diode</category>
         
       </item>
     
@@ -154,20 +170,6 @@
         
         
         <category>CAS/SPS</category>
-        
-      </item>
-    
-      <item>
-        <title>Envision Project 2: Smart Lighting Systems</title>
-        <description>&lt;h2 id=&quot;idea&quot;&gt;Idea&lt;/h2&gt; &lt;p&gt;With the ongoing developments in the technological World, a lot of efforts have been invested in the field of automation to make everyone’s life easier. As engineering students and the future of the World, it is our responsibility to lead the world into a better future via introducing technology which would reduce human effort as much as possible. Our project, &lt;strong&gt;Smart Lighting System&lt;/strong&gt; is aimed at automating the process of lighting of homes in order to personalize the control over the system and to adapt itself to its surroundings for better experience. So basically we decided to introduce...</description>
-        <pubDate>Sun, 13 May 2018 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/smart-lighting-systems/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/smart-lighting-systems/</guid>
-        
-        <category>IoT</category>
-        
-        
-        <category>Envision</category>
         
       </item>
     
