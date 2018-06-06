@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Diving into and Exploiting the Heap",
+      "category" : "Compsoc",
+      "tags"     : "heap, exploitation, memory, allocation, and CompSoc",
+      "url"      : "http://ieeenitk.org/blog//heap_exploitation/",
+      "date"     : "06 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Computational Approaches of Shock Waves",
+      "category" : "Piston",
+      "tags"     : "Piston, Shock Waves, and CFD",
+      "url"      : "http://ieeenitk.org/blog//computational-approaches-of-shock-waves/",
+      "date"     : "06 Jun 2018"
+    } ,
+  
+    {
       "title"    : "Why 50Hz ?",
       "category" : "CAS/SPS",
       "tags"     : "electric power grid and 50Hz frequency",
