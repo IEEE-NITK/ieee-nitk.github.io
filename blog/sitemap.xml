@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieeenitk.org/blog/heap_exploitation/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/computational-approaches-of-shock-waves/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieeenitk.org/blog/charge-crowding/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieeenitk.org/blog/why-50hz/</loc>
 	  </url>
 	
