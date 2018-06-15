@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-<!-- Give a small description in 3-4 sentences about the website -->
+        <!-- Give a small description in 3-4 sentences about the website -->
         <meta name="description" content="IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section. IEEE NITK undertakes lots of projects by its various SIGs which are formed and projects undertaken by students are futher applied to help solve daily world problems.">
         <!-- A small abstract idea about the website -->
         <meta name="abstract" content="This Website is about IEEE NITK Student Chapter">
@@ -40,9 +40,10 @@
         <!-- Fixing viewport on mobile views -->
         <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
 
-        <title>Team|IEEE NITK</title>
+        <title>Team | IEEE NITK</title>
 
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="res/main.css">
         <link rel="stylesheet" href="res/team.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
@@ -62,7 +63,40 @@
         </script>
 
     </head>
-    <body>
+    <body style="background-image: url("img/land.jpg")">
+        <nav class="visible_nav">
+            <a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)">
+                <img id="small_logo" src="res/img/nitk.png" alt="IEEE Logo">
+            </a>
+            <div class="popup_menu">
+                <ul id="menu" class="teco">
+                    <li>
+                        <a href="team.html">Team</a>
+                    </li>
+                    <li>
+                        <a href="compsoc.html">CompSoc</a>
+                    </li>
+                    <li>
+                        <a href="cas.html">Diode</a>
+                    </li>
+                    <li>
+                        <a href="piston.html">Piston</a>
+                    </li>
+                    <li>
+                        <a href="blog/">Blog</a>
+                    </li>
+                    <li>
+                        <a href="gyan/">Gyan</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="parent">
+                <div class="nav-icon cross">
+                    <div class="span"></div>
+                </div>
+            </div>
+        </nav>
+
         <div class="overLay">
             <div class="content sans">
                 <div class="top">
@@ -86,9 +120,9 @@
                 </div>
             </div>
         </div>
-        <nav>
+        <!-- <nav>
             <a href="/" title="Home"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
-        </nav>
+        </nav> -->
         <div class="img_holder teco">
             <div id="particles-js"></div>
             <div class="block_title">
@@ -97,7 +131,7 @@
                 </h1>
             </div>
         </div>
-        <div class="data_holder  prociono">
+        <div class="data_holder prociono">
             <div class="section">
                 <div class="sub_title prociono">
                     <h3>
@@ -186,3 +220,12 @@
     </div>
 </body>
 </html>
+<style>
+    a {
+        color: grey;
+        
+    }
+    a :hover {
+        color: black;
+    }
+</style>
