@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Earthing Systems",
+      "category" : "CAS/SPS",
+      "tags"     : "heavy electronics",
+      "url"      : "http://ieeenitk.org/blog//earthing-systems/",
+      "date"     : "17 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Chain of Things",
+      "category" : "CAS/SPS",
+      "tags"     : "blockchain and IoT",
+      "url"      : "http://ieeenitk.org/blog//chain-of-things/",
+      "date"     : "10 Jun 2018"
+    } ,
+  
+    {
       "title"    : "Diving into and Exploiting the Heap",
       "category" : "Compsoc",
       "tags"     : "heap, exploitation, memory, allocation, and CompSoc",

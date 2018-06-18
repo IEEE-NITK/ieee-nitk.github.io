@@ -5,9 +5,39 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jun 2018 23:21:48 +0530</pubDate>
-    <lastBuildDate>Wed, 06 Jun 2018 23:21:48 +0530</lastBuildDate>
+    <pubDate>Mon, 18 Jun 2018 18:07:34 +0530</pubDate>
+    <lastBuildDate>Mon, 18 Jun 2018 18:07:34 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Earthing Systems</title>
+        <description>&lt;p&gt;Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image001.jpg&quot; alt=&quot;image001&quot; /&gt;&lt;/p&gt; &lt;p&gt;To avoid this, metal casing of all electrical appliances are earthed.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image002.jpg&quot; alt=&quot;image002&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-an-earthing-system&quot;&gt;What is an earthing system?&lt;/h2&gt; &lt;p&gt;The connection between electrical appliances and devices with the earth plate or electrode through a thick wire of low resistance to provide safety is known...</description>
+        <pubDate>Sun, 17 Jun 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/earthing-systems/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/earthing-systems/</guid>
+        
+        <category>heavy electronics</category>
+        
+        
+        <category>CAS/SPS</category>
+        
+      </item>
+    
+      <item>
+        <title>Chain of Things</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won’t even sense it. It will be part of your presence all the time.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These words, spoken in the World Economic Forum in 2015 by Google’s then Chairman Eric Schmidt, are quickly proving to be true. From smart homes to smart citites, the &lt;strong&gt;Internet of Things&lt;/strong&gt; is everywhere. The number of connected devices has grown by a whopping 31% over the last year. However, all this data is present on...</description>
+        <pubDate>Sun, 10 Jun 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/chain-of-things/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/chain-of-things/</guid>
+        
+        <category>blockchain</category>
+        
+        <category>IoT</category>
+        
+        
+        <category>CAS/SPS</category>
+        
+      </item>
     
       <item>
         <title>Diving into and Exploiting the Heap</title>
@@ -138,38 +168,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>QEMU/KVM for Virtual Machines</title>
-        <description>&lt;p&gt;A “virtual machine” or “VM” is a virtual computer system. It is a tightly isolated software container with an operating system and application inside. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or “host.”&lt;/p&gt; &lt;p&gt;A thin layer of software called a “hypervisor” decouples the virtual machines from the host and dynamically allocates computing resources to each virtual machine as needed.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;h3 id=&quot;qemu-and-kvm&quot;&gt;QEMU and KVM&lt;/h3&gt; &lt;p&gt;QEMU or Quick Emulator is an open-source machine emulator and virtualizer. It can be used for full-system emulation, user-mode emulation as well...</description>
-        <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/qemu-virtualization/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/qemu-virtualization/</guid>
-        
-        <category>virtualization</category>
-        
-        <category>qemu</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Amazon Go - Cashier Less Shopping</title>
-        <description>&lt;h1 id=&quot;what-exactly-is-amazon-go&quot;&gt;&lt;strong&gt;What exactly is Amazon Go?&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Amazon Go is Amazon’s cashier-less shopping platform. Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store. What’s unique about the Go is that you can pick up an item and just walk out of the store without having to wait in line to pay for it. The store sells ordinary grocery items like bread, dairy and packaged ready to eat meals.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/amazon-go/1.jpeg&quot; alt=&quot;Landing image&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h2&gt; &lt;p&gt;A customer has to hold up a QR code on the Amazon Go...</description>
-        <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/amazon-go/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/amazon-go/</guid>
-        
-        <category>IoT</category>
-        
-        <category>spatial imaging</category>
-        
-        
-        <category>CAS/SPS</category>
         
       </item>
     
