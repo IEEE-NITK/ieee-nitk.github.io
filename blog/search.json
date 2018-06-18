@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Earthing Systems",
+      "category" : "CAS/SPS",
+      "tags"     : "heavy electronics",
+      "url"      : "http://ieeenitk.org/blog//earthing-systems/",
+      "date"     : "17 Jun 2018"
+    } ,
+  
+    {
       "title"    : "Chain of Things",
       "category" : "CAS/SPS",
       "tags"     : "blockchain and IoT",
