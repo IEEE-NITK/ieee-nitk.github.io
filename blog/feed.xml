@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jun 2018 23:21:48 +0530</pubDate>
-    <lastBuildDate>Wed, 06 Jun 2018 23:21:48 +0530</lastBuildDate>
+    <pubDate>Mon, 18 Jun 2018 17:30:45 +0530</pubDate>
+    <lastBuildDate>Mon, 18 Jun 2018 17:30:45 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Chain of Things</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won’t even sense it. It will be part of your presence all the time.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These words, spoken in the World Economic Forum in 2015 by Google’s then Chairman Eric Schmidt, are quickly proving to be true. From smart homes to smart citites, the &lt;strong&gt;Internet of Things&lt;/strong&gt; is everywhere. The number of connected devices has grown by a whopping 31% over the last year. However, all this data is present on...</description>
+        <pubDate>Sun, 10 Jun 2018 15:30:30 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/chain-of-things/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/chain-of-things/</guid>
+        
+        <category>blockchain</category>
+        
+        <category>IoT</category>
+        
+        
+        <category>CAS/SPS</category>
+        
+      </item>
     
       <item>
         <title>Diving into and Exploiting the Heap</title>
@@ -154,22 +170,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Amazon Go - Cashier Less Shopping</title>
-        <description>&lt;h1 id=&quot;what-exactly-is-amazon-go&quot;&gt;&lt;strong&gt;What exactly is Amazon Go?&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Amazon Go is Amazon’s cashier-less shopping platform. Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store. What’s unique about the Go is that you can pick up an item and just walk out of the store without having to wait in line to pay for it. The store sells ordinary grocery items like bread, dairy and packaged ready to eat meals.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/amazon-go/1.jpeg&quot; alt=&quot;Landing image&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h2&gt; &lt;p&gt;A customer has to hold up a QR code on the Amazon Go...</description>
-        <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/amazon-go/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/amazon-go/</guid>
-        
-        <category>IoT</category>
-        
-        <category>spatial imaging</category>
-        
-        
-        <category>CAS/SPS</category>
         
       </item>
     

@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Chain of Things",
+      "category" : "CAS/SPS",
+      "tags"     : "blockchain and IoT",
+      "url"      : "http://ieeenitk.org/blog//chain-of-things/",
+      "date"     : "10 Jun 2018"
+    } ,
+  
+    {
       "title"    : "Diving into and Exploiting the Heap",
       "category" : "Compsoc",
       "tags"     : "heap, exploitation, memory, allocation, and CompSoc",
