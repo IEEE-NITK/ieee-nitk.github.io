@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Evolving Strings with Genetic Algorithms",
+      "category" : "CompSoc",
+      "tags"     : "Machine Learning, Genetic Algorithms, String, Genes, and Chromosome",
+      "url"      : "http://ieeenitk.org/blog//string-genetic/",
+      "date"     : "19 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Nanomotors",
+      "category" : "Piston",
+      "tags"     : "Nanotechnology, Nano motors, Motors, ATP, and Biilogy",
+      "url"      : "http://ieeenitk.org/blog//nanomotors/",
+      "date"     : "18 Jun 2018"
+    } ,
+  
+    {
       "title"    : "Earthing Systems",
       "category" : "CAS/SPS",
       "tags"     : "heavy electronics",
@@ -541,7 +557,7 @@
       "category" : "CompSoc",
       "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
       "url"      : "http://ieeenitk.org/blog//hashing-in-competitive-programming/",
-      "date"     : "22 Aug 2017"
+      "date"     : "21 Aug 2017"
     } ,
   
     {
