@@ -1,0 +1,12 @@
+{
+    "title": "HacktoberFest",
+    "date": "October 2017",
+    "sig": "CompSoc",
+    "description": "HactoberFest Meetup NITK Edition was conducted by IEEE CompSoc. Participants were introduced to basics of Git and GitHub and made to make commits on the IEEE NITK repository, followed by a talk on how to contribute to open source, by Panam Hanji, former GSoCer. The NITK edition gained global recognition with over 168 commits, being one among the top 15 world wide. ",
+    "links": [
+        {
+            "title": "Facebook post",
+            "url": "https://www.facebook.com/IEEENITK"
+        }
+    ]
+}

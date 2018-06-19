@@ -4,11 +4,21 @@ Members of our community are encouraged to write articles for our blogging platf
 
 ## Basic Setup
 
+### Option 1
 1. [Install Jekyll](http://jekyllrb.com)
 2. Install jekyll-paginate, by
 ```
-$ gem install jekyll-paginate
+$ gem install jekyll-paginate jemoji
 ```
+## Option 2
+1. Install Docker on your local system. Find link to install [here](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+2. Run the following command to download the docker image
+```
+docker-compose up
+```
+* In case you want to shut down your docker container, kindly do it by running `docker-compose down`. It should allow you to shut down your docker container.
+* In case you have shut down you docker container with Ctrl+C you will still need to shut it down using `docker-compose down`.  
+## Further Installation
 3. Fork the [IEEE NITK GitHub website repository](https://github.com/IEEE-NITK/ieee-nitk.github.io)
 4. Clone the repo you just forked. You can do this using the `git clone` command. Check out this article for how to install Git on [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04) and on [Windows](http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/)
 5. Check out the sample posts in `blog_src/_posts` to see examples for assigning categories and tags, and other YAML data. Posts are written in Markdown.
@@ -45,6 +55,12 @@ salman-bhai:
 **3. Add your username and subsequent info at the end of the file.**
 
 At the top, we would like you to use the same `username` as your github account (for example `salman-bhai` is Salman's (my) Github username). This will allow us to avoid username collisions within our blog.
+
+
+**4. Adding your image to the blog.**
+
+Go to the directory `blog_src/assets/img/authors` and add your author image there. Make sure you have a **square image**. Later you have to compress your image via a Python script. To compress your image you can run the command `python image_optimise.py <image-name>`.
+
 
 ## Step 3: Adding your new post to the IEEE-NITK blog
 

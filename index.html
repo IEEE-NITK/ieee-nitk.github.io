@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="mainApp" ng-controller="mainController">
+<html>
 <head>
     <!-- Meta tags-->
     <!-- Give a small description in 3-4 sentences about the website -->
@@ -46,7 +46,7 @@
 
 
     <!-- Page Title -->
-    <title>Home|IEEE NITK</title>
+    <title>Home | IEEE NITK</title>
 
     <!-- Linked Sheets needed -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
@@ -61,6 +61,7 @@
     <script src="js/particles.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/events.js"></script>
+    <script src="js/cta.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
@@ -97,9 +98,9 @@
             },
             "member": {
                 "@type": "Person",
-                "name": "Anand Thamban",
+                "name": "Salman Shah",
                 "jobTitle":"Convener",
-                "email":"anandthamban@gmail.com"      
+                "email":"sbs.191197@gmail.com"      
             },
             "parentOrganization":["IEEE","IEEE Bangalore"],
             //"logo":"ieee-nitk logo url",  
@@ -110,27 +111,23 @@
         }
     </script>
 
-
 </head>
 <body>
     <nav class="visible_nav">
-        <a title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
+        <a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/nitk.png" alt="IEEE Logo"></a>
         <div class="popup_menu">
             <ul id="menu" class="teco">
-                <li data-menuanchor="about" onclick="$.fn.fullpage.moveTo(2)">
-                    <a>About Us</a>
+                <li>
+                    <a href="team.html">Team</a>
                 </li>
-                <li data-menuanchor="sigs" onclick="$.fn.fullpage.moveTo(3)">
-                    <a>SIGs</a>
+                <li>
+                    <a href="compsoc.html">CompSoc</a>
                 </li>
-                <li data-menuanchor="events" onclick="$.fn.fullpage.moveTo(4)">
-                    <a>Events</a>
+                <li>
+                    <a href="cas.html">Diode</a>
                 </li>
-                <li data-menuanchor="team" onclick="$.fn.fullpage.moveTo(5)">
-                    <a>Team</a>
-                </li>
-                <li data-menuanchor="achievements" onclick="$.fn.fullpage.moveTo(6)">
-                    <a>Achievements</a>
+                <li>
+                    <a href="piston.html">Piston</a>
                 </li>
                 <li>
                     <a href="blog/">Blog</a>
@@ -151,7 +148,23 @@
             <div class="main_container">
                 <div id="text_effect"></div>
                 <div id="logo">
-                    <img src="res/img/ieee_white.png" alt="IEEE Logo">
+                    <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo"></a>
+                </div>
+            </div>
+            <div class="cta_container teco">
+                <div class="cta" id="article1">
+                    <div class="cta_heading"></div>
+                    <div style="display: flex">
+                        <div class="cta_section"></div>
+                        <div class="tags_container"></div>
+                    </div>
+                </div>
+                <div class="cta" id="article2">
+                    <div class="cta_heading"></div>
+                    <div style="display: flex">
+                        <div class="cta_section"></div>
+                        <div class="tags_container"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -174,17 +187,23 @@
                         <div class="col_left col mybox bgbox">
                         </div>
                         <div class="col_right col fadein mybox">
-                            <h1 class="slide_heading teco"> COMPSOC</h1>
+                            <h1 class="slide_heading teco"> CompSoc</h1>
                             <div class="slide_content sans">
-                                <p class="main">
-                                    The Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a wonderful platform for those who want to gain expertise in computer based technology.
+                                <p class="main" align="justify">
+                                    <br>The Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a wonderful platform for those who want to gain expertise in computer based technology.<br>
                                 </p>
-                                <p class="sub">
-                                    In true divide-and-conquer spirit, the SIG is subcategorized many groups like High Performance Computing,Security and Systems Programming,Databases, Data Structures and Algorithms,Web / Mobile Application Development,Networks and Communication,Computer Graphics, Vision and Virtual Reality,Data, Machine Learning and Artificial Intelligence
-                                </p>
-                            </div>
+                                <p class="sub" align="justify">
+                                    <br>In true divide-and-conquer spirit, the SIG is subcategorized into three research groups, namely :<br>
+					<ul style = "list-style-position: inside;"><br>
+					  <li> Intelligence </li>
+					  <li> Systems </li>
+					  <li> Theoretical Computer Science </li><br>
+					</ul>        
+		Activities are carried out by members of the research groups under their respective heads and co-heads.                        
+				</p>
+                            </div><br>
                             <div class="slide_button sans">
-                                <a href="compsoc.html" title="CompSoc">READ MORE</a>
+                                <a href="./compsoc.html" title="CompSoc">READ MORE</a>
                             </div>
                         </div>
                     </div>
@@ -196,15 +215,15 @@
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco">CAS</h1>
                             <div class="slide_content sans">
-                                <p class="main">
-                                    The Circuits and Systems (CAS) group, also known as Diode consists of a team of students with a strong interest in the field of Electronics and Electrical Science. There are various seminars and talks organised by this SIG to encourage students to learn and gain more knowledge in their particular field of interest. CAS has contributed greatly to the development of interest in the field of robotics and microcontrollers.
+                                <p class="main" align="justify">
+                                    <br>The Circuits and Systems (CAS) group, also known as Diode consists of a team of students with a strong interest in the field of Electronics and Electrical Science. There are various seminars and talks organised by this SIG to encourage students to learn and gain more knowledge in their particular field of interest. CAS has contributed greatly to the development of interest in the field of robotics and microcontrollers.<br>
                                 </p>
-                                <p class="sub">
-                                    The main focus of the CAS is on small projects, a cross-year collaborative effort among all the members that will help in academics and give us an edge when participating in various technical competitions conducted in many prestigious institutes.
+                                <p class="sub" align="justify">
+                                    <br>The main focus of the CAS is on small projects, a cross-year collaborative effort among all the members that will help in academics and give us an edge when participating in various technical competitions conducted in many prestigious institutes.<br>
                                 </p>
-                            </div>
+                            </div><br>
                             <div class="slide_button sans">
-                                <a href="cas.html" title="CAS">
+                                <a href="./cas.html" title="CAS">
                                 READ MORE
                             </a>
                             </div>
@@ -218,15 +237,15 @@
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco">PISTON</h1>
                             <div class="slide_content sans">
-                                <p class="main">
-                                    Piston is a special interest group dedicated to the engineering applications of Mechanical, Automation, Civil, Chemical and Material Sciences. The SIG functions as a platform for students interested in learning and advancing specific areas of knowledge and technology. The SIG members co-operate, communicate, and organise meets, talks and conferences to discuss latest technology advancement and application.
+                                <p class="main" align="justify">
+                                    <br>Piston is a special interest group dedicated to the engineering applications of Mechanical, Automation, Civil, Chemical and Material Sciences. The SIG functions as a platform for students interested in learning and advancing specific areas of knowledge and technology. The SIG members co-operate, communicate, and organise meets, talks and conferences to discuss latest technology advancement and application.<br>
                                 </p>
-                                <p class="sub">
-                                    The SIG consists of 2 societies namely Mach (Mechanical, Automation and Chemical Engineering) and RAS (Robotics and Automation). We specialise on a lot of areas like Aerospace Engineering Automobile engineering, Bio-Mechanical Applications, Chemical and Thermal Engineering, Heat and Renewable Energy Engineering, Robotics, Controls and Mechatronics and Structures and Materials.
-                                </p>
+                                <p class="sub" align="justify">
+                                    <br>The SIG consists of 2 societies namely Mach (Mechanical, Automation and Chemical Engineering) and RAS (Robotics and Automation). We specialise on a lot of areas like Aerospace Engineering Automobile engineering, Bio-Mechanical Applications, Chemical and Thermal Engineering, Heat and Renewable Energy Engineering, Robotics, Controls and Mechatronics and Structures and Materials.<br>
+                                </p><br>
                             </div>
                             <div class="slide_button sans">
-                                <a href="piston.html" title="Piston">
+                                <a href="./piston.html" title="Piston">
                             READ MORE
                         </a>
                             </div>
@@ -239,8 +258,8 @@
                         </div>
                         <div class="col_right col fadein mybox">
                             <h1 class="slide_heading teco"> WIE</h1>
-                            <div class="slide_content sans">
-                                The IEEE NITK WIE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator.Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.
+                            <div class="slide_content sans" align="justify">
+                                <br>The IEEE NITK WIE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator.Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.<br>
                             </div>
                         </div>
                     </div>
@@ -289,21 +308,22 @@
                     <div class="team_title teco">
                         Our Team
                     </div>
-                    <a href="team.html" title="Full Team" class="teco">View full team</a>
+                    <a href="/team.html" title="Full Team" class="teco">View full team</a>
                 </div>
             </div>
             <div class="core_team">
                 <div class="pseudo team_title teco">
                     Our Team
                 </div>
-                <div class="member_card card_left">
+                 <div class="member_card card_left">
                     <div class="img_section">
-                        <img src="res/img/faculty/sumam_david.jpg" alt="Sumam David">
+                        <img src="res/img/faculty/msbhat.png" alt="MS Bhat">
                     </div>
                     <div class="data_section sans">
-                        <h3>Dr. Sumam David</h3>
+                        <h3>Dr. M. S. Bhat</h3>
                         <h4>Branch advisor</h4>
-                        <p><a href="http://sumam.nitk.ac.in/" title="Sumam David's Personal Page">Web page</a></p>
+                        <div class="web-page"><a target="_blank" href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" 
+                            title="MS Bhat's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_right">
@@ -313,17 +333,19 @@
                     <div class="data_section sans">
                         <h3>Dr. Annappa</h3>
                         <h4>Computer Society faculty advisor</h4>
-                        <p><a href="http://cse.nitk.ac.in/faculty/annappa" title="Annappa's Personal Page">Web page</a></p>
+                        <div class="web-page"><a href="http://cse.nitk.ac.in/faculty/annappa" 
+                            title="Annappa's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_left">
                     <div class="img_section">
-                        <img src="res/img/faculty/msbhat.png" alt="MS Bhat">
+                        <img src="res/img/faculty/bvp.jpg" alt="MS Bhat">
                     </div>
                     <div class="data_section sans">
-                        <h3>Dr. M. S. Bhat</h3>
+                        <h3>B Venkatesa Perumal</h3>
                         <h4>CAS faculty advisor</h4>
-                        <p><a href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" title="MS Bhat's Personal Page">Web page</a></p>
+                        <div class="web-page"><a target="_blank" href="http://eee.nitk.ac.in/professor/BVP"
+                            title="BVP's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_right">
@@ -333,7 +355,8 @@
                     <div class="data_section sans">
                         <h3>Dr. Ramesh Kini</h3>
                         <h4>RAS faculty advisor</h4>
-                        <p><a href="http://ece.nitk.ac.in/faculty/ramesh-kini-m" title="Ramesh Kini's Personal Page">Web page</a></p>
+                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/ramesh-kini-m" 
+                            title="Ramesh Kini's Personal Page">Web page</a></div>
                     </div>
                 </div>
                 <div class="member_card card_left">
@@ -343,10 +366,11 @@
                     <div class="data_section sans">
                         <h3>Dr. Deepu Vijayasenan</h3>
                         <h4>SPS faculty advisor</h4>
-                        <p><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" title="Deepu Vijayasenan's Personal Page">Web page</a></p>
+                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" 
+                            title="Deepu Vijayasenan's Personal Page">Web page</a></div>
                     </div>
                 </div>
-                <a class="pseudo teco" href="team.html" title="Full Team">View full team</a>
+                <a class="pseudo teco" href="/team.html" title="Full Team">View full team</a>
             </div>
         </div>
         <div class="achievements section">
@@ -358,26 +382,35 @@
             </div>
                 <ul class="sans">
                     <li class="list1">
-                        The Best Student Branch Award 2007,2013
+                        R10 Exemplary Student Branch Award 2007, 2013, 2015
                     </li>
                     <li class="list2">
-                        GINI Student Branch Award 2010 R10 IEEE
+                        R10 IEEE GINI Student Branch Award 2010
                     </li>
                     <li class="list3">
-                        Regional Exemplary Student Branch Award Student Enterprise Award : Quadcopter Project R10 IEEE
+                        R10 IEEE Regional Student Enterprise Award : Quadcopter Project (2012)
                     </li>
                     <li class="list4">
-                        Outstanding Branch Counselor & Advisor : Dr. Sumam David
+                        R10 Outstanding Branch Counselor & Advisor : Dr. Sumam David (2013)
                     </li>
                     <li class="list5">
-                        Silver Medal, The Darrel Chong Student Activity Award
+                        Silver Medal, The Darrel Chong Student Activity Award (2014)
+                    </li>
+                    <li class="list6">
+                         2015 IEEE Student Enterprise Award - 'Mapping of Greenhouse Gases using Wireless Sensor Networks'
+                    </li>
+                    <li class="list7">
+                        The Darrel Chong Student Activity Award (Bronze) - For the Open Collaborative Learning Project, 2015
+                    </li>
+                    <li class="list8">
+                        IEEE Bangalore - Best Large Student Branch Award - 2017
                     </li>
                 </ul>
             </div>
         </div>
         <div class="footer section fp-auto-height">
             <footer class="teco">
-                <div class="online">
+                <!-- <div class="online">
                     <h3>Find us online</h3>
                     <div class="icons">
                         <div class="icon icon1">
@@ -387,7 +420,7 @@
                             <a target="blank" href="https://github.com/IEEE-NITK/" title="Github"><img src="res/img/github.png" alt="github"></a>
                         </div>
                         <div class="icon icon3">
-                            <img src="res/img/yt.png" alt="youtube">
+                            <img src="res/img/yt.png" href="https://youtube.com" alt="YouTube">
                         </div>
                     </div>
                 </div>
@@ -407,6 +440,24 @@
                     <a target="blank" href="https://www.ieee.org/" title="IEEE">IEEE</a>
                     <br>
                     <a target="blank" href="http://nitk.ac.in/" title="NITK Surathkal">NITK Surathkal</a>
+                </div> -->
+                <div class="footer-div">
+                    <ul class="footer-links">
+                        <li style="border-left: none"><a href="https://ieeenitk.org">Home</a></li>
+                        <li><a href="sitemap-main.xml">Sitemap</a></li>
+                        <li><a href="mailto:convenor.nitkieee@gmail.com">Contact</a></li>
+                        <li><a href="http://www.ieee.org/accessibility_statement.html">Accessibility</a></li>
+                        <li><a href="http://www.ieee.org/about/corporate/governance/p9-26.html">Nondiscrimination Policy</a></li>
+                        <li><a href="http://www.ieee.org/about/help/security_privacy.html">IEEE Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-div">
+                    <div>
+                        © Copyright 2018 IEEE – All rights reserved. Use of this website signifies your agreement to the <a href="http://www.ieee.org/about/help/site_terms_conditions.html" style="color: black">IEEE Terms and Conditions</a>.
+                    </div>
+                    <div>
+                        A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+                    </div>
                 </div>
             </footer>
         </div>

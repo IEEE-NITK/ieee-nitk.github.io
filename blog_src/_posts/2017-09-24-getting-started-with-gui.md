@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with GUIs"
-author_github: archpndy
+author_github: archit-p
 date: 2017-09-24 10:00:30
 image: '/assets/img/'
 description: 'Stepping into software development'
@@ -11,7 +11,7 @@ tags:
 - Gnome
 categories:
 - CompSoc
-github_username: 'archpndy'
+github_username: 'archit-p'
 ---
 
 While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And a good first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, we’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.

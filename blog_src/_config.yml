@@ -21,7 +21,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
-
 # html minify
 compress_html:
   clippings: all
@@ -46,13 +45,13 @@ exclude: ['package.json', 'src', 'node_modules']
 
 # extra plugins
 plugins_dir: 
-  ['jekyll-paginate']
+ ['jekyll-paginate']
 
 # Gems
 plugins: [jekyll-paginate]
 # gems: [jekyll-paginate, jemoji]
 
-#make 5 articles per page
+# Make 6 articles per page
 paginate: 6
 paginate_path: "/page:num/"
 

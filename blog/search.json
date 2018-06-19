@@ -1,6 +1,190 @@
 [
   
     {
+      "title"    : "Earthing Systems",
+      "category" : "CAS/SPS",
+      "tags"     : "heavy electronics",
+      "url"      : "http://ieeenitk.org/blog//earthing-systems/",
+      "date"     : "17 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Chain of Things",
+      "category" : "CAS/SPS",
+      "tags"     : "blockchain and IoT",
+      "url"      : "http://ieeenitk.org/blog//chain-of-things/",
+      "date"     : "10 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Diving into and Exploiting the Heap",
+      "category" : "Compsoc",
+      "tags"     : "heap, exploitation, memory, allocation, and CompSoc",
+      "url"      : "http://ieeenitk.org/blog//heap_exploitation/",
+      "date"     : "06 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Computational Approaches of Shock Waves",
+      "category" : "Piston",
+      "tags"     : "Piston, Shock Waves, and CFD",
+      "url"      : "http://ieeenitk.org/blog//computational-approaches-of-shock-waves/",
+      "date"     : "06 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Charge Crowding",
+      "category" : "Diode",
+      "tags"     : "CAS/SPS and electronic devices",
+      "url"      : "http://ieeenitk.org/blog//charge-crowding/",
+      "date"     : "06 Jun 2018"
+    } ,
+  
+    {
+      "title"    : "Why 50Hz ?",
+      "category" : "CAS/SPS",
+      "tags"     : "electric power grid and 50Hz frequency",
+      "url"      : "http://ieeenitk.org/blog//why-50hz/",
+      "date"     : "29 May 2018"
+    } ,
+  
+    {
+      "title"    : "Market Basket Analysis",
+      "category" : "CompSoc",
+      "tags"     : "Data mining and Apriori",
+      "url"      : "http://ieeenitk.org/blog//market-basket/",
+      "date"     : "29 May 2018"
+    } ,
+  
+    {
+      "title"    : "Alterego",
+      "category" : "Piston",
+      "tags"     : "Alterego",
+      "url"      : "http://ieeenitk.org/blog//alterego/",
+      "date"     : "29 May 2018"
+    } ,
+  
+    {
+      "title"    : "Envision Project 3: Regenerative Braking",
+      "category" : "Envision",
+      "tags"     : "Braking",
+      "url"      : "http://ieeenitk.org/blog//regenerative-braking/",
+      "date"     : "21 May 2018"
+    } ,
+  
+    {
+      "title"    : "Washable Electronics using Water repellant Graphene Circuits",
+      "category" : "Piston",
+      "tags"     : "graphene and electronics",
+      "url"      : "http://ieeenitk.org/blog//washable-electronics/",
+      "date"     : "16 May 2018"
+    } ,
+  
+    {
+      "title"    : "QEMU/KVM for Virtual Machines",
+      "category" : "CompSoc",
+      "tags"     : "virtualization and qemu",
+      "url"      : "http://ieeenitk.org/blog//qemu-virtualization/",
+      "date"     : "16 May 2018"
+    } ,
+  
+    {
+      "title"    : "Amazon Go - Cashier Less Shopping",
+      "category" : "CAS/SPS",
+      "tags"     : "IoT and spatial imaging",
+      "url"      : "http://ieeenitk.org/blog//amazon-go/",
+      "date"     : "16 May 2018"
+    } ,
+  
+    {
+      "title"    : "Envision Project 2: Smart Lighting Systems",
+      "category" : "Envision",
+      "tags"     : "IoT",
+      "url"      : "http://ieeenitk.org/blog//smart-lighting-systems/",
+      "date"     : "13 May 2018"
+    } ,
+  
+    {
+      "title"    : "Envision Project 1 - Professor Matching for Research Internships",
+      "category" : "Envision",
+      "tags"     : "Android, Web, and Django",
+      "url"      : "http://ieeenitk.org/blog//prof-matching-envision/",
+      "date"     : "06 May 2018"
+    } ,
+  
+    {
+      "title"    : "Evolution of bicycle",
+      "category" : "",
+      "tags"     : "Piston",
+      "url"      : "http://ieeenitk.org/blog//evolution-of-bicycle/",
+      "date"     : "17 Feb 2018"
+    } ,
+  
+    {
+      "title"    : "Electric Cars - The Future",
+      "category" : "Diode",
+      "tags"     : "Electric Cars and CAS/SPS",
+      "url"      : "http://ieeenitk.org/blog//electric-cars/",
+      "date"     : "17 Feb 2018"
+    } ,
+  
+    {
+      "title"    : "t-SNE",
+      "category" : "CompSoc",
+      "tags"     : "Data Visualization, t-SNE, ML, and Data Visualization",
+      "url"      : "http://ieeenitk.org/blog//tSNE/",
+      "date"     : "16 Feb 2018"
+    } ,
+  
+    {
+      "title"    : "Bit Manipulation",
+      "category" : "Compsoc",
+      "tags"     : "Bit masks, DP, Competitive Programming, and C++",
+      "url"      : "http://ieeenitk.org/blog//bit-manipulation/",
+      "date"     : "12 Jan 2018"
+    } ,
+  
+    {
+      "title"    : "Fluids and Satellites",
+      "category" : "Piston",
+      "tags"     : "Fluid Dynamics and Satellites",
+      "url"      : "http://ieeenitk.org/blog//fluids-and-satellites/",
+      "date"     : "12 Jan 2018"
+    } ,
+  
+    {
+      "title"    : "How is Technology Helping the Differently Abled People?",
+      "category" : "Diode",
+      "tags"     : "differently-abled, assistive technology, text scanners, optical sensors, bionic, and eye tracking system.",
+      "url"      : "http://ieeenitk.org/blog//how-is-technology-helping-the-differently-abled-people/",
+      "date"     : "12 Jan 2018"
+    } ,
+  
+    {
+      "title"    : "How do websites communicate securely?",
+      "category" : "CompSoc",
+      "tags"     : "SSL and Public Key Cryptography",
+      "url"      : "http://ieeenitk.org/blog//public-key-cryptography/",
+      "date"     : "29 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "War of the Currents",
+      "category" : "Diode",
+      "tags"     : "Tesla, Edison, and AC/DC",
+      "url"      : "http://ieeenitk.org/blog//war-of-the-currents/",
+      "date"     : "29 Dec 2017"
+    } ,
+  
+    {
+      "title"    : "Speed Printing",
+      "category" : "Piston",
+      "tags"     : "Speed Printing and Stereolithography",
+      "url"      : "http://ieeenitk.org/blog//speed-printing/",
+      "date"     : "28 Dec 2017"
+    } ,
+  
+    {
       "title"    : "How NASA discovered planets using Artificial Intelligence",
       "category" : "CompSoc",
       "tags"     : "Space, Machine Learning, and Deep Learning",

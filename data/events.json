@@ -1,17 +1,48 @@
 {
   "event1": {
-    "title": "Ignite '16",
-    "sig": "ALL Sigs",
-    "date": "August 2016"
+    "title": "IEEE Discover",
+    "sig": "All SIGs",
+    "date": "13th-14th August, 2016"
   },
   "event2": {
-    "title": "HacktoberFest",
-    "sig": "CompSoc",
-    "date": "October 2016"
+    "title": "Algorithmic​ Trading​ <br> and​ ML by​ ​Two​ Road​Tech.",
+    "sig": "All SIGs",
+    "date": "22nd​​ February, 2017"
   },
   "event3": {
     "title": "Envision",
-    "sig": "All sigs",
-    "date": "March 2017--"
+    "sig": "All SIGs",
+    "date": "March 2017"
+  },
+  "event4": {
+    "title": "IEEE Project​ Expo",
+    "sig": "All SIGs",
+    "date": "8th​ April​ 2017"
+  },
+  "event5": {
+    "title": "INSIGHT",
+    "sig": "All SIGs",
+    "date": "23rd-24th August 2017"
+  },
+  "event6": {
+    "title": "EUREKA",
+    "sig": "All SIGs",
+    "date": "24th-28th September 2017"
+  },
+  "event7": {
+    "title": "Student Membership <br> Drive",
+    "sig": "All SIGs",
+    "date": "2nd October 2017"
+  },
+  "event8": {
+    "title": "HacktoberFest",
+    "sig": "CompSoc",
+    "date": "October 2017"
+  },
+  "event9": {
+    "title": "University​ <br> Collaboration by​ Nokia",
+    "sig": "Diode",
+    "date": "13th October 2017"
   }
+  
 }

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Tata Elxsi, Trivandrum, Internship Experience - Shweta SV"
-date: 2017-12-21 11:32:44
+title: "Tata Elxsi, Trivandrum, Internship Experience - Shwetha SV"
+date: 2018-01-21 11:32:44
 image: '/assets/img/'
-description: 'Pre-Final Year IEEE Executive Member Shweta SV gives advice on how to excel to get an internship at Tata Elxsi.'
+description: 'Pre-Final Year IEEE Executive Member Shwetha SV gives advice on how to excel to get an internship at Tata Elxsi.'
 tags:
 - Internships
 - Industry
