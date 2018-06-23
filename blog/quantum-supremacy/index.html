@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="A blog documenting random findings and musings of our members">
+        <meta name="description" content="This article talks about advantages of a quantum computer and challenges faced in building them">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="QEMU/KVM for Virtual Machines">
-        <meta name="twitter:description" content="A blog documenting random findings and musings of our members">
+        <meta name="twitter:title" content="Quantum Supremacy: Is it hyped?">
+        <meta name="twitter:description" content="This article talks about advantages of a quantum computer and challenges faced in building them">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///qemu-virtualization/" />
-        <meta property="og:title" content="QEMU/KVM for Virtual Machines">
+        <meta property="og:url" content="http://ieeenitk.org///quantum-supremacy/" />
+        <meta property="og:title" content="Quantum Supremacy: Is it hyped?">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="A blog documenting random findings and musings of our members">
+        <meta property="og:description" content="This article talks about advantages of a quantum computer and challenges faced in building them">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="QEMU/KVM for Virtual Machines"/>
-        <meta itemprop="description" content="A blog documenting random findings and musings of our members">
+        <meta itemprop="name" content="Quantum Supremacy: Is it hyped?"/>
+        <meta itemprop="description" content="This article talks about advantages of a quantum computer and challenges faced in building them">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>QEMU/KVM for Virtual Machines</title>
+        <title>Quantum Supremacy: Is it hyped?</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/qemu-virtualization/">
+        <link rel="canonical" href="/blog/quantum-supremacy/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -118,10 +118,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-05-16 15:30:30 +0530" class="date">16 May 2018</time>
+            <time itemprop="datePublished" datetime="2018-06-23 15:30:00 +0530" class="date">23 Jun 2018</time>
         
-        <h1 class="post-title" itemprop="name">QEMU/KVM for Virtual Machines</h1>
-        <p itemprop="description" class="subtitle"></p>
+        <h1 class="post-title" itemprop="name">Quantum Supremacy: Is it hyped?</h1>
+        <p itemprop="description" class="subtitle">This article talks about advantages of a quantum computer and challenges faced in building them</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -171,99 +171,80 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>A “virtual machine” or “VM” is a virtual computer system. It is a tightly isolated software container with an operating system and application inside. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or “host.”</p>
+                <p>The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really :p).  These may be some of the questions arising in your mind when you hear someone say quantum computer. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.</p>
 
-<p>A thin layer of software called a “hypervisor” decouples the virtual machines from the host and dynamically allocates computing resources to each virtual machine as needed.</p>
+<h2 id="fundamentals">Fundamentals</h2>
 
-<h2 id="introduction">Introduction</h2>
-<h3 id="qemu-and-kvm">QEMU and KVM</h3>
-<p>QEMU or Quick Emulator is an open-source machine emulator and virtualizer. It can be used for full-system emulation, user-mode emulation as well as virtualization. We’ll be using the full-system emulation capabilities here.</p>
+<p>All the electronic devices that we use in our daily lives are classical. They work on streams of classical bits. These classical bits are represented mathematically in binary digits - 0 and 1. The basic building blocks of a quantum computer, however, is something known as a <strong>qubit</strong>. A classical bit is either 0 or it is 1, it cannot be both at the same time. But a qubit can be in states 0 and 1 simultaneously. This property of being in multiple states simultaneously is called <strong>superposition</strong>.</p>
 
-<p>KVM or Kernel-based Virtual Machine on the other hand is a virtualization infrastructure which turns Linux into a hypervisor. It is part of the Linux kernel mainline since 2007. KVM when activated along with Qemu, speeds up the emulation several times.</p>
+<p><img src="/blog/assets/img/quantum-supremacy/qubit.png" alt="Difference between classical bit and qubit ([image credit](http://qoqms.phys.strath.ac.uk/research_qc.html))" /></p>
 
-<p><img src="/blog/assets/img/qemu-virtualization/kvm_qemu.png" alt="Virtualization architecture showing QEMU sitting between the Guest OS and KVM" /></p>
+<p>In a classical computer, a bit is represented physically as two distinct states of a system. It could be two distinct levels of voltage or current, two stable states of a flip-flop, two directions of magnetizations, etc. A qubit too can also be represented physically. Qubit is not just a theoretical concept. Some of the physical realizations of a qubit are using polarization of photon and electron spin, there are many more ways. In fact each quantum computer that is being built today uses a different type to physically represent a qubit.</p>
 
-<p>To demonstrate QEMU’s capabilities we’ll create a Debian VM (for potential use as a SSH server)</p>
+<p>The process of finding out the value of the bit is called <strong>measurement</strong> of the bit. Classical measurement is very obvious, you simply find out the value of the bit. If the bit turns out to be 0 then you know that it is 0 for sure, if it is 1 then you know that it is 1 for sure. There is no problem with classical measurement. However, this is not the case with qubit measurement. Measuring a qubit forces the qubit to take the state of 0 or 1, but not both. Hence the superposition is lost once a qubit is measured. Upon measuring, the qubit is said to have “collapsed” to either state 0 or 1. If you measure this same qubit for the second time it gives the same result as first measurement. You can also interpret it as measurement process has converted the qubit to a classical bit. There is something even more interesting. A qubit in superpostion has some probabilities of being in state 0 or 1. When this qubit is measured it collapses to 0 or 1 based on these probabilities. The only way of finding these probabilities is to measure infinite copies of the same qubit and counting how many times it gives 0 and 1.   To better understand measurement, think about a coin toss as analogy. When the coin is in air, it is in superposition of two states – head and tail. Probability of getting head or tail depends on the inherent property of the coin. Here,  a coin is said to be “measured” when it falls flat and shows either head or tail. “Superposition” of the coin is lost when it is “measured”.</p>
 
-<h2 id="setting-up-the-environment">Setting up the environment</h2>
-<h3 id="installing-qemu">Installing QEMU</h3>
-<p>QEMU is available as a PPA for Ubuntu, which can be downloaded using</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt-get install qemu
-</code></pre></div></div>
-<p>QEMU isn’t one single program, rather it is a large set of tools and utilities each of which serve a different purposes.</p>
+<p><img src="/blog/assets/img/quantum-supremacy/measurement.png" alt="Measurement of qubit ([image credit](https://www.clerro.com/mobile/guide/580/quantum-computing-explained))" /></p>
 
-<h3 id="downloading-the-iso-image">Downloading the iso image</h3>
-<p>We need a Debian installation image before we can get started with QEMU. A simple wget command can download the image from the Debian’s online repositories.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.2.1-amd64-netinst.iso
-</code></pre></div></div>
+<h2 id="what-makes-it-special">What makes it special</h2>
 
-<h3 id="creating-a-virtual-hard-disk">Creating a virtual hard-disk</h3>
-<p>The first step in creating the VM is to create storage space to install the operating system on. We’ll create something called a virtual hard drive (VHD). A virtual hard drive is a hard drive image with its own partition table, onto which operating systems can be installed. We can create one using the <em>qemu-img</em> utility which comes bundled with QEMU.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-img create <span class="nt">-f</span> qcow2 debian.qcow2 6G
-</code></pre></div></div>
-<p>The command takes the location and size of the VHD as arguments. The <em>-f</em> option specifies the format for the disk-image as <em>qcow2</em> - QEMU’s proprietary format - and the last argument is for the size of the disk to be created.</p>
+<h4 id="parallelism">Parallelism:</h4>
+<p>Lets go beyond a single qubit to multiple qubits. If there are two qubits then there are four states (00, 01, 10, 11) in superposition. So a two qubit state can represent all possible 2-bit states (which are 4 in number). A 100 qubit state can represent all possible 100-bit states, which is 2 <sup>100</sup> , at once. That is a very very very huge number! A quantum computer can parallelly compute all these states. It is this power of parallel computation that greatly sets it apart from a classical computer. Parallel computation in classical computers require number of hardware components in the order of (N). While for quantum computers, the number of qubits required is of order (log(N)).</p>
 
-<h2 id="installing-the-iso-and-booting-up-vm">Installing the ISO and Booting Up VM</h2>
-<h3 id="installation">Installation</h3>
-<p>To install the Debian iso image onto the virtual hard-drive we just created, we can use the QEMU utility for <em>x86_64</em> emulation. QEMU provides a variety of commands as <em>qemu-system-{system-architecture}</em> for use with different architectures. We’re here emulating a 64-bit machine and hence make use of the <em>qemu-system-x86_64</em> command.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-system-x86_64 <span class="nt">-enable-kvm</span> <span class="nt">-hda</span> debian.qcow2 <span class="nt">-cdrom</span> ../Downloads/debian-9.1.0-amd64-netinst.iso <span class="nt">-net</span> user <span class="nt">-net</span> nic <span class="nt">-m</span> 4G <span class="nt">-boot</span> d 
-</code></pre></div></div>
-<p>The command takes as input options - most of which are self-explanatory - and boots up the machine from the iso image mounted as a CD drive. From here on the time taken to install depends on the amount of ram allocated and whether the iso needs to download any packages.</p>
+<p>This property of parallelism can be used to solve problems that classical computers cannot solve. For example, the problem of finding factors of an integer is a hard problem. Currently, there exists no classical algorithm that can solve the factorization in polynomial time.  1994, a mathematician named Peter Shor devised a quantum algorithm to solve the factorization problem in polynomial time (polynomial in log N, which is the size of the input). This algorithm is called Shor’s algorithm.  Another problem is the search problem – search for an element among N elements. The best classical algorithm has complexity - order of N. However, there exists an algorithm named Grover’s algorithm which can solve the search problem in order of square root of N.</p>
 
-<p>Once the install is complete, QEMU reboots automatically. We can then close the window and go back to the terminal.</p>
+<h4 id="cryptography">Cryptography</h4>
+<p>Quantum computers play an important in cryptography. The security of existing cryptographic algorithms used depend on the hardness of problems like integer factorization and discrete-log problem. But quantum computers can solve these problems in polynomial time and hence can break systems like RSA encryption, Diffie-Hellman key exchange protocol easily. This is scary! However, on the brighter side, quantum computers open up a new area of cryptography where private keys can be exchanged with perfect secrecy. Using the property of superposition,  it is easy to generate random keys and it is also possible to send these keys across a public channel with perfect secrecy. Perfect secrecy is the ultimate goal of cryptography which can be fulfilled by a quantum computer.</p>
 
-<h3 id="booting-up">Booting up</h3>
-<p>Now to boot up the virtual machine, we use</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-system-x86_64 <span class="nt">-enable-kvm</span> <span class="nt">-hda</span> debian.qcow2 <span class="nt">-boot</span> c <span class="nt">-net</span> user <span class="nt">-net</span> nic <span class="nt">-m</span> 2G
-</code></pre></div></div>
-<p>The <em>-boot c</em> option lets the machine boot up from the hard-drive image.</p>
+<h4 id="simulations">Simulations</h4>
+<p>The most important advantage of a quantum computer is that it can be used to simulate quantum mechanical experiments. No classical computer can simulate these experiments with 100% accuracy. Remember, the whole world is quantum, not classical!. Hence quantum computers can help us to progress in scientific research and greater understanding of our universe.</p>
 
-<p>QEMU also gives us a cool amount of options to tweak our machine to our liking.</p>
-<h2 id="options-in-qemu">Options in QEMU</h2>
-<h3 id="using-ssh-to-login-to-the-machine">Using SSH to login to the machine</h3>
-<p>One way to use the machine in headless mode is to SSH into it using a terminal on our host. For this we need to add <em>-redir tcp:5022::22</em> to our machine startup command. What this does is that it redirects the port 22 of our guest machine into port 5022 of our host. Thus letting us use the machine via SSH. Another option which comes in use is <em>-display none</em> which tells QEMU not to open up an emulator window, since we don’t need it if we are logging into the machine using SSH. Now, to login using SSH, the usual procedure can be followed on the host machine.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh <span class="nt">-p</span> 5022 &lt;user&gt;@&lt;hostname&gt;
-<span class="nv">$ </span>&lt;user&gt;@&lt;hostname&gt;<span class="s1">'s password:
-</span></code></pre></div></div>
-<p>Where <em>user</em> and <em>hostname</em> are the username and hostname for the machine we created.</p>
+<h2 id="challenges">Challenges</h2>
 
-<p>To power the machine down, we need to login as root using root’s password, and then type in into the terminal</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># poweroff</span>
-</code></pre></div></div>
+<p>Building a quantum computer is certainly not easy. The field of quantum computation is still in its infancy, just like how classical computers were a few decades ago. There are many challenges to overcome before one can build a true quantum computer that can be made available for general use. Quantum computers are extremely <strong>sensitive to the environment</strong>. This is because interaction with the environment causes the state of qubits to collapse as discussed previously. Isolating quantum computers is a very difficult engineering problem. Just like classical gates, there are quantum gates. The implementation of these gates physically are likely to cause <strong>errors</strong>. The registers storing qubits may have already been affected by the environment before the computation even begins.  Also greater the number of qubits in quantum computer, greater is the “noise” present in it., which leads to incorrect computations.</p>
 
-<h3 id="sharing-files-between-host-and-guest">Sharing Files Between Host and Guest</h3>
-<p>Viewing host’s files on the guest is one problem that arises quite often while using virtual machines. QEMU solves this by providing an in-built Samba file server.
-It can be started by adding <em>-smb {shared directory path}</em> to the command for starting the VM. On the guest machine, <em>smbclient</em> needs to be installed in order to access the shared folders. On the guest machine run,</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>apt-get install smbclient
-<span class="nv">$ </span>smbclient //10.0.2.4/qemu/
-<span class="nv">$ </span>Enter user<span class="s1">'s password:
-</span></code></pre></div></div>
-<p>Now we can browse the shared directory. If we need to share files, we can copy them into the shared directory on the host, and then access them through the guest, using <em>smbcleint</em>.</p>
+<p>We take copying data for granted in classical computer. However, in quantum computation copying unknown data is not possible. In fact there is a theorem to prove it called <strong>no-cloning theorem</strong>. So any specific unknown state cannot be determined. This means that unless the state is specifically created, we have limited ability to control it.</p>
 
-<h3 id="emulating-specific-cpus">Emulating specific CPUs</h3>
-<p>While being used for system emulation QEMU can emulate specific CPUs as well. This can be achieved by using the <em>-cpu</em> option. To bring up a list of CPUs QEMU can emulate, use <em>-cpu ?</em>. And then use that CPUs name in the command. Here I emulated an Intel i7.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-system-x86_64 <span class="nt">-m</span> 4G <span class="nt">-hda</span> debian.qcow2 <span class="nt">-enable-kvm</span> <span class="nt">-cpu</span> Nehalem <span class="nt">-net</span> nic <span class="nt">-net</span> user <span class="nt">-redir</span> tcp:5022::22 <span class="nt">-redir</span> tcp:9080::80 <span class="nt">-smb</span> ~/c-prog
-</code></pre></div></div>
-<p>This can come in especially useful when using the virtual machines for cross-compiling for a specific architecture.</p>
+<h2 id="race-for-supremacy">Race for supremacy</h2>
 
-<h3 id="preventing-cursor-capture">Preventing Cursor Capture</h3>
-<p>Cursor capture happens when the guest machine prevents the cursor from being used on the host, i.e. the cursor becomes local to the guest machine. To release the cursor, we need to press <em>Alt + Ctrl</em>. Having to do this can be annoying at times. So, we can prevent the cursor from being captured by using the <em>-show-cursor</em> option. This works well when used along with the <em>-enable-kvm</em> option being enables.
-Enabling KVM speeds up emulation, and hence leads to a lower chance of the cursor being captured. Whereas <em>-show-cursor</em> ensures that the cursor is shown at all times, even if the guest machine doesn’t have a GUI.</p>
+<p>Humans have never given up when it comes to overcoming challenges. This applies to quantum computation as well.  Extremely great computation power to solve unsolved problems is the driving motivation for ongoing research and engineering in this field. Hence there is lot of competition among companies to build a quantum computer that surpasses the computation capabilities of classical computers.  This potential ability of a quantum computer to solve problems that classical computers cannot solve is called <strong>quantum supremacy</strong>. The term “quantum supremacy” was coined by John Preskill, a theoretical physicist at the California Institute of Technology.</p>
 
-<h2 id="conclusion">Conclusion</h2>
-<p>We’ve just created a simple VM running Debian. I aim to use it as an isolated environment for programming, and maybe learning a few networking concepts while I’m at it. Qemu is also available on Windows so this VM can be accessed from Windows as well, providing a consistent programming environment regardless of which host OS it’s run on top of. Another interesting use case for QEMU VMs is to build updated Linux images, download and install packages and install an operating system on a SD card for raspberry pi or other such embedded boards so that you can directly get to working on the board without having to worry about network issues and having to connect to a monitor.</p>
+<p>Companies like IBM, D-Wave, Google, Intel, Microsoft are the major players in this field now. D-Wave was the first company to sell quantum computers commercially. In January 2017, D-Wave released a 2048-bit quantum computer named D-Wave 2000Q. But this is not a true quantum computer. “The Holy Grail of quantum computing to build a ‘universal’ quantum computer—one that can solve any computational problem—but at a vastly higher speed that today’s computers,” Hilton told EE Times. “That’s the reason some people say we don’t have a ‘real’ quantum computer—because D-Wave’s is not a ‘universal’ computer.”</p>
+
+<p><img src="/blog/assets/img/quantum-supremacy/bristlecone.png" alt="Google's Bristlecone ([image credit](https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html))" /></p>
+
+<p>Google has been claiming recently that it would achieve quantum supremacy in the near future. Google’s latest quantum processing chip with 72 qubits, called Bristlecone, has been predicted to achieve quantum supremacy. There are still a lot of tests to be conducted though ,to claim this achievement. IBM has also been investing a lot in building a universal quantum computer and boasts of a 50 qubit processor. IBM has created an online platform, named IBM Q Experience, which allows access to their <a href="https://quantumexperience.ng.bluemix.net/qx/experience">5-bit quantum computer for free</a> and 16-qubit computer for some cost. They have good documentation to help you get started with using them.</p>
+
+<p>But should quantum supremacy be the main objective of building a quantum computer. Does the concept of quantum supremacy make sense? 
+“You’ll struggle to find any [researcher] who likes the term ‘quantum supremacy,’” says Simon Benjamin, a quantum expert at Oxford University. “It’s very catchy, but it’s a bit confusing and oversells what quantum computers will be able to do.” 
+“I don’t believe that quantum supremacy represents a magical milestone that we will reach and declare victory,” says theorist Jay Gambetta at IBM. “I see these ‘supremacy’ experiments more as a set of benchmarking experiments to help develop quantum devices.”
+Some researchers have suggested that there should be focus on “<strong>quantum advantage</strong>” instead. Quantum advantage refers to the specific tasks that only quantum computers can do.  Other terms used for this are “quantum ascendancy” and “quantum inimitability”. 
+Even John Preskill, who coined the term “quantum supremacy” published a paper in January 2018 published a paper in which he said quantum computing was about to enter a phase he called NISQ, or “noisy intermediate stage quantum,” where machines will have 50 to a few hundred qubits. “‘Noisy,’” he wrote, “means that we’ll have imperfect control over those qubits; the noise will place serious limitations on what quantum devices can achieve in the near term.” Preskill said he’s still convinced quantum computers will have a transformative effect on society, but that transformation, he concedes, “may still be decades away.”</p>
+
+<p>##Resources</p>
+
+<ul>
+  <li>
+    <p><a href="https://quantumexperience.ng.bluemix.net/qx/experience">Use IBM’s 5-qubit processor for free</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.linkedin.com/pulse/why-d-wave-quantum-computers-have-yet-brought-supremacy-kaiser">Why D-Wave quantum computers have not yet brought quantum supremacy?!</a></p>
+  </li>
+  <li>
+    <p><a href="https://futurism.com/quantum-computing-qa/">Quantum Computing Is Going to Change the World. Here’s What This Means for You</a></p>
+  </li>
+</ul>
 
             </article>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/archit.jpg" alt="Archit Pandey">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/shashank_p.jpg" alt="Shashank P">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Archit Pandey</a>
+            <a itemprop="name" href="/">Shashank P</a>
         </h3>
-        <p class="desc">Open-source enthusiast</p>
-        <a itemprop="email" class="email" href="mailto:archpndy@gmail.com">archpndy@gmail.com</a>
+        <p class="desc">Fascinated about computer science and mathematics</p>
+        <a itemprop="email" class="email" href="mailto:shashankp5424@gmail.com">shashankp5424@gmail.com</a>
     </div>
 </section>
 
@@ -283,15 +264,15 @@ Enabling KVM speeds up emulation, and hence leads to a lower chance of the curso
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/qemu-virtualization/%20via%20&#64;IEEE_NITK&hashtags=virtualization,qemu,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/quantum-supremacy/%20via%20&#64;IEEE_NITK&hashtags=Quantum Computing,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//qemu-virtualization/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//quantum-supremacy/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//qemu-virtualization/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//quantum-supremacy/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

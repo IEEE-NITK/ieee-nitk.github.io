@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Quantum Supremacy: Is it hyped?",
+      "category" : "CompSoc",
+      "tags"     : "Quantum Computing",
+      "url"      : "http://ieeenitk.org/blog//quantum-supremacy/",
+      "date"     : "23 Jun 2018"
+    } ,
+  
+    {
       "title"    : "Earthing Systems",
       "category" : "CAS/SPS",
       "tags"     : "heavy electronics",

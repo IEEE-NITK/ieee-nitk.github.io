@@ -5,9 +5,23 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jun 2018 18:07:34 +0530</pubDate>
-    <lastBuildDate>Mon, 18 Jun 2018 18:07:34 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Sat, 23 Jun 2018 15:00:23 +0530</pubDate>
+    <lastBuildDate>Sat, 23 Jun 2018 15:00:23 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Quantum Supremacy: Is it hyped?</title>
+        <description>&lt;p&gt;The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really :p). These may be some of the questions arising in your mind when you hear someone say quantum computer. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in...</description>
+        <pubDate>Sat, 23 Jun 2018 15:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/quantum-supremacy/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/quantum-supremacy/</guid>
+        
+        <category>Quantum Computing</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Earthing Systems</title>
@@ -152,22 +166,6 @@
         
         
         <category>Envision</category>
-        
-      </item>
-    
-      <item>
-        <title>Washable Electronics using Water repellant Graphene Circuits</title>
-        <description>&lt;p&gt;&lt;strong&gt;Washable electronics? Water-repellent graphene circuits make it possible!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;New graphene printing technology can produce electronic circuits that are low-cost, flexible, highly conductive and water repellent.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/washable-electonics/1.jpg&quot; alt=&quot;Landing image&quot; /&gt; The nanotechnology “would lend enormous value to self-cleaning wearable/washable electronics that are resistant to stains, or ice and biofilm formation,” according to a recent paper describing the discovery.&lt;/p&gt; &lt;p&gt;According to Jonathan Claussen, an Iowa State University assistant professor of mechanical engineering, an associate of the U.S. Department of Energy’s Ames Laboratory, they’re taking low-cost, inkjet-printed graphene and tuning it with a laser to make functional materials.&lt;/p&gt; &lt;p&gt;The research group used...</description>
-        <pubDate>Wed, 16 May 2018 15:30:30 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/washable-electronics/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/washable-electronics/</guid>
-        
-        <category>graphene</category>
-        
-        <category>electronics</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
