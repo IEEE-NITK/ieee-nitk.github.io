@@ -17,7 +17,7 @@
 	* [Home Page](index.html)
 	* [Team Page](team.html)
 	* [CompSoc Page](compsoc.html)
-	* [CAS Page](cas.html)
+	* [CAS Page](diode.html)
 	* [Piston Page](piston.html)
 
 ### Contributing to Blog or Gyan Section
