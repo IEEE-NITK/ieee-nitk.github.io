@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>The world of sport is continually changing over the years, and the use of technology is just one of those areas that has made an impact on many sports. It has changed the way players approach a particular sport. Various technologies are used to assist umpires or referees, while some of them are used for advanced coaching and enhanced experience for fans.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>The world of sport is continually changing over the years, and the use of technology is just one of those areas that has made an impact on many sports. It has changed the way players approach a particular sport. Various technologies are used to assist umpires or referees, while some of them are used for advanced coaching and enhanced experience for fans.</p>
 
 <h2 id="a-digital-coach">A digital coach…</h2>
 <p>In the recently concluded Champions Trophy 2017, smart bats were used to obtain various data. Small sensors, fixed at the top of the handle, were used. 
@@ -192,7 +197,17 @@ Snick-o-Meter is a very sensitive microphone located in one of the stumps, whic
 <p>Over the past few years media broadcasting has improved with advancement in camera technology. Technology is being used for deciding players’ diet, proper clothing material for match comfort and the players’ safety. 
 Research is going on to discover how technology can be used in sports. Various equipment designs for players safety, apps and websites for fans are being developed. Seeing the technology growth, one won’t be surprised to see a robot-umpire in the future.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">Technology in Sports</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

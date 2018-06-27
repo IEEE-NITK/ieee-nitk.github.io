@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.</p>
 
 <p>What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.</p>
 
@@ -237,7 +242,17 @@ This is really good usage that I need constantly. When I’m in my cammpus netwo
 
 <p>I hope you find mDNS useful. Untill then, this is <em>hrily</em> signing off…</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Making Iot communications easy using mDNS</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

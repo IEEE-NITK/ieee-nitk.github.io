@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
 <h3 id="what-interested-you-or-attracted-you-to-this-particular-internship-and-why">What interested you or attracted you to this particular internship and why?</h3>
 
 <p>I got my internship at IIT Delhi. I came here through the Research Fellowship Programme, by the Indian Academy of Sciences. This programme doesn’t give you the choice of the place where you want to intern. It just gives you the best place in India to do your Summer Research Internship based on your interest. So, you never know where you might end up but it’s assured that it’ll be the best place. This internship programme is one of the most coveted internship programmes. It gives you an edge over others given the quality of research work you can learn and do. And yes, there’s stipend too.</p>
@@ -201,7 +207,18 @@
 
 <p>Getting internship through IAS is the best you can get. It is also worth trying for the GIPEDI internship at IIT Delhi. It’s a good mix of both social and research skills.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsIASResearch</span>
+        <span id="category">Diode</span>
+        <span id="title">IAS Internship Experience - Mohita Chowdhury</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

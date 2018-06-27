@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
 <h3 id="what-interested-you-or-attracted-you-to-this-particular-internship-and-why">What interested you or attracted you to this particular internship and why?</h3>
 
 <p>I did my research internship in Centre for Product Design and Manufacturing, Indian Institute of Science, Banglore. The department, chaired by Prof.Amaresh Chakrabarti, a pioneer of field of design research, was one of the few centres in the country dealing with design research and development. The activities there called for innovation and creativity, which is exciting to practice and work upon.</p>
@@ -203,7 +209,18 @@
 
 <p>Design field is really interesting for all the creative and innovative minds. But the experimental methods employed here are more like questionnaire, video ethnography and doesn’t have the experiments in a laboratory setup that many has in mind when you hear about a research internship. It is all upto your interests.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsResearch</span>
+        <span id="category">Piston</span>
+        <span id="title">IISc, Bangalore, Internship Experience - Akshay Krishna</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

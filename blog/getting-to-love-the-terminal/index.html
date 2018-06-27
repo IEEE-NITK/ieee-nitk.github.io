@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="i-just-got-ubuntu">I Just Got Ubuntu!</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="i-just-got-ubuntu">I Just Got Ubuntu!</h2>
 <p><sub>But I’m not so sure about this command line</sub></p>
 
 <p>Early days with the Unix command line interface, or the terminal (bash shell by default) can be pretty annoying and intimidating.</p>
@@ -253,7 +258,17 @@ alias myfolder="cd path/to/my/folder"
 
 <p><a href="http://www.tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html">Bash Scripting Guide</a></p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Getting to love the Terminal</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

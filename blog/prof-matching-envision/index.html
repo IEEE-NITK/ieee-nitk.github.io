@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="idea">Idea</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="idea">Idea</h2>
 <p>Finding research/internship opportunity under a professor’s guidance is exceedingly difficult because the professors are very busy and students are not well aware of the professors who are ready to give internship opportunities. The professor has to shortlist the resumes and the student has to find out and send a resume to every professor offering a research opportunity. Obviously, this is a time consuming and tiresome process for both students and the professors.</p>
 
 <p>We came up with a idea which not only speeds up this process but also makes it hassle-free. The idea is to create a platform which comprises of students and professors and then, try to create a match from their preferences. The professor and student both login into this platform and set their preferences (for example professor sets his minimum cgpa as 8 while the student can set the cgpa he secured as 8.2). A recommender system works in the background which takes up each professor, one at a time and tries to create a match with the students in the platform. It then generates a list of students which match the criteria and the professor can just pick the students from the list.</p>
@@ -217,7 +222,17 @@ Login Screen</p>
 <p><img src="/blog/assets/img/prof-matching/list-of-students.jpg" alt="List of Students" />
 List of students who match a Professor’s Criteria</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Envision</span>
+        <span id="title">Envision Project 1 - Professor Matching for Research Internships</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

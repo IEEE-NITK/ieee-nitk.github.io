@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Wondering when artificially intelligent robots will take over the Earth? Wonder no more — they’ve already done it! You’re probably thinking</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Wondering when artificially intelligent robots will take over the Earth? Wonder no more — they’ve already done it! You’re probably thinking</p>
 
 <blockquote>
   <p>But wait. Wouldn’t I have noticed if chrome-plated autonomous killing machines began to exterminate humans? 
@@ -200,7 +205,17 @@ After just three days of self-training it was put to the ultimate test against A
   <p>The machines are here, and they have won.</p>
 </blockquote>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Compsoc</span>
+        <span id="title">The Beginning Of The End - Have The Machines Won?</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

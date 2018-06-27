@@ -116,12 +116,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -184,8 +188,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
 <p>At it’s most basic hashing is a technique to identify a particular value of a certain type among other values of the same type. To achieve this we typically make use of a hash function: a function that takes a value of the required type as input and generates a “key” that (hopefully) can uniquely identify this value. In this article we’ll look at how this function works, how it’s implemented in C++, and how to apply hashing to solve a Competitive Programming problem.</p>
 
 <h2 id="hashing-in-c">Hashing in C++</h2>
@@ -233,7 +238,17 @@ This can be improved by storing each prefix parity value as a hash.
 In the above expression $S_i = 0$ if degree of $i^{th}$ vertex is even and 1 otherwise. 
 This reduces memory use to $O(N)$ and query time to $O(1)$.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Hashing in Competitive Programming</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

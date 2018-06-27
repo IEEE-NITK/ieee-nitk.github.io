@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s doing it? Read this article to find out!</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s doing it? Read this article to find out!</p>
 
 <p>Even though they may be fragile today as well as they need to be kept at temperatures close to absolute zero, Quantum computers aren’t much like the desktop PCs we’re all so familiar with—they’re a whole new kind of machine, capable of calculations so complex, it’s like <strong>upgrading from black-and-white to a full color spectrum</strong>.</p>
 
@@ -280,7 +285,17 @@ Intel has just entered the race with their 17-qubit processor released in Octobe
 
 <p><a href="https://quantumexperience.ng.bluemix.net/qx/editor">Want a quantum experience?</a></p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">The Future of Computing: Quantum Computing</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

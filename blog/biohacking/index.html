@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Ever fantasied becoming the Cyborg from DC comics universe? Well, brace yourself, because that dream is soon to come into reality.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Ever fantasied becoming the Cyborg from DC comics universe? Well, brace yourself, because that dream is soon to come into reality.</p>
 
 <p>Introducing Biohacking, a fairly new practice that could bring major changes in human life as we know it. Biohacking can be defined as a “social movement involving studying basic biology and exploiting it to make electronic implants made using easily available equipment”. In short, you make a cyborg out of yourself. As “punk” as it sounds, this practice caught the attention of media because of the possibilities it opens.</p>
 
@@ -195,7 +200,17 @@
 
 <p>Not only can you repair the human body, you can even modify it giving yourself special abilities. This “social movement” is bound to create Iron Mans and Cyborgs in the coming future :D.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Biohacking</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

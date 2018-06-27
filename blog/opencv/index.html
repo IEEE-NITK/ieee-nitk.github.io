@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h3 id="why-learn-image-processing">Why learn Image Processing?</h3>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h3 id="why-learn-image-processing">Why learn Image Processing?</h3>
 
 <p>This is the question I was primarily asked when I first started exploring just exactly what Image Processing can offer. As time passed, I soon found the now seemingly obvious answer. Although the name, Image Processing, itself suggests manipulating an image for either aesthetic pleasure or requirement, Image Processing actually provides a gateway for the next revolution in engineering. As more and more people become accustomed to having human tasks being done by machines, image processing becomes crucial in training and programming these machines to flourish. Image processing not only provides the framework for Computer Vision but also gives way to Industrial Automation, Artificial Intelligence and much more. OpenCV is used for many Image and Video processing applications such as Facial Recognition, Object Detection, Photo Editing, Robotic Vision, Character Recognition and so much more!</p>
 
@@ -215,7 +220,17 @@ Now without dwelling with the non-technical details, let us dive into the world 
 
 <p>All the Best!</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">A QuickStart Guide to Image Processing with OpenCV</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
