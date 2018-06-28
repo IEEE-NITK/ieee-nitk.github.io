@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Jun 2018 15:00:23 +0530</pubDate>
-    <lastBuildDate>Sat, 23 Jun 2018 15:00:23 +0530</lastBuildDate>
+    <pubDate>Wed, 27 Jun 2018 20:08:21 +0530</pubDate>
+    <lastBuildDate>Wed, 27 Jun 2018 20:08:21 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
         <title>Quantum Supremacy: Is it hyped?</title>
-        <description>&lt;p&gt;The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really :p). These may be some of the questions arising in your mind when you hear someone say quantum computer. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in...</description>
+        <description>&lt;p&gt;The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!). These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in our...</description>
         <pubDate>Sat, 23 Jun 2018 15:30:00 +0530</pubDate>
         <link>http://ieeenitk.org/blog/quantum-supremacy/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/quantum-supremacy/</guid>

@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="applying-makeup">Applying Makeup!</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="applying-makeup">Applying Makeup!</h2>
 <p><img src="/blog/assets/img/fluid-mech-everyday-life/1.jpg" alt="Image1" /></p>
 
 <p>When you put on eye shadow or powder, you are most definitely applying shear and pressure forces. When you put foundation on a sponge and smear it over your face you can feel the shear stress acting on your face. Furthermore, the shear stress increases as the foundation moves from the sponge to your face. This causes no slip at the boundary, which allows the foundation to stick to your face rather than slide off. This is a great example of Couette Flow!!! It is amazing to realize how much fluid mechanics applies to our lives. I’m excited about using all that I have learned to better understand the world.</p>
@@ -216,7 +221,17 @@
 
 <p>Today as I brushed my teeth, I was reminded of the extreme difference between the viscosity of water and the viscosity of the toothpaste. Water is a Newtonian fluid that has a very low viscosity and flows freely at room temperature. My toothpaste, on the other hand, has a very high viscosity. It is actually considered a Non-Newtonian plastic fluid because a shear force must be applied to it before it will move! This works to my advantage when I brush my teeth! Think how hard it would be to put toothpaste on your toothbrush if it just poured out of the container when you opened the cap!</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Fluid mechanics in everyday life</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

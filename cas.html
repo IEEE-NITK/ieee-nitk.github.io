@@ -53,9 +53,11 @@
 		<script src="js/sig.js"></script>
 		<script src="js/particles.js"></script>
 		<script src="js/slider.js"></script>
+		<script src="js/sidebar.js"></script>
         <script>
         	$(document).ready(function(){
-        		loadAndDisplay("diode.json");
+				loadAndDisplay("diode.json");
+				loadArticles("blog", "cas");
         	});
         </script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -123,23 +125,30 @@
             <div id="particles-js"></div>
 			
 			<div class="block_title">
-				<h1>Diode
-				</h1>
+				<h2>Diode
+				</h2>
 			</div>
 		</div>
-		<div class="data_holder  prociono">
-			<div class="intro">
-				<div class="sub_title">
-					<h3>
-					About us
-					</h3>
+		<div class="content">
+			<div class="data_holder  prociono">
+				<div class="intro">
+					<div class="sub_title">
+						<h3>
+						About us
+						</h3>
+					</div>
+					<p class="sans">
+					The Circuits and Systems SIG works on conceiving and pioneering solutions to fundamental and applied problems in circuits and systems.
+					</p>
 				</div>
-				<p class="sans">
-				The Circuits and Systems SIG works on conceiving and pioneering solutions to fundamental and applied problems in circuits and systems.
-				</p>
+				<div class="projects" id="projects">
+					
+				</div>
 			</div>
-			<div class="projects" id="projects">
-				
+			<div class="sidebar">
+				<h3>Related Articles</h3>
+				<div class="related-articles">
+				</div>
 			</div>
 		</div>
 	</body>

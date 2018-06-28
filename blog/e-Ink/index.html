@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Let’s start with talking about the screen you’re currently glaring at to read this article. If you don’t scroll down then the screen is pretty much static right? Not really. Behind the screen, all the pixels controlling what you see is getting multiplexed so fast that our eyes make it out as a constant one. Basically, a word is constantly consuming energy just to remain onscreen.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Let’s start with talking about the screen you’re currently glaring at to read this article. If you don’t scroll down then the screen is pretty much static right? Not really. Behind the screen, all the pixels controlling what you see is getting multiplexed so fast that our eyes make it out as a constant one. Basically, a word is constantly consuming energy just to remain onscreen.</p>
 
 <p>If you write a word on paper, does it need any more energy to remain on the paper? No. It remains there forever. This is the basic idea behind E Ink. Energy should only be used to ‘write’ the word. After that, no more energy should be consumed.</p>
 
@@ -189,7 +194,17 @@
 
 <p>Nice right? Lots of innovations like these are happening in the world of E Ink. E Ink is slowly replacing LCD screens in lots of applications without us even noticing. The newly announced Advanced Colour E- Paper (ACeP) boasts of a display of 32000 colours. Currently they have a refresh rate of 2 seconds. Yes, the future is exciting. These durable easy to read screens are taking over the world from billboards to price tags to walls of your house. We have been imagining this future forever: the all screen worlds of <em>total recall, minority report, blade runner</em>, and other less dystopian movies.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">The E INK</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

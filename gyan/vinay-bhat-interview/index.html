@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="what-do-you-think-should-be-done-in-college-to-enhance-your-resume">What do you think should be done in college to enhance your resume?</h2>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="what-do-you-think-should-be-done-in-college-to-enhance-your-resume">What do you think should be done in college to enhance your resume?</h2>
 
 <p>One should Work hard to get a high GPA. An important aspect is to work on side projects as well-course projects or your own projects. Small projects help you understand and complete learning. It is ideal to contribute to Big Open Source repositories to understand big projects. Best thing is to try to leverage these projects into your first internship.  It is more important to learn one language properly rather than every langauge and not master any one of them. Ideally, one static - compiled language like C,C++, one dynamic language like Python or ruby and one esoteric language like Haskell, Erlang should be learnt properly. The final Goal at the end of the day is to translate your thoughts into code and knowing a language thoroughly helps in that immensely.</p>
 
@@ -192,7 +198,18 @@ Make sure you have a technical resume which doesn’t not include unnecessary th
 
 <p>Internships in general are useful beyond a classroom. The skills acquired are very different and gives you a new experience which is very helpful. One month isn’t quite a lot of time but it does make you grow, especially if it’s something different from what you’ve done earlier. It’s always better to spend time fruitfully rather than staying home and doing nothing.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsCareer AdviceIndustry</span>
+        <span id="category">CompSoc</span>
+        <span id="title">Advice on Computer Science - Vinay Bhat</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

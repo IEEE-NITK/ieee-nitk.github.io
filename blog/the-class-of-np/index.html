@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Many of us have this notion that NP stands for “Non Polynomial”, the problems which can’t be solved in polynomial time. This is not true. First of all, NP consist of only decision problem (given any problem, the answer should be yes or no) solvable in polynomial time by a theoretical non-deterministic Turing machine. Well, I am not going to cover non-deterministic Turing machine in this blog, so I will give another verifier based definition.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Many of us have this notion that NP stands for “Non Polynomial”, the problems which can’t be solved in polynomial time. This is not true. First of all, NP consist of only decision problem (given any problem, the answer should be yes or no) solvable in polynomial time by a theoretical non-deterministic Turing machine. Well, I am not going to cover non-deterministic Turing machine in this blog, so I will give another verifier based definition.</p>
 
 <h3 id="verifier-based-definition">Verifier Based Definition:</h3>
 <p>Consider a decision problem X. Let I be an instance of X for which the answer is “yes”. Now if we can indeed verify in polynomial time that the answer to I is “yes”, then we have a verifier for I. If there is a verifier for all such instances of X, then X is said to be in NP. Consider an example:</p>
@@ -197,7 +202,17 @@
 
 <p>You can follow the book ‘Algorithms’ by U.V. vazirani and ‘Introduction to Algorithms’ by Tardos for getting a better understanding.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">The Class of NP</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

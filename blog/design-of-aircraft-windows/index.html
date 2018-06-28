@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Everything in an aircraft you see is for a reason. Nothing is there coincidentally. And one such thing is the shape and design of the windows.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Everything in an aircraft you see is for a reason. Nothing is there coincidentally. And one such thing is the shape and design of the windows.</p>
 
 <p>With increase in commutation through flights, the aeroplanes started flying at higher altitudes, since lesser air density meant lesser drag which directly affected fuel efficiency. Also turbulence due to atmosphere is less. But some modifications had to be done to make the conditions safe for the passengers at high altitudes. So, a pressurized cabin was introduced into the flights. This pressurized cabin keeps the interior of the flight at a higher pressure compared to the low atmospheric pressure. This initiates an expansion of the flight due to which a stress field is formed.</p>
 
@@ -183,7 +188,17 @@
 
 <p>So, the next time you see <em>anything</em> in an aircraft, remember there’s loads of engineering behind it.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Design of Aircraft Windows</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

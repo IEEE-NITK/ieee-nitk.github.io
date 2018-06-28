@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="daad">DAAD</h2>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="daad">DAAD</h2>
 
 <p>The <a href="https://www.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?daad=1&amp;detail=50015295&amp;origin=4&amp;page=1&amp;q=wise&amp;status=1&amp;subjectGrps">DAAD WISE</a> scholarship provides an opportunity for students to apply to colleges in Germany.</p>
 
@@ -270,7 +276,18 @@
 <p><a href="http://iusstf.org/story/53-74-For-Indian-Students.html">SN Bose</a>
 <a href="http://www.inde.campusfrance.org/en/node/11234">Charpak (France)</a></p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsResearch</span>
+        <span id="category">CompSoc</span>
+        <span id="title">Internships Abroad</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

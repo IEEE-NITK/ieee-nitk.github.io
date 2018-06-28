@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><img src="/gyan/assets/img/vk-interview/vk.jpg" alt="VK Photo" /></p>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p><img src="/gyan/assets/img/vk-interview/vk.jpg" alt="VK Photo" /></p>
 
 <h2 id="why-signal-processing-why-not-core-electrical-what-fascinated-you-take-up-sp">Why signal processing? Why not core electrical? What fascinated you take up SP?</h2>
 
@@ -209,7 +215,18 @@ Academically, I used to do projects alone with only a little help from the senio
 <p>E-Mail ID : <a href="mailto:scivijay95@gmail.com">scivijay95@gmail.com</a> <br />
 Website : <a href="https://vknaganoor.github.io/">https://vknaganoor.github.io/</a></p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">Gyan</span>
+        <span id="category">Diode</span>
+        <span id="title">A talk with - Vijayakrishna Naganoor</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

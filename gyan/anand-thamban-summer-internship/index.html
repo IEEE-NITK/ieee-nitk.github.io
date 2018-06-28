@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>My research interests include Fluid mechanics, Wind energy and Heat Transfer. Areas I’ve worked on are: Energy Harvesting form wind turbines, performance enhancement of hydro-kinetic turbine hydrofoils, and condensation on super hydrophobic heat exchangers.</p>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>My research interests include Fluid mechanics, Wind energy and Heat Transfer. Areas I’ve worked on are: Energy Harvesting form wind turbines, performance enhancement of hydro-kinetic turbine hydrofoils, and condensation on super hydrophobic heat exchangers.</p>
 
 <h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
 <h3 id="what-interested-you-or-attracted-you-to-this-particular-internship-and-why">What interested you or attracted you to this particular internship and why?</h3>
@@ -207,7 +213,18 @@
 
 <p>If anyone is interested in material science, nano/micro fabrication of silicon, heat transfer, then this a good lab to apply to. But you would not receive any stipend and the processing fee is quite high. If you are okay with shelling out some money then this is a good opportunity. It’s a pretty good investment.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsResearch</span>
+        <span id="category">Diode</span>
+        <span id="title">University of Illinois at Urbana-Champaign, Internship Experience - Anand Thamban</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
