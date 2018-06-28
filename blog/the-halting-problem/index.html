@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
 
 <p>If you have written computer codes, then you certainly would have fallen into the trap of infinite loops. Then you might have wondered if there is an algorithm to check if any given computer program runs into an infinite loop or not; in other words, to check if it halts or not. How wonderful it would be if such an algorithm exists! But alas, the truth is that there is no such algorithm, not because no one has found such an algorithm yet, but because there is no way of finding such an algorithm ever.</p>
 
@@ -230,7 +235,17 @@
   <li><a href="https://www.cs.rice.edu/~vardi/comp409/scooping.pdf">Poetic proof of Halting problem</a></li>
 </ul>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">The Halting Problem</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>The way smartphones have changed our lives is amazing. Technology has been ever bringing multiple facets of our daily lives within the scope of smartphones, which in turn gets smaller and slimmer. No more does our parents bother us to go and pay telephone or electricity bills (if you were a 90’s kid :P) neither does shopkeepers curse you for not having suitable denominations. It has all come down to few swipes and touches.
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>The way smartphones have changed our lives is amazing. Technology has been ever bringing multiple facets of our daily lives within the scope of smartphones, which in turn gets smaller and slimmer. No more does our parents bother us to go and pay telephone or electricity bills (if you were a 90’s kid :P) neither does shopkeepers curse you for not having suitable denominations. It has all come down to few swipes and touches.
 As new innovations brought the world closer and time shorter, it has not come without any drawbacks, same with the case of smartphones. Again, it’s the way we use it that puts the blot on this device, than the device itself doing the wrong.
 Most of us are already aware of the dangers a non-protected cyber world pose. But most of us neglect the health issues which can lead to heavy complications in the long run.</p>
 
@@ -194,7 +199,17 @@ The picture above clearly shows our tendency to lean our necks forward while usi
 
 <p>Our body and mind have fathomless capabilities yet to be metered. We haven’t let them out completely, and moreover, too much dependency on technology calls for lesser use of our body and mind. Do make sure you take ample breaks from your time on phones, to talk with others, to think, to dream or at least to take that occasional deep breaths, and trust us, you’ll feel much more better being alive. :)</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Smart Phones and Health issues</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

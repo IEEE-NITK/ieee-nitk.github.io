@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
 
 <p>Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents.</p>
 
@@ -204,7 +209,17 @@ There are a few different vacuum tube configurations, single wall tube, double w
 
 <p>The need was to minimize heat losses through convection and what better way can be, than to stop it completely from happening. The application of the simplest of concepts of eliminating convection by getting rid of the material medium itself has led to major improvements in this field as the efficiency has risen manifold.The understanding of fundamental sciences has provided one of the biggest leaps in the effort of making renewable energy efficient and inexpensive.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Evacuated Tube Collectors</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

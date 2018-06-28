@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="what-exactly-is-amazon-go"><strong>What exactly is Amazon Go?</strong></h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="what-exactly-is-amazon-go"><strong>What exactly is Amazon Go?</strong></h1>
 
 <p>Amazon Go is Amazon’s cashier-less shopping platform.
 Contrary to Amazon’s online website, the Go is a brick and mortar store- similar to your regular convenience store.
@@ -223,7 +228,17 @@ It also runs into issues when there is a group of people shopping together- like
 
 <p>It is yet to be seen how Amazon will deal with these issues. However, the technology is still impressive and is completely unparalleled. It goes to show just how far Artificial Intelligence and Deep Learning will go on to influence our daily lives and how the future of retail shopping is shaping up.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CAS/SPS</span>
+        <span id="title">Amazon Go - Cashier Less Shopping</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

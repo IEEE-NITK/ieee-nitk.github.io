@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>It’s manually impossible to understand the structure of a dataset with 100 dimensions. And it’s fairly common to come across data having so many features. And the exploratory-analysis of data is a preliminary step, before proceeding to other aspects of data-wrangling and models. This is where t-SNE comes in.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>It’s manually impossible to understand the structure of a dataset with 100 dimensions. And it’s fairly common to come across data having so many features. And the exploratory-analysis of data is a preliminary step, before proceeding to other aspects of data-wrangling and models. This is where t-SNE comes in.</p>
 
 <p><a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a> is non-linear dimensionality reduction algorithm. It reduces each high-dimensional point and embeds them into a 2D/3D map. Additionally, it ensures that similar objects are nearby and dissimilar points are kept apart.</p>
 
@@ -295,7 +300,17 @@ Since t-SNE, doesn’t scale well, PCA is first applied to the data (PCA has a b
 
 <p>Despite these misgivings, t-SNE might probably be the first tool a data scientist uses in the morning! Have fun exploring it. Do comment below for any clarifications or suggestions.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">t-SNE</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

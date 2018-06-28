@@ -5,7 +5,8 @@
       "category" : "CompSoc",
       "tags"     : "Internships and Research",
       "url"      : "https://ieeenitk.org/gyan//adithya-bhat-summer-internship/",
-      "date"     : "15 Jun 2018"
+      "date"     : "15 Jun 2018",
+      "author"   : "Adithya Bhat"
     } ,
   
     {
@@ -13,7 +14,8 @@
       "category" : "Piston",
       "tags"     : "Internships and Industry",
       "url"      : "https://ieeenitk.org/gyan//shree-varsha-summer-internship/",
-      "date"     : "18 Feb 2018"
+      "date"     : "18 Feb 2018",
+      "author"   : "Shreevarsha"
     } ,
   
     {
@@ -21,7 +23,8 @@
       "category" : "Piston",
       "tags"     : "Internships and Research",
       "url"      : "https://ieeenitk.org/gyan//akshay-krishna-summer-internship/",
-      "date"     : "06 Feb 2018"
+      "date"     : "06 Feb 2018",
+      "author"   : "Akshay Krishna"
     } ,
   
     {
@@ -29,7 +32,8 @@
       "category" : "Diode",
       "tags"     : "Internships and Industry",
       "url"      : "https://ieeenitk.org/gyan//shwetha-sv-summer-internship/",
-      "date"     : "21 Jan 2018"
+      "date"     : "21 Jan 2018",
+      "author"   : "Shwetha S V"
     } ,
   
     {
@@ -37,7 +41,8 @@
       "category" : "Piston",
       "tags"     : "Internships and Research",
       "url"      : "https://ieeenitk.org/gyan//shashank-rao-summer-internship/",
-      "date"     : "06 Jan 2018"
+      "date"     : "06 Jan 2018",
+      "author"   : "Shashank Rao"
     } ,
   
     {
@@ -45,7 +50,8 @@
       "category" : "CompSoc",
       "tags"     : "Internships, Research, and DAAD",
       "url"      : "https://ieeenitk.org/gyan//natasha-jeppu-summer-internship/",
-      "date"     : "23 Dec 2017"
+      "date"     : "23 Dec 2017",
+      "author"   : "Natasha Jeppu"
     } ,
   
     {
@@ -53,7 +59,8 @@
       "category" : "Diode",
       "tags"     : "Internships and Research",
       "url"      : "https://ieeenitk.org/gyan//anand-thamban-summer-internship/",
-      "date"     : "17 Dec 2017"
+      "date"     : "17 Dec 2017",
+      "author"   : "Anand Thamban"
     } ,
   
     {
@@ -61,7 +68,8 @@
       "category" : "Diode",
       "tags"     : "Internships and Industry",
       "url"      : "https://ieeenitk.org/gyan//aditya-kulkarni-summer-internship/",
-      "date"     : "10 Dec 2017"
+      "date"     : "10 Dec 2017",
+      "author"   : "Aditya Kulkarni"
     } ,
   
     {
@@ -69,7 +77,8 @@
       "category" : "Diode",
       "tags"     : "Internships, IAS, and Research",
       "url"      : "https://ieeenitk.org/gyan//mohita-chowdhury-summer-internship/",
-      "date"     : "04 Dec 2017"
+      "date"     : "04 Dec 2017",
+      "author"   : "Mohiitaa Chowdhury"
     } ,
   
     {
@@ -77,7 +86,8 @@
       "category" : "CompSoc",
       "tags"     : "Internships, Career Advice, and Industry",
       "url"      : "https://ieeenitk.org/gyan//vinay-siemens/",
-      "date"     : "27 Aug 2017"
+      "date"     : "27 Aug 2017",
+      "author"   : "Vinay Bhat"
     } ,
   
     {
@@ -85,7 +95,8 @@
       "category" : "CompSoc",
       "tags"     : "Internships and Industry",
       "url"      : "https://ieeenitk.org/gyan//natasha-mathworks/",
-      "date"     : "19 Aug 2017"
+      "date"     : "19 Aug 2017",
+      "author"   : "Natasha Jeppu"
     } ,
   
     {
@@ -93,7 +104,8 @@
       "category" : "CompSoc",
       "tags"     : "Internships, Research, and Industry",
       "url"      : "https://ieeenitk.org/gyan//insight-2k17/",
-      "date"     : "12 Aug 2017"
+      "date"     : "12 Aug 2017",
+      "author"   : "Salman Shah"
     } ,
   
     {
@@ -101,7 +113,8 @@
       "category" : "CompSoc",
       "tags"     : "Internships and Research",
       "url"      : "https://ieeenitk.org/gyan//internships-abroad/",
-      "date"     : "12 Aug 2017"
+      "date"     : "12 Aug 2017",
+      "author"   : "Natasha Jeppu"
     } ,
   
     {
@@ -109,7 +122,8 @@
       "category" : "Diode",
       "tags"     : "Gyan",
       "url"      : "https://ieeenitk.org/gyan//vk-interview/",
-      "date"     : "15 Jul 2017"
+      "date"     : "15 Jul 2017",
+      "author"   : "Samarth Bonthala"
     } ,
   
     {
@@ -117,7 +131,8 @@
       "category" : "CompSoc",
       "tags"     : "Gyan",
       "url"      : "https://ieeenitk.org/gyan//kishor-bhat-interview/",
-      "date"     : "02 Jul 2017"
+      "date"     : "02 Jul 2017",
+      "author"   : "Swathi S Bhat"
     } ,
   
     {
@@ -125,7 +140,8 @@
       "category" : "Piston",
       "tags"     : "Research and Gyan",
       "url"      : "https://ieeenitk.org/gyan//abin-alex-interview/",
-      "date"     : "02 Jul 2017"
+      "date"     : "02 Jul 2017",
+      "author"   : "Pranay Praveen"
     } ,
   
     {
@@ -133,7 +149,8 @@
       "category" : "Diode",
       "tags"     : "Gyan",
       "url"      : "https://ieeenitk.org/gyan//gaurav-hegde-interview/",
-      "date"     : "20 Jun 2017"
+      "date"     : "20 Jun 2017",
+      "author"   : "Abhijith Kamath"
     } ,
   
     {
@@ -141,7 +158,8 @@
       "category" : "CompSoc",
       "tags"     : "Internships, Career Advice, and Industry",
       "url"      : "https://ieeenitk.org/gyan//vinay-bhat-interview/",
-      "date"     : "15 May 2017"
+      "date"     : "15 May 2017",
+      "author"   : "Vinay Bhat"
     } 
   
 ]

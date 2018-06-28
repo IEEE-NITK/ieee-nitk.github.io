@@ -203,18 +203,57 @@ div#particles-js {
     font-size: 3.5em;
     text-align: center;
 }
-.img_holder h1{
+.img_holder h2{
     font-weight: lighter;
 }
+
+.content {
+    margin: 0px;
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    margin: 30px;
+    margin-left: 0px;
+    padding-left: 30px;
+    border-left: 1px solid gray;
+}
+
+.sidebar h3 {
+    padding: 20px 0px 10px 0;
+    text-overflow: clip;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.article {
+    padding: 8px 0;
+}
+
+.article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(28, 69, 107);
+}
+
+.article a:visited {
+    color: rgb(131, 15, 155);
+}
+
+.article p {
+    font-size: small;
+}
+
 .data_holder {
     padding: 30px;
     width: 60%;
-    margin: 0px auto;
+    margin: 0px 10%;
+    flex: 2;
 }
 .daa_holder p{
     text-align: justify;
 }
-
 
 .data_holder>div {
    padding: 10px;
@@ -249,8 +288,20 @@ h4 {
 @media only screen and (max-width: 768px) {
     .data_holder {
         width: 100%!important;
+        margin: 0 auto;
+        padding-bottom: 15px;
     }
-    .img_holder h1{
+    .content {
+        flex-direction: column;
+    }
+    .sidebar {
+        border: none;
+        margin-top: 0px;
+    }
+    .sidebar h3 {
+        padding-top: 0px;
+    }
+    .img_holder h2{
         font-size: 1em;
         line-height: 95%;
     }

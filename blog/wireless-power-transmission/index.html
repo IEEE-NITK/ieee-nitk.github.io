@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>We cannot imagine the world without electric power. Generally power is transmitted through wires, however there is an idea to eradicate the hazardous usage of electrical wires which involves a lot of confusion particularly in organizing them. Some of these devices might not even need their bulky batteries to operate.</p>
 
 <p>Here are the techniques of transmitting power without using wires with an efficiency of about 95% with non-radiative methods, due to which it does not affect the environment.</p>
 
@@ -205,7 +210,17 @@
 
 <p><a href="https://www.ripublication.com/ijepa/ijepav1n3_2.pdf">Wireless Power Transmission: An Innovative Idea</a></p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Wireless Power Transmission</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

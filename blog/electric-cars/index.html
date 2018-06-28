@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><strong><em>Should you really buy an electric car?</em></strong></p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p><strong><em>Should you really buy an electric car?</em></strong></p>
 
 <p>Electric vehicles are hitting the world’s roads and with government support behind them these are hyped up to be the next big thing in the automobile industry . Combustion engine vehicles generate huge quantities of pollution, and developed economies create more than their fair share of this. The US transportation sector accounts for around 30 percent of US global warming emissions which is an order of magnitude more than most countries. In this blog I will tell you what I think on buying an electric car.</p>
 
@@ -211,7 +216,17 @@
 
 <p>Well these are the most important things that you need to know if you are planning on buying an electric car .Though It’s pretty clear what I think about that idea :P</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">Electric Cars - The Future</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

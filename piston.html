@@ -53,9 +53,11 @@
 
 		<script src="js/particles.js"></script>
 		<script src="js/slider.js"></script>
+		<script src="js/sidebar.js"></script>
 		<script>
 			$(document).ready(function(){
 				loadAndDisplay("piston.json");
+				loadArticles("blog", "piston")
 			});
 		</script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -142,40 +144,47 @@
 				</h2>
 			</div>
 		</div>
-		<div class="data_holder  prociono">
-			<div class="intro">
-				<div class="sub_title">
-					<h3>
-					About us
-					</h3>
-				</div>
-				<p class="sans">
-				The Piston SIG encompasses the non-circuit branches. It has two main groups:</p>
-				<h4>
-				
-				Robotics and Automation Society (RAS)
-				</h4>
-				<p>
+		<div class="content">
+			<div class="data_holder  prociono">
+				<div class="intro">
+					<div class="sub_title">
+						<h3>
+						About us
+						</h3>
+					</div>
+					<p class="sans">
+					The Piston SIG encompasses the non-circuit branches. It has two main groups:</p>
+					<h4>
 					
-					This society beckons enthusiasts in the fields of robotics and automation.
-					Inculcated only a year ago into IEEE NITK, RAS is a perfect platform for
-					multidisciplinary work as both Robotics and Automation cannot be categorized
-					under one specific SIG. Moreover,a sum of upto $2000 per annum will be provided
-					directly by IEEE for projects under it.
-				</p>
-				<h4>
-				
-				MACH
-				</h4>
-				<p>
-					This group undertakes projects in various fields such as Aerospace Engineering,
-					Bio-Mechanical Applications, Heat and Energy  Engineering,Automobile Engineering,
-					Robotics,Structures and Materials, Chemical and Thermal Engineering,Control
-					Systems and Renewable Energy.
-				</p>
+					Robotics and Automation Society (RAS)
+					</h4>
+					<p>
+						
+						This society beckons enthusiasts in the fields of robotics and automation.
+						Inculcated only a year ago into IEEE NITK, RAS is a perfect platform for
+						multidisciplinary work as both Robotics and Automation cannot be categorized
+						under one specific SIG. Moreover,a sum of upto $2000 per annum will be provided
+						directly by IEEE for projects under it.
+					</p>
+					<h4>
+					
+					MACH
+					</h4>
+					<p>
+						This group undertakes projects in various fields such as Aerospace Engineering,
+						Bio-Mechanical Applications, Heat and Energy  Engineering,Automobile Engineering,
+						Robotics,Structures and Materials, Chemical and Thermal Engineering,Control
+						Systems and Renewable Energy.
+					</p>
+				</div>
+				<div class="projects" id="projects">
+					
+				</div>
 			</div>
-			<div class="projects" id="projects">
-				
+			<div class="sidebar">
+				<h3>Related Articles</h3>
+				<div class="related-articles">
+				</div>
 			</div>
 		</div>
 	</body>

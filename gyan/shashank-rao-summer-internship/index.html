@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>I am interested in all aspects of Robotics: 
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>I am interested in all aspects of Robotics: 
 Path-Planning, Perception, ROS, Mobility, Locomotion, Dynamics etc. I also wish to venture into the field of Machine Learning and Artificial Intelligence.</p>
 
 <h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
@@ -210,7 +216,18 @@ Path-Planning, Perception, ROS, Mobility, Locomotion, Dynamics etc. I also wish 
 
 <p>Start mailing the professors early and make sure you write a very specific email which appeals to the professor. Also make sure you go through the professor’s work and the projects undertaken before the interview. Make sure when the professor open your resume/CV there is something that relates to his/her field.If the professor doesn’t respond to your email,send follow-up emails and don’t be afraid to directly call them.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsResearch</span>
+        <span id="category">Piston</span>
+        <span id="title">IITB, Mumbai, Internship Experience - Shashank Rao</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

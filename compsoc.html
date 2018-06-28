@@ -56,9 +56,11 @@
 
 	<script src="js/particles.js"></script>
 	<script src="js/slider.js"></script>
+	<script src="js/sidebar.js"></script>
 	<script>
 		$(document).ready(function () {
 			loadAndDisplay("compsoc.json");
+			loadArticles("blog", "compsoc");
 		});
 	</script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -159,40 +161,47 @@
 			</h2>
 		</div>
 	</div>
-	<div class="data_holder  prociono">
-		<div class="intro">
-			<div class="sub_title">
-				<h3>
-					About us
-				</h3>
-			</div>
-			<p class="sans">
-				The NITK-IEEE CompSoc community intends to explore and contribute to the rapidly evolving world of computer technologies
-				by carrying out research and projects in the broad domains of computer science in the form of 3 research groups :				
-			</p>
-			<p class="sans">
-				<h4>
-					Intelligence
-				</h4>
+	<div class="content">
+		<div class="data_holder  prociono">
+			<div class="intro">
+				<div class="sub_title">
+					<h3>
+						About us
+					</h3>
+				</div>
 				<p class="sans">
-					Artificial Intelligence, Robotics, Natural Language Processing, Data Mining
+					The NITK-IEEE CompSoc community intends to explore and contribute to the rapidly evolving world of computer technologies
+					by carrying out research and projects in the broad domains of computer science in the form of 3 research groups :				
 				</p>
-				<h4>
-					Systems
-				</h4>
 				<p class="sans">
-					Operating Systems, Networking, High-Performance Computing , Security
+					<h4>
+						Intelligence
+					</h4>
+					<p class="sans">
+						Artificial Intelligence, Robotics, Natural Language Processing, Data Mining
+					</p>
+					<h4>
+						Systems
+					</h4>
+					<p class="sans">
+						Operating Systems, Networking, High-Performance Computing , Security
+					</p>
+					<h4>
+						Theoretical Computer Science
+					</h4>
+					<p class="sans">
+						Programming Languages, Combinatorics, Graph Theory, Finite State Machines, Cryptography, Web and Software Engineering
+					</p>
 				</p>
-				<h4>
-					Theoretical Computer Science
-				</h4>
-				<p class="sans">
-					Programming Languages, Combinatorics, Graph Theory, Finite State Machines, Cryptography, Web and Software Engineering
-				</p>
-			</p>
 
+			</div>
+			<div class="projects" id="projects">
+			</div>
 		</div>
-		<div class="projects" id="projects">
+		<div class="sidebar">
+			<h3>Related Articles</h3>
+			<div class="related-articles">
+			</div>
 		</div>
 	</div>
 </body>

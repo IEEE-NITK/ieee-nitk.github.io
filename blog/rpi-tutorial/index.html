@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.</p>
 
 <p>Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can use your laptop display itself to work with your Rpi. This requires a few additional steps which I will be covering in the last section of this tutorial. So, this article is a step by step tutorial to help you kick start your Raspberry Pi and dive into the Internet of Things!</p>
 
@@ -335,7 +340,17 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
 
 <p>And finally, you are done! Without further ado, enjoy exploring!</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">Raspberry Pi Tutorial</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
