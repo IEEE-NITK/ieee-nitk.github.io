@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-24 14:00:30 +0400" class="date">24 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-24 15:30:30 +0530" class="date">24 Sep 2017</time>
         
         <h1 class="post-title" itemprop="name">Getting Started with GUIs</h1>
         <p itemprop="description" class="subtitle">Stepping into software development</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And a good first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, we’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>While learning a programming language, there’s often a question of how simple problem solving using code is going to help us create software we see around us. The fact is that software engineering requires a lot more skills as a programmer. And a good first step to creating software is to learn how to create graphical user interfaces, commonly referred to as GUIs. In this article, we’ll learn how to get started with creating GUIs in C using a toolkit known as GTK+.</p>
 
 <h2 id="what-are-guis">What are <em>GUIs</em>?</h2>
 
@@ -276,7 +281,17 @@ helloworld helloworld.c <span class="sb">`</span>pkg-config <span class="nt">--l
 <h2 id="going-forward">Going Forward</h2>
 <p>We just created a simple program using GTK+. This has taught us how to respond to clicks and perform a function. And also that the basis for all UIs is a simple widget based structure. Understanding these two things can help us create usable programs. GTK+ is the toolkit used to code all of Ubuntu’s GUI and most programs used on Linux and Windows. Hence it’s capabilities shouldn’t be underestimated. Learning the toolkit, can equip us to create complex UIs such as those seen on popular applications.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Getting Started with GUIs</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

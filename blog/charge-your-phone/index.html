@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-10-23 17:51:02 +0400" class="date">23 Oct 2017</time>
+            <time itemprop="datePublished" datetime="2017-10-23 19:21:02 +0530" class="date">23 Oct 2017</time>
         
         <h1 class="post-title" itemprop="name">Charge your phone whenever you walk into the room</h1>
         <p itemprop="description" class="subtitle">Turn your smart home into a giant battery with Wireless Charging.</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="charge-your-phone-whenever-you-walk-into-the-room">CHARGE YOUR PHONE WHENEVER YOU WALK INTO THE ROOM</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="charge-your-phone-whenever-you-walk-into-the-room">CHARGE YOUR PHONE WHENEVER YOU WALK INTO THE ROOM</h2>
 
 <p>One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.</p>
 
@@ -212,7 +217,17 @@
 <p>2. <a href="https://www.wi-charge.com/technology/">Technology</a></p>
 
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CAS</span>
+        <span id="title">Charge your phone whenever you walk into the room</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

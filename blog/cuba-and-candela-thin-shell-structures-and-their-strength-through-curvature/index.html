@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-07-22 00:00:00 +0400" class="date">22 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-07-22 00:00:00 +0530" class="date">22 Jul 2017</time>
         
         <h1 class="post-title" itemprop="name">Cuba and Candela - Thin shell structures and their strength through curvature</h1>
         <p itemprop="description" class="subtitle">Strength through curvature is an idea that shapes our world, and it has its roots in geometry.A look into how this idea was used in Cuba(Havana) and its magnificent thin shell structures and also an introduction to Felix Candela , one of the greatest structural Engineer</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Before plunging into understanding the beauty of the thin shell structures or even  knowing whatgwho the candela in the title refers to. Let us imagine a scenario where you’re at an eatery. You pick up a slice of pizza, and  you’re about to take a bite. But it flops over and sags about your fingers. Maybe you should have gone for fewer toppings? No really. Enough experience with pizzas has taught us that folding the pizza slice into a U-shape keeps the pizza from flopping over .</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Before plunging into understanding the beauty of the thin shell structures or even  knowing whatgwho the candela in the title refers to. Let us imagine a scenario where you’re at an eatery. You pick up a slice of pizza, and  you’re about to take a bite. But it flops over and sags about your fingers. Maybe you should have gone for fewer toppings? No really. Enough experience with pizzas has taught us that folding the pizza slice into a U-shape keeps the pizza from flopping over .</p>
 
 <p><img src="/blog/assets/img/cuba-and-candela/image001.jpg" alt="img1" /></p>
 
@@ -211,7 +216,17 @@ Here are a few of the thin shell structures in and around Havana which came up d
 
 <p>But then Castro happened. And left Cuba Crawling. Numb.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Cuba and Candela - Thin shell structures and their strength through curvature</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

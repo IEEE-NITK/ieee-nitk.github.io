@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-06-06 03:32:44 +0400" class="date">06 Jun 2018</time>
+            <time itemprop="datePublished" datetime="2018-06-06 05:02:44 +0530" class="date">06 Jun 2018</time>
         
         <h1 class="post-title" itemprop="name">Computational Approaches of Shock Waves</h1>
         <p itemprop="description" class="subtitle">CFD approaches for solving involving shock waves</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>In this article I would like to discuss the two different CFD approaches while
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>In this article I would like to discuss the two different CFD approaches while
 solving for flows involving shock waves.</p>
 
 <p>In flow fields involving shock waves there is a sharp discontinuous change in
@@ -203,7 +208,17 @@ and then these shocks are fit midway during computation. Another combination is
 to fit shocks explicitly in those parts where we know they occur and to employ a
 shock capturing method for the remainder of the flow field.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Computational Approaches of Shock Waves</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

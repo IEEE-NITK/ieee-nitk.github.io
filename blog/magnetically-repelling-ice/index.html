@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-11-05 03:32:44 +0400" class="date">05 Nov 2017</time>
+            <time itemprop="datePublished" datetime="2017-11-05 05:02:44 +0530" class="date">05 Nov 2017</time>
         
         <h1 class="post-title" itemprop="name">Magnetically repelling ice</h1>
         <p itemprop="description" class="subtitle">How is Ice used for Magnetic Purposes</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>People can be nervous fliers to begin with. Even when there isn’t a cloud in the sky, there are few words that cause anxiety in some like, “Prepare for takeoff.” But add wintry conditions to the mix, add some ice, and the uneasy feeling can turn to fear.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>People can be nervous fliers to begin with. Even when there isn’t a cloud in the sky, there are few words that cause anxiety in some like, “Prepare for takeoff.” But add wintry conditions to the mix, add some ice, and the uneasy feeling can turn to fear.</p>
 
 <h2 id="how-does-ice-cause-a-plane-to-crash">How does ice cause a plane to crash?</h2>
 
@@ -183,7 +188,17 @@
 
 <p>Looking at a water drop mixing with a solid, it showed a strong bond has adhesion strength on the order of 100,000 pascals. When ice builds up and has contact with a solid then it has a very solid bond and is very hard to detach. When cold weather sits on a fluid surface, this combination [of magnetic tape and ferrofluid] doesn’t allow the ice to see the solid and it just floats on the surface. Adhesion strength with this invention is 2 pascals. Hadi Ghasemi, assistant professor of mechanical engineering at the University of Houston, who is working on this, says that this is under critical testing but its moving forward and has an optimistic future. One of his goals, he says, is for it to be used in spray form.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Magnetically repelling ice</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

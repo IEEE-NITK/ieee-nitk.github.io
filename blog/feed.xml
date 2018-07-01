@@ -5,14 +5,28 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jun 2018 00:27:39 +0400</pubDate>
-    <lastBuildDate>Wed, 20 Jun 2018 00:27:39 +0400</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Sun, 01 Jul 2018 18:30:50 +0530</pubDate>
+    <lastBuildDate>Sun, 01 Jul 2018 18:30:50 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Quantum Supremacy: Is it hyped?</title>
+        <description>&lt;p&gt;The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!). These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in our...</description>
+        <pubDate>Sat, 23 Jun 2018 15:30:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/quantum-supremacy/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/quantum-supremacy/</guid>
+        
+        <category>Quantum Computing</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Evolving Strings with Genetic Algorithms</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;A genetic algorithm is a search heuristic inspired by Darwin’s theory of natural evolution. A genetic algorithm reflects the process of natural selection: the fittest survive and breed.&lt;/p&gt; &lt;p&gt;The process of natural selection begins by selecting the fittest individuals from a population. The cross to produce offsprings that have characterestics of both parents. If both parents have good fitness, then their child is also likely to inherit their characterestics and have better fitness.&lt;/p&gt; &lt;p&gt;In this introduction, we will be trying to match a string from scratch.&lt;/p&gt; &lt;h2 id=&quot;environment-and-population&quot;&gt;Environment and Population&lt;/h2&gt; &lt;p&gt;First, we need to define an environment that...</description>
-        <pubDate>Tue, 19 Jun 2018 20:44:03 +0400</pubDate>
+        <pubDate>Tue, 19 Jun 2018 22:14:03 +0530</pubDate>
         <link>http://ieeenitk.org/blog/string-genetic/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/string-genetic/</guid>
         
@@ -34,7 +48,7 @@
       <item>
         <title>Nanomotors</title>
         <description>&lt;p&gt;﻿Nanotechnology was regarded to be the technology of the future. Well, the future has come. Its no more the technology of the future. Scientists and engineers have become increasingly good at designing and engineering materials down at the level of atoms and molecules. Nanotechnology is the manipulation of matter at nanoscale which is about 1-100 nanometres. Its well known that everything in this universe is made out of atoms and it’s the atoms and the arrangement of these atoms that dictate the characteristics. Two wheels and a handle, although are said to make a bicycle, it’s called a bicycle only...</description>
-        <pubDate>Mon, 18 Jun 2018 20:25:03 +0400</pubDate>
+        <pubDate>Mon, 18 Jun 2018 21:55:03 +0530</pubDate>
         <link>http://ieeenitk.org/blog/nanomotors/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/nanomotors/</guid>
         
@@ -56,7 +70,7 @@
       <item>
         <title>Earthing Systems</title>
         <description>&lt;p&gt;Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image001.jpg&quot; alt=&quot;image001&quot; /&gt;&lt;/p&gt; &lt;p&gt;To avoid this, metal casing of all electrical appliances are earthed.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image002.jpg&quot; alt=&quot;image002&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-an-earthing-system&quot;&gt;What is an earthing system?&lt;/h2&gt; &lt;p&gt;The connection between electrical appliances and devices with the earth plate or electrode through a thick wire of low resistance to provide safety is known...</description>
-        <pubDate>Sun, 17 Jun 2018 14:00:30 +0400</pubDate>
+        <pubDate>Sun, 17 Jun 2018 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/earthing-systems/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/earthing-systems/</guid>
         
@@ -70,7 +84,7 @@
       <item>
         <title>Chain of Things</title>
         <description>&lt;blockquote&gt; &lt;p&gt;“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won’t even sense it. It will be part of your presence all the time.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These words, spoken in the World Economic Forum in 2015 by Google’s then Chairman Eric Schmidt, are quickly proving to be true. From smart homes to smart citites, the &lt;strong&gt;Internet of Things&lt;/strong&gt; is everywhere. The number of connected devices has grown by a whopping 31% over the last year. However, all this data is present on...</description>
-        <pubDate>Sun, 10 Jun 2018 14:00:30 +0400</pubDate>
+        <pubDate>Sun, 10 Jun 2018 15:30:30 +0530</pubDate>
         <link>http://ieeenitk.org/blog/chain-of-things/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/chain-of-things/</guid>
         
@@ -86,7 +100,7 @@
       <item>
         <title>Diving into and Exploiting the Heap</title>
         <description>&lt;p&gt;At the physical level, computer memory consists of a large number of flip flops. Each flip flop consists of a few transistors, and is capable of storing one bit. Individual flip flops are addressable by a unique identifier, so we can read and overwrite them. Thus, conceptually, we can think of all of our computer’s memory as just one giant array of bits that we can read and write.&lt;/p&gt; &lt;p&gt;Since as humans, we are not that good at doing all of our thinking and arithmetic in bits, we group them into larger groups, which together can be used to represent...</description>
-        <pubDate>Wed, 06 Jun 2018 03:32:44 +0400</pubDate>
+        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/heap_exploitation/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/heap_exploitation/</guid>
         
@@ -108,7 +122,7 @@
       <item>
         <title>Computational Approaches of Shock Waves</title>
         <description>&lt;p&gt;In this article I would like to discuss the two different CFD approaches while solving for flows involving shock waves.&lt;/p&gt; &lt;p&gt;In flow fields involving shock waves there is a sharp discontinuous change in the flow variables like pressure, density, temperature, etc. across the shock. The first approach is to have the shock wave appear naturally in the computational domain as a direct solution of the governing equations. This is called the &lt;em&gt;shock capturing method.&lt;/em&gt; The second approach is to explicitly introduce the shock wave into the flow and then solve the governing equations for the rest of the domain (between...</description>
-        <pubDate>Wed, 06 Jun 2018 03:32:44 +0400</pubDate>
+        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/computational-approaches-of-shock-waves/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/computational-approaches-of-shock-waves/</guid>
         
@@ -126,7 +140,7 @@
       <item>
         <title>Charge Crowding</title>
         <description>&lt;h1 id=&quot;charge-crowding&quot;&gt;Charge crowding&lt;/h1&gt; &lt;h2 id=&quot;electrostatic-discharge&quot;&gt;Electrostatic Discharge&lt;/h2&gt; &lt;p&gt;Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other. ESD can also occur when a high electrostatic field develops between two objects in close proximity. ESD is one of the major causes of device failures in the semiconductor industry Electrostatic charge build-up occurs as a result of an imbalance of electrons on the surface of a material. Such a charge build-up develops an electric field that has measurable effects on other objects at...</description>
-        <pubDate>Wed, 06 Jun 2018 03:32:44 +0400</pubDate>
+        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/charge-crowding/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/charge-crowding/</guid>
         
@@ -142,7 +156,7 @@
       <item>
         <title>Why 50Hz ?</title>
         <description>&lt;h2 id=&quot;why-do-most-of-the-countries-use-a-5060-hz-110220-v-power-supply-and-not-any-othervalue&quot;&gt;Why do most of the countries use a 50/60 Hz, 110/220 V power supply and not any othervalue?&lt;/h2&gt; &lt;p&gt;The answer to this question is not definite but quite a few technical and historical reasons can be found to support this which date back to the very beginning of the development of the electrical power system.&lt;/p&gt; &lt;h2 id=&quot;what-is-supply-frequency-and-why-is-it-an-important-parameter-in-the-electrical-grid&quot;&gt;What is supply frequency and why is it an important parameter in the electrical grid?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/why-50hz/image001.jpg&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt; &lt;p&gt;The electrical power grid consists of a massive network of generators, transmission lines, transformers, substations and a variety of loads drawing real and reactive...</description>
-        <pubDate>Tue, 29 May 2018 03:32:44 +0400</pubDate>
+        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/why-50hz/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/why-50hz/</guid>
         
@@ -158,7 +172,7 @@
       <item>
         <title>Market Basket Analysis</title>
         <description>&lt;h1 id=&quot;market-basket-analysis&quot;&gt;Market Basket Analysis&lt;/h1&gt; &lt;p&gt;Ever wondered how Flipkart knows what items to suggest to you before and after you make a purchase? The is an aspect of analysis created specifically to promote sales called market basket analysis (MBA). In the retail industry, MBA refers to an unsupervised data mining technique that discovers co-occurrence relationships among customers’ purchase activities. The technique is based on the theory that if you buy a certain group of items, you are likely to buy another group of items. For example: while at McDonald’s, if you buy sandwiches and cookies, you are more likely to buy...</description>
-        <pubDate>Tue, 29 May 2018 03:32:44 +0400</pubDate>
+        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
         <link>http://ieeenitk.org/blog/market-basket/</link>
         <guid isPermaLink="true">http://ieeenitk.org/blog/market-basket/</guid>
         
@@ -168,20 +182,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Alterego</title>
-        <description>&lt;h1 id=&quot;alterego&quot;&gt;AlterEgo&lt;/h1&gt; &lt;p&gt;We basically can’t live without our cell phones, our digital devices. But at the moment, the use of those devices is very disruptive. Wouldn’t it be rather nice if we could just think of the question and a device could just Google it real quick and give the answer? Well, we’ve reached the point where robots can now read your mind. Kind of. Researchers at MIT have developed a wearable gadget that transcribes and responds to conversations users have with themselves in their heads. &lt;img src=&quot;/blog/assets/img/alterego/alterego.jpg&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt; &lt;p&gt;Comprised of a wearable device and a small computing system,...</description>
-        <pubDate>Tue, 29 May 2018 03:32:44 +0400</pubDate>
-        <link>http://ieeenitk.org/blog/alterego/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/alterego/</guid>
-        
-        <category>Alterego</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

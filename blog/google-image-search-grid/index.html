@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-06-10 16:10:44 +0400" class="date">10 Jun 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-10 17:40:44 +0530" class="date">10 Jun 2017</time>
         
         <h1 class="post-title" itemprop="name">Implementing Google Image Search Style Grid</h1>
         <p itemprop="description" class="subtitle">A walkthrough of implementing image grid similar to Google Search</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="implementing-google-image-search-style-grid">Implementing Google Image Search Style Grid</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="implementing-google-image-search-style-grid">Implementing Google Image Search Style Grid</h1>
 
 <p>I love design principles of Google. The way they present things is really awesome. One such presentation is Google Image Search.</p>
 
@@ -277,7 +282,17 @@ BUILD_GRID(images):
 <p>That’s it guys, until then, 
 This is <em>hrily</em> signing of…</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Implementing Google Image Search Style Grid</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

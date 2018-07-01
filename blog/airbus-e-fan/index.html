@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-04 14:00:30 +0400" class="date">04 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-04 15:30:30 +0530" class="date">04 Sep 2017</time>
         
         <h1 class="post-title" itemprop="name">Airbus E-Fan</h1>
         <p itemprop="description" class="subtitle">A post explaining an environmental approach taken by Airbus</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="the-airbus-e-fan-project">The Airbus E-Fan Project</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="the-airbus-e-fan-project">The Airbus E-Fan Project</h2>
 
 <p>For over a hundred years - and certainly many to follow, the aircraft
 industry, for the most part, has relied upon combustion based engines,
@@ -230,7 +235,17 @@ landing the gas power unit is restarted, offering low levels of power
 for propulsion as a safety measure during this phase of flight.</p>
 
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Airbus E-Fan</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

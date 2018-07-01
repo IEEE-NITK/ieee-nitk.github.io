@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-06-23 00:00:00 +0400" class="date">23 Jun 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-23 00:00:00 +0530" class="date">23 Jun 2017</time>
         
         <h1 class="post-title" itemprop="name">Promises, Closures and Potatoes</h1>
         <p itemprop="description" class="subtitle">A very basic introduction to some lesser explored stuff in javascript</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="promises-closures-and-potatoes">Promises, Closures and Potatoes.</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="promises-closures-and-potatoes">Promises, Closures and Potatoes.</h1>
 
 <p>Well this article is mainly about Promises and Closures, two concepts that
 most of us don’t really care about in the beginning, but in reality, we have been
@@ -287,7 +292,17 @@ An example would be, (from w3Schools)</p>
   <li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36">Medium article by Eric Elliott</a></li>
 </ul>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Promises, Closures and Potatoes</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

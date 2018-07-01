@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-06-16 17:10:44 +0400" class="date">16 Jun 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-16 18:40:44 +0530" class="date">16 Jun 2017</time>
         
         <h1 class="post-title" itemprop="name">The Fourth Industrial Revolution</h1>
         <p itemprop="description" class="subtitle">What the future beholds!</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Automation, Internet of Things, Genetic engineering, cloud computing, renewable energy, sustainable development. Welcome to the Future. Welcome to the 4th Industrial revolution.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Automation, Internet of Things, Genetic engineering, cloud computing, renewable energy, sustainable development. Welcome to the Future. Welcome to the 4th Industrial revolution.</p>
 
 <p><img src="/blog/assets/img/the-fourth-industrial-revolution/pic1.jpg" alt="image1" /></p>
 
@@ -201,7 +206,17 @@ It’s simple, it means that we have a lot of work to do!</p>
 
 <p>*unless the robots take over and a scene from the Terminator becomes a reality</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">The Fourth Industrial Revolution</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

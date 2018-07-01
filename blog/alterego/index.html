@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-05-29 03:32:44 +0400" class="date">29 May 2018</time>
+            <time itemprop="datePublished" datetime="2018-05-29 05:02:44 +0530" class="date">29 May 2018</time>
         
         <h1 class="post-title" itemprop="name">Alterego</h1>
         <p itemprop="description" class="subtitle">What if we could just think of the question and a device could just Google it real quick and give the answer?</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="alterego">AlterEgo</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="alterego">AlterEgo</h1>
 
 <p>We basically can’t live without our cell phones, our digital devices. But at the moment, the use of those devices is very disruptive. Wouldn’t it be rather nice if we could just think of the question and a device could just Google it real quick and give the answer? 
 Well, we’ve reached the point where robots can now read your mind. Kind of.
@@ -188,7 +193,17 @@ If the user were to internally question, “what is the time,” the AlterEgo he
 
 <p>This means the user doesn’t have to look at a screen and type in words to find the answer to their question, or to control a device.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Alterego</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

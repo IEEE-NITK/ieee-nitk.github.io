@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-12-08 06:00:10 +0400" class="date">08 Dec 2017</time>
+            <time itemprop="datePublished" datetime="2017-12-08 07:30:10 +0530" class="date">08 Dec 2017</time>
         
         <h1 class="post-title" itemprop="name">Airbag System for two Wheeler vehicles</h1>
         <p itemprop="description" class="subtitle">Is bike safety a concern , this new technology is here to protect you</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="introduction">Introduction</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="introduction">Introduction</h1>
 
 <p>The Airbag system was first introduced in 4-wheelers . This paper gives information about the introduction of the airbag system can be used in the two wheelers(bikes). This paper shows the working, construction, installation of this system and problems that can occur in this system.</p>
 
@@ -263,7 +268,17 @@ the part of his vehicle protected by airbags.</p>
 
 <p>By providing  total safety to the motorcycle rider by implanting the airbags on both sides of the motorcycle as mention in this article, we will reduce the fatality rate by 20% to 30%. By using this technology there is not only a reduce in death rate but also gives the total protection to the rider as well as motorcycle.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Airbag System for two Wheeler vehicles</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

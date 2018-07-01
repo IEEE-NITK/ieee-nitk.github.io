@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-08-04 07:48:33 +0400" class="date">04 Aug 2017</time>
+            <time itemprop="datePublished" datetime="2017-08-04 09:18:33 +0530" class="date">04 Aug 2017</time>
         
         <h1 class="post-title" itemprop="name">Is Random really Random?</h1>
         <p itemprop="description" class="subtitle">Random implies indeterminacy (One can't possibly know, what will happen next). At the same time, the result of a computer program is deterministic (If you know the algo, then you know the answer). If that is the case, then is it possible that the random numbers that a computer generates is not truly random?</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Random numbers have been used for many thousands of years. 
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Random numbers have been used for many thousands of years. 
 Roll a dice. 
 Flip a coin. 
 Pick a card from a deck. 
@@ -226,7 +231,17 @@ Radioactive Decay is random.
 The world is governed by chance. 
 Randomness stalks us every day of our lives.Its what keeps us curious, intrigued and excited all along the way!</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">Is Random really Random?</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

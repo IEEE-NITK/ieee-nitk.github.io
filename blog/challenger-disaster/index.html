@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-24 14:00:30 +0400" class="date">24 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-24 15:30:30 +0530" class="date">24 Sep 2017</time>
         
         <h1 class="post-title" itemprop="name">The Challenger Disaster</h1>
         <p itemprop="description" class="subtitle">Examining a space exploration disaster</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
 
 <p>On January 28<sup>th</sup> 1986, the scheduled launch for NASA’s space orbiter- the Challenger, took place as planned. But the launch was the only part of the mission that stuck to plan. 73 seconds after liftoff, the shuttle exploded and broke up, bringing a devastating end to the spacecraft’s 10<sup>th</sup> mission, claiming all 7 lives onboard. All because of a tiny, rather overlooked aspect of a structure failing due to a very basic property of the given material.</p>
 
@@ -197,7 +202,17 @@
 
 <p>To this day, this incident is a case study in many discussions of engineering safety and workplace ethics. This incident only goes on to prove the importance of materials used when designing structures.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">The Challenger Disaster</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-11-12 20:37:21 +0400" class="date">12 Nov 2017</time>
+            <time itemprop="datePublished" datetime="2017-11-12 22:07:21 +0530" class="date">12 Nov 2017</time>
         
         <h1 class="post-title" itemprop="name">How QR code was invented</h1>
         <p itemprop="description" class="subtitle">Ever wondered how QR Code is scanned by your mobile?</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="how-qr-code-was-invented">How QR code was invented</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="how-qr-code-was-invented">How QR code was invented</h2>
 
 <p>Denso Wave a subsidiary of the Toyota Group are attributed with the creation of the QR Code back in 1994. Originally it was used to track parts in the vehicle manufacturing industry, but its use and scope has since grown tremendously. One of the main objectives when creating the QR Code was to come up with a new barcode that allowed more data to be encoded without increasing the size (dimensions / surface area) of existing barcodes. This was achieved by including a second dimension.</p>
 
@@ -199,7 +204,17 @@
 
 <p>We can store up to 4,296 alphanumeric characters. One alphanumeric character is either a character from A to Z or a number from 0 to 9. With the need of special characters like ,.!/$§% or öÖäÄüÄß, the capacity shrinks down to 2.956 Bytes. But that’s still plenty.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">How QR code was invented</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

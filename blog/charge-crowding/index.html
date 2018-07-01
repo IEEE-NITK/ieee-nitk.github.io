@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-06-06 03:32:44 +0400" class="date">06 Jun 2018</time>
+            <time itemprop="datePublished" datetime="2018-06-06 05:02:44 +0530" class="date">06 Jun 2018</time>
         
         <h1 class="post-title" itemprop="name">Charge Crowding</h1>
         <p itemprop="description" class="subtitle">The smallest entity 'charge' can cause the greatest disasters in electronic devices</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="charge-crowding">Charge crowding</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="charge-crowding">Charge crowding</h1>
 
 <h2 id="electrostatic-discharge">Electrostatic Discharge</h2>
 
@@ -214,7 +219,17 @@ There are three (3) predominant ESD models for IC’s: 1) the Human Body Model (
 
 <p>Ionization continues to be an essential element in a static control program. As with other elements in the program, control of the operating parameters will become more critical with technological change. Product design to maximize ESD damage thresholds may not be able to keep up with this rapid change, putting more dependence on ionizers and other static control methods to protect products. In all areas we are looking at rapidly approaching technology barriers. Surmounting these barriers means, “static control is not an option”. Ionizers and ESD control methods will need to keep pace with rapid technology change or they will become the barriers to future production.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">Charge Crowding</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

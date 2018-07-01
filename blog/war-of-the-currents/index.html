@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-12-29 03:33:44 +0400" class="date">29 Dec 2017</time>
+            <time itemprop="datePublished" datetime="2017-12-29 05:03:44 +0530" class="date">29 Dec 2017</time>
         
         <h1 class="post-title" itemprop="name">War of the Currents</h1>
         <p itemprop="description" class="subtitle">The war that changed the world more than both the world wars.</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><img src="/blog_src/assets/img/War-of-the-currents/image1.png" alt="current" />
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p><img src="/blog_src/assets/img/War-of-the-currents/image1.png" alt="current" />
 <strong>Thomas Edison</strong></p>
 
 <p><img src="/blog_src/assets/img/War-of-the-currents/image2.png" alt="current" />
@@ -201,7 +206,17 @@
 
 <p>The war of the currents changed the course of history. We cannot imagine our lives without electricity. Today, we reap the benefits of the pioneering works of Edison and Tesla. Although today AC is the standard, DC is gaining importance with the advent of digital electronics. So it appears the War of the Currents may not be over yet. But instead of continuing in a heated AC vs. DC battle, it looks like the two currents will end up working parallel to each other in a sort of hybrid armstice.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">War of the Currents</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

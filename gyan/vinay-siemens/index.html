@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><img src="/gyan/assets/img/authors/vinay_bhat.jpg" alt="Vinay Bhat" /></p>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p><img src="/gyan/assets/img/authors/vinay_bhat.jpg" alt="Vinay Bhat" /></p>
 
 <p>Hi, my name is Vinay Bhat and I’m a final year undergraduate student in the IT department. This summer I had interned at Siemens Research Labs, Bangalore. I had applied there because it involved the field of Artificial Intelligence, which I’m greatly interested in.</p>
 
@@ -189,7 +195,18 @@ Tell us about the fun/ interesting incidents during the course of your internshi
 
 <p>In case you want to contact me in the near future, please e-mail at my email ID.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsCareer AdviceIndustry</span>
+        <span id="category">CompSoc</span>
+        <span id="title">Advice on Computer Science - Vinay Bhat</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

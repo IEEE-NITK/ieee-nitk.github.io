@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-05-29 03:32:44 +0400" class="date">29 May 2018</time>
+            <time itemprop="datePublished" datetime="2018-05-29 05:02:44 +0530" class="date">29 May 2018</time>
         
         <h1 class="post-title" itemprop="name">Why 50Hz ?</h1>
         <p itemprop="description" class="subtitle">Why does Power Supply Systems run only at 50 or 60 Hz and not any other frequency?</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="why-do-most-of-the-countries-use-a-5060-hz-110220-v-power-supply-and-not-any-othervalue">Why do most of the countries use a 50/60 Hz, 110/220 V power supply and not any othervalue?</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="why-do-most-of-the-countries-use-a-5060-hz-110220-v-power-supply-and-not-any-othervalue">Why do most of the countries use a 50/60 Hz, 110/220 V power supply and not any othervalue?</h2>
 
 <p>The answer
 to this question is not definite but quite a few technical and historical reasons
@@ -275,7 +280,17 @@ at merging renewables such as wind and solar energy to the existing grid. This
 technology will help in saving this precious resource that all of us take for
 granted.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CAS/SPS</span>
+        <span id="title">Why 50Hz ?</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

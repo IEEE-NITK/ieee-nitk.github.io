@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-02-17 03:32:44 +0400" class="date">17 Feb 2018</time>
+            <time itemprop="datePublished" datetime="2018-02-17 05:02:44 +0530" class="date">17 Feb 2018</time>
         
         <h1 class="post-title" itemprop="name">Evolution of bicycle</h1>
         <p itemprop="description" class="subtitle">Evolution of Cycle</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Ever since a person began thinking of sources of transportation, maximum development until date has been in the field of bicycle.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Ever since a person began thinking of sources of transportation, maximum development until date has been in the field of bicycle.</p>
 
 <p>Here are a few of the designs discussed briefly, innovation in them and the reasons for their failure or upgradation.</p>
 
@@ -203,7 +208,17 @@
 
 <p>To be continued…</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category"></span>
+        <span id="title">Evolution of bicycle</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

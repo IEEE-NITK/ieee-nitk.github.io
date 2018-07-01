@@ -116,12 +116,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -132,7 +136,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-01-12 15:15:53 +0400" class="date">12 Jan 2018</time>
+            <time itemprop="datePublished" datetime="2018-01-12 16:45:53 +0530" class="date">12 Jan 2018</time>
         
         <h1 class="post-title" itemprop="name">Bit Manipulation</h1>
         <p itemprop="description" class="subtitle">An introduction to Bit Manipulation and its use in Competitive Programming</p>
@@ -184,8 +188,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>All data in computer programs is internally stored as bits, i.e., as numbers 0 and 1. It turns out that there are many uses for bit manipulation in competitive programming.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>All data in computer programs is internally stored as bits, i.e., as numbers 0 and 1. It turns out that there are many uses for bit manipulation in competitive programming.</p>
 
 <p>In programming, an n bit integer is internally stored as a binary number that consists of n bits. For example, the C++ type int is a 32-bit type, which means that every int number consists of 32 bits. For exmaple, the bit representation of the int number 42 is <code class="highlighter-rouge">00000000000000000000000000101010</code>.</p>
 
@@ -315,7 +320,17 @@ int total(int mask, int day){
   </li>
 </ul>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Compsoc</span>
+        <span id="title">Bit Manipulation</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

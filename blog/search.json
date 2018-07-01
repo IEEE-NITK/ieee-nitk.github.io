@@ -1,11 +1,21 @@
 [
   
     {
+      "title"    : "Quantum Supremacy: Is it hyped?",
+      "category" : "CompSoc",
+      "tags"     : "Quantum Computing",
+      "url"      : "http://ieeenitk.org/blog//quantum-supremacy/",
+      "date"     : "23 Jun 2018",
+      "author"   : "Shashank P"
+    } ,
+  
+    {
       "title"    : "Evolving Strings with Genetic Algorithms",
       "category" : "CompSoc",
       "tags"     : "Machine Learning, Genetic Algorithms, String, Genes, and Chromosome",
       "url"      : "http://ieeenitk.org/blog//string-genetic/",
-      "date"     : "19 Jun 2018"
+      "date"     : "19 Jun 2018",
+      "author"   : "Gurupungav Narayanan"
     } ,
   
     {
@@ -13,7 +23,8 @@
       "category" : "Piston",
       "tags"     : "Nanotechnology, Nano motors, Motors, ATP, and Biilogy",
       "url"      : "http://ieeenitk.org/blog//nanomotors/",
-      "date"     : "18 Jun 2018"
+      "date"     : "18 Jun 2018",
+      "author"   : "Sanath K."
     } ,
   
     {
@@ -21,7 +32,8 @@
       "category" : "CAS/SPS",
       "tags"     : "heavy electronics",
       "url"      : "http://ieeenitk.org/blog//earthing-systems/",
-      "date"     : "17 Jun 2018"
+      "date"     : "17 Jun 2018",
+      "author"   : "Shreeram Hegde"
     } ,
   
     {
@@ -29,7 +41,8 @@
       "category" : "CAS/SPS",
       "tags"     : "blockchain and IoT",
       "url"      : "http://ieeenitk.org/blog//chain-of-things/",
-      "date"     : "10 Jun 2018"
+      "date"     : "10 Jun 2018",
+      "author"   : "Mehak Arora"
     } ,
   
     {
@@ -37,7 +50,8 @@
       "category" : "Compsoc",
       "tags"     : "heap, exploitation, memory, allocation, and CompSoc",
       "url"      : "http://ieeenitk.org/blog//heap_exploitation/",
-      "date"     : "06 Jun 2018"
+      "date"     : "06 Jun 2018",
+      "author"   : "Suraj Singh"
     } ,
   
     {
@@ -45,7 +59,8 @@
       "category" : "Piston",
       "tags"     : "Piston, Shock Waves, and CFD",
       "url"      : "http://ieeenitk.org/blog//computational-approaches-of-shock-waves/",
-      "date"     : "06 Jun 2018"
+      "date"     : "06 Jun 2018",
+      "author"   : "Shashank Ravichandir"
     } ,
   
     {
@@ -53,7 +68,8 @@
       "category" : "Diode",
       "tags"     : "CAS/SPS and electronic devices",
       "url"      : "http://ieeenitk.org/blog//charge-crowding/",
-      "date"     : "06 Jun 2018"
+      "date"     : "06 Jun 2018",
+      "author"   : "Sampath Koti"
     } ,
   
     {
@@ -61,7 +77,8 @@
       "category" : "CAS/SPS",
       "tags"     : "electric power grid and 50Hz frequency",
       "url"      : "http://ieeenitk.org/blog//why-50hz/",
-      "date"     : "29 May 2018"
+      "date"     : "29 May 2018",
+      "author"   : "Megh Bhalerao"
     } ,
   
     {
@@ -69,7 +86,8 @@
       "category" : "CompSoc",
       "tags"     : "Data mining and Apriori",
       "url"      : "http://ieeenitk.org/blog//market-basket/",
-      "date"     : "29 May 2018"
+      "date"     : "29 May 2018",
+      "author"   : "Anumeha Agrawal"
     } ,
   
     {
@@ -77,7 +95,8 @@
       "category" : "Piston",
       "tags"     : "Alterego",
       "url"      : "http://ieeenitk.org/blog//alterego/",
-      "date"     : "29 May 2018"
+      "date"     : "29 May 2018",
+      "author"   : "Sinchana Hegde"
     } ,
   
     {
@@ -85,7 +104,8 @@
       "category" : "Envision",
       "tags"     : "Braking",
       "url"      : "http://ieeenitk.org/blog//regenerative-braking/",
-      "date"     : "21 May 2018"
+      "date"     : "21 May 2018",
+      "author"   : "Salman Shah"
     } ,
   
     {
@@ -93,7 +113,8 @@
       "category" : "Piston",
       "tags"     : "graphene and electronics",
       "url"      : "http://ieeenitk.org/blog//washable-electronics/",
-      "date"     : "16 May 2018"
+      "date"     : "16 May 2018",
+      "author"   : "Sonal S. Parab"
     } ,
   
     {
@@ -101,7 +122,8 @@
       "category" : "CompSoc",
       "tags"     : "virtualization and qemu",
       "url"      : "http://ieeenitk.org/blog//qemu-virtualization/",
-      "date"     : "16 May 2018"
+      "date"     : "16 May 2018",
+      "author"   : "Archit Pandey"
     } ,
   
     {
@@ -109,7 +131,8 @@
       "category" : "CAS/SPS",
       "tags"     : "IoT and spatial imaging",
       "url"      : "http://ieeenitk.org/blog//amazon-go/",
-      "date"     : "16 May 2018"
+      "date"     : "16 May 2018",
+      "author"   : "Anirudh Sundar"
     } ,
   
     {
@@ -117,7 +140,8 @@
       "category" : "Envision",
       "tags"     : "IoT",
       "url"      : "http://ieeenitk.org/blog//smart-lighting-systems/",
-      "date"     : "13 May 2018"
+      "date"     : "13 May 2018",
+      "author"   : "Anirudh B H"
     } ,
   
     {
@@ -125,7 +149,8 @@
       "category" : "Envision",
       "tags"     : "Android, Web, and Django",
       "url"      : "http://ieeenitk.org/blog//prof-matching-envision/",
-      "date"     : "06 May 2018"
+      "date"     : "06 May 2018",
+      "author"   : "Anirudh B H"
     } ,
   
     {
@@ -133,7 +158,8 @@
       "category" : "",
       "tags"     : "Piston",
       "url"      : "http://ieeenitk.org/blog//evolution-of-bicycle/",
-      "date"     : "17 Feb 2018"
+      "date"     : "17 Feb 2018",
+      "author"   : "Aditya Prabhu"
     } ,
   
     {
@@ -141,7 +167,8 @@
       "category" : "Diode",
       "tags"     : "Electric Cars and CAS/SPS",
       "url"      : "http://ieeenitk.org/blog//electric-cars/",
-      "date"     : "17 Feb 2018"
+      "date"     : "17 Feb 2018",
+      "author"   : "Sachin Sampath"
     } ,
   
     {
@@ -149,7 +176,8 @@
       "category" : "CompSoc",
       "tags"     : "Data Visualization, t-SNE, ML, and Data Visualization",
       "url"      : "http://ieeenitk.org/blog//tSNE/",
-      "date"     : "16 Feb 2018"
+      "date"     : "16 Feb 2018",
+      "author"   : "Chenna Keshava B S"
     } ,
   
     {
@@ -157,7 +185,8 @@
       "category" : "Compsoc",
       "tags"     : "Bit masks, DP, Competitive Programming, and C++",
       "url"      : "http://ieeenitk.org/blog//bit-manipulation/",
-      "date"     : "12 Jan 2018"
+      "date"     : "12 Jan 2018",
+      "author"   : "Ashwin Joisa"
     } ,
   
     {
@@ -165,7 +194,8 @@
       "category" : "Piston",
       "tags"     : "Fluid Dynamics and Satellites",
       "url"      : "http://ieeenitk.org/blog//fluids-and-satellites/",
-      "date"     : "12 Jan 2018"
+      "date"     : "12 Jan 2018",
+      "author"   : "KV Krishna"
     } ,
   
     {
@@ -173,7 +203,8 @@
       "category" : "Diode",
       "tags"     : "differently-abled, assistive technology, text scanners, optical sensors, bionic, and eye tracking system.",
       "url"      : "http://ieeenitk.org/blog//how-is-technology-helping-the-differently-abled-people/",
-      "date"     : "12 Jan 2018"
+      "date"     : "12 Jan 2018",
+      "author"   : "Shruti Deshpande"
     } ,
   
     {
@@ -181,7 +212,8 @@
       "category" : "CompSoc",
       "tags"     : "SSL and Public Key Cryptography",
       "url"      : "http://ieeenitk.org/blog//public-key-cryptography/",
-      "date"     : "29 Dec 2017"
+      "date"     : "29 Dec 2017",
+      "author"   : "Nishanth P Hebbar"
     } ,
   
     {
@@ -189,7 +221,8 @@
       "category" : "Diode",
       "tags"     : "Tesla, Edison, and AC/DC",
       "url"      : "http://ieeenitk.org/blog//war-of-the-currents/",
-      "date"     : "29 Dec 2017"
+      "date"     : "29 Dec 2017",
+      "author"   : "Aditya Rangarajan"
     } ,
   
     {
@@ -197,7 +230,8 @@
       "category" : "Piston",
       "tags"     : "Speed Printing and Stereolithography",
       "url"      : "http://ieeenitk.org/blog//speed-printing/",
-      "date"     : "28 Dec 2017"
+      "date"     : "28 Dec 2017",
+      "author"   : "Harshit Ranjan"
     } ,
   
     {
@@ -205,7 +239,8 @@
       "category" : "CompSoc",
       "tags"     : "Space, Machine Learning, and Deep Learning",
       "url"      : "http://ieeenitk.org/blog//space-ml/",
-      "date"     : "21 Dec 2017"
+      "date"     : "21 Dec 2017",
+      "author"   : "Gurupungav Narayanan"
     } ,
   
     {
@@ -213,7 +248,8 @@
       "category" : "Diode",
       "tags"     : "E Ink",
       "url"      : "http://ieeenitk.org/blog//e-Ink/",
-      "date"     : "21 Dec 2017"
+      "date"     : "21 Dec 2017",
+      "author"   : "Satyam Shivam"
     } ,
   
     {
@@ -221,7 +257,8 @@
       "category" : "Piston",
       "tags"     : "Space, Rovers, and Rocker Bogie",
       "url"      : "http://ieeenitk.org/blog//rocker-bogie/",
-      "date"     : "21 Dec 2017"
+      "date"     : "21 Dec 2017",
+      "author"   : "Nithin M Eapen"
     } ,
   
     {
@@ -229,7 +266,8 @@
       "category" : "CompSoc",
       "tags"     : "Quantum Computing and Qubits",
       "url"      : "http://ieeenitk.org/blog//future-of-computing-quantum-computing/",
-      "date"     : "18 Dec 2017"
+      "date"     : "18 Dec 2017",
+      "author"   : "Rosa Anil George"
     } ,
   
     {
@@ -237,7 +275,8 @@
       "category" : "Piston",
       "tags"     : "",
       "url"      : "http://ieeenitk.org/blog//the-airbag-system-for-two-wheeler-vehicle/",
-      "date"     : "08 Dec 2017"
+      "date"     : "08 Dec 2017",
+      "author"   : "Kiran Kumar G"
     } ,
   
     {
@@ -245,7 +284,8 @@
       "category" : "Diode",
       "tags"     : "",
       "url"      : "http://ieeenitk.org/blog//bot/",
-      "date"     : "08 Dec 2017"
+      "date"     : "08 Dec 2017",
+      "author"   : "Ashwin Hebbar"
     } ,
   
     {
@@ -253,7 +293,8 @@
       "category" : "CompSoc",
       "tags"     : "CTF, Ethical Hacking, and Security",
       "url"      : "http://ieeenitk.org/blog//a-step-ahead-in-reverse-engineering/",
-      "date"     : "07 Dec 2017"
+      "date"     : "07 Dec 2017",
+      "author"   : "Adwaith V Gautham"
     } ,
   
     {
@@ -261,7 +302,8 @@
       "category" : "Diode",
       "tags"     : "RFID and ADC",
       "url"      : "http://ieeenitk.org/blog//rfid/",
-      "date"     : "20 Nov 2017"
+      "date"     : "20 Nov 2017",
+      "author"   : "Mehak Arora"
     } ,
   
     {
@@ -269,7 +311,8 @@
       "category" : "CompSoc",
       "tags"     : "Machine Learning, Stock Market, and Support Vector Machine",
       "url"      : "http://ieeenitk.org/blog//machine-learning-for-stock-market-investment/",
-      "date"     : "20 Nov 2017"
+      "date"     : "20 Nov 2017",
+      "author"   : "Suraj Singh"
     } ,
   
     {
@@ -277,7 +320,8 @@
       "category" : "Piston",
       "tags"     : "Energy, Renewables, and Thermal Sciences",
       "url"      : "http://ieeenitk.org/blog//evacuated-tube-collector/",
-      "date"     : "20 Nov 2017"
+      "date"     : "20 Nov 2017",
+      "author"   : "Sanath K."
     } ,
   
     {
@@ -285,7 +329,8 @@
       "category" : "CompSoc",
       "tags"     : "Complexity theory, Logic, and Mathematics",
       "url"      : "http://ieeenitk.org/blog//the-halting-problem/",
-      "date"     : "13 Nov 2017"
+      "date"     : "13 Nov 2017",
+      "author"   : "Shashank P"
     } ,
   
     {
@@ -293,7 +338,8 @@
       "category" : "Piston",
       "tags"     : "Aeronautics",
       "url"      : "http://ieeenitk.org/blog//design-of-aircraft-windows/",
-      "date"     : "12 Nov 2017"
+      "date"     : "12 Nov 2017",
+      "author"   : "Shashank Ravichandir"
     } ,
   
     {
@@ -301,7 +347,8 @@
       "category" : "Diode",
       "tags"     : "QR code",
       "url"      : "http://ieeenitk.org/blog//how-qr-code-was-invented/",
-      "date"     : "12 Nov 2017"
+      "date"     : "12 Nov 2017",
+      "author"   : "Shreeram Hegde"
     } ,
   
     {
@@ -309,7 +356,8 @@
       "category" : "Diode",
       "tags"     : "Smart grid and Electric grid",
       "url"      : "http://ieeenitk.org/blog//smart-grid/",
-      "date"     : "05 Nov 2017"
+      "date"     : "05 Nov 2017",
+      "author"   : "Shama G Vasisht"
     } ,
   
     {
@@ -317,7 +365,8 @@
       "category" : "Piston",
       "tags"     : "Magnetism",
       "url"      : "http://ieeenitk.org/blog//magnetically-repelling-ice/",
-      "date"     : "05 Nov 2017"
+      "date"     : "05 Nov 2017",
+      "author"   : "Sonal S. Parab"
     } ,
   
     {
@@ -325,7 +374,8 @@
       "category" : "Compsoc",
       "tags"     : "Artificial Intelligence and AI threat",
       "url"      : "http://ieeenitk.org/blog//the-beginning-of-the-end-have-the-machines-won/",
-      "date"     : "05 Nov 2017"
+      "date"     : "05 Nov 2017",
+      "author"   : "Palak Singhal"
     } ,
   
     {
@@ -333,7 +383,8 @@
       "category" : "CompSoc",
       "tags"     : "Docker, Containers, and DevOps",
       "url"      : "http://ieeenitk.org/blog//introduction-to-docker/",
-      "date"     : "30 Oct 2017"
+      "date"     : "30 Oct 2017",
+      "author"   : "Mahim Agrawal"
     } ,
   
     {
@@ -341,7 +392,8 @@
       "category" : "CAS",
       "tags"     : "LIGO",
       "url"      : "http://ieeenitk.org/blog//the-ligo-experiment/",
-      "date"     : "30 Oct 2017"
+      "date"     : "30 Oct 2017",
+      "author"   : "Megh Bhalerao"
     } ,
   
     {
@@ -349,7 +401,8 @@
       "category" : "Piston",
       "tags"     : "Power",
       "url"      : "http://ieeenitk.org/blog//wireless-power-transmission/",
-      "date"     : "30 Oct 2017"
+      "date"     : "30 Oct 2017",
+      "author"   : "Vanshika Gupta"
     } ,
   
     {
@@ -357,7 +410,8 @@
       "category" : "CompSoc",
       "tags"     : "Iot and Networking",
       "url"      : "http://ieeenitk.org/blog//using-mdns-in-iot/",
-      "date"     : "26 Oct 2017"
+      "date"     : "26 Oct 2017",
+      "author"   : "Hrishi Hiraskar"
     } ,
   
     {
@@ -365,7 +419,8 @@
       "category" : "Piston",
       "tags"     : "Honeycomb Conjecture and Hexagonal cells",
       "url"      : "http://ieeenitk.org/blog//the-honeycomb-conjecture/",
-      "date"     : "23 Oct 2017"
+      "date"     : "23 Oct 2017",
+      "author"   : "Rajat Chandavar"
     } ,
   
     {
@@ -373,7 +428,8 @@
       "category" : "CAS",
       "tags"     : "transmitter and reciever",
       "url"      : "http://ieeenitk.org/blog//charge-your-phone/",
-      "date"     : "23 Oct 2017"
+      "date"     : "23 Oct 2017",
+      "author"   : "Sowjanya Kandula"
     } ,
   
     {
@@ -381,7 +437,8 @@
       "category" : "CompSoc",
       "tags"     : "Virtual Image and Augmented Reality",
       "url"      : "http://ieeenitk.org/blog//augmented-reality/",
-      "date"     : "23 Oct 2017"
+      "date"     : "23 Oct 2017",
+      "author"   : "Anumeha Agrawal"
     } ,
   
     {
@@ -389,7 +446,8 @@
       "category" : "Diode",
       "tags"     : "Formula One, ECU, and TAG-320",
       "url"      : "http://ieeenitk.org/blog//the-brain-behind-a-formula-one-car/",
-      "date"     : "16 Oct 2017"
+      "date"     : "16 Oct 2017",
+      "author"   : "Anirudh Sundar"
     } ,
   
     {
@@ -397,7 +455,8 @@
       "category" : "Piston",
       "tags"     : "Robots and Computer Vision",
       "url"      : "http://ieeenitk.org/blog//robots-can-see-in-3d/",
-      "date"     : "16 Oct 2017"
+      "date"     : "16 Oct 2017",
+      "author"   : "Sinchana Hegde"
     } ,
   
     {
@@ -405,7 +464,8 @@
       "category" : "CompSoc",
       "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, and Machine Learning",
       "url"      : "http://ieeenitk.org/blog//generative-adversarial-networks/",
-      "date"     : "16 Oct 2017"
+      "date"     : "16 Oct 2017",
+      "author"   : "Moksh Jain"
     } ,
   
     {
@@ -413,7 +473,8 @@
       "category" : "CompSoc",
       "tags"     : "SEO, Google, and Web",
       "url"      : "http://ieeenitk.org/blog//search-engine-optimisation/",
-      "date"     : "08 Oct 2017"
+      "date"     : "08 Oct 2017",
+      "author"   : "Praveen Gupta"
     } ,
   
     {
@@ -421,7 +482,8 @@
       "category" : "Diode",
       "tags"     : "Raspberry Pi",
       "url"      : "http://ieeenitk.org/blog//rpi-tutorial/",
-      "date"     : "08 Oct 2017"
+      "date"     : "08 Oct 2017",
+      "author"   : "Varshini Srinivasan"
     } ,
   
     {
@@ -429,7 +491,8 @@
       "category" : "Piston",
       "tags"     : "Aircraft Engines",
       "url"      : "http://ieeenitk.org/blog//aircraft-engines/",
-      "date"     : "08 Oct 2017"
+      "date"     : "08 Oct 2017",
+      "author"   : "Mirthun Raj"
     } ,
   
     {
@@ -437,7 +500,8 @@
       "category" : "Diode",
       "tags"     : "fingerprint, sensors, and fingerprint sensor",
       "url"      : "http://ieeenitk.org/blog//fingerprint-recognition/",
-      "date"     : "03 Oct 2017"
+      "date"     : "03 Oct 2017",
+      "author"   : "Manan Sharma"
     } ,
   
     {
@@ -445,7 +509,8 @@
       "category" : "Compsoc",
       "tags"     : "Chatbot, Chat, Bots, Language Processing, and IoT",
       "url"      : "http://ieeenitk.org/blog//chatbot/",
-      "date"     : "03 Oct 2017"
+      "date"     : "03 Oct 2017",
+      "author"   : "Adil Ashique"
     } ,
   
     {
@@ -453,7 +518,8 @@
       "category" : "Piston",
       "tags"     : "biology, hacking, biological hacking, superhuman, and cyborgs",
       "url"      : "http://ieeenitk.org/blog//biohacking/",
-      "date"     : "03 Oct 2017"
+      "date"     : "03 Oct 2017",
+      "author"   : "Anand Pathak"
     } ,
   
     {
@@ -461,7 +527,8 @@
       "category" : "Diode",
       "tags"     : "Quantum Computing",
       "url"      : "http://ieeenitk.org/blog//quantum-computers/",
-      "date"     : "24 Sep 2017"
+      "date"     : "24 Sep 2017",
+      "author"   : "Sampath Koti"
     } ,
   
     {
@@ -469,7 +536,8 @@
       "category" : "CompSoc",
       "tags"     : "GUI, GTK+, and Gnome",
       "url"      : "http://ieeenitk.org/blog//getting-started-with-gui/",
-      "date"     : "24 Sep 2017"
+      "date"     : "24 Sep 2017",
+      "author"   : "Archit Pandey"
     } ,
   
     {
@@ -477,7 +545,8 @@
       "category" : "Piston",
       "tags"     : "Space, NASA, and Case Study",
       "url"      : "http://ieeenitk.org/blog//challenger-disaster/",
-      "date"     : "24 Sep 2017"
+      "date"     : "24 Sep 2017",
+      "author"   : "Nikhil Govindarajan"
     } ,
   
     {
@@ -485,7 +554,8 @@
       "category" : "CompSoc",
       "tags"     : "Networking, Torrents, and P2P",
       "url"      : "http://ieeenitk.org/blog//bit-torrent-explained/",
-      "date"     : "18 Sep 2017"
+      "date"     : "18 Sep 2017",
+      "author"   : "Mahir Jain"
     } ,
   
     {
@@ -493,7 +563,8 @@
       "category" : "Piston",
       "tags"     : "Energy, Research, and Innovation",
       "url"      : "http://ieeenitk.org/blog//storing-energy-in-salt/",
-      "date"     : "18 Sep 2017"
+      "date"     : "18 Sep 2017",
+      "author"   : "Adila M Rajiv"
     } ,
   
     {
@@ -501,7 +572,8 @@
       "category" : "Diode",
       "tags"     : "Smart homes and IoT",
       "url"      : "http://ieeenitk.org/blog//what-makes-a-smart-home-smart/",
-      "date"     : "18 Sep 2017"
+      "date"     : "18 Sep 2017",
+      "author"   : "Anirudh B H"
     } ,
   
     {
@@ -509,7 +581,8 @@
       "category" : "Diode",
       "tags"     : "Arduino",
       "url"      : "http://ieeenitk.org/blog//you-dont-really-know-arduino/",
-      "date"     : "12 Sep 2017"
+      "date"     : "12 Sep 2017",
+      "author"   : "Vibhore Jain"
     } ,
   
     {
@@ -517,7 +590,8 @@
       "category" : "CAS",
       "tags"     : "Water Memory",
       "url"      : "http://ieeenitk.org/blog//water-memory-what-a-memory/",
-      "date"     : "11 Sep 2017"
+      "date"     : "11 Sep 2017",
+      "author"   : "Ayush G S"
     } ,
   
     {
@@ -525,7 +599,8 @@
       "category" : "CAS",
       "tags"     : "Game Theory and Strategy",
       "url"      : "http://ieeenitk.org/blog//rock-paper-scissors/",
-      "date"     : "04 Sep 2017"
+      "date"     : "04 Sep 2017",
+      "author"   : "Sachin Sampath"
     } ,
   
     {
@@ -533,7 +608,8 @@
       "category" : "Piston",
       "tags"     : "Aviation and Environment",
       "url"      : "http://ieeenitk.org/blog//airbus-e-fan/",
-      "date"     : "04 Sep 2017"
+      "date"     : "04 Sep 2017",
+      "author"   : "Sachit Krishnan"
     } ,
   
     {
@@ -541,7 +617,8 @@
       "category" : "Compsoc",
       "tags"     : "ML, AI, and Security AI",
       "url"      : "http://ieeenitk.org/blog//safety-issues-in-ai-systems/",
-      "date"     : "04 Sep 2017"
+      "date"     : "04 Sep 2017",
+      "author"   : "Chenna Keshava B S"
     } ,
   
     {
@@ -549,7 +626,8 @@
       "category" : "Diode",
       "tags"     : "Sports",
       "url"      : "http://ieeenitk.org/blog//technology-in-sports/",
-      "date"     : "22 Aug 2017"
+      "date"     : "22 Aug 2017",
+      "author"   : "Abhishek Thigale"
     } ,
   
     {
@@ -557,7 +635,8 @@
       "category" : "CompSoc",
       "tags"     : "Hashing, C++, Competitive Programming, and Data Structures",
       "url"      : "http://ieeenitk.org/blog//hashing-in-competitive-programming/",
-      "date"     : "21 Aug 2017"
+      "date"     : "22 Aug 2017",
+      "author"   : "Somanth Sarkar"
     } ,
   
     {
@@ -565,7 +644,8 @@
       "category" : "Piston",
       "tags"     : "six stroke engines",
       "url"      : "http://ieeenitk.org/blog//six-stroke-engine/",
-      "date"     : "13 Aug 2017"
+      "date"     : "13 Aug 2017",
+      "author"   : "Vinayak V Gopal"
     } ,
   
     {
@@ -573,7 +653,8 @@
       "category" : "Diode",
       "tags"     : "OpenCV",
       "url"      : "http://ieeenitk.org/blog//opencv/",
-      "date"     : "13 Aug 2017"
+      "date"     : "13 Aug 2017",
+      "author"   : "Santosh Kodali"
     } ,
   
     {
@@ -581,7 +662,8 @@
       "category" : "Diode",
       "tags"     : "random, PRNG, TRNGs, cryptography, and Lehmer's RNG",
       "url"      : "http://ieeenitk.org/blog//random-number-generator/",
-      "date"     : "04 Aug 2017"
+      "date"     : "04 Aug 2017",
+      "author"   : "N Subbalakshmi"
     } ,
   
     {
@@ -589,7 +671,8 @@
       "category" : "Piston",
       "tags"     : "Smartphone and Negative effects",
       "url"      : "http://ieeenitk.org/blog//smartphones-and-health/",
-      "date"     : "04 Aug 2017"
+      "date"     : "04 Aug 2017",
+      "author"   : "Akshay Krishna"
     } ,
   
     {
@@ -597,7 +680,8 @@
       "category" : "Diode",
       "tags"     : "Bluetooth, Raspberry Pi 3, and Internship",
       "url"      : "http://ieeenitk.org/blog//raspberry-pi-bluetooth/",
-      "date"     : "04 Aug 2017"
+      "date"     : "04 Aug 2017",
+      "author"   : "Shwetha S V"
     } ,
   
     {
@@ -605,7 +689,8 @@
       "category" : "Piston",
       "tags"     : "High Lift devices",
       "url"      : "http://ieeenitk.org/blog//high-lift-devices/",
-      "date"     : "28 Jul 2017"
+      "date"     : "28 Jul 2017",
+      "author"   : "Sri Charan Akula"
     } ,
   
     {
@@ -613,7 +698,8 @@
       "category" : "piston",
       "tags"     : "3D Printing, Additive Manufacturing, and SIS",
       "url"      : "http://ieeenitk.org/blog//3d-printing/",
-      "date"     : "28 Jul 2017"
+      "date"     : "28 Jul 2017",
+      "author"   : "Nandini"
     } ,
   
     {
@@ -621,7 +707,8 @@
       "category" : "CompSoc",
       "tags"     : "Machine Learning, AI, and Bots",
       "url"      : "http://ieeenitk.org/blog//reinforcement-learning/",
-      "date"     : "28 Jul 2017"
+      "date"     : "28 Jul 2017",
+      "author"   : "Aneesh Aithal"
     } ,
   
     {
@@ -629,7 +716,8 @@
       "category" : "CompSoc",
       "tags"     : "Number Theory, Group, Ring, Rng, Field, Finite Field, and Galois Field",
       "url"      : "http://ieeenitk.org/blog//number-theory/",
-      "date"     : "23 Jul 2017"
+      "date"     : "23 Jul 2017",
+      "author"   : "Adithya Bhat"
     } ,
   
     {
@@ -637,7 +725,8 @@
       "category" : "CompSoc",
       "tags"     : "File Parsing and Logging",
       "url"      : "http://ieeenitk.org/blog//log-file-parsing-and-report-generation/",
-      "date"     : "23 Jul 2017"
+      "date"     : "23 Jul 2017",
+      "author"   : "Karthik"
     } ,
   
     {
@@ -645,7 +734,8 @@
       "category" : "Piston",
       "tags"     : "Structural engineering and Felix Candela",
       "url"      : "http://ieeenitk.org/blog//cuba-and-candela-thin-shell-structures-and-their-strength-through-curvature/",
-      "date"     : "22 Jul 2017"
+      "date"     : "22 Jul 2017",
+      "author"   : "Praful Itti"
     } ,
   
     {
@@ -653,7 +743,8 @@
       "category" : "CompSoc",
       "tags"     : "Multitenancy, Cloud Computing, and SaaS",
       "url"      : "http://ieeenitk.org/blog//multitenancy/",
-      "date"     : "15 Jul 2017"
+      "date"     : "15 Jul 2017",
+      "author"   : "Sandeep Menon"
     } ,
   
     {
@@ -661,7 +752,8 @@
       "category" : "Piston",
       "tags"     : "CVT, Transmission, Constant Engine RPM, and Infinite gear ratio",
       "url"      : "http://ieeenitk.org/blog//cvt/",
-      "date"     : "15 Jul 2017"
+      "date"     : "15 Jul 2017",
+      "author"   : "Prajwal Bharadwaj"
     } ,
   
     {
@@ -669,7 +761,8 @@
       "category" : "Diode",
       "tags"     : "FinFETS",
       "url"      : "http://ieeenitk.org/blog//finfets/",
-      "date"     : "08 Jul 2017"
+      "date"     : "08 Jul 2017",
+      "author"   : "Megha Mantur"
     } ,
   
     {
@@ -677,7 +770,8 @@
       "category" : "Piston",
       "tags"     : "Compliant mechanisms",
       "url"      : "http://ieeenitk.org/blog//compliant-mechanisms/",
-      "date"     : "08 Jul 2017"
+      "date"     : "08 Jul 2017",
+      "author"   : "Shuvam Senapati"
     } ,
   
     {
@@ -685,7 +779,8 @@
       "category" : "CompSoc",
       "tags"     : "Big Data",
       "url"      : "http://ieeenitk.org/blog//big-data/",
-      "date"     : "08 Jul 2017"
+      "date"     : "08 Jul 2017",
+      "author"   : "A Aditya"
     } ,
   
     {
@@ -693,7 +788,8 @@
       "category" : "Diode",
       "tags"     : "SPS, Image Processing, and Linear Algebra",
       "url"      : "http://ieeenitk.org/blog//dealing-with-underdetermined-systems/",
-      "date"     : "02 Jul 2017"
+      "date"     : "02 Jul 2017",
+      "author"   : "Abhijith Kamath"
     } ,
   
     {
@@ -701,7 +797,8 @@
       "category" : "Piston",
       "tags"     : "hyperloop",
       "url"      : "http://ieeenitk.org/blog//hyperloop/",
-      "date"     : "25 Jun 2017"
+      "date"     : "25 Jun 2017",
+      "author"   : "Pranay Praveen"
     } ,
   
     {
@@ -709,7 +806,8 @@
       "category" : "Diode",
       "tags"     : "Graphene",
       "url"      : "http://ieeenitk.org/blog//graphene/",
-      "date"     : "24 Jun 2017"
+      "date"     : "24 Jun 2017",
+      "author"   : "Samarth Bonthala"
     } ,
   
     {
@@ -717,7 +815,8 @@
       "category" : "CompSoc",
       "tags"     : "JavaScript and Programming",
       "url"      : "http://ieeenitk.org/blog//promises-closures-and-potatoes/",
-      "date"     : "23 Jun 2017"
+      "date"     : "23 Jun 2017",
+      "author"   : "Vighnesh Velayudhan"
     } ,
   
     {
@@ -725,7 +824,8 @@
       "category" : "Piston",
       "tags"     : "Fluid Mechanics",
       "url"      : "http://ieeenitk.org/blog//fluid-mechanics-in-everyday-life/",
-      "date"     : "18 Jun 2017"
+      "date"     : "18 Jun 2017",
+      "author"   : "Shreyas Hegde"
     } ,
   
     {
@@ -733,7 +833,8 @@
       "category" : "Piston",
       "tags"     : "IoT and Automation",
       "url"      : "http://ieeenitk.org/blog//the-fourth-industrial-revolution/",
-      "date"     : "16 Jun 2017"
+      "date"     : "16 Jun 2017",
+      "author"   : "Vasista Ayyagari"
     } ,
   
     {
@@ -741,7 +842,8 @@
       "category" : "CompSocDiode",
       "tags"     : "Computer Vision, Image Processing, and Artificial Intelligence",
       "url"      : "http://ieeenitk.org/blog//through-the-eyes-of-a-computer/",
-      "date"     : "14 Jun 2017"
+      "date"     : "14 Jun 2017",
+      "author"   : "Mohiitaa Chowdhury"
     } ,
   
     {
@@ -749,7 +851,8 @@
       "category" : "CompSoc",
       "tags"     : "CTF, Ethical Hacking, and Security",
       "url"      : "http://ieeenitk.org/blog//introduction-to-reverse-engineering/",
-      "date"     : "14 Jun 2017"
+      "date"     : "14 Jun 2017",
+      "author"   : "Jeshventh Raja"
     } ,
   
     {
@@ -757,7 +860,8 @@
       "category" : "CompSoc",
       "tags"     : "Web Design and Grid",
       "url"      : "http://ieeenitk.org/blog//google-image-search-grid/",
-      "date"     : "10 Jun 2017"
+      "date"     : "10 Jun 2017",
+      "author"   : "Hrishi Hiraskar"
     } ,
   
     {
@@ -765,7 +869,8 @@
       "category" : "Diode",
       "tags"     : "CAS, SPS, and EEE",
       "url"      : "http://ieeenitk.org/blog//lighting-up-your-room/",
-      "date"     : "10 Jun 2017"
+      "date"     : "10 Jun 2017",
+      "author"   : "Abhijith Kamath"
     } ,
   
     {
@@ -773,7 +878,8 @@
       "category" : "CompSoc",
       "tags"     : "Algorithms and P v/s NP",
       "url"      : "http://ieeenitk.org/blog//the-class-of-np/",
-      "date"     : "09 Jun 2017"
+      "date"     : "09 Jun 2017",
+      "author"   : "Isha Tarte"
     } ,
   
     {
@@ -781,7 +887,8 @@
       "category" : "Piston",
       "tags"     : "Chemical and Career Advice",
       "url"      : "http://ieeenitk.org/blog//why-not-chemical-engineering/",
-      "date"     : "07 Jun 2017"
+      "date"     : "07 Jun 2017",
+      "author"   : "Anupama G"
     } ,
   
     {
@@ -789,7 +896,8 @@
       "category" : "CompSoc",
       "tags"     : "High Performance Computing and Game Development",
       "url"      : "http://ieeenitk.org/blog//introduction-to-gpu-computing/",
-      "date"     : "04 Jun 2017"
+      "date"     : "04 Jun 2017",
+      "author"   : "Vilas M"
     } ,
   
     {
@@ -797,7 +905,8 @@
       "category" : "Diode",
       "tags"     : "Bots",
       "url"      : "http://ieeenitk.org/blog//how-to-get-started-with-bots/",
-      "date"     : "01 Jun 2017"
+      "date"     : "01 Jun 2017",
+      "author"   : "Tarun Mittal"
     } ,
   
     {
@@ -805,7 +914,8 @@
       "category" : "CompSoc",
       "tags"     : "GCC, C, Programming, and HelloWorld",
       "url"      : "http://ieeenitk.org/blog//hello-world/",
-      "date"     : "26 May 2017"
+      "date"     : "26 May 2017",
+      "author"   : "Adithya Bhat"
     } ,
   
     {
@@ -813,7 +923,8 @@
       "category" : "CompSoc",
       "tags"     : "Unix, Terminal, and Bash",
       "url"      : "http://ieeenitk.org/blog//getting-to-love-the-terminal/",
-      "date"     : "24 May 2017"
+      "date"     : "24 May 2017",
+      "author"   : "Kaushik S Kalmady"
     } ,
   
     {
@@ -821,7 +932,8 @@
       "category" : "CompSoc",
       "tags"     : "Linux and Ubuntu",
       "url"      : "http://ieeenitk.org/blog//installing-ubuntu/",
-      "date"     : "24 May 2017"
+      "date"     : "24 May 2017",
+      "author"   : "Hrishi Hiraskar"
     } ,
   
     {
@@ -829,7 +941,8 @@
       "category" : "CompSocDiodePiston",
       "tags"     : "Introduction",
       "url"      : "http://ieeenitk.org/blog//introduction-to-ieee/",
-      "date"     : "15 May 2017"
+      "date"     : "15 May 2017",
+      "author"   : "Salman Shah"
     } 
   
 ]

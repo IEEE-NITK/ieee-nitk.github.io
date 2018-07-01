@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-18 14:00:00 +0400" class="date">18 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2017-09-18 15:30:00 +0530" class="date">18 Sep 2017</time>
         
         <h1 class="post-title" itemprop="name">Storing energy in molten salt</h1>
         <p itemprop="description" class="subtitle">An article describing an interesting energy storage alternative</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
 
 <p>Renewable energy is the answer to sustainable development. It is the hot topic of our generation and even though it is in its rudimentary stage, it is the best solution in maintaining the balance between environment and our energy needs. We all know that a lot of research is going on in this field, whether it is the oft talked about and used solar and wind energy, or the slightly less used ocean thermal energy.</p>
 
@@ -189,7 +194,17 @@
 
 <p>Apart from this, a lot of research is also going on in this field all over the world. The University of South Australia recently won the ANSTO Eureka Prize for Innovative Use of Technology for their ground-breaking work in this field.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Storing energy in molten salt</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-06-17 14:00:30 +0400" class="date">17 Jun 2018</time>
+            <time itemprop="datePublished" datetime="2018-06-17 15:30:30 +0530" class="date">17 Jun 2018</time>
         
         <h1 class="post-title" itemprop="name">Earthing Systems</h1>
         <p itemprop="description" class="subtitle"></p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.</p>
 
 <p><img src="/blog/assets/img/earthing-systems/image001.jpg" alt="image001" /></p>
 
@@ -203,7 +208,17 @@
 
 <p>Such type of earthing is provided to the electrical equipment. The non-current carrying part of the equipment like their metallic frame is connected to the earth by the help of the conducting wire.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CAS/SPS</span>
+        <span id="title">Earthing Systems</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

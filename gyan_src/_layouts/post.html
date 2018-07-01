@@ -5,10 +5,13 @@
         {% include svg-icons.html %}
         {% include header-post.html %}
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                {{ content }}
-            </article>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    {{ content }}
+                </article>
+                {% include sidebar.html %}
+            </div>
 
             {% include author.html %}
             {% include comments.html %}

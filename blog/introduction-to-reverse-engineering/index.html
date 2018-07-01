@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-06-14 16:10:44 +0400" class="date">14 Jun 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-14 17:40:44 +0530" class="date">14 Jun 2017</time>
         
         <h1 class="post-title" itemprop="name">Introduction to Reverse Engineering</h1>
         <p itemprop="description" class="subtitle">Learn how to break your code and make it better!</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>I am sure you would have fixed a bug if you have done programming. Going through your code, identifying places where it could have gone wrong, trying out different inputs to make it easier, each one with your own different methods! You also would have learnt to make your debugging process simpler with your experience for sure. Congratulations for your first step towards an important skill required for reverse engineering :)</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>I am sure you would have fixed a bug if you have done programming. Going through your code, identifying places where it could have gone wrong, trying out different inputs to make it easier, each one with your own different methods! You also would have learnt to make your debugging process simpler with your experience for sure. Congratulations for your first step towards an important skill required for reverse engineering :)</p>
 
 <p>Lets begin with a simple intuitive understanding of reverse engineering. You have a toy gun in which you can load bullets and shoot. One fine day, it stops working! (Hmm, not a fine day maybe). Having “Jugaad” skills, you will surely not throw it :P You open it and understand how it works. You find that it works on spring mechanism. Being a little technical (:P), You provide potential energy when you compress the spring and at a stage, it gets locked. It is released by pressing the trigger (releasing the lock effectively) and give the bullet kinetic energy and BOOM!
 You find the trigger was displaced and unable to release the lock and hence you fix it! Feels good isn’t it? :D Not a bad day after all :) Similar process takes place with a software product too. From the application, you extract the source code and understand the logic, flow of information and the loopholes.</p>
@@ -222,7 +227,17 @@ You find the trigger was displaced and unable to release the lock and hence you 
 <p>So, That was about it! Have a great Summer!
 Any doubts, feel free to ask :) !</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Introduction to Reverse Engineering</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

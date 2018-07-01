@@ -100,12 +100,17 @@
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/gyan/assets/js/sidebar.js"></script>
+        
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -167,9 +172,10 @@
 </header>
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>My research interests are Physical Metallurgy, Aerospace Materials, Ceramic &amp; Composite Materials</p>
+            
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>My research interests are Physical Metallurgy, Aerospace Materials, Ceramic &amp; Composite Materials</p>
 
 <h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
 <h3 id="what-interested-you-or-attracted-you-to-this-particular-internship-and-why">What interested you or attracted you to this particular internship and why?</h3>
@@ -206,7 +212,18 @@ The company visited the campus for the first time and were looking for people fo
 
 <p>Definitely. If you are looking for an industrial R&amp;D in the aerospace and aviation sector, this is a place you would love to work in.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="tags">InternshipsIndustry</span>
+        <span id="category">Piston</span>
+        <span id="title">Bell Helicopter-Textron India Private Limited (TIPL), Internship Experience - Shreevarsha</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

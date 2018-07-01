@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-06-18 20:25:03 +0400" class="date">18 Jun 2018</time>
+            <time itemprop="datePublished" datetime="2018-06-18 21:55:03 +0530" class="date">18 Jun 2018</time>
         
         <h1 class="post-title" itemprop="name">Nanomotors</h1>
         <p itemprop="description" class="subtitle">An interesting take on nanomotors and their biomedical applications</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>﻿Nanotechnology was regarded to be the technology of the future. Well, the future has come. Its no more the technology of the future. Scientists and engineers have become increasingly good at designing and engineering materials down at the level of atoms and molecules. Nanotechnology is the manipulation of matter at nanoscale which is about 1-100 nanometres. Its well known that everything in this universe is made out of atoms and it’s the atoms and the arrangement of these atoms that dictate the characteristics. Two wheels and a handle, although are said to make a bicycle, it’s called a bicycle only if they are assembled the right way. Otherwise, they are just parts and the functionality of bicycle can never be achieved. Atoms are just like the wheels, except they are smaller, however the idea remains the same. The arrangement of atoms decides how strong or how weak a substance is, or if the substance is transparent etc.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>﻿Nanotechnology was regarded to be the technology of the future. Well, the future has come. Its no more the technology of the future. Scientists and engineers have become increasingly good at designing and engineering materials down at the level of atoms and molecules. Nanotechnology is the manipulation of matter at nanoscale which is about 1-100 nanometres. Its well known that everything in this universe is made out of atoms and it’s the atoms and the arrangement of these atoms that dictate the characteristics. Two wheels and a handle, although are said to make a bicycle, it’s called a bicycle only if they are assembled the right way. Otherwise, they are just parts and the functionality of bicycle can never be achieved. Atoms are just like the wheels, except they are smaller, however the idea remains the same. The arrangement of atoms decides how strong or how weak a substance is, or if the substance is transparent etc.</p>
 
 <p>Here, I would be talking about the bottom-up approach. In this approach we try and control the atoms and their assembly in order to achieve the desired characteristics. Imagine a scattered pile cups in front of you and you are wearing the boxing gloves. You can move the cups around but you cannot control an individual cup. If you are asked to pick a cup at a time and arrange, it would be extremely hard or even impossible. Nanotechnology allows us to take the boxing gloves off, thus making it easier to pick one cup at a time and arrange in the desired manner. Nanotechnology has opened gates for research in every possible field. One such field is Biology.</p>
 
@@ -189,7 +194,17 @@
 
 <p>In spite of these major challenges, with continuous innovation and development of controlled assembled self-propelling nanomotors will have a profound impact on future biomedical applications.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Nanomotors</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

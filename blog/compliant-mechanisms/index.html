@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-07-08 00:00:00 +0400" class="date">08 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-07-08 00:00:00 +0530" class="date">08 Jul 2017</time>
         
         <h1 class="post-title" itemprop="name">Fascinating World Of Compliant Mechanisms</h1>
         <p itemprop="description" class="subtitle">The world around us is fast changing. Soon most of the machines will work on Compliant Mechanisms. Never heard of it eh? Come lets see what this revolutionary technique is and what scope does it have in powering future machines.</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="what-is-a-mechanism">What is a Mechanism?</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="what-is-a-mechanism">What is a Mechanism?</h2>
 
 <p>A mechanism is a mechanical device used to transfer or transform motion, force, or energy. Traditional rigid-body mechanisms consist of rigid links connected at movable joints. Whatever machines you see in your day to day life has some underlying mechanisms that govern its motion to produce the desired output. For example A NUT CRACKER works on the principle of MECHANICAL ADVANTAGE based on LEVER MECHANISM. This mechanism transfers energy from the input to the output.</p>
 
@@ -256,7 +261,17 @@
   <li>Compliant Mechanisms By Larry L. Howell</li>
 </ul>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Fascinating World Of Compliant Mechanisms</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

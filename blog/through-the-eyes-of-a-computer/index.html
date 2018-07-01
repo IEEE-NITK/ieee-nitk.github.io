@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-06-14 17:10:44 +0400" class="date">14 Jun 2017</time>
+            <time itemprop="datePublished" datetime="2017-06-14 18:40:44 +0530" class="date">14 Jun 2017</time>
         
         <h1 class="post-title" itemprop="name">Through the eyes of a Computer</h1>
         <p itemprop="description" class="subtitle">Learn how to make your computers see the world like you do</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p><img src="/blog/assets/img/through-the-eyes-of-a-computer/image001.jpg" alt="Intro" /></p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p><img src="/blog/assets/img/through-the-eyes-of-a-computer/image001.jpg" alt="Intro" /></p>
 
 <p><strong>Robot</strong> – A word that might remind you of a Rajnikanth starrer or give you the picture of a metallic body going here and there and doing things that humans do quite naturally, on their own. All of us have at least once thought of owning a robot that could do our assignments, or just do things that we are lazy to do. And then, as you enter your college, you take online courses for learning how to build robots that follow lines, identify colours and do all sorts of things that you think it should do. You brag about it in front of your friends and later come to me and say, “Oh well, I have designed a robot that can follow a line!” and I would ask you a simple question. Can your robot see the line? Now, when I ask you this question, I mean to know if the robot can see like humans. A robot isn’t fully automated if you restrict what it should see. You can use sensors to detect lines but that doesn’t mean that the robot has its own vision. Our ability to see and perceive the things around us is perhaps the greatest ability we all have. And when you pass on this ability to a computer or any machine per se, that’s what you called Computer Vision or more generally, Machine vision. Many of you would have already heard a lot about it, it’s the future of artificial intelligence. But truly speaking, this futuristic topic isn’t that new.</p>
 
@@ -227,7 +232,17 @@ Here are some good resources to get started :D</p>
 
 <p>Happy CV :)</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSocDiode</span>
+        <span id="title">Through the eyes of a Computer</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

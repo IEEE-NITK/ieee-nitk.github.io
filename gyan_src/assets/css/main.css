@@ -20,3 +20,56 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 		display: inline-block;
 		padding: 0.5rem;
 	}
+/* Style for the sidebar */
+.post-content {
+	flex: 3;
+}
+.content-box {
+    margin: 0px;
+    display: flex;
+}
+.sidebar {
+    flex: 1;
+    margin: 30px;
+    margin-left: 0px;
+    padding-left: 30px;
+    border-left: 1px solid gray;
+}
+.sidebar h3 {
+    padding: 20px 0px 10px 0;
+    text-overflow: clip;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.article {
+    padding: 8px 0;
+}
+.article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(28, 69, 107);
+}
+.article a:visited {
+    color: rgb(131, 15, 155);
+}
+.article p {
+    font-size: small;
+}
+.temp-div {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	.post-content {
+        padding-bottom: 0;
+    }
+    .content-box {
+        flex-direction: column;
+    }
+    .sidebar {
+        border: none;
+        margin-top: 0px;
+    }
+    .sidebar h3 {
+        padding-top: 0px;
+    }
+}

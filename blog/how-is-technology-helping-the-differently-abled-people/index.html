@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-01-12 15:00:53 +0400" class="date">12 Jan 2018</time>
+            <time itemprop="datePublished" datetime="2018-01-12 16:30:53 +0530" class="date">12 Jan 2018</time>
         
         <h1 class="post-title" itemprop="name">How is Technology Helping the Differently Abled People?</h1>
         <p itemprop="description" class="subtitle">Here are 10 assistive tech giving people encouragement to deal with disability</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>This year, the government of India dedicated the National Science Day to the theme “Science and Technology for specially-abled people”. The main aim was to encourage innovation and also to ease the difficulties of differently abled people. So here are 10 assistive technologies to assist them.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>This year, the government of India dedicated the National Science Day to the theme “Science and Technology for specially-abled people”. The main aim was to encourage innovation and also to ease the difficulties of differently abled people. So here are 10 assistive technologies to assist them.</p>
 
 <h2 id="devices-for-people-with-visual-impairment">Devices for people with visual Impairment</h2>
 
@@ -228,7 +233,17 @@
 <p>This device helps the deaf blind people to communicate using tactical alphabets - pressing or pinching different parts of the hand represents different letters .The device consists of a sensor that converts these alphabet tracings into computer text and also trace the letters back onto the hand.  This will enable deaf blind people to operate computers and smart phones.
 <img src="/blog/assets/img/technology-for-differently-abled-people/image7.png" alt="bionic" /></p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">How is Technology Helping the Differently Abled People?</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

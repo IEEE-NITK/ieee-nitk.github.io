@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-07-28 19:32:44 +0400" class="date">28 Jul 2017</time>
+            <time itemprop="datePublished" datetime="2017-07-28 21:02:44 +0530" class="date">28 Jul 2017</time>
         
         <h1 class="post-title" itemprop="name">3D Printing</h1>
         <p itemprop="description" class="subtitle">Everyone has heard of 3D printing...But what goes beyond the scenes of a 3D printer is a lesser known fact.Let's explore the world of 3D printing!</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="3-d-printing-a-world-beyond-2d">3-D Printing-A world beyond 2D</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="3-d-printing-a-world-beyond-2d">3-D Printing-A world beyond 2D</h1>
 
 <h3 id="-the-emerging-world-of-3d-printing-"><center> The emerging world of 3D printing </center></h3>
 
@@ -245,7 +250,17 @@ upon certain conditions.</p>
 <p>So let’s wait and watch what revolutionary innovations does this new
 technology bring along!</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">piston</span>
+        <span id="title">3D Printing</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

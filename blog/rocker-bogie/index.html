@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-12-21 19:40:03 +0400" class="date">21 Dec 2017</time>
+            <time itemprop="datePublished" datetime="2017-12-21 21:10:03 +0530" class="date">21 Dec 2017</time>
         
         <h1 class="post-title" itemprop="name">The Rocker-Bogie Mechanism</h1>
         <p itemprop="description" class="subtitle">Insight into the mechanism that allowed rovers to move in space</p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
 
 <p>Everyone might know what a rover is. It is a space exploration device designed to move across the surface of celestial bodies. Have you ever wondered how these rovers are capable of traversing the rough and rocky terrains of a planet? Different kinds of suspension systems are employed to help them achieve this task. Rocker-Bogie is one such suspensionsystem which is very popular and widely used. It is currently NASA’s favoured design for wheeled mobile rovers. NASA’s Curiosity rover uses this mechanism.</p>
 
@@ -191,7 +196,17 @@
 
 <p>There is still a lot to study and explore in this field. The design can be optimized to make it more cost effective and improve its strength and rigidity. One major concern would be to increase the travel speed so that it can be utilised to a greater extent.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">The Rocker-Bogie Mechanism</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">

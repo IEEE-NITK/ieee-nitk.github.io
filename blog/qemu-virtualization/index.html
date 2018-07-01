@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -118,7 +122,7 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-05-16 14:00:30 +0400" class="date">16 May 2018</time>
+            <time itemprop="datePublished" datetime="2018-05-16 15:30:30 +0530" class="date">16 May 2018</time>
         
         <h1 class="post-title" itemprop="name">QEMU/KVM for Virtual Machines</h1>
         <p itemprop="description" class="subtitle"></p>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>A “virtual machine” or “VM” is a virtual computer system. It is a tightly isolated software container with an operating system and application inside. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or “host.”</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>A “virtual machine” or “VM” is a virtual computer system. It is a tightly isolated software container with an operating system and application inside. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or “host.”</p>
 
 <p>A thin layer of software called a “hypervisor” decouples the virtual machines from the host and dynamically allocates computing resources to each virtual machine as needed.</p>
 
@@ -253,7 +258,17 @@ Enabling KVM speeds up emulation, and hence leads to a lower chance of the curso
 <h2 id="conclusion">Conclusion</h2>
 <p>We’ve just created a simple VM running Debian. I aim to use it as an isolated environment for programming, and maybe learning a few networking concepts while I’m at it. Qemu is also available on Windows so this VM can be accessed from Windows as well, providing a consistent programming environment regardless of which host OS it’s run on top of. Another interesting use case for QEMU VMs is to build updated Linux images, download and install packages and install an operating system on a SD card for raspberry pi or other such embedded boards so that you can directly get to working on the board without having to worry about network issues and having to connect to a monitor.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">QEMU/KVM for Virtual Machines</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
