@@ -19,9 +19,9 @@
         <meta name="web_author" content="IEEE NITK">
         <meta name="author" content="Salman Shah">
         <!-- Email ID -->
-        <meta name="contact" content="chairman.nitkieee@gmail.com" />
+        <meta name="contact" content="ieee@nitk.edu.in" />
         <!-- Email ID to reply to -->
-        <meta name="reply-to" content="chairman.nitkieee@gmail.com">
+        <meta name="reply-to" content="ieee@nitk.edu.in">
 
         <!-- Refers to distribution of the page -->
         <meta name="distribution" content="global">
@@ -51,7 +51,7 @@
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
-        <meta property="og:url" content="{{ site.url }}/{{ base.url }}/{{ page.url }}" />
+        <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/{{ page.url }}" />
         <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
         <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
         <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
