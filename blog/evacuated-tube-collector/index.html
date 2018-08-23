@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="Evacuated Tube Collectors">
         <meta name="twitter:description" content="Extracting solar radiation in one of the more efficient ways">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///evacuated-tube-collector/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///evacuated-tube-collector/" />
         <meta property="og:title" content="Evacuated Tube Collectors">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="Extracting solar radiation in one of the more efficient ways">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="Evacuated Tube Collectors"/>
         <meta itemprop="description" content="Extracting solar radiation in one of the more efficient ways">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/evacuated-tube-collector/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h2 id="introduction">Introduction</h2>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
 
 <p>Renewable energy is the key for the planet’s existence in the future. The fossil fuels are non-renewable and require finite resources, which are dwindling because of high cost and environmentally damaging retrieval techniques. Climate change is real. Global warming is real. It took some time to accept this hard fact, but now with the realization, production of clean energy has become the primary goal of countries across all continents.</p>
 
@@ -204,7 +209,17 @@ There are a few different vacuum tube configurations, single wall tube, double w
 
 <p>The need was to minimize heat losses through convection and what better way can be, than to stop it completely from happening. The application of the simplest of concepts of eliminating convection by getting rid of the material medium itself has led to major improvements in this field as the efficiency has risen manifold.The understanding of fundamental sciences has provided one of the biggest leaps in the effort of making renewable energy efficient and inexpensive.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Evacuated Tube Collectors</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -240,15 +255,15 @@ There are a few different vacuum tube configurations, single wall tube, double w
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/evacuated-tube-collector/%20via%20&#64;IEEE_NITK&hashtags=Energy,Renewables,Thermal Sciences,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/evacuated-tube-collector/%20via%20&#64;IEEE_NITK&hashtags=Energy,Renewables,Thermal Sciences,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//evacuated-tube-collector/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//evacuated-tube-collector/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//evacuated-tube-collector/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//evacuated-tube-collector/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

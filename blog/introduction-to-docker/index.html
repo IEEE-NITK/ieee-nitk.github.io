@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="Introduction to Docker">
         <meta name="twitter:description" content="A brief introduction to Docker">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///introduction-to-docker/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///introduction-to-docker/" />
         <meta property="og:title" content="Introduction to Docker">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="A brief introduction to Docker">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="Introduction to Docker"/>
         <meta itemprop="description" content="A brief introduction to Docker">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/introduction-to-docker/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Docker is probably the most talked-about infrastructure technology of the past few years. And why not? It makes managing and deploying applications so much easier without the overhead of a Virtual Machine. Here’s how:</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Docker is probably the most talked-about infrastructure technology of the past few years. And why not? It makes managing and deploying applications so much easier without the overhead of a Virtual Machine. Here’s how:</p>
 
 <p><strong>Docker</strong> is a tool designed to make it easier to create, deploy, and run applications by using containers. <strong>Containers</strong> allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container the developer can rest assured that the application will run on <strong>any other machine</strong> regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.</p>
 
@@ -212,21 +217,30 @@ If your system does not meet the requirements, you can install Docker Toolbox.</
 
 <p>You should be able to run docker run hello-world and see a response like this:</p>
 
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>docker run hello-world
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>docker run hello-world
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
 To generate this message, Docker took the following steps:
 ...<span class="o">(</span>snipped<span class="o">)</span>...
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <blockquote>
   <p>Note: version 1.13 or higher is required</p>
 </blockquote>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Introduction to Docker</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -256,15 +270,15 @@ To generate this message, Docker took the following steps:
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/introduction-to-docker/%20via%20&#64;IEEE_NITK&hashtags=Docker,Containers,DevOps,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/introduction-to-docker/%20via%20&#64;IEEE_NITK&hashtags=Docker,Containers,DevOps,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//introduction-to-docker/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//introduction-to-docker/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//introduction-to-docker/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//introduction-to-docker/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="Continuously Variable Transmission">
         <meta name="twitter:description" content="Why change the gear when there is CVT which does it for you without any jerks?">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///cvt/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///cvt/" />
         <meta property="og:title" content="Continuously Variable Transmission">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="Why change the gear when there is CVT which does it for you without any jerks?">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="Continuously Variable Transmission"/>
         <meta itemprop="description" content="Why change the gear when there is CVT which does it for you without any jerks?">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/cvt/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="introduction">Introduction</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="introduction">Introduction</h1>
 <p>A Continuously variable transmission is a type of power transmission which be called as an efficient replacement for a conventional automobile gearbox with a gearshift. A CVT is a system of belt and pulleys which is used to achieve infinite gear ratios between the 2 transmission shafts. The CVT consists of 2 pulleys – the primary and the secondary. Both the pulleys have one movable sheave and one stationary sheave. A belt (V shaped) goes over these pulleys. The angle of the V belt is equal to the angle between the facing sides of movable and stationary sheave of the pulley. The movable sheave makes the belt to slide up or down in the pulley as it moves towards and away from the stationary sheave. This is how infinite gear ratios are achieved in a CVT. But the main reason why a CVT is used is because, after a certain speed is achieved , the rpm of the engine remains constant irrespective of the increase in the speed of the vehicle as the throttle is held open.</p>
 
 <p><img src="/blog/assets/img/cvt/1.jpg" alt="alt text" /></p>
@@ -192,7 +197,17 @@ When both sheaves are engaged , the belt rises in the primary and comes down in 
 <h4 id="importance-of-modeling-a-cvt">Importance of modeling a CVT</h4>
 <p>Mathematical modeling and design optimization of the working of the CVT is very important in order to achieve a good efficiency of power transmission. It also reduces time as it prevents the iterative tests to be conducted to achieve best performance. Here, the objective function is chosen as the 0ptimization of power/torque which is governed by variables such as spring constants (k), flyweights(w) , rpm and constraints like friction. The governing equations of CVT can also be input in a simulation software in order to check the results ,and from the results obtained ,new inputs which are closer to the required values can be simulated and so on a loop can be created which finally converges to the desired value.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Piston</span>
+        <span id="title">Continuously Variable Transmission</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -228,15 +243,15 @@ When both sheaves are engaged , the belt rises in the primary and comes down in 
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/cvt/%20via%20&#64;IEEE_NITK&hashtags=CVT,Transmission,Constant Engine RPM,Infinite gear ratio,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/cvt/%20via%20&#64;IEEE_NITK&hashtags=CVT,Transmission,Constant Engine RPM,Infinite gear ratio,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//cvt/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//cvt/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//cvt/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//cvt/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

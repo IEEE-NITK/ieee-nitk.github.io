@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="Raspberry Pi Tutorial">
         <meta name="twitter:description" content="This post shows how to setup Raspberry Pi and to use laptop as monitor">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///rpi-tutorial/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///rpi-tutorial/" />
         <meta property="og:title" content="Raspberry Pi Tutorial">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="This post shows how to setup Raspberry Pi and to use laptop as monitor">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="Raspberry Pi Tutorial"/>
         <meta itemprop="description" content="This post shows how to setup Raspberry Pi and to use laptop as monitor">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/rpi-tutorial/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>If you have just started exploring microcontrollers and experimenting with development boards like Arduino and Raspberry Pi, you might have had struggles with configuring the board and interfacing them with the hardware that you used to build your little fascinating circuits. I too, faced some issues when I had to set up my Raspberry Pi B+ model.</p>
 
 <p>Most of the instructables available online give instructions for working with a separate monitor connected to RPi using a HDMI cable. However, to make things convenient, you can use your laptop display itself to work with your Rpi. This requires a few additional steps which I will be covering in the last section of this tutorial. So, this article is a step by step tutorial to help you kick start your Raspberry Pi and dive into the Internet of Things!</p>
 
@@ -255,9 +260,8 @@ Download Torrent (it is faster )</p>
 
 <p>1) In the SSH terminal of PuTTY, give the command</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo iwlist wlan0 scan
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo iwlist wlan0 scan
+</code></pre></div></div>
 
 <p>You will be able to see the list of WiFi connections available.</p>
 
@@ -267,9 +271,8 @@ Download Torrent (it is faster )</p>
   <p>/etc/wpa_supplicant/wpa_supplicant.conf</p>
 </blockquote>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>wpa_passphrase "rpi" "wifipassword"
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wpa_passphrase "rpi" "wifipassword"
+</code></pre></div></div>
 
 <p>The output will be as follows:</p>
 
@@ -288,29 +291,25 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
 
 <p>3) The above output needs to be copied to bottom of the file</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/etc/wpa_supplicant/wpa_supplicant.conf 
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/etc/wpa_supplicant/wpa_supplicant.conf 
+</code></pre></div></div>
 
 <p>after removing the line containing #psk for security purpose as we do not want to store the WiFi password in plain text.</p>
 
 <p>4) Command to open the file and copy the network settings at the bottom on the file -</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+</code></pre></div></div>
 
 <p>5) Automatically, WiFi will be configured after sometime. We can also make sure it happens by issuing the following command</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo wpa_cli reconfigure
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo wpa_cli reconfigure
+</code></pre></div></div>
 
 <p>6) You can verify whether it has successfully connected, using the command</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>ifconfig wlan0
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ifconfig wlan0
+</code></pre></div></div>
 
 <p>If the inet addr field has an address beside it, the Raspberry Pi has connected to the network.</p>
 
@@ -324,9 +323,8 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
 
 <p>1) To start VNC, enter the following command in the SSH terminal:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>vncserver :1
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vncserver :1
+</code></pre></div></div>
 
 <p>2) In the client side laptop, Download VNC Viewer from <a href="https://www.realvnc.com/download/viewer/">here</a></p>
 
@@ -342,7 +340,17 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
 
 <p>And finally, you are done! Without further ado, enjoy exploring!</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Diode</span>
+        <span id="title">Raspberry Pi Tutorial</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -372,15 +380,15 @@ psk=c84f3033b09512fbd632a0510ba0cf0f9b8f7a8f8e3e075cdfa76b8036bab9e8
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/rpi-tutorial/%20via%20&#64;IEEE_NITK&hashtags=Raspberry Pi,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/rpi-tutorial/%20via%20&#64;IEEE_NITK&hashtags=Raspberry Pi,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//rpi-tutorial/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//rpi-tutorial/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//rpi-tutorial/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//rpi-tutorial/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

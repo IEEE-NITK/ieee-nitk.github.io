@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="A step ahead in Reverse Engineering!">
         <meta name="twitter:description" content="A peek at how a computer can be fooled because of bad coding practices">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///a-step-ahead-in-reverse-engineering/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///a-step-ahead-in-reverse-engineering/" />
         <meta property="og:title" content="A step ahead in Reverse Engineering!">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="A peek at how a computer can be fooled because of bad coding practices">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="A step ahead in Reverse Engineering!"/>
         <meta itemprop="description" content="A peek at how a computer can be fooled because of bad coding practices">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/a-step-ahead-in-reverse-engineering/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>Hello to all the computer enthusiasts out there!</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>Hello to all the computer enthusiasts out there!</p>
 
 <p>In this article,we will look into a simple C program intended to perform a particular task is MADE to perform a task it was not supposed to perform.
 SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
@@ -186,9 +191,8 @@ SO,WE WILL BE TRYING TO FOOL THE COMPUTER!</p>
 
 <p>If GDB is not installed in your box,you can type in this command to install it.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install gdb   
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install gdb   
+</code></pre></div></div>
 
 <p>Here is the source code of the executable we will be dealing with. It is named overflow.c. You will know by the end of this article,Why it was named so.<br />
 <img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/source_code1.png" alt="Image1" /></p>
@@ -208,9 +212,8 @@ after the function call.</p>
 
 <h2 id="compile-the-programnormally-using-gcc-">Compile the program(normally) using gcc :</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>gcc overflow.c -o overflow   
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc overflow.c -o overflow   
+</code></pre></div></div>
 
 <p>This gives an executable named “overflow”.</p>
 
@@ -232,9 +235,8 @@ after the function call.</p>
 <strong>c.</strong> The last time it was executed,we get this “ <strong>stack smashing detected</strong> “ and the program is terminated right there. IF YOU NOTICE,The string “After function call” is not printed. This means BEFORE THE CONTROL GOT TRANSFERRED TO THE main function,THE PROGRAM WAS TERMINATED. Why did this happen? <strong>One obvious guess is that our string length was way more than 30 bytes.</strong> But what exactly happened??  <br />
 <strong>d.</strong> To analyse this,we will have to compile our code in the following manner.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g   
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc overflow.c -o overflow -fno-stack-protector -zexecstack -g   
+</code></pre></div></div>
 
 <p><strong>e.</strong> One more thing,we will have to give random inputs like above to analyse
 the behavior of the executable. So everytime typing “aaaaaaaaaaaaaa….”
@@ -257,9 +259,8 @@ Execute the program in following manner :  <strong>$ python -c “print ‘a’ 
 
 <h2 id="finally-it-is-time-to-fireup-your-debugger">Finally, it is time to fireup your debugger!</h2>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ gdb -q overflow
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gdb -q overflow
+</code></pre></div></div>
 
 <p><img src="/blog/assets/img/A-step-ahead-in-Reverse-Engineering/disass.png" alt="Image5" /></p>
 
@@ -345,9 +346,8 @@ Then again,check the stack by using <strong>$(gdb) x/32xw $rsp</strong> . (refer
 
 <p>Instead of using python,we will use another useful tool,the <strong>printf</strong> .</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40"|./overflow
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\x00\x79\x05\x40"|./overflow
+</code></pre></div></div>
 <p>There are 39 a’s and the address which calls print_string() in the reverse order.(WHY IS THAT??)</p>
 
 <p>AND WE HAVE ACHIEVED IT!!The print_string() function was executed twice silently(with no wierdness) and control was returned back to main() again silently.</p>
@@ -374,7 +374,17 @@ Then again,check the stack by using <strong>$(gdb) x/32xw $rsp</strong> . (refer
 
 <p>I hoped you enjoyed the article and learnt something new out of it. Any kind of suggestion,feedback or appreciation:P ,leave a comment below.</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">A step ahead in Reverse Engineering!</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -410,15 +420,15 @@ Then again,check the stack by using <strong>$(gdb) x/32xw $rsp</strong> . (refer
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/a-step-ahead-in-reverse-engineering/%20via%20&#64;IEEE_NITK&hashtags=CTF,Ethical Hacking,Security,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/a-step-ahead-in-reverse-engineering/%20via%20&#64;IEEE_NITK&hashtags=CTF,Ethical Hacking,Security,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//a-step-ahead-in-reverse-engineering/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//a-step-ahead-in-reverse-engineering/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//a-step-ahead-in-reverse-engineering/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//a-step-ahead-in-reverse-engineering/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

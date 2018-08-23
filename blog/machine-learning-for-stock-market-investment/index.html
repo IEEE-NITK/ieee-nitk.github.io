@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="Machine Learning for Stock Market Investment">
         <meta name="twitter:description" content="An introduction to Machine Learning and how it can be applied to the stock market">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///machine-learning-for-stock-market-investment/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///machine-learning-for-stock-market-investment/" />
         <meta property="og:title" content="Machine Learning for Stock Market Investment">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="An introduction to Machine Learning and how it can be applied to the stock market">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="Machine Learning for Stock Market Investment"/>
         <meta itemprop="description" content="An introduction to Machine Learning and how it can be applied to the stock market">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/machine-learning-for-stock-market-investment/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <blockquote>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <blockquote>
   <p>Arthur Lee Samuel, the man who coined the term “machine learning” defined it as the field of study that gives computers the ability to learn without being explicitly programmed.</p>
 </blockquote>
 
@@ -202,7 +207,7 @@
 <h2 id="3-the-prestige">3. The Prestige</h2>
 <p>Here’s some code on preprocessing the dataset from Quandl that would transform the data into a form recognisable to the SVM:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>def key_Stats(gather=["Total Debt/Equity",'Trailing P/E','Price/Sales','Price/Book','Profit Margin', 'Parameters that we wil learn on']):
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def key_Stats(gather=["Total Debt/Equity",'Trailing P/E','Price/Sales','Price/Book','Profit Margin', 'Parameters that we wil learn on']):
     L = []
     statspath = path + '/_KeyStats'
     stock_list = [x[0] for x in os.walk(statspath)]
@@ -247,12 +252,11 @@
 			    else:
 				    d  = {...} #Dictionary of parameters for the stock being traversed 
 				    L.append(d) #Adding to the list 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>At this point, we would apply the smoothing technique on the data. The final step is just feeding the data to the algorithm and letting it work it’s magic!</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>def analysis():
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def analysis():
     # Fit the SVC (exclude the last column).
     X_train, y_train = build_data_set()
     clf = svm.SVC(kernel="rbf", C=8, gamma=0.3)
@@ -273,8 +277,7 @@
             invest_list.append(Z[i])
 
     return invest_list
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>We’re comparing the performance of each stock represented by  <code class="highlighter-rouge">stock_p_change</code> against how the market collectively is doing which is represented by <code class="highlighter-rouge">sp500_p_change</code>. If it outperforms the market, we would consider it as a stock that’s doing well and assign it the parameter <code class="highlighter-rouge">outperform</code>. This is equivalent to a person ‘winning’ a game of chess as used in the analogy above and is what the SVM uses in its classification.</p>
 
@@ -291,7 +294,17 @@
 
 <p>Happy learning!</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Machine Learning for Stock Market Investment</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -300,7 +313,7 @@
         <h3 class="name">
             <a itemprop="name" href="/">Suraj Singh</a>
         </h3>
-        <p class="desc">I'm more of a # than a // kind of guy</p>
+        <p class="desc">I'm interested in operating systems and systems programming</p>
         <a itemprop="email" class="email" href="mailto:surajnitk4@gmail.com">surajnitk4@gmail.com</a>
     </div>
 </section>
@@ -321,15 +334,15 @@
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/machine-learning-for-stock-market-investment/%20via%20&#64;IEEE_NITK&hashtags=Machine Learning,Stock Market,Support Vector Machine,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/machine-learning-for-stock-market-investment/%20via%20&#64;IEEE_NITK&hashtags=Machine Learning,Stock Market,Support Vector Machine,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//machine-learning-for-stock-market-investment/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//machine-learning-for-stock-market-investment/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//machine-learning-for-stock-market-investment/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//machine-learning-for-stock-market-investment/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

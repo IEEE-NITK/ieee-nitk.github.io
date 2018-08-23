@@ -2,9 +2,8 @@
  * Fonts
  */
 
-@font-face {
-    src: url(Teko-Light.ttf);
-    font-family: teco;
+ @font-face {
+    font-family: Verdana;
 }
 
 
@@ -13,15 +12,15 @@
  */
 
 .prociono {
-    font-family: 'Prociono';
+    font-family: "Times New Roman", Times, serif;
 }
 
 .teco {
-    font-family: teco;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .sans {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Formata', sans-serif;
 }
 
 
@@ -84,14 +83,25 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 5vh;
+    height: 13vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
     overflow: hidden;
+    vertical-align: center;
+}
+
+.logo {
+    position: absolute;
+    right: 8px;
+    line-height: 66px;
+    margin-top: 0vh;
+    margin-bottom: 2.7vh;
+
+    width: 160px;
 }
 
 nav #small_logo {
-    height: 5vh;
+    height: 12vh;
     display: inline-block;
     vertical-align: middle;
 }
@@ -99,8 +109,8 @@ nav #small_logo {
 nav .popup_menu {
     top: 0px;
     position: absolute;
-    width: 100%;
-    height: 5vh;
+    width: 90%;
+    height: 7vh;
 }
 
 nav ul {
@@ -108,14 +118,15 @@ nav ul {
     display: inline-block;
     z-index: 150;
     position: absolute;
-    right: 0px;
-    font-size: 1.5em;
+    /* right: 0px; */
+    font-size: 1.2em;
 }
 
 nav ul li {
     display: inline-block;
     padding: 0px 10px;
     cursor: pointer;
+    line-height: 7vh;
 }
 
 nav ul li a {
@@ -139,12 +150,12 @@ nav ul li.active a {
 .nav-icon div {
     height: 2px;
     border-radius: 1px;
-    float: right;
+    float: left;
     width: 18px;
     background: white;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     bottom: 0;
     margin: auto;
     -webkit-transition: all 0.3s;
@@ -158,7 +169,7 @@ nav ul li.active a {
     border-radius: 1px;
     position: absolute;
     background: white;
-    right: 0px;
+    left: 0px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-delay: 0s;
@@ -214,7 +225,7 @@ nav ul li.active a {
 .parent {
     position: fixed;
     width: 5vh;
-    height: 5vh;
+    height: 7vh;
     right: 10px;
     top: 0px;
     display: none;
@@ -249,6 +260,55 @@ nav ul li.active a {
     height: auto;
 }
 
+.cta_container {
+    position: absolute;
+    bottom: 8%;
+    left: 12.5%;
+    width: 75%;
+    height: 12vh;
+    display: flex;
+}
+
+.cta {
+    height: 92%;
+    width: 42%;
+    margin: 4% 4%;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.cta .cta_heading {
+    font-size: 1.2rem;
+    font-weight: normal;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cta .tags_container {
+    display: flex;
+}
+
+.cta .cta_tag {
+    margin: 4px 8px 2px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0 8px;
+    font-size: 0.7rem;
+}
+
+.cta_section {
+    font-size: 0.9rem;
+    padding: 2px 8px 0 0;
+    font-weight: bold;
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+}
 
 /*
  * About Page
@@ -297,7 +357,7 @@ div#particles-js {
 }
 
 .col.col_right {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 
@@ -364,7 +424,7 @@ div#particles-js {
 }
 
 .comps_slide .bgbox{
-    background-image: url("img/compsoc.png")!important;
+    background-image: url("img/compsoc.jpg")!important;
 }
 .diode_slide .bgbox{
     background-image: url("img/diode.jpg")!important;
@@ -518,9 +578,11 @@ button#closebutton {
 }
 
 h3.event_name.teco {
-    font-size: 5em;
+    font-size: 2.7em;
     color: white;
+    word-wrap: break-word;
 }
+
 
 .visible_left_menu {
     padding: 0px!important;
@@ -623,15 +685,22 @@ h3.event_name.teco {
 /* Footer */
 
 footer {
-    width: 50%;
+    width: 100%;
     margin: 0px auto;
     height: 25vh;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
-    background-color: white;
+    background-color: grey;
     position: relative;
+    flex-direction: column;
+    padding: 8px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
 }
 
 footer h3 {
@@ -674,12 +743,43 @@ footer .icon img {
     width: 60px;
 }
 
-footer>div {
-    flex: 1;
+.footer-div {
+    padding: 4px;
+    font-size: 0.8em;
 }
+
+.footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .footer .links{
     text-align: center;
 }
+
+.footer-div {
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+}
+.footer-div ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -1px;
+    list-style: none;
+}
+.footer-div li {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 1em;
+    text-align: center;
+    border-left: 1px solid #000;
+}
+
 footer .offline {
     text-align: center;
 }
@@ -697,6 +797,72 @@ footer .offline {
 }
 
 
+/* Projects part */
+
+.achievements {
+    background-color: rgb(242, 239, 233);
+}
+
+.achievements .wrapper {
+    padding:5vh;
+    height: 100vh!important;
+}
+
+.achievements h1 {
+    text-align: center;
+    font-size: 3em;
+    padding:3vh;
+}
+.title_center.teco {
+    margin-top: 10vh;
+}
+
+.achievements ul {
+    list-style-type: none;
+    text-align: center;
+}
+.achievements li{
+    padding:10px;
+    margin-top: 50px;
+    opacity: 0;
+    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+
+}
+.list_show li{
+    margin-top: 0px;
+    opacity: 1;
+    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+
+}
+.list2 {
+    transition-delay: 0.10s!important;
+}
+
+.list3 {
+    transition-delay: 0.2s!important;
+}
+
+.list4 {
+    transition-delay: 0.3s!important;
+}
+
+.list5{
+    transition-delay: 0.4s!important; 
+}
+
+.list6{
+    transition-delay: 0.5s!important; 
+}
+
+.list7{
+    transition-delay: 0.6s!important; 
+}
+
+.list8{
+    transition-delay: 0.7s!important; 
+}
+
+
 /* Mobile phones */
 
 @media only screen and (max-width: 768px) {
@@ -706,6 +872,31 @@ footer .offline {
     .landing_page .main_container #logo img {
         width: 50%
     }
+
+    .cta_container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 24vh;
+        left: 0;
+        bottom: 4%;
+    }
+
+    .cta {
+        height: 48%;
+        width: 92%;
+        margin: 1% 4%;
+    }
+
+    .cta .cta_heading {
+        font-size: 0.9rem;
+    }
+
+    .cta .cta_tag {
+        font-size: 0.5rem;
+        margin: 4px 4px 4px 0;
+    }
+
     .about .wrapper {
         display: block;
         width: 100%;
@@ -739,7 +930,7 @@ footer .offline {
         padding: 15%;
     }
     h1.slide_heading {
-        font-size: 4em;
+        font-size: 2em;
         text-align: center;
     }
     .text1,
@@ -804,6 +995,8 @@ footer .offline {
     }
     .parent {
         display: block!important;
+        position: absolute;
+        left: 2px;
     }
     nav .popup_menu {
         display: none;
@@ -827,6 +1020,11 @@ footer .offline {
         width: 100%;
         text-align: center;
     }
+
+    .title_center.teco {
+        margin-top: 8px;
+    }
+
     /* Team */
     .core_team {
         position: absolute!important;
@@ -858,6 +1056,31 @@ footer .offline {
         background-color: rgba(71, 154, 162, 0.5);
         margin: 10px 0px;
     }
+
+    .team_title {
+        font-size: 2.5em;
+    }
+
+    a.pseudo {
+        font-size: 1em;
+    }
+    .core_team .data_section {
+        padding: 0 4px 0 4px;
+    }
+    .core_team h3 {
+        font-size: 0.9em;
+        white-space: nowrap;
+    }
+    .core_team h4 {
+        font-size: 0.8em;
+        white-space: nowrap;
+        margin-top: -4px;
+    }
+    .web-page {
+        font-size: 0.6em;
+        margin-top: -4px;
+    }
+
     /* Projects */
     .projects .wrapper {
         flex-direction: column!important;
@@ -866,79 +1089,30 @@ footer .offline {
         margin: 0px auto;
     }
     footer {
-        height: 75vh;
+        height: 70vh;
         display: block;
     }
     footer>div {
         display: block;
+    }
+
+    .achievements h1 {
+        font-size: 2em;
+    }
+
+    .achievements li {
+        padding: 4px;
+        font-size: 0.8em;
+    }
+
+    /* Footer */
+    .footer-div {
+        font-size: 0.7em;
+        padding: 0;
     }
 }
 
 @media only screen and (max-width: 1023px) {}
 
 
-/* Projects part */
-
-.achievements {
-    background-color: rgb(242, 239, 233);
-}
-
-.achievements .wrapper {
-    padding:5vh;
-    height: 100vh!important;
-}
-
-.achievements h1 {
-    text-align: center;
-    font-size: 3em;
-    padding:3vh;
-}
-.title_center.teco {
-    margin-top: 20vh;
-}
-
-.achievements ul {
-    list-style-type: none;
-    text-align: center;
-}
-.achievements li{
-    padding:10px;
-    margin-top: 50px;
-    opacity: 0;
-    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
-
-}
-.list_show li{
-    margin-top: 0px;
-    opacity: 1;
-    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
-
-}
-.list2 {
-    transition-delay: 0.10s!important;
-}
-
-.list3 {
-    transition-delay: 0.2s!important;
-}
-
-.list4 {
-    transition-delay: 0.3s!important;
-}
-
-.list5{
-    transition-delay: 0.4s!important; 
-}
-
-.list6{
-    transition-delay: 0.5s!important; 
-}
-
-.list7{
-    transition-delay: 0.6s!important; 
-}
-
-.list8{
-    transition-delay: 0.7s!important; 
-}
 

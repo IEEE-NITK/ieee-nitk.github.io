@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="Hello World">
         <meta name="twitter:description" content="A not so simple Hello World (PS: No need to buy the full version)">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///hello-world/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///hello-world/" />
         <meta property="og:title" content="Hello World">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="A not so simple Hello World (PS: No need to buy the full version)">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="Hello World"/>
         <meta itemprop="description" content="A not so simple Hello World (PS: No need to buy the full version)">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/hello-world/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,21 +174,21 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <h1 id="a-dissection-of-the-hello-world-c-program">A dissection of the hello world C program</h1>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="a-dissection-of-the-hello-world-c-program">A dissection of the hello world C program</h1>
 
 <p>DISCLAMER: The contents on this page are strictly R rated. With R standing for Rigorous material. This is not a beginner’s guide to C. This is more of an article for intermediate/advanced users to explore C, in depth. I am not responsible for any earthquakes, alien invasions or epidemics caused, directly/indirectly from this material.</p>
 
 <p>Given below is a typical C program taught in most of the textbooks.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt; // An include statement: Preprocessor Directive
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt; // An include statement: Preprocessor Directive
 
 void main() // An entry function
 {
     printf("Hello world\n"); 
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The entire post does not even begin to comprehend the amount of work put in ,just to run a simple hello world program. To compile and run this program, a lot of juggling is done by gcc and the operating system. Of course, the standard books and online resources will tell you about how the program works, what each line is, and the technical jargon associated with them, but that is not why we are here today. Let us explore the bland hello world program and work out it’s internals. I am pretty sure this will be a worthwhile trip. So hold on tight!</p>
 
@@ -212,7 +216,7 @@ void main() // An entry function
 
 <p>is replaced by</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># 1 "temp.c"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 1 "temp.c"
 # 1 "&lt;built-in&gt;"
 # 1 "&lt;command-line&gt;"
 # 31 "&lt;command-line&gt;"
@@ -241,8 +245,7 @@ extern int sprintf (char *__restrict __s,
 
 ...
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <blockquote>
   <p>Pro Tip: Save a C file with just “#include &lt;stdio.h&gt;” in it. Then run `gcc -c -i &lt;file.c&gt; -o &lt;file.i&gt; to see the actual preprocessing in action. GCC’s -E flag, outputs the file after performing the preprocessing. Internally, during compilation, it stores it as .i file which is later used as the input for the compiler.</p>
 </blockquote>
@@ -269,7 +272,7 @@ extern int sprintf (char *__restrict __s,
 <p>…<br />
  and many more optimizations, each of which deserve a 15 hour course in it’s entirety. (Nope, I am not going to explain them here)</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>	.file	"temp.c"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	.file	"temp.c"
 	.section	.rodata
 .LC0:
 	.string	"Hello World"
@@ -295,8 +298,7 @@ main:
 	.size	main, .-main
 	.ident	"GCC: (GNU) 6.3.1 20170306"
 	.section	.note.GNU-stack,"",@progbits
-</code></pre>
-</div>
+</code></pre></div></div>
 <blockquote>
   <p>Pro Tip: Use the source code shown above. Compile it with <code class="highlighter-rouge">gcc -S &lt;file&gt;.c</code>. This makes gcc to output the file after preprocessing and compiling and stops further processing of the file.</p>
 </blockquote>
@@ -309,7 +311,7 @@ main:
 
 <p>As a reward for reading the article so much, here is a nice way to write a C program without main. (WHAT?? Yes, it is possible)</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>#include &lt;stdio.h&gt; // for our beloved printf()
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt; // for our beloved printf()
 #include &lt;stdlib.h&gt; // for our beloved exit()
 
 
@@ -318,8 +320,7 @@ void _start()
     printf("Hello world\n");
     exit(0);
 }
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <blockquote>
   <p>Compile it with <code class="highlighter-rouge">gcc -nostartfiles &lt;file&gt;.c</code> and run <code class="highlighter-rouge">./a.out</code></p>
@@ -373,7 +374,17 @@ void _start()
 
 <p>That’s it folks. The C program is now ready to do your bidding. I am sure, next time someone says a “Hello world” program is easy, you can blow their brains out. Also, the programming languages evolve in a very fascinating way. For example, the token parsing program of the C code is written in C++. But C++ was written in C. This continues backwards until Dennis Ritchie first wrote C using assembly. Later C was rewritten using C. This is sometimes referred to as bootstrapping. Loading oneself using oneself. On a similar note, I hope this article stimulates the readers to read more :)</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Hello World</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -409,15 +420,15 @@ void _start()
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/hello-world/%20via%20&#64;IEEE_NITK&hashtags=GCC,C,Programming,HelloWorld,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/hello-world/%20via%20&#64;IEEE_NITK&hashtags=GCC,C,Programming,HelloWorld,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//hello-world/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//hello-world/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//hello-world/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//hello-world/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

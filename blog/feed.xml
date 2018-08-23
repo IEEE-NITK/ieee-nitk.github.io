@@ -3,26 +3,116 @@
   <channel>
     <title>A blog about our findings and musings</title>
     <description>A blog documenting random findings and musings of our members</description>
-    <link>http://ieeenitk.org/blog/</link>
-    <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jan 2018 18:25:02 +0530</pubDate>
-    <lastBuildDate>Mon, 15 Jan 2018 18:25:02 +0530</lastBuildDate>
-    <generator>Jekyll v3.7.0</generator>
+    <link>http://ieee.nitk.ac.in/blog/</link>
+    <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 23 Aug 2018 18:10:55 +0530</pubDate>
+    <lastBuildDate>Thu, 23 Aug 2018 18:10:55 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
     
       <item>
-        <title>Bit Manipulation</title>
-        <description>&lt;p&gt;All data in computer programs is internally stored as bits, i.e., as numbers 0 and 1. It turns out that there are many uses for bit manipulation in competitive programming.&lt;/p&gt; &lt;p&gt;In programming, an n bit integer is internally stored as a binary number that consists of n bits. For example, the C++ type int is a 32-bit type, which means that every int number consists of 32 bits. For exmaple, the bit representation of the int number 42 is &lt;code class=&quot;highlighter-rouge&quot;&gt;00000000000000000000000000101010&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;There are several bit operations supported by a typical ALU, some of them being AND, OR, NOT, XOR, and...</description>
-        <pubDate>Fri, 12 Jan 2018 16:45:53 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/bit-manipulation/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/bit-manipulation/</guid>
+        <title>Quantum Supremacy: Is it hyped?</title>
+        <description>&lt;p&gt;The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!). These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in our...</description>
+        <pubDate>Sat, 23 Jun 2018 15:30:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/quantum-supremacy/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/quantum-supremacy/</guid>
         
-        <category>Bit masks</category>
+        <category>Quantum Computing</category>
         
-        <category>DP</category>
         
-        <category>Competitive Programming</category>
+        <category>CompSoc</category>
         
-        <category>C++</category>
+      </item>
+    
+      <item>
+        <title>Evolving Strings with Genetic Algorithms</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;A genetic algorithm is a search heuristic inspired by Darwin’s theory of natural evolution. A genetic algorithm reflects the process of natural selection: the fittest survive and breed.&lt;/p&gt; &lt;p&gt;The process of natural selection begins by selecting the fittest individuals from a population. The cross to produce offsprings that have characterestics of both parents. If both parents have good fitness, then their child is also likely to inherit their characterestics and have better fitness.&lt;/p&gt; &lt;p&gt;In this introduction, we will be trying to match a string from scratch.&lt;/p&gt; &lt;h2 id=&quot;environment-and-population&quot;&gt;Environment and Population&lt;/h2&gt; &lt;p&gt;First, we need to define an environment that...</description>
+        <pubDate>Tue, 19 Jun 2018 22:14:03 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/string-genetic/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/string-genetic/</guid>
+        
+        <category>Machine Learning</category>
+        
+        <category>Genetic Algorithms</category>
+        
+        <category>String</category>
+        
+        <category>Genes</category>
+        
+        <category>Chromosome</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Nanomotors</title>
+        <description>&lt;p&gt;﻿Nanotechnology was regarded to be the technology of the future. Well, the future has come. Its no more the technology of the future. Scientists and engineers have become increasingly good at designing and engineering materials down at the level of atoms and molecules. Nanotechnology is the manipulation of matter at nanoscale which is about 1-100 nanometres. Its well known that everything in this universe is made out of atoms and it’s the atoms and the arrangement of these atoms that dictate the characteristics. Two wheels and a handle, although are said to make a bicycle, it’s called a bicycle only...</description>
+        <pubDate>Mon, 18 Jun 2018 21:55:03 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/nanomotors/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanomotors/</guid>
+        
+        <category>Nanotechnology</category>
+        
+        <category>Nano motors</category>
+        
+        <category>Motors</category>
+        
+        <category>ATP</category>
+        
+        <category>Biilogy</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Earthing Systems</title>
+        <description>&lt;p&gt;Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image001.jpg&quot; alt=&quot;image001&quot; /&gt;&lt;/p&gt; &lt;p&gt;To avoid this, metal casing of all electrical appliances are earthed.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image002.jpg&quot; alt=&quot;image002&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-an-earthing-system&quot;&gt;What is an earthing system?&lt;/h2&gt; &lt;p&gt;The connection between electrical appliances and devices with the earth plate or electrode through a thick wire of low resistance to provide safety is known...</description>
+        <pubDate>Sun, 17 Jun 2018 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/earthing-systems/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/earthing-systems/</guid>
+        
+        <category>heavy electronics</category>
+        
+        
+        <category>CAS/SPS</category>
+        
+      </item>
+    
+      <item>
+        <title>Chain of Things</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won’t even sense it. It will be part of your presence all the time.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These words, spoken in the World Economic Forum in 2015 by Google’s then Chairman Eric Schmidt, are quickly proving to be true. From smart homes to smart citites, the &lt;strong&gt;Internet of Things&lt;/strong&gt; is everywhere. The number of connected devices has grown by a whopping 31% over the last year. However, all this data is present on...</description>
+        <pubDate>Sun, 10 Jun 2018 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/chain-of-things/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/chain-of-things/</guid>
+        
+        <category>blockchain</category>
+        
+        <category>IoT</category>
+        
+        
+        <category>CAS/SPS</category>
+        
+      </item>
+    
+      <item>
+        <title>Diving into and Exploiting the Heap</title>
+        <description>&lt;p&gt;At the physical level, computer memory consists of a large number of flip flops. Each flip flop consists of a few transistors, and is capable of storing one bit. Individual flip flops are addressable by a unique identifier, so we can read and overwrite them. Thus, conceptually, we can think of all of our computer’s memory as just one giant array of bits that we can read and write.&lt;/p&gt; &lt;p&gt;Since as humans, we are not that good at doing all of our thinking and arithmetic in bits, we group them into larger groups, which together can be used to represent...</description>
+        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/heap_exploitation/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/heap_exploitation/</guid>
+        
+        <category>heap</category>
+        
+        <category>exploitation</category>
+        
+        <category>memory</category>
+        
+        <category>allocation</category>
+        
+        <category>CompSoc</category>
         
         
         <category>Compsoc</category>
@@ -30,15 +120,17 @@
       </item>
     
       <item>
-        <title>Fluids and Satellites</title>
-        <description>&lt;p&gt;&lt;em&gt;The increasingly large volumes of fluid that have to be carried aboard satellites designed for long operating lifetimes, but which often must also deliver high-accuracy pointing, mean that special attention has to be paid to the behavior of fluids in low gravity.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;low-gravity-and-fluid-dynamics&quot;&gt;Low gravity and fluid dynamics&lt;/h2&gt; &lt;p&gt;There are several methods for analyzing the dynamic behavior of fluids under normal gravity conditions on Earth. A common assumption in such methods is that the free surface of the fluid is flat and at right angles to the direction in which gravity is acting, i.e. normal to the gravity vector. In...</description>
-        <pubDate>Fri, 12 Jan 2018 16:35:53 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/fluids-and-satellites/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/fluids-and-satellites/</guid>
+        <title>Computational Approaches of Shock Waves</title>
+        <description>&lt;p&gt;In this article I would like to discuss the two different CFD approaches while solving for flows involving shock waves.&lt;/p&gt; &lt;p&gt;In flow fields involving shock waves there is a sharp discontinuous change in the flow variables like pressure, density, temperature, etc. across the shock. The first approach is to have the shock wave appear naturally in the computational domain as a direct solution of the governing equations. This is called the &lt;em&gt;shock capturing method.&lt;/em&gt; The second approach is to explicitly introduce the shock wave into the flow and then solve the governing equations for the rest of the domain (between...</description>
+        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/computational-approaches-of-shock-waves/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/computational-approaches-of-shock-waves/</guid>
         
-        <category>Fluid Dynamics</category>
+        <category>Piston</category>
         
-        <category>Satellites</category>
+        <category>Shock Waves</category>
+        
+        <category>CFD</category>
         
         
         <category>Piston</category>
@@ -46,23 +138,15 @@
       </item>
     
       <item>
-        <title>How is Technology Helping the Differently Abled People?</title>
-        <description>&lt;p&gt;This year, the government of India dedicated the National Science Day to the theme “Science and Technology for specially-abled people”. The main aim was to encourage innovation and also to ease the difficulties of differently abled people. So here are 10 assistive technologies to assist them.&lt;/p&gt; &lt;h2 id=&quot;devices-for-people-with-visual-impairment&quot;&gt;Devices for people with visual Impairment&lt;/h2&gt; &lt;h3 id=&quot;dot&quot;&gt;DOT&lt;/h3&gt; &lt;p&gt;It is the world’s first Braille smart watch which is affordable compared to the regular e-Braille devices. Technically this device consists of 6 dots on four cells on the screen of the watch which forms 4 letters in Braille at any time. This tool helps...</description>
-        <pubDate>Fri, 12 Jan 2018 16:30:53 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/how-is-technology-helping-the-differently-abled-people/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/how-is-technology-helping-the-differently-abled-people/</guid>
+        <title>Charge Crowding</title>
+        <description>&lt;h1 id=&quot;charge-crowding&quot;&gt;Charge crowding&lt;/h1&gt; &lt;h2 id=&quot;electrostatic-discharge&quot;&gt;Electrostatic Discharge&lt;/h2&gt; &lt;p&gt;Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other. ESD can also occur when a high electrostatic field develops between two objects in close proximity. ESD is one of the major causes of device failures in the semiconductor industry Electrostatic charge build-up occurs as a result of an imbalance of electrons on the surface of a material. Such a charge build-up develops an electric field that has measurable effects on other objects at...</description>
+        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/charge-crowding/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/charge-crowding/</guid>
         
-        <category>differently-abled</category>
+        <category>CAS/SPS</category>
         
-        <category>assistive technology</category>
-        
-        <category>text scanners</category>
-        
-        <category>optical sensors</category>
-        
-        <category>bionic</category>
-        
-        <category>eye tracking system.</category>
+        <category>electronic devices</category>
         
         
         <category>Diode</category>
@@ -70,115 +154,31 @@
       </item>
     
       <item>
-        <title>How do websites communicate securely?</title>
-        <description>&lt;p&gt;The inherent need for human beings has always been to communicate and share information,albeit selectively. For this purpose, the information is to be coded in such a way that it can be deciphered only by the recipient, regardless of whether the recipient is right next to the sender or on the other side of the world. &lt;strong&gt;&lt;em&gt;The communication channel is assumed to be plagued with adversaries.&lt;/em&gt;&lt;/strong&gt;.These adversaries have access to this coded information and are constantly trying to pry.So, the basic problem has always been to: &lt;strong&gt;&lt;em&gt;transfer secure information over such insecure channels.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So, how DO you communicate when everyone...</description>
-        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/public-key-cryptography/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/public-key-cryptography/</guid>
+        <title>Why 50Hz ?</title>
+        <description>&lt;h2 id=&quot;why-do-most-of-the-countries-use-a-5060-hz-110220-v-power-supply-and-not-any-othervalue&quot;&gt;Why do most of the countries use a 50/60 Hz, 110/220 V power supply and not any othervalue?&lt;/h2&gt; &lt;p&gt;The answer to this question is not definite but quite a few technical and historical reasons can be found to support this which date back to the very beginning of the development of the electrical power system.&lt;/p&gt; &lt;h2 id=&quot;what-is-supply-frequency-and-why-is-it-an-important-parameter-in-the-electrical-grid&quot;&gt;What is supply frequency and why is it an important parameter in the electrical grid?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/why-50hz/image001.jpg&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt; &lt;p&gt;The electrical power grid consists of a massive network of generators, transmission lines, transformers, substations and a variety of loads drawing real and reactive...</description>
+        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/why-50hz/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-50hz/</guid>
         
-        <category>SSL</category>
+        <category>electric power grid</category>
         
-        <category>Public Key Cryptography</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>War of the Currents</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image1.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Thomas Edison&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/War-of-the-currents/image2.png&quot; alt=&quot;current&quot; /&gt; &lt;strong&gt;Nikola Tesla&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;At the end of the 19th century, the world witnessed one of the greatest scientific feuds of all times, which changed the course of the history.&lt;/p&gt; &lt;p&gt;Three brilliant inventors, Thomas Edison, Nikola Tesla and George Westinghouse, battled over which electricity system—direct current (DC) or alternating current (AC)–would become standard. This would go on to be known as the ‘War of the Currents’.&lt;/p&gt; &lt;p&gt;By 1880, Edison had created a model for the incandescent lamp that was commercially viable. But to make a profit out of the electric lights that...</description>
-        <pubDate>Fri, 29 Dec 2017 05:03:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/war-of-the-currents/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/war-of-the-currents/</guid>
-        
-        <category>Tesla</category>
-        
-        <category>Edison</category>
-        
-        <category>AC/DC</category>
+        <category>50Hz frequency</category>
         
         
-        <category>Diode</category>
+        <category>CAS/SPS</category>
         
       </item>
     
       <item>
-        <title>Speed Printing</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;3D printing technology is often used to construct highly complex objects of different kinds, properties and materials. Despite its numerous advantages, one major drawback of 3D printers is its traditionally slow speed. This is where it fails miserably, in its large scale applicability, against other major manufacturing processes like injection moulding. To overcome this major industry challenge, several 3D companies have come up with more updated and efficient technologies that guarantee quick speeds and utmost accuracy. One of the successful and modern technology is &lt;strong&gt;CLIP (short for, continuous liquid interface production)&lt;/strong&gt;.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A typical 3D printing machine such...</description>
-        <pubDate>Thu, 28 Dec 2017 22:35:21 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/speed-printing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/speed-printing/</guid>
+        <title>Market Basket Analysis</title>
+        <description>&lt;h1 id=&quot;market-basket-analysis&quot;&gt;Market Basket Analysis&lt;/h1&gt; &lt;p&gt;Ever wondered how Flipkart knows what items to suggest to you before and after you make a purchase? The is an aspect of analysis created specifically to promote sales called market basket analysis (MBA). In the retail industry, MBA refers to an unsupervised data mining technique that discovers co-occurrence relationships among customers’ purchase activities. The technique is based on the theory that if you buy a certain group of items, you are likely to buy another group of items. For example: while at McDonald’s, if you buy sandwiches and cookies, you are more likely to buy...</description>
+        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/market-basket/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/market-basket/</guid>
         
-        <category>Speed Printing</category>
+        <category>Data mining</category>
         
-        <category>Stereolithography</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>How NASA discovered planets using Artificial Intelligence</title>
-        <description>&lt;p&gt;A Convolutional Neural Network.&lt;br /&gt; &lt;strong&gt;A Convolutional Neural Network and 90 minutes of training&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Clearly, the hard part wasn’t the training or the model but to get the &lt;em&gt;training set&lt;/em&gt;.&lt;br /&gt; But what is the &lt;em&gt;data&lt;/em&gt;? and where did we get it form?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;On December 14, 2017 NASA &lt;a href=&quot;https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star&quot;&gt;announced&lt;/a&gt; the discovery of an eigth planet in the &lt;em&gt;Kepler-90&lt;/em&gt; system. &lt;em&gt;Kepler-90&lt;/em&gt; is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h3 id=&quot;where-did-the-data-come-from&quot;&gt;Where did the data come from?&lt;/h3&gt; &lt;p&gt;NASA has this huge camera up in space that has been sending us videos of...</description>
-        <pubDate>Thu, 21 Dec 2017 22:14:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/space-ml/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/space-ml/</guid>
-        
-        <category>Space</category>
-        
-        <category>Machine Learning</category>
-        
-        <category>Deep Learning</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The E INK</title>
-        <description>&lt;p&gt;Let’s start with talking about the screen you’re currently glaring at to read this article. If you don’t scroll down then the screen is pretty much static right? Not really. Behind the screen, all the pixels controlling what you see is getting multiplexed so fast that our eyes make it out as a constant one. Basically, a word is constantly consuming energy just to remain onscreen.&lt;/p&gt; &lt;p&gt;If you write a word on paper, does it need any more energy to remain on the paper? No. It remains there forever. This is the basic idea behind E Ink. Energy should only...</description>
-        <pubDate>Thu, 21 Dec 2017 22:10:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/e-Ink/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/e-Ink/</guid>
-        
-        <category>E Ink</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>The Rocker-Bogie Mechanism</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Everyone might know what a rover is. It is a space exploration device designed to move across the surface of celestial bodies. Have you ever wondered how these rovers are capable of traversing the rough and rocky terrains of a planet? Different kinds of suspension systems are employed to help them achieve this task. Rocker-Bogie is one such suspensionsystem which is very popular and widely used. It is currently NASA’s favoured design for wheeled mobile rovers. NASA’s Curiosity rover uses this mechanism.&lt;/p&gt; &lt;h2 id=&quot;design--features&quot;&gt;Design &amp;amp; Features&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/rocker-bogie/image1.jpg&quot; width=&quot;346&quot; height=&quot;174&quot; alt=&quot;Rocker Bogie&quot; /&gt;&lt;/p&gt; &lt;p&gt;The largest link on each...</description>
-        <pubDate>Thu, 21 Dec 2017 21:10:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/rocker-bogie/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/rocker-bogie/</guid>
-        
-        <category>Space</category>
-        
-        <category>Rovers</category>
-        
-        <category>Rocker Bogie</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>The Future of Computing: Quantum Computing</title>
-        <description>&lt;p&gt;Lately, you must been hearing a lot about quantum computing. There are loads of news stories about how it “could change the world” and “open new dimensions”. Universities are hyping up their quantum microchip prototypes, demonstrations of quantum mechanical ideas in silicon, and other devices and theories. But how does it work? What does it do? Who’s doing it? Read this article to find out!&lt;/p&gt; &lt;p&gt;Even though they may be fragile today as well as they need to be kept at temperatures close to absolute zero, Quantum computers aren’t much like the desktop PCs we’re all so familiar with—they’re a...</description>
-        <pubDate>Mon, 18 Dec 2017 17:49:03 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/future-of-computing-quantum-computing/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/future-of-computing-quantum-computing/</guid>
-        
-        <category>Quantum Computing</category>
-        
-        <category>Qubits</category>
+        <category>Apriori</category>
         
         
         <category>CompSoc</category>

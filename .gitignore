@@ -10,4 +10,4 @@ gyan_src/.sass-cache
 gyan_src/node_modules/*
 gyan_src/_drafts/*
 
-.vagrant/
+.vagrant/*

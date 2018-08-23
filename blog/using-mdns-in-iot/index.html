@@ -49,20 +49,20 @@
         <meta name="twitter:site" content="@IEEE_NITK">
         <meta name="twitter:title" content="Making Iot communications easy using mDNS">
         <meta name="twitter:description" content="Forget IP addresses when in local network">
-        <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///using-mdns-in-iot/" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in///using-mdns-in-iot/" />
         <meta property="og:title" content="Making Iot communications easy using mDNS">
-        <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
         <meta property="og:description" content="Forget IP addresses when in local network">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
         <meta itemprop="name" content="Making Iot communications easy using mDNS"/>
         <meta itemprop="description" content="Forget IP addresses when in local network">
-        <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -94,7 +94,7 @@
         <link rel="stylesheet" href="/blog/assets/css/main.css">
         <link rel="canonical" href="/blog/using-mdns-in-iot/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
-        href="http://ieeenitk.org/blog/feed.xml" />
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
         
 
@@ -102,12 +102,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'UA-106590424-3');
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
         </script>
 
     </head>
@@ -143,22 +147,22 @@
   <ul>
     
     
-      <li><a href="http://ieeenitk.org/blog">Home</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/blog/tags">Tags</a></li>
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/">Main Website</a></li>
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
     
     
     
-      <li><a href="http://ieeenitk.org/gyan">Gyan</a></li>
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
     
     
-    <li><a class="feed" href="http://ieeenitk.org/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
   </ul>
 </nav>
 </aside>
@@ -170,8 +174,9 @@
 
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.</p>
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p>A project in Iot often requires multiple devices communicating with each other. This is usually done through sending messages over sockets. To locate a device, usually addresses are used. This is good technique, but due to commom use of DHCP, the IP addresses change constantly. So one needs to keep track of these changing IP addresses.</p>
 
 <p>What if you don’t need to remember the changing IP addresses? That’s where mDNS comes into picture.</p>
 
@@ -187,17 +192,15 @@
 
 <p>Linux uses <a href="https://www.avahi.org/">Avahi</a> library for mDNS. To install Avahi on your linux/ubuntu system</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ sudo apt-get install avahi nss-mdns
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install avahi nss-mdns
+</code></pre></div></div>
 
 <p><br />
 Most probably above packages are installed by default. Now start <code class="highlighter-rouge">avahi-daemon</code> which will handle mDNS functions.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ system-ctl start avahi-daemon
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ system-ctl start avahi-daemon
 $ system-ctl enable avahi-daemon
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><br />
 Now we’ll need to configure our system to listen to mDNS. To do this, edit <code class="highlighter-rouge">/etc/nsswitch.conf</code> and modify the <code class="highlighter-rouge">host :</code> line as follows:</p>
@@ -208,25 +211,22 @@ Now we’ll need to configure our system to listen to mDNS. To do this, edit <co
 
 <p>Now you are all set to go. You can check by resolving your own domain:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ dig +short &lt;hostname&gt;.local @224.0.0.251 -p 5353
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ dig +short &lt;hostname&gt;.local @224.0.0.251 -p 5353
+</code></pre></div></div>
 
 <p><br />
 Here the <code class="highlighter-rouge">&lt;hostname&gt;</code> is the system’s hostname. If you don’t know this, then execute <code class="highlighter-rouge">hostname</code> to get it. For example, my hostname is <code class="highlighter-rouge">hrily</code>, so following is the output of <code class="highlighter-rouge">hostname</code>.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ hostname
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ hostname
 hrily
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><br />
 So when I resolved my hostname, I got:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ dig +short hrily.local @224.0.0.251 -p 5353
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ dig +short hrily.local @224.0.0.251 -p 5353
 10.50.47.112
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><br />
 <br /></p>
@@ -234,16 +234,25 @@ So when I resolved my hostname, I got:</p>
 
 <p>Now that we know how to use hostnames instead of IP addresses, we have a cool set of applications. Whenever you want to ssh to your RPi with hostname <code class="highlighter-rouge">myrpi</code>, you just need to do:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>$ ssh user@`dig +short myrpi.local @224.0.0.251 -p 5353`
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ssh user@`dig +short myrpi.local @224.0.0.251 -p 5353`
+</code></pre></div></div>
 
 <p><br />
 This is really good usage that I need constantly. When I’m in my cammpus network, but not in reach of my laptop and need to do some work on it, I just ssh into it using my phone using above command. I don’t really need to know what IP address was assigned to my laptop.</p>
 
 <p>I hope you find mDNS useful. Untill then, this is <em>hrily</em> signing off…</p>
 
-            </article>
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Making Iot communications easy using mDNS</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
@@ -279,15 +288,15 @@ This is really good usage that I need constantly. When I’m in my cammpus netwo
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/using-mdns-in-iot/%20via%20&#64;IEEE_NITK&hashtags=Iot,Networking,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/using-mdns-in-iot/%20via%20&#64;IEEE_NITK&hashtags=Iot,Networking,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//using-mdns-in-iot/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//using-mdns-in-iot/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//using-mdns-in-iot/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//using-mdns-in-iot/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

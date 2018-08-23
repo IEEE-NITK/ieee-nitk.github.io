@@ -67,7 +67,7 @@ salman-bhai:
   name: Salman Shah
   github: salman-bhai
   author_image: 'salman_shah.jpg'
-  user_description: 'Coder, Blogger and Developer interested in Machine Learning and Deep Learning'
+  user_description: 'IEEE Convenor 2018'
   email: sbs.191197@gmail.com
 hrily:
   name: Hrishi Hiraskar
@@ -289,7 +289,7 @@ adwait1-G:
 anirudh0707:
   name: Anirudh B H
   github: anirudh0707
-  user_description: 'If you can’t have the best, make the best of what you have!'
+  user_description: 'Envision Coordinator - 2018-2019'
   author_image: 'anirudh.jpg'
   email: yani.bh@gmail.com
 ayush9753:
@@ -319,7 +319,7 @@ adilamrajiv:
 sssachin300:
   name: Sachin Sampath
   github: sssachin300
-  author_image: blog-author.jpg
+  author_image: sachin.png
   user_description: 'IEEE Enthusiast interested in Engineering'
   email: sssachin300@gmail.com
 vibhoregit:
@@ -328,11 +328,11 @@ vibhoregit:
   author_image: vibhore.jpg
   user_description: '"Everyone is special" - a classic example of Oxymoron...'
   email: jainvibhore1997@gmail.com
-archpndy:
+archit-p:
   name: Archit Pandey
-  github: archpndy
+  github: archit-p
   author_image: archit.jpg
-  user_description: 'Open-source and Linux Enthusiast'
+  user_description: 'Open-source enthusiast'
   email: archpndy@gmail.com
 sampathkoti:
   name: Sampath Koti
@@ -452,7 +452,7 @@ suraj44:
   name: Suraj Singh
   github: suraj44
   author_image: suraj.png
-  user_description: "I'm more of a # than a // kind of guy"
+  user_description: "I'm interested in operating systems and systems programming"
   email: surajnitk4@gmail.com
 mehakarora:
   name: Mehak Arora
@@ -526,3 +526,8 @@ Shruti-Deshpande:
   author_image: Shruti-Deshpande.jpeg
   user_description: 'Do or Do not. There Is no Try.'
   email: shrutideshpande9598@gmail.com
+adithyaprabhu98:
+  name: Aditya Prabhu
+  github: adithyaprabhu98
+  author_image: aditya.jpg
+  email: adityaprabhu98@gmail.com
