@@ -1,0 +1,89 @@
+<p>A Convolutional Neural Network.<br />
+<strong>A Convolutional Neural Network and 90 minutes of training</strong></p>
+
+<p>Clearly, the hard part wasn’t the training or the model but to get the <em>training set</em>.<br />
+But what is the <em>data</em>? and where did we get it form?</p>
+
+<blockquote>
+  <p>On December 14, 2017 NASA <a href="https://www.nasa.gov/press-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star">announced</a> the discovery of an eigth planet in the <em>Kepler-90</em> system. <em>Kepler-90</em> is a Sun-like star 2545 light-years from Earth. The discovery was made using Artificial Intelligence.</p>
+</blockquote>
+
+<h3 id="where-did-the-data-come-from">Where did the data come from?</h3>
+
+<p>NASA has this huge camera up in space that has been sending us videos of <em>stars of interest</em> every 29.4 minutes. That’s an oversimplification of what the <a href="https://www.nasa.gov/mission_pages/kepler/main/index.html" title="Kepler Mission Homepage">Kepler Space Telescope</a> does, but it’s enough for the purpose and essence of this article. <em>Kepler</em>’s 94.6 megapixel<sup>[1]</sup> camera has a fixed field of view, which means it’s been looking at the same spot in the sky since it launched in 2009.</p>
+
+<p>That’s a <em>lot</em> of data.</p>
+
+<h3 id="what-is-the-data">What <em>is</em> the data?</h3>
+<p>To understand the data, we need to first understand how NASA detect planets.   Planets don’t emit light. So how does <em>Kepler</em> even see planets that are lightyears away?   Planets don’t emit light… but Stars do. <em>Kepler</em> measures the brightness of stars over several years and since planets orbit around stars, they must cross the line of sight between kepler and the star periodically.</p>
+
+<p><img src="/blog/assets/img/space-ml/kepler-graph.gif" alt="Kepler Transit Graph" title="Kepler Transit Graph" /></p>
+
+<p>So, <em>Kepler</em> puts up a nice <em>brightness vs time</em> graph and sends it back to us every 29 minutes. A <em>periodic dip</em> in the graph implies that there must be a planet. NASA classified periodic dips that may be consistent with transiting planets as <strong>Threshold Crossing Events</strong> (TCE). The <em>Kepler</em> team initially heterogenously put together TCEs by hand, but later on they designed an <em>Auto Vetter</em> that automatically eliminates uninteresting candidates.</p>
+
+<p>And this gives the raw unprocessed dataset: The <em>Autovetter Planet Candidate Catalogue</em> hosted at the <em><a href="http://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a></em>. The light curves that were used to find the new planets are from the <em><a href="http://archive.stsci.edu/">Mikulski Archive for Space Telescopes</a></em>. Each light curve in this dataset consists of integrated flux (brightness) measurements spaced at 29.4 minute intervals for upto 4 years<sup>[2]</sup>.</p>
+
+<h3 id="processing-the-dataset">Processing the dataset</h3>
+
+<p>The researchers at NASA then followed this up with <em>flattening</em> the light curve by fitting a <a href="https://en.wikipedia.org/wiki/B-spline">basis spline</a> (removes the low frequency variability) and then dividing it by the <a href="https://en.wikipedia.org/wiki/Curve_fitting">best-fit spline</a> (connect the dots and smoothen them).</p>
+
+<p>They had to then <em>fold</em> (to make it event centered<sup>[3]</sup>) and <em>bin</em> the flattened curve to produce a 1D vector.</p>
+
+<p>Binning and folding are two methods of making trends in messy data more apparent.</p>
+
+<blockquote>
+  <p>Folding is useful when a source has periodic variability; the data is plotted in terms of phase, such that all the data are plotted together as a single period, in order to see what the repeated pattern of variability is.</p>
+</blockquote>
+
+<p>Folding is basically splitting the graph into blocks and then overlapping all the blocks on top of one another. This way we can notice repeated patterns more easily.</p>
+
+<blockquote>
+  <p>Random variations from this pattern can be reduced by binning the data in time, which involves splitting the phase range into steps (bins) in which all the data are averaged, using a weighted mean.</p>
+</blockquote>
+
+<p>Even if we do fold the graph, it’s still really messy since there may be random variations in the data. Binning can be thought as averaging the data out at a folded point in time to give 1 point.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Original Light Curve</th>
+      <th style="text-align: center">Folded Curve</th>
+      <th style="text-align: center">Binned Curve</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/blog/assets/img/space-ml/lightcurve.png" alt="Light Curve" /></td>
+      <td style="text-align: center"><img src="/blog/assets/img/space-ml/foldedcurve.png" alt="Folded Curve" /></td>
+      <td style="text-align: center"><img src="/blog/assets/img/space-ml/binnedcurve.png" alt="Binned Curve" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The problem with binning the TCE dataset is that all the periods in our light curves are of different lengths. Different planets have different orbital lengths, different orbital periods and different distances from Earth. Hence, different periods of transits. So, how <em>did</em> they bin these light curves to act as inputs?</p>
+
+<p>They generated two separate <em>views</em> of the same light curve:</p>
+
+<ol>
+  <li>
+    <p>A <em>global view</em> which was generated by binning by a fraction of the TCE <strong>period</strong>. These views, the <em>global views</em> of the light curves, were all binned to the same length, and each view represents the same number of points, on average, across all light curves.</p>
+  </li>
+  <li>
+    <p>A <em>local view</em> which was generated by binning by a fraction of the TCE <strong>duration</strong>. This results in a zoomed in view of the TCEs. It treats short and long TCEs equally and so might miss out on some information. It looks at only a part of the curve.</p>
+  </li>
+</ol>
+
+<p><a href="https://www.cfa.harvard.edu/~avanderb/kepler90i.pdf"><img src="/blog/assets/img/space-ml/binning_example.png" alt="Source" /></a></p>
+
+<h3 id="the-dataset-is-now-ready">The dataset is now ready.</h3>
+<p>The researchers then passed these views as inputs into the their multilayered convolutional network and trained.</p>
+
+<h3 id="resources">Resources</h3>
+
+<p>Although this post is not going to divulge into the details of the neural network, you can check it out on their research paper: <a href="https://www.cfa.harvard.edu/~avanderb/kepler90i.pdf">Identifying Exoplanets with Deep learning</a>.</p>
+
+<p>If you want to know more about binning, folding and how to apply them with numpy, go <a href="https://www.southampton.ac.uk/~sdc1g08/BinningFolding.html">here</a>.</p>
+
+<p><sup>[1] Kepler only sends back about 5% of the 94.6MP based on our <em>Stars of Interest</em></sup><br />
+<sup>[2] Roughly 70000 points </sup><br />
+<sup>[3] There are 4 years of data and planets don’t cross all the time. So, we need to remove the parts where they aren’t crossing.</sup></p>

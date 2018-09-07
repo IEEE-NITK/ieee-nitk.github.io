@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Proof-of-work as a consensus mechanism in blockchains",
+      "category" : "CompSoc",
+      "tags"     : "Blockchain, Consensus, Distributed systems",
+      "url"      : "http://ieee.nitk.ac.in/blog//pow-consensus-blockchain/",
+      "date"     : "08 Sep 2018",
+      "author"   : "Nisarg Joshi"
+    } ,
+  
+    {
       "title"    : "Quantum Supremacy: Is it hyped?",
       "category" : "CompSoc",
       "tags"     : "Quantum Computing",

@@ -1,0 +1,48 @@
+<p>In the last 2 years, <strong>Generative Models</strong> have been one of the most active areas of research in the field of Deep Learning. The paper on <strong>Generative Adversarial Networks</strong> (a.k.a GANs) published by <strong>Ian Goodfellow</strong> in 2014 triggered a new wave of research in the field of Generative Models. Today we’ll explore what makes GANs so different and interesting.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><img src="/blog/assets/img/GAN/ideal-gen-model.jpeg" alt="Ideal Generative Model" /></p>
+
+<p>The main objective of a Generative Model is to learn the <em>probability distribution</em> from which the training data is sampled. Once the model learns the probability distribution, it can sample new data from it. For eg. If the model is trained on a sufficiently large dataset consisting of images of handwritten digits, we expect the trained model to then generate images of handwritten digits, which are not a part of the training data. Now, in reality, it is very hard to build models which can learn the <em>exact probability distribution</em>. So we usually try to build models that can just <strong>estimate the distribution</strong> or generate samples from the distribution <strong>without explicitly learning the distribution</strong> itself.</p>
+
+<h2 id="generative-adversarial-networks">Generative Adversarial Networks</h2>
+<p>Even before the introduction of GANs, there existed several Generative Models such as <strong>Variational Autoencoders</strong>, <strong>Boltzmann Machines</strong> and <strong>Deep Belief Networks</strong> among others. But GANs provide a totally new way of building Generative Models.</p>
+
+<h3 id="so-what-is-a-gan">So, what is a GAN?</h3>
+<p>The key feature of a GAN is that the <strong>generative model</strong> is pitted against an <em>adversary</em>; a <strong>discriminator model</strong> which learns to determine whether a <em>sample is generated from the model or belongs to the actual data distrubution</em>. The generator works like a currency counterfeiter, who generates notes that are as close as possible to the original. The discriminator works as a bank that determines whether a given currency sample is fake or real. In other words, the generator tries to fool the discriminator, while the discriminator tries to prevent this from happening.</p>
+
+<p><img src="/blog/assets/img/GAN/GAN.png" alt="Generative Adeversarial Network" /></p>
+
+<p>More concretely, the discriminator and generator can be represented by <em>two separate neural networks</em>, <strong>G</strong> and <strong>D</strong>. G takes <em>random noise</em> as input and outputs a sample from the learned probability distribution. D takes in a sample and outputs the <em>probability that the given sample is real</em>. So we would train the discriminator to <em>maximise the probability of correctly determining whether the given sample is real or fake</em>. Whereas for the generator we would like to <em>minimise the probability that the discriminator correctly guesses the sample being fake</em>. We can then determine losses for both G and D, and train them using backpropagation.</p>
+
+<p>This is equivalent to G and D playing a <strong>two-player minimax game</strong>. In the ideal scenario, the generator would generate samples that are indistinguishable from the real data and the output of D would be <em>1/2</em>, that is the sample is equally likely to be either real or fake.</p>
+
+<p><strong>Value function V(G, D) for the minimax game</strong></p>
+
+<p><img src="/blog/assets/img/GAN/minimax-objective.jpeg" alt="G and Minimax Game" /></p>
+
+<h3 id="advantages-and-disadvantages">Advantages and Disadvantages</h3>
+
+<p>This adversarial approach is very effective in building generative models. GANs have a number of computational as well as statistical advantages such as using only <em>simple backpropogation to obtain gradients</em>, <em>no need of inferences during training</em> among others. It also comes with its own set of drawbacks. One of them is the difficulty in training the model. <strong>The Helvetica Scenario</strong> occurs quite often during training, where the generator finds one sample which fools the discriminator, and then keeps on generating simple variations of the same sample without learning to generate other distinct samples.</p>
+
+<h2 id="fantastic-gans-and-where-to-find-them"><em>Fantastic GANs And Where To Find Them</em></h2>
+<p>As mentioned earlier, GANs are one of the most active areas of research in Deep Learning. Hundreds of papers have been published since the original paper 2014, detailing various modifications and applications for the GAN framework. The applications range from Image to Image Translation to Image Style Transfer. Here are a few examples:</p>
+
+<p>&gt; <a href="https://arxiv.org/abs/1511.06434"><strong>DCGAN</strong></a>
+<img src="/blog/assets/img/GAN/dcgan.jpeg" alt="DCGAN" /></p>
+
+<p>&gt; <a href="https://arxiv.org/abs/1702.01983"><strong>acGAN</strong></a>
+<img src="/blog/assets/img/GAN/acgan.jpeg" alt="acGAN" /></p>
+
+<p>&gt; <a href="https://arxiv.org/abs/1703.05192"><strong>DiscoGAN</strong></a>
+<img src="/blog/assets/img/GAN/discogan.png" alt="DiscoGAN" /></p>
+
+<p>You can find a complete list of various GANs at the <a href="https://github.com/hindupuravinash/the-gan-zoo">GAN Zoo</a></p>
+
+<h2 id="references">References</h2>
+<ol>
+  <li><a href="https://arxiv.org/abs/1406.2661">Generative Adversarial Networks, Ian Goodfellow et al., 2014</a></li>
+  <li><a href="http://www.deeplearningbook.org/contents/generative_models.html">Deep Generative Models</a></li>
+  <li><a href="https://arxiv.org/abs/1701.00160">GAN Tutorial, NIPS 2016</a></li>
+</ol>
