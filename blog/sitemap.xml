@@ -2,19 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-<<<<<<< HEAD
-		<loc>http://ieeenitk.org/blog/bionics/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/bionics/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/the-new-biometric-brainprint/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieeenitk.org/blog/quantum-supremacy/</loc>
-=======
 		<loc>http://ieee.nitk.ac.in/blog/pow-consensus-blockchain/</loc>
->>>>>>> 5678dc47fb0aacaabb6429e3e2523f264ddd3066
 	  </url>
 	
 	  <url>

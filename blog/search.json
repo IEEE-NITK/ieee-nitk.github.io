@@ -1,11 +1,10 @@
 [
   
     {
-<<<<<<< HEAD
       "title"    : "BIO(logy and electro)NICS",
       "category" : "diode",
       "tags"     : "biology, electronics, and bionics",
-      "url"      : "http://ieeenitk.org/blog//bionics/",
+      "url"      : "http://ieee.nitk.ac.in/blog//bionics/",
       "date"     : "09 Sep 2018",
       "author"   : "Anirudh Ashok Aatresh"
     } ,
@@ -14,17 +13,18 @@
       "title"    : "THE NEW BIOMETRIC - BRAINPRINT",
       "category" : "",
       "tags"     : "biometrics and brainprint",
-      "url"      : "http://ieeenitk.org/blog//the-new-biometric-brainprint/",
+      "url"      : "http://ieee.nitk.ac.in/blog//the-new-biometric-brainprint/",
       "date"     : "09 Sep 2018",
       "author"   : "Preeti J Kalloli"
-=======
+    } ,
+  
+    {
       "title"    : "Proof-of-work as a consensus mechanism in blockchains",
       "category" : "CompSoc",
       "tags"     : "Blockchain, Consensus, Distributed systems",
       "url"      : "http://ieee.nitk.ac.in/blog//pow-consensus-blockchain/",
       "date"     : "08 Sep 2018",
       "author"   : "Nisarg Joshi"
->>>>>>> 5678dc47fb0aacaabb6429e3e2523f264ddd3066
     } ,
   
     {
