@@ -1,12 +1,21 @@
 [
   
     {
+      "title"    : "BIO(logy and electro)NICS",
+      "category" : "diode",
+      "tags"     : "biology, electronics, and bionics",
+      "url"      : "http://ieeenitk.org/blog//bionics/",
+      "date"     : "09 Sep 2018",
+      "author"   : "Anirudh Ashok Aatresh"
+    } ,
+  
+    {
       "title"    : "THE NEW BIOMETRIC - BRAINPRINT",
       "category" : "",
       "tags"     : "biometrics and brainprint",
       "url"      : "http://ieeenitk.org/blog//the-new-biometric-brainprint/",
       "date"     : "09 Sep 2018",
-      "author"   : ""
+      "author"   : "Preeti J Kalloli"
     } ,
   
     {

@@ -90,7 +90,7 @@ tags:
 - CompSoc
 categories:
 - Compsoc/Diode/Piston
-github_username: 'Salman Shah'
+github_username: 'salman-bhai'
 ---
 You should use Angular because it's trendy. Here's how to create a directive:
 

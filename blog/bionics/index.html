@@ -47,20 +47,20 @@
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="QEMU/KVM for Virtual Machines">
+        <meta name="twitter:title" content="BIO(logy and electro)NICS">
         <meta name="twitter:description" content="A blog documenting random findings and musings of our members">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///qemu-virtualization/" />
-        <meta property="og:title" content="QEMU/KVM for Virtual Machines">
+        <meta property="og:url" content="http://ieeenitk.org///bionics/" />
+        <meta property="og:title" content="BIO(logy and electro)NICS">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
         <meta property="og:description" content="A blog documenting random findings and musings of our members">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="QEMU/KVM for Virtual Machines"/>
+        <meta itemprop="name" content="BIO(logy and electro)NICS"/>
         <meta itemprop="description" content="A blog documenting random findings and musings of our members">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>QEMU/KVM for Virtual Machines</title>
+        <title>BIO(logy and electro)NICS</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/qemu-virtualization/">
+        <link rel="canonical" href="/blog/bionics/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -122,9 +122,9 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-05-16 15:30:30 +0530" class="date">16 May 2018</time>
+            <time itemprop="datePublished" datetime="2018-09-09 00:46:00 +0530" class="date">09 Sep 2018</time>
         
-        <h1 class="post-title" itemprop="name">QEMU/KVM for Virtual Machines</h1>
+        <h1 class="post-title" itemprop="name">BIO(logy and electro)NICS</h1>
         <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
@@ -176,94 +176,40 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>A “virtual machine” or “VM” is a virtual computer system. It is a tightly isolated software container with an operating system and application inside. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or “host.”</p>
+                    <h1 id="biology-and-electronics">BIO(logy and electro)NICS</h1>
 
-<p>A thin layer of software called a “hypervisor” decouples the virtual machines from the host and dynamically allocates computing resources to each virtual machine as needed.</p>
+<p>The living cell can be considered as an extraordinary piece of engineering, where each of the components of the cell work in precise coordination with utmost efficiency.
+Each cell generates its own energy which it uses to carry out specific tasks, and in the process, produces waste products which are removed from the cell. 
+We are yet to understand the working of DNA and RNA, which are chains of particular bio molecules arranged in a certain order. This preprogrammed nature of life that allows for replication of molecular strands is what grabs the attention of many scientists today, and its true working is yet to be understood.</p>
 
-<h2 id="introduction">Introduction</h2>
-<h3 id="qemu-and-kvm">QEMU and KVM</h3>
-<p>QEMU or Quick Emulator is an open-source machine emulator and virtualizer. It can be used for full-system emulation, user-mode emulation as well as virtualization. We’ll be using the full-system emulation capabilities here.</p>
+<p><img src="http://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/14704902/U1CP1-5_ProkvsEukCell_ksm.jpg" alt="Cell" title="Cell" /></p>
 
-<p>KVM or Kernel-based Virtual Machine on the other hand is a virtualization infrastructure which turns Linux into a hypervisor. It is part of the Linux kernel mainline since 2007. KVM when activated along with Qemu, speeds up the emulation several times.</p>
+<p>Over millions of years, human ingenuity and creativity has led to the invention of numerous devices that have changed the way we live today. The evolution of man made technology has reached a parallel to the evolution of cells, and a stage  has come where their convergence can mutually benefit each other. This is where bionics comes into play.</p>
 
-<p><img src="/blog/assets/img/qemu-virtualization/kvm_qemu.png" alt="Virtualization architecture showing QEMU sitting between the Guest OS and KVM" /></p>
+<p>Bionics is a field of engineering, where mechanical and electronic systems are integrated with biological systems in order to achieve a particular biological advantage. You can think of it as a machine and an organism working together, so that this machine is beneficial to the organism in some way. This field is very rich, and has a lot of scope and application in our world.
+One such example, is where it can be used to help mentally and physically challenged people by fixing their biological problems using electronic and mechanical means.</p>
 
-<p>To demonstrate QEMU’s capabilities we’ll create a Debian VM (for potential use as a SSH server)</p>
+<p><img src="https://img.purch.com/w/553/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAwNy8wODEvb3JpZ2luYWwvMDgwNDIyLXByb3N0aGV0aWMtaGFuZC0wMi5qcGc=" alt="Bionic Hand" title="bionic hand" /></p>
 
-<h2 id="setting-up-the-environment">Setting up the environment</h2>
-<h3 id="installing-qemu">Installing QEMU</h3>
-<p>QEMU is available as a PPA for Ubuntu, which can be downloaded using</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>qemu
-</code></pre></div></div>
-<p>QEMU isn’t one single program, rather it is a large set of tools and utilities each of which serve a different purposes.</p>
+<p>Bionics has reached a pretty impressive stage today, where amputees are fitted with bionic prosthetic limbs, and those with certain brain diseases are fitted with brain implants. These are complex systems that mimic a living organ and appear to be one from the brain’s perspective. They allow for basic limb movements, and newer advances have even given a sensation of touch to it. This will involve mechanical systems such as special joints and structures, motors to mimic muscle actions and electronic systems that are used to establish a communication link between the prosthetic and the brain, and allow it to be controlled and coordinated. The device will receive signals from the brain, which will biologically travel through a network of nerves as electrical impulses, and upon reaching the target site, special decoders are used to decode the information stored in the impules and then carry out the desired task.</p>
 
-<h3 id="downloading-the-iso-image">Downloading the iso image</h3>
-<p>We need a Debian installation image before we can get started with QEMU. A simple wget command can download the image from the Debian’s online repositories.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.2.1-amd64-netinst.iso
-</code></pre></div></div>
+<p><img src="https://img.purch.com/w/553/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAwNi84MzUvb3JpZ2luYWwvYnJhaW4tcmVnaW9ucy0xMDA0MTQtMDIuanBn" alt="Brain Implant" title="brain implant" /></p>
 
-<h3 id="creating-a-virtual-hard-disk">Creating a virtual hard-disk</h3>
-<p>The first step in creating the VM is to create storage space to install the operating system on. We’ll create something called a virtual hard drive (VHD). A virtual hard drive is a hard drive image with its own partition table, onto which operating systems can be installed. We can create one using the <em>qemu-img</em> utility which comes bundled with QEMU.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-img create <span class="nt">-f</span> qcow2 debian.qcow2 6G
-</code></pre></div></div>
-<p>The command takes the location and size of the VHD as arguments. The <em>-f</em> option specifies the format for the disk-image as <em>qcow2</em> - QEMU’s proprietary format - and the last argument is for the size of the disk to be created.</p>
+<p>Developments and study in neuroscience have led to collaborative work between doctors and engineers, wherein problems related to memory loss and organ control have been tackled using special bionic brain implants. A notable example of such an implant is a computer chip that can mimic the working of the hippocampus, which is a part of the brain that deals with short term memory. This is especially useful for people suffering from Alzheimer’s disease where the patient has short term memory loss.
+Faulty organs can be rectified using bionics, and one of the best examples of such an invention is the pacemaker. Artificial bionic kidneys and pancreas have been created and are currently under clinical trials.</p>
 
-<h2 id="installing-the-iso-and-booting-up-vm">Installing the ISO and Booting Up VM</h2>
-<h3 id="installation">Installation</h3>
-<p>To install the Debian iso image onto the virtual hard-drive we just created, we can use the QEMU utility for <em>x86_64</em> emulation. QEMU provides a variety of commands as <em>qemu-system-{system-architecture}</em> for use with different architectures. We’re here emulating a 64-bit machine and hence make use of the <em>qemu-system-x86_64</em> command.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-system-x86_64 <span class="nt">-enable-kvm</span> <span class="nt">-hda</span> debian.qcow2 <span class="nt">-cdrom</span> ../Downloads/debian-9.1.0-amd64-netinst.iso <span class="nt">-net</span> user <span class="nt">-net</span> nic <span class="nt">-m</span> 4G <span class="nt">-boot</span> d 
-</code></pre></div></div>
-<p>The command takes as input options - most of which are self-explanatory - and boots up the machine from the iso image mounted as a CD drive. From here on the time taken to install depends on the amount of ram allocated and whether the iso needs to download any packages.</p>
+<p>A very important branch of bionics on the nano-scale are nanobots. These are robots whose size ranges between <strong>100nm</strong> and <strong>1nm</strong>. Nanobots can be considered as machine versions of bacteria and viruses, which help in bringing about changes at the atomic and molecular level and in carrying out breakthroughs in medical science. They are built to work in harsh chemical environments and are usually powered by the chemicals in which they exists or by an on-board battery.
+It is said that Nanobots will bring in a new age of medical diagnosis and treatment, allowing doctors to carry out medical procedures on a cellular level which has much better efficiency and effectiveness. They can be used for applications such as closing open wounds, causing blood clots, rebuilding ruptured arteries and veins, and traversing through the body for diagnosis of a particular disease.</p>
 
-<p>Once the install is complete, QEMU reboots automatically. We can then close the window and go back to the terminal.</p>
+<p>It must be noted that a cell is an extremely stable unit of life, and any modification of it must be done carefully. Unmonitored use of technology in bionics has the potential of causing more harm than good. However, if allowed to grow on the right path, this field has solutions to majority of the problems that life suffers from today.</p>
 
-<h3 id="booting-up">Booting up</h3>
-<p>Now to boot up the virtual machine, we use</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-system-x86_64 <span class="nt">-enable-kvm</span> <span class="nt">-hda</span> debian.qcow2 <span class="nt">-boot</span> c <span class="nt">-net</span> user <span class="nt">-net</span> nic <span class="nt">-m</span> 2G
-</code></pre></div></div>
-<p>The <em>-boot c</em> option lets the machine boot up from the hard-drive image.</p>
-
-<p>QEMU also gives us a cool amount of options to tweak our machine to our liking.</p>
-<h2 id="options-in-qemu">Options in QEMU</h2>
-<h3 id="using-ssh-to-login-to-the-machine">Using SSH to login to the machine</h3>
-<p>One way to use the machine in headless mode is to SSH into it using a terminal on our host. For this we need to add <em>-redir tcp:5022::22</em> to our machine startup command. What this does is that it redirects the port 22 of our guest machine into port 5022 of our host. Thus letting us use the machine via SSH. Another option which comes in use is <em>-display none</em> which tells QEMU not to open up an emulator window, since we don’t need it if we are logging into the machine using SSH. Now, to login using SSH, the usual procedure can be followed on the host machine.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh <span class="nt">-p</span> 5022 &lt;user&gt;@&lt;<span class="nb">hostname</span><span class="o">&gt;</span>
-<span class="nv">$ </span>&lt;user&gt;@&lt;<span class="nb">hostname</span><span class="o">&gt;</span><span class="s1">'s password:
-</span></code></pre></div></div>
-<p>Where <em>user</em> and <em>hostname</em> are the username and hostname for the machine we created.</p>
-
-<p>To power the machine down, we need to login as root using root’s password, and then type in into the terminal</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># poweroff</span>
-</code></pre></div></div>
-
-<h3 id="sharing-files-between-host-and-guest">Sharing Files Between Host and Guest</h3>
-<p>Viewing host’s files on the guest is one problem that arises quite often while using virtual machines. QEMU solves this by providing an in-built Samba file server.
-It can be started by adding <em>-smb {shared directory path}</em> to the command for starting the VM. On the guest machine, <em>smbclient</em> needs to be installed in order to access the shared folders. On the guest machine run,</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>apt-get <span class="nb">install </span>smbclient
-<span class="nv">$ </span>smbclient //10.0.2.4/qemu/
-<span class="nv">$ </span>Enter user<span class="s1">'s password:
-</span></code></pre></div></div>
-<p>Now we can browse the shared directory. If we need to share files, we can copy them into the shared directory on the host, and then access them through the guest, using <em>smbcleint</em>.</p>
-
-<h3 id="emulating-specific-cpus">Emulating specific CPUs</h3>
-<p>While being used for system emulation QEMU can emulate specific CPUs as well. This can be achieved by using the <em>-cpu</em> option. To bring up a list of CPUs QEMU can emulate, use <em>-cpu ?</em>. And then use that CPUs name in the command. Here I emulated an Intel i7.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>qemu-system-x86_64 <span class="nt">-m</span> 4G <span class="nt">-hda</span> debian.qcow2 <span class="nt">-enable-kvm</span> <span class="nt">-cpu</span> Nehalem <span class="nt">-net</span> nic <span class="nt">-net</span> user <span class="nt">-redir</span> tcp:5022::22 <span class="nt">-redir</span> tcp:9080::80 <span class="nt">-smb</span> ~/c-prog
-</code></pre></div></div>
-<p>This can come in especially useful when using the virtual machines for cross-compiling for a specific architecture.</p>
-
-<h3 id="preventing-cursor-capture">Preventing Cursor Capture</h3>
-<p>Cursor capture happens when the guest machine prevents the cursor from being used on the host, i.e. the cursor becomes local to the guest machine. To release the cursor, we need to press <em>Alt + Ctrl</em>. Having to do this can be annoying at times. So, we can prevent the cursor from being captured by using the <em>-show-cursor</em> option. This works well when used along with the <em>-enable-kvm</em> option being enables.
-Enabling KVM speeds up emulation, and hence leads to a lower chance of the cursor being captured. Whereas <em>-show-cursor</em> ensures that the cursor is shown at all times, even if the guest machine doesn’t have a GUI.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-<p>We’ve just created a simple VM running Debian. I aim to use it as an isolated environment for programming, and maybe learning a few networking concepts while I’m at it. Qemu is also available on Windows so this VM can be accessed from Windows as well, providing a consistent programming environment regardless of which host OS it’s run on top of. Another interesting use case for QEMU VMs is to build updated Linux images, download and install packages and install an operating system on a SD card for raspberry pi or other such embedded boards so that you can directly get to working on the board without having to worry about network issues and having to connect to a monitor.</p>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
-        <span id="category">CompSoc</span>
-        <span id="title">QEMU/KVM for Virtual Machines</span>
+        <span id="category">diode</span>
+        <span id="title">BIO(logy and electro)NICS</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -272,13 +218,13 @@ Enabling KVM speeds up emulation, and hence leads to a lower chance of the curso
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/archit.jpg" alt="Archit Pandey">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/AnirudhAA.jpeg" alt="Anirudh Ashok Aatresh">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Archit Pandey</a>
+            <a itemprop="name" href="/">Anirudh Ashok Aatresh</a>
         </h3>
-        <p class="desc">Open-source enthusiast</p>
-        <a itemprop="email" class="email" href="mailto:archpndy@gmail.com">archpndy@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:anirudhashokaatresh@gmail.com">anirudhashokaatresh@gmail.com</a>
     </div>
 </section>
 
@@ -298,15 +244,15 @@ Enabling KVM speeds up emulation, and hence leads to a lower chance of the curso
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/qemu-virtualization/%20via%20&#64;IEEE_NITK&hashtags=virtualization,qemu,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/bionics/%20via%20&#64;IEEE_NITK&hashtags=biology,electronics,bionics,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//qemu-virtualization/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//bionics/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//qemu-virtualization/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//bionics/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
