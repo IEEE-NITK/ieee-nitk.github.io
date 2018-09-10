@@ -18,10 +18,15 @@ docker-compose up
 ```
 * In case you want to shut down your docker container, kindly do it by running `docker-compose down`. It should allow you to shut down your docker container.
 * In case you have shut down you docker container with Ctrl+C you will still need to shut it down using `docker-compose down`.  
+
 ## Further Installation
+
 3. Fork the [IEEE NITK GitHub website repository](https://github.com/IEEE-NITK/ieee-nitk.github.io)
+
 4. Clone the repo you just forked. You can do this using the `git clone` command. Check out this article for how to install Git on [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04) and on [Windows](http://www.jamessturtevant.com/posts/5-Ways-to-install-git-on-Windows/)
+
 5. Check out the sample posts in `blog_src/_posts` to see examples for assigning categories and tags, and other YAML data. Posts are written in Markdown.
+
 6. Read the documentation below for further customization pointers and documentation.
 
 Here is a write up on how to start contributing to our blog:
