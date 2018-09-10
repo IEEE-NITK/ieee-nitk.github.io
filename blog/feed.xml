@@ -5,9 +5,41 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Sep 2018 00:35:56 +0530</pubDate>
-    <lastBuildDate>Sat, 08 Sep 2018 00:35:56 +0530</lastBuildDate>
+    <pubDate>Tue, 11 Sep 2018 00:32:44 +0530</pubDate>
+    <lastBuildDate>Tue, 11 Sep 2018 00:32:44 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>BIO(logy and electro)NICS</title>
+        <description>&lt;h1 id=&quot;biology-and-electronics&quot;&gt;BIO(logy and electro)NICS&lt;/h1&gt; &lt;p&gt;The living cell can be considered as an extraordinary piece of engineering, where each of the components of the cell work in precise coordination with utmost efficiency. Each cell generates its own energy which it uses to carry out specific tasks, and in the process, produces waste products which are removed from the cell. We are yet to understand the working of DNA and RNA, which are chains of particular bio molecules arranged in a certain order. This preprogrammed nature of life that allows for replication of molecular strands is what grabs the attention of many...</description>
+        <pubDate>Sun, 09 Sep 2018 00:46:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/bionics/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/bionics/</guid>
+        
+        <category>biology</category>
+        
+        <category>electronics</category>
+        
+        <category>bionics</category>
+        
+        
+        <category>diode</category>
+        
+      </item>
+    
+      <item>
+        <title>THE NEW BIOMETRIC - BRAINPRINT</title>
+        <description>&lt;p&gt;&lt;strong&gt;THE NEW BIOMETRIC - BRAINPRINT&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Since the conception of computers, mobile phones, tablets and most importantly, Internet, securing our devices and data has become crucial. Personal data ranging from shopping wishlists to bank details are either stored in PCs or are available online, all protected by passwords - a rather impotent sentinel, as it turns out. There have been several methods used by computers as well as the different websites to authenticate its user.&lt;/p&gt; &lt;p&gt;The first passwords were simple and easily stored since sophisticated hacking networks did not exist yet. One such example is, Cryptographer Robert Morris, who created the...</description>
+        <pubDate>Sun, 09 Sep 2018 00:04:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</guid>
+        
+        <category>biometrics</category>
+        
+        <category>brainprint</category>
+        
+        
+      </item>
     
       <item>
         <title>Proof-of-work as a consensus mechanism in blockchains</title>
@@ -148,38 +180,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Charge Crowding</title>
-        <description>&lt;h1 id=&quot;charge-crowding&quot;&gt;Charge crowding&lt;/h1&gt; &lt;h2 id=&quot;electrostatic-discharge&quot;&gt;Electrostatic Discharge&lt;/h2&gt; &lt;p&gt;Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other. ESD can also occur when a high electrostatic field develops between two objects in close proximity. ESD is one of the major causes of device failures in the semiconductor industry Electrostatic charge build-up occurs as a result of an imbalance of electrons on the surface of a material. Such a charge build-up develops an electric field that has measurable effects on other objects at...</description>
-        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/charge-crowding/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/charge-crowding/</guid>
-        
-        <category>CAS/SPS</category>
-        
-        <category>electronic devices</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Why 50Hz ?</title>
-        <description>&lt;h2 id=&quot;why-do-most-of-the-countries-use-a-5060-hz-110220-v-power-supply-and-not-any-othervalue&quot;&gt;Why do most of the countries use a 50/60 Hz, 110/220 V power supply and not any othervalue?&lt;/h2&gt; &lt;p&gt;The answer to this question is not definite but quite a few technical and historical reasons can be found to support this which date back to the very beginning of the development of the electrical power system.&lt;/p&gt; &lt;h2 id=&quot;what-is-supply-frequency-and-why-is-it-an-important-parameter-in-the-electrical-grid&quot;&gt;What is supply frequency and why is it an important parameter in the electrical grid?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/why-50hz/image001.jpg&quot; alt=&quot;Example&quot; /&gt;&lt;/p&gt; &lt;p&gt;The electrical power grid consists of a massive network of generators, transmission lines, transformers, substations and a variety of loads drawing real and reactive...</description>
-        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/why-50hz/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-50hz/</guid>
-        
-        <category>electric power grid</category>
-        
-        <category>50Hz frequency</category>
-        
-        
-        <category>CAS/SPS</category>
         
       </item>
     
