@@ -2,13 +2,13 @@
 title: Gyan passed down from one batch to another
 description: IEEE NITK is a student branch of IEEE located at NITK Surathkal. This section called Gyan serves as a collection of experiences of various seniors throughout the years.
 baseurl: "/gyan" # the subpath of your site, e.g. /blog
-url: "https://ieeenitk.org" # the base hostname & protocol for your site e.g. http://ieeenitk.org
+url: "https://ieee.nitk.ac.in" # the base hostname & protocol for your site e.g. http://ieeenitk.org
 
 # User settings
 username: IEEE-NITK 
 user_description: IEEE Student chapter at NITK Surathkal
 description: Gyan passed down from one batch to another
-email: chairman.nitkieee@gmail.com
+email: ieee@nitk.edu.in
 twitter_username: IEEE_NITK 
 github_username: IEEE-NITK
 facebook_username: IEEENITK
