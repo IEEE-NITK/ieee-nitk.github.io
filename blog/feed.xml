@@ -5,9 +5,23 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieeenitk.org/blog/</link>
     <atom:link href="http://ieeenitk.org/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 Jul 2018 18:30:50 +0530</pubDate>
-    <lastBuildDate>Sun, 01 Jul 2018 18:30:50 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Mon, 10 Sep 2018 19:11:31 +0530</pubDate>
+    <lastBuildDate>Mon, 10 Sep 2018 19:11:31 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>THE NEW BIOMETRIC - BRAINPRINT</title>
+        <description>&lt;p&gt;&lt;strong&gt;THE NEW BIOMETRIC - BRAINPRINT&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Since the conception of computers, mobile phones, tablets and most&lt;/p&gt; &lt;p&gt;importantly, Internet, securing our devices and data has become crucial.&lt;/p&gt; &lt;p&gt;Personal data ranging from shopping wishlists to bank details are either stored&lt;/p&gt; &lt;p&gt;in PCs or are available online, all protected by passwords - a rather impotent&lt;/p&gt; &lt;p&gt;sentinel, as it turns out. There have been several methods used by computers&lt;/p&gt; &lt;p&gt;as well as the different websites to authenticate its user.&lt;/p&gt; &lt;p&gt;The first passwords were simple and easily stored since sophisticated&lt;/p&gt; &lt;p&gt;hacking networks did not exist yet. One such example is, Cryptographer&lt;/p&gt; &lt;p&gt;Robert Morris, who created the...</description>
+        <pubDate>Sun, 09 Sep 2018 00:04:00 +0530</pubDate>
+        <link>http://ieeenitk.org/blog/the-new-biometric-brainprint/</link>
+        <guid isPermaLink="true">http://ieeenitk.org/blog/the-new-biometric-brainprint/</guid>
+        
+        <category>biometrics</category>
+        
+        <category>brainprint</category>
+        
+        
+      </item>
     
       <item>
         <title>Quantum Supremacy: Is it hyped?</title>
@@ -166,22 +180,6 @@
         
         
         <category>CAS/SPS</category>
-        
-      </item>
-    
-      <item>
-        <title>Market Basket Analysis</title>
-        <description>&lt;h1 id=&quot;market-basket-analysis&quot;&gt;Market Basket Analysis&lt;/h1&gt; &lt;p&gt;Ever wondered how Flipkart knows what items to suggest to you before and after you make a purchase? The is an aspect of analysis created specifically to promote sales called market basket analysis (MBA). In the retail industry, MBA refers to an unsupervised data mining technique that discovers co-occurrence relationships among customers’ purchase activities. The technique is based on the theory that if you buy a certain group of items, you are likely to buy another group of items. For example: while at McDonald’s, if you buy sandwiches and cookies, you are more likely to buy...</description>
-        <pubDate>Tue, 29 May 2018 05:02:44 +0530</pubDate>
-        <link>http://ieeenitk.org/blog/market-basket/</link>
-        <guid isPermaLink="true">http://ieeenitk.org/blog/market-basket/</guid>
-        
-        <category>Data mining</category>
-        
-        <category>Apriori</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

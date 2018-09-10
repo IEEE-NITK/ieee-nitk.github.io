@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="description" content="A blog documenting random findings and musings of our members">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="You don't really know Arduino">
-        <meta name="twitter:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="twitter:title" content="THE NEW BIOMETRIC - BRAINPRINT">
+        <meta name="twitter:description" content="A blog documenting random findings and musings of our members">
         <meta property="twitter:image:src" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieeenitk.org///you-dont-really-know-arduino/" />
-        <meta property="og:title" content="You don't really know Arduino">
+        <meta property="og:url" content="http://ieeenitk.org///the-new-biometric-brainprint/" />
+        <meta property="og:title" content="THE NEW BIOMETRIC - BRAINPRINT">
         <meta property="og:image" content="http://ieeenitk.org/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta property="og:description" content="A blog documenting random findings and musings of our members">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="You don't really know Arduino"/>
-        <meta itemprop="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta itemprop="name" content="THE NEW BIOMETRIC - BRAINPRINT"/>
+        <meta itemprop="description" content="A blog documenting random findings and musings of our members">
         <meta itemprop="image" content="http://ieeenitk.org/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>You don't really know Arduino</title>
+        <title>THE NEW BIOMETRIC - BRAINPRINT</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/you-dont-really-know-arduino/">
+        <link rel="canonical" href="/blog/the-new-biometric-brainprint/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieeenitk.org/blog/feed.xml" />
 
@@ -122,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-12 05:02:44 +0530" class="date">12 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2018-09-09 00:04:00 +0530" class="date">09 Sep 2018</time>
         
-        <h1 class="post-title" itemprop="name">You don't really know Arduino</h1>
-        <p itemprop="description" class="subtitle">Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.</p>
+        <h1 class="post-title" itemprop="name">THE NEW BIOMETRIC - BRAINPRINT</h1>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -176,97 +176,138 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:</p>
-<ul>
-  <li>It is too simple</li>
-  <li>It’s performance is limited</li>
-  <li>It does not feels like embedded programming</li>
-  <li>There is a library for literally everything (sounds like an advantage?)</li>
-</ul>
+                    <p><strong>THE NEW BIOMETRIC - BRAINPRINT</strong></p>
 
-<p>Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “<em>It Kills the Spirit of Embedded Programming.</em>” And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it’s the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL’s (now owned by Microchip) AVR Studio to program these boards, it’s yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. <em>Arduino does have advantages over its primitive alternatives.</em></p>
+<p>Since the conception of computers, mobile phones, tablets and most</p>
 
-<h3 id="whats-my-point-then">What’s my point then?</h3>
+<p>importantly, Internet, securing our devices and data has become crucial.</p>
 
-<p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
+<p>Personal data ranging from shopping wishlists to bank details are either stored</p>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
-</span></code></pre></div></div>
-<p>“<em>Done!</em>”</p>
+<p>in PCs or are available online, all protected by passwords - a rather impotent</p>
 
-<p>So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one’s comfort Arduino IDE supports it out of the box. (right after installation?)</p>
+<p>sentinel, as it turns out. There have been several methods used by computers</p>
 
-<h3 id="the-conservative-face-of-arduino">The conservative face of Arduino</h3>
+<p>as well as the different websites to authenticate its user.</p>
 
-<p>Not many people might know but Arduino is <strong>backward compatible</strong>. For those who do not come from programming background (like myself) backward compatibility means support for primitive functions on which the newer abstract functions are based. For example the function cout and cin in C++ are the abstract functions while scanf and printf are the primitive ones. C++ however supports both so if performance is a major concern using printf (which is faster) instead of cout might save you a couple of micro-seconds. The analogy in embedded implies that instead of digitalWrite(8,HIGH), PORTB = 0b10000000 will do the exact same thing but a lot faster.</p>
+<p>The first passwords were simple and easily stored since sophisticated</p>
 
-<p>Another example is the widely used analogWrite() function in arduino that outputs a PWM signal with a rather low frequency of 980 Hz and 490 Hz which might be slow depending on the application. In such a case instead of using the rather good looking analogWrite(), set the clocks to the counter units manually to achieve frequencies as high as 200KHz. All this might sound very simple to a person with a lot of experience programming micro-controllers but where does a noob starts from? Don’t worry, I got your back.</p>
+<p>hacking networks did not exist yet. One such example is, Cryptographer</p>
 
-<h3 id="how-and-where-to-begin">How and where to begin?</h3>
+<p>Robert Morris, who created the infamous Morris worm, developed a one-way</p>
 
-<p>To start off how about reading some theory on the architecture? Sounds very interesting right? Well yeah it might not be the most entertaining part but it is indeed an essential part (especially the register view of peripherals). A basic image of the architecture in mind allows the programmer to use architectural exploits to make the code run faster.</p>
+<p>encryption function for his UNIX operating system, known as "hashing," which</p>
 
-<ul>
-  <li>
-    <p>Quality tutorials can be found on <a href="http://www.avr-tutorials.com/">avr-tutorials</a> with examples. Added bonus is their assembly equivalent for every line of C code.</p>
-  </li>
-  <li>
-    <p>Ever feel lost? All good projects are complimented with ever helping communities. People at <a href="http://www.avrfreaks.net/">AVRfreaks</a> will be glad to help you.</p>
-  </li>
-  <li>
-    <p>Although there will be examples on internet explaining how to manipulate registers to do certain tasks (like setting up ADC) it is recommended to figure that out using the <a href="http://www.atmel.com/products/microcontrollers/avr/megaavr.aspx">data sheet of the micro-controller used in Arduino.</a></p>
-  </li>
-</ul>
+<p>translated a password into a numerical value. The actual password was</p>
 
-<h3 id="an-example">An Example</h3>
-<p>Enough with the blabbering, lets look at a simple example.</p>
+<p>therefore not stored in the computer system, making the information less</p>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
-</span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
-<span class="p">{</span>
- <span class="c1">//set pin 5 of PORTB to output
-</span> <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
- <span class="p">}</span>
- 
-<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
-<span class="p">{</span>
-  <span class="c1">//set pin 5 high to turn led on
-</span>  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-  <span class="c1">//set pin 5 low to turn led off
-</span>  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<p>readily accessible to hackers. Recently, the two-step authentication has</p>
 
-<p>If you copy-paste the above code to Arduino IDE and upload it, it will mimic the classic Blink LED  code. The catch is that the built in Blink example takes 928 bytes of program memory while the above code takes just 486 bytes. (Almost half the space!)</p>
+<p>brought in development by adding an extra layer of protection by requiring</p>
 
-<p><img src="https://i.stack.imgur.com/NxqQs.jpg" alt="ATmega 328P pinmapping to Arduino UNO Pins" /></p>
+<p>verification from two different sources. But this too is not foolproof, but a</p>
 
-<h3 id="comparison-of-performance">Comparison of performance</h3>
+<p>challenge to intrepid hackers. Therefore, a more promising solution can be</p>
 
-<p>Still not convinced about the boost in performance possible by coding using primitive methods? Julian Ilett did a nice <a href="https://www.youtube.com/watch?v=U7I0GkwW1yE">comparison video</a> so you might want to check that out.</p>
+<p>multi-factor authentication which demands more than one authentication</p>
 
-<p>If you think that speed and space is the only argument then let me include power considerations. AVR micro-controllers come with a bunch of peripherals that may or maynot be used by your code. In a scenario where the entire setup runs on a battery you might want to shut down unused peripherals (like ADC or counter units) to save power and increase the running time. Kevin Darrah’s <a href="https://www.youtube.com/watch?v=urLSDi7SD8M">video</a> will help you appreciate the power saver modes the micro-controller offers.</p>
+<p>method, one of which can be biometric authentication like fingerprint, facial</p>
 
-<p>On the already fantastic recipe of Arduino the icing is yet to come. You can code the <strong>blocks that need to be fast</strong> for your project using primitive C codes and still use the abstract arduino functions for the <strong>less time critical part</strong> of the code. For example, If you are working on a fast multiplexing application like an LED cube where data is sent to Arduino from PC, you would want to make sure that multiplexing is done at a very high speed (enough to fool human eyes at least) whereas you can still use the Serial.read() function to fetch data over serial port.</p>
+<p>recognition, etc. But the multi-factor authentication calls for extra efforts from</p>
 
-<blockquote>
-  <p>A word of advice: While programming in such a mixed style make sure the code doesn’t create conflicts with itself (like trying digitalWrite() on a pin which is configured to read analog values).</p>
-</blockquote>
+<p>the user.</p>
 
-<h3 id="ready-steady-go">Ready, Steady, Go!</h3>
+<p>Recently, researchers at Binghamton University have discovered</p>
 
-<p>Congratulations if you made it till the end of this blog. Hopefully your arduino sketches are more optimized and gives you that <em>sense of pride</em>. Now what are you waiting for? Find your arduino and maybe make an 8x8x8 multiplexed L.E.D cube or something!</p>
+<p>that, with a bit of training, your computer can identify you based on the way</p>
 
-<p><img src="http://www.avrfreaks.net/sites/default/files/4CubeWave.gif" alt="Credits AVRfreaks" /></p>
+<p>your brain reacts to certain words. This could be another type of biometric</p>
+
+<p>authentication. This means that instead of a password you could simply listen</p>
+
+<p>to a few words and unlock your secret files. The idea is for a person to</p>
+
+<p>authenticate their identity with electroencephalogram (EEG) readings. You</p>
+
+<p>simply have to sit down with the brain scanner on. The user's response is</p>
+
+<p>measured via an EEG headset. EEG signatures are unique and are more</p>
+
+<p>complex than a standard password, making them difficult to hack. For this, it is</p>
+
+<p>required to make an algorithm which can be educated about the user's</p>
+
+<p>reaction for particular character. This can be made by giving the user to type a</p>
+
+<p>few characters and learning and registering the responses of the user.</p>
+
+<p>Researchers at the University of Washington have demonstrated another way</p>
+
+<p>to extract private information using an EEG headset. They created games that</p>
+
+<p>subliminally flashed up images such as bank logos and noted when a person's</p>
+
+<p>brain waves registered recognition.</p>
+
+<p>"If someone's fingerprint is stolen, that person can't just grow a</p>
+
+<p>new finger to replace the compromised fingerprint — the fingerprint for that</p>
+
+<p>person is compromised forever. Fingerprints are 'non-cancellable.' Brainprints,</p>
+
+<p>on the other hand, are potentially cancellable. So, in the unlikely event that</p>
+
+<p>attackers were actually able to steal a brainprint from an authorized user, the</p>
+
+<p>authorized user could then 'reset' their brainprint," said Sarah Laszlo, an</p>
+
+<p>assistant professor of psychology and linguistics involved in the project.</p>
+
+<p>Although this method is accurate upto 94% as of now, it still has</p>
+
+<p>confounding fallacy like, the effect of drugs(opioids, caffeine and alcohol) on</p>
+
+<p>the neural systems, and hence, the brain waves. This manipulation of brain</p>
+
+<p>waves due to the external factors comes out as a challenge. John Chuang at</p>
+
+<p>the University of California, Berkeley, last year published research into the</p>
+
+<p>impact of exercise on EEG authentication and found that accuracy degrades</p>
+
+<p>immediately after a workout (though it quickly recovered). He suggests that</p>
+
+<p>other factors such as hunger, stress or fatigue could also reduce reliability. To</p>
+
+<p>overcome this, if accuracy under different conditions were required, it could be</p>
+
+<p>possible to collect multiple brainwave "templates" for a user by separately</p>
+
+<p>mapping their EEG signature when drunk, tired and so on. It is possible to</p>
+
+<p>tweak the EEG data analysis using machine learning to improve the results for</p>
+
+<p>participants who were inebriated, as suggested by another researcher Tommy</p>
+
+<p>Chin and Peter Muller, a graduate student.</p>
+
+<p>Nevertheless, given that it is difficult to copy another person's exact</p>
+
+<p>thought process, the technology is certainly advantageous. Considering the</p>
+
+<p>advancement in the technology, we will likely see uptake of biometric</p>
+
+<p>applications based on brainprints soon – especially as part of multi-factor</p>
+
+<p>system for enhanced authentication.</p>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
-        <span id="category">Diode</span>
-        <span id="title">You don't really know Arduino</span>
+        <span id="category"></span>
+        <span id="title">THE NEW BIOMETRIC - BRAINPRINT</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -275,13 +316,13 @@
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/vibhore.jpg" alt="Vibhore Jain">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/" alt="">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Vibhore Jain</a>
+            <a itemprop="name" href="/"></a>
         </h3>
-        <p class="desc">"Everyone is special" - a classic example of Oxymoron...</p>
-        <a itemprop="email" class="email" href="mailto:jainvibhore1997@gmail.com">jainvibhore1997@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:"></a>
     </div>
 </section>
 
@@ -299,23 +340,17 @@
 	</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/you-dont-really-know-arduino/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/you-dont-really-know-arduino/%20via%20&#64;IEEE_NITK&hashtags=Arduino,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieeenitk.org/blog/the-new-biometric-brainprint/%20via%20&#64;IEEE_NITK&hashtags=biometrics,brainprint,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieeenitk.org//blog//the-new-biometric-brainprint/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieeenitk.org//blog//the-new-biometric-brainprint/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
