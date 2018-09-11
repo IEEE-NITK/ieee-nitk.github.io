@@ -11,7 +11,6 @@ tags:
 - String
 - Genes
 - Chromosome
-
 categories:
 - CompSoc
 github_username: 'gurupunskill'

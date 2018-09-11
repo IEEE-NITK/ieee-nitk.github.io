@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Sep 2018 00:32:44 +0530</pubDate>
-    <lastBuildDate>Tue, 11 Sep 2018 00:32:44 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Tue, 11 Sep 2018 22:06:51 +0530</pubDate>
+    <lastBuildDate>Tue, 11 Sep 2018 22:06:51 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
     
       <item>
         <title>BIO(logy and electro)NICS</title>
-        <description>&lt;h1 id=&quot;biology-and-electronics&quot;&gt;BIO(logy and electro)NICS&lt;/h1&gt; &lt;p&gt;The living cell can be considered as an extraordinary piece of engineering, where each of the components of the cell work in precise coordination with utmost efficiency. Each cell generates its own energy which it uses to carry out specific tasks, and in the process, produces waste products which are removed from the cell. We are yet to understand the working of DNA and RNA, which are chains of particular bio molecules arranged in a certain order. This preprogrammed nature of life that allows for replication of molecular strands is what grabs the attention of many...</description>
+        <description>&lt;p&gt;The living cell can be considered as an extraordinary piece of engineering, where each of the components of the cell work in precise coordination with utmost efficiency. Each cell generates its own energy which it uses to carry out specific tasks, and in the process, produces waste products which are removed from the cell. We are yet to understand the working of DNA and RNA, which are chains of particular bio molecules arranged in a certain order. This preprogrammed nature of life that allows for replication of molecular strands is what grabs the attention of many scientists today, and its...</description>
         <pubDate>Sun, 09 Sep 2018 00:46:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/bionics/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/bionics/</guid>
@@ -23,13 +23,13 @@
         <category>bionics</category>
         
         
-        <category>diode</category>
+        <category>Diode</category>
         
       </item>
     
       <item>
         <title>THE NEW BIOMETRIC - BRAINPRINT</title>
-        <description>&lt;p&gt;&lt;strong&gt;THE NEW BIOMETRIC - BRAINPRINT&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Since the conception of computers, mobile phones, tablets and most importantly, Internet, securing our devices and data has become crucial. Personal data ranging from shopping wishlists to bank details are either stored in PCs or are available online, all protected by passwords - a rather impotent sentinel, as it turns out. There have been several methods used by computers as well as the different websites to authenticate its user.&lt;/p&gt; &lt;p&gt;The first passwords were simple and easily stored since sophisticated hacking networks did not exist yet. One such example is, Cryptographer Robert Morris, who created the...</description>
+        <description>&lt;p&gt;Since the conception of computers, mobile phones, tablets and most importantly, Internet, securing our devices and data has become crucial. Personal data ranging from shopping wishlists to bank details are either stored in PCs or are available online, all protected by passwords - a rather impotent sentinel, as it turns out. There have been several methods used by computers as well as the different websites to authenticate its user.&lt;/p&gt; &lt;p&gt;The first passwords were simple and easily stored since sophisticated hacking networks did not exist yet. One such example is, Cryptographer Robert Morris, who created the infamous Morris worm, developed a...</description>
         <pubDate>Sun, 09 Sep 2018 00:04:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</guid>
