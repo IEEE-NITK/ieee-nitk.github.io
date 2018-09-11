@@ -10,8 +10,7 @@ tags:
 - Nano motors
 - Motors
 - ATP
-- Biilogy
-
+- Biology
 categories:
 - Piston
 

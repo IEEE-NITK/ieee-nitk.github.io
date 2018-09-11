@@ -1,6 +1,24 @@
 [
   
     {
+      "title"    : "BIO(logy and electro)NICS",
+      "category" : "Diode",
+      "tags"     : "biology, electronics, and bionics",
+      "url"      : "http://ieee.nitk.ac.in/blog//bionics/",
+      "date"     : "09 Sep 2018",
+      "author"   : "Anirudh Ashok Aatresh"
+    } ,
+  
+    {
+      "title"    : "THE NEW BIOMETRIC - BRAINPRINT",
+      "category" : "",
+      "tags"     : "biometrics and brainprint",
+      "url"      : "http://ieee.nitk.ac.in/blog//the-new-biometric-brainprint/",
+      "date"     : "09 Sep 2018",
+      "author"   : "Preeti J Kalloli"
+    } ,
+  
+    {
       "title"    : "Proof-of-work as a consensus mechanism in blockchains",
       "category" : "CompSoc",
       "tags"     : "Blockchain, Consensus, Distributed systems",
