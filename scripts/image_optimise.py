@@ -9,7 +9,7 @@ from sys import argv
 #files_list = [f for f in listdir(".") if isfile(join(".", f))]
 #print(files_list)
 
-max_height = 600
+max_height = 400
 
 if len(argv) != 2:
     print("Incorrect usage: %s <filename>" %(argv[0]))
