@@ -4,7 +4,7 @@ title: "Biomicry: Creating A Truly Sustainable Environment"
 author_github: KushagraRawat
 date: 2018-09-15 16:30:33
 image: '/assets/img/'
-description: 'Exploring the potential of a nanoparticle-wonder liquid.'
+description: 'What is biomicry and where do we see it in real life.'
 tags:
 - Biomicry
 categories:
