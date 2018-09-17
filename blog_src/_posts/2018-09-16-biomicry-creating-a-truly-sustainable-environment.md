@@ -110,6 +110,6 @@ amazing build and a real answer to sustainable architecture all inspired by natu
 1. [http://www.ktransit.com/mainline/asia/japan/shinkansen/japan_bullet-tokaido.htm](http://www.ktransit.com/mainline/asia/japan/shinkansen/japan_bullet-tokaido.htm)
 2. [https://www.seat61.com/Japan.htm](https://www.seat61.com/Japan.htm)
 3. [https://en.wikipedia.org/wiki/Shinkansen](https://en.wikipedia.org/wiki/Shinkansen)
-4. [https://www.youtube.com/watch?v=iMtXqTmfta0]([https://www.youtube.com/watch?v=iMtXqTmfta0)
+4. [https://www.youtube.com/watch?v=iMtXqTmfta0](https://www.youtube.com/watch?v=iMtXqTmfta0)
 5. [https://en.wikipedia.org/wiki/Self-cleaning_surfaces](https://en.wikipedia.org/wiki/Self-cleaning_surfaces)
 6. [https://en.wikipedia.org/wiki/Eastgate_Centre,_Harare](https://en.wikipedia.org/wiki/Eastgate_Centre,_Harare)

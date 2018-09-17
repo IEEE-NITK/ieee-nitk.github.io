@@ -32,11 +32,11 @@ A ferro-fluid is basically a colloidal sol , made up of 3 components which are, 
 
 What&#39;s special about this fluid is that it gets strongly magnetized in the presence of a magnetic field , because of the ferromagnetic nanoparticles of course. This liquid can be moved around without using a fluid pump of any sort but by a magnetic field alone.
 
- ![](https://upload.wikimedia.org/wikipedia/commons/2/21/Ferrofluid_Magnet_under_glass_edit.jpg "ferro-fluid")
+ ![ferro-fluid](https://upload.wikimedia.org/wikipedia/commons/2/21/Ferrofluid_Magnet_under_glass_edit.jpg "ferro-fluid")
 
 _Ferro-fluid in presence of a magnetic field_
 
- ![](https://xmdemo.files.wordpress.com/2014/03/0magnetfeld_eines_stabmagneten_006.jpg "lines of force")
+ ![lines of force](https://xmdemo.files.wordpress.com/2014/03/0magnetfeld_eines_stabmagneten_006.jpg "lines of force")
 
 _The magnetic lines of force around a bar magnet_
 
@@ -62,7 +62,7 @@ Research is being done on this and it has been only used on mice until now. This
 
 This creepy looking material maybe having marvelous potential , but watching it is surely a feast for the eyes :)
 
- ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpLSWrBMl2_JKdWmj4mAYUr-pZvyfCZS_eMtiO-qKLNm_wBPtN "magnetoserum")
+ ![magnetoserum](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpLSWrBMl2_JKdWmj4mAYUr-pZvyfCZS_eMtiO-qKLNm_wBPtN "magnetoserum")
 
 Check it out yourself :
 
