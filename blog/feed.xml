@@ -5,9 +5,63 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Sep 2018 22:06:51 +0530</pubDate>
-    <lastBuildDate>Tue, 11 Sep 2018 22:06:51 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Tue, 18 Sep 2018 01:13:08 +0530</pubDate>
+    <lastBuildDate>Tue, 18 Sep 2018 01:13:08 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Nanoparticle-Wonder Liquid</title>
+        <description>&lt;h1 id=&quot;magneto-serum&quot;&gt;Magneto Serum&lt;/h1&gt; &lt;p&gt;A potential panacea&lt;/p&gt; &lt;p&gt;Though the name sounds very cool and straight out of a science-fiction franchise , what I'm referring to is actually called a ferro-fluid , but make no mistake , this liquid's abilities are very near sci-fi.&lt;/p&gt; &lt;p&gt;A ferro-fluid is basically a colloidal sol , made up of 3 components which are, nano-sized particles of a ferromagnetic substance like haematite or magnetite, a liquid dispersion medium and a surfactant ( citric acid for example) which prevents the nanoparticles from clumping together and depositing .&lt;/p&gt; &lt;p&gt;What's special about this fluid is that it gets strongly magnetized...</description>
+        <pubDate>Sun, 16 Sep 2018 05:00:33 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/nanoparticle-wonder-liquid/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanoparticle-wonder-liquid/</guid>
+        
+        <category>nanotechnology</category>
+        
+        <category>nanomedicine</category>
+        
+        <category>magnetoserum</category>
+        
+        <category>panacea</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Cloud Computing</title>
+        <description>&lt;p&gt;&lt;sub&gt;You are probably using cloud computing right now, even if you don’t realise it. If you use an online service to send an email, edit documents, watch movies or TV, listen to music, play games or store pictures and other files, it is likely that cloud computing is making it all possible behind the scenes. The first cloud computing services are barely a decade old, but already a variety of organisations, from tiny start-ups to global corporations, government agencies to non-profits, are embracing the technology for all sorts of reasons. &lt;/sub&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-cloud-computing&quot;&gt;What is Cloud Computing?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/cloud-computing/Cloud_Comp.png&quot; alt=&quot;Cloud Comp&quot;...</description>
+        <pubDate>Sun, 16 Sep 2018 05:00:33 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/cloud-computing/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/cloud-computing/</guid>
+        
+        <category>Cloud</category>
+        
+        <category>Computing</category>
+        
+        <category>Future</category>
+        
+        <category>AWS</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Biomicry: Creating A Truly Sustainable Environment</title>
+        <description>&lt;h1 id=&quot;biomimicry&quot;&gt;BIOMIMICRY&lt;/h1&gt; &lt;p&gt;What is something that is common between the bullet train , self cooling houses , super strong adhesives and turbine blades. Well it turns out they are all inspired by nature is profound ways to optimise favourable characteristics and reduce unfavourable one. Yes! All these products have incorporated within themselves ideas inspired from nature to solve tricky problems in our world by a process called as biomimicry . Interested to know more about Biomimicry , stick on.&lt;/p&gt; &lt;h2 id=&quot;what-is-biomimicrybiomimetic&quot;&gt;What is biomimicry/biomimetic&lt;/h2&gt; &lt;p&gt;Biomimicry is a process in which systems , products , designs are modeled based on the /adapted...</description>
+        <pubDate>Sat, 15 Sep 2018 22:00:33 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/biomicry-creating-a-truly-sustainable-environment/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/biomicry-creating-a-truly-sustainable-environment/</guid>
+        
+        <category>Biomicry</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>BIO(logy and electro)NICS</title>
@@ -16,11 +70,11 @@
         <link>http://ieee.nitk.ac.in/blog/bionics/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/bionics/</guid>
         
-        <category>biology</category>
+        <category>Biology</category>
         
-        <category>electronics</category>
+        <category>Electronics</category>
         
-        <category>bionics</category>
+        <category>Bionics</category>
         
         
         <category>Diode</category>
@@ -106,7 +160,7 @@
         
         <category>ATP</category>
         
-        <category>Biilogy</category>
+        <category>Biology</category>
         
         
         <category>Piston</category>
@@ -123,63 +177,7 @@
         <category>heavy electronics</category>
         
         
-        <category>CAS/SPS</category>
-        
-      </item>
-    
-      <item>
-        <title>Chain of Things</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won’t even sense it. It will be part of your presence all the time.”&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;These words, spoken in the World Economic Forum in 2015 by Google’s then Chairman Eric Schmidt, are quickly proving to be true. From smart homes to smart citites, the &lt;strong&gt;Internet of Things&lt;/strong&gt; is everywhere. The number of connected devices has grown by a whopping 31% over the last year. However, all this data is present on...</description>
-        <pubDate>Sun, 10 Jun 2018 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/chain-of-things/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/chain-of-things/</guid>
-        
-        <category>blockchain</category>
-        
-        <category>IoT</category>
-        
-        
-        <category>CAS/SPS</category>
-        
-      </item>
-    
-      <item>
-        <title>Diving into and Exploiting the Heap</title>
-        <description>&lt;p&gt;At the physical level, computer memory consists of a large number of flip flops. Each flip flop consists of a few transistors, and is capable of storing one bit. Individual flip flops are addressable by a unique identifier, so we can read and overwrite them. Thus, conceptually, we can think of all of our computer’s memory as just one giant array of bits that we can read and write.&lt;/p&gt; &lt;p&gt;Since as humans, we are not that good at doing all of our thinking and arithmetic in bits, we group them into larger groups, which together can be used to represent...</description>
-        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/heap_exploitation/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/heap_exploitation/</guid>
-        
-        <category>heap</category>
-        
-        <category>exploitation</category>
-        
-        <category>memory</category>
-        
-        <category>allocation</category>
-        
-        <category>CompSoc</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Computational Approaches of Shock Waves</title>
-        <description>&lt;p&gt;In this article I would like to discuss the two different CFD approaches while solving for flows involving shock waves.&lt;/p&gt; &lt;p&gt;In flow fields involving shock waves there is a sharp discontinuous change in the flow variables like pressure, density, temperature, etc. across the shock. The first approach is to have the shock wave appear naturally in the computational domain as a direct solution of the governing equations. This is called the &lt;em&gt;shock capturing method.&lt;/em&gt; The second approach is to explicitly introduce the shock wave into the flow and then solve the governing equations for the rest of the domain (between...</description>
-        <pubDate>Wed, 06 Jun 2018 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/computational-approaches-of-shock-waves/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/computational-approaches-of-shock-waves/</guid>
-        
-        <category>Piston</category>
-        
-        <category>Shock Waves</category>
-        
-        <category>CFD</category>
-        
-        
-        <category>Piston</category>
+        <category>Diode</category>
         
       </item>
     

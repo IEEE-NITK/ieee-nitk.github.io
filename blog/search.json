@@ -1,9 +1,36 @@
 [
   
     {
+      "title"    : "Nanoparticle-Wonder Liquid",
+      "category" : "Diode",
+      "tags"     : "nanotechnology, nanomedicine, magnetoserum, and panacea",
+      "url"      : "http://ieee.nitk.ac.in/blog//nanoparticle-wonder-liquid/",
+      "date"     : "16 Sep 2018",
+      "author"   : "Rohit Manohar Kulkarni"
+    } ,
+  
+    {
+      "title"    : "Cloud Computing",
+      "category" : "CompSoc",
+      "tags"     : "Cloud, Computing, Future, and AWS",
+      "url"      : "http://ieee.nitk.ac.in/blog//cloud-computing/",
+      "date"     : "16 Sep 2018",
+      "author"   : "Saurabh Agarwala"
+    } ,
+  
+    {
+      "title"    : "Biomicry: Creating A Truly Sustainable Environment",
+      "category" : "Piston",
+      "tags"     : "Biomicry",
+      "url"      : "http://ieee.nitk.ac.in/blog//biomicry-creating-a-truly-sustainable-environment/",
+      "date"     : "15 Sep 2018",
+      "author"   : "KushagraRawat"
+    } ,
+  
+    {
       "title"    : "BIO(logy and electro)NICS",
       "category" : "Diode",
-      "tags"     : "biology, electronics, and bionics",
+      "tags"     : "Biology, Electronics, and Bionics",
       "url"      : "http://ieee.nitk.ac.in/blog//bionics/",
       "date"     : "09 Sep 2018",
       "author"   : "Anirudh Ashok Aatresh"
@@ -48,7 +75,7 @@
     {
       "title"    : "Nanomotors",
       "category" : "Piston",
-      "tags"     : "Nanotechnology, Nano motors, Motors, ATP, and Biilogy",
+      "tags"     : "Nanotechnology, Nano motors, Motors, ATP, and Biology",
       "url"      : "http://ieee.nitk.ac.in/blog//nanomotors/",
       "date"     : "18 Jun 2018",
       "author"   : "Sanath K."
@@ -56,7 +83,7 @@
   
     {
       "title"    : "Earthing Systems",
-      "category" : "CAS/SPS",
+      "category" : "Diode",
       "tags"     : "heavy electronics",
       "url"      : "http://ieee.nitk.ac.in/blog//earthing-systems/",
       "date"     : "17 Jun 2018",
@@ -75,7 +102,7 @@
     {
       "title"    : "Diving into and Exploiting the Heap",
       "category" : "Compsoc",
-      "tags"     : "heap, exploitation, memory, allocation, and CompSoc",
+      "tags"     : "heap, exploitation, memory, and allocation",
       "url"      : "http://ieee.nitk.ac.in/blog//heap_exploitation/",
       "date"     : "06 Jun 2018",
       "author"   : "Suraj Singh"
