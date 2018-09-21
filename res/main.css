@@ -862,6 +862,93 @@ footer .offline {
     transition-delay: 0.7s!important; 
 }
 
+/* Publications */
+
+.publications {
+    background-color: rgb(219, 216, 209);
+}
+
+.publications .wrapper {
+    padding:5vh;
+    height: 100vh!important;
+}
+
+.publications h1 {
+    text-align: center;
+    font-size: 3em;
+    padding:2vh;
+}
+
+.publications h4 {
+    text-align: center;
+    font-size: 1.5em;
+    padding:2.5vh;
+}
+
+.title_centerp.teco {
+    margin-top: 10vh;
+}
+
+.publications ul {
+    list-style-type: none;
+    text-align: center;
+}
+.publications li{
+    padding:10px;
+    margin-top: 50px;
+    opacity: 0;
+    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+
+}
+
+.list_showp li{
+    margin-top: 0px;
+    opacity: 1;
+    transition: 1.2s all cubic-bezier(0.87, -0.01, 0.03, 0.97);
+
+}
+.plist2 {
+    transition-delay: 0.10s!important;
+}
+
+.plist3 {
+    transition-delay: 0.2s!important;
+}
+
+.plist4 {
+    transition-delay: 0.3s!important;
+}
+
+.plist5{
+    transition-delay: 0.4s!important; 
+}
+
+.plist6{
+    transition-delay: 0.5s!important; 
+}
+
+.plist7{
+    transition-delay: 0.6s!important; 
+}
+
+.plist8{
+    transition-delay: 0.7s!important; 
+}
+.plist9{
+    transition-delay: 0.8s!important; 
+}
+
+.plist10{
+    transition-delay: 0.9s!important; 
+}
+
+.plist11{
+    transition-delay: 1.0s!important; 
+}
+
+.plist12{
+    transition-delay: 1.1s!important; 
+}
 
 /* Mobile phones */
 
