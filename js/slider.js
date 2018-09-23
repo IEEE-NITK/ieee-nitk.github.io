@@ -56,7 +56,7 @@ $(document).ready(function() {
     //The fullpage initialisation
 
     $("#fullpage").fullpage({
-        anchors: ['home', 'about', 'sigs', 'events', 'team', 'achievements', 'footer'],
+        anchors: ['home', 'about', 'sigs', 'events', 'team', 'achievements','publications', 'footer'],
         menu: "#menu",
         afterLoad: function(anchorLink, index) {
             $(".section:nth-of-type(" + index + ") .fly_up").animate({
@@ -71,10 +71,12 @@ $(document).ready(function() {
             });
             if(index == 6)
                 $(".achievements ul").addClass("list_show");
+            if(index == 7)
+                $(".publications ul").addClass("list_showp");
         },
         onLeave: function(index, nextIndex) {
             /* Animating the footer */
-            if (index == 6 && nextIndex == 7)
+            if (index == 7 && nextIndex == 8)
                 $('.icon').addClass('icon_show');
             else
                 $('.icon').removeClass('icon_show');
