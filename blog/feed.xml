@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Sep 2018 01:13:08 +0530</pubDate>
-    <lastBuildDate>Tue, 18 Sep 2018 01:13:08 +0530</lastBuildDate>
+    <pubDate>Sat, 06 Oct 2018 23:52:17 +0530</pubDate>
+    <lastBuildDate>Sat, 06 Oct 2018 23:52:17 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Segment Trees</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;Segment trees are extensivly used in competitive programming for problems that invlove range queries and range updates.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;For example, given an array A of N elements, answer Q queries (of two types):&lt;/p&gt; &lt;p&gt;1 L R : output the sum of elements between L and R&lt;br /&gt; 2 x I : A[I] = x&lt;/p&gt; &lt;p&gt;A similar version of the above problem for minimum(i.e. to find the minimum between L and R) is famously known as Range Minimum Query. These problems can be easily solved with segment trees.&lt;/p&gt; &lt;h2 id=&quot;naive-approach&quot;&gt;Naive Approach&lt;/h2&gt; &lt;p&gt;A naive approach would be to answer...</description>
+        <pubDate>Sun, 07 Oct 2018 04:25:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/segment-tree/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/segment-tree/</guid>
+        
+        <category>Competitive Programming</category>
+        
+        <category>Segment Trees</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Nanoparticle-Wonder Liquid</title>
@@ -164,20 +180,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Earthing Systems</title>
-        <description>&lt;p&gt;Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image001.jpg&quot; alt=&quot;image001&quot; /&gt;&lt;/p&gt; &lt;p&gt;To avoid this, metal casing of all electrical appliances are earthed.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/earthing-systems/image002.jpg&quot; alt=&quot;image002&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-an-earthing-system&quot;&gt;What is an earthing system?&lt;/h2&gt; &lt;p&gt;The connection between electrical appliances and devices with the earth plate or electrode through a thick wire of low resistance to provide safety is known...</description>
-        <pubDate>Sun, 17 Jun 2018 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/earthing-systems/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/earthing-systems/</guid>
-        
-        <category>heavy electronics</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     

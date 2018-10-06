@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Segment Trees",
+      "category" : "CompSoc",
+      "tags"     : "Competitive Programming and Segment Trees",
+      "url"      : "http://ieee.nitk.ac.in/blog//segment-tree/",
+      "date"     : "07 Oct 2018",
+      "author"   : "Shantanu S Rai"
+    } ,
+  
+    {
       "title"    : "Nanoparticle-Wonder Liquid",
       "category" : "Diode",
       "tags"     : "nanotechnology, nanomedicine, magnetoserum, and panacea",
