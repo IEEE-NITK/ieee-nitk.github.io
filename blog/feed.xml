@@ -5,9 +5,29 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Oct 2018 23:52:17 +0530</pubDate>
-    <lastBuildDate>Sat, 06 Oct 2018 23:52:17 +0530</lastBuildDate>
+    <pubDate>Sun, 07 Oct 2018 15:04:26 +0530</pubDate>
+    <lastBuildDate>Sun, 07 Oct 2018 15:04:26 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Avionics</title>
+        <description>&lt;h1 id=&quot;avionics&quot;&gt;Avionics&lt;/h1&gt; &lt;p&gt;What are Avionics? The merging of the words aviation and electronics, Avionics are all of the electronic devices and systems which perform individualized functions, used on any aircraft. Whether it is a military standard drone or a small hobby craft, it contains many electronic components which together achieve controlled flight. In this blog I’m going to talk mainly on the electronics aspect of the equipment used in small scale aircraft and drones.&lt;/p&gt; &lt;h1 id=&quot;accelerometer&quot;&gt;Accelerometer&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;http://www.instrumentationtoday.com/wp-content/uploads/2011/08/Piezoelectric-Accelerometer.jpg&quot; alt=&quot;Accelerometer&quot; title=&quot;Accelerometer&quot; /&gt; &lt;br /&gt; &lt;img src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNdU6GR0k3ENULIi09OoKMBdnHKRmJPCIoq_Iv3aClb63za9m&quot; alt=&quot;Accelometer IC&quot; title=&quot;Accelerometer IC&quot; /&gt;&lt;/p&gt; &lt;p&gt;An accelerometer is a transducer that is used to measure...</description>
+        <pubDate>Sun, 07 Oct 2018 19:57:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/avionics/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/avionics/</guid>
+        
+        <category>drone</category>
+        
+        <category>hobbycraft</category>
+        
+        <category>avionics</category>
+        
+        <category>flight control</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>Segment Trees</title>
@@ -158,28 +178,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Nanomotors</title>
-        <description>&lt;p&gt;﻿Nanotechnology was regarded to be the technology of the future. Well, the future has come. Its no more the technology of the future. Scientists and engineers have become increasingly good at designing and engineering materials down at the level of atoms and molecules. Nanotechnology is the manipulation of matter at nanoscale which is about 1-100 nanometres. Its well known that everything in this universe is made out of atoms and it’s the atoms and the arrangement of these atoms that dictate the characteristics. Two wheels and a handle, although are said to make a bicycle, it’s called a bicycle only...</description>
-        <pubDate>Mon, 18 Jun 2018 21:55:03 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/nanomotors/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanomotors/</guid>
-        
-        <category>Nanotechnology</category>
-        
-        <category>Nano motors</category>
-        
-        <category>Motors</category>
-        
-        <category>ATP</category>
-        
-        <category>Biology</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Avionics",
+      "category" : "Diode",
+      "tags"     : "drone, hobbycraft, avionics, and flight control",
+      "url"      : "http://ieee.nitk.ac.in/blog//avionics/",
+      "date"     : "07 Oct 2018",
+      "author"   : "Chethan M"
+    } ,
+  
+    {
       "title"    : "Segment Trees",
       "category" : "CompSoc",
       "tags"     : "Competitive Programming and Segment Trees",
