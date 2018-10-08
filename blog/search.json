@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Phase Change Material",
+      "category" : "Piston",
+      "tags"     : "future, storage device, and material",
+      "url"      : "http://ieee.nitk.ac.in/blog//phase-change-material/",
+      "date"     : "08 Oct 2018",
+      "author"   : "Anurag P K"
+    } ,
+  
+    {
+      "title"    : "Avionics",
+      "category" : "Diode",
+      "tags"     : "drone, hobbycraft, avionics, and flight control",
+      "url"      : "http://ieee.nitk.ac.in/blog//avionics/",
+      "date"     : "07 Oct 2018",
+      "author"   : "Chethan M"
+    } ,
+  
+    {
+      "title"    : "Segment Trees",
+      "category" : "CompSoc",
+      "tags"     : "Competitive Programming and Segment Trees",
+      "url"      : "http://ieee.nitk.ac.in/blog//segment-tree/",
+      "date"     : "07 Oct 2018",
+      "author"   : "Shantanu S Rai"
+    } ,
+  
+    {
       "title"    : "Nanoparticle-Wonder Liquid",
       "category" : "Diode",
       "tags"     : "nanotechnology, nanomedicine, magnetoserum, and panacea",
