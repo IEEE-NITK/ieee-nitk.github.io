@@ -9,7 +9,7 @@ tags:
 - Game Theory
 - Strategy
 categories:
-- CAS
+- Diode
 github_username: 'sssachin300'
 ---
 
@@ -19,8 +19,7 @@ Now the situation changes entirely when you introduce a third party in the game 
 
 One strategy would be to play rock all the time and tell this to them. If the other two play rock, then it is a draw. If one of them plays scissors, then they lose to the rock. If they play paper, then there's always a chance that the other plays scissors and wins but in turn the other player would lose to the rock. This makes it obvious that there is no way for one to beat both you and the other person at the same time.
 
-This is what **game theory** is all about. Popularized by Nobel laureate **John Nash** (notice the name of the article 😉) game theory deals with forming strategies to get the best possible moves you can make without ignoring the self-interests that human beings have. Despite its name it not only deals with games but with any form of strategic decision making including politics, defence, economics, trade, traffic control etc.
-
+This is what **Game Theory** is all about. Popularized by Nobel laureate **John Nash** (notice the name of the article 😉) game theory deals with forming strategies to get the best possible moves you can make without ignoring the self-interests that human beings have. Despite its name it not only deals with games but with any form of strategic decision making including politics, defence, economics, trade, traffic control etc.
 
 ## A look at a real world problem 
 
@@ -36,7 +35,7 @@ There is, in fact, a way out of this pickle. Pick a random amount of time (say t
 
 Mathematicians have shown that if everyone adopted this strategy we would achieve an equilibrium state with both lanes having the same speed. Though this may not suit your individual preference (you would rather have the entire lane or even all the lanes to yourself) this is the best we can do while being fair to everyone.
 
-The problem here is, of course, that it requires everyone on the road to have read game theory 😊.
+The problem here is, of course, that it requires everyone on the road to have read game theory.
 
 ### References
 

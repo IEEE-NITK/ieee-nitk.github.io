@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Water Memory What A Memory"
+title: "Water Memory, What A Memory"
 author_github: ayush9753
 date: 2017-09-11 10:00:00'
 image: '/assets/img/'
@@ -8,7 +8,7 @@ description: 'Know about this very new form of memory-the water memory concept a
 tags:
 - Water Memory
 categories:
-- CAS
+- Diode
 github_username: 'ayush9753'
 ---
 
