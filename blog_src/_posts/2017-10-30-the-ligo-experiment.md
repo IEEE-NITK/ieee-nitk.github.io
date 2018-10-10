@@ -8,7 +8,7 @@ description: 'Every flight begins with a fall'
 tags:
 - LIGO
 categories:
-- CAS
+- Diode
 github_username: 'meghbhalerao'
 ---
 

@@ -8,10 +8,10 @@ tags:
 - blockchain
 - IoT
 categories:
-- CAS/SPS
+- Diode
 github_username: 'mehakarora'
 ---
->“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won't even sense it. It will be part of your presence all the time.”
+> “The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won't even sense it. It will be part of your presence all the time.”
 
 These words, spoken in the World Economic Forum in 2015 by Google’s then Chairman Eric Schmidt, are quickly proving to be true. From smart homes to smart citites, the **Internet of Things** is everywhere. The number of connected devices has grown by a whopping 31% over the last year. However, all this data is present on a very hackable internet, and this poses an ever increasing security and privacy threat.
 
