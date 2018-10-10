@@ -3,7 +3,7 @@
     {
       "title"    : "Phase Change Material",
       "category" : "Piston",
-      "tags"     : "future, storage device, and material",
+      "tags"     : "Storage Device and Material",
       "url"      : "http://ieee.nitk.ac.in/blog//phase-change-material/",
       "date"     : "08 Oct 2018",
       "author"   : "Anurag P K"
@@ -12,7 +12,7 @@
     {
       "title"    : "Avionics",
       "category" : "Diode",
-      "tags"     : "drone, hobbycraft, avionics, and flight control",
+      "tags"     : "Drone, Hobbycraft, Avionics, and Flight Control",
       "url"      : "http://ieee.nitk.ac.in/blog//avionics/",
       "date"     : "07 Oct 2018",
       "author"   : "Chethan M"
@@ -39,7 +39,7 @@
     {
       "title"    : "Cloud Computing",
       "category" : "CompSoc",
-      "tags"     : "Cloud, Computing, Future, and AWS",
+      "tags"     : "Cloud Computing and AWS",
       "url"      : "http://ieee.nitk.ac.in/blog//cloud-computing/",
       "date"     : "16 Sep 2018",
       "author"   : "Saurabh Agarwala"

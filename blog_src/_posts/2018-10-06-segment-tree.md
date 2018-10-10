@@ -12,9 +12,10 @@ categories:
 - CompSoc
 github_username: 'shanthanu9'
 ---
+
 ## Introduction
 
->Segment trees are extensivly used in competitive programming for problems that invlove range queries and range updates. 
+> Segment trees are extensivly used in competitive programming for problems that invlove range queries and range updates. 
 
 For example, given an array A of N elements, answer Q queries (of two types):
 
@@ -128,13 +129,12 @@ This can be done by traversing the segment tree.
 
 Following the algorithm we use for range query: 
 
->Range_Query(node, L, R)
+> Range_Query(node, L, R)
 >
->(Let start and end be the extremes of the segment for which sum is stored in “node”)	  
+> (Let start and end be the extremes of the segment for which sum is stored in “node”)	  
 >    1. If start >= L and end <= R, then sum of “node” contains a part of the required sum. So we return sum stored in node. 
 >    2. If start > R or end < L, then it means the required sum A[L – R] is not present in that node or it’s child nodes(if it exists). In this case, return 0.
->    3. Else a part of the required sum A[L – R] is present in the node. So, we need to how much “node” contributes to A[L – R]. For this, we recursively call Range_Query for left and right child. i.e.
-           return Range_Query(left child of node, L, R) + Range_Query(right child of node, L, R)
+>    3. Else a part of the required sum A[L – R] is present in the node. So, we need to how much “node” contributes to A[L – R]. For this, we recursively call Range_Query for left and right child. i.e. return Range_Query(left child of node, L, R) + Range_Query(right child of node, L, R)
 
 We get the required output by calling Range_Query(root, L, R).
 
@@ -158,7 +158,6 @@ int query(int node, int start, int end, int l, int r) {
 ```
 
 In conclusion the query works by dividing the input segment into several sub-segments for which all the sums are already precomputed and stored in the tree. And if we stop partitioning whenever the query segment coincides with the vertex segment, then we only need O(logn) such segments, which gives the effectiveness of the Segment Tree.
-
 
 ## Point Updates:
 
@@ -190,7 +189,6 @@ void update(int node, int start, int end, int idx, int val) {
 }
 ```
 
-
 ## Note on implementation:
 
 You can use the following functions as helper fuctions(for ease of use):
@@ -213,7 +211,7 @@ int query(int l, int r) {
 
 ## More examples:
 
->1. Given an array of N numbers and Q queries, each query consists of L and R. We need to write a program that prints the number of occurrence of the smallest element in the range L-R. 
+> 1. Given an array of N numbers and Q queries, each query consists of L and R. We need to write a program that prints the number of occurrence of the smallest element in the range L-R. 
 
 This is similar to range query except that it asks for number of minimum elements in the given range.
 
@@ -234,7 +232,8 @@ node.min=min(right_subtree), node.count=right_subtree.count
 node.min=min(left_subtree) or min(right_subtree), node.count=left_subtree.count + right_subtree.count
 
 Implementation: [https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/](https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/)
->2. Given N numbers and Q queries, each query consists of L and R. Task is to write a program which prints the count of numbers which divides all numbers in the given range L-R.
+
+> 2. Given N numbers and Q queries, each query consists of L and R. Task is to write a program which prints the count of numbers which divides all numbers in the given range L-R.
 
 This is a slightly harder problem. The point to note for such problems is that everything boils down to the merging step. If we are able to define contents of each node in the segment tree and are able to get a way to merge two child nodes to return required answer(or update parent), then we are done.
 
@@ -242,8 +241,9 @@ Here, note that the number that divides all elements in a segment should be the 
 
 So the count of the number of minimums in range L-R, given that minimum is equal to the gcd of that range will be our answer to every query. The problem boils down to finding the GCD, MINIMUM and count of MINIMUM for every range using Segment trees. On every node of the tree, three values are stored. 
 On querying for a given range, if the gcd and minimum of the given range are equal, countMINIMUM is returned as the answer. If they are unequal, 0 is returned as the answer.
-Implemenation: [https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/](https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/)
 
+## Implemenation: 
+* [https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/](https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/)
 
 
 **Bonus**: Check out two dimensional segment trees if you are interested: [https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/](https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/)
@@ -252,7 +252,10 @@ Implemenation: [https://www.geeksforgeeks.org/count-elements-which-divide-all-nu
 
 This article is supposed to be an introduction to Segment Trees. If you feel comfortable with the contents of the article, then do check out lazy propagation on segment trees. (this allows you to perform range queries and range updates on the segment tree)
 
-References:  
-[https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html)  
-[https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)  
-[https://visualgo.net/en/segmenttree](https://visualgo.net/en/segmenttree)
+## References:  
+
+* [https://cp-algorithms.com/data_structures/segment_tree.html](https://cp-algorithms.com/data_structures/segment_tree.html)  
+
+* [https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)  
+
+* [https://visualgo.net/en/segmenttree](https://visualgo.net/en/segmenttree)

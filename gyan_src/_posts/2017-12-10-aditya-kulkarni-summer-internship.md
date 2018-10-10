@@ -13,7 +13,7 @@ github_username: 'aditya-kulkarni'
 comments: true
 ---
 
-My research interests include Analog/ Digital VLSI, Analog System Design and Communication Circuits.
+> My research interests include Analog/ Digital VLSI, Analog System Design and Communication Circuits.
 
 ## Where did you get your internship and why did you apply there? 
 ### What interested you or attracted you to this particular internship and why?

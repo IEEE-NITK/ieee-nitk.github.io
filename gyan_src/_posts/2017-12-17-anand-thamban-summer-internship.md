@@ -13,7 +13,7 @@ github_username: 'anand-thamban'
 comments: true
 ---
 
-My research interests include Fluid mechanics, Wind energy and Heat Transfer. Areas I've worked on are: Energy Harvesting form wind turbines, performance enhancement of hydro-kinetic turbine hydrofoils, and condensation on super hydrophobic heat exchangers.
+> My research interests include Fluid mechanics, Wind energy and Heat Transfer. Areas I've worked on are: Energy Harvesting form wind turbines, performance enhancement of hydro-kinetic turbine hydrofoils, and condensation on super hydrophobic heat exchangers.
 
 ## Where did you get your internship and why did you apply there? 
 ### What interested you or attracted you to this particular internship and why?

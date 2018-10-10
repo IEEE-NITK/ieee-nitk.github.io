@@ -5,22 +5,20 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Oct 2018 20:46:09 +0530</pubDate>
-    <lastBuildDate>Sun, 07 Oct 2018 20:46:09 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Wed, 10 Oct 2018 13:30:35 +0530</pubDate>
+    <lastBuildDate>Wed, 10 Oct 2018 13:30:35 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
     
       <item>
         <title>Phase Change Material</title>
-        <description>&lt;h1 id=&quot;what-is-a-phase-change-material&quot;&gt;What is a Phase Change Material?&lt;/h1&gt; &lt;p&gt;A Phase Change Material (PCM) is a substance with a high heat of fusion which, on melting and solidifying at a certain temperature, is capable of storing and releasing large amounts of energy. In the most basic terms, a PCM is a substance which can store and release large amounts of energy, typically in the form of heat. Although phase changes can occur among any combination of the three phases of a substance - gas, liquid, or solid - the most commercially viable transition is between the liquid and solid phases.&lt;/p&gt; &lt;h1 id=&quot;working-of-a-pcm&quot;&gt;Working...</description>
+        <description>&lt;p&gt;A Phase Change Material (PCM) is a substance with a high heat of fusion which, on melting and solidifying at a certain temperature, is capable of storing and releasing large amounts of energy. In the most basic terms, a PCM is a substance which can store and release large amounts of energy, typically in the form of heat. Although phase changes can occur among any combination of the three phases of a substance - gas, liquid, or solid - the most commercially viable transition is between the liquid and solid phases.&lt;/p&gt; &lt;h2 id=&quot;working-of-a-pcm&quot;&gt;Working of a PCM&lt;/h2&gt; &lt;p&gt;A PCM in its’...</description>
         <pubDate>Mon, 08 Oct 2018 02:05:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/phase-change-material/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/phase-change-material/</guid>
         
-        <category>future</category>
+        <category>Storage Device</category>
         
-        <category>storage device</category>
-        
-        <category>material</category>
+        <category>Material</category>
         
         
         <category>Piston</category>
@@ -29,18 +27,18 @@
     
       <item>
         <title>Avionics</title>
-        <description>&lt;h1 id=&quot;avionics&quot;&gt;Avionics&lt;/h1&gt; &lt;p&gt;What are Avionics? The merging of the words aviation and electronics, Avionics are all of the electronic devices and systems which perform individualized functions, used on any aircraft. Whether it is a military standard drone or a small hobby craft, it contains many electronic components which together achieve controlled flight. In this blog I’m going to talk mainly on the electronics aspect of the equipment used in small scale aircraft and drones.&lt;/p&gt; &lt;h1 id=&quot;accelerometer&quot;&gt;Accelerometer&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/avionics/Accelerometer.jpg&quot; alt=&quot;Accelerometer&quot; /&gt; &lt;br /&gt; &lt;img src=&quot;/blog/assets/img/avionics/AccelerometerIC.jpeg&quot; alt=&quot;Accelometer IC&quot; /&gt;&lt;/p&gt; &lt;p&gt;An accelerometer is a transducer that is used to measure the physical or...</description>
+        <description>&lt;p&gt;The merging of the words aviation and electronics, Avionics are all of the electronic devices and systems which perform individualized functions, used on any aircraft. Whether it is a military standard drone or a small hobby craft, it contains many electronic components which together achieve controlled flight. In this blog I’m going to talk mainly on the electronics aspect of the equipment used in small scale aircraft and drones.&lt;/p&gt; &lt;h2 id=&quot;accelerometer&quot;&gt;Accelerometer&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/avionics/Accelerometer.jpg&quot; alt=&quot;Accelerometer&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/avionics/AccelerometerIC.jpeg&quot; alt=&quot;Accelometer IC&quot; /&gt;&lt;/p&gt; &lt;p&gt;An accelerometer is a transducer that is used to measure the physical or measurable acceleration that is made by an...</description>
         <pubDate>Sun, 07 Oct 2018 19:57:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/avionics/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/avionics/</guid>
         
-        <category>drone</category>
+        <category>Drone</category>
         
-        <category>hobbycraft</category>
+        <category>Hobbycraft</category>
         
-        <category>avionics</category>
+        <category>Avionics</category>
         
-        <category>flight control</category>
+        <category>Flight Control</category>
         
         
         <category>Diode</category>
@@ -65,7 +63,7 @@
     
       <item>
         <title>Nanoparticle-Wonder Liquid</title>
-        <description>&lt;h1 id=&quot;magneto-serum&quot;&gt;Magneto Serum&lt;/h1&gt; &lt;p&gt;A potential panacea&lt;/p&gt; &lt;p&gt;Though the name sounds very cool and straight out of a science-fiction franchise , what I'm referring to is actually called a ferro-fluid , but make no mistake , this liquid's abilities are very near sci-fi.&lt;/p&gt; &lt;p&gt;A ferro-fluid is basically a colloidal sol , made up of 3 components which are, nano-sized particles of a ferromagnetic substance like haematite or magnetite, a liquid dispersion medium and a surfactant ( citric acid for example) which prevents the nanoparticles from clumping together and depositing .&lt;/p&gt; &lt;p&gt;What's special about this fluid is that it gets strongly magnetized...</description>
+        <description>&lt;h2 id=&quot;magneto-serum---a-potential-panacea&quot;&gt;Magneto Serum - A potential panacea&lt;/h2&gt; &lt;p&gt;Though the name sounds very cool and straight out of a science-fiction franchise , what I’m referring to is actually called a ferro-fluid , but make no mistake , this liquid’s abilities are very near sci-fi.&lt;/p&gt; &lt;p&gt;A ferro-fluid is basically a colloidal sol , made up of 3 components which are, nano-sized particles of a ferromagnetic substance like haematite or magnetite, a liquid dispersion medium and a surfactant ( citric acid for example) which prevents the nanoparticles from clumping together and depositing .&lt;/p&gt; &lt;p&gt;What’s special about this fluid is that it gets strongly...</description>
         <pubDate>Sun, 16 Sep 2018 05:00:33 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/nanoparticle-wonder-liquid/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanoparticle-wonder-liquid/</guid>
@@ -85,16 +83,12 @@
     
       <item>
         <title>Cloud Computing</title>
-        <description>&lt;p&gt;&lt;sub&gt;You are probably using cloud computing right now, even if you don’t realise it. If you use an online service to send an email, edit documents, watch movies or TV, listen to music, play games or store pictures and other files, it is likely that cloud computing is making it all possible behind the scenes. The first cloud computing services are barely a decade old, but already a variety of organisations, from tiny start-ups to global corporations, government agencies to non-profits, are embracing the technology for all sorts of reasons. &lt;/sub&gt;&lt;/p&gt; &lt;h2 id=&quot;what-is-cloud-computing&quot;&gt;What is Cloud Computing?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/cloud-computing/Cloud_Comp.png&quot; alt=&quot;Cloud Comp&quot;...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;You are probably using cloud computing right now, even if you don’t realise it. If you use an online service to send an email, edit documents, watch movies or TV, listen to music, play games or store pictures and other files, it is likely that cloud computing is making it all possible behind the scenes.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The first cloud computing services are barely a decade old, but already a variety of organisations, from tiny start-ups to global corporations, government agencies to non-profits, are embracing the technology for all sorts of reasons.&lt;/p&gt; &lt;h2 id=&quot;what-is-cloud-computing&quot;&gt;What is Cloud Computing?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/cloud-computing/Cloud_Comp.png&quot; alt=&quot;Cloud...</description>
         <pubDate>Sun, 16 Sep 2018 05:00:33 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/cloud-computing/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/cloud-computing/</guid>
         
-        <category>Cloud</category>
-        
-        <category>Computing</category>
-        
-        <category>Future</category>
+        <category>Cloud Computing</category>
         
         <category>AWS</category>
         
@@ -105,7 +99,7 @@
     
       <item>
         <title>Biomicry: Creating A Truly Sustainable Environment</title>
-        <description>&lt;h1 id=&quot;biomimicry&quot;&gt;BIOMIMICRY&lt;/h1&gt; &lt;p&gt;What is something that is common between the bullet train , self cooling houses , super strong adhesives and turbine blades. Well it turns out they are all inspired by nature is profound ways to optimise favourable characteristics and reduce unfavourable one. Yes! All these products have incorporated within themselves ideas inspired from nature to solve tricky problems in our world by a process called as biomimicry . Interested to know more about Biomimicry , stick on.&lt;/p&gt; &lt;h2 id=&quot;what-is-biomimicrybiomimetic&quot;&gt;What is biomimicry/biomimetic&lt;/h2&gt; &lt;p&gt;Biomimicry is a process in which systems , products , designs are modeled based on the /adapted...</description>
+        <description>&lt;h2 id=&quot;what-is-something-that-is-common-between-the-bullet-train--self-cooling-houses--super-strong-adhesives-and-turbine-blades&quot;&gt;What is something that is common between the bullet train , self cooling houses , super strong adhesives and turbine blades?&lt;/h2&gt; &lt;p&gt;Well it turns out they are all inspired by nature is profound ways to optimise favourable characteristics and reduce unfavourable one. Yes! All these products have incorporated within themselves ideas inspired from nature to solve tricky problems in our world by a process called as biomimicry . Interested to know more about Biomimicry , stick on.&lt;/p&gt; &lt;h2 id=&quot;what-is-biomimicrybiomimetic&quot;&gt;What is biomimicry/biomimetic?&lt;/h2&gt; &lt;p&gt;Biomimicry is a process in which systems , products , designs are modeled based on the /adapted from...</description>
         <pubDate>Sat, 15 Sep 2018 22:00:33 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/biomicry-creating-a-truly-sustainable-environment/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/biomicry-creating-a-truly-sustainable-environment/</guid>

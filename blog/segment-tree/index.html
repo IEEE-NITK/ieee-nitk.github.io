@@ -301,8 +301,7 @@ Here, segment trees are stored in an array T(1 - indexed). We call a node i if i
   <ol>
     <li>If start &gt;= L and end &lt;= R, then sum of “node” contains a part of the required sum. So we return sum stored in node.</li>
     <li>If start &gt; R or end &lt; L, then it means the required sum A[L – R] is not present in that node or it’s child nodes(if it exists). In this case, return 0.</li>
-    <li>Else a part of the required sum A[L – R] is present in the node. So, we need to how much “node” contributes to A[L – R]. For this, we recursively call Range_Query for left and right child. i.e.
-     return Range_Query(left child of node, L, R) + Range_Query(right child of node, L, R)</li>
+    <li>Else a part of the required sum A[L – R] is present in the node. So, we need to how much “node” contributes to A[L – R]. For this, we recursively call Range_Query for left and right child. i.e. return Range_Query(left child of node, L, R) + Range_Query(right child of node, L, R)</li>
   </ol>
 </blockquote>
 
@@ -409,6 +408,7 @@ node.min=min(left_subtree) or min(right_subtree), node.count=left_subtree.count 
 </ol>
 
 <p>Implementation: <a href="https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/">https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/</a></p>
+
 <blockquote>
   <ol>
     <li>Given N numbers and Q queries, each query consists of L and R. Task is to write a program which prints the count of numbers which divides all numbers in the given range L-R.</li>
@@ -420,8 +420,12 @@ node.min=min(left_subtree) or min(right_subtree), node.count=left_subtree.count 
 <p>Here, note that the number that divides all elements in a segment should be the minimum. If such a number exists, then it should be the GCD of all numbers in the segment.</p>
 
 <p>So the count of the number of minimums in range L-R, given that minimum is equal to the gcd of that range will be our answer to every query. The problem boils down to finding the GCD, MINIMUM and count of MINIMUM for every range using Segment trees. On every node of the tree, three values are stored. 
-On querying for a given range, if the gcd and minimum of the given range are equal, countMINIMUM is returned as the answer. If they are unequal, 0 is returned as the answer.
-Implemenation: <a href="https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/">https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/</a></p>
+On querying for a given range, if the gcd and minimum of the given range are equal, countMINIMUM is returned as the answer. If they are unequal, 0 is returned as the answer.</p>
+
+<h2 id="implemenation">Implemenation:</h2>
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/">https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/</a></li>
+</ul>
 
 <p><strong>Bonus</strong>: Check out two dimensional segment trees if you are interested: <a href="https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/">https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/</a></p>
 
@@ -429,10 +433,19 @@ Implemenation: <a href="https://www.geeksforgeeks.org/count-elements-which-divid
 
 <p>This article is supposed to be an introduction to Segment Trees. If you feel comfortable with the contents of the article, then do check out lazy propagation on segment trees. (this allows you to perform range queries and range updates on the segment tree)</p>
 
-<p>References:<br />
-<a href="https://cp-algorithms.com/data_structures/segment_tree.html">https://cp-algorithms.com/data_structures/segment_tree.html</a><br />
-<a href="https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/">https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/</a><br />
-<a href="https://visualgo.net/en/segmenttree">https://visualgo.net/en/segmenttree</a></p>
+<h2 id="references">References:</h2>
+
+<ul>
+  <li>
+    <p><a href="https://cp-algorithms.com/data_structures/segment_tree.html">https://cp-algorithms.com/data_structures/segment_tree.html</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/">https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/</a></p>
+  </li>
+  <li>
+    <p><a href="https://visualgo.net/en/segmenttree">https://visualgo.net/en/segmenttree</a></p>
+  </li>
+</ul>
 
                 </article>
                 <div class="sidebar">

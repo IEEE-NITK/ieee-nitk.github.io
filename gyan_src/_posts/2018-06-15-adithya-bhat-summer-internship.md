@@ -13,7 +13,7 @@ github_username: 'adithyabhatkajake'
 comments: true
 ---
 
-I am interested in Systems and Security, mainly involving Cryptography, Distributed and Operating Systems, Blockchains and Quantum Computing.
+> I am interested in Systems and Security, mainly involving Cryptography, Distributed and Operating Systems, Blockchains and Quantum Computing.
 
 ## Where did you get your internship and why did you apply there? 
 ### What interested you or attracted you to this particular internship and why?

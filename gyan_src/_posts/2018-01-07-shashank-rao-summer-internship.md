@@ -13,8 +13,7 @@ github_username: 'raoshashank'
 comments: true
 ---
 
-I am interested in all aspects of Robotics: 
-Path-Planning, Perception, ROS, Mobility, Locomotion, Dynamics etc. I also wish to venture into the field of Machine Learning and Artificial Intelligence. 
+> I am interested in all aspects of Robotics: Path-Planning, Perception, ROS, Mobility, Locomotion, Dynamics etc. I also wish to venture into the field of Machine Learning and Artificial Intelligence. 
 
 ## Where did you get your internship and why did you apply there? 
 

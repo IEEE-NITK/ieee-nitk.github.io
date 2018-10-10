@@ -15,7 +15,7 @@ comments: true
 
 ![Kishor Bhat](/gyan/assets/img/kishor-bhat-interview/kishor.jpg)
 
- As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.
+> As our world becomes increasingly networked, protecting these networks is no longer optional. A majority of today’s companies are insufficiently prepared for a cyber attack. Unfortunately, very few in NITK have cyber-security as their interest.I hope this interview with Kishor Bhat ,a cyber-security enthusiast motivates the readers into understanding the importance of cyber security in today’s digital world.
 
 
 ## How important are CTFs to a security enthusiast? Give an account of your experiences from playing CTFs
