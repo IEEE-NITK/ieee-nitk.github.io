@@ -39,6 +39,8 @@ links:
     url: /
   - title: Gyan
     url: /gyan
+  - title: Categories
+    url: /blog/series
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
