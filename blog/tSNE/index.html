@@ -200,8 +200,9 @@
 
 <h2 id="pca">PCA</h2>
 
-<p><strong>PCA</strong> tries to retain the maximum information about high-dimensional data even after embedding it into a low dimension. It does this by finding out a few components in the higher dimension along which the maximum variation of the data is ensured. Hence it preserves the variation in the data even after reducing it to a lower dimension. Mathematically, PCA minimises the squared-error between points - essentially ensures that far-away points in the original dataset remain in the same way in the 2D map also. So PCA preserves large pairwise distances(global structure and properties), but these distances do not imply any meaningful property.
-But it loses the the low-variance deviations between neighbours. t-SNE filled this gap by accounting for local properties, which have a lot of significance irrespective of the overall structure/topology of data.</p>
+<p><strong>PCA</strong> tries to retain the maximum information about high-dimensional data even after embedding it into a low dimension. It does this by finding out a few components in the higher dimension along which the maximum variation of the data is ensured. Hence it preserves the variation in the data even after reducing it to a lower dimension. Mathematically, PCA minimises the squared-error between points - essentially ensures that far-away points in the original dataset remain in the same way in the 2D map also. So PCA preserves large pairwise distances(global structure and properties), but these distances do not imply any meaningful property.</p>
+
+<p>But it loses the the low-variance deviations between neighbours. t-SNE filled this gap by accounting for local properties, which have a lot of significance irrespective of the overall structure/topology of data.</p>
 
 <p>Moreover PCA is not very useful for unlabelled data. This is quite evident by looking at the visualizations produced by PCA and t-SNE on the MNIST dataset.</p>
 
@@ -294,7 +295,7 @@ Since t-SNE, doesn’t scale well, PCA is first applied to the data (PCA has a b
   </li>
 </ul>
 
-<p>Further Reading:</p>
+<h2 id="further-reading">Further Reading:</h2>
 <ol>
   <li><a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a></li>
   <li><a href="https://colah.github.io/posts/2015-01-Visualizing-Representations/">Visualizing Representations: Deep Learning and Human Beings Christopher Olah’s blog, 2015</a></li>

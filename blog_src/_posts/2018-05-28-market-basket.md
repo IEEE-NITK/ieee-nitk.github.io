@@ -39,12 +39,11 @@ MBA is being used in all aspects of business from small scale retailing to large
 
 ### How can you use MBA for your own store !
 
-1. Store Organisation:
-Based on the insights from market basket analysis you can organize your store to increase revenues. Items that go along with each other should be placed near each other to help consumers notice them.
-2. Spam Messages:
-By using data from MBA you can suggest the next best product which a customer is likely to buy. Hence you will help your customers with fruitful suggestions instead of annoying them with marketing blasts.
-4. E-Commerce Websites:
-In case of e-commerce businesses, website content placement is very important. MBA can be used to predict what a customer will buy next based on the items the customer has viewed . This will not only increase revenue but also bring in more customers 
-5. Recommendation Engines:
-Recommendation engines are already used by some popular companies like Netflix, Amazon, Facebook, etc. If you want to create an effective recommendation system for your company then you will also need market basket analysis to efficiently maintain one. 
+1. **Store Organisation:** Based on the insights from market basket analysis you can organize your store to increase revenues. Items that go along with each other should be placed near each other to help consumers notice them.
+
+2. **Spam Messages:** By using data from MBA you can suggest the next best product which a customer is likely to buy. Hence you will help your customers with fruitful suggestions instead of annoying them with marketing blasts.
+
+3. **E-Commerce Websites:** In case of e-commerce businesses, website content placement is very important. MBA can be used to predict what a customer will buy next based on the items the customer has viewed . This will not only increase revenue but also bring in more customers 
+
+4. **Recommendation Engines:** Recommendation engines are already used by some popular companies like Netflix, Amazon, Facebook, etc. If you want to create an effective recommendation system for your company then you will also need market basket analysis to efficiently maintain one. 
 

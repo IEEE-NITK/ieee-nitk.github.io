@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Oct 2018 14:12:21 +0530</pubDate>
-    <lastBuildDate>Wed, 10 Oct 2018 14:12:21 +0530</lastBuildDate>
+    <pubDate>Sat, 13 Oct 2018 22:49:51 +0530</pubDate>
+    <lastBuildDate>Sat, 13 Oct 2018 22:49:51 +0530</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
@@ -145,7 +145,7 @@
     
       <item>
         <title>Proof-of-work as a consensus mechanism in blockchains</title>
-        <description>&lt;p&gt;&lt;em&gt;Disclaimer: This article is not an introduction to blockchain, it does try to cover some basics of blockchain, but it’s focus is more on the proof-of-work as an approach to solving consensus problem.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;terminologies-and-breakdown&quot;&gt;Terminologies and breakdown&lt;/h2&gt; &lt;p&gt;The title of the article contains “consensus mechanisms in blockchain”, which sounds like a title with heavy words. So let’s try to first breakdown this title and understand each term separately.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Consensus&lt;/strong&gt; : “Consensus” in simple terms means reaching an agreement amongst a set of parties about a specific thing like an event or a data value. Consensus is collaborative and cooperative...</description>
+        <description>&lt;p&gt;&lt;em&gt;Disclaimer: This article is not an introduction to blockchain, it does try to cover some basics of blockchain, but it’s focus is more on the proof-of-work as an approach to solving consensus problem.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;terminologies-and-breakdown&quot;&gt;Terminologies and breakdown&lt;/h2&gt; &lt;p&gt;The title of the article contains “consensus mechanisms in blockchain”, which sounds like a title with heavy words. So let’s try to first breakdown this title and understand each term separately.&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;Consensus&lt;/strong&gt; : “Consensus” in simple terms means reaching an agreement amongst a set of parties about a specific thing like an event or a data value. Consensus is collaborative and...</description>
         <pubDate>Sat, 08 Sep 2018 15:30:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/pow-consensus-blockchain/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/pow-consensus-blockchain/</guid>
@@ -159,7 +159,7 @@
     
       <item>
         <title>Quantum Supremacy: Is it hyped?</title>
-        <description>&lt;p&gt;The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!). These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in our...</description>
+        <description>&lt;p&gt;The term &lt;strong&gt;quantum computer&lt;/strong&gt; has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!). These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in our...</description>
         <pubDate>Sat, 23 Jun 2018 15:30:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/quantum-supremacy/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/quantum-supremacy/</guid>
