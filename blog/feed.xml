@@ -5,9 +5,79 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Oct 2018 13:45:56 +0530</pubDate>
-    <lastBuildDate>Wed, 10 Oct 2018 13:45:56 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Sun, 14 Oct 2018 13:20:30 +0530</pubDate>
+    <lastBuildDate>Sun, 14 Oct 2018 13:20:30 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Varistor</title>
+        <description>&lt;p&gt;&lt;strong&gt;Varistor&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The name itself might have given you some idea about what it is, varistor stands for variable resistor&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What is a varistor?&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Varistor is a varying resistor whose resistance depends on applied voltage,one of the special features of varistor is that it possesses non ohmic characteristics, which defines themselves as a non linear type of resistors&lt;/p&gt; &lt;p&gt;It has two semiconductor elements fixed in a particular fashion (i.e. anti-parallel to each other) as to provide same characteristics for both directions of traversing current&lt;/p&gt; &lt;p&gt;Its composition might have provided you with the insight that as it is made of semiconductor, it's...</description>
+        <pubDate>Sun, 14 Oct 2018 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Varistor/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Varistor/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Diode</category>
+        
+        <category>resistors</category>
+        
+        <category>capacitors</category>
+        
+        <category>zener diode</category>
+        
+        <category>voltage transients</category>
+        
+        <category>regulators</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Automate The Industries</title>
+        <description>&lt;h1 id=&quot;automate-the-industries&quot;&gt;Automate The Industries&lt;/h1&gt; &lt;p&gt;Industrial Automation refers to the use of sensors, robots , actuators in various industrial processes so that we get much better efficiency and the working labour required is low. Although the initial cost of setup of an automated industry is high, but the industrialists will surely be in profit if they apply the automation method as they can produce more no of goods in a limited time and also the quality of their products will increase as the human error in production is minimised.&lt;/p&gt; &lt;p&gt;Here are some of the industrial processes in which we can use...</description>
+        <pubDate>Sun, 14 Oct 2018 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Automate-The-Industries/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Automate-The-Industries/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Piston</category>
+        
+        <category>Automation</category>
+        
+        <category>Industries</category>
+        
+        <category>Robots</category>
+        
+        <category>Manufacturing</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Why Machine Learning Matters ?</title>
+        <description>&lt;p&gt;&lt;strong&gt;Hello everyone !&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This article is for people who want a primer on &lt;em&gt;Machine Learning&lt;/em&gt; and anyone who is curious about how Machines think.If you are already familiar with ML, this may not be the right place for you.&lt;/p&gt; &lt;h2 id=&quot;why-machine-learning-matters-&quot;&gt;Why Machine Learning matters ?&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Artificial intelligence&lt;/strong&gt; will shape our future more powerfully than any other innovation this century. The rate of acceleration is already astounding. After a couple of AI winters and periods of false hope over the past four decades, rapid advances in data storage and computer processing power have dramatically changed the game in recent years.&lt;/p&gt; &lt;p&gt;In...</description>
+        <pubDate>Sun, 14 Oct 2018 00:35:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Why-Machine-Learning-Matters/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Why-Machine-Learning-Matters/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>Artificial Intelligence</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Phase Change Material</title>
@@ -126,48 +196,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>THE NEW BIOMETRIC - BRAINPRINT</title>
-        <description>&lt;p&gt;Since the conception of computers, mobile phones, tablets and most importantly, Internet, securing our devices and data has become crucial. Personal data ranging from shopping wishlists to bank details are either stored in PCs or are available online, all protected by passwords - a rather impotent sentinel, as it turns out. There have been several methods used by computers as well as the different websites to authenticate its user.&lt;/p&gt; &lt;p&gt;The first passwords were simple and easily stored since sophisticated hacking networks did not exist yet. One such example is, Cryptographer Robert Morris, who created the infamous Morris worm, developed a...</description>
-        <pubDate>Sun, 09 Sep 2018 00:04:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</guid>
-        
-        <category>biometrics</category>
-        
-        <category>brainprint</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Proof-of-work as a consensus mechanism in blockchains</title>
-        <description>&lt;p&gt;&lt;em&gt;Disclaimer: This article is not an introduction to blockchain, it does try to cover some basics of blockchain, but it’s focus is more on the proof-of-work as an approach to solving consensus problem.&lt;/em&gt;&lt;/p&gt; &lt;h2 id=&quot;terminologies-and-breakdown&quot;&gt;Terminologies and breakdown&lt;/h2&gt; &lt;p&gt;The title of the article contains “consensus mechanisms in blockchain”, which sounds like a title with heavy words. So let’s try to first breakdown this title and understand each term separately.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Consensus&lt;/strong&gt; : “Consensus” in simple terms means reaching an agreement amongst a set of parties about a specific thing like an event or a data value. Consensus is collaborative and cooperative...</description>
-        <pubDate>Sat, 08 Sep 2018 15:30:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/pow-consensus-blockchain/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/pow-consensus-blockchain/</guid>
-        
-        <category>Blockchain, Consensus, Distributed systems</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Quantum Supremacy: Is it hyped?</title>
-        <description>&lt;p&gt;The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!). These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.&lt;/p&gt; &lt;h2 id=&quot;fundamentals&quot;&gt;Fundamentals&lt;/h2&gt; &lt;p&gt;All the electronic devices that we use in our...</description>
-        <pubDate>Sat, 23 Jun 2018 15:30:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/quantum-supremacy/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/quantum-supremacy/</guid>
-        
-        <category>Quantum Computing</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     

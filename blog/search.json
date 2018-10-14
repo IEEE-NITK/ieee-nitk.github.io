@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Varistor",
+      "category" : "Diode",
+      "tags"     : "IEEE NITK, Diode, resistors, capacitors, zener diode, voltage transients, and regulators",
+      "url"      : "http://ieee.nitk.ac.in/blog//Varistor/",
+      "date"     : "14 Oct 2018",
+      "author"   : "Prithvi Patil"
+    } ,
+  
+    {
+      "title"    : "Automate The Industries",
+      "category" : "Piston",
+      "tags"     : "IEEE NITK, Piston, Automation, Industries, Robots, and Manufacturing",
+      "url"      : "http://ieee.nitk.ac.in/blog//Automate-The-Industries/",
+      "date"     : "14 Oct 2018",
+      "author"   : "Nisarg B Shah"
+    } ,
+  
+    {
+      "title"    : "Why Machine Learning Matters ?",
+      "category" : "Compsoc",
+      "tags"     : "IEEE NITK, CompSoc, Machine Learning, and Artificial Intelligence",
+      "url"      : "http://ieee.nitk.ac.in/blog//Why-Machine-Learning-Matters/",
+      "date"     : "14 Oct 2018",
+      "author"   : "Siddhartha M"
+    } ,
+  
+    {
       "title"    : "Phase Change Material",
       "category" : "Piston",
       "tags"     : "Storage Device and Material",
