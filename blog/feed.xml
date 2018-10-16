@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Oct 2018 13:20:30 +0530</pubDate>
-    <lastBuildDate>Sun, 14 Oct 2018 13:20:30 +0530</lastBuildDate>
+    <pubDate>Tue, 16 Oct 2018 12:47:39 +0530</pubDate>
+    <lastBuildDate>Tue, 16 Oct 2018 12:47:39 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
         <title>Varistor</title>
-        <description>&lt;p&gt;&lt;strong&gt;Varistor&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The name itself might have given you some idea about what it is, varistor stands for variable resistor&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What is a varistor?&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Varistor is a varying resistor whose resistance depends on applied voltage,one of the special features of varistor is that it possesses non ohmic characteristics, which defines themselves as a non linear type of resistors&lt;/p&gt; &lt;p&gt;It has two semiconductor elements fixed in a particular fashion (i.e. anti-parallel to each other) as to provide same characteristics for both directions of traversing current&lt;/p&gt; &lt;p&gt;Its composition might have provided you with the insight that as it is made of semiconductor, it's...</description>
+        <description>&lt;p&gt;&lt;strong&gt;Varistor&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The name itself might have given you some idea about what it is, varistor stands for variable resistor&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What is a varistor?&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Varistor is a varying resistor whose resistance depends on applied voltage,one of the special features of varistor is that it possesses non ohmic characteristics, which defines themselves as a non linear type of resistors&lt;/p&gt; &lt;p&gt;It has two semiconductor elements fixed in a particular fashion (i.e. anti-parallel to each other) as to provide same characteristics for both directions of traversing current&lt;/p&gt; &lt;p&gt;Its composition might have provided you with the insight that as it is made of semiconductor, it’s...</description>
         <pubDate>Sun, 14 Oct 2018 05:02:44 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/Varistor/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Varistor/</guid>

@@ -39,17 +39,13 @@ Machine Learning is **self-explanatory**. Instead of you telling the machine wha
 
 ![Image 2](/blog/assets/img/Why-Machine-Learning-Matters/MLimage_2.png)
 
->**Classification** algorithms can be taught to split existing data into classes, like say names of animals.
->Then when you give it new data, it will tell you which class it belongs to, like say this is a cat and not a dog.
+>**Classification** algorithms can be taught to split existing data into classes, like say names of animals.Then when you give it new data, it will tell you which class it belongs to, like say this is a cat and not a dog.
 
->**Regression** algorithms basically try to learn the function of a dataset,
->by predicting future data based on past data.
+>**Regression** algorithms basically try to learn the function of a dataset,by predicting future data based on past data.
 
->**Unsupervised Learning** can be used if you’ve got lots of data and you can’t make sense of it,
->so you teach the machine to try and make sense of it instead.
+>**Unsupervised Learning** can be used if you’ve got lots of data and you can’t make sense of it,so you teach the machine to try and make sense of it instead.
 
->**Reinforcement Learning** is how to beat every human on Earth in games like GO and Chess,
->or drive autonomous cars and drones. And a lot more.
+>**Reinforcement Learning** is how to beat every human on Earth in games like GO and Chess,or drive autonomous cars and drones. And a lot more.
 
 So let us talk about **Supervised Learning** now.
 
