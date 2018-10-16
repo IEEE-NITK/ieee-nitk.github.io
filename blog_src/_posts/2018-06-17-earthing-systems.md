@@ -10,7 +10,6 @@ categories:
 - Diode
 github_username: 'shreeramhegde'
 ---
-
 Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.
 
 ![image001](/blog/assets/img/earthing-systems/image001.jpg)

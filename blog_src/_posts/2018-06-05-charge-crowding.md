@@ -16,13 +16,12 @@ github_username: 'sampathkoti'
 
 ## Electrostatic Discharge
 
-Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other.  ESD can also occur when a high electrostatic field develops between two objects in close proximity.  ESD is one of the major causes of device failures in the semiconductor industry.
-
+Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other.  ESD can also occur when a high electrostatic field develops between two objects in close proximity.  ESD is one of the major causes of device failures in the semiconductor industry
 Electrostatic charge build-up occurs as a result of an imbalance of electrons on the surface of a material.  Such a charge build-up develops an electric field that has measurable effects on other objects at a distance.  The process of electron transfer as a result of two objects coming into contact with each other and then separating is known as 'triboelectric charging'.  
      
-This charging process results in one object gaining electrons on its surface, and therefore becoming negatively charged, and another object losing electrons from its surface, and therefore becoming positively charged. A person can get triboelectrically charged in a number of ways, even by just walking across a room. The tendencies of various materials to charge up either positively or negatively are shown in a **Triboelectric Series**.    
+This charging process results in one object gaining electrons on its surface, and therefore becoming negatively charged, and another object losing electrons from its surface, and therefore becoming positively charged. A person can get triboelectrically charged in a number of ways, even by just walking across a room. The tendencies of various materials to charge up either positively or negatively are shown in a Triboelectric Series.      
+There are three (3) predominant ESD models for IC's: 1) the Human Body Model (HBM); 2) the Charged Device Model (CDM); and 3) the Machine Model (MM).  The HBM simulates the ESD event when a person charged either to a positive or negative potential touches an IC that is at another potential.  The CDM simulates the ESD event wherein a device charges to a certain potential, and then gets into contact with a conductive surface at a different potential.  The MM simulates the ESD event that occurs when a part of an equipment or tool comes into contact with a device at a different potential. HBM and CDM are considered to be more 'real world' models than the MM. .
 
-There are three (3) predominant ESD models for IC's: 1) the Human Body Model (HBM); 2) the Charged Device Model (CDM); and 3) the Machine Model (MM).  The HBM simulates the ESD event when a person charged either to a positive or negative potential touches an IC that is at another potential.  The CDM simulates the ESD event wherein a device charges to a certain potential, and then gets into contact with a conductive surface at a different potential.  The MM simulates the ESD event that occurs when a part of an equipment or tool comes into contact with a device at a different potential. HBM and CDM are considered to be more 'real world' models than the MM.
 
 ## ESD Control With Ionization 
 
@@ -49,8 +48,7 @@ Close attention must also be paid to turbulence generation by the ionizer.  Clea
  
 The following are some recommendations that will assist manufacturers of ionizer products in updating equipment specifications:   
  
-1. Establish the “real” damage thresholds of electronic devices with a well-defined testing program, including simulation methods that reflect the ESD hazards that devices will encounter. For example, the increasing use of automation tends toward CDM and MM testing rather than HBM. Estimate how sensitive devices will be in the future.
-
+1. Establish the “real” damage thresholds of electronic devices with a well-defined testing program, including simulation methods that reflect the ESD hazards that devices will encounter. For example, the increasing use of automation tends toward CDM and MM testing rather than HBM.  Estimate how sensitive devices will be in the future.
 2. Establish ionizer neutralization time and balance specifications for standard airflow rates (both laminar and turbulent) and operating distances. Relate this information, if possible, to production yield or defect rates. 
 
 ## Conclusion

@@ -11,10 +11,9 @@ categories:
 - Piston
 github_username: 'sonalparab10'
 ---
+**Washable electronics? Water-repellent graphene circuits make it possible!**
 
-> Washable electronics? Water-repellent graphene circuits make it possible!
-
-**New graphene printing technology can produce electronic circuits that are low-cost, flexible, highly conductive and water repellent.**
+*New graphene printing technology can produce electronic circuits that are low-cost, flexible, highly conductive and water repellent.*
 
 ![Landing image](/blog/assets/img/washable-electonics/1.jpg)
 The nanotechnology "would lend enormous value to self-cleaning wearable/washable electronics that are resistant to stains, or ice and biofilm formation," according to a recent paper describing the discovery.

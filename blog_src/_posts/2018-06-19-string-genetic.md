@@ -18,7 +18,7 @@ comments: true
 ---
 ## Introduction
 
-A **Genetic Algorithm** is a search heuristic inspired by Darwin’s theory of natural evolution. A genetic algorithm reflects the process of natural selection: the fittest survive and breed.  
+A genetic algorithm is a search heuristic inspired by Darwin’s theory of natural evolution. A genetic algorithm reflects the process of natural selection: the fittest survive and breed.  
 
 The process of natural selection begins by selecting the fittest individuals from a population. The cross to produce offsprings that have characterestics of both parents. If both parents have good fitness, then their child is also likely to inherit their characterestics and have better fitness.
 
@@ -98,6 +98,7 @@ To simulate mutation, given a `0 < mutation rate < 1`  if a uniformly generated 
             i+=1
         return "".join(child)
 ```
+  
   
 ### Wrapping it all up
   
