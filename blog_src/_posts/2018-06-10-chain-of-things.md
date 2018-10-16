@@ -11,8 +11,7 @@ categories:
 - Diode
 github_username: 'mehakarora'
 ---
-
-> __“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won't even sense it. It will be part of your presence all the time.”__
+> “The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing, things that you are interacting with, that you won't even sense it. It will be part of your presence all the time.”
 
 These words, spoken in the World Economic Forum in 2015 by Google’s then Chairman Eric Schmidt, are quickly proving to be true. From smart homes to smart citites, the **Internet of Things** is everywhere. The number of connected devices has grown by a whopping 31% over the last year. However, all this data is present on a very hackable internet, and this poses an ever increasing security and privacy threat.
 
@@ -42,7 +41,10 @@ Also there is the issue of connectivity. IoT devices need to be connected to the
 
 A blockchain solution would be available for device makers to use in place of creating their own software update infrastructure the way the tech giants have. These smaller companies would have to program their products to check in with a blockchain system periodically to see if there was new software. Then they would securely upload their updates as they developed them. Each device would have a strong cryptographic identity, to ensure the manufacturer is communicating with the right device. As a result, device makers and their customers would know the equipment would efficiently keep its security up to date. Also, even if connectivity is lost in one area, other areas are still connected to the internet.
 
+
 Many companies are now investing in a Blockchain-IoT future. IoT desperately needs the blockchain’s features while the blockchain is hungry for the big-time opportunity that IoT represents. Together, it seems like this is going to be the next big thing.
+
+
 
 ## References:
 

@@ -21,7 +21,7 @@ We came up with a idea which not only speeds up this process but also makes it h
 
 ## Implementation
 
-The Front-end of the project comprises of an Android app and a Web App. Android app is developed on Android Studio using libraries such as Volley and Gson and with Java as the primary language. The Web Frontend is built using the standard web technologies like HTML, CSS , JavaScript , libraries and Frameworks of JavaScript. Login and signup system is implemented using the OAuth standards via Google/Facebook.
+The front-end of the project comprises of an Android app and a Website. Android app is developed on Android Studio using libraries such as Volley and Gson and with Java as the primary language. The Web Frontend is built using the standard web technologies like HTML, CSS , JavaScript , libraries and Frameworks of JavaScript. Login and signup system is implemented using the OAuth standards via Google/Facebook.
 
 The back-end of project used python as a primary programming environment and Django framework. It uses MySQL database. The algorithm tries to create an overlap in the student profile and professor requirements and make a ranked list of recommended candidates.
 
