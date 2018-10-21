@@ -43,7 +43,7 @@ A major practical applications some of you might come across is using GPU for tr
 
 ![waiting for my neural network to train](/blog/assets/img/why-you-need-gpu/nntrain.jpeg)
 
-Yeah we're gonna GPUs for this.  
+Yeah we're gonna use GPUs for this.  
 
 The end goal of all of this is to get high performance and for that, NVIDIA provides a parallel programming or heterogenous computing model called [CUDA](https://www.nvidia.in/object/cuda-parallel-computing-in.html) which help developers create more efficient applications or achieve high performance in their task.  
 
