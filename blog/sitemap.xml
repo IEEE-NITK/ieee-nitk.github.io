@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/vortices/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/light-backscatter-application/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/why-you-need-gpu/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/Varistor/</loc>
 	  </url>
 	

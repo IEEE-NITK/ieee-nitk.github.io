@@ -5,9 +5,71 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Oct 2018 23:57:00 +0530</pubDate>
-    <lastBuildDate>Tue, 16 Oct 2018 23:57:00 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.4</generator>
+    <pubDate>Sun, 21 Oct 2018 20:08:49 +0530</pubDate>
+    <lastBuildDate>Sun, 21 Oct 2018 20:08:49 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Vortices</title>
+        <description>&lt;h1 id=&quot;vortices&quot;&gt;Vortices&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“&lt;em&gt;When everything seems to be going against you, remember that an airplane takes off against the wind, not with it&lt;/em&gt;” – Henry Ford&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This article has been written especially for those who are interested in aerodynamics and also for people who are curious to know how small modifications in design help make an airplane or a car more aerodynamically efficient. The content is from an aerodynamic point of view, in an airflow.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/vortices/1.jpg&quot; alt=&quot;Fig.1&quot; title=&quot;Fig.1&quot; /&gt;&lt;/p&gt; &lt;p&gt;A Vortex (Fig. 1) is nothing but a region in a fluid which revolves about a certain axis. These...</description>
+        <pubDate>Sun, 21 Oct 2018 02:50:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/vortices/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/vortices/</guid>
+        
+        <category>aerodynamics</category>
+        
+        <category>vortex</category>
+        
+        <category>formula 1</category>
+        
+        <category>aviation</category>
+        
+        <category>flight</category>
+        
+        <category>airflow</category>
+        
+        <category>fluids</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Light backscatter application</title>
+        <description>&lt;h1 id=&quot;measure-of-fat-content-in-milk-with-led-and-ldr&quot;&gt;Measure of fat content in milk with LED and LDR&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;India's milk production&lt;/strong&gt; is estimated to have increased by 6.6 per cent during the last four year. Price of milk is based on the quantity of FAT present in milk . so we need machine which can measures milk parameters like SNF (Solid but Not FAT), FAT, CLR, with less cost.&lt;/p&gt; &lt;p&gt;The important thing is that machine should be cheaper and only based on electricity .then it is very helpful for the remote area also.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Coming to the point photometric based sensor or light backscatter application technique is able...</description>
+        <pubDate>Sun, 21 Oct 2018 01:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/light-backscatter-application/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/light-backscatter-application/</guid>
+        
+        <category>light backscatter</category>
+        
+        <category>fat content in milk</category>
+        
+        <category>gerber method</category>
+        
+        <category>coagulating milk</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Why 'you' need GPU</title>
+        <description>&lt;h1 id=&quot;why-you-need-gpu&quot;&gt;Why you need GPU&lt;/h1&gt; &lt;p&gt;You’ve probably wanted to buy a laptop/desktop with a GPU to play those awesome high graphics games that your friends keep talking about, and yes your parents wouldv’e probably said “You’re not going to get that. You need to study now”. But is that all the use there is for a GPU?&lt;/p&gt; &lt;h3 id=&quot;gpu-vs-cpu&quot;&gt;GPU vs CPU&lt;/h3&gt; &lt;p&gt;Yeah we all know what they stand for, so let’s skip that and get a little technical.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/why-you-need-gpu/cpuvsgpu.jpg&quot; alt=&quot;GPUvsCPU&quot; /&gt;&lt;/p&gt; &lt;p&gt;To put it in one line, we can say that if the CPU is being used for computations,...</description>
+        <pubDate>Sun, 21 Oct 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/why-you-need-gpu/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-you-need-gpu/</guid>
+        
+        <category>GPU</category>
+        
+        <category>parallel computing</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Varistor</title>
@@ -145,54 +207,6 @@
         <category>magnetoserum</category>
         
         <category>panacea</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Cloud Computing</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;You are probably using cloud computing right now, even if you don’t realise it. If you use an online service to send an email, edit documents, watch movies or TV, listen to music, play games or store pictures and other files, it is likely that cloud computing is making it all possible behind the scenes.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The first cloud computing services are barely a decade old, but already a variety of organisations, from tiny start-ups to global corporations, government agencies to non-profits, are embracing the technology for all sorts of reasons.&lt;/p&gt; &lt;h2 id=&quot;what-is-cloud-computing&quot;&gt;What is Cloud Computing?&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/cloud-computing/Cloud_Comp.png&quot; alt=&quot;Cloud...</description>
-        <pubDate>Sun, 16 Sep 2018 05:00:33 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/cloud-computing/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/cloud-computing/</guid>
-        
-        <category>Cloud Computing</category>
-        
-        <category>AWS</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Biomicry: Creating A Truly Sustainable Environment</title>
-        <description>&lt;h2 id=&quot;what-is-something-that-is-common-between-the-bullet-train--self-cooling-houses--super-strong-adhesives-and-turbine-blades&quot;&gt;What is something that is common between the bullet train , self cooling houses , super strong adhesives and turbine blades?&lt;/h2&gt; &lt;p&gt;Well it turns out they are all inspired by nature is profound ways to optimise favourable characteristics and reduce unfavourable one. Yes! All these products have incorporated within themselves ideas inspired from nature to solve tricky problems in our world by a process called as biomimicry . Interested to know more about Biomimicry , stick on.&lt;/p&gt; &lt;h2 id=&quot;what-is-biomimicrybiomimetic&quot;&gt;What is biomimicry/biomimetic?&lt;/h2&gt; &lt;p&gt;Biomimicry is a process in which systems , products , designs are modeled based on the /adapted from...</description>
-        <pubDate>Sat, 15 Sep 2018 22:00:33 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/biomicry-creating-a-truly-sustainable-environment/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/biomicry-creating-a-truly-sustainable-environment/</guid>
-        
-        <category>Biomicry</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>BIO(logy and electro)NICS</title>
-        <description>&lt;p&gt;The living cell can be considered as an extraordinary piece of engineering, where each of the components of the cell work in precise coordination with utmost efficiency. Each cell generates its own energy which it uses to carry out specific tasks, and in the process, produces waste products which are removed from the cell. We are yet to understand the working of DNA and RNA, which are chains of particular bio molecules arranged in a certain order. This preprogrammed nature of life that allows for replication of molecular strands is what grabs the attention of many scientists today, and its...</description>
-        <pubDate>Sun, 09 Sep 2018 00:46:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/bionics/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/bionics/</guid>
-        
-        <category>Biology</category>
-        
-        <category>Electronics</category>
-        
-        <category>Bionics</category>
         
         
         <category>Diode</category>
