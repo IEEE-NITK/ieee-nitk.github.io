@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Vortices",
+      "category" : "Piston",
+      "tags"     : "aerodynamics, vortex, formula 1, aviation, flight, airflow, and fluids",
+      "url"      : "http://ieee.nitk.ac.in/blog//vortices/",
+      "date"     : "21 Oct 2018",
+      "author"   : "Darren Charles Fernandes"
+    } ,
+  
+    {
+      "title"    : "Light backscatter application",
+      "category" : "Diode",
+      "tags"     : "light backscatter, fat content in milk, gerber method, and coagulating milk",
+      "url"      : "http://ieee.nitk.ac.in/blog//light-backscatter-application/",
+      "date"     : "21 Oct 2018",
+      "author"   : "Rohit Khoja"
+    } ,
+  
+    {
+      "title"    : "Why &#39;you&#39; need GPU",
+      "category" : "CompSoc",
+      "tags"     : "GPU and parallel computing",
+      "url"      : "http://ieee.nitk.ac.in/blog//why-you-need-gpu/",
+      "date"     : "21 Oct 2018",
+      "author"   : "Rohit M P"
+    } ,
+  
+    {
       "title"    : "Varistor",
       "category" : "Diode",
       "tags"     : "IEEE NITK, Diode, resistors, capacitors, zener diode, voltage transients, and regulators",
