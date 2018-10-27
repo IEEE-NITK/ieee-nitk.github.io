@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Coronary Stents",
+      "category" : "Piston",
+      "tags"     : "heart, disease, treatment, and surgeries",
+      "url"      : "http://ieee.nitk.ac.in/blog//coronary-stents/",
+      "date"     : "28 Oct 2018",
+      "author"   : "Aravind G"
+    } ,
+  
+    {
+      "title"    : "Electronic Aspirin",
+      "category" : "Diode",
+      "tags"     : "electronics, neurostimulators, remote control, and SPG",
+      "url"      : "http://ieee.nitk.ac.in/blog//electronic-aspirin/",
+      "date"     : "28 Oct 2018",
+      "author"   : "Deeksha M S"
+    } ,
+  
+    {
+      "title"    : "Web 3.0: The upcoming Web revolution",
+      "category" : "CompSoc",
+      "tags"     : "Web 3.0, Ethereum, and Blockchains",
+      "url"      : "http://ieee.nitk.ac.in/blog//web-3-0/",
+      "date"     : "28 Oct 2018",
+      "author"   : "Govardhan G D"
+    } ,
+  
+    {
       "title"    : "Vortices",
       "category" : "Piston",
       "tags"     : "aerodynamics, vortex, formula 1, aviation, flight, airflow, and fluids",

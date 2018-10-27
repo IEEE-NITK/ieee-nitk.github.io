@@ -5,9 +5,67 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Oct 2018 20:08:49 +0530</pubDate>
-    <lastBuildDate>Sun, 21 Oct 2018 20:08:49 +0530</lastBuildDate>
+    <pubDate>Sat, 27 Oct 2018 22:21:16 +0530</pubDate>
+    <lastBuildDate>Sat, 27 Oct 2018 22:21:16 +0530</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Coronary Stents</title>
+        <description>&lt;h2 id=&quot;how-coronary-stents--work&quot;&gt;How coronary stents work?&lt;/h2&gt; &lt;p&gt;A Brief Breakdown On One Of The Most Frequented Surgeries.&lt;/p&gt; &lt;p&gt;Ever wondered how exactly stents are used during or after an angioplasty? Why did this method replace bypass surgeries for minor heart attacks ? Well, read on to comprehend.&lt;/p&gt; &lt;h2 id=&quot;what-is-coronary-artery-disease-cad&quot;&gt;What is coronary artery disease (CAD)?&lt;/h2&gt; &lt;p&gt;CAD happens when a waxy substance called plaque builds up on the inner walls of the coronary arteries. This causes the arteries to harden and narrow, decreasing blood flow to the heart. As a result , the heart doesnt getthe blood, oxygen and nutrients it needs, which can lead...</description>
+        <pubDate>Sun, 28 Oct 2018 03:12:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/coronary-stents/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/coronary-stents/</guid>
+        
+        <category>heart</category>
+        
+        <category>disease</category>
+        
+        <category>treatment</category>
+        
+        <category>surgeries</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Electronic Aspirin</title>
+        <description>&lt;h1 id=&quot;electronic-aspirin&quot;&gt;ELECTRONIC ASPIRIN&lt;/h1&gt; &lt;p&gt;For people who suffer from migraines, cluster headaches and other causes of chronic, excruciating head or facial pain, the &quot;take two aspirins and call me in the morning&quot; method is useless. Doctors have long associated the most severe, chronic forms of headache with the sphenopalatine ganglion (SPG), a facial nerve bundle, but haven't yet found a treatment that works on the SPG long-term.&lt;/p&gt; &lt;p&gt;Well, there is technology for the rescue: &lt;strong&gt;The Electronic Aspirin&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;It is a patient-powered tool for blocking SPG signals at the first sign of a headache.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Working&lt;/strong&gt; :&lt;/p&gt; &lt;p&gt;It consists of two components. A...</description>
+        <pubDate>Sun, 28 Oct 2018 03:03:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/electronic-aspirin/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/electronic-aspirin/</guid>
+        
+        <category>electronics</category>
+        
+        <category>neurostimulators</category>
+        
+        <category>remote control</category>
+        
+        <category>SPG</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Web 3.0: The upcoming Web revolution</title>
+        <description>&lt;h2 id=&quot;web-30-what-in-the-world-is-that&quot;&gt;Web 3.0?? What in the world is that???!!!&lt;/h2&gt; &lt;p&gt;There is a lot of buzz around web 3.0 and the changes it can bring in the world of tech. But only a few know what it actually is…Before hopping into web 3.0 let us know a little about its predecessors.&lt;/p&gt; &lt;p&gt;The &lt;em&gt;Web 1.0&lt;/em&gt; , which started the whole damn internet and the &lt;em&gt;Web 2.0&lt;/em&gt; that we all use and love so much. Web 1.0 was just a set of &lt;em&gt;static websites&lt;/em&gt; . It comprised of a load of websites with no interactive information. But as the internet got faster and...</description>
+        <pubDate>Sun, 28 Oct 2018 03:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/web-3-0/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/web-3-0/</guid>
+        
+        <category>Web 3.0</category>
+        
+        <category>Ethereum</category>
+        
+        <category>Blockchains</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Vortices</title>
@@ -154,62 +212,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Avionics</title>
-        <description>&lt;p&gt;The merging of the words aviation and electronics, Avionics are all of the electronic devices and systems which perform individualized functions, used on any aircraft. Whether it is a military standard drone or a small hobby craft, it contains many electronic components which together achieve controlled flight. In this blog I’m going to talk mainly on the electronics aspect of the equipment used in small scale aircraft and drones.&lt;/p&gt; &lt;h2 id=&quot;accelerometer&quot;&gt;Accelerometer&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/avionics/Accelerometer.jpg&quot; alt=&quot;Accelerometer&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/avionics/AccelerometerIC.jpeg&quot; alt=&quot;Accelometer IC&quot; /&gt;&lt;/p&gt; &lt;p&gt;An accelerometer is a transducer that is used to measure the physical or measurable acceleration that is made by an...</description>
-        <pubDate>Sun, 07 Oct 2018 19:57:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/avionics/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/avionics/</guid>
-        
-        <category>Drone</category>
-        
-        <category>Hobbycraft</category>
-        
-        <category>Avionics</category>
-        
-        <category>Flight Control</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Segment Trees</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;blockquote&gt; &lt;p&gt;Segment trees are extensivly used in competitive programming for problems that invlove range queries and range updates.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;For example, given an array A of N elements, answer Q queries (of two types):&lt;/p&gt; &lt;p&gt;1 L R : output the sum of elements between L and R&lt;br /&gt; 2 x I : A[I] = x&lt;/p&gt; &lt;p&gt;A similar version of the above problem for minimum(i.e. to find the minimum between L and R) is famously known as Range Minimum Query. These problems can be easily solved with segment trees.&lt;/p&gt; &lt;h2 id=&quot;naive-approach&quot;&gt;Naive Approach&lt;/h2&gt; &lt;p&gt;A naive approach would be to answer...</description>
-        <pubDate>Sun, 07 Oct 2018 04:25:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/segment-tree/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/segment-tree/</guid>
-        
-        <category>Competitive Programming</category>
-        
-        <category>Segment Trees</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Nanoparticle-Wonder Liquid</title>
-        <description>&lt;h2 id=&quot;magneto-serum---a-potential-panacea&quot;&gt;Magneto Serum - A potential panacea&lt;/h2&gt; &lt;p&gt;Though the name sounds very cool and straight out of a science-fiction franchise , what I’m referring to is actually called a ferro-fluid , but make no mistake , this liquid’s abilities are very near sci-fi.&lt;/p&gt; &lt;p&gt;A ferro-fluid is basically a colloidal sol , made up of 3 components which are, nano-sized particles of a ferromagnetic substance like haematite or magnetite, a liquid dispersion medium and a surfactant ( citric acid for example) which prevents the nanoparticles from clumping together and depositing .&lt;/p&gt; &lt;p&gt;What’s special about this fluid is that it gets strongly...</description>
-        <pubDate>Sun, 16 Sep 2018 05:00:33 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/nanoparticle-wonder-liquid/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanoparticle-wonder-liquid/</guid>
-        
-        <category>nanotechnology</category>
-        
-        <category>nanomedicine</category>
-        
-        <category>magnetoserum</category>
-        
-        <category>panacea</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
