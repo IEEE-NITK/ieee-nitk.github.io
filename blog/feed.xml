@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Nov 2018 13:24:36 +0530</pubDate>
-    <lastBuildDate>Sat, 03 Nov 2018 13:24:36 +0530</lastBuildDate>
+    <pubDate>Sat, 03 Nov 2018 17:13:38 +0530</pubDate>
+    <lastBuildDate>Sat, 03 Nov 2018 17:13:38 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
@@ -28,6 +28,24 @@
         
         
         <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Drive By Wire</title>
+        <description>&lt;h1 id=&quot;drive-by-wire&quot;&gt;Drive-by-wire&lt;/h1&gt; &lt;p&gt;Drive by wire is a catch all term that can refer to a number of electronic systems that take either augment or completely replace traditional mechanical controls.Instead of using cables, hydraulic pressure and other ways of providing a driver with direct, physical control over the speed or direction of a vehicle, drive-by-wire technology uses electronic controls to activate the brakes, controls the steering, and operate other systems.Although it’s well-established in the airline industry, drive-by-wire has been slow in its introduction to the car. &lt;img src=&quot;/blog/assets/img/by_wire/fig1.jpg&quot; alt=&quot;fig1&quot; /&gt;&lt;/p&gt; &lt;h1 id=&quot;throttle-by-wire&quot;&gt;Throttle by wire&lt;/h1&gt; &lt;p&gt;A typical Electronic Throttle Control(ETC) system consists...</description>
+        <pubDate>Sat, 03 Nov 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/by-wire/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/by-wire/</guid>
+        
+        <category>Drive by wire</category>
+        
+        <category>Steer by wire</category>
+        
+        <category>Autonomous vehicle</category>
+        
+        
+        <category>Piston</category>
         
       </item>
     
@@ -194,30 +212,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Automate The Industries</title>
-        <description>&lt;h1 id=&quot;automate-the-industries&quot;&gt;Automate The Industries&lt;/h1&gt; &lt;p&gt;Industrial Automation refers to the use of sensors, robots , actuators in various industrial processes so that we get much better efficiency and the working labour required is low. Although the initial cost of setup of an automated industry is high, but the industrialists will surely be in profit if they apply the automation method as they can produce more no of goods in a limited time and also the quality of their products will increase as the human error in production is minimised.&lt;/p&gt; &lt;p&gt;Here are some of the industrial processes in which we can use...</description>
-        <pubDate>Sun, 14 Oct 2018 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Automate-The-Industries/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Automate-The-Industries/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Piston</category>
-        
-        <category>Automation</category>
-        
-        <category>Industries</category>
-        
-        <category>Robots</category>
-        
-        <category>Manufacturing</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

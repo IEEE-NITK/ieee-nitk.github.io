@@ -10,6 +10,15 @@
     } ,
   
     {
+      "title"    : "Drive By Wire",
+      "category" : "Piston",
+      "tags"     : "Drive by wire, Steer by wire, and Autonomous vehicle",
+      "url"      : "http://ieee.nitk.ac.in/blog//by-wire/",
+      "date"     : "03 Nov 2018",
+      "author"   : "Smit Rambhiya"
+    } ,
+  
+    {
       "title"    : "KMP Algorithm",
       "category" : "Compsoc",
       "tags"     : "KMP, Strings, Competitive Programming, and C++",
