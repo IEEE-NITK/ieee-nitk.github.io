@@ -74,7 +74,7 @@ function renderArticle(article, section, number) {
     article.tags = processTags(article.tags);
     var sectionSelector = "#article" + number;
 
-    var articleHref = "./" + article.url.slice(article.url.indexOf("org") + 4);
+    var articleHref = "./" + article.url.slice(article.url.indexOf("in") + 3);
     var articleStr = "<a href=\"" + articleHref + "\">" + article.title + "</a>";
     $(sectionSelector + " .cta_heading").html(articleStr);
 
