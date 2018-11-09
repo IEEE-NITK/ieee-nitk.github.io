@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Supercapacitors",
+      "category" : "Diode",
+      "tags"     : "Supercapacitors, Energy Storage, Futurology, Batteries, and Renewables",
+      "url"      : "http://ieee.nitk.ac.in/blog//supercap/",
+      "date"     : "03 Nov 2018",
+      "author"   : "Naman Agarwal"
+    } ,
+  
+    {
+      "title"    : "Drive By Wire",
+      "category" : "Piston",
+      "tags"     : "Drive by wire, Steer by wire, and Autonomous vehicle",
+      "url"      : "http://ieee.nitk.ac.in/blog//by-wire/",
+      "date"     : "03 Nov 2018",
+      "author"   : "Smit Rambhiya"
+    } ,
+  
+    {
+      "title"    : "KMP Algorithm",
+      "category" : "Compsoc",
+      "tags"     : "KMP, Strings, Competitive Programming, and C++",
+      "url"      : "http://ieee.nitk.ac.in/blog//KMP-Algorithm/",
+      "date"     : "03 Nov 2018",
+      "author"   : "TSS Chandana"
+    } ,
+  
+    {
       "title"    : "Coronary Stents",
       "category" : "Piston",
       "tags"     : "heart, disease, treatment, and surgeries",
