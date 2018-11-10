@@ -1,6 +1,24 @@
 [
   
     {
+      "title"    : "MEMS",
+      "category" : "Piston",
+      "tags"     : "MEMS",
+      "url"      : "http://ieee.nitk.ac.in/blog//mems/",
+      "date"     : "10 Nov 2018",
+      "author"   : "Avinash Kumar"
+    } ,
+  
+    {
+      "title"    : "Demystifying Deconvolutions",
+      "category" : "Compsoc",
+      "tags"     : "Deep Learning, Convolution, Up-sampling, and Neural Networks",
+      "url"      : "http://ieee.nitk.ac.in/blog//deconv/",
+      "date"     : "10 Nov 2018",
+      "author"   : "Deepak K"
+    } ,
+  
+    {
       "title"    : "Supercapacitors",
       "category" : "Diode",
       "tags"     : "Supercapacitors, Energy Storage, Futurology, Batteries, and Renewables",

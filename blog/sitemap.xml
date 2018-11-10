@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/mems/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/deconv/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/supercap/</loc>
 	  </url>
 	
