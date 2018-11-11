@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Nov 2018 16:33:32 +0530</pubDate>
-    <lastBuildDate>Sat, 10 Nov 2018 16:33:32 +0530</lastBuildDate>
+    <pubDate>Sun, 11 Nov 2018 17:47:14 +0530</pubDate>
+    <lastBuildDate>Sun, 11 Nov 2018 17:47:14 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Organic Photovoltaics</title>
+        <description>&lt;h1 id=&quot;organic-photovoltaics&quot;&gt;Organic Photovoltaics&lt;/h1&gt; &lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt; &lt;p&gt;Photovoltaics is the process of directly converting sunlight into electricity without any heat engine to interfere. Photovoltaic devices are rugged and simple in design requiring very little maintenance and their biggest advantage being their construction as stand-alone systems to give outputs from microwatts to megawatts. Hence they are used for a vast array of applications resulting in the increase in demand for photovoltaics. Recently, ORGANIC PHOTOVOLTAICS (OPV), has been the subject of active research as this technology has the potential to spawn a new generation of low-cost, solar-powered products with thin and flexible form...</description>
+        <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/organic-photovoltaics/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/organic-photovoltaics/</guid>
+        
+        <category>Organic Photovoltaics</category>
+        
+        <category>Excitons</category>
+        
+        <category>Photo-active layer</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>MEMS</title>
@@ -184,26 +202,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Light backscatter application</title>
-        <description>&lt;h1 id=&quot;measure-of-fat-content-in-milk-with-led-and-ldr&quot;&gt;Measure of fat content in milk with LED and LDR&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;India's milk production&lt;/strong&gt; is estimated to have increased by 6.6 per cent during the last four year. Price of milk is based on the quantity of FAT present in milk . so we need machine which can measures milk parameters like SNF (Solid but Not FAT), FAT, CLR, with less cost.&lt;/p&gt; &lt;p&gt;The important thing is that machine should be cheaper and only based on electricity .then it is very helpful for the remote area also.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Coming to the point photometric based sensor or light backscatter application technique is able...</description>
-        <pubDate>Sun, 21 Oct 2018 01:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/light-backscatter-application/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/light-backscatter-application/</guid>
-        
-        <category>light backscatter</category>
-        
-        <category>fat content in milk</category>
-        
-        <category>gerber method</category>
-        
-        <category>coagulating milk</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
