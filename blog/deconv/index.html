@@ -196,7 +196,7 @@
 
 <p>When we use neural networks to process or generate images, there is a decrease in the size of the intermediate images in the subsequent layers.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*u5hMSBG7fZ7uo85ckmLiUw.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p1.png" alt="fig1" /></p>
 
 <p>Sometimes, when an output result having the size same as the input image is to be generated, using the learned parameters, up-sampling is useful. This technique is used to up-sample images from low-resolution to high-resolution.</p>
 
@@ -206,11 +206,11 @@
 
 <p>Suppose we have a 4x4 matrix, and we wish to convert it to a smaller 2x2 matrix. This can be accomplished by using a 3x3 “<strong>kernel</strong>” as shown below.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*NoXQbZqPnxSnjdAwo93XcQ.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p2.png" alt="fig2" /></p>
 
 <p>The convolution operation calculates the sum of the element-wise multiplication between the input matrix and kernel matrix. Since we can slide the kernel twice through the input matrix, the resulting output will be of size 2x2.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*M33WSDDeOSx6nbUZ0sbkxQ.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p3.png" alt="fig3" /></p>
 
 <p><strong>One important point of such convolution operation is that the positional connectivity exists between the input values and the output values.</strong></p>
 
@@ -224,7 +224,7 @@
 
 <p>For example, we could up-sample a 2x2 matrix to a 4x4 matrix, maintaining the 1-to-9 relationship.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*4a4OjlszAvi7-vqjOT0PoA.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p4.png" alt="fig4" /></p>
 
 <p>To talk about how such an operation can be performed, we need to understand the <strong>convolution matrix</strong> and the <strong>transposed convolution matrix</strong>.</p>
 
@@ -233,25 +233,25 @@
 <p>We can view the process of converting a 4x4 matrix to a 2x2 matrix, in another way.
 We can express a convolution operation using a matrix. It is nothing but a kernel matrix rearranged so that we can use a matrix multiplication to conduct convolution operations.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*0wFFJUNHLRPd3r8R6WT8ng.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p5.png" alt="fig5" /></p>
 
 <p>We rearrange the 3x3 kernel into a 4x16 matrix as below:</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*LKnTr_0k409vOjgj2h4-vg.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p6.png" alt="fig6" /></p>
 
 <p>Each row defines a convolution operation, separated by one or more zeros.</p>
 
 <p>The first step is to flatten the input matrix of size 4x4 into a column vector (16x1).</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*0_oqO0AFZBigpBxPcJ7c_A.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p7.png" alt="fig7" /></p>
 
 <p>We can matrix-multiply the 4x16 convolution matrix with the 1x16 input matrix (16 dimensional column vector).</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*ql2ZxrS_h8D7KHNCrGndug.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p8.png" alt="fig8" /></p>
 
 <p>The output 4x1 matrix can be reshaped into a 2x2 matrix which gives us the same result as before.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*YZwIXPPyb_AsKmxn_em42Q.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p9.png" alt="fig9" /></p>
 
 <p>In short, a convolution matrix is nothing but rearranged kernel weights, and a convolution operation can be expressed using the convolution matrix.</p>
 
@@ -269,11 +269,11 @@ We can express a convolution operation using a matrix. It is nothing but a kerne
 
 <p>Through careful observation, you can convince yourself that the transposed matrix <strong>C<sup>T</sup></strong> connects 1 value in the input to 9 values in the output.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*JDAuBt3aS9mz3aQQ7JKYKA.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p10.png" alt="fig10" /></p>
 
 <p>The output can be reshaped into 4x4.</p>
 
-<p><img src="https://cdn-images-1.medium.com/max/1040/1*STkqLI87Q8qlO1gxpG6sJA.png" alt="" /></p>
+<p><img src="/blog/assets/img/deconv/p11.png" alt="fig11" /></p>
 
 <p><strong>Note:</strong> The actual weight values in the matrix does not have to come from the original convolution matrix. They are learnable. What is important is that the weight layout is transposed from that of the convolution matrix (4x16 to 16x4).</p>
 

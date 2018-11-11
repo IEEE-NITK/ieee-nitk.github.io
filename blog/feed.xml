@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Nov 2018 17:47:14 +0530</pubDate>
-    <lastBuildDate>Sun, 11 Nov 2018 17:47:14 +0530</lastBuildDate>
+    <pubDate>Sun, 11 Nov 2018 18:58:55 +0530</pubDate>
+    <lastBuildDate>Sun, 11 Nov 2018 18:58:55 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
@@ -29,7 +29,7 @@
     
       <item>
         <title>MEMS</title>
-        <description>&lt;h1 id=&quot;mems-micro-electro-mechanical-systems&quot;&gt;MEMS (Micro Electro Mechanical Systems)&lt;/h1&gt; &lt;p&gt;An introduction to field of micro systems and their applications.&lt;/p&gt; &lt;p&gt;“There’s Plenty of Room at the Bottom.”&lt;/p&gt; &lt;h3 id=&quot;-richard-feynman&quot;&gt;-Richard Feynman&lt;/h3&gt; &lt;p&gt;This article deals with the emerging field of micro-electromechanical systems, or MEMS. MEMS is a process technology used to create tiny integrated devices or systems that combine mechanical and electrical components. These devices (or systems) can sense, control and actuate on the micro scale, and generate effects on the macro scale. MEMS has been identified as one of the most promising technologies for the 21st Century and has the potential to revolutionize both industrial...</description>
+        <description>&lt;h1 id=&quot;mems-micro-electro-mechanical-systems&quot;&gt;MEMS (Micro Electro Mechanical Systems)&lt;/h1&gt; &lt;p&gt;An introduction to field of micro systems and their applications.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;“There is plenty of room at the bottom.”&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Richard Feynman&lt;/li&gt; &lt;/ul&gt; &lt;/blockquote&gt; &lt;p&gt;This article deals with the emerging field of micro-electromechanical systems, or MEMS. MEMS is a process technology used to create tiny integrated devices or systems that combine mechanical and electrical components. These devices (or systems) can sense, control and actuate on the micro scale, and generate effects on the macro scale. MEMS has been identified as one of the most promising technologies for the 21st Century and has the potential...</description>
         <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/mems/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/mems/</guid>
@@ -43,7 +43,7 @@
     
       <item>
         <title>Demystifying Deconvolutions</title>
-        <description>&lt;h1 id=&quot;demystifying-deconvolutions&quot;&gt;Demystifying Deconvolutions&lt;/h1&gt; &lt;p&gt;This article mainly discusses about &lt;strong&gt;&lt;em&gt;Up-sampling with Deconvolution&lt;/em&gt;&lt;/strong&gt;. If you’ve heard about the term Deconvolution, and are willing to learn more about it, please read on.&lt;/p&gt; &lt;p&gt;The contents of the this article is as follows:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The need for Up-sampling&lt;/li&gt; &lt;li&gt;Convolution Operation&lt;/li&gt; &lt;li&gt;Going backward&lt;/li&gt; &lt;li&gt;Convolution Matrix&lt;/li&gt; &lt;li&gt;Transposed Convolution Matrix&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Deconvolution is also known as &lt;strong&gt;Transposed Convolution&lt;/strong&gt; and &lt;strong&gt;Fractionally-strided Convolution&lt;/strong&gt;.&lt;/p&gt; &lt;h2 id=&quot;the-need-for-up-sampling&quot;&gt;The need for Up-sampling&lt;/h2&gt; &lt;p&gt;When we use neural networks to process or generate images, there is a decrease in the size of the intermediate images in the subsequent layers.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1040/1*u5hMSBG7fZ7uo85ckmLiUw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;p&gt;Sometimes, when an...</description>
+        <description>&lt;h1 id=&quot;demystifying-deconvolutions&quot;&gt;Demystifying Deconvolutions&lt;/h1&gt; &lt;p&gt;This article mainly discusses about &lt;strong&gt;&lt;em&gt;Up-sampling with Deconvolution&lt;/em&gt;&lt;/strong&gt;. If you’ve heard about the term Deconvolution, and are willing to learn more about it, please read on.&lt;/p&gt; &lt;p&gt;The contents of the this article is as follows:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The need for Up-sampling&lt;/li&gt; &lt;li&gt;Convolution Operation&lt;/li&gt; &lt;li&gt;Going backward&lt;/li&gt; &lt;li&gt;Convolution Matrix&lt;/li&gt; &lt;li&gt;Transposed Convolution Matrix&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Deconvolution is also known as &lt;strong&gt;Transposed Convolution&lt;/strong&gt; and &lt;strong&gt;Fractionally-strided Convolution&lt;/strong&gt;.&lt;/p&gt; &lt;h2 id=&quot;the-need-for-up-sampling&quot;&gt;The need for Up-sampling&lt;/h2&gt; &lt;p&gt;When we use neural networks to process or generate images, there is a decrease in the size of the intermediate images in the subsequent layers.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/deconv/p1.png&quot; alt=&quot;fig1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Sometimes, when an...</description>
         <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/deconv/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/deconv/</guid>
