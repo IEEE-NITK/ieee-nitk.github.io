@@ -5,9 +5,61 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Nov 2018 17:17:00 +0530</pubDate>
-    <lastBuildDate>Sat, 03 Nov 2018 17:17:00 +0530</lastBuildDate>
+    <pubDate>Sun, 11 Nov 2018 19:11:35 +0530</pubDate>
+    <lastBuildDate>Sun, 11 Nov 2018 19:11:35 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Organic Photovoltaics</title>
+        <description>&lt;h1 id=&quot;organic-photovoltaics&quot;&gt;Organic Photovoltaics&lt;/h1&gt; &lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt; &lt;p&gt;Photovoltaics is the process of directly converting sunlight into electricity without any heat engine to interfere. Photovoltaic devices are rugged and simple in design requiring very little maintenance and their biggest advantage being their construction as stand-alone systems to give outputs from microwatts to megawatts. Hence they are used for a vast array of applications resulting in the increase in demand for photovoltaics. Recently, ORGANIC PHOTOVOLTAICS (OPV), has been the subject of active research as this technology has the potential to spawn a new generation of low-cost, solar-powered products with thin and flexible form...</description>
+        <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/organic-photovoltaics/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/organic-photovoltaics/</guid>
+        
+        <category>Organic Photovoltaics</category>
+        
+        <category>Excitons</category>
+        
+        <category>Photo-active layer</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>MEMS</title>
+        <description>&lt;h1 id=&quot;mems-micro-electro-mechanical-systems&quot;&gt;MEMS (Micro Electro Mechanical Systems)&lt;/h1&gt; &lt;p&gt;An introduction to field of micro systems and their applications.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;“There is plenty of room at the bottom.”&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Richard Feynman&lt;/li&gt; &lt;/ul&gt; &lt;/blockquote&gt; &lt;p&gt;This article deals with the emerging field of micro-electromechanical systems, or MEMS. MEMS is a process technology used to create tiny integrated devices or systems that combine mechanical and electrical components. These devices (or systems) can sense, control and actuate on the micro scale, and generate effects on the macro scale. MEMS has been identified as one of the most promising technologies for the 21st Century and has the potential...</description>
+        <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/mems/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/mems/</guid>
+        
+        <category>MEMS</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Demystifying Deconvolutions</title>
+        <description>&lt;h1 id=&quot;demystifying-deconvolutions&quot;&gt;Demystifying Deconvolutions&lt;/h1&gt; &lt;p&gt;This article mainly discusses about &lt;strong&gt;&lt;em&gt;Up-sampling with Deconvolution&lt;/em&gt;&lt;/strong&gt;. If you’ve heard about the term Deconvolution, and are willing to learn more about it, please read on.&lt;/p&gt; &lt;p&gt;The contents of the this article is as follows:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The need for Up-sampling&lt;/li&gt; &lt;li&gt;Convolution Operation&lt;/li&gt; &lt;li&gt;Going backward&lt;/li&gt; &lt;li&gt;Convolution Matrix&lt;/li&gt; &lt;li&gt;Transposed Convolution Matrix&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Deconvolution is also known as &lt;strong&gt;Transposed Convolution&lt;/strong&gt; and &lt;strong&gt;Fractionally-strided Convolution&lt;/strong&gt;.&lt;/p&gt; &lt;h2 id=&quot;the-need-for-up-sampling&quot;&gt;The need for Up-sampling&lt;/h2&gt; &lt;p&gt;When we use neural networks to process or generate images, there is a decrease in the size of the intermediate images in the subsequent layers.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/deconv/p1.png&quot; alt=&quot;fig1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Sometimes, when an...</description>
+        <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/deconv/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/deconv/</guid>
+        
+        <category>Deep Learning</category>
+        
+        <category>Convolution</category>
+        
+        <category>Up-sampling</category>
+        
+        <category>Neural Networks</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Supercapacitors</title>
@@ -150,68 +202,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Light backscatter application</title>
-        <description>&lt;h1 id=&quot;measure-of-fat-content-in-milk-with-led-and-ldr&quot;&gt;Measure of fat content in milk with LED and LDR&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;India's milk production&lt;/strong&gt; is estimated to have increased by 6.6 per cent during the last four year. Price of milk is based on the quantity of FAT present in milk . so we need machine which can measures milk parameters like SNF (Solid but Not FAT), FAT, CLR, with less cost.&lt;/p&gt; &lt;p&gt;The important thing is that machine should be cheaper and only based on electricity .then it is very helpful for the remote area also.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Coming to the point photometric based sensor or light backscatter application technique is able...</description>
-        <pubDate>Sun, 21 Oct 2018 01:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/light-backscatter-application/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/light-backscatter-application/</guid>
-        
-        <category>light backscatter</category>
-        
-        <category>fat content in milk</category>
-        
-        <category>gerber method</category>
-        
-        <category>coagulating milk</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Why 'you' need GPU</title>
-        <description>&lt;h1 id=&quot;why-you-need-gpu&quot;&gt;Why you need GPU&lt;/h1&gt; &lt;p&gt;You’ve probably wanted to buy a laptop/desktop with a GPU to play those awesome high graphics games that your friends keep talking about, and yes your parents wouldv’e probably said “You’re not going to get that. You need to study now”. But is that all the use there is for a GPU?&lt;/p&gt; &lt;h3 id=&quot;gpu-vs-cpu&quot;&gt;GPU vs CPU&lt;/h3&gt; &lt;p&gt;Yeah we all know what they stand for, so let’s skip that and get a little technical.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/why-you-need-gpu/cpuvsgpu.jpg&quot; alt=&quot;GPUvsCPU&quot; /&gt;&lt;/p&gt; &lt;p&gt;To put it in one line, we can say that if the CPU is being used for computations,...</description>
-        <pubDate>Sun, 21 Oct 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/why-you-need-gpu/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-you-need-gpu/</guid>
-        
-        <category>GPU</category>
-        
-        <category>parallel computing</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Varistor</title>
-        <description>&lt;p&gt;&lt;strong&gt;Varistor&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The name itself might have given you some idea about what it is, varistor stands for variable resistor&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What is a varistor?&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Varistor is a varying resistor whose resistance depends on applied voltage,one of the special features of varistor is that it possesses non ohmic characteristics, which defines themselves as a non linear type of resistors&lt;/p&gt; &lt;p&gt;It has two semiconductor elements fixed in a particular fashion (i.e. anti-parallel to each other) as to provide same characteristics for both directions of traversing current&lt;/p&gt; &lt;p&gt;Its composition might have provided you with the insight that as it is made of semiconductor, it’s...</description>
-        <pubDate>Sun, 14 Oct 2018 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Varistor/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Varistor/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Diode</category>
-        
-        <category>resistors</category>
-        
-        <category>capacitors</category>
-        
-        <category>zener diode</category>
-        
-        <category>voltage transients</category>
-        
-        <category>regulators</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
