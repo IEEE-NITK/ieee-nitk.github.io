@@ -5,9 +5,57 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Nov 2018 19:11:35 +0530</pubDate>
-    <lastBuildDate>Sun, 11 Nov 2018 19:11:35 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.4</generator>
+    <pubDate>Sun, 02 Dec 2018 00:46:44 +0530</pubDate>
+    <lastBuildDate>Sun, 02 Dec 2018 00:46:44 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>MicroLED</title>
+        <description>&lt;h1 id=&quot;microled&quot;&gt;MicroLED&lt;/h1&gt; &lt;h1 id=&quot;the-future-of-television&quot;&gt;The Future of Television?&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;INTRODUCTION&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Recently at the CES(Consumers Electronics Show) 2018 Samsung unveiled its prototype of the MicroLED at the consumer level with a 146inch MicroLED TV under the name &quot;The Wall&quot;. MicroLED technology was invented in the year 2000 by a research group run by Prof. Hongxing Jiang and Prof. Jingyu Lin of the Texas Tech University. However, the first demonstration of MicroLED as a consumer product can be traced back to Sony's 55-inch FullHD &quot;Crystal LED Display&quot; that was showcased back in 2012. This was incredibly expensive and was not viable on a commercial...</description>
+        <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/microled/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/microled/</guid>
+        
+        <category>LED</category>
+        
+        <category>Television</category>
+        
+        <category>Micro</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Ballistics</title>
+        <description>&lt;p&gt;﻿&lt;strong&gt;Ballistics&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Ballistics&lt;/strong&gt; is the science of the propulsion, flight, and impact of projectiles especially bullets, unguided bombs or rockets. It is divided into several disciplines. &lt;em&gt;Internal and external ballistics&lt;/em&gt;, respectively, deal with the propulsion and the flight of projectiles. The transition between these two regimes is called &lt;em&gt;intermediate ballistics&lt;/em&gt;. &lt;em&gt;Terminal ballistics&lt;/em&gt; concerns the impact of projectiles which is a separate category that study the wounding of personnel&lt;/p&gt; &lt;p&gt;##&lt;strong&gt;Internal Ballistics&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;A fire arm cartridge contains four components namely &lt;em&gt;Primer, Case, Propellent&lt;/em&gt; and &lt;em&gt;Bullet__.&lt;/em&gt; The basic working of a fire arm is that when the trigger is pressed the firing pin of...</description>
+        <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/ballistics/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ballistics/</guid>
+        
+        <category>Ballistics</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Zero Knowledge Proof</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/ZeroKnowledgeProof/introduction.jpg&quot; alt=&quot;introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;In cryptography, &lt;em&gt;zero knowledge proof&lt;/em&gt; or &lt;em&gt;zero knowledge protocol&lt;/em&gt; is a method by which one party proves to another party that they know some kind of secret without revealing any information about the secret, except the fact that they know it. This principle is based on an algorithm that takes some data as input and returns either &lt;em&gt;true&lt;/em&gt; or &lt;em&gt;false&lt;/em&gt;.&lt;/p&gt; &lt;h2 id=&quot;understanding-the-concept-behind-zkps&quot;&gt;Understanding the concept behind ZKPs&lt;/h2&gt; &lt;p&gt;The complexity of zero-knowledge proofs results in them typically being described with abstract examples, which elucidate the concept well.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Suppose there is an underground cave with...</description>
+        <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/</guid>
+        
+        <category>ZKP</category>
+        
+        <category>Cryptography</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Organic Photovoltaics</title>
@@ -135,70 +183,6 @@
         <category>treatment</category>
         
         <category>surgeries</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Electronic Aspirin</title>
-        <description>&lt;h1 id=&quot;electronic-aspirin&quot;&gt;ELECTRONIC ASPIRIN&lt;/h1&gt; &lt;p&gt;For people who suffer from migraines, cluster headaches and other causes of chronic, excruciating head or facial pain, the &quot;take two aspirins and call me in the morning&quot; method is useless. Doctors have long associated the most severe, chronic forms of headache with the sphenopalatine ganglion (SPG), a facial nerve bundle, but haven't yet found a treatment that works on the SPG long-term.&lt;/p&gt; &lt;p&gt;Well, there is technology for the rescue: &lt;strong&gt;The Electronic Aspirin&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;It is a patient-powered tool for blocking SPG signals at the first sign of a headache.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Working&lt;/strong&gt; :&lt;/p&gt; &lt;p&gt;It consists of two components. A...</description>
-        <pubDate>Sun, 28 Oct 2018 03:03:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/electronic-aspirin/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/electronic-aspirin/</guid>
-        
-        <category>electronics</category>
-        
-        <category>neurostimulators</category>
-        
-        <category>remote control</category>
-        
-        <category>SPG</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Web 3.0: The upcoming Web revolution</title>
-        <description>&lt;h2 id=&quot;web-30-what-in-the-world-is-that&quot;&gt;Web 3.0?? What in the world is that???!!!&lt;/h2&gt; &lt;p&gt;There is a lot of buzz around web 3.0 and the changes it can bring in the world of tech. But only a few know what it actually is…Before hopping into web 3.0 let us know a little about its predecessors.&lt;/p&gt; &lt;p&gt;The &lt;em&gt;Web 1.0&lt;/em&gt; , which started the whole damn internet and the &lt;em&gt;Web 2.0&lt;/em&gt; that we all use and love so much. Web 1.0 was just a set of &lt;em&gt;static websites&lt;/em&gt; . It comprised of a load of websites with no interactive information. But as the internet got faster and...</description>
-        <pubDate>Sun, 28 Oct 2018 03:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/web-3-0/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/web-3-0/</guid>
-        
-        <category>Web 3.0</category>
-        
-        <category>Ethereum</category>
-        
-        <category>Blockchains</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Vortices</title>
-        <description>&lt;h1 id=&quot;vortices&quot;&gt;Vortices&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“&lt;em&gt;When everything seems to be going against you, remember that an airplane takes off against the wind, not with it&lt;/em&gt;” – Henry Ford&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This article has been written especially for those who are interested in aerodynamics and also for people who are curious to know how small modifications in design help make an airplane or a car more aerodynamically efficient. The content is from an aerodynamic point of view, in an airflow.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/vortices/1.jpg&quot; alt=&quot;Fig.1&quot; title=&quot;Fig.1&quot; /&gt;&lt;/p&gt; &lt;p&gt;A Vortex (Fig. 1) is nothing but a region in a fluid which revolves about a certain axis. These...</description>
-        <pubDate>Sun, 21 Oct 2018 02:50:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/vortices/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/vortices/</guid>
-        
-        <category>aerodynamics</category>
-        
-        <category>vortex</category>
-        
-        <category>formula 1</category>
-        
-        <category>aviation</category>
-        
-        <category>flight</category>
-        
-        <category>airflow</category>
-        
-        <category>fluids</category>
         
         
         <category>Piston</category>
