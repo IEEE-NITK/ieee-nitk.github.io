@@ -15,7 +15,7 @@ github_username: 'arpi-r'
 
 ## Introduction
 
-![introduction](/blog/assets/img/ZeroKnowledgeProof/introduction.jpg)
+![Introduction](/blog/assets/img/ZeroKnowledgeProof/introduction.jpg)
 
 In cryptography, *zero knowledge proof* or *zero knowledge protocol* is a method by which one party proves to another party that they know some kind of secret without revealing any information about the secret, except the fact that they know it. This principle is based on an algorithm that takes some data as input and returns either *true* or *false*.
 
@@ -56,7 +56,7 @@ A few start-ups and enterprises like ZCash, QED-it, ING and Nuggets use ZKP as a
 
 Zero-knowledge Proof enables the transfer of assets across this distributed, peer-to-peer blockchain network with complete privacy. In regular blockchain transactions, when an asset is sent from one party to another, the details of that transaction are visible to every other party in the network. However, in a zero-knowledge transaction, the others only know that a valid transaction has taken place, but nothing about the sender, recipient, asset class and quantity. The identity and amount being spent can remain hidden.
 
-![applications](/blog/assets/img/ZeroKnowledgeProof/application.jpg)
+![Applications](/blog/assets/img/ZeroKnowledgeProof/application.jpg)
 
 ## Conclusion
 
