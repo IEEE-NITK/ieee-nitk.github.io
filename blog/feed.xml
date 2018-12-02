@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Dec 2018 00:46:44 +0530</pubDate>
-    <lastBuildDate>Sun, 02 Dec 2018 00:46:44 +0530</lastBuildDate>
+    <pubDate>Mon, 03 Dec 2018 00:06:17 +0530</pubDate>
+    <lastBuildDate>Mon, 03 Dec 2018 00:06:17 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>MicroLED</title>
-        <description>&lt;h1 id=&quot;microled&quot;&gt;MicroLED&lt;/h1&gt; &lt;h1 id=&quot;the-future-of-television&quot;&gt;The Future of Television?&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;INTRODUCTION&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Recently at the CES(Consumers Electronics Show) 2018 Samsung unveiled its prototype of the MicroLED at the consumer level with a 146inch MicroLED TV under the name &quot;The Wall&quot;. MicroLED technology was invented in the year 2000 by a research group run by Prof. Hongxing Jiang and Prof. Jingyu Lin of the Texas Tech University. However, the first demonstration of MicroLED as a consumer product can be traced back to Sony's 55-inch FullHD &quot;Crystal LED Display&quot; that was showcased back in 2012. This was incredibly expensive and was not viable on a commercial...</description>
+        <description>&lt;h1 id=&quot;the-future-of-television&quot;&gt;The Future of Television?&lt;/h1&gt; &lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt; &lt;p&gt;Recently at the CES(Consumers Electronics Show) 2018 Samsung unveiled its prototype of the MicroLED at the consumer level with a 146inch MicroLED TV under the name “The Wall”. MicroLED technology was invented in the year 2000 by a research group run by Prof. Hongxing Jiang and Prof. Jingyu Lin of the Texas Tech University. However, the first demonstration of MicroLED as a consumer product can be traced back to Sony’s 55-inch FullHD “Crystal LED Display” that was showcased back in 2012. This was incredibly expensive and was not viable on a commercial scale....</description>
         <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/microled/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/microled/</guid>
@@ -29,7 +29,7 @@
     
       <item>
         <title>Ballistics</title>
-        <description>&lt;p&gt;﻿&lt;strong&gt;Ballistics&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Ballistics&lt;/strong&gt; is the science of the propulsion, flight, and impact of projectiles especially bullets, unguided bombs or rockets. It is divided into several disciplines. &lt;em&gt;Internal and external ballistics&lt;/em&gt;, respectively, deal with the propulsion and the flight of projectiles. The transition between these two regimes is called &lt;em&gt;intermediate ballistics&lt;/em&gt;. &lt;em&gt;Terminal ballistics&lt;/em&gt; concerns the impact of projectiles which is a separate category that study the wounding of personnel&lt;/p&gt; &lt;p&gt;##&lt;strong&gt;Internal Ballistics&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;A fire arm cartridge contains four components namely &lt;em&gt;Primer, Case, Propellent&lt;/em&gt; and &lt;em&gt;Bullet__.&lt;/em&gt; The basic working of a fire arm is that when the trigger is pressed the firing pin of...</description>
+        <description>&lt;p&gt;Ballistics is the science of the propulsion, flight, and impact of projectiles especially bullets, unguided bombs or rockets. It is divided into several disciplines. &lt;em&gt;Internal and external ballistics&lt;/em&gt;, respectively, deal with the propulsion and the flight of projectiles. The transition between these two regimes is called &lt;em&gt;intermediate ballistics&lt;/em&gt;. &lt;em&gt;Terminal ballistics&lt;/em&gt; concerns the impact of projectiles which is a separate category that study the wounding of personnel&lt;/p&gt; &lt;h2 id=&quot;internal-ballistics&quot;&gt;Internal Ballistics&lt;/h2&gt; &lt;p&gt;A fire arm cartridge contains four components namely &lt;em&gt;Primer, Case, Propellent&lt;/em&gt; and &lt;em&gt;Bullet__.&lt;/em&gt; The basic working of a fire arm is that when the trigger is pressed the firing pin of...</description>
         <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/ballistics/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ballistics/</guid>
@@ -43,7 +43,7 @@
     
       <item>
         <title>Zero Knowledge Proof</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/ZeroKnowledgeProof/introduction.jpg&quot; alt=&quot;introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;In cryptography, &lt;em&gt;zero knowledge proof&lt;/em&gt; or &lt;em&gt;zero knowledge protocol&lt;/em&gt; is a method by which one party proves to another party that they know some kind of secret without revealing any information about the secret, except the fact that they know it. This principle is based on an algorithm that takes some data as input and returns either &lt;em&gt;true&lt;/em&gt; or &lt;em&gt;false&lt;/em&gt;.&lt;/p&gt; &lt;h2 id=&quot;understanding-the-concept-behind-zkps&quot;&gt;Understanding the concept behind ZKPs&lt;/h2&gt; &lt;p&gt;The complexity of zero-knowledge proofs results in them typically being described with abstract examples, which elucidate the concept well.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Suppose there is an underground cave with...</description>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/ZeroKnowledgeProof/introduction.jpg&quot; alt=&quot;Introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;In cryptography, &lt;em&gt;zero knowledge proof&lt;/em&gt; or &lt;em&gt;zero knowledge protocol&lt;/em&gt; is a method by which one party proves to another party that they know some kind of secret without revealing any information about the secret, except the fact that they know it. This principle is based on an algorithm that takes some data as input and returns either &lt;em&gt;true&lt;/em&gt; or &lt;em&gt;false&lt;/em&gt;.&lt;/p&gt; &lt;h2 id=&quot;understanding-the-concept-behind-zkps&quot;&gt;Understanding the concept behind ZKPs&lt;/h2&gt; &lt;p&gt;The complexity of zero-knowledge proofs results in them typically being described with abstract examples, which elucidate the concept well.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Suppose there is an underground cave with...</description>
         <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/</guid>

@@ -9,8 +9,8 @@ tags:
 - Ballistics
 categories:
 - Piston
+github_username: 'RahulRL'
 ---
-﻿**Ballistics**
 
  Ballistics is the science of the propulsion, flight, and impact of projectiles especially bullets, unguided bombs or rockets. It is divided into several disciplines. _Internal and external ballistics_, respectively, deal with the propulsion and the flight of projectiles. The transition between these two regimes is called _intermediate ballistics_. _Terminal ballistics_ concerns the impact of projectiles which is a separate category that study the wounding of personnel
 
