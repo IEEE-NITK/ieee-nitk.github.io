@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "MicroLED",
+      "category" : "Diode",
+      "tags"     : "LED, Television, and Micro",
+      "url"      : "http://ieee.nitk.ac.in/blog//microled/",
+      "date"     : "01 Dec 2018",
+      "author"   : "Suraj Jagannath"
+    } ,
+  
+    {
+      "title"    : "Ballistics",
+      "category" : "Piston",
+      "tags"     : "Ballistics",
+      "url"      : "http://ieee.nitk.ac.in/blog//ballistics/",
+      "date"     : "01 Dec 2018",
+      "author"   : "Rahul R L"
+    } ,
+  
+    {
+      "title"    : "Zero Knowledge Proof",
+      "category" : "Compsoc",
+      "tags"     : "ZKP and Cryptography",
+      "url"      : "http://ieee.nitk.ac.in/blog//ZeroKnowledgeProof/",
+      "date"     : "01 Dec 2018",
+      "author"   : "Arpitha Raghunandan"
+    } ,
+  
+    {
       "title"    : "Organic Photovoltaics",
       "category" : "Diode",
       "tags"     : "Organic Photovoltaics, Excitons, and Photo-active layer",
