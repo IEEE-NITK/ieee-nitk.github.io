@@ -41,7 +41,7 @@
 		<!-- Fixing viewport on mobile views -->
 		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
 
-		<title>CAS | IEEE NITK</title>    
+		<title>CAS/SPS | IEEE NITK</title>    
 
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
@@ -98,26 +98,24 @@
 					<li data-menuanchor="about">
 						<a href="./index.html">Home</a>
 					</li>
-					<li data-menuanchor="sigs">
-						<a href="./compsoc.html">CompSoc</a>
-					</li>
-					<li data-menuanchor="events">
-						<a href="./diode.html">Diode</a>
-					</li>
-					<li data-menuanchor="team">
-						<a href="./piston.html">Piston</a>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">SIGs</button>
+							<div class="dropdown-content">
+							<a href="compsoc.html">Computer Society</a>
+							<a href="diode.html">CAS/SPS</a>
+							<a href="piston.html">Piston</a>
+							<a href="./wie.html">Women in Engineering</a>
+							<a href="./sight.html">SIGHT</a>
+							<a href="ias.html">Industrial Applications Society</a>
+							</div>
+						  </div>
 					</li>
 					<li>
-						<a href="./wie.html">WIE</a>
+						<a href="blog/">Blog</a>
 					</li>
 					<li>
-						<a href="./sight.html">SIGHT</a>
-					</li>
-					<li>
-						<a href="./blog/">Blog</a>
-					</li>
-					<li>
-						<a href="./gyan/">Gyan</a>
+						<a href="gyan/">Gyan</a>
 					</li>
 					<li>
 						<a href="publications.html">Publications</a>
@@ -137,7 +135,7 @@
             <div id="particles-js"></div>
 			
 			<div class="block_title">
-				<h2>Diode
+				<h2>Circuits and Systems & Signal Processing Society
 				</h2>
 			</div>
 		</div>
@@ -150,14 +148,54 @@
 						</h3>
 					</div>
 					<p class="sans">
-					The Circuits and Systems SIG works on conceiving and pioneering solutions to fundamental and applied problems in circuits and systems.
-					</p>
+							The Circuits and Systems and Signal Processing Society SIG works on conceiving and pioneering solutions to fundamental and applied problems in circuits, systems and signal processing.					</p>
 				</div>
+				<hr><center>
+						<img style="max-width:600px" src="res/img/flowcharts/flowchart_ieee_diode_projects_1_v4-01.png"></center>
 				<div class="projects" id="projects">
-					
+						<div class="intro">
+								<h1>
+								Projects
+								</h1>
+						</div>
+						<div class="project">
+							<h2>Boost Convertor</h2>
+							<p>This project aims to build a boost converter,replacing Si based MOSFETs with GaN HEMTs(High Electron mobility transistor) ,grown on SiC or Si substrate.Using GaN based switches enables us to operate on high switching frequency such as 1MHz due to low on resistance of the wide band gap.</p>
+						</div>
+						<div class="project">
+							<h2>Crash Prediction</h2>
+							<p>The purpose of this project is the analyse car dash cam and road surveillance videos to predict accidents/crashes before they occur. Our dataset includes videos with and without crashes. This project entails video data processing: video segmentation, object recognition and then extracting features. We will then train a learning model that will take in a video as input and predict whether or not a crash will occur.</p>
+						</div>
+						<div class="project">
+							<h2>Emotion Recognition</h2>
+							<p>Project aims to create a system that can tell the emotion present in a given speech sample. There are a variety of temporal and spectral features that can be extracted from human speech. We use statistics relating to the pitch, Mel Frequency Cepstral Coefficients (MFCCs) and Formants of speech as inputs to classification algorithms. The emotion recognition accuracy of these experiments allow us to explain which features carry the most emotional information and why. It also allows us to develop criteria to class emotions together. Using these techniques we will try to achieve high emotion recognition accuracy.</p>
+						</div>
+						<div class="project">
+							<h2>Follow Me Bot</h2>
+							<p>The idea of this project stems from the newly introduced amazon shops which uses video cameras as it’s sensor. This project aims to build a trolley which follows the person assigned using the information from the overhead camera. <br>
+									Aim of this project is to build a bot which follows a person using overhead camera as it’s sensors. The camera should take snaps in small regular intervals. The processing of these images will take place in the laptop, where the person to be followed and the bot are separated out from the rest of the objects or obstacles’. The information of the path to be followed is relayed to the bot using Bluetooth. We initially plan to implement the above mentioned using a single camera sweeping a certain region. Then, we’ll move forward to two cameras with intersecting fields of view. To identify the person, we initially plan to make them wear a jacket. We’ll try to find better methods of identification as we make progress in the project.</p>
+						</div>
+						<div class="project">
+							<h2>Image Generation using GAN</h2>
+							<p>Currently many artificial intelligence algorithms are used in medical applications involving segmentation and classification of brain tumors. But in order to implement the algorithm huge datasets are required. But the available datasets do not contain enough images. One of the methods is dataset augmentation. We propose to use GANs to increase the volume of the data. Extension of the current problem statement would be to generate other biomedical images.</p>
+						</div>
+						<div class="project">
+							<h2>Indoor Positioning using LIFi</h2>
+							<p>The project attempts to locate the current position on an object located indoor. The GPS technology as we alll know is used for general positioning ,but can be used in the indor,as its not accurate enough for the proper positioning,so a different technology was proposed using RSSI from WiFi modules which again is a problem due to the interference ,reflection of the Transmitted waves resulting in erroneous RSSI values and thus erroneous positioning .The project using light for the information transfer aims to overcome these limitations.</p>
+						</div>											
+						<div class="project">
+							<h2>Optical Music Recognition</h2>
+							<p>Optical Music Recognition, an application of Optical Character Recognition is a use of machine vision to simplify the sight-reading process for novice musicians and professionals alike. This project aims to use Python and OpenCV to develop an application that takes in a document of sheet music as an input and provides the necessary musical notes (eg: C sharp, E flat, etc.) as a prompt to the performer. An additional objective would be to develop a computerized music playing system that interprets the sheet music and automatically plays the music as well.</p>
+						</div>
+						<div class="project">
+							<h2>Voice Controlled Bot</h2>
+							<p>This project is aimed to control a robot with speech commands. Voice Controlled robot is a mobile robot whose motions can be controlled by the user by giving specific voice commands. The speech recognition algorithm is capable of identifying the voice commands. After processing the speech, the appropriate actions are executed. The robot is able to recognize the spoken commands to move correctly. For the speech recognition, we will compare 2-3 state of the art algorithms and choose the one which best suits our requirement.</p>
+						</div>
 				</div>
 			</div>
 			<div class="sidebar">
+					<h4>Course Registration Code</h3>
+						<p id="sans">CAS - SBC98631A</p><br><p id="sans">SPS - SBC98631B</p>
 				<h3>Related Articles</h3>
 				<div class="related-articles">
 				</div>
