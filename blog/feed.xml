@@ -5,9 +5,29 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Dec 2018 10:53:54 +0530</pubDate>
-    <lastBuildDate>Sat, 08 Dec 2018 10:53:54 +0530</lastBuildDate>
+    <pubDate>Sat, 08 Dec 2018 15:24:20 +0530</pubDate>
+    <lastBuildDate>Sat, 08 Dec 2018 15:24:20 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>NanoMachines</title>
+        <description>&lt;h1 id=&quot;nanomachines&quot;&gt;NANOMACHINES&lt;/h1&gt; &lt;p&gt;This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications&lt;/p&gt; &lt;h2 id=&quot;what-is-the-difference-between-micro-and-nano-systems&quot;&gt;What is the difference between micro and nano systems?&lt;/h2&gt; &lt;p&gt;When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under &lt;strong&gt;HR-TEM (High Resolution Tunneling Electron Microscope)&lt;/strong&gt; or &lt;strong&gt;thermal imaging techniques.&lt;/strong&gt; &lt;img src=&quot;/blog/assets/img/nanomachines/2-nanocars.png&quot; alt=&quot;A nano car developed...</description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/nanomachines/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanomachines/</guid>
+        
+        <category>MEMS</category>
+        
+        <category>NEMS</category>
+        
+        <category>Nanotechnology</category>
+        
+        <category>Biomedics</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Cloud Gaming</title>
@@ -166,26 +186,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>KMP Algorithm</title>
-        <description>&lt;p&gt;I’d like to talk about an algorithm that I believe should be in any Software Engineer’s toolkit. That is, the KMP algorithm named after its three inventors: Knuth-Morris-Pratt. The algorithm was designed to solve efficiently a very common problem. That is the problem of finding whether or not one string is a substring of a different string.&lt;/p&gt; &lt;h3 id=&quot;brute-force&quot;&gt;Brute Force&lt;/h3&gt; &lt;p&gt;Let’s start first with the original problem. We would like to implement the function: int strstr(const string &amp;amp;Str, const string&amp;amp; Pattern); The brute force solution of this function entails two loops, one over Str and one over pattern. Let’s see...</description>
-        <pubDate>Sat, 03 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/KMP-Algorithm/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/KMP-Algorithm/</guid>
-        
-        <category>KMP</category>
-        
-        <category>Strings</category>
-        
-        <category>Competitive Programming</category>
-        
-        <category>C++</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
