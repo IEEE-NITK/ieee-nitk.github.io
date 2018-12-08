@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Cloud Gaming",
+      "category" : "Compsoc",
+      "tags"     : "Gaming, Cloud, Google Project Stream, and Nvidia Now",
+      "url"      : "http://ieee.nitk.ac.in/blog//cloud-gaming/",
+      "date"     : "08 Dec 2018",
+      "author"   : "Aakash Singh"
+    } ,
+  
+    {
       "title"    : "MicroLED",
       "category" : "Diode",
       "tags"     : "LED, Television, and Micro",

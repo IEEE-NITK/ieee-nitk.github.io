@@ -5,9 +5,29 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Dec 2018 00:06:17 +0530</pubDate>
-    <lastBuildDate>Mon, 03 Dec 2018 00:06:17 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sat, 08 Dec 2018 10:53:54 +0530</pubDate>
+    <lastBuildDate>Sat, 08 Dec 2018 10:53:54 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>Cloud Gaming</title>
+        <description>&lt;h1 id=&quot;cloud-gaming&quot;&gt;Cloud Gaming&lt;/h1&gt; &lt;p&gt;Till today gaming had been possible only on dedicated machines like PCs, gaming consoles like nintendo, playstations and xbox and in the recent times on mobile phones too. But even today the AAA titles or the large budget games like Assassin’s Creed Unity, GTA 5 are only available on consoles and PCs(only windows), but a new technology is emerging today which aims to break all barriers and bring AAA gaming to all devices alike(yes, even to mac and linux). Read on to find what this new &lt;strong&gt;awesome tech&lt;/strong&gt; is all about and how you can get a...</description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/cloud-gaming/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/cloud-gaming/</guid>
+        
+        <category>Gaming</category>
+        
+        <category>Cloud</category>
+        
+        <category>Google Project Stream</category>
+        
+        <category>Nvidia Now</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>MicroLED</title>
@@ -166,26 +186,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Coronary Stents</title>
-        <description>&lt;h2 id=&quot;how-coronary-stents--work&quot;&gt;How coronary stents work?&lt;/h2&gt; &lt;p&gt;A Brief Breakdown On One Of The Most Frequented Surgeries.&lt;/p&gt; &lt;p&gt;Ever wondered how exactly stents are used during or after an angioplasty? Why did this method replace bypass surgeries for minor heart attacks ? Well, read on to comprehend.&lt;/p&gt; &lt;h2 id=&quot;what-is-coronary-artery-disease-cad&quot;&gt;What is coronary artery disease (CAD)?&lt;/h2&gt; &lt;p&gt;CAD happens when a waxy substance called plaque builds up on the inner walls of the coronary arteries. This causes the arteries to harden and narrow, decreasing blood flow to the heart. As a result , the heart doesnt getthe blood, oxygen and nutrients it needs, which can lead...</description>
-        <pubDate>Sun, 28 Oct 2018 03:12:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/coronary-stents/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/coronary-stents/</guid>
-        
-        <category>heart</category>
-        
-        <category>disease</category>
-        
-        <category>treatment</category>
-        
-        <category>surgeries</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
