@@ -259,7 +259,7 @@ div#particles-js {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3.0em;
+    font-size: 2em;
     text-align: center;
 }
 .img_holder h2{
