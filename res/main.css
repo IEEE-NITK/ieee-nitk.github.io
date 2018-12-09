@@ -144,7 +144,7 @@ nav {
     top: 0px;
     width: 100%;
     white-space: nowrap;
-    height: 7vh;
+    height: 8vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     overflow: visible;
@@ -161,7 +161,8 @@ nav {
 }
 
 nav #small_logo {
-    height: 7vh;
+    width: 70px;
+    bottom: 3px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -806,7 +807,7 @@ footer .icon img {
 }
 
 .footer-div {
-    padding: 4px;
+    padding: 3px;
     font-size: 0.8em;
 }
 
@@ -822,7 +823,6 @@ footer .icon img {
 
 .footer-div {
     position: relative;
-    margin: 1em;
     overflow: hidden;
 }
 .footer-div ul {
