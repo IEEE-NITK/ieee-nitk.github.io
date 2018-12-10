@@ -10,6 +10,15 @@
     } ,
   
     {
+      "title"    : "Gesture Controlled Robot",
+      "category" : "Diode",
+      "tags"     : "Gesture controlled, accelerometer, RF transmitter, RF receiver, and motor driver",
+      "url"      : "http://ieee.nitk.ac.in/blog//gesture_controlled_robot/",
+      "date"     : "08 Dec 2018",
+      "author"   : "Deepanshi"
+    } ,
+  
+    {
       "title"    : "Cloud Gaming",
       "category" : "Compsoc",
       "tags"     : "Gaming, Cloud, Google Project Stream, and Nvidia Now",

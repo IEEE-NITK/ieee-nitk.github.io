@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Dec 2018 15:24:20 +0530</pubDate>
-    <lastBuildDate>Sat, 08 Dec 2018 15:24:20 +0530</lastBuildDate>
+    <pubDate>Mon, 10 Dec 2018 09:22:05 +0530</pubDate>
+    <lastBuildDate>Mon, 10 Dec 2018 09:22:05 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
@@ -26,6 +26,28 @@
         
         
         <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Gesture Controlled Robot</title>
+        <description>&lt;h1 id=&quot;gesture-controlled-robot&quot;&gt;GESTURE CONTROLLED ROBOT&lt;/h1&gt; &lt;h3 id=&quot;jarvis-suit-me-up-clang-spoof-phew-tony-stark-becomes-iron-man&quot;&gt;&quot;JARVIS, Suit me Up!&quot;, &quot;Clang! Spoof! Phew!&quot;, Tony Stark becomes IRON MAN!&lt;/h3&gt; &lt;h3 id=&quot;have-you-ever-wondered-what-if-just-like-that-with-one-cool-move-you-too-could-control-and-move-objects-around-you-or-maybe-develop-a-gesture-&quot;&gt;Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-&lt;/h3&gt; &lt;h3 id=&quot;controlled-game-like-in-the-movie-ra-one-well-here-i-have-tried-to-design-and-build-a-mini-version-of-it-a-robot-controlled-by-hand-gestures&quot;&gt;controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.&lt;/h3&gt; &lt;h3 id=&quot;but-first-up-what-exactly-is-a-gesture-controlled-robot&quot;&gt;But first up, what exactly is a Gesture Controlled Robot?&lt;/h3&gt; &lt;h3 id=&quot;a-robot-which-detects-any-movementgesture-and-functions-depending-upon-these-signals-is-a-gesture-controlled-robot-they-can-use-different-technologies-viz-accelerometer-based-sensing-wired-or-wireless-or-image-processing&quot;&gt;A Robot which detects any movement(gesture) and functions depending upon these signals is a...</description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</guid>
+        
+        <category>Gesture controlled</category>
+        
+        <category>accelerometer</category>
+        
+        <category>RF transmitter</category>
+        
+        <category>RF receiver</category>
+        
+        <category>motor driver</category>
+        
+        
+        <category>Diode</category>
         
       </item>
     
@@ -168,24 +190,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Drive By Wire</title>
-        <description>&lt;h1 id=&quot;drive-by-wire&quot;&gt;Drive-by-wire&lt;/h1&gt; &lt;p&gt;Drive by wire is a catch all term that can refer to a number of electronic systems that take either augment or completely replace traditional mechanical controls.Instead of using cables, hydraulic pressure and other ways of providing a driver with direct, physical control over the speed or direction of a vehicle, drive-by-wire technology uses electronic controls to activate the brakes, controls the steering, and operate other systems.Although it’s well-established in the airline industry, drive-by-wire has been slow in its introduction to the car. &lt;img src=&quot;/blog/assets/img/by_wire/fig1.jpg&quot; alt=&quot;fig1&quot; /&gt;&lt;/p&gt; &lt;h1 id=&quot;throttle-by-wire&quot;&gt;Throttle by wire&lt;/h1&gt; &lt;p&gt;A typical Electronic Throttle Control(ETC) system consists...</description>
-        <pubDate>Sat, 03 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/by-wire/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/by-wire/</guid>
-        
-        <category>Drive by wire</category>
-        
-        <category>Steer by wire</category>
-        
-        <category>Autonomous vehicle</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
