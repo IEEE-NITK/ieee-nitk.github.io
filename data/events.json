@@ -1,48 +1,53 @@
 {
   "event1": {
-    "title": "IEEE Discover",
-    "sig": "All SIGs",
-    "date": "13th-14th August, 2016"
-  },
-  "event2": {
-    "title": "Algorithmic​ Trading​ <br> and​ ML by​ ​Two​ Road​Tech.",
-    "sig": "All SIGs",
-    "date": "22nd​​ February, 2017"
-  },
-  "event3": {
     "title": "Envision",
     "sig": "All SIGs",
-    "date": "March 2017"
+    "date": "1st January, 2018"
+  },
+  "event2": {
+    "title": "ENLIGHTEN (Talk by ISRO Mission Director)",
+    "sig": "All SIGs",
+    "date": "19th February, 2018"
+  },
+  "event3": {
+    "title": "Annual Project Expo",
+    "sig": "All SIGs",
+    "date": "24th​ March 2018"
   },
   "event4": {
-    "title": "IEEE Project​ Expo",
+    "title": "Computer Society Distinguished Lecturer Program Speaker – Prof Tulika Mitra",
     "sig": "All SIGs",
-    "date": "8th​ April​ 2017"
+    "date": "13th​ August 2018"
   },
   "event5": {
-    "title": "INSIGHT",
+    "title": "IEEE MITE + IEEE NITK Collaboration Event – <br> One Day Workshop Series on PCB Design and Image Processing",
     "sig": "All SIGs",
-    "date": "23rd-24th August 2017"
+    "date": "18th August, 2018"
   },
   "event6": {
-    "title": "EUREKA",
-    "sig": "All SIGs",
-    "date": "24th-28th September 2017"
+    "title": "IEEE Praelium",
+    "sig": "IEEE & Web Enthusiasts Club",
+    "date": "6th October 2018"
   },
   "event7": {
-    "title": "Student Membership <br> Drive",
+    "title": "INSIGHT",
     "sig": "All SIGs",
-    "date": "2nd October 2017"
+    "date": "24th - 25th August 2018"
   },
   "event8": {
-    "title": "HacktoberFest",
-    "sig": "CompSoc",
-    "date": "October 2017"
+    "title": "EUREKA",
+    "sig": "All SIGs",
+    "date": "3rd - 6th October 2018"
   },
   "event9": {
-    "title": "University​ <br> Collaboration by​ Nokia",
-    "sig": "Diode",
-    "date": "13th October 2017"
+    "title": "Student Membership Drive 2018 | 2019 Renewal Cycle",
+    "sig": "All SIGs",
+    "date": "2nd October 2018"
+  },
+  "event10": {
+    "title": "Athena – Women’s Hackathon",
+    "sig": "By WiE",
+    "date": "3rd - 4th November 2018"
   }
   
 }
