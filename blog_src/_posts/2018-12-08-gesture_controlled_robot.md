@@ -111,3 +111,11 @@ Enjoy driving your robot!!!
 
 > ## Note
 > -You can refer to the previous blog- &quot;How to get started with bots&quot; by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.
+
+## Some basic arduino tutorials : 
+
+- [https://www.youtube.com/watch?v=fCxzA9_kg6s](https://www.youtube.com/watch?v=fCxzA9_kg6s)
+
+- [https://hackr.io/tutorials/learn-arduino](https://hackr.io/tutorials/learn-arduino)
+
+- [https://learn.sparkfun.com/tutorials/what-is-an-arduino/all](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)
