@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "NanoMachines",
+      "category" : "Piston",
+      "tags"     : "MEMS, NEMS, Nanotechnology, and Biomedics",
+      "url"      : "http://ieee.nitk.ac.in/blog//nanomachines/",
+      "date"     : "08 Dec 2018",
+      "author"   : "Shaswata Bose"
+    } ,
+  
+    {
+      "title"    : "Gesture Controlled Robot",
+      "category" : "Diode",
+      "tags"     : "Gesture controlled, accelerometer, RF transmitter, RF receiver, and motor driver",
+      "url"      : "http://ieee.nitk.ac.in/blog//gesture_controlled_robot/",
+      "date"     : "08 Dec 2018",
+      "author"   : "Deepanshi"
+    } ,
+  
+    {
+      "title"    : "Cloud Gaming",
+      "category" : "Compsoc",
+      "tags"     : "Gaming, Cloud, Google Project Stream, and Nvidia Now",
+      "url"      : "http://ieee.nitk.ac.in/blog//cloud-gaming/",
+      "date"     : "08 Dec 2018",
+      "author"   : "Aakash Singh"
+    } ,
+  
+    {
       "title"    : "MicroLED",
       "category" : "Diode",
       "tags"     : "LED, Television, and Micro",

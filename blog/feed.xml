@@ -5,9 +5,71 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Dec 2018 00:06:17 +0530</pubDate>
-    <lastBuildDate>Mon, 03 Dec 2018 00:06:17 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Tue, 11 Dec 2018 14:15:38 +0530</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 14:15:38 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.4</generator>
+    
+      <item>
+        <title>NanoMachines</title>
+        <description>&lt;p&gt;This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications&lt;/p&gt; &lt;h2 id=&quot;what-is-the-difference-between-micro-and-nano-systems&quot;&gt;What is the difference between micro and nano systems?&lt;/h2&gt; &lt;p&gt;When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under &lt;strong&gt;HR-TEM (High Resolution Tunneling Electron Microscope)&lt;/strong&gt; or &lt;strong&gt;thermal imaging techniques.&lt;/strong&gt; &lt;img src=&quot;/blog/assets/img/nanomachines/2-nanocars.png&quot; alt=&quot;A nano car developed by RICE...</description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/nanomachines/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanomachines/</guid>
+        
+        <category>MEMS</category>
+        
+        <category>NEMS</category>
+        
+        <category>Nanotechnology</category>
+        
+        <category>Biomedics</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Gesture Controlled Robot</title>
+        <description>&lt;p&gt;&quot;JARVIS, Suit me Up!&quot;, &quot;Clang! Spoof! Phew!&quot;, Tony Stark becomes IRON MAN!&lt;/p&gt; &lt;p&gt;Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.&lt;/p&gt; &lt;p&gt;But first up, what exactly is a Gesture Controlled Robot?&lt;/p&gt; &lt;p&gt;A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based...</description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</guid>
+        
+        <category>Gesture controlled</category>
+        
+        <category>accelerometer</category>
+        
+        <category>RF transmitter</category>
+        
+        <category>RF receiver</category>
+        
+        <category>motor driver</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Cloud Gaming</title>
+        <description>&lt;p&gt;Till today gaming had been possible only on dedicated machines like PCs, gaming consoles like nintendo, playstations and xbox and in the recent times on mobile phones too. But even today the AAA titles or the large budget games like Assassin’s Creed Unity, GTA 5 are only available on consoles and PCs(only windows), but a new technology is emerging today which aims to break all barriers and bring AAA gaming to all devices alike(yes, even to mac and linux). Read on to find what this new &lt;strong&gt;awesome tech&lt;/strong&gt; is all about and how you can get a glimpse of the...</description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/cloud-gaming/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/cloud-gaming/</guid>
+        
+        <category>Gaming</category>
+        
+        <category>Cloud</category>
+        
+        <category>Google Project Stream</category>
+        
+        <category>Nvidia Now</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>MicroLED</title>
@@ -128,64 +190,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Drive By Wire</title>
-        <description>&lt;h1 id=&quot;drive-by-wire&quot;&gt;Drive-by-wire&lt;/h1&gt; &lt;p&gt;Drive by wire is a catch all term that can refer to a number of electronic systems that take either augment or completely replace traditional mechanical controls.Instead of using cables, hydraulic pressure and other ways of providing a driver with direct, physical control over the speed or direction of a vehicle, drive-by-wire technology uses electronic controls to activate the brakes, controls the steering, and operate other systems.Although it’s well-established in the airline industry, drive-by-wire has been slow in its introduction to the car. &lt;img src=&quot;/blog/assets/img/by_wire/fig1.jpg&quot; alt=&quot;fig1&quot; /&gt;&lt;/p&gt; &lt;h1 id=&quot;throttle-by-wire&quot;&gt;Throttle by wire&lt;/h1&gt; &lt;p&gt;A typical Electronic Throttle Control(ETC) system consists...</description>
-        <pubDate>Sat, 03 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/by-wire/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/by-wire/</guid>
-        
-        <category>Drive by wire</category>
-        
-        <category>Steer by wire</category>
-        
-        <category>Autonomous vehicle</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>KMP Algorithm</title>
-        <description>&lt;p&gt;I’d like to talk about an algorithm that I believe should be in any Software Engineer’s toolkit. That is, the KMP algorithm named after its three inventors: Knuth-Morris-Pratt. The algorithm was designed to solve efficiently a very common problem. That is the problem of finding whether or not one string is a substring of a different string.&lt;/p&gt; &lt;h3 id=&quot;brute-force&quot;&gt;Brute Force&lt;/h3&gt; &lt;p&gt;Let’s start first with the original problem. We would like to implement the function: int strstr(const string &amp;amp;Str, const string&amp;amp; Pattern); The brute force solution of this function entails two loops, one over Str and one over pattern. Let’s see...</description>
-        <pubDate>Sat, 03 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/KMP-Algorithm/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/KMP-Algorithm/</guid>
-        
-        <category>KMP</category>
-        
-        <category>Strings</category>
-        
-        <category>Competitive Programming</category>
-        
-        <category>C++</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Coronary Stents</title>
-        <description>&lt;h2 id=&quot;how-coronary-stents--work&quot;&gt;How coronary stents work?&lt;/h2&gt; &lt;p&gt;A Brief Breakdown On One Of The Most Frequented Surgeries.&lt;/p&gt; &lt;p&gt;Ever wondered how exactly stents are used during or after an angioplasty? Why did this method replace bypass surgeries for minor heart attacks ? Well, read on to comprehend.&lt;/p&gt; &lt;h2 id=&quot;what-is-coronary-artery-disease-cad&quot;&gt;What is coronary artery disease (CAD)?&lt;/h2&gt; &lt;p&gt;CAD happens when a waxy substance called plaque builds up on the inner walls of the coronary arteries. This causes the arteries to harden and narrow, decreasing blood flow to the heart. As a result , the heart doesnt getthe blood, oxygen and nutrients it needs, which can lead...</description>
-        <pubDate>Sun, 28 Oct 2018 03:12:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/coronary-stents/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/coronary-stents/</guid>
-        
-        <category>heart</category>
-        
-        <category>disease</category>
-        
-        <category>treatment</category>
-        
-        <category>surgeries</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

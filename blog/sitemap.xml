@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/nanomachines/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/cloud-gaming/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/microled/</loc>
 	  </url>
 	
