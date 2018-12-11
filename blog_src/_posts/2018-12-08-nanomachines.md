@@ -16,7 +16,6 @@ github_username: 'ShaswataBose'
 use_math: true
 comments: false
 ---
-# NANOMACHINES
 This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications
 
 

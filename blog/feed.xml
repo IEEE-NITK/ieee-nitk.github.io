@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Dec 2018 09:22:05 +0530</pubDate>
-    <lastBuildDate>Mon, 10 Dec 2018 09:22:05 +0530</lastBuildDate>
+    <pubDate>Tue, 11 Dec 2018 11:05:52 +0530</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 11:05:52 +0530</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
       <item>
         <title>NanoMachines</title>
-        <description>&lt;h1 id=&quot;nanomachines&quot;&gt;NANOMACHINES&lt;/h1&gt; &lt;p&gt;This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications&lt;/p&gt; &lt;h2 id=&quot;what-is-the-difference-between-micro-and-nano-systems&quot;&gt;What is the difference between micro and nano systems?&lt;/h2&gt; &lt;p&gt;When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under &lt;strong&gt;HR-TEM (High Resolution Tunneling Electron Microscope)&lt;/strong&gt; or &lt;strong&gt;thermal imaging techniques.&lt;/strong&gt; &lt;img src=&quot;/blog/assets/img/nanomachines/2-nanocars.png&quot; alt=&quot;A nano car developed...</description>
+        <description>&lt;p&gt;This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications&lt;/p&gt; &lt;h2 id=&quot;what-is-the-difference-between-micro-and-nano-systems&quot;&gt;What is the difference between micro and nano systems?&lt;/h2&gt; &lt;p&gt;When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under &lt;strong&gt;HR-TEM (High Resolution Tunneling Electron Microscope)&lt;/strong&gt; or &lt;strong&gt;thermal imaging techniques.&lt;/strong&gt; &lt;img src=&quot;/blog/assets/img/nanomachines/2-nanocars.png&quot; alt=&quot;A nano car developed by RICE...</description>
         <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/nanomachines/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanomachines/</guid>
@@ -31,7 +31,7 @@
     
       <item>
         <title>Gesture Controlled Robot</title>
-        <description>&lt;h1 id=&quot;gesture-controlled-robot&quot;&gt;GESTURE CONTROLLED ROBOT&lt;/h1&gt; &lt;h3 id=&quot;jarvis-suit-me-up-clang-spoof-phew-tony-stark-becomes-iron-man&quot;&gt;&quot;JARVIS, Suit me Up!&quot;, &quot;Clang! Spoof! Phew!&quot;, Tony Stark becomes IRON MAN!&lt;/h3&gt; &lt;h3 id=&quot;have-you-ever-wondered-what-if-just-like-that-with-one-cool-move-you-too-could-control-and-move-objects-around-you-or-maybe-develop-a-gesture-&quot;&gt;Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-&lt;/h3&gt; &lt;h3 id=&quot;controlled-game-like-in-the-movie-ra-one-well-here-i-have-tried-to-design-and-build-a-mini-version-of-it-a-robot-controlled-by-hand-gestures&quot;&gt;controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.&lt;/h3&gt; &lt;h3 id=&quot;but-first-up-what-exactly-is-a-gesture-controlled-robot&quot;&gt;But first up, what exactly is a Gesture Controlled Robot?&lt;/h3&gt; &lt;h3 id=&quot;a-robot-which-detects-any-movementgesture-and-functions-depending-upon-these-signals-is-a-gesture-controlled-robot-they-can-use-different-technologies-viz-accelerometer-based-sensing-wired-or-wireless-or-image-processing&quot;&gt;A Robot which detects any movement(gesture) and functions depending upon these signals is a...</description>
+        <description>&lt;p&gt;&quot;JARVIS, Suit me Up!&quot;, &quot;Clang! Spoof! Phew!&quot;, Tony Stark becomes IRON MAN!&lt;/p&gt; &lt;p&gt;Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.&lt;/p&gt; &lt;p&gt;But first up, what exactly is a Gesture Controlled Robot?&lt;/p&gt; &lt;p&gt;A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based...</description>
         <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</guid>
@@ -53,7 +53,7 @@
     
       <item>
         <title>Cloud Gaming</title>
-        <description>&lt;h1 id=&quot;cloud-gaming&quot;&gt;Cloud Gaming&lt;/h1&gt; &lt;p&gt;Till today gaming had been possible only on dedicated machines like PCs, gaming consoles like nintendo, playstations and xbox and in the recent times on mobile phones too. But even today the AAA titles or the large budget games like Assassin’s Creed Unity, GTA 5 are only available on consoles and PCs(only windows), but a new technology is emerging today which aims to break all barriers and bring AAA gaming to all devices alike(yes, even to mac and linux). Read on to find what this new &lt;strong&gt;awesome tech&lt;/strong&gt; is all about and how you can get a...</description>
+        <description>&lt;p&gt;Till today gaming had been possible only on dedicated machines like PCs, gaming consoles like nintendo, playstations and xbox and in the recent times on mobile phones too. But even today the AAA titles or the large budget games like Assassin’s Creed Unity, GTA 5 are only available on consoles and PCs(only windows), but a new technology is emerging today which aims to break all barriers and bring AAA gaming to all devices alike(yes, even to mac and linux). Read on to find what this new &lt;strong&gt;awesome tech&lt;/strong&gt; is all about and how you can get a glimpse of the...</description>
         <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/cloud-gaming/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/cloud-gaming/</guid>

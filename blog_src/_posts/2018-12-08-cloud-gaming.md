@@ -16,7 +16,6 @@ github_username: '17aakashsingh1999'
 use_math: true
 comments: false
 ---
-# Cloud Gaming
 Till today gaming had been possible only on dedicated machines like PCs, gaming consoles like nintendo, playstations and xbox and in the recent times on mobile phones too. But even today the AAA titles or the large budget games like Assassin's Creed Unity, GTA 5 are only available on consoles and PCs(only windows), but a new technology is emerging today which aims to break all barriers and bring AAA gaming to all devices alike(yes, even to mac and linux). Read on to find what this new **awesome tech** is all about and how you can get a glimpse of the future, today.
 
 ## History of Streaming

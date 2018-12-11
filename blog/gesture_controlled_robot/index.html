@@ -190,65 +190,79 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <h1 id="gesture-controlled-robot">GESTURE CONTROLLED ROBOT</h1>
+                    <p>"JARVIS, Suit me Up!", "Clang! Spoof! Phew!", Tony Stark becomes IRON MAN!</p>
 
-<h3 id="jarvis-suit-me-up-clang-spoof-phew-tony-stark-becomes-iron-man">"JARVIS, Suit me Up!", "Clang! Spoof! Phew!", Tony Stark becomes IRON MAN!</h3>
+<p>Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.</p>
 
-<h3 id="have-you-ever-wondered-what-if-just-like-that-with-one-cool-move-you-too-could-control-and-move-objects-around-you-or-maybe-develop-a-gesture-">Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-</h3>
+<p>But first up, what exactly is a Gesture Controlled Robot?</p>
 
-<h3 id="controlled-game-like-in-the-movie-ra-one-well-here-i-have-tried-to-design-and-build-a-mini-version-of-it-a-robot-controlled-by-hand-gestures">controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.</h3>
+<p>A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based sensing (wired or wireless) or image processing.</p>
 
-<h3 id="but-first-up-what-exactly-is-a-gesture-controlled-robot">But first up, what exactly is a Gesture Controlled Robot?</h3>
-
-<h3 id="a-robot-which-detects-any-movementgesture-and-functions-depending-upon-these-signals-is-a-gesture-controlled-robot-they-can-use-different-technologies-viz-accelerometer-based-sensing-wired-or-wireless-or-image-processing">A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based sensing (wired or wireless) or image processing.</h3>
-
-<h3 id="here-we-will-implement-an-accelerometer-based-wireless-gesture-controlled-robot">Here we will implement an accelerometer-based, wireless gesture-controlled robot.</h3>
+<p>Here we will implement an accelerometer-based, wireless gesture-controlled robot.</p>
 
 <h2 id="what-you-need-to-have">What you need to have.</h2>
 
-<h3 id="the-bot-has-two-sections--transmitter-and-receiver-you-will-need-ht12e-encoder-ic-ht12d-decoder-ic-l293d-motor-driver-shield-arduino-uno7805voltage-regulator-ic-capacitor-pbt-connector-single-pole-antenna-resistor-led-accelerometer-and-battery">The bot has two sections- transmitter and receiver. You will need Ht12e (encoder ic), Ht12d (decoder ic), L293D (motor driver shield), Arduino uno,7805(voltage regulator ic), capacitor, PBT connector, single pole antenna, resistor, LED, accelerometer and battery.</h3>
+<p>The bot has two sections- transmitter and receiver. You will need Ht12e (encoder ic), Ht12d (decoder ic), L293D (motor driver shield), Arduino uno,7805(voltage regulator ic), capacitor, PBT connector, single pole antenna, resistor, LED, accelerometer and battery.</p>
 
 <h2 id="how-does-it-work-and-recognize-the-gestures">How does it work and recognize the gestures?</h2>
 
-<h3 id="the-brain-of-this-robot-is-the-arduino-uno-atmega32-which-is-fed-with-a-set-of-code-the-gesturesmotion-made-by-hand-are-detected-by-an-acceleration-measuring-device-called-accelerometer-adxl335">The brain of this robot is the Arduino Uno (Atmega32) which is fed with a set of code. The gestures/motion made by hand are detected by an acceleration measuring device, called accelerometer (ADXL335).</h3>
+<p>The brain of this robot is the Arduino Uno (Atmega32) which is fed with a set of code. The gestures/motion made by hand are detected by an acceleration measuring device, called accelerometer (ADXL335).</p>
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/1.jpeg" alt="img1" /></p>
 
-<h3 id="the-accelerometer-reads-the-x-y-z-coordinates-when-we-make-gestures-by-hand-and-sends-them-to-the-arduino-the-arduino-checks-the-values-of-coordinates-and-sends-a-4-bit-code-to-the-encoder-ic-the-encoder-passes-the-data-to-an-rf-transmitter-and-the-transmitted-data-is-received-by-an-rf-receiver-the-receiver-sends-the-4-bit-code-to-the-decoder-ic-which-then-passes-it-to-a-motor-driver-ic-it-later-takes-the-decision-to-turn-the-two-motors-in-the-required-direction">The accelerometer reads the X Y Z coordinates when we make gestures by hand and sends them to the Arduino. The Arduino checks the values of coordinates and sends a 4-bit code to the Encoder IC. The Encoder passes the data to an RF transmitter and the transmitted data is received by an RF receiver. The receiver sends the 4-bit code to the Decoder IC which then passes it to a Motor Driver IC. It later takes the decision to turn the two motors in the required direction.</h3>
+<p>The accelerometer reads the X Y Z coordinates when we make gestures by hand and sends them to the Arduino. The Arduino checks the values of coordinates and sends a 4-bit code to the Encoder IC. The Encoder passes the data to an RF transmitter and the transmitted data is received by an RF receiver. The receiver sends the 4-bit code to the Decoder IC which then passes it to a Motor Driver IC. It later takes the decision to turn the two motors in the required direction.</p>
 
 <h2 id="what-is-an-accelerometer">What is an Accelerometer?</h2>
 
-<h3 id="an-accelerometer-is-a-type-of-sensor-which-gives-data-in-analog-form-while-moving-in-the-directions-of-x-y-and-zthese-directions-depend-on-the-type-of-sensor-it-consists-of-direction-arrows-if-we-tilt-the-sensor-in-one-direction-then-the-data-at-that-particular-pin-will-change-in-analog-format-the-accelerometer-consists-of-six-pins-the-function-of-each-pin-is-discussed-here">An accelerometer is a type of sensor which gives data in Analog form while moving in the directions of X, Y and Z(these directions depend on the type of sensor). It consists of direction arrows; if we tilt the sensor in one direction, then the data at that particular pin will change in analog format. The accelerometer consists of six pins. The function of each pin is discussed here.</h3>
+<p>An accelerometer is a type of sensor which gives data in Analog form while moving in the directions of X, Y and Z(these directions depend on the type of sensor). It consists of direction arrows; if we tilt the sensor in one direction, then the data at that particular pin will change in analog format. The accelerometer consists of six pins. The function of each pin is discussed here.</p>
 
-<h3 id="pin-1-vdd-pin-is-used-to-give-5v-supply">Pin-1: VDD pin is used to give +5V supply.</h3>
-
-<h3 id="pin-2-gnd-pin-is-connected-to-the-ground-to-ensure-biasing">Pin-2: GND pin is connected to the ground to ensure biasing.</h3>
-
-<h3 id="pin-3-x-pin-will-receive-the-data-from-the-x-direction">Pin-3: X pin will receive the data from the X direction.</h3>
-
-<h3 id="pin-4-y-pin-will-receive-the-data-from-the-y-direction">Pin-4: Y pin will receive the data from the Y direction.</h3>
+<ul>
+  <li>
+    <p>Pin-1: VDD pin is used to give +5V supply.</p>
+  </li>
+  <li>
+    <p>Pin-2: GND pin is connected to the ground to ensure biasing.</p>
+  </li>
+  <li>
+    <p>Pin-3: X pin will receive the data from the X direction.</p>
+  </li>
+  <li>
+    <p>Pin-4: Y pin will receive the data from the Y direction.</p>
+  </li>
+</ul>
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/2.jpeg" alt="img2" /></p>
 
-<h3 id="pin-5-z-pin-will-receive-the-data-from-the-z-direction">Pin-5: Z pin will receive the data from the Z direction.</h3>
-
-<h3 id="pin-6-st-pin-is-used-to-adjust-the-sensitivity-of-the-accelerometer-ie-15g-or-2g-or-3g-or-4g">Pin-6: ST pin is used to adjust the sensitivity of the accelerometer i.e. 1.5g or 2g or 3g or 4g.</h3>
+<ul>
+  <li>
+    <p>Pin-5: Z pin will receive the data from the Z direction.</p>
+  </li>
+  <li>
+    <p>Pin-6: ST pin is used to adjust the sensitivity of the accelerometer i.e. 1.5g or 2g or 3g or 4g.</p>
+  </li>
+</ul>
 
 <h2 id="making-the-power-supply">Making the power supply.</h2>
 
 <h3 id="you-will-need">You will need:</h3>
 
-<h3 id="an-ic-7805-which-regulates-the-12v-supply-to-5v-if-you-cant-get-a-12v-supply-you-can-use-a-9v-supply">An IC 7805 which regulates the 12V supply to 5V (if you can't get a 12V supply you can use a 9V supply)</h3>
+<ul>
+  <li>
+    <p>An IC 7805 which regulates the 12V supply to 5V (if you can't get a 12V supply you can use a 9V supply)</p>
+  </li>
+  <li>
+    <p>0.1uf and 470uf capacitors</p>
+  </li>
+  <li>
+    <p>1k resistor for status LED</p>
+  </li>
+</ul>
 
-<h3 id="01uf-and-470uf-capacitors">0.1uf and 470uf capacitors</h3>
-
-<h3 id="1k-resistor-for-status-led">1k resistor for status LED</h3>
-
-<h3 id="lets-start-with-the-power-supply-circuit-you-will-need-two-such-circuits-one-for-the-transmitter-and-one-for-the-receiver-the-receiver-circuit-needs-to-be-powered-using-a-12v-supply-since-we-are-using-a-12v-motor-and-the-transmitter-circuit-can-be-powered-using-a-9v-battery">Let's start with the power supply circuit. You will need two such circuits: one for the transmitter and one for the receiver. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.</h3>
+<p>Let's start with the power supply circuit. You will need two such circuits: one for the transmitter and one for the receiver. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.</p>
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/3.jpeg" alt="img3" /></p>
 
-<h3 id="you-can-see-the-circuit-diagram-for-the-receiver-power-supply-on-the-right-using-this-diagram-rig-up-the-supply-circuit-you-can-also-add-an-led-via-a-1k-resistor-to-indicate-the-state-of-power-supply">You can see the circuit diagram for the receiver power supply on the right. Using this diagram, rig up the supply circuit. You can also add an LED via a 1K resistor to indicate the state of power supply.</h3>
+<p>You can see the circuit diagram for the receiver power supply on the right. Using this diagram, rig up the supply circuit. You can also add an LED via a 1K resistor to indicate the state of power supply.</p>
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/4.jpeg" alt="img4" /></p>
 
@@ -256,39 +270,40 @@
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/5.jpeg" alt="img5" /></p>
 
-<h3 id="the-transmitter-section-consists-of-an-accelerometer-which-detects-the-hand-gestures-and-sends-the-data-to-the-arduino-this-then-sends-the-data-to-an-encoder-ic-which-is-subsequently-transmitted-to-a-receiver">The transmitter section consists of an accelerometer which detects the hand gestures and sends the data to the Arduino. This then sends the data to an Encoder IC which is subsequently transmitted to a receiver.</h3>
+<p>The transmitter section consists of an accelerometer which detects the hand gestures and sends the data to the Arduino. This then sends the data to an Encoder IC which is subsequently transmitted to a receiver.</p>
 
-<h3 id="the-rf-tx-module-works-with-433mhz-frequency-and-is-easily-available-in-the-market-at-low-cost">The RF TX module works with 433MHz frequency and is easily available in the market at low cost.</h3>
+<p>The RF TX module works with 433MHz frequency and is easily available in the market at low cost.</p>
 
-<h3 id="wire-it-up-as-per-the-below-circuit-diagram">Wire it up as per the below circuit diagram:</h3>
+<p>Wire it up as per the below circuit diagram:</p>
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/6.jpeg" alt="img6" /></p>
 
-<h3 id="code-the-arduino-to-make-it-function-like-how-you-want-it-to">Code the Arduino to make it function like how you want it to.</h3>
+<p>Code the Arduino to make it function like how you want it to.</p>
 
 <h2 id="motor-driver">Motor Driver</h2>
 
-<h3 id="the-motor-driver-is-a-device-which-gives-the-movement-to-do-a-task-like-a-motor-so-we-require-motor-driver-to-run-them-through-the-controller-the-interface-between-motor--microcontroller-can-be-done-using-an-l293d-motor-driver-ic-in-this-circuit">The motor driver is a device which gives the movement to do a task like a motor. So, we require motor driver to run them through the controller. The interface between motor &amp; microcontroller can be done using an L293D motor driver IC in this circuit.</h3>
+<p>The motor driver is a device which gives the movement to do a task like a motor. So, we require motor driver to run them through the controller. The interface between motor &amp; microcontroller can be done using an L293D motor driver IC in this circuit.</p>
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/7.jpeg" alt="img7" /></p>
 
 <h2 id="receiver-circuit">Receiver circuit</h2>
 
-<h3 id="the-receiver-circuit-consists-of-2-ics-ht12d-decoder-l293d-motor-driver-and-an-rf-receiver-module">The receiver circuit consists of 2 IC's (HT12D decoder, L293D motor driver) and an RF receiver module.</h3>
+<p>The receiver circuit consists of 2 IC's (HT12D decoder, L293D motor driver) and an RF receiver module.</p>
 
-<h3 id="wire-the-circuit-as-per-the-above-receiver-schematic-there-are-2-leds-in-the-receiver-board-one-lights-up-when-the-power-supply-is-given-to-the-receiver-and-the-other-when-power-supply-is-given-to-the-transmitter-the-led-near-the-ic-ht12d-should-light-up-when-power-is-given-at-the-transmitter-thus-ensuring-a-valid-transmission-vt-if-it-doesnt-then-there-is-something-wrong-with-your-connections-or-your-rf-tx-rx-module">Wire the circuit as per the above receiver schematic. There are 2 LED's in the receiver board; one lights up when the power supply is given to the receiver and the other when power supply is given to the transmitter. The LED near the IC HT12D should light up when power is given at the transmitter, thus ensuring a valid transmission (VT). If it doesn't, then there is something wrong with your connections or your RF-TX-RX module.</h3>
+<p>Wire the circuit as per the above receiver schematic. There are 2 LED's in the receiver board; one lights up when the power supply is given to the receiver and the other when power supply is given to the transmitter. The LED near the IC HT12D should light up when power is given at the transmitter, thus ensuring a valid transmission (VT). If it doesn't, then there is something wrong with your connections or your RF-TX-RX module.</p>
 
 <p><img src="/blog/assets/img/gesture_controlled_robot/8.jpeg" alt="img8" /></p>
 
 <h2 id="the-final-working">The Final Working</h2>
 
-<h3 id="accelerometer-based-gesture-controlled-robot-moves-according-to-the-movement-of-the-hand-since-the-accelerometer-is-on-your-hand-when-you-tilt-your-hand-forward-with-the-accelerometer-on-your-hand-the-robot-moves-straight-ahead-when-you-tilt-backwards-it-changes-direction-and-starts-moving-in-reverse-when-you-tilt-to-the-right-it-starts-moving-rightwards-and-similarly-to-the-left-this-is-in-accordance-with-what-code-i-have-written-for-the-motion-of-my-bot-you-can-modify-accordingly">Accelerometer based gesture-controlled robot moves according to the movement of the hand, since the accelerometer is on your hand. When you tilt your hand forward (with the accelerometer on your hand), the robot moves straight ahead. When you tilt backwards, it changes direction and starts moving in reverse. When you tilt to the right, it starts moving rightwards and similarly to the left. (This is in accordance with what code I have written for the motion of my bot. You can modify accordingly!)</h3>
+<p>Accelerometer based gesture-controlled robot moves according to the movement of the hand, since the accelerometer is on your hand. When you tilt your hand forward (with the accelerometer on your hand), the robot moves straight ahead. When you tilt backwards, it changes direction and starts moving in reverse. When you tilt to the right, it starts moving rightwards and similarly to the left. (This is in accordance with what code I have written for the motion of my bot. You can modify accordingly!)</p>
 
-<h3 id="enjoy-driving-your-robot">Enjoy driving your robot!!!</h3>
+<p>Enjoy driving your robot!!!</p>
 
-<h2 id="note">Note</h2>
-
-<h3 id="-you-can-refer-to-the-previous-blog--how-to-get-started-with-bots-by--tarun-mittal-dated-june-1st-2017-to-get-more-insight-into-working-of-bots">-You can refer to the previous blog- "How to get started with bots" by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.</h3>
+<blockquote>
+  <h2 id="note">Note</h2>
+  <p>-You can refer to the previous blog- "How to get started with bots" by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.</p>
+</blockquote>
 
                 </article>
                 <div class="sidebar">
