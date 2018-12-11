@@ -123,33 +123,34 @@
 				<li data-menuanchor="about">
 					<a href="./index.html">Home</a>
 				</li>
-				<li data-menuanchor="sigs">
-					<a href="./compsoc.html">CompSoc</a>
-				</li>
-				<li data-menuanchor="events">
-					<a href="./diode.html">Diode</a>
-				</li>
-				<li data-menuanchor="team">
-					<a href="./piston.html">Piston</a>
+				<li>
+					<div class="dropdown">
+						<button class="dropbtn">SIGs</button>
+						<div class="dropdown-content">
+						<a href="compsoc.html">Computer Society</a>
+						<a href="diode.html">CAS/SPS</a>
+						<a href="piston.html">Piston</a>
+						<a href="./wie.html">Women in Engineering</a>
+						<a href="./sight.html">SIGHT</a>
+						<a href="ias.html">Industrial Applications Society</a>
+						</div>
+					  </div>
 				</li>
 				<li>
-					<a href="./wie.html">WIE</a>
+					<a href="blog/">Blog</a>
 				</li>
 				<li>
-                    <a href="./sight.html">SIGHT</a>
+					<a href="gyan/">Gyan</a>
+				</li>
+				<li>
+                    <a href="achieve.html">Achievements</a>
                 </li>
 				<li>
-					<a href="./blog/">Blog</a>
+					<a href="publications.html">Publications</a>
 				</li>
 				<li>
-					<a href="./gyan/">Gyan</a>
+					<a href="joinus.html">Join Us</a>
 				</li>
-				<li>
-                    <a href="publications.html">Publications</a>
-                </li>
-                <li>
-                    <a href="joinus.html">Join Us</a>
-                </li>
 			</ul>
 		</div>
 		<div class="parent">
@@ -176,7 +177,7 @@
 					</h3>
 				</div>
 				<p class="sans">
-					The NITK-IEEE CompSoc community intends to explore and contribute to the rapidly evolving world of computer technologies
+					The NITK-IEEE Computer Society community intends to explore and contribute to the rapidly evolving world of computer technologies
 					by carrying out research and projects in the broad domains of computer science in the form of 3 research groups :				
 				</p>
 				<p class="sans">
@@ -200,11 +201,73 @@
 					</p>
 				</p>
 
+
+			</div>
+			<hr><center>
+			<img style="max-width:30vw" src="res/img/flowcharts/flowchart_ieee_compsoc_projects_1_v4-01.png" alt="comp_flow1"><img style="max-width:30vw" src="res/img/flowcharts/flowchart_ieee_compsoc_projects_2_v4-01.png" alt="comp_flow2"></center>
+			<div>
+					<div class="intro">
+							<h1>
+							Projects - 2018
+							</h1>
+					</div>
+					<div class="project">
+						<h2>Learning to Communicate in Multi-Agent Systems</h2>
+						<p>We are exploring the application of Reinforcement Learning in Multi-Agent systems to learn communication protocols. We are using value-based and policy-based models to learn emergent communication protocols in competitive and collaborative environments. We also plan to study the applicability of these learning methods on real world problems, like communication in a swarm of autonomous vehicles.</p>
+					</div>
+					<div class="project">
+						<h2>Open Answering System</h2>
+						<p>This project aims to build a model to  answer open-domain questions by implementing document retrieval and machine comprehension using Wikipedia as the only source of information.  It combines a search component based on bigram hashing and TF-IDF matching with a multi-layer recurrent neural network model trained to detect answers in Wikipedia paragraphs. The project will further be extended to build a closed domain answering system using NCERT textbooks as the only knowledge source.</p>
+					</div>
+					<div class="project">
+						<h2>CP Judge</h2>
+						<p>A functional, robust and secure platform for hosting our own competitive programming contests which should be able to compile and test the submitted code against previously given test cases. Submitted code would be run with restrictions, including time limit, memory limit, and address other security concerns in sandboxed containers. It is a scalable distributed system to support varied load and hence, should be fault tolerant and resilient to prevent cascading failures.</p>
+					</div>
+					<div class="project">
+						<h2>ROP Compiler</h2>
+						<p>The aim of this project is to write a Compiler which automates the  ROP(Return Oriented Programming) exploit generation. Instead of writing payload by hand, the compiler does it for you. 
+								The project is roughly divided into the following parts.<br>
+								<ol>
+									<li>
+									Collect all ROP Gadgets from the vulnerable software and store it in a database. 
+									</li>
+									<li>
+									Convert gadgets into IR, extract their meanings probably by using constraint solvers or with the help of Symbolic Execution. 									
+									</li>
+									<li>
+									Chain the gadgets to get the exploit function provided.</p>
+									</li>
+								</ol>
+							</p>
+					</div>
+					<div class="project">
+						<h2>Secure Set Intersection using Secure Multi-Party Communication</h2>
+						<p>A secure set intersection protocol between sender S and receiver R on respective inputs X and Y s.t. |X|,|Y| ≤ n, allows R to learn X ∩Y while S learns nothing about R’s inputs. We aim to implement and test one such protocol using oblivious transfer.</p>
+					</div>
+					<div class="project">
+						<h2>Quantum Algorithms</h2>
+						<p>This project aims to understand the concepts of quantum computation, especially quantum gates and implement few of the popular quantum algorithms - Shor’s algorithm and Grover’s search algorithm. Shor's algorithm finds the prime factors of an integer in polynomial time on a quantum computer. Grover's search algorithm is a quantum algorithm for searching an unsorted database with quadratic speedup over classical algorithm. These algorithms will be implemented in IBM Q Experience.</p>
+					</div>											
+					<div class="project">
+						<h2>Neural Voice Cloning</h2>
+						<p>This project aims to build an application that will require few audio samples of the user as input and then using the speaker adaptation technique of voice cloning, will be able to read aloud a paragraph in the recorded voice.Speaker adaptation is based on fine-tuning a multi-speaker generative model with a few cloning samples. In terms of naturalness of the speech and its similarity to original speaker, this method can achieve good performance with better naturalness and similarity, even with very few cloning audios.</p>
+					</div>
+					<div class="project">
+						<h2>NLQ to SQL</h2>
+						<p>In this project we aim to develop a model which when given a natural language query, will generate the SQL query for the same given the metadata about the database.<br>
+								A lot of approaches have been used to tackle the problem including the traditional sequence to sequence model which is pretty generalised and doesn’t make use of the full structure of the SQL queries. Hence a new approach which uses sequence to set along with column attention was proposed to address the previous problems. We will use deep learning techniques like RNN and specifically LSTM to encode the input questions and build more deep neural networks on top of these encodings to predict the SQL queries.</p>
+					</div>
+					<div class="project">
+						<h2>Parallelizing Graph Colouring</h2>
+						<p>The project aims to explore different ways and approaches to graph colouring in parallel and achieving a good speedup with respect to current heuristics proposed till date, and predict a chromatic number of the graph which has a reasonable relative error.</p>
+					</div>
 			</div>
 			<div class="projects" id="projects">
 			</div>
 		</div>
 		<div class="sidebar">
+			<h4>Chapter Registration Code</h3>
+			<p id="sans">SBC986311</p>
 			<h3>Related Articles</h3>
 			<div class="related-articles">
 			</div>
