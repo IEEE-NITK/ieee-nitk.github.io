@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Dec 2018 14:09:46 +0530</pubDate>
-    <lastBuildDate>Sun, 16 Dec 2018 14:09:46 +0530</lastBuildDate>
+    <pubDate>Wed, 19 Dec 2018 19:34:48 +0530</pubDate>
+    <lastBuildDate>Wed, 19 Dec 2018 19:34:48 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -49,7 +49,7 @@
     
       <item>
         <title>Electronic skin</title>
-        <description>&lt;h1 id=&quot;electronic-skin&quot;&gt;ELECTRONIC SKIN&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/electronic-skin/pic1.png&quot; alt=&quot;Hand with electronic skin&quot; /&gt;&lt;/p&gt; &lt;p&gt;Touch is the first sense we acquire and has been shown to play a crucial role in physical and mental health. The nerve cells in our skin allow us to experience the several experiences of touch such as a cold splash of water, the tug of a strong breeze or the heat from your coffee mug. Scientists are trying to develop electronic skin to help robots and prosthetic devices to attain these abilities.&lt;/p&gt; &lt;p&gt;Researchers report a new method in &lt;em&gt;ACS Applied Materials &amp;amp; Interfaces&lt;/em&gt; that creates an ultrathin, stretchable electronic...</description>
+        <description>&lt;h1 id=&quot;electronic-skin&quot;&gt;ELECTRONIC SKIN&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/electronic-skin/pic1.png&quot; alt=&quot;Hand with electronic skin&quot; title=&quot;Hand with electronic skin&quot; /&gt;&lt;/p&gt; &lt;p&gt;Touch is the first sense we acquire and has been shown to play a crucial role in physical and mental health. The nerve cells in our skin allow us to experience the several experiences of touch such as a cold splash of water, the tug of a strong breeze or the heat from your coffee mug. Scientists are trying to develop electronic skin to help robots and prosthetic devices to attain these abilities.&lt;/p&gt; &lt;p&gt;Researchers report a new method in &lt;em&gt;ACS Applied Materials &amp;amp; Interfaces&lt;/em&gt; that creates...</description>
         <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/electonic-skin/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/electonic-skin/</guid>

@@ -30,7 +30,7 @@ __Flutter ❤️ Dart__ - Dart is a programming language developed by Google whi
 
 __Hot Reload__ - Unlike Instant Run in Android Studio (which never works!) Flutter has sub-second stateful hot reload. With stateful hot reload, you can make changes to the code of your app and see the results instantly without restarting your app or losing its state. This improves the development experience.
 
-![Hot reload in action](/blog/assets/img/why-you-should-learn-flutter/hot_reload.gif)
+![Hot reload in action](/blog/assets/img/why-you-should-learn-flutter/hot_reload.gif "Hot reload in action")
 
 __Documentation__ - Flutter is documented very well which makes app development process easy and productive (one click away!).
 
@@ -38,7 +38,7 @@ __Large number of widgets__ - Flutter provides rich set of beautiful, customisab
 
 __Develop for Android as well as iOS__ - Flutter is compiled into native ARM code for both Android and iOS. So you can serve both the platforms with a single codebase. This is beneficial for companies which have small teams and need to cater to users of both platforms.
 
-![Flutter app on Android as well as iOS](/blog/assets/img/why-you-should-learn-flutter/ios_android.png)
+![Flutter app on Android as well as iOS](/blog/assets/img/why-you-should-learn-flutter/ios_android.png "Flutter app on Android as well as iOS")
 
 __Open sourced__ - Flutter is [open-sourced](https://github.com/flutter) and has a great community which strives to make it better and it's backed by Google.
 
