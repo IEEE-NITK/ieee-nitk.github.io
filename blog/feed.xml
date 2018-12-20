@@ -5,9 +5,77 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Dec 2018 14:15:38 +0530</pubDate>
-    <lastBuildDate>Tue, 11 Dec 2018 14:15:38 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.4</generator>
+    <pubDate>Wed, 19 Dec 2018 19:34:48 +0530</pubDate>
+    <lastBuildDate>Wed, 19 Dec 2018 19:34:48 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Why you should learn Flutter?</title>
+        <description>&lt;h2 id=&quot;what-is-flutter&quot;&gt;What is Flutter?&lt;/h2&gt; &lt;p&gt;Flutter is an open-source Mobile Application Development SDK launched by Google back in May 2017. It is used to create apps for both Android and iOS Operating Systems. It is also the primary method of developing applications for Google Fuchsia. Flutter 1.0 was announced on December 4th, 2018 at &lt;a href=&quot;https://developers.google.com/events/flutter-live/&quot;&gt;Flutter Live&lt;/a&gt;.&lt;/p&gt; &lt;h2 id=&quot;why-flutter&quot;&gt;Why Flutter?&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Incredibly easy to setup and get started!&lt;/strong&gt; - Download the Flutter SDK from the &lt;a href=&quot;https://flutter.io/docs/get-started/install&quot;&gt;official website&lt;/a&gt;. Extract it and add the flutter sdk path to your &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; variable. Download the Flutter plugin in your favourite editor / IDE and...</description>
+        <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/why-you-should-learn-flutter/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-you-should-learn-flutter/</guid>
+        
+        <category>Flutter</category>
+        
+        <category>Android</category>
+        
+        <category>Dart</category>
+        
+        <category>Cross platform mobile development</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Nanosheets decorated with DNA</title>
+        <description>&lt;h1 id=&quot;nanosheets-decorated-with-dna&quot;&gt;NANOSHEETS DECORATED WITH DNA&lt;/h1&gt; &lt;p&gt;One possible means of bridging the gap between India’s abundant, varied natural resources and her ever-increasing requirements like clean water, food and rapid, low cost diagnostic machinery is the use of nanotechnology. When we modify materials at their atomic and molecular level, some very unusual and useful properties are generated. Since the dimensions of atoms and molecule are in nanometers, this technology is called nanotechnology. Efforts to promote research in nanotechnology in India began early in the millennium. The efforts have paid off well, India published over 23000 papers in nanoscience in the past 5...</description>
+        <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/nanosheets-decorated-with-dna/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanosheets-decorated-with-dna/</guid>
+        
+        <category>Nanosheets</category>
+        
+        <category>DNA</category>
+        
+        <category>Nanotechnology</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Electronic skin</title>
+        <description>&lt;h1 id=&quot;electronic-skin&quot;&gt;ELECTRONIC SKIN&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/electronic-skin/pic1.png&quot; alt=&quot;Hand with electronic skin&quot; title=&quot;Hand with electronic skin&quot; /&gt;&lt;/p&gt; &lt;p&gt;Touch is the first sense we acquire and has been shown to play a crucial role in physical and mental health. The nerve cells in our skin allow us to experience the several experiences of touch such as a cold splash of water, the tug of a strong breeze or the heat from your coffee mug. Scientists are trying to develop electronic skin to help robots and prosthetic devices to attain these abilities.&lt;/p&gt; &lt;p&gt;Researchers report a new method in &lt;em&gt;ACS Applied Materials &amp;amp; Interfaces&lt;/em&gt; that creates...</description>
+        <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/electonic-skin/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/electonic-skin/</guid>
+        
+        <category>Electronic</category>
+        
+        <category>Skin</category>
+        
+        <category>Healthcare</category>
+        
+        <category>Robotics</category>
+        
+        <category>Embedded</category>
+        
+        <category>Prosthetic</category>
+        
+        <category>Sensor</category>
+        
+        <category>Stretchable</category>
+        
+        <category>Nanoparticles</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>NanoMachines</title>
@@ -131,62 +199,6 @@
         <category>Excitons</category>
         
         <category>Photo-active layer</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>MEMS</title>
-        <description>&lt;h1 id=&quot;mems-micro-electro-mechanical-systems&quot;&gt;MEMS (Micro Electro Mechanical Systems)&lt;/h1&gt; &lt;p&gt;An introduction to field of micro systems and their applications.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;“There is plenty of room at the bottom.”&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Richard Feynman&lt;/li&gt; &lt;/ul&gt; &lt;/blockquote&gt; &lt;p&gt;This article deals with the emerging field of micro-electromechanical systems, or MEMS. MEMS is a process technology used to create tiny integrated devices or systems that combine mechanical and electrical components. These devices (or systems) can sense, control and actuate on the micro scale, and generate effects on the macro scale. MEMS has been identified as one of the most promising technologies for the 21st Century and has the potential...</description>
-        <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/mems/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/mems/</guid>
-        
-        <category>MEMS</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Demystifying Deconvolutions</title>
-        <description>&lt;h1 id=&quot;demystifying-deconvolutions&quot;&gt;Demystifying Deconvolutions&lt;/h1&gt; &lt;p&gt;This article mainly discusses about &lt;strong&gt;&lt;em&gt;Up-sampling with Deconvolution&lt;/em&gt;&lt;/strong&gt;. If you’ve heard about the term Deconvolution, and are willing to learn more about it, please read on.&lt;/p&gt; &lt;p&gt;The contents of the this article is as follows:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The need for Up-sampling&lt;/li&gt; &lt;li&gt;Convolution Operation&lt;/li&gt; &lt;li&gt;Going backward&lt;/li&gt; &lt;li&gt;Convolution Matrix&lt;/li&gt; &lt;li&gt;Transposed Convolution Matrix&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Deconvolution is also known as &lt;strong&gt;Transposed Convolution&lt;/strong&gt; and &lt;strong&gt;Fractionally-strided Convolution&lt;/strong&gt;.&lt;/p&gt; &lt;h2 id=&quot;the-need-for-up-sampling&quot;&gt;The need for Up-sampling&lt;/h2&gt; &lt;p&gt;When we use neural networks to process or generate images, there is a decrease in the size of the intermediate images in the subsequent layers.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/deconv/p1.png&quot; alt=&quot;fig1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Sometimes, when an...</description>
-        <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/deconv/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/deconv/</guid>
-        
-        <category>Deep Learning</category>
-        
-        <category>Convolution</category>
-        
-        <category>Up-sampling</category>
-        
-        <category>Neural Networks</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Supercapacitors</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;A supercapacitor is a specially designed capacitor which has an enormous capacitance. While capacitors used in everyday life tend to have values in the nano or microfarad range, supercapacitors can have values of upto 12,000 F depending on their application.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/supercap/img1.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;construction&quot;&gt;Construction&lt;/h2&gt; &lt;p&gt;Like an ordinary capacitor, a supercapacitor has two plates that are separated. The plates are made from metal coated with a porous substance such as powdery, activated charcoal, which effectively gives them a bigger area for storing much more charge.&lt;/p&gt; &lt;p&gt;What about the separator between the plates? In an ordinary capacitor, the...</description>
-        <pubDate>Sat, 03 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/supercap/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/supercap/</guid>
-        
-        <category>Supercapacitors</category>
-        
-        <category>Energy Storage</category>
-        
-        <category>Futurology</category>
-        
-        <category>Batteries</category>
-        
-        <category>Renewables</category>
         
         
         <category>Diode</category>
