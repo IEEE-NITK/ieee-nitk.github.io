@@ -21,12 +21,11 @@ comments: false
 engineers, find opportunities in the field of nanomedicine? Well, I hope this article will
 answer many similar questions.*
 
-![Nanopills: Medicinal advantage](/blog/assets/img/NanoMedicine/1.jpg) 
-
+![Nanopills: Medicinal advantage](/blog/assets/img/NanoMedicine/1.jpg "Nanopills: Medicinal advantage") 
 
 ## Nanotechnology and its manifestation in Medicine
 
-![Manifestation of Nanotechnology in Medicine](/blog/assets/img/NanoMedicine/5.jpg)
+![Manifestation of Nanotechnology in Medicine](/blog/assets/img/NanoMedicine/5.jpg "Manifestation of Nanotechnology in Medicine")
 
 Let's start with the understanding of how exactly is nanotechnology playing a
 noteworthy role in the field of medicine. From its very dawn, nanotechnology has
@@ -36,8 +35,6 @@ scale prospects. The impact of nanotechnology on the medical domain is well
 pronounced and the results can be pointed out at biosensors, nanosized microchips,
 modified liposomal action and mainly the ease brought in the fields of treatment and
 diagnosis of diseases.
-
-
 
 ## Why use Nanotechnology for Drug delivery?
 
@@ -50,7 +47,7 @@ pharmaceutical and biotechnology sectors, as well as in academia, want to develo
 nanoparticle formulations that can deliver drugs more effectively to the target site for
 enhanced efficacy and reduced side effects.
 
-![Nano Surgery](/blog/assets/img/NanoMedicine/2.jpg)
+![Nano Surgery](/blog/assets/img/NanoMedicine/2.jpg "Nano Surgery")
 
 Nanoparticles offer important multifunctional platforms for biomedical applications.
 Varieties of nanoparticles, such as silica nanoparticles, quantum dots, metal
@@ -61,7 +58,7 @@ A new challenge of essentially tracking down the nanomedicine from systemic to
 subcellular level is posed which is swept off with the use of fluorescent markers,
 those being detectable during diagnostic assays.
 
-![Target Specificity](/blog/assets/img/NanoMedicine/3.jpg)
+![Target Specificity](/blog/assets/img/NanoMedicine/3.jpg "Target Specificity")
 
 Various examples in different forms include:
 
@@ -94,9 +91,7 @@ cell. Reported application of gold nanoparticles includes insulin delivery by na
 route, improved antimicrobial action against E. coli strains and ciprofloxacin-
 protected nanoparticles for better drug release.
 
-
 ## Misconceptions and Limitations:
-
 
 Yes, though nanobiotechnological advancements are a promising outcome,
 it is not all that it looks like. Nanotechnology fever was fueled by an
@@ -129,10 +124,9 @@ different than the widely believed notion that nanoparticles would be far
 superior to non-particulate solution formulations.
 
 
-
 ## Future Opportunities:
 
-![Possible wonders](/blog/assets/img/NanoMedicine/4.jpg)
+![Possible wonders](/blog/assets/img/NanoMedicine/4.jpg "Possible wonders")
 
 Nanoparticles are rapidly becoming the focus of most efforts aiming at targets and
 site-specific drug delivery. The targeting ability of nanoparticles depends on certain
@@ -149,48 +143,3 @@ these hurdles which will definitely establish nanoparticle-based drug delivery a
 gold standard for site-specific therapeutics. Though ample optimizations are existing
 in the field nanotechnological research in the medical field is an evergreen
 opportunity.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
