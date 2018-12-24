@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Dec 2018 19:43:14 +0530</pubDate>
-    <lastBuildDate>Mon, 24 Dec 2018 19:43:14 +0530</lastBuildDate>
+    <pubDate>Mon, 24 Dec 2018 20:28:36 +0530</pubDate>
+    <lastBuildDate>Mon, 24 Dec 2018 20:28:36 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>NanoMedicine</title>
-        <description>&lt;p&gt;&lt;em&gt;How evolutionary is nanomedicine in therapeutics? Is it worth all the hype? Can we, as engineers, find opportunities in the field of nanomedicine? Well, I hope this article will answer many similar questions.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/1.jpg&quot; alt=&quot;Nanopills: Medicinal advantage&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;nanotechnology-and-its-manifestation-in-medicine&quot;&gt;Nanotechnology and its manifestation in Medicine&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/5.jpg&quot; alt=&quot;Manifestation of Nanotechnology in Medicine&quot; /&gt;&lt;/p&gt; &lt;p&gt;Let’s start with the understanding of how exactly is nanotechnology playing a noteworthy role in the field of medicine. From its very dawn, nanotechnology has indeed shaped the fundamental industrial applications such as manufacturing, biotechnology, semiconductors and fabrication of work area from micro to large- scale...</description>
+        <description>&lt;p&gt;&lt;em&gt;How evolutionary is nanomedicine in therapeutics? Is it worth all the hype? Can we, as engineers, find opportunities in the field of nanomedicine? Well, I hope this article will answer many similar questions.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/1.jpg&quot; alt=&quot;Nanopills: Medicinal advantage&quot; title=&quot;Nanopills: Medicinal advantage&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;nanotechnology-and-its-manifestation-in-medicine&quot;&gt;Nanotechnology and its manifestation in Medicine&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/5.jpg&quot; alt=&quot;Manifestation of Nanotechnology in Medicine&quot; title=&quot;Manifestation of Nanotechnology in Medicine&quot; /&gt;&lt;/p&gt; &lt;p&gt;Let’s start with the understanding of how exactly is nanotechnology playing a noteworthy role in the field of medicine. From its very dawn, nanotechnology has indeed shaped the fundamental industrial applications such as manufacturing, biotechnology, semiconductors and fabrication...</description>
         <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/NanoMedicine/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/NanoMedicine/</guid>
@@ -31,7 +31,7 @@
     
       <item>
         <title>How Computers learn to play games!</title>
-        <description>&lt;p&gt;Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games? How Google’s Alpha-Go defeated the &lt;strong&gt;World Champion&lt;/strong&gt; of Go? Let us dive in the field of Computer Games and find out how Computers learn to play Games!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/How Computers LearnToPlayGames/chess.jpg&quot; alt=&quot;Chess&quot; /&gt;&lt;/p&gt; &lt;p&gt;There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.&lt;/p&gt; &lt;h2 id=&quot;naive-tree-search&quot;&gt;Naive Tree Search&lt;/h2&gt; &lt;p&gt;Let’s start with a simple...</description>
+        <description>&lt;p&gt;Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games? How Google’s Alpha-Go defeated the &lt;strong&gt;World Champion&lt;/strong&gt; of Go? Let us dive in the field of Computer Games and find out how Computers learn to play Games!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/How Computers LearnToPlayGames/chess.jpg&quot; alt=&quot;Chess&quot; title=&quot;Chess&quot; /&gt;&lt;/p&gt; &lt;p&gt;There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.&lt;/p&gt; &lt;h2 id=&quot;naive-tree-search&quot;&gt;Naive Tree Search&lt;/h2&gt; &lt;p&gt;Let’s start with a...</description>
         <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/How-Computers-learn-to-play-games/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/How-Computers-learn-to-play-games/</guid>
@@ -51,7 +51,7 @@
     
       <item>
         <title>GaN: Gate to New era</title>
-        <description>&lt;h2 id=&quot;gan-gate-to-new-era&quot;&gt;GaN: Gate to New era&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GaN/1.jpg&amp;lt;&amp;quot;Introduction&amp;quot;&amp;gt;&quot; alt=&quot;introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;To make life easier, more affordable mankind has always been in search of transforming the current technologies and making it much more better, whether be it wheels to cars, or electric current to cell phones. Different tech giants use slogans such as ‘Be what’s next’ by Microsoft, ‘THINK’ by IBM, etc, thus directly promoting new transformations not only in technology but they point towards an economical product which is easily feasible and accessible to its customers. Since the dawn of the electronics age over a hundred years ago, power design...</description>
+        <description>&lt;h2 id=&quot;gan-gate-to-new-era&quot;&gt;GaN: Gate to New era&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GaN/1.jpg&quot; alt=&quot;introduction&quot; title=&quot;Introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;To make life easier, more affordable mankind has always been in search of transforming the current technologies and making it much more better, whether be it wheels to cars, or electric current to cell phones. Different tech giants use slogans such as ‘Be what’s next’ by Microsoft, ‘THINK’ by IBM, etc, thus directly promoting new transformations not only in technology but they point towards an economical product which is easily feasible and accessible to its customers. Since the dawn of the electronics age over a hundred years ago, power...</description>
         <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/GaN/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/GaN/</guid>
