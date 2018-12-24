@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "NanoMedicine",
+      "category" : "Piston",
+      "tags"     : "NanoMedicine, Targeted drug delivery, Overlooked advancements, and EPR effect",
+      "url"      : "http://ieee.nitk.ac.in/blog//NanoMedicine/",
+      "date"     : "22 Dec 2018",
+      "author"   : "Manoj A B"
+    } ,
+  
+    {
+      "title"    : "How Computers learn to play games!",
+      "category" : "Compsoc",
+      "tags"     : "Computer Games, Reinforcement Learning, Monte Carlo Tree Search, and Alpha-Go",
+      "url"      : "http://ieee.nitk.ac.in/blog//How-Computers-learn-to-play-games/",
+      "date"     : "22 Dec 2018",
+      "author"   : "Madhuparna Bhowmik"
+    } ,
+  
+    {
+      "title"    : "GaN: Gate to New era",
+      "category" : "Diode",
+      "tags"     : "galliumnitride, GaN, transistors, wafers, silicon, newsilicon, and technology",
+      "url"      : "http://ieee.nitk.ac.in/blog//GaN/",
+      "date"     : "22 Dec 2018",
+      "author"   : "Vishal Shukla"
+    } ,
+  
+    {
       "title"    : "Why you should learn Flutter?",
       "category" : "Compsoc",
       "tags"     : "Flutter, Android, Dart, and Cross platform mobile development",

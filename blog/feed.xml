@@ -5,9 +5,75 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Dec 2018 19:34:48 +0530</pubDate>
-    <lastBuildDate>Wed, 19 Dec 2018 19:34:48 +0530</lastBuildDate>
+    <pubDate>Mon, 24 Dec 2018 20:28:36 +0530</pubDate>
+    <lastBuildDate>Mon, 24 Dec 2018 20:28:36 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>NanoMedicine</title>
+        <description>&lt;p&gt;&lt;em&gt;How evolutionary is nanomedicine in therapeutics? Is it worth all the hype? Can we, as engineers, find opportunities in the field of nanomedicine? Well, I hope this article will answer many similar questions.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/1.jpg&quot; alt=&quot;Nanopills: Medicinal advantage&quot; title=&quot;Nanopills: Medicinal advantage&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;nanotechnology-and-its-manifestation-in-medicine&quot;&gt;Nanotechnology and its manifestation in Medicine&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/5.jpg&quot; alt=&quot;Manifestation of Nanotechnology in Medicine&quot; title=&quot;Manifestation of Nanotechnology in Medicine&quot; /&gt;&lt;/p&gt; &lt;p&gt;Let’s start with the understanding of how exactly is nanotechnology playing a noteworthy role in the field of medicine. From its very dawn, nanotechnology has indeed shaped the fundamental industrial applications such as manufacturing, biotechnology, semiconductors and fabrication...</description>
+        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/NanoMedicine/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/NanoMedicine/</guid>
+        
+        <category>NanoMedicine</category>
+        
+        <category>Targeted drug delivery</category>
+        
+        <category>Overlooked advancements</category>
+        
+        <category>EPR effect</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>How Computers learn to play games!</title>
+        <description>&lt;p&gt;Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games? How Google’s Alpha-Go defeated the &lt;strong&gt;World Champion&lt;/strong&gt; of Go? Let us dive in the field of Computer Games and find out how Computers learn to play Games!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/How Computers LearnToPlayGames/chess.jpg&quot; alt=&quot;Chess&quot; title=&quot;Chess&quot; /&gt;&lt;/p&gt; &lt;p&gt;There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.&lt;/p&gt; &lt;h2 id=&quot;naive-tree-search&quot;&gt;Naive Tree Search&lt;/h2&gt; &lt;p&gt;Let’s start with a...</description>
+        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/How-Computers-learn-to-play-games/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/How-Computers-learn-to-play-games/</guid>
+        
+        <category>Computer Games</category>
+        
+        <category>Reinforcement Learning</category>
+        
+        <category>Monte Carlo Tree Search</category>
+        
+        <category>Alpha-Go</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>GaN: Gate to New era</title>
+        <description>&lt;h2 id=&quot;gan-gate-to-new-era&quot;&gt;GaN: Gate to New era&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GaN/1.jpg&quot; alt=&quot;introduction&quot; title=&quot;Introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;To make life easier, more affordable mankind has always been in search of transforming the current technologies and making it much more better, whether be it wheels to cars, or electric current to cell phones. Different tech giants use slogans such as ‘Be what’s next’ by Microsoft, ‘THINK’ by IBM, etc, thus directly promoting new transformations not only in technology but they point towards an economical product which is easily feasible and accessible to its customers. Since the dawn of the electronics age over a hundred years ago, power...</description>
+        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/GaN/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/GaN/</guid>
+        
+        <category>galliumnitride</category>
+        
+        <category>GaN</category>
+        
+        <category>transistors</category>
+        
+        <category>wafers</category>
+        
+        <category>silicon</category>
+        
+        <category>newsilicon</category>
+        
+        <category>technology</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>Why you should learn Flutter?</title>
@@ -151,54 +217,6 @@
         <category>Television</category>
         
         <category>Micro</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Ballistics</title>
-        <description>&lt;p&gt;Ballistics is the science of the propulsion, flight, and impact of projectiles especially bullets, unguided bombs or rockets. It is divided into several disciplines. &lt;em&gt;Internal and external ballistics&lt;/em&gt;, respectively, deal with the propulsion and the flight of projectiles. The transition between these two regimes is called &lt;em&gt;intermediate ballistics&lt;/em&gt;. &lt;em&gt;Terminal ballistics&lt;/em&gt; concerns the impact of projectiles which is a separate category that study the wounding of personnel&lt;/p&gt; &lt;h2 id=&quot;internal-ballistics&quot;&gt;Internal Ballistics&lt;/h2&gt; &lt;p&gt;A fire arm cartridge contains four components namely &lt;em&gt;Primer, Case, Propellent&lt;/em&gt; and &lt;em&gt;Bullet__.&lt;/em&gt; The basic working of a fire arm is that when the trigger is pressed the firing pin of...</description>
-        <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/ballistics/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ballistics/</guid>
-        
-        <category>Ballistics</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Zero Knowledge Proof</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/ZeroKnowledgeProof/introduction.jpg&quot; alt=&quot;Introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;In cryptography, &lt;em&gt;zero knowledge proof&lt;/em&gt; or &lt;em&gt;zero knowledge protocol&lt;/em&gt; is a method by which one party proves to another party that they know some kind of secret without revealing any information about the secret, except the fact that they know it. This principle is based on an algorithm that takes some data as input and returns either &lt;em&gt;true&lt;/em&gt; or &lt;em&gt;false&lt;/em&gt;.&lt;/p&gt; &lt;h2 id=&quot;understanding-the-concept-behind-zkps&quot;&gt;Understanding the concept behind ZKPs&lt;/h2&gt; &lt;p&gt;The complexity of zero-knowledge proofs results in them typically being described with abstract examples, which elucidate the concept well.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Suppose there is an underground cave with...</description>
-        <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/</guid>
-        
-        <category>ZKP</category>
-        
-        <category>Cryptography</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Organic Photovoltaics</title>
-        <description>&lt;h1 id=&quot;organic-photovoltaics&quot;&gt;Organic Photovoltaics&lt;/h1&gt; &lt;h2 id=&quot;introduction-&quot;&gt;Introduction :&lt;/h2&gt; &lt;p&gt;Photovoltaics is the process of directly converting sunlight into electricity without any heat engine to interfere. Photovoltaic devices are rugged and simple in design requiring very little maintenance and their biggest advantage being their construction as stand-alone systems to give outputs from microwatts to megawatts. Hence they are used for a vast array of applications resulting in the increase in demand for photovoltaics. Recently, ORGANIC PHOTOVOLTAICS (OPV), has been the subject of active research as this technology has the potential to spawn a new generation of low-cost, solar-powered products with thin and flexible form...</description>
-        <pubDate>Sat, 10 Nov 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/organic-photovoltaics/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/organic-photovoltaics/</guid>
-        
-        <category>Organic Photovoltaics</category>
-        
-        <category>Excitons</category>
-        
-        <category>Photo-active layer</category>
         
         
         <category>Diode</category>
