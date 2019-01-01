@@ -59,9 +59,10 @@ The map function outputs `<target, source>` pairs for each link to a target URL 
 To learn more about Map Reduce read the paper published by Google given in the references.
 
 ### References:
-**Original Paper by Google**: <https://research.google.com/archive/mapreduce-osdi04.pdf>
+[Original Paper by Google](https://research.google.com/archive/mapreduce-osdi04.pdf)
 
-**Cloud Computing Concepts Week 1**: <https://www.coursera.org/learn/cloud-computing/lecture/a3hCy/3-1-mapreduce-paradigm>
+[Cloud Computing Concepts Week 1](https://www.coursera.org/learn/cloud-computing/lecture/a3hCy/3-1-mapreduce-paradigm)
 
+[Introduction to Big Data and Hadoop](https://ieee.nitk.ac.in/blog//big-data/)
 
 

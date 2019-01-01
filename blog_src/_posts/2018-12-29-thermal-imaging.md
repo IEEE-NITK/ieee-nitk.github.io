@@ -31,8 +31,9 @@ So,
 
 ![1.jpg](/blog/assets/img/thermal-imaging/1.jpg)
 
- #### But  First,
- ### What is Thermal Camera
+
+#### But  First,
+### What is Thermal Camera
  A thermal camera is basically a bunch of infrared sensors that capture or sense the infrared, radiated from an object. The image is based on the difference of thermal radiation emitted from an object w.r.t to it's surrounding .
  #### So do we see Infrared radiation ?
  well, actually not.Human eyes are not sensitive to it. The data from the thermal sensors are processed in form of an image and color is assigned based on camera settings.
@@ -114,5 +115,7 @@ Thermal Imagery is quite new technology and hence is expensive.
 
 ### Some more exciting stuffs in Thermal Imaging
 [BBC-Future-The man who makes you see the invisible](http://www.bbc.com/future/story/20170614-thermal-imaging-reveals-the-hidden-heat-lost-from-your-home)
+
 [Thermal World of Chemical Reactions](https://www.youtube.com/watch?v=VSyEWg10WjM)
+
 [FLIR SC6800 Midwave Research & Science Thermal Imaging Camera](https://www.youtube.com/watch?v=IoXEXB_8dpk)
