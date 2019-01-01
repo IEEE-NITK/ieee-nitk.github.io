@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Photocatalytic Detoxification",
+      "category" : "Piston",
+      "tags"     : "Photochemical Reactions, Photo catalysts, Catalysis, Photo Catalysis, Nanotechnology, Semiconductors, and Colloidal semiconductors",
+      "url"      : "http://ieee.nitk.ac.in/blog//photocatalytic-decomposition/",
+      "date"     : "29 Dec 2018",
+      "author"   : "Tirth Savla"
+    } ,
+  
+    {
+      "title"    : "Intro To The MapReduce Programming Paradigm",
+      "category" : "Compsoc",
+      "tags"     : "Parallel Computing, Big Data Processing, Distributed Systems, and Cloud Computing",
+      "url"      : "http://ieee.nitk.ac.in/blog//an-intro-to-the-map-reduce-programming-paradigm/",
+      "date"     : "29 Dec 2018",
+      "author"   : "Abhinav P Y"
+    } ,
+  
+    {
+      "title"    : "Thermal Imaging",
+      "category" : "Diode",
+      "tags"     : "Computer Vision, Thermal Vision, Image Processing, IR, and Sensors",
+      "url"      : "http://ieee.nitk.ac.in/blog//thermal-imaging/",
+      "date"     : "29 Dec 2018",
+      "author"   : "Kumar Alabhya"
+    } ,
+  
+    {
       "title"    : "NanoMedicine",
       "category" : "Piston",
       "tags"     : "NanoMedicine, Targeted drug delivery, Overlooked advancements, and EPR effect",

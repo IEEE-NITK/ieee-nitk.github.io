@@ -5,9 +5,77 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Dec 2018 20:28:36 +0530</pubDate>
-    <lastBuildDate>Mon, 24 Dec 2018 20:28:36 +0530</lastBuildDate>
+    <pubDate>Mon, 31 Dec 2018 19:45:15 +0530</pubDate>
+    <lastBuildDate>Mon, 31 Dec 2018 19:45:15 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Photocatalytic Detoxification</title>
+        <description>&lt;h1 id=&quot;photocatalytic-detoxification&quot;&gt;Photocatalytic Detoxification&lt;/h1&gt; &lt;p&gt;The water bodies around the world are regularly dumped with waste water effluents. These contain various organic and inorganic molecules that affect the aquatic life and overall water quality, which is called water pollution. The surprising fact is that quite a lot of purification is caused naturally by the breakdown of these molecules by sunlight. This process can be assisted with colloidal semiconductors to speed up the reaction process and increase the efficiency. The photocatalytic detoxification of wastewater is a process that combines heterogeneous catalysis with solar technologies. Organic compounds such as alcohols,carboxylic acids,amines, herbicides and aldehydes,...</description>
+        <pubDate>Sat, 29 Dec 2018 05:30:03 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</guid>
+        
+        <category>Photochemical Reactions</category>
+        
+        <category>Photo catalysts</category>
+        
+        <category>Catalysis</category>
+        
+        <category>Photo Catalysis</category>
+        
+        <category>Nanotechnology</category>
+        
+        <category>Semiconductors</category>
+        
+        <category>Colloidal semiconductors</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Intro To The MapReduce Programming Paradigm</title>
+        <description>&lt;h1 id=&quot;an-intro-to-the-mapreduce-programming-paradigm&quot;&gt;An Intro To The MapReduce Programming Paradigm&lt;/h1&gt; &lt;p&gt;The following blog is an attempt to explain the map-reduce programming paradigm and some of its practical appliations.&lt;/p&gt; &lt;h3 id=&quot;introduction&quot;&gt;Introduction:&lt;/h3&gt; &lt;p&gt;Over the past few years, many computer scientists at Google have implemented hundreds of special purpose computations that process large amounts of data, such as crawled documents, web request logs, etc., to compute various kinds of derived data. to compute various kinds of derived data, such as summaries of the number of pages crawled per host, the set of most frequent queries in a given day, etc. However, the input data is...</description>
+        <pubDate>Sat, 29 Dec 2018 05:30:02 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/</guid>
+        
+        <category>Parallel Computing</category>
+        
+        <category>Big Data Processing</category>
+        
+        <category>Distributed Systems</category>
+        
+        <category>Cloud Computing</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Thermal Imaging</title>
+        <description>&lt;p&gt;Have you ever tried talking to people about Thermal camera .Well, the general response you receive is , “ohh.. , the night vision camera .” If you also have the same notion , you actually don’t know about this wonderful technology.&lt;/p&gt; &lt;p&gt;Although Thermal imaging is used for &lt;strong&gt;night vision&lt;/strong&gt; ,both are not the same, and also ,apart from that thermal imaging has got a much wider area of application, to which people are unaware.&lt;/p&gt; &lt;p&gt;This main aim of this article is to demonstrate the various exiting use of thermal imaging .&lt;/p&gt; &lt;p&gt;Hope, after reading it you would appreciate thermal imaging...</description>
+        <pubDate>Sat, 29 Dec 2018 05:30:01 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/thermal-imaging/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/thermal-imaging/</guid>
+        
+        <category>Computer Vision</category>
+        
+        <category>Thermal Vision</category>
+        
+        <category>Image Processing</category>
+        
+        <category>IR</category>
+        
+        <category>Sensors</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>NanoMedicine</title>
@@ -160,66 +228,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Gesture Controlled Robot</title>
-        <description>&lt;p&gt;&quot;JARVIS, Suit me Up!&quot;, &quot;Clang! Spoof! Phew!&quot;, Tony Stark becomes IRON MAN!&lt;/p&gt; &lt;p&gt;Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.&lt;/p&gt; &lt;p&gt;But first up, what exactly is a Gesture Controlled Robot?&lt;/p&gt; &lt;p&gt;A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based...</description>
-        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</guid>
-        
-        <category>Gesture controlled</category>
-        
-        <category>accelerometer</category>
-        
-        <category>RF transmitter</category>
-        
-        <category>RF receiver</category>
-        
-        <category>motor driver</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Cloud Gaming</title>
-        <description>&lt;p&gt;Till today gaming had been possible only on dedicated machines like PCs, gaming consoles like nintendo, playstations and xbox and in the recent times on mobile phones too. But even today the AAA titles or the large budget games like Assassin’s Creed Unity, GTA 5 are only available on consoles and PCs(only windows), but a new technology is emerging today which aims to break all barriers and bring AAA gaming to all devices alike(yes, even to mac and linux). Read on to find what this new &lt;strong&gt;awesome tech&lt;/strong&gt; is all about and how you can get a glimpse of the...</description>
-        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/cloud-gaming/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/cloud-gaming/</guid>
-        
-        <category>Gaming</category>
-        
-        <category>Cloud</category>
-        
-        <category>Google Project Stream</category>
-        
-        <category>Nvidia Now</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>MicroLED</title>
-        <description>&lt;h1 id=&quot;the-future-of-television&quot;&gt;The Future of Television?&lt;/h1&gt; &lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt; &lt;p&gt;Recently at the CES(Consumers Electronics Show) 2018 Samsung unveiled its prototype of the MicroLED at the consumer level with a 146inch MicroLED TV under the name “The Wall”. MicroLED technology was invented in the year 2000 by a research group run by Prof. Hongxing Jiang and Prof. Jingyu Lin of the Texas Tech University. However, the first demonstration of MicroLED as a consumer product can be traced back to Sony’s 55-inch FullHD “Crystal LED Display” that was showcased back in 2012. This was incredibly expensive and was not viable on a commercial scale....</description>
-        <pubDate>Sat, 01 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/microled/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/microled/</guid>
-        
-        <category>LED</category>
-        
-        <category>Television</category>
-        
-        <category>Micro</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
