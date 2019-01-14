@@ -5,23 +5,27 @@ author_github: sampathkoti
 date: 2018-06-05 23:32:44
 description: "The smallest entity 'charge' can cause the greatest disasters in electronic devices"
 tags:
-- CAS/SPS
 - electronic devices
 categories:
 - Diode
 github_username: 'sampathkoti'
+comments: true
 ---
-
-# Charge crowding
 
 ## Electrostatic Discharge
 
-Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other.  ESD can also occur when a high electrostatic field develops between two objects in close proximity.  ESD is one of the major causes of device failures in the semiconductor industry
+Electrostatic Discharge, or ESD, is a single-event, rapid transfer of electrostatic charge between two objects, usually resulting when two objects at different potentials come into direct contact with each other.  ESD can also occur when a high electrostatic field develops between two objects in close proximity.  ESD is one of the major causes of device failures in the semiconductor industry.
+
 Electrostatic charge build-up occurs as a result of an imbalance of electrons on the surface of a material.  Such a charge build-up develops an electric field that has measurable effects on other objects at a distance.  The process of electron transfer as a result of two objects coming into contact with each other and then separating is known as 'triboelectric charging'.  
      
 This charging process results in one object gaining electrons on its surface, and therefore becoming negatively charged, and another object losing electrons from its surface, and therefore becoming positively charged. A person can get triboelectrically charged in a number of ways, even by just walking across a room. The tendencies of various materials to charge up either positively or negatively are shown in a Triboelectric Series.      
-There are three (3) predominant ESD models for IC's: 1) the Human Body Model (HBM); 2) the Charged Device Model (CDM); and 3) the Machine Model (MM).  The HBM simulates the ESD event when a person charged either to a positive or negative potential touches an IC that is at another potential.  The CDM simulates the ESD event wherein a device charges to a certain potential, and then gets into contact with a conductive surface at a different potential.  The MM simulates the ESD event that occurs when a part of an equipment or tool comes into contact with a device at a different potential. HBM and CDM are considered to be more 'real world' models than the MM. .
 
+There are three (3) predominant ESD models for IC's: 
+1. the Human Body Model (HBM) 
+2. the Charged Device Model (CDM) 
+3. the Machine Model (MM).  
+
+The HBM simulates the ESD event when a person charged either to a positive or negative potential touches an IC that is at another potential.  The CDM simulates the ESD event wherein a device charges to a certain potential, and then gets into contact with a conductive surface at a different potential.  The MM simulates the ESD event that occurs when a part of an equipment or tool comes into contact with a device at a different potential. HBM and CDM are considered to be more 'real world' models than the MM. .
 
 ## ESD Control With Ionization 
 
@@ -36,7 +40,6 @@ The ESD sensitivity of semiconductor components is routinely decreasing with eac
 Static charge generation is unavoidable. Triboelectric charging occurs through the contact and separation of materials. A charged surface can also induce an electrostatic potential (voltage) on conductive objects close to the static charge without any actual contact.  Avoiding charge generation and transfer throughout the electronics manufacturing process is essentially impossible, but with a comprehensive program, it can be controlled. Every static control program starts with extensive grounding of all conductive and static dissipative materials including personnel.  
  
 Non-conductors are required in process areas (most often, they are the product itself). Since charged non-conductors will not consistently lose their charge by grounding, methods of neutralization are needed.  Ionization is the most used technology for the neutralization of static charge on non-conductors and conductors that are isolated from ground. Room ionizers provide neutralization over large areas, worksurface ionizers target smaller production areas, and point-of-use ionizers are included in production equipment. Ionizers used in electronics production areas must follow the same general guidelines for material compatibility as other equipment in the area.
-
 
 ### Challenges
 

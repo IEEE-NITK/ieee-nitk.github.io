@@ -31,7 +31,7 @@
       "title"    : "NanoMedicine",
       "category" : "Piston",
       "tags"     : "NanoMedicine, Targeted drug delivery, Overlooked advancements, and EPR effect",
-      "url"      : "http://ieee.nitk.ac.in/blog//NanoMedicine/",
+      "url"      : "http://ieee.nitk.ac.in/blog//nano-medicine/",
       "date"     : "22 Dec 2018",
       "author"   : "Manoj A B"
     } ,
@@ -40,7 +40,7 @@
       "title"    : "How Computers learn to play games!",
       "category" : "Compsoc",
       "tags"     : "Computer Games, Reinforcement Learning, Monte Carlo Tree Search, and Alpha-Go",
-      "url"      : "http://ieee.nitk.ac.in/blog//How-Computers-learn-to-play-games/",
+      "url"      : "http://ieee.nitk.ac.in/blog//how-computers-learn-to-play-games/",
       "date"     : "22 Dec 2018",
       "author"   : "Madhuparna Bhowmik"
     } ,
@@ -93,8 +93,8 @@
     {
       "title"    : "Gesture Controlled Robot",
       "category" : "Diode",
-      "tags"     : "Gesture controlled, accelerometer, RF transmitter, RF receiver, and motor driver",
-      "url"      : "http://ieee.nitk.ac.in/blog//gesture_controlled_robot/",
+      "tags"     : "Gesture controlled, Accelerometer, RF transmitter, RF receiver, and Motor Driver",
+      "url"      : "http://ieee.nitk.ac.in/blog//gesture-controlled-robot/",
       "date"     : "08 Dec 2018",
       "author"   : "Deepanshi"
     } ,
@@ -106,6 +106,15 @@
       "url"      : "http://ieee.nitk.ac.in/blog//cloud-gaming/",
       "date"     : "08 Dec 2018",
       "author"   : "Aakash Singh"
+    } ,
+  
+    {
+      "title"    : "Zero Knowledge Proof",
+      "category" : "Compsoc",
+      "tags"     : "ZKP and Cryptography",
+      "url"      : "http://ieee.nitk.ac.in/blog//zero-knowledge-proof/",
+      "date"     : "01 Dec 2018",
+      "author"   : "Arpitha Raghunandan"
     } ,
   
     {
@@ -124,15 +133,6 @@
       "url"      : "http://ieee.nitk.ac.in/blog//ballistics/",
       "date"     : "01 Dec 2018",
       "author"   : "Rahul R L"
-    } ,
-  
-    {
-      "title"    : "Zero Knowledge Proof",
-      "category" : "Compsoc",
-      "tags"     : "ZKP and Cryptography",
-      "url"      : "http://ieee.nitk.ac.in/blog//ZeroKnowledgeProof/",
-      "date"     : "01 Dec 2018",
-      "author"   : "Arpitha Raghunandan"
     } ,
   
     {
@@ -172,21 +172,21 @@
     } ,
   
     {
+      "title"    : "KMP Algorithm",
+      "category" : "Compsoc",
+      "tags"     : "KMP, Strings, Competitive Programming, and C++",
+      "url"      : "http://ieee.nitk.ac.in/blog//kmp-algorithm/",
+      "date"     : "03 Nov 2018",
+      "author"   : "TSS Chandana"
+    } ,
+  
+    {
       "title"    : "Drive By Wire",
       "category" : "Piston",
       "tags"     : "Drive by wire, Steer by wire, and Autonomous vehicle",
       "url"      : "http://ieee.nitk.ac.in/blog//by-wire/",
       "date"     : "03 Nov 2018",
       "author"   : "Smit Rambhiya"
-    } ,
-  
-    {
-      "title"    : "KMP Algorithm",
-      "category" : "Compsoc",
-      "tags"     : "KMP, Strings, Competitive Programming, and C++",
-      "url"      : "http://ieee.nitk.ac.in/blog//KMP-Algorithm/",
-      "date"     : "03 Nov 2018",
-      "author"   : "TSS Chandana"
     } ,
   
     {
@@ -219,7 +219,7 @@
     {
       "title"    : "Vortices",
       "category" : "Piston",
-      "tags"     : "aerodynamics, vortex, formula 1, aviation, flight, airflow, and fluids",
+      "tags"     : "aerodynamics, vortex, formula 1, aviation, airflow, and fluids",
       "url"      : "http://ieee.nitk.ac.in/blog//vortices/",
       "date"     : "21 Oct 2018",
       "author"   : "Darren Charles Fernandes"
@@ -247,7 +247,7 @@
       "title"    : "Varistor",
       "category" : "Diode",
       "tags"     : "IEEE NITK, Diode, resistors, capacitors, zener diode, voltage transients, and regulators",
-      "url"      : "http://ieee.nitk.ac.in/blog//Varistor/",
+      "url"      : "http://ieee.nitk.ac.in/blog//varistor/",
       "date"     : "14 Oct 2018",
       "author"   : "Prithvi Patil"
     } ,
@@ -255,8 +255,8 @@
     {
       "title"    : "Automate The Industries",
       "category" : "Piston",
-      "tags"     : "IEEE NITK, Piston, Automation, Industries, Robots, and Manufacturing",
-      "url"      : "http://ieee.nitk.ac.in/blog//Automate-The-Industries/",
+      "tags"     : "Piston, Automation, Industries, Robots, and Manufacturing",
+      "url"      : "http://ieee.nitk.ac.in/blog//automate-the-industries/",
       "date"     : "14 Oct 2018",
       "author"   : "Nisarg B Shah"
     } ,
@@ -265,7 +265,7 @@
       "title"    : "Why Machine Learning Matters ?",
       "category" : "Compsoc",
       "tags"     : "IEEE NITK, CompSoc, Machine Learning, and Artificial Intelligence",
-      "url"      : "http://ieee.nitk.ac.in/blog//Why-Machine-Learning-Matters/",
+      "url"      : "http://ieee.nitk.ac.in/blog//why-machine-learning-matters/",
       "date"     : "14 Oct 2018",
       "author"   : "Siddhartha M"
     } ,
@@ -334,7 +334,7 @@
     } ,
   
     {
-      "title"    : "THE NEW BIOMETRIC - BRAINPRINT",
+      "title"    : "The New Biometric - Brainprint",
       "category" : "",
       "tags"     : "biometrics and brainprint",
       "url"      : "http://ieee.nitk.ac.in/blog//the-new-biometric-brainprint/",
@@ -400,7 +400,7 @@
       "title"    : "Diving into and Exploiting the Heap",
       "category" : "Compsoc",
       "tags"     : "heap, exploitation, memory, and allocation",
-      "url"      : "http://ieee.nitk.ac.in/blog//heap_exploitation/",
+      "url"      : "http://ieee.nitk.ac.in/blog//heap-exploitation/",
       "date"     : "06 Jun 2018",
       "author"   : "Suraj Singh"
     } ,
@@ -408,7 +408,7 @@
     {
       "title"    : "Computational Approaches of Shock Waves",
       "category" : "Piston",
-      "tags"     : "Piston, Shock Waves, and CFD",
+      "tags"     : "Shock Waves and CFD",
       "url"      : "http://ieee.nitk.ac.in/blog//computational-approaches-of-shock-waves/",
       "date"     : "06 Jun 2018",
       "author"   : "Shashank Ravichandir"
@@ -417,7 +417,7 @@
     {
       "title"    : "Charge Crowding",
       "category" : "Diode",
-      "tags"     : "CAS/SPS and electronic devices",
+      "tags"     : "electronic devices",
       "url"      : "http://ieee.nitk.ac.in/blog//charge-crowding/",
       "date"     : "06 Jun 2018",
       "author"   : "Sampath Koti"

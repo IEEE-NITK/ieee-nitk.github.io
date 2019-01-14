@@ -21,7 +21,6 @@ categories:
 github_username: 'RakshanaG'
 comments: true
 ---
-# ELECTRONIC SKIN
 
 ![Hand with electronic skin](/blog/assets/img/electronic-skin/pic1.png "Hand with electronic skin")
 
@@ -52,9 +51,7 @@ The researchers used water to help transfer the electronic tattoo to 3-D objects
 
 ![Immersing object in tub of water](/blog/assets/img/electronic-skin/pic7.png "Immersing object in tub of water")
 
-The paper backing of the tattoo is separated from the carrier film which floated on the surface of the water.
-
-Finally, when the researchers lifted the object out of the water, the circuit adhered to the contours of the object.
+The paper backing of the tattoo is separated from the carrier film which floated on the surface of the water. Finally, when the researchers lifted the object out of the water, the circuit adhered to the contours of the object.
 
 ![Circuit adhered to the contours of the object](/blog/assets/img/electronic-skin/pic8.png "Circuit adhered to the contours of the object")
 
@@ -62,8 +59,10 @@ This electronic skin remains functional under bending, folding, twisting, and st
 
 Various applications of the new method include controlling a robot prosthetic arm, incorporating proximity sensors into a 3D model of a hand and epidermal bio monitoring.
 
-The research was performed in collaboration between Carnegie Mellon&#39;s Soft Machines Lab and the Institute of Systems and Robotics at the University of Coimbra in Portugal.
+The research was performed in collaboration between Carnegie Mellon's Soft Machines Lab and the Institute of Systems and Robotics at the University of Coimbra in Portugal.
 
-The findings were published in the paper, &quot;EGaIn-Assisted Room-Temperature Sintering of Silver Nanoparticles for Stretchable, Inkjet-Printed, Thin-Film Electronics,&quot; in Advanced Materials.
+The findings were published in the paper, "EGaIn-Assisted Room-Temperature Sintering of Silver Nanoparticles for Stretchable, Inkjet-Printed, Thin-Film Electronics," in Advanced Materials.
 
 To know more about electronic tattoos and their applications check out this [video](https://youtu.be/OaITzyMptFQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OaITzyMptFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

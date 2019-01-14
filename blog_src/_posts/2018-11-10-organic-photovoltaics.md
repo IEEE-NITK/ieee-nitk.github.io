@@ -14,7 +14,6 @@ categories:
 github_username: 'IteeshaAshwath'
 comments: true
 ---
-# Organic Photovoltaics
 
 ## Introduction :
 
