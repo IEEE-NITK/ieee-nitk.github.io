@@ -176,19 +176,19 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p><strong>India’s milk production</strong> is estimated to have increased by 6.6 per cent  during the last four year. Price of milk is based on the  quantity of FAT  present in milk . so we need machine which can  measures milk parameters like SNF (Solid but Not FAT), FAT, CLR, with less cost.</p>
+                    <h1 id="measure-of-fat-content-in-milk-with-led-and-ldr">Measure of fat content in milk with LED and LDR</h1>
+
+<p><strong>India's milk production</strong> is estimated to have increased by 6.6 per cent  during the last four year. Price of milk is based on the  quantity of FAT  present in milk . so we need machine which can  measures milk parameters like SNF (Solid but Not FAT), FAT, CLR, with less cost.</p>
 
 <p>The important thing is that machine should be cheaper and only based on electricity .then it is very helpful for the remote area also.</p>
 
 <p><strong>Coming to the point photometric based sensor or light backscatter application technique is able to fulfil the remote area condition(which was proposed by IJIRCCE).</strong></p>
 
-<ul>
-  <li><strong>How is it better then other method ?</strong></li>
-</ul>
+<p><strong>How is it better then other method ?</strong></p>
 
-<p>First have a look on primary method</p>
+<p><strong>first have a look on primary method -</strong></p>
 
-<h3 id="1-gerber-method-">1. Gerber method :</h3>
+<p><strong>1)Gerber method :</strong></p>
 
 <p>The specific gravity of fat is 0.9 and that of acid milk mixtures is 1.43. This situation promotes complete separation of fat when proper centrifugal force is applied.</p>
 
@@ -197,11 +197,21 @@
 <p><strong>Apparatus:</strong></p>
 
 <ul>
-  <li>Milk sample bottle.</li>
-  <li>10 ml automatic tilt measure for H2SO4.</li>
-  <li>1 ml automatic tilt measurefor amyl</li>
-  <li>10.75 ml capacity milk pipette.</li>
-  <li>Dairy floating thermometer.</li>
+  <li>
+    <p>Milk sample bottle.</p>
+  </li>
+  <li>
+    <p>10 ml automatic tilt measure for H2SO4.</p>
+  </li>
+  <li>
+    <p>1 ml automatic tilt measurefor amyl</p>
+  </li>
+  <li>
+    <p>10.75 ml capacity milk pipette.</p>
+  </li>
+  <li>
+    <p>Dairy floating thermometer.</p>
+  </li>
 </ul>
 
 <p><strong>Procedure:</strong></p>
@@ -236,11 +246,11 @@
   </li>
 </ol>
 
-<h3 id="2-soxhlet-extraction-principle-">2. Soxhlet extraction principle :</h3>
+<p><strong>2) Soxhlet extraction principle :</strong></p>
 
 <p>Generally this principal  is used in industries and it is also costly.</p>
 
-<p><strong>Now let’s discuss about light backscatter application and it’s working-\&gt;</strong></p>
+<p><strong>Now let's discuss about light backscatter application and it's working-\&gt;</strong></p>
 
 <p><strong>photometric based sensor or light backscatter application :</strong></p>
 
@@ -264,42 +274,40 @@
 
 <p>A relatively simple empirical correlation between the distribution of backscattered light intensity and the particle concentration was utilized by adapting a widely used diffusion approximation equation presented by Bolt and ten Bosch [1]:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I(r) = I0 exp(- βCr) /r^m         equation(1);
-
-where: I0 = apparent intensity at radial center line of emitting fiber
-
-I(r) = Light intensity as a function of radial distance from the emitting fiber
-
-β = specific backscatter light coefficient
-
-C = concentration of particulates
-
-m = exponent relating light diffusion in the radial direction
-
-r = radial distance of the receiving fiber (centerline to centerline), mm.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                     I(r) = I0 exp(- βCr) /r^m         equation(1);
 </code></pre></div></div>
+
+<p>where: I0 = apparent intensity at radial center line of emitting fiber</p>
+
+<p>I(r) = Light intensity as a function of radial distance from the emitting fiber</p>
+
+<p>β = specific backscatter light coefficient</p>
+
+<p>C = concentration of particulates</p>
+
+<p>m = exponent relating light diffusion in the radial direction</p>
+
+<p>r = radial distance of the receiving fiber (centerline to centerline), mm.</p>
 
 <p>The backscatter light coefficient, β, is based on the ability of the sample to scatter light and depends on the optical and radiative properties of the particles in the sample. The value of m depends on whether the detector is placed in the intermediate area (m = ½) or the diffusion area (m = 2). The diffusion area is defined as the area in which sufficient multiple scatterings have taken place, so that the diffusion approximation is valid.</p>
 
 <p>In the development of a sensor, the use of signal ratios has the advantage of normalizing the resulting response. This isolates the signal ratio from changes in light intensity and some changes to the physical system (optics, mechanical connections, etc.). For the fully developed diffusion area, the ratio of the intensities at two radial distances (r1 and r2) using Equation (1) reduces to the following equation:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I(r1)/I(r2) =   (r2/r1)^m  exp(K(r2-r1))     equation(2)
-
-where r1 and r2 are radial distances for fiber 1 and fiber 2, respectively, and K is a constant for a specific fat content. 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>             I(r1)/I(r2) =   (r2/r1)^m  exp(K(r2-r1))     equation(2)
 </code></pre></div></div>
 
-<p>This equation predicts an increasing signal ratio with increasing milk fat. Light scattering is dominant for high concentrations of fat and the widely used diffusion approximation is valid for this case.</p>
+<p>where r1 and r2 are radial distances for fiber 1 and fiber 2, respectively, and K is a constant for a specific fat content. This equation predicts an increasing signal ratio with increasing milk fat. Light scattering is dominant for high concentrations of fat and the widely used diffusion approximation is valid for this case.</p>
 
 <p>A consistent light backscatter pattern (reflectance ratio – ratio of light backscatter signal to initial signal at time zero) was found and is shown in Figure 3. The reflectance ratio is initially relatively steady, traverses through a sigmoidal increase and then gradually increases at a decreasing rate. The first chemical reaction during the enzymatic coagulation of milk for cheese making is the reaction of chymosin and casein. This enzymatic reaction phase destabilizes the colloidal nature of casein micelle but does not significantly affect light backscatter. This reaction proceeds as a first order chemical reaction when the substrate concentration (casein) is in excess supply in relation to the enzyme concentration. The second phase is the aggregation phase of the destabilized casein micelle into flocks which grow and consume the entire casein particulate system. It is during this phase when larger particles are formed and the reflectance of light increases rapidly. The aggregation reaction follows a second order chemical reaction. The third phase is the gel forming phase which results from a micro consolidation of protein strands that result in stronger protein strands and an increasing space within the protein matrix. This phase follows a first order chemical reaction. These three chemical reactions overlap with the resulting reflectance profile as shown in Figure 3. The reflectance of milk at 880 nm typically increases 15% to 40% during coagulation providing a strong response signal.</p>
 
 <p>The goal of signal analysis is the extraction of information which will allow accurate prediction of the cutting time from the profile. A successful cutting time prediction technology was developed by utilizing the strong correlation between two time events; tmax and tcut. The correlation, however, needed to be corrected for protein content to develop a precise prediction. The following cutting time prediction equation was determined to predict the cutting time with an approximate precision of ± 1 min:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tcut = β tmax (protein correction)               Equation 3
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>         tcut = β tmax (protein correction)               Equation 3
 </code></pre></div></div>
 
 <p><img src="/blog/assets/img/light-backscatter-application/3.jpg" alt="Figure 3" title="Figure 3" /></p>
 
-<p><strong>Figure 3. A typical light backscatter profile, R, for coagulating milk is shown with the first derivative, R’, the second derivative, R’’, and the time-based parameter, tmax</strong></p>
+<p><strong>Figure 3. A typical light backscatter profile, R, for coagulating milk is shown with the first derivative, R', the second derivative, R'', and the time-based parameter, tmax</strong></p>
 
 <p>where β = a calibration constant (usually determined by the cheese maker) which typically varies from 1.3 to 2.5. Equation 3 requires only tmax. (a time-based parameter) and protein content to make a cutting time prediction. The time-based parameter, tmax to be an exact measurement proportional to the enzymatic reaction rate. The change in reflectance does represent product changes; however, numerous attempts at extracting consistent information from reflectance changes have proved fruitless. Figure 4 shows observed and predicted cutting time for a broad based test of conditions typically encountered in cheese making.</p>
 
@@ -313,7 +321,7 @@ where r1 and r2 are radial distances for fiber 1 and fiber 2, respectively, and 
 
 <p><img src="/blog/assets/img/light-backscatter-application/5.jpg" alt="Figure 5" title="Figure 5" /></p>
 
-<p><strong>Figure 5. A typical light backscatter profile, R, for cottage cheese culture showing the first derivative, R’, the second derivative, R’’, and the time-based parameters</strong>.</p>
+<p><strong>Figure 5. A typical light backscatter profile, R, for cottage cheese culture showing the first derivative, R', the second derivative, R'', and the time-based parameters</strong>.</p>
 
 <p>The ratio of light intensity response, (I2/I1), measured with two detectors spaced at different radial distances was referred to as signal ratio and was found as predicted by Equation 2 to increase with fat content. The signal ratio for homogenized whipping cream diluted in water is shown in Fig. 6.</p>
 
@@ -325,7 +333,7 @@ where r1 and r2 are radial distances for fiber 1 and fiber 2, respectively, and 
 
 <p><strong>EXPERIMENTAL RESULTS :</strong></p>
 
-<p>The  results of fat percentage present in 20 ml milk sample calculated using Gerber’s method , dairy method and light backscatter method are as follows -</p>
+<p>The  results of fat percentage present in 20 ml milk sample calculated using Gerber's method , dairy method and light backscatter method are as follows -</p>
 
 <table>
   <thead>

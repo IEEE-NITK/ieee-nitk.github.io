@@ -176,19 +176,19 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>The term “Quantum Computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!).  These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.</p>
+                    <p>The term “quantum computer” has been buzzing around in recent years. But what is a quantum computer? Have they been built? How are they different from a classical computer? What kind of problems do they solve? Do I need to be an expert in physics to understand them?(Not really!).  These may be some of the questions arising in your mind when you hear someone say “quantum computer”. In this article, I will address these questions by giving a basic understanding of quantum computer and what makes it so special.</p>
 
 <h2 id="fundamentals">Fundamentals</h2>
 
 <p>All the electronic devices that we use in our daily lives are classical. They work on streams of classical bits. These classical bits are represented mathematically in binary digits, 0 and 1. The basic building blocks of a quantum computer, however, is something known as a <strong>qubit</strong>. A classical bit is either 0 or it is 1, it cannot be both at the same time. But a qubit can be in states 0 and 1 simultaneously. This property of being in multiple states simultaneously is called <strong>superposition</strong>.</p>
 
-<p><img src="/blog/assets/img/quantum-supremacy/qubit.png" alt="Difference between classical bit and qubit ([Image Credit](http://qoqms.phys.strath.ac.uk/research_qc.html))" /></p>
+<p><img src="/blog/assets/img/quantum-supremacy/qubit.png" alt="Difference between classical bit and qubit ([image credit](http://qoqms.phys.strath.ac.uk/research_qc.html))" /></p>
 
 <p>In a classical computer, a bit is represented physically as two distinct states of a system. It could be two distinct levels of voltage or current, two stable states of a flip-flop, two directions of magnetizations, etc. A qubit can also be represented physically. Qubit is not just a theoretical concept. Some of the physical realizations of a qubit are using <strong>polarization of photon</strong> and <strong>electron spin</strong>, there are many more ways. In fact each quantum computer that is being built today uses a different type of physical representation.</p>
 
 <p>The process of finding out the value of a bit is called <strong>measurement</strong> of the bit. Classical measurement is very obvious, you simply find out the value of the bit. If the bit turns out to be 0 then you know that it is 0 for sure, if it is 1 then you know that it is 1 for sure. There is no problem with classical measurement. However, this is not the case with qubit measurement. Measuring a qubit forces the qubit to take the state of 0 or 1, but not both. Hence the <strong>superposition is lost</strong> once a qubit is measured. Upon measuring, the qubit is said to have “<strong>collapsed</strong>” to either state 0 or 1. If you measure this same qubit for the second time it gives the same result as first measurement. You can say that measurement process has converted the qubit to a classical bit. There is something even more interesting. A qubit in superpostion has some probabilities of being in state 0 or 1. When this qubit is measured it collapses to 0 or 1 based on these probabilities. The only way of finding these probabilities is to measure infinite copies of the same qubit and counting how many times it gives 0 and 1.   To better understand measurement, think about a coin toss as analogy. When the coin is in air, it is in superposition of two states – head and tail. Probability of getting head or tail depends on the inherent property of the coin. Here,  a coin is said to be “measured” when it falls flat and shows either head or tail. “Superposition” of the coin is lost when it is “measured”.</p>
 
-<p><img src="/blog/assets/img/quantum-supremacy/measurement.png" alt="Measurement of qubit ([Image Credit:](https://www.clerro.com/mobile/guide/580/quantum-computing-explained))" /></p>
+<p><img src="/blog/assets/img/quantum-supremacy/measurement.png" alt="Measurement of qubit ([image credit](https://www.clerro.com/mobile/guide/580/quantum-computing-explained))" /></p>
 
 <h2 id="what-makes-it-special">What makes it special</h2>
 
@@ -215,23 +215,15 @@
 
 <p>Companies like IBM, D-Wave, Google, Intel, Microsoft are the major players in this field now. D-Wave is the first company to sell quantum computers commercially. In January 2017, D-Wave released a 2048-bit quantum computer named <strong>D-Wave 2000Q</strong>. But this is not a true quantum computer. “The Holy Grail of quantum computing to build a <strong>‘universal’ quantum computer</strong>—one that can solve any computational problem—but at a vastly higher speed that today’s computers,” Hilton told EE Times. “That’s the reason some people say we don’t have a ‘real’ quantum computer—because D-Wave’s is not a ‘universal’ computer.”</p>
 
-<p><img src="/blog/assets/img/quantum-supremacy/bristlecone.png" alt="Google's Bristlecone ([Image Credit](https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html))" /></p>
+<p><img src="/blog/assets/img/quantum-supremacy/bristlecone.png" alt="Google's Bristlecone ([image credit](https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html))" /></p>
 
 <p>Google has been claiming recently that it would achieve quantum supremacy in the near future. Google’s latest quantum processing chip with 72 qubits, called <strong>Bristlecone</strong>, has been predicted to achieve quantum supremacy. There are still a lot of tests to be conducted though, to claim this achievement. IBM has also been investing a lot in building a universal quantum computer and boasts of a 50 qubit processor. IBM has created an online platform, named IBM Q Experience, which allows access to their <a href="https://quantumexperience.ng.bluemix.net/qx/experience">5-bit quantum computer for free</a> and 16-qubit computer for some cost. They have good documentation to help you get started with using them.</p>
 
-<p>But should quantum supremacy be the main objective of building a quantum computer. Does the concept of quantum supremacy make sense?</p>
-
-<blockquote>
-  <p>“You’ll struggle to find any [researcher] who likes the term ‘quantum supremacy,’” says Simon Benjamin, a quantum expert at Oxford University. “It’s very catchy, but it’s a bit confusing and oversells what quantum computers will be able to do.”</p>
-</blockquote>
-
-<blockquote>
-  <p>“I don’t believe that quantum supremacy represents a magical milestone that we will reach and declare victory,” says theorist Jay Gambetta at IBM. “I see these ‘supremacy’ experiments more as a set of benchmarking experiments to help develop quantum devices.”</p>
-</blockquote>
-
-<p>Some researchers have suggested that there should be focus on “<strong>quantum advantage</strong>” instead. Quantum advantage refers to the specific tasks that only quantum computers can do.  Other terms used for this are “<strong>quantum ascendancy</strong>” and “<strong>quantum inimitability</strong>”.</p>
-
-<p>Even John Preskill, who coined the term “quantum supremacy” published a paper in January 2018 published a paper in which he said quantum computing was about to enter a phase he called NISQ, or “noisy intermediate stage quantum,” where machines will have 50 to a few hundred qubits. “‘Noisy,’” he wrote, “means that we’ll have imperfect control over those qubits; the noise will place serious limitations on what quantum devices can achieve in the near term.” Preskill said he’s still convinced quantum computers will have a transformative effect on society, but that transformation, he concedes, “may still be decades away.”</p>
+<p>But should quantum supremacy be the main objective of building a quantum computer. Does the concept of quantum supremacy make sense? 
+“You’ll struggle to find any [researcher] who likes the term ‘quantum supremacy,’” says Simon Benjamin, a quantum expert at Oxford University. “It’s very catchy, but it’s a bit confusing and oversells what quantum computers will be able to do.” 
+“I don’t believe that quantum supremacy represents a magical milestone that we will reach and declare victory,” says theorist Jay Gambetta at IBM. “I see these ‘supremacy’ experiments more as a set of benchmarking experiments to help develop quantum devices.”
+Some researchers have suggested that there should be focus on “<strong>quantum advantage</strong>” instead. Quantum advantage refers to the specific tasks that only quantum computers can do.  Other terms used for this are “<strong>quantum ascendancy</strong>” and “<strong>quantum inimitability</strong>”. 
+Even John Preskill, who coined the term “quantum supremacy” published a paper in January 2018 published a paper in which he said quantum computing was about to enter a phase he called NISQ, or “noisy intermediate stage quantum,” where machines will have 50 to a few hundred qubits. “‘Noisy,’” he wrote, “means that we’ll have imperfect control over those qubits; the noise will place serious limitations on what quantum devices can achieve in the near term.” Preskill said he’s still convinced quantum computers will have a transformative effect on society, but that transformation, he concedes, “may still be decades away.”</p>
 
 <h2 id="resources">Resources</h2>
 

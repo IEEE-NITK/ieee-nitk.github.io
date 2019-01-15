@@ -53,18 +53,17 @@ Interestingly this design of the engine incresed the eficiency by upto 20 % by r
 
 ![Bullet Train](/blog/assets/img/biomicry-creating-a-truly-sustainable-environment/bullet_train.jpg)
 
-## **The Velcro**
+## **THE VELCRO**
 Swiss electrical engineer George de Mestral invented his first touch fastener when, in 1941, he
 went for a walk in the woods and wondered why Burdock seeds clung to his coat and dog. He
 discovered it could be turned into something useful. He patented it in 1955 and subsequently
 refined and developed its practical manufacture until its commercial introduction in the late
 1950s.
 
-## **Self Cleaning Surfaces**
+## **SELF CLEANING SURFACES**
 Self-cleaning surfaces are a class of materials with the inherent ability to remove any debris or bacteria from their surfaces in a variety of ways. The self-cleaning functionality of these surfaces are commonly inspired by natural phenomena observed in lotus leaves , shark skin , gecko feet, and water striders to name a few. All these surfaces have shown exceptional ability to self clean which has inspired many to conduct several researches on it .
 
-**Self Cooling Buildings**
-
+**SELF COOLING BUILDINGS**
 Global warming is leading to a large scale heat up of our planet , the summers are becoming continuously hotter. People are coming up with better and more efficient cooling technologies.
 
 But at the best our cooling technologies require lot of energy which ultimately comes from burning the fossil fuels which contributes to global warming. This is seen as a major problem in the coming times.Is there a solution to this problem ? 

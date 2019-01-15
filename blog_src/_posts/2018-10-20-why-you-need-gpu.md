@@ -11,8 +11,8 @@ tags:
 categories:
 - CompSoc
 github_username: 'rohit-mp'
-comments: true
 ---
+# Why you need GPU
 
 You've probably wanted to buy a laptop/desktop with a GPU to play those awesome high graphics games that your friends keep talking about, and yes your parents wouldv'e probably said "You're not going to get that. You need to study now". But is that all the use there is for a GPU?  
 
@@ -25,11 +25,13 @@ Yeah we all know what they stand for, so let's skip that and get a little techni
 To put it in one line, we can say that if the CPU is being used for computations, then the GPU is a computational warehouse. What I mean is that while a normal CPU has 4-16 cores which can each run a few threads at once, a GPU has around 1000-4000 cores with each core capable oh handling a certain number of threads.  
 You might want to take a look at this link if you aren't sure about what I just said  [https://www.howtogeek.com/194756/cpu-basics-multiple-cpus-cores-and-hyper-threading-explained/](https://www.howtogeek.com/194756/cpu-basics-multiple-cpus-cores-and-hyper-threading-explained/)
 
-![Flops](/blog/assets/img/why-you-need-gpu/flops.png)
+![flops](/blog/assets/img/why-you-need-gpu/flops.png)
 
 Now yes, this means that the graphics in a game will render faster with a GPU than without and everything appears fast and smooth, but it also has other implications. It literally means that the GPU can process more infomation that a CPU in the same time.  
 
-Now does this mean that a GPU is the same as many CPUs put together? This will answer your doubt [Difference between a CPU and a GPU](https://blogs.nvidia.com/blog/2009/12/16/whats-the-difference-between-a-cpu-and-a-gpu/)   which brings us to the point of this article - GPU computing
+Now does this mean that a GPU is the same as many CPUs put together? This will answer your doubt  
+[https://blogs.nvidia.com/blog/2009/12/16/whats-the-difference-between-a-cpu-and-a-gpu/](https://blogs.nvidia.com/blog/2009/12/16/whats-the-difference-between-a-cpu-and-a-gpu/)  
+which brings us to the point of this article - GPU computing
 
 ### GPU Computing  
 

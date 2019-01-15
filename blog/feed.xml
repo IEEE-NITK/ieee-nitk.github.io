@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Jan 2019 19:26:22 +0530</pubDate>
-    <lastBuildDate>Mon, 14 Jan 2019 19:26:22 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Tue, 01 Jan 2019 19:22:24 +0530</pubDate>
+    <lastBuildDate>Tue, 01 Jan 2019 19:22:24 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Photocatalytic Detoxification</title>
-        <description>&lt;h1 id=&quot;photocatalytic-detoxification&quot;&gt;Photocatalytic Detoxification&lt;/h1&gt; &lt;p&gt;The water bodies around the world are regularly dumped with waste water effluents. These contain various organic and inorganic molecules that affect the aquatic life and overall water quality, which is called water pollution. The surprising fact is that quite a lot of purification is caused naturally by the breakdown of these molecules by sunlight. This process can be assisted with colloidal semiconductors to speed up the reaction process and increase the efficiency. The photocatalytic detoxification of wastewater is a process that combines heterogeneous catalysis with solar technologies.&lt;/p&gt; &lt;p&gt;Organic compounds such as alcohols,carboxylic acids,amines, herbicides and aldehydes,...</description>
+        <description>&lt;h1 id=&quot;photocatalytic-detoxification&quot;&gt;Photocatalytic Detoxification&lt;/h1&gt; &lt;p&gt;The water bodies around the world are regularly dumped with waste water effluents. These contain various organic and inorganic molecules that affect the aquatic life and overall water quality, which is called water pollution. The surprising fact is that quite a lot of purification is caused naturally by the breakdown of these molecules by sunlight. This process can be assisted with colloidal semiconductors to speed up the reaction process and increase the efficiency. The photocatalytic detoxification of wastewater is a process that combines heterogeneous catalysis with solar technologies. Organic compounds such as alcohols,carboxylic acids,amines, herbicides and aldehydes,...</description>
         <pubDate>Sat, 29 Dec 2018 05:30:03 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</guid>
@@ -57,7 +57,7 @@
     
       <item>
         <title>Thermal Imaging</title>
-        <description>&lt;p&gt;Have you ever tried talking to people about Thermal camera .Well, the general response you receive is , “ohh.. , the night vision camera .” If you also have the same notion , you actually don’t know about this wonderful technology.&lt;/p&gt; &lt;p&gt;Although Thermal imaging is used for &lt;strong&gt;night vision&lt;/strong&gt; ,both are not the same, and also ,apart from that thermal imaging has got a much wider area of application, to which people are unaware. This main aim of this article is to demonstrate the various exiting use of thermal imaging. Hope, after reading it you would appreciate thermal imaging more...</description>
+        <description>&lt;p&gt;Have you ever tried talking to people about Thermal camera .Well, the general response you receive is , “ohh.. , the night vision camera .” If you also have the same notion , you actually don’t know about this wonderful technology.&lt;/p&gt; &lt;p&gt;Although Thermal imaging is used for &lt;strong&gt;night vision&lt;/strong&gt; ,both are not the same, and also ,apart from that thermal imaging has got a much wider area of application, to which people are unaware.&lt;/p&gt; &lt;p&gt;This main aim of this article is to demonstrate the various exiting use of thermal imaging .&lt;/p&gt; &lt;p&gt;Hope, after reading it you would appreciate thermal imaging...</description>
         <pubDate>Sat, 29 Dec 2018 05:30:01 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/thermal-imaging/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/thermal-imaging/</guid>
@@ -79,10 +79,10 @@
     
       <item>
         <title>NanoMedicine</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;How evolutionary is nanomedicine in therapeutics? Is it worth all the hype? Can we, as engineers, find opportunities in the field of nanomedicine? Well, I hope this article will answer many similar questions.&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/1.jpg&quot; alt=&quot;Nanopills: Medicinal advantage&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;nanotechnology-and-its-manifestation-in-medicine&quot;&gt;Nanotechnology and its manifestation in Medicine&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/5.jpg&quot; alt=&quot;Manifestation of Nanotechnology in Medicine&quot; title=&quot;Manifestation of Nanotechnology in Medicine&quot; /&gt;&lt;/p&gt; &lt;p&gt;Let’s start with the understanding of how exactly is nanotechnology playing a noteworthy role in the field of medicine. From its very dawn, nanotechnology has indeed shaped the fundamental industrial applications such as manufacturing, biotechnology, semiconductors and fabrication of...</description>
+        <description>&lt;p&gt;&lt;em&gt;How evolutionary is nanomedicine in therapeutics? Is it worth all the hype? Can we, as engineers, find opportunities in the field of nanomedicine? Well, I hope this article will answer many similar questions.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/1.jpg&quot; alt=&quot;Nanopills: Medicinal advantage&quot; title=&quot;Nanopills: Medicinal advantage&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;nanotechnology-and-its-manifestation-in-medicine&quot;&gt;Nanotechnology and its manifestation in Medicine&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/5.jpg&quot; alt=&quot;Manifestation of Nanotechnology in Medicine&quot; title=&quot;Manifestation of Nanotechnology in Medicine&quot; /&gt;&lt;/p&gt; &lt;p&gt;Let’s start with the understanding of how exactly is nanotechnology playing a noteworthy role in the field of medicine. From its very dawn, nanotechnology has indeed shaped the fundamental industrial applications such as manufacturing, biotechnology, semiconductors and fabrication...</description>
         <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/nano-medicine/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nano-medicine/</guid>
+        <link>http://ieee.nitk.ac.in/blog/NanoMedicine/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/NanoMedicine/</guid>
         
         <category>NanoMedicine</category>
         
@@ -101,8 +101,8 @@
         <title>How Computers learn to play games!</title>
         <description>&lt;p&gt;Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games? How Google’s Alpha-Go defeated the &lt;strong&gt;World Champion&lt;/strong&gt; of Go? Let us dive in the field of Computer Games and find out how Computers learn to play Games!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/How Computers LearnToPlayGames/chess.jpg&quot; alt=&quot;Chess&quot; title=&quot;Chess&quot; /&gt;&lt;/p&gt; &lt;p&gt;There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.&lt;/p&gt; &lt;h2 id=&quot;naive-tree-search&quot;&gt;Naive Tree Search&lt;/h2&gt; &lt;p&gt;Let’s start with a...</description>
         <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</guid>
+        <link>http://ieee.nitk.ac.in/blog/How-Computers-learn-to-play-games/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/How-Computers-learn-to-play-games/</guid>
         
         <category>Computer Games</category>
         
@@ -119,7 +119,7 @@
     
       <item>
         <title>GaN: Gate to New era</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/GaN/1.jpg&quot; alt=&quot;Introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;To make life easier, more affordable mankind has always been in search of transforming the current technologies and making it much more better, whether be it wheels to cars, or electric current to cell phones. Different tech giants use slogans such as ‘Be what’s next’ by Microsoft, ‘THINK’ by IBM, etc, thus directly promoting new transformations not only in technology but they point towards an economical product which is easily feasible and accessible to its customers.&lt;/p&gt; &lt;p&gt;Since the dawn of the electronics age over a hundred years ago, power design engineers have been on a quest...</description>
+        <description>&lt;h2 id=&quot;gan-gate-to-new-era&quot;&gt;GaN: Gate to New era&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/GaN/1.jpg&quot; alt=&quot;introduction&quot; title=&quot;Introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;To make life easier, more affordable mankind has always been in search of transforming the current technologies and making it much more better, whether be it wheels to cars, or electric current to cell phones. Different tech giants use slogans such as ‘Be what’s next’ by Microsoft, ‘THINK’ by IBM, etc, thus directly promoting new transformations not only in technology but they point towards an economical product which is easily feasible and accessible to its customers. Since the dawn of the electronics age over a hundred years ago, power...</description>
         <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/GaN/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/GaN/</guid>
@@ -165,7 +165,7 @@
     
       <item>
         <title>Nanosheets decorated with DNA</title>
-        <description>&lt;p&gt;One possible means of bridging the gap between India’s abundant, varied natural resources and her ever-increasing requirements like clean water, food and rapid, low cost diagnostic machinery is the use of nanotechnology. When we modify materials at their atomic and molecular level, some very unusual and useful properties are generated. Since the dimensions of atoms and molecule are in nanometers, this technology is called nanotechnology. Efforts to promote research in nanotechnology in India began early in the millennium. The efforts have paid off well, India published over 23000 papers in nanoscience in the past 5 years. One of the recent...</description>
+        <description>&lt;h1 id=&quot;nanosheets-decorated-with-dna&quot;&gt;NANOSHEETS DECORATED WITH DNA&lt;/h1&gt; &lt;p&gt;One possible means of bridging the gap between India’s abundant, varied natural resources and her ever-increasing requirements like clean water, food and rapid, low cost diagnostic machinery is the use of nanotechnology. When we modify materials at their atomic and molecular level, some very unusual and useful properties are generated. Since the dimensions of atoms and molecule are in nanometers, this technology is called nanotechnology. Efforts to promote research in nanotechnology in India began early in the millennium. The efforts have paid off well, India published over 23000 papers in nanoscience in the past 5...</description>
         <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/nanosheets-decorated-with-dna/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanosheets-decorated-with-dna/</guid>
@@ -183,7 +183,7 @@
     
       <item>
         <title>Electronic skin</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/electronic-skin/pic1.png&quot; alt=&quot;Hand with electronic skin&quot; title=&quot;Hand with electronic skin&quot; /&gt;&lt;/p&gt; &lt;p&gt;Touch is the first sense we acquire and has been shown to play a crucial role in physical and mental health. The nerve cells in our skin allow us to experience the several experiences of touch such as a cold splash of water, the tug of a strong breeze or the heat from your coffee mug. Scientists are trying to develop electronic skin to help robots and prosthetic devices to attain these abilities.&lt;/p&gt; &lt;p&gt;Researchers report a new method in &lt;em&gt;ACS Applied Materials &amp;amp; Interfaces&lt;/em&gt; that creates an ultrathin, stretchable...</description>
+        <description>&lt;h1 id=&quot;electronic-skin&quot;&gt;ELECTRONIC SKIN&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/electronic-skin/pic1.png&quot; alt=&quot;Hand with electronic skin&quot; title=&quot;Hand with electronic skin&quot; /&gt;&lt;/p&gt; &lt;p&gt;Touch is the first sense we acquire and has been shown to play a crucial role in physical and mental health. The nerve cells in our skin allow us to experience the several experiences of touch such as a cold splash of water, the tug of a strong breeze or the heat from your coffee mug. Scientists are trying to develop electronic skin to help robots and prosthetic devices to attain these abilities.&lt;/p&gt; &lt;p&gt;Researchers report a new method in &lt;em&gt;ACS Applied Materials &amp;amp; Interfaces&lt;/em&gt; that creates...</description>
         <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/electonic-skin/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/electonic-skin/</guid>
@@ -213,7 +213,7 @@
     
       <item>
         <title>NanoMachines</title>
-        <description>&lt;p&gt;This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications&lt;/p&gt; &lt;h2 id=&quot;what-is-the-difference-between-micro-and-nano-systems&quot;&gt;What is the difference between micro and nano systems?&lt;/h2&gt; &lt;p&gt;When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under &lt;strong&gt;HR-TEM (High Resolution Tunneling Electron Microscope)&lt;/strong&gt; or &lt;strong&gt;thermal imaging techniques.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/nanomachines/2-nanocars.png&quot; alt=&quot;A nano car developed by RICE...</description>
+        <description>&lt;p&gt;This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications&lt;/p&gt; &lt;h2 id=&quot;what-is-the-difference-between-micro-and-nano-systems&quot;&gt;What is the difference between micro and nano systems?&lt;/h2&gt; &lt;p&gt;When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under &lt;strong&gt;HR-TEM (High Resolution Tunneling Electron Microscope)&lt;/strong&gt; or &lt;strong&gt;thermal imaging techniques.&lt;/strong&gt; &lt;img src=&quot;/blog/assets/img/nanomachines/2-nanocars.png&quot; alt=&quot;A nano car developed by RICE...</description>
         <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/nanomachines/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanomachines/</guid>

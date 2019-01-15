@@ -177,62 +177,46 @@
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
                     <h1 id="an-intro-to-the-mapreduce-programming-paradigm">An Intro To The MapReduce Programming Paradigm</h1>
-
 <p>The following blog is an attempt to explain the map-reduce programming paradigm and some of its practical appliations.</p>
-
 <h3 id="introduction">Introduction:</h3>
-
-<p>Over the past few years, many computer scientists at Google have implemented hundreds of special purpose computations that process large amounts of data, such as crawled documents, web request logs, etc., to compute various kinds of derived data. to compute various kinds of derived data, such as summaries of the number of pages crawled per host, the set of most frequent queries in a given day, etc. However, the input data is large and the computations have to distributed across hundreds of thousands of machines in order to finish in a reasonable amount of time. The problem was that it was very difficult to organize this huge input data and process this data with minimalistic time.</p>
-
-<p>As a reaction to this complexity, Google designed a new abstraction that allows the user to express the simple computations we were trying to perform but hides the messy details of handling this large data. It was realized that most of our computations involved a map operation to each ‘logical’ record in our input in order to compute a set of intermediate key/value pairs, and then applying a reduce operation to all the values that shared the same key, in order to combine the derived data appropriately.</p>
-
+<p>Over the past few years, many computer scientists at Google have implemented hundreds of special purpose computations that process large amounts of data, such as crawled documents, web request logs, etc., to compute various kinds of derived data. to compute various kinds of derived data, such as summaries of the number of pages crawled per host, the set of most frequent queries in a given day, etc. However, the input data is large and the computations have to distributed across hundreds of thousands of machines in order to finish in a reasonable amount of time. The problem was that it was very difficult to organize this huge input data and process this data with minimalistic time.
+As a reaction to this complexity, Google designed a new abstraction that allows the user to express the simple computations we were trying to perform but hides the messy details of handling this large data. It was realized that most of our computations involved a map operation to each ‘logical’ record in our input in order to compute a set of intermediate key/value pairs, and then applying a reduce operation to all the values that shared the same key, in order to combine the derived data appropriately.</p>
 <h3 id="programming-model">Programming Model:</h3>
-
-<p>The computation takes a set of <strong>input key/value</strong> pairs, and produces a set of <strong>output key/value</strong> pairs. The user of MapReduce library expresses the computation as two functions : map and reduce.</p>
-
-<p>Map written by the user takes an input pair and produces a set of intermediate key/value pairs. The map reduce library groups together all intermediate values associated with the same intermediate key I and passes them to the reduce funciton.</p>
-
-<p>The reduce function also written by the user, accepts an intermediate key I and a set of values for that key. It merges together these values to form a possibly smaller set of values. The intermediate values are supplied to the users reduce function via an iterator.</p>
-
+<p>The computation takes a set of <strong>input key/value</strong> pairs, and produces a set of <strong>output key/value</strong> pairs. The user of MapReduce library expresses the computation as two functions : map and reduce.
+Map written by the user takes an input pair and produces a set of intermediate key/value pairs. The map reduce library groups together all intermediate values associated with the same intermediate key I and passes them to the reduce funciton.
+The reduce function also written by the user, accepts an intermediate key I and a set of values for that key. It merges together these values to form a possibly smaller set of values. The intermediate values are supplied to the users reduce function via an iterator.</p>
 <h3 id="example">Example:</h3>
 <p>Consider the problem of counting the number of occurrences of each word in a large collection of documents. The user would write code similar to the following pseudo-code:</p>
 
 <p>Map function pseudocode:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="nb">map</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">,</span> <span class="n">String</span> <span class="n">value</span><span class="p">):</span>
-       <span class="c"># key: document name</span>
-       <span class="c"># value: document contents</span>
-        <span class="k">for</span> <span class="n">each</span> <span class="n">word</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">value</span><span class="p">:</span>
-            <span class="n">EmitIntermediate</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="s">"1"</span><span class="p">);</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> map(String key, String value):
+   // key: document name
+   // value: document contents
+   for each word w in value:
+     EmitIntermediate(w, "1");
 </code></pre></div></div>
+
 <p>Reduce function pseudocode:</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nb">reduce</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">,</span> <span class="n">Iterator</span> <span class="n">values</span><span class="p">):</span>
-        <span class="c"># key: a word</span>
-        <span class="c"># values: a list of counts</span>
-        <span class="nb">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="k">for</span> <span class="n">each</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">values</span><span class="p">:</span>
-           <span class="n">result</span> <span class="o">+=</span> <span class="n">ParseInt</span><span class="p">(</span><span class="n">v</span><span class="p">);</span>
-        <span class="n">Emit</span><span class="p">(</span><span class="n">AsString</span><span class="p">(</span><span class="n">result</span><span class="p">));</span>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> reduce(String key, Iterator values):
+   // key: a word
+   // values: a list of counts
+       int result = 0;
+   for each v in values:
+       result += ParseInt(v);
+   Emit(AsString(result));
 </code></pre></div></div>
 
-<p>The map function emits each word plus an associated count of occurences. The reduce function sums together all counts emitted for a particular word.</p>
-
-<p>In addition, the user writes code to fill in a mapreduce specification object with the names of the input and the output files, and optional turing parameters. The user then invokes the MapReduce function, passing it the specification object. The user’s code is linked together with the map-reduce library.</p>
-
+<p>The map function emits each word plus an associated count of occurences. The reduce function sums together all counts emitted for a particular word.
+In addition, the user writes code to fill in a mapreduce specification object with the names of the input and the output files, and optional turing parameters. The user then invokes the MapReduce function, passing it the specification object. The user’s code is linked together with the map-reduce library.</p>
 <h3 id="more-examples">More Examples:</h3>
-
 <p>Here are a few simple examples of interesting programs that can be easily expressed as map reduce computations.</p>
-
 <h3 id="distributed-grep">Distributed Grep:</h3>
-
 <p>The map function emits a line if it matches a supplied pattern. The reduce function is an identity function that copies the supplied intermediate data to the output.</p>
-
 <h3 id="count-of-url-access-frequency">Count of URL access frequency:</h3>
-
 <p>The map function processes logs of web page requests and outputs <code class="highlighter-rouge">&lt;URL,1&gt;</code>. The reduce funciton adds together all values for the same URL and emits a <code class="highlighter-rouge">&lt;URL, total count&gt;</code> pair.</p>
-
 <h3 id="reverse-web-link-graph">Reverse Web-Link Graph:</h3>
-
 <p>The map function outputs <code class="highlighter-rouge">&lt;target, source&gt;</code> pairs for each link to a target URL found in a page named source. The reduce function concatenates the list of all source URLs associated with a target URL and emits the pair: <code class="highlighter-rouge">&lt;target, list(source)&gt;</code></p>
 
 <p>To learn more about Map Reduce read the paper published by Google given in the references.</p>
@@ -243,6 +227,7 @@
 <p><a href="https://www.coursera.org/learn/cloud-computing/lecture/a3hCy/3-1-mapreduce-paradigm">Cloud Computing Concepts Week 1</a></p>
 
 <p><a href="https://ieee.nitk.ac.in/blog//big-data/">Introduction to Big Data and Hadoop</a></p>
+
 
                 </article>
                 <div class="sidebar">
@@ -281,12 +266,6 @@
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
 </section>
-            
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/an-intro-to-the-map-reduce-programming-paradigm/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
             
             <section class="share">
     <h3>Share</h3>

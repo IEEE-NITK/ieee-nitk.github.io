@@ -16,6 +16,8 @@ github_username: 'kulcod'
 comments: true
 ---
 
+## Magneto Serum - A potential panacea
+
 Though the name sounds very cool and straight out of a science-fiction franchise , what I'm referring to is actually called a ferro-fluid , but make no mistake , this liquid's abilities are very near sci-fi.
 
 A ferro-fluid is basically a colloidal sol , made up of 3 components which are, nano-sized particles of a ferromagnetic substance like haematite or magnetite, a liquid dispersion medium and a surfactant ( citric acid for example) which prevents the nanoparticles from clumping together and depositing .
@@ -57,3 +59,5 @@ References :
 
 1. [https://en.wikipedia.org/wiki/Ferrofluid#Mechanical_engineering](https://en.wikipedia.org/wiki/Ferrofluid#Mechanical_engineering)
 2. [http://sustainable-nano.com/2016/08/30/magnetic-nanoparticles-cancer-treatment/](http://sustainable-nano.com/2016/08/30/magnetic-nanoparticles-cancer-treatment/)
+
+

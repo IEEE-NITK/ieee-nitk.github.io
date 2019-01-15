@@ -13,8 +13,8 @@ tags:
 categories:
 - Diode
 github_username: 'DeekshaMS'
-comments: true
 ---
+# ELECTRONIC ASPIRIN
 
 For people who suffer from migraines, cluster headaches and other causes of chronic, excruciating head or facial pain, the &quot;take two aspirins and call me in the morning&quot; method is useless. Doctors have long associated the most severe, chronic forms of headache with the sphenopalatine ganglion (SPG), a facial nerve bundle, but haven&#39;t yet found a treatment that works on the SPG long-term.
 

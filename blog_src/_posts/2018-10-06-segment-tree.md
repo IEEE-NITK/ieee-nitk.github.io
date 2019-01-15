@@ -11,7 +11,6 @@ tags:
 categories:
 - CompSoc
 github_username: 'shanthanu9'
-comments: true
 ---
 
 ## Introduction
