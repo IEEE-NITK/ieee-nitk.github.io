@@ -5,9 +5,53 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Jan 2019 19:26:22 +0530</pubDate>
-    <lastBuildDate>Mon, 14 Jan 2019 19:26:22 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Tue, 15 Jan 2019 11:58:14 +0530</pubDate>
+    <lastBuildDate>Tue, 15 Jan 2019 11:58:14 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Heard of Smart Contracts yet?</title>
+        <description>&lt;p&gt;Smart contract, also known as a cryptocontract , is a computer program that directly controls the transfer of digital currencies or assets between parties under certain conditions.It not only defines the rules and penalties related to an agreement in the same way that a traditional contract does, but it also automatically enforces those obligations. Smart contract are similar to a contract in the physical world, but it’s digital and is represented by a tiny computer program stored inside a blockchain.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;What’s the main idea behind a Smart Contract?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;strong&gt;Since a smart contract removes reliance on a third party...</description>
+        <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/smart-contracts/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/smart-contracts/</guid>
+        
+        <category>Blockchain 2.0</category>
+        
+        <category>Smart Contract</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Self Healing Materials</title>
+        <description>&lt;p&gt;A breakthrough for bio-inspired technology.&lt;/p&gt; &lt;p&gt;Many natural organisms have the ability to repair themselves. Now, manufactured machines will be able to mimic this property. Researchers have created a self-healing material that spontaneously repairs itself under extreme mechanical damage.&lt;/p&gt; &lt;h2 id=&quot;what-is-biomimicry-&quot;&gt;What is biomimicry ?&lt;/h2&gt; &lt;p&gt;Game-changing ideas begin by seeing the possibility for sustainable life reflected in the living system around us. Biomimicry is an approach to innovation that seeks sustainable solutions to human challenges by emulating nature’s time-tested patterns and strategies. The goal is to create products, processes, and policies which guide us to a new lifestyle that is sustainable and...</description>
+        <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/self-healing-material/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/self-healing-material/</guid>
+        
+        <category>Biochemistry</category>
+        
+        <category>Self Healing Materials</category>
+        
+        <category>Machines</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>The Missing Circuit Element</title>
+        <description>&lt;h1 id=&quot;the-missing-circuit-element&quot;&gt;The Missing Circuit element&lt;/h1&gt; &lt;p&gt;Leon Chau, an American circuit theorist at the University of California, predicted the existence of the fourth fundamental circuit passive element. The first three passive circuit elements are the resistor, capacitor, and inductor. We already have relationships among voltage, current, charge, and flux. The only relationship missing is that between flux and charge(q).&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-missing-circuit-element/1.jpeg&quot; alt=&quot;Image 1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Memristor is the component that connects the dots. The diagram shows how memristor serves as a missing link and completes the symmetry of the diagram due to which it is famously known as &lt;strong&gt;“The Missing Circuit element”&lt;/strong&gt;....</description>
+        <pubDate>Mon, 14 Jan 2019 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/the-missing-circuit-element/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/the-missing-circuit-element/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Photocatalytic Detoxification</title>
@@ -160,74 +204,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Nanosheets decorated with DNA</title>
-        <description>&lt;p&gt;One possible means of bridging the gap between India’s abundant, varied natural resources and her ever-increasing requirements like clean water, food and rapid, low cost diagnostic machinery is the use of nanotechnology. When we modify materials at their atomic and molecular level, some very unusual and useful properties are generated. Since the dimensions of atoms and molecule are in nanometers, this technology is called nanotechnology. Efforts to promote research in nanotechnology in India began early in the millennium. The efforts have paid off well, India published over 23000 papers in nanoscience in the past 5 years. One of the recent...</description>
-        <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/nanosheets-decorated-with-dna/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanosheets-decorated-with-dna/</guid>
-        
-        <category>Nanosheets</category>
-        
-        <category>DNA</category>
-        
-        <category>Nanotechnology</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Electronic skin</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/electronic-skin/pic1.png&quot; alt=&quot;Hand with electronic skin&quot; title=&quot;Hand with electronic skin&quot; /&gt;&lt;/p&gt; &lt;p&gt;Touch is the first sense we acquire and has been shown to play a crucial role in physical and mental health. The nerve cells in our skin allow us to experience the several experiences of touch such as a cold splash of water, the tug of a strong breeze or the heat from your coffee mug. Scientists are trying to develop electronic skin to help robots and prosthetic devices to attain these abilities.&lt;/p&gt; &lt;p&gt;Researchers report a new method in &lt;em&gt;ACS Applied Materials &amp;amp; Interfaces&lt;/em&gt; that creates an ultrathin, stretchable...</description>
-        <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/electonic-skin/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/electonic-skin/</guid>
-        
-        <category>Electronic</category>
-        
-        <category>Skin</category>
-        
-        <category>Healthcare</category>
-        
-        <category>Robotics</category>
-        
-        <category>Embedded</category>
-        
-        <category>Prosthetic</category>
-        
-        <category>Sensor</category>
-        
-        <category>Stretchable</category>
-        
-        <category>Nanoparticles</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>NanoMachines</title>
-        <description>&lt;p&gt;This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications&lt;/p&gt; &lt;h2 id=&quot;what-is-the-difference-between-micro-and-nano-systems&quot;&gt;What is the difference between micro and nano systems?&lt;/h2&gt; &lt;p&gt;When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under &lt;strong&gt;HR-TEM (High Resolution Tunneling Electron Microscope)&lt;/strong&gt; or &lt;strong&gt;thermal imaging techniques.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/nanomachines/2-nanocars.png&quot; alt=&quot;A nano car developed by RICE...</description>
-        <pubDate>Sat, 08 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/nanomachines/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nanomachines/</guid>
-        
-        <category>MEMS</category>
-        
-        <category>NEMS</category>
-        
-        <category>Nanotechnology</category>
-        
-        <category>Biomedics</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
