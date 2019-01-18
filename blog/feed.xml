@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Jan 2019 23:56:49 +0530</pubDate>
-    <lastBuildDate>Wed, 16 Jan 2019 23:56:49 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Fri, 18 Jan 2019 18:21:06 +0530</pubDate>
+    <lastBuildDate>Fri, 18 Jan 2019 18:21:06 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Social Engineering</title>
+        <description>&lt;h1 id=&quot;social-engineering&quot;&gt;Social Engineering&lt;/h1&gt; &lt;p&gt;Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a &lt;strong&gt;social engineer!&lt;/strong&gt; &lt;img src=&quot;/blog/assets/img/social-engineering/0.jpg&quot; alt=&quot;image&quot; /&gt; Well now that I have said that you are a social engineer let’s see what that really means. It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access....</description>
+        <pubDate>Fri, 18 Jan 2019 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/social-engineering/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/social-engineering/</guid>
+        
+        <category>Social engineering</category>
+        
+        <category>Security</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>The Missing Circuit Element</title>
@@ -190,26 +206,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Why you should learn Flutter?</title>
-        <description>&lt;h2 id=&quot;what-is-flutter&quot;&gt;What is Flutter?&lt;/h2&gt; &lt;p&gt;Flutter is an open-source Mobile Application Development SDK launched by Google back in May 2017. It is used to create apps for both Android and iOS Operating Systems. It is also the primary method of developing applications for Google Fuchsia. Flutter 1.0 was announced on December 4th, 2018 at &lt;a href=&quot;https://developers.google.com/events/flutter-live/&quot;&gt;Flutter Live&lt;/a&gt;.&lt;/p&gt; &lt;h2 id=&quot;why-flutter&quot;&gt;Why Flutter?&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Incredibly easy to setup and get started!&lt;/strong&gt; - Download the Flutter SDK from the &lt;a href=&quot;https://flutter.io/docs/get-started/install&quot;&gt;official website&lt;/a&gt;. Extract it and add the flutter sdk path to your &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; variable. Download the Flutter plugin in your favourite editor / IDE and...</description>
-        <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/why-you-should-learn-flutter/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-you-should-learn-flutter/</guid>
-        
-        <category>Flutter</category>
-        
-        <category>Android</category>
-        
-        <category>Dart</category>
-        
-        <category>Cross platform mobile development</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     

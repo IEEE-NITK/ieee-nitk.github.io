@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Social Engineering",
+      "category" : "Compsoc",
+      "tags"     : "Social engineering and Security",
+      "url"      : "http://ieee.nitk.ac.in/blog//social-engineering/",
+      "date"     : "18 Jan 2019",
+      "author"   : "Pranav P"
+    } ,
+  
+    {
       "title"    : "The Missing Circuit Element",
       "category" : "Diode",
       "tags"     : "Memresistor and Non Volatile Memory",
