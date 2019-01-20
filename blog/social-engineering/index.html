@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="MapReduce Paradigm">
+        <meta name="description" content="A brief introduction to Social Engineering">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Intro To The MapReduce Programming Paradigm">
-        <meta name="twitter:description" content="MapReduce Paradigm">
+        <meta name="twitter:title" content="Social Engineering">
+        <meta name="twitter:description" content="A brief introduction to Social Engineering">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/" />
-        <meta property="og:title" content="Intro To The MapReduce Programming Paradigm">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/social-engineering/" />
+        <meta property="og:title" content="Social Engineering">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="MapReduce Paradigm">
+        <meta property="og:description" content="A brief introduction to Social Engineering">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Intro To The MapReduce Programming Paradigm"/>
-        <meta itemprop="description" content="MapReduce Paradigm">
+        <meta itemprop="name" content="Social Engineering"/>
+        <meta itemprop="description" content="A brief introduction to Social Engineering">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Intro To The MapReduce Programming Paradigm</title>
+        <title>Social Engineering</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/an-intro-to-the-map-reduce-programming-paradigm/">
+        <link rel="canonical" href="/blog/social-engineering/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
@@ -122,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-12-29 05:30:02 +0530" class="date">29 Dec 2018</time>
+            <time itemprop="datePublished" datetime="2019-01-18 05:02:44 +0530" class="date">18 Jan 2019</time>
         
-        <h1 class="post-title" itemprop="name">Intro To The MapReduce Programming Paradigm</h1>
-        <p itemprop="description" class="subtitle">MapReduce Paradigm</p>
+        <h1 class="post-title" itemprop="name">Social Engineering</h1>
+        <p itemprop="description" class="subtitle">A brief introduction to Social Engineering</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -176,80 +176,80 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <h1 id="an-intro-to-the-mapreduce-programming-paradigm">An Intro To The MapReduce Programming Paradigm</h1>
+                    <h1 id="social-engineering">Social Engineering</h1>
 
-<p>The following blog is an attempt to explain the map-reduce programming paradigm and some of its practical appliations.</p>
+<p>Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a <strong>social engineer!</strong>
+<img src="/blog/assets/img/social-engineering/0.jpg" alt="image" /> 
+Well now that I have said that you are a social engineer let’s see what that really means.
+It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also force people to giving away sensitive information which may cost them or their companies a lot!
+It goes by the words <em>“People are the weakest link in security”</em> and this is absolutely true! All the complex security for your systems go void when a social engineering attacks takes place.</p>
 
-<h3 id="introduction">Introduction:</h3>
+<p><img src="/blog/assets/img/social-engineering/1.jpg" alt="image" /></p>
 
-<p>Over the past few years, many computer scientists at Google have implemented hundreds of special purpose computations that process large amounts of data, such as crawled documents, web request logs, etc., to compute various kinds of derived data. to compute various kinds of derived data, such as summaries of the number of pages crawled per host, the set of most frequent queries in a given day, etc. However, the input data is large and the computations have to distributed across hundreds of thousands of machines in order to finish in a reasonable amount of time. The problem was that it was very difficult to organize this huge input data and process this data with minimalistic time.</p>
+<p>You can find social engineers everywhere. Even your friends sitting next to you concentrating on your keyboard as you type your passwords is a social engineer. It’s just that there is no certification for this thing. So, let’s see the types of social engineering attacks.</p>
 
-<p>As a reaction to this complexity, Google designed a new abstraction that allows the user to express the simple computations we were trying to perform but hides the messy details of handling this large data. It was realized that most of our computations involved a map operation to each ‘logical’ record in our input in order to compute a set of intermediate key/value pairs, and then applying a reduce operation to all the values that shared the same key, in order to combine the derived data appropriately.</p>
+<h2 id="types-of-social-engineering">Types of Social Engineering</h2>
 
-<h3 id="programming-model">Programming Model:</h3>
+<h4 id="1-phishing">1. Phishing</h4>
 
-<p>The computation takes a set of <strong>input key/value</strong> pairs, and produces a set of <strong>output key/value</strong> pairs. The user of MapReduce library expresses the computation as two functions : map and reduce.</p>
+<p><img src="/blog/assets/img/social-engineering/2.jpg" alt="phishing" /></p>
 
-<p>Map written by the user takes an input pair and produces a set of intermediate key/value pairs. The map reduce library groups together all intermediate values associated with the same intermediate key I and passes them to the reduce funciton.</p>
+<p>Phishing is the fraudulent attempt to obtain sensitive information such as usernames, passwords and credit card details by disguising as a trustworthy entity. This mainly uses disguised email or fake website as a weapon.The main goal of this attack is to trick the email recipient into believing that the message is something they want or need for instance a request from their bank to reset their password or a note from someone in their company asking them to download a file infected with malware. It’s one of the oldest types of attacks, dating back to the 1990s, and it’s still one of the most widespread and techniques becoming increasingly sophisticated day by day. It mainly aims to get your personal information.
+It works on the principle that if you cast a large enough net, you are sure to catch a fish.
+The mail is sent to you may contain:</p>
 
-<p>The reduce function also written by the user, accepts an intermediate key I and a set of values for that key. It merges together these values to form a possibly smaller set of values. The intermediate values are supplied to the users reduce function via an iterator.</p>
+<ul>
+  <li>Request information</li>
+  <li>Download infected files</li>
+  <li>May ask you to visit a compromised site</li>
+</ul>
 
-<h3 id="example">Example:</h3>
-<p>Consider the problem of counting the number of occurrences of each word in a large collection of documents. The user would write code similar to the following pseudo-code:</p>
+<p><img src="/blog/assets/img/social-engineering/6.png" alt="phishing" /></p>
 
-<p>Map function pseudocode:</p>
+<h4 id="2-pretexting">2. Pretexting</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="nb">map</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">,</span> <span class="n">String</span> <span class="n">value</span><span class="p">):</span>
-       <span class="c1"># key: document name
-</span>       <span class="c1"># value: document contents
-</span>        <span class="k">for</span> <span class="n">each</span> <span class="n">word</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">value</span><span class="p">:</span>
-            <span class="n">EmitIntermediate</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="s">"1"</span><span class="p">);</span>
-</code></pre></div></div>
-<p>Reduce function pseudocode:</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nb">reduce</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">,</span> <span class="n">Iterator</span> <span class="n">values</span><span class="p">):</span>
-        <span class="c1"># key: a word
-</span>        <span class="c1"># values: a list of counts
-</span>        <span class="nb">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="k">for</span> <span class="n">each</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">values</span><span class="p">:</span>
-           <span class="n">result</span> <span class="o">+=</span> <span class="n">ParseInt</span><span class="p">(</span><span class="n">v</span><span class="p">);</span>
-        <span class="n">Emit</span><span class="p">(</span><span class="n">AsString</span><span class="p">(</span><span class="n">result</span><span class="p">));</span>
-</code></pre></div></div>
+<p><img src="/blog/assets/img/social-engineering/3.jpg" alt="pretexting" /></p>
 
-<p>The map function emits each word plus an associated count of occurences. The reduce function sums together all counts emitted for a particular word.</p>
+<p>A fictional situation is created for the purpose of obtaining personal and sensitive information from an unsuspecting individual. It usually involves researching a target and making use of his data for impersonation or manipulation. An important aspect of pretexting is establishing a target’s trust.
+Attackers can impersonate co-workers, police officers, bankers, tax authorities, insurance investigators, etc. A simpler way to put is that anyone who can be perceived as having right-to-know the information by the target. The attacker only needs to prepare answers to questions that might be asked by the target. Most of the times, an authoritative voice, an earnest tone, and an ability to think on one’s feet are all that is needed to create a pretextual scenario.</p>
 
-<p>In addition, the user writes code to fill in a mapreduce specification object with the names of the input and the output files, and optional turing parameters. The user then invokes the MapReduce function, passing it the specification object. The user’s code is linked together with the map-reduce library.</p>
+<h4 id="3-baiting">3. Baiting</h4>
 
-<h3 id="more-examples">More Examples:</h3>
+<p><img src="/blog/assets/img/social-engineering/4.jpg" alt="baiting" /></p>
 
-<p>Here are a few simple examples of interesting programs that can be easily expressed as map reduce computations.</p>
+<p>As you guys might have guessed, it’s the act of promising something good in return of some action or information. Attackers may offer users free music or movie or game downloads, if you give them login credentials to a certain site. Attackers can also focus on exploiting human curiosity via the use of physical media.</p>
 
-<h3 id="distributed-grep">Distributed Grep:</h3>
+<p>Now let’s see how this attack can be done?
+Let’s take an industrial scenario – with the end goal of infiltrating a company’s network, the attacker may distribute flash drives infected with malware to employees, hoping that the hardware will be inserted into network-connected systems as the means to spread malicious code. Perhaps the innocent-looking devices are in a basket of freebies placed in the company lobby. These devices can be placed strategically so a targeted person will take the bait. The devices may be marked with intriguing labels link “Confidential” or “Salary” to tempt the people to open the files. The employ may take the bait and insert the device into the system connected to the network and Voilà !</p>
 
-<p>The map function emits a line if it matches a supplied pattern. The reduce function is an identity function that copies the supplied intermediate data to the output.</p>
+<h4 id="4-quid-pro-quo">4. Quid Pro Quo</h4>
 
-<h3 id="count-of-url-access-frequency">Count of URL access frequency:</h3>
+<p><img src="/blog/assets/img/social-engineering/7.PNG" alt="quid-pro-quo" /></p>
 
-<p>The map function processes logs of web page requests and outputs <code class="highlighter-rouge">&lt;URL,1&gt;</code>. The reduce funciton adds together all values for the same URL and emits a <code class="highlighter-rouge">&lt;URL, total count&gt;</code> pair.</p>
+<p>Quid Pro Quo Attacks promise a benefit in exchange for information. The benefit usually assumes as a form of service, baiting usually takes the form of a good.It can be considered as a request for your information in exchange for some compensation. If it sounds too good to be true, it probably is quid pro quo…</p>
 
-<h3 id="reverse-web-link-graph">Reverse Web-Link Graph:</h3>
+<h4 id="5-tailgating">5. Tailgating</h4>
 
-<p>The map function outputs <code class="highlighter-rouge">&lt;target, source&gt;</code> pairs for each link to a target URL found in a page named source. The reduce function concatenates the list of all source URLs associated with a target URL and emits the pair: <code class="highlighter-rouge">&lt;target, list(source)&gt;</code></p>
+<p><img src="/blog/assets/img/social-engineering/5.jpg" alt="tailgating" /></p>
 
-<p>To learn more about Map Reduce read the paper published by Google given in the references.</p>
+<p>Entering a building directly behind someone who has used their identity for access.It takes advantage of the people being courteous. For example: A person impersonates a delivery driver and waits outside a building. When an employee gains security’s approval and opens their door, the attacker asks that the employee ‘hold the door’, thereby gaining access through someone who is authorized to enter the company</p>
 
-<h3 id="references">References:</h3>
-<p><a href="https://research.google.com/archive/mapreduce-osdi04.pdf">Original Paper by Google</a></p>
+<p>I’ll share some links for you guys to see how big damage these simple attacks can make. Do have a read :</p>
 
-<p><a href="https://www.coursera.org/learn/cloud-computing/lecture/a3hCy/3-1-mapreduce-paradigm">Cloud Computing Concepts Week 1</a></p>
+<ul>
+  <li><a href="https://www.csoonline.com/article/2123704/fraud-prevention/social-engineering--anatomy-of-a-hack.html?page=1">Social Engineering: Anatomy of a Hack</a></li>
+  <li><a href="https://heimdalsecurity.com/blog/12-true-stories-that-will-make-you-care-about-cyber-security/">Top 12 security breaches</a></li>
+  <li><a href="https://www.wired.com/story/yahoo-breach-three-billion-accounts/">Yahoo data breach</a></li>
+  <li><a href="https://www.thequint.com/news/webqoof/amazon-online-discount-scam-on-whatsapp">Don’t fall for this scam</a></li>
+</ul>
 
-<p><a href="https://ieee.nitk.ac.in/blog//big-data/">Introduction to Big Data and Hadoop</a></p>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
         <span id="category">Compsoc</span>
-        <span id="title">Intro To The MapReduce Programming Paradigm</span>
+        <span id="title">Social Engineering</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -258,13 +258,13 @@
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/abhinavpy.jpg" alt="Abhinav P Y">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/blog-author.jpg" alt="Pranav P">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Abhinav P Y</a>
+            <a itemprop="name" href="/">Pranav P</a>
         </h3>
-        <p class="desc">It's not whether you get knocked down, it's whether you get up.</p>
-        <a itemprop="email" class="email" href="mailto:abhinavpy@ieee.org">abhinavpy@ieee.org</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:hsr.pranav@gmail.com">hsr.pranav@gmail.com</a>
     </div>
 </section>
 
@@ -282,23 +282,17 @@
 	</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/an-intro-to-the-map-reduce-programming-paradigm/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/%20via%20&#64;IEEE_NITK&hashtags=Parallel Computing,Big Data Processing,Distributed Systems,Cloud Computing,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/social-engineering/%20via%20&#64;IEEE_NITK&hashtags=Social engineering,Security,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//an-intro-to-the-map-reduce-programming-paradigm/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//social-engineering/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//an-intro-to-the-map-reduce-programming-paradigm/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//social-engineering/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
