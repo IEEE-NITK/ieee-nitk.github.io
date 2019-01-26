@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Jan 2019 23:56:49 +0530</pubDate>
-    <lastBuildDate>Wed, 16 Jan 2019 23:56:49 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Sat, 26 Jan 2019 23:59:18 +0530</pubDate>
+    <lastBuildDate>Sat, 26 Jan 2019 23:59:18 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Machine Learning Magic</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Did you ever wonder how ML algorithms work?” “How is the weather forecast done?” “How does the self-driving car mimic the way humans drive?” “Let’s try to find answers to some of those questions…”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-is-this-machine-learning-&quot;&gt;WHAT IS THIS MACHINE LEARNING ?&lt;/h1&gt; &lt;p&gt;Assume you have some data, it could be anything like a set of tweets or Images of handwritten numbers or Emails marked as spam. But you don’t know what to do with it!!!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-learning-magic/1.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;So you look for an algorithm which can use this data and give you something you are interested in!&lt;br /&gt;...</description>
+        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/machine-learning-magic/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-learning-magic/</guid>
+        
+        <category>Machine learning</category>
+        
+        <category>Supervised learning</category>
+        
+        <category>tweets</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>The Missing Circuit Element</title>
@@ -26,6 +44,22 @@
       </item>
     
       <item>
+        <title>Heard of Smart Contracts yet?</title>
+        <description>&lt;p&gt;Smart contract, also known as a cryptocontract , is a computer program that directly controls the transfer of digital currencies or assets between parties under certain conditions.It not only defines the rules and penalties related to an agreement in the same way that a traditional contract does, but it also automatically enforces those obligations. Smart contract are similar to a contract in the physical world, but it’s digital and is represented by a tiny computer program stored inside a blockchain.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;What’s the main idea behind a Smart Contract?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;strong&gt;Since a smart contract removes reliance on a third party...</description>
+        <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/smart-contracts/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/smart-contracts/</guid>
+        
+        <category>Blockchain 2.0</category>
+        
+        <category>Smart Contract</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
         <title>Self Healing Materials</title>
         <description>&lt;p&gt;A breakthrough for bio-inspired technology.&lt;/p&gt; &lt;p&gt;Many natural organisms have the ability to repair themselves. Now, manufactured machines will be able to mimic this property. Researchers have created a self-healing material that spontaneously repairs itself under extreme mechanical damage.&lt;/p&gt; &lt;h2 id=&quot;what-is-biomimicry-&quot;&gt;What is biomimicry ?&lt;/h2&gt; &lt;p&gt;Game-changing ideas begin by seeing the possibility for sustainable life reflected in the living system around us. Biomimicry is an approach to innovation that seeks sustainable solutions to human challenges by emulating nature’s time-tested patterns and strategies. The goal is to create products, processes, and policies which guide us to a new lifestyle that is sustainable and...</description>
         <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
@@ -40,22 +74,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Heard of Smart Contracts yet?</title>
-        <description>&lt;p&gt;Smart contract, also known as a cryptocontract , is a computer program that directly controls the transfer of digital currencies or assets between parties under certain conditions.It not only defines the rules and penalties related to an agreement in the same way that a traditional contract does, but it also automatically enforces those obligations. Smart contract are similar to a contract in the physical world, but it’s digital and is represented by a tiny computer program stored inside a blockchain.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;What’s the main idea behind a Smart Contract?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;strong&gt;Since a smart contract removes reliance on a third party...</description>
-        <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Smart-Contracts/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Smart-Contracts/</guid>
-        
-        <category>Blockchain 2.0</category>
-        
-        <category>Smart Contract</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
@@ -190,26 +208,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Why you should learn Flutter?</title>
-        <description>&lt;h2 id=&quot;what-is-flutter&quot;&gt;What is Flutter?&lt;/h2&gt; &lt;p&gt;Flutter is an open-source Mobile Application Development SDK launched by Google back in May 2017. It is used to create apps for both Android and iOS Operating Systems. It is also the primary method of developing applications for Google Fuchsia. Flutter 1.0 was announced on December 4th, 2018 at &lt;a href=&quot;https://developers.google.com/events/flutter-live/&quot;&gt;Flutter Live&lt;/a&gt;.&lt;/p&gt; &lt;h2 id=&quot;why-flutter&quot;&gt;Why Flutter?&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Incredibly easy to setup and get started!&lt;/strong&gt; - Download the Flutter SDK from the &lt;a href=&quot;https://flutter.io/docs/get-started/install&quot;&gt;official website&lt;/a&gt;. Extract it and add the flutter sdk path to your &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; variable. Download the Flutter plugin in your favourite editor / IDE and...</description>
-        <pubDate>Sat, 15 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/why-you-should-learn-flutter/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-you-should-learn-flutter/</guid>
-        
-        <category>Flutter</category>
-        
-        <category>Android</category>
-        
-        <category>Dart</category>
-        
-        <category>Cross platform mobile development</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     

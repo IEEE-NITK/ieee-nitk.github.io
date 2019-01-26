@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Machine Learning Magic",
+      "category" : "CompSoc",
+      "tags"     : "Machine learning, Supervised learning, and tweets",
+      "url"      : "http://ieee.nitk.ac.in/blog//machine-learning-magic/",
+      "date"     : "26 Jan 2019",
+      "author"   : "Kumar Saharsh"
+    } ,
+  
+    {
       "title"    : "The Missing Circuit Element",
       "category" : "Diode",
       "tags"     : "Memresistor and Non Volatile Memory",
@@ -10,21 +19,21 @@
     } ,
   
     {
+      "title"    : "Heard of Smart Contracts yet?",
+      "category" : "CompSoc",
+      "tags"     : "Blockchain 2.0 and Smart Contract",
+      "url"      : "http://ieee.nitk.ac.in/blog//smart-contracts/",
+      "date"     : "15 Jan 2019",
+      "author"   : "Prajwal S Belagavi"
+    } ,
+  
+    {
       "title"    : "Self Healing Materials",
       "category" : "Piston",
       "tags"     : "Biochemistry, Self Healing Materials, and Machines",
       "url"      : "http://ieee.nitk.ac.in/blog//self-healing-material/",
       "date"     : "15 Jan 2019",
       "author"   : "Smrithi S"
-    } ,
-  
-    {
-      "title"    : "Heard of Smart Contracts yet?",
-      "category" : "CompSoc",
-      "tags"     : "Blockchain 2.0 and Smart Contract",
-      "url"      : "http://ieee.nitk.ac.in/blog//Smart-Contracts/",
-      "date"     : "15 Jan 2019",
-      "author"   : "Prajwal S Belagavi"
     } ,
   
     {
