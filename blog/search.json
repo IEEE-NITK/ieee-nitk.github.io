@@ -10,6 +10,15 @@
     } ,
   
     {
+      "title"    : "INNOVATIONS IN THE DRONE INDUSTRY",
+      "category" : "Piston",
+      "tags"     : "Drones",
+      "url"      : "http://ieee.nitk.ac.in/blog//innovations-in-drone-industry/",
+      "date"     : "26 Jan 2019",
+      "author"   : "KushagraRawat"
+    } ,
+  
+    {
       "title"    : "The Missing Circuit Element",
       "category" : "Diode",
       "tags"     : "Memresistor and Non Volatile Memory",
