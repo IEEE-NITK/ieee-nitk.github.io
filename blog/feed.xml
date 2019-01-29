@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Jan 2019 23:59:18 +0530</pubDate>
-    <lastBuildDate>Sat, 26 Jan 2019 23:59:18 +0530</lastBuildDate>
+    <pubDate>Mon, 28 Jan 2019 20:21:00 +0530</pubDate>
+    <lastBuildDate>Mon, 28 Jan 2019 20:21:00 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -24,6 +24,20 @@
         
         
         <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>INNOVATIONS IN THE DRONE INDUSTRY</title>
+        <description>&lt;h1 id=&quot;innovations-in-the-drone-industry&quot;&gt;INNOVATIONS IN THE DRONE INDUSTRY&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“Do you think drones are just four rotor-legged flying machines?”&lt;br /&gt; “Have you ever thought how we can modify these machines to get maximum out of it?”&lt;br /&gt; Multiple innovations are happening currently in this very industry and here are some of them!&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;going-bladeless--the-future-of-drones-&quot;&gt;GOING BLADELESS : THE FUTURE OF DRONES ?&lt;/h2&gt; &lt;p&gt;As much crazy as it might sound , bladeless drone are becoming a reality . Bladeless ? You ask me , well , it might be a bit of misnomer . Bladeless isn’t actually bladeless in the fact the it...</description>
+        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</guid>
+        
+        <category>Drones</category>
+        
+        
+        <category>Piston</category>
         
       </item>
     
@@ -182,32 +196,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>GaN: Gate to New era</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/blog/assets/img/GaN/1.jpg&quot; alt=&quot;Introduction&quot; /&gt;&lt;/p&gt; &lt;p&gt;To make life easier, more affordable mankind has always been in search of transforming the current technologies and making it much more better, whether be it wheels to cars, or electric current to cell phones. Different tech giants use slogans such as ‘Be what’s next’ by Microsoft, ‘THINK’ by IBM, etc, thus directly promoting new transformations not only in technology but they point towards an economical product which is easily feasible and accessible to its customers.&lt;/p&gt; &lt;p&gt;Since the dawn of the electronics age over a hundred years ago, power design engineers have been on a quest...</description>
-        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/GaN/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/GaN/</guid>
-        
-        <category>galliumnitride</category>
-        
-        <category>GaN</category>
-        
-        <category>transistors</category>
-        
-        <category>wafers</category>
-        
-        <category>silicon</category>
-        
-        <category>newsilicon</category>
-        
-        <category>technology</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     

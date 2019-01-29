@@ -80,4 +80,14 @@ Reinforcement learning differs from the supervised learning in a way that in sup
 
 How to learn more about Machine Learning?
 
-The best place to get Started with basics of ML is [Andrew Ng’s [Machine Learning Course](https://www.coursera.org/learn/machine-learning) from coursera. It’s highly recommended for beginners. It’s easy for anyone who has a minimal amount of knowledge of maths :)type
+The best place to get Started with basics of ML is Andrew Ng’s [Machine Learning Course](https://www.coursera.org/learn/machine-learning) from coursera. It’s highly recommended for beginners. It’s easy for anyone who has a minimal amount of knowledge of maths :)type
+
+References:  
+https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
+https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
+https://ieee.nitk.ac.in/blog/Why-Machine-Learning-Matters/
+https://towardsdatascience.com/unsupervised-learning-with-python-173c51dc7f03  
+https://www.mathworks.com/discovery/machine-learning.html   
+https://www.quora.com/What-is-machine-learning-4  
+https://www.quora.com/What-is-reinforcement-learning  
+
