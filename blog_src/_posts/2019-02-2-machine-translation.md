@@ -6,7 +6,7 @@ date: 2019-02-2 10:00:30
 image: '/assets/img/machine-translation'
 description: 'Introduction to how systems translate text across languages'
 tags:
-- Natural language processing
+- Natural Language Processing
 - Supervised learning
 - Machine translation
 categories:
