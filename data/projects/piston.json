@@ -1,4 +1,59 @@
-[{
+[
+    {
+        "Title": "Analysis of Air Breathing Gas Turbine",
+        "Abstract": "This project is aimed to  study all types of contemporary air-breathing, compressor - gas turbine coupled aircraft engines, especially the TurboFan and the TurboProp, and to determine which engine is best suited to a given scenario, based on its BPR (Bypass Ratios).",
+        "links": []
+    },
+
+    {
+        "Title": "Design and Study of Chevron Nozzles",
+        "Abstract": "The aim of this project will be to simulate exhaust from a traditional round nozzle and a chevron nozzle, at various exhaust speeds, and study the pressure variances produced.",
+        "links": []
+    },
+    
+    {
+        "Title": "Four Bar Plotter V2",
+        "Abstract": "4 Bar plotter is a mechanism designed to plot any given figure or shape on a plane sheet of paper using a four bar mechanism. This project aims to utilize the existing 4BarPlotter mechanism and automate it. ",
+        "links": []
+    },
+
+    {
+        "Title": "Electromagnetic Desalination",
+        "Abstract": "A theoretical model is to be developed for electromagnetic-mechanical salt removal process and solved numerically to investigate the optimum parameters for separation. The fluid flow are modelled using CFD software ANSYS FLUENT.",
+        "links": []
+    },
+
+    {
+        "Title": "Design and Optimization of Tesla Valve",
+        "Abstract": "This project aims to minimize the leakage in a TESLA VALVE by making slight changes in design. CFD is the perfect tool to not only measure device’s effectiveness but also to understand the working. So, aim of the project is to optimize design of Tesla valve using CFD tools.",
+        "links": []
+    },
+
+    {
+        "Title": "Design of Algorithm to Capture Shocks in Compressible Flow",
+        "Abstract": "Capturing shocks in CFD using commercially available CFD software is not possible. A new methodology using finite differences has to be developed to solve for such flows. The shock-capturing filtering is written in its conservative form, and its magnitude is determined dynamically from the flow solutions.",
+        "links": []
+    },
+
+    {
+        "Title": "Imitation Learning to Detect Unusual Activity",
+        "Abstract": "This project aims at training a deep learning model to detect any form of unusual activity, like kidnapping by studying closely the regular pattern and finding any irregularities, or by feeding datasets of what is defined as unusual and teaching it to identify the same.",
+        "links": []
+    },
+
+    {
+        "Title": "Analysing The Impact Of Increasing Reinforcement Material Content In The Composites Used To Design Nose of ICBM ",
+        "Abstract": "This project will involve designing of these composites with increasing amounts of carbon fibre, modelling the nose cone and conducting a thermal analysis.",
+        "links": []
+    },
+
+    {
+        "Title": "Auto Pilot",
+        "Abstract": "This drone will use image processing and road detection on OpenCV and deep learning to train a model that can help the drone navigate itself on pre fixed routes as well as GPS routes using Neural Networks.",
+        "links": []
+    },
+
+    {
         "Title": "Photocatalytic Degradation of Reactive dyes using PANI AgTiO2",
         "Abstract": "The textile dyeing industry consumes large quantities of water and produces large volumes of wastewater from different steps in the dyeing and finishing processes.Wastewater from printing and dyeing units is often rich in color, containing residues of reactive dyes and chemicals, At present, the dyes are mainly aromatic and heterocyclic compounds, with color display groups and polar groups.Therefore, understanding and developing effective printing dye industrial wastewater treatment technology is environmentally important. If a textile mill discharges the wastewater into the local environment without any treatment, it will has a serious impact on natural water bodies and land in the surrounding area.Objectives: The broad objective of this project is to study the photocatalytic efficacy of free and immobilized Ag TiO2 nanoparticles and Ag TiO2 / PANI nanocomposites for degradation of dye waste water under solar light irradiation.Specific objectives include: To synthesize and characterize Ag TiO2 nanoparticles and Ag TiO2 / PANI nanocomposites. To investigate the efficacy of Ag TiO2 nanoparticles in suspended dye water and degradation by photocatalysis under solar light radiation.To study the effect of different factors such as the weight percentage of Ag @TiO2 nanoparticles in Ag TiO2 / PANI nanocomposites, catalyst loading and initial dye concentration on photocatalyticdegradation by Ag TiO2 / PANI nanocomposites, To study the degradation under various conditions like pH, dye concentration, catalyst loading, different time durations etc. ",
         "links": []
