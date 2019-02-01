@@ -1,1321 +1,1075 @@
 {
-    "members": [
-  {
-    "email": "mailto:aneesh297@gmail.com",
-    "name": "Aneesh Aithal",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Artificial Intelligence, Data science",
-    "linkedin": "",
-    "github": "https://github.com/aneesh297"
-  },
-  {
-    "email": "mailto:sbs.191197@gmail.com",
-    "name": "Salman Shah",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, Systems ",
-    "linkedin": "https://linkedin.com/in/sbshah97",
-    "github": "https://github.com/salman-bhai"
-  },
-  {
-    "email": "mailto:satyam.shivam76@gmail.com",
-    "name": "Shivam ",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Digital, analog, signal processing",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:sowjanyakandula99@gmail.com",
-    "name": "Kandula.sowjanya",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Electronics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:vvvarun1@gmail.com",
-    "name": "Venkat Varun Velpula",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Robotics, Mechanism design, automobiles",
-    "linkedin": "https://www.linkedin.com/in/varun-velpula",
-    "github": ""
-  },
-  {
-    "email": "mailto:maitreyeemarathe23@gmail.com",
-    "name": "Maitreyee Marathe",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Power Electronics, Embedded Systems",
-    "linkedin": "https://www.linkedin.com/in/maitreyee-marathe-912794103",
-    "github": ""
-  },
-  {
-    "email": "mailto:akshay.rvnkr@gmail.com",
-    "name": "Akshay Revankar",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Digital Design and optimisation, Networks and Graph Theory",
-    "linkedin": "https://www.linkedin.com/in/akshayrevankar/",
-    "github": "https://github.com/akshayrvnkr/"
-  },
-  {
-    "email": "mailto:vash.pattery@gmail.com",
-    "name": "Shreevarsha",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Aerospace Materials, Physical Metallurgy and Composites.",
-    "linkedin": "https://www.linkedin.com/in/shreevarsha-pattery-52994a103",
-    "github": ""
-  },
-  {
-    "email": "mailto:santoshkvk@gmail.com",
-    "name": "Santosh Kodali",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "ML, IoT, Image/speech processing",
-    "linkedin": "https://www.linkedin.com/in/santosh-kodali",
-    "github": "https://github.com/santosh-kodali"
-  },
-  {
-    "email": "mailto:hrishihiraskar@gmail.com",
-    "name": "Hrishikesh Hiraskar",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Programming, Web and App Dev",
-    "linkedin": "https://www.linkedin.com/in/hrishi-hiraskar",
-    "github": "https://github.com/hrily"
-  },
-  {
-    "email": "mailto:anuzenith29@gmail.com",
-    "name": "Anumeha Agrawal",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Web and App development, Machine Learning , AI",
-    "linkedin": "https://www.linkedin.com/in/anumeha-agrawal-0854a0138",
-    "github": "https://github.com/anumehaagrawal/"
-  },
-  {
-    "email": "mailto:raoshashank73@gmail.com",
-    "name": "Shashank Rao",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Robotics , ROS ",
-    "linkedin": "https://in.linkedin.com/in/shashank",
-    "github": "https://github.com/raoshashank"
-  },
-  {
-    "email": "mailto:anandarao.h8@gmail.com",
-    "name": "Ananda Rao H",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Algorithms",
-    "linkedin": "https://linkedin.com/in/ananda-rao-h-7b93b9104",
-    "github": "https://github.com/anandarao"
-  },
-  {
-    "email": "mailto:mahim23agrawal@gmail.com",
-    "name": "Mahim Agrawal",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, Web Development",
-    "linkedin": "https://www.linkedin.com/in/mahim-agrawal-791937132",
-    "github": "github.com/mahim23"
-  },
-  {
-    "email": "mailto:parab.sonal108@gmail.com",
-    "name": "Sonal Parab",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Automobiles",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:arangarajan834@gmail.com",
-    "name": "Aditya Rangarajan",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog electronics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:gurupungavn@gmail.com",
-    "name": "Gurupungav Narayanan",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, AI, Competitive Coding, DBMS",
-    "linkedin": "",
-    "github": "https://github.com/gurupunskill"
-  },
-  {
-    "email": "mailto:himadripal37@gmail.com",
-    "name": "Himadri Pal",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, Networks, Graph Theory",
-    "linkedin": "https://www.linkedin.com/in/himadri-pal-866532141/",
-    "github": "https://github.com/HimadriP"
-  },
-  {
-    "email": "mailto:sinchanah@gmail.com",
-    "name": "Sinchana Hegde",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Robotics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:adithyaprabhu98@gmail.com",
-    "name": "Adithya Prabhu",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Product Design, Acoustics",
-    "linkedin": "https://www.linkedin.com/in/adithya-prabhu-702b6b141",
-    "github": "https://github.com/adithyaprabhu98"
-  },
-  {
-    "email": "mailto:anirudhs1997@gmail.com",
-    "name": "Anirudh S Sundar",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Computer Vision, Digital Electronics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:kirankumar.kiran78@gmail.com",
-    "name": "Kiran Kumar.G",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Finite element analysis and Automobiles",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:sirnithin98@gmail.com",
-    "name": "Nithin M Eapen",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Vehicle dynamics, thermodynamics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:sssachin300@gmail.com",
-    "name": "SACHIN SAMPATH H",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal processing",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:param.hanji@gmail.com",
-    "name": "Param Hanji",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "High Performance Computing",
-    "linkedin": "",
-    "github": "https://github.com/catchchaos"
-  },
-  {
-    "email": "mailto:ckeshavabs@gmail.com",
-    "name": "Chenna Keshava B S",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning and Artificial intelligence ",
-    "linkedin": "",
-    "github": "https://github.com/chennakeshava1998"
-  },
-  {
-    "email": "mailto:akulasricharan.asc@gmail.com",
-    "name": "Sri Charan Akula",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Computational fluid dynamics, aerodynamics",
-    "linkedin": "https://www.linkedin.com/mwlite/me",
-    "github": "https://github.com/AKULA-SRI-CHARAN"
-  },
-  {
-    "email": "mailto:yani.bh@gmail.com",
-    "name": "Anirudh B H",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog and Digital Electronics",
-    "linkedin": "https://www.linkedin.com/in/anirudh-b-h-30a453149",
-    "github": "https://github.com/Anirudh0707"
-  },
-  {
-    "email": "mailto:pvgupta24@gmail.com",
-    "name": "Praveen Gupta",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Web & Android Development",
-    "linkedin": "https://www.linkedin.com/in/praveen-gupta-953869130/",
-    "github": "https://github.com/pvgupta24"
-  },
-  {
-    "email": "mailto:mokshjn00@gmail.com",
-    "name": "Moksh Jain",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, Android",
-    "linkedin": "https://www.linkedin.com/in/mokshjain",
-    "github": "http://github.com/MJ10"
-  },
-  {
-    "email": "mailto:megh.bhalerao@gmail.com",
-    "name": "Megh Bhalerao",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal Processing/ Image processing.",
-    "linkedin": "https://www.linkedin.com/in/megh-bhalerao-572b29130",
-    "github": ""
-  },
-  {
-    "email": "mailto:anupamagvs@gmail.com",
-    "name": "Anupama G",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Polymer Rheology, Mathematical modeling, nanotechnology",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:adityakul995@gmail.com",
-    "name": "Aditya Kulkarni",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog/ Digital VLSI, Analog System Design, Communication Circuits",
-    "linkedin": "https://linkedin.com/in/adityakulkarni95",
-    "github": ""
-  },
-  {
-    "email": "mailto:samarth.bonthala@gmail.com",
-    "name": "Samarth Bonthala",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Mixed Signal Design, Internet of Things, Nanotechnology",
-    "linkedin": "https://in.linkedin.com/in/samarth-bonthala",
-    "github": ""
-  },
-  {
-    "email": "mailto:mail4vinayakvgopal@gmail.com",
-    "name": "Vinayak V Gopal",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Automobiles, Robotics, Machine Learning",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:sanathkshettar@gmail.com",
-    "name": "Sanath K",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Renewables, Power Transmission ",
-    "linkedin": "https://www.linkedin.com/mwlite/me",
-    "github": "https://github.com/sanathbk"
-  },
-  {
-    "email": "mailto:smarty1palak@gmail.com",
-    "name": "Palak singhal",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Ml, cp, web dev",
-    "linkedin": "https://www.linkedin.com/in/palak-singhal-ba0458149/",
-    "github": "https://github.com/smarty1palak"
-  },
-  {
-    "email": "mailto:shashank2041998@gmail.com",
-    "name": "Shashank R",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "CFD, Aerodynamics ",
-    "linkedin": "http://linkedin.com/in/shashank-ravichandir-11ab0a130",
-    "github": ""
-  },
-  {
-    "email": "mailto:mahirjain25@gmail.com",
-    "name": "Mahir Jain",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, Algorithms, Data Structures",
-    "linkedin": "https://www.linkedin.com/in/mahir-jain-269100144/",
-    "github": "https://github.com/mahirjain25"
-  },
-  {
-    "email": "mailto:rosageorge97@gmail.com",
-    "name": "Rosa Anil George",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Artificial Intelligence, Database Management Systems",
-    "linkedin": "",
-    "github": "https://github.com/RosaGeorge31"
-  },
-  {
-    "email": "mailto:surajnitk4@gmail.com",
-    "name": "Suraj Singh",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning",
-    "linkedin": "https://www.linkedin.com/in/suraj-singh-370ab0144",
-    "github": "https://github.com/suraj44"
-  },
-  {
-    "email": "mailto:jeshvanthtk@gmail.com",
-    "name": "T K Jeshventh Raja",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Systems and security",
-    "linkedin": "https://www.linkedin.com/in/jeshventh-raja-t-k-7b2791131/",
-    "github": "https://github.com/jeshventhraja"
-  },
-  {
-    "email": "mailto:manansharma296@gmail.com",
-    "name": "Manan Sharma",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Embedded Systems, Image Processing",
-    "linkedin": "https://www.linkedin.com/in/manan-sharma",
-    "github": "https://github.com/manan-sharma"
-  },
-  {
-    "email": "mailto:sheetalsh456@gmail.com",
-    "name": "Sheetal Shalini",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Data Structures and Algorithms, Data Mining, NLP, Pattern Recognition",
-    "linkedin": "https://www.linkedin.com/in/sheetal-shalini-746829b9/",
-    "github": "https://github.com/sheetalsh456"
-  },
-  {
-    "email": "mailto:shrutideshpande9598@gmail.com",
-    "name": "Shruti Deshpande",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog and digital electronics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:architpandeynitk@gmail.com",
-    "name": "Archit Pandey",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Artificial Intelligence and Algorithms",
-    "linkedin": "",
-    "github": "https://github.com/archpndy"
-  },
-  {
-    "email": "mailto:andy.pathak1@gmail.com",
-    "name": "Anand Pathak",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Aerodynamics, Propulsion, Astrophysics",
-    "linkedin": "https://www.linkedin.com/in/anand-pathak-145453b2",
-    "github": ""
-  },
-  {
-    "email": "mailto:vanshika421@gmail.com",
-    "name": "Vanshika gupta",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Mechanics of materials",
-    "linkedin": "",
-    "github": "GitHub handle - vansyo"
-  },
-  {
-    "email": "mailto:harshitranjan2098@gmail.com",
-    "name": "Harshit Ranjan",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Alloys, Composites and Renewable Energy Systems",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:rajatchandavar1998@gmail.com",
-    "name": "Rajat A Chandavar",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Aerodynamics, Fluid Mechanics, Machine Learning and AI, Thermodynamics, Image processing",
-    "linkedin": "www.linkedin.com/in/rajat-a-chandavar-98157a12b",
-    "github": "https://github.com/rajatchandavar"
-  },
-  {
-    "email": "mailto:aditya.shashidhar@gmail.com",
-    "name": "Aditya S",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Automobile, manufacturing, operations, finance",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:krishnakv98@gmail.com",
-    "name": "K V Krishna",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Aerodynamics, Aeronautics, Fluid mechanics and Computational Fluid Dynamics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:chowdhury.mohita@gmail.com",
-    "name": "Mohita Chowdhury",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Computer Vision, Image Processing, Machine Learning",
-    "linkedin": "https://www.linkedin.com/in/mohita-chowdhury-838643131/",
-    "github": "https://github.com/mohiitaa"
-  },
-  {
-    "email": "mailto:pooja27ms@gmail.com",
-    "name": "Pooja Mahadev Soundalgekar",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Competitive Coding, Machine Learning, AI, HPC",
-    "linkedin": "https://www.linkedin.com/in/poojasoundalgekar",
-    "github": "https://github.com/Pooja-Mahadev-Soundalgekar"
-  },
-  {
-    "email": "mailto:nandini.pvs@gmail.com",
-    "name": "Nandini Sreenath",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal Processing",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:jainvibhore1997@gmail.com",
-    "name": "Vibhore Jain",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog System Design, Embedded Systems",
-    "linkedin": "https://www.linkedin.com/in/vibhore-jain-b57022117/",
-    "github": "https://github.com/vibhoregit"
-  },
-  {
-    "email": "mailto:hitesh.bhadana09@gmail.com",
-    "name": "Hitesh Bhadana",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Automobile ",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:mirthunraj@gmail.com",
-    "name": "Mirthunraj",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Aeronautics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:senapati.shuvam96@gmail.com",
-    "name": "Shuvam Senapati",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Design and Manufacturing ",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:dth.bht@gmail.com",
-    "name": "Adithya Bhat",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Cryptography, Operating systems, distributed systems, networking, HPC, Virtualization, Security",
-    "linkedin": "",
-    "github": "https://github.com/adithyabhatkajake"
-  },
-  {
-    "email": "mailto:1997shashankp@gmail.com",
-    "name": "Shashank P",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning",
-    "linkedin": "https://www.linkedin.com/in/shashank-p-647aa8125",
-    "github": "https://github.com/ShashankP19"
-  },
-  {
-    "email": "mailto:subbalakshmi.n18@gmail.com",
-    "name": "N Subbalakshmi ",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal Processing, Digital System Design",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:natasha.jeppu@gmail.com",
-    "name": "Natasha Jeppu",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Mathematics, formal verification and security",
-    "linkedin": "https://www.linkedin.com/in/natasha-jeppu-280a82bb?ppe=1",
-    "github": "https://github.com/natasha-jeppu"
-  },
-  {
-    "email": "mailto:akshay.krishna.in@ieee.org",
-    "name": "Akshay Krishna",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Product Design, Engineering Design, CAD/CAM, Robotics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:adilamrajiv@gmail.com",
-    "name": "Adila Mohammed Rajiv",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Renewable energy ",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:ayush.gs1998@gmail.com",
-    "name": "Ayush Srivastava",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Electronics: Digital and Analog",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:kamath.abijith.j@ieee.org",
-    "name": "Abijith J Kamath",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal Processing, Image Processing, Circuit Theory",
-    "linkedin": "https://www.linkedin.com/in/abijith-kamath-556870111/",
-    "github": "https://gitlab.com/kamath.abijith.j"
-  },
-  {
-    "email": "mailto:adityanant@gmail.com",
-    "name": "A Aditya",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Machine learning, Data Mining , Competitive Coding",
-    "linkedin": "https://www.linkedin.com/in/aditya1997",
-    "github": "https://github.com/aditya5558"
-  },
-  {
-    "email": "mailto:sangeethagramas@gmail.com",
-    "name": "Sangeetha G S",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Computer Systems and Graphics",
-    "linkedin": "https://in.linkedin.com/in/sangeetha-g-s",
-    "github": "https://github.com/sanggs"
-  },
-  {
-    "email": "mailto:ambareesh.prakash@gmail.com",
-    "name": "Ambareesh Prakash",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning and Artificial Intelligence namely Markov Chain Monte Carlo methods, Deep Learning, Ensemble Methods",
-    "linkedin": "",
-    "github": "https://github.com/AeroDeath/"
-  },
-  {
-    "email": "mailto:aneesh297@gmail.com",
-    "name": "Aneesh Aithal",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Artificial Intelligence, Data Science",
-    "linkedin": "",
-    "github": "https://github.com/aneesh297"
-  },
-  {
-    "email": "mailto:tanmaygadgil96@gmail.com",
-    "name": "Tanmay Gadgil",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Robotics and control systems",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:deepesh.agarawal@gmail.com",
-    "name": "Deepesh Agarawal",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Digital system design, VLSI, Signal processing",
-    "linkedin": "https://linkedin.com/in/djagrwl",
-    "github": ""
-  },
-  {
-    "email": "mailto:akarsh.9996@gmail.com",
-    "name": "Akarsh Prabhakara",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal processing and Machine Learning",
-    "linkedin": "https://www.linkedin.com/in/akarsh-prabhakara/",
-    "github": "https://github.com/AkarshP"
-  },
-  {
-    "email": "mailto:abhithigale3@gmail.com",
-    "name": "Abhishek Thigale",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Robotics(control), mechanism design",
-    "linkedin": "https://www.linkedin.com/in/abhishek-thigale",
-    "github": ""
-  },
-  {
-    "email": "mailto:bsrevanth2011@gmail.com",
-    "name": "Revanth B S",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, Competitive Coding, Web Development",
-    "linkedin": "https://www.linkedin.com/in/revanth-bs",
-    "github": "github.com/revanth-3010"
-  },
-  {
-    "email": "mailto:shwethasv97@gmail.com",
-    "name": "Shwetha SV",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog Design, Control Systems",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:vilasnitk19@gmail.com",
-    "name": "Vilas M",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Algorithms, High Performance Computing",
-    "linkedin": "https://www.linkedin.com/in/vilas-m-745101128",
-    "github": "https://github.com/vilas897"
-  },
-  {
-    "email": "mailto:ani18rajesh@gmail.com",
-    "name": "Anirudh Rajesh",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Automobile, Machine Design",
-    "linkedin": "https://www.linkedin.com/in/anirudh-rajesh-889696103",
-    "github": ""
-  },
-  {
-    "email": "mailto:hvanuchan@gmail.com",
-    "name": "Anuchan H V ",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Hardware accelerators, IP generation for applications in genomics, ML etc. on FPGAs.",
-    "linkedin": "https://www.linkedin.com/in/anuchanhv",
-    "github": ""
-  },
-  {
-    "email": "mailto:poojabaliga1@gmail.com",
-    "name": "Pooja Baliga B",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Petroleum engineering, Process control and simulation, Mass transfer ",
-    "linkedin": "https://www.linkedin.com/in/pooja-baliga-74270b103",
-    "github": ""
-  },
-  {
-    "email": "mailto:kaushikskalmady@gmail.com",
-    "name": "Kaushik S Kalmady",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Data Analysis, Machine Learning, Deep Learning , Linux.",
-    "linkedin": "https://linkedin.com/kaushiksk",
-    "github": "https://github.com/kaushiksk"
-  },
-  {
-    "email": "mailto:satyam.shivam76@gmail.com",
-    "name": "Shivam",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Digital, analog, signal processing",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:pranay2098@gmail.com",
-    "name": "Pranay Praveen Nagrani",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Aerodynamics and fluid dynamics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:mkarthik2597@gmail.com",
-    "name": "Karthik M",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Theoretical Computing",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:ash.joishy@gmail.com",
-    "name": "ASHISH R JOISHY",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Robotics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:prajwalb9897@gmail.com",
-    "name": "Prajwal B Bharadwaj",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Electromechanical devices, Robotics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:swathibhat282@gmail.com",
-    "name": "Swathi S Bhat",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Systems and security",
-    "linkedin": "https://www.linkedin.com/in/swathi-s-bhat-6180a3128",
-    "github": "https://github.com/SwathiSBhat"
-  },
-  {
-    "email": "mailto:sagarbharadwaj50@gmail.com",
-    "name": "Sagar Bharadwaj KS",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Machine learning, App development",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:ashwinjoisa@gmail.com",
-    "name": "Ashwin Joisa",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Competitive Programming",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:ananyav96@gmail.com",
-    "name": "Ananya V",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Nanotechnology ",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:varshini.srinivasan@gmail.com",
-    "name": "Varshini Srinivasan",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Digital Electronics, Embedded Systems and IOT",
-    "linkedin": "https://www.linkedin.com/in/varshini-srinivasan-a65bb9136/",
-    "github": "https://github.com/varsh2506"
-  },
-  {
-    "email": "mailto:01amalns@gmail.com",
-    "name": "Amal Saji",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "design, product developing ",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:prachi.shahi@ieee.org",
-    "name": "Prachi Shahi",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Signal Processing, Machine Learning, Artificial Intelligence",
-    "linkedin": "https://linkedin.com/in/prachi-shahi",
-    "github": ""
-  },
-  {
-    "email": "mailto:praful.itti@gmail.com",
-    "name": "Praful Itti",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Structures",
-    "linkedin": "https://linkedin.com/in/praful-itti-b990b6122/",
-    "github": ""
-  },
-  {
-    "email": "mailto:s.sriram.1997@ieee.org",
-    "name": "S M SRIRAM",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Computational fluid dynamics ",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email" : "hebbarashwin@gmail.com",
-    "name" : "Ashwin Hebbar",
-    "year" : "Second Year",
-    "sig" : "Diode",
-    "github" : "https://github.com/hebbarashwin",
-    "interests" : "Digital Electronics and Embedded Systems"
-  },
-  {
-    "email": "mailto:sandeep.n.menon@ieee.org",
-    "name": "Sandeep N Menon",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Datastructures and Algorithms, Machine Learning, Image Processing",
-    "linkedin": "https://www.linkedin.com/in/sandeep-n-menon-9b44ba104/",
-    "github": "https://github.com/gitmenonsandu"
-  },
-  {
-    "email": "mailto:adwait.gautham@gmail.com",
-    "name": "ADWAITH V GAUTHAM",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Interested in systems and security sciences",
-    "linkedin": "https://linkedin.com/in/adwaithgautham1998",
-    "github": "https://github.com/adwait1-G"
-  },
-  {
-    "email": "mailto:arunkeerthi09@gmail.com",
-    "name": "Arun Keerthi",
-    "year": "Final Year",
-    "sig": "Piston",
-    "interests": "Aeronautics, Automobile, Renewable Energy",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:tarteisha@gmail.com",
-    "name": "Isha Tarte",
-    "year": "Final Year",
-    "sig": "Compsoc",
-    "interests": "Theoretical Computer Scinece",
-    "linkedin": "https://www.linkedin.com/in/isha-tarte-822b14103/",
-    "github": "https://github.com/isha97"
-  },
-  {
-    "email": "mailto:in.rakshith.g@gmail.com",
-    "name": "Rakshith G",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Systems, security & programming languages",
-    "linkedin": "https://www.linkedin.com/in/rakshithg/",
-    "github": "http://github.com/hehaichi"
-  },
-  {
-    "email": "mailto:vighneshvelayudhan@gmail.com",
-    "name": "Vighnesh V",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Web, Software.",
-    "linkedin": "",
-    "github": "github.com/viggi-v"
-  },
-  {
-    "email": "mailto:krishnanarvind100@gmail.com",
-    "name": "Arvind Sai K",
-    "year": "Third Year",
-    "sig": "Compsoc",
-    "interests": "Algorithms, machine learning",
-    "linkedin": "https://www.linkedin.com/in/arvindsaik",
-    "github": "https://github.com/arvindsaik"
-  },
-  {
-    "email": "mailto:shreeram1739@gmail.com",
-    "name": "Shreeram N Hegde",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "digital electronics",
-    "linkedin": "https://www.linkedin.com/in/shreeram-hegde-80a024146",
-    "github": ""
-  },
-  {
-    "email": "mailto:shamagvasisht23998@gmail.com",
-    "name": "Shama G Vasisht",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:snganeshn19@gmail.com",
-    "name": "Shriganesh N",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Robotics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:sanmathikamath@gmail.com",
-    "name": "Sanmathi Kamath",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal processing, Machine learning, Digital system design",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:kanchodusandesh@gmail.com",
-    "name": "Sandesh Kanchodu",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog and power electronics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:sampath21021999@gmail.com",
-    "name": "Sampath koti",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog and digita.mechatronics and robotics",
-    "linkedin": "https://linkedin.com/in/sampath-koti-b63a4813b",
-    "github": "https://github.com/MANWHOKNEWINFINITY"
-  },
-  {
-    "email": "mailto:hansalshah1998@gmail.com",
-    "name": "Hansal Shah",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal processing, Digital System Design ",
-    "linkedin": "https://in.linkedin.com/in/hansal-shah-a6a981120",
-    "github": "https://github.com/hansalshah"
-  },
-  {
-    "email": "mailto:nikhil0398@gmail.com",
-    "name": "Nikhil Govindarajan",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Metal alloys, composites, applications of ceramics and polymers. Thermodynamics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:mohitreddy1996@gmail.com",
-    "name": "Mohit Reddy",
-    "year": "Final Year",
-    "sig": "CompSoc",
-    "interests": "Systems",
-    "linkedin": "https://www.linkedin.com/in/mohit-reddy-334427104",
-    "github": "https://github.com/mohitreddy1996/"
-  },
-  {
-    "email": "mailto:vinaybhat001@gmail.com",
-    "name": "Vinay Bhat",
-    "year": "Final Year",
-    "sig": "CompSoc",
-    "interests": "Systems, Machine Learning, Functional Programming",
-    "linkedin": "https://www.linkedin.com/in/vinay-bhat",
-    "github": "https://github.com/vshan/"
-  },
-  {
-    "email": "mailto:trmittal24@gmail.com",
-    "name": "Tarun Mittal",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Embedded Systems, IoT, Digital System Design, Cryptography",
-    "linkedin": "https://www.linkedin.com/in/trmittal24/",
-    "github": "https://github.com/trmittal24"
-  },
-  {
-    "email": "mailto:hebbarashwin@gmail.com",
-    "name": "Ashwin Hebbar",
-    "year": "Second Year",
-    "sig": "CAS/SPS",
-    "interests": "Electronics",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:harini.25697@gmail.com",
-    "name": "Harini S",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Digital System Design, Image Processing, ML",
-    "linkedin": "",
-    "github": ""
-  },
-  {
-    "email": "mailto:mittu97@gmail.com",
-    "name": "Shwetha SV",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Analog, Control Systems, Machine Learning",
-    "linkedin": "https://www.linkedin.com/",
-    "github": "https://github.com/"
-  },
-  {
-    "email": "mailto:vasista1997@gmail.com",
-    "name": "Vasista Ayyagari",
-    "year": "Third Year",
-    "sig": "Piston",
-    "interests": "Robotics and Thermal Engineering",
-    "linkedin": "https://www.linkedin.com/",
-    "github": "https://github.com/"
-  },
-  {
-    "email": "mailto:rosageorge97@gmail.com",
-    "name": "Rosa Anil George",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Database Management System and Machine Learning",
-    "linkedin": "https://www.linkedin.com/",
-    "github": "https://github.com/RosaGeorge31"
-  },
-  {
-    "email": "mailto:sachitk777@gmail.com",
-    "name": "Sachit Krishnan",
-    "year": "Second Year",
-    "sig": "Piston",
-    "interests": "Signal Processing, Electromagnetics, Aerodynamics",
-    "linkedin": "https://www.linkedin.com/in/sachit-krishnan-a434b1148",
-    "github": "https://github.com/sachitkrishnan"
-  },
-  {
-    "email": "mailto:adilashique@gmail.com",
-    "name": "Adil Mohammed Ashique",
-    "year": "Second Year",
-    "sig": "Compsoc",
-    "interests": "Machine Learning, Robotics and AI",
-    "linkedin": "https://www.linkedin.com/",
-    "github": "https://github.com/adilashique"
-  },
-  {
-    "email": "mailto:rohanbfg@gmail.com",
-    "name": "Rohan Surve",
-    "year": "Third Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal processing",
-    "linkedin": "https://www.linkedin.com/",
-    "github": "https://github.com/"
-  },
-  {
-    "email": "mailto:samhitav@gmail.com",
-    "name": "Samhita Varambally B",
-    "year": "Final Year",
-    "sig": "CAS/SPS",
-    "interests": "Signal Processing, Embedded Systems",
-    "linkedin": "www.linkedin.com/in/samhita-varambally-0648a6a1",
-    "github": "https://github.com/samhitav"
-  }
-],
+  "members": [
+{
+  "email": "mailto:aneesh297@gmail.com",
+  "name": "Aneesh Aithal",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Artificial Intelligence, Data science",
+  "linkedin": "",
+  "github": "https://github.com/aneesh297"
+},
+{
+  "email": "mailto:sbs.191197@gmail.com",
+  "name": "Salman Shah",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Systems ",
+  "linkedin": "https://www.linkedin.com/in/sbshah97",
+  "github": "https://www.github.com/salman-bhai"
+},
+{
+  "email": "mailto:satyam.shivam76@gmail.com",
+  "name": "Shivam ",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Digital, analog, signal processing",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:sowjanyakandula99@gmail.com",
+  "name": "Kandula.sowjanya",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Electronics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:vvvarun1@gmail.com",
+  "name": "Venkat Varun Velpula",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Robotics, Mechanism design, automobiles",
+  "linkedin": "https://www.linkedin.com/in/varun-velpula",
+  "github": ""
+},
 
+{
+  "email": "mailto:santoshkvk@gmail.com",
+  "name": "Santosh Kodali",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "ML, IoT, Image/speech processing",
+  "linkedin": "https://www.linkedin.com/in/santosh-kodali",
+  "github": "https://github.com/santosh-kodali"
+},
+{
+  "email": "mailto:hrishihiraskar@gmail.com",
+  "name": "Hrishikesh Hiraskar",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Programming, Web and App Dev",
+  "linkedin": "https://www.linkedin.com/in/hrishi-hiraskar",
+  "github": "https://github.com/hrily"
+},
+{
+  "email": "mailto:anuzenith29@gmail.com",
+  "name": "Anumeha Agrawal",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Web and App development, Machine Learning , AI",
+  "linkedin": "https://www.linkedin.com/in/anumeha-agrawal-0854a0138",
+  "github": "www.github.io/anumehaagrawal/"
+},
+{
+  "email": "mailto:raoshashank73@gmail.com",
+  "name": "Shashank Rao",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Robotics , ROS ",
+  "linkedin": "https://in.linkedin.com/in/shashank",
+  "github": "https://github.com/raoshashank"
+},
 
-"core": [
-  {
-    "id": "Salman Shah",
-    "name": "Salman Shah",
-    "interests": "Machine Learning, Systems",
-    "email": "mailto:sbs.191197@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/sbshah97",
-    "github": "https://www.github.com/salman-bhai",
-    "position": "Convenor"
-  },     
-  {
-    "id": "Samarth Bonthala",
-    "name": "Samarth Bonthala",
-    "interests": "Mixed Signal Design, Internet of Things, Nanotechnology",
-    "email": "mailto:samarth.bonthala@gmail.com",
-    "github": "",
-    "linkedin": "https://in.linkedin.com/in/samarth-bonthala",
-    "position": "Chairman"
-  }, 
-  {
-    "id": "Anupama G",
-    "name": "Anupama G",
-    "interests": "Polymer Rheology, Mathematical modeling, nanotechnology",
-    "email": "mailto:anupamagvs@gmail.com",
-    "github": "",
-    "linkedin": "",
-    "position": "Vice Chair"
-  }, 
-  {
-    "id": "Abijith Jagannath Kamath",
-    "name": "Abijith Jagannath Kamath",
-    "interests": "Signal Processing, Image Processing, Circuit Theory",
-    "email": "mailto:kamath.abijith.j@ieee.org",
-    "linkedin": "https://www.linkedin.com/in/abijith-kamath-556870111/",
-    "github": "https://gitlab.com/kamath.abijith.j",
-    "position": "Secretary"
-  }, 
-  {
-    "id": "Akshay Krishna",
-    "name": "Akshay Krishna",
-    "interests": "Structural Analysis,  CAD/CAM",
-    "email": "mailto:akshay062@gmail.com",
-    "github": "",
-    "linkedin": "",
-    "position": "Engineer Joint Convenor"
-  }, 
-  {
-    "id": "Kaushik S Kalmady",
-    "name": "Kaushik S Kalmady",
-    "interests": "Data Analysis, Machine Learning, Deep Learning , Linux.",
-    "email": "mailto:kaushiks.s.kalmady@ieee.org",
-    "linkedin": "https://linkedin.com/kaushiksk",
-    "github": "https://github.com/kaushiksk",
-    "position": "Computer Society Chair"
-  }, 
-  {
-    "id": "Tarun Mittal",
-    "name": "Tarun Mittal",
-    "interests": "Embedded Systems, IoT, Digital System Design, Cryptography",
-    "email": "mailto:trmittal24@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/trmittal24/",
-    "github": "https://github.com/trmittal24",
-    "position": "Circuits and Systems Chair"
-  }, 
-  {
-    "id": "Pranay Nagrani",
-    "name": "Pranay Nagrani",
-    "interests": "Aerodynamics and fluid dynamics",
-    "email": "mailto:pranay_nagrani@ieee.org",
-    "linkedin": "",
-    "github": "",
-    "position": "Piston Chair"
-  }, 
-  {   
-    "id":"Vasista Ayyagari",
-    "name":"Vasista Ayyagari",
-    "interests": "Robotics and Thermal Engineering",
-    "email":"mailto:vasista1997@gmail.com",
-    "linkedin": "https://www.linkedin.com/",
-    "github": "https://github.com/",
-    "position":"SIGHT Chair"
-  }, 
-  {
-    "id": "Harini S",
-    "name": "Harini S",
-    "interests": "Digital System Design, Image Processing, ML",
-    "email": "mailto:deepesh.agarawal@gmail.com",
-    "linkedin": "https://www.linkedin.com/",
-    "github": "https://github.com/",
-    "position": "Signal Processing Society Chair"
-  },   
-  {
-    "id": "Mohita Chowdhury",
-    "name": "Mohita Chowdhury",
-    "interests": "Computer Vision, Image Processing, Machine Learning",
-    "email": "mailto:chowdhury.mohita@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/mohita-chowdhury-838643131/",
-    "github": "https://github.com/mohiitaa",
-    "position": " WIE Chair"
-  }, 
-  {
-    "id": "K V Krishna",
-    "name": "K V Krishna",
-    "interests": "Aerodynamics, Aeronautics, Fluid mechanics and Computational Fluid Dynamics",
-    "email": "mailto:krishnakv98@ieee.org",
-    "linkedin": "",
-    "github": "",
-    "position": "Bangalore Section SAC Team"
-  },
-  {
-    "id": "Shuvam Senapati",
-    "name": "Shuvam Senapati",
-    "interests": "Design and Manufacturing ",
-    "email": "mailto:senapati.shuvam96@gmail.com",
-    "linkedin": "",
-    "github": "",
-    "position": "Piston Secretary"
-  },
-  {
-    "id": "Vibhore Jain",
-    "name": "Vibhore Jain",
-    "interests": "Analog System Design, Embedded Systems",
-    "email": "mailto:jainvibhore1997@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/vibhore-jain-b57022117/",
-    "github": "https://github.com/vibhoregit" ,
-    "position": "Diode Secretary"
-  },
-  {
-    "id": "Sandesh Kanchodu",
-    "name": "Sandesh Kanchodu",
-    "interests": "Analog and power electronics",
-    "email": "mailto:kanchodusandesh@gmail.com", 
-    "linkedin": "",
-    "github": "",
-    "position": "Diode Secretary"
-  },
-  {
-    "id": "Ambareesh",
-    "name": "Ambareesh",
-    "interests": "Machine Learning and Artificial Intelligence namely Markov Chain Monte Carlo methods, Deep Learning, Ensemble  Methods",
-    "email": "mailto:ambareesh.prakash@gmail.com",
-    "linkedin": "",
-    "github": "https://github.com/AeroDeath/",
-    "position": "Intelligence Group Head"
-  },
-  {
-    "id": "Rakshith G",
-    "name": "Rakshith G",
-    "interests": "Systems, security & programming languages",
-    "email": "mailto:in.rakshith.g@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/rakshithg/",
-    "github": "http://github.com/hehaichi",
-    "position": "Systems Group Head"
-  }, 
-  {
-  "id": "Vilas",
-  "name": "Vilas",
+{
+  "email": "mailto:mahim23agrawal@gmail.com",
+  "name": "Mahim Agrawal",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Web Development",
+  "linkedin": "https://www.linkedin.com/in/mahim-agrawal-791937132",
+  "github": "github.com/mahim23"
+},
+{
+  "email": "mailto:parab.sonal108@gmail.com",
+  "name": "Sonal Parab",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Automobiles",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:arangarajan834@gmail.com",
+  "name": "Aditya Rangarajan",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog electronics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:gurupungavn@gmail.com",
+  "name": "Gurupungav Narayanan",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, AI, Competitive Coding, DBMS",
+  "linkedin": "",
+  "github": "github.com/gurupunskill"
+},
+{
+  "email": "mailto:himadripal37@gmail.com",
+  "name": "Himadri Pal",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Networks, Graph Theory",
+  "linkedin": "https://www.linkedin.com/in/himadri-pal-866532141/",
+  "github": "https://github.com/HimadriP"
+},
+{
+  "email": "mailto:sinchanah@gmail.com",
+  "name": "Sinchana Hegde",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Robotics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:adithyaprabhu98@gmail.com",
+  "name": "Adithya Prabhu",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Product Design, Acoustics",
+  "linkedin": "https://www.linkedin.com/in/adithya-prabhu-702b6b141",
+  "github": "https://github.com/adithyaprabhu98"
+},
+{
+  "email": "mailto:anirudhs1997@gmail.com",
+  "name": "Anirudh S Sundar",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Computer Vision, Digital Electronics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:kirankumar.kiran78@gmail.com",
+  "name": "Kiran Kumar.G",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Finite element analysis and Automobiles",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:sirnithin98@gmail.com",
+  "name": "Nithin M Eapen",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Vehicle dynamics, thermodynamics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:sssachin300@gmail.com",
+  "name": "SACHIN SAMPATH H",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal processing",
+  "linkedin": "",
+  "github": ""
+},
+
+{
+  "email": "mailto:ckeshavabs@gmail.com",
+  "name": "Chenna Keshava B S",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning and Artificial intelligence ",
+  "linkedin": "",
+  "github": "https://github.com/chennakeshava1998"
+},
+{
+  "email": "mailto:akulasricharan.asc@gmail.com",
+  "name": "Sri Charan Akula",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Computational fluid dynamics, aerodynamics",
+  "linkedin": "https://www.linkedin.com/mwlite/me",
+  "github": "https://github.com/AKULA-SRI-CHARAN"
+},
+{
+  "email": "mailto:yani.bh@gmail.com",
+  "name": "Anirudh B H",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog and Digital Electronics",
+  "linkedin": "https://www.linkedin.com/in/anirudh-b-h-30a453149",
+  "github": "https://github.com/Anirudh0707"
+},
+{
+  "email": "mailto:pvgupta24@gmail.com",
+  "name": "Praveen Gupta",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Web & Android Development",
+  "linkedin": "https://www.linkedin.com/in/praveen-gupta-953869130/",
+  "github": "https://github.com/pvgupta24"
+},
+{
+  "email": "mailto:mokshjn00@gmail.com",
+  "name": "Moksh Jain",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Android",
+  "linkedin": "https://www.linkedin.com/in/mokshjain",
+  "github": "http://github.com/MJ10"
+},
+{
+  "email": "mailto:megh.bhalerao@gmail.com",
+  "name": "Megh Bhalerao",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal Processing/ Image processing.",
+  "linkedin": "https://www.linkedin.com/in/megh-bhalerao-572b29130",
+  "github": ""
+},
+{
+  "email": "mailto:anupamagvs@gmail.com",
+  "name": "Anupama G",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Polymer Rheology, Mathematical modeling, nanotechnology",
+  "linkedin": "",
+  "github": ""
+},
+
+{
+  "email": "mailto:samarth.bonthala@gmail.com",
+  "name": "Samarth Bonthala",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Mixed Signal Design, Internet of Things, Nanotechnology",
+  "linkedin": "https://in.linkedin.com/in/samarth-bonthala",
+  "github": ""
+},
+{
+  "email": "mailto:mail4vinayakvgopal@gmail.com",
+  "name": "Vinayak V Gopal",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Automobiles, Robotics, Machine Learning",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:sanathkshettar@gmail.com",
+  "name": "Sanath K",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Renewables, Power Transmission ",
+  "linkedin": "https://www.linkedin.com/mwlite/me",
+  "github": "https://github.com/sanathbk"
+},
+{
+  "email": "mailto:smarty1palak@gmail.com",
+  "name": "Palak singhal",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Ml, cp, web dev",
+  "linkedin": "https://www.linkedin.com/in/palak-singhal-ba0458149/",
+  "github": "https://github.com/smarty1palak"
+},
+{
+  "email": "mailto:shashank2041998@gmail.com",
+  "name": "Shashank R",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "CFD, Aerodynamics ",
+  "linkedin": "http://linkedin.com/in/shashank-ravichandir-11ab0a130",
+  "github": ""
+},
+{
+  "email": "mailto:mahirjain25@gmail.com",
+  "name": "Mahir Jain",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Algorithms, Data Structures",
+  "linkedin": "https://www.linkedin.com/in/mahir-jain-269100144/",
+  "github": "https://github.com/mahirjain25"
+},
+{
+  "email": "mailto:rosageorge97@gmail.com",
+  "name": "Rosa Anil George",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Artificial Intelligence, Database Management Systems",
+  "linkedin": "",
+  "github": "https://github.com/RosaGeorge31"
+},
+{
+  "email": "mailto:surajnitk4@gmail.com",
+  "name": "Suraj Singh",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning",
+  "linkedin": "https://www.linkedin.com/in/suraj-singh-370ab0144",
+  "github": "https://github.com/suraj44"
+},
+{
+  "email": "mailto:jeshvanthtk@gmail.com",
+  "name": "T K Jeshventh Raja",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Systems and security",
+  "linkedin": "https://www.linkedin.com/in/jeshventh-raja-t-k-7b2791131/",
+  "github": "https://github.com/jeshventhraja"
+},
+{
+  "email": "mailto:manansharma296@gmail.com",
+  "name": "Manan Sharma",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Embedded Systems, Image Processing",
+  "linkedin": "https://www.linkedin.com/in/manan-sharma",
+  "github": "https://github.com/manan-sharma"
+},
+{
+  "email": "mailto:shrutideshpande9598@gmail.com",
+  "name": "Shruti Deshpande",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog and digital electronics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:architpandeynitk@gmail.com",
+  "name": "Archit Pandey",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Artificial Intelligence and Algorithms",
+  "linkedin": "",
+  "github": "https://github.com/archpndy"
+},
+{
+  "email": "mailto:andy.pathak1@gmail.com",
+  "name": "Anand Pathak",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Aerodynamics, Propulsion, Astrophysics",
+  "linkedin": "https://www.linkedin.com/in/anand-pathak-145453b2",
+  "github": ""
+},
+{
+  "email": "mailto:vanshika421@gmail.com",
+  "name": "Vanshika gupta",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Mechanics of materials",
+  "linkedin": "",
+  "github": "GitHub handle - vansyo"
+},
+{
+  "email": "mailto:harshitranjan2098@gmail.com",
+  "name": "Harshit Ranjan",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Alloys, Composites and Renewable Energy Systems",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:rajatchandavar1998@gmail.com",
+  "name": "Rajat A Chandavar",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Aerodynamics, Fluid Mechanics, Machine Learning and AI, Thermodynamics, Image processing",
+  "linkedin": "www.linkedin.com/in/rajat-a-chandavar-98157a12b",
+  "github": "https://github.com/rajatchandavar"
+},
+{
+  "email": "mailto:krishnakv98@gmail.com",
+  "name": "K V Krishna",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Aerodynamics, Aeronautics, Fluid mechanics and Computational Fluid Dynamics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:chowdhury.mohita@gmail.com",
+  "name": "Mohita Chowdhury",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Computer Vision, Image Processing, Machine Learning",
+  "linkedin": "https://www.linkedin.com/in/mohita-chowdhury-838643131/",
+  "github": "https://github.com/mohiitaa"
+},
+{
+  "email": "mailto:nandini.pvs@gmail.com",
+  "name": "Nandini Sreenath",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal Processing",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:jainvibhore1997@gmail.com",
+  "name": "Vibhore Jain",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog System Design, Embedded Systems",
+  "linkedin": "https://www.linkedin.com/in/vibhore-jain-b57022117/",
+  "github": "https://github.com/vibhoregit"
+},
+{
+  "email": "mailto:mirthunraj@gmail.com",
+  "name": "Mirthunraj",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Aeronautics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:senapati.shuvam96@gmail.com",
+  "name": "Shuvam Senapati",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Design and Manufacturing ",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:dth.bht@gmail.com",
+  "name": "Adithya Bhat",
+  "year": "Final Year",
+  "sig": "Compsoc",
+  "interests": "Cryptography, Operating systems, distributed systems, networking, HPC, Virtualization, Security",
+  "linkedin": "",
+  "github": "https://github.com/adithyabhatkajake"
+},
+{
+  "email": "mailto:1997shashankp@gmail.com",
+  "name": "Shashank P",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning",
+  "linkedin": "https://www.linkedin.com/in/shashank-p-647aa8125",
+  "github": "https://github.com/ShashankP19"
+},
+{
+  "email": "mailto:subbalakshmi.n18@gmail.com",
+  "name": "N Subbalakshmi ",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal Processing, Digital System Design",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:akshay.krishna.in@ieee.org",
+  "name": "Akshay Krishna",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Product Design, Engineering Design, CAD/CAM, Robotics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:adilamrajiv@gmail.com",
+  "name": "Adila Mohammed Rajiv",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Renewable energy ",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:ayush.gs1998@gmail.com",
+  "name": "Ayush Srivastava",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Electronics: digital and analog",
+  "linkedin": "      embedded systems",
+  "github": ""
+},
+{
+  "email": "mailto:kamath.abijith.j@ieee.org",
+  "name": "Abijith J Kamath",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal Processing, Image Processing, Circuit Theory",
+  "linkedin": "https://www.linkedin.com/in/abijith-kamath-556870111/",
+  "github": "https://gitlab.com/kamath.abijith.j"
+},
+{
+  "email": "mailto:adityanant@gmail.com",
+  "name": "A Aditya",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Machine learning, Data Mining , Competitive Coding",
+  "linkedin": "https://www.linkedin.com/in/aditya1997",
+  "github": "https://github.com/aditya5558"
+},
+{
+  "email": "mailto:ambareesh.prakash@gmail.com",
+  "name": "Ambareesh Prakash",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning and Artificial Intelligence namely Markov Chain Monte Carlo methods, Deep Learning, Ensemble Methods",
+  "linkedin": "",
+  "github": "https://github.com/AeroDeath/"
+},
+{
+  "email": "mailto:aneesh297@gmail.com",
+  "name": "Aneesh Aithal",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Artificial Intelligence, Data Science",
+  "linkedin": "",
+  "github": "https://github.com/aneesh297"
+},
+{
+  "email": "mailto:abhithigale3@gmail.com",
+  "name": "Abhishek Thigale",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Robotics(control), mechanism design",
+  "linkedin": "https://www.linkedin.com/in/abhishek-thigale",
+  "github": ""
+},
+{
+  "email": "mailto:bsrevanth2011@gmail.com",
+  "name": "Revanth B S",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Competitive Coding, Web Development",
+  "linkedin": "www.linkedin.com/in/revanth-bs",
+  "github": "github.com/revanth-3010"
+},
+{
+  "email": "mailto:shwethasv97@gmail.com",
+  "name": "Shwetha SV",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog Design, Control Systems",
+  "linkedin": "",
+  "github": ""
+},
+{
   "email": "mailto:vilasnitk19@gmail.com",
+  "name": "Vilas M",
+  "year": "Third Year",
+  "sig": "Compsoc",
   "interests": "Algorithms, High Performance Computing",
   "linkedin": "https://www.linkedin.com/in/vilas-m-745101128",
-  "github": "https://github.com/vilas897",
-  "position": "Theory Group Head"
-  },
-  {
-    "id": "Varshini Srinivasan ",
-    "name": "Varshini Srinivasan ",
-    "interests": "Digital Electronics, Embedded Systems and IOT",
-    "email": "mailto:varshini.srinivasan@ieee.org",
-    "linkedin": "https://www.linkedin.com/in/varshini-srinivasan-a65bb9136/",
-    "github": "https://github.com/varsh2506",
-    "position": "Treasurer"
-  }, 
-  {
-    "id": "Adithya Prabhu",
-    "name": "Adithya Prabhu",
-    "interests": "Product Design, Acoustics",
-    "linkedin": "https://www.linkedin.com/in/adithya-prabhu-702b6b141",
-    "github": "https://github.com/adithyaprabhu98",
-    "email": "mailto:adithyaprabhu98@ieee.org",
-    "position": "Publicity Coordinator"
-  }, 
-  {
-    "id": "Anumeha Agrawal ",
-    "name": "Anumeha Agrawal ",
-    "email": "mailto:anumehaagrawal29@gmail.com",
-    "interests": "Web and App development, Machine Learning , AI, Open Source",
-    "linkedin": "https://www.linkedin.com/in/anumeha-agrawal-0854a0138",
-    "github": "https://github.com/anumehaagrawal/",
-    "position": "Webmaster"
-  },
-  {
-    "id": "Anirudh B H ",
-    "name": "Anirudh B H",
-    "email": "mailto:yani.bh@gmail.com",
-    "interests": "Analog and Digital Electronics",
-    "linkedin": "https://www.linkedin.com/in/anirudh-b-h-30a453149",
-    "github": "https://github.com/Anirudh0707",
-    "position": "Envision Head"
-  }      
+  "github": "https://github.com/vilas897"
+},
+{
+  "email": "mailto:kaushikskalmady@gmail.com",
+  "name": "Kaushik S Kalmady",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Data Analysis, Machine Learning, Deep Learning , Linux.",
+  "linkedin": "linkedin.com/kaushiksk",
+  "github": "github.com/kaushiksk"
+},
+{
+  "email": "mailto:satyam.shivam76@gmail.com",
+  "name": "Shivam",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Digital, analog, signal processing",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:pranay2098@gmail.com",
+  "name": "Pranay Praveen Nagrani",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Aerodynamics and fluid dynamics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:mkarthik2597@gmail.com",
+  "name": "Karthik M",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Theoretical Computing",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:prajwalb9897@gmail.com",
+  "name": "Prajwal B Bharadwaj",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Electromechanical devices, Robotics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:swathibhat282@gmail.com",
+  "name": "Swathi S Bhat",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Systems and security",
+  "linkedin": "https://www.linkedin.com/in/swathi-s-bhat-6180a3128",
+  "github": "https://github.com/SwathiSBhat"
+},
+{
+  "email": "mailto:sagarbharadwaj50@gmail.com",
+  "name": "Sagar Bharadwaj KS",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Machine learning, App development",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:ashwinjoisa@gmail.com",
+  "name": "Ashwin Joisa",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Competitive Programming",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:varshini.srinivasan@gmail.com",
+  "name": "Varshini Srinivasan",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Digital Electronics, Embedded Systems and IOT",
+  "linkedin": "https://www.linkedin.com/in/varshini-srinivasan-a65bb9136/",
+  "github": "https://github.com/varsh2506"
+},
+{
+  "email": "mailto:01amalns@gmail.com",
+  "name": "Amal Saji",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "design, product developing ",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:praful.itti@gmail.com",
+  "name": "Praful Itti",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Structures",
+  "linkedin": "https://www.linkedin.com/in/praful-itti-b990b6122/",
+  "github": ""
+},
+{
+  "email": "mailto:s.sriram.1997@ieee.org",
+  "name": "S M SRIRAM",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Computational fluid dynamics ",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email" : "hebbarashwin@gmail.com",
+  "name" : "Ashwin Hebbar",
+  "year" : "Second Year",
+  "sig" : "Diode",
+  "github" : "https://github.com/hebbarashwin",
+  "interests" : "Digital Electronics and Embedded Systems"
+},
+{
+  "email": "mailto:adwait.gautham@gmail.com",
+  "name": "ADWAITH V GAUTHAM",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Interested in systems and security sciences",
+  "linkedin": "www.linkedin.com/in/adwaithgautham1998",
+  "github": "https://github.com/adwait1-G"
+},
+{
+  "email": "mailto:in.rakshith.g@gmail.com",
+  "name": "Rakshith G",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Systems, security & programming languages",
+  "linkedin": "https://www.linkedin.com/in/rakshithg/",
+  "github": "http://github.com/hehaichi"
+},
+{
+  "email": "mailto:vighneshvelayudhan@gmail.com",
+  "name": "Vighnesh V",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Web, Software.",
+  "linkedin": "",
+  "github": "github.com/viggi-v"
+},
+{
+  "email": "mailto:krishnanarvind100@gmail.com",
+  "name": "Arvind Sai K",
+  "year": "Third Year",
+  "sig": "Compsoc",
+  "interests": "Algorithms, machine learning",
+  "linkedin": "https://www.linkedin.com/in/arvindsaik",
+  "github": "https://github.com/arvindsaik"
+},
+{
+  "email": "mailto:shreeram1739@gmail.com",
+  "name": "Shreeram N Hegde",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "digital electronics",
+  "linkedin": "https://www.linkedin.com/in/shreeram-hegde-80a024146",
+  "github": ""
+},
+{
+  "email": "mailto:shamagvasisht23998@gmail.com",
+  "name": "Shama G Vasisht",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:snganeshn19@gmail.com",
+  "name": "Shriganesh N",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Robotics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:kanchodusandesh@gmail.com",
+  "name": "Sandesh Kanchodu",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog and power electronics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:sampath21021999@gmail.com",
+  "name": "Sampath koti",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog and digita.mechatronics and robotics",
+  "linkedin": "www.linkedin.com/in/sampath-koti-b63a4813b",
+  "github": "https://github.com/MANWHOKNEWINFINITY"
+},
+{
+  "email": "mailto:hansalshah1998@gmail.com",
+  "name": "Hansal Shah",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal processing, Digital System Design ",
+  "linkedin": "https://in.linkedin.com/in/hansal-shah-a6a981120",
+  "github": "https://github.com/hansalshah"
+},
+{
+  "email": "mailto:nikhil0398@gmail.com",
+  "name": "Nikhil Govindarajan",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Metal alloys, composites, applications of ceramics and polymers. Thermodynamics",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "mailto:trmittal24@gmail.com",
+  "name": "Tarun Mittal",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Embedded Systems, IoT, Digital System Design, Cryptography",
+  "linkedin": "https://www.linkedin.com/in/trmittal24/",
+  "github": "https://github.com/trmittal24"
+},
+{
+  "email": "mailto:hebbarashwin@gmail.com",
+  "name": "Ashwin Hebbar",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Electronics",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://github.com/"
+},
+{
+  "email": "mailto:harini.25697@gmail.com",
+  "name": "Harini S",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Digital System Design, Image Processing, ML",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://github.com/"
+},
+{
+  "email": "mailto:mittu97@gmail.com",
+  "name": "Shwetha SV",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog, Control Systems, Machine Learning",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://github.com/"
+},
+{
+  "email": "mailto:vasista1997@gmail.com",
+  "name": "Vasista Ayyagari",
+  "year": "Third Year",
+  "sig": "Piston",
+  "interests": "Robotics and Thermal Engineering",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://github.com/"
+},
+{
+  "email": "mailto:rosageorge97@gmail.com",
+  "name": "Rosa Anil George",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Database Management System and Machine Learning",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://github.com/RosaGeorge31"
+},
+{
+  "email": "mailto:sachitk777@gmail.com",
+  "name": "Sachit Krishnan",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Signal Processing, Electromagnetics, Aerodynamics",
+  "linkedin": "https://www.linkedin.com/in/sachit-krishnan-a434b1148",
+  "github": "https://github.com/sachitkrishnan"
+},
+{
+  "email": "mailto:adilashique@gmail.com",
+  "name": "Adil Mohammed Ashique",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Robotics and AI",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://github.com/adilashique"
+},
+{
+  "email": "mailto:rohanbfg@gmail.com",
+  "name": "Rohan Surve",
+  "year": "Third Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal processing",
+  "linkedin": "https://www.linkedin.com/",
+  "github": "https://github.com/"
+}
+],
+  "core": [
+      {
+          "id": "Salman Shah",
+          "name": "Salman Shah",
+          "interests": "Machine Learning, Systems",
+          "email": "mailto:sbs.191197@gmail.com",
+          "linkedin": "https://www.linkedin.com/in/sbshah97",
+          "github": "https://www.github.com/salman-bhai",
+          "position": "Convenor"
+      }, 
+     
+      {
+          "id": "Samarth Bonthala",
+          "name": "Samarth Bonthala",
+          "interests": "Mixed Signal Design, Internet of Things, Nanotechnology",
+          "email": "mailto:samarth.bonthala@gmail.com",
+          "github": "",
+          "linkedin": "https://in.linkedin.com/in/samarth-bonthala",
+          "position": "Chairman"
+      }, 
+      {
+          "id": "Anupama G",
+          "name": "Anupama G",
+          "interests": "Polymer Rheology, Mathematical modeling, nanotechnology",
+          "email": "mailto:anupamagvs@gmail.com",
+          "github": "",
+          "linkedin": "",
+          "position": "Vice Chair"
+      }, 
+      {
+          "id": "Abijith Jagannath Kamath",
+          "name": "Abijith Jagannath Kamath",
+          "interests": "Signal Processing, Image Processing, Circuit Theory",
+          "email": "mailto:kamath.abijith.j@ieee.org",
+          "linkedin": "https://www.linkedin.com/in/abijith-kamath-556870111/",
+          "github": "https://gitlab.com/kamath.abijith.j",
+          "position": "Secretary"
+      }, 
+      
+      {
+          "id": "Akshay Krishna",
+          "name": "Akshay Krishna",
+          "interests": "Structural Analysis,  CAD/CAM",
+          "email": "mailto:akshay062@gmail.com",
+          "github": "",
+          "linkedin": "",
+          "position": "Engineer Joint Convenor"
+      }, 
+      {
+          "id": "Mohita Chowdhury",
+          "name": "Mohita Chowdhury",
+          "interests": "Computer Vision, Image Processing, Machine Learning",
+          "email": "mailto:chowdhury.mohita@gmail.com",
+          "linkedin": "https://www.linkedin.com/in/mohita-chowdhury-838643131/",
+          "github": "https://github.com/mohiitaa",
+          "position": " WIE Chair"
+      }, 
+      {
+          "id": "K V Krishna",
+          "name": "K V Krishna",
+          "interests": "Aerodynamics, Aeronautics, Fluid mechanics and Computational Fluid Dynamics",
+          "email": "mailto:krishnakv98@ieee.org",
+          "linkedin": "",
+          "github": "",
+          "position": "India Council SAC Core Team"
+      },
+      {
+          "id": "Shuvam Senapati",
+          "name": "Shuvam Senapati",
+          "interests": "Design and Manufacturing ",
+          "email": "mailto:senapati.shuvam96@gmail.com",
+          "linkedin": "",
+          "github": "",
+          "position": "Piston Secretary"
+      },
+      {
+          "id": "Pranay Nagrani",
+          "name": "Pranay Nagrani",
+          "interests": "Aerodynamics and fluid dynamics",
+          "email": "mailto:pranay_nagrani@ieee.org",
+          "linkedin": "",
+          "github": "",
+          "position": "Piston Chair"
+      }, 
+      {
+          "id": "Tarun Mittal",
+          "name": "Tarun Mittal",
+          "interests": "Embedded Systems, IoT, Digital System Design, Cryptography",
+          "email": "mailto:trmittal24@gmail.com",
+          "linkedin": "https://www.linkedin.com/in/trmittal24/",
+          "github": "https://github.com/trmittal24",
+          "position": "Circuits and Systems Chair"
+      }, 
+      {
+          "id": "Vibhore Jain",
+          "name": "Vibhore Jain",
+          "interests": "Analog System Design, Embedded Systems",
+          "email": "mailto:jainvibhore1997@gmail.com",
+          "linkedin": "https://www.linkedin.com/in/vibhore-jain-b57022117/",
+          "github": "https://github.com/vibhoregit" ,
+          "position": "Diode Secretary"
+      },
+      {
+          "id": "Sandesh Kanchodu",
+          "name": "Sandesh Kanchodu",
+          "interests": "Analog and power electronics",
+          "email": "mailto:kanchodusandesh@gmail.com", 
+          "linkedin": "",
+          "github": "",
+          "position": "Diode Secretary"
+      },
+      {   
+        "id":"Vasista Ayyagari",
+          "name":"Vasista Ayyagari",
+          "interests": "Robotics and Thermal Engineering",
+          "email":"mailto:vasista1997@gmail.com",
+          "linkedin": "https://www.linkedin.com/",
+          "github": "https://github.com/",
+          "position":"SIGHT Chair"
+          }, 
+          {
+          "id": "Harini S",
+          "name": "Harini S",
+          "interests": "Digital System Design, Image Processing, ML",
+          "email": "mailto:deepesh.agarawal@gmail.com",
+          "linkedin": "https://www.linkedin.com/",
+          "github": "https://github.com/",
+          "position": "Signal Processing Society Chair"
+      }, 
+    
+      {
+          "id": "Kaushik S Kalmady",
+          "name": "Kaushik S Kalmady",
+          "interests": "Data Analysis, Machine Learning, Deep Learning , Linux.",
+          "email": "mailto:kaushiks.s.kalmady@ieee.org",
+          "linkedin": "linkedin.com/kaushiksk",
+          "github": "github.com/kaushiksk",
+          "position": "Computer Society Chair"
+      }, 
+          {
+          "id": "Ambareesh",
+          "name": "Ambareesh",
+          "interests": "Machine Learning and Artificial Intelligence namely Markov Chain Monte Carlo methods, Deep Learning, Ensemble  Methods",
+          "email": "mailto:ambareesh.prakash@gmail.com",
+          "linkedin": "",
+          "github": "https://github.com/AeroDeath/",
+          "position": "Intelligence Group Head"
+      },
+      {
+          "id": "Rakshith G",
+          "name": "Rakshith G",
+          "interests": "Systems, security & programming languages",
+          "email": "mailto:in.rakshith.g@gmail.com",
+          "linkedin": "https://www.linkedin.com/in/rakshithg/",
+          "github": "http://github.com/hehaichi",
+          "position": "Systems Group Head"
+      }, 
+       {
+          "id": "Vilas",
+          "name": "Vilas",
+          "email": "mailto:vilasnitk19@gmail.com",
+          "interests": "Algorithms, High Performance Computing",
+          "linkedin": "https://www.linkedin.com/in/vilas-m-745101128",
+          "github": "https://github.com/vilas897",
+          "position": "Theory Group Head"
+      },
+      {
+          "id": "Varshini Srinivasan ",
+          "name": "Varshini Srinivasan ",
+          "interests": "Digital Electronics, Embedded Systems and IOT",
+          "email": "mailto:varshini.srinivasan@ieee.org",
+          "linkedin": "https://www.linkedin.com/in/varshini-srinivasan-a65bb9136/",
+          "github": "https://github.com/varsh2506",
+          "position": "Treasurer"
+      }, 
+      {
+          "id": "Adithya Prabhu",
+          "name": "Adithya Prabhu",
+          "interests": "Product Design, Acoustics",
+          "linkedin": "https://www.linkedin.com/in/adithya-prabhu-702b6b141",
+          "github": "https://github.com/adithyaprabhu98",
+          "email": "mailto:adithyaprabhu98@ieee.org",
+          "position": "Publicity Coordinator"
+      }, 
+      {
+          "id": "Anumeha Agrawal ",
+          "name": "Anumeha Agrawal ",
+          "email": "mailto:anumehaagrawal29@gmail.com",
+          "interests": "Web and App development, Machine Learning , AI, Open Source",
+          "linkedin": "https://www.linkedin.com/in/anumeha-agrawal-0854a0138",
+          "github": "www.github.io/anumehaagrawal/",
+          "position": "Webmaster"
+      },
+      {
+          "id": "Anirudh B H ",
+          "name": "Anirudh B H",
+          "email": "mailto:yani.bh@gmail.com",
+          "interests": "Analog and Digital Electronics",
+          "linkedin": "https://www.linkedin.com/in/anirudh-b-h-30a453149",
+          "github": "https://github.com/Anirudh0707",
+          "position": "Envision Head"
+      }
+     
   ]
 }
