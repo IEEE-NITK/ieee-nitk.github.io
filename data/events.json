@@ -40,7 +40,7 @@
     "date": "3rd - 6th October 2018"
   },
   "event9": {
-    "title": "Student Membership Drive 2018 | 2019 Renewal Cycle",
+    "title": "Student Membership Drive <br> 2018 | 2019 Renewal Cycle",
     "sig": "All SIGs",
     "date": "2nd October 2018"
   },
@@ -48,6 +48,16 @@
     "title": "Athena – Women’s Hackathon",
     "sig": "By WiE",
     "date": "3rd - 4th November 2018"
+  },
+  "event11": {
+    "title": "Women in Technology Summit",
+    "sig": "IEEE NITK",
+    "date": "21st - 23rd December 2018"
+  },
+  "event12": {
+    "title": "Embedathon",
+    "sig": "By CAS/SPS",
+    "date": "19th – 20th January 2019"
   }
   
 }

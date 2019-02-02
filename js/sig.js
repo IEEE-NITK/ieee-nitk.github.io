@@ -16,6 +16,9 @@ function loadAndDisplay(str) {
                 if (result[i].github) {
                     htmlStr += '<a style = "text-decoration: none;" href="' + result[i].github + '"> <i class="fa fa-github"></i></a>';
                 }
+                if (result[i].image) {
+                    htmlStr += '<center><br><img style="max-width:15vw" src="' + result[i].image + '" alt="img'+ i +'"' + result[i].github + '"></center>';
+                }
                 console.log(i);
                 htmlStr += " </h4><p class='sans'>" + result[i].Abstract + "</p></div>";
             }
