@@ -1,32 +1,114 @@
 [
 	{
+		"Title": "Learning to Communicate in Multi-Agent Systems",
+		"Abstract": "We are exploring the application of Reinforcement Learning in Multi-Agent systems to learn communication protocols. We are using value-based and policy-based models to learn emergent communication protocols in competitive and collaborative environments. We also plan to study the applicability of these learning methods on real world problems, like communication in a swarm of autonomous vehicles.",
+		"links": ["https://github.com/marl-ieee-nitk"],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": "https://github.com/IEEE-NITK/Multi-Agent-Reinforcement-Learning"
+	},
+	{
+		"Title": "Open Answering System",
+		"Abstract": "This project aims to build a model to  answer open-domain questions by implementing document retrieval and machine comprehension using Wikipedia as the only source of information.  It combines a search component based on bigram hashing and TF-IDF matching with a multi-layer recurrent neural network model trained to detect answers in Wikipedia paragraphs. The project will further be extended to build a closed domain answering system using NCERT textbooks as the only knowledge source.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",		
+		"github": "https://github.com/IEEE-NITK/open-qas"
+	},
+	{
+		"Title": "CP Judge",
+		"Abstract": "A functional, robust and secure platform for hosting our own competitive programming contests which should be able to compile and test the submitted code against previously given test cases. Submitted code would be run with restrictions, including time limit, memory limit, and address other security concerns in sandboxed containers. It is a scalable distributed system to support varied load and hence, should be fault tolerant and resilient to prevent cascading failures.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": "https://github.com/cpjudge"
+	},
+	{
+		"Title": "ROP Compiler",
+		"Abstract": "The aim of this project is to write a Compiler which automates the  ROP(Return Oriented Programming) exploit generation. Instead of writing payload by hand, the compiler does it for you. The project is roughly divided into the following parts.<br>1. Collect all ROP Gadgets from the vulnerable software and store it in a database. 2. Convert gadgets into IR, extract their meanings probably by using constraint solvers or with the help of Symbolic Execution. 3. Chain the gadgets to get the exploit function provided.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": "https://github.com/ROPCompiler"
+	},
+	{
+		"Title": "Secure Set Intersection using Secure Multi-Party Communication",
+		"Abstract": "A secure set intersection protocol between sender S and receiver R on respective inputs X and Y s.t. |X|,|Y| ≤ n, allows R to learn X ∩Y while S learns nothing about R’s inputs. We aim to implement and test one such protocol using oblivious transfer.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": ""
+	},
+	{
+		"Title": "Quantum Algorithms",
+		"Abstract": "This project aims to understand the concepts of quantum computation, especially quantum gates and implement few of the popular quantum algorithms - Shor’s algorithm and Grover’s search algorithm. Shor's algorithm finds the prime factors of an integer in polynomial time on a quantum computer. Grover's search algorithm is a quantum algorithm for searching an unsorted database with quadratic speedup over classical algorithm. These algorithms will be implemented in IBM Q Experience.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": ""
+	},
+	{
+		"Title": "Neural Voice Cloning",
+		"Abstract": "This project aims to build an application that will require few audio samples of the user as input and then using the speaker adaptation technique of voice cloning, will be able to read aloud a paragraph in the recorded voice.Speaker adaptation is based on fine-tuning a multi-speaker generative model with a few cloning samples. In terms of naturalness of the speech and its similarity to original speaker, this method can achieve good performance with better naturalness and similarity, even with very few cloning audios.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": "https://github.com/IEEE-NITK/Neural-Voice-Cloning"
+	},
+	{
+		"Title": "NLQ to SQL",
+		"Abstract": "In this project we aim to develop a model which when given a natural language query, will generate the SQL query for the same given the metadata about the database.<br>A lot of approaches have been used to tackle the problem including the traditional sequence to sequence model which is pretty generalised and doesn’t make use of the full structure of the SQL queries. Hence a new approach which uses sequence to set along with column attention was proposed to address the previous problems. We will use deep learning techniques like RNN and specifically LSTM to encode the input questions and build more deep neural networks on top of these encodings to predict the SQL queries.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": "https://github.com/IEEE-NITK/NLQ_to_SQL"
+	},
+	{
+		"Title": "Parallelizing Graph Colouring",
+		"Abstract": "The project aims to explore different ways and approaches to graph colouring in parallel and achieving a good speedup with respect to current heuristics proposed till date, and predict a chromatic number of the graph which has a reasonable relative error.",
+		"links": [],
+		"year":"2018 - 2019",
+		"image":"res/img/placeh.jpg",
+		"github": "https://github.com/IEEE-NITK/Parallel-Graph-Colouring-Algorithms"
+	},
+	{
 		"Title": "Arcade Game Solver",
 		"Abstract": "Arcade Game Solver using Deep Reinforcement Learning was about building game agents that use reinforcement learning to play arcade games and hence learn optimal behaviour. It included working with Deep Learning and Convolutional Neural Networks in Python.",
 		"links": [],
+		"year":"",
+		"image":"res/img/placeh.jpg",
 		"github": "https://github.com/IEEE-NITK/Reinforcement-Learning"
 	},
 	{
 		"Title": "Bike Sharing",
 		"Abstract": "Bike Sharing project aimed to build a model that will predict the number of cycles used each day. The project used a SVR model. A webapp was also made which showed the prediction for the given input: date and weather conditions.",
 		"links": [],
+		"year":"",
+		"image":"res/img/placeh.jpg",
 		"github": "https://github.com/IEEE-NITK/Ride-Sharing-Bike-Project"
 	},
 	{
 		"Title": "Blockchain Free Cryptocurrency",
 		"Abstract": "A Blockchain Free Cryptocurrency developed in the course of the project addresses the problem of centralization of the blockchain based networks currently in use. The cryptocurrency developed makes use of a transaction based hash graph for verification and validation which is a robust solution to the above problem.",
 		"links": [],
+		"year":"",
+		"image":"res/img/placeh.jpg",
 		"github": "https://github.com/IEEE-NITK/Blockchain-free-cryptocurrency"
 	},
 	{
 		"Title": "Generative Adversarial Networks",
 		"Abstract": "Generative Adversarial Networks was a project tasked to study and apply the Generative Adversarial Network model to the image generation problem domain. The project comprised of two recent deep generative models – the Star GAN and the Triple GAN. The Star GAN tackles the unpaired image-to-image translation problem on a given label. A live demonstration. was provided where the user fed in an image of his face along with a parameter for the model to translate (hair color, in our case). This was fed in to a trained Star GAN model and the new image was returned. The Triple GAN focused on conditional image generation on labels learned during training in an unsupervised fashion. The model showed promising results on MNIST and CIFAR-10 for both image generation and unsupervised image classification tasks.",
 		"links": [],
+		"year":"",
+		"image":"res/img/placeh.jpg",
 		"github": "https://github.com/IEEE-NITK/Generative-Adversarial-Networks"
 	},
 	{
 		"Title": "Handwritten Equation Solver",
 		"Abstract": "Handwritten Equation Solver was an application design to recognise and solve handwritten mathematical equations. The pipeline consisted of a front android application that captures the handwritten math equation which is then sent to a backend server for all computations and returns the solutions to the equation back to the android app. In the backend server, the image is pre-processed, and a DFS-based novel algorithm is used in the segmentation of the image. The segmented images are then passed through a Convolutional Neural Network (CNN) model for recognition. The model used was trained on a math symbol dataset and had achieved 98.88% cross validation accuracy. The spatial locality of the math symbols in the image is then used in the formation of the final equation string which is solved using the SymPy math engine.",
 		"links": [],
+		"year":"",
+		"image":"res/img/placeh.jpg",
 		"github": "https://github.com/Handwritten-Equation-Solver/"
 	}
 ]
