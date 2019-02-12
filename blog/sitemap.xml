@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/machine-translation/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/machine-learning-magic/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/social-engineering/</loc>
 	  </url>
 	
