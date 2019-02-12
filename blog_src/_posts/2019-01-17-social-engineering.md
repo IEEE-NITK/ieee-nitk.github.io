@@ -13,9 +13,7 @@ categories:
 github_username: 'pran-p'
 ---
 
-# Social Engineering
-
-Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a **social engineer!**
+Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a **Social Engineer!**
 ![image](/blog/assets/img/social-engineering/0.jpg) 
 Well now that I have said that you are a social engineer let's see what that really means.
 It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also force people to giving away sensitive information which may cost them or their companies a lot!
