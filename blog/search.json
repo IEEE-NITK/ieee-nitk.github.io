@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "How machine translation works",
+      "category" : "CompSoc",
+      "tags"     : "Natural Language Processing, Supervised learning, and Machine translation",
+      "url"      : "http://ieee.nitk.ac.in/blog//machine-translation/",
+      "date"     : "02 Feb 2019",
+      "author"   : "Tanmai H"
+    } ,
+  
+    {
       "title"    : "Machine Learning Magic",
       "category" : "CompSoc",
       "tags"     : "Machine learning, Supervised learning, and tweets",
@@ -16,6 +25,15 @@
       "url"      : "http://ieee.nitk.ac.in/blog//innovations-in-drone-industry/",
       "date"     : "26 Jan 2019",
       "author"   : "KushagraRawat"
+    } ,
+  
+    {
+      "title"    : "Social Engineering",
+      "category" : "Compsoc",
+      "tags"     : "Social engineering and Security",
+      "url"      : "http://ieee.nitk.ac.in/blog//social-engineering/",
+      "date"     : "18 Jan 2019",
+      "author"   : "Pranav P"
     } ,
   
     {

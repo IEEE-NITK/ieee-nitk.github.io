@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Basic Introduction to Machine Learning">
+        <meta name="description" content="Introduction to how systems translate text across languages">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Machine Learning Magic">
-        <meta name="twitter:description" content="Basic Introduction to Machine Learning">
+        <meta name="twitter:title" content="How machine translation works">
+        <meta name="twitter:description" content="Introduction to how systems translate text across languages">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/machine-learning-magic/" />
-        <meta property="og:title" content="Machine Learning Magic">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/machine-translation/" />
+        <meta property="og:title" content="How machine translation works">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Basic Introduction to Machine Learning">
+        <meta property="og:description" content="Introduction to how systems translate text across languages">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Machine Learning Magic"/>
-        <meta itemprop="description" content="Basic Introduction to Machine Learning">
+        <meta itemprop="name" content="How machine translation works"/>
+        <meta itemprop="description" content="Introduction to how systems translate text across languages">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Machine Learning Magic</title>
+        <title>How machine translation works</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/machine-learning-magic/">
+        <link rel="canonical" href="/blog/machine-translation/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
@@ -122,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2019-01-26 15:30:30 +0530" class="date">26 Jan 2019</time>
+            <time itemprop="datePublished" datetime="2019-02-02 15:30:30 +0530" class="date">02 Feb 2019</time>
         
-        <h1 class="post-title" itemprop="name">Machine Learning Magic</h1>
-        <p itemprop="description" class="subtitle">Basic Introduction to Machine Learning</p>
+        <h1 class="post-title" itemprop="name">How machine translation works</h1>
+        <p itemprop="description" class="subtitle">Introduction to how systems translate text across languages</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -177,98 +177,59 @@
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
                     <blockquote>
-  <p>“Did you ever wonder how ML algorithms work?”
-“How is the weather forecast done?”
-“How does the self-driving car mimic the way humans drive?”
-“Let’s try to find answers to some of those questions…”</p>
+  <p>“How does Google translate work?”
+“How do Alexa and Siri know what and when to respond to your queries?”</p>
 </blockquote>
 
-<h1 id="what-is-this-machine-learning-">WHAT IS THIS MACHINE LEARNING ?</h1>
+<h1 id="what-does-machine-translation-mean">What does Machine Translation mean?</h1>
 
-<p>Assume you have some data, it could be anything like a set of tweets or Images of handwritten numbers or Emails marked as spam.
-But you don’t know what to do with it!!!</p>
+<p>Machine Translation is essentially software that automatically renders text from one language into another. Formally speaking it falls under  computational linguistics and language engineering. Machine translation needn’t just be conversion across human readable languages but can also be used for tasks like trigger word detection, converting human readable dates like ‘Tuesday, the 29th of Jan,2019’ to formats like 29-01-2019.</p>
 
-<p><img src="/blog/assets/img/machine-learning-magic/1.jpeg" alt="img1" /></p>
+<p><img src="/blog/assets/img/machine-translation/machine-translation-diagram2.png" alt="img1" /></p>
 
-<p>So you look for an algorithm which can use this data and give you something you are interested in!<br />
-<img src="/blog/assets/img/machine-learning-magic/2.png" alt="img2" />
-So how does this becomes possible?<br />
-We take the example of marking tweets as suicidal.<br />
-We make an ML model which is a simple function that takes emails as input and gives spam or not spam as output. So now we tell this model to filter out all those tweets which have  #suicide or related words.<br />
-But that can be many different types of tweets, for example-</p>
+<h2 id="various-methods-of-machine-translation">Various Methods of Machine Translation.</h2>
+<p>In the late 80’s, <b> Rule-based Machine Translation</b>, or RBMT was the initial approach for translating text. It involved following rules layed down by linguists to convert across different languages,the rules could apply at the lexical, syntactic, or semantic level. This method produced a very predictable output for a very closed domain and didn’t require a bilingual corpus (structured text data in two different languages). The problem with this was the expertise required to develop the rules, and the vast number of exceptions required. It was labour intensive and failed to perform well for real-life text.</p>
 
-<ul>
-  <li>the tweet is posted for suicide awareness and prevention</li>
-  <li>the person is talking about suicidal ideation and/or ways to kill himself</li>
-  <li>the tweet reports a third person’s suicide eg: news report</li>
-  <li>the tweet uses suicide as a figure of speech eg: career suicide</li>
-</ul>
+<p><b>Statistical machine translation, or SMT </b> was a technique that was widely adopted in the industry in the early 90’s , this techinque used  statistical and probabalistic models to learn to translate text from a given a source to a target language. In a paper in 1990 (<a href="https://dl.acm.org/citation.cfm?id=92860">A Statistical Approach to Machine Translation</a>) the problem of translation was stated as</p>
 
-<p>So we have to filter, even more, ex</p>
-<ul>
-  <li>
-    <p>The text conveys a serious display of suicidal ideation; e.g., I want to die or I want to kill myself or I wish my last suicide attempt was successful;</p>
-  </li>
-  <li>
-    <p>Posts where suicide plan and/or previous attempts are discussed; e.g., ”The fact that I tried to kill myself and it didn’t work makes me more depressed.”</p>
-  </li>
-  <li>
-    <p>The tone of the text is cloudy and not serious, eg: This makes me want to kill myself, lol, ”This day is horrible, I want to kill myself hahaha” are not included in this category.</p>
-  </li>
-</ul>
+<blockquote>
+  <p>Given a sentence T in the target language, we seek the sentence S from which the translator produced T. We know that our chance of error is minimized by choosing that sentence S that is most probable given T. Thus, we wish to choose S so as to maximize Pr(S/T).</p>
+</blockquote>
 
-<p>So we filter out tweets containing words like “haha” or “lol”, and include the tweets having “I want to die”, “I want to kill”, occurrences of “I”, “kill” and “myself” together. We train it with labelled test set(tweets labelled as suicidal or not suicidal).  Training means adding features and tweaking parameters of function so that it obtains the same result that is labelled on training data. After doing this our Model is ready.<br />
-Now we can feed any tweet and it’ll use the algorithm and tell us if a tweet is suicidal or not.<br />
-We can’t classify everything correctly, for example,  The tweet ”Is it odd to know I’ll commit suicide?” is a tweet that both human annotators, as well as the proposed methodology, couldn’t classify due to its ambiguity, but still, for normal tweets, these algorithms can achieve remarkable accuracy.
-<img src="/blog/assets/img/machine-learning-magic/3.png" alt="img3  " /></p>
+<p>This technique became widely adopted since it <b>didn’t require</b> a set <b>convoluted rules, exceptions and complex grammar constructs</b>. All that was needed was sample translations of documents. This approach was completely data dependant, meaning no linguists were needed to specify any sort of rule. SMT quickly outperformed the rule-base methods and soon became the de-facto standard techinque for machine translation.</p>
 
-<p>So Machine Learning is the science of programming computers so they can learn from data!
-ML is a subset of the larger field of artificial intelligence (AI) that “focuses on teaching computers how to learn without the need to be programmed for specific tasks,”<br />
-In fact, the key idea behind ML is that it is possible to create algorithms that learn from data and make predictions on it.</p>
+<p><b>Google Translate and Bing Translator</b> and many others still employ this technique at the core of their translation systems. Since they operate on statistics they look for patterns in hundreds of millions of documents that have already been translated by human translators. Google Translate makes special use of UN documents, which are translated in all six official UN languages, and thus provide ample linguistic data. This way, they can weigh a plethora of options for phrases presented by various different (human) translations, and select an educated guess based on the one that occurs most frequently. But statistical approaches required careful tuning of each module in the translation pipeline, and the pure data-driven approach also caused loss of syntax distinctions that could  clearly be defined by linguists.</p>
 
-<h1 id="types-of-machine-learning">TYPES OF MACHINE LEARNING</h1>
+<p>But recently, a novel approach called <b>Neural Machine Translation, NMT</b> has gained traction. Though this is a statistical approach, this method uses neural networks, primarily <b>Recurrent Neural Networks, RNN</b> to perform language translation. This method falls under Deep Learning and can learn directly, in an end-to-end fashion to translate across various langauges and all it requires is the text corpus.</p>
 
-<h2 id="supervised-learning-train-me">SUPERVISED LEARNING:<span style="color:red"> Train me!</span></h2>
+<p>Translation is achieved through just a single model that has no extra overheads.</p>
 
-<p>The case we saw above is an example of supervised learning, we had the labelled tweets and made a function to map tweets with the output</p>
+<p><img src="/blog/assets/img/machine-translation/encode-decode.png" alt="img2" /></p>
 
-<p>But what if the data we had wasn’t labelled?</p>
+<p>The current state-of-the art network architecture is the <b>encoder-decoder</b> model with an attention mechanism that has shown the best results, partly because of the availability of massive datasets and access to huge computational power.</p>
 
-<h2 id="unsupervised-learning-i-am-self-sufficient-in-learning">UNSUPERVISED LEARNING:<span style="color:red"> I am self-sufficient in Learning</span></h2>
+<p>This architecture involves encoding the input sentence into a vectorized form that the model can manipulate and decode it into another language format. This also takes care of cases where the translated sentence is of a different length than the original sentence. The <b> attention mechanism </b> that is in place allows the neural network to recognize the important words that are relevant for translation across different languages.</p>
 
-<p>That is when UNSUPERVISED LEARNING comes into action. It learns from data that are not labelled and does categorization or classification.</p>
+<p><img src="/blog/assets/img/machine-translation/attn_model.png" alt="img3" /></p>
 
-<p>And the last one is</p>
+<p>The model shown above, uses a type of RNN unit called <b>LSTM (Long Short-Term Memory)</b>, every word in the source is passed into one LSTM unit in a sequential manner and for each word present in the input, <b>a context vector</b> is generated that measures the importance that must be given to that word while translating. For the encoding, the input is scanned from both directions using a Bidirectional LSTM, and once an encoding is formed decode network translates this text into another language. This allows the model to perform well on a long input sentences and be robust for different types of text.</p>
 
-<h2 id="reinforcement-learning-my-life-my-rules-hit-and-trail">REINFORCEMENT LEARNING: <span style="color:red">My life my Rules! (hit and trail)</span></h2>
+<p>The key to the encoder-decoder architecture is the ability of the model to encode the source text into an internal fixed-length representation called the context vector. Once this is done different decoders could be used to translate the source to different languages.</p>
 
-<p>It is about taking suitable action to maximize reward in a particular situation.
-<img src="/blog/assets/img/machine-learning-magic/5.jpeg" alt="img5" /></p>
-
-<p>Reinforcement learning differs from the supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. In the absence of training dataset, it is bound to learn from its experience.</p>
-
-<p><img src="/blog/assets/img/machine-learning-magic/4.png" alt="img4" />
-<img src="/blog/assets/img/machine-learning-magic/6.png" alt="img6" /></p>
-
-<p>How to learn more about Machine Learning?</p>
-
-<p>The best place to get Started with basics of ML is Andrew Ng’s <a href="https://www.coursera.org/learn/machine-learning">Machine Learning Course</a> from coursera. It’s highly recommended for beginners. It’s easy for anyone who has a minimal amount of knowledge of maths :)type</p>
-
-<p>References:<br />
-https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
-https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
-https://ieee.nitk.ac.in/blog/Why-Machine-Learning-Matters/
-https://towardsdatascience.com/unsupervised-learning-with-python-173c51dc7f03<br />
-https://www.mathworks.com/discovery/machine-learning.html <br />
-https://www.quora.com/What-is-machine-learning-4<br />
-https://www.quora.com/What-is-reinforcement-learning</p>
+<h4 id="references">References:</h4>
+<ol>
+  <li><a href="http://blog.systransoft.com/how-does-neural-machine-translation-work/">How machine translation works</a></li>
+  <li><a href="https://machinelearningmastery.com/introduction-neural-machine-translation/">Introduction to neural machine translation</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Machine_translation">Machine translation Wiki</a></li>
+  <li><a href="http://blog.globalizationpartners.com/machine-translation.aspx">Machine translation</a></li>
+</ol>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
         <span id="category">CompSoc</span>
-        <span id="title">Machine Learning Magic</span>
+        <span id="title">How machine translation works</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -277,13 +238,13 @@ https://www.quora.com/What-is-reinforcement-learning</p>
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/saharsh007.jpg" alt="Kumar Saharsh">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/tanmai.jpg" alt="Tanmai H">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Kumar Saharsh</a>
+            <a itemprop="name" href="/">Tanmai H</a>
         </h3>
-        <p class="desc">Computer science is ♥</p>
-        <a itemprop="email" class="email" href="mailto:saharshsonu40@gmail.com">saharshsonu40@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:vvijaytanmai@gmail.com">vvijaytanmai@gmail.com</a>
     </div>
 </section>
 
@@ -303,15 +264,15 @@ https://www.quora.com/What-is-reinforcement-learning</p>
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/machine-learning-magic/%20via%20&#64;IEEE_NITK&hashtags=Machine learning,Supervised learning,tweets,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/machine-translation/%20via%20&#64;IEEE_NITK&hashtags=Natural Language Processing,Supervised learning,Machine translation,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//machine-learning-magic/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//machine-translation/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//machine-learning-magic/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//machine-translation/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

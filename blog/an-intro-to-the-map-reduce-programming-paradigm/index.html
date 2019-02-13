@@ -200,16 +200,16 @@
 <p>Map function pseudocode:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="nb">map</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">,</span> <span class="n">String</span> <span class="n">value</span><span class="p">):</span>
-       <span class="c1"># key: document name
-</span>       <span class="c1"># value: document contents
-</span>        <span class="k">for</span> <span class="n">each</span> <span class="n">word</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">value</span><span class="p">:</span>
+       <span class="c"># key: document name</span>
+       <span class="c"># value: document contents</span>
+        <span class="k">for</span> <span class="n">each</span> <span class="n">word</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">value</span><span class="p">:</span>
             <span class="n">EmitIntermediate</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="s">"1"</span><span class="p">);</span>
 </code></pre></div></div>
 <p>Reduce function pseudocode:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nb">reduce</span><span class="p">(</span><span class="n">String</span> <span class="n">key</span><span class="p">,</span> <span class="n">Iterator</span> <span class="n">values</span><span class="p">):</span>
-        <span class="c1"># key: a word
-</span>        <span class="c1"># values: a list of counts
-</span>        <span class="nb">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="c"># key: a word</span>
+        <span class="c"># values: a list of counts</span>
+        <span class="nb">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
         <span class="k">for</span> <span class="n">each</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">values</span><span class="p">:</span>
            <span class="n">result</span> <span class="o">+=</span> <span class="n">ParseInt</span><span class="p">(</span><span class="n">v</span><span class="p">);</span>
         <span class="n">Emit</span><span class="p">(</span><span class="n">AsString</span><span class="p">(</span><span class="n">result</span><span class="p">));</span>

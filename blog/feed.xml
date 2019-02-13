@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Jan 2019 20:21:00 +0530</pubDate>
-    <lastBuildDate>Mon, 28 Jan 2019 20:21:00 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Tue, 12 Feb 2019 16:00:55 +0530</pubDate>
+    <lastBuildDate>Tue, 12 Feb 2019 16:00:55 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>How machine translation works</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“How does Google translate work?” “How do Alexa and Siri know what and when to respond to your queries?”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-does-machine-translation-mean&quot;&gt;What does Machine Translation mean?&lt;/h1&gt; &lt;p&gt;Machine Translation is essentially software that automatically renders text from one language into another. Formally speaking it falls under computational linguistics and language engineering. Machine translation needn’t just be conversion across human readable languages but can also be used for tasks like trigger word detection, converting human readable dates like ‘Tuesday, the 29th of Jan,2019’ to formats like 29-01-2019.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-translation/machine-translation-diagram2.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;various-methods-of-machine-translation&quot;&gt;Various Methods of Machine Translation.&lt;/h2&gt; &lt;p&gt;In the late 80’s,...</description>
+        <pubDate>Sat, 02 Feb 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/machine-translation/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-translation/</guid>
+        
+        <category>Natural Language Processing</category>
+        
+        <category>Supervised learning</category>
+        
+        <category>Machine translation</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Machine Learning Magic</title>
@@ -38,6 +56,22 @@
         
         
         <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Social Engineering</title>
+        <description>&lt;p&gt;Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a &lt;strong&gt;Social Engineer!&lt;/strong&gt; &lt;img src=&quot;/blog/assets/img/social-engineering/0.jpg&quot; alt=&quot;image&quot; /&gt; Well now that I have said that you are a social engineer let’s see what that really means. It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also...</description>
+        <pubDate>Fri, 18 Jan 2019 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/social-engineering/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/social-engineering/</guid>
+        
+        <category>Social engineering</category>
+        
+        <category>Security</category>
+        
+        
+        <category>Compsoc</category>
         
       </item>
     
@@ -156,46 +190,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>NanoMedicine</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;How evolutionary is nanomedicine in therapeutics? Is it worth all the hype? Can we, as engineers, find opportunities in the field of nanomedicine? Well, I hope this article will answer many similar questions.&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/1.jpg&quot; alt=&quot;Nanopills: Medicinal advantage&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;nanotechnology-and-its-manifestation-in-medicine&quot;&gt;Nanotechnology and its manifestation in Medicine&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/5.jpg&quot; alt=&quot;Manifestation of Nanotechnology in Medicine&quot; title=&quot;Manifestation of Nanotechnology in Medicine&quot; /&gt;&lt;/p&gt; &lt;p&gt;Let’s start with the understanding of how exactly is nanotechnology playing a noteworthy role in the field of medicine. From its very dawn, nanotechnology has indeed shaped the fundamental industrial applications such as manufacturing, biotechnology, semiconductors and fabrication of...</description>
-        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/nano-medicine/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nano-medicine/</guid>
-        
-        <category>NanoMedicine</category>
-        
-        <category>Targeted drug delivery</category>
-        
-        <category>Overlooked advancements</category>
-        
-        <category>EPR effect</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>How Computers learn to play games!</title>
-        <description>&lt;p&gt;Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games? How Google’s Alpha-Go defeated the &lt;strong&gt;World Champion&lt;/strong&gt; of Go? Let us dive in the field of Computer Games and find out how Computers learn to play Games!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/How Computers LearnToPlayGames/chess.jpg&quot; alt=&quot;Chess&quot; title=&quot;Chess&quot; /&gt;&lt;/p&gt; &lt;p&gt;There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.&lt;/p&gt; &lt;h2 id=&quot;naive-tree-search&quot;&gt;Naive Tree Search&lt;/h2&gt; &lt;p&gt;Let’s start with a...</description>
-        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</guid>
-        
-        <category>Computer Games</category>
-        
-        <category>Reinforcement Learning</category>
-        
-        <category>Monte Carlo Tree Search</category>
-        
-        <category>Alpha-Go</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
