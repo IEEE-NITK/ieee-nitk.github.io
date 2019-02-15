@@ -4,9 +4,7 @@ title: "Photocatalytic Detoxification"
 author_github: tirthsavla
 date: 2018-12-29 00:00:03
 image: '/assets/img/tirthsavla.jpg'
-description: 'We have been polluting the environment constantly but a cleansing mechanism in the environment
-itself. Solar rays have the power to catalytically degrade pollutants to harmless compounds with a little
-help in the form of colloidal semiconductors.'
+description: 'We have been polluting the environment constantly but a cleansing mechanism in the environment itself.'
 tags:
 - Photochemical Reactions 
 - Photo catalysts

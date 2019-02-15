@@ -64,15 +64,6 @@
     } ,
   
     {
-      "title"    : "Heard of Smart Contracts yet?",
-      "category" : "CompSoc",
-      "tags"     : "Blockchain 2.0 and Smart Contract",
-      "url"      : "http://ieee.nitk.ac.in/blog//Smart-Contracts/",
-      "date"     : "15 Jan 2019",
-      "author"   : "Prajwal S Belagavi"
-    } ,
-  
-    {
       "title"    : "Photocatalytic Detoxification",
       "category" : "Piston",
       "tags"     : "Photochemical Reactions, Photo catalysts, Catalysis, Photo Catalysis, Nanotechnology, Semiconductors, and Colloidal semiconductors",
@@ -103,7 +94,7 @@
       "title"    : "NanoMedicine",
       "category" : "Piston",
       "tags"     : "NanoMedicine, Targeted drug delivery, Overlooked advancements, and EPR effect",
-      "url"      : "http://ieee.nitk.ac.in/blog//NanoMedicine/",
+      "url"      : "http://ieee.nitk.ac.in/blog//nano-medicine/",
       "date"     : "22 Dec 2018",
       "author"   : "Manoj A B"
     } ,
@@ -112,7 +103,7 @@
       "title"    : "How Computers learn to play games!",
       "category" : "Compsoc",
       "tags"     : "Computer Games, Reinforcement Learning, Monte Carlo Tree Search, and Alpha-Go",
-      "url"      : "http://ieee.nitk.ac.in/blog//How-Computers-learn-to-play-games/",
+      "url"      : "http://ieee.nitk.ac.in/blog//how-computers-learn-to-play-games/",
       "date"     : "22 Dec 2018",
       "author"   : "Madhuparna Bhowmik"
     } ,
@@ -148,7 +139,7 @@
       "title"    : "Electronic skin",
       "category" : "Diode",
       "tags"     : "Electronic, Skin, Healthcare, Robotics, Embedded, Prosthetic, Sensor, Stretchable, and Nanoparticles",
-      "url"      : "http://ieee.nitk.ac.in/blog//electonic-skin/",
+      "url"      : "http://ieee.nitk.ac.in/blog//electronic-skin/",
       "date"     : "15 Dec 2018",
       "author"   : "Rakshana G"
     } ,
@@ -166,7 +157,7 @@
       "title"    : "Gesture Controlled Robot",
       "category" : "Diode",
       "tags"     : "Gesture controlled, accelerometer, RF transmitter, RF receiver, and motor driver",
-      "url"      : "http://ieee.nitk.ac.in/blog//gesture_controlled_robot/",
+      "url"      : "http://ieee.nitk.ac.in/blog//gesture-controlled-robot/",
       "date"     : "08 Dec 2018",
       "author"   : "Deepanshi"
     } ,
@@ -178,6 +169,15 @@
       "url"      : "http://ieee.nitk.ac.in/blog//cloud-gaming/",
       "date"     : "08 Dec 2018",
       "author"   : "Aakash Singh"
+    } ,
+  
+    {
+      "title"    : "Zero Knowledge Proof",
+      "category" : "Compsoc",
+      "tags"     : "ZKP and Cryptography",
+      "url"      : "http://ieee.nitk.ac.in/blog//zero-knowledge-proof/",
+      "date"     : "01 Dec 2018",
+      "author"   : "Arpitha Raghunandan"
     } ,
   
     {
@@ -196,15 +196,6 @@
       "url"      : "http://ieee.nitk.ac.in/blog//ballistics/",
       "date"     : "01 Dec 2018",
       "author"   : "Rahul R L"
-    } ,
-  
-    {
-      "title"    : "Zero Knowledge Proof",
-      "category" : "Compsoc",
-      "tags"     : "ZKP and Cryptography",
-      "url"      : "http://ieee.nitk.ac.in/blog//ZeroKnowledgeProof/",
-      "date"     : "01 Dec 2018",
-      "author"   : "Arpitha Raghunandan"
     } ,
   
     {
@@ -244,21 +235,21 @@
     } ,
   
     {
+      "title"    : "KMP Algorithm",
+      "category" : "Compsoc",
+      "tags"     : "KMP, Strings, Competitive Programming, and C++",
+      "url"      : "http://ieee.nitk.ac.in/blog//kmp-algorithm/",
+      "date"     : "03 Nov 2018",
+      "author"   : "TSS Chandana"
+    } ,
+  
+    {
       "title"    : "Drive By Wire",
       "category" : "Piston",
       "tags"     : "Drive by wire, Steer by wire, and Autonomous vehicle",
       "url"      : "http://ieee.nitk.ac.in/blog//by-wire/",
       "date"     : "03 Nov 2018",
       "author"   : "Smit Rambhiya"
-    } ,
-  
-    {
-      "title"    : "KMP Algorithm",
-      "category" : "Compsoc",
-      "tags"     : "KMP, Strings, Competitive Programming, and C++",
-      "url"      : "http://ieee.nitk.ac.in/blog//KMP-Algorithm/",
-      "date"     : "03 Nov 2018",
-      "author"   : "TSS Chandana"
     } ,
   
     {
@@ -319,7 +310,7 @@
       "title"    : "Varistor",
       "category" : "Diode",
       "tags"     : "IEEE NITK, Diode, resistors, capacitors, zener diode, voltage transients, and regulators",
-      "url"      : "http://ieee.nitk.ac.in/blog//Varistor/",
+      "url"      : "http://ieee.nitk.ac.in/blog//varistor/",
       "date"     : "14 Oct 2018",
       "author"   : "Prithvi Patil"
     } ,
@@ -328,7 +319,7 @@
       "title"    : "Automate The Industries",
       "category" : "Piston",
       "tags"     : "IEEE NITK, Piston, Automation, Industries, Robots, and Manufacturing",
-      "url"      : "http://ieee.nitk.ac.in/blog//Automate-The-Industries/",
+      "url"      : "http://ieee.nitk.ac.in/blog//automate-the-industries/",
       "date"     : "14 Oct 2018",
       "author"   : "Nisarg B Shah"
     } ,
@@ -337,7 +328,7 @@
       "title"    : "Why Machine Learning Matters ?",
       "category" : "Compsoc",
       "tags"     : "IEEE NITK, CompSoc, Machine Learning, and Artificial Intelligence",
-      "url"      : "http://ieee.nitk.ac.in/blog//Why-Machine-Learning-Matters/",
+      "url"      : "http://ieee.nitk.ac.in/blog//why-machine-learning-matters/",
       "date"     : "14 Oct 2018",
       "author"   : "Siddhartha M"
     } ,

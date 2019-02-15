@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
+        <meta name="description" content="">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Gesture Controlled Robot">
-        <meta name="twitter:description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
+        <meta name="twitter:title" content="How Computers learn to play games!">
+        <meta name="twitter:description" content="">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/gesture_controlled_robot/" />
-        <meta property="og:title" content="Gesture Controlled Robot">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/" />
+        <meta property="og:title" content="How Computers learn to play games!">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
+        <meta property="og:description" content="">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Gesture Controlled Robot"/>
-        <meta itemprop="description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
+        <meta itemprop="name" content="How Computers learn to play games!"/>
+        <meta itemprop="description" content="">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Gesture Controlled Robot</title>
+        <title>How Computers learn to play games!</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/gesture_controlled_robot/">
+        <link rel="canonical" href="/blog/how-computers-learn-to-play-games/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
@@ -136,10 +136,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-12-08 00:00:00 +0530" class="date">08 Dec 2018</time>
+            <time itemprop="datePublished" datetime="2018-12-22 00:00:00 +0530" class="date">22 Dec 2018</time>
         
-        <h1 class="post-title" itemprop="name">Gesture Controlled Robot</h1>
-        <p itemprop="description" class="subtitle">Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?</p>
+        <h1 class="post-title" itemprop="name">How Computers learn to play games!</h1>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -190,141 +190,88 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>"JARVIS, Suit me Up!", "Clang! Spoof! Phew!", Tony Stark becomes IRON MAN!</p>
+                    <p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games?
+How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go?
+Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
 
-<p>Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.</p>
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/chess.jpg" alt="Chess" title="Chess" /></p>
 
-<p>But first up, what exactly is a Gesture Controlled Robot?</p>
+<p>There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.</p>
 
-<p>A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based sensing (wired or wireless) or image processing.</p>
+<h2 id="naive-tree-search">Naive Tree Search</h2>
 
-<p>Here we will implement an accelerometer-based, wireless gesture-controlled robot.</p>
+<p>Let’s start with a simple and naive approach by which the computer can take decisions. It is by looking at all possible states and choosing the best action to take. That is, make a tree with all possible states and next states and go to the leaves to find out if a move will lead to winning state or not and select an action accordingly.</p>
 
-<h2 id="what-you-need-to-have">What you need to have.</h2>
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/decision_tree.png" alt="Game Tree" title="Game Tree" /></p>
 
-<p>The bot has two sections- transmitter and receiver. You will need Ht12e (encoder ic), Ht12d (decoder ic), L293D (motor driver shield), Arduino uno,7805(voltage regulator ic), capacitor, PBT connector, single pole antenna, resistor, LED, accelerometer and battery.</p>
+<p>But, this technique cannot be used for games where there is a huge number of states, that it is practically impossible for a computer to examine all the states before taking a decision. For example, there are more than <strong>5000 states</strong> in the game of Tic-Tac-Toe, which is a <strong>3 X 3</strong> board game. Whereas Chess is an <strong>8 X 8</strong> board game and Go can have a <strong>19 X 19</strong> board. Therefore these games with billions of states cannot be solved by any such brute force approach where examining each state is required.</p>
 
-<h2 id="how-does-it-work-and-recognize-the-gestures">How does it work and recognize the gestures?</h2>
+<h2 id="monte-carlo-tree-search">Monte Carlo Tree Search</h2>
 
-<p>The brain of this robot is the Arduino Uno (Atmega32) which is fed with a set of code. The gestures/motion made by hand are detected by an acceleration measuring device, called accelerometer (ADXL335).</p>
+<p>Monte-Carlo Tree Search can be only used for games where we have perfect information about the game that is we know about all the actions that were previously taken and can be taken in future. It is applicable to games like Go, Chess or Tic-Tac-Toe. So, what the computer does in Monte Carlo Tree Search is it repeats these 4 steps</p>
 
-<p><img src="/blog/assets/img/gesture_controlled_robot/1.jpeg" alt="img1" /></p>
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Monte-Carlo-Tree-Search.png" alt="Monte-Carlo Tree search" title="Monte-Carlo Tree search" /></p>
 
-<p>The accelerometer reads the X Y Z coordinates when we make gestures by hand and sends them to the Arduino. The Arduino checks the values of coordinates and sends a 4-bit code to the Encoder IC. The Encoder passes the data to an RF transmitter and the transmitted data is received by an RF receiver. The receiver sends the 4-bit code to the Decoder IC which then passes it to a Motor Driver IC. It later takes the decision to turn the two motors in the required direction.</p>
+<h4 id="1select--">1)Select -</h4>
+<p>In this step the computer starts with a root node(state) and selects the next node based on the current policy. A policy is a function that dictates what actions to take given a state.</p>
 
-<h2 id="what-is-an-accelerometer">What is an Accelerometer?</h2>
+<h4 id="2expand--">2)Expand -</h4>
+<p>When the policy can no longer choose an action with confidence to find the successor node, it expands the game tree by appending all possible states from that node or a few let’s say 10 or 100 states chosen by randomly trying out certain number of actions, this is done when the number of next possible states is huge.</p>
 
-<p>An accelerometer is a type of sensor which gives data in Analog form while moving in the directions of X, Y and Z(these directions depend on the type of sensor). It consists of direction arrows; if we tilt the sensor in one direction, then the data at that particular pin will change in analog format. The accelerometer consists of six pins. The function of each pin is discussed here.</p>
+<h4 id="3simulate--">3)Simulate -</h4>
+<p>Then from the appended nodes, it simulates a random game to find out how good it is to go to that state.</p>
 
-<ul>
-  <li>
-    <p>Pin-1: VDD pin is used to give +5V supply.</p>
-  </li>
-  <li>
-    <p>Pin-2: GND pin is connected to the ground to ensure biasing.</p>
-  </li>
-  <li>
-    <p>Pin-3: X pin will receive the data from the X direction.</p>
-  </li>
-  <li>
-    <p>Pin-4: Y pin will receive the data from the Y direction.</p>
-  </li>
-</ul>
+<h4 id="4backpropagation--">4)Backpropagation -</h4>
+<p>Then it traverses upwards back to the root and updates the score for all visited nodes.</p>
 
-<p><img src="/blog/assets/img/gesture_controlled_robot/2.jpeg" alt="img2" /></p>
+<p>These four steps are repeated again and again until the computer has learned enough to actually play the game.</p>
 
-<ul>
-  <li>
-    <p>Pin-5: Z pin will receive the data from the Z direction.</p>
-  </li>
-  <li>
-    <p>Pin-6: ST pin is used to adjust the sensitivity of the accelerometer i.e. 1.5g or 2g or 3g or 4g.</p>
-  </li>
-</ul>
+<h2 id="learning-to-play-games-using-reinforcement-learning">Learning to play games using Reinforcement Learning</h2>
 
-<h2 id="making-the-power-supply">Making the power supply.</h2>
+<p>There are various algorithms that come under Reinforcement Learning Algorithms. Each suitable for a different purpose. The basic idea behind Reinforcement Learning is, as the name suggests, making the computer play the game again and again and learn from its own experience.
+In order to give you intuition on how Reinforcement Learning can be used for games with a huge state space let me define two new terms.</p>
 
-<h3 id="you-will-need">You will need:</h3>
+<p><strong>1. State Value Function</strong> - Given a state this function tells how good it is to be in that state.</p>
 
-<ul>
-  <li>
-    <p>An IC 7805 which regulates the 12V supply to 5V (if you can't get a 12V supply you can use a 9V supply)</p>
-  </li>
-  <li>
-    <p>0.1uf and 470uf capacitors</p>
-  </li>
-  <li>
-    <p>1k resistor for status LED</p>
-  </li>
-</ul>
+<p><strong>2. Action Value Function</strong> - Given an action and a state, this function tells how good it is to take that action from the given state.</p>
 
-<p>Let's start with the power supply circuit. You will need two such circuits: one for the transmitter and one for the receiver. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.</p>
+<p>The basic idea is to learn the value functions and use it to choose the best action.
+Consider the following diagram-</p>
 
-<p><img src="/blog/assets/img/gesture_controlled_robot/3.jpeg" alt="img3" /></p>
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" title="Backup diagram for value function" /></p>
 
-<p>You can see the circuit diagram for the receiver power supply on the right. Using this diagram, rig up the supply circuit. You can also add an LED via a 1K resistor to indicate the state of power supply.</p>
+<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following<a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html"> blog post</a> to get a better understanding of how this algorithm works.).</p>
 
-<p><img src="/blog/assets/img/gesture_controlled_robot/4.jpeg" alt="img4" /></p>
+<h4 id="but-how-is-it-dealing-with-the-problem-of-a-huge-number-of-states">But how is it dealing with the problem of a huge number of states?</h4>
 
-<h2 id="lets-move-ahead-to-make-the-transmitter-remote">Let's Move Ahead to make the Transmitter (Remote)</h2>
+<p>The answer is the computer is not really going through all the possible states but still learning an approximate way to figure out the best actions to take. There are many states in the state-space which occur very rarely or is too poor to begin with, that there is no point going all the way down from that state and calculating everything when there are very fewer chances of encountering that state or there is no way it can get you a better reward.
+But as our computer plays multiple games it will surely go through most of the frequently occurring and promising states and will know how to behave in those situations.</p>
 
-<p><img src="/blog/assets/img/gesture_controlled_robot/5.jpeg" alt="img5" /></p>
+<h2 id="alpha-go">Alpha-Go</h2>
 
-<p>The transmitter section consists of an accelerometer which detects the hand gestures and sends the data to the Arduino. This then sends the data to an Encoder IC which is subsequently transmitted to a receiver.</p>
+<p>Recently Google’s Alpha-Go zero defeated Go’s World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.</p>
 
-<p>The RF TX module works with 433MHz frequency and is easily available in the market at low cost.</p>
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" title="Lee Sedol playing with Alpha-Go" /></p>
 
-<p>Wire it up as per the below circuit diagram:</p>
+<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong> 
+There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.
+Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
 
-<p><img src="/blog/assets/img/gesture_controlled_robot/6.jpeg" alt="img6" /></p>
+<h2 id="conclusion">Conclusion</h2>
 
-<p>Code the Arduino to make it function like how you want it to.</p>
-
-<h2 id="motor-driver">Motor Driver</h2>
-
-<p>The motor driver is a device which gives the movement to do a task like a motor. So, we require motor driver to run them through the controller. The interface between motor &amp; microcontroller can be done using an L293D motor driver IC in this circuit.</p>
-
-<p><img src="/blog/assets/img/gesture_controlled_robot/7.jpeg" alt="img7" /></p>
-
-<h2 id="receiver-circuit">Receiver circuit</h2>
-
-<p>The receiver circuit consists of 2 IC's (HT12D decoder, L293D motor driver) and an RF receiver module.</p>
-
-<p>Wire the circuit as per the above receiver schematic. There are 2 LED's in the receiver board; one lights up when the power supply is given to the receiver and the other when power supply is given to the transmitter. The LED near the IC HT12D should light up when power is given at the transmitter, thus ensuring a valid transmission (VT). If it doesn't, then there is something wrong with your connections or your RF-TX-RX module.</p>
-
-<p><img src="/blog/assets/img/gesture_controlled_robot/8.jpeg" alt="img8" /></p>
-
-<h2 id="the-final-working">The Final Working</h2>
-
-<p>Accelerometer based gesture-controlled robot moves according to the movement of the hand, since the accelerometer is on your hand. When you tilt your hand forward (with the accelerometer on your hand), the robot moves straight ahead. When you tilt backwards, it changes direction and starts moving in reverse. When you tilt to the right, it starts moving rightwards and similarly to the left. (This is in accordance with what code I have written for the motion of my bot. You can modify accordingly!)</p>
-
-<p>Enjoy driving your robot!!!</p>
-
-<blockquote>
-  <h2 id="note">Note</h2>
-  <p>-You can refer to the previous blog- "How to get started with bots" by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.</p>
-</blockquote>
-
-<h2 id="some-basic-arduino-tutorials-">Some basic arduino tutorials :</h2>
+<p>I hope you enjoyed this dive into the World of computer games and got to know some of the technical details too. You can go through the following links to know more about these topics.</p>
 
 <ul>
-  <li>
-    <p><a href="https://www.youtube.com/watch?v=fCxzA9_kg6s">https://www.youtube.com/watch?v=fCxzA9_kg6s</a></p>
-  </li>
-  <li>
-    <p><a href="https://hackr.io/tutorials/learn-arduino">https://hackr.io/tutorials/learn-arduino</a></p>
-  </li>
-  <li>
-    <p><a href="https://learn.sparkfun.com/tutorials/what-is-an-arduino/all">https://learn.sparkfun.com/tutorials/what-is-an-arduino/all</a></p>
-  </li>
+  <li><a href="https://www.youtube.com/watch?v=onBYsen2_eA">Video lectures on Monte Carlo Tree Search</a></li>
+  <li><a href="https://www.tastehit.com/blog/google-deepmind-alphago-how-it-works/">More about Alpha-Go</a></li>
 </ul>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
-        <span id="category">Diode</span>
-        <span id="title">Gesture Controlled Robot</span>
+        <span id="category">Compsoc</span>
+        <span id="title">How Computers learn to play games!</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -333,13 +280,13 @@
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/blog-author.jpg" alt="Deepanshi">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Madhuparna.jpeg" alt="Madhuparna Bhowmik">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Deepanshi</a>
+            <a itemprop="name" href="/">Madhuparna Bhowmik</a>
         </h3>
         <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:deepanshi.asr.21@gmail.com">deepanshi.asr.21@gmail.com</a>
+        <a itemprop="email" class="email" href="mailto:madhuparnabhowmik04@gmail.com">madhuparnabhowmik04@gmail.com</a>
     </div>
 </section>
 
@@ -359,15 +306,15 @@
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/gesture_controlled_robot/%20via%20&#64;IEEE_NITK&hashtags=Gesture controlled,accelerometer,RF transmitter,RF receiver,motor driver,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/%20via%20&#64;IEEE_NITK&hashtags=Computer Games,Reinforcement Learning,Monte Carlo Tree Search,Alpha-Go,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//gesture_controlled_robot/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//gesture_controlled_robot/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

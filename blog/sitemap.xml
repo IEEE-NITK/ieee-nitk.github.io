@@ -30,10 +30,6 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/Smart-Contracts/</loc>
-	  </url>
-	
-	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</loc>
 	  </url>
 	
@@ -46,11 +42,11 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/NanoMedicine/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/nano-medicine/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/How-Computers-learn-to-play-games/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</loc>
 	  </url>
 	
 	  <url>
@@ -66,7 +62,7 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/electonic-skin/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/electronic-skin/</loc>
 	  </url>
 	
 	  <url>
@@ -74,11 +70,15 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/gesture_controlled_robot/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/gesture-controlled-robot/</loc>
 	  </url>
 	
 	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/cloud-gaming/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/zero-knowledge-proof/</loc>
 	  </url>
 	
 	  <url>
@@ -87,10 +87,6 @@
 	
 	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/ballistics/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/</loc>
 	  </url>
 	
 	  <url>
@@ -110,11 +106,11 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/by-wire/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/kmp-algorithm/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/KMP-Algorithm/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/by-wire/</loc>
 	  </url>
 	
 	  <url>
@@ -142,15 +138,15 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/Varistor/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/varistor/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/Automate-The-Industries/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/automate-the-industries/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/Why-Machine-Learning-Matters/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/why-machine-learning-matters/</loc>
 	  </url>
 	
 	  <url>

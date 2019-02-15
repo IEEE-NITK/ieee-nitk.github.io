@@ -14,8 +14,7 @@ categories:
 github_username: 'tanmai-h'
 ---
 
->"How does Google translate work?"
->"How do Alexa and Siri know what and when to respond to your queries?"
+> "How does Google translate work? How do Alexa and Siri know what and when to respond to your queries?"
 
 # What does Machine Translation mean?
 
@@ -50,9 +49,9 @@ The model shown above, uses a type of RNN unit called <b>LSTM (Long Short-Term M
 
 The key to the encoder-decoder architecture is the ability of the model to encode the source text into an internal fixed-length representation called the context vector. Once this is done different decoders could be used to translate the source to different languages.  	
 
-
-####  References:  
-1. [How machine translation works](http://blog.systransoft.com/how-does-neural-machine-translation-work/)
-2. [Introduction to neural machine translation](https://machinelearningmastery.com/introduction-neural-machine-translation/)
+####  References
+  
+1. [How Machine Translation works](http://blog.systransoft.com/how-does-neural-machine-translation-work/)
+2. [Introduction to Neural Machine Translation](https://machinelearningmastery.com/introduction-neural-machine-translation/)
 3. [Machine translation Wiki](https://en.wikipedia.org/wiki/Machine_translation)
 4. [Machine translation](http://blog.globalizationpartners.com/machine-translation.aspx)

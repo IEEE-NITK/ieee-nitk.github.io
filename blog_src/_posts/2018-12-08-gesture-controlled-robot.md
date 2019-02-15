@@ -17,7 +17,8 @@ github_username: 'Deepanshi'
 use_math: true
 comments: false
 ---
-&quot;JARVIS, Suit me Up!&quot;, &quot;Clang! Spoof! Phew!&quot;, Tony Stark becomes IRON MAN!
+> "JARVIS, Suit me Up!", Clang! Spoof! Phew!, 
+> Tony Stark becomes IRON MAN!
 
 Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.
 
@@ -61,13 +62,13 @@ An accelerometer is a type of sensor which gives data in Analog form while movin
 
 ### You will need:
 
-- An IC 7805 which regulates the 12V supply to 5V (if you can&#39;t get a 12V supply you can use a 9V supply)
+- An IC 7805 which regulates the 12V supply to 5V (if you can't get a 12V supply you can use a 9V supply)
 
 - 0.1uf and 470uf capacitors
 
 - 1k resistor for status LED
 
-Let&#39;s start with the power supply circuit. You will need two such circuits: one for the transmitter and one for the receiver. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.
+Let's start with the power supply circuit. You will need two such circuits: one for the transmitter and one for the receiver. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.
 
 ![img3](/blog/assets/img/gesture_controlled_robot/3.jpeg)
 
@@ -75,7 +76,7 @@ You can see the circuit diagram for the receiver power supply on the right. Usin
 
 ![img4](/blog/assets/img/gesture_controlled_robot/4.jpeg)
 
-## Let&#39;s Move Ahead to make the Transmitter (Remote)
+## Let's Move Ahead to make the Transmitter (Remote)
 
 ![img5](/blog/assets/img/gesture_controlled_robot/5.jpeg)
 
@@ -97,9 +98,9 @@ The motor driver is a device which gives the movement to do a task like a motor.
 
 ## Receiver circuit
 
-The receiver circuit consists of 2 IC&#39;s (HT12D decoder, L293D motor driver) and an RF receiver module.
+The receiver circuit consists of 2 IC's (HT12D decoder, L293D motor driver) and an RF receiver module.
 
-Wire the circuit as per the above receiver schematic. There are 2 LED&#39;s in the receiver board; one lights up when the power supply is given to the receiver and the other when power supply is given to the transmitter. The LED near the IC HT12D should light up when power is given at the transmitter, thus ensuring a valid transmission (VT). If it doesn&#39;t, then there is something wrong with your connections or your RF-TX-RX module.
+Wire the circuit as per the above receiver schematic. There are 2 LED's in the receiver board; one lights up when the power supply is given to the receiver and the other when power supply is given to the transmitter. The LED near the IC HT12D should light up when power is given at the transmitter, thus ensuring a valid transmission (VT). If it doesn't, then there is something wrong with your connections or your RF-TX-RX module.
 
 ![img8](/blog/assets/img/gesture_controlled_robot/8.jpeg)
 
@@ -109,8 +110,9 @@ Accelerometer based gesture-controlled robot moves according to the movement of 
 
 Enjoy driving your robot!!!
 
-> ## Note
-> -You can refer to the previous blog- &quot;How to get started with bots&quot; by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.
+## Note
+
+> -You can refer to the previous blog - How to get started with bots by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.
 
 ## Some basic arduino tutorials : 
 

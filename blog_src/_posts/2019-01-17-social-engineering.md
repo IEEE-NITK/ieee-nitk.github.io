@@ -12,10 +12,14 @@ categories:
 - Compsoc
 github_username: 'pran-p'
 ---
+
 Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a **Social Engineer!**
+
 ![image](/blog/assets/img/social-engineering/0.jpg) 
+
 Well now that I have said that you are a social engineer let's see what that really means.
 It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also force people to giving away sensitive information which may cost them or their companies a lot!
+
 It goes by the words *"People are the weakest link in security"* and this is absolutely true! All the complex security for your systems go void when a social engineering attacks takes place.
 
 ![image](/blog/assets/img/social-engineering/1.jpg) 
@@ -73,4 +77,3 @@ I'll share some links for you guys to see how big damage these simple attacks ca
 - [Top 12 security breaches](https://heimdalsecurity.com/blog/12-true-stories-that-will-make-you-care-about-cyber-security/)
 - [Yahoo data breach](https://www.wired.com/story/yahoo-breach-three-billion-accounts/)
 - [Don't fall for this scam](https://www.thequint.com/news/webqoof/amazon-online-discount-scam-on-whatsapp)
-

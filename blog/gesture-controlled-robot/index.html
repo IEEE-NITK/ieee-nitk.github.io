@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Understanding Varistor, it’s characteristics and working">
+        <meta name="description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Varistor">
-        <meta name="twitter:description" content="Understanding Varistor, it’s characteristics and working">
+        <meta name="twitter:title" content="Gesture Controlled Robot">
+        <meta name="twitter:description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/Varistor/" />
-        <meta property="og:title" content="Varistor">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/gesture-controlled-robot/" />
+        <meta property="og:title" content="Gesture Controlled Robot">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Understanding Varistor, it’s characteristics and working">
+        <meta property="og:description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Varistor"/>
-        <meta itemprop="description" content="Understanding Varistor, it’s characteristics and working">
+        <meta itemprop="name" content="Gesture Controlled Robot"/>
+        <meta itemprop="description" content="Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,15 +86,29 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Varistor</title>
+        <title>Gesture Controlled Robot</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/Varistor/">
+        <link rel="canonical" href="/blog/gesture-controlled-robot/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
+
+        
+            <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> 
 
         
 
@@ -122,10 +136,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-10-14 05:02:44 +0530" class="date">14 Oct 2018</time>
+            <time itemprop="datePublished" datetime="2018-12-08 00:00:00 +0530" class="date">08 Dec 2018</time>
         
-        <h1 class="post-title" itemprop="name">Varistor</h1>
-        <p itemprop="description" class="subtitle">Understanding Varistor, it’s characteristics and working</p>
+        <h1 class="post-title" itemprop="name">Gesture Controlled Robot</h1>
+        <p itemprop="description" class="subtitle">Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -176,78 +190,145 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p><strong>Varistor</strong></p>
+                    <blockquote>
+  <p>“JARVIS, Suit me Up!”, Clang! Spoof! Phew!, 
+Tony Stark becomes IRON MAN!</p>
+</blockquote>
 
-<p>The name itself might have given you some idea about what it is, varistor stands for variable resistor</p>
+<p>Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.</p>
 
-<p><strong>What is a varistor?</strong></p>
+<p>But first up, what exactly is a Gesture Controlled Robot?</p>
 
-<p>Varistor is a varying resistor whose resistance depends on applied voltage,one of the special features of varistor is that it possesses non ohmic characteristics, which defines themselves as a non linear type of resistors</p>
+<p>A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based sensing (wired or wireless) or image processing.</p>
 
-<p>It has two semiconductor elements fixed in a particular fashion (i.e. anti-parallel to each other) as to provide same characteristics for both directions of traversing current</p>
+<p>Here we will implement an accelerometer-based, wireless gesture-controlled robot.</p>
 
-<p>Its composition might have provided you with the insight that as it is made of semiconductor, it’s resistance will decrease as voltage across it increases</p>
+<h2 id="what-you-need-to-have">What you need to have.</h2>
 
-<p>Its symbol is</p>
+<p>The bot has two sections- transmitter and receiver. You will need Ht12e (encoder ic), Ht12d (decoder ic), L293D (motor driver shield), Arduino uno,7805(voltage regulator ic), capacitor, PBT connector, single pole antenna, resistor, LED, accelerometer and battery.</p>
 
-<p><img src="/blog/assets/img/Varistor/1.png" alt="Image1" /></p>
+<h2 id="how-does-it-work-and-recognize-the-gestures">How does it work and recognize the gestures?</h2>
 
-<p>One of the major applications of varistors is its ability to suppress voltage transients in the cut</p>
+<p>The brain of this robot is the Arduino Uno (Atmega32) which is fed with a set of code. The gestures/motion made by hand are detected by an acceleration measuring device, called accelerometer (ADXL335).</p>
 
-<p>Voltage transient - short duration surges of electrical energy that are result of sudden release of energy that are previously stored or induced by other means, such as heavy inductive loads or lightning</p>
+<p><img src="/blog/assets/img/gesture_controlled_robot/1.jpeg" alt="img1" /></p>
 
-<p><strong>Waveform of AC Transient</strong></p>
+<p>The accelerometer reads the X Y Z coordinates when we make gestures by hand and sends them to the Arduino. The Arduino checks the values of coordinates and sends a 4-bit code to the Encoder IC. The Encoder passes the data to an RF transmitter and the transmitted data is received by an RF receiver. The receiver sends the 4-bit code to the Decoder IC which then passes it to a Motor Driver IC. It later takes the decision to turn the two motors in the required direction.</p>
 
-<p><img src="/blog/assets/img/Varistor/2.jpg" alt="Image2" /></p>
+<h2 id="what-is-an-accelerometer">What is an Accelerometer?</h2>
 
-<p>The above characteristics might actually lead you to think that varistor behaves like a potentiometer or a rheostat</p>
+<p>An accelerometer is a type of sensor which gives data in Analog form while moving in the directions of X, Y and Z(these directions depend on the type of sensor). It consists of direction arrows; if we tilt the sensor in one direction, then the data at that particular pin will change in analog format. The accelerometer consists of six pins. The function of each pin is discussed here.</p>
 
-<p>Two characteristics that makes varistor a different entity is</p>
+<ul>
+  <li>
+    <p>Pin-1: VDD pin is used to give +5V supply.</p>
+  </li>
+  <li>
+    <p>Pin-2: GND pin is connected to the ground to ensure biasing.</p>
+  </li>
+  <li>
+    <p>Pin-3: X pin will receive the data from the X direction.</p>
+  </li>
+  <li>
+    <p>Pin-4: Y pin will receive the data from the Y direction.</p>
+  </li>
+</ul>
 
-<p>i) resistance cannot be changed manually</p>
+<p><img src="/blog/assets/img/gesture_controlled_robot/2.jpeg" alt="img2" /></p>
 
-<p>ii) resistance decreases with increase in voltage</p>
+<ul>
+  <li>
+    <p>Pin-5: Z pin will receive the data from the Z direction.</p>
+  </li>
+  <li>
+    <p>Pin-6: ST pin is used to adjust the sensitivity of the accelerometer i.e. 1.5g or 2g or 3g or 4g.</p>
+  </li>
+</ul>
 
-<p><strong>Varistor vs voltage graph</strong></p>
+<h2 id="making-the-power-supply">Making the power supply.</h2>
 
-<p><img src="/blog/assets/img/Varistor/3.jpg" alt="Image3" /></p>
+<h3 id="you-will-need">You will need:</h3>
 
-<p><strong>Working of a varistor</strong></p>
+<ul>
+  <li>
+    <p>An IC 7805 which regulates the 12V supply to 5V (if you can’t get a 12V supply you can use a 9V supply)</p>
+  </li>
+  <li>
+    <p>0.1uf and 470uf capacitors</p>
+  </li>
+  <li>
+    <p>1k resistor for status LED</p>
+  </li>
+</ul>
 
-<p>As I have already told that its characteristics are similar to that of Zener diode, its V-I characteristics are also similar to that Zener diode</p>
+<p>Let’s start with the power supply circuit. You will need two such circuits: one for the transmitter and one for the receiver. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.</p>
 
-<p><strong>V-I characteristics of varistor</strong></p>
+<p><img src="/blog/assets/img/gesture_controlled_robot/3.jpeg" alt="img3" /></p>
 
-<p><img src="/blog/assets/img/Varistor/4.png" alt="image4" /></p>
+<p>You can see the circuit diagram for the receiver power supply on the right. Using this diagram, rig up the supply circuit. You can also add an LED via a 1K resistor to indicate the state of power supply.</p>
 
-<p>As the varistor operates in first and third quadrant, it makes it a suitable device to connect it in a circuit with AC or DC source</p>
+<p><img src="/blog/assets/img/gesture_controlled_robot/4.jpeg" alt="img4" /></p>
 
-<p>As the voltage increases above the clamping voltage, there is an abrupt increase in current</p>
+<h2 id="lets-move-ahead-to-make-the-transmitter-remote">Let’s Move Ahead to make the Transmitter (Remote)</h2>
 
-<p>This helps during voltage transients, as when the circuit experiences high transient voltage, the voltage across the varistor increases, to a value greater than its clamping voltage, which in turn increases the current and acts as a conductor, it basically acts like a self-regulator at the event of voltage transient keeping the voltage input in check</p>
+<p><img src="/blog/assets/img/gesture_controlled_robot/5.jpeg" alt="img5" /></p>
 
-<p>Steep nonlinear curve indicates excessive currents can be passed through varistor over narrow range of voltage</p>
+<p>The transmitter section consists of an accelerometer which detects the hand gestures and sends the data to the Arduino. This then sends the data to an Encoder IC which is subsequently transmitted to a receiver.</p>
 
-<p><strong>Capacitance of varistor</strong></p>
+<p>The RF TX module works with 433MHz frequency and is easily available in the market at low cost.</p>
 
-<p>A varistor in non-conducting state acts like a capacitor more than a resistor</p>
+<p>Wire it up as per the below circuit diagram:</p>
 
-<p>Non-conducting state-the voltage applied across the varistor is less than the clamping voltage</p>
+<p><img src="/blog/assets/img/gesture_controlled_robot/6.jpeg" alt="img6" /></p>
 
-<p>Since the semiconductor body of the Varistor acts like an insulator during its insulating state, it can be regarded as the dielectric material, while the two terminals can be regarded as the two electrodes</p>
+<p>Code the Arduino to make it function like how you want it to.</p>
 
-<p><strong>Types of Varistor</strong></p>
+<h2 id="motor-driver">Motor Driver</h2>
 
-<p>Silicon carbide varistor</p>
+<p>The motor driver is a device which gives the movement to do a task like a motor. So, we require motor driver to run them through the controller. The interface between motor &amp; microcontroller can be done using an L293D motor driver IC in this circuit.</p>
 
-<p>Metal oxide varistor</p>
+<p><img src="/blog/assets/img/gesture_controlled_robot/7.jpeg" alt="img7" /></p>
+
+<h2 id="receiver-circuit">Receiver circuit</h2>
+
+<p>The receiver circuit consists of 2 IC’s (HT12D decoder, L293D motor driver) and an RF receiver module.</p>
+
+<p>Wire the circuit as per the above receiver schematic. There are 2 LED’s in the receiver board; one lights up when the power supply is given to the receiver and the other when power supply is given to the transmitter. The LED near the IC HT12D should light up when power is given at the transmitter, thus ensuring a valid transmission (VT). If it doesn’t, then there is something wrong with your connections or your RF-TX-RX module.</p>
+
+<p><img src="/blog/assets/img/gesture_controlled_robot/8.jpeg" alt="img8" /></p>
+
+<h2 id="the-final-working">The Final Working</h2>
+
+<p>Accelerometer based gesture-controlled robot moves according to the movement of the hand, since the accelerometer is on your hand. When you tilt your hand forward (with the accelerometer on your hand), the robot moves straight ahead. When you tilt backwards, it changes direction and starts moving in reverse. When you tilt to the right, it starts moving rightwards and similarly to the left. (This is in accordance with what code I have written for the motion of my bot. You can modify accordingly!)</p>
+
+<p>Enjoy driving your robot!!!</p>
+
+<h2 id="note">Note</h2>
+
+<blockquote>
+  <p>-You can refer to the previous blog - How to get started with bots by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.</p>
+</blockquote>
+
+<h2 id="some-basic-arduino-tutorials-">Some basic arduino tutorials :</h2>
+
+<ul>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=fCxzA9_kg6s">https://www.youtube.com/watch?v=fCxzA9_kg6s</a></p>
+  </li>
+  <li>
+    <p><a href="https://hackr.io/tutorials/learn-arduino">https://hackr.io/tutorials/learn-arduino</a></p>
+  </li>
+  <li>
+    <p><a href="https://learn.sparkfun.com/tutorials/what-is-an-arduino/all">https://learn.sparkfun.com/tutorials/what-is-an-arduino/all</a></p>
+  </li>
+</ul>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
         <span id="category">Diode</span>
-        <span id="title">Varistor</span>
+        <span id="title">Gesture Controlled Robot</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -256,13 +337,13 @@
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/PrithviPatil.jpg" alt="Prithvi Patil">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/blog-author.jpg" alt="Deepanshi">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Prithvi Patil</a>
+            <a itemprop="name" href="/">Deepanshi</a>
         </h3>
         <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:prithvispatil44@gmail.com">prithvispatil44@gmail.com</a>
+        <a itemprop="email" class="email" href="mailto:deepanshi.asr.21@gmail.com">deepanshi.asr.21@gmail.com</a>
     </div>
 </section>
 
@@ -282,15 +363,15 @@
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/Varistor/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,Diode,resistors,capacitors,zener diode,voltage transients,regulators,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/gesture-controlled-robot/%20via%20&#64;IEEE_NITK&hashtags=Gesture controlled,accelerometer,RF transmitter,RF receiver,motor driver,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//Varistor/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//gesture-controlled-robot/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//Varistor/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//gesture-controlled-robot/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

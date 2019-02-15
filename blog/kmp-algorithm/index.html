@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="An introduction to Zero Knowledge Proofs, an abstract and fascinating concept in Applied Cryptography">
+        <meta name="description" content="An introduction to KMP algorithm">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="Zero Knowledge Proof">
-        <meta name="twitter:description" content="An introduction to Zero Knowledge Proofs, an abstract and fascinating concept in Applied Cryptography">
+        <meta name="twitter:title" content="KMP Algorithm">
+        <meta name="twitter:description" content="An introduction to KMP algorithm">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/" />
-        <meta property="og:title" content="Zero Knowledge Proof">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/kmp-algorithm/" />
+        <meta property="og:title" content="KMP Algorithm">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="An introduction to Zero Knowledge Proofs, an abstract and fascinating concept in Applied Cryptography">
+        <meta property="og:description" content="An introduction to KMP algorithm">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="Zero Knowledge Proof"/>
-        <meta itemprop="description" content="An introduction to Zero Knowledge Proofs, an abstract and fascinating concept in Applied Cryptography">
+        <meta itemprop="name" content="KMP Algorithm"/>
+        <meta itemprop="description" content="An introduction to KMP algorithm">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,15 +86,29 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>Zero Knowledge Proof</title>
+        <title>KMP Algorithm</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/ZeroKnowledgeProof/">
+        <link rel="canonical" href="/blog/kmp-algorithm/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
+
+        
+            <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> 
 
         
 
@@ -122,10 +136,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-12-01 00:00:00 +0530" class="date">01 Dec 2018</time>
+            <time itemprop="datePublished" datetime="2018-11-03 00:00:00 +0530" class="date">03 Nov 2018</time>
         
-        <h1 class="post-title" itemprop="name">Zero Knowledge Proof</h1>
-        <p itemprop="description" class="subtitle">An introduction to Zero Knowledge Proofs, an abstract and fascinating concept in Applied Cryptography</p>
+        <h1 class="post-title" itemprop="name">KMP Algorithm</h1>
+        <p itemprop="description" class="subtitle">An introduction to KMP algorithm</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -176,65 +190,54 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <h2 id="introduction">Introduction</h2>
+                    <p>I’d like to talk about an algorithm that I believe should be in any Software Engineer’s toolkit. That is, the KMP algorithm named after its three inventors: Knuth-Morris-Pratt. The algorithm was designed to solve efficiently a very common problem. That is the problem of finding whether or not one string is a substring of a different string.</p>
 
-<p><img src="/blog/assets/img/ZeroKnowledgeProof/introduction.jpg" alt="Introduction" /></p>
+<h3 id="brute-force">Brute Force</h3>
 
-<p>In cryptography, <em>zero knowledge proof</em> or <em>zero knowledge protocol</em> is a method by which one party proves to another party that they know some kind of secret without revealing any information about the secret, except the fact that they know it. This principle is based on an algorithm that takes some data as input and returns either <em>true</em> or <em>false</em>.</p>
+<p>Let’s start first with the original problem. We would like to implement the function: int  strstr(const string &amp;Str, const string&amp; Pattern); 
+The brute force solution of this function entails two loops, one over Str and one over pattern. Let’s see it:</p>
 
-<h2 id="understanding-the-concept-behind-zkps">Understanding the concept behind ZKPs</h2>
-<p>The complexity of zero-knowledge proofs results in them typically being described with abstract examples, which elucidate the concept well.</p>
+<p><img src="/blog/assets/img/kmp/p1.png" alt="KMP brute force" /></p>
 
-<p><strong>Example 1:</strong></p>
+<p>What is the runtime complexity of this algorithm?</p>
 
-<p>Suppose there is an underground cave with a door at the end of the cave that can only be opened with a magic word. Alice claims that she knows the word and that she can open the door. At the beginning, Alice and Bob are standing at the entrance (point P). Alice enters the cave and reaches a fork (point Q). Bob cannot see Alice from the entrance and the game starts:</p>
+<p>Since we are running in two loops and for each i we are trying all j’s, we have a <strong>worst-case complexity of O(NM)</strong> where N is the size of Str and M is the size of Pat. Can you spot where the inefficiency comes from?  The problem is that if we can’t find a match we have to go back (with i) and start over from where we left off when we started the match. Why are we doing this? let’s look at two examples:</p>
 
-<ul>
-  <li>Alice chooses to go either right or left</li>
-  <li>After Alice disappears into the cave, Bob comes to the fork</li>
-  <li>Bob asks Alice to come up from either the right or left</li>
-  <li>If Alice knows the magic word, she can come up from the requested
-side. She may have to use the magic word (if she’s on the wrong side)
-or she can just come up without using the magic word (if she is at
-the right side). So, Alice may come up from the correct side even if
-she does not know the magic word by guessing Bob’s challenge with a
-probability of ½.
-<img src="/blog/assets/img/ZeroKnowledgeProof/cave.gif" alt="Underground Cave" />
-When this is repeated multiple times the probability that Alice comes up the right side without knowing the magic word reduces to (½)<sup>N</sup> where N is the number of times the test is run.</li>
-</ul>
+<ol>
+  <li>
+    <p>str = “abcbcefg” and pat = “bce”.  In this case we start the match at i = 1 and j = 0, we continue to i = 2 and j = 1, but then at i = 3 and j = 2 we have a mismatch. Our algorithm will detect this mismatch and will set “i” to be 2. But what’s the point? for i = 2 we already know that there will be no match. In fact, based on strwe should not be setting “i” to a previous index, but we could just as well continue advancing i.</p>
+  </li>
+  <li>
+    <p>str = “abababc” pat = “ababc”. In this case, we will start matching at i = 0 and will reach i = 4 when we detect a mismatch. We will then return to i = 1 and start again. When we reach i = 2 we will detect that the strings match. The observation is, that we should not have even bothered returning to i = 1 we could have set “i”to 2. But, if we look even closer we may notice that after we matched str = “abab” and pat = “abab” we already have one pair of “ab” in pat which we know that can be used for future matches.</p>
+  </li>
+</ol>
 
-<p><strong>Example 2:</strong></p>
+<h3 id="lets-try-and-make-our-code-efficient">Let’s try and make our code efficient!</h3>
+<p>The two examples are a great way to explain how KMP works and why it is so efficient. KMP starts off by building a prefix table for pat. This prefix table will be used to indicate for each index “i” how much we have matched thus far and use this information to jump back only by the amount needed.</p>
 
-<p>Let us assume there is a colour-blind person and two balls, one red and one green. You would like to prove to the colour-blind person that these balls are of differing colours without revealing the individual colours of each ball. For this, you ask the colour-blind person to hide both balls under the table and bring one ball back up for you to see. After that, he should hide the ball back under the table and then either show the same ball or the other one. As a result, you can prove to the colour-blind person that the colours are different by stating whether he changed the balls under the table or not.</p>
+<p>Lets see how the prefix table will look like for different patterns:</p>
 
-<p>Obviously, the other person might think that you were just lucky and is not yet completely convinced that both balls have different colours. Zero-knowledge proofs solve this problem by repeating the experiment over and over again. After every round, your chance of being consistently right by pure luck goes down by half.</p>
+<ol>
+  <li>pat = “ababc” will result in the table: {0,0,1,2,0}</li>
+  <li>pat = “ississi” will result in the table: {0,0,0,1,2,3,4}</li>
+  <li>pat = “abcd” will result in the table: {0,0,0,0}</li>
+</ol>
 
-<p>So by repeating this experiment N times, the probability that you guessed right every time, when the balls were truly identical, reduces to (½)<sup>N</sup> , which is very unlikely.</p>
+<p>Notice what is happening here. When we detect a prefix that we have seen (such as the second “ab” in “ababc”) the numbers in the table indicate the size of that prefix. So if we start matching “abababc” with “ababc” for i = 4 and j = 4 we see that ‘a’ is different from ‘c’, and hence we have a mismatch. Using the table above we see that the table at index j - 1 = 3 has the value 2. We can have “j” jump back two indexes from 4 to 2, and continue our match from there. We don’t have to touch “i” anymore, we just modify “j” based on the maximal size of the prefix that we have seen thus far.</p>
 
-<h2 id="why-are-zero-knowledge-proofs-required">Why are Zero Knowledge Proofs required?</h2>
+<p>Let us see the code to generate the Prefix table:</p>
 
-<p>Enterprise businesses would not like to share their proprietary information which can get into the hands of hackers or their competitors. Businesses also want to ensure that the information is securely delivered to the intended party. Ordinary blockchains can accomplish this, but with Zero Knowledge Proofs, businesses can share proofs about the data without sharing the data itself.</p>
+<p><img src="/blog/assets/img/kmp/p2.png" alt="KMP Prefix table" /></p>
 
-<p>ZKP can impact any industry which involves transactions, identity systems, and other proprietary information. ZKP can be used as a diligence, security, and verification tool in some of the most highly regulated industries like financial services, insurance, audit firms, and retail just to name a few.</p>
+<p>We allocate the prefix table to be the size of “Pat”. We use two indexes to fill the table. The first is “i”, it will indicate the end of the current prefix. The second is “j” which will be used to find the next occurance of the prefix. Notice that “j” starts from index 1. As we are traversing we check to see whether Pat[i] == Pat[j]. If they are, then we know that there is a prefix of size i + 1 that we have encountered at index “j”. We update the table at index “j” to indicate this prefix, and update “i” as well. If they are not the same, then we have two cases: First, if i == 0, it means that we have not found any prefix thus far and we just increment “j”. However, if  i &gt; 0, we keep “j” where it is and make “i” go back to the index where the prefix  has started and compare it again with “j” .</p>
 
-<p>A few start-ups and enterprises like ZCash, QED-it, ING and Nuggets use ZKP as a part of their blockchain applications. <em>Blockchain</em> provides a <em>decentralized database</em>, or <em>digital ledger</em>, of transactions that everyone on the network can see. This network is essentially a chain of computers which must all approve an exchange before it can be verified and recorded.</p>
+<h3 id="complete-code">Complete code</h3>
 
-<p>Zero-knowledge Proof enables the transfer of assets across this distributed, peer-to-peer blockchain network with complete privacy. In regular blockchain transactions, when an asset is sent from one party to another, the details of that transaction are visible to every other party in the network. However, in a zero-knowledge transaction, the others only know that a valid transaction has taken place, but nothing about the sender, recipient, asset class and quantity. The identity and amount being spent can remain hidden.</p>
+<p>We are now ready to see the full algorithm and how it uses the prefix table:</p>
 
-<p><img src="/blog/assets/img/ZeroKnowledgeProof/application.jpg" alt="Applications" /></p>
+<p><img src="/blog/assets/img/kmp/p3.png" alt="KMP code" /></p>
 
-<h2 id="conclusion">Conclusion</h2>
-
-<p>Zero Knowledge Proofs are computationally expensive. Although ZKP technology has been around for decades, it has started gaining importance now. The ability to verify sensitive information like the amount of a transaction, passwords and other identifiable data without actually revealing the data has become more valuable for everyone with the rising presence of bad actors. I believe that this technology will be used extensively in solving privacy problems in the near future.</p>
-
-<h2 id="references">References</h2>
-
-<ul>
-  <li><a href="https://blog.goodaudience.com/what-is-zero-knowledge-proof-and-why-you-should-care-36977d738339">https://blog.goodaudience.com/what-is-zero-knowledge-proof-and-why-you-should-care-36977d738339</a></li>
-  <li><a href="https://blockonomi.com/zero-knowledge-proofs/">https://blockonomi.com/zero-knowledge-proofs/</a></li>
-  <li><a href="https://medium.com/@argongroup/on-zero-knowledge-proofs-in-blockchains-14c48cfd1dd1">https://medium.com/@argongroup/on-zero-knowledge-proofs-in-blockchains-14c48cfd1dd1</a></li>
-  <li>Cryptography and Network Security - Forouzan</li>
-</ul>
+<p>The runtime complexity of this new version in the worst case will be <strong>O(N)</strong>.</p>
 
 
                 </article>
@@ -242,7 +245,7 @@ When this is repeated multiple times the probability that Alice comes up the rig
     <h1>Related Articles</h1>
     <div class="temp-div">
         <span id="category">Compsoc</span>
-        <span id="title">Zero Knowledge Proof</span>
+        <span id="title">KMP Algorithm</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -251,13 +254,13 @@ When this is repeated multiple times the probability that Alice comes up the rig
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/arpitharaghunandan.jpeg" alt="Arpitha Raghunandan">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Chans321.jpg" alt="TSS Chandana">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Arpitha Raghunandan</a>
+            <a itemprop="name" href="/">TSS Chandana</a>
         </h3>
         <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:98.arpi@gmail.com">98.arpi@gmail.com</a>
+        <a itemprop="email" class="email" href="mailto:tsschand@gmail.com">tsschand@gmail.com</a>
     </div>
 </section>
 
@@ -275,17 +278,23 @@ When this is repeated multiple times the probability that Alice comes up the rig
 	</script>
 </section>
             
+                <section class="comments">
+                    <h4>Comments</h4>
+                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/kmp-algorithm/" data-colorscheme="dark" data-num-posts="4" data-width="706">
+                    </div>
+                </section>
+            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/ZeroKnowledgeProof/%20via%20&#64;IEEE_NITK&hashtags=ZKP,Cryptography,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/kmp-algorithm/%20via%20&#64;IEEE_NITK&hashtags=KMP,Strings,Competitive Programming,C++,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//ZeroKnowledgeProof/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//kmp-algorithm/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//ZeroKnowledgeProof/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//kmp-algorithm/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

@@ -53,8 +53,6 @@ Then it traverses upwards back to the root and updates the score for all visited
 
 These four steps are repeated again and again until the computer has learned enough to actually play the game. 
 
-
-
 ## Learning to play games using Reinforcement Learning
 
 There are various algorithms that come under Reinforcement Learning Algorithms. Each suitable for a different purpose. The basic idea behind Reinforcement Learning is, as the name suggests, making the computer play the game again and again and learn from its own experience.
@@ -77,6 +75,7 @@ The answer is the computer is not really going through all the possible states b
 But as our computer plays multiple games it will surely go through most of the frequently occurring and promising states and will know how to behave in those situations.
 
 ## Alpha-Go
+
 Recently Google's Alpha-Go zero defeated Go's World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.
 
 ![Lee Sedol playing with Alpha-Go](/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg "Lee Sedol playing with Alpha-Go")
