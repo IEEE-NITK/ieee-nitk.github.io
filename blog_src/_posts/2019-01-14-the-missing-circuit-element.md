@@ -4,7 +4,7 @@ title: "The Missing Circuit Element"
 author_github: srsahith
 date: 2019-01-14 21:30:00
 image: '/assets/img/'
-description: 'A brief description to memresitors and it's applications'
+description: "A brief description to memresitors and it's applications"
 tags:
 - Memresistor
 - Non Volatile Memory

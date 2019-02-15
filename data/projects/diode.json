@@ -1,33 +1,112 @@
-[{
+[
+    {
+        "Title": "Boost Convertor",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "This project aims to build a boost converter,replacing Si based MOSFETs with GaN HEMTs(High Electron mobility transistor) ,grown on SiC or Si substrate.Using GaN based switches enables us to operate on high switching frequency such as 1MHz due to low on resistance of the wide band gap.",
+        "links": []
+    },
+
+    {
+        "Title": "Crash Prediction",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "The purpose of this project is the analyse car dash cam and road surveillance videos to predict accidents/crashes before they occur. Our dataset includes videos with and without crashes. This project entails video data processing: video segmentation, object recognition and then extracting features. We will then train a learning model that will take in a video as input and predict whether or not a crash will occur.",
+        "links": []
+    },
+    
+    {
+        "Title": "Emotion Recognition",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "Project aims to create a system that can tell the emotion present in a given speech sample. There are a variety of temporal and spectral features that can be extracted from human speech. We use statistics relating to the pitch, Mel Frequency Cepstral Coefficients (MFCCs) and Formants of speech as inputs to classification algorithms. The emotion recognition accuracy of these experiments allow us to explain which features carry the most emotional information and why. It also allows us to develop criteria to class emotions together. Using these techniques we will try to achieve high emotion recognition accuracy.",
+        "links": []
+    },
+
+    {
+        "Title": "Follow Me Bot",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "The idea of this project stems from the newly introduced amazon shops which uses video cameras as it’s sensor. This project aims to build a trolley which follows the person assigned using the information from the overhead camera. <br> Aim of this project is to build a bot which follows a person using overhead camera as it’s sensors. The camera should take snaps in small regular intervals. The processing of these images will take place in the laptop, where the person to be followed and the bot are separated out from the rest of the objects or obstacles’. The information of the path to be followed is relayed to the bot using Bluetooth. We initially plan to implement the above mentioned using a single camera sweeping a certain region. Then, we’ll move forward to two cameras with intersecting fields of view. To identify the person, we initially plan to make them wear a jacket. We’ll try to find better methods of identification as we make progress in the project.",
+        "links": []
+    },
+
+    {
+        "Title": "Image Generation using GAN",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "Currently many artificial intelligence algorithms are used in medical applications involving segmentation and classification of brain tumors. But in order to implement the algorithm huge datasets are required. But the available datasets do not contain enough images. One of the methods is dataset augmentation. We propose to use GANs to increase the volume of the data. Extension of the current problem statement would be to generate other biomedical images.",
+        "links": []
+    },
+
+    {
+        "Title": "Indoor Positioning using LIFi",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "The project attempts to locate the current position on an object located indoor. The GPS technology as we alll know is used for general positioning ,but can be used in the indor,as its not accurate enough for the proper positioning,so a different technology was proposed using RSSI from WiFi modules which again is a problem due to the interference ,reflection of the Transmitted waves resulting in erroneous RSSI values and thus erroneous positioning .The project using light for the information transfer aims to overcome these limitations.",
+        "links": []
+    },
+
+    {
+        "Title": "Optical Music Recognition",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "Optical Music Recognition, an application of Optical Character Recognition is a use of machine vision to simplify the sight-reading process for novice musicians and professionals alike. This project aims to use Python and OpenCV to develop an application that takes in a document of sheet music as an input and provides the necessary musical notes (eg: C sharp, E flat, etc.) as a prompt to the performer. An additional objective would be to develop a computerized music playing system that interprets the sheet music and automatically plays the music as well.",
+        "links": []
+    },
+
+    {
+        "Title": "Voice Controlled Bot",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
+        "Abstract": "This project is aimed to control a robot with speech commands. Voice Controlled robot is a mobile robot whose motions can be controlled by the user by giving specific voice commands. The speech recognition algorithm is capable of identifying the voice commands. After processing the speech, the appropriate actions are executed. The robot is able to recognize the spoken commands to move correctly. For the speech recognition, we will compare 2-3 state of the art algorithms and choose the one which best suits our requirement.",
+        "links": []
+    },
+
+    {
         "Title": "Small scale radar",
+        "year":"2018 - 2019",
+        "image":"res/img/placeh.jpg",
         "Abstract": "Radar is an object-detection system that uses radio waves to determine the range, angle, or velocity of objects.Radar was used as an acronym for RAdio Detection And Ranging.The aim of the project is to build a small scale version of such a RADAR system for educational and laboratory purposes.The radar system has coffee cans for transmit and receive antennae and components from Mini circuits.The system employs a ramp generator with a trigger output for transmission and present target is achieving range and doppler radar.Simulation of the radar system was done using Advanced Design System(ADS) software.For post processing, MATLAB is used to process the received data.The following experiments are planned and the MATLAB algorithms were implemented for the same - Doppler Vs TimeRange Vs TimeSAR imaging. ",
         "links": []
-    }, {
+    }, 
+    
+    {
         "Title": "Boost Converter",
+        "year":"",
+        "image":"res/img/placeh.jpg",
         "Abstract": "Solar panels essentially provide DC power and DC to DC converters are used to control voltage         levels and extract maximum power.We have designed a boost converter,         which steps up the input DC voltage from the panel.This can be used to charge a battery or can be connected to an         inverter to supply power back to the grid.PI control and Maximum Power Point Tracking were         simulated using Simulink, MATLAB.The hardware implementation was tested with a panel.         ",
         "links": []
     },
 
     {
         "Title": "Undersampling and reconstruction of MR images",
+        "year":"",
+        "image":"res/img/placeh.jpg",
         "Abstract": "Magnetic resonance imaging, one of the foremost non-invasive imaging modalities, suffers from a slow data acquisition rate.Patients must remain in the scanner for extended periods of time, which causes them considerable discomfort, and may even delay a critical diagnosis. Reduced scan times would not only address these issues but also decrease the cost, which is a critical factor in the Indian scenario.This project compares the results obtained by applying compressed sensing and sparse dictionary learning algorithms for MR rimage reconstruction. ",
         "links": []
     },
 
     {
         "Title": "Single input single output Li-fi network",
+        "year":"",
+        "image":"res/img/placeh.jpg",
         "Abstract": "Wireless fidelity or Wi-Fi technology has become the norm for data transmission and reception at relatively high data speeds up to 300 Mbps.However, due to ever increasing congestion of bandwidth in the radio frequency and microwave bands, there is a dire need for a new technology that can transmit data at high data rates robustly.This project aims to explore and develop a basic Light Fidelity or Li - Fi communication system operating as a Single Input, Single Output(SISO) system capable of transmitting data over distances with robustness.",
         "links": []
     },
 
     {
         "Title": "Automatic wheelchair",
+        "year":"",
+        "image":"res/img/placeh.jpg",
         "Abstract": "Intelligent wheelchairs have been being developed for a long time to support paralysed people with several disability levels.In many cases, the eye muscles of paralysed people are one of the few controllable muscles that still function well. Therefore, using the eye gaze as an interface for paralysed or physically disabled people has been of interest.The particular project is useful for the patients where they can move their wheelchair in their own directions, without any third party’ s help or support.In this project, there will be a wheel chair model as a ROBOT model, which will contain an in built MICRO CONTROLLER and EYE BALL SENSING system, which will do the functions like right, left, forward and reverse operations.The wheel chair is designed in such a way that it can move freely without external support or dependency.Through this feature the patients can enable movements of their wheelchair as per their desire. Different image processing algorithms such as Daugman’ s Algorithm and Hough Transform were used to increase detection accuracy and the speed of execution.An Arduino microcontroller was used to drive the motors on the wheelchair. ",
         "links": []
     },
 
     {
         "Title": "Wheels on Roll",
+        "year":"",
+        "image":"res/img/placeh.jpg",
         "Abstract": "To encourage a healthy lifestyle and cut down the carbon footprint in educational campus, students of the technical institute NIT - K, have launched campus bicycle rent startup.This startup is a service - oriented that aims to provide a public bicycle sharing initiative with a fully automated system to dispense the bicycles.The entire automated system is app - based along with website support.WOR is incubated under National Institute of Technology Karnataka - Science & Technology Entrepreneurs Park(NITK - STEP) and mentored by Anmol Nautiyal, director, IBM Cloud Integration.The operational plan in the coming year is to have 500 + bicycles in the NITK campus.There will be four hotspots or docking stations to dispense and collect the rented bicycles.The hotspot will comprise of an app - based automatic bicycle key vending machine and a customized bicycle parking space.The users will be provided with the dual option of booking a ride either with the android app or a smart card.The riders will also have the option to go for distant rides outside the campus at lower rates.The bicycles will be secured with a dual combination of frame locks and RFID tags.Also, IEEE NITK Student Chapter is providing the necessary technical expertise and financial support to build the technology.         NITK administration is helping in setting up the dock across campus. ",
         "links": []
     }

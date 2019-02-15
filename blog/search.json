@@ -1,6 +1,78 @@
 [
   
     {
+      "title"    : "How machine translation works",
+      "category" : "CompSoc",
+      "tags"     : "Natural Language Processing, Supervised learning, and Machine translation",
+      "url"      : "http://ieee.nitk.ac.in/blog//machine-translation/",
+      "date"     : "02 Feb 2019",
+      "author"   : "Tanmai H"
+    } ,
+  
+    {
+      "title"    : "Machine Learning Magic",
+      "category" : "CompSoc",
+      "tags"     : "Machine learning, Supervised learning, and tweets",
+      "url"      : "http://ieee.nitk.ac.in/blog//machine-learning-magic/",
+      "date"     : "26 Jan 2019",
+      "author"   : "Kumar Saharsh"
+    } ,
+  
+    {
+      "title"    : "INNOVATIONS IN THE DRONE INDUSTRY",
+      "category" : "Piston",
+      "tags"     : "Drones",
+      "url"      : "http://ieee.nitk.ac.in/blog//innovations-in-drone-industry/",
+      "date"     : "26 Jan 2019",
+      "author"   : "KushagraRawat"
+    } ,
+  
+    {
+      "title"    : "Social Engineering",
+      "category" : "Compsoc",
+      "tags"     : "Social engineering and Security",
+      "url"      : "http://ieee.nitk.ac.in/blog//social-engineering/",
+      "date"     : "18 Jan 2019",
+      "author"   : "Pranav P"
+    } ,
+  
+    {
+      "title"    : "The Missing Circuit Element",
+      "category" : "Diode",
+      "tags"     : "Memresistor and Non Volatile Memory",
+      "url"      : "http://ieee.nitk.ac.in/blog//the-missing-circuit-element/",
+      "date"     : "15 Jan 2019",
+      "author"   : "S.R. Sahith"
+    } ,
+  
+    {
+      "title"    : "Heard of Smart Contracts yet?",
+      "category" : "CompSoc",
+      "tags"     : "Blockchain 2.0 and Smart Contract",
+      "url"      : "http://ieee.nitk.ac.in/blog//smart-contracts/",
+      "date"     : "15 Jan 2019",
+      "author"   : "Prajwal S Belagavi"
+    } ,
+  
+    {
+      "title"    : "Self Healing Materials",
+      "category" : "Piston",
+      "tags"     : "Biochemistry, Self Healing Materials, and Machines",
+      "url"      : "http://ieee.nitk.ac.in/blog//self-healing-material/",
+      "date"     : "15 Jan 2019",
+      "author"   : "Smrithi S"
+    } ,
+  
+    {
+      "title"    : "Heard of Smart Contracts yet?",
+      "category" : "CompSoc",
+      "tags"     : "Blockchain 2.0 and Smart Contract",
+      "url"      : "http://ieee.nitk.ac.in/blog//Smart-Contracts/",
+      "date"     : "15 Jan 2019",
+      "author"   : "Prajwal S Belagavi"
+    } ,
+  
+    {
       "title"    : "Photocatalytic Detoxification",
       "category" : "Piston",
       "tags"     : "Photochemical Reactions, Photo catalysts, Catalysis, Photo Catalysis, Nanotechnology, Semiconductors, and Colloidal semiconductors",
