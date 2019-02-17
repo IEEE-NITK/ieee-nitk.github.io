@@ -1,6 +1,6 @@
 ---
 layout: post
-title : "The New Biometric - Brainprint"
+title : "THE NEW BIOMETRIC - BRAINPRINT"
 author_github : pjk99
 date : 2018-09-08 18:34:00
 image : '/assets/img'
@@ -8,9 +8,8 @@ tags:
 - biometrics
 - brainprint
 catgories : 
-- Piston
+- piston
 github_username : 'pjk99'
-comments: true
 ---
 
 Since the conception of computers, mobile phones, tablets and most importantly, Internet, securing our devices and data has become crucial. Personal data ranging from shopping wishlists to bank details are either stored in PCs or are available online, all protected by passwords - a rather impotent sentinel, as it turns out. There have been several methods used by computers as well as the different websites to authenticate its user.
@@ -21,8 +20,7 @@ Recently, researchers at Binghamton University have discovered that, with a bit 
 
 Researchers at the University of Washington have demonstrated another way to extract private information using an EEG headset. They created games that subliminally flashed up images such as bank logos and noted when a person's brain waves registered recognition.
 
-> If someone's fingerprint is stolen, that person can't just grow a new finger to replace the compromised fingerprint — the fingerprint for that person is compromised forever. Fingerprints are 'non-cancellable.' Brainprints, on the other hand, are potentially cancellable. So, in the unlikely event that attackers were actually able to steal a brainprint from an authorized user, the authorized user could then 'reset' their brainprint,
-
+> If someone's fingerprint is stolen, that person can't just grow a new finger to replace the compromised fingerprint — the fingerprint for that person is compromised forever. Fingerprints are 'non-cancellable.' Brainprints, on the other hand, are potentially cancellable. So, in the unlikely event that attackers were actually able to steal a brainprint from an authorized user, the authorized user could then 'reset' their brainprint, 
 - said Sarah Laszlo, an assistant professor of psychology and linguistics involved in the project.
 
 Although this method is accurate upto 94% as of now, it still has confounding fallacy like, the effect of drugs(opioids, caffeine and alcohol) on the neural systems, and hence, the brain waves. This manipulation of brain waves due to the external factors comes out as a challenge. John Chuang at the University of California, Berkeley, last year published research into the impact of exercise on EEG authentication and found that accuracy degrades immediately after a workout (though it quickly recovered). He suggests that other factors such as hunger, stress or fatigue could also reduce reliability. To overcome this, if accuracy under different conditions were required, it could be possible to collect multiple brainwave "templates" for a user by separately mapping their EEG signature when drunk, tired and so on. It is possible to tweak the EEG data analysis using machine learning to improve the results for participants who were inebriated, as suggested by another researcher Tommy Chin and Peter Muller, a graduate student.

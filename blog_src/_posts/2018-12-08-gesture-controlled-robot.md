@@ -3,116 +3,106 @@ layout: post
 title: "Gesture Controlled Robot"
 author_github: Deepanshi
 date: 2018-12-08
-image: '/assets/img/gesture-controlled-robot'
+image: '/assets/img/'
 description: 'Ever wondered if you could control objects with a cool play of hands or develop a game based on gestures just like in the movie Ra.One?'
 tags:
 - Gesture controlled
-- Accelerometer
+- accelerometer
 - RF transmitter
 - RF receiver
-- Motor Driver
+- motor driver
 categories:
 - Diode
 github_username: 'Deepanshi'
 use_math: true
-comments: true
+comments: false
 ---
-
-> "JARVIS, Suit me Up!", "Clang! Spoof! Phew!", Tony Stark becomes IRON MAN!
+> "JARVIS, Suit me Up!", Clang! Spoof! Phew!, 
+> Tony Stark becomes IRON MAN!
 
 Have You Ever Wondered, what if, just like that, with one cool move you too could control and move objects around you; OR Maybe develop a gesture-controlled game like in the movie Ra. One? Well, here I have tried to design and build a mini version of it; a Robot controlled by hand gestures.
 
-## But first up, what exactly is a Gesture Controlled Robot?
+But first up, what exactly is a Gesture Controlled Robot?
 
 A Robot which detects any movement(gesture) and functions depending upon these signals is a Gesture Controlled Robot. They can use different technologies viz. accelerometer-based sensing (wired or wireless) or image processing.
 
-### Here we will implement an accelerometer-based, wireless gesture-controlled robot.
+Here we will implement an accelerometer-based, wireless gesture-controlled robot.
 
-## What you need to have. You will need:
+## What you need to have.
 
-- Ht12e (encoder ic)
-- Ht12d (decoder ic)
-- L293D (motor driver shield)
-- Arduino Uno
-- 7805(voltage regulator ic)
-- Capacitor
-- PBT connector
-- Single pole antenna
-- resistor, LED
-- accelerometer
-- battery
+The bot has two sections- transmitter and receiver. You will need Ht12e (encoder ic), Ht12d (decoder ic), L293D (motor driver shield), Arduino uno,7805(voltage regulator ic), capacitor, PBT connector, single pole antenna, resistor, LED, accelerometer and battery.
 
 ## How does it work and recognize the gestures?
 
-The bot consists of two parts- transmitter and Receiver. The functioning of the bot is controlled by the Arduino Uno which is hard coded. The gestures or movements made by the controlling unit is detected by a device called accelerometer, which will be briefly discussed in this article later.
+The brain of this robot is the Arduino Uno (Atmega32) which is fed with a set of code. The gestures/motion made by hand are detected by an acceleration measuring device, called accelerometer (ADXL335).
 
-![Block Diagram of Gesture Controlled Robot Car](/blog/assets/img/gesture-controlled-robot/1.jpeg) 
+![img1](/blog/assets/img/gesture_controlled_robot/1.jpeg) 
 
-The accelerometer reads the X Y Z coordinates when the controlling device (in this case it's the user's hand) moves in certain direction and sends them to the Arduino which is connected to the sensor through pins 3,4,5. The Arduino then sends data to encoder IC accordingly. The Encoder passes the data to an RF transmitter and the transmitted data is received by an RF receiver. The receiver forwards the code to the Decoder IC which then passes it to a Motor Driver IC. The motor driver moves the two motors accordingly, thus controlling the bot of hand gestures.
+The accelerometer reads the X Y Z coordinates when we make gestures by hand and sends them to the Arduino. The Arduino checks the values of coordinates and sends a 4-bit code to the Encoder IC. The Encoder passes the data to an RF transmitter and the transmitted data is received by an RF receiver. The receiver sends the 4-bit code to the Decoder IC which then passes it to a Motor Driver IC. It later takes the decision to turn the two motors in the required direction.
 
 ## What is an Accelerometer?
 
-Accelerometer is an integrated circuit which will basically measure the acceleration of the device it is attached to.
+An accelerometer is a type of sensor which gives data in Analog form while moving in the directions of X, Y and Z(these directions depend on the type of sensor). It consists of direction arrows; if we tilt the sensor in one direction, then the data at that particular pin will change in analog format. The accelerometer consists of six pins. The function of each pin is discussed here.
 
-An accelerometer is a type of sensor which gives data in Analog form while moving in the directions of X, Y and Z. It finds applications in vehicle dynamics, mobile phone orientation detection, tilt or tap detection etc. Tilting the sensor in the desired direction will change the analog value.
+- Pin-1: VDD pin is used to give +5V supply.
 
-By measuring the amount of static acceleration due to gravity, you can find out the angle the device is tilted at with respect to the earth. The sensor has arrows to mark the direction in which it is supposed to be tilted. The functions of each pin on the sensor has been explained here.
+- Pin-2: GND pin is connected to the ground to ensure biasing.
 
-* Pin 1: Power supply.
+- Pin-3: X pin will receive the data from the X direction.
 
-* Pin 2: Ground.
+- Pin-4: Y pin will receive the data from the Y direction.
 
-* Pin 3: X pin to receive data for movement in X direction.
+![img2](/blog/assets/img/gesture_controlled_robot/2.jpeg)
 
-* Pin 4: Y pin to receive data for movement in Y direction.
+- Pin-5: Z pin will receive the data from the Z direction.
 
-* Pin-5: Z pin to receive data for movement in Z direction.
-
-* Pin-6: ST pin is used to adjust the sensitivity of the accelerometer i.e. 1.5g or 2g or 3g or 4g.
-
-![Arduino Pin Diagram](/blog/assets/img/gesture-controlled-robot/2.jpeg)
+- Pin-6: ST pin is used to adjust the sensitivity of the accelerometer i.e. 1.5g or 2g or 3g or 4g.
 
 ## Making the power supply.
 
-You will need:
+### You will need:
 
 - An IC 7805 which regulates the 12V supply to 5V (if you can't get a 12V supply you can use a 9V supply)
 
 - 0.1uf and 470uf capacitors
 
-- 1k resistor for status LED (optional)
+- 1k resistor for status LED
 
-Since here we have two different circuits (transmitter and receiver) which aren't wired, hence we will be needing two power circuits. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.
+Let's start with the power supply circuit. You will need two such circuits: one for the transmitter and one for the receiver. The receiver circuit needs to be powered using a 12V supply (since we are using a 12V motor), and the transmitter circuit can be powered using a 9V battery.
 
-![Circuit Diagram](/blog/assets/img/gesture-controlled-robot/3.jpeg) 
+![img3](/blog/assets/img/gesture_controlled_robot/3.jpeg)
 
-Use the diagram to make the power supply. The led in the above circuit is only to check for the state of the power supply. You can omit it if you want.
+You can see the circuit diagram for the receiver power supply on the right. Using this diagram, rig up the supply circuit. You can also add an LED via a 1K resistor to indicate the state of power supply.
 
-![IC](/blog/assets/img/gesture-controlled-robot/4.jpeg)
+![img4](/blog/assets/img/gesture_controlled_robot/4.jpeg)
 
-Let's Move Ahead to make the Transmitter (Remote)
+## Let's Move Ahead to make the Transmitter (Remote)
 
-The transmitter or the remote of your bot will be having the accelerometer senor, Arduino Uno, encoder ic and wireless transmitter (rf transmitter module). The values read by the accelerometer are wirelessly communicated to the receiver circuit as discussed above. The wireless transmitter operates at 433 MHz and is capable of sending analog data wirelessly. Another useful feature of RF transmitter module is that it can connect multiple microcontrollers wirelessly one by one. Hence it can be used to transmit data to more than one ic. Rig up the circuit as shown in the figure.
+![img5](/blog/assets/img/gesture_controlled_robot/5.jpeg)
 
-![Line Diagram](/blog/assets/img/gesture-controlled-robot/5.jpeg)
+The transmitter section consists of an accelerometer which detects the hand gestures and sends the data to the Arduino. This then sends the data to an Encoder IC which is subsequently transmitted to a receiver.
 
-Hard code the Arduino Uno accordingly.
+The RF TX module works with 433MHz frequency and is easily available in the market at low cost.
 
-The motor driver is an ic connected between a microcontroller and motors to control their working. It acts as an interface between the two. The motor Driver has the capability to control the working of several motors (dc or stepper) altogether. The motor driver has H bridge circuits which control the working of motors (
+Wire it up as per the below circuit diagram:
 
-H-bridge is the simplest circuit for controlling a low current rated motor). There are many motor drivers available like L293D, L293NE, etc. Here we will be using L293D.
+![img6](/blog/assets/img/gesture_controlled_robot/6.jpeg) 
 
-* L293D is a basic amplifier circuit which can power two DC motors at a time and stepper motors as well.
+Code the Arduino to make it function like how you want it to.
 
-![L293D Circuit](/blog/assets/img/gesture-controlled-robot/6.jpeg)
+## Motor Driver
+
+The motor driver is a device which gives the movement to do a task like a motor. So, we require motor driver to run them through the controller. The interface between motor &amp; microcontroller can be done using an L293D motor driver IC in this circuit.
+
+![img7](/blog/assets/img/gesture_controlled_robot/7.jpeg)
 
 ## Receiver circuit
 
-* The receiver circuit consists of a RF receiver module, to receive the encoded data; decoder ic, connected to the rf module to decode the data and motor driver ic(L293D) to make the bot move and of course two DC motors.
+The receiver circuit consists of 2 IC's (HT12D decoder, L293D motor driver) and an RF receiver module.
 
-![Reciever Circuit Diagram](/blog/assets/img/gesture-controlled-robot/7.jpeg)
+Wire the circuit as per the above receiver schematic. There are 2 LED's in the receiver board; one lights up when the power supply is given to the receiver and the other when power supply is given to the transmitter. The LED near the IC HT12D should light up when power is given at the transmitter, thus ensuring a valid transmission (VT). If it doesn't, then there is something wrong with your connections or your RF-TX-RX module.
 
-Rig up the circuit as shown. There are two LED's in the circuit to keep a check on the state of the power supply and makes debugging easy. The LED's can be removed later.
+![img8](/blog/assets/img/gesture_controlled_robot/8.jpeg)
 
 ## The Final Working
 
@@ -121,11 +111,13 @@ Accelerometer based gesture-controlled robot moves according to the movement of 
 Enjoy driving your robot!!!
 
 ## Note
-> You can refer to the previous blog- ["How to get started with bots"](https://ieee.nitk.ac.in/blog/how-to-get-started-with-bots/) by [Tarun Mittal](https://in.linkedin.com/in/trmittal24) to get more insight into working of bots.
 
-## Some basic Arduino tutorials : 
+> -You can refer to the previous blog - How to get started with bots by -Tarun Mittal (dated June 1st ,2017) to get more insight into working of bots.
 
-- [Tutorial 01 for Arduino: Getting Acquainted with Arduino](https://www.youtube.com/watch?v=fCxzA9_kg6s)
-- [Arduino Tutorials and Courses](https://hackr.io/tutorials/learn-arduino)
-- [Arduino For Beginners](https://www.makerspaces.com/arduino-uno-tutorial-beginners/)
-- [What is an Arduino?](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)
+## Some basic arduino tutorials : 
+
+- [https://www.youtube.com/watch?v=fCxzA9_kg6s](https://www.youtube.com/watch?v=fCxzA9_kg6s)
+
+- [https://hackr.io/tutorials/learn-arduino](https://hackr.io/tutorials/learn-arduino)
+
+- [https://learn.sparkfun.com/tutorials/what-is-an-arduino/all](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)

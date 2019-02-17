@@ -4,7 +4,7 @@ title: "The Missing Circuit Element"
 author_github: srsahith
 date: 2019-01-14 21:30:00
 image: '/assets/img/'
-description: "A brief description to memresitors and it's applications"
+description: 'A brief description to memresitors and its applications'
 tags:
 - Memresistor
 - Non Volatile Memory
@@ -13,8 +13,6 @@ categories:
 github_username: 'srsahith'
 comments: true
 ---
-
-# The Missing Circuit element
 
 Leon Chau, an American circuit theorist at the University of California, predicted the existence of the fourth fundamental circuit passive element. The first three passive circuit elements are the resistor, capacitor, and inductor. We already have relationships among voltage, current, charge, and flux. The only relationship missing is that between flux and charge(q).
  
@@ -25,7 +23,7 @@ Memristor is the component that connects the dots. The diagram shows how memrist
 ![Image 2](/blog/assets/img/the-missing-circuit-element/2.jpeg)
 
 |  Device       |  Characteristic property (units) |   Differential equation  |
-|---------------|:--------------------------------:|-------------------------:|
+|---------------|--------------------------------|-------------------------|
 | Resistor (R)  | Resistance (V / A, or ohm, Ω)    |   R = dV / dI            |
 |Capacitor (C)  |  Capacitance (C / V, or farad)   |   C = dq / dV            |
 |Inductor (L)   |  Inductance (Wb / A, or henry)   |   L = dΦm / dI           |
@@ -38,16 +36,21 @@ Memristor is a nonlinear, passive electrical two terminal component which relate
 The image shows the schematic diagram of a memristor. On application of a positive bias across the electrodes the oxygen vacancies spread towards the undoped region which leads to an increase in conductivity. Now if we remove the bias, the device remains in this state forever theoretically. Similarly, application of a negative bias across the device pulls back the oxygen vacancies into the doped region thereby increasing the resistance of the device. So data is stored in memristor regarding resistance. A high resistance corresponds to one logic level, and low resistance corresponds to the other. In place of TiO2 other compounds such as HfO2 can be used.
 
 ## Classification of Memristors
+
 Memristors can be classified into different types, depending on how they are built. Memristors are classified into two types, and a brief overview of different memristors is explained below.
 
 ![Image 4](/blog/assets/img/the-missing-circuit-element/4.jpeg)
 
-1.Ionic thin film and Molecular Memristors
-    Molecule and Ionic thin-film memristors mostly rely on different material properties of the thin film atomic lattices that display hysteresis below the application of charge.
+1. Ionic thin film and Molecular Memristors
 
-2.Magnetic and spin-based memristors
-      Spin-based memristors are opposite to ionic nanostructure and molecule-based systems and rely on the property of degree in electronic spin. In this type of system, the polarization of electronic spin is aware
+Molecule and Ionic thin-film memristors mostly rely on different material properties of the thin film atomic lattices that display hysteresis below the application of charge.
+
+2. Magnetic and spin-based memristors
+
+Spin-based memristors are opposite to ionic nanostructure and molecule-based systems and rely on the property of degree in electronic spin. In this type of system, the polarization of electronic spin is aware
+
 ## Applications
+
 These promising characteristics may potentially revolutionize nanoelectronics. It can find applications in analog and digital circuits, which are part of everyday use systems such as sensors and mobile phones. Some of the most promising applications of memristors are:
 
 The most observable application of a memristor is the memory. A memristor can store a single bit of data in DRAM – where the capacitors are restored with memristors. When compared to DRAM and SRAM, this kind of memory has many benefits like – it is non-volatile; it displays good scalability, and it has no leakage power. This type of memory is superior to flash memory regarding scalability and speed.

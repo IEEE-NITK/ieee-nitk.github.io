@@ -2,11 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/machine-translation/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/machine-learning-magic/</loc>
 	  </url>
 	
 	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/social-engineering/</loc>
 	  </url>
 	
 	  <url>
@@ -54,7 +62,7 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/electonic-skin/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/electronic-skin/</loc>
 	  </url>
 	
 	  <url>
@@ -198,7 +206,7 @@
 	  </url>
 	
 	  <url>
-		<loc>http://ieee.nitk.ac.in/blog/heap-exploitation/</loc>
+		<loc>http://ieee.nitk.ac.in/blog/heap_exploitation/</loc>
 	  </url>
 	
 	  <url>

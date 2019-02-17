@@ -11,7 +11,6 @@ tags:
 categories:
 - Compsoc
 github_username: 'arpi-r'
-comments: true
 ---
 
 ## Introduction
@@ -27,13 +26,16 @@ The complexity of zero-knowledge proofs results in them typically being describe
 
 Suppose there is an underground cave with a door at the end of the cave that can only be opened with a magic word. Alice claims that she knows the word and that she can open the door. At the beginning, Alice and Bob are standing at the entrance (point P). Alice enters the cave and reaches a fork (point Q). Bob cannot see Alice from the entrance and the game starts:
 
-- Alice chooses to go either right or left
-- After Alice disappears into the cave, Bob comes to the fork
-- Bob asks Alice to come up from either the right or left
-- If Alice knows the magic word, she can come up from the requested side. She may have to use the magic word (if she’s on the wrong side) or she can just come up without using the magic word (if she is at the right side). So, Alice may come up from the correct side even if she does not know the magic word by guessing Bob’s challenge with a probability of ½.
-
+ - Alice chooses to go either right or left
+ - After Alice disappears into the cave, Bob comes to the fork
+ - Bob asks Alice to come up from either the right or left
+ - If Alice knows the magic word, she can come up from the requested
+   side. She may have to use the magic word (if she’s on the wrong side)
+   or she can just come up without using the magic word (if she is at
+   the right side). So, Alice may come up from the correct side even if
+   she does not know the magic word by guessing Bob’s challenge with a
+   probability of ½.
 ![Underground Cave](/blog/assets/img/ZeroKnowledgeProof/cave.gif)
-
 When this is repeated multiple times the probability that Alice comes up the right side without knowing the magic word reduces to (½)<sup>N</sup> where N is the number of times the test is run.
 
 **Example 2:**
@@ -62,7 +64,8 @@ Zero Knowledge Proofs are computationally expensive. Although ZKP technology has
 
 ## References
 
-- [https://blog.goodaudience.com/what-is-zero-knowledge-proof-and-why-you-should-care-36977d738339](https://blog.goodaudience.com/what-is-zero-knowledge-proof-and-why-you-should-care-36977d738339)
-- [https://blockonomi.com/zero-knowledge-proofs/](https://blockonomi.com/zero-knowledge-proofs/)
-- [https://medium.com/@argongroup/on-zero-knowledge-proofs-in-blockchains-14c48cfd1dd1](https://medium.com/@argongroup/on-zero-knowledge-proofs-in-blockchains-14c48cfd1dd1)
-- Cryptography and Network Security - Forouzan
+ - [https://blog.goodaudience.com/what-is-zero-knowledge-proof-and-why-you-should-care-36977d738339](https://blog.goodaudience.com/what-is-zero-knowledge-proof-and-why-you-should-care-36977d738339)
+ - [https://blockonomi.com/zero-knowledge-proofs/](https://blockonomi.com/zero-knowledge-proofs/)
+ - [https://medium.com/@argongroup/on-zero-knowledge-proofs-in-blockchains-14c48cfd1dd1](https://medium.com/@argongroup/on-zero-knowledge-proofs-in-blockchains-14c48cfd1dd1)
+ - Cryptography and Network Security - Forouzan
+

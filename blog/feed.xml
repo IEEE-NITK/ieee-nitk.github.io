@@ -5,13 +5,31 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Jan 2019 20:21:00 +0530</pubDate>
-    <lastBuildDate>Mon, 28 Jan 2019 20:21:00 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Fri, 15 Feb 2019 14:43:41 +0530</pubDate>
+    <lastBuildDate>Fri, 15 Feb 2019 14:43:41 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>How machine translation works</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“How does Google translate work? How do Alexa and Siri know what and when to respond to your queries?”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-does-machine-translation-mean&quot;&gt;What does Machine Translation mean?&lt;/h1&gt; &lt;p&gt;Machine Translation is essentially software that automatically renders text from one language into another. Formally speaking it falls under computational linguistics and language engineering. Machine translation needn’t just be conversion across human readable languages but can also be used for tasks like trigger word detection, converting human readable dates like ‘Tuesday, the 29th of Jan,2019’ to formats like 29-01-2019.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-translation/machine-translation-diagram2.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;various-methods-of-machine-translation&quot;&gt;Various Methods of Machine Translation.&lt;/h2&gt; &lt;p&gt;In the late 80’s,...</description>
+        <pubDate>Sat, 02 Feb 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/machine-translation/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-translation/</guid>
+        
+        <category>Natural Language Processing</category>
+        
+        <category>Supervised learning</category>
+        
+        <category>Machine translation</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Machine Learning Magic</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“Did you ever wonder how ML algorithms work?” “How is the weather forecast done?” “How does the self-driving car mimic the way humans drive?” “Let’s try to find answers to some of those questions…”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-is-this-machine-learning-&quot;&gt;WHAT IS THIS MACHINE LEARNING ?&lt;/h1&gt; &lt;p&gt;Assume you have some data, it could be anything like a set of tweets or Images of handwritten numbers or Emails marked as spam. But you don’t know what to do with it!!!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-learning-magic/1.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;So you look for an algorithm which can use this data and give you something you are interested in!&lt;br /&gt;...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Did you ever wonder how ML algorithms work?” “How is the weather forecast done?” “How does the self-driving car mimic the way humans drive?” “Let’s try to find answers to some of those questions…”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-is-this-machine-learning-&quot;&gt;WHAT IS THIS MACHINE LEARNING ?&lt;/h1&gt; &lt;p&gt;Assume you have some data, it could be anything like a set of tweets or Images of handwritten numbers or Emails marked as spam. But you don’t know what to do with it!!!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-learning-magic/1.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;So you look for an algorithm which can use this data and give you something you are interested in!&lt;/p&gt; &lt;p&gt;&lt;img...</description>
         <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/machine-learning-magic/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-learning-magic/</guid>
@@ -29,7 +47,7 @@
     
       <item>
         <title>INNOVATIONS IN THE DRONE INDUSTRY</title>
-        <description>&lt;h1 id=&quot;innovations-in-the-drone-industry&quot;&gt;INNOVATIONS IN THE DRONE INDUSTRY&lt;/h1&gt; &lt;blockquote&gt; &lt;p&gt;“Do you think drones are just four rotor-legged flying machines?”&lt;br /&gt; “Have you ever thought how we can modify these machines to get maximum out of it?”&lt;br /&gt; Multiple innovations are happening currently in this very industry and here are some of them!&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;going-bladeless--the-future-of-drones-&quot;&gt;GOING BLADELESS : THE FUTURE OF DRONES ?&lt;/h2&gt; &lt;p&gt;As much crazy as it might sound , bladeless drone are becoming a reality . Bladeless ? You ask me , well , it might be a bit of misnomer . Bladeless isn’t actually bladeless in the fact the it...</description>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Do you think drones are just four rotor-legged flying machines?”&lt;br /&gt; “Have you ever thought how we can modify these machines to get maximum out of it?”&lt;br /&gt; Multiple innovations are happening currently in this very industry and here are some of them!&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;going-bladeless--the-future-of-drones-&quot;&gt;GOING BLADELESS : THE FUTURE OF DRONES ?&lt;/h2&gt; &lt;p&gt;As much crazy as it might sound , bladeless drone are becoming a reality . Bladeless ? You ask me , well , it might be a bit of misnomer . Bladeless isn’t actually bladeless in the fact the it still relies on a bladed propeller...</description>
         <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</guid>
@@ -42,8 +60,24 @@
       </item>
     
       <item>
+        <title>Social Engineering</title>
+        <description>&lt;p&gt;Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a &lt;strong&gt;Social Engineer!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/social-engineering/0.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt; &lt;p&gt;Well now that I have said that you are a social engineer let’s see what that really means. It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also...</description>
+        <pubDate>Fri, 18 Jan 2019 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/social-engineering/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/social-engineering/</guid>
+        
+        <category>Social engineering</category>
+        
+        <category>Security</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
         <title>The Missing Circuit Element</title>
-        <description>&lt;h1 id=&quot;the-missing-circuit-element&quot;&gt;The Missing Circuit element&lt;/h1&gt; &lt;p&gt;Leon Chau, an American circuit theorist at the University of California, predicted the existence of the fourth fundamental circuit passive element. The first three passive circuit elements are the resistor, capacitor, and inductor. We already have relationships among voltage, current, charge, and flux. The only relationship missing is that between flux and charge(q).&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-missing-circuit-element/1.jpeg&quot; alt=&quot;Image 1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Memristor is the component that connects the dots. The diagram shows how memristor serves as a missing link and completes the symmetry of the diagram due to which it is famously known as &lt;strong&gt;“The Missing Circuit element”&lt;/strong&gt;....</description>
+        <description>&lt;p&gt;Leon Chau, an American circuit theorist at the University of California, predicted the existence of the fourth fundamental circuit passive element. The first three passive circuit elements are the resistor, capacitor, and inductor. We already have relationships among voltage, current, charge, and flux. The only relationship missing is that between flux and charge(q).&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-missing-circuit-element/1.jpeg&quot; alt=&quot;Image 1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Memristor is the component that connects the dots. The diagram shows how memristor serves as a missing link and completes the symmetry of the diagram due to which it is famously known as &lt;strong&gt;“The Missing Circuit element”&lt;/strong&gt;. Its symbol is.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-missing-circuit-element/2.jpeg&quot;...</description>
         <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/the-missing-circuit-element/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/the-missing-circuit-element/</guid>
@@ -93,7 +127,7 @@
     
       <item>
         <title>Photocatalytic Detoxification</title>
-        <description>&lt;h1 id=&quot;photocatalytic-detoxification&quot;&gt;Photocatalytic Detoxification&lt;/h1&gt; &lt;p&gt;The water bodies around the world are regularly dumped with waste water effluents. These contain various organic and inorganic molecules that affect the aquatic life and overall water quality, which is called water pollution. The surprising fact is that quite a lot of purification is caused naturally by the breakdown of these molecules by sunlight. This process can be assisted with colloidal semiconductors to speed up the reaction process and increase the efficiency. The photocatalytic detoxification of wastewater is a process that combines heterogeneous catalysis with solar technologies.&lt;/p&gt; &lt;p&gt;Organic compounds such as alcohols,carboxylic acids,amines, herbicides and aldehydes,...</description>
+        <description>&lt;h1 id=&quot;photocatalytic-detoxification&quot;&gt;Photocatalytic Detoxification&lt;/h1&gt; &lt;p&gt;The water bodies around the world are regularly dumped with waste water effluents. These contain various organic and inorganic molecules that affect the aquatic life and overall water quality, which is called water pollution. The surprising fact is that quite a lot of purification is caused naturally by the breakdown of these molecules by sunlight. This process can be assisted with colloidal semiconductors to speed up the reaction process and increase the efficiency. The photocatalytic detoxification of wastewater is a process that combines heterogeneous catalysis with solar technologies. Organic compounds such as alcohols,carboxylic acids,amines, herbicides and aldehydes,...</description>
         <pubDate>Sat, 29 Dec 2018 05:30:03 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</guid>
@@ -119,7 +153,7 @@
     
       <item>
         <title>Intro To The MapReduce Programming Paradigm</title>
-        <description>&lt;h1 id=&quot;an-intro-to-the-mapreduce-programming-paradigm&quot;&gt;An Intro To The MapReduce Programming Paradigm&lt;/h1&gt; &lt;p&gt;The following blog is an attempt to explain the map-reduce programming paradigm and some of its practical appliations.&lt;/p&gt; &lt;h3 id=&quot;introduction&quot;&gt;Introduction:&lt;/h3&gt; &lt;p&gt;Over the past few years, many computer scientists at Google have implemented hundreds of special purpose computations that process large amounts of data, such as crawled documents, web request logs, etc., to compute various kinds of derived data. to compute various kinds of derived data, such as summaries of the number of pages crawled per host, the set of most frequent queries in a given day, etc. However, the input data is...</description>
+        <description>&lt;p&gt;The following blog is an attempt to explain the map-reduce programming paradigm and some of its practical appliations.&lt;/p&gt; &lt;h3 id=&quot;introduction&quot;&gt;Introduction:&lt;/h3&gt; &lt;p&gt;Over the past few years, many computer scientists at Google have implemented hundreds of special purpose computations that process large amounts of data, such as crawled documents, web request logs, etc., to compute various kinds of derived data. to compute various kinds of derived data, such as summaries of the number of pages crawled per host, the set of most frequent queries in a given day, etc. However, the input data is large and the computations have to distributed across...</description>
         <pubDate>Sat, 29 Dec 2018 05:30:02 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/</guid>
@@ -139,7 +173,7 @@
     
       <item>
         <title>Thermal Imaging</title>
-        <description>&lt;p&gt;Have you ever tried talking to people about Thermal camera .Well, the general response you receive is , “ohh.. , the night vision camera .” If you also have the same notion , you actually don’t know about this wonderful technology.&lt;/p&gt; &lt;p&gt;Although Thermal imaging is used for &lt;strong&gt;night vision&lt;/strong&gt; ,both are not the same, and also ,apart from that thermal imaging has got a much wider area of application, to which people are unaware. This main aim of this article is to demonstrate the various exiting use of thermal imaging. Hope, after reading it you would appreciate thermal imaging more...</description>
+        <description>&lt;p&gt;Have you ever tried talking to people about Thermal camera .Well, the general response you receive is , “ohh.. , the night vision camera .” If you also have the same notion , you actually don’t know about this wonderful technology.&lt;/p&gt; &lt;p&gt;Although Thermal imaging is used for &lt;strong&gt;night vision&lt;/strong&gt; ,both are not the same, and also ,apart from that thermal imaging has got a much wider area of application, to which people are unaware.&lt;/p&gt; &lt;p&gt;This main aim of this article is to demonstrate the various exiting use of thermal imaging .&lt;/p&gt; &lt;p&gt;Hope, after reading it you would appreciate thermal imaging...</description>
         <pubDate>Sat, 29 Dec 2018 05:30:01 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/thermal-imaging/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/thermal-imaging/</guid>
@@ -156,46 +190,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>NanoMedicine</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;&lt;em&gt;How evolutionary is nanomedicine in therapeutics? Is it worth all the hype? Can we, as engineers, find opportunities in the field of nanomedicine? Well, I hope this article will answer many similar questions.&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/1.jpg&quot; alt=&quot;Nanopills: Medicinal advantage&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;nanotechnology-and-its-manifestation-in-medicine&quot;&gt;Nanotechnology and its manifestation in Medicine&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/NanoMedicine/5.jpg&quot; alt=&quot;Manifestation of Nanotechnology in Medicine&quot; title=&quot;Manifestation of Nanotechnology in Medicine&quot; /&gt;&lt;/p&gt; &lt;p&gt;Let’s start with the understanding of how exactly is nanotechnology playing a noteworthy role in the field of medicine. From its very dawn, nanotechnology has indeed shaped the fundamental industrial applications such as manufacturing, biotechnology, semiconductors and fabrication of...</description>
-        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/nano-medicine/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/nano-medicine/</guid>
-        
-        <category>NanoMedicine</category>
-        
-        <category>Targeted drug delivery</category>
-        
-        <category>Overlooked advancements</category>
-        
-        <category>EPR effect</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>How Computers learn to play games!</title>
-        <description>&lt;p&gt;Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games? How Google’s Alpha-Go defeated the &lt;strong&gt;World Champion&lt;/strong&gt; of Go? Let us dive in the field of Computer Games and find out how Computers learn to play Games!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/How Computers LearnToPlayGames/chess.jpg&quot; alt=&quot;Chess&quot; title=&quot;Chess&quot; /&gt;&lt;/p&gt; &lt;p&gt;There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.&lt;/p&gt; &lt;h2 id=&quot;naive-tree-search&quot;&gt;Naive Tree Search&lt;/h2&gt; &lt;p&gt;Let’s start with a...</description>
-        <pubDate>Sat, 22 Dec 2018 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</guid>
-        
-        <category>Computer Games</category>
-        
-        <category>Reinforcement Learning</category>
-        
-        <category>Monte Carlo Tree Search</category>
-        
-        <category>Alpha-Go</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     

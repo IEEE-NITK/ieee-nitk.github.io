@@ -19,7 +19,6 @@ github_username: 'siddhartha15'
 This article is for people who want a primer on *Machine Learning* and anyone who is curious about how Machines think.If you are already familiar with ML, this may not be the right place for you.
 
 ## Why Machine Learning matters ?
-
 **Artificial intelligence** will shape our future more powerfully than any other innovation this century.
 The rate of acceleration is already astounding. After a couple of AI winters and periods of false hope over the past four decades, rapid advances in data storage and computer processing power have dramatically changed the game in recent years.
 
@@ -35,27 +34,23 @@ Artificial intelligence is the study of agents that perceive the world around th
 ![Image 1](/blog/assets/img/Why-Machine-Learning-Matters/MLimage_1.png)
 
 **Strong AI** will change our world forever; to understand how, studying *Machine Learning* is a good place to start ...
-
 ## Machine Learning covers a lot
-
 Machine Learning is **self-explanatory**. Instead of you telling the machine what decisions and rules to make, you **teach** it. A machine that **learns**. So that leaves the methods of teaching and learning pretty wide open. So what can you teach a machine, and what can it learn?
 
 ![Image 2](/blog/assets/img/Why-Machine-Learning-Matters/MLimage_2.png)
 
-> **Classification** algorithms can be taught to split existing data into classes, like say names of animals.Then when you give it new data, it will tell you which class it belongs to, like say this is a cat and not a dog.
+>**Classification** algorithms can be taught to split existing data into classes, like say names of animals.Then when you give it new data, it will tell you which class it belongs to, like say this is a cat and not a dog.
 
-> **Regression** algorithms basically try to learn the function of a dataset,by predicting future data based on past data.
+>**Regression** algorithms basically try to learn the function of a dataset,by predicting future data based on past data.
 
-> **Unsupervised Learning** can be used if you’ve got lots of data and you can’t make sense of it,so you teach the machine to try and make sense of it instead.
+>**Unsupervised Learning** can be used if you’ve got lots of data and you can’t make sense of it,so you teach the machine to try and make sense of it instead.
 
-> **Reinforcement Learning** is how to beat every human on Earth in games like GO and Chess,or drive autonomous cars and drones. And a lot more.
+>**Reinforcement Learning** is how to beat every human on Earth in games like GO and Chess,or drive autonomous cars and drones. And a lot more.
 
 So let us talk about **Supervised Learning** now.
 
 >How much money will we make by spending more dollars on digital advertising? 
-
 >Will this loan applicant pay back the loan or not? 
-
 >What’s going to happen to the stock market tomorrow?
 
 In supervised learning problems, we start with a **data set** containing training examples with associated correct **labels**. For example, when learning to classify handwritten digits, a supervised learning algorithm takes thousands of pictures of handwritten digits along with **labels** containing the correct number each image represents. The algorithm will then learn the **relationship** between the images and their associated numbers, and apply that learned relationship to **classify** completely new images (without labels) that the machine hasn’t seen before. This is how you’re able to deposit a check by taking a picture with your phone!
@@ -97,4 +92,6 @@ The data is split into a *training data set* and a *test data set*. The training
 How do we build models that make accurate, useful predictions in the real world? We do so by using supervised learning algorithms.
 The above problem of predicting annual income can be solved using [Linear regression](https://towardsdatascience.com/linear-regression-simplified-ordinary-least-square-vs-gradient-descent-48145de2cf76) method and [gradient descent](https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/) algorithm.
 
-Do read on supervised learning algorithms for better uderstanding and you can take a well known and free course - [MACHINE LEARNING by ANDREW NG](https://www.coursera.org/learn/machine-learning) on [Coursera](https://www.coursera.org/).
+Do read on supervised learning algorithms for better uderstanding and you can take a well known and free course - [MACHINE LEARNING by ANDREW NG](https://www.coursera.org/learn/machine-learning) on coursera.
+
+Feel free to contact me for any queries, complaints or suggestions.

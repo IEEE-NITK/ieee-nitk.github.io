@@ -18,7 +18,11 @@ github_username: 'AditiMarathe'
 comments: true
 ---
 
-One possible means of bridging the gap between India’s abundant, varied natural resources and her ever-increasing requirements like clean water, food and rapid, low cost diagnostic machinery is the use of nanotechnology. When we modify materials at their atomic and molecular level, some very unusual and useful properties are generated. Since the dimensions of atoms and molecule are in nanometers, this technology is called nanotechnology. Efforts to promote research in nanotechnology in India began early in the millennium. The efforts have paid off well, India published over 23000 papers in nanoscience in the past 5 years. One of the recent developments in this field by India was the synthesis of nanosheets using DNA leading to the most powerful storage device ever made.
+One possible means of bridging the gap between India’s abundant, varied natural resources and her ever-increasing requirements like clean water, food and rapid, low cost diagnostic machinery is the use of nanotechnology.
+
+When we modify materials at their atomic and molecular level, some very unusual and useful properties are generated. Since the dimensions of atoms and molecule are in nanometers, this technology is called nanotechnology.
+
+Efforts to promote research in nanotechnology in India began early in the millennium. The efforts have paid off well, India published over 23000 papers in nanoscience in the past 5 years. One of the recent developments in this field by India was the synthesis of nanosheets using DNA leading to the most powerful storage device ever made.
 
 Researchers from Indian Institute of Science Education and Research (IISER) Thiruvananthapuram, Kerala and Institute of Microbial Technology, Chandigarh have developed a novel method to synthesize 2 dimensional nanosheets decorated with DNA molecule. The design strategy allows for an ultra-dense array of DNA molecules to be grown on 2 D crystalline nanosheets.
 

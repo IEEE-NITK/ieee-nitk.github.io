@@ -190,7 +190,9 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games? How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go? Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
+                    <p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games?
+How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go?
+Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
 
 <p><img src="/blog/assets/img/How Computers LearnToPlayGames/chess.jpg" alt="Chess" title="Chess" /></p>
 
@@ -210,16 +212,16 @@
 
 <p><img src="/blog/assets/img/How Computers LearnToPlayGames/Monte-Carlo-Tree-Search.png" alt="Monte-Carlo Tree search" title="Monte-Carlo Tree search" /></p>
 
-<h4 id="1-select--">1. Select -</h4>
+<h4 id="1select--">1)Select -</h4>
 <p>In this step the computer starts with a root node(state) and selects the next node based on the current policy. A policy is a function that dictates what actions to take given a state.</p>
 
-<h4 id="2-expand--">2. Expand -</h4>
+<h4 id="2expand--">2)Expand -</h4>
 <p>When the policy can no longer choose an action with confidence to find the successor node, it expands the game tree by appending all possible states from that node or a few let’s say 10 or 100 states chosen by randomly trying out certain number of actions, this is done when the number of next possible states is huge.</p>
 
-<h4 id="3-simulate--">3. Simulate -</h4>
+<h4 id="3simulate--">3)Simulate -</h4>
 <p>Then from the appended nodes, it simulates a random game to find out how good it is to go to that state.</p>
 
-<h4 id="4-backpropagation--">4. Backpropagation -</h4>
+<h4 id="4backpropagation--">4)Backpropagation -</h4>
 <p>Then it traverses upwards back to the root and updates the score for all visited nodes.</p>
 
 <p>These four steps are repeated again and again until the computer has learned enough to actually play the game.</p>
@@ -236,9 +238,9 @@ In order to give you intuition on how Reinforcement Learning can be used for gam
 <p>The basic idea is to learn the value functions and use it to choose the best action.
 Consider the following diagram-</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" /></p>
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" title="Backup diagram for value function" /></p>
 
-<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following <a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html">blog post</a> to get a better understanding of how this algorithm works.).</p>
+<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following<a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html"> blog post</a> to get a better understanding of how this algorithm works.).</p>
 
 <h4 id="but-how-is-it-dealing-with-the-problem-of-a-huge-number-of-states">But how is it dealing with the problem of a huge number of states?</h4>
 
@@ -249,13 +251,11 @@ But as our computer plays multiple games it will surely go through most of the f
 
 <p>Recently Google’s Alpha-Go zero defeated Go’s World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" /></p>
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" title="Lee Sedol playing with Alpha-Go" /></p>
 
-<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong></p>
-
-<p>There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.</p>
-
-<p>Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
+<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong> 
+There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.
+Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -265,8 +265,6 @@ But as our computer plays multiple games it will surely go through most of the f
   <li><a href="https://www.youtube.com/watch?v=onBYsen2_eA">Video lectures on Monte Carlo Tree Search</a></li>
   <li><a href="https://www.tastehit.com/blog/google-deepmind-alphago-how-it-works/">More about Alpha-Go</a></li>
 </ul>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/onBYsen2_eA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
                 </article>
                 <div class="sidebar">
@@ -305,12 +303,6 @@ But as our computer plays multiple games it will surely go through most of the f
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
 </section>
-            
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/how-computers-learn-to-play-games/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
             
             <section class="share">
     <h3>Share</h3>

@@ -14,9 +14,10 @@ categories:
 - Piston
 github_username: 'ShaswataBose'
 use_math: true
-comments: true
+comments: false
 ---
-This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications
+
+This article provides a brief insight in the field of nanomachines and nanosensors, the challenges faced by the researchers in this field, and the promise they hold for us in future applications.
 
 ## What is the difference between micro and nano systems?
 When we talk about about nanomachines, we consider devices which are only a few atoms apart in their dimensions whereas in microsystems, the dimensions are in the range of a few microns. Thus, these devices can only be observed under **HR-TEM (High Resolution Tunneling Electron Microscope)** or **thermal imaging techniques.**

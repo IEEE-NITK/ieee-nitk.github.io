@@ -16,7 +16,6 @@ github_username: 'Chans321'
 use_math: true
 comments: true
 ---
-
 I'd like to talk about an algorithm that I believe should be in any Software Engineer's toolkit. That is, the KMP algorithm named after its three inventors: Knuth-Morris-Pratt. The algorithm was designed to solve efficiently a very common problem. That is the problem of finding whether or not one string is a substring of a different string.
 
 ### Brute Force
@@ -58,3 +57,5 @@ We are now ready to see the full algorithm and how it uses the prefix table:
 ![KMP code](/blog/assets/img/kmp/p3.png)
 
 The runtime complexity of this new version in the worst case will be **O(N)**.
+
+
