@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Feb 2019 14:43:41 +0530</pubDate>
-    <lastBuildDate>Fri, 15 Feb 2019 14:43:41 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Mon, 11 Mar 2019 08:54:09 +0530</pubDate>
+    <lastBuildDate>Mon, 11 Mar 2019 08:54:09 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>ELF Files in Linux</title>
+        <description>&lt;p&gt;Have you ever tried to print the a.out file generated when you compile your C program? It prints gibberish! Ever wondered how the computer produces a valid, sensible output from this? Read ahead to find out.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;ELF stands for Executable and Linkable Format. ELF files are usually the outputs of compilers. They exist in binary format (hence, the gibberish when printed). This format helps the operating system interpret the underlying machine instructions correctly. ELF is not only used for binaries and executables but also object code, shared libraries and core dumps. Any program is first translated by a...</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</guid>
+        
+        <category>ELF</category>
+        
+        <category>Linux</category>
+        
+        <category>Binary</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>How machine translation works</title>
@@ -168,28 +186,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Thermal Imaging</title>
-        <description>&lt;p&gt;Have you ever tried talking to people about Thermal camera .Well, the general response you receive is , “ohh.. , the night vision camera .” If you also have the same notion , you actually don’t know about this wonderful technology.&lt;/p&gt; &lt;p&gt;Although Thermal imaging is used for &lt;strong&gt;night vision&lt;/strong&gt; ,both are not the same, and also ,apart from that thermal imaging has got a much wider area of application, to which people are unaware.&lt;/p&gt; &lt;p&gt;This main aim of this article is to demonstrate the various exiting use of thermal imaging .&lt;/p&gt; &lt;p&gt;Hope, after reading it you would appreciate thermal imaging...</description>
-        <pubDate>Sat, 29 Dec 2018 05:30:01 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/thermal-imaging/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/thermal-imaging/</guid>
-        
-        <category>Computer Vision</category>
-        
-        <category>Thermal Vision</category>
-        
-        <category>Image Processing</category>
-        
-        <category>IR</category>
-        
-        <category>Sensors</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     

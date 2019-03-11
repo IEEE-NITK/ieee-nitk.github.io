@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "ELF Files in Linux",
+      "category" : "Compsoc",
+      "tags"     : "ELF, Linux, and Binary",
+      "url"      : "http://ieee.nitk.ac.in/blog//ELF-Files-in-Linux/",
+      "date"     : "09 Mar 2019",
+      "author"   : "Arpitha Raghunandan"
+    } ,
+  
+    {
       "title"    : "How machine translation works",
       "category" : "CompSoc",
       "tags"     : "Natural Language Processing, Supervised learning, and Machine translation",
