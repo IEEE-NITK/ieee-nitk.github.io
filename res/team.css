@@ -160,6 +160,9 @@ div#particles-js {
     margin: 25px;
     font-size: 1.6em;
 }
+.faculty_section{
+    height: 120%;
+}
 .sub_title h3::after {
     content: "";
     display: block;
@@ -192,6 +195,7 @@ background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, F
     -webkit-justify-content:center;
     margin: 0px auto;
 }
+
 .member_card {
 
     margin: 0px auto;
