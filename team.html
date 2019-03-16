@@ -52,6 +52,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
         <script src="js/team.js"></script>
         <script src="js/particles.js"></script>
+        <script src="js/header.js"></script>
+        <script>
+            $(document).ready(function () {
+                displayHeader();
+            });
+        </script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
         <script>
@@ -62,52 +68,10 @@
         </script>
 
     </head>
-    <body style="background-image: url("img/land.jpg")">
-        <nav class="visible_nav">
-            <a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)">
-                <img id="small_logo" src="res/img/nitk.png" alt="IEEE Logo">
-            </a>
-            <div class="popup_menu">
-                <ul id="menu" class="teco">
-                    <li>
-                        <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a href="compsoc.html">CompSoc</a>
-                    </li>
-                    <li>
-                        <a href="diode.html">Diode</a>
-                    </li>
-                    <li>
-                        <a href="piston.html">Piston</a>
-                    </li>
-                    <li>
-                        <a href="./wie.html">WIE</a>
-                    </li>
-                    <li>
-                        <a href="./sight.html">SIGHT</a>
-                    </li>
-                    <li>
-                        <a href="blog/">Blog</a>
-                    </li>
-                    <li>
-                        <a href="gyan/">Gyan</a>
-                    </li>
-                    <li>
-                        <a href="publications.html">Publications</a>
-                    </li>
-                    <li>
-                        <a href="joinus.html">Join Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="parent">
-                <div class="nav-icon cross">
-                    <div class="span"></div>
-                </div>
-            </div>
+    <body style="background-image: url('img/land.jpg')">
+        <!-- Header Loaded dynamically using the files 'header.json' and 'header.js' -->
+        <nav class="visible_nav" id="header">
         </nav>
-
         <div class="overLay">
             <div class="content sans">
                 <div class="top">

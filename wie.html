@@ -86,52 +86,18 @@
 				
 			}
 		</script>
-
-	</head>
+		<script src="js/header.js"></script>
+    <script>
+		$(document).ready(function () {
+			displayHeader();
+		});
+	</script>
+</head>
 	<body>
-		<nav class="visible_nav">
-			<a class="logo" title="home" href="/"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
-			<div class="popup_menu">
-				<ul id="menu" class="teco">
-					<li data-menuanchor="about">
-						<a href="./index.html">Home</a>
-					</li>
-					<li>
-						<div class="dropdown">
-							<button class="dropbtn">SIGs</button>
-							<div class="dropdown-content">
-							<a href="compsoc.html">Computer Society</a>
-							<a href="diode.html">CAS/SPS</a>
-							<a href="piston.html">Piston</a>
-							<a href="./wie.html">Women in Engineering</a>
-							<a href="./sight.html">SIGHT</a>
-							<a href="ias.html">Industrial Applications Society</a>
-							</div>
-						  </div>
-					</li>
-					<li>
-						<a href="blog/">Blog</a>
-					</li>
-					<li>
-						<a href="gyan/">Gyan</a>
-					</li>
-					<li>
-						<a href="achieve.html">Achievements</a>
-					</li>
-					<li>
-						<a href="publications.html">Publications</a>
-					</li>
-					<li>
-						<a href="joinus.html">Join Us</a>
-					</li>
-				</ul>
-			</div>
-			<div class="parent">
-				<div class="nav-icon cross">
-					<div class="span"></div>
-				</div>
-			</div>
-		</nav>
+		<!-- Header Loaded dynamically using the files 'header.json' and 'header.js' -->
+    <nav class="visible_nav" id="header">
+    </nav>
+    
 		<div class="img_holder teco">
             <div id="particles-js"></div>
 			
@@ -152,9 +118,18 @@
 				<p class="sans">
 				The IEEE NITK WIE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator. Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.
 				</p>
-				
 			</div>
-		
+			<div class="sub_title prociono">
+				<h3>Events</h3>
+				<div class="event">
+					<h4>Athena - Women's Hackathon
+					<center><br><img style="max-width:15vw" src="res/img/athena.jpg" alt="athena"></center>
+					</h4>
+					<p class="sans">
+							A 24 hour hackathon was organized for the girl students of NITK under IEEE WiE Affinity Group NITK in association with Web Enthusiasts Club, NITK. The applications developed were all based on a given topic and they were judged by invited professors on the following day and winners were rewarded.
+					</p>
+				</div>
+			</div>
 		</div>
 		<div class="sidebar">
                 <h4>Chapter Registration Code</h3>

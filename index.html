@@ -62,7 +62,12 @@
     <script src="js/slider.js"></script>
     <script src="js/events.js"></script>
     <script src="js/cta.js"></script>
-
+    <script src="js/header.js"></script>
+    <script>
+		$(document).ready(function () {
+			displayHeader();
+		});
+	</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
     <script>
@@ -113,48 +118,8 @@
 
 </head>
 <body>
-    <nav class="visible_nav">
-        <a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)"><img id="small_logo" src="res/img/nitk.png" alt="IEEE Logo"></a>
-        <div class="popup_menu">
-            <ul id="menu" class="teco">
-                <li>
-                    <a href="team.html">Team</a>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">SIGs</button>
-                        <div class="dropdown-content">
-                        <a href="compsoc.html">Computer Society</a>
-                        <a href="diode.html">CAS/SPS</a>
-                        <a href="piston.html">Piston</a>
-                        <a href="./wie.html">Women in Engineering</a>
-                        <a href="./sight.html">SIGHT</a>
-                        <a href="ias.html">Industrial Applications Society</a>
-                        </div>
-                      </div>
-                </li>
-                <li>
-                    <a href="blog/">Blog</a>
-                </li>
-                <li>
-                    <a href="gyan/">Gyan</a>
-                </li>
-                <li>
-                    <a href="achieve.html">Achievements</a>
-                </li>
-                <li>
-                    <a href="publications.html">Publications</a>
-                </li>
-                <li>
-                    <a href="joinus.html">Join Us</a>
-                </li>
-            </ul>
-        </div>
-        <div class="parent">
-            <div class="nav-icon cross">
-                <div class="span"></div>
-            </div>
-        </div>
+    <!-- Header Loaded dynamically using the files 'header.json' and 'header.js' -->
+    <nav class="visible_nav" id="header">
     </nav>
     <div id="fullpage" full-page options="mainOptions">
         <div class="landing_page section prociono">
