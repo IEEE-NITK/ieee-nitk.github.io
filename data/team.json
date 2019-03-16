@@ -683,7 +683,7 @@
   "email" : "hebbarashwin@gmail.com",
   "name" : "Ashwin Hebbar",
   "year" : "Third Year",
-  "sig" : "Diode",
+  "sig" : "CAS/SPS",
   "github" : "https://github.com/hebbarashwin",
   "interests" : "Digital Electronics and Embedded Systems"
 },
@@ -866,7 +866,472 @@
   "interests": "Signal processing",
   "linkedin": "https://www.linkedin.com/",
   "github": "https://github.com/"
+},
+
+
+{
+  "email": "mailto: gvaibhav1734@gmail.com",
+  "name": "Vaibhav G",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Android, Web development",
+  "linkedin": "https://www.linkedin.com/in/gvaibhav1734",
+  "github": "http://github.com/gvaibhav1734"
+},
+{
+  "email":"mailto:akash30121998@gmail.com@gmail.com",
+  "name": "Akash Nair",
+  "year": "Second Year",
+  "sig": "Compsoc/Media",
+  "interests": "Machine Learning, Web Development, Systems",
+  "linkedin":"https://www.linkedin.com/in/akash-nair-119588161",
+  "github": "http://github.com/nimbus98"
+},
+
+{
+  "email": "rohit.khoja344@gmail.com",
+  "name": "Rohit Khoja",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Machine Learning, analog and digital electronics",
+  "linkedin":"https://www.linkedin.com/in/rohit-khoja-275a71172",
+  "github": "http://github.com/rohitkhoja"
+},
+
+{
+  "email": "mailto:iteesha27@gmail.com",
+  "name": "Iteesha V A",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Nanoelectronics, Analog Electronics,Photovoltaics, Electronic materials",
+  "linkedin": "",
+  "github": "http://github.com/iteesha27"
+},
+
+{
+  "email": "kushaburra99@gmail.com",
+  "name": "kushagra rawat",
+  "year": "Second Year",
+  "sig": "piston",
+  "interests": "aerodynamics, fluids and turbomachinery",
+  "linkedin": "https://www.linkedin.com/in/kushagra-rawat-730584163",
+  "github": "http://github.com/Kushagra"
+},
+
+{
+  "email": "mailto:shanthanu.s.rai9@gmail.com",
+  "name": "Shanthanu S Rai",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Competitive Programming, Systems",
+  "linkedin": "https://www.linkedin.com/in/shanthanu9/",
+  "github": "http://github.com/shanthanu9"
+},
+
+{
+  "email": "mailto:aravindfn51@gmail.com",
+  "name": "Aravind G",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Biomaterials, Superalloys, Microstructure Evolution",
+  "linkedin": "https://www.linkedin.com/in/aravind-g-nitk"
+},
+
+
+{
+  "email": "mailto:deepakkavoor99@gmail.com",
+  "name": "Deepak K",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Cryptography, security, machine learning",
+  "linkedin": "https://www.linkedin.com/in/deepak-k-838a05148/",
+  "github": "http://github.com/deepakkavoor"
+},
+
+{
+  "email": "mailto: suraj8730@gmail.com",
+  "name": "Suraj Jagannath",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Analog Electronics,Renewable Energy systems,Power Electronics",
+  "linkedin": "https://www.linkedin.com/in/suraj-jagannath-b0bb8a174/",
+  "github": "https://github.com/suraj0812"
+},
+
+
+{
+  "email": "mailto: anuragkavista@gmail.com",
+  "name": "Anurag P K",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "Phase Diagrams, Mechanisms, Microstructure of Alloys, Mechanical Properties of Materials",
+  "linkedin": "https://www.linkedin.com/in/anurag-kavista-a3570417a"
+},
+{
+  "email": "mailto:abmanoj99@gmail.com",
+  "name": "Manoj A B",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "CFD, Rheology, Process Modelling, Fuel Cells",
+  "linkedin": "https://www.linkedin.com/in/manoj-a-b-2501b1173",
+  "github": "http://github.com/Immanojab"
+
+},
+
+{
+  "email": "mailto: saur.agarwala@gmail.com",
+  "name": "Saurabh Agarwala",
+  "year": "Second Year",
+  "sig": "CompSoc",
+  "interests": "Development",
+  "linkedin": "https://www.linkedin.com/in/saurabh-agarwala-6ba109165/",
+  "github": "https://www.github.com/SaurabhAgarwala/"
+},
+
+{
+  "email": "mailto:98.arpi@gmail.com",
+  "name": "Arpitha Raghunandan",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Reverse Engineering, Machine Learning and Cryptography",
+  "linkedin": "https://www.linkedin.com/in/arpitha-raghunandan-2b2975166",
+  "github": "http://github.com/arpi-r"
+},
+
+{
+  "email": "mailto:17aakashsingh1999@gmail.com",
+  "name": "Aakash Singh",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Web Security, Machine Learning and Backend Systems",
+  "linkedin": "https://www.linkedin.com/in/aakash-singh-87205662/",
+  "github": "http://github.com/17aakashsingh1999"
+},
+
+{
+  "email": "mailto:avinash.mgsr1998@gmail.com",
+  "name": "Avinash Kumar",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "MEMS/NEMS, Materials, NVH, Vehicle Dynamics, Bio-MEMS, Bio-devices",
+  "linkedin": "https://www.linkedin.com/in/avinash-kumar-458651156",
+  "github": ""
+},
+
+{
+  "email": "mailto:naman356@gmail.com",
+  "name": "Naman Agarwal",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Robotics, Analog electronics",
+  "linkedin": "https://www.linkedin.com/in/naman-agarwal-252982172",
+  "github": "https://github.com/naman356"
+},
+{
+  "email": "mailto:kumar.alabhya@gmail.com",
+  "name": "Kumar Alabhya",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Image processing,Digital Electronics",
+  "linkedin": "https://www.linkedin.com/in/kumar-alabhya-4411b1173",
+  "github": "https://github.com/alabhya01"
+},
+{
+  "email": "mailto:abhinavpy@ieee.org",
+  "name": "Abhinav P Y",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Systems and Security",
+  "linkedin": "https://www.linkedin.com/in/abhinav-p-y-819375155",
+  "github": "http://github.com/abhinavpy"
+},
+
+{
+  "email": "mailto:saharshsonu40@gmail.com",
+  "name": "Kumar Saharsh",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Development,CP",
+  "linkedin": "https://www.linkedin.com/in/kumar-saharsh-767829156/",
+  "github": "https://github.com/saharsh007"
+},
+
+{
+  "email":"mailto:deekshams222@gmail.com",
+  "name": "Deeksha MS",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Signal processing, Image processing, Analog electronics",
+  "linkedin": "https://www.linkedin.com/in/deeksha-ms-189a52166",
+  "github": "http://github.com/deeksha-ms"
+},
+{
+  "email": "rohitmkulkarni648@gmail.com",
+  "name": "Rohit M Kulkarni",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "Machine Learning,Image processing, Electronics ,IOT ",
+  "linkedin":"",
+  "github":"https://github.com/rohmankulkarni"
+},
+
+{
+  "email": "mailto: madhuparnabhowmik04@gmail.com",
+  "name": "Madhuparna Bhowmik",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Machine Learning, Competitive Programming",
+  "linkedin": "https://www.linkedin.com/in/madhuparnabhowmik-91391a14a/",
+  "github": "https://github.com/Madhuparna04"
+},
+
+{
+  "email": "mailto: shaswata11711@gmail.com",
+  "name": "Shaswata Bose",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "MEMS, Vehicle Dynamics",
+  "linkedin": "www.linkedin.com/in/shaswata-bose-382359167",
+  "github": "https://github.com/shaswata11711"
+},
+{
+  "email": "mailto: rohitmp99@gmail.com",
+  "name": "Rohit M P",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Reverse Engineering, Parallel Computing",
+  "linkedin": "https://www.linkedin.com/in/rohit-m-p-836569171/",
+  "github": "https://github.com/rohit-mp"
+},
+{
+  "email": "mailto:siddhartha.15.manju@gmail.com",
+  "name": "Siddhartha M",
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "Development,Networks and Cryptography",
+  "linkedin": "https://www.linkediy.com/in/siddhartha-m-331a6115a",
+  "github":"https://github.com/siddhartha15"
+},
+{
+  "email": "tirthsavla008@gmail.com",
+  "name": "Tirth Savla",
+  "year": "Second Year",
+  "sig": "piston",
+  "interests": "nanotechnology, design",
+  "linkedin": "https://www.linkedin.com/in/tirth-savla-3b339550/",
+  "github": "NA"
+
+},
+{
+"email":"mailto: nisargshah@ieee.org",
+"name": "Nisarg Shah",
+"year": "Second Year",
+"sig": "Piston",
+"interests": "Robotics, Machine Learning",
+"linkedin": "https://www.linkedin.com/in/nisarg-shah-a9276b166",
+"github":"https://github.com/imnisarg"
+},
+{
+  "email":"",
+  "name": "Smit Rambhaiya",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Rahul RL",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},  
+{
+  "email":"",
+  "name": "Smriti",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+}, 
+{
+  "email":"",
+  "name": " Aditi Marathe",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Darren Fernandes",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Anurag Kavista",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Shashwat",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+
+{
+  "email":"",
+  "name": "Preeti",
+  "year": "Second Year",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Deepanshi",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+
+{
+  "email":"",
+  "name": "Anirudh A Aatresh",
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Prithvi Patil", 
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Vishal Shukla", 
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "S R Sahith", 
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Rakshana G", 
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "M Chethan", 
+  "year": "Second Year",
+  "sig": "CAS/SPS",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Govardhan", 
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Govardhan", 
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Nisarg Sanjay Joshi", 
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Prajwal Belagavi", 
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Pranav P", 
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "Tanmai H", 
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github":""
+},
+{
+  "email":"",
+  "name": "T S S Chandana", 
+  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github":""
 }
+
 ],
   "core": [
       {
@@ -968,7 +1433,7 @@
           "email": "mailto:jainvibhore1997@gmail.com",
           "linkedin": "https://www.linkedin.com/in/vibhore-jain-b57022117/",
           "github": "https://github.com/vibhoregit" ,
-          "position": "Diode Secretary"
+          "position": "CAS/SPS Secretary"
       },
       {
           "id": "Sandesh Kanchodu",
@@ -977,7 +1442,7 @@
           "email": "mailto:kanchodusandesh@gmail.com", 
           "linkedin": "",
           "github": "",
-          "position": "Diode Secretary"
+          "position": "CAS/SPS Secretary"
       },
       {   
         "id":"Vasista Ayyagari",
