@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "Solving Switch Riddle using RL",
+      "category" : "Compsoc",
+      "tags"     : "Switch Riddle, Reinforcement Learning, DIAL, and RNN",
+      "url"      : "http://ieee.nitk.ac.in/blog//Solving-Switch-Riddle-using-RL/",
+      "date"     : "28 Feb 2019",
+      "author"   : "Madhuparna Bhowmik"
+    } ,
+  
+    {
       "title"    : "How machine translation works",
       "category" : "CompSoc",
       "tags"     : "Natural Language Processing, Supervised learning, and Machine translation",
