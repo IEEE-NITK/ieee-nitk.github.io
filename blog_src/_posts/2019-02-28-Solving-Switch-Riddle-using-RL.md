@@ -22,21 +22,22 @@ In this article, we will use a Reinforcement Learning based method to solve the 
 
 ## Switch Riddle
 
-There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once then the Warden will free all of them otherwise kill all of them.
+There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once then the Warden will free all of them otherwise kill all of them.
 Except for the prisoner in the room, other prisoners are unaware of the fact that who got selected on that particular day to go to the interrogation room.
 
 ![Switch Riddle](/blog/assets/img/Solving-Switch-Riddle-using-RL/SwitchRiddle.png "Switch Riddle")
 
+
 [Image Source](https://github.com/iassael/learning-to-communicate)
 
-Now, the prisoner in the interrogation room can switch on or off the bulb to send some indication to the next prisoner. He can also tell the warden that everyone has been to the room at least once or decide not to say anything. If his claim is correct, then all are set free otherwise no.
+Now, the prisoner in the interrogation room can switch on or off the bulb to send some indication to the next prisoner. He can also tell the warden that everyone has been to the room at least once or decide not to say anything. If his claim is correct, then all are set free otherwise they are all killed.
 
 ## Problem Formulation
 
-So we see that the switch riddle problem consists of many prisoners trying to establish a single task. Therefore, the puzzle fits in a Multi-Agent setup where the agents are collaborating to complete the task.
-We will use a Reinforcement learning based algorithms called the **DIAL( Differential Inter Agent Learning)** to solve this riddle.
+We can observe that switch riddle problem comprises of multiple agents working towards completing a single task. Therefore, the puzzle fits in a Multi-Agent setup where the agents are collaborating to complete the task.
+We will use a Deep Reinforcement learning based algorithms called the **DIAL( Differential Inter Agent Learning)** to solve this riddle.
 
-The things that we need to define for most of the RL tasks are states, actions, and rewards. So let's formulate these:
+The things that we need to define for most RL problems are states, actions, and rewards. So let's formulate these:
 
 #### State
 The state for each agent or prisoner is whether the agent is in the interrogation room or not, i.e., if the prisoner n is in the room, then he receives a 1 and others 0 for that particular day or time step.
@@ -73,7 +74,6 @@ Test Time - While testing the agents can only communicate with 0 or 1.
 
 The following diagram shows the architecture of the model used in DIAL.
 
-
 ![DIAL](/blog/assets/img/Solving-Switch-Riddle-using-RL/DIAL.png "DIAL")
 
 [Image Source](https://papers.nips.cc/paper/6042-learning-to-communicate-with-deep-multi-agent-reinforcement-learning.pdf)
@@ -91,25 +91,25 @@ While in No-Parameter sharing there are separate networks for each agent.
 
 ### Implementation details -
 
-Following is the model architecture used in the paper -
+Following is the model architecture used in the [original paper](https://papers.nips.cc/paper/6042-learning-to-communicate-with-deep-multi-agent-reinforcement-learning.pdf) -
 
 ![DIAL Architecture](/blog/assets/img/Solving-Switch-Riddle-using-RL/DIALarchitecture.png "DIALarchitecture")
 
 [Image Source](https://papers.nips.cc/paper/6042-learning-to-communicate-with-deep-multi-agent-reinforcement-learning.pdf)
 
-1. Instead of directly giving input observation as 0 or 1 to the neural net, it is passed through an embedding layer.
+1.Instead of directly giving input observation as 0 or 1 to the neural net, it is passed through an embedding layer.
 
-2. The message from the previous agent is passed through a 1-layer MLP before giving it as an input to the RNN.
+2.The message from the previous agent is passed through a 1-layer MLP before giving it as an input to the RNN.
 
-3. The previous actions of the agent and agent id are passed through lookup tables.
+3.The previous actions of the agent and agent id are passed through lookup tables.
 
-4. The final state embedding is given by - 
+4.The final state embedding is given by - 
 
 $$ z^a_t = (TaskMLP(o^a_t) + MLP[|M| , 128 ](m_{t-1}) + Lookup(u^a_{t-1}) + Lookup(a)) $$
 
-5. For better stability and performance a batch normalization layer can be used to preprocess $$ m_{t-1} $$.
+5.For better stability and performance a batch normalization layer can be used to preprocess $$ m_{t-1} $$.
 
-6. $$ z^a_t$$ is processed through a 2-layer RNN with GRUs, $$ h^a_{1,t} =GRU[128, 128] (z^a_t, h^a_{1,t−1}) $$, which is used to approximate the agent’s action-observation history.
+6.$$ z^a_t$$ is processed through a 2-layer RNN with GRUs, $$ h^a_{1,t} =GRU[128, 128] (z^a_t, h^a_{1,t−1}) $$, which is used to approximate the agent’s action-observation history.
 
 7.
 Finally, the output $$ h^a_{2,t} $$ of the top GRU layer, is passed through a 2-layer MLP $$ Q^a_t, m^a_t =MLP[128, 128,(|U| + |M|)](h^a_{2,t})$$.
