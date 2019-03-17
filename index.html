@@ -63,9 +63,11 @@
     <script src="js/events.js"></script>
     <script src="js/cta.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>    
     <script>
 		$(document).ready(function () {
-			displayHeader();
+            displayHeader();
+            displayFooter();
 		});
 	</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -430,16 +432,8 @@
                     <br>
                     <a target="blank" href="http://nitk.ac.in/" title="NITK Surathkal">NITK Surathkal</a>
                 </div> -->
-                <div class="footer-div">
-                    <ul class="footer-links">
-                        <li style="border-left: none"><a href="https://ieeenitk.org">Home</a></li>
-                        <li><a href="sitemap-main.xml">Sitemap</a></li>
-                        <li><a href="mailto:convenor.nitkieee@gmail.com">Contact</a></li>
-                        <li><a href="http://www.ieee.org/accessibility_statement.html">Accessibility</a></li>
-                        <li><a href="http://www.ieee.org/about/corporate/governance/p9-26.html">Nondiscrimination Policy</a></li>
-                        <li><a href="http://www.ieee.org/about/help/security_privacy.html">IEEE Privacy Policy</a></li>
-                        <li><a href="https://ieeebangalore.org/">IEEE Bangalore Section</a></li>
-                    </ul>
+                <div class="footer-div" id="footer">
+                    <!-- Footer loaded dynamically using JS file 'footer.js' and data from 'footer.json' -->
                 </div>
                 <div class="footer-div">
                     <div>
