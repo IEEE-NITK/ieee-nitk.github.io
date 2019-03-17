@@ -144,7 +144,7 @@ nav {
     top: 0px;
     width: 100%;
     white-space: nowrap;
-    height: 8vh;
+    height: 6vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     overflow: visible;
@@ -156,7 +156,7 @@ nav {
     right: 8px;
     line-height: 66px;
     margin-top: 0vh;
-    margin-bottom: 2.7vh;
+    margin-bottom: 2vh;
     width: 160px;
 }
 
