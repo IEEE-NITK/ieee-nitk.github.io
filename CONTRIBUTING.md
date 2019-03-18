@@ -143,7 +143,7 @@ You'll need to install Jekyll on your machine to preview your blog post. Be sure
 
 - After that you need to build your blog to the blog repository by running the following command in the `blog_src` directory.
 ```
-~/All-Projects/ieee-nitk.github.io/blog_src$ jekyll build --destination ../blog
+~/All-Projects/ieee-nitk.github.io/$ jekyll build --source blog_src/ --destination blog/
 ```
 
 - After that serve Jekyll locally by running this command in the root folder of the blog on your terminal: `jekyll serve`
