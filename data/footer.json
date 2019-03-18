@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Home",
-		"link": "index.html"
+		"link": "/"
     },
     {
 		"name": "Sitemap",
@@ -9,7 +9,7 @@
     },
     {
 		"name": "Contact",
-		"link": "mailto:convenor.nitkieee@gmail.com"
+		"link": "mailto:ieee@nitk.edu.in"
     },
     {
 		"name": "Accessibility",
