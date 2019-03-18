@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Mar 2019 17:43:48 +0530</pubDate>
-    <lastBuildDate>Sat, 16 Mar 2019 17:43:48 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Mon, 18 Mar 2019 23:31:04 +0530</pubDate>
+    <lastBuildDate>Mon, 18 Mar 2019 23:31:04 +0530</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>ELF Files in Linux</title>
+        <description>&lt;p&gt;Have you ever tried to print the a.out file generated when you compile your C program? It prints gibberish! Ever wondered how the computer produces a valid, sensible output from this? Read ahead to find out.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;ELF stands for Executable and Linkable Format. ELF files are usually the outputs of compilers. They exist in binary format (hence, the gibberish when printed). This format helps the operating system interpret the underlying machine instructions correctly. ELF is not only used for binaries and executables but also object code, shared libraries and core dumps. Any program is first translated by a...</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</guid>
+        
+        <category>ELF</category>
+        
+        <category>Linux</category>
+        
+        <category>Binary</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Solving Switch Riddle using RL</title>
@@ -168,26 +186,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Intro To The MapReduce Programming Paradigm</title>
-        <description>&lt;p&gt;The following blog is an attempt to explain the map-reduce programming paradigm and some of its practical appliations.&lt;/p&gt; &lt;h3 id=&quot;introduction&quot;&gt;Introduction:&lt;/h3&gt; &lt;p&gt;Over the past few years, many computer scientists at Google have implemented hundreds of special purpose computations that process large amounts of data, such as crawled documents, web request logs, etc., to compute various kinds of derived data. to compute various kinds of derived data, such as summaries of the number of pages crawled per host, the set of most frequent queries in a given day, etc. However, the input data is large and the computations have to distributed across...</description>
-        <pubDate>Sat, 29 Dec 2018 05:30:02 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/</guid>
-        
-        <category>Parallel Computing</category>
-        
-        <category>Big Data Processing</category>
-        
-        <category>Distributed Systems</category>
-        
-        <category>Cloud Computing</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
