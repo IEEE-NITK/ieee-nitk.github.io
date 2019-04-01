@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Home",
+		"link": "/"
+    },
+    {
+		"name": "Sitemap",
+		"link": "sitemap-main.xml"
+    },
+    {
+		"name": "Contact",
+		"link": "mailto:ieee@nitk.edu.in"
+    },
+    {
+		"name": "Accessibility",
+		"link": "http://www.ieee.org/accessibility_statement.html"
+    },
+    {
+		"name": "Nondiscrimination Policy",
+		"link": "http://www.ieee.org/about/corporate/governance/p9-26.html"
+    },
+    {
+		"name": "IEEE Privacy Policy",
+		"link": "http://www.ieee.org/about/help/security_privacy.html"
+    },
+    {
+		"name": "IEEE Bangalore Section",
+		"link": "https://ieeebangalore.org/"
+    }
+]
