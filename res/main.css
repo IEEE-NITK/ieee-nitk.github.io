@@ -712,7 +712,7 @@ h3.event_name.teco {
 
 .member_card {
     width: 100%;
-    height: 16vh;
+    height: 13vh;
     border-bottom: 1px dashed #cdcdcd;
     display: flex;
     display: -webkit-flex;
@@ -721,7 +721,7 @@ h3.event_name.teco {
 .member_card>div {
     display: table-cell;
     vertical-align: middle;
-    height: 16vh;
+    height: 13vh;
     width: auto;
 }
 
