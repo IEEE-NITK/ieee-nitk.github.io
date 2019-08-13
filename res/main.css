@@ -78,8 +78,17 @@ body {
 
 #notif{
     color:white;
-    font-size: 0.5em;
+    font-size: 0.7em;
     text-decoration: solid;
+}
+.notif_link{
+    color:white;
+    font-size: 0.4em;
+    text-decoration: solid;
+}
+.notif_link_href{
+    color:white;
+    font-size: 0.9em;
 }
 
 /*
