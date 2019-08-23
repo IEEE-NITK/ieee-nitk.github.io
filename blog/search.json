@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Research, an informal testimony",
+      "category" : "Piston",
+      "tags"     : "Requirements and Research",
+      "url"      : "http://ieee.nitk.ac.in/blog//Requirements-and-Importance-of-Research/",
+      "date"     : "22 Aug 2019",
+      "author"   : "KV Krishna"
+    } ,
+  
+    {
+      "title"    : "Long Short Term Memory Neural Networks",
+      "category" : "Compsoc",
+      "tags"     : "Recurrent Neural Networks, Long Short Term Memory Neural Networks, and Machine Learning",
+      "url"      : "http://ieee.nitk.ac.in/blog//Long-Short-Term-Neural-Networks/",
+      "date"     : "22 Aug 2019",
+      "author"   : "Akash Nair"
+    } ,
+  
+    {
+      "title"    : "Radar Imaging",
+      "category" : "Diode",
+      "tags"     : "RADARSs, Doppler Processing, and Image",
+      "url"      : "http://ieee.nitk.ac.in/blog//Radar-Imaging/",
+      "date"     : "22 Aug 2019",
+      "author"   : "Rohit Manohar Kulkarni"
+    } ,
+  
+    {
       "title"    : "ELF Files in Linux",
       "category" : "Compsoc",
       "tags"     : "ELF, Linux, and Binary",
@@ -10,12 +37,12 @@
     } ,
   
     {
-      "title"    : "Solving Switch Riddle using RL",
-      "category" : "Compsoc",
-      "tags"     : "Switch Riddle, Reinforcement Learning, DIAL, and RNN",
+      "title"    : "Solving Switch Riddle Using Rl",
+      "category" : "",
+      "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//Solving-Switch-Riddle-using-RL/",
       "date"     : "28 Feb 2019",
-      "author"   : "Madhuparna Bhowmik"
+      "author"   : ""
     } ,
   
     {
@@ -109,30 +136,30 @@
     } ,
   
     {
-      "title"    : "NanoMedicine",
-      "category" : "Piston",
-      "tags"     : "NanoMedicine, Targeted drug delivery, Overlooked advancements, and EPR effect",
+      "title"    : "Nano Medicine",
+      "category" : "",
+      "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//nano-medicine/",
       "date"     : "22 Dec 2018",
-      "author"   : "Manoj A B"
+      "author"   : ""
     } ,
   
     {
-      "title"    : "How Computers learn to play games!",
-      "category" : "Compsoc",
-      "tags"     : "Computer Games, Reinforcement Learning, Monte Carlo Tree Search, and Alpha-Go",
+      "title"    : "How Computers Learn To Play Games",
+      "category" : "",
+      "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//how-computers-learn-to-play-games/",
       "date"     : "22 Dec 2018",
-      "author"   : "Madhuparna Bhowmik"
+      "author"   : ""
     } ,
   
     {
-      "title"    : "GaN: Gate to New era",
-      "category" : "Diode",
-      "tags"     : "galliumnitride, GaN, transistors, wafers, silicon, newsilicon, and technology",
+      "title"    : "Gan",
+      "category" : "",
+      "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//GaN/",
       "date"     : "22 Dec 2018",
-      "author"   : "Vishal Shukla"
+      "author"   : ""
     } ,
   
     {
@@ -163,30 +190,30 @@
     } ,
   
     {
-      "title"    : "NanoMachines",
-      "category" : "Piston",
-      "tags"     : "MEMS, NEMS, Nanotechnology, and Biomedics",
+      "title"    : "Nanomachines",
+      "category" : "",
+      "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//nanomachines/",
       "date"     : "08 Dec 2018",
-      "author"   : "Shaswata Bose"
+      "author"   : ""
     } ,
   
     {
       "title"    : "Gesture Controlled Robot",
-      "category" : "Diode",
-      "tags"     : "Gesture controlled, accelerometer, RF transmitter, RF receiver, and motor driver",
+      "category" : "",
+      "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//gesture-controlled-robot/",
       "date"     : "08 Dec 2018",
-      "author"   : "Deepanshi"
+      "author"   : ""
     } ,
   
     {
       "title"    : "Cloud Gaming",
-      "category" : "Compsoc",
-      "tags"     : "Gaming, Cloud, Google Project Stream, and Nvidia Now",
+      "category" : "",
+      "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//cloud-gaming/",
       "date"     : "08 Dec 2018",
-      "author"   : "Aakash Singh"
+      "author"   : ""
     } ,
   
     {
