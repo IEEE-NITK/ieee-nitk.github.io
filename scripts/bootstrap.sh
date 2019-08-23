@@ -11,8 +11,8 @@ apt-get -y update
 
 # Install ruby with build tools so we can use gems
 apt-get -y install build-essential
-apt-get -y install ruby2.4
-apt-get -y install ruby2.4-dev
+apt-get -y install ruby2.3
+apt-get -y install ruby2.3-dev
 
 # Install Github pages requirements (jekyll)
 sudo gem update --system
