@@ -49,7 +49,7 @@ plugins_dir:
 
 # Gems
 plugins: [jekyll-paginate]
-gems: [jekyll-paginate, jemoji]
+# gems: [jekyll-paginate, jemoji]
 
 # Make 6 articles per page
 paginate: 6
