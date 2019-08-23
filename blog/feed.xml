@@ -5,9 +5,61 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2019 23:31:04 +0530</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 23:31:04 +0530</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Fri, 23 Aug 2019 19:59:13 +0530</pubDate>
+    <lastBuildDate>Fri, 23 Aug 2019 19:59:13 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Research, an informal testimony</title>
+        <description>&lt;h1 id=&quot;research-an-informal-testimony&quot;&gt;Research, an informal testimony&lt;/h1&gt; &lt;p&gt;The feeling of working with the author of textbooks that you first read to learn a subject is something beyond the ability of adjectives to explain. However, it is also the time when you begin to realize what you know is barely a fraction of what exists and that there’s always much more to learn. I am extremely privileged to have spent the summer at Stanford Microfluidics Lab as a UGVRI. Now before getting into more details I’d like you to know a little history and the following content is aimed at leaving you takeaway...</description>
+        <pubDate>Thu, 22 Aug 2019 17:00:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</guid>
+        
+        <category>Requirements</category>
+        
+        <category>Research</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Long Short Term Memory Neural Networks</title>
+        <description>&lt;p&gt;Long Short Term Memory Neural Networks or LSTM Neural Network is a commonly used Recurrent Neural Network model that is most commonly used in tasks like speech recognition, music generation etc. Lets take a deep dive into what Recurrent Neural Networks are and why we need and use LSTMs.&lt;/p&gt; &lt;h1 id=&quot;long-short-term-memory-neural-networks&quot;&gt;Long Short Term Memory Neural Networks&lt;/h1&gt; &lt;h3 id=&quot;recurrent-neural-networks-and-why-lstms&quot;&gt;Recurrent Neural Networks and Why LSTMs?&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; are those Neural Networks that we use to process information that require us to keep informed of previous information. In simpler words, when we want a model to perform a certain category of tasks...</description>
+        <pubDate>Thu, 22 Aug 2019 16:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</guid>
+        
+        <category>Recurrent Neural Networks</category>
+        
+        <category>Long Short Term Memory Neural Networks</category>
+        
+        <category>Machine Learning</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Radar Imaging</title>
+        <description>&lt;h1 id=&quot;radar-imaging&quot;&gt;&lt;strong&gt;RADAR IMAGING&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The World Wars were undoubtedly the worst things to happen to mankind but, they also birthed some ground breaking technology that is till date being used, one such example is the RADAR, acronym for &lt;strong&gt;Radio Detection and Ranging&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;RADARs are a combination of EM transmitters and receivers that can be used to detect the presence of objects in a particular &lt;strong&gt;range&lt;/strong&gt; specified for that RADAR. The principle involved is the reflection of the EM waves off the target and detection by the receiver of the RADAR.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/Radar-Imaging/1.gif&quot; alt=&quot;firstimage&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;The diagram represents a high level representation...</description>
+        <pubDate>Thu, 22 Aug 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Radar-Imaging/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Radar-Imaging/</guid>
+        
+        <category>RADARSs</category>
+        
+        <category>Doppler Processing</category>
+        
+        <category>Image</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>ELF Files in Linux</title>
@@ -28,22 +80,12 @@
       </item>
     
       <item>
-        <title>Solving Switch Riddle using RL</title>
-        <description>&lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once...</description>
+        <title>Solving Switch Riddle Using Rl</title>
+        <description>&lt;p&gt;﻿— layout: post title: “Solving Switch Riddle using RL” author_github: Madhuparna04 date: 2019-02-28 image: ‘/assets/img/’ description: ‘’ tags:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Switch Riddle&lt;/li&gt; &lt;li&gt;Reinforcement Learning&lt;/li&gt; &lt;li&gt;DIAL&lt;/li&gt; &lt;li&gt;RNN categories:&lt;/li&gt; &lt;li&gt;Compsoc github_username: ‘Madhuparna04’ use_math: true comments: false —&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him...</description>
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</guid>
         
-        <category>Switch Riddle</category>
-        
-        <category>Reinforcement Learning</category>
-        
-        <category>DIAL</category>
-        
-        <category>RNN</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
@@ -126,66 +168,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Heard of Smart Contracts yet?</title>
-        <description>&lt;p&gt;Smart contract, also known as a cryptocontract , is a computer program that directly controls the transfer of digital currencies or assets between parties under certain conditions.It not only defines the rules and penalties related to an agreement in the same way that a traditional contract does, but it also automatically enforces those obligations. Smart contract are similar to a contract in the physical world, but it’s digital and is represented by a tiny computer program stored inside a blockchain.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;What’s the main idea behind a Smart Contract?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;strong&gt;Since a smart contract removes reliance on a third party...</description>
-        <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/smart-contracts/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/smart-contracts/</guid>
-        
-        <category>Blockchain 2.0</category>
-        
-        <category>Smart Contract</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Self Healing Materials</title>
-        <description>&lt;p&gt;A breakthrough for bio-inspired technology.&lt;/p&gt; &lt;p&gt;Many natural organisms have the ability to repair themselves. Now, manufactured machines will be able to mimic this property. Researchers have created a self-healing material that spontaneously repairs itself under extreme mechanical damage.&lt;/p&gt; &lt;h2 id=&quot;what-is-biomimicry-&quot;&gt;What is biomimicry ?&lt;/h2&gt; &lt;p&gt;Game-changing ideas begin by seeing the possibility for sustainable life reflected in the living system around us. Biomimicry is an approach to innovation that seeks sustainable solutions to human challenges by emulating nature’s time-tested patterns and strategies. The goal is to create products, processes, and policies which guide us to a new lifestyle that is sustainable and...</description>
-        <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/self-healing-material/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/self-healing-material/</guid>
-        
-        <category>Biochemistry</category>
-        
-        <category>Self Healing Materials</category>
-        
-        <category>Machines</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Photocatalytic Detoxification</title>
-        <description>&lt;h1 id=&quot;photocatalytic-detoxification&quot;&gt;Photocatalytic Detoxification&lt;/h1&gt; &lt;p&gt;The water bodies around the world are regularly dumped with waste water effluents. These contain various organic and inorganic molecules that affect the aquatic life and overall water quality, which is called water pollution. The surprising fact is that quite a lot of purification is caused naturally by the breakdown of these molecules by sunlight. This process can be assisted with colloidal semiconductors to speed up the reaction process and increase the efficiency. The photocatalytic detoxification of wastewater is a process that combines heterogeneous catalysis with solar technologies. Organic compounds such as alcohols,carboxylic acids,amines, herbicides and aldehydes,...</description>
-        <pubDate>Sat, 29 Dec 2018 05:30:03 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</guid>
-        
-        <category>Photochemical Reactions</category>
-        
-        <category>Photo catalysts</category>
-        
-        <category>Catalysis</category>
-        
-        <category>Photo Catalysis</category>
-        
-        <category>Nanotechnology</category>
-        
-        <category>Semiconductors</category>
-        
-        <category>Colloidal semiconductors</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
