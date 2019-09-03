@@ -344,6 +344,11 @@ h4 {
     border-bottom: 1px dashed #CDCDCD;
 }
 
+.athena-images{
+    width: 45%;
+    margin: 0% 1%;
+}
+
 @media only screen and (max-width: 768px) {
     .data_holder {
         width: 100%!important;
