@@ -1,0 +1,32 @@
+I"�<p>Many appliances such as an electric heater, a refrigerator, a CPU etc. have metallic body (casing).If with use the insulation of a wire breaks or melts , the live wire may touch the casing. If we happen to touch the casing carrying a current we may receive a severe shock.</p>
+
+<p><img src="/blog/assets/img/earthing-systems/image001.jpg" alt="image001" /></p>
+
+<p>To avoid this, metal casing of all electrical appliances are earthed.</p>
+
+<p><img src="/blog/assets/img/earthing-systems/image002.jpg" alt="image002" /></p>
+
+<h2 id="what-is-an-earthing-system">What is an earthing system?</h2>
+
+<p>The connection between electrical appliances and devices with the earth plate or electrode through a thick wire of low resistance to provide safety is known as ‘Earthing’ or Grounding.</p>
+
+<p>The main objective of the Earthing system is to provide an alternative path for dangerous currents to flow so that accidents due to electric shock and damage to the equipment can be avoided.</p>
+
+<h2 id="importance-of-earthing">Importance of earthing</h2>
+
+<ul>
+  <li>The earthing protects the personnel from the short circuit current.</li>
+  <li>The earthing provides the easiest path to the flow of short circuit current even after the failure of the insulation.</li>
+  <li>The earthing protects the apparatus and personnel from the high voltage surges and lightning discharge.</li>
+</ul>
+
+<h2 id="types-of-earthing">Types of earthing</h2>
+
+<h3 id="neutral-earthing">Neutral Earthing</h3>
+
+<p>In neutral earthing, the neutral of the system is directly connected to earth by the help of the GI wire.  The neutral earthing is provided in the generator, transformer, motor etc.</p>
+
+<h3 id="equipment-earthing">Equipment Earthing</h3>
+
+<p>Such type of earthing is provided to the electrical equipment. The non-current carrying part of the equipment like their metallic frame is connected to the earth by the help of the conducting wire.</p>
+:ET

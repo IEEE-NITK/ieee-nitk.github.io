@@ -1,0 +1,68 @@
+I"�<p>Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a <strong>Social Engineer!</strong></p>
+
+<p><img src="/blog/assets/img/social-engineering/0.jpg" alt="image" /></p>
+
+<p>Well now that I have said that you are a social engineer let’s see what that really means.
+It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also force people to giving away sensitive information which may cost them or their companies a lot!</p>
+
+<p>It goes by the words <em>“People are the weakest link in security”</em> and this is absolutely true! All the complex security for your systems go void when a social engineering attacks takes place.</p>
+
+<p><img src="/blog/assets/img/social-engineering/1.jpg" alt="image" /></p>
+
+<p>You can find social engineers everywhere. Even your friends sitting next to you concentrating on your keyboard as you type your passwords is a social engineer. It’s just that there is no certification for this thing. So, let’s see the types of social engineering attacks.</p>
+
+<h2 id="types-of-social-engineering">Types of Social Engineering</h2>
+
+<h4 id="1-phishing">1. Phishing</h4>
+
+<p><img src="/blog/assets/img/social-engineering/2.jpg" alt="phishing" /></p>
+
+<p>Phishing is the fraudulent attempt to obtain sensitive information such as usernames, passwords and credit card details by disguising as a trustworthy entity. This mainly uses disguised email or fake website as a weapon.The main goal of this attack is to trick the email recipient into believing that the message is something they want or need for instance a request from their bank to reset their password or a note from someone in their company asking them to download a file infected with malware. It’s one of the oldest types of attacks, dating back to the 1990s, and it’s still one of the most widespread and techniques becoming increasingly sophisticated day by day. It mainly aims to get your personal information.
+It works on the principle that if you cast a large enough net, you are sure to catch a fish.
+The mail is sent to you may contain:</p>
+
+<ul>
+  <li>Request information</li>
+  <li>Download infected files</li>
+  <li>May ask you to visit a compromised site</li>
+</ul>
+
+<p><img src="/blog/assets/img/social-engineering/6.png" alt="phishing" /></p>
+
+<h4 id="2-pretexting">2. Pretexting</h4>
+
+<p><img src="/blog/assets/img/social-engineering/3.jpg" alt="pretexting" /></p>
+
+<p>A fictional situation is created for the purpose of obtaining personal and sensitive information from an unsuspecting individual. It usually involves researching a target and making use of his data for impersonation or manipulation. An important aspect of pretexting is establishing a target’s trust.
+Attackers can impersonate co-workers, police officers, bankers, tax authorities, insurance investigators, etc. A simpler way to put is that anyone who can be perceived as having right-to-know the information by the target. The attacker only needs to prepare answers to questions that might be asked by the target. Most of the times, an authoritative voice, an earnest tone, and an ability to think on one’s feet are all that is needed to create a pretextual scenario.</p>
+
+<h4 id="3-baiting">3. Baiting</h4>
+
+<p><img src="/blog/assets/img/social-engineering/4.jpg" alt="baiting" /></p>
+
+<p>As you guys might have guessed, it’s the act of promising something good in return of some action or information. Attackers may offer users free music or movie or game downloads, if you give them login credentials to a certain site. Attackers can also focus on exploiting human curiosity via the use of physical media.</p>
+
+<p>Now let’s see how this attack can be done?
+Let’s take an industrial scenario – with the end goal of infiltrating a company’s network, the attacker may distribute flash drives infected with malware to employees, hoping that the hardware will be inserted into network-connected systems as the means to spread malicious code. Perhaps the innocent-looking devices are in a basket of freebies placed in the company lobby. These devices can be placed strategically so a targeted person will take the bait. The devices may be marked with intriguing labels link “Confidential” or “Salary” to tempt the people to open the files. The employ may take the bait and insert the device into the system connected to the network and Voilà !</p>
+
+<h4 id="4-quid-pro-quo">4. Quid Pro Quo</h4>
+
+<p><img src="/blog/assets/img/social-engineering/7.PNG" alt="quid-pro-quo" /></p>
+
+<p>Quid Pro Quo Attacks promise a benefit in exchange for information. The benefit usually assumes as a form of service, baiting usually takes the form of a good.It can be considered as a request for your information in exchange for some compensation. If it sounds too good to be true, it probably is quid pro quo…</p>
+
+<h4 id="5-tailgating">5. Tailgating</h4>
+
+<p><img src="/blog/assets/img/social-engineering/5.jpg" alt="tailgating" /></p>
+
+<p>Entering a building directly behind someone who has used their identity for access.It takes advantage of the people being courteous. For example: A person impersonates a delivery driver and waits outside a building. When an employee gains security’s approval and opens their door, the attacker asks that the employee ‘hold the door’, thereby gaining access through someone who is authorized to enter the company</p>
+
+<p>I’ll share some links for you guys to see how big damage these simple attacks can make. Do have a read :</p>
+
+<ul>
+  <li><a href="https://www.csoonline.com/article/2123704/fraud-prevention/social-engineering--anatomy-of-a-hack.html?page=1">Social Engineering: Anatomy of a Hack</a></li>
+  <li><a href="https://heimdalsecurity.com/blog/12-true-stories-that-will-make-you-care-about-cyber-security/">Top 12 security breaches</a></li>
+  <li><a href="https://www.wired.com/story/yahoo-breach-three-billion-accounts/">Yahoo data breach</a></li>
+  <li><a href="https://www.thequint.com/news/webqoof/amazon-online-discount-scam-on-whatsapp">Don’t fall for this scam</a></li>
+</ul>
+:ET
