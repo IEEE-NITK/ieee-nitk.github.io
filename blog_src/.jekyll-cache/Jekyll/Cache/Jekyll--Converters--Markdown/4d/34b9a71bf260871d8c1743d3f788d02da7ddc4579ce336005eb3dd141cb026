@@ -1,0 +1,161 @@
+I"�K<h2 id="introduction">Introduction</h2>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/1.jpeg" alt="Li-Fi Visual" /></p>
+
+<p>Wouldn’t it be interesting if we could use our everyday LED bulbs as the transmitters of data for wirelessly accessing the internet, instead of Wi-Fi Routers or Cellular Networks? Li-Fi is a technology that does exactly that. Li-Fi was unveiled by <em>Dr. Harald Haas</em> in his iconic 2011 TED Talk entitled <a href="https://www.youtube.com/watch?v=NaoSp4NpkGg">Wireless data from every light bulb</a>, where he demonstrated Li-Fi in public for the first time. Li-Fi (which is an acronym for <strong>Light Fidelity</strong>), is a light-based communication system that is capable of transmitting data at high speeds over the visible, ultraviolet, and infrared spectrums, in contrast with conventional wireless data communication methods (such as Wi-Fi, 4G, etc.) that use the radio frequency spectrum for data transmission.</p>
+
+<p>Li-Fi is a subset of Optical Wireless Communications (<strong>OWC</strong>). However, the uniqueness of Li-Fi is brought out in the fact that the same light energy used for illumination, may also be used for communication!</p>
+
+<p>The use of visible light to transmit data allows Li-Fi to offer several advantages - most notably, a wider bandwidth channel (the visible light spectrum is 2,600 times larger than the entire radio frequency spectrum), the ability to safely and reliably transmit data in areas susceptible to electromagnetic interference due to radio waves (e.g. in aircraft cabins, hospitals, nuclear power plants and many more), and to offer higher transmission speeds (researchers at The University of Oxford and University College, London recently achieved speeds of <strong>224 Gigabits/Second</strong> using Li-Fi!).</p>
+
+<h2 id="how-it-works">How It Works</h2>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/2.jpg" alt="A demo of Li-Fi Communication" /></p>
+<blockquote>
+  <p>Credits: <a href="https://www.weforum.org/agenda/2015/10/could-li-fi-be-the-future-of-the-internet/">https://www.weforum.org/agenda/2015/10/could-li-fi-be-the-future-of-the-internet/</a></p>
+</blockquote>
+
+<p><em>LED’s</em> are light sources based on semiconductors which can amplify and switch their light intensity rapidly (within nanoseconds, in fact); therefore, LED cells can modulate a massive number of signals per second without the human eye even noticing! Since a robust Li-Fi system requires extremely high rates of light output, this makes LED bulbs ideal for implementing Li-Fi transmission. Communication using Li-Fi is just as seamless as other radio systems, allowing the users to be connected wherever there is Li-Fi enabled light.</p>
+
+<p>The changes in light intensity from the LED light source are interpreted by the receiving <strong>photodiode</strong> device. Once the electronic signal is demodulated, it is converted into a continuous stream of binary data, which is then transferred to the target device.</p>
+
+<p>A helpful <em>infographic</em> illustrating the working of Li-Fi is attached below:</p>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/3.png" alt="How Li-Fi Works?" /></p>
+<blockquote>
+  <p>Credits:<a href="https://www.cdnsol.com/blog/li-fi-light-based-communication-technology/">https://www.cdnsol.com/blog/li-fi-light-based-communication-technology/</a></p>
+</blockquote>
+
+<p>You can also watch a live demo of the technology <a href="https://youtu.be/NaoSp4NpkGg?t=349">here</a></p>
+
+<p>A few questions may pop into your mind when first encountering Li-Fi:</p>
+
+<ol>
+  <li>
+    <p>You may wonder if you’ll need to keep your lights on all the time if you wish to stay connected. The answer is yes. However, due to their very sensitive communication link and great signal to noise ratio, the Li-Fi LEDs can be dimmed to <strong>below human visibility</strong> while still emitting enough light to carry data!</p>
+  </li>
+  <li>
+    <p>You may ask if it’s just a <em>line-of-sight technology</em> that requires the communicating sender and receiver to have direct visiblity of one another. The answer to this is not really, because any light-transmitting path that exists between the transmitter and receiver can support a Li-Fi link, including reflections from a wall, ceiling or floor. Recently, it has been demonstrated that a signal reflected off a wall can achieve transmit speeds of upto <strong>70 Mbits/sec</strong>.</p>
+  </li>
+  <li>
+    <p>What might happen if the light beam is <em>temporarily blocked</em>, or say, if we wish for our mobile devices to be connected to the internet when it’s in our pocket and all external light sources are blocked-off. The answer to this is that it is not necessary for Li-Fi to be the sole active network transmission link at all times: it can work alongside other systems. Currently, mobile devices can transfer between a variety of different communication protocols such as Wi-Fi, 4G, 3G, etc. Li-Fi can <strong>seamlessly</strong> be integrated with this available stack of communication protocols - when a Li-Fi link is available, it can be used in preference to other links, due to its higher transmission rates.</p>
+
+    <p>But, think about it - a lot of the times you require high data transfer rates (for example, watching an ultra-HD Youtube video) are inevitably the exact times when you are using the device and it’s in range of a light source within the surroundings. So, more often than not, a Li-Fi signal will usually be available when it is most required.</p>
+  </li>
+  <li>
+    <p>You may be curious about whether other light sources in the room, or say something like strong sunlight, could interfere with Li-Fi communications. Li-Fi relies on detecting rapid changes in light intensity and not on the absolute amount of light falling on it. This means that constant or slowly-varying sources of light can be filtered out. Different room-lighting scenarios have been modelled and tested while a Li-Fi link has been established; it has been shown that it is possible to achieve <em>optimum lighting</em> as well as a <em>clean Li-Fi reception</em> simultaneously in a variety of different scenarios. Li-Fi receivers have also been tested outdoors when exposed to 77,000 lux of sunlight.</p>
+  </li>
+  <li>
+    <p>Finally, you may wonder if Li-Fi is suitable for <em>downloads only</em> - that is, is it also possible for our devices that are receiving data to also send data? 
+Since Li-Fi is not restricted to visible light for communications, uplink communication can be efficiently done using the infrared spectrum. In 2018, Harald Haas (the inventor of Li-Fi) and his team conducted an experiment in which data was sent at a speed of 1.1 Gbps over a distance of 10 m with an LED of only <strong>4.5 mW</strong> optical output power!</p>
+  </li>
+</ol>
+
+<h2 id="its-advantages-over-conventional-information-transfer-methods">Its Advantages over Conventional Information Transfer Methods</h2>
+
+<p>Li-Fi has the advantage of being useful in electromagnetic sensitive areas such as in aircraft cabins, hospitals and nuclear power plants (where RF-based communications are heavily restricted), without causing electromagnetic interference.</p>
+
+<p>Both Wi-Fi and Li-Fi transmit data over the electromagnetic spectrum, but whereas Wi-Fi utilizes radio waves, Li-Fi uses visible, ultraviolet and infrared waves. This is advantageous because the US Federal Communications Commission has warned of a potential <strong>spectrum crisis</strong> caused by Wi-Fi being close to full capacity. Li-Fi has almost no limitations on capacity, since the entire visible light + infrared spectrum is about 2,600 times larger than the entire radio frequency spectrum.</p>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/4.jpg" alt="Electromagnetic Spectrum" /></p>
+<blockquote>
+  <p>Credits:<a href="https://www.sciencedirect.com/science/article/pii/S2405428317300151">https://www.sciencedirect.com/science/article/pii/S2405428317300151</a></p>
+</blockquote>
+
+<p><strong>Security:</strong> Since LiFi makes use of the visible light spectrum, it cannot penetrate through optically opaque objects like walls, thus adding another level of defense against unauthorised access (RF-based communication waves can easily pass through walls). Also, the existing security protocols for encryption and authentication in other types of communications can be be applied to Li-Fi systems too.</p>
+
+<p><strong>Speed &amp; Bandwidth:</strong> At the current state-of-the-art, Li-Fi can deliver multiple Gbps of speed in mobile devices. This next generation technology will drive wireless beyond any current capability, opening up unprecedented bandwidth. With a single LED, peak transmission speeds of <strong>8 Gbps</strong> have been recorded.</p>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/5.jpeg" alt="Li-Fi faster than Wi-Fi" /></p>
+<blockquote>
+  <p>Credits:<a href="https://technicalera21.blogspot.com/2018/12/li-fi-100-times-faster-than-wifi.html">https://technicalera21.blogspot.com/2018/12/li-fi-100-times-faster-than-wifi.html</a></p>
+</blockquote>
+
+<p><strong>Reliability and Low Latency:</strong> Li-Fi provides <em>enhanced reliability</em> enabling interference-free communications. It currently offers latency that is a factor of three times lower than Wi-Fi, which can help enable automation and applications such as Augmented Reality and Virtual Reality.</p>
+
+<p><strong>Interference Free:</strong> Conventional RF is vulnerable to interference from a wide range of devices such as cordless land-line phones, microwaves and neighbouring Wi-Fi networks. Li-Fi signals can be restricted to the <em>area of illumination</em>, which means that interference is much simpler to avoid.</p>
+
+<h2 id="commercial-implementations-of-li-fi-technology">Commercial Implementations of Li-Fi Technology</h2>
+
+<ol>
+  <li>
+    <p><strong>pureLiFi</strong> is a manufacturing firm co-founded by the inventor of Li-Fi to commercialize Li-Fi products for their integration with existing LED-lighting systems. It is currently at the forefront of production of Li-Fi related products. pureLiFi demonstrated the first commercially available Li-Fi system, the Li-1st, at the 2014 Mobile World Congress in Barcelona.</p>
+
+    <p>Since then, the company has gone through multiple iterations of products, each generation improving upon the drawbacks of the previous. Currently, the latest products developed by pureLiFi are the <a href="#further-readings-and-resources">LiFi-XC</a> and the <a href="#further-readings-and-resources">Gigabit Li-Fi Mobile Integration</a>.</p>
+
+    <p>You can have a look at the history of Li-Fi products developed by pureLiFi <a href="http://purelifi.com/legacy-products/">here</a></p>
+  </li>
+  <li>
+    <p>A <strong>BMW</strong> manufacturing plant located in Munich, Germany <a href="https://www.eenewseurope.com/news/li-fi-passes-industrial-test-bmws-robotic-tools">tested</a> the operation of Li-Fi in an industrial environment with mobile robots, and the results were very positive. In fact, BMW’s project manager hopes for the scaling-down of Li-Fi transceivers for its widespread adoption in manufacturing plants.</p>
+  </li>
+  <li>In August 2018, Kyle Academy, a secondary school in Scotland, trialed Li-Fi within the school. Eight LiFi-enabled LED ceiling bulbs using rapid on-off patterns were set up to transmit data to USB Li-Fi receivers plugged into the students’ laptops.
+<img src="/blog/assets/img/a-comprehensive-guide-to-lifi/6.jpg" alt="Scotland School Li-Fi Test" />
+    <blockquote>
+      <p>Credits:<a href="https://www.fibre-systems.com/news/lifi-technology-piloted-scotland-s-south-ayrshire-school">https://www.fibre-systems.com/news/lifi-technology-piloted-scotland-s-south-ayrshire-school</a></p>
+    </blockquote>
+  </li>
+  <li>Recently, in June 2019, French company Oledcomm tested their Li-Fi technology at the 2019 Paris Air Show. Oledcomm hopes to collaborate with Air France in the future to test Li-Fi on an aircraft in-flight. In-flight internet (on the infrequent even that it is offered) is often unreliable and slow. Oledcomm wants to take things up a notch by making high-speed LiFi available on Air France and KLM flights, promising in-cabin bandwidths of 100Mbps. Currently, even the fastest WiFi available on domestic airlines in the US stalls at around 15 Mbps. The actual implementation of the the technology, named LiFiMAX, should be available on Air France flights by the end of the year. <a href="https://www.youtube.com/watch?v=71Td0HQ7lx0">Here’s a link</a> to a demo of the technology.</li>
+</ol>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/7.jpg" alt="Li-Fi in Airplanes" /></p>
+<blockquote>
+  <p>Credits: <a href="https://www.fasttracks.eu/li-fi-technology-how-it-works-and-its-applications/">https://www.fasttracks.eu/li-fi-technology-how-it-works-and-its-applications/</a></p>
+</blockquote>
+
+<p>Using Li-Fi, aircraft passengers can access high-speed internet via lights fitted over their seats. Li-Fi can also be used to integrate the In-Flight Entertainment System with the passengers’ smartphones. Oledcomm also a manufactures a <a href="https://www.oledcomm.net/our-products/#1529847210185-42f3d5b8-a603">range of Li-Fi devices</a>, such as Li-Fi enabled desk lamps, hospital lights and street lights.</p>
+
+<h2 id="current-limitations">Current Limitations</h2>
+
+<p>Every new technology has its limitations, and Li-Fi is no exception. A few of the major drawbacks of Li-Fi are:</p>
+
+<ul>
+  <li>Opaque obstacles on pathways can affect data transmission. The main problem is that light cannot pass through objects - so if the receiver is blocked in any way, then the high-speed Li-Fi signal will immediately disappear.</li>
+  <li>Unlike radio waves, light waves do not penetrate through walls and so Li-Fi may potentially have a shorter range compared to Wi-Fi. While this does help improve security, it may also prove to be an annoyance at times.</li>
+  <li>We still need RF-based Wi-Fi and Cellular Communications, since we cannot have a light bulb that provides data to high-speed moving objects and in other such scenarios where the scope of using of Li-Fi is non-ideal</li>
+</ul>
+
+<h2 id="conclusion-and-future-scope">Conclusion and Future Scope</h2>
+
+<p>There is plenty of scope for innovation in the field of Li-Fi communications. Like conventional broadband and Wi-Fi, Li-Fi can also function as a bidirectional communication system. Currently, research is being done looking into using multi-colored <strong>RGB</strong> (Red - Green - Blue) LED’s at retina size to send and receive a wider range of signals than single-colored white LED’s.</p>
+
+<p>Li-Fi is an innovative technology that is poised to impact many industries. It can unlock the IoT and <a href="https://www.spotlightmetal.com/iot-basics-what-does-industry-40-mean-a-842216/">Industry 4.0</a> applications, enable communication between intelligent transport systems, enhance road safety with the driverless car revolution, create secure wireless networks, and can aid in health monitoring of the elderly.</p>
+
+<p>In the not-too-far future, it isn’t difficult to imagine the modest LED lightbulb serving a multitude of applications - it will be an integral part of the emerging smart cities and smart homes. This could possibly lead to the merging of the lighting industry with the wireless industry. However, an important prerequisite for the large-scale adoption of any technology is the availability of standards. In this regard, the IEEE <em>802.11bb</em> Task Force for the development of a Global Standard for Li-Fi Communication was set-up in 2018.</p>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/8.jpg" alt="Generations of Cellular Communications" /></p>
+<blockquote>
+  <p>Credits:<a href="https://ars.els-cdn.com/content/image/1-s2.0-S2405428317300151-gr8.jpg">https://ars.els-cdn.com/content/image/1-s2.0-S2405428317300151-gr8.jpg</a></p>
+</blockquote>
+
+<p>Although there’s still a long way to go to make this technology a commercial success, it promises a great potential in the field of wireless internet. The commercial deployment of Li-Fi will result in inexpensive and fast internet service world-wide.  Widespread migration to cleaner, greener and safer communication networks such as Li-Fi will have a positive impact on the current global climate crisis too.</p>
+
+<h2 id="further-readings-and-resources">Further Readings and Resources</h2>
+
+<p><a href="https://purelifi.com/wp-content/uploads/2019/04/Why-Design-In-Gigabit-LiFi-pureLiFi.pdf">Gigabit Li-Fi integration into our smartphones</a></p>
+
+<p><img src="/blog/assets/img/a-comprehensive-guide-to-lifi/9.png" alt="Gigabit Li-Fi integration into our smartphones" /></p>
+
+<p><a href="https://www.youtube.com/watch?v=yzWNB9CkpmA">LiFi-XC: The current state-of-the-art amongst consumer-oriented LiFi devices</a><br />
+<a href="https://www.lificongress.com/Press-release-93-2.html">Press Release of the Global LiFi Congress 2019</a><br />
+<a href="https://www.youtube.com/watch?v=1JxImoxlq_Q">A small-scale DIY Li-Fi tutorial</a><br />
+<a href="https://www.youtube.com/watch?v=iHWIZsIBj3Q">Integrating Li-Fi receivers in Solar Cells</a><br />
+<a href="https://www.youtube.com/watch?v=ybK9AgRey1o">Gigabit Li-Fi demonstration</a><br />
+<a href="https://www.researchgate.net/publication/279530585_Li-Fi_Technology_Data_Transmission_through_Visible_Light">A deeper dive into the technical aspects of Li-Fi</a><br />
+<a href="https://www.oledcomm.net/">Li-Fi products by Oledcomm</a></p>
+
+<h2 id="references">References</h2>
+
+<p><a href="https://purelifi.com/faq/how-does-lifi-work/">https://purelifi.com/faq/how-does-lifi-work/</a><br />
+<a href="https://www.lifi-centre.com/about-li-fi/faqs/">https://www.lifi-centre.com/about-li-fi/faqs/</a><br />
+<a href="https://en.wikipedia.org/wiki/Li-Fi">https://en.wikipedia.org/wiki/Li-Fi</a><br />
+<a href="http://www.axrtek.com/how-does-liFi-work.html">http://www.axrtek.com/how-does-liFi-work.html</a><br />
+<a href="http://tec.gov.in/pdf/Studypaper/lifi%20study%20paper%20-%20approved.pdf">http://tec.gov.in/pdf/Studypaper/lifi%20study%20paper%20-%20approved.pdf</a><br />
+<a href="https://www.youtube.com/watch?v=iHWIZsIBj3Q">https://www.youtube.com/watch?v=iHWIZsIBj3Q</a><br />
+<a href="https://www.fibre-systems.com/news/lifi-technology-piloted-scotland-s-south-ayrshire-school">https://www.fibre-systems.com/news/lifi-technology-piloted-scotland-s-south-ayrshire-school</a><br />
+<a href="https://www.sciencedirect.com/science/article/pii/S2405428317300151">https://www.sciencedirect.com/science/article/pii/S2405428317300151</a><br />
+<a href="https://purelifi.com/lifi-technology/">https://purelifi.com/lifi-technology/</a><br />
+<a href="https://www.archlighting.com/technology/li-fi-high-speed-communication-via-led-modulation_o">https://www.archlighting.com/technology/li-fi-high-speed-communication-via-led-modulation_o</a><br />
+<a href="https://purelifi.com/lifi-misconceptions/">https://purelifi.com/lifi-misconceptions/</a><br />
+<a href="https://www.archlighting.com/technology/li-fi-high-speed-communication-via-led-modulation_o">https://www.archlighting.com/technology/li-fi-high-speed-communication-via-led-modulation_o</a></p>
+
+:ET

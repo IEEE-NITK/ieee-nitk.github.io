@@ -1,0 +1,66 @@
+I"ò<p><strong>Varistor</strong></p>
+
+<p>The name itself might have given you some idea about what it is, varistor stands for variable resistor</p>
+
+<p><strong>What is a varistor?</strong></p>
+
+<p>Varistor is a varying resistor whose resistance depends on applied voltage,one of the special features of varistor is that it possesses non ohmic characteristics, which defines themselves as a non linear type of resistors</p>
+
+<p>It has two semiconductor elements fixed in a particular fashion (i.e. anti-parallel to each other) as to provide same characteristics for both directions of traversing current</p>
+
+<p>Its composition might have provided you with the insight that as it is made of semiconductor, itâ€™s resistance will decrease as voltage across it increases</p>
+
+<p>Its symbol is</p>
+
+<p><img src="/blog/assets/img/Varistor/1.png" alt="Image1" /></p>
+
+<p>One of the major applications of varistors is its ability to suppress voltage transients in the cut</p>
+
+<p>Voltage transient - short duration surges of electrical energy that are result of sudden release of energy that are previously stored or induced by other means, such as heavy inductive loads or lightning</p>
+
+<p><strong>Waveform of AC Transient</strong></p>
+
+<p><img src="/blog/assets/img/Varistor/2.jpg" alt="Image2" /></p>
+
+<p>The above characteristics might actually lead you to think that varistor behaves like a potentiometer or a rheostat</p>
+
+<p>Two characteristics that makes varistor a different entity is</p>
+
+<p>i) resistance cannot be changed manually</p>
+
+<p>ii) resistance decreases with increase in voltage</p>
+
+<p><strong>Varistor vs voltage graph</strong></p>
+
+<p><img src="/blog/assets/img/Varistor/3.jpg" alt="Image3" /></p>
+
+<p><strong>Working of a varistor</strong></p>
+
+<p>As I have already told that its characteristics are similar to that of Zener diode, its V-I characteristics are also similar to that Zener diode</p>
+
+<p><strong>V-I characteristics of varistor</strong></p>
+
+<p><img src="/blog/assets/img/Varistor/4.png" alt="image4" /></p>
+
+<p>As the varistor operates in first and third quadrant, it makes it a suitable device to connect it in a circuit with AC or DC source</p>
+
+<p>As the voltage increases above the clamping voltage, there is an abrupt increase in current</p>
+
+<p>This helps during voltage transients, as when the circuit experiences high transient voltage, the voltage across the varistor increases, to a value greater than its clamping voltage, which in turn increases the current and acts as a conductor, it basically acts like a self-regulator at the event of voltage transient keeping the voltage input in check</p>
+
+<p>Steep nonlinear curve indicates excessive currents can be passed through varistor over narrow range of voltage</p>
+
+<p><strong>Capacitance of varistor</strong></p>
+
+<p>A varistor in non-conducting state acts like a capacitor more than a resistor</p>
+
+<p>Non-conducting state-the voltage applied across the varistor is less than the clamping voltage</p>
+
+<p>Since the semiconductor body of the Varistor acts like an insulator during its insulating state, it can be regarded as the dielectric material, while the two terminals can be regarded as the two electrodes</p>
+
+<p><strong>Types of Varistor</strong></p>
+
+<p>Silicon carbide varistor</p>
+
+<p>Metal oxide varistor</p>
+:ET

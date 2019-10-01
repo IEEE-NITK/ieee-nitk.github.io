@@ -1,0 +1,76 @@
+I"�<p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games?
+How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go?
+Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
+
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/chess.jpg" alt="Chess" title="Chess" /></p>
+
+<p>There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.</p>
+
+<h2 id="naive-tree-search">Naive Tree Search</h2>
+
+<p>Let’s start with a simple and naive approach by which the computer can take decisions. It is by looking at all possible states and choosing the best action to take. That is, make a tree with all possible states and next states and go to the leaves to find out if a move will lead to winning state or not and select an action accordingly.</p>
+
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/decision_tree.png" alt="Game Tree" title="Game Tree" /></p>
+
+<p>But, this technique cannot be used for games where there is a huge number of states, that it is practically impossible for a computer to examine all the states before taking a decision. For example, there are more than <strong>5000 states</strong> in the game of Tic-Tac-Toe, which is a <strong>3 X 3</strong> board game. Whereas Chess is an <strong>8 X 8</strong> board game and Go can have a <strong>19 X 19</strong> board. Therefore these games with billions of states cannot be solved by any such brute force approach where examining each state is required.</p>
+
+<h2 id="monte-carlo-tree-search">Monte Carlo Tree Search</h2>
+
+<p>Monte-Carlo Tree Search can be only used for games where we have perfect information about the game that is we know about all the actions that were previously taken and can be taken in future. It is applicable to games like Go, Chess or Tic-Tac-Toe. So, what the computer does in Monte Carlo Tree Search is it repeats these 4 steps</p>
+
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Monte-Carlo-Tree-Search.png" alt="Monte-Carlo Tree search" title="Monte-Carlo Tree search" /></p>
+
+<h4 id="1select--">1)Select -</h4>
+<p>In this step the computer starts with a root node(state) and selects the next node based on the current policy. A policy is a function that dictates what actions to take given a state.</p>
+
+<h4 id="2expand--">2)Expand -</h4>
+<p>When the policy can no longer choose an action with confidence to find the successor node, it expands the game tree by appending all possible states from that node or a few let’s say 10 or 100 states chosen by randomly trying out certain number of actions, this is done when the number of next possible states is huge.</p>
+
+<h4 id="3simulate--">3)Simulate -</h4>
+<p>Then from the appended nodes, it simulates a random game to find out how good it is to go to that state.</p>
+
+<h4 id="4backpropagation--">4)Backpropagation -</h4>
+<p>Then it traverses upwards back to the root and updates the score for all visited nodes.</p>
+
+<p>These four steps are repeated again and again until the computer has learned enough to actually play the game.</p>
+
+<h2 id="learning-to-play-games-using-reinforcement-learning">Learning to play games using Reinforcement Learning</h2>
+
+<p>There are various algorithms that come under Reinforcement Learning Algorithms. Each suitable for a different purpose. The basic idea behind Reinforcement Learning is, as the name suggests, making the computer play the game again and again and learn from its own experience.
+In order to give you intuition on how Reinforcement Learning can be used for games with a huge state space let me define two new terms.</p>
+
+<p><strong>1. State Value Function</strong> - Given a state this function tells how good it is to be in that state.</p>
+
+<p><strong>2. Action Value Function</strong> - Given an action and a state, this function tells how good it is to take that action from the given state.</p>
+
+<p>The basic idea is to learn the value functions and use it to choose the best action.
+Consider the following diagram-</p>
+
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" title="Backup diagram for value function" /></p>
+
+<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following<a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html"> blog post</a> to get a better understanding of how this algorithm works.).</p>
+
+<h4 id="but-how-is-it-dealing-with-the-problem-of-a-huge-number-of-states">But how is it dealing with the problem of a huge number of states?</h4>
+
+<p>The answer is the computer is not really going through all the possible states but still learning an approximate way to figure out the best actions to take. There are many states in the state-space which occur very rarely or is too poor to begin with, that there is no point going all the way down from that state and calculating everything when there are very fewer chances of encountering that state or there is no way it can get you a better reward.
+But as our computer plays multiple games it will surely go through most of the frequently occurring and promising states and will know how to behave in those situations.</p>
+
+<h2 id="alpha-go">Alpha-Go</h2>
+
+<p>Recently Google’s Alpha-Go zero defeated Go’s World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.</p>
+
+<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" title="Lee Sedol playing with Alpha-Go" /></p>
+
+<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong> 
+There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.
+Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I hope you enjoyed this dive into the World of computer games and got to know some of the technical details too. You can go through the following links to know more about these topics.</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=onBYsen2_eA">Video lectures on Monte Carlo Tree Search</a></li>
+  <li><a href="https://www.tastehit.com/blog/google-deepmind-alphago-how-it-works/">More about Alpha-Go</a></li>
+</ul>
+:ET

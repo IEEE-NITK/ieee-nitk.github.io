@@ -1,0 +1,24 @@
+I"�
+<p>﻿</p>
+<blockquote>
+  <p>“Hey Siri, What’s my schedule for today”<br />
+“Hey Cortana, when is my appointment with the dentist today”</p>
+</blockquote>
+
+<p>These are a few phrases that we use casually from day to day in order to make our life a tad bit easier.  In this time of rapid advances in AI and Machine learning Chatbots are one avenue that has been ushered into reality by this magical paradigm that has been growing by leaps and bounds in the past few years. But what if Chatbots can be a vital link in another field that is rapidly gaining traction, namely IoT.</p>
+
+<p><img src="/blog/assets/img/chatbots/1.png" alt="chatbot" /></p>
+
+<h3 id="what-is-a-chatbot">What is a Chatbot?</h3>
+
+<p>A Chatbot put in simple terms is a computer program that can have a conversation with a human, that is it simulates conversations with human users. Chabot’s use a dialog system to have a conversation with a human.<br />
+The first step is converting human input into an understandable context for the Chatbot. This is done through input recognizers and decoders, which can analyze speech, text and even gestures. The next step is applying <em>Natural Language Processing</em> to check the user input and analyze the meaning of what he/she has said or written. All the while the input is managed and processed by a dialog manager to ensure a proper exchange of information from and to the user.</p>
+
+<h3 id="neural-networks">Neural Networks</h3>
+
+<p>Neural networks are one of the prime algorithms that are used by Chatbots to get as close as it can to mimicking a human while in conversation with a human participant. They consist of different layers for analyzing and learning data. Every hidden layer tries to detect patterns in the conversation. The more layers in a neural network, the more is learned and the more accurate the pattern detection is. Neural Networks learn and attribute weights to the connections between the different neurons each time the network processes data.  So the next time it encounters a similar dialogue it will be ready with answer instantly.</p>
+
+<h3 id="chatbots-and-iot">Chatbots and IoT</h3>
+
+<p>Apart from their existing use in mobile applications one interesting field of utilization would be in IoT based applications. Chatbots can act as an interface and thus improve the user experience. For example,  Amazon Echo is an example of integrating speech in your chatbot experience, it will allow you to order anything from the Amazon web shop. A new report, states that Amazon has sold near 3 million Amazon Echo smart speakers which supports the belief that chatbots are the future of IoT and retail, and it will be interesting to see what else retailers come up with in the coming years.</p>
+:ET

@@ -1,0 +1,85 @@
+I"�!<blockquote>
+  <p>You are probably using cloud computing right now, even if you don’t realise it. If you use an online service to send an email, edit documents, watch movies or TV, listen to music, play games or store pictures and other files, it is likely that cloud computing is making it all possible behind the scenes.</p>
+</blockquote>
+
+<p>The first cloud computing services are barely a decade old, but already a variety of organisations, from tiny start-ups to global corporations, government agencies to non-profits, are embracing the technology for all sorts of reasons.</p>
+
+<h2 id="what-is-cloud-computing">What is Cloud Computing?</h2>
+
+<p><img src="/blog/assets/img/cloud-computing/Cloud_Comp.png" alt="Cloud Comp" /></p>
+
+<p>Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform. It is made available to the user via the Internet with pay-as-you-go pricing. Whether the users are running applications that share photos to millions of mobile users or they are supporting the critical operations of their business, a cloud services platform provides rapid access to flexible and low-cost IT resources which is available in just a few seconds. This allows enterprises, start-ups, small and medium-sized businesses, and customers in the public sector to access the building blocks they need to respond quickly to changing business requirements.</p>
+
+<p>With cloud computing, users don’t need to make large upfront investments in hardware and spend a lot of time on the heavy lifting of managing that hardware. Instead, with cloud computing they can provision exactly the right type and size of computing resources they need to power their newest bright idea or operate their organization’s IT department. This means the users don’t need to buy their own hardware, instead, the Cloud Computing Service provider will buy the network-connected hardware required for the user’s application, and maintain it for them. The users can access as many resources as they need, almost instantly, and only pay for what they use.</p>
+
+<h3 id="how-cloud-computing-works">How Cloud Computing Works?</h3>
+
+<p>Cloud computing services all work a little differently, depending on the provider. But many provide a friendly, browser-based dashboard that makes it easier for IT professionals and developers to order resources and manage their accounts</p>
+
+<h2 id="advantages-of-cloud-computing">Advantages of Cloud Computing:</h2>
+
+<p><strong>Replacing up-front capital infrastructure expense for variable expense:</strong></p>
+
+<p>Instead of having to invest heavily in data centres and servers before a user know how they are going to use them, they can pay only when they consume computing resources, and pay only for how much they consume. Hence, with the cloud, businesses no longer need to plan for and procure servers and other IT infrastructure weeks or months in advance. Instead, they can instantly spin up hundreds or thousands of servers in minutes and deliver results faster.</p>
+
+<p><strong>Benefit from massive economies of scale:</strong></p>
+
+<p>By using cloud computing, users can achieve a lower variable cost than what they can get on their own. As usage from hundreds of thousands of customers is aggregated in the cloud, service providers can achieve higher economies of scale, which translates into lower pay as-you-go prices for the users.</p>
+
+<p><strong>Eliminates the process of guessing about capacity required:</strong></p>
+
+<p>Cloud computing eliminates guessing on the infrastructure capacity needs. When a user makes a capacity decision prior to deploying an application, they often end up either sitting on expensive idle resources or dealing with limited capacity. With cloud computing, these problems go away. They can access as much or as little capacity as they need, and scale up and down as required with only a few minutes’ notice.</p>
+
+<p><strong>Increased speed and agility:</strong></p>
+
+<p>In a cloud computing environment, new IT resources are only a click away, which means that organizations can reduce the time required to make those resources available to their developers from weeks to just minutes. This result in a dramatic increase in agility for the organization, since the cost and time it takes to experiment and develop is significantly lower.</p>
+
+<p><strong>Eliminates workload of running and maintaining data centers:</strong></p>
+
+<p>Cloud Computing lets organizations focus on projects that differentiate their business, and not on the infrastructure. Cloud computing lets them focus on their own customers, rather than on the heavy lifting of racking, stacking, and powering servers.</p>
+
+<p><strong>Allows going global in minutes:</strong></p>
+
+<p>Organizations can easily deploy their application in multiple regions around the world with just a few clicks. This means they can provide lower latency and a better experience for the customers at minimal cost.</p>
+
+<p><img src="/blog/assets/img/cloud-computing/Cloud_Computing.jpg" alt="Cloud Computing" /></p>
+
+<h2 id="categories-of-cloud-computing">Categories of Cloud Computing:</h2>
+
+<p>Now all this sounds like a very broad domain, so cloud computing can be essentially divided into 3 categories:</p>
+
+<p><strong>1. Infrastructure as a Service (IaaS):</strong> Here the users are provided access to the basic hardware and they are free to customize it to their use case. For ex, they are provided access to the machine and they can choose whatever Operating System they would like and configure it’s every system related detail.</p>
+
+<p><strong>2. Platform as a Service (PaaS):</strong> This removes the need for the user to manage the underlying infrastructure (usually hardware and operating systems) and allows them to focus only on the deployment and management of their applications.</p>
+
+<p><strong>3. Software as a Service (SaaS):</strong> With a SaaS offering, the user need not have to think about how the service is maintained or how the underlying infrastructure is managed; they only need to think about how they will use that particular piece of software. Hence, this provides them with a completed product that is run and managed by the service provider. Eg: Gmail, Youtube.</p>
+
+<blockquote>
+  <p>These three types of services are sometimes called the cloud computing stack, because they build on top of one another. Knowing what they are and how they are different makes it easier for an organization to accomplish their business goals.</p>
+</blockquote>
+
+<h2 id="types-of-cloud-deployment">Types of Cloud Deployment:</h2>
+
+<p>Not all clouds are the same. There are three different ways to deploy cloud computing resources:</p>
+
+<p><strong>Public Cloud:</strong> With a public cloud, all hardware, software and other supporting infrastructure is owned and managed by the cloud provider. The users access these services and manage their account using a web browser.</p>
+
+<p><strong>Private Cloud:</strong> A private cloud refers to cloud computing resources used exclusively by a single business or organisation in which the services and infrastructure are maintained on a private network. A private cloud can be physically located on the company’s on-site datacenter.</p>
+
+<p><strong>Hybrid Cloud:</strong> Hybrid clouds combine public and private clouds, bound together by technology that allows data and applications to be shared between them. By allowing data and applications to move between private and public clouds, hybrid cloud gives businesses greater flexibility and more deployment options.</p>
+
+<h2 id="why-is-cloud-computing-the-future">Why is Cloud Computing the Future?</h2>
+
+<p>Although the cloud is far from a new idea, its true capabilities are only now beginning to be realized. It is predicted that Cloud will provide the digital infrastructure of tomorrow’s cities, where an estimated 6 billion of the world’s population will live by 2045. The cloud will support emerging technologies such as artificial intelligence and help them to adapt to new platforms such as mobile. Therefore, it can be well said that Cloud Computing will be one of the technological shift into which the world will leap towards in the near future.</p>
+
+<h3 id="resources">Resources:</h3>
+
+<ol>
+  <li>
+    <p><a href="https://d1.awsstatic.com/whitepapers/aws-overview.pdf">Overview of AWS</a></p>
+  </li>
+  <li>
+    <p><a href="https://azure.microsoft.com/en-in/overview/what-is-cloud-computing/">Cloud Computing: A Beginner’s Guide</a></p>
+  </li>
+</ol>
+:ET

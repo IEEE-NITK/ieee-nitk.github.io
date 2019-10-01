@@ -1,0 +1,38 @@
+I"M<blockquote>
+  <p>The track belongs to the driver, the pits belong to the engineers</p>
+</blockquote>
+
+<p>Formula One cars are mean machines. They have been fine tuned for one purpose- Speed. In fact, they are the most efficient mode of transport after space shuttles.</p>
+
+<p>Be it aerodynamic performance, super-efficient engines or state of the art tyre management strategies, engineers have scaled new heights in their pursuit for speed.</p>
+
+<h2 id="the-ecu">The ECU:</h2>
+<p>However, one aspect of the car that goes largely unnoticed is the electrical system. If the chassis and the engine form the arms and legs, <strong>the Electronic Control Unit</strong>, or <strong>the ECU</strong> forms the brain.</p>
+
+<p>In the last ten years, these components have covered the equivalent of a trip to the moon and back and haven’t missed a single beat.</p>
+
+<p>The ECU basically controls the engine, the clutch, the differential, the Drag Reduction and Energy Recovery systems.The ECU aslo controls the ignition, the LED panel on the steering and fuel injection.</p>
+
+<p>Around <strong>120 sensors</strong> all over the car send information to the ECU, a quarter of which are from the engine and the gear box alone.</p>
+
+<p>From accelerometers to gyroscopes, thermocouples to pressure sensors, the ECU relays an enormous amount of data in real time to the pits for diagnostics and analysis.</p>
+
+<h2 id="specs">Specs:</h2>
+
+<p>The unit used in modern F1 cars- the <strong>McLaren TAG-320</strong> is a powerful processing platform with a real time operating system based on <strong>32-bit microprocessors</strong>. Application code is autocoded from <strong>MATLAB/SIMULINK</strong> control modules.</p>
+
+<p>With a mammoth processing power of <strong>4000 MIPS</strong> (million instructions per second) to <strong>8GB</strong> flash memory, this device boasts of powerful data logging and telemetry capabilities.</p>
+
+<p>On the communications side, it comes with a wired gigabit ethernet interface and has a data relay speed of up to <strong>10Mbps</strong>.</p>
+
+<p>The ECU has been designed to handle all sorts of weather conditions a driver may encounter on track and has a significant resistance to mechanical impact.</p>
+
+<p>The units weigh in at <strong>1.35 kilograms</strong> and are either attached below the radiator or behind the steering. The components are tamper proof. In fact, other than the tyres, it is the only component to be exactly the same on all cars. Ultimately, the ECU forms an integral part of every modern Formula One car. It helps provide a whole new dimension to racing. Crunching the data received has enabled teams and drivers to analyze and optimize performance to entirely new levels.</p>
+
+<p><img src="/blog/assets/img/the-brain-behind-a-formula-one-car/TAG.jpg" alt="The TAG-320" />
+<em>The McLaren TAG-320 up close</em></p>
+
+<p><strong>The next time someone says Formula One is all about the mech guys, tell them to think again!</strong></p>
+
+<p>If you want to see more, check out the <a href="http://www.mclaren.com/appliedtechnologies/products/item/powertrain-control-unit-tag-320/">McLaren Website</a></p>
+:ET
