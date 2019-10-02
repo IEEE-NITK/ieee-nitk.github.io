@@ -1,0 +1,50 @@
+I"g<h2 id="web-30-what-in-the-world-is-that">Web 3.0?? What in the world is that???!!!</h2>
+<p>There is a lot of buzz around web 3.0 and the changes it can bring in the world of tech. But only a few know what it actually is…Before hopping into web 3.0 let us know a little about its predecessors.</p>
+
+<p>The <em>Web 1.0</em> , which started the whole damn internet and the  <em>Web 2.0</em> that we all use and love so much. Web 1.0 was just a set of <em>static websites</em> . It comprised of a  load of websites with no interactive information. But as the internet got faster and faster, web wasn’t only restricted to viewing content.  People started participating. Interactive content started flourishing on the servers worldwide. This is the web we all know and love spending so much time on. This is the age of the  Facebook, Twitter, Youtube…</p>
+
+<blockquote>
+  <p><em><strong>So, now that we all are enjoying the web 2.0, why don’t we let it stay as it is?? Why do we have to disturb this amazingly fun world???</strong></em></p>
+</blockquote>
+
+<p><strong>Now, there is a catch. Web 2.0 is not all goodies as one might think.</strong></p>
+
+<p>The web 2.0 makes the rich richer and poor poorer. It hinders the flow of money which is needed for a better economy. The consumers’ data is being collected and used the way the huge companies want, without the consumers being paid for their data and also they don’t have any control over how the data is being used. (Eg: <a href="https://en.wikipedia.org/wiki/PRISM_(surveillance_program)">PRISM</a>) So, <em>think twice before you ask Alexa anything :p.</em></p>
+
+<p>Web 2.0 removes the opportunities for the budding startups to compete with the tech giants like Google, Microsoft etc. who have the best human and computational resources in the world. Web 2.0 promotes the monopoly in a field.
+<img src="/blog/assets/img/web-3-0/monoploy.jpg" alt="Companies that control internet" /></p>
+
+<p><img src="/blog/assets/img/web-3-0/data_breach.png" alt="Data Breach" /></p>
+
+<p><img src="/blog/assets/img/web-3-0/data_own.jpg" alt="Data Ownership" /></p>
+<h3 id="web-30-to-the-rescue">Web 3.0 to the rescue.</h3>
+<p>Web 3.0 removes all these problems of web 2.0 and also provides much more…
+Web 3.0 gives:</p>
+<ol>
+  <li><strong>No central point of failure.</strong> : Servers are the place where all the data are stored and this makes it very easy for the bad forces to do the misdoings. This is also a problem during natural calamities or anything where the failure in the server makes the whole network go down</li>
+  <li><strong>Ownership of data</strong>: the end users have much more control over their data. In web 2.0 the companies have complete control over the users’ data and may choose to use it however they want. This also is lucrative as the ad-agencies give them handsome amount of money for the users’ data</li>
+  <li><strong>Data Permanence</strong>: the data can be stored permanently on the web as the data is actually stored in the network(ipfs link) instead of a single server.</li>
+  <li><strong>Good economy</strong>: Web 3.0 allows for the better rotation of money. It provides tokens which can be used for the monetization</li>
+  <li><strong>Censorship Resistant</strong>: As the storage is not in a server but in the network , it gets very hard to stop the data from being accessed by people</li>
+</ol>
+
+<h4 id="so-what-are-required-for-building-web-30-stuff">So what are required for building Web 3.0 stuff??</h4>
+<p>The main technology that made the Web 3.0 possible is the <strong>blockchain</strong>. Blockchain which is mainly known in the context of the cryptocurrencies, can also be used to build decentralized applications or the <em>dApps</em>. <strong>Ethereum</strong> is the blockchain which promotes the dApps. Ethereum provides <em>smart contracts</em> which can be used to build dapps. Ethereum provides the developers with a bunch of technology,called the web 3.0 stack, but that’s a discussion for another blog post</p>
+
+<p><img src="/blog/assets/img/web-3-0/eth_stack.png" alt="Ethereum Stack" /></p>
+
+<p><img src="/blog/assets/img/web-3-0/eth_stack2.png" alt="Ethereum Stack detailed view" /></p>
+
+<p>Like any emerging technology is still being refined. For access to the decentralized web, people will only need a seed. This will be a single asset which enables the interaction with dApps and other services. Individuals will still use a web browser to access the internet, and visually it will be Web 2.0 user-friendly.On the surface, the learning curve from 2.0 to 3.0 will be gentle. But behind the scenes, the framework connecting users with digital services are markedly different. Transactions are signed and verified manually, to prevent platforms from stealing away personal information.</p>
+
+<p><strong>Web 3.0 alternatives to Web 2.0 things</strong></p>
+<ul>
+  <li>Instead of Google Drive or Dropbox, we have services like Storj, Siacoin, Filecoin or <a href="https://ipfs.io/">IPFS</a> technology to distribute and store files.</li>
+  <li>Instead of Skype we have platforms like Experty.io.</li>
+  <li>Instead of WhatsApp and Wechat we have <a href="https://status.im/">Status</a>, that uses the <a href="https://github.com/ethereum/wiki/wiki/Whisper"><em>Whisper</em></a> protocol in the Ethereum stack</li>
+  <li>Instead of operating systems such as iOS and Android, frameworks such as Essentia.one and EOS provide a gateway to the new web.</li>
+  <li>Akasha or <a href="https://steemit.com/">Steemit</a> will play the role of Facebook, the Brave browser will serve as Chrome and Ethlance can take over from Upwork.</li>
+</ul>
+
+<p><img src="/blog/assets/img/web-3-0/alt.png" alt="Web 3.0 alternatives" /></p>
+:ET

@@ -1,0 +1,136 @@
+I"!<p>At the physical level, computer memory consists of a large number of flip flops. Each flip flop consists of a few transistors, and is capable of storing one bit. Individual flip flops are addressable by a unique identifier, so we can read and overwrite them. Thus, conceptually, we can think of all of our computer’s memory as just one giant array of bits that we can read and write.</p>
+
+<p>Since as humans, we are not that good at doing all of our thinking and arithmetic in bits, we group them into larger groups, which together can be used to represent numbers. 8 bits are called 1 byte; beyond bytes, there are words (which are sometimes 16, sometimes 32 bits). Thus, more often, we conceptually regard our computer’s memory as one large (size 2<sup>32</sup> or so) array of bytes.</p>
+
+<h2 id="what-is-the-heap-and-how-big-is-it">What is the Heap and How Big is it?</h2>
+<p>When you compile a program, you’re generating an executable called a program. A program is said to be ‘executing’ when it has been loaded into main memory and has different resources allocated to it. When a process is under execution, it has its own <a href="https://github.com/angrave/SystemProgramming/wiki/Processes,-Part-1:-Introduction#process-contents">address space</a> that looks something like this: 
+<img src="https://camo.githubusercontent.com/dc11307dfd6164f6021c6089eee9e12518554fdd/68747470733a2f2f692e696d6775722e636f6d2f706c364b3563462e706e67" alt="haha" />
+A heap is a part of this address space.</p>
+
+<p>The heap is part of the process memory and it does not have a fixed size. Heap memory allocation is performed by the C library when you call <code class="highlighter-rouge">malloc</code> (<code class="highlighter-rouge">calloc</code>, <code class="highlighter-rouge">realloc</code>) and <code class="highlighter-rouge">free</code>. This means that the program can ‘request’ and ‘release’ memory from the heap segment whenever it requires. Also, this memory is global, i.e. it can be accessed and modified from anywhere within a program and is not localized to the function where it is allocated. This is accomplished using ‘pointers’ to reference dynamically allocated memory which in turn leads to a small <a href="https://en.wikipedia.org/wiki/Thrashing_(computer_science)"><em>degradation</em></a> in performance as compared to using local variables (on the stack).</p>
+
+<p>Memory in the heap is allocated in ‘chunks’. The structure of a chunk is something like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Allocated chunk:
+
+chunk-&gt; +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Size of previous chunk, if unallocated (P clear)  |
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Size of chunk, in bytes                     |A|M|P|
+      mem-&gt; +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             User data starts here...                          .
+            .                                                               .
+            .             (malloc_usable_size() bytes)                      .
+            .                                                               |
+nextchunk-&gt; +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             (size of chunk, but used for application data)    |
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Size of next chunk, in bytes                |A|0|1|
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
+Free chunk:
+
+
+chunk-&gt; +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Size of previous chunk, if unallocated (P clear)  |
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    'head:' |             Size of chunk, in bytes                     |A|0|P|
+      mem-&gt; +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Forward pointer to next chunk in list             |
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Back pointer to previous chunk in list            |
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Unused space (may be 0 bytes long)                .
+            .                                                               .
+            .                                                               |
+nextchunk-&gt; +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    'foot:' |             Size of chunk, in bytes                           |
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+            |             Size of next chunk, in bytes                |A|0|0|
+            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+</code></pre></div></div>
+
+<p>A <strong>bin</strong> is list (singly or doubly linked list) of free chunks. They’re <a href="https://sourceware.org/glibc/wiki/MallocInternals">categorized</a> based on the size of chunks they can hold.</p>
+
+<h2 id="exploiting-the-heap">Exploiting the Heap</h2>
+
+<h3 id="double-free-">Double Free ()</h3>
+<p>Freeing a resource more than once can lead to a memory leak. The data structure implemented by the allocator gets corrupter and can be exploited by the attacker. Since <em>glibc</em> has a protective measure against the <code class="highlighter-rouge">double free()</code> exploitation, we will free another chunk it between. By doing so, we can return the same chunk by two different <code class="highlighter-rouge">malloc()</code>s. If the attacker is in control of one of the pointers, they can modify the memory leading to different attacks, including injecting the address of a malicious program which could be executed.</p>
+
+<p>Consider the following code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a = malloc(10); //0xb16010
+
+b = malloc(10); //0xb16030
+
+c = malloc(10); //0xb16060
+
+free(a);
+free(b); //To circumvent glibc's check
+free(a); // DOUBLE FREE!
+
+x = malloc(10); //0xb16010
+
+e = malloc(10); //0xb16030
+
+z = malloc(10); //0xb16010 - Same address as 'x' !
+</code></pre></div></div>
+
+<h3 id="how-did-that-happen">How did that happen?</h3>
+
+<p>The state of the bin through the code:</p>
+<ol>
+  <li>‘a’ freed:
+    <blockquote>
+      <p>head -&gt; a -&gt; tail</p>
+    </blockquote>
+  </li>
+  <li>‘b’ freed:
+    <blockquote>
+      <p>head -&gt; b -&gt; a -&gt; tail</p>
+    </blockquote>
+  </li>
+  <li>‘a’ freed:
+    <blockquote>
+      <p>head -&gt; a -&gt; b -&gt; a -&gt; tail</p>
+    </blockquote>
+  </li>
+  <li>malloc() request for ‘x’
+    <blockquote>
+      <p>head -&gt; b -&gt; a -&gt; tail</p>
+    </blockquote>
+  </li>
+  <li>malloc() request for ‘y’
+    <blockquote>
+      <p>head -&gt; a -&gt; tail</p>
+    </blockquote>
+  </li>
+  <li>malloc() request for ‘z’
+    <blockquote>
+      <p>head -&gt; tail</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p>Now that ‘x’ and ‘y’ point to the same memory location, any change in one will reflect in the other.
+Note: This exploitation only works when the size of the chunks allocated are in the fastbin list.</p>
+
+<p>This was an extremely simple exploitation of the heap but you can read up on some of the more sophisticated ones:</p>
+<ol>
+  <li><a href="https://gbmaster.wordpress.com/2015/07/21/x86-exploitation-101-house-of-spirit-friendly-stack-overflow/">House of Spirit</a></li>
+  <li><a href="https://github.com/st4g3r/House-of-Einherjar-CB2016">House of Einherjar</a></li>
+</ol>
+
+<h3 id="resources">Resources</h3>
+
+<ol>
+  <li><a href="https://www.blackhat.com/presentations/bh-usa-07/Ferguson/Whitepaper/bh-usa-07-ferguson-WP.pdf">Understanding the heap by breaking it</a></li>
+  <li><a href="https://legacy.gitbook.com/book/dhavalkapil/heap-exploitation/details">Heap exploitation</a></li>
+  <li><a href="https://github.com/angrave/SystemProgramming/wiki">Systems Programming</a></li>
+  <li><a href="https://ieeenitk.org/blog//a-step-ahead-in-reverse-engineering/">A Step Ahead in Reverse Engineering!</a></li>
+  <li><a href="https://tc.gtisc.gatech.edu/cs6265/2016/l/lab10-heap/README-tut.txt">Your first heap exploit by GaTech</a></li>
+</ol>
+:ET
