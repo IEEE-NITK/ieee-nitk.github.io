@@ -710,7 +710,7 @@ abhinavpy:
   github: abhinavpy
   author_image: abhinavpy.jpg
   email: abhinavpy@ieee.org
-  user_description: "It\'s not whether you get knocked down, it\'s whether you get up."
+  user_description: "It's not whether you get knocked down, it's whether you get up."
 alabhya01:
   name: Kumar Alabhya
   github: alabhya01
@@ -758,3 +758,8 @@ nimbus98:
   author_image: 'akashnair.jpeg'
   user_description: 'I like Food'
   email: akash30121998@gmail.com
+suhasks123:
+  name: Suhas K S
+  github: suhasks123
+  author_image: 'suhas_ks.jpeg'
+  email: suhasks123@gmail.com

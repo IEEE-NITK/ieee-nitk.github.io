@@ -193,7 +193,7 @@
 <h2 id="setting-up-the-environment">Setting up the environment</h2>
 <h3 id="installing-qemu">Installing QEMU</h3>
 <p>QEMU is available as a PPA for Ubuntu, which can be downloaded using</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt-get install qemu
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>qemu
 </code></pre></div></div>
 <p>QEMU isn’t one single program, rather it is a large set of tools and utilities each of which serve a different purposes.</p>
 
@@ -227,8 +227,8 @@
 <h2 id="options-in-qemu">Options in QEMU</h2>
 <h3 id="using-ssh-to-login-to-the-machine">Using SSH to login to the machine</h3>
 <p>One way to use the machine in headless mode is to SSH into it using a terminal on our host. For this we need to add <em>-redir tcp:5022::22</em> to our machine startup command. What this does is that it redirects the port 22 of our guest machine into port 5022 of our host. Thus letting us use the machine via SSH. Another option which comes in use is <em>-display none</em> which tells QEMU not to open up an emulator window, since we don’t need it if we are logging into the machine using SSH. Now, to login using SSH, the usual procedure can be followed on the host machine.</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh <span class="nt">-p</span> 5022 &lt;user&gt;@&lt;hostname&gt;
-<span class="nv">$ </span>&lt;user&gt;@&lt;hostname&gt;<span class="s1">'s password:
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh <span class="nt">-p</span> 5022 &lt;user&gt;@&lt;<span class="nb">hostname</span><span class="o">&gt;</span>
+<span class="nv">$ </span>&lt;user&gt;@&lt;<span class="nb">hostname</span><span class="o">&gt;</span><span class="s1">'s password:
 </span></code></pre></div></div>
 <p>Where <em>user</em> and <em>hostname</em> are the username and hostname for the machine we created.</p>
 
@@ -239,7 +239,7 @@
 <h3 id="sharing-files-between-host-and-guest">Sharing Files Between Host and Guest</h3>
 <p>Viewing host’s files on the guest is one problem that arises quite often while using virtual machines. QEMU solves this by providing an in-built Samba file server.
 It can be started by adding <em>-smb {shared directory path}</em> to the command for starting the VM. On the guest machine, <em>smbclient</em> needs to be installed in order to access the shared folders. On the guest machine run,</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>apt-get install smbclient
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>apt-get <span class="nb">install </span>smbclient
 <span class="nv">$ </span>smbclient //10.0.2.4/qemu/
 <span class="nv">$ </span>Enter user<span class="s1">'s password:
 </span></code></pre></div></div>

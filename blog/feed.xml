@@ -5,9 +5,27 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Aug 2019 19:59:13 +0530</pubDate>
-    <lastBuildDate>Fri, 23 Aug 2019 19:59:13 +0530</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Wed, 02 Oct 2019 13:40:31 +0530</pubDate>
+    <lastBuildDate>Wed, 02 Oct 2019 13:40:31 +0530</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Password Security: Techniques and Challenges</title>
+        <description>&lt;h1 id=&quot;password-security&quot;&gt;&lt;strong&gt;Password Security&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Let me preface this article with something: There’s a very good chance that your password is not secure. In fact, if it’s anything less than nine characters long, any attacker could crack it in seconds if he had a decent GPU. Most of us know that ‘password’ is a very weak choice for a password, but there are some of us who think we’re smart and keep our passwords something like ‘p@$$w0r6’: It’s a terrible idea. Change it right now. ‘Hello123’ is probably safer than that. So what exactly is a safe password? And how do you...</description>
+        <pubDate>Wed, 02 Oct 2019 14:50:10 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</guid>
+        
+        <category>Systems</category>
+        
+        <category>Security</category>
+        
+        <category>Cryptography</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Research, an informal testimony</title>
@@ -80,12 +98,22 @@
       </item>
     
       <item>
-        <title>Solving Switch Riddle Using Rl</title>
-        <description>&lt;p&gt;﻿— layout: post title: “Solving Switch Riddle using RL” author_github: Madhuparna04 date: 2019-02-28 image: ‘/assets/img/’ description: ‘’ tags:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Switch Riddle&lt;/li&gt; &lt;li&gt;Reinforcement Learning&lt;/li&gt; &lt;li&gt;DIAL&lt;/li&gt; &lt;li&gt;RNN categories:&lt;/li&gt; &lt;li&gt;Compsoc github_username: ‘Madhuparna04’ use_math: true comments: false —&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him...</description>
+        <title>Solving Switch Riddle using RL</title>
+        <description>&lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once...</description>
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</guid>
         
+        <category>Switch Riddle</category>
+        
+        <category>Reinforcement Learning</category>
+        
+        <category>DIAL</category>
+        
+        <category>RNN</category>
+        
+        
+        <category>Compsoc</category>
         
       </item>
     
@@ -152,22 +180,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>The Missing Circuit Element</title>
-        <description>&lt;p&gt;Leon Chau, an American circuit theorist at the University of California, predicted the existence of the fourth fundamental circuit passive element. The first three passive circuit elements are the resistor, capacitor, and inductor. We already have relationships among voltage, current, charge, and flux. The only relationship missing is that between flux and charge(q).&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-missing-circuit-element/1.jpeg&quot; alt=&quot;Image 1&quot; /&gt;&lt;/p&gt; &lt;p&gt;Memristor is the component that connects the dots. The diagram shows how memristor serves as a missing link and completes the symmetry of the diagram due to which it is famously known as &lt;strong&gt;“The Missing Circuit element”&lt;/strong&gt;. Its symbol is.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/the-missing-circuit-element/2.jpeg&quot;...</description>
-        <pubDate>Tue, 15 Jan 2019 03:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/the-missing-circuit-element/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/the-missing-circuit-element/</guid>
-        
-        <category>Memresistor</category>
-        
-        <category>Non Volatile Memory</category>
-        
-        
-        <category>Diode</category>
         
       </item>
     
