@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+        <!-- Give a small description in 3-4 sentences about the website -->
+        <meta name="abstract" content="IEEE NITK Student Chapter under Mangalore SubSection and Bangalore Section was founded in 1988. Currently it has three SIGs namely Computer Society, Circuits and Systems, Signal Processing Society and Piston. It also has two Affinty Groups namely Special Interest Group in Humanitarian Technologies (SIGHT) and Women in Engineering (WiE)">
+        <!-- Important Keywords to be noted in the website  -->
+        <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+        <!-- Tell the spider to index the first page and other pages as well-->
+        <meta name="robots" content="index, follow">    
+        <!-- How often should spiders come back to your page -->
+        <meta name="revisit-after" content="3 days">
+
+        <!-- Copyright regarding the website -->
+        <meta name="copyright" content="IEEE NITK">
+        <!-- Tells Google Bot not to duplicate description -->
+        <meta name="googlebot" content="noodp">
+        <!-- Language for the website -->
+        <meta name="language" content="English">  
+
+        <!-- Web Author for the image -->
+        <meta name="web_author" content="IEEE NITK">
+        <meta name="author" content="Salman Shah">
+        <!-- Email ID -->
+        <meta name="contact" content="ieee@nitk.edu.in" />
+        <!-- Email ID to reply to -->
+        <meta name="reply-to" content="ieee@nitk.edu.in">
+
+        <!-- Refers to distribution of the page -->
+        <meta name="distribution" content="global">
+        <!-- Generator or formatter tag -->
+        <meta name="generator" content="Jekyll">
+        <!-- Disallow spammers for the webpage -->
+        <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+        <!-- Rating for the page -->
+        <meta name="rating" content="general">
+        <!-- Content Type for the page -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- Fixing viewport on mobile views -->
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="description" content="Introduction to DP on Trees">
+
+        <!-- Google Authorship Markup -->
+        <!-- Social: Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@IEEE_NITK">
+        <meta name="twitter:title" content="DP on Trees">
+        <meta name="twitter:description" content="Introduction to DP on Trees">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+
+        <!-- Social: Facebook / Open Graph -->
+        <meta property="fb:app_id" content="0011038251882641" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/dp-on-trees/" />
+        <meta property="og:title" content="DP on Trees">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+        <meta property="og:description" content="Introduction to DP on Trees">
+        <meta property="og:site_name" content="A blog about our findings and musings">
+
+        <!-- Social: Google+ / Schema.org  -->
+        <meta itemprop="name" content="DP on Trees"/>
+        <meta itemprop="description" content="Introduction to DP on Trees">
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Windows 8 Tile Icons -->
+        <meta name="application-name" content="IEEE-NITK Blog">
+        <meta name="msapplication-TileColor" content="#0562DC">
+        <meta name="msapplication-square70x70logo" content="smalltile.png" />
+        <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+        <meta name="msapplication-wide310x150logo" content="widetile.png" />
+        <meta name="msapplication-square310x310logo" content="largetile.png" />
+        
+        <!-- Android Lolipop Theme Color -->
+        <meta name="theme-color" content="#0562DC">
+
+        <link rel="author" href="https://plus.google.com/?rel=author">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
+        <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+        <!-- Include Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <title>DP on Trees</title>
+
+        <!-- highlighter theme -->
+        <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
+
+        <link rel="stylesheet" href="/blog/assets/css/main.css">
+        <link rel="canonical" href="/blog/dp-on-trees/">
+        <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
+
+        
+
+        <!-- jQuery for highlighter -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none" version="1.1"><defs><symbol id="icon-menu" viewBox="0 0 1024 1024"><path class="path1" d="M128 213.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 725.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 469.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5z"/></symbol><symbol id="icon-search" viewBox="0 0 951 1024"><path class="path1" d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z"/></symbol><symbol id="icon-email" viewBox="0 0 1024 1024"><path class="path1" d="M950.857 859.429v-438.857q-18.286 20.571-39.429 37.714-153.143 117.714-243.429 193.143-29.143 24.571-47.429 38.286t-49.429 27.714-58.571 14h-1.143q-27.429 0-58.571-14t-49.429-27.714-47.429-38.286q-90.286-75.429-243.429-193.143-21.143-17.143-39.429-37.714v438.857q0 7.429 5.429 12.857t12.857 5.429h841.143q7.429 0 12.857-5.429t5.429-12.857zM950.857 258.857v-14t-0.286-7.429-1.714-7.143-3.143-5.143-5.143-4.286-8-1.429h-841.143q-7.429 0-12.857 5.429t-5.429 12.857q0 96 84 162.286 110.286 86.857 229.143 181.143 3.429 2.857 20 16.857t26.286 21.429 25.429 18 28.857 15.714 24.571 5.143h1.143q11.429 0 24.571-5.143t28.857-15.714 25.429-18 26.286-21.429 20-16.857q118.857-94.286 229.143-181.143 30.857-24.571 57.429-66t26.571-75.143zM1024 237.714v621.714q0 37.714-26.857 64.571t-64.571 26.857h-841.143q-37.714 0-64.571-26.857t-26.857-64.571v-621.714q0-37.714 26.857-64.571t64.571-26.857h841.143q37.714 0 64.571 26.857t26.857 64.571z"/></symbol><symbol id="icon-close" viewBox="0 0 805 1024"><path class="path1" d="M741.714 755.429q0 22.857-16 38.857l-77.714 77.714q-16 16-38.857 16t-38.857-16l-168-168-168 168q-16 16-38.857 16t-38.857-16l-77.714-77.714q-16-16-16-38.857t16-38.857l168-168-168-168q-16-16-16-38.857t16-38.857l77.714-77.714q16-16 38.857-16t38.857 16l168 168 168-168q16-16 38.857-16t38.857 16l77.714 77.714q16 16 16 38.857t-16 38.857l-168 168 168 168q16 16 16 38.857z"/></symbol><symbol id="icon-twitter" viewBox="0 0 951 1024"><path class="path1" d="M925.714 233.143q-38.286 56-92.571 95.429 0.571 8 0.571 24 0 74.286-21.714 148.286t-66 142-105.429 120.286-147.429 83.429-184.571 31.143q-154.857 0-283.429-82.857 20 2.286 44.571 2.286 128.571 0 229.143-78.857-60-1.143-107.429-36.857t-65.143-91.143q18.857 2.857 34.857 2.857 24.571 0 48.571-6.286-64-13.143-106-63.714t-42-117.429v-2.286q38.857 21.714 83.429 23.429-37.714-25.143-60-65.714t-22.286-88q0-50.286 25.143-93.143 69.143 85.143 168.286 136.286t212.286 56.857q-4.571-21.714-4.571-42.286 0-76.571 54-130.571t130.571-54q80 0 134.857 58.286 62.286-12 117.143-44.571-21.143 65.714-81.143 101.714 53.143-5.714 106.286-28.571z"/></symbol><symbol id="icon-facebook" viewBox="0 0 585 1024"><path class="path1" d="M548 6.857v150.857h-89.714q-49.143 0-66.286 20.571t-17.143 61.714v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571q0-106.286 59.429-164.857t158.286-58.571q84 0 130.286 6.857z"/></symbol><symbol id="icon-rss" viewBox="0 0 805 1024"><path class="path1" d="M219.429 768q0 45.714-32 77.714t-77.714 32-77.714-32-32-77.714 32-77.714 77.714-32 77.714 32 32 77.714zM512 838.286q1.143 16-9.714 27.429-10.286 12-26.857 12h-77.143q-14.286 0-24.571-9.429t-11.429-23.714q-12.571-130.857-105.429-223.714t-223.714-105.429q-14.286-1.143-23.714-11.429t-9.429-24.571v-77.143q0-16.571 12-26.857 9.714-9.714 24.571-9.714h2.857q91.429 7.429 174.857 46t148 103.714q65.143 64.571 103.714 148t46 174.857zM804.571 839.429q1.143 15.429-10.286 26.857-10.286 11.429-26.286 11.429h-81.714q-14.857 0-25.429-10t-11.143-24.286q-6.857-122.857-57.714-233.429t-132.286-192-192-132.286-233.429-58.286q-14.286-0.571-24.286-11.143t-10-24.857v-81.714q0-16 11.429-26.286 10.286-10.286 25.143-10.286h1.714q149.714 7.429 286.571 68.571t243.143 168q106.857 106.286 168 243.143t68.571 286.571z"/></symbol><symbol id="icon-google-plus" viewBox="0 0 951 1024"><path class="path1" d="M420 454.857q0 20.571 18.286 40.286t44.286 38.857 51.714 42 44 59.429 18.286 81.143q0 51.429-27.429 98.857-41.143 69.714-120.571 102.571t-170.286 32.857q-75.429 0-140.857-23.714t-98-78.571q-21.143-34.286-21.143-74.857 0-46.286 25.429-85.714t67.714-65.714q74.857-46.857 230.857-57.143-18.286-24-27.143-42.286t-8.857-41.714q0-20.571 12-48.571-26.286 2.286-38.857 2.286-84.571 0-142.571-55.143t-58-139.714q0-46.857 20.571-90.857t56.571-74.857q44-37.714 104.286-56t124.286-18.286h238.857l-78.857 50.286h-74.857q42.286 36 64 76t21.714 91.429q0 41.143-14 74t-33.714 53.143-39.714 37.143-34 35.143-14 37.714zM336.571 400q21.714 0 44.571-9.429t37.714-24.857q30.286-32.571 30.286-90.857 0-33.143-9.714-71.429t-27.714-74-48.286-59.143-66.857-23.429q-24 0-47.143 11.143t-37.429 30q-26.857 33.714-26.857 91.429 0 26.286 5.714 55.714t18 58.857 29.714 52.857 42.857 38.286 55.143 14.857zM337.714 898.857q33.143 0 63.714-7.429t56.571-22.286 41.714-41.714 15.714-62.286q0-14.286-4-28t-8.286-24-15.429-23.714-16.857-20-22-19.714-20.857-16.571-23.714-17.143-20.857-14.857q-9.143-1.143-27.429-1.143-30.286 0-60 4t-61.429 14.286-55.429 26.286-39.143 42.571-15.429 60.286q0 40 20 70.571t52.286 47.429 68 25.143 72.857 8.286zM800.571 398.286h121.714v61.714h-121.714v125.143h-60v-125.143h-121.143v-61.714h121.143v-124h60v124z"/></symbol><symbol id="icon-angle-down" viewBox="0 0 658 1024"><path class="path1" d="M614.286 420.571q0 7.429-5.714 13.143l-266.286 266.286q-5.714 5.714-13.143 5.714t-13.143-5.714l-266.286-266.286q-5.714-5.714-5.714-13.143t5.714-13.143l28.571-28.571q5.714-5.714 13.143-5.714t13.143 5.714l224.571 224.571 224.571-224.571q5.714-5.714 13.143-5.714t13.143 5.714l28.571 28.571q5.714 5.714 5.714 13.143z"/></symbol><symbol id="icon-github-alt" viewBox="0 0 951 1024"><path class="path1" d="M365.714 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM731.429 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM822.857 694.857q0-68.571-39.429-116.571t-106.857-48q-23.429 0-111.429 12-40.571 6.286-89.714 6.286t-89.714-6.286q-86.857-12-111.429-12-67.429 0-106.857 48t-39.429 116.571q0 50.286 18.286 87.714t46.286 58.857 69.714 34.286 80 16.857 85.143 4h96q46.857 0 85.143-4t80-16.857 69.714-34.286 46.286-58.857 18.286-87.714zM950.857 594.286q0 118.286-34.857 189.143-21.714 44-60.286 76t-80.571 49.143-97.143 27.143-98 12.571-95.429 2.571q-44.571 0-81.143-1.714t-84.286-7.143-87.143-17.143-78.286-29.429-69.143-46.286-49.143-65.714q-35.429-70.286-35.429-189.143 0-135.429 77.714-226.286-15.429-46.857-15.429-97.143 0-66.286 29.143-124.571 61.714 0 108.571 22.571t108 70.571q84-20 176.571-20 84.571 0 160 18.286 60-46.857 106.857-69.143t108-22.286q29.143 58.286 29.143 124.571 0 49.714-15.429 96 77.714 91.429 77.714 227.429z"/></symbol></defs></svg>
+
+        <header class="header-post" role="banner">
+    <div class="content">
+        
+            <time itemprop="datePublished" datetime="2019-10-03 02:25:00 +0530" class="date">03 Oct 2019</time>
+        
+        <h1 class="post-title" itemprop="name">DP on Trees</h1>
+        <p itemprop="description" class="subtitle">Introduction to DP on Trees</p>
+    </div>
+     <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
+     <div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search...">
+        <svg class="icon-remove-sign"><use xlink:href="#icon-close"></use></svg>
+        <ul class="search-results search-list"></ul>
+    </div>
+</div>
+
+<div id="fade" class="overlay"></div>
+<a id="slide" class="slideButton fade">
+    <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
+</a>
+<aside id="sidebar">
+<nav id="navigation">
+  <h2>MENU</h2>
+  <ul>
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
+    
+    
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+  </ul>
+</nav>
+</aside>
+<a id="search" class="dosearch">
+    <svg class="icon-menu icon-search"><use xlink:href="#icon-search"></use></svg>
+</a>
+
+</header>
+
+        <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <p><strong>DP on Trees</strong></p>
+
+<p><strong>Introduction</strong></p>
+
+<p>DP on Trees is a very useful Technique in problem-solving, 
+The prerequisite for learning this is a very basic understanding of Trees, vectors, and DP. 
+Before directly diving into the topic, We will discuss some topics in brief, they are</p>
+<ul>
+  <li>Difference between graphs and Trees.</li>
+  <li>Adjacency List</li>
+  <li>DFS.</li>
+  <li>Dynamic Programming.</li>
+</ul>
+
+<p><strong>Difference between Graphs and Trees</strong></p>
+
+<p>Trees are a Subset of Graphs, like graphs they  are  represented by nodes and edges, a popular shout is “ any graphs with n nodes and n-1 edges is a tree “ , it’s not  completely correct, here is an example to contradict it,</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/1.png" alt="alt_text" /></p>
+
+<p>In the above example we have 4 nodes and 3 edges , yet it is not a tree.</p>
+
+<p>So, what’s the complete definition, the complete definition can be 
+“A Tree is a connected graph with no cycles”. 
+A Tree is a connected graph without any cycle, such graphs can be thought of suspended from the node.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/2.png" alt="alt_text" /></p>
+
+<p>but any graph which satisfies the above criteria can be converted into a tree, for example</p>
+
+<p>The following diagram does not looks like a conventional tree</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/3.png" alt="alt_text" /></p>
+
+<p>But it can easily be converted into a tree by pivoting it at any node let’s pivot it along node 2</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/4.png" alt="alt_text" /></p>
+
+<p><strong>Adjacency list</strong></p>
+
+<hr />
+<p>We have seen how a tree looks like, now let’s see how we can store a graph in memory when we are given with edges between the nodes. 
+There are many ways to do it, but the easiest way to do it is using the adjacency list, which is an array of vectors. 
+For each node, we have a vector, which stores all the adjacent nodes(nodes which are directly connected to it by an edge).</p>
+
+<p>If nodes a and b are connected by an edge then a must be present in the adjacency list of b, and vice-versa.</p>
+
+<p>Let’s take an example for the following tree,</p>
+
+<p>The adjacency list of the graph is:</p>
+
+<ul>
+  <li>1 –&gt; 2 , 3, 4</li>
+  <li>2 –&gt; 1, 5</li>
+  <li>3 –&gt; 1, 6, 7</li>
+  <li>4 –&gt; 1</li>
+  <li>5 –&gt; 2, 8</li>
+  <li>6 –&gt; 3</li>
+  <li>7 –&gt; 3</li>
+  <li>8 –&gt; 5</li>
+</ul>
+
+<p>For a tree with n nodes , there are a total of 2n - 2 elements in an adjacency list in total because we will have exactly n-1 edges and</p>
+
+<p>And each edge connects 2 nodes.</p>
+
+<p>Let’s write a C++  code for making adjacency list of a Tree.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include&lt;bits/stdc++.h&gt;
+Using namespace std;
+
+
+
+int main()
+
+{
+
+    int nodes, edges, i, j; 
+
+    cout&lt;&lt;”\nEnter the Number of nodes and edges: “;
+
+    cin &gt;&gt; nodes &gt;&gt; edges;                //We read number of nodes and edges.
+
+    vector&lt;int&gt; adj[nodes + 1];
+
+    cout &lt;&lt; "\nEnter the edges: ";
+
+    for (i = 1; i &lt;= edges; i++)
+
+    {
+
+        int x, y;
+
+        cin &gt;&gt; x &gt;&gt; y;                    
+
+        adj[x].push_back(y);            //If x is adjacent to y which means that y is also adjacent to x 
+
+        adj[y].push_back(x);
+
+    } 
+
+    for(i=1 ;  i&lt;=nodes; i++)             // We go through each node and print its adjacency list.
+
+    {  cout&lt;&lt;"The adjacency list of node "&lt;&lt;i&lt;&lt;" is : ";
+
+        for(j=0; j&lt;adj[i].size(); j++)        
+
+       {     cout&lt;&lt;adj[i][j]&lt;&lt;"  "; 
+
+       } 
+
+      cout&lt;&lt;”\n”;
+
+    }
+
+    return (0);
+
+}  
+</code></pre></div></div>
+
+<p><span style="text-decoration:underline;">Input: </span></p>
+
+<p>Enter the number of nodes and the edges: 8 7</p>
+
+<p>Enter the edges: 1 2  1 3  1 4  2 5  3 6  3 7 5 8</p>
+
+<p><span style="text-decoration:underline;">Output</span>:</p>
+
+<ul>
+  <li>The adjacency list of node 1 is: 2 3 4</li>
+  <li>The adjacency list of node 2 is: 1 5</li>
+  <li>The adjacency list of node 3 is: 1 6 7</li>
+  <li>The adjacency list of node 4 is: 1</li>
+  <li>The adjacency list of node 5 is: 2 8</li>
+  <li>The adjacency list of node 6 is : 3</li>
+  <li>The adjacency list of node 7 is : 3</li>
+  <li>The adjacency list of node 8 is: 5</li>
+</ul>
+
+<p>Note that no list can be empty because in tree every node is connected to at least one node.</p>
+
+<p><strong>DFS (Depth First Search)</strong></p>
+
+<p>Traversing a Graph means visiting each node of a Graph.</p>
+
+<p>There are 2 main ways of traversing a graph</p>
+
+<ul>
+  <li>DFS (depth first search)</li>
+  <li>BFS (breadth first search)</li>
+</ul>
+
+<p>We will be discussing DFS only on Trees , not on Graph.</p>
+
+<p>For DFS on Graph you can refer to this link:<a href="https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/">https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/</a></p>
+
+<p>We will only discuss DFS because it is required for understanding DP on Trees.</p>
+
+<ul>
+  <li>Parent-child convention: 
+ For understanding DFS or any topic related to Tree, we use this convention, in this, we fix a root node and then we add children to it, then if the child also has a child we call it grandchild of root node and child of the node which is connected to.</li>
+</ul>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/6.png" alt="alt_text" /></p>
+
+<p>In the above example node, 1 is the root node, node 2 and 3 are children of root 1, node 4 and 5 are children of root 2 and grandchildren of root 1, and similarly, 6 is the child of root 3 and grandchild of root 1. <br />
+It is often misunderstood that a node cannot have more than 2 children.<br />
+Only in a Binary Tree, we can have at most 2 children, but in general, it’s ok if a node has more than 2 children.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/7.png" alt="alt_text" /></p>
+
+<p>So in the above figure , if we do dfs of root node 1, the order will be</p>
+
+<p>1 → 2 → 5 → 3 → 4→ 6→ 7 → 8</p>
+
+<p>So overall in DFS we finish all the children before moving to the next child, and this is true for every node we visit.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/8.png" alt="alt_text" /></p>
+
+<p>First, 1 is Parent Node and node 2 is its child, so before visiting 3 we have to complete 2.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/9.png" alt="alt_text" /></p>
+
+<p>Similarly, now node 2 is its parent node and root 4 and its children have to be completed before we visit 5. 
+Let’s take an example:</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/10.png" alt="alt_text" />
+      First we visit the root node.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/11.png" alt="alt_text" />
+  Then we move on to its first child.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/12.png" alt="alt_text" />
+  Then we visit the child of node 2.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/13.png" alt="alt_text" />
+ after we are done with all the children of node 2 we move onto node 3.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/14.png" alt="alt_text" />
+  Since there are no children of 3 we move to the next child which is 4.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/15.png" alt="alt_text" />
+  then we move to first child of 4   That is node 6.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/16.png" alt="alt_text" />
+Then we complete the node 7.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/17.png" alt="alt_text" />
+   and we finish it with node 8.</p>
+
+<p>Now let’s write code for it, in which we have the edges(using the adjacency list program ) and print the order in which the nodes are visited.</p>
+
+<p>Here we define a function DFS which accepts the adjacency list, 
+ the node on which we are performing DFS, and the parent of the node.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> void Dfs(int v,vector&lt;int&gt; adj[], int p)
+
+{
+
+    cout &lt;&lt; v &lt;&lt; " ";     //We print the current node
+
+    int i;
+
+    for (i = 0; i &lt; adj[v].size(); i++)
+
+    {
+
+        if (adj[v][i] != p)    // so that we don't print the parent node 
+
+        {
+
+            Dfs(adj[v][i], adj, v);  //Now our current node becomes the   parent node , and the child of it                                becomes the main node(v)                                   
+
+        }                                                          
+
+    }
+
+}  
+</code></pre></div></div>
+<p><span style="text-decoration:underline;">Input:</span></p>
+
+<p>Enter the edges: 1 2</p>
+
+<p>2 5</p>
+
+<p>1 3</p>
+
+<p>4 8</p>
+
+<p>1 4</p>
+
+<p>4 6</p>
+
+<p>4 7</p>
+
+<p><span style="text-decoration:underline;">Output:  </span></p>
+
+<p>1 2 5 3 4 8 6 7</p>
+
+<p>Now let us see how the code works :</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfs(1, 0)
+
+    dfs(2, 1)
+
+         dfs(5, 2)
+
+         end
+
+    end
+
+    dfs(3, 1)
+
+    end
+
+    dfs(4, 1)
+
+        dfs(6, 4)
+
+        end
+
+        ....
+
+    end
+
+end
+
+</code></pre></div></div>
+
+<p><span style="text-decoration:underline;">Dynamic Programming (DP) </span></p>
+
+<p>Dynamic Programming is a very powerful technique, it is a huge topic in itself, for a more detailed overview of DP you can visit 
+https://www.geeksforgeeks.org/dynamic-programming/. 
+To put it in a nutshell Dynamic Programming is mainly an optimization over plain recursion, it helps us to reduce both space and time complexity(For learning more about time Complexity please refer to https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/ ). 
+The idea is to store the results of previous subproblems so that we do not have to re-compute them when needed later. Though it does not sound very groundbreaking, it can convert an exponential function to a linear one, let’s consider some examples</p>
+
+<p>Find the nth term of Fibonacci  .</p>
+
+<p>If you don’t know what Fibonacci series is please refer:</p>
+
+<p><a href="https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/">https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/</a></p>
+
+<p>Now we know the following property of a fibonacci number</p>
+
+<p>F[n] = F[n-1] + F[n-2]      , n&gt;2</p>
+
+<p>F[1] = 0</p>
+
+<p>F[2] = 1</p>
+
+<p>Now the first approach which comes to mind is the recursion</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> int fib(int n)   //To find the n fibonacci number 
+
+{ if(n==1)
+
+   return(0); 
+
+   if(n==2)
+
+   return(1); 
+
+   else 
+
+   return(fib(n-1) + fib(n-2));
+
+}  
+</code></pre></div></div>
+<p>The recursion is very straight forward, but the time complexity of program is  exponential <a href="https://www.geeksforgeeks.org/time-complexity-recursive-fibonacci-program/">https://www.geeksforgeeks.org/time-complexity-recursive-fibonacci-program/</a>
+Now let’s calculate the same with DP</p>
+
+<p>Let’s declare an array of integer fib[100] in which the i index will contain the ith term of Fibonacci series, 
+Now the first 3 values can be assigned manually fib [0]=0 as there is no 0th term. 
+Fib[1] =0 as the first term is 0. 
+Fib[2] =1 as second term is 1.</p>
+
+<p>Now run a basic for loop from index 2,</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int fib(int n)
+
+{ int i,fib[100]; 
+
+   fib[0]=0; 
+
+   fib[1]=0;
+
+   fib[2]=1; 
+
+    for(i=3; i&lt;=n; i++)
+
+    fib[i]=fib[i-1]+fib[i-2]; 
+
+    return(fib[n]);
+
+}   
+</code></pre></div></div>
+<p>So basically we calculate the value of any term from the previous two terms, we do this in a linear time hence time complexity is 0(n). 
+Plus we have one more advantage if we are given with x queries of 
+Terms, for example: find the nth term of Fibonacci series for the following terms: x1, x2, x3, x4, …xn. 
+If we go by recursion the answer will take even more time, but solving it with DP, we can do it in linear time just going through the for loop once, how? 
+All we need to find out the largest among x1,x2,….xn.<br />
+And we can then find Fib[max(x1,x2,x3….)], and all other values will be calculated among the way, 
+Ex: let’s say im given with 5 queries : 3, 8, 17, 27, 21.<br />
+Now, all we need to calculate is Fib[27] because values of Fib[17], Fib[21], Fib[3], Fib[8], will be calculated along the way.</p>
+
+<p>Ex: let’s say im given with 5 queries :  3, 8, 17, 27, 21.</p>
+
+<p>Now all we need to calculate is  Fib[27] because values of Fib[17], Fib[21], Fib[3], Fib[8], will be calculated along the way.</p>
+
+<p>Let us consider one more example :</p>
+
+<p>We have an array of n integers and we have to find the maximum subarray(continuous block of integers having maximum sum), the problem is only interesting if we take negative integers into consideration otherwise it is a no brainer, and length of block is not fixed.</p>
+
+<p>For example, consider the following array</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/18.png" alt="alt_text" /></p>
+
+<p>If we check manually the greatest sum is from index 1 to index index 5 which is</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/19.png" alt="alt_text" /></p>
+
+<p>2 + 4 + (-3) +5 +2 = 10.  But it is impossible to check it manually for larger array, so how do we  go about it?</p>
+
+<p>The first approach which comes to mind is  fixing the first element</p>
+
+<p>And then calculating all possible cases with remaining elements, store the maximum result and then change the first element and repeat the process.</p>
+
+<p>Understanding it with diagrams</p>
+
+<p>Let’s fix “a” at index 0 and then lets shift “b” first b will start with index “0”, this is the case when the maximum subarray is the first element itself</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/20.png" alt="alt_text" /></p>
+
+<p>The sum is -1</p>
+
+<p>Then let’s shift b to index 1</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/21.png" alt="alt_text" /></p>
+
+<p>the sum will be a to b that is -1 +2 = 1.</p>
+
+<p>Now shift b to right once more</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/22.png" alt="alt_text" /></p>
+
+<p>Sum is 1+ 4 = 5.</p>
+
+<p>Keep shifting it, till you reach the end</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/23.png" alt="alt_text" /></p>
+
+<p>Sum is 5 +(-3) = 2</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/24.png" alt="alt_text" /></p>
+
+<p>Sum is 2+ 5 = 7.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/25.png" alt="alt_text" /></p>
+
+<p>Sum is 7 +2 = 9.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/26.png" alt="alt_text" /></p>
+
+<p>Sum is  9 +(-5) = 4</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/27.png" alt="alt_text" /></p>
+
+<p>Sum is 4 +2 = 6.</p>
+
+<p>Now b has reached the end, note the maximum sum = 9</p>
+
+<p>Now when b reaches the last index shift a to right by 1 index</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/28.png" alt="alt_text" /></p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/29.png" alt="alt_text" /></p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/30.png" alt="alt_text" /></p>
+
+<p>Keep going till the b reaches its end then again shift a by 1 index to the right, finally stop when we have reached the following stage:</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/31.png" alt="alt_text" /></p>
+
+<p>And note the maximum value noted throughout the process, its code is very straight forward</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int maxsub(int a[], int n)
+
+ {   int i,j; 
+
+     int best = 0;
+
+      for (i = 0; i &lt; n; i++)
+
+    {
+
+        int sum = 0;
+
+        for (j = i; j &lt;= n; j++)
+
+        {
+
+            sum = sum + a[j];
+
+            best = max(best, sum);
+
+        }
+
+    } 
+
+    return best;
+
+}
+</code></pre></div></div>
+
+<p>We assign best to the minimum value possible, then we repeat the above process. 
+The time complexity of this method is O(n^2).</p>
+
+<p>Now surprisingly, we can also solve this in O(n) approach using DP, Let’s see how, 
+The idea is to calculate for each position, the maximum sum of the subarray that ends at that position, after that the answer is a maximum of those sums.</p>
+
+<p>Now consider the subproblem of finding the maximum-sum subarray that ends at position k , there are 2 possibilities</p>
+
+<ul>
+  <li>The Subarray only contains the element at position k</li>
+  <li>The subarray consists of a subarray that ends at position k-1, followed by the element at position k.</li>
+</ul>
+
+<p>In the latter case, since we want to find a subarray with the maximum sum, the subarray that ends at position k-1 should also have the maximum sum, thus we can solve the problem efficiently by calculating the maximum subarray sum for each ending position from left to right.</p>
+
+<p>Example</p>
+
+<p>Initially we assign sum =0 and best =0 (which will store our answer) and consider the same array</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/32.png" alt="alt_text" /></p>
+
+<p>Let’s write the code first and then we will discuss more,</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int Maxsub(int a[], int n)
+
+{
+
+    int k, i, sum = 0, best = 0; 
+
+     for (k = 0; k &lt; n; k++)
+
+    {
+
+        sum = max(a[i], a[i] + sum + a[i]);
+
+        best = max(sum, best);
+
+    } 
+
+    return best; 
+
+}
+</code></pre></div></div>
+
+<p>When we iterate for the first time, sum =0,  a[i]=-1, a[i]+sum =-1 , so either way the value of sum becomes -1, and the best values remains the same 0, it means that any subarray ending at index i=0, will have a maximum sum of -1,then for the second time   i=1, a[i] = 2, and sum+a[i] = 1, so sum will now take maximum of those values which is 2, and best value will also become 2, means the maximum subarray that ends at index 1, can have a sum of 2, now when we iterate for the 3rd time, a[i] =4, sum + a[i] = 6, so sum will take maximum of value which is 6 and best will also be equal to 6, again which means maximum subarray that ends at index 2 has sum of 6, we can go on till the last index and find the maximum subarray sum which is value of best.</p>
+
+<p><strong><span style="text-decoration:underline;">DP on Trees </span></strong></p>
+
+<p>Now that we have covered every prerequisite topics, in brief, we will move on to DP on Trees. Let’s directly dive into some problems, 
+The first problem is very standard:</p>
+
+<p>Given a Tree with n weighted nodes(nodes which contain any finite value), calculate the maximum sum of the node values along a path from root to any leaves without re-visiting any node</p>
+
+<p>Now first let us understand the problem, 
+We are at the root node, we need to go to any leaf node, to which the sum of nodes visited along the way is maximum, now if we think carefully, we can only visit a node in only one way, and to visit a specific leaf node , there is only one way , hence we will calculate the sum of elements along the way , this would become clear with the following diagram.</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/33.png" alt="alt_text" /></p>
+
+<p>Now if we come out of node</p>
+
+<p>11 –&gt;  3 + 1 +1+4 = 9</p>
+
+<p>12 –&gt;  5 +1+1+3 =10</p>
+
+<p>13  –&gt; 9 + 9 + 2 + 3 = 23</p>
+
+<p>14 –&gt;  8 + 9 + 2 + 3 = 22</p>
+
+<p>8 –&gt;  1+10+3 = 14</p>
+
+<p>9 –&gt;  5 + 10 + 3 = 18</p>
+
+<p>10 –&gt;  3 + 10 + 3 = 16</p>
+
+<p>Here since the tree is small , we can manually calculate,but if the trees are large, it is impossible to do it manually, so we will try to solve it using DFS and Dp,</p>
+
+<p>Let’s Write the complete Program for it</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;bits/stdc++.h&gt;
+
+using namespace std;
+
+int dfs(int v, vector&lt;int&gt; adj[], int p, int a[])
+
+{
+
+    int i, max = 0;
+
+    for (i = 0; i &lt; adj[v].size(); i++)
+
+    {
+
+        if (adj[v][i] != p)
+
+        {
+
+            int temp = dfs(adj[v][i], adj, v, a);
+
+            if (temp &gt; max)
+
+                max = temp;
+
+        }
+
+    }
+
+    return (max + a[v]);
+
+}
+
+int main()
+
+{
+
+    int nodes, i, edges;
+
+    cin &gt;&gt; nodes&gt;&gt;edges;
+
+    int a[nodes + 1];
+
+    cout &lt;&lt; "\nEnter the values in the node: ";
+
+    for (i = 1; i &lt;= nodes; i++)
+
+        cin &gt;&gt; a[i];
+
+    vector&lt;int&gt; adj[nodes + 1];
+
+    cout &lt;&lt; "Enter the edges: ";
+
+    for (i = 0; i &lt; edges; i++)
+
+    {
+
+        int x, y;
+
+        cin &gt;&gt; x &gt;&gt; y;
+
+        adj[x].push_back(y);
+
+        adj[y].push_back(x);
+
+    }
+
+    cout &lt;&lt; dfs(1, adj, 0, a) &lt;&lt; "\n";
+
+    return (0);
+
+}
+</code></pre></div></div>
+<p>Now Let’s go through the program,</p>
+
+<p>The main function is almost the same as the adjacency list one, except here we have some values,  stored in the node itself, so here we pass 4 things to the function, the root node, the adjacency list, parent of node(which is 0 for root node), and an array of values in the nodes.</p>
+
+<p>Now, the main logic of the problem is that we first go to  the leaves nodes,  and then we start moving upward and each time, we move up , we pass the maximum value that can be obtained from the children of the root to its root then the root returns the maximum value plus the value in the root to its parent node, this process continues till we reach the root node.</p>
+
+<p>Now Let’s Trace the code</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfs(1,adj,0,a)
+
+    dfs(2,adj,1,a)
+
+      dfs(5,adj,2,a) 
+
+         dfs(11,adj,5,a)
+
+         returns  4 to dfs(5,adj,2,a),setting the max value to 4
+
+         End dfs(11,adj,5,a)
+
+         dfs(12,adj,5,a) 
+
+         returns  5 to dfs(5,adj,2,a),changing  the max value to 5
+
+         End  dfs(12,adj,5,a) 
+
+      returns  (5+1(it’s own value)) to dfs (2,adj,1,a)
+
+     End dfs(5,adj,2,a) 
+
+     dfs(6,adj,2,a)
+
+     Returns 3(it’s only value)  to dfs(2,adj,1,a)
+
+     End
+
+    returns 6 + 1(it’s own value ) to dfs(1,adj,0,a)    
+
+    dfs(3,adj,1,a) 
+
+    .
+
+    .
+
+    .
+
+    .
+
+    .
+
+    .
+
+
+    Till we get the maximum sum from the 3 children, and we finally add the value of node 1 (3) to it.  
+</code></pre></div></div>
+<p>Now there is one more interesting property, we can find this value for any node present on the tree, how? 
+Because we can suspend a tree from any node in the tree, here is an example of suspending it from node 5</p>
+
+<p><img src="/blog_src/assets/img/DP_on_Trees/34.png" alt="alt_text" /></p>
+
+<p>We can still calculate the maximum sum ,all we need to do is to call dfs(5,adj,0,a) instead of dfs(1,adj,0,a) from the main function !!!</p>
+
+<p>Now Let’s take one more example</p>
+
+<p>Given a Tree with n weighted nodes(with values attached to them),</p>
+
+<p>choose a subset of nodes such that no two adjacent nodes(i.e. nodes connected directly by an edge) are chosen and sum of values of the chosen nodes is maximum.</p>
+
+<p>Now, the problem might sound a bit complex, if we think the problem breaks down to ,  choosing nodes which are not directly connected by an edge, we cannot choose both the child and parent in every child parent node, this problem is very similar to 
+1-D array problem where we are given an array A1, A2, …, AN; we can’t choose adjacent elements and we have to maximise sum of chosen elements,  Here the approach will be very similar to the earlier question( maximum subarray ), either the element will be included or it won’t be included. 
+The final formula will  be</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dp[i] = max(dp[i-1],a[i]+dp[i-2]),   i &lt;= i&lt;= n.
+</code></pre></div></div>
+<p>This gives us some basic idea about the problem, but unlike the array problem, we don’t have direct adjacent elements, the best way will be defining our state to which subtree we are solving for. For defining subtrees we need to root the tree first. Say, if we root the tree at node 1 and define our dp[v] as the answer for subtree of node V, then we will keep moving up till we reach node 1. 
+Now, similar to the array problem, we have to decide on including node V in our subset or not. If we include node V, we can’t include any of its children(say v1, v2, …, vn), but we can have the grandchildren of node v, and if we don’t include v we can include 
+All the children of node v, 
+Let’s say we are at node v, to calculate the maximum from the leaf nodes, we will again have to travel from bottom to node v, and then decide whether we want to consider the value of node v, and then we pass the value to the parent node of v, Here is the code</p>
+
+<p>For this we have to consider 2 arrays, we need the adjacency list and also the value in the nodes and parent of node, let’s assume they are present globally,</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vector&lt;int&gt; adj[100];
+int dp1[100], dp2[100];
+void dfs(int V, int p, int a[])  //a is the value in the nodes 
+{
+
+    
+    int sum1 = 0, sum2 = 0;
+    for (auto v : adj[V])
+    {
+        if (v == p)
+            continue;
+        dfs(v, V);
+        sum1 = sum1 + dp2[v];
+        sum2 = sum2 + max(dp1[v], dp2[v]);
+    }
+
+    dp1[V] = a[V] + sum1;
+    dp2[V] = sum2;
+} 
+
+The final answer will be the maximum value of dp1[1] and dp[2]. 
+</code></pre></div></div>
+
+<p><strong><span style="text-decoration:underline;">Useful Resources</span></strong></p>
+
+<p><a href="https://www.geeksforgeeks.org/dynamic-programming-trees-set-2/">https://www.geeksforgeeks.org/dynamic-programming-trees-set-2/ </a> 
+<a href="https://www.commonlounge.com/discussion/8573ee40c4cb4673824c867715a5bc7b">https://www.commonlounge.com/discussion/8573ee40c4cb4673824c867715a5bc7b</a><br />
+<a href="https://www.youtube.com/watch?v=PgvJbi2cJSw">https://www.youtube.com/watch?v=PgvJbi2cJSw</a>
+<a href="https://www.codechef.com/problems/FAMTREE">https://www.codechef.com/problems/FAMTREE</a></p>
+
+<!-- Docs to Markdown version 1.0β17 -->
+
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">Compsoc/Diode/Piston</span>
+        <span id="title">DP on Trees</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
+
+            <section class="author" itemprop="author">
+    <div class="details" itemscope itemtype="http://schema.org/Person">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/vaibhav.png" alt="Vaibhav Puri">
+        <p class="def">Author</p>
+        <h3 class="name">
+            <a itemprop="name" href="/">Vaibhav Puri</a>
+        </h3>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:vaibhavpuri32@gmail.com">vaibhavpuri32@gmail.com</a>
+    </div>
+</section>
+
+            <section class="comments">
+
+	<div id="fb-root"></div>
+	
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+</section>
+            
+            <section class="share">
+    <h3>Share</h3>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/dp-on-trees/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//dp-on-trees/"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+    </a>
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//dp-on-trees/"
+    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+    </a>
+</section>
+
+            <footer>
+    <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
+</footer>
+<script src="/blog/assets/js/main.js"></script>
+            
+<script>
+	$(document).ready(function(){
+		if($("pre code").length){
+			
+			$.getScript('../assets/js/highlight.pack.js', function(){
+    			// load the highlighter script only if we have code snippets.
+    			$('pre code').each(function(i, block) {
+    				hljs.highlightBlock(block);
+  				});	
+    		});
+		}
+	});
+</script>
+        </section>
+
+    </body>
+</html>
+            
