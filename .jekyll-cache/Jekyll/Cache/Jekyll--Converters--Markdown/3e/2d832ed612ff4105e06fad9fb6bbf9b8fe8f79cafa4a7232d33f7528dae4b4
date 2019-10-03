@@ -1,0 +1,72 @@
+I"�<blockquote>
+  <p>“Do you think drones are just four rotor-legged flying machines?”<br />
+“Have you ever thought how we can modify these machines to get maximum out of it?”<br />
+Multiple innovations are happening currently in this very industry and here are some of them!</p>
+</blockquote>
+
+<h2 id="going-bladeless--the-future-of-drones-">GOING BLADELESS : THE FUTURE OF DRONES ?</h2>
+
+<p>As much crazy as it might sound , bladeless drone are becoming a reality . Bladeless ? You ask me , well , it might be a bit of misnomer . Bladeless isn’t actually bladeless in the fact the it still relies on a bladed propeller , to force the pressurised air generating thrust . So then what’s new here . The propeller here is ducted from the main body all the way to a nozzle to guide the air through . Something like this:</p>
+
+<p><img src="/blog/assets/img/innovations-in-drone-industry/1.png" alt="img1" /></p>
+
+<p>And here is some takeaways from this awesome new technology</p>
+<ul>
+  <li>Reduces the risk of blade related injuries to the controller as well as other bystanders</li>
+  <li>Reduces blade damage to the drone by meshing the inlet of the duct</li>
+  <li>Increases the maneuverability of the drone by providing the nozzles to guide the air</li>
+</ul>
+
+<p><a href="https://www.youtube.com/watch?v=5L6FSdUmEpg">The Bladeless Drone</a></p>
+
+<h2 id="the-foldable-drone">THE FOLDABLE DRONE</h2>
+
+<p><img src="/blog/assets/img/innovations-in-drone-industry/2.png" alt="img2" /></p>
+
+<p>The foldable drones are now a reality !<br />
+These drone have the ability to fold the rotor arms to various configurations , enabling the drones to cross low opening passages and places which would have been inaccessible otherwise .The first foldable drone was developed by students from the University of Zurich (UTZ) and EPFL .<br />
+Each of its four arms has a servo motor at the base that can rotate one propeller independently.There are several morphologies that can be adopted by the drone, like completely unfolded (“X” morphology), completely folded (“O”), straight line (“H”), and partly folded (“T”).However the drone can also acquire highly asymmetric morphologies whilst maintaining excellent stability thanks to its to its adaptive on board computing system (OBCs).</p>
+
+<p><img src="/blog/assets/img/innovations-in-drone-industry/3.png" alt="img3" /></p>
+
+<p><img src="/blog/assets/img/innovations-in-drone-industry/4.png" alt="img4" /></p>
+
+<p><img src="/blog/assets/img/innovations-in-drone-industry/5.png" alt="img5" /></p>
+
+<h3 id="key-advantages-of-this-technology">Key advantages of this technology</h3>
+
+<ul>
+  <li>Allows the drone to reach inaccessible places which could further its capabilities. (for eg: rubble from an earthquake , landslides , etc.)</li>
+  <li>Enhances the stability of the drone by making use of the adaptive algorithms in the OBC</li>
+  <li>Increases the compactness of the drone and hence portability</li>
+  <li>Allows physical inspection of structures</li>
+  <li>Easy transportation of items</li>
+</ul>
+
+<p><a href="https://spectrum.ieee.org/automaton/robotics/drones/foldable-drone-changes-its-shape-in-mid-air">SHAPE CHANGING DRONE</a></p>
+
+<h2 id="underwater-drones">UNDERWATER DRONES</h2>
+
+<p>If blades drones and shape changing drones weren’t enough , here’s the underwater drone. Underwater drones have the capability to dive mid flight into water , stay submerged , navigate , perform functions underwater , resurface and fly back . These type of drones require to be waterproof at high pressures and temperature , however have lesser payload carrying capacity than owing to a heavy watertight structures around the frame . However these drones can be very versatile since they can easily operate in heavy rains.</p>
+
+<h3 id="key-advantages">Key advantages</h3>
+<ul>
+  <li>Can operate in underwater missions like inspection of bridges , pipelines , knowing the extent of damage done by oil spills , etc.</li>
+  <li>Can operate in unforgiving weather conditions</li>
+</ul>
+
+<p><a href="https://www.youtube.com/watch?v=FC9EJhs0pc0">UNDERWATER DRONE</a></p>
+
+<p><img src="/blog/assets/img/innovations-in-drone-industry/6.png" alt="img6" /></p>
+
+<p><img src="/blog/assets/img/innovations-in-drone-industry/7.png" alt="img7" /></p>
+
+<h3 id="references">References</h3>
+
+<ul>
+  <li>https://airdronecraze.com/quick-reference-guide-of-drone-terminology/</li>
+  <li>https://www.youtube.com/watch?v=FC9EJhs0pc0</li>
+  <li>https://www.red-dot.org/project/bladeless-drone-26825/</li>
+  <li>https://www.youtube.com/watch?v=5L6FSdUmEpg</li>
+</ul>
+:ET

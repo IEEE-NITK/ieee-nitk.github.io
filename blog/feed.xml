@@ -5,9 +5,9 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Aug 2019 19:59:13 +0530</pubDate>
-    <lastBuildDate>Fri, 23 Aug 2019 19:59:13 +0530</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Thu, 03 Oct 2019 23:54:23 +0530</pubDate>
+    <lastBuildDate>Thu, 03 Oct 2019 23:54:23 +0530</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Research, an informal testimony</title>
@@ -80,12 +80,22 @@
       </item>
     
       <item>
-        <title>Solving Switch Riddle Using Rl</title>
-        <description>&lt;p&gt;﻿— layout: post title: “Solving Switch Riddle using RL” author_github: Madhuparna04 date: 2019-02-28 image: ‘/assets/img/’ description: ‘’ tags:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Switch Riddle&lt;/li&gt; &lt;li&gt;Reinforcement Learning&lt;/li&gt; &lt;li&gt;DIAL&lt;/li&gt; &lt;li&gt;RNN categories:&lt;/li&gt; &lt;li&gt;Compsoc github_username: ‘Madhuparna04’ use_math: true comments: false —&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him...</description>
+        <title>Solving Switch Riddle using RL</title>
+        <description>&lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once...</description>
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</guid>
         
+        <category>Switch Riddle</category>
+        
+        <category>Reinforcement Learning</category>
+        
+        <category>DIAL</category>
+        
+        <category>RNN</category>
+        
+        
+        <category>Compsoc</category>
         
       </item>
     

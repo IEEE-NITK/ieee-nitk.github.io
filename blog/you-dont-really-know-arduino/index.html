@@ -224,17 +224,17 @@
 <div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
 </span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
 <span class="p">{</span>
- <span class="c1">//set pin 5 of PORTB to output
-</span> <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
+ <span class="c1">//set pin 5 of PORTB to output</span>
+ <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
  <span class="p">}</span>
  
 <span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
 <span class="p">{</span>
-  <span class="c1">//set pin 5 high to turn led on
-</span>  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
+  <span class="c1">//set pin 5 high to turn led on</span>
+  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
   <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-  <span class="c1">//set pin 5 low to turn led off
-</span>  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
+  <span class="c1">//set pin 5 low to turn led off</span>
+  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
   <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>

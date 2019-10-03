@@ -1,0 +1,271 @@
+I"�b<h2 id="introduction">Introduction</h2>
+
+<blockquote>
+  <p>Segment trees are extensivly used in competitive programming for problems that invlove range queries and range updates.</p>
+</blockquote>
+
+<p>For example, given an array A of N elements, answer Q queries (of two types):</p>
+
+<p>1 L R : output the sum of elements between L and R<br />
+2 x I   : A[I] = x</p>
+
+<p>A similar version of the above problem for minimum(i.e. to find the minimum between L and R) is famously known as Range Minimum Query. These problems can be easily solved with segment trees.</p>
+
+<h2 id="naive-approach">Naive Approach</h2>
+
+<p>A naive approach would be to answer queries of type 1 by running in a loop from L to R and finding the required sum and type 2 by performing updates on the array.</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">Q</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kt">int</span> <span class="n">type</span><span class="p">;</span>
+	<span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">type</span><span class="p">;</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">type</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+		<span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">L</span><span class="o">&gt;&gt;</span><span class="n">R</span><span class="p">;</span>		
+		<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">L</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">R</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+			<span class="n">sum</span> <span class="o">+=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+		<span class="p">}</span>
+		<span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">sum</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="p">{</span>
+		<span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">I</span><span class="o">&gt;&gt;</span><span class="n">x</span><span class="p">;</span>
+		<span class="n">A</span><span class="p">[</span><span class="n">I</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Therefore, range queries (queries of type 1) takes O(N) time and point updates (queries of type 2) take O(1) time. This algorihtm works well when there are large number of point updates compared to range queries.</p>
+
+<p>But what if there there are a large number of range queries, the above algorithm can take O(Q*N) time. For such problems, Q and N have an upperbound of 10<sup>5</sup> usually in contests (Hence won’t pass).</p>
+
+<p>Can we improve this algorithm? Yes, we can by using Segment Trees.</p>
+
+<h2 id="structure-of-segment-tree">Structure of Segment Tree</h2>
+
+<p>So, what is a Segment Tree?</p>
+
+<p>We compute and store the sum of the array A[0 – N-1]. Then we divide the array into two halves and compute the sum of each half, i.e, sum of A[0 – N/2] and A[N/2+1 – N-1]. We continue this process again for each half untill an array with single element is reached.</p>
+
+<p><strong>Note on convention</strong>: From now on, A[L - R] will represent the sub-array of A between L and R (both inclusive).</p>
+
+<p>In other words, we call a procedure to find the sum of elements of A[0 – N-1], split the current segment into half and call the procedure for the both the halves. We can view this setup as a binary tree. The root node being sum A[0 – N-1] and its left and right child being left and right halves of A[0 – N-1].</p>
+
+<p>For example, for A = {2,3,1,9,4,3,7,8}</p>
+
+<p><img src="/blog/assets/img/segment-tree/construction.png" alt="Construction of Segment Tree" /></p>
+
+<p>Each node corresponds to sum of given segment. Its called “Segment Tree” because it can be easily visualised as a tree.</p>
+
+<p>Note that the height of the tree is O(logn) since moving from any parent node to chlid node, the size decreases by approximately by half.</p>
+
+<p>Number of nodes in the tree is   1 + 2 + 4 + … + 2<sup>ceil(logn)</sup> = 2<sup>ceil(logn)+1</sup> &lt; 4n = O(n) . Thus we will need O(n) extra space to implement segment trees.</p>
+
+<p>Note that segment trees are full binary tree(every node has two or zero child nodes). (prove it!)</p>
+
+<h2 id="construction">Construction</h2>
+
+<p>A Segment Tree can be efficiently implemented as follows:</p>
+
+<p>We start at the bottom level, the leaf vertices. A vertex is a leaf vertex, if its corresponding segment covers only one value. Therefore we can simply copy the values of the elements a[i]. On the basis of these values, we can compute the sums of the previous level. And on the basis of those, we can compute the sums of the previous, and repeat the procedure until we reach the root vertex.</p>
+
+<p>It is convenient to describe this operation recursively: we start the construction at the root vertex and the construction procedure, if called on a not-leaf vertex, first recursively constructs the two child vertices, and then sums up the computed sums of these children. If it is called on a leaf vertex, it simply uses the value of the array.</p>
+
+<p>The time complexity of construction in O(n) because each edge is returns just one value.</p>
+
+<p><strong>Note</strong>:<br />
+Here, segment trees are stored in an array T(1 - indexed). We call a node i if it’s corresponding sum is stored at T[i]. We reresent the tree in T by</p>
+<ol>
+  <li>Storing sum corresponding to root node at index 1, i.e, at  T[1]. (node i )</li>
+  <li>Store the sum of corresponding to node child nodes of <em>i</em> at <em>2i</em> ans <em>2i+1</em></li>
+  <li>Given a node i, it’s parent is i/2 (integer division).</li>
+</ol>
+
+<p>Following is the implementation for construction of Segment Tree:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//Max size of given array</span>
+<span class="k">const</span> <span class="kt">int</span> <span class="n">N</span> <span class="o">=</span> <span class="mf">1e5</span><span class="p">;</span>
+<span class="c1">//Segment Tree is represnted</span>
+<span class="kt">int</span> <span class="n">a</span><span class="p">[</span><span class="n">N</span><span class="p">],</span> <span class="n">t</span><span class="p">[</span><span class="mi">4</span><span class="o">*</span><span class="n">N</span><span class="p">];</span> 
+<span class="c1">//a is the array</span>
+<span class="c1">//t is the segment tree</span>
+
+<span class="c1">//fuction to build the tree build(1, 0, n-1)</span>
+<span class="c1">//[start, end] start and end both inclusive</span>
+<span class="kt">void</span> <span class="nf">build</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">start</span> <span class="o">==</span> <span class="n">end</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">start</span><span class="p">];</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="p">{</span>
+		<span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">start</span><span class="o">+</span><span class="n">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+		<span class="n">build</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">mid</span><span class="p">);</span>
+		<span class="n">build</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">);</span>
+		<span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">]</span><span class="o">+</span><span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>build(1, 0, n-1) builds the tree.(assuming n is the size of array a)</p>
+
+<p>But how does constructing a segment tree help in finding range queries?</p>
+
+<h2 id="range-queries">Range Queries</h2>
+
+<p>After the constructing the Segment Tree, it is possible to answer sum queries of the form A[L – R] in O(logn) time.</p>
+
+<p>We compute sum queries by using the pre-computed values of segment sums. The idea is any given segment of values L and R, sum A[L – R] can be represented as sum of pre-computed sub segments.</p>
+
+<p>This can be done by traversing the segment tree.</p>
+
+<p>Following the algorithm we use for range query:</p>
+
+<blockquote>
+  <p>Range_Query(node, L, R)</p>
+
+  <p>(Let start and end be the extremes of the segment for which sum is stored in “node”)</p>
+  <ol>
+    <li>If start &gt;= L and end &lt;= R, then sum of “node” contains a part of the required sum. So we return sum stored in node.</li>
+    <li>If start &gt; R or end &lt; L, then it means the required sum A[L – R] is not present in that node or it’s child nodes(if it exists). In this case, return 0.</li>
+    <li>Else a part of the required sum A[L – R] is present in the node. So, we need to how much “node” contributes to A[L – R]. For this, we recursively call Range_Query for left and right child. i.e. return Range_Query(left child of node, L, R) + Range_Query(right child of node, L, R)</li>
+  </ol>
+</blockquote>
+
+<p>We get the required output by calling Range_Query(root, L, R).</p>
+
+<p>The procedure is illustrated in the following image. The array a=[1,3,−2,8,−7] is used, and here we want to compute the sum of A[2 - 4]. The colored vertices will be visited, and we will use the precomputed values of the green vertices. This gives us the result −2+1=−1.</p>
+
+<p><img src="/blog/assets/img/segment-tree/range.png" alt="range query" /></p>
+
+<p>Following is the implementation for range queries:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">query</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">,</span> <span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">l</span> <span class="o">&gt;</span> <span class="n">end</span> <span class="o">||</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="n">start</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">l</span> <span class="o">&lt;=</span> <span class="n">start</span> <span class="o">&amp;&amp;</span> <span class="n">end</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">];</span>
+	<span class="p">}</span>
+	<span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">start</span><span class="o">+</span><span class="n">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+	<span class="k">return</span> <span class="n">query</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">mid</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span> <span class="o">+</span> <span class="n">query</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>In conclusion the query works by dividing the input segment into several sub-segments for which all the sums are already precomputed and stored in the tree. And if we stop partitioning whenever the query segment coincides with the vertex segment, then we only need O(logn) such segments, which gives the effectiveness of the Segment Tree.</p>
+
+<h2 id="point-updates">Point Updates:</h2>
+
+<p>This query is easier than the sum query. Each level of a Segment Tree forms a partition of the array. Therefore an element A[i] only contributes to one segment from each level. Thus only O(logn) vertices need to be updated.</p>
+
+<p>It is easy to see, that the update request can be implemented using a recursive function. The function gets passed the current tree vertex, and it recursively calls itself with one of the two child vertices (the one that contains A[i] in its segment), and after that recomputes its sum value, similar how it is done in the build method (that is as the sum of its two children).</p>
+
+<p>Here is a visualization using thearray a=[1,3,−2,8,−7]. Here we perform the update a[2]=3. The green vertices are the vertices that we visit and update.</p>
+
+<p><img src="/blog/assets/img/segment-tree/point.png" alt="point update" /></p>
+
+<p>Following is the implementation for point updates:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">update</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">,</span> <span class="kt">int</span> <span class="n">idx</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">start</span> <span class="o">==</span> <span class="n">end</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">a</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">val</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="p">{</span>
+		<span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">start</span><span class="o">+</span><span class="n">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+		<span class="k">if</span><span class="p">(</span><span class="n">idx</span><span class="o">&gt;=</span><span class="n">start</span> <span class="o">&amp;&amp;</span> <span class="n">idx</span><span class="o">&lt;=</span><span class="n">mid</span><span class="p">)</span> <span class="p">{</span>
+			<span class="n">update</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">mid</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span> <span class="p">{</span>
+			<span class="n">update</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">]</span><span class="o">+</span><span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="note-on-implementation">Note on implementation:</h2>
+
+<p>You can use the following functions as helper fuctions(for ease of use):</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">build</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">build</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">//change idx value to val, i.e, a[idx] = val</span>
+<span class="kt">void</span> <span class="nf">update</span><span class="p">(</span><span class="kt">int</span> <span class="n">idx</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+	<span class="n">update</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">//[l,r] both inclusive</span>
+<span class="kt">int</span> <span class="nf">query</span><span class="p">(</span><span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="n">query</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Bonus</strong>: Try to implement range minimum and maximum query with point updates.</p>
+
+<h2 id="more-examples">More examples:</h2>
+
+<blockquote>
+  <ol>
+    <li>Given an array of N numbers and Q queries, each query consists of L and R. We need to write a program that prints the number of occurrence of the smallest element in the range L-R.</li>
+  </ol>
+</blockquote>
+
+<p>This is similar to range query except that it asks for number of minimum elements in the given range.</p>
+
+<p>Here, at each node of the segment tree, minimum and count of minimum element is stored. Try implementing the solution to this problem.</p>
+
+<p>The solution is similar to sum queries problem but with different conditions for merging solutions.  By merging, I mean the step of updating the parent node value(or gathering query result) from its child nodes value(which occurs in construction and range queries).</p>
+
+<p><strong>Hint</strong>: 
+Use struct for each node to store minimum and count</p>
+
+<ol>
+  <li>
+    <p>min(left_subtree) &lt; min(right_subtree): 
+node.min=min(left_subtree), node.count = left_subtree.count</p>
+  </li>
+  <li>
+    <p>min(left_subtree) &gt; min(right_subtree): 
+node.min=min(right_subtree), node.count=right_subtree.count</p>
+  </li>
+  <li>
+    <p>min(left_subtree) = min(right_subtree): 
+node.min=min(left_subtree) or min(right_subtree), node.count=left_subtree.count + right_subtree.count</p>
+  </li>
+</ol>
+
+<p>Implementation: <a href="https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/">https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/</a></p>
+
+<blockquote>
+  <ol>
+    <li>Given N numbers and Q queries, each query consists of L and R. Task is to write a program which prints the count of numbers which divides all numbers in the given range L-R.</li>
+  </ol>
+</blockquote>
+
+<p>This is a slightly harder problem. The point to note for such problems is that everything boils down to the merging step. If we are able to define contents of each node in the segment tree and are able to get a way to merge two child nodes to return required answer(or update parent), then we are done.</p>
+
+<p>Here, note that the number that divides all elements in a segment should be the minimum. If such a number exists, then it should be the GCD of all numbers in the segment.</p>
+
+<p>So the count of the number of minimums in range L-R, given that minimum is equal to the gcd of that range will be our answer to every query. The problem boils down to finding the GCD, MINIMUM and count of MINIMUM for every range using Segment trees. On every node of the tree, three values are stored. 
+On querying for a given range, if the gcd and minimum of the given range are equal, countMINIMUM is returned as the answer. If they are unequal, 0 is returned as the answer.</p>
+
+<h2 id="implemenation">Implemenation:</h2>
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/">https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/</a></li>
+</ul>
+
+<p><strong>Bonus</strong>: Check out two dimensional segment trees if you are interested: <a href="https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/">https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/</a></p>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>This article is supposed to be an introduction to Segment Trees. If you feel comfortable with the contents of the article, then do check out lazy propagation on segment trees. (this allows you to perform range queries and range updates on the segment tree)</p>
+
+<h2 id="references">References:</h2>
+
+<ul>
+  <li>
+    <p><a href="https://cp-algorithms.com/data_structures/segment_tree.html">https://cp-algorithms.com/data_structures/segment_tree.html</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/">https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/</a></p>
+  </li>
+  <li>
+    <p><a href="https://visualgo.net/en/segmenttree">https://visualgo.net/en/segmenttree</a></p>
+  </li>
+</ul>
+:ET

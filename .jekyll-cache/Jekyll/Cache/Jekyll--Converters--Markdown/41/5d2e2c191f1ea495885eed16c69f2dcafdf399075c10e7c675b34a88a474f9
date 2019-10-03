@@ -1,0 +1,49 @@
+I"<<h2 id="introduction">Introduction</h2>
+
+<p>A supercapacitor is a specially designed capacitor which has an enormous capacitance. While capacitors used in everyday life tend to have values in the nano or microfarad range, supercapacitors can have values of upto 12,000 F depending on their application.</p>
+
+<p><img src="/blog/assets/img/supercap/img1.jpeg" alt="img1" /></p>
+
+<h2 id="construction">Construction</h2>
+
+<p>Like an ordinary capacitor, a supercapacitor has two plates that are separated. The plates are made from metal coated with a porous substance such as powdery, activated charcoal, which effectively gives them a bigger area for storing much more charge.</p>
+
+<p>What about the separator between the plates? In an ordinary capacitor, the plates are separated by a relatively thick dielectric made from something like mica , a thin plastic film, or even simply air. When the capacitor is charged, positive charges form on one plate and negative charges on the other, creating an electric field between them. The field polarizes the dielectric, so its molecules line up in the opposite direction to the field and reduce its strength. That means the plates can store more charge at a given voltage.</p>
+
+<p>In a supercapacitor, there is no dielectric as such. Instead, both plates are soaked in an electrolyte and separated by a very thin insulator (which might be made of carbon, paper, or plastic). When the plates are charged up, an opposite charge forms on either side of the separator, creating what’s called an electric double-layer, maybe just one molecule thick.</p>
+
+<p>We all know of the standard capacitance equation : c=eA/d</p>
+
+<p>Supercapacitors drastically increase the area <strong>A</strong> and the value of <strong>e</strong>, while reducing the distance <strong>d</strong> to facilitate such high capacitance values.</p>
+
+<h2 id="supercapacitors-vs-batteries">Supercapacitors vs batteries</h2>
+
+<p>The big advantage of a supercapacitor is that it can store and release energy almost instantly, much more quickly than a battery. That’s because a supercapacitor works by building up static electric charges on solids, while a battery relies on charges being produced slowly through chemical reactions, often involving liquids.</p>
+
+<p>Batteries have a higher energy density (they store more energy per unit mass) but supercapacitors have a higher power density (they can release energy more quickly). That makes supercapacitors particularly suitable for storing and releasing large amounts of power relatively quickly, but batteries are still king for storing large amounts of energy over long periods of time.</p>
+
+<p>Since supercapacitors work electrostatically, rather than through reversible chemical reactions, they can theoretically be charged and discharged any number of times (specification sheets for commercial supercapacitors suggest you can cycle them perhaps a million times). They have little or no internal resistance, which means they store and release energy without using much energy and work at very close to 100 percent efficiency (97-98 percent is typical).</p>
+
+<p><img src="/blog/assets/img/supercap/img2.jpeg" alt="img2" /></p>
+
+<h2 id="applications">Applications</h2>
+
+<h3 id="energy-recovery">Energy recovery</h3>
+
+<p>A primary challenge of all transport is reducing energy consumption and reducing emissions. Recovery of braking energy helps with both. This requires components that can quickly store and release energy over long times with a high cycle rate. Supercapacitors fulfill these requirements and are therefore used in a lot of applications in all kinds of transportation.</p>
+
+<h3 id="consumer-electronics">Consumer electronics</h3>
+
+<p>Supercapacitors are frequently designed into these products for memory protection. Internal back-up power is another common application. The supercapacitor can be used either as a battery replacement or as a short-term redundant backup supply. Most recently, Samsung started using supercapacitors in the S Pen which comes along with the Galaxy Note 9. The supercapacitor enables the S Pen to be used for almost 30 minutes, with a mere 40 seconds of charge.</p>
+
+<h3 id="transportation">Transportation</h3>
+
+<p>In early 2005 Shanghai tested a new form of electric bus called capabus that runs without power lines using large onboard supercapacitors that partially recharge whenever the bus is at a stop (under so-called electric umbrellas), and fully charge in the terminus. In 2006, two commercial bus routes began to use the capabuses; one of them is route 11 in Shanghai. It was estimated that the supercapacitor bus was cheaper than a lithium-ion battery bus, and one of its buses had one-tenth the energy cost of a diesel bus with lifetime fuel savings of $200,000.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The field of supercapacitors is one that needs a significant amount of research to develop further and be economically feasible to manufacture at a large scale. It should, however see great innovations with the introduction of materials such as graphene. The future sure does look exciting as it does offer a considerable amount of application potential, especially in the fields of renewable energy and electric/hybrid vehicles.</p>
+
+<p>Even <strong>Elon Musk</strong> once said, “If I were to make a prediction, I’d think there’s a good chance that it is not batteries, but supercapacitors.”</p>
+
+:ET

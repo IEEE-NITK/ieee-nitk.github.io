@@ -1,0 +1,54 @@
+I"�<blockquote>
+  <p>“Just torrent it!”</p>
+
+  <p>“You can torrent any type of file, its all there on the internet…”</p>
+</blockquote>
+
+<p>These are just some of the common sentences one hears when it comes to downloading files from the internet. However, many people do not even know what BitTorrent is, much less know how it works.(It includes uploading files as well)</p>
+
+<h2 id="a-simple-introduction">A simple introduction</h2>
+
+<p><img src="/blog/assets/img/BitTorrent-Explained/pic1.png" alt="BitTorrent Logo" /></p>
+
+<p>BitTorrent is a communication protocol(set of rules) that is used for sharing all types of data and electronic files over the internet. This falls under the category of <a href="https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing">peer-to-peer file sharing</a>.</p>
+
+<p>Now, to implement this protocol, we need:</p>
+
+<ul>
+  <li>
+    <p>A device connected to the internet</p>
+  </li>
+  <li>
+    <p>A program known as a <strong>BitTorrent Client</strong>(Example- μTorrent,BitComet,etc.)</p>
+  </li>
+</ul>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p><img src="/blog/assets/img/BitTorrent-Explained/pic2.jpg" alt="Operation Explained" /></p>
+
+<p>Using BitTorrent is different from any other common download or upload. Usually, users download from a single host server, but this protocol allows users to become a host , joining several other such user-hosts in the “swarm”, and upload as well as download files all at the same time. Consider the following simple example:</p>
+
+<p>Several thousand users wish to download a large video file. The user responsible for uploading this file initially, becomes the <em>seeder</em>. The users who wish to download this file are known as <em>leachers</em>.</p>
+
+<p>Now, each of the leachers begin to download segments/pieces of the file from the seeder. As they do so, they simultaneously begin to upload the pieces they receive to other users in need. Each of these pieces are downloaded non-sequentially, and this is where the client comes in. It <strong>rearranges the pieces</strong> so that they are in order, and <strong>determines what pieces are yet to be recieved.</strong></p>
+
+<p>Once the file is completely downloaded, the leacher becomes an additional seeder, and the greater the number of such transitions, the better the “health” of the file.</p>
+
+<h2 id="why-is-this-beneficial">Why is this beneficial?</h2>
+
+<ul>
+  <li>
+    <p>The data pieces are all of the same size. Hence, one can pause their download, and resume at any later point of time. There is <strong>no loss in information.</strong></p>
+  </li>
+  <li>
+    <p>The <strong>bandwidth requirement is significantly reduced</strong>. This prevents an increase in internet traffic, and all users receive greater speed for data transfer.</p>
+  </li>
+</ul>
+
+<h2 id="putting-it-all-together">Putting it all together</h2>
+
+<p>It is quite clear how using this protocol to transfer data is different than the orthodox method. The download in this case is in a random order, whereas it is sequential otherwise. There are security concerns that have been raised about the misuse of the technology, as it is harder to track down several different hosts rather than a single host.</p>
+
+<p>For further reference, you can read up on <a href="https://en.wikipedia.org/wiki/BitTorrent#Technologies_built_on_BitTorrent">Wikipedia</a> or watch this video on <a href="https://www.youtube.com/watch?v=urzQeD7ftbI">YouTube</a></p>
+:ET
