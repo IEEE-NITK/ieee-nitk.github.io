@@ -1,0 +1,766 @@
+﻿nithinme:
+  name: Nithin M Eapen
+  author_image: 'blog-author.jpg'
+  user_description: 'The more you dream, the farther you get'
+  email: sirnithin98@gmail.com
+nightzoomer:
+  name: Satyam Shivam
+  github: nightzoomer
+  author_image: 'satyam_shivam.jpg'
+  user_description: 'More confused than curious.'
+  email: satyam.shivam76@gmail.com
+gurupunskill:
+  name: Gurupungav Narayanan
+  github: gurupunskill
+  author_image: 'guru.jpg'
+  user_description: 'Living thing.'
+  email: gurupungavn@gmail.com
+vshan:
+  name: Vinay Bhat
+  github: vshan
+  author_image: 'vinay_bhat.jpg'
+  user_description: 'Love and Life on this journey.'
+  email: vinaybhat001@gmail.com
+aditya-kulkarni:
+  name: Aditya Kulkarni
+  github: aditya-kulkarni
+  author_image: 'aditya-kulkarni.jpg'
+  user_description: 'Analog/ Digital VLSI | Analog System Design | Communication Circuits.'
+  email: adityakul995@gmail.com
+andydandyy:
+  name: Anand Pathak
+  github: andydandyy
+  author_image: 'blog-author.jpg'
+  user_description: 'Overenthusiastic Introvert.'
+  email: 'andy.pathak1@gmail.com'
+manan-sharma:
+  name: Manan Sharma
+  github: manan-sharma
+  author_image: 'blog-author.jpg'
+  user_description: 'Imagination at work.'
+  email: 'manansharma296@gmail.com'
+adilashique:
+  name: Adil Ashique
+  github: adilashique
+  author_image: 'adilashique.jpg'
+  user_description: 'Start unknown. End unforgettable.'
+  email: 'adilashique@gmail.com'
+viggi:
+  name: Vighnesh Velayudhan
+  github: viggi-v
+  author_image: 'vighnesh.jpg'
+  user_description: 'That guy who always spends time in front of laptop and loves js'
+  email: 'vighneshvelayudhan@gmail.com'
+pranaypraveen:
+  name: Pranay Praveen
+  github: pranaypraveen
+  author_image: 'pranay_praveen.jpg'
+  user_description: "Sometimes the questions are complicated and the answers are simple."
+  email: pranay2098@gmail.com
+kaushiksk:
+  name: Kaushik S Kalmady
+  github: kaushiksk
+  author_image: 'blog-author.jpg'
+  user_description: "Learn. Build. Build on it."
+  email: kaushikskalmady@outlook.com
+salman-bhai:
+  name: Salman Shah
+  github: salman-bhai
+  author_image: 'salman_shah.jpg'
+  user_description: 'IEEE Convenor 2018'
+  email: sbs.191197@gmail.com
+hrily:
+  name: Hrishi Hiraskar
+  github: hrily
+  author_image: 'hrily.jpg'
+  user_description: "I'm CodeCrazy. I love Computer."
+  email: hrishihiraskar@gmail.com
+chinmaydd:
+  name: Chinmay Deshpande
+  github: chinmaydd
+adithyabhatkajake:
+  name: Adithya Bhat
+  github: adithyabhatkajake
+  author_image: 'adithyabk.jpg'
+  user_description: "C, Linux and cryptography - My deathly hallows"
+  email: dth.bht@gmail.com
+trmittal:
+  name: Tarun Mittal
+  github: trmittal
+  author_image: 'tarun_mittal.jpg'
+  user_description: "Technology Enthusiast currently exploring embedded systems"
+  email: 'trmittal24@gmail.com'
+vilas897:
+  name: Vilas M
+  github: vilas897
+  author_image: 'blog-author.jpg'
+  user_description: 'Leaving the ordinary behind'
+  email: vilasnitk19@gmail.com
+AbhijithKamath:
+  name: Abhijith Kamath
+  github: AbhijithKamath
+  author_image: 'abhijith_kamath.jpeg'
+  user_description: 'To the brave to tread the path less taken, to the ones who believe the answer to everything lies in data'
+  email: 'kamath.abhijith@gmail.com'
+Anupama:
+  name: Anupama G
+  github: Anupama
+  author_image: 'anupama.jpeg'
+  user_description: 'Lover of formalised curiosity'
+  email: 'anupamagvs@gmail.com'
+isha97:
+  name: Isha Tarte
+  github: isha97
+  author_image: 'isha.jpg'
+  user_description: 'Theoretical Computer Science Enthusiast'
+  email: 'tarteisha@gmail.com'
+mohita:
+  name: Mohiitaa Chowdhury
+  github: mohita
+  author_image: 'mohita.jpg'
+  user_description: 'Breathing in oxygen, breathing out ideas'
+  email: 'chowdhury.mohita@gmail.com'
+jeshventhraja:
+  name: Jeshventh Raja
+  github: jeshventhraja
+  author_image: 'jeshventh.jpg'
+  user_description: 'A budding entrepreneur, app developer and lover of security sciences'
+  email: 'jeshvanthtk@gmail.com'
+samarth:
+  name: Samarth Bonthala
+  github: Samarth
+  author_image: 'samarth.jpg'
+  user_description: 'Be the change that you want to see'
+  email: 'bsamarth2@gmail.com'
+vasista:
+  name: Vasista Ayyagari
+  github: vasista
+  author_image: 'vasista.jpg'
+  user_description: 'Radiating intellectual aura'
+  email: 'vasista1997@gmail.com'
+shreyas:
+  name: Shreyas Hegde
+  github: shreyas
+  author_image: 'shreyas.jpeg'
+  user_description: 'Mechanical Engineering MS Admit at Duke University'
+  email: 'shreyas.hegde7@gmail.com'
+swathisbhat:
+  name: Swathi S Bhat
+  github: swathisbhat
+  author_image: 'swathi.png'
+  user_description:
+  email: 'swathibhat282@gmail.com'
+aditya5558:
+  name: A Aditya
+  github: aditya5558
+  author_image: 'a_aditya.jpeg'
+  user_description: 'A Data Science Enthusiast'
+  email: 'adityanant@gmail.com'
+megha68:
+  name: Megha Mantur
+  github: megha68
+  author_image: 'megha.jpg'
+  user_description: 'Yet to learn a lot!'
+  email: 'meghamantur060896@gmail.com'
+shuvam96:
+  name: Shuvam Senapati
+  github: shuvam96
+  author_image: 'shuvam.jpg'
+  user_description: 'Seeking Nirvana through CAD Modelling'
+  email: 'senapati.shuvam96@gmail.com'
+gitmenonsandu:
+  name: Sandeep Menon
+  github: gitmenonsandu
+  author_image: 'sandeep.jpeg'
+  user_description: 'Dream the future, they come true'
+  email: 'menonsandu@gmail.com'
+prajwal:
+  name: Prajwal Bharadwaj
+  github: ''
+  author_image: 'prajwal.jpg'
+  user_description: 'Amazed by the power of knowledge which increases aesthetic value'
+  email: 'prajwalb9897@gmail.com'
+prafulitti:
+  name: Praful Itti
+  github: prafulitti
+  author_image: 'praful.jpg'
+  user_description: "Don't go in the water"
+  email: 'praful.itti@gmail.com'
+karthik:
+  name: Karthik
+  github: ''
+  author_image: 'blog-author.jpg'
+  user_description: 'Computers and Coding'
+  email: karthik@gmail.com
+aneesh297:
+  name: Aneesh Aithal
+  github: aneesh297
+  author_image: 'aneesh.jpg'
+  user_description: "The future is now"
+  email: aneesh297@gmail.com
+nandini:
+  name: Nandini
+  author_image: 'Nandini_photo.jpg'
+  email: nandini.pvs@gmail.com
+akula-sri-charan:
+  name: Sri Charan Akula
+  author_image: 'akulasricharan.jpg'
+  email: akulasricharan.asc@gmail.com
+Shwetha:
+  name: Shwetha S V
+  author_image: 'shwetha.png'
+  email: shwethasv97@gmail.com
+  user_description: 'Passion drives you. Hardwork gets you there.'
+akshay:
+  name: Akshay Krishna
+  author_image: 'akshay.jpg'
+  email: 'akshay062@gmail.com'
+  user_description : 'A curious creature :)'
+subbalakshmi:
+  name: N Subbalakshmi
+  author_image: 'subbalakshmi.jpg'
+  email: 'subbalakshmi.n18@gmail.com'
+  user_description: 'Always eager to learn something new'
+natasha-jeppu:
+  name: Natasha Jeppu
+  github: natasha-jeppu
+  author_image: 'natasha-jeppu.jpg'
+  user_description: 'Avid researcher and DAAD scholar'
+  email: natasha.jeppu@gmail.com
+vinayakvenugopal27:
+  name: Vinayak V Gopal
+  github: vinayakvenugopal27
+  author_image: 'vinayak.jpg'
+  user_description: 'Just another human over here!'
+  email: vinayakvenugopal27@gmail.com
+santosh-kodali:
+  name: Santosh Kodali
+  github: santosh-kodali
+  author_image: 'santosh.jpg'
+  user_description: 'The World is rapidly changing, let us try and keep up.'
+  email: santoshkvk@gmail.com
+chennakeshava1998:
+  name: Chenna Keshava B S
+  github: chennakeshava1998
+  author_image: 'ck.jpg'
+  email: ckeshavabs@gmail.com
+somnathsarkar:
+  name: Somanth Sarkar
+  github: somnathsarkar
+  author_image: 'blog-author.jpg'
+  user_description: 'Programmer, interested in CP.'
+  email: somnath.k.sarkar@gmail.com
+abhishekthigale:
+  name: Abhishek Thigale
+  github: abhishekthigale
+  author_image: 'abhishek.jpg'
+  user_description: 'Mech Engineer for Life!'
+  email: abhithigale3@gmail.com
+mahirjain25:
+  name: Mahir Jain
+  github: mahirjain25
+  author_image: 'mahir.jpg'
+  user_description: 'Hard work beats talent when talent fails to work hard.'
+  email: mahirjain25@gmail.com
+somnathsarkar:
+  name: Somanth Sarkar 
+  github: somnathsarkar
+  author_image: 'blog-author.jpg'
+  user_description: 'Programmer, interested in CP.'
+  email: somnath.k.sarkar@gmail.com
+abhishekthigale:
+  name: Abhishek Thigale 
+  github: abhishekthigale
+  author_image: 'abhishek.jpg'
+  user_description: 'Mech Engineer for Life!'
+  email: abhithigale3@gmail.com
+RosaGeorge31:
+  name: Rosa Anil George
+  github: RosaGeorg31
+  author_image: 'RosaGeorge.jpeg'
+  user_description: 'Born to Code!'
+  email: rosageorge97@gmail.com
+adwait1-G:
+  name: Adwaith Gautham
+  github: adwait1-G
+  author_image: blog-author.jpg
+  user_description: "boom! boom!"
+  email: adwait.gautham@gmail.com
+anirudh0707:
+  name: Anirudh B H
+  github: anirudh0707
+  user_description: 'Envision Coordinator - 2018-2019'
+  author_image: 'anirudh.jpg'
+  email: yani.bh@gmail.com
+ayush9753:
+  name: Ayush G S
+  github: ayush9753
+  author_image: 'ayush.png'
+  user_description: 'Keep experimenting!'
+  email: Ayush.gs1998@gmail.com
+nikhilgovindarajan:
+  name: Nikhil Govindarajan
+  github: nikhilgovindarajan
+  author_image: blog-author.jpg
+  user_description: 'TBD. Pretty good guitarist though.'
+  email: nikhil0398@gmail.com
+sachitkrishnan:
+  name: Sachit Krishnan
+  github: sachitkrishnan
+  author_image: sachitk.jpg
+  user_description: 'Electrical and Electronics Engineering, BTech II Year'
+  email: 'sachitk777@gmail.com'
+adilamrajiv:
+  name: Adila M Rajiv
+  github: adilamrajiv
+  author_image: blog-author.jpg
+  user_description: 'Mech Girl, interested in energy'
+  email: adilamrajiv@gmail.com
+sssachin300:
+  name: Sachin Sampath
+  github: sssachin300
+  author_image: sachin.png
+  user_description: 'IEEE Enthusiast interested in Engineering'
+  email: sssachin300@gmail.com
+vibhoregit:
+  name: Vibhore Jain
+  github: vibhoregit
+  author_image: vibhore.jpg
+  user_description: '"Everyone is special" - a classic example of Oxymoron...'
+  email: jainvibhore1997@gmail.com
+archit-p:
+  name: Archit Pandey
+  github: archit-p
+  author_image: archit.jpg
+  user_description: 'Open-source enthusiast'
+  email: archpndy@gmail.com
+sampathkoti:
+  name: Sampath Koti
+  github: sampathkoti
+  author_image: blog-author.jpg
+  user_description: "ECE, NIT-K"
+  email: sampath21021999@gmail.com
+pvgupta24:
+  name: Praveen Gupta
+  github: pvgupta24
+  author_image: pvgupta24.jpg
+  user_description: 'Turning Caffeine to Code :P'
+  email: pvgupta24@gmail.com
+varsh2506:
+  name: Varshini Srinivasan
+  github: varsh2506
+  author_image: varshini.jpg
+  user_description: 'The more I learn, the more I realise how much I don’t know.'
+  email: varshini.srinivasan@gmail.com
+mirthunraj:
+  name: Mirthun Raj
+  github: mirthunraj
+  author_image: blog-author.jpg
+  user_description: 'IEEE Enthusiast interested in Engineering'
+  email: mithunraj@gmail.com
+mj10:
+  name: Moksh Jain
+  github: mj10
+  author_image: mokshjain.jpg
+  user_description: 'I like Computers. Computers like me.'
+  email: mokshjn00@gmail.com
+anirudhsundar:
+  name: Anirudh Sundar
+  github: anirudhsundar
+  author_image: anirudhsundar.jpg
+  user_description: 'LOTR fan, poké-nerd, F1 addict'
+  email: anirudhs1997@gmail.com
+sinchana-hegde:
+  name: Sinchana Hegde
+  github: sinchana-hegde
+  author_image: sinchana.jpg
+  user_description: 'Dancer, Theatre lover, Robotics enthusiast'
+  email: sinchanah@gmail.com
+anumehaagrawal:
+  name : Anumeha Agrawal 
+  github : anumehaagrawal
+  author_image : anumeha.jpeg
+  user_description: ' Work until the idols become your rivals'
+  email : anuzenith29@gmail.com
+rajatchandavar:
+  name: Rajat Chandavar
+  github: rajatchandavar
+  author_image: rajat.jpg
+  user_description:  'Prog-rock fan, Nature-lover-seeker, Aero-addict.' 
+  email: rajatchandavar1998@gmail.com
+sowjanyakandula:
+  name: Sowjanya Kandula
+  github: sowjanyakandula
+  author_image: sowjanya.jpg
+  user_description: 'Passionate about learning new things'
+  email: sowjanyakandula99@gmail.com
+smarty1palak:
+  name: Palak Singhal
+  github: smarty1palak
+  author_image: palak.jpg
+  user_description: 'while(!(succeed==try()));'
+  email: smarty1palak@gmail.com
+mahim23:
+  name: Mahim Agrawal
+  github: mahim23
+  author_image: mahim_agrawal.jpg
+  user_description: 'Football freak, Gamer'
+  email: mahim23agrawal@gmail.com
+meghbhalerao:
+  name: Megh Bhalerao
+  github: meghbhalerao
+  author_image: megh_bhalerao.jpeg
+  user_description: 'Wake up kick-ass repeat'
+  email: megh.bhalerao@gmail.com
+vansjyo:
+  name: Vanshika Gupta
+  github: vansjyo
+  author_image: blog-author.jpg
+  user_description: 'Web development, energy'
+  email: vanshika421@gmail.com
+Shama-Vasisht:
+  name: Shama G Vasisht
+  github: Shama-Vasisht
+  author_image: blog-author.jpg
+  user_description: 'The perfect ones are always flawed.'
+  email: shamagvasisht23998@gmail.com
+sonalparab10:
+  name: Sonal S. Parab
+  github: sonalparab10
+  author_image: blog-author.jpg
+  user_description: 'Piston, IEEE NITK'
+  email: parab.sonal108@gmail.com
+shashank-ravichandir: 
+  name: Shashank Ravichandir
+  github: shashank-ravichandir
+  author_image: blog-author.jpg
+  user_description: 'Mechanical, NITK'
+  email: shashank2041998@gmail.com  
+shreeramhegde:
+  name: Shreeram Hegde
+  github: shreeramhegde
+  author_image: blog-author.jpg
+  user_description: 'ECE, NITK'
+  email: shreeram1739@gmail.com
+ShashankP19:
+  name: Shashank P
+  github: ShashankP19
+  author_image: shashank_p.jpg
+  user_description: 'Fascinated about computer science and mathematics'
+  email: shashankp5424@gmail.com
+suraj44:
+  name: Suraj Singh
+  github: suraj44
+  author_image: suraj.png
+  user_description: "I'm interested in operating systems and systems programming"
+  email: surajnitk4@gmail.com
+mehakarora:
+  name: Mehak Arora
+  github: mehakarora
+  author_image: mehak.jpg
+  user_description: 'Your strongest muscle and your worst enemy is your mind. Train it well.'
+  email: mehakarora23@gmail.com
+sanathbk:
+  name: Sanath K.
+  github: sanathbk
+  author_image: sanath.jpg
+  user_description: 'Mechanical Engineer. Let the world wait.'
+  email: sanathkshettar@gmail.com
+adwait1-G:
+  name: Adwaith V Gautham
+  github: adwait1-G
+  author_image: adwait.jpg
+  user_description: 'On a mission of securing the cyberspace from bad guys'
+  email: adwait.gautham@gmail.com
+hebbarashwin:
+  name: Ashwin Hebbar
+  github: hebbarashwin
+  author_image: Ashwin_Hebbar.jpg
+  user_description: I'm not lazy , I'm just overflowing with potential energy. :P
+  email: hebbarashwin@gmail.com
+kiran-kumarg:
+  name: Kiran Kumar G
+  github: kiran-kumarg
+  author_image: kirankumar.jpg
+  user_description: ''
+  email: kirankumar.kiran78@gmail.com
+RosaGeorge31:
+  name: Rosa Anil George
+  github: RosaGeorge31
+  author_image: RosaGeorge.jpeg
+  user_description: 'Born to Code!'
+  email: rosageorge97@gmail.com
+nishanthebbar2011:
+  name: Nishanth P Hebbar
+  github: nishanthebbar2011
+  author_image: Nishanth.jpg
+  user_description: 'If it is to be, it is up to me'
+  email: nishanthebbar@gmail.com
+HarshitRanjan:
+  name: Harshit Ranjan
+  github: HarshitRanjan
+  author_image: HarshithRanjan.jpg
+  user_description: 'Never settle with what you are!'
+  email: harshitranjan2098@gmail.com
+aditya-834:
+  name: Aditya Rangarajan
+  github: aditya-834
+  author_image: AdityaRangarajan.jpeg
+  user_description: 'I am not lazy, I just really enjoy doing nothing!'
+  email: arangarajan834@gmail.com
+Aj163:
+  name: Ashwin Joisa
+  github: Aj163
+  author_image: Aj163.png
+  user_description: 'Competitive Programming Enthusiast'
+  email: ashwinjoisa@gmail.com
+krishnakv98:
+  name: KV Krishna
+  github: krishnakv98
+  author_image: krishnakv98.jpeg
+  user_description: 'Aspiring Rocket Scientist!'
+  email: krishnakv98@gmail.com
+Shruti-Deshpande:
+  name: Shruti Deshpande
+  github: Shruti-Deshpande
+  author_image: Shruti-Deshpande.jpeg
+  user_description: 'Do or Do not. There Is no Try.'
+  email: shrutideshpande9598@gmail.com
+adithyaprabhu98:
+  name: Aditya Prabhu
+  github: adithyaprabhu98
+  author_image: aditya.jpg
+  email: adityaprabhu98@gmail.com
+col-aatresh:
+  name: Anirudh Ashok Aatresh
+  github: col-aatresh
+  author_image: AnirudhAA.jpeg 
+  email: anirudhashokaatresh@gmail.com
+pjk99:
+  name: Preeti J Kalloli
+  github: pjk99
+  author_image: PreetiKalloli.jpeg
+  user_description: 'Passionate Learner'
+  email: preetikallolihrg@gmail.com  
+NJnisarg:
+  name: Nisarg Joshi
+  github: NJnisarg
+  author_image: nisargJ.jpg
+  user_description: 'In love with CS since 1999'
+  email: NJnisarg@gmail.com
+SaurabhAgarwala:
+  name: Saurabh Agarwala
+  github: SaurabhAgarwala
+  author_image: SaurabhAgarwala.jpg
+  user_description: 'Information Technology Enthusiast, exploring the field.'
+  email: saur.agarwala@gmail.com
+kulcod:
+  name: Rohit Manohar Kulkarni
+  github: kulcod
+  author_image: RohitMKulkarni.jpg
+  email: rohitmkulkarni648@gmail.com
+KushagraRawat:
+  name: KushagraRawat
+  author_image: KushagraRawat.jpg
+  email: kushaburra99@gmail.com
+shanthanu9:
+  name: Shantanu S Rai
+  github: shanthanu9
+  author_image: shanthanu.jpeg
+  email: shanthanu.s.rai9@gmail.com
+  user_description: 'Competitive Coding Enthusiast'
+ChethanM:
+  name: Chethan M
+  github: ChethanM
+  author_image: chethan.jpg
+  email: chetanmswamy@gmail.com
+AnuragPK:
+  name: Anurag P K
+  github: AnuragPK
+  author_image: anurag.jpg
+  email: anurag.171mt003@nitk.edu.in
+siddhartha15:
+  name: Siddhartha M
+  github: siddhartha15
+  author_image: siddhartha.jpg
+  email: siddhartha.15.manju@gmail.com
+  user_description: 'Learning Computer Science'
+PrithviPatil:
+  name: Prithvi Patil
+  github: PrithviPatil
+  author_image: PrithviPatil.jpg
+  email: prithvispatil44@gmail.com
+NisargBShah:
+  name: Nisarg B Shah
+  github: NisargBShah
+  author_image: NisargBShah.jpg
+  email: enbshah2010@gmail.com
+rohit-mp:
+  name: Rohit M P
+  github: rohit-mp
+  author_image: rohit-mp.jpg
+  email: rohitmp99@gmail.com
+DarrenFernandes:
+  name: Darren Charles Fernandes
+  github: DarrenFernandes
+  author_image: DarrenFernandes.jpeg
+  email: darrencf7@gmail.com
+RohitKhoja:
+  name: Rohit Khoja
+  github: RohitKhoja
+  author_image: rohitkhoja.jpg
+  email: rohit.khoja344@gmail.com
+govardhangdg:
+  name: Govardhan G D
+  github: govardhangdg
+  author_image: blog-author.jpg
+  email: govardhangdg@gmail.com
+DeekshaMS:
+  name: Deeksha M S
+  github: DeekshaMS
+  author_image: blog-author.jpg
+  email: deekshams222@gmail.com
+AravindG:
+  name: Aravind G
+  github: AravindG
+  author_image: aravindg.jpg
+  email: aravindfn51@gmail.com
+Chans321:
+  name: TSS Chandana
+  github: Chans321
+  author_image: Chans321.jpg
+  email: tsschand@gmail.com
+NamanAgarwal:
+  name: Naman Agarwal
+  author_image: NamamAgarwal.jpeg
+  email: naman356@gmail.com
+SmitRambhiya:
+  name: Smit Rambhiya
+  author_image: SmitRambhiya.jpg
+  email: smitrambhiya2101@gmail.com 
+deepakkavoor:
+  name: Deepak K
+  author_image: deepakkavoor.jpg
+  email: deepakkavoor99@gmail.com 
+avinashkumar:
+  name: Avinash Kumar
+  author_image: avinashkumar.jpg
+  email: avinash.mgsr1998@gmail.com 
+IteeshaAshwath:
+  name: Iteesha Ashwath
+  author_image: blog-author.jpg
+  email: iteesha27@gmail.com
+arpi-r:
+  name: Arpitha Raghunandan
+  github: arpi-r
+  author_image: arpitharaghunandan.jpeg
+  email: 98.arpi@gmail.com
+SurajJagganath:
+  name: Suraj Jagannath
+  author_image: suraj_jagganath.jpg
+  email: suraj8730@gmail.com
+RahulRL:
+  name: Rahul R L
+  author_image: rahul_rl.jpg
+  email: rahulrl9400@gmail.com
+17aakashsingh1999:
+  name: Aakash Singh
+  github: 17aakashsingh1999
+  author_image: 17aakashsingh1999.jpg
+  email: 17aakashsingh1999@gmail.com
+ShaswataBose:
+  name: Shaswata Bose
+  author_image: ShaswataBose.jpeg
+  email: shaswata11711@gmail.com
+Deepanshi:
+  name: Deepanshi
+  author_image: blog-author.jpg
+  email: deepanshi.asr.21@gmail.com
+gvaibhav1734:
+  name: Vaibhav G
+  github: gvaibhav1734
+  author_image: 'gvaibhav1734.jpg'
+  email: gvaibhav1734@gmail.com
+  user_description: 'Android Dev, Java enthusiast'
+AditiMarathe:
+  name: Aditi Marathe
+  author_image: blog-author.jpg
+  email: aditi.marathe15@gmail.com
+RakshanaG:
+  name: Rakshana G
+  author_image: rakshana_g.jpg
+  email: raks139@gmail.com
+Madhuparna04:
+  name: Madhuparna Bhowmik
+  github: Madhuparna04
+  author_image: Madhuparna.jpeg
+  email: madhuparnabhowmik04@gmail.com
+manojab:
+  name: Manoj A B
+  github: manojab
+  author_image: ManojAB.jpg
+  email: Abmanoj99@gmail.com
+techcrow:
+  name: Vishal Shukla
+  github: techcrow
+  author_image: Vishal.jpg
+  email: vs7897runs@gmail.com
+abhinavpy:
+  name: Abhinav P Y
+  github: abhinavpy
+  author_image: abhinavpy.jpg
+  email: abhinavpy@ieee.org
+  user_description: "It\'s not whether you get knocked down, it\'s whether you get up."
+alabhya01:
+  name: Kumar Alabhya
+  github: alabhya01
+  author_image: alabhya01.jpg
+  email: kumar.alabhya@gmail.com
+tirthsavla:
+  name: Tirth Savla
+  author_image: tirthsavla.jpg
+  email: tirthsavla008@gmail.com
+prajwal27:
+  name: Prajwal S Belagavi
+  github: prajwal27
+  author_image: PrajwalSBelagavi.jpg
+  email: prajwalpspbelagavi@gmail.com
+  user_description: 'Android Development, Learning something new everyday!'
+smrithis:
+  name: Smrithi S
+  github: smrithis
+  author_image: blog-author.jpg
+  email: smrithis1201@gmail.com
+srsahith:
+  name: S.R. Sahith
+  github: srsahith
+  author_image: blog-author.jpg
+  email: sahithsunku@gmail.com
+saharsh007:
+  name: Kumar Saharsh
+  github: saharsh007
+  author_image: saharsh007.jpg
+  email: saharshsonu40@gmail.com
+  user_description: 'Computer science is ♥' 
+tanmai-h:
+  name: Tanmai H
+  github: tanmai-h
+  author_image: tanmai.jpg
+  email: vvijaytanmai@gmail.com
+pran-p:
+  name: Pranav P
+  github: pran-p
+  author_image: blog-author.jpg
+  email: hsr.pranav@gmail.com
+nimbus98:
+  name: Akash Nair
+  github: nimbus98
+  author_image: 'akashnair.jpeg'
+  user_description: 'I like Food'
+  email: akash30121998@gmail.com
+VarunRaghavendra:
+  name: Varun Raghavendra
+  github: appu234
+  author_image: VarunRaghavendra.jpg
+  user_description: I like problem solving
+  email: varun.raghavendra1@gmail.com
