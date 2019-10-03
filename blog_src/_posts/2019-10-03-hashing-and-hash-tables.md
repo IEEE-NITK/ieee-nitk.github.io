@@ -16,6 +16,7 @@ github_username: 'niranjansy'
 ## Introduction
  
 > Hashing is the transformation of a string of characters into a usually shorter fixed-length value or key that represents the original string. Hashing is used to index and retrieve items in a database because it is faster to find the item using the shorter hashed key than to find it using the original value. 
+
 Hashing is a very powerful technique with a wide variety of applications. In most of the programming languages, there are built-in data types of data structures in the standard library that are based on hash tables (we will see later what they mean), like dict or dictionary in Python, or HashMap in Java, or the STL map in C++.
 
 Applications of hash tables are plenty. Take the file system in a computer for example. When you interact with a file system as a user, you see the file name and the path to the file. But to actually store the correspondence between the file name and path, and the physical location of that file on the disk, the system uses a map, and that map is usually implemented as a hash table.
@@ -35,7 +36,7 @@ To answer such questions, we will have to do log processing. Of course, it will 
 
 An IP address consists of four 8-bit integers (i.e. in the range 0-255) separated by dots. Thus there can be a total of 2<sup>32</sup> different IP addresses and so we can convert each IP into a 32-bit integer with a one-to-one mapping. This can be done using the following formula: 
 
-![Formula](/blog/assets/img/Hashing-and-hash-tables/IP_Formula.jpg)
+![Formula](/blog/assets/img/Hashing-and-hash-tables/IP_Formula.JPG)
 
 We can create an array A of size 2<sup>32</sup>, where *A[i]* stores the number of times the service was accessed from the IP address, which corresponds to the integer *i*, in the last hour. The following pseudocode implements this idea:
 
@@ -112,11 +113,11 @@ We shall now look at a few implementations of hash tables.
 
 Let us first choose any hash function *h* of cardinality *m*. In chaining, we create an array of size *m*, where each element of the array is a linked list of pairs - an object *O* and its mapped value *v*. For inserting any object *O* and its mapped value *v* into the hash table, we first calculate the hash value of the object *O* using the hash function *h*. Then we go to the array index corresponding to the hash value, and append the pair *(O,v)* to the end of the linked list at that index.
 
-![Chaining](/blog/assets/img/Hashing-and-hash-tables/Chaining1.jpg)
+![Chaining](/blog/assets/img/Hashing-and-hash-tables/Chaining1.JPG)
 
 Let us consider our previous example of mapping IP addresses to counters. Let us assume a hash function of cardinality 8, and suppose that hash function gives the following values for certain IP addresses that are accessing the service. Then the chaining will look like: 
 
-![Chaining](/blog/assets/img/Hashing-and-hash-tables/Chaining2.jpg)
+![Chaining](/blog/assets/img/Hashing-and-hash-tables/Chaining2.JPG)
 
 We will now see the pseudocode for implementing a hash table using chaining.
 
@@ -150,7 +151,7 @@ Set(O, V):
     L.Append(O, V)
 ```
 
-**Run-time Analysis of Chaining**
+**Complexity Analysis of Chaining :**
 Let *c* be the length of the longest chain in *A*. Then the run-time of all the above operations will be *O(c+1)*.
 Let *n* be the number of different keys currently in the map and *m* be the cardinality of the hash function. Then the memory consumption for chaining is *O(n+m)*.
 
@@ -160,11 +161,11 @@ Therefore to optimize the procedure, we need to choose hash functions such that 
 
 In open addressing, instead of in linked lists, all entry records are stored in the array itself. When a new entry has to be inserted, its hash value is computed. If the slot corresponding to this value in the array is unoccupied, then the entry record is inserted in this slot. Otherwise we examine the array starting from that position in some probe sequence until we find an unoccupied slot. The probe sequence is the sequence that is followed while traversing through entries. In different probe sequences, you can have different intervals between successive entry slots or probes. 
 
-Linear probing is when the interval between successive probes is fixed (usually to 1).  Let’s assume that the hash value for a particular entry is *val*. Then the probing sequence for linear probing will be:
-*index* = *val* % *m*
-*index* = (*val* + 1) % *m*
-*index* = (*val* + 2) % *m*
-*index* = (*val* + 3) % *m*
+Linear probing is when the interval between successive probes is fixed (usually to 1).  Let’s assume that the hash value for a particular entry is *val*. Then the probing sequence for linear probing will be:<br>
+*index* = *val* % *m*<br>
+*index* = (*val* + 1) % *m*<br>
+*index* = (*val* + 2) % *m*<br>
+*index* = (*val* + 3) % *m*<br>
 
 Of course, this method works only if the number of keys to be stored in the hash table is less than or equal to the size of the hash table.
 
@@ -203,20 +204,20 @@ To solve this problem, we can use randomization. We define a whole set of hash f
 
 Let us see one such universal family for hashing integers. 
 
-Suppose that we want to hash 6-digit roll numbers of students, i.e., the upper bound on our set of integers in 10<sup>6</sup>. We choose a big prime number *p > 10<sup>6</sup>* and cardinality of hash functions *m*. Then let us define a family of hash function as folllow:
+Suppose that we want to hash 6-digit roll numbers of students, i.e., the upper bound on our set of integers in 10<sup>6</sup>. We choose a big prime number *p > 10<sup>6</sup>* and cardinality of hash functions *m*. Then let us define a family of hash function as follows:
 
-> *H = { h(x) = ((a*x + b)%p)%m }* for all *a*, *b* such that *1<=a<=p* and *0<=b<=p*
+> *H = { h(x) = ((ax + b)%p)%m }* for all *a*, *b* such that *1<=a<=p* and *0<=b<=p*
 For different values of *a* and *b* subject to the above constraints, we get different hash functions belonging to the family.
 
-Let us now try hashing certain roll numbers using this family : Choose *p* = 1000003 (a prime number), and *m* = 1000
+Let us now try hashing certain roll numbers using this family : Choose *p* = 1000003 (a prime number) and *m* = 1000
 
 Let *a* = 150, *b* = 55
-* 1) roll = 181024 : h(181024) = ((181024*150 + 55) % 1000003) % 1000 = 574
-* 2) roll = 181365 : h(181365) = ((181365*150 + 55) % 1000003) % 1000 = 724
+* roll = 181024 : h(181024) = ((181024*150 + 55) % 1000003) % 1000 = 574
+* roll = 181365 : h(181365) = ((181365*150 + 55) % 1000003) % 1000 = 724
 
 Let *a* = 1234, *b* = 100
-* 1) roll = 181024 : h(181024) = ((181024*1234 + 100) % 1000003) % 1000 = 47
-* 2) roll = 181365 : h(181365) = ((181365*1234 + 100) % 1000003) % 1000 = 841
+* roll = 181024 : h(181024) = ((181024*1234 + 100) % 1000003) % 1000 = 47
+* roll = 181365 : h(181365) = ((181365*1234 + 100) % 1000003) % 1000 = 841
 
 ## Applications of Hashing
 
