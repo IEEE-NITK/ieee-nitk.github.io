@@ -41,7 +41,7 @@ For this exercise, we will be using **hashcat**. Hashcat is an open source passw
 
 I have downloaded a leaked password database called **hak5.txt** containing 2351 passwords and converted all the passwords to their MD5 hashes for the sake of this exercise. This means that these are real passwords that real people have used, which is significant because it puts into perspective how weak passwords in real life actually are. This is the file containing the hashes, ‘**hashes.txt**’:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/1.png" height="350" alt="hashes.txt">
+![hashes.txt](/blog_src/assets/img/password-security-techniques-and-challenges/1.png){:height="350px"}
 
 There are a lot of ways of cracking hashes. But for this demonstration, we will use three of some of the most used cracking techniques: **Brute force attacks**, **Dictionary attacks** and **Rule-based Dictionary attacks**. In general, there is only one approach to cracking a hash: keep guessing strings and compare their hashes with the hashes to be cracked. The different techniques are merely ways of guessing strings.
 
@@ -52,15 +52,15 @@ Command: `$ hashcat -m 0 -o <output_file> <hashes> <guess_params> --force -O`
 
 Running the Command:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/2.png" height="350" alt="Running the Command">
+![Running the Command](/blog_src/assets/img/password-security-techniques-and-challenges/2.png){:height="350px"}
 
 Stats after completion:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/3.png" height="350" alt="Stats after completion">
+![Stats after completion](/blog_src/assets/img/password-security-techniques-and-challenges/3.png){:height="350px"}
 
 Cracked Passwords:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/4.png" height="350" alt="Cracked Passwords">
+![Cracked Passwords](/blog_src/assets/img/password-security-techniques-and-challenges/4.png){:height="350px"}
 
 So let’s go about this process step by step:
 
@@ -84,15 +84,15 @@ Command: `$ hashcat -m 0 -o <output_file> <hashes> <path_to_wordlist> --force -O
 
 Running the Command:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/5.png" height="350" alt="Running the Command">
+![Running the Command](/blog_src/assets/img/password-security-techniques-and-challenges/5.png){:height="350px"}
 
 Stats after completion:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/6.png" height="350" alt="Stats after completion">
+![Stats after completion](/blog_src/assets/img/password-security-techniques-and-challenges/6.png){:height="350px"}
 
 Cracked Passwords:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/7.jpg" height="350" alt="Cracked Passwords">
+![Cracked Passwords](/blog_src/assets/img/password-security-techniques-and-challenges/7.jpg){:height="350px"}
 
 This time, we get a lot more passwords. Everything in the command remains the same except we change the attack type from ‘3’ to ‘0’ to denote dictionary attack and specify the path to the wordlist, which, in this case is ‘rockyou.txt’. Certain points to note:
 
@@ -112,19 +112,19 @@ Command: `$ hashcat -m 0 -o <output_file> <hashes> <path_to_wordlist> -r <path_t
 
 Running the Command:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/8.png" height="350" alt="Running the Command">
+![Running the Command](/blog_src/assets/img/password-security-techniques-and-challenges/8.png){:height="350px"}
 
 Stats at the end of execution:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/9.png" height="350" alt="Stats at the end of execution">
+![Stats at the end of execution](/blog_src/assets/img/password-security-techniques-and-challenges/9.png){:height="350px"}
 
 Cracked Passwords:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/10.jpg" height="350" alt="Cracked Passwords">
+![Cracked Passwords](/blog_src/assets/img/password-security-techniques-and-challenges/10.jpg){:height="350px"}
 
 I terminated the process at 0.77% completion. It would take hours for hashcat to complete the process with the computing power that my computer can provide. Let me put up an image to compare how many passwords we have obtained with each technique:
 
-<img src="/blog_src/assets/img/password-security-techniques-and-challenges/11.png" height="150" alt="Cracking Comparison">
+![Comparison](/blog_src/assets/img/password-security-techniques-and-challenges/11.png){:height="150px"}
 
 The differences between the techniques are apparent. Even though the rule-based attack completed only 0.77% of its procedure, it got more passwords than basic dictionary attack which completed 100% of its procedure. This should put into perspective how powerful rule-based dictionary attacks are, while being sufficiently fast.
 
