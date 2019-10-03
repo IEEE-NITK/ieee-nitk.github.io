@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="">
+        <meta name="description" content="New technique which acheives state of the art image classification accuracy">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="How Computers learn to play games!">
-        <meta name="twitter:description" content="">
+        <meta name="twitter:title" content="EfficientNet Explained.">
+        <meta name="twitter:description" content="New technique which acheives state of the art image classification accuracy">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/" />
-        <meta property="og:title" content="How Computers learn to play games!">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/efficientnet-explained/" />
+        <meta property="og:title" content="EfficientNet Explained.">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="">
+        <meta property="og:description" content="New technique which acheives state of the art image classification accuracy">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="How Computers learn to play games!"/>
-        <meta itemprop="description" content="">
+        <meta itemprop="name" content="EfficientNet Explained."/>
+        <meta itemprop="description" content="New technique which acheives state of the art image classification accuracy">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,29 +86,15 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>How Computers learn to play games!</title>
+        <title>EfficientNet Explained.</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/how-computers-learn-to-play-games/">
+        <link rel="canonical" href="/blog/efficientnet-explained/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
-
-        
-            <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script> 
 
         
 
@@ -136,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-12-22 00:00:00 +0530" class="date">22 Dec 2018</time>
+            <time itemprop="datePublished" datetime="2019-10-04 05:02:44 +0530" class="date">04 Oct 2019</time>
         
-        <h1 class="post-title" itemprop="name">How Computers learn to play games!</h1>
-        <p itemprop="description" class="subtitle"></p>
+        <h1 class="post-title" itemprop="name">EfficientNet Explained.</h1>
+        <p itemprop="description" class="subtitle">New technique which acheives state of the art image classification accuracy</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -190,88 +176,69 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games?
-How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go?
-Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
+                    <p><strong><em>Compound Scaling</em></strong>  achieving state of the art image classification accuracy from Google AI Research. This changes the way we think of scaling up CNN.</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/chess.jpg" alt="Chess" title="Chess" /></p>
+<p><em>So, What are the ways to scale up a CNN?</em></p>
 
-<p>There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.</p>
+<p>One way to scale up will be to add more layers, for example from RESNET-18 to RESNET-200. The goal of <a href="https://arxiv.org/abs/1905.11946">this paper</a> is to systematically scale up depth, width, and resolution of CNN. But, the process of scaling up CNN’s are not well understood. There are many ways to do this and most of them are arbitrarily chosen. That would mean randomly choosing to double the depth of the network, or randomly choosing to double the width of the network, etc.</p>
 
-<h2 id="naive-tree-search">Naive Tree Search</h2>
+<p><img src="/blog_src/assets/img/efficientnet/VariousScaling.png" alt="Various Scaling" /></p>
 
-<p>Let’s start with a simple and naive approach by which the computer can take decisions. It is by looking at all possible states and choosing the best action to take. That is, make a tree with all possible states and next states and go to the leaves to find out if a move will lead to winning state or not and select an action accordingly.</p>
+<p>Given above, are the various ways you can scale a CNN Architecture.</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/decision_tree.png" alt="Game Tree" title="Game Tree" /></p>
+<ol>
+  <li>This could be <strong>Width Scaling</strong> (b): Adding more feature maps in each layer</li>
+  <li><strong>Depth Scaling</strong>(c): Adding more layers</li>
+  <li><strong>Resolution Scaling</strong>(d): Increasing the resolution of the input image. For example, instead of downsizing the images to 224x224, you can upscale it to 360x360.</li>
+</ol>
 
-<p>But, this technique cannot be used for games where there is a huge number of states, that it is practically impossible for a computer to examine all the states before taking a decision. For example, there are more than <strong>5000 states</strong> in the game of Tic-Tac-Toe, which is a <strong>3 X 3</strong> board game. Whereas Chess is an <strong>8 X 8</strong> board game and Go can have a <strong>19 X 19</strong> board. Therefore these games with billions of states cannot be solved by any such brute force approach where examining each state is required.</p>
+<p>And compound scaling refers to the combination of increasing the depth, adding more layers and increasing the input image resolution.</p>
 
-<h2 id="monte-carlo-tree-search">Monte Carlo Tree Search</h2>
+<p>If you try scaling up along a single dimension, the accuracy will continue to improve but quickly saturate as you can see below.
+<img src="/blog_src/assets/img/efficientnet/FLOPS.png" alt="FLOPS" />
+(Here ‘r’ coefficient denotes the multiplicative factor for resolution, Ex: r=1 denotes = 224x224 and so on.)</p>
 
-<p>Monte-Carlo Tree Search can be only used for games where we have perfect information about the game that is we know about all the actions that were previously taken and can be taken in future. It is applicable to games like Go, Chess or Tic-Tac-Toe. So, what the computer does in Monte Carlo Tree Search is it repeats these 4 steps</p>
+<p><strong>But wait, What are FLOPS?</strong></p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Monte-Carlo-Tree-Search.png" alt="Monte-Carlo Tree search" title="Monte-Carlo Tree search" /></p>
+<p>FLOPS, stands Floating Point Operations per Second.</p>
 
-<h4 id="1select--">1)Select -</h4>
-<p>In this step the computer starts with a root node(state) and selects the next node based on the current policy. A policy is a function that dictates what actions to take given a state.</p>
+<p>The dependence among scaling dimensions shows that scaling dimensions isn’t independent. For example, if you increase the depth, you will find a better performance by increasing the input resolution also.
+So, the Compound Scaling method is the key idea in EfficientNet as discussed in the paper.</p>
 
-<h4 id="2expand--">2)Expand -</h4>
-<p>When the policy can no longer choose an action with confidence to find the successor node, it expands the game tree by appending all possible states from that node or a few let’s say 10 or 100 states chosen by randomly trying out certain number of actions, this is done when the number of next possible states is huge.</p>
+<p>The idea is to up-sample the width, depth, and resolution by scaling them with a constant ratio. These constant ratios are determined by the following constraints.</p>
 
-<h4 id="3simulate--">3)Simulate -</h4>
-<p>Then from the appended nodes, it simulates a random game to find out how good it is to go to that state.</p>
+<p><img src="/blog_src/assets/img/efficientnet/FlopsRelation.png" alt="Flops Relation" /></p>
 
-<h4 id="4backpropagation--">4)Backpropagation -</h4>
-<p>Then it traverses upwards back to the root and updates the score for all visited nodes.</p>
+<p>And they are exponentiated by 
+<script type="math/tex">\Phi</script>
+ which denotes the increase in computational resources to the network. So, 
+<script type="math/tex">\alpha*\beta^2*\gamma^2 = 2</script>
+ is the constraint, and the specific values are found by doing grid-search in the search space.</p>
 
-<p>These four steps are repeated again and again until the computer has learned enough to actually play the game.</p>
+<p>So, basically the idea is that they construct a small network and grid-search the parameters under the given constraint. We find, 
+<script type="math/tex">\alpha=1.2, \beta=1.1, \gamma=1.16.</script>
+Now, in each iteration, these values are used to scale up the various dimensions, the width, depth, and resolution respectively.
+Intuition:
+If the input image is bigger, then the network needs more layers to increase the receptive field and more channels to capture more fine-grained patterns on the bigger image.
+To test the technique introduced in the paper, EfficientNet was used. EfficientNet is the idea from NAS (Neural Architecture Search) for Mobile-Nets where they optimize the network for accuracy and also penalizing if it’s too computationally heavy.</p>
 
-<h2 id="learning-to-play-games-using-reinforcement-learning">Learning to play games using Reinforcement Learning</h2>
+<p>So, this is how the Efficient-Net B0 looks like (The baseline model)</p>
 
-<p>There are various algorithms that come under Reinforcement Learning Algorithms. Each suitable for a different purpose. The basic idea behind Reinforcement Learning is, as the name suggests, making the computer play the game again and again and learn from its own experience.
-In order to give you intuition on how Reinforcement Learning can be used for games with a huge state space let me define two new terms.</p>
+<p><img src="/blog_src/assets/img/efficientnet/efficientnet.png" alt="EfficientNet" /></p>
 
-<p><strong>1. State Value Function</strong> - Given a state this function tells how good it is to be in that state.</p>
+<p>These new architectures attain state-of-the-art on ImageNet and in addition, it’s much more computationally efficient with much fewer parameters than the existing Architectures.
+But, do not get confused. Compound Scaling doesn’t work only on EfficientNet. They work on all exisiting famous architectures such as ResNet, MobileNet etc as the results show below.</p>
 
-<p><strong>2. Action Value Function</strong> - Given an action and a state, this function tells how good it is to take that action from the given state.</p>
+<p><img src="/blog_src/assets/img/efficientnet/Results.png" alt="Results" /></p>
 
-<p>The basic idea is to learn the value functions and use it to choose the best action.
-Consider the following diagram-</p>
-
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" title="Backup diagram for value function" /></p>
-
-<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following<a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html"> blog post</a> to get a better understanding of how this algorithm works.).</p>
-
-<h4 id="but-how-is-it-dealing-with-the-problem-of-a-huge-number-of-states">But how is it dealing with the problem of a huge number of states?</h4>
-
-<p>The answer is the computer is not really going through all the possible states but still learning an approximate way to figure out the best actions to take. There are many states in the state-space which occur very rarely or is too poor to begin with, that there is no point going all the way down from that state and calculating everything when there are very fewer chances of encountering that state or there is no way it can get you a better reward.
-But as our computer plays multiple games it will surely go through most of the frequently occurring and promising states and will know how to behave in those situations.</p>
-
-<h2 id="alpha-go">Alpha-Go</h2>
-
-<p>Recently Google’s Alpha-Go zero defeated Go’s World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.</p>
-
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" title="Lee Sedol playing with Alpha-Go" /></p>
-
-<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong> 
-There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.
-Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>I hope you enjoyed this dive into the World of computer games and got to know some of the technical details too. You can go through the following links to know more about these topics.</p>
-
-<ul>
-  <li><a href="https://www.youtube.com/watch?v=onBYsen2_eA">Video lectures on Monte Carlo Tree Search</a></li>
-  <li><a href="https://www.tastehit.com/blog/google-deepmind-alphago-how-it-works/">More about Alpha-Go</a></li>
-</ul>
+<p>This is probably one of the best papers regarding scaling of CNN’s in 2019. Although researchers have worked on the problem of scaling for a long time, they didn’ get a high hit of accuracy. But, this new technique, tries to reduce the number of parameters and FLOPS so that they can run on resource-constrained devices. Also, it is the very first time where we have seen huge gains in the parameter reduction along with huge gain in accuracy!</p>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
         <span id="category">Compsoc</span>
-        <span id="title">How Computers learn to play games!</span>
+        <span id="title">EfficientNet Explained.</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -280,13 +247,13 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Madhuparna.jpeg" alt="Madhuparna Bhowmik">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/KKS.jpg" alt="K Krishna Swaroop">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Madhuparna Bhowmik</a>
+            <a itemprop="name" href="/">K Krishna Swaroop</a>
         </h3>
-        <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:madhuparnabhowmik04@gmail.com">madhuparnabhowmik04@gmail.com</a>
+        <p class="desc">Nap enthiusiast</p>
+        <a itemprop="email" class="email" href="mailto:kkrishnaswaroop99@gmail.com">kkrishnaswaroop99@gmail.com</a>
     </div>
 </section>
 
@@ -306,15 +273,15 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/%20via%20&#64;IEEE_NITK&hashtags=Computer Games,Reinforcement Learning,Monte Carlo Tree Search,Alpha-Go,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/efficientnet-explained/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//efficientnet-explained/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//efficientnet-explained/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

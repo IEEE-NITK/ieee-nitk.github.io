@@ -755,6 +755,12 @@ pran-p:
 nimbus98:
   name: Akash Nair
   github: nimbus98
-  author_image: 'akashnair.jpeg'
+  author_image: akashnair.jpeg
   user_description: 'I like Food'
   email: akash30121998@gmail.com
+geekswaroop:
+  name: K Krishna Swaroop
+  github: geekswaroop
+  author_image: KKS.jpg
+  user_description: 'Nap enthiusiast'
+  email: kkrishnaswaroop99@gmail.com
