@@ -1,0 +1,21 @@
+I"`	<p>Why do bees build <strong>hexagonal structured</strong> hives? Why not any other shape? Let us deliberate these questions which troubled many thinkers.</p>
+
+<p><img src="/blog/assets/img/the-honeycomb-conjecture/img1.jpg" alt="img1" /></p>
+
+<p>Consider prisms of different regular polygons and assume them to have same height and volume. This means that the one with the <strong>least</strong> perimeter will require the least material to build. We know that as we increase number of sides in the polygon, perimeter decreases. So, cylinder will use the least amount of material (circle can be considered as a polygon with infinite sides).</p>
+
+<p>But cylinders are economical only if they stand alone. If placed together, they leave large gaps between them. Since no walls can be shared, they are wasteful of both space and material and the amount of material required to construct an array of cylinders doesn’t change. However this is not the case in other polygons.</p>
+<blockquote>
+  <p>For ex. In an array of octagons 25% of material is saved (See diagram – to construct new octagon, 2 sides are already provided by the 3 octagons).</p>
+</blockquote>
+
+<p><img src="/blog/assets/img/the-honeycomb-conjecture/img2.png" alt="img2" /></p>
+
+<p>By calculating similarly for all shapes, we see that Hexagons save the most material or in other words, a regular hexagonal grid or honeycomb is the best way to divide a surface into regions of equal area with the least total perimeter. This is the <strong>Honeycomb Conjecture</strong>.</p>
+
+<p>Collecting wax for construction of honeycomb requires lot of bee time and energy. So, economy in the use of wax is very important to the welfare of the bees. Hence, they use <strong>hexagonal packing</strong> in hives.</p>
+
+<p>But this is not the only reason. Hexagon cells are also the best for mechanical stability. If we load a square cell, a load along a partition is not readily transferred to adjacent partitions. In a triangular cell, load is distributed but here the horizontal edges will be in compression (others in tension). This is a wrong way to load a thin plate since it buckles (see diagram). But, if we load a hexagon cell, load is transferred to several members and the load is transferred as tension. This makes maximum use of the thin wax walls.</p>
+
+<p><img src="/blog/assets/img/the-honeycomb-conjecture/img3.jpg" alt="img3" /></p>
+:ET
