@@ -1,5 +1,7 @@
 _site/*
 
+.jekyll-cache/*
+
 blog_src/_site/*
 blog_src/.sass-cache
 blog_src/node_modules/*
