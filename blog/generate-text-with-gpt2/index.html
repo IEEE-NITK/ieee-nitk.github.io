@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="">
+        <meta name="description" content="Where we explore the funny world of recent language models">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="How Computers learn to play games!">
-        <meta name="twitter:description" content="">
+        <meta name="twitter:title" content="Generate Strange Text with GPT-2">
+        <meta name="twitter:description" content="Where we explore the funny world of recent language models">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/" />
-        <meta property="og:title" content="How Computers learn to play games!">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/" />
+        <meta property="og:title" content="Generate Strange Text with GPT-2">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="">
+        <meta property="og:description" content="Where we explore the funny world of recent language models">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="How Computers learn to play games!"/>
-        <meta itemprop="description" content="">
+        <meta itemprop="name" content="Generate Strange Text with GPT-2"/>
+        <meta itemprop="description" content="Where we explore the funny world of recent language models">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,29 +86,15 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>How Computers learn to play games!</title>
+        <title>Generate Strange Text with GPT-2</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/how-computers-learn-to-play-games/">
+        <link rel="canonical" href="/blog/generate-text-with-gpt2/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
-
-        
-            <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script> 
 
         
 
@@ -136,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-12-22 00:00:00 +0530" class="date">22 Dec 2018</time>
+            <time itemprop="datePublished" datetime="2019-10-02 07:06:00 +0530" class="date">02 Oct 2019</time>
         
-        <h1 class="post-title" itemprop="name">How Computers learn to play games!</h1>
-        <p itemprop="description" class="subtitle"></p>
+        <h1 class="post-title" itemprop="name">Generate Strange Text with GPT-2</h1>
+        <p itemprop="description" class="subtitle">Where we explore the funny world of recent language models</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -190,88 +176,168 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games?
-How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go?
-Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
+                    <p>GPT-2 refers to a set of <em>Language Models</em> released recently by OpenAI. My objective is to find weird ways that GPT-2 can fail, and also some smart things it is capable of. I’ll be using <a href="https://talktotransformer.com/">talktotransformer</a> for this task. It’s a convenient tool that asks for a short text prompt, and then generates several lines of text to continue the prompt (no coding required!).</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/chess.jpg" alt="Chess" title="Chess" /></p>
+<p>First, let’s see if you’re paying attention. Check out the following two samples:</p>
 
-<p>There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.</p>
+<blockquote>
+  <p><strong>Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on coastal reservoirs as a sustainable strategy for water security on its Srinivasnagar premises from July 22. T G Seetharam, director, IIT Guwahati, will be the chief guest and inaugurate the seminar. K Uma Maheshwar Rao, director, NITK will preside over the inaugural function.</strong><br /><br />
+The seminar will offer a comprehensive overview of the coastal water management sector including hydrometeorology, hydrodynamic, hydrometeorology and hydrography.<br /><br />
+It will be addressed by experts in the various fields including engineering, hydraulics, hydrology, hydrography and marine ecology/oceanography, besides coastal water managers and engineers.<br /><br />
+Seetharam said while it was an emerging sector with great potential, no clear strategies were being pursued for conservation and recovery of flood prone areas.</p>
+</blockquote>
 
-<h2 id="naive-tree-search">Naive Tree Search</h2>
+<p>Makes sense? What about this one:</p>
 
-<p>Let’s start with a simple and naive approach by which the computer can take decisions. It is by looking at all possible states and choosing the best action to take. That is, make a tree with all possible states and next states and go to the leaves to find out if a move will lead to winning state or not and select an action accordingly.</p>
+<blockquote>
+  <p><strong>Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on coastal reservoirs as a sustainable strategy for water security on its Srinivasnagar premises from July 22. T G Seetharam, director, IIT Guwahati, will be the chief guest and inaugurate the seminar. K Uma Maheshwar Rao, director, NITK will preside over the inaugural function.</strong><br /><br />
+“We will address the problem of coastal development in a holistic way and in many ways, the sea cannot be separated from the land. We have to look at the whole development area and take the sea into account,” M S Rathore, head of the Centre for Research in Development and Environment (CRED), said.<br /><br />
+This is the second such seminar under CRED. The first seminar was held on August 6.</p>
+</blockquote>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/decision_tree.png" alt="Game Tree" title="Game Tree" /></p>
+<p>Which one do you think is real, and which one was generated?</p>
 
-<p>But, this technique cannot be used for games where there is a huge number of states, that it is practically impossible for a computer to examine all the states before taking a decision. For example, there are more than <strong>5000 states</strong> in the game of Tic-Tac-Toe, which is a <strong>3 X 3</strong> board game. Whereas Chess is an <strong>8 X 8</strong> board game and Go can have a <strong>19 X 19</strong> board. Therefore these games with billions of states cannot be solved by any such brute force approach where examining each state is required.</p>
+<p>I’m dead serious: which one do you think is fake?</p>
 
-<h2 id="monte-carlo-tree-search">Monte Carlo Tree Search</h2>
+<p>You can re-read them carefully to make your choice.</p>
 
-<p>Monte-Carlo Tree Search can be only used for games where we have perfect information about the game that is we know about all the actions that were previously taken and can be taken in future. It is applicable to games like Go, Chess or Tic-Tac-Toe. So, what the computer does in Monte Carlo Tree Search is it repeats these 4 steps</p>
+<p><br /><br /><br /><br /><br /><br />
+Okay ready?
+<br /><br /><br /><br /><br /><br /></p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Monte-Carlo-Tree-Search.png" alt="Monte-Carlo Tree search" title="Monte-Carlo Tree search" /></p>
+<p>Hah, Trick question! Turns out, <em>both</em> were generated by GPT-2. The real article is <a href="https://timesofindia.indiatimes.com/home/education/news/three-day-workshop-on-coastal-reservoir-at-nitk-concludes-today/articleshow/70356325.cms">this one from the Times Of India</a></p>
 
-<h4 id="1select--">1)Select -</h4>
-<p>In this step the computer starts with a root node(state) and selects the next node based on the current policy. A policy is a function that dictates what actions to take given a state.</p>
+<p>I took the first paragraph from that article (<strong>bold</strong> in the generated samples), fed it into the transformer, and after a few trials, out came the above two examples.</p>
 
-<h4 id="2expand--">2)Expand -</h4>
-<p>When the policy can no longer choose an action with confidence to find the successor node, it expands the game tree by appending all possible states from that node or a few let’s say 10 or 100 states chosen by randomly trying out certain number of actions, this is done when the number of next possible states is huge.</p>
+<p>Notice, in the second fake sample, the thing was talking about a certain <em>Centre for Research in Development and Environment</em>, which does sound like a typical government-style name for an organization. Also, it gave an <em>acronym</em> as well, and the initials match up! <em>CRED</em> isn’t even a real organization as far as I know, and the model somehow birthed it out of thin air.</p>
 
-<h4 id="3simulate--">3)Simulate -</h4>
-<p>Then from the appended nodes, it simulates a random game to find out how good it is to go to that state.</p>
+<p>Now the obvious question is - can it generate poetry?</p>
 
-<h4 id="4backpropagation--">4)Backpropagation -</h4>
-<p>Then it traverses upwards back to the root and updates the score for all visited nodes.</p>
+<p>Let’s see what the transformer spews out when prompted with Dylan Thomas’ famous piece:</p>
 
-<p>These four steps are repeated again and again until the computer has learned enough to actually play the game.</p>
+<blockquote>
+  <p><strong>Do not go gentle into that good night,</strong><br />
+<strong>Old age should burn and rave at close of day;</strong><br />
+<strong>Rage, rage against the dying of the light.</strong>
+<br /><br />
+When the night is past and the moon is down,<br />
+I shall sit and watch it, till I have heard the dawn,<br />
+Which I shall know to be a new life.
+<br /><br />
+Old age ought not to be fathomed,<br />
+Forthwith shall we know it to be a night;<br />
+Rage is, and a good song shall be sung.
+<br /><br />
+And in the hour of my death I shall not sleep;<br />
+I shall sing and tell of the night long;<br />
+I shall hear your song and say: How sweet the evening</p>
+</blockquote>
 
-<h2 id="learning-to-play-games-using-reinforcement-learning">Learning to play games using Reinforcement Learning</h2>
+<p>Much deep, so poetry.</p>
 
-<p>There are various algorithms that come under Reinforcement Learning Algorithms. Each suitable for a different purpose. The basic idea behind Reinforcement Learning is, as the name suggests, making the computer play the game again and again and learn from its own experience.
-In order to give you intuition on how Reinforcement Learning can be used for games with a huge state space let me define two new terms.</p>
+<p>Somehow the model knows how poems like these are structured, where the lines should break, and what kind of deep and wise sounding words a romantic poet writes.</p>
 
-<p><strong>1. State Value Function</strong> - Given a state this function tells how good it is to be in that state.</p>
+<p>And now for some pure mischief:</p>
 
-<p><strong>2. Action Value Function</strong> - Given an action and a state, this function tells how good it is to take that action from the given state.</p>
+<blockquote>
+  <p><strong>Kejriwal announces: “I’m a vampire. I’m actually from outer space”</strong><br />
+-On his alleged visit in 2013, to the Indian Space Research Organisation (ISRO) to observe the launch of a satellite of its foreign rivals<br />
+-Claims to have created the world’s second most powerful economy with “nearly double” of the GDP.<br />
+But that’s not all. Mr Kejriwal, who is the chief minister of Delhi, claims to have been abducted last year by the security forces, tortured and forced to drink demon urine.<br />
+And he has also said that he is a vampire, which is a type of supernatural creature that feeds on blood.<br />
+He said: “So that’s how I was born. It’s not my fault. I got stolen by the forces during a traffic raid. It took my arm off.”<br />
+Mr Kejriwal, the former Delhi chief minister, says he is a “vampire” because he believes God has cursed him.<br />
+A video obtained by Daily News India of Mr Kejriwal during his first public address was shown in front of the National Conference’s main square in Delhi.<br /></p>
+</blockquote>
 
-<p>The basic idea is to learn the value functions and use it to choose the best action.
-Consider the following diagram-</p>
+<p>Among other things:</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" title="Backup diagram for value function" /></p>
+<ol>
+  <li>It knows what a vampire does (<em>supernatural creature that feeds on blood.</em>)</li>
+  <li>It associates Kejriwal with the position of CM of Delhi, which is great! But it first says he is the CM, then says he’s the former CM. So it has problems with consistency.</li>
+  <li>The article seems to match the general flow of a news piece, albeit confused by the mention of vampires.</li>
+</ol>
 
-<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following<a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html"> blog post</a> to get a better understanding of how this algorithm works.).</p>
+<p>How exactly does this thing work?</p>
 
-<h4 id="but-how-is-it-dealing-with-the-problem-of-a-huge-number-of-states">But how is it dealing with the problem of a huge number of states?</h4>
+<hr />
 
-<p>The answer is the computer is not really going through all the possible states but still learning an approximate way to figure out the best actions to take. There are many states in the state-space which occur very rarely or is too poor to begin with, that there is no point going all the way down from that state and calculating everything when there are very fewer chances of encountering that state or there is no way it can get you a better reward.
-But as our computer plays multiple games it will surely go through most of the frequently occurring and promising states and will know how to behave in those situations.</p>
+<h3 id="birds-eye-view-of-gpt-2">Birds eye view of GPT-2</h3>
 
-<h2 id="alpha-go">Alpha-Go</h2>
+<p>GPT-2 stands for Generative Pretrained Transformer 2. Generative because it is, well, generating text. Pretrained because the guys who made it trained it on a HUGE corpus of outgoing links from Reddit. Pretraining is useful because this let’s us fine-tune the model to our particular use case with a lot fewer examples. Transformer because that’s what the building blocks of this thing are called.</p>
 
-<p>Recently Google’s Alpha-Go zero defeated Go’s World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.</p>
+<p><img src="/blog_src/assets/img/GPT2_gen/decoder.png" alt="Stack of Decoders" />
+<em><a href="https://jalammar.github.io/illustrated-bert/"><center>Source</center></a></em></p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" title="Lee Sedol playing with Alpha-Go" /></p>
+<p>GPT-2 is a <strong>Language Model</strong>, which is a fancy way of saying that, when given a prompt, it gives a distribution of which word should come next.</p>
 
-<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong> 
-There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.
-Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
+<p>(It’s not exactly words that it gives probabilities for, more like pieces of words. For simplicity, let’s just assume that it has a vocabulary of words among which it decides.)</p>
 
-<h2 id="conclusion">Conclusion</h2>
+<p>But neural networks deal with numbers, not strings. So we convert each word into a fixed-length vector of numbers, so that the input sentences are converted into an array of vectors (all of the same length). This is what’s called an <strong>Embedding</strong>. GPT-2 also considers the context in which each word is used, and gives a slightly different set of numbers for different contexts.</p>
 
-<p>I hope you enjoyed this dive into the World of computer games and got to know some of the technical details too. You can go through the following links to know more about these topics.</p>
+<p>As an example of why context matters, notice that the word ‘break’ has different meanings in ‘break the glass’ vs ‘summer break’.</p>
 
+<p>So now have converted the input string into a list of vectors. Now we feed it into the <strong>Decoder</strong> block, which essentially looks like this::</p>
+
+<p><img src="/blog_src/assets/img/GPT2_gen/transformer_block.svg" alt="Transformer Block" />
+<em><a href="http://www.peterbloem.nl/blog/transformers"><center>Source</center></a></em></p>
+
+<p>Attention is an operation which converts an input sequence to an output sequence of the <em>same length</em>. The output is also a list of vectors of fixed length, just like the input sequence.</p>
+
+<p>MLP is just your garden variety vanilla feedforward net, although it can be a convolutional block as well.</p>
+
+<p>Layer norm is a method of speeding up the training (by allowing gradients to flow more easily), and adding regularization to the network.</p>
+
+<p>Also, we use skip connections (those arrows that go around blocks) because this let’s us directly propagate information from earlier layers to later layers.</p>
+
+<p>(For more in-depth and hands-on explanations, check out the resources at the end.)</p>
+
+<hr />
+
+<h3 id="closing-thoughts">Closing thoughts</h3>
+
+<p>You can make GPT-2 do all kinds of fun stuff: generate Lord of the Rings fanfiction, brew up some recipes, fake popular science news and generate some sweet, sweet political propaganda.</p>
+
+<p>When it works, it’s language use can be wicked good at fooling people who are just skimming (including me, of course). It can hold onto a topic over several sentences, and flow of words is also quite natural on the surface.</p>
+
+<p>It’s when you read beyond just the words themselves and try to grasp the big picture, it feels more like it took a big pile of what makes up the internet, mixed the sentences around thoroughly, and spit out a barely coherent soup.</p>
+
+<p>So does this thing have <em>actual</em> language understanding?</p>
+
+<hr />
+
+<h3 id="resources">Resources</h3>
+
+<p>If you wanna play around with GPT-2 yourself:</p>
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=onBYsen2_eA">Video lectures on Monte Carlo Tree Search</a></li>
-  <li><a href="https://www.tastehit.com/blog/google-deepmind-alphago-how-it-works/">More about Alpha-Go</a></li>
+  <li><a href="https://talktotransformer.com/">Talk To Transformer</a></li>
+  <li><a href="https://transformer.huggingface.co/">Write With Transformer</a>
+<br /><br /></li>
 </ul>
+
+<p>If you want to dive deep and get your hands dirty with real code, here are some resources:</p>
+<ul>
+  <li><a href="http://www.peterbloem.nl/blog/transformers">Transformers from Scratch</a>: Really intuitive explanations of how the transformer works. Shows how to implement one in PyTorch.</li>
+  <li><a href="https://jalammar.github.io/illustrated-bert/">The illustrated BERT, ELMo and co.</a>: A great overview of the various developments that led to the awesomeness of recent NLP models.</li>
+  <li><a href="https://huggingface.co/transformers/index.html">HuggingFace’s transformers library</a>
+<br /><br /></li>
+</ul>
+
+<p>For more fun stuff that Neural Nets do:</p>
+<ul>
+  <li><a href="https://aiweirdness.com/">AI Weirdness</a></li>
+  <li><a href="https://srconstantin.wordpress.com/2019/02/25/humans-who-are-not-concentrating-are-not-general-intelligences/">Humans Who Are Not Concentrating Are Not General Intelligences</a></li>
+  <li><a href="https://slatestarcodex.com/2019/02/19/gpt-2-as-step-toward-general-intelligence/">GPT-2 as a step toward General Intelligence</a></li>
+</ul>
+
+<!-- Docs to Markdown version 1.0β17 -->
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
         <span id="category">Compsoc</span>
-        <span id="title">How Computers learn to play games!</span>
+        <span id="title">Generate Strange Text with GPT-2</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -280,13 +346,13 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Madhuparna.jpeg" alt="Madhuparna Bhowmik">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/kinshuk.jpg" alt="Kinshuk Kashyap">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Madhuparna Bhowmik</a>
+            <a itemprop="name" href="/">Kinshuk Kashyap</a>
         </h3>
-        <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:madhuparnabhowmik04@gmail.com">madhuparnabhowmik04@gmail.com</a>
+        <p class="desc">Randomized statistical pattern matcher</p>
+        <a itemprop="email" class="email" href="mailto:kinshuk.other@gmail.com">kinshuk.other@gmail.com</a>
     </div>
 </section>
 
@@ -306,15 +372,15 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/%20via%20&#64;IEEE_NITK&hashtags=Computer Games,Reinforcement Learning,Monte Carlo Tree Search,Alpha-Go,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//generate-text-with-gpt2/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//generate-text-with-gpt2/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
