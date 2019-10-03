@@ -1,0 +1,27 @@
+I"9
+<h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
+<h3 id="what-interested-you-or-attracted-you-to-this-particular-internship-and-why">What interested you or attracted you to this particular internship and why?</h3>
+
+<p>Tata Elxsi, Trivandrum <br />
+The company mainly deals with design and technology supplies in various fields like broadcast, communication, automotive etc.</p>
+
+<h2 id="what-was-your-internship-about">What was your internship about?</h2>
+
+<p>It was basically an internal project wherein you were trying out the feasibility of using a Raspberry Pi inside a set-top box to deal with all the Bluetooth related functions like transfering text files or images, or playing music on it , etc</p>
+
+<h2 id="how-was-the-work-culture">How was the work culture?</h2>
+
+<p>Since it was an internal project, only two people, including myself, was assigned to it. The office timings were actually flexible but there was a lot of work to be completed, so I usually worked for 9 hours per day.</p>
+
+<h2 id="what-did-you-learn-during-the-internship">What did you learn during the internship?</h2>
+<h3 id="was-it-challenging-for-you-to-do-it-what-new-skills-did-you-develop">Was it challenging for you to do it? What new skills did you develop?</h3>
+
+<p>We implemented Bluetooth profiles like A2DP (source and sink) and FTP using the inbuilt Bluetooth controller of RPI3. Profiles like HSP or HFP could not be accomplished using the inbuilt Bluetooth controller of RPi3. I learned a lot about Bluetooth and how it functions. I learned how audio and voice data are transferred via a Bluetooth connection.</p>
+
+<p>I got an overall view of Bluetooth and its various applications. It makes you think of all the new areas where Bluetooth can be used. Also, apart from the technical knowledge, you get to know how an office environment is like. You learn a lot about teamwork as well.</p>
+
+<h2 id="what-advice-would-you-give-to-juniors-regarding-your-internship">What advice would you give to juniors regarding your internship?</h2>
+<h3 id="would-you-recommend-a-junior-undergoing-a-similar-internship-at-the-same-place-you-went">Would you recommend a junior undergoing a similar internship at the same place you went?</h3>
+
+<p>The company is good and lets you explore your interests. The only problem I faced was that the project was more Computer Science related and less of Electronics, so I did not get the exposure I needed in my field of interest. But all together the experience was one of its kind and definitely worth it.</p>
+:ET

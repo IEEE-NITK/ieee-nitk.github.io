@@ -1,0 +1,99 @@
+I"�+<h2 id="functional-programming">Functional Programming</h2>
+<p>Functional Programming (FP) is a style of programming that performs computations mainly by evaluating mathematical functions. In FP, you describe what you want to calculate as opposed to the Imperative Programming style, where you also explain how you want it calculated.</p>
+
+<p>Some languages that support Functional programming are Haskell, Erlang, Lisp, Python, C++ (since C++11), C#. Of these, Haskell is a purely functional language, while others have some imperative features, as well.</p>
+
+<h2 id="what-are-monads">What are monads?</h2>
+
+<p>A monad embeds an object into an object with a richer structure.</p>
+
+<blockquote>
+  <p>A monad is a triple (M, unit, bind) consisting of a type constructor M and two operations of the following types: 
+     bind  ::  M x → (x → M y) → M y 
+     unit  ::  x → M x</p>
+
+  <ul>
+    <li>Type constructors do pretty much what you expect them to do from their names. They take in a type, say Int or Char, and construct a new type out of it.</li>
+    <li>If a monad <code class="highlighter-rouge">M a</code> is thought of, as a container, the <code class="highlighter-rouge">unit</code> operation takes a value and wraps it in a container.</li>
+    <li>The <code class="highlighter-rouge">bind</code> operation takes a function that produces a container, applies it to all values in a container, and then unwraps the nested containers.</li>
+  </ul>
+</blockquote>
+
+<h2 id="where-are-monads-used">Where are monads used?</h2>
+
+<p>We need to remember that variables in FP are immutable and that no function in FP has side-effects. (side effects - anything done by the function other than calculating and returning the output). 
+Since in FP, everything is the output of a function, we will have to compose two functions at some point, to get the complete task done. This is where monads prove to be very useful. Let’s take a look at an example. (the code is written in JavaScript)</p>
+
+<p>Suppose you have two functions <code class="highlighter-rouge">CapitalizeFirstName(name)</code> and <code class="highlighter-rouge">CapitalizeLastName(name)</code>. The functions take in a name in the format <code class="highlighter-rouge">"firstname lastname"</code> and  return <code class="highlighter-rouge">"Firstname lastname"</code> and <code class="highlighter-rouge">"firstname Lastname"</code> respectively (No other inputs are provided). Your task is to capitalize both the first and last names in a name.</p>
+
+<p>You decide to use composition and define a function for that.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>       <span class="kd">var</span> <span class="nx">composeFunctions</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">f</span><span class="p">,</span> <span class="nx">g</span><span class="p">)</span> <span class="p">{</span>
+                            <span class="k">return</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+                                <span class="k">return</span> <span class="nx">f</span><span class="p">(</span><span class="nx">g</span><span class="p">(</span><span class="nx">x</span><span class="p">));</span>
+                                <span class="p">};</span>
+                            <span class="p">};</span>
+</code></pre></div></div>
+
+<p>But then you decide you also want the character encoding of the string, just in case it has to be used for some other processing purposes. So you mention the encoding in another string and return it along with the nameString.  Now each function’s <code class="highlighter-rouge">return</code> is changed to:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="k">return</span> <span class="p">(</span><span class="nx">nameString</span><span class="p">,</span> <span class="dl">"</span><span class="s2">utf-8</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Now if we try combining the functions using</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="nx">composeFunctions</span><span class="p">(</span><span class="nx">CapitalizeFirstName</span><span class="p">,</span> <span class="nx">CapitalizeLastName</span><span class="p">)</span> <span class="p">(</span><span class="dl">"</span><span class="s2">test string</span><span class="dl">"</span><span class="p">);</span> 
+</code></pre></div></div>
+
+<p>we get an error. This is because the return type of <code class="highlighter-rouge">CapitalizeLastName</code> is not the same as the type of argument  <code class="highlighter-rouge">CapitalizeFirstName</code> needs. One way around this problem would be to modify <code class="highlighter-rouge">composeFunctions</code> to supply each function with just the necessary number and type of arguments it needs. 
+ But then we would be modifying the composing function. Instead if we choose to modify the <code class="highlighter-rouge">CapitalizeFirstName</code> function itself somehow to take in two strings and give two strings as output, we can still use <code class="highlighter-rouge">composeFunctions</code> as it is. 
+ This would maintain the abstraction in <code class="highlighter-rouge">composeFunctions</code> which can be used to compose other kinds of functions as well.
+ Now, to change the signature of the name functions, let’s define a <code class="highlighter-rouge">bind</code> function.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="kd">var</span> <span class="nx">bind</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">unModifiedFunction</span><span class="p">)</span> <span class="p">{</span>
+                   <span class="k">return</span> <span class="kd">function</span><span class="p">(</span><span class="nx">tuple</span><span class="p">)</span> <span class="p">{</span>
+                         <span class="kd">var</span> <span class="nx">inputName</span> <span class="o">=</span> <span class="nx">tuple</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                         <span class="nx">prevEncoding</span> <span class="o">=</span> <span class="nx">tuple</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+                         <span class="nx">outputTuple</span> <span class="o">=</span> <span class="nx">unModifiedFunction</span><span class="p">(</span><span class="nx">inputName</span><span class="p">),</span>
+                         <span class="nx">outputName</span> <span class="o">=</span> <span class="nx">outputTuple</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                         <span class="nx">outputEncoding</span> <span class="o">=</span> <span class="nx">outputTuple</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+                         <span class="k">return</span> <span class="p">(</span><span class="nx">outputName</span><span class="p">,</span> <span class="nx">prevEncoding</span> <span class="o">+</span> <span class="nx">outputEncoding</span><span class="p">);</span>
+                             <span class="p">};</span>
+                    <span class="p">};</span>
+</code></pre></div></div>
+
+<p>Using this function now, we can compose our original functions easily.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">composedFunction</span> <span class="o">=</span> <span class="nx">composeFunctions</span><span class="p">(</span> <span class="nx">bind</span><span class="p">(</span><span class="nx">CapitalizeFirstName</span><span class="p">),</span> <span class="nx">bind</span><span class="p">(</span><span class="nx">CapitalizeLastName</span><span class="p">)</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<p>This <code class="highlighter-rouge">composedFunction</code> does exactly what we wanted, except for one hitch. It needs two inputs, a name, and an encoding. But we are given only one input, name. To handle this, let’s define another function <code class="highlighter-rouge">unit</code>, which takes the input in the available format and returns it in a <code class="highlighter-rouge">bind</code>-friendly format.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">unit</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+                 <span class="k">return</span> <span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">);</span>
+                 <span class="p">};</span>
+</code></pre></div></div>
+
+<p>Now you can happily call:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">composedFunction</span><span class="p">(</span><span class="nx">unit</span><span class="p">(</span><span class="dl">"</span><span class="s2">test name</span><span class="dl">"</span><span class="p">));</span>
+</code></pre></div></div>
+
+<p>Let’s take a step back and see if this fits the definition of a monad we saw earlier.</p>
+
+<ul>
+  <li>Type constructor <code class="highlighter-rouge">M</code>  : We have a new type. The tuple <code class="highlighter-rouge">(string, string)</code>.</li>
+  <li><code class="highlighter-rouge">unit</code> function : We have the <code class="highlighter-rouge">unit</code> function which takes in a string and returns a tuple of type <code class="highlighter-rouge">(string, string)</code>.</li>
+  <li><code class="highlighter-rouge">bind</code>  function : We have a <code class="highlighter-rouge">bind</code> function that takes a function that produces a tuple, applies it to all values in a tuple, and then unwraps the nested tuple.</li>
+</ul>
+
+<h4 id="our-monad-fits-the-definition">Our Monad fits the definition!</h4>
+
+<h4 id="some-links-related-to-fp-for-those-who-want-to-read-more">Some links related to FP for those who want to read more:</h4>
+<ul>
+  <li><a href="http://learnyouahaskell.com">Learn You a Haskell</a></li>
+  <li><a href="http://www.defmacro.org/2006/06/19/fp.html">Functional Programming For The Rest of Us</a></li>
+  <li><a href="https://hackernoon.com/functional-programming-what-language-should-you-be-talking-313dd8bc379b">Functional Programming: What Language Should You Be Talking?</a></li>
+  <li>There’s an <a href="https://arxiv.org/pdf/1803.10195.pdf">interesting paper</a> about the same topic. Those interested in FP or specifically monads, do give it a read.</li>
+</ul>
+:ET
