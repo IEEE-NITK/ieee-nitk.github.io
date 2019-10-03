@@ -4,6 +4,8 @@ blog_src/_site/*
 blog_src/.sass-cache
 blog_src/node_modules/*
 blog_src/_drafts/*
+blog_src/.jekyll-cache/*
+.jekyll-cache/*
 
 gyan_src/_site/*
 gyan_src/.sass-cache
