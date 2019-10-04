@@ -263,13 +263,13 @@ mahirjain25:
   user_description: 'Hard work beats talent when talent fails to work hard.'
   email: mahirjain25@gmail.com
 somnathsarkar:
-  name: Somanth Sarkar 
+  name: Somanth Sarkar
   github: somnathsarkar
   author_image: 'blog-author.jpg'
   user_description: 'Programmer, interested in CP.'
   email: somnath.k.sarkar@gmail.com
 abhishekthigale:
-  name: Abhishek Thigale 
+  name: Abhishek Thigale
   github: abhishekthigale
   author_image: 'abhishek.jpg'
   user_description: 'Mech Engineer for Life!'
@@ -377,7 +377,7 @@ sinchana-hegde:
   user_description: 'Dancer, Theatre lover, Robotics enthusiast'
   email: sinchanah@gmail.com
 anumehaagrawal:
-  name : Anumeha Agrawal 
+  name : Anumeha Agrawal
   github : anumehaagrawal
   author_image : anumeha.jpeg
   user_description: ' Work until the idols become your rivals'
@@ -386,7 +386,7 @@ rajatchandavar:
   name: Rajat Chandavar
   github: rajatchandavar
   author_image: rajat.jpg
-  user_description:  'Prog-rock fan, Nature-lover-seeker, Aero-addict.' 
+  user_description:  'Prog-rock fan, Nature-lover-seeker, Aero-addict.'
   email: rajatchandavar1998@gmail.com
 sowjanyakandula:
   name: Sowjanya Kandula
@@ -430,12 +430,12 @@ sonalparab10:
   author_image: blog-author.jpg
   user_description: 'Piston, IEEE NITK'
   email: parab.sonal108@gmail.com
-shashank-ravichandir: 
+shashank-ravichandir:
   name: Shashank Ravichandir
   github: shashank-ravichandir
   author_image: blog-author.jpg
   user_description: 'Mechanical, NITK'
-  email: shashank2041998@gmail.com  
+  email: shashank2041998@gmail.com
 shreeramhegde:
   name: Shreeram Hegde
   github: shreeramhegde
@@ -534,14 +534,14 @@ adithyaprabhu98:
 col-aatresh:
   name: Anirudh Ashok Aatresh
   github: col-aatresh
-  author_image: AnirudhAA.jpeg 
+  author_image: AnirudhAA.jpeg
   email: anirudhashokaatresh@gmail.com
 pjk99:
   name: Preeti J Kalloli
   github: pjk99
   author_image: PreetiKalloli.jpeg
   user_description: 'Passionate Learner'
-  email: preetikallolihrg@gmail.com  
+  email: preetikallolihrg@gmail.com
 NJnisarg:
   name: Nisarg Joshi
   github: NJnisarg
@@ -637,15 +637,15 @@ NamanAgarwal:
 SmitRambhiya:
   name: Smit Rambhiya
   author_image: SmitRambhiya.jpg
-  email: smitrambhiya2101@gmail.com 
+  email: smitrambhiya2101@gmail.com
 deepakkavoor:
   name: Deepak K
   author_image: deepakkavoor.jpg
-  email: deepakkavoor99@gmail.com 
+  email: deepakkavoor99@gmail.com
 avinashkumar:
   name: Avinash Kumar
   author_image: avinashkumar.jpg
-  email: avinash.mgsr1998@gmail.com 
+  email: avinash.mgsr1998@gmail.com
 IteeshaAshwath:
   name: Iteesha Ashwath
   author_image: blog-author.jpg
@@ -710,7 +710,7 @@ abhinavpy:
   github: abhinavpy
   author_image: abhinavpy.jpg
   email: abhinavpy@ieee.org
-  user_description: "It\'s not whether you get knocked down, it\'s whether you get up."
+  user_description: "It's not whether you get knocked down, it's whether you get up."
 alabhya01:
   name: Kumar Alabhya
   github: alabhya01
@@ -741,7 +741,7 @@ saharsh007:
   github: saharsh007
   author_image: saharsh007.jpg
   email: saharshsonu40@gmail.com
-  user_description: 'Computer science is ♥' 
+  user_description: 'Computer science is ♥'
 tanmai-h:
   name: Tanmai H
   github: tanmai-h
@@ -758,3 +758,9 @@ nimbus98:
   author_image: 'akashnair.jpeg'
   user_description: 'I like Food'
   email: akash30121998@gmail.com
+ArnavNair:
+  name: Arnav Santosh Nair
+  github: ArnavNair
+  author_image: 'arnavnair.jpg'
+  user_description: 'Food + Sleep = Peace'
+  email: arnavnair13@gmail.com
