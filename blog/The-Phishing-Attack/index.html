@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="">
+        <meta name="description" content="How To Save yourself from Phishing Attacks">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="How Computers learn to play games!">
-        <meta name="twitter:description" content="">
+        <meta name="twitter:title" content="The Phishing Attack">
+        <meta name="twitter:description" content="How To Save yourself from Phishing Attacks">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/" />
-        <meta property="og:title" content="How Computers learn to play games!">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/The-Phishing-Attack/" />
+        <meta property="og:title" content="The Phishing Attack">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="">
+        <meta property="og:description" content="How To Save yourself from Phishing Attacks">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="How Computers learn to play games!"/>
-        <meta itemprop="description" content="">
+        <meta itemprop="name" content="The Phishing Attack"/>
+        <meta itemprop="description" content="How To Save yourself from Phishing Attacks">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,29 +86,15 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>How Computers learn to play games!</title>
+        <title>The Phishing Attack</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/how-computers-learn-to-play-games/">
+        <link rel="canonical" href="/blog/The-Phishing-Attack/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
-
-        
-            <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script> 
 
         
 
@@ -136,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-12-22 00:00:00 +0530" class="date">22 Dec 2018</time>
+            <time itemprop="datePublished" datetime="2019-10-02 05:02:44 +0530" class="date">02 Oct 2019</time>
         
-        <h1 class="post-title" itemprop="name">How Computers learn to play games!</h1>
-        <p itemprop="description" class="subtitle"></p>
+        <h1 class="post-title" itemprop="name">The Phishing Attack</h1>
+        <p itemprop="description" class="subtitle">How To Save yourself from Phishing Attacks</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -190,88 +176,72 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games?
-How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go?
-Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
+                    <h2 id="what-is-phishing">What is Phishing</h2>
+<p>Phishing is a type of cyber attack.Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.Phishing is a type of social engineering attack.Phishing has been one of the fastest evolution in the hacking history. Different types of phishing attacks spread over the internet in a flash. Here is how it evolved and different types in it.</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/chess.jpg" alt="Chess" title="Chess" /></p>
+<h2 id="types-of-phishing-attacks">Types of Phishing attacks</h2>
 
-<p>There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.</p>
-
-<h2 id="naive-tree-search">Naive Tree Search</h2>
-
-<p>Let’s start with a simple and naive approach by which the computer can take decisions. It is by looking at all possible states and choosing the best action to take. That is, make a tree with all possible states and next states and go to the leaves to find out if a move will lead to winning state or not and select an action accordingly.</p>
-
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/decision_tree.png" alt="Game Tree" title="Game Tree" /></p>
-
-<p>But, this technique cannot be used for games where there is a huge number of states, that it is practically impossible for a computer to examine all the states before taking a decision. For example, there are more than <strong>5000 states</strong> in the game of Tic-Tac-Toe, which is a <strong>3 X 3</strong> board game. Whereas Chess is an <strong>8 X 8</strong> board game and Go can have a <strong>19 X 19</strong> board. Therefore these games with billions of states cannot be solved by any such brute force approach where examining each state is required.</p>
-
-<h2 id="monte-carlo-tree-search">Monte Carlo Tree Search</h2>
-
-<p>Monte-Carlo Tree Search can be only used for games where we have perfect information about the game that is we know about all the actions that were previously taken and can be taken in future. It is applicable to games like Go, Chess or Tic-Tac-Toe. So, what the computer does in Monte Carlo Tree Search is it repeats these 4 steps</p>
-
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Monte-Carlo-Tree-Search.png" alt="Monte-Carlo Tree search" title="Monte-Carlo Tree search" /></p>
-
-<h4 id="1select--">1)Select -</h4>
-<p>In this step the computer starts with a root node(state) and selects the next node based on the current policy. A policy is a function that dictates what actions to take given a state.</p>
-
-<h4 id="2expand--">2)Expand -</h4>
-<p>When the policy can no longer choose an action with confidence to find the successor node, it expands the game tree by appending all possible states from that node or a few let’s say 10 or 100 states chosen by randomly trying out certain number of actions, this is done when the number of next possible states is huge.</p>
-
-<h4 id="3simulate--">3)Simulate -</h4>
-<p>Then from the appended nodes, it simulates a random game to find out how good it is to go to that state.</p>
-
-<h4 id="4backpropagation--">4)Backpropagation -</h4>
-<p>Then it traverses upwards back to the root and updates the score for all visited nodes.</p>
-
-<p>These four steps are repeated again and again until the computer has learned enough to actually play the game.</p>
-
-<h2 id="learning-to-play-games-using-reinforcement-learning">Learning to play games using Reinforcement Learning</h2>
-
-<p>There are various algorithms that come under Reinforcement Learning Algorithms. Each suitable for a different purpose. The basic idea behind Reinforcement Learning is, as the name suggests, making the computer play the game again and again and learn from its own experience.
-In order to give you intuition on how Reinforcement Learning can be used for games with a huge state space let me define two new terms.</p>
-
-<p><strong>1. State Value Function</strong> - Given a state this function tells how good it is to be in that state.</p>
-
-<p><strong>2. Action Value Function</strong> - Given an action and a state, this function tells how good it is to take that action from the given state.</p>
-
-<p>The basic idea is to learn the value functions and use it to choose the best action.
-Consider the following diagram-</p>
-
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" title="Backup diagram for value function" /></p>
-
-<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following<a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html"> blog post</a> to get a better understanding of how this algorithm works.).</p>
-
-<h4 id="but-how-is-it-dealing-with-the-problem-of-a-huge-number-of-states">But how is it dealing with the problem of a huge number of states?</h4>
-
-<p>The answer is the computer is not really going through all the possible states but still learning an approximate way to figure out the best actions to take. There are many states in the state-space which occur very rarely or is too poor to begin with, that there is no point going all the way down from that state and calculating everything when there are very fewer chances of encountering that state or there is no way it can get you a better reward.
-But as our computer plays multiple games it will surely go through most of the frequently occurring and promising states and will know how to behave in those situations.</p>
-
-<h2 id="alpha-go">Alpha-Go</h2>
-
-<p>Recently Google’s Alpha-Go zero defeated Go’s World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.</p>
-
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" title="Lee Sedol playing with Alpha-Go" /></p>
-
-<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong> 
-There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.
-Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>I hope you enjoyed this dive into the World of computer games and got to know some of the technical details too. You can go through the following links to know more about these topics.</p>
-
-<ul>
-  <li><a href="https://www.youtube.com/watch?v=onBYsen2_eA">Video lectures on Monte Carlo Tree Search</a></li>
-  <li><a href="https://www.tastehit.com/blog/google-deepmind-alphago-how-it-works/">More about Alpha-Go</a></li>
-</ul>
+<ol>
+  <li>
+    <p>Email Spoofing – Name Impersonation
+Email spoofing is one of the easiest types of phishing.It can be done in many ways.
+ a.Sending an email through a familiar username.
+ b.Sending an email through identity(email) of an organisation.
+Compared to other types of phishing attacks, email spoofing has a focused target.
+How to prevent email phishing?
+The best way to prevent these attacks is by carefully reading the sender’s email address. Do not open any link in any email if yur are not sure if it came from a trusted source.</p>
+  </li>
+  <li>
+    <p>URL Phishing
+In URL phishing attacks, Hackers use the phishing page’s URL to infect the target.
+This has a higher opening rate because people click on links sent by strangers or people they know,
+They are ready to accept friend requests and messages.click links and few people are even ready to share their email and contact details.
+Hidden link
+One way to hook a person with a phishing bait is by using a hidden link. We have all received emails with the action phrase click here or download now or subscribe or confirm your email. 
+These are examples of hidden links, which makes it easier for scammers to launch phishing attacks.
+Eg:a.Instead of url if the hacker uses hidden link like this, It would be difficult to know about     	   phising <click here="">.
+b.Hackers can also use url shortners to shorten an url which makes it difficult to identify 	    	 phishing.
+How to prevent URL phishing? 
+Hover the cursor over the attached link. The full link will appear on the laptop screen. If the link is different or seems phishy, don’t click on it. In case of mobile devices, press and hold over the link, and the attached link will appear as a pop-up window with options on which action can be taken.</click></p>
+  </li>
+  <li>
+    <p>Pop-Up Messages: 
+Pop-up messages are the easiest way to run a successful phishing attack.Through pop-up messages, attackers get a window to steal the login credentials by redirecting them to a fake website.This technique of phishing is also known as In-session phishing.
+How to prevent in-session phishing?
+The only prevention we have at present is the pop-up blockers available in the browser extension and changing settings. If your data is very crucial, you should opt for a security software that blocks all these threats in one shot to prevent any kind of data security breach.</p>
+  </li>
+  <li>
+    <p>Website Spoofing
+Website spoofing is similar to email spoofing, though it is different from email spoofing.
+How is website spoofing done?
+Phishers publish a website by copying the design, content, and user interface of website which he wanted to phish.Some scammers also use URL shortening tools to create a similar URL for the fake sites. This is done, beacause a shortened fake url is tough to decide Phishing. 
+How to prevent Website Spoofing attacks?
+a. The attacker designs the phishing page in such a way that it ggets redirected to original page. So whenever you feel that it’s a phishing page enter wrong details and submit them. Then you will be redirected to original page, Then enter your correct details.
+b.Third party tools like SysCloud’s Phishing Protection provide the best possible security from all kinds of spoofing attacks. As a part of their service, all the suspicious websites are not only blocked but also reported to the user.</p>
+  </li>
+  <li>Cross-site Scripting(xss)
+Cross-site scripting (XSS) or scripting uses malicious scripts deployed on the victim’s computer or phone using emails as the medium.As most of the web pages are scripted using JavaScript, it becomes easier for hackers to launch a scripting attack.Hackers infect the script of a legitimate website – which you visit regularly, which can be identified through social engineering, with a script that will redirect you to a phishing page.When the browser loads the phishing page, it will execute the malicious script, and the attack would take place without the victim’s knowledge. 
+Here is how a normal script works when you search for ‘colors’ on Google.
+How to prevent cross-site scripting attack?
+a.Use browsers with in-built XSS protection feature.
+b.Disable allowing sites to run javaScript.
+c.Check for the latest version of browsers and security applications.
+d.Use a browser add-ons like “NoScript,” which let you choose whether to allow or deny the scripting permissions</li>
+  <li>Man-in-the-Middle Attack
+In Man-in-the-Middle or MITM attack, a malicious actor intercepts online interaction between two parties.Hackers impersonate themselves on both sides to access confidential information like transactions, conversations, or other data. 
+MITM use two major spoofing execution techniques: ARP spoofing and DNS spoofing.
+ARP spoofing: ARP spoofing is an attack in which a malicious actor sends a fake ARP (Address Resolution Protocol) message over a local area network. This links the attacker’s MAC (Machine address) address to the IP address of a legitimate computer or server on the network.
+DNS spoofing: Domain Name System (DNS) spoofing or DNS Cache Poisoning is a form of hacking that corrupts the DNS data in the resolver cache, causing the name server to return incorrect result records. DNS spoofing can be done with a tool called as Ettercap.
+How to prevent MiTM phishing attacks?
+The only way to prevent the Man-in-the-Middle attack is by encrypting your online data. Using S/MIME encryption can help you to secure the data from misuse by cybercrooks, or you can use Third-party tools to encrypt your data.</li>
+</ol>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
-        <span id="category">Compsoc</span>
-        <span id="title">How Computers learn to play games!</span>
+        <span id="category">Compsoc/Diode/Piston</span>
+        <span id="title">The Phishing Attack</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -280,13 +250,13 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Madhuparna.jpeg" alt="Madhuparna Bhowmik">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/praveen.jpg" alt="Praveen Reddy">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Madhuparna Bhowmik</a>
+            <a itemprop="name" href="/">Praveen Reddy</a>
         </h3>
         <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:madhuparnabhowmik04@gmail.com">madhuparnabhowmik04@gmail.com</a>
+        <a itemprop="email" class="email" href="mailto:lomadapraveenreddy@gmail.com">lomadapraveenreddy@gmail.com</a>
     </div>
 </section>
 
@@ -306,15 +276,15 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/%20via%20&#64;IEEE_NITK&hashtags=Computer Games,Reinforcement Learning,Monte Carlo Tree Search,Alpha-Go,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/The-Phishing-Attack/%20via%20&#64;IEEE_NITK&hashtags=IEEE NITK,CompSoc,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//The-Phishing-Attack/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//The-Phishing-Attack/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
