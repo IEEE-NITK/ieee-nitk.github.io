@@ -1,0 +1,30 @@
+I"<<h2 id="botnet-of-things">Botnet of things</h2>
+
+<p>The Internet of Things aka IoT is one of the hot trending topics in the tech world right now. The IoT is basically a network of devices connected to the internet, each having a unique IP address. Today, the Internet of Things plays with the idea of connecting nearly every manufactured object to the Internet. It is being incorporated into smart homes, watches, cars, fitness trackers, power grids, thermostats, contact lenses, pacemakers and what not.</p>
+
+<p>While the Internet of Things brings a new horizon of opportunities, there are several barriers in respect to making IoT implementations successful. These include grave security and privacy concerns. Recent distributed denial of service (DDoS) attacks are forcing a shift in how we think about the Internet of Things (IoT). The debate on the security risks posed by widespread use of IoT devices has intensified after the cyber-attack on DNS provider Dyn in October 2016, which affected many high-profile online service providers like Twitter, Netflix, GitHub and Quora. This was carried out using a malware named ‘Mirai’, which used a “botnet of things”.</p>
+
+<h2 id="what-is-a-botnet">What is a botnet?</h2>
+
+<p>A botnet is a collection of internet-connected devices, which may include PCs, servers, mobile devices and internet of things devices that are infected and controlled by a common type of malware. The hacker instructs these botnets to certain things like overloading a website with a huge number of requests to effectively shut it down, to send spam, to make money out of clickbaits, and to further spread the malware itself. These botnets are pretty hard to track and bring down.</p>
+
+<p><img src="/blog/assets/img/BoT/image1.jpg" alt="Image1" /></p>
+
+<h2 id="botnet-of-things-1">Botnet of things</h2>
+
+<p>Until fairly recently, devices used as components of botnets were usually Windows PCs. The problem, for hackers, with PCs is that their defence is being strengthened every day. Antimalware tools are pretty good at detecting problems and evicting botnets. Hence, in recent times, “Thingbots”, i.e. compromising IoT devices for this purpose is a growing trend. IoT devices currently are not really sophisticated in terms of security. The meteoric rise of the IoT industry has forced manufacturers to prioritise impressive features and cot efficiency, leaving security as an afterthought. Most of the cheaper IoT devices on the market are not designed with security in mind, and their hardware isn’t capable of supporting advanced encryption techniques. One of the biggest contributors to the risk of future attack is the fact that many IoT devices have long-standing, widely known software vulnerabilities that make them vulnerable to exploit and control by remote attackers. Many of these devices still have their default passwords. These are very easy targets for hackers, and are being used in botnets. The device will still work normally, with a lesser bandwidth and might be a bit sluggish.</p>
+
+<p>Although the Dyn incident caused large-scale disruption, it is noteworthy that the attack involved only a few hundred thousand endpoints and a traffic rate of about 1.2 terabits per second. IT firm Gartner has predicted that there will be more than 20 billion devices connected to IoT by 2020. If the IoT remains vulnerable to attacks of this nature, the risk of similar attacks, on a much larger scale is imminent.</p>
+
+<p>Some experts are not alarmed by this, as the Dyn attack required 100,000 infected devices and taking control of so many devices on a regular basis is borderline impossible. However, devices that have been part of the Mirai botnet will always be infected. If another attack was to take place, these devices could be called upon as part of the botnet army. Once a device has been infected, it is very difficult to get rid of the virus, making discarding the device the only viable solution. </p>
+
+<h2 id="how-to-mitigate-this-problem">How to mitigate this problem?</h2>
+
+<p>IoT botnets will continue to rise. Right now they are an easy resource to harvest. IoT device manufacturers must act now to build in better security capabilities and controls. Security standards must be set by the government for all IoT devices. Until manufacturers step up their game and create better security practices, it’s up to cyber security firms and the public to be more informed in their daily interactions with smart objects. Default passwords should be changed and the devices should be secured. As IoT botnets becoming a clear-and-present danger, it is only the combined efforts of everyone involved — including consumers, manufacturers and IT pros — that can stop the threat.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p><a href="https://www.technologyreview.com/s/603500/10-breakthrough-technologies-2017-botnets-of-things/">Botnet of things</a><br />
+<a href="https://securityintelligence.com/the-weaponization-of-iot-rise-of-the-thingbots/">The Weaponisation of IoT: Rise of the Thingbots</a><br />
+<a href="https://www.kaspersky.com/blog/attack-on-dyn-explained/13325/">Role of IoT in the Dyn Attack</a></p>
+:ET

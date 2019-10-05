@@ -1,0 +1,42 @@
+I"<blockquote>
+  <p>I am interested in all aspects of Robotics: Path-Planning, Perception, ROS, Mobility, Locomotion, Dynamics etc. I also wish to venture into the field of Machine Learning and Artificial Intelligence.</p>
+</blockquote>
+
+<h2 id="where-did-you-get-your-internship-and-why-did-you-apply-there">Where did you get your internship and why did you apply there?</h2>
+
+<p>I interned at IIT Bombay, Systems and Control Engineering Department. My area of interest is robotics, and the professors of said department mainly deal with controls and robotics.</p>
+
+<h2 id="how-did-you-get-your-internship">How did you get your internship?</h2>
+<h3 id="was-it-through-the-college-or-off-campus-or-through-a-seniorprof-or-through-an-internship-website">Was it through the college or off-campus or through a senior/prof or through an internship website?</h3>
+
+<p>I e-mailed a couple of professors there and one of them replied back as her area of expertise matched with my area of interest.</p>
+
+<h2 id="what-was-your-internship-about">What was your internship about?</h2>
+
+<p>My Internship involved implementing the paper:</p>
+<blockquote>
+  <p>“Sarat N., L. Vachhani, A. Sinha: “Multi-robot Graph Exploration and Map Building with Collision Avoidance: A Decentralized Approach”, Journal of Intelligent and Robotic Systems, September 2016, Volume 83, Issue 3, pp 503-523.”</p>
+</blockquote>
+
+<p>Earlier in the internship, Matlab and Spark V robots were used to test out the algorithms. But for further research, the algorithm had to be converted onto a more robust, dynamic and realistic platform - Enter ROS. I simulated the algorithm on a ROS compliant simulator called Gazebo.</p>
+
+<h2 id="how-was-the-work-culture">How was the work culture?</h2>
+
+<p>The work culture was far from stringent; but, it was target-based. All the professors want are results and they don’t bother how you get it done. You are free to work wherever and whenever you wish as per your convinience.</p>
+
+<h2 id="what-did-you-learn-during-the-internship">What did you learn during the internship?</h2>
+<h3 id="was-it-challenging-for-you-to-do-it-what-new-skills-did-you-develop">Was it challenging for you to do it? What new skills did you develop?</h3>
+
+<p>Since I worked on the project alone, I learnt to become independent and manage things on my own. The people there, proffs as well as PhD students, are very knowledgeable and very very friendly as well as always willing to help. I learnt a lot from the fellow senior interns from IIT Kharagpur as well as the PhD students on the aspect of ROS and running simulations in Gazebo.</p>
+
+<p>The outcome of our Research was that I was able to use ROS+Gazebo to implement the decentralised multi-bot graph exploration algorithm on a graph-world I generated.</p>
+
+<h2 id="tell-us-about-the-fun-interesting-incidents-during-the-course-of-your-internship">Tell us about the fun/ interesting incidents during the course of your internship.</h2>
+
+<p>Well, My professor was unavailable during my internship as she had relocated to a remote area and since I was to directly report to her, I was basically clueless as to what I was supposed to do for sometime. Thankfully I could continue my work with another professor’s help.In fact, I only met my assigned professor only a couple of times during the entire internship. The most fun part was obviously working in the lab with the other co-interns with blaring music.We had pizza parties too. I befriended a PhD student there and he gave a couple of us an awesome treat at Global Fusion Mumbai,where I ate “veg sushi” for the first time :P It was also the first time I stayed in a lab till 2 AM. Working with the co-interns was a lot of fun and a great learning experience. Also worth mentioning is the food in Mumbai; both in-campus and outside: Goddamn Awesome!</p>
+
+<h2 id="what-advice-would-you-give-to-juniors-regarding-your-internship">What advice would you give to juniors regarding your internship?</h2>
+<h3 id="would-you-recommend-a-junior-undergoing-a-similar-internship-at-the-same-place-you-went">Would you recommend a junior undergoing a similar internship at the same place you went?</h3>
+
+<p>Start mailing the professors early and make sure you write a very specific email which appeals to the professor. Also make sure you go through the professor’s work and the projects undertaken before the interview. Make sure when the professor open your resume/CV there is something that relates to his/her field.If the professor doesn’t respond to your email,send follow-up emails and don’t be afraid to directly call them.</p>
+:ET

@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "An Introduction to Minimax Algorithm",
+      "category" : "CompSoc",
+      "tags"     : "Artificial Intelligence, Algorithms, Strategy, and Game Theory",
+      "url"      : "http://ieee.nitk.ac.in/blog//minimax-algorithm/",
+      "date"     : "05 Oct 2019",
+      "author"   : "Shreeraksha R Aithal"
+    } ,
+  
+    {
       "title"    : "Research, an informal testimony",
       "category" : "Piston",
       "tags"     : "Requirements and Research",
@@ -37,12 +46,12 @@
     } ,
   
     {
-      "title"    : "Solving Switch Riddle Using Rl",
-      "category" : "",
-      "tags"     : "",
+      "title"    : "Solving Switch Riddle using RL",
+      "category" : "Compsoc",
+      "tags"     : "Switch Riddle, Reinforcement Learning, DIAL, and RNN",
       "url"      : "http://ieee.nitk.ac.in/blog//Solving-Switch-Riddle-using-RL/",
       "date"     : "28 Feb 2019",
-      "author"   : ""
+      "author"   : "Madhuparna Bhowmik"
     } ,
   
     {
@@ -136,30 +145,30 @@
     } ,
   
     {
-      "title"    : "Nano Medicine",
-      "category" : "",
-      "tags"     : "",
+      "title"    : "NanoMedicine",
+      "category" : "Piston",
+      "tags"     : "NanoMedicine, Targeted drug delivery, Overlooked advancements, and EPR effect",
       "url"      : "http://ieee.nitk.ac.in/blog//nano-medicine/",
       "date"     : "22 Dec 2018",
-      "author"   : ""
+      "author"   : "Manoj A B"
     } ,
   
     {
-      "title"    : "How Computers Learn To Play Games",
-      "category" : "",
-      "tags"     : "",
+      "title"    : "How Computers learn to play games!",
+      "category" : "Compsoc",
+      "tags"     : "Computer Games, Reinforcement Learning, Monte Carlo Tree Search, and Alpha-Go",
       "url"      : "http://ieee.nitk.ac.in/blog//how-computers-learn-to-play-games/",
       "date"     : "22 Dec 2018",
-      "author"   : ""
+      "author"   : "Madhuparna Bhowmik"
     } ,
   
     {
-      "title"    : "Gan",
-      "category" : "",
-      "tags"     : "",
+      "title"    : "GaN: Gate to New era",
+      "category" : "Diode",
+      "tags"     : "galliumnitride, GaN, transistors, wafers, silicon, newsilicon, and technology",
       "url"      : "http://ieee.nitk.ac.in/blog//GaN/",
       "date"     : "22 Dec 2018",
-      "author"   : ""
+      "author"   : "Vishal Shukla"
     } ,
   
     {
@@ -190,30 +199,30 @@
     } ,
   
     {
-      "title"    : "Nanomachines",
-      "category" : "",
-      "tags"     : "",
+      "title"    : "NanoMachines",
+      "category" : "Piston",
+      "tags"     : "MEMS, NEMS, Nanotechnology, and Biomedics",
       "url"      : "http://ieee.nitk.ac.in/blog//nanomachines/",
       "date"     : "08 Dec 2018",
-      "author"   : ""
+      "author"   : "Shaswata Bose"
     } ,
   
     {
       "title"    : "Gesture Controlled Robot",
-      "category" : "",
-      "tags"     : "",
+      "category" : "Diode",
+      "tags"     : "Gesture controlled, accelerometer, RF transmitter, RF receiver, and motor driver",
       "url"      : "http://ieee.nitk.ac.in/blog//gesture-controlled-robot/",
       "date"     : "08 Dec 2018",
-      "author"   : ""
+      "author"   : "Deepanshi"
     } ,
   
     {
       "title"    : "Cloud Gaming",
-      "category" : "",
-      "tags"     : "",
+      "category" : "Compsoc",
+      "tags"     : "Gaming, Cloud, Google Project Stream, and Nvidia Now",
       "url"      : "http://ieee.nitk.ac.in/blog//cloud-gaming/",
       "date"     : "08 Dec 2018",
-      "author"   : ""
+      "author"   : "Aakash Singh"
     } ,
   
     {
