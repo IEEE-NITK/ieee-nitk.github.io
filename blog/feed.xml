@@ -5,9 +5,37 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Oct 2019 09:56:17 +0530</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2019 09:56:17 +0530</lastBuildDate>
+    <pubDate>Mon, 07 Oct 2019 20:39:54 +0530</pubDate>
+    <lastBuildDate>Mon, 07 Oct 2019 20:39:54 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Forward Swept Wings</title>
+        <description>&lt;h1 id=&quot;forward-swept-wings&quot;&gt;FORWARD SWEPT WINGS&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;p&gt;X-29:&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher...</description>
+        <pubDate>Tue, 08 Oct 2019 01:00:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/forward-swept-wings/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/forward-swept-wings/</guid>
+        
+        <category>Piston</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Space-based Solar Power</title>
+        <description>&lt;h1 id=&quot;space-based-solar-power&quot;&gt;Space-based Solar Power&lt;/h1&gt; &lt;p&gt;Can you imagine deploying solar panels in space and efficiently converting the solar power that is received right from space and then transmitting the energy back to earth wirelessly, interesting right?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Space-based solar power&lt;/code&gt; project is a daring effort that collects the solar energy from the sun in space, converts it to energy and sends it down to Earth via microwaves. &lt;code class=&quot;highlighter-rouge&quot;&gt;Energy transmitting satellites&lt;/code&gt; that are placed in the geosynchronous orbit of the earth collect high intensity uninterrupted solar radiation by using giant mirrors that reflect huge amounts of solar rays onto two...</description>
+        <pubDate>Tue, 08 Oct 2019 00:59:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/space-based-solar-power/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/space-based-solar-power/</guid>
+        
+        <category>Diode</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>Password Security: Techniques and Challenges</title>
@@ -150,36 +178,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>INNOVATIONS IN THE DRONE INDUSTRY</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“Do you think drones are just four rotor-legged flying machines?”&lt;br /&gt; “Have you ever thought how we can modify these machines to get maximum out of it?”&lt;br /&gt; Multiple innovations are happening currently in this very industry and here are some of them!&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;going-bladeless--the-future-of-drones-&quot;&gt;GOING BLADELESS : THE FUTURE OF DRONES ?&lt;/h2&gt; &lt;p&gt;As much crazy as it might sound , bladeless drone are becoming a reality . Bladeless ? You ask me , well , it might be a bit of misnomer . Bladeless isn’t actually bladeless in the fact the it still relies on a bladed propeller...</description>
-        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</guid>
-        
-        <category>Drones</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Social Engineering</title>
-        <description>&lt;p&gt;Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a &lt;strong&gt;Social Engineer!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/social-engineering/0.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt; &lt;p&gt;Well now that I have said that you are a social engineer let’s see what that really means. It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also...</description>
-        <pubDate>Fri, 18 Jan 2019 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/social-engineering/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/social-engineering/</guid>
-        
-        <category>Social engineering</category>
-        
-        <category>Security</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
