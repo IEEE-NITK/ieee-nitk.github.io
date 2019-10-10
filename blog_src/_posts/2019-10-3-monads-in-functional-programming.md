@@ -44,8 +44,6 @@ var CapitalizeLastName = function (name) {
 
 You decide to use composition and define a function for that.
 
-
-
 ```js
 var composeFunctions = function (f, g) {
     return function (x) {
