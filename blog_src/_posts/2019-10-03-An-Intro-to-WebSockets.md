@@ -11,7 +11,7 @@ tags:
 - Web
 - Networks
 categories:
-- Compsoc
+- CompSoc
 github_username: 'aksh555'
 ---
 
@@ -82,8 +82,8 @@ WebSockets can be implemented practically using Node.js(using Socket.IO), Rails(
 
 ## References
 
-- https://medium.com/@yassimortensen/an-introduction-to-websockets-10b131182559 
-- https://blog.logrocket.com/websockets-tutorial-how-to-go-real-time-with-node-and-react-8e4693fbf843/
+- [Intro tutorial](https://medium.com/@yassimortensen/an-introduction-to-websockets-10b131182559) 
+- [Implementation with Node and React](https://blog.logrocket.com/websockets-tutorial-how-to-go-real-time-with-node-and-react-8e4693fbf843/)
 
 
 
