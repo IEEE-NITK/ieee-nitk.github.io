@@ -6,8 +6,8 @@ date: 2019-10-02 01:36:00
 image: '/assets/img/'
 description: 'Where we explore the funny world of recent language models'
 tags:
-- IEEE NITK
-- CompSoc
+- NLP
+- ML/AI
 categories:
 - Compsoc
 github_username: 'kinshukk'
@@ -175,4 +175,3 @@ For more fun stuff that Neural Nets do:
 *   [Humans Who Are Not Concentrating Are Not General Intelligences](https://srconstantin.wordpress.com/2019/02/25/humans-who-are-not-concentrating-are-not-general-intelligences/)
 *   [GPT-2 as a step toward General Intelligence](https://slatestarcodex.com/2019/02/19/gpt-2-as-step-toward-general-intelligence/)
 
-<!-- Docs to Markdown version 1.0β17 -->

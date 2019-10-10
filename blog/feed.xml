@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Oct 2019 09:28:35 +0530</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2019 09:28:35 +0530</lastBuildDate>
+    <pubDate>Fri, 11 Oct 2019 01:40:35 +0530</pubDate>
+    <lastBuildDate>Fri, 11 Oct 2019 01:40:35 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -16,9 +16,9 @@
         <link>http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</guid>
         
-        <category>IEEE NITK</category>
+        <category>NLP</category>
         
-        <category>CompSoc</category>
+        <category>ML/AI</category>
         
         
         <category>Compsoc</category>
