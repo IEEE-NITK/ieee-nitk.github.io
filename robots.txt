@@ -1,5 +1,0 @@
-User-agent: *
-
-Disallow: /blog_src/ /gyan_src/ /data/ /js/ /res/ /scripts/
-
-Allow: / /blog/ /gyan/
