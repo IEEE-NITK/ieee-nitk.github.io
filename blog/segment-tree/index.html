@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+        <!-- Give a small description in 3-4 sentences about the website -->
+        <meta name="abstract" content="IEEE NITK Student Chapter under Mangalore SubSection and Bangalore Section was founded in 1988. Currently it has three SIGs namely Computer Society, Circuits and Systems, Signal Processing Society and Piston. It also has two Affinty Groups namely Special Interest Group in Humanitarian Technologies (SIGHT) and Women in Engineering (WiE)">
+        <!-- Important Keywords to be noted in the website  -->
+        <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+        <!-- Tell the spider to index the first page and other pages as well-->
+        <meta name="robots" content="index, follow">    
+        <!-- How often should spiders come back to your page -->
+        <meta name="revisit-after" content="3 days">
+
+        <!-- Copyright regarding the website -->
+        <meta name="copyright" content="IEEE NITK">
+        <!-- Tells Google Bot not to duplicate description -->
+        <meta name="googlebot" content="noodp">
+        <!-- Language for the website -->
+        <meta name="language" content="English">  
+
+        <!-- Web Author for the image -->
+        <meta name="web_author" content="IEEE NITK">
+        <meta name="author" content="Salman Shah">
+        <!-- Email ID -->
+        <meta name="contact" content="ieee@nitk.edu.in" />
+        <!-- Email ID to reply to -->
+        <meta name="reply-to" content="ieee@nitk.edu.in">
+
+        <!-- Refers to distribution of the page -->
+        <meta name="distribution" content="global">
+        <!-- Generator or formatter tag -->
+        <meta name="generator" content="Jekyll">
+        <!-- Disallow spammers for the webpage -->
+        <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+        <!-- Rating for the page -->
+        <meta name="rating" content="general">
+        <!-- Content Type for the page -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- Fixing viewport on mobile views -->
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="description" content="This article gives an introduction to segment trees and it’s applications in competitive programming">
+
+        <!-- Google Authorship Markup -->
+        <!-- Social: Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@IEEE_NITK">
+        <meta name="twitter:title" content="Segment Trees">
+        <meta name="twitter:description" content="This article gives an introduction to segment trees and it’s applications in competitive programming">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+
+        <!-- Social: Facebook / Open Graph -->
+        <meta property="fb:app_id" content="0011038251882641" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/segment-tree/" />
+        <meta property="og:title" content="Segment Trees">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+        <meta property="og:description" content="This article gives an introduction to segment trees and it’s applications in competitive programming">
+        <meta property="og:site_name" content="A blog about our findings and musings">
+
+        <!-- Social: Google+ / Schema.org  -->
+        <meta itemprop="name" content="Segment Trees"/>
+        <meta itemprop="description" content="This article gives an introduction to segment trees and it’s applications in competitive programming">
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Windows 8 Tile Icons -->
+        <meta name="application-name" content="IEEE-NITK Blog">
+        <meta name="msapplication-TileColor" content="#0562DC">
+        <meta name="msapplication-square70x70logo" content="smalltile.png" />
+        <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+        <meta name="msapplication-wide310x150logo" content="widetile.png" />
+        <meta name="msapplication-square310x310logo" content="largetile.png" />
+        
+        <!-- Android Lolipop Theme Color -->
+        <meta name="theme-color" content="#0562DC">
+
+        <link rel="author" href="https://plus.google.com/?rel=author">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
+        <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+        <!-- Include Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <title>Segment Trees</title>
+
+        <!-- highlighter theme -->
+        <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
+
+        <link rel="stylesheet" href="/blog/assets/css/main.css">
+        <link rel="canonical" href="/blog/segment-tree/">
+        <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
+
+        
+
+        <!-- jQuery for highlighter -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none" version="1.1"><defs><symbol id="icon-menu" viewBox="0 0 1024 1024"><path class="path1" d="M128 213.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 725.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 469.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5z"/></symbol><symbol id="icon-search" viewBox="0 0 951 1024"><path class="path1" d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z"/></symbol><symbol id="icon-email" viewBox="0 0 1024 1024"><path class="path1" d="M950.857 859.429v-438.857q-18.286 20.571-39.429 37.714-153.143 117.714-243.429 193.143-29.143 24.571-47.429 38.286t-49.429 27.714-58.571 14h-1.143q-27.429 0-58.571-14t-49.429-27.714-47.429-38.286q-90.286-75.429-243.429-193.143-21.143-17.143-39.429-37.714v438.857q0 7.429 5.429 12.857t12.857 5.429h841.143q7.429 0 12.857-5.429t5.429-12.857zM950.857 258.857v-14t-0.286-7.429-1.714-7.143-3.143-5.143-5.143-4.286-8-1.429h-841.143q-7.429 0-12.857 5.429t-5.429 12.857q0 96 84 162.286 110.286 86.857 229.143 181.143 3.429 2.857 20 16.857t26.286 21.429 25.429 18 28.857 15.714 24.571 5.143h1.143q11.429 0 24.571-5.143t28.857-15.714 25.429-18 26.286-21.429 20-16.857q118.857-94.286 229.143-181.143 30.857-24.571 57.429-66t26.571-75.143zM1024 237.714v621.714q0 37.714-26.857 64.571t-64.571 26.857h-841.143q-37.714 0-64.571-26.857t-26.857-64.571v-621.714q0-37.714 26.857-64.571t64.571-26.857h841.143q37.714 0 64.571 26.857t26.857 64.571z"/></symbol><symbol id="icon-close" viewBox="0 0 805 1024"><path class="path1" d="M741.714 755.429q0 22.857-16 38.857l-77.714 77.714q-16 16-38.857 16t-38.857-16l-168-168-168 168q-16 16-38.857 16t-38.857-16l-77.714-77.714q-16-16-16-38.857t16-38.857l168-168-168-168q-16-16-16-38.857t16-38.857l77.714-77.714q16-16 38.857-16t38.857 16l168 168 168-168q16-16 38.857-16t38.857 16l77.714 77.714q16 16 16 38.857t-16 38.857l-168 168 168 168q16 16 16 38.857z"/></symbol><symbol id="icon-twitter" viewBox="0 0 951 1024"><path class="path1" d="M925.714 233.143q-38.286 56-92.571 95.429 0.571 8 0.571 24 0 74.286-21.714 148.286t-66 142-105.429 120.286-147.429 83.429-184.571 31.143q-154.857 0-283.429-82.857 20 2.286 44.571 2.286 128.571 0 229.143-78.857-60-1.143-107.429-36.857t-65.143-91.143q18.857 2.857 34.857 2.857 24.571 0 48.571-6.286-64-13.143-106-63.714t-42-117.429v-2.286q38.857 21.714 83.429 23.429-37.714-25.143-60-65.714t-22.286-88q0-50.286 25.143-93.143 69.143 85.143 168.286 136.286t212.286 56.857q-4.571-21.714-4.571-42.286 0-76.571 54-130.571t130.571-54q80 0 134.857 58.286 62.286-12 117.143-44.571-21.143 65.714-81.143 101.714 53.143-5.714 106.286-28.571z"/></symbol><symbol id="icon-facebook" viewBox="0 0 585 1024"><path class="path1" d="M548 6.857v150.857h-89.714q-49.143 0-66.286 20.571t-17.143 61.714v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571q0-106.286 59.429-164.857t158.286-58.571q84 0 130.286 6.857z"/></symbol><symbol id="icon-rss" viewBox="0 0 805 1024"><path class="path1" d="M219.429 768q0 45.714-32 77.714t-77.714 32-77.714-32-32-77.714 32-77.714 77.714-32 77.714 32 32 77.714zM512 838.286q1.143 16-9.714 27.429-10.286 12-26.857 12h-77.143q-14.286 0-24.571-9.429t-11.429-23.714q-12.571-130.857-105.429-223.714t-223.714-105.429q-14.286-1.143-23.714-11.429t-9.429-24.571v-77.143q0-16.571 12-26.857 9.714-9.714 24.571-9.714h2.857q91.429 7.429 174.857 46t148 103.714q65.143 64.571 103.714 148t46 174.857zM804.571 839.429q1.143 15.429-10.286 26.857-10.286 11.429-26.286 11.429h-81.714q-14.857 0-25.429-10t-11.143-24.286q-6.857-122.857-57.714-233.429t-132.286-192-192-132.286-233.429-58.286q-14.286-0.571-24.286-11.143t-10-24.857v-81.714q0-16 11.429-26.286 10.286-10.286 25.143-10.286h1.714q149.714 7.429 286.571 68.571t243.143 168q106.857 106.286 168 243.143t68.571 286.571z"/></symbol><symbol id="icon-google-plus" viewBox="0 0 951 1024"><path class="path1" d="M420 454.857q0 20.571 18.286 40.286t44.286 38.857 51.714 42 44 59.429 18.286 81.143q0 51.429-27.429 98.857-41.143 69.714-120.571 102.571t-170.286 32.857q-75.429 0-140.857-23.714t-98-78.571q-21.143-34.286-21.143-74.857 0-46.286 25.429-85.714t67.714-65.714q74.857-46.857 230.857-57.143-18.286-24-27.143-42.286t-8.857-41.714q0-20.571 12-48.571-26.286 2.286-38.857 2.286-84.571 0-142.571-55.143t-58-139.714q0-46.857 20.571-90.857t56.571-74.857q44-37.714 104.286-56t124.286-18.286h238.857l-78.857 50.286h-74.857q42.286 36 64 76t21.714 91.429q0 41.143-14 74t-33.714 53.143-39.714 37.143-34 35.143-14 37.714zM336.571 400q21.714 0 44.571-9.429t37.714-24.857q30.286-32.571 30.286-90.857 0-33.143-9.714-71.429t-27.714-74-48.286-59.143-66.857-23.429q-24 0-47.143 11.143t-37.429 30q-26.857 33.714-26.857 91.429 0 26.286 5.714 55.714t18 58.857 29.714 52.857 42.857 38.286 55.143 14.857zM337.714 898.857q33.143 0 63.714-7.429t56.571-22.286 41.714-41.714 15.714-62.286q0-14.286-4-28t-8.286-24-15.429-23.714-16.857-20-22-19.714-20.857-16.571-23.714-17.143-20.857-14.857q-9.143-1.143-27.429-1.143-30.286 0-60 4t-61.429 14.286-55.429 26.286-39.143 42.571-15.429 60.286q0 40 20 70.571t52.286 47.429 68 25.143 72.857 8.286zM800.571 398.286h121.714v61.714h-121.714v125.143h-60v-125.143h-121.143v-61.714h121.143v-124h60v124z"/></symbol><symbol id="icon-angle-down" viewBox="0 0 658 1024"><path class="path1" d="M614.286 420.571q0 7.429-5.714 13.143l-266.286 266.286q-5.714 5.714-13.143 5.714t-13.143-5.714l-266.286-266.286q-5.714-5.714-5.714-13.143t5.714-13.143l28.571-28.571q5.714-5.714 13.143-5.714t13.143 5.714l224.571 224.571 224.571-224.571q5.714-5.714 13.143-5.714t13.143 5.714l28.571 28.571q5.714 5.714 5.714 13.143z"/></symbol><symbol id="icon-github-alt" viewBox="0 0 951 1024"><path class="path1" d="M365.714 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM731.429 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM822.857 694.857q0-68.571-39.429-116.571t-106.857-48q-23.429 0-111.429 12-40.571 6.286-89.714 6.286t-89.714-6.286q-86.857-12-111.429-12-67.429 0-106.857 48t-39.429 116.571q0 50.286 18.286 87.714t46.286 58.857 69.714 34.286 80 16.857 85.143 4h96q46.857 0 85.143-4t80-16.857 69.714-34.286 46.286-58.857 18.286-87.714zM950.857 594.286q0 118.286-34.857 189.143-21.714 44-60.286 76t-80.571 49.143-97.143 27.143-98 12.571-95.429 2.571q-44.571 0-81.143-1.714t-84.286-7.143-87.143-17.143-78.286-29.429-69.143-46.286-49.143-65.714q-35.429-70.286-35.429-189.143 0-135.429 77.714-226.286-15.429-46.857-15.429-97.143 0-66.286 29.143-124.571 61.714 0 108.571 22.571t108 70.571q84-20 176.571-20 84.571 0 160 18.286 60-46.857 106.857-69.143t108-22.286q29.143 58.286 29.143 124.571 0 49.714-15.429 96 77.714 91.429 77.714 227.429z"/></symbol></defs></svg>
+
+        <header class="header-post" role="banner">
+    <div class="content">
+        
+            <time itemprop="datePublished" datetime="2018-10-07 04:25:00 +0530" class="date">07 Oct 2018</time>
+        
+        <h1 class="post-title" itemprop="name">Segment Trees</h1>
+        <p itemprop="description" class="subtitle">This article gives an introduction to segment trees and it’s applications in competitive programming</p>
+    </div>
+     <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
+     <div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search...">
+        <svg class="icon-remove-sign"><use xlink:href="#icon-close"></use></svg>
+        <ul class="search-results search-list"></ul>
+    </div>
+</div>
+
+<div id="fade" class="overlay"></div>
+<a id="slide" class="slideButton fade">
+    <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
+</a>
+<aside id="sidebar">
+<nav id="navigation">
+  <h2>MENU</h2>
+  <ul>
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
+    
+    
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+  </ul>
+</nav>
+</aside>
+<a id="search" class="dosearch">
+    <svg class="icon-menu icon-search"><use xlink:href="#icon-search"></use></svg>
+</a>
+
+</header>
+
+        <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
+
+<blockquote>
+  <p>Segment trees are extensivly used in competitive programming for problems that invlove range queries and range updates.</p>
+</blockquote>
+
+<p>For example, given an array A of N elements, answer Q queries (of two types):</p>
+
+<p>1 L R : output the sum of elements between L and R<br />
+2 x I   : A[I] = x</p>
+
+<p>A similar version of the above problem for minimum(i.e. to find the minimum between L and R) is famously known as Range Minimum Query. These problems can be easily solved with segment trees.</p>
+
+<h2 id="naive-approach">Naive Approach</h2>
+
+<p>A naive approach would be to answer queries of type 1 by running in a loop from L to R and finding the required sum and type 2 by performing updates on the array.</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">Q</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kt">int</span> <span class="n">type</span><span class="p">;</span>
+	<span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">type</span><span class="p">;</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">type</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+		<span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">L</span><span class="o">&gt;&gt;</span><span class="n">R</span><span class="p">;</span>		
+		<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">L</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">R</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+			<span class="n">sum</span> <span class="o">+=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+		<span class="p">}</span>
+		<span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">sum</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="p">{</span>
+		<span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">I</span><span class="o">&gt;&gt;</span><span class="n">x</span><span class="p">;</span>
+		<span class="n">A</span><span class="p">[</span><span class="n">I</span><span class="p">]</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Therefore, range queries (queries of type 1) takes O(N) time and point updates (queries of type 2) take O(1) time. This algorihtm works well when there are large number of point updates compared to range queries.</p>
+
+<p>But what if there there are a large number of range queries, the above algorithm can take O(Q*N) time. For such problems, Q and N have an upperbound of 10<sup>5</sup> usually in contests (Hence won’t pass).</p>
+
+<p>Can we improve this algorithm? Yes, we can by using Segment Trees.</p>
+
+<h2 id="structure-of-segment-tree">Structure of Segment Tree</h2>
+
+<p>So, what is a Segment Tree?</p>
+
+<p>We compute and store the sum of the array A[0 – N-1]. Then we divide the array into two halves and compute the sum of each half, i.e, sum of A[0 – N/2] and A[N/2+1 – N-1]. We continue this process again for each half untill an array with single element is reached.</p>
+
+<p><strong>Note on convention</strong>: From now on, A[L - R] will represent the sub-array of A between L and R (both inclusive).</p>
+
+<p>In other words, we call a procedure to find the sum of elements of A[0 – N-1], split the current segment into half and call the procedure for the both the halves. We can view this setup as a binary tree. The root node being sum A[0 – N-1] and its left and right child being left and right halves of A[0 – N-1].</p>
+
+<p>For example, for A = {2,3,1,9,4,3,7,8}</p>
+
+<p><img src="/blog/assets/img/segment-tree/construction.png" alt="Construction of Segment Tree" /></p>
+
+<p>Each node corresponds to sum of given segment. Its called “Segment Tree” because it can be easily visualised as a tree.</p>
+
+<p>Note that the height of the tree is O(logn) since moving from any parent node to chlid node, the size decreases by approximately by half.</p>
+
+<p>Number of nodes in the tree is   1 + 2 + 4 + … + 2<sup>ceil(logn)</sup> = 2<sup>ceil(logn)+1</sup> &lt; 4n = O(n) . Thus we will need O(n) extra space to implement segment trees.</p>
+
+<p>Note that segment trees are full binary tree(every node has two or zero child nodes). (prove it!)</p>
+
+<h2 id="construction">Construction</h2>
+
+<p>A Segment Tree can be efficiently implemented as follows:</p>
+
+<p>We start at the bottom level, the leaf vertices. A vertex is a leaf vertex, if its corresponding segment covers only one value. Therefore we can simply copy the values of the elements a[i]. On the basis of these values, we can compute the sums of the previous level. And on the basis of those, we can compute the sums of the previous, and repeat the procedure until we reach the root vertex.</p>
+
+<p>It is convenient to describe this operation recursively: we start the construction at the root vertex and the construction procedure, if called on a not-leaf vertex, first recursively constructs the two child vertices, and then sums up the computed sums of these children. If it is called on a leaf vertex, it simply uses the value of the array.</p>
+
+<p>The time complexity of construction in O(n) because each edge is returns just one value.</p>
+
+<p><strong>Note</strong>:<br />
+Here, segment trees are stored in an array T(1 - indexed). We call a node i if it’s corresponding sum is stored at T[i]. We reresent the tree in T by</p>
+<ol>
+  <li>Storing sum corresponding to root node at index 1, i.e, at  T[1]. (node i )</li>
+  <li>Store the sum of corresponding to node child nodes of <em>i</em> at <em>2i</em> ans <em>2i+1</em></li>
+  <li>Given a node i, it’s parent is i/2 (integer division).</li>
+</ol>
+
+<p>Following is the implementation for construction of Segment Tree:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//Max size of given array</span>
+<span class="k">const</span> <span class="kt">int</span> <span class="n">N</span> <span class="o">=</span> <span class="mf">1e5</span><span class="p">;</span>
+<span class="c1">//Segment Tree is represnted</span>
+<span class="kt">int</span> <span class="n">a</span><span class="p">[</span><span class="n">N</span><span class="p">],</span> <span class="n">t</span><span class="p">[</span><span class="mi">4</span><span class="o">*</span><span class="n">N</span><span class="p">];</span> 
+<span class="c1">//a is the array</span>
+<span class="c1">//t is the segment tree</span>
+
+<span class="c1">//fuction to build the tree build(1, 0, n-1)</span>
+<span class="c1">//[start, end] start and end both inclusive</span>
+<span class="kt">void</span> <span class="nf">build</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">start</span> <span class="o">==</span> <span class="n">end</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">start</span><span class="p">];</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="p">{</span>
+		<span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">start</span><span class="o">+</span><span class="n">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+		<span class="n">build</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">mid</span><span class="p">);</span>
+		<span class="n">build</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">);</span>
+		<span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">]</span><span class="o">+</span><span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>build(1, 0, n-1) builds the tree.(assuming n is the size of array a)</p>
+
+<p>But how does constructing a segment tree help in finding range queries?</p>
+
+<h2 id="range-queries">Range Queries</h2>
+
+<p>After the constructing the Segment Tree, it is possible to answer sum queries of the form A[L – R] in O(logn) time.</p>
+
+<p>We compute sum queries by using the pre-computed values of segment sums. The idea is any given segment of values L and R, sum A[L – R] can be represented as sum of pre-computed sub segments.</p>
+
+<p>This can be done by traversing the segment tree.</p>
+
+<p>Following the algorithm we use for range query:</p>
+
+<blockquote>
+  <p>Range_Query(node, L, R)</p>
+
+  <p>(Let start and end be the extremes of the segment for which sum is stored in “node”)</p>
+  <ol>
+    <li>If start &gt;= L and end &lt;= R, then sum of “node” contains a part of the required sum. So we return sum stored in node.</li>
+    <li>If start &gt; R or end &lt; L, then it means the required sum A[L – R] is not present in that node or it’s child nodes(if it exists). In this case, return 0.</li>
+    <li>Else a part of the required sum A[L – R] is present in the node. So, we need to how much “node” contributes to A[L – R]. For this, we recursively call Range_Query for left and right child. i.e. return Range_Query(left child of node, L, R) + Range_Query(right child of node, L, R)</li>
+  </ol>
+</blockquote>
+
+<p>We get the required output by calling Range_Query(root, L, R).</p>
+
+<p>The procedure is illustrated in the following image. The array a=[1,3,−2,8,−7] is used, and here we want to compute the sum of A[2 - 4]. The colored vertices will be visited, and we will use the precomputed values of the green vertices. This gives us the result −2+1=−1.</p>
+
+<p><img src="/blog/assets/img/segment-tree/range.png" alt="range query" /></p>
+
+<p>Following is the implementation for range queries:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">query</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">,</span> <span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">l</span> <span class="o">&gt;</span> <span class="n">end</span> <span class="o">||</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="n">start</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">l</span> <span class="o">&lt;=</span> <span class="n">start</span> <span class="o">&amp;&amp;</span> <span class="n">end</span> <span class="o">&lt;=</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">];</span>
+	<span class="p">}</span>
+	<span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">start</span><span class="o">+</span><span class="n">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+	<span class="k">return</span> <span class="n">query</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">mid</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span> <span class="o">+</span> <span class="n">query</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>In conclusion the query works by dividing the input segment into several sub-segments for which all the sums are already precomputed and stored in the tree. And if we stop partitioning whenever the query segment coincides with the vertex segment, then we only need O(logn) such segments, which gives the effectiveness of the Segment Tree.</p>
+
+<h2 id="point-updates">Point Updates:</h2>
+
+<p>This query is easier than the sum query. Each level of a Segment Tree forms a partition of the array. Therefore an element A[i] only contributes to one segment from each level. Thus only O(logn) vertices need to be updated.</p>
+
+<p>It is easy to see, that the update request can be implemented using a recursive function. The function gets passed the current tree vertex, and it recursively calls itself with one of the two child vertices (the one that contains A[i] in its segment), and after that recomputes its sum value, similar how it is done in the build method (that is as the sum of its two children).</p>
+
+<p>Here is a visualization using thearray a=[1,3,−2,8,−7]. Here we perform the update a[2]=3. The green vertices are the vertices that we visit and update.</p>
+
+<p><img src="/blog/assets/img/segment-tree/point.png" alt="point update" /></p>
+
+<p>Following is the implementation for point updates:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">update</span><span class="p">(</span><span class="kt">int</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int</span> <span class="n">start</span><span class="p">,</span> <span class="kt">int</span> <span class="n">end</span><span class="p">,</span> <span class="kt">int</span> <span class="n">idx</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">start</span> <span class="o">==</span> <span class="n">end</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">a</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">val</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">else</span> <span class="p">{</span>
+		<span class="kt">int</span> <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">start</span><span class="o">+</span><span class="n">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+		<span class="k">if</span><span class="p">(</span><span class="n">idx</span><span class="o">&gt;=</span><span class="n">start</span> <span class="o">&amp;&amp;</span> <span class="n">idx</span><span class="o">&lt;=</span><span class="n">mid</span><span class="p">)</span> <span class="p">{</span>
+			<span class="n">update</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">mid</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span> <span class="p">{</span>
+			<span class="n">update</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="n">t</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="p">]</span><span class="o">+</span><span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="o">*</span><span class="n">node</span><span class="o">+</span><span class="mi">1</span><span class="p">];</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="note-on-implementation">Note on implementation:</h2>
+
+<p>You can use the following functions as helper fuctions(for ease of use):</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">build</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">build</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">//change idx value to val, i.e, a[idx] = val</span>
+<span class="kt">void</span> <span class="nf">update</span><span class="p">(</span><span class="kt">int</span> <span class="n">idx</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+	<span class="n">update</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">idx</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="c1">//[l,r] both inclusive</span>
+<span class="kt">int</span> <span class="nf">query</span><span class="p">(</span><span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="n">query</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Bonus</strong>: Try to implement range minimum and maximum query with point updates.</p>
+
+<h2 id="more-examples">More examples:</h2>
+
+<blockquote>
+  <ol>
+    <li>Given an array of N numbers and Q queries, each query consists of L and R. We need to write a program that prints the number of occurrence of the smallest element in the range L-R.</li>
+  </ol>
+</blockquote>
+
+<p>This is similar to range query except that it asks for number of minimum elements in the given range.</p>
+
+<p>Here, at each node of the segment tree, minimum and count of minimum element is stored. Try implementing the solution to this problem.</p>
+
+<p>The solution is similar to sum queries problem but with different conditions for merging solutions.  By merging, I mean the step of updating the parent node value(or gathering query result) from its child nodes value(which occurs in construction and range queries).</p>
+
+<p><strong>Hint</strong>: 
+Use struct for each node to store minimum and count</p>
+
+<ol>
+  <li>
+    <p>min(left_subtree) &lt; min(right_subtree): 
+node.min=min(left_subtree), node.count = left_subtree.count</p>
+  </li>
+  <li>
+    <p>min(left_subtree) &gt; min(right_subtree): 
+node.min=min(right_subtree), node.count=right_subtree.count</p>
+  </li>
+  <li>
+    <p>min(left_subtree) = min(right_subtree): 
+node.min=min(left_subtree) or min(right_subtree), node.count=left_subtree.count + right_subtree.count</p>
+  </li>
+</ol>
+
+<p>Implementation: <a href="https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/">https://www.geeksforgeeks.org/count-number-of-smallest-elements-in-given-range/</a></p>
+
+<blockquote>
+  <ol>
+    <li>Given N numbers and Q queries, each query consists of L and R. Task is to write a program which prints the count of numbers which divides all numbers in the given range L-R.</li>
+  </ol>
+</blockquote>
+
+<p>This is a slightly harder problem. The point to note for such problems is that everything boils down to the merging step. If we are able to define contents of each node in the segment tree and are able to get a way to merge two child nodes to return required answer(or update parent), then we are done.</p>
+
+<p>Here, note that the number that divides all elements in a segment should be the minimum. If such a number exists, then it should be the GCD of all numbers in the segment.</p>
+
+<p>So the count of the number of minimums in range L-R, given that minimum is equal to the gcd of that range will be our answer to every query. The problem boils down to finding the GCD, MINIMUM and count of MINIMUM for every range using Segment trees. On every node of the tree, three values are stored. 
+On querying for a given range, if the gcd and minimum of the given range are equal, countMINIMUM is returned as the answer. If they are unequal, 0 is returned as the answer.</p>
+
+<h2 id="implemenation">Implemenation:</h2>
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/">https://www.geeksforgeeks.org/count-elements-which-divide-all-numbers-in-range-l-r/</a></li>
+</ul>
+
+<p><strong>Bonus</strong>: Check out two dimensional segment trees if you are interested: <a href="https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/">https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/</a></p>
+
+<h2 id="epilogue">Epilogue</h2>
+
+<p>This article is supposed to be an introduction to Segment Trees. If you feel comfortable with the contents of the article, then do check out lazy propagation on segment trees. (this allows you to perform range queries and range updates on the segment tree)</p>
+
+<h2 id="references">References:</h2>
+
+<ul>
+  <li>
+    <p><a href="https://cp-algorithms.com/data_structures/segment_tree.html">https://cp-algorithms.com/data_structures/segment_tree.html</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/">https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/</a></p>
+  </li>
+  <li>
+    <p><a href="https://visualgo.net/en/segmenttree">https://visualgo.net/en/segmenttree</a></p>
+  </li>
+</ul>
+
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Segment Trees</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
+
+            <section class="author" itemprop="author">
+    <div class="details" itemscope itemtype="http://schema.org/Person">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/shanthanu.jpeg" alt="Shantanu S Rai">
+        <p class="def">Author</p>
+        <h3 class="name">
+            <a itemprop="name" href="/">Shantanu S Rai</a>
+        </h3>
+        <p class="desc">Competitive Coding Enthusiast</p>
+        <a itemprop="email" class="email" href="mailto:shanthanu.s.rai9@gmail.com">shanthanu.s.rai9@gmail.com</a>
+    </div>
+</section>
+
+            <section class="comments">
+
+	<div id="fb-root"></div>
+	
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+</section>
+            
+            <section class="share">
+    <h3>Share</h3>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/segment-tree/%20via%20&#64;IEEE_NITK&hashtags=Competitive Programming,Segment Trees,"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//segment-tree/"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+    </a>
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//segment-tree/"
+    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+    </a>
+</section>
+
+            <footer>
+    <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
+</footer>
+<script src="/blog/assets/js/main.js"></script>
+            
+<script>
+	$(document).ready(function(){
+		if($("pre code").length){
+			
+			$.getScript('../assets/js/highlight.pack.js', function(){
+    			// load the highlighter script only if we have code snippets.
+    			$('pre code').each(function(i, block) {
+    				hljs.highlightBlock(block);
+  				});	
+    		});
+		}
+	});
+</script>
+        </section>
+
+    </body>
+</html>
+            

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A blog about our findings and musings</title>
+    <description>A blog documenting random findings and musings of our members</description>
+    <link>http://ieee.nitk.ac.in/blog/</link>
+    <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 10 Oct 2019 06:08:10 +0530</pubDate>
+    <lastBuildDate>Thu, 10 Oct 2019 06:08:10 +0530</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>An Introduction To WebSockets</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
+        <pubDate>Fri, 04 Oct 2019 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>Web</category>
+        
+        <category>Networks</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Research, an informal testimony</title>
+        <description>&lt;h1 id=&quot;research-an-informal-testimony&quot;&gt;Research, an informal testimony&lt;/h1&gt; &lt;p&gt;The feeling of working with the author of textbooks that you first read to learn a subject is something beyond the ability of adjectives to explain. However, it is also the time when you begin to realize what you know is barely a fraction of what exists and that there’s always much more to learn. I am extremely privileged to have spent the summer at Stanford Microfluidics Lab as a UGVRI. Now before getting into more details I’d like you to know a little history and the following content is aimed at leaving you takeaway...</description>
+        <pubDate>Thu, 22 Aug 2019 17:00:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</guid>
+        
+        <category>Requirements</category>
+        
+        <category>Research</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Long Short Term Memory Neural Networks</title>
+        <description>&lt;p&gt;Long Short Term Memory Neural Networks or LSTM Neural Network is a commonly used Recurrent Neural Network model that is most commonly used in tasks like speech recognition, music generation etc. Lets take a deep dive into what Recurrent Neural Networks are and why we need and use LSTMs.&lt;/p&gt; &lt;h1 id=&quot;long-short-term-memory-neural-networks&quot;&gt;Long Short Term Memory Neural Networks&lt;/h1&gt; &lt;h3 id=&quot;recurrent-neural-networks-and-why-lstms&quot;&gt;Recurrent Neural Networks and Why LSTMs?&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; are those Neural Networks that we use to process information that require us to keep informed of previous information. In simpler words, when we want a model to perform a certain category of tasks...</description>
+        <pubDate>Thu, 22 Aug 2019 16:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</guid>
+        
+        <category>Recurrent Neural Networks</category>
+        
+        <category>Long Short Term Memory Neural Networks</category>
+        
+        <category>Machine Learning</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Radar Imaging</title>
+        <description>&lt;h1 id=&quot;radar-imaging&quot;&gt;&lt;strong&gt;RADAR IMAGING&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The World Wars were undoubtedly the worst things to happen to mankind but, they also birthed some ground breaking technology that is till date being used, one such example is the RADAR, acronym for &lt;strong&gt;Radio Detection and Ranging&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;RADARs are a combination of EM transmitters and receivers that can be used to detect the presence of objects in a particular &lt;strong&gt;range&lt;/strong&gt; specified for that RADAR. The principle involved is the reflection of the EM waves off the target and detection by the receiver of the RADAR.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/Radar-Imaging/1.gif&quot; alt=&quot;firstimage&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;The diagram represents a high level representation...</description>
+        <pubDate>Thu, 22 Aug 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Radar-Imaging/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Radar-Imaging/</guid>
+        
+        <category>RADARSs</category>
+        
+        <category>Doppler Processing</category>
+        
+        <category>Image</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>ELF Files in Linux</title>
+        <description>&lt;p&gt;Have you ever tried to print the a.out file generated when you compile your C program? It prints gibberish! Ever wondered how the computer produces a valid, sensible output from this? Read ahead to find out.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;ELF stands for Executable and Linkable Format. ELF files are usually the outputs of compilers. They exist in binary format (hence, the gibberish when printed). This format helps the operating system interpret the underlying machine instructions correctly. ELF is not only used for binaries and executables but also object code, shared libraries and core dumps. Any program is first translated by a...</description>
+        <pubDate>Sat, 09 Mar 2019 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</guid>
+        
+        <category>ELF</category>
+        
+        <category>Linux</category>
+        
+        <category>Binary</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Solving Switch Riddle using RL</title>
+        <description>&lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once...</description>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</guid>
+        
+        <category>Switch Riddle</category>
+        
+        <category>Reinforcement Learning</category>
+        
+        <category>DIAL</category>
+        
+        <category>RNN</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>How machine translation works</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“How does Google translate work? How do Alexa and Siri know what and when to respond to your queries?”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-does-machine-translation-mean&quot;&gt;What does Machine Translation mean?&lt;/h1&gt; &lt;p&gt;Machine Translation is essentially software that automatically renders text from one language into another. Formally speaking it falls under computational linguistics and language engineering. Machine translation needn’t just be conversion across human readable languages but can also be used for tasks like trigger word detection, converting human readable dates like ‘Tuesday, the 29th of Jan,2019’ to formats like 29-01-2019.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-translation/machine-translation-diagram2.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;various-methods-of-machine-translation&quot;&gt;Various Methods of Machine Translation.&lt;/h2&gt; &lt;p&gt;In the late 80’s,...</description>
+        <pubDate>Sat, 02 Feb 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/machine-translation/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-translation/</guid>
+        
+        <category>Natural Language Processing</category>
+        
+        <category>Supervised learning</category>
+        
+        <category>Machine translation</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Learning Magic</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Did you ever wonder how ML algorithms work?” “How is the weather forecast done?” “How does the self-driving car mimic the way humans drive?” “Let’s try to find answers to some of those questions…”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-is-this-machine-learning-&quot;&gt;WHAT IS THIS MACHINE LEARNING ?&lt;/h1&gt; &lt;p&gt;Assume you have some data, it could be anything like a set of tweets or Images of handwritten numbers or Emails marked as spam. But you don’t know what to do with it!!!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-learning-magic/1.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;So you look for an algorithm which can use this data and give you something you are interested in!&lt;/p&gt; &lt;p&gt;&lt;img...</description>
+        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/machine-learning-magic/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-learning-magic/</guid>
+        
+        <category>Machine learning</category>
+        
+        <category>Supervised learning</category>
+        
+        <category>tweets</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>INNOVATIONS IN THE DRONE INDUSTRY</title>
+        <description>&lt;blockquote&gt; &lt;p&gt;“Do you think drones are just four rotor-legged flying machines?”&lt;br /&gt; “Have you ever thought how we can modify these machines to get maximum out of it?”&lt;br /&gt; Multiple innovations are happening currently in this very industry and here are some of them!&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;going-bladeless--the-future-of-drones-&quot;&gt;GOING BLADELESS : THE FUTURE OF DRONES ?&lt;/h2&gt; &lt;p&gt;As much crazy as it might sound , bladeless drone are becoming a reality . Bladeless ? You ask me , well , it might be a bit of misnomer . Bladeless isn’t actually bladeless in the fact the it still relies on a bladed propeller...</description>
+        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</guid>
+        
+        <category>Drones</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Social Engineering</title>
+        <description>&lt;p&gt;Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a &lt;strong&gt;Social Engineer!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/social-engineering/0.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt; &lt;p&gt;Well now that I have said that you are a social engineer let’s see what that really means. It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also...</description>
+        <pubDate>Fri, 18 Jan 2019 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/social-engineering/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/social-engineering/</guid>
+        
+        <category>Social engineering</category>
+        
+        <category>Security</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+  </channel>
+</rss>
