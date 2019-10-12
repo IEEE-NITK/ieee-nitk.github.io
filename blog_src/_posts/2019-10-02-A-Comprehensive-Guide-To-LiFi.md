@@ -9,7 +9,7 @@ tags:
 - Li-Fi
 - Wireless Networks
 categories:
-- Compsoc
+- CompSoc
 github_username: 'krithikvaidya'
 ---
 
