@@ -19,7 +19,7 @@ Forward Sweeping is the concept of having the wings bent in the forward directio
 Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it.
 To understand and evaluate the forward sweep we need to first understand why wings are swept back.
 
-X-29:
+### X-29:
 
   
 ![X-29](/blog_src/assets/img/forward-swept-wings/x29.jpeg)
@@ -33,12 +33,12 @@ A wing typically works on bernoulli's principle where the air above the aerofoil
 One of the problems with rear sweep is the roll control by ailerons during high speed flight, as the air flows from the root to the wing tips stalling begins from the tips till the root and ailerons are located near the wing wing tips and if that part of the wing stalls then we can lose control of the aircraft at very nascent stages of velocity.They also generate a lot of drag due to generation of vortices on the wing tips where the low pressure and high pressure air meet. These types of problems lead to the development of forward sweep.
 
 
-Air FLow Comparison:
+### Air Flow Comparison:
   
 ![Air FLow Comparison](/blog_src/assets/img/forward-swept-wings/AirFlowComparison.jpeg)
 
 
-Pitching down of the aircraft due to flow separation:  
+### Pitching down of the aircraft due to flow separation:  
 
 ![Pitching down of the aircraft due to flow separation](/blog_src/assets/img/forward-swept-wings/PitchingDown.jpeg)
 
