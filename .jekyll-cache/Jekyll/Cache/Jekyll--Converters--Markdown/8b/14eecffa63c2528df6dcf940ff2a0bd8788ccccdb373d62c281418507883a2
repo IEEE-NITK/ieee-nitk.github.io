@@ -1,0 +1,45 @@
+I"�<h2 id="charge-your-phone-whenever-you-walk-into-the-room">Charge your phone whenever you walk into the room</h2>
+
+<p>One quick and easy way to induce anxiety is to misplace your phone charger. You’re stressed out just thinking about it right now, well what if instead of dealing with your wiry bundles and ports and mats and plugs and cords, you could just….walk into a room and automatically your mobile phones, laptops any other appliances get charged. However, mobile devices are not truly mobile if they require connection to power cord.</p>
+
+<p>Wi-charge technology provides us finally a way to get rid of the power cord, efficiently and safely. The device itself looks something like a smoke detector on the ceiling. The product is FDA approved. Anything transmitted over air has to comply with safety and commercial regulations. As long as your phone, tablet, laptop, wireless speakers, etc. are in view of the Wi-charge, you will get the juice. It is the technology called “line-of-sight”. Power is delivered over distances using infrared beams of light. The system consists of two units:</p>
+
+<blockquote>
+  <p><strong>The transmitter unit</strong> – Connected to power source (standard AC, DC or USB), delivers power to receivers anywhere in its vicinity. The transmitter emits focused, safe infrared beams that carry power to receivers.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>The receiver unit</strong> – Captures the light from the transmitter and converts it to electrical power using a photo voltaic cell, just like the way that solar panels converts sunlight into electricity.</p>
+</blockquote>
+
+<p><img src="/blog/assets/img/charge-your-phone/image1.jpeg" alt="image1" /></p>
+
+<h3 id="transmitter-and-recievers">Transmitter and recievers</h3>
+
+<p>The transmitter is a very smart device. Within its coverage area, it automatically identifies chargeable devices and discovers the power requirements. It delivers power to receivers based on their priority, power requirements, battery level and other parameters. Multiple clients can be charged simultaneously using an intelligent power- management algorithm embedded in the transmitter. Automatically, the transmitter directs a safe infrared beam to each receiver, establishing a virtual photonic power cord. No light is spread outside the beam; 100% of the power delivered from the transmitter to receiver.</p>
+
+<p>Depending on size and power requirements of the charging device, the tiny thumb size receiver is automatically illuminated by the invisible infrared beam. The receiver converts power from the beam to an electric charge which is used to power the device or recharge its battery. The tiny receiver may be embedded in the mobile device or plugged externally into an existing charging port.</p>
+
+<p><img src="/blog/assets/img/charge-your-phone/image2.jpeg" alt="image2" /></p>
+
+<h3 id="power-delivery">Power delivery</h3>
+
+<p>Efficient power delivery via light necessitates a great deal of intelligence in the transmitter. The power of client identification and power delivery is performed automatically without any user intervention. For example, the mobile phone user simply enters the room and transmitter will automatically find it and begin charging it. The receiver is detectable by the transmitter even if device’s battery is drained, and it will stop charging the device once the battery is full.</p>
+
+<h3 id="line-of-sight"><strong>Line of sight</strong></h3>
+
+<p>Power flows in a straight, narrow line. If, for any reason, the line of sight between the transmitter and receiver is blocked, Transmission stops immediately. This ensures that power emission levels are always compliant with safety standards and international regulations, Once the line of sight is restored, charging restarts automatically. To ensure steady power delivery, each Wi-charge receiver is equipped with an energy storage buffer (capacitor or battery).</p>
+
+<p>This can be used in commercial spaces, which considering the panic and stress of a dying phone while on-the-go, might be more helpful anyway.</p>
+
+<p>For further more details about Wi-Charge and its working:-</p>
+
+<ol>
+  <li>
+    <p><a href="https://spectrum.ieee.org/tech-talk/consumer-electronics/portable-devices/wicharge-promises-phone-charging-by-infrared-laser">IEEE Spectrum - Phone Charging by Infrared Lasers</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.wi-charge.com/technology/">WI Charge - Technology</a></p>
+  </li>
+</ol>
+:ET
