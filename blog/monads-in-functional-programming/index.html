@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="">
+        <meta name="description" content="A brief Intro to Monads in FP">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="How Computers learn to play games!">
-        <meta name="twitter:description" content="">
+        <meta name="twitter:title" content="What are Monads?">
+        <meta name="twitter:description" content="A brief Intro to Monads in FP">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/" />
-        <meta property="og:title" content="How Computers learn to play games!">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/monads-in-functional-programming/" />
+        <meta property="og:title" content="What are Monads?">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="">
+        <meta property="og:description" content="A brief Intro to Monads in FP">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="How Computers learn to play games!"/>
-        <meta itemprop="description" content="">
+        <meta itemprop="name" content="What are Monads?"/>
+        <meta itemprop="description" content="A brief Intro to Monads in FP">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,29 +86,15 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>How Computers learn to play games!</title>
+        <title>What are Monads?</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/how-computers-learn-to-play-games/">
+        <link rel="canonical" href="/blog/monads-in-functional-programming/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
-
-        
-            <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script> 
 
         
 
@@ -136,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2018-12-22 00:00:00 +0530" class="date">22 Dec 2018</time>
+            <time itemprop="datePublished" datetime="2019-10-04 04:30:00 +0530" class="date">04 Oct 2019</time>
         
-        <h1 class="post-title" itemprop="name">How Computers learn to play games!</h1>
-        <p itemprop="description" class="subtitle"></p>
+        <h1 class="post-title" itemprop="name">What are Monads?</h1>
+        <p itemprop="description" class="subtitle">A brief Intro to Monads in FP</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -190,88 +176,167 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Have you ever wondered how computers learn to play games like Chess or Go? Or how do they replace human players in Ludo or Card games?
-How Google’s Alpha-Go defeated the <strong>World Champion</strong> of Go?
-Let us dive in the field of Computer Games and find out how Computers learn to play Games!</p>
+                    <h2 id="functional-programming">Functional Programming</h2>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/chess.jpg" alt="Chess" title="Chess" /></p>
+<p>Functional Programming (FP) is a style of programming that performs computations mainly by evaluating mathematical functions. In FP, you describe what you want to calculate as opposed to the Imperative Programming style, where you also explain how you want it calculated.</p>
 
-<p>There are various algorithms that are used to make a computer learn to play games. I will be discussing some of them to give you some intuition on how these algorithms work.</p>
+<p>Some languages that support Functional programming are Haskell, Erlang, Lisp, Python, C++ (since C++11), C#. Of these, Haskell is a purely functional language, while others have some imperative features, as well.</p>
 
-<h2 id="naive-tree-search">Naive Tree Search</h2>
+<h2 id="monads">Monads</h2>
 
-<p>Let’s start with a simple and naive approach by which the computer can take decisions. It is by looking at all possible states and choosing the best action to take. That is, make a tree with all possible states and next states and go to the leaves to find out if a move will lead to winning state or not and select an action accordingly.</p>
+<p>To understand the need for monads, we need to remember that variables in FP are immutable and that no function in FP has side-effects. (side effects are anything done by the function other than calculating and returning the output).</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/decision_tree.png" alt="Game Tree" title="Game Tree" /></p>
+<p>Since in FP, everything is the output of a function, we will have to compose two functions at some point, to get the complete task done. This is where monads prove to be very useful. 
+Before going to the definition of a monad, let’s take a look at an example to understand monads better. (The code is written in JavaScript)</p>
 
-<p>But, this technique cannot be used for games where there is a huge number of states, that it is practically impossible for a computer to examine all the states before taking a decision. For example, there are more than <strong>5000 states</strong> in the game of Tic-Tac-Toe, which is a <strong>3 X 3</strong> board game. Whereas Chess is an <strong>8 X 8</strong> board game and Go can have a <strong>19 X 19</strong> board. Therefore these games with billions of states cannot be solved by any such brute force approach where examining each state is required.</p>
+<p>Suppose you have two functions <code class="highlighter-rouge">CapitalizeFirstName(name)</code> and <code class="highlighter-rouge">CapitalizeLastName(name)</code>. The functions take in a name in the format <code class="highlighter-rouge">"firstname lastname"</code> and return <code class="highlighter-rouge">"Firstname lastname"</code> and <code class="highlighter-rouge">"firstname Lastname"</code> respectively (No other inputs are provided). Your task is to capitalize both the first and last names in a name.</p>
 
-<h2 id="monte-carlo-tree-search">Monte Carlo Tree Search</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">CapitalizeFirstName</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//do Some stuff</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">FirstNameCapitalized</span><span class="p">);</span>
+<span class="p">}</span>
 
-<p>Monte-Carlo Tree Search can be only used for games where we have perfect information about the game that is we know about all the actions that were previously taken and can be taken in future. It is applicable to games like Go, Chess or Tic-Tac-Toe. So, what the computer does in Monte Carlo Tree Search is it repeats these 4 steps</p>
+<span class="kd">var</span> <span class="nx">CapitalizeLastName</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//do Some stuff</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">LastNameCapitalized</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Monte-Carlo-Tree-Search.png" alt="Monte-Carlo Tree search" title="Monte-Carlo Tree search" /></p>
+<p>You decide to use composition and define a function for that.</p>
 
-<h4 id="1select--">1)Select -</h4>
-<p>In this step the computer starts with a root node(state) and selects the next node based on the current policy. A policy is a function that dictates what actions to take given a state.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">composeFunctions</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">f</span><span class="p">,</span> <span class="nx">g</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">f</span><span class="p">(</span><span class="nx">g</span><span class="p">(</span><span class="nx">x</span><span class="p">));</span>
+    <span class="p">};</span>
+<span class="p">};</span>
+</code></pre></div></div>
 
-<h4 id="2expand--">2)Expand -</h4>
-<p>When the policy can no longer choose an action with confidence to find the successor node, it expands the game tree by appending all possible states from that node or a few let’s say 10 or 100 states chosen by randomly trying out certain number of actions, this is done when the number of next possible states is huge.</p>
+<p>But then you decide you also want the character encoding of the string, just in case it has to be used for some other processing purposes. So you mention the encoding in another string and return it along with the nameString. Now each function is changed to:</p>
 
-<h4 id="3simulate--">3)Simulate -</h4>
-<p>Then from the appended nodes, it simulates a random game to find out how good it is to go to that state.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">CapitalizeFirstName</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//do Some stuff</span>
+    <span class="kd">var</span> <span class="nx">encoding</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">utf-8</span><span class="dl">"</span><span class="p">;</span> <span class="c1">// example</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">FirstNameCapitalized</span><span class="p">,</span> <span class="nx">encoding</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kd">var</span> <span class="nx">CapitalizeLastName</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//do Some stuff</span>
+    <span class="kd">var</span> <span class="nx">encoding</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">utf-8</span><span class="dl">"</span><span class="p">;</span> <span class="c1">// example</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">LastNameCapitalized</span><span class="p">,</span> <span class="nx">encoding</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<h4 id="4backpropagation--">4)Backpropagation -</h4>
-<p>Then it traverses upwards back to the root and updates the score for all visited nodes.</p>
+<p>Now if we try combining the functions using</p>
 
-<p>These four steps are repeated again and again until the computer has learned enough to actually play the game.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">composeFunctions</span><span class="p">(</span><span class="nx">CapitalizeFirstName</span><span class="p">,</span> <span class="nx">CapitalizeLastName</span><span class="p">)</span> <span class="p">(</span><span class="dl">"</span><span class="s2">test name</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
 
-<h2 id="learning-to-play-games-using-reinforcement-learning">Learning to play games using Reinforcement Learning</h2>
+<p>we get an error. This is because the return type of <code class="highlighter-rouge">CapitalizeLastName</code> is not the same as the type of argument <code class="highlighter-rouge">CapitalizeFirstName</code> needs. One way around this problem would be to modify <code class="highlighter-rouge">composeFunctions</code> to supply each function with just the necessary number and type of arguments it needs.</p>
 
-<p>There are various algorithms that come under Reinforcement Learning Algorithms. Each suitable for a different purpose. The basic idea behind Reinforcement Learning is, as the name suggests, making the computer play the game again and again and learn from its own experience.
-In order to give you intuition on how Reinforcement Learning can be used for games with a huge state space let me define two new terms.</p>
+<p>But then we would be modifying the composing function. Instead if we choose to modify the <code class="highlighter-rouge">CapitalizeFirstName</code> function itself somehow to take in two strings and give two strings as output, we can still use <code class="highlighter-rouge">composeFunctions</code> as it is.</p>
 
-<p><strong>1. State Value Function</strong> - Given a state this function tells how good it is to be in that state.</p>
+<p>This would maintain the abstraction in <code class="highlighter-rouge">composeFunctions</code> which can be used to compose other kinds of functions as well.</p>
 
-<p><strong>2. Action Value Function</strong> - Given an action and a state, this function tells how good it is to take that action from the given state.</p>
+<p>Now, to change the signature of the name functions, let’s define a <code class="highlighter-rouge">bind</code> function.</p>
 
-<p>The basic idea is to learn the value functions and use it to choose the best action.
-Consider the following diagram-</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">bind</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">unModifiedFunction</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">tuple</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">inputName</span> <span class="o">=</span> <span class="nx">tuple</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+            <span class="nx">prevEncoding</span> <span class="o">=</span> <span class="nx">tuple</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+            <span class="nx">outputTuple</span> <span class="o">=</span> <span class="nx">unModifiedFunction</span><span class="p">(</span><span class="nx">inputName</span><span class="p">),</span>
+            <span class="nx">outputName</span> <span class="o">=</span> <span class="nx">outputTuple</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+            <span class="nx">outputEncoding</span> <span class="o">=</span> <span class="nx">outputTuple</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+        <span class="k">return</span> <span class="p">(</span><span class="nx">outputName</span><span class="p">,</span> <span class="nx">prevEncoding</span> <span class="o">+</span> <span class="nx">outputEncoding</span><span class="p">);</span>
+    <span class="p">};</span>
+<span class="p">};</span>
+</code></pre></div></div>
+<p>Using this function now, we can compose our original functions easily.</p>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/q-learning.jpg" alt="Backup diagram for value function" title="Backup diagram for value function" /></p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">composedFunction</span> <span class="o">=</span> <span class="nx">composeFunctions</span><span class="p">(</span><span class="nx">bind</span><span class="p">(</span><span class="nx">CapitalizeFirstName</span><span class="p">),</span> <span class="nx">bind</span><span class="p">(</span><span class="nx">CapitalizeLastName</span><span class="p">));</span>
+</code></pre></div></div>
 
-<p>What the computer does is from a given state it chooses the best action based on the action value function and proceeds, and depending upon what reward it gets, the computer modifies the action value function accordingly (This Reinforcement Learning Technique is called Q-learning, have a look at the following<a href="https://marl-ieee-nitk.github.io/jekyll/update/2018/12/11/Q-learning.html"> blog post</a> to get a better understanding of how this algorithm works.).</p>
+<p>This <code class="highlighter-rouge">composedFunction</code> does exactly what we wanted, except for one hitch. It needs two inputs, a name, and an encoding. But we are given only one input, name. To handle this, let’s define another function <code class="highlighter-rouge">unit</code>, which takes the input in the available format and returns it in a <code class="highlighter-rouge">bind</code>-friendly format.</p>
 
-<h4 id="but-how-is-it-dealing-with-the-problem-of-a-huge-number-of-states">But how is it dealing with the problem of a huge number of states?</h4>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">unit</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span><span class="p">);</span>
+<span class="p">};</span>
+</code></pre></div></div>
 
-<p>The answer is the computer is not really going through all the possible states but still learning an approximate way to figure out the best actions to take. There are many states in the state-space which occur very rarely or is too poor to begin with, that there is no point going all the way down from that state and calculating everything when there are very fewer chances of encountering that state or there is no way it can get you a better reward.
-But as our computer plays multiple games it will surely go through most of the frequently occurring and promising states and will know how to behave in those situations.</p>
+<p>Now you can happily call:</p>
 
-<h2 id="alpha-go">Alpha-Go</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">composedFunction</span><span class="p">(</span><span class="nx">unit</span><span class="p">(</span><span class="dl">"</span><span class="s2">test name</span><span class="dl">"</span><span class="p">));</span>
+</code></pre></div></div>
 
-<p>Recently Google’s Alpha-Go zero defeated Go’s World Champion Lee Sedol. Alpha Go Zero learned to play Go from scratch by playing multiple games against itself. In Alpha-Go deep learning and Monte Carlo Tree Search were combined to produce a powerful reinforcement learning algorithm.</p>
+<h4 id="and-that-completes-the-monad">And that completes the monad!</h4>
 
-<p><img src="/blog/assets/img/How Computers LearnToPlayGames/Alpha-Go.jpg" alt="Lee Sedol playing with Alpha-Go" title="Lee Sedol playing with Alpha-Go" /></p>
+<h2 id="definition">Definition</h2>
 
-<p>If you are wondering why it is so much of a big deal because AI has already defeated <strong>Chess Grandmaster Garry Kasparov</strong> in the game of chess then why not <strong>Lee Sedol in Go!</strong> 
-There are various differences between Chess and Go, and that is why it took another 20 years after Garry Kasparov’s defeat to build an AI which can master Go. One of the major differences is the number of choices available at each step, which is about 35 in Chess compared to 250 in Go.
-Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess. Therefore the total number of possible games of Go has been estimated at <strong>10^761</strong>, compared to <strong>10^120</strong> for chess which is a huge difference. That’s why it has been difficult for computers to master Go.</p>
+<p>Now let’s take a look at the formal definition of a monad, to get a more general picture.</p>
 
-<h2 id="conclusion">Conclusion</h2>
+<blockquote>
+  <p>A monad is a triple (<code class="highlighter-rouge">M</code>, <code class="highlighter-rouge">unit</code>, <code class="highlighter-rouge">bind</code>) consisting of:</p>
 
-<p>I hope you enjoyed this dive into the World of computer games and got to know some of the technical details too. You can go through the following links to know more about these topics.</p>
+  <p><code class="highlighter-rouge">M</code> - a type constructor</p>
+
+  <p><code class="highlighter-rouge">unit</code> - a function that performs  <code class="highlighter-rouge">x → M x</code></p>
+
+  <p><code class="highlighter-rouge">bind</code> - a function that performs  <code class="highlighter-rouge">M x → (x → M y) → M y</code></p>
+
+  <p>where <code class="highlighter-rouge">x</code> and <code class="highlighter-rouge">y</code> are types</p>
+</blockquote>
 
 <ul>
-  <li><a href="https://www.youtube.com/watch?v=onBYsen2_eA">Video lectures on Monte Carlo Tree Search</a></li>
-  <li><a href="https://www.tastehit.com/blog/google-deepmind-alphago-how-it-works/">More about Alpha-Go</a></li>
+  <li>
+    <p>A type is the type of a variable or element. For example, <code class="highlighter-rouge">Int</code>, <code class="highlighter-rouge">Char</code> and <code class="highlighter-rouge">String</code> are all types.</p>
+  </li>
+  <li>
+    <p>Type constructors do pretty much what you expect them to do from their names. They take in a type and construct a new type out of it.</p>
+  </li>
+  <li>
+    <p>If a monad <code class="highlighter-rouge">M a</code> is thought of, as a container, the <code class="highlighter-rouge">unit</code> operation takes a value and wraps it in a container.</p>
+  </li>
+  <li>
+    <p>The <code class="highlighter-rouge">bind</code> operation takes a function that produces a container, applies it to all values in a container, and then unwraps the nested containers.</p>
+  </li>
+</ul>
+
+<p>Let’s go back to the monad we defined and see if it fits the definition.</p>
+
+<ul>
+  <li>
+    <p>Type constructor <code class="highlighter-rouge">M</code> : We have a new type. The tuple <code class="highlighter-rouge">(string, string)</code>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">unit</code> function : We have the <code class="highlighter-rouge">unit</code> function which takes in a <code class="highlighter-rouge">string</code> and returns a tuple of type <code class="highlighter-rouge">(string, string)</code>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">bind</code> function : We have a <code class="highlighter-rouge">bind</code> function that takes a function that produces a tuple, applies it to all values in a tuple, and then unwraps the nested tuple.</p>
+  </li>
+</ul>
+
+<p>As we saw, a monad takes a type (<code class="highlighter-rouge">string</code> in our example) and wraps it into another type (<code class="highlighter-rouge">(string, string)</code> in our example).</p>
+
+<p>So, in simple words, a monad can be used to wrap a simple type into a more useful type to fit our needs.</p>
+
+<h4 id="some-links-related-to-fp-for-those-who-want-to-read-more">Some links related to FP for those who want to read more:</h4>
+
+<ul>
+  <li>
+    <p><a href="http://learnyouahaskell.com">Learn You a Haskell</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.defmacro.org/2006/06/19/fp.html">Functional Programming For The Rest of Us</a></p>
+  </li>
+  <li>
+    <p><a href="https://hackernoon.com/functional-programming-what-language-should-you-be-talking-313dd8bc379b">Functional Programming: What Language Should You Be Talking?</a></p>
+  </li>
 </ul>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
-        <span id="category">Compsoc</span>
-        <span id="title">How Computers learn to play games!</span>
+        <span id="category">CompSoc</span>
+        <span id="title">What are Monads?</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -280,13 +345,13 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/Madhuparna.jpeg" alt="Madhuparna Bhowmik">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/blog-author.jpg" alt="Adharsh Kamath">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Madhuparna Bhowmik</a>
+            <a itemprop="name" href="/">Adharsh Kamath</a>
         </h3>
         <p class="desc"></p>
-        <a itemprop="email" class="email" href="mailto:madhuparnabhowmik04@gmail.com">madhuparnabhowmik04@gmail.com</a>
+        <a itemprop="email" class="email" href="mailto:adharshkamathr@gmail.com">adharshkamathr@gmail.com</a>
     </div>
 </section>
 
@@ -306,15 +371,15 @@ Also, the number of moves per game, Go might last for 150 moves vs. 80 in chess.
             
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/%20via%20&#64;IEEE_NITK&hashtags=Computer Games,Reinforcement Learning,Monte Carlo Tree Search,Alpha-Go,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/monads-in-functional-programming/%20via%20&#64;IEEE_NITK&hashtags=Functional Programming,Monads,Functional JavaScript,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//monads-in-functional-programming/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//how-computers-learn-to-play-games/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//monads-in-functional-programming/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
