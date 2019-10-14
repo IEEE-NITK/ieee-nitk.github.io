@@ -27,7 +27,7 @@ The main objective of a Generative Model is to create more samples of the **same
 
 GANs form a subclass of **implicit** Generative models that rely on adversarial training of two networks: the **Generator G**, which attempts to produce samples that mimic the **reference distribution**, and the **Discriminator D**, which tries to differentiate between real and generated samples and, in doing so, provides a useful **gradient signal** to the Generator. GANs have proven to be useful in various domains like unsupervised feature learning, image and video generation. They are illustrated with an analogy in the image.
 
-<img src="/blog_src/assets/img/why-do-GANs-matter/GAN_structure.png" alt="Generative Adeversarial Network" />
+![Generative Adversarial Network](/blog/assets/img/why-do-GANs-matter/GAN_structure.png)
 
 ## Why are Generative Models useful?
 
@@ -37,18 +37,13 @@ The first question that comes to mind is that why do we even care about generati
 
 The following illustration compares the two approaches. The agent in the left is trained using **VIME** approach while the right one using **Naive** approach.
 
-<table><tr>
-<td>
-<img src="/blog_src/assets/img/why-do-GANs-matter/policy_with_VIME.gif" alt="VIME approach" style="padding: 5px;" /></td>
-<td>
-<img src="/blog_src/assets/img/why-do-GANs-matter/policy_naive.gif" alt="Naive approach" style="padding: 5px;" /></td>
-</tr></table>
+![VIME approach](/blog/assets/img/why-do-GANs-matter/policy_with_VIME.gif) | ![Naive approach](/blog/assets/img/why-do-GANs-matter/policy_naive.gif)
 
  - We can use Generative models to simulate possible futures for Reinforcement Learning. We can have an agent learn in a simulated environment built entirely using generative models rather than building it physically. The advantage of using this model-based RL approach is that it can be **parallelized** easily across different machines and the mistakes in it are not as costly as if we make them in the real world.
 
  - Generative models can to fill in missing inputs and learn even when some of the labels in the data are missing. They handle missing inputs much more effectively than the traditional input to output mappings in machine learning models. [**GAINs**](https://arxiv.org/abs/1806.02920) are a type of GANs where the generator imputes a vector of real data, which is then fed back to the discriminator to figure out which data was originally missing. [**MisGAN**](https://openreview.net/forum?id=S1lDV3RcKm) is another variety that can learn from complex, higher-dimensional incomplete data using a **pair** of generators and discriminators. **Semi-Supervised Learning** is an application where we may have very few labeled inputs but by leveraging many more unlabeled examples, we can do good on the test set.
 
-![MSE v/s Adversarial appraoch](/blog_src/assets/img/why-do-GANs-matter/face_application.jpg)
+![MSE v/s Adversarial appraoch](/blog/assets/img/why-do-GANs-matter/face_application.jpg)
 
  - The picture shows two approaches to finding the next frame in the video. Since there are many possibilities in a video in the next time step, traditional approaches like **Mean Squared Error** (MSE), result in the output being a bit blurry as a consequence of **averaging** out various results. Using generative techniques and **adversarial** particularly results in getting a sharp output towards the eyes as well as ears.
 
@@ -62,7 +57,7 @@ The **Text-to-Speech** (TTS) task consists of the conversion of text into speech
 
 Using GANs can help in parallel waveform generation. **GAN-TTS**, a Generative Adversarial Network for Text-to-Speech is a novel architecture proposed for this. It consists of a feed-forward generator, which is a **Convolutional Neural Network**, paired with an **ensemble** of multiple discriminators which evaluate the generated and real data. [**Mean Opinion Score**](https://en.wikipedia.org/wiki/Mean_opinion_score) (MOS), as well as quantitative metrics - [**Frechet DeepSpeech Distance**](https://en.wikipedia.org/wiki/Fr%C3%A9chet_distance) and **Kernel DeepSpeech Distance**, are used as evaluation metrics.
 
-![GAN-TTS architecture](/blog_src/assets/img/why-do-GANs-matter/subtopic1.png)
+![GAN-TTS architecture](/blog/assets/img/why-do-GANs-matter/subtopic1.png)
 
 The generator's input is pitch and linguistic features and output is a raw waveform at a certain frequency. **GBlock** shows the design of the generator in the above diagram. The output convolutional layer uses **tanh** activation function to produce a single-channel audio waveform. The discriminator consists of an ensemble instead of a single model as in **DBlock**. Some discriminators take the linguistic conditioning into account while others ignore the conditioning and can only assess the general realism of the audio.
 
@@ -70,11 +65,11 @@ The generator's input is pitch and linguistic features and output is a raw wavef
 
 Both GANs in unsupervised Learning and **Actor-Critic** methods in Reinforcement Learning are difficult to optimize and stabilize since they often end up giving **degenerate solutions**. Both are multi-level optimization methods where we do not have a single **unified** objective function and consist of hybrid models where each tries to minimize its **private cost function**. Each level is optimized with respect to the optimum of the other model. This makes the traditional optimization methods like **Gradient Descent** and its variants not work very well since they are oriented towards solving a common cost function.
 
-![GANs and AC methods cycle](/blog_src/assets/img/why-do-GANs-matter/subtopic2.1.png)
+![GANs and AC methods cycle](/blog/assets/img/why-do-GANs-matter/subtopic2.1.png)
 
 The main aim of AC methods is to simultaneously learn an **action-value** function along with a **policy**, thereby predicting the reward, while GANs learn to produce more samples of the same type as training data. Both have a feed-forward propagation step where one model controls the agent’s behavior (Actor **A**) or generates samples (Generator **G**) and the second evaluates how good the action is (Critic **C**) or classifies samples as fake or real (Discriminator **D**). The second model has access to some **additional information** from the environment - reward in case of AC and real data samples in case of GANs. These similarities suggest that heuristics and optimizations for one can be applied for the other.
 
-![Illustration of agent-environment setting like a GAN-pipeline](/blog_src/assets/img/why-do-GANs-matter/subtopic2.2.png)
+![Illustration of agent-environment setting like a GAN-pipeline](/blog/assets/img/why-do-GANs-matter/subtopic2.2.png)
 
 The GAN **minimax** game can be thought of as an agent-environment set up where the actor chooses to set pixels of the image. The environment then **stochastically** chooses to show a real image and give reward **1** or show the actions and give reward **0**. The critic has to predict what the reward is. Here the actor never actually sees the true environment analogous to the generator in GANs where it does not see the real data samples. They rely only on the gradient signal given by the other model. However, this is a sort of unusual setting where the actor does not get to influence the reward, hence making both components **adversarial** instead of cooperative.
 
@@ -82,7 +77,7 @@ The GAN **minimax** game can be thought of as an agent-environment set up where 
 
 GANs have received state-of-art performance in many image generation tasks. Their ability to create more data without explicitly learning probability density function has a huge scope in Computer Vision. There are two ways in which GANs can be applied in medical imaging. One is the use of a trained generator model to generate images of various body parts. Other is that the discriminator, trained on normal images can be used as a **regularizer** or **detector** for abnormal images. GANs have an edge over traditional ML approaches in medical imaging in terms of cell structure exploration and detecting abnormalities.
 
-![GANs in Medical Imaging](/blog_src/assets/img/why-do-GANs-matter/subtopic3.png)
+![GANs in Medical Imaging](/blog/assets/img/why-do-GANs-matter/subtopic3.png)
 
 **Reconstruction** is a major issue in medical imaging. Many times the image and scans obtained might have some noise or blurriness associated with it. This can be due to various reasons like patient comfort, constraints in clinical settings, etc. A [**pix2pix**](https://arxiv.org/abs/1611.07004) framework and pre-trained [**VGG-net**](https://www.pyimagesearch.com/2017/03/20/imagenet-vggnet-resnet-inception-xception-keras/) have been used to solve the problem but appreciable results are difficult to achieve in case of pumping organs like the heart. The use of [**CycleGAN**](https://arxiv.org/abs/1703.10593) has achieved improvement in cardiac CT denoising.
 
@@ -92,7 +87,7 @@ GANs have also been used for classification tasks in medicine. The semi-supervis
 
 Liquid Warping GAN is a unified approach towards **Human Motion Imitation**, **Appearance Transfer**, and **Novel View Synthesis**. These techniques are extremely useful in animation, video and game making, virtual clothes try-on, etc. Previous works separately handled these tasks with specific pipelines. Recently, GANs have proven to be useful in successfully solving all three tasks together. Motion imitation inputs a source image and a reference pose image and outputs the person in the former with a pose in the latter. Appearance Transfer is quite similar to **Neural Style Transfer** in Computer Vision, where the aim is to produce a human image preserving the reference identity with clothes (style). Novel View Synthesis aims to produce images of the person from different angles and views.
 
-![Human motion imitation, Appearance transfer, Novel view synthesis](/blog_src/assets/img/why-do-GANs-matter/subtopic4.1.png)
+![Human motion imitation, Appearance transfer, Novel view synthesis](/blog/assets/img/why-do-GANs-matter/subtopic4.1.png)
 
 As in many Computer Vision applications, traditional methods use 2D landmarking techniques to predict human body structure. However, these can capture only positional details with no modeling of limb rotations and characterization of body shape, which makes the output a bit less realistic. Using Liquid Warping GANs, we can capture the 3D body mesh and simultaneously preserve texture, color, style, and other finer details.
 
@@ -107,7 +102,7 @@ This step involves the construction of a map of the source and reference mesh fo
 #### Liquid Warping GAN
 This stage focuses on producing high-fidelity images with desired conditions like style, texture, etc. We use **Liquid Warping Block** (LWB) to preserve these conditions.
 
-![Liquid Warping Block](/blog_src/assets/img/why-do-GANs-matter/subtopic4.2.png)
+![Liquid Warping Block](/blog/assets/img/why-do-GANs-matter/subtopic4.2.png)
 
  - **Generator**: The generator works as 3 streams. The first stream of GANs works on generating a realistic background image. The second or **source identity** stream is a **convolutional auto-encoder** that identifies the source content, extracts the features required to keep the source details and reconstructs the source front image. The third or the **transfer stream** synthesizes the final result. LWB **links** the latter two streams. Advantage of using LWB is that it takes care of multiple sources, like in Appearance Transfer, preserving the head of source one and wearing the upper outer garment from the source two, while wearing the lower outer garment from the source three.
 
