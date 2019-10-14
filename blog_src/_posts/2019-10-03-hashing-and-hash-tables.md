@@ -40,19 +40,22 @@ An IP address consists of four 8-bit integers (i.e. in the range 0-255) separate
 
 We can create an array A of size 2<sup>32</sup>, where *A[i]* stores the number of times the service was accessed from the IP address, which corresponds to the integer *i*, in the last hour. The following pseudocode implements this idea:
 
-```cpp
-/*Log is the array of log lines to be processed, having pairs (time, IP)
+```
+/*
+Log is the array of log lines to be processed, having pairs (time, IP)
 C is array of counters, of size 2^32
 i - index of first unprocessed log line
-j - index of oldest line in the current 1 hour window*/
-//This function is called every second
+j - index of oldest line in the current 1 hour window
+*/
+
+// This function is called every second
 UpdateAccessList(Log, i, j, C):  
-//counter incremented for all IPs that accessed service at this instant
-//Now() gives the current time
+// counter incremented for all IPs that accessed service at this instant
+// Now() gives the current time
     while Log[i].time <= Now():
         C[int(Log[i].IP)] = C[int(Log[i].IP)] + 1
         i = i + 1
-//counter decremented for all IPs that had accessed service an hour back
+// counter decremented for all IPs that had accessed service an hour back
     while Log[j].time <= Now() - 3600:
         C[int(Log[j].IP)] = C[int(Log[j].IP)] - 1
         j = j - 1
@@ -64,17 +67,17 @@ Using this data structure *C*, we can answer all of the above queries convenient
 
 In the previous method of direct addressing, we saw that we stored all possible IPs and this requires too much memory. So one way of solving this is to store only the active IPs, i.e. only the IPs that have accessed service in the last hour. We can implement this using a linked list, sorted in the order of the time of access. Every time an IP becomes active, we append it to the end of the linkd list, and the IPs that are at the beginning of the list, which were accessed more than an hour ago, are removed.
 
-```cpp
-//L - Linked list, whose each node is the pair (time, IP)
+```
+// L - Linked list, whose each node is the pair (time, IP)
 UpdateAccessList(Log, i, L):  
-//All IPs that accessed service at this instant are appended at the end of the list
+// All IPs that accessed service at this instant are appended at the end of the list
     while Log[i].time <= Now():
-//Append() function adds a node at the end of the list
+// Append() function adds a node at the end of the list
         L.Append(Log[i])
         i = i + 1
-//IPs that had accessed service an hour back are popped from the front of the list
-//Top() returns the node at the beginning of the linked list
-//Pop() removes the front node from the linked list
+// IPs that had accessed service an hour back are popped from the front of the list
+// Top() returns the node at the beginning of the linked list
+// Pop() removes the front node from the linked list
     while L.Top().time <= Now() - 3600:
         L.Pop()
 ```
@@ -121,15 +124,16 @@ Let us consider our previous example of mapping IP addresses to counters. Let us
 
 We will now see the pseudocode for implementing a hash table using chaining.
 
-```cpp
-/*Assume a hash function h : S --> {0, 1, 2, ... m-1}
+```
+/*
+Assume a hash function h : S --> {0, 1, 2, ... m-1}
 Let O be an object in S and V be a mapped value
 A is the array of m lists(chains) of pairs (O,V)
 */
 HasKey(O):
-//We calculate the hash value of O and go to the corresponding chain in the array 
+// We calculate the hash value of O and go to the corresponding chain in the array 
     L = A[h(O)]
-//Searching through the linked list for the given object
+// Searching through the linked list for the given object
     for all pairs (o, v) in L:
         if o == O:
             return true
@@ -171,25 +175,26 @@ Of course, this method works only if the number of keys to be stored in the hash
 
 **Implementation of Linear Probing :**
 
-```cpp
-/*Suppose we are using linear probing to store a set of objects in a hash table.
+```
+/*
+Suppose we are using linear probing to store a set of objects in a hash table.
 Let h be a hash function of cardinality m
 Let A be an array of size m
 */
-//Inserting an object O
+// Inserting an object O
 insert(O):
     val = h(O)
-//Search for an unused slot and if val exceeds m then roll back
+// Search for an unused slot and if val exceeds m then roll back
     while A[val] is not empty:
         val = (val + 1) % m
-    hashTable[val] = O
+    A[val] = O
 
-//To check if an object O is present in the hash table
+// To check if an object O is present in the hash table
 search(O):
     val = h(O)
     while A[val] is not empty and A[val] is not equal to O:
         val = (val + 1) % m
-//Check if the element is present in the hash table
+// Check if the element is present in the hash table
     if A[val] == O:
         return true
     else
