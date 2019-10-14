@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+        <!-- Give a small description in 3-4 sentences about the website -->
+        <meta name="abstract" content="IEEE NITK Student Chapter under Mangalore SubSection and Bangalore Section was founded in 1988. Currently it has three SIGs namely Computer Society, Circuits and Systems, Signal Processing Society and Piston. It also has two Affinty Groups namely Special Interest Group in Humanitarian Technologies (SIGHT) and Women in Engineering (WiE)">
+        <!-- Important Keywords to be noted in the website  -->
+        <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+        <!-- Tell the spider to index the first page and other pages as well-->
+        <meta name="robots" content="index, follow">    
+        <!-- How often should spiders come back to your page -->
+        <meta name="revisit-after" content="3 days">
+
+        <!-- Copyright regarding the website -->
+        <meta name="copyright" content="IEEE NITK">
+        <!-- Tells Google Bot not to duplicate description -->
+        <meta name="googlebot" content="noodp">
+        <!-- Language for the website -->
+        <meta name="language" content="English">  
+
+        <!-- Web Author for the image -->
+        <meta name="web_author" content="IEEE NITK">
+        <meta name="author" content="Salman Shah">
+        <!-- Email ID -->
+        <meta name="contact" content="ieee@nitk.edu.in" />
+        <!-- Email ID to reply to -->
+        <meta name="reply-to" content="ieee@nitk.edu.in">
+
+        <!-- Refers to distribution of the page -->
+        <meta name="distribution" content="global">
+        <!-- Generator or formatter tag -->
+        <meta name="generator" content="Jekyll">
+        <!-- Disallow spammers for the webpage -->
+        <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+        <!-- Rating for the page -->
+        <meta name="rating" content="general">
+        <!-- Content Type for the page -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- Fixing viewport on mobile views -->
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="description" content="To introduce the reader to some interesting concepts of graph theory">
+
+        <!-- Google Authorship Markup -->
+        <!-- Social: Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@IEEE_NITK">
+        <meta name="twitter:title" content="Solving a traffic problem using graph decomposition">
+        <meta name="twitter:description" content="To introduce the reader to some interesting concepts of graph theory">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+
+        <!-- Social: Facebook / Open Graph -->
+        <meta property="fb:app_id" content="0011038251882641" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/Solving-a-traffic-problem-using-graph-decomposition/" />
+        <meta property="og:title" content="Solving a traffic problem using graph decomposition">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+        <meta property="og:description" content="To introduce the reader to some interesting concepts of graph theory">
+        <meta property="og:site_name" content="A blog about our findings and musings">
+
+        <!-- Social: Google+ / Schema.org  -->
+        <meta itemprop="name" content="Solving a traffic problem using graph decomposition"/>
+        <meta itemprop="description" content="To introduce the reader to some interesting concepts of graph theory">
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Windows 8 Tile Icons -->
+        <meta name="application-name" content="IEEE-NITK Blog">
+        <meta name="msapplication-TileColor" content="#0562DC">
+        <meta name="msapplication-square70x70logo" content="smalltile.png" />
+        <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+        <meta name="msapplication-wide310x150logo" content="widetile.png" />
+        <meta name="msapplication-square310x310logo" content="largetile.png" />
+        
+        <!-- Android Lolipop Theme Color -->
+        <meta name="theme-color" content="#0562DC">
+
+        <link rel="author" href="https://plus.google.com/?rel=author">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
+        <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+        <!-- Include Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <title>Solving a traffic problem using graph decomposition</title>
+
+        <!-- highlighter theme -->
+        <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
+
+        <link rel="stylesheet" href="/blog/assets/css/main.css">
+        <link rel="canonical" href="/blog/Solving-a-traffic-problem-using-graph-decomposition/">
+        <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
+
+        
+
+        <!-- jQuery for highlighter -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none" version="1.1"><defs><symbol id="icon-menu" viewBox="0 0 1024 1024"><path class="path1" d="M128 213.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 725.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 469.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5z"/></symbol><symbol id="icon-search" viewBox="0 0 951 1024"><path class="path1" d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z"/></symbol><symbol id="icon-email" viewBox="0 0 1024 1024"><path class="path1" d="M950.857 859.429v-438.857q-18.286 20.571-39.429 37.714-153.143 117.714-243.429 193.143-29.143 24.571-47.429 38.286t-49.429 27.714-58.571 14h-1.143q-27.429 0-58.571-14t-49.429-27.714-47.429-38.286q-90.286-75.429-243.429-193.143-21.143-17.143-39.429-37.714v438.857q0 7.429 5.429 12.857t12.857 5.429h841.143q7.429 0 12.857-5.429t5.429-12.857zM950.857 258.857v-14t-0.286-7.429-1.714-7.143-3.143-5.143-5.143-4.286-8-1.429h-841.143q-7.429 0-12.857 5.429t-5.429 12.857q0 96 84 162.286 110.286 86.857 229.143 181.143 3.429 2.857 20 16.857t26.286 21.429 25.429 18 28.857 15.714 24.571 5.143h1.143q11.429 0 24.571-5.143t28.857-15.714 25.429-18 26.286-21.429 20-16.857q118.857-94.286 229.143-181.143 30.857-24.571 57.429-66t26.571-75.143zM1024 237.714v621.714q0 37.714-26.857 64.571t-64.571 26.857h-841.143q-37.714 0-64.571-26.857t-26.857-64.571v-621.714q0-37.714 26.857-64.571t64.571-26.857h841.143q37.714 0 64.571 26.857t26.857 64.571z"/></symbol><symbol id="icon-close" viewBox="0 0 805 1024"><path class="path1" d="M741.714 755.429q0 22.857-16 38.857l-77.714 77.714q-16 16-38.857 16t-38.857-16l-168-168-168 168q-16 16-38.857 16t-38.857-16l-77.714-77.714q-16-16-16-38.857t16-38.857l168-168-168-168q-16-16-16-38.857t16-38.857l77.714-77.714q16-16 38.857-16t38.857 16l168 168 168-168q16-16 38.857-16t38.857 16l77.714 77.714q16 16 16 38.857t-16 38.857l-168 168 168 168q16 16 16 38.857z"/></symbol><symbol id="icon-twitter" viewBox="0 0 951 1024"><path class="path1" d="M925.714 233.143q-38.286 56-92.571 95.429 0.571 8 0.571 24 0 74.286-21.714 148.286t-66 142-105.429 120.286-147.429 83.429-184.571 31.143q-154.857 0-283.429-82.857 20 2.286 44.571 2.286 128.571 0 229.143-78.857-60-1.143-107.429-36.857t-65.143-91.143q18.857 2.857 34.857 2.857 24.571 0 48.571-6.286-64-13.143-106-63.714t-42-117.429v-2.286q38.857 21.714 83.429 23.429-37.714-25.143-60-65.714t-22.286-88q0-50.286 25.143-93.143 69.143 85.143 168.286 136.286t212.286 56.857q-4.571-21.714-4.571-42.286 0-76.571 54-130.571t130.571-54q80 0 134.857 58.286 62.286-12 117.143-44.571-21.143 65.714-81.143 101.714 53.143-5.714 106.286-28.571z"/></symbol><symbol id="icon-facebook" viewBox="0 0 585 1024"><path class="path1" d="M548 6.857v150.857h-89.714q-49.143 0-66.286 20.571t-17.143 61.714v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571q0-106.286 59.429-164.857t158.286-58.571q84 0 130.286 6.857z"/></symbol><symbol id="icon-rss" viewBox="0 0 805 1024"><path class="path1" d="M219.429 768q0 45.714-32 77.714t-77.714 32-77.714-32-32-77.714 32-77.714 77.714-32 77.714 32 32 77.714zM512 838.286q1.143 16-9.714 27.429-10.286 12-26.857 12h-77.143q-14.286 0-24.571-9.429t-11.429-23.714q-12.571-130.857-105.429-223.714t-223.714-105.429q-14.286-1.143-23.714-11.429t-9.429-24.571v-77.143q0-16.571 12-26.857 9.714-9.714 24.571-9.714h2.857q91.429 7.429 174.857 46t148 103.714q65.143 64.571 103.714 148t46 174.857zM804.571 839.429q1.143 15.429-10.286 26.857-10.286 11.429-26.286 11.429h-81.714q-14.857 0-25.429-10t-11.143-24.286q-6.857-122.857-57.714-233.429t-132.286-192-192-132.286-233.429-58.286q-14.286-0.571-24.286-11.143t-10-24.857v-81.714q0-16 11.429-26.286 10.286-10.286 25.143-10.286h1.714q149.714 7.429 286.571 68.571t243.143 168q106.857 106.286 168 243.143t68.571 286.571z"/></symbol><symbol id="icon-google-plus" viewBox="0 0 951 1024"><path class="path1" d="M420 454.857q0 20.571 18.286 40.286t44.286 38.857 51.714 42 44 59.429 18.286 81.143q0 51.429-27.429 98.857-41.143 69.714-120.571 102.571t-170.286 32.857q-75.429 0-140.857-23.714t-98-78.571q-21.143-34.286-21.143-74.857 0-46.286 25.429-85.714t67.714-65.714q74.857-46.857 230.857-57.143-18.286-24-27.143-42.286t-8.857-41.714q0-20.571 12-48.571-26.286 2.286-38.857 2.286-84.571 0-142.571-55.143t-58-139.714q0-46.857 20.571-90.857t56.571-74.857q44-37.714 104.286-56t124.286-18.286h238.857l-78.857 50.286h-74.857q42.286 36 64 76t21.714 91.429q0 41.143-14 74t-33.714 53.143-39.714 37.143-34 35.143-14 37.714zM336.571 400q21.714 0 44.571-9.429t37.714-24.857q30.286-32.571 30.286-90.857 0-33.143-9.714-71.429t-27.714-74-48.286-59.143-66.857-23.429q-24 0-47.143 11.143t-37.429 30q-26.857 33.714-26.857 91.429 0 26.286 5.714 55.714t18 58.857 29.714 52.857 42.857 38.286 55.143 14.857zM337.714 898.857q33.143 0 63.714-7.429t56.571-22.286 41.714-41.714 15.714-62.286q0-14.286-4-28t-8.286-24-15.429-23.714-16.857-20-22-19.714-20.857-16.571-23.714-17.143-20.857-14.857q-9.143-1.143-27.429-1.143-30.286 0-60 4t-61.429 14.286-55.429 26.286-39.143 42.571-15.429 60.286q0 40 20 70.571t52.286 47.429 68 25.143 72.857 8.286zM800.571 398.286h121.714v61.714h-121.714v125.143h-60v-125.143h-121.143v-61.714h121.143v-124h60v124z"/></symbol><symbol id="icon-angle-down" viewBox="0 0 658 1024"><path class="path1" d="M614.286 420.571q0 7.429-5.714 13.143l-266.286 266.286q-5.714 5.714-13.143 5.714t-13.143-5.714l-266.286-266.286q-5.714-5.714-5.714-13.143t5.714-13.143l28.571-28.571q5.714-5.714 13.143-5.714t13.143 5.714l224.571 224.571 224.571-224.571q5.714-5.714 13.143-5.714t13.143 5.714l28.571 28.571q5.714 5.714 5.714 13.143z"/></symbol><symbol id="icon-github-alt" viewBox="0 0 951 1024"><path class="path1" d="M365.714 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM731.429 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM822.857 694.857q0-68.571-39.429-116.571t-106.857-48q-23.429 0-111.429 12-40.571 6.286-89.714 6.286t-89.714-6.286q-86.857-12-111.429-12-67.429 0-106.857 48t-39.429 116.571q0 50.286 18.286 87.714t46.286 58.857 69.714 34.286 80 16.857 85.143 4h96q46.857 0 85.143-4t80-16.857 69.714-34.286 46.286-58.857 18.286-87.714zM950.857 594.286q0 118.286-34.857 189.143-21.714 44-60.286 76t-80.571 49.143-97.143 27.143-98 12.571-95.429 2.571q-44.571 0-81.143-1.714t-84.286-7.143-87.143-17.143-78.286-29.429-69.143-46.286-49.143-65.714q-35.429-70.286-35.429-189.143 0-135.429 77.714-226.286-15.429-46.857-15.429-97.143 0-66.286 29.143-124.571 61.714 0 108.571 22.571t108 70.571q84-20 176.571-20 84.571 0 160 18.286 60-46.857 106.857-69.143t108-22.286q29.143 58.286 29.143 124.571 0 49.714-15.429 96 77.714 91.429 77.714 227.429z"/></symbol></defs></svg>
+
+        <header class="header-post" role="banner">
+    <div class="content">
+        
+            <time itemprop="datePublished" datetime="2019-10-15 03:59:00 +0530" class="date">15 Oct 2019</time>
+        
+        <h1 class="post-title" itemprop="name">Solving a traffic problem using graph decomposition</h1>
+        <p itemprop="description" class="subtitle">To introduce the reader to some interesting concepts of graph theory</p>
+    </div>
+     <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
+     <div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search...">
+        <svg class="icon-remove-sign"><use xlink:href="#icon-close"></use></svg>
+        <ul class="search-results search-list"></ul>
+    </div>
+</div>
+
+<div id="fade" class="overlay"></div>
+<a id="slide" class="slideButton fade">
+    <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
+</a>
+<aside id="sidebar">
+<nav id="navigation">
+  <h2>MENU</h2>
+  <ul>
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
+    
+    
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+  </ul>
+</nav>
+</aside>
+<a id="search" class="dosearch">
+    <svg class="icon-menu icon-search"><use xlink:href="#icon-search"></use></svg>
+</a>
+
+</header>
+
+        <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h1 id="solving-a-traffic-problem-using-graph-decomposition">Solving a traffic problem using graph decomposition</h1>
+
+<p>The <strong>Capital city</strong> is known for its prosperous life and big opportunities. Its inhabitants are called <em>“capitolates”</em>. Every capitolate in Capital city wants to live a happy and peaceful life. Now Capital city has three divisions - Residential town, Fun town and <strong>market city</strong>. Residential town is where capitolates live. Fun town is where they meet friends and make merry. Market city is where they work to make a living. But every passing year, capitolates are becoming more and more frustrated and unhappy. The reason is that people from neighbouring lands want to become capitolates and are moving to Capital city. This is making the roads busier and traffic slower. In particular, every road intersection in market city has become a deadly traffic bottleneck.</p>
+
+<p>The ten peace-keepers of Capital city propose an unconventional solution to this traffic problem - “Transform market city and make all the roads one-way”. But at this juncture a few questions arise:</p>
+<ol>
+  <li><em>In what direction should each one-way road go?</em></li>
+  <li><em>Is every traffic intersection in market city still reachable from every other traffic intersection in market city using these one-way roads? If not, which intersections are not reachable from one another?</em></li>
+</ol>
+
+<p>Now, the nine hard working peace-keepers explore different possible one-way transformations of market city. They call the transformation “good” if every traffic intersection is reachable from every other traffic intersection. They assign the tenth peace-keeper, the lazy one, the job of finding whether a given transformation is “good”. If you are the tenth peace-keeper, you are in luck, for we will show you how to accomplish this task, in a fraction of a second, using our vast computing power.</p>
+
+<h2 id="formal-ideas-and-definitions"><strong>Formal ideas and definitions</strong></h2>
+<p><span style="text-decoration:underline;"> </span>Before we present a solution to our main problem, we first define some mathematical terms and explore a few key ideas. We will then redefine the main problem statement using those mathematical terms. We will explore the following ideas.</p>
+<ul>
+  <li>The idea of a graph</li>
+  <li>Exploring a graph</li>
+  <li>DFS (Depth First Search)</li>
+  <li>Connectedness and connected components of a graph</li>
+  <li>Directed graphs</li>
+  <li>Strong connectedness</li>
+</ul>
+
+<h2 id="the-idea-of-a-graph"><strong>The idea of a graph</strong></h2>
+<p><img src="/blog_src/assets/img/Decomposition-of-graphs/basic.jpg" alt="A graph on three vertices" />
+In mathematics, and graph theory, a graph is a set of objects in which some pairs of the objects are in some sense “related”. The objects are called vertices(also called nodes) and each of the related pairs of vertices is called an edge. In the picture, A, B and C are the vertices and the pairs (A, B) and (B, C) are edges.</p>
+
+<p>Many important phenomena can be represented using graphs. Examples are:</p>
+<ul>
+  <li>Webpages connected by links</li>
+  <li>Intersections connected by roads</li>
+  <li>People connected by friendships in social networking.
+    <blockquote>
+      <p>Formally, a graph G is a collection v of vertices, and a collection E of edges, each of which connects a pair of vertices.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="exploring-a-graph"><strong>Exploring a graph</strong></h2>
+
+<p>We have the following definition for a <em>path</em> in G:</p>
+<blockquote>
+  <p>A path in a graph G is a sequence of vertices v<sub>0</sub>, v<sub>1</sub>, v<sub>2</sub>, …, v<sub>n</sub> so that for all i, (v<sub>i</sub>, v<sub>i+1</sub>) is an edge of G.</p>
+</blockquote>
+
+<p>We now have a tool to define <em>Reachability</em>:</p>
+
+<blockquote>
+  <p>Two vertices u and v (u not equal to v) are reachable if there exists a path from u to v.</p>
+</blockquote>
+
+<p>When we say we explore a graph G, it means that we start at an <em>“unvisited”</em> vertex v of the graph and then start visiting vertices that are reachable from v using the edges in G. Once we finish visiting all vertices reachable from v, we mark the visited vertices as <em>“visited”</em>. Initially, all vertices are <em>“unvisited”</em>.</p>
+
+<h2 id="depth-first-search-dfs"><strong>Depth First Search (DFS)</strong></h2>
+
+<p>The next thing we will do is give a way to reach all vertices of a graph. The idea is intuitive and easy to understand. What DFS does is, it starts at an unvisited vertex of G and explores it, and continues to do this for every other unvisited vertex of G. So when DFS finishes, we end up visiting every vertex of G.</p>
+
+<p>For example, consider the following graph on eight vertices.
+<img src="/blog_src/assets/img/Decomposition-of-graphs/dfs1.jpg" alt="Sample graph" /></p>
+
+<p>When we run DFS on the graph, we start at some vertex of the graph, say, A. We then explore A:</p>
+
+<p><strong>A is visited</strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/dfs2.jpg" alt="A is visited" /></p>
+
+<p><strong>B is visited</strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/dfs3.jpg" alt="B is visited" /></p>
+
+<p><strong>C is visited</strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/dfs4.jpg" alt="C is visited" /></p>
+
+<p><strong>D is visited</strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/dfs5.jpg" alt="D is visited" />
+After exploring A as shown in the pictures, we check for other unvisited vertices. Since B, C, and D are already visited, our next unvisited vertex is E. We explore E, and then, F. After exploring F, we will have visited all vertices. This completes our DFS exploration.</p>
+
+<h2 id="connectedness"><strong>Connectedness</strong></h2>
+
+<p>Connectedness in a graph G is a property which helps us understand which vertices in G are reachable from which others. The following theorem holds for every graph G:</p>
+<blockquote>
+  <p>The vertices of G can be partitioned into <strong>Connected Components</strong> so that a vertex v is reachable from a vertex w if and only if they are in the same connected component.</p>
+
+  <p><img src="/blog_src/assets/img/Decomposition-of-graphs/connectedness.jpg" alt="Sample graph" />
+In the graph above, the vertices {A, B, C, D} form the first connected component. The vertex {E} forms the second connected component. Finally the vertices {F, G, H} forms the third connected component.</p>
+</blockquote>
+
+<p>You might realize that this notion of <strong>connectivity</strong> gets us closer to the problem that we want to solve. But we are not quite there yet. We also have to tackle the issue of one-way roads. Before we move on, we give a modification of the DFS algorithm to give ourselves more capability. We introduce a new feature - pre and post orderings. We store two variable called <strong>previsit</strong> and <strong>postvisit</strong> for every vertex. Every vertex is given the label (previsit/postvisit).</p>
+
+<p>We store an extra variable called <strong>clock</strong>. Each time we enter or leave a vertex the value of the clock is incremented by 1. We assign pre and post order values to each vertex as follows:</p>
+<ol>
+  <li>During exploration, each time a vertex v of the graph is visited, we assign the current value of clock to the previsit value of v.</li>
+  <li>When exploration of v finishes, we assign the new value of the clock to the postvisit value of v.</li>
+</ol>
+
+<p>Example: Consider a graph on six vertices.
+<img src="/blog_src/assets/img/Decomposition-of-graphs/prepost.jpg" alt="Pre and Post visits" />
+The following illustration shows how previsit and postvisit values are assigned to the vertices when we run DFS on the graph.</p>
+
+<p><strong><em>Clock = 1:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock1.jpg" alt="Clock = 1" /></p>
+
+<p><strong><em>Clock = 2:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock2.jpg" alt="Clock = 2" /></p>
+
+<p><strong><em>Clock = 3:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock3.jpg" alt="Clock = 3" /></p>
+
+<p><strong><em>Clock = 4:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock4.jpg" alt="Clock = 4" /></p>
+
+<p><strong><em>Clock = 5:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock5.jpg" alt="Clock = 5" /></p>
+
+<p><strong><em>Clock = 6:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock6.jpg" alt="Clock = 6" /></p>
+
+<p><strong><em>Clock = 7:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock7.jpg" alt="Clock = 7" /></p>
+
+<p><strong><em>Clock = 8:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock8.jpg" alt="Clock = 8" /></p>
+
+<p><strong><em>Clock = 9:</em></strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/clock9.jpg" alt="Clock = 9" /></p>
+
+<p>The other component of the graph is given pre and post orderings in a similar fashion. After all components are assigned pre/postvisit numbers, the graph looks like:
+<img src="/blog_src/assets/img/Decomposition-of-graphs/final.png" alt="Final" /></p>
+
+<h2 id="directed-graphsdigraphs"><strong>Directed Graphs(DiGraphs)</strong></h2>
+
+<p><img src="/blog_src/assets/img/Decomposition-of-graphs/digraph.jpg" alt="Sample graph" /></p>
+
+<blockquote>
+  <p>A directed graph is a graph where each edge has a start vertex and an end vertex.</p>
+</blockquote>
+
+<p>Examples are:</p>
+<ul>
+  <li><strong>Streets with one-way roads (an abstraction of our traffic problem)</strong></li>
+  <li>Links between webpages.</li>
+  <li>Followers on social networks like instagram</li>
+  <li>Dependencies between tasks (sometimes some tasks need to be performed before others).</li>
+</ul>
+
+<h2 id="strong-connectedness"><strong>Strong Connectedness</strong></h2>
+
+<p>Strong connectedness in a directed graph is analogous to connectedness in a non-directed graph.</p>
+
+<p>For any two vertices in a digraph v and w, there are three different possibilities:</p>
+<ol>
+  <li>w is reachable from v and v is reachable from w.</li>
+  <li>Exactly one of v or w is reachable from the other.</li>
+  <li>w is not reachable from v and v is not reachable from ww.</li>
+</ol>
+
+<p>The first case sets up the basis for strong connectedness.</p>
+
+<blockquote>
+  <p>A directed graph can be partitioned into <strong>strongly connected components (SCCs)</strong> where two vertices are connected if and only if they are in the same component.</p>
+</blockquote>
+
+<p>Consider the graph P below:
+<img src="/blog_src/assets/img/Decomposition-of-graphs/scc.jpg" alt="SCCs" />
+The sets { A, B, C, E }, { H, I }, {D}, {F} and {G} form the five strongly components of the above graph P.</p>
+
+<p>We define the final tool that we will use to solve our problem:</p>
+<blockquote>
+  <p>The metagraph M of a directed graph G is the graph with its vertex set as the set of SCCs of G and edges showing how the SCCs connect to each other.</p>
+</blockquote>
+
+<p>It should be noted that the metagraph of G will be a <em>Directed Acyclic Graph</em> (A directed graph with no cycles) or a DAG. This property should hold, since if there were a cycle in M, then we will have at least two SCCs in G, which are a part of the cycle, reachable from each other, which contradicts the fact that they belong to two different SCCs.</p>
+
+<p>The graph below is the metagraph of the graph P we have described in the above picture.
+<img src="/blog_src/assets/img/Decomposition-of-graphs/metagraph.jpg" alt="Metagraph" />
+<strong>In the above metagraph, W is the SCC consisting of the vertices A, B, C and E, Y is the SCC consisting of the vertex F, X is the SCC consisting of the vertices H and I, Z is the SCC consisting of the vertex G and V is the SCC consisting of the vertex D.</strong></p>
+
+<p><strong>We now have the tools to simplify our main traffic problem. Market city can be seen as a <em>DiGraph</em> with the one-way roads as edges. We just have to compute the strongly connected components of market city.</strong></p>
+
+<p><strong>The algorithm we use to get our work done here is called <em>Kosaraju’s</em> algorithm.</strong></p>
+
+<h2 id="an-abstraction-of-the-problem"><strong>An abstraction of the problem</strong></h2>
+
+<blockquote>
+  <p>Given a DiGraph G, compute the strongly connected components of G.</p>
+</blockquote>
+
+<p>This is a simpler version of our original problem.
+Naively, what we can do is, for each vertex v in G, we can explore v to find the vertices that are reachable from v. And then, we can find the vertices u reachable from v that can also reach v. This, by definition, will give us the strongly connected components of G. But the problem with this procedure is that it takes a lot of steps to complete. We want to design a much faster algorithm. To achieve that, we make a few elegant observations.</p>
+
+<ol>
+  <li>Sink SCCs: <em>An important theorem in graph theory tells us that for a DAG, there always exists a sink vertex (a vertex with no outgoing edges) and a source vertex (a vertex with no incoming edges) in the DAG</em> (We leave the proof as an exercise). For our problem, the DAG in question is the metagraph M. Hence, there is a <strong>“sink strongly connected component(sink SCC)”</strong> in G.The idea is that if a vertex v is in a sink SCC, then if we run explore on v, we will find all the vertices in the strongly connected component that v is in.But we need a way to find a sink SCC of G.</li>
+  <li><em>Another important theorem in graph theory tells us that in a DAG, the vertex with the largest postvisit number lies in a source vertex of the DAG</em> (Proof can be found <a href="https://www.cs.cmu.edu/~avrim/451f13/lectures/lect0919.pdf">here</a>). Again, the DAG in question is the metagraph M. Hence, the vertex with the largest postvisit number in G lies in a source SCC of G.</li>
+  <li>Our problem was that we wanted a sink component. But we know how to find a source component. So we reverse the direction of all the edges in G to find the transpose of the graph G<sup>R</sup>. The following properties hold for G<sup>R</sup>:
+    <ul>
+      <li>G<sup>R</sup> and G have the same SCCs.</li>
+      <li>Source components of G<sup>R</sup> are sink components of G<sup>R</sup>.</li>
+      <li>The vertex with the largest postorder in G<sup>R</sup> is in a sink SCC of G.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>We are in the home stretch now. Our job is much simpler. We just run DFS on G<sup>R</sup> and assign pre/postvisit numbers to every vertex. Then we start removing the components associated with the vertex with the largest postvisit number in G<sup>R</sup>. In the end, we end up finding the SCCs of G. We illustrate the procedure on the sample graph we described before.</p>
+
+<p><strong>G:</strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/scc.jpg" alt="SCC" /></p>
+
+<p><strong>G<sup>R</sup>:</strong>
+<img src="/blog_src/assets/img/Decomposition-of-graphs/sccr.jpg" alt="SCCR" /></p>
+
+<p>We first assign pre and post visit numbers to every vertex:
+<img src="/blog_src/assets/img/Decomposition-of-graphs/sccprepost.jpg" alt="SCC pre post" /></p>
+
+<p>We remove the SCC with the vertex with the highest post order number. That is we first remove the vertex F and all the edges going from F:
+<img src="/blog_src/assets/img/Decomposition-of-graphs/scc1.jpg" alt="SCC1" /></p>
+
+<p>From the resulting graph above, we remove the component having the vertex with the next highest post visit number, that is I:
+<img src="/blog_src/assets/img/Decomposition-of-graphs/scc2.jpg" alt="SCC2" /></p>
+
+<p>We continue this process until we have found all the SCCs:
+<img src="/blog_src/assets/img/Decomposition-of-graphs/scc3.jpg" alt="SCC3" /></p>
+
+<p>And finally:
+<img src="/blog_src/assets/img/Decomposition-of-graphs/scc4.jpg" alt="SCC4" /></p>
+
+<p>The algorithm we explained now is called <a href="https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm">Kosaraju’s Algorithm</a>. This completes the solution to our problem. The transformation is good if there is only one strongly connected component. We have successfully found out the disconnected intersections in market city!</p>
+
+<p>A mathematical analysis of the above algorithm shows that the total time it takes to run the algorithm is proportional to the sum of the total number of vertices and the total number of edges in the graph. Today’s computers can accomplish this within the blink of an eye!</p>
+
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Solving a traffic problem using graph decomposition</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
+
+            <section class="author" itemprop="author">
+    <div class="details" itemscope itemtype="http://schema.org/Person">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/VarunRaghavendra.jpg" alt="Varun Raghavendra">
+        <p class="def">Author</p>
+        <h3 class="name">
+            <a itemprop="name" href="/">Varun Raghavendra</a>
+        </h3>
+        <p class="desc">When you go far enough, you meet yourself.</p>
+        <a itemprop="email" class="email" href="mailto:varun.raghavendra1@gmail.com">varun.raghavendra1@gmail.com</a>
+    </div>
+</section>
+
+            <section class="comments">
+
+	<div id="fb-root"></div>
+	
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+</section>
+            
+            <section class="share">
+    <h3>Share</h3>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/Solving-a-traffic-problem-using-graph-decomposition/%20via%20&#64;IEEE_NITK&hashtags=Algorithms,Graph Theory,"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//Solving-a-traffic-problem-using-graph-decomposition/"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+    </a>
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//Solving-a-traffic-problem-using-graph-decomposition/"
+    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+    </a>
+</section>
+
+            <footer>
+    <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
+</footer>
+<script src="/blog/assets/js/main.js"></script>
+            
+<script>
+	$(document).ready(function(){
+		if($("pre code").length){
+			
+			$.getScript('../assets/js/highlight.pack.js', function(){
+    			// load the highlighter script only if we have code snippets.
+    			$('pre code').each(function(i, block) {
+    				hljs.highlightBlock(block);
+  				});	
+    		});
+		}
+	});
+</script>
+        </section>
+
+    </body>
+</html>
+            
