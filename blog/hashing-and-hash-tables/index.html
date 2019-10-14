@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+        <!-- Give a small description in 3-4 sentences about the website -->
+        <meta name="abstract" content="IEEE NITK Student Chapter under Mangalore SubSection and Bangalore Section was founded in 1988. Currently it has three SIGs namely Computer Society, Circuits and Systems, Signal Processing Society and Piston. It also has two Affinty Groups namely Special Interest Group in Humanitarian Technologies (SIGHT) and Women in Engineering (WiE)">
+        <!-- Important Keywords to be noted in the website  -->
+        <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+        <!-- Tell the spider to index the first page and other pages as well-->
+        <meta name="robots" content="index, follow">    
+        <!-- How often should spiders come back to your page -->
+        <meta name="revisit-after" content="3 days">
+
+        <!-- Copyright regarding the website -->
+        <meta name="copyright" content="IEEE NITK">
+        <!-- Tells Google Bot not to duplicate description -->
+        <meta name="googlebot" content="noodp">
+        <!-- Language for the website -->
+        <meta name="language" content="English">  
+
+        <!-- Web Author for the image -->
+        <meta name="web_author" content="IEEE NITK">
+        <meta name="author" content="Salman Shah">
+        <!-- Email ID -->
+        <meta name="contact" content="ieee@nitk.edu.in" />
+        <!-- Email ID to reply to -->
+        <meta name="reply-to" content="ieee@nitk.edu.in">
+
+        <!-- Refers to distribution of the page -->
+        <meta name="distribution" content="global">
+        <!-- Generator or formatter tag -->
+        <meta name="generator" content="Jekyll">
+        <!-- Disallow spammers for the webpage -->
+        <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+        <!-- Rating for the page -->
+        <meta name="rating" content="general">
+        <!-- Content Type for the page -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- Fixing viewport on mobile views -->
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="description" content="This article gives an introduction to how hash tables are implemented in programming languages">
+
+        <!-- Google Authorship Markup -->
+        <!-- Social: Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@IEEE_NITK">
+        <meta name="twitter:title" content="Hashing and Hash Tables">
+        <meta name="twitter:description" content="This article gives an introduction to how hash tables are implemented in programming languages">
+        <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+
+        <!-- Social: Facebook / Open Graph -->
+        <meta property="fb:app_id" content="0011038251882641" />
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/hashing-and-hash-tables/" />
+        <meta property="og:title" content="Hashing and Hash Tables">
+        <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
+        <meta property="og:description" content="This article gives an introduction to how hash tables are implemented in programming languages">
+        <meta property="og:site_name" content="A blog about our findings and musings">
+
+        <!-- Social: Google+ / Schema.org  -->
+        <meta itemprop="name" content="Hashing and Hash Tables"/>
+        <meta itemprop="description" content="This article gives an introduction to how hash tables are implemented in programming languages">
+        <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Windows 8 Tile Icons -->
+        <meta name="application-name" content="IEEE-NITK Blog">
+        <meta name="msapplication-TileColor" content="#0562DC">
+        <meta name="msapplication-square70x70logo" content="smalltile.png" />
+        <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+        <meta name="msapplication-wide310x150logo" content="widetile.png" />
+        <meta name="msapplication-square310x310logo" content="largetile.png" />
+        
+        <!-- Android Lolipop Theme Color -->
+        <meta name="theme-color" content="#0562DC">
+
+        <link rel="author" href="https://plus.google.com/?rel=author">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/blog/assets/img/icons/favicon.ico" type="image/x-icon" />
+        <link rel="manifest" href="/blog/assets/img/icons/manifest.json">
+        <!-- Include Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <title>Hashing and Hash Tables</title>
+
+        <!-- highlighter theme -->
+        <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
+
+        <link rel="stylesheet" href="/blog/assets/css/main.css">
+        <link rel="canonical" href="/blog/hashing-and-hash-tables/">
+        <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
+        href="http://ieee.nitk.ac.in/blog/feed.xml" />
+
+        
+
+        <!-- jQuery for highlighter -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+        <script src="/blog/assets/js/sidebar.js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-106590424-3');
+            $(document).ready(function(){
+                loadArticles();
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none" version="1.1"><defs><symbol id="icon-menu" viewBox="0 0 1024 1024"><path class="path1" d="M128 213.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 725.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 469.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5z"/></symbol><symbol id="icon-search" viewBox="0 0 951 1024"><path class="path1" d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z"/></symbol><symbol id="icon-email" viewBox="0 0 1024 1024"><path class="path1" d="M950.857 859.429v-438.857q-18.286 20.571-39.429 37.714-153.143 117.714-243.429 193.143-29.143 24.571-47.429 38.286t-49.429 27.714-58.571 14h-1.143q-27.429 0-58.571-14t-49.429-27.714-47.429-38.286q-90.286-75.429-243.429-193.143-21.143-17.143-39.429-37.714v438.857q0 7.429 5.429 12.857t12.857 5.429h841.143q7.429 0 12.857-5.429t5.429-12.857zM950.857 258.857v-14t-0.286-7.429-1.714-7.143-3.143-5.143-5.143-4.286-8-1.429h-841.143q-7.429 0-12.857 5.429t-5.429 12.857q0 96 84 162.286 110.286 86.857 229.143 181.143 3.429 2.857 20 16.857t26.286 21.429 25.429 18 28.857 15.714 24.571 5.143h1.143q11.429 0 24.571-5.143t28.857-15.714 25.429-18 26.286-21.429 20-16.857q118.857-94.286 229.143-181.143 30.857-24.571 57.429-66t26.571-75.143zM1024 237.714v621.714q0 37.714-26.857 64.571t-64.571 26.857h-841.143q-37.714 0-64.571-26.857t-26.857-64.571v-621.714q0-37.714 26.857-64.571t64.571-26.857h841.143q37.714 0 64.571 26.857t26.857 64.571z"/></symbol><symbol id="icon-close" viewBox="0 0 805 1024"><path class="path1" d="M741.714 755.429q0 22.857-16 38.857l-77.714 77.714q-16 16-38.857 16t-38.857-16l-168-168-168 168q-16 16-38.857 16t-38.857-16l-77.714-77.714q-16-16-16-38.857t16-38.857l168-168-168-168q-16-16-16-38.857t16-38.857l77.714-77.714q16-16 38.857-16t38.857 16l168 168 168-168q16-16 38.857-16t38.857 16l77.714 77.714q16 16 16 38.857t-16 38.857l-168 168 168 168q16 16 16 38.857z"/></symbol><symbol id="icon-twitter" viewBox="0 0 951 1024"><path class="path1" d="M925.714 233.143q-38.286 56-92.571 95.429 0.571 8 0.571 24 0 74.286-21.714 148.286t-66 142-105.429 120.286-147.429 83.429-184.571 31.143q-154.857 0-283.429-82.857 20 2.286 44.571 2.286 128.571 0 229.143-78.857-60-1.143-107.429-36.857t-65.143-91.143q18.857 2.857 34.857 2.857 24.571 0 48.571-6.286-64-13.143-106-63.714t-42-117.429v-2.286q38.857 21.714 83.429 23.429-37.714-25.143-60-65.714t-22.286-88q0-50.286 25.143-93.143 69.143 85.143 168.286 136.286t212.286 56.857q-4.571-21.714-4.571-42.286 0-76.571 54-130.571t130.571-54q80 0 134.857 58.286 62.286-12 117.143-44.571-21.143 65.714-81.143 101.714 53.143-5.714 106.286-28.571z"/></symbol><symbol id="icon-facebook" viewBox="0 0 585 1024"><path class="path1" d="M548 6.857v150.857h-89.714q-49.143 0-66.286 20.571t-17.143 61.714v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571q0-106.286 59.429-164.857t158.286-58.571q84 0 130.286 6.857z"/></symbol><symbol id="icon-rss" viewBox="0 0 805 1024"><path class="path1" d="M219.429 768q0 45.714-32 77.714t-77.714 32-77.714-32-32-77.714 32-77.714 77.714-32 77.714 32 32 77.714zM512 838.286q1.143 16-9.714 27.429-10.286 12-26.857 12h-77.143q-14.286 0-24.571-9.429t-11.429-23.714q-12.571-130.857-105.429-223.714t-223.714-105.429q-14.286-1.143-23.714-11.429t-9.429-24.571v-77.143q0-16.571 12-26.857 9.714-9.714 24.571-9.714h2.857q91.429 7.429 174.857 46t148 103.714q65.143 64.571 103.714 148t46 174.857zM804.571 839.429q1.143 15.429-10.286 26.857-10.286 11.429-26.286 11.429h-81.714q-14.857 0-25.429-10t-11.143-24.286q-6.857-122.857-57.714-233.429t-132.286-192-192-132.286-233.429-58.286q-14.286-0.571-24.286-11.143t-10-24.857v-81.714q0-16 11.429-26.286 10.286-10.286 25.143-10.286h1.714q149.714 7.429 286.571 68.571t243.143 168q106.857 106.286 168 243.143t68.571 286.571z"/></symbol><symbol id="icon-google-plus" viewBox="0 0 951 1024"><path class="path1" d="M420 454.857q0 20.571 18.286 40.286t44.286 38.857 51.714 42 44 59.429 18.286 81.143q0 51.429-27.429 98.857-41.143 69.714-120.571 102.571t-170.286 32.857q-75.429 0-140.857-23.714t-98-78.571q-21.143-34.286-21.143-74.857 0-46.286 25.429-85.714t67.714-65.714q74.857-46.857 230.857-57.143-18.286-24-27.143-42.286t-8.857-41.714q0-20.571 12-48.571-26.286 2.286-38.857 2.286-84.571 0-142.571-55.143t-58-139.714q0-46.857 20.571-90.857t56.571-74.857q44-37.714 104.286-56t124.286-18.286h238.857l-78.857 50.286h-74.857q42.286 36 64 76t21.714 91.429q0 41.143-14 74t-33.714 53.143-39.714 37.143-34 35.143-14 37.714zM336.571 400q21.714 0 44.571-9.429t37.714-24.857q30.286-32.571 30.286-90.857 0-33.143-9.714-71.429t-27.714-74-48.286-59.143-66.857-23.429q-24 0-47.143 11.143t-37.429 30q-26.857 33.714-26.857 91.429 0 26.286 5.714 55.714t18 58.857 29.714 52.857 42.857 38.286 55.143 14.857zM337.714 898.857q33.143 0 63.714-7.429t56.571-22.286 41.714-41.714 15.714-62.286q0-14.286-4-28t-8.286-24-15.429-23.714-16.857-20-22-19.714-20.857-16.571-23.714-17.143-20.857-14.857q-9.143-1.143-27.429-1.143-30.286 0-60 4t-61.429 14.286-55.429 26.286-39.143 42.571-15.429 60.286q0 40 20 70.571t52.286 47.429 68 25.143 72.857 8.286zM800.571 398.286h121.714v61.714h-121.714v125.143h-60v-125.143h-121.143v-61.714h121.143v-124h60v124z"/></symbol><symbol id="icon-angle-down" viewBox="0 0 658 1024"><path class="path1" d="M614.286 420.571q0 7.429-5.714 13.143l-266.286 266.286q-5.714 5.714-13.143 5.714t-13.143-5.714l-266.286-266.286q-5.714-5.714-5.714-13.143t5.714-13.143l28.571-28.571q5.714-5.714 13.143-5.714t13.143 5.714l224.571 224.571 224.571-224.571q5.714-5.714 13.143-5.714t13.143 5.714l28.571 28.571q5.714 5.714 5.714 13.143z"/></symbol><symbol id="icon-github-alt" viewBox="0 0 951 1024"><path class="path1" d="M365.714 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM731.429 694.857q0 22.857-7.143 46.857t-24.571 43.429-41.429 19.429-41.429-19.429-24.571-43.429-7.143-46.857 7.143-46.857 24.571-43.429 41.429-19.429 41.429 19.429 24.571 43.429 7.143 46.857zM822.857 694.857q0-68.571-39.429-116.571t-106.857-48q-23.429 0-111.429 12-40.571 6.286-89.714 6.286t-89.714-6.286q-86.857-12-111.429-12-67.429 0-106.857 48t-39.429 116.571q0 50.286 18.286 87.714t46.286 58.857 69.714 34.286 80 16.857 85.143 4h96q46.857 0 85.143-4t80-16.857 69.714-34.286 46.286-58.857 18.286-87.714zM950.857 594.286q0 118.286-34.857 189.143-21.714 44-60.286 76t-80.571 49.143-97.143 27.143-98 12.571-95.429 2.571q-44.571 0-81.143-1.714t-84.286-7.143-87.143-17.143-78.286-29.429-69.143-46.286-49.143-65.714q-35.429-70.286-35.429-189.143 0-135.429 77.714-226.286-15.429-46.857-15.429-97.143 0-66.286 29.143-124.571 61.714 0 108.571 22.571t108 70.571q84-20 176.571-20 84.571 0 160 18.286 60-46.857 106.857-69.143t108-22.286q29.143 58.286 29.143 124.571 0 49.714-15.429 96 77.714 91.429 77.714 227.429z"/></symbol></defs></svg>
+
+        <header class="header-post" role="banner">
+    <div class="content">
+        
+            <time itemprop="datePublished" datetime="2019-10-07 04:30:00 +0530" class="date">07 Oct 2019</time>
+        
+        <h1 class="post-title" itemprop="name">Hashing and Hash Tables</h1>
+        <p itemprop="description" class="subtitle">This article gives an introduction to how hash tables are implemented in programming languages</p>
+    </div>
+     <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
+     <div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search...">
+        <svg class="icon-remove-sign"><use xlink:href="#icon-close"></use></svg>
+        <ul class="search-results search-list"></ul>
+    </div>
+</div>
+
+<div id="fade" class="overlay"></div>
+<a id="slide" class="slideButton fade">
+    <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
+</a>
+<aside id="sidebar">
+<nav id="navigation">
+  <h2>MENU</h2>
+  <ul>
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog">Home</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/blog/tags">Tags</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/">Main Website</a></li>
+    
+    
+    
+      <li><a href="http://ieee.nitk.ac.in/gyan">Gyan</a></li>
+    
+    
+    <li><a class="feed" href="http://ieee.nitk.ac.in/blog/feed.xml" title="Atom/RSS feed">Feed</a></li>
+  </ul>
+</nav>
+</aside>
+<a id="search" class="dosearch">
+    <svg class="icon-menu icon-search"><use xlink:href="#icon-search"></use></svg>
+</a>
+
+</header>
+
+        <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <div class="content-box">
+                <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                    <h2 id="introduction">Introduction</h2>
+
+<blockquote>
+  <p>Hashing is the transformation of a string of characters into a usually shorter fixed-length value or key that represents the original string. Hashing is used to index and retrieve items in a database because it is faster to find the item using the shorter hashed key than to find it using the original value.</p>
+</blockquote>
+
+<p>Hashing is a very powerful technique with a wide variety of applications. In most of the programming languages, there are built-in data types of data structures in the standard library that are based on hash tables (we will see later what they mean), like dict or dictionary in Python, or HashMap in Java, or the STL map in C++.</p>
+
+<p>Applications of hash tables are plenty. Take the file system in a computer for example. When you interact with a file system as a user, you see the file name and the path to the file. But to actually store the correspondence between the file name and path, and the physical location of that file on the disk, the system uses a map, and that map is usually implemented as a hash table.</p>
+
+<p>Another example is password verification. When you use some web service and type your password to log into it, the password cannot be sent in clear text through the network to the server to check if it’s the right password, because that message could be intercepted and misused. Instead, a hash value of the password is computed and is sent to the server. The server compares that hash value with the hash value of the stored password. And if those match, you get authenticated.</p>
+
+<p>Let us begin to see the need for hashing and understand its implementation using a simple real world example.</p>
+
+<h3 id="analysing-service-access-logs">Analysing Service Access Logs</h3>
+
+<p>Suppose we are hosting a web service and there are many clients trying to access the service over the internet. When someone accesses the web service, the IP address of the computer accessing the service will be known and this information will be stored in a file called the access log. We then may want to answer queries like:</p>
+<ul>
+  <li>How many times was the service accessed from a particular IP in the last hour?</li>
+  <li>How many IP’s were used to access the service in the last hour?
+To answer such questions, we will have to do log processing. Of course, it will not be feasible to search through a whole hour of logs each time the query is made, since the logs may contain thousands or even millions of lines. So we keep a count of the number of times the service was accessed by each IP. For this we need a mapping from IP addresses to counters. Let us see how we can implement this.</li>
+</ul>
+
+<h4 id="direct-addressing">Direct Addressing</h4>
+
+<p>An IP address consists of four 8-bit integers (i.e. in the range 0-255) separated by dots. Thus there can be a total of 2<sup>32</sup> different IP addresses and so we can convert each IP into a 32-bit integer with a one-to-one mapping. This can be done using the following formula:</p>
+
+<p><img src="/blog/assets/img/Hashing-and-hash-tables/IP_Formula.JPG" alt="Formula" /></p>
+
+<p>We can create an array A of size 2<sup>32</sup>, where <em>A[i]</em> stores the number of times the service was accessed from the IP address, which corresponds to the integer <em>i</em>, in the last hour. The following pseudocode implements this idea:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/*
+Log is the array of log lines to be processed, having pairs (time, IP)
+C is array of counters, of size 2^32
+i - index of first unprocessed log line
+j - index of oldest line in the current 1 hour window
+*/
+
+// This function is called every second
+
+UpdateAccessList(Log, i, j, C):  
+
+// counter incremented for all IPs that accessed service at this instant
+// Now() gives the current time
+    while Log[i].time &lt;= Now():
+        C[int(Log[i].IP)] = C[int(Log[i].IP)] + 1
+        i = i + 1
+// counter decremented for all IPs that had accessed service an hour back
+    while Log[j].time &lt;= Now() - 3600:
+        C[int(Log[j].IP)] = C[int(Log[j].IP)] - 1
+        j = j - 1
+</code></pre></div></div>
+
+<p>Using this data structure <em>C</em>, we can answer all of the above queries conveniently in constant time. But this method has a disadvantage. Even if only a few IPs accessed service, we need to store memory for all the 2<sup>32</sup> possible IP addresses. This wastes a lot of memory. Also we might get instances where the number of objects to be mapped is much more than the memory capacity of the computer, for example mapping all possible strings in the English alphabet. In such cases, this method is not at all feasible, and we need a different method to store the mappings.</p>
+
+<h4 id="list-based-mapping">List Based Mapping</h4>
+
+<p>In the previous method of direct addressing, we saw that we stored all possible IPs and this requires too much memory. So one way of solving this is to store only the active IPs, i.e. only the IPs that have accessed service in the last hour. We can implement this using a linked list, sorted in the order of the time of access. Every time an IP becomes active, we append it to the end of the linkd list, and the IPs that are at the beginning of the list, which were accessed more than an hour ago, are removed.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// L - Linked list, whose each node is the pair (time, IP)
+
+UpdateAccessList(Log, i, L):  
+// All IPs that accessed service at this instant are appended at the end of the list
+    while Log[i].time &lt;= Now():
+// Append() function adds a node at the end of the list
+        L.Append(Log[i])
+        i = i + 1
+// IPs that had accessed service an hour back are popped from the front of the list
+// Top() returns the node at the beginning of the linked list
+// Pop() removes the front node from the linked list
+    while L.Top().time &lt;= Now() - 3600:
+        L.Pop()
+</code></pre></div></div>
+<p>The above method is memory efficient since we are storing only those IPs that are currently active. But there is a cost in this too. Let <em>n</em> be the number of currently active IPs. Memory usage is <em>O(n)</em>. But if we want to find if a certain IP accessed the service in the last hour, or count the number of times service was accessed from an IP, we have no choice but to traverse the entire linked list, and thus the time complexity becomes <em>O(n)</em>. This is no good since we can do the same operations in <em>O(n)</em> time without any additional data structure, by just traversing the access logs.</p>
+
+<p>However, we shall see that by combining the above two methods, we can come up with an efficient implementation.</p>
+
+<h2 id="hash-functions">Hash Functions</h2>
+
+<p>A hash function is any function that can be used to map a data set of an arbitrary size to a data set of a fixed size. The values returned by a hash function are called hash values, hash codes, hash sums, or simply hashes.</p>
+
+<blockquote>
+  <p>For any set of objects <em>S</em> and any integer <em>m&gt;0</em>, a function <em>h : S –&gt; {0, 1, 2, … m-1}</em> i.e., any function that encodes every object in <em>S</em> with an integer from <em>0</em> to <em>m-1</em>, is called a <em>hash function</em>. 
+<em>m</em> is called the cardinality of the hash function <em>h</em>.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Collisions</strong> : For any two objects <em>O<sub>1</sub></em> and <em>O<sub>2</sub></em>, where <em>O<sub>1</sub></em> is not the same as <em>O<sub>2</sub></em>, when <em>h(O<sub>1</sub>) = h(O<sub>2</sub>)</em>, then it is called a collision.</p>
+</blockquote>
+
+<p><strong>Desirable Properties of a Hash Function</strong></p>
+<ul>
+  <li>Easy to compute: It should be easy to compute and must not become an algorithm in itself.</li>
+  <li>Uniform distribution: It should provide a uniform distribution across the hash table and should not result in clustering.</li>
+  <li>Less collisions: Different values should be assigned for different objects.</li>
+</ul>
+
+<p><strong>Note</strong>: Irrespective of how good a hash function is, collisions are bound to occur. Therefore, to maintain the performance, it is important to manage collisions through various collision resolution techniques.</p>
+
+<p>Now let us define maps and hash tables:</p>
+
+<blockquote>
+  <p>A map from a set of objects S to a set of values V is a data structure with the methods:</p>
+  <ul>
+    <li>HasKey(O) : Returns whether there is an entry in the map, corresponding to the object O.</li>
+    <li>Get(O) : Returns the value corresponding to the object O.</li>
+    <li>Set(O, v) : Sets the value corresponding to the object O to v.</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>A <em>hash table</em> is a data structure that implements a map (or even just a set of objects without any mapping) using <em>hash functions</em>.</p>
+</blockquote>
+
+<p>We shall now look at a few implementations of hash tables.</p>
+
+<h2 id="chaining-open-hashing">Chaining (Open Hashing)</h2>
+
+<p>Let us first choose any hash function <em>h</em> of cardinality <em>m</em>. In chaining, we create an array of size <em>m</em>, where each element of the array is a linked list of pairs - an object <em>O</em> and its mapped value <em>v</em>. For inserting any object <em>O</em> and its mapped value <em>v</em> into the hash table, we first calculate the hash value of the object <em>O</em> using the hash function <em>h</em>. Then we go to the array index corresponding to the hash value, and append the pair <em>(O,v)</em> to the end of the linked list at that index.</p>
+
+<p><img src="/blog/assets/img/Hashing-and-hash-tables/Chaining1.JPG" alt="Chaining" /></p>
+
+<p>Let us consider our previous example of mapping IP addresses to counters. Let us assume a hash function of cardinality 8, and suppose that hash function gives the following values for certain IP addresses that are accessing the service. Then the chaining will look like:</p>
+
+<p><img src="/blog/assets/img/Hashing-and-hash-tables/Chaining2.JPG" alt="Chaining" /></p>
+
+<p>We will now see the pseudocode for implementing a hash table using chaining.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/*
+Assume a hash function h : S --&gt; {0, 1, 2, ... m-1}
+Let O be an object in S and V be a mapped value
+A is the array of m lists(chains) of pairs (O,V)
+*/
+
+HasKey(O):
+
+// We calculate the hash value of O and go to the corresponding chain in the array 
+    L = A[h(O)]
+// Searching through the linked list for the given object
+    for all pairs (o, v) in L:
+        if o == O:
+            return true
+    return false
+
+Get(O):
+    L = A[h(O)]
+    for all pairs (o, v) in L:
+        if o == O:
+            return v
+    return n/a
+
+Set(O, V):
+    L = A[h(O)]
+    for all pairs (o, v) in L:
+        if o == O:
+            v = V
+            return
+    L.Append(O, V)
+</code></pre></div></div>
+
+<p><strong>Complexity Analysis of Chaining :</strong>
+Let <em>c</em> be the length of the longest chain in <em>A</em>. Then the run-time of all the above operations will be <em>O(c+1)</em>.
+Let <em>n</em> be the number of different keys currently in the map and <em>m</em> be the cardinality of the hash function. Then the memory consumption for chaining is <em>O(n+m)</em>.</p>
+
+<p>Therefore to optimize the procedure, we need to choose hash functions such that <em>m</em> and <em>c</em> are as low as possible.</p>
+
+<h3 id="linear-probing-open-addressing-or-closed-hashing">Linear Probing (Open Addressing or Closed Hashing)</h3>
+
+<p>In open addressing, instead of in linked lists, all entry records are stored in the array itself. When a new entry has to be inserted, its hash value is computed. If the slot corresponding to this value in the array is unoccupied, then the entry record is inserted in this slot. Otherwise we examine the array starting from that position in some probe sequence until we find an unoccupied slot. The probe sequence is the sequence that is followed while traversing through entries. In different probe sequences, you can have different intervals between successive entry slots or probes.</p>
+
+<p>Linear probing is when the interval between successive probes is fixed (usually to 1).  Let’s assume that the hash value for a particular entry is <em>val</em>. Then the probing sequence for linear probing will be:<br />
+<em>index</em> = <em>val</em> % <em>m</em><br />
+<em>index</em> = (<em>val</em> + 1) % <em>m</em><br />
+<em>index</em> = (<em>val</em> + 2) % <em>m</em><br />
+<em>index</em> = (<em>val</em> + 3) % <em>m</em><br /></p>
+
+<p>Of course, this method works only if the number of keys to be stored in the hash table is less than or equal to the size of the hash table.</p>
+
+<p><strong>Implementation of Linear Probing :</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/*
+Suppose we are using linear probing to store a set of objects in a hash table.
+Let h be a hash function of cardinality m
+Let A be an array of size m
+*/
+
+// Inserting an object O
+insert(O):
+    val = h(O)
+// Search for an unused slot and if val exceeds m then roll back
+    while A[val] is not empty:
+        val = (val + 1) % m
+    A[val] = O
+
+// To check if an object O is present in the hash table
+search(O):
+    val = h(O)
+    while A[val] is not empty and A[val] is not equal to O:
+        val = (val + 1) % m
+// Check if the element is present in the hash table
+    if A[val] == O:
+        return true
+    else
+        return false
+</code></pre></div></div>
+
+<h2 id="choosing-a-hash-function">Choosing a Hash Function</h2>
+
+<p>Let us once again look at the chaining procedure to implement hash tables. We saw that we can optimize the hash table by choosing appropriate hash functions so that <em>c</em> is minimized i.e., the chain length should be minimized, so that for any given input object, we can access it from the hash table in as little time as possible. But then, for any hash function that we choose with <em>length(S) » m</em> (where S is the set of objects), there will exist a bad input resulting in a lot of collisions. At the same time, we also cannot choose a large value of <em>m</em>, since it requires too much space.</p>
+
+<p>To solve this problem, we can use randomization. We define a whole set of hash functions, called a family of hash functions. We then choose a random function from this family to use in our algorithm. Such a family of hash functions is called a universal family, if for any two objects <em>x</em> and <em>y</em>, on choosing a random hash function from the family, the probability of collision for <em>x</em> and <em>y</em> is very low. For any algorithm that we want to implement, we choose a random function from this family, and use that same function throughout our algorithm. By doing this, on average, we reduce the probablity of collisions, and thus we get a hash table with very small chain lengths, and operations on such a hash table take place in close to constant time.</p>
+
+<p>Let us see one such universal family for hashing integers.</p>
+
+<p>Suppose that we want to hash 6-digit roll numbers of students, i.e., the upper bound on our set of integers in 10<sup>6</sup>. We choose a big prime number <em>p &gt; 10<sup>6</sup></em> and cardinality of hash functions <em>m</em>. Then let us define a family of hash function as follows:</p>
+
+<blockquote>
+  <p><em>H = { h(x) = ((ax + b)%p)%m }</em> for all <em>a</em>, <em>b</em> such that <em>1&lt;=a&lt;=p</em> and <em>0&lt;=b&lt;=p</em>
+For different values of <em>a</em> and <em>b</em> subject to the above constraints, we get different hash functions belonging to the family.</p>
+</blockquote>
+
+<p>Let us now try hashing certain roll numbers using this family : Choose <em>p</em> = 1000003 (a prime number) and <em>m</em> = 1000</p>
+
+<p>Let <em>a</em> = 150, <em>b</em> = 55</p>
+<ul>
+  <li>roll = 181024 : h(181024) = ((181024*150 + 55) % 1000003) % 1000 = 574</li>
+  <li>roll = 181365 : h(181365) = ((181365*150 + 55) % 1000003) % 1000 = 724</li>
+</ul>
+
+<p>Let <em>a</em> = 1234, <em>b</em> = 100</p>
+<ul>
+  <li>roll = 181024 : h(181024) = ((181024*1234 + 100) % 1000003) % 1000 = 47</li>
+  <li>roll = 181365 : h(181365) = ((181365*1234 + 100) % 1000003) % 1000 = 841</li>
+</ul>
+
+<h2 id="applications-of-hashing">Applications of Hashing</h2>
+
+<ul>
+  <li>Associative arrays: Hash tables are commonly used to implement many types of in-memory tables. They are used to implement associative arrays (arrays whose indices are arbitrary strings or other complicated objects).</li>
+  <li>Database indexing: Hash tables may also be used as disk-based data structures and database indices (such as in dbm).</li>
+  <li>Caches: Hash tables can be used to implement caches i.e. auxiliary data tables that are used to speed up the access to data, which is primarily stored in slower media.</li>
+  <li>Object representation: Several dynamic languages, such as Perl, Python, JavaScript, and Ruby use hash tables to implement objects.</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/">https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/</a></li>
+</ul>
+
+<p>For more information on hash functions and universal families, refer:</p>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Universal_hashing#Hashing_integers">https://en.wikipedia.org/wiki/Universal_hashing#Hashing_integers</a></li>
+  <li><a href="http://cs-www.bu.edu/faculty/homer/537/talks/SarahAdelBargal_UniversalHashingnotes.pdf">http://cs-www.bu.edu/faculty/homer/537/talks/SarahAdelBargal_UniversalHashingnotes.pdf</a></li>
+</ul>
+
+                </article>
+                <div class="sidebar">
+    <h1>Related Articles</h1>
+    <div class="temp-div">
+        <span id="category">CompSoc</span>
+        <span id="title">Hashing and Hash Tables</span>
+    </div>
+    <div class="related-articles"></div>
+</div>
+
+            </div>
+
+            <section class="author" itemprop="author">
+    <div class="details" itemscope itemtype="http://schema.org/Person">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/blog-author.jpg" alt="Niranjan S Yadiyala">
+        <p class="def">Author</p>
+        <h3 class="name">
+            <a itemprop="name" href="/">Niranjan S Yadiyala</a>
+        </h3>
+        <p class="desc">Competitive Programmer</p>
+        <a itemprop="email" class="email" href="mailto:niranjan.sy99@gmail.com">niranjan.sy99@gmail.com</a>
+    </div>
+</section>
+
+            <section class="comments">
+
+	<div id="fb-root"></div>
+	
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=978128892233940";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+</section>
+            
+            <section class="share">
+    <h3>Share</h3>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/hashing-and-hash-tables/%20via%20&#64;IEEE_NITK&hashtags=Hashing,Algorithms,"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//hashing-and-hash-tables/"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+    </a>
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//hashing-and-hash-tables/"
+    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+        <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+    </a>
+</section>
+
+            <footer>
+    <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://ieeenitk.org">IEEE NITK</a></p>
+</footer>
+<script src="/blog/assets/js/main.js"></script>
+            
+<script>
+	$(document).ready(function(){
+		if($("pre code").length){
+			
+			$.getScript('../assets/js/highlight.pack.js', function(){
+    			// load the highlighter script only if we have code snippets.
+    			$('pre code').each(function(i, block) {
+    				hljs.highlightBlock(block);
+  				});	
+    		});
+		}
+	});
+</script>
+        </section>
+
+    </body>
+</html>
+            

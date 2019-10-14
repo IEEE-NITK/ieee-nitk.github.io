@@ -2,7 +2,7 @@
 layout: post
 title: "Hashing and Hash Tables"
 author_github: niranjansy
-date: 2018-10-06 23:00:00
+date: 2019-10-06 23:00:00
 image: '/assets/img/'
 description: 'This article gives an introduction to how hash tables are implemented in programming languages'
 tags: 
@@ -49,7 +49,9 @@ j - index of oldest line in the current 1 hour window
 */
 
 // This function is called every second
+
 UpdateAccessList(Log, i, j, C):  
+
 // counter incremented for all IPs that accessed service at this instant
 // Now() gives the current time
     while Log[i].time <= Now():
@@ -69,6 +71,7 @@ In the previous method of direct addressing, we saw that we stored all possible 
 
 ```
 // L - Linked list, whose each node is the pair (time, IP)
+
 UpdateAccessList(Log, i, L):  
 // All IPs that accessed service at this instant are appended at the end of the list
     while Log[i].time <= Now():
@@ -130,7 +133,9 @@ Assume a hash function h : S --> {0, 1, 2, ... m-1}
 Let O be an object in S and V be a mapped value
 A is the array of m lists(chains) of pairs (O,V)
 */
+
 HasKey(O):
+
 // We calculate the hash value of O and go to the corresponding chain in the array 
     L = A[h(O)]
 // Searching through the linked list for the given object
@@ -181,6 +186,7 @@ Suppose we are using linear probing to store a set of objects in a hash table.
 Let h be a hash function of cardinality m
 Let A be an array of size m
 */
+
 // Inserting an object O
 insert(O):
     val = h(O)
@@ -203,7 +209,7 @@ search(O):
 
 ## Choosing a Hash Function
 
-Let us once again look at the chaining procedure to implement hash tables. We saw that we can optimize the hash table by choosing appropriate hash functions so that *c* is minimized i.e., the chain length should be minimized, so that for any given input object, we can access it from the hash table in as little time as possible. But then, for any hash function that we choose with *|S| >> m* (where S is the set of objects), there will exist a bad input resulting in a lot of collisions. At the same time, we also cannot choose a large value of *m*, since it requires too much space.
+Let us once again look at the chaining procedure to implement hash tables. We saw that we can optimize the hash table by choosing appropriate hash functions so that *c* is minimized i.e., the chain length should be minimized, so that for any given input object, we can access it from the hash table in as little time as possible. But then, for any hash function that we choose with *length(S) >> m* (where S is the set of objects), there will exist a bad input resulting in a lot of collisions. At the same time, we also cannot choose a large value of *m*, since it requires too much space.
 
 To solve this problem, we can use randomization. We define a whole set of hash functions, called a family of hash functions. We then choose a random function from this family to use in our algorithm. Such a family of hash functions is called a universal family, if for any two objects *x* and *y*, on choosing a random hash function from the family, the probability of collision for *x* and *y* is very low. For any algorithm that we want to implement, we choose a random function from this family, and use that same function throughout our algorithm. By doing this, on average, we reduce the probablity of collisions, and thus we get a hash table with very small chain lengths, and operations on such a hash table take place in close to constant time. 
 
