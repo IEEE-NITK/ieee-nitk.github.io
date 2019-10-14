@@ -5,18 +5,20 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 12 Oct 2019 12:33:22 +0530</pubDate>
-    <lastBuildDate>Sat, 12 Oct 2019 12:33:22 +0530</lastBuildDate>
+    <pubDate>Mon, 14 Oct 2019 22:41:47 +0530</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2019 22:41:47 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Forward Swept Wings</title>
-        <description>&lt;h1 id=&quot;forward-swept-wings&quot;&gt;FORWARD SWEPT WINGS&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has...</description>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher speed...</description>
         <pubDate>Tue, 08 Oct 2019 01:00:30 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/forward-swept-wings/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/forward-swept-wings/</guid>
         
         <category>Piston</category>
+        
+        <category>Aeronautics</category>
         
         
         <category>Piston</category>
@@ -25,12 +27,16 @@
     
       <item>
         <title>Space-based Solar Power</title>
-        <description>&lt;h1 id=&quot;space-based-solar-power&quot;&gt;Space-based Solar Power&lt;/h1&gt; &lt;p&gt;Can you imagine deploying solar panels in space and efficiently converting the solar power that is received right from space and then transmitting the energy back to earth wirelessly, interesting right?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Space-based solar power&lt;/code&gt; project is a daring effort that collects the solar energy from the sun in space, converts it to energy and sends it down to Earth via microwaves. &lt;code class=&quot;highlighter-rouge&quot;&gt;Energy transmitting satellites&lt;/code&gt; that are placed in the geosynchronous orbit of the earth collect high intensity uninterrupted solar radiation by using giant mirrors that reflect huge amounts of solar rays onto two...</description>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Can you imagine deploying solar panels in space and efficiently converting the solar power that is received right from space and then transmitting the energy back to earth wirelessly, interesting right?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Space-based solar power&lt;/code&gt; project is a daring effort that collects the solar energy from the sun in space, converts it to energy and sends it down to Earth via microwaves. &lt;code class=&quot;highlighter-rouge&quot;&gt;Energy transmitting satellites&lt;/code&gt; that are placed in the geosynchronous orbit of the earth collect high intensity uninterrupted solar radiation by using giant mirrors that reflect huge amounts of solar rays onto two smaller solar...</description>
         <pubDate>Tue, 08 Oct 2019 00:59:30 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/space-based-solar-power/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/space-based-solar-power/</guid>
         
         <category>Diode</category>
+        
+        <category>Space</category>
+        
+        <category>Solar Power</category>
         
         
         <category>Diode</category>
@@ -39,7 +45,7 @@
     
       <item>
         <title>Password Security: Techniques and Challenges</title>
-        <description>&lt;h1 id=&quot;password-security&quot;&gt;&lt;strong&gt;Password Security&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Let me preface this article with something: There’s a very good chance that your password is not secure. In fact, if it’s anything less than nine characters long, any attacker could crack it in seconds if he had a decent GPU. Most of us know that ‘password’ is a very weak choice for a password, but there are some of us who think we’re smart and keep our passwords something like ‘p@$$w0r6’: It’s a terrible idea. Change it right now. ‘Hello123’ is probably safer than that. So what exactly is a safe password? And how do you...</description>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Let me preface this article with something: There’s a very good chance that your password is not secure. In fact, if it’s anything less than nine characters long, any attacker could crack it in seconds if he had a decent GPU. Most of us know that ‘password’ is a very weak choice for a password, but there are some of us who think we’re smart and keep our passwords something like ‘p@$$w0r6’: It’s a terrible idea. Change it right now. ‘Hello123’ is probably safer than that. So what exactly is a safe password? And how do you even...</description>
         <pubDate>Wed, 02 Oct 2019 14:50:10 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</guid>
@@ -51,7 +57,7 @@
         <category>Cryptography</category>
         
         
-        <category>Compsoc</category>
+        <category>CompSoc</category>
         
       </item>
     

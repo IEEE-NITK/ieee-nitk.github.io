@@ -7,14 +7,14 @@ image: '/assets/img/'
 description: 'Space-based Solar Power'
 tags:
 - Diode
+- Space
+- Solar Power
 categories:
 - Diode
 github_username: JyotsnaMeda
 ---
 
-
-
-# Space-based Solar Power 
+# Introduction
 
 Can you imagine deploying solar panels in space and efficiently converting the solar power that is received right from space and then transmitting the energy back to earth wirelessly, interesting right?
 >`Space-based solar power` project is a daring effort that collects the solar energy from the sun in space, converts it to energy and sends it down to Earth via microwaves.
@@ -144,7 +144,3 @@ References for further reading :
 - [https://www.youtube.com/watch?v=eBCbdThIJNE](https://www.youtube.com/watch?v=eBCbdThIJNE)
  
 - [https://iaaweb.org/iaa/Studies/sg311_finalreport_solarpower.pdf](https://iaaweb.org/iaa/Studies/sg311_finalreport_solarpower.pdf)
-
-
-
-
