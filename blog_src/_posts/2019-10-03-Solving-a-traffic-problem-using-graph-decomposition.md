@@ -24,7 +24,8 @@ The ten peace-keepers of Capital city propose an unconventional solution to this
 Now, the nine hard working peace-keepers explore different possible one-way transformations of market city. They call the transformation "good" if every traffic intersection is reachable from every other traffic intersection. They assign the tenth peace-keeper, the lazy one, the job of finding whether a given transformation is “good”. If you are the tenth peace-keeper, you are in luck, for we will show you how to accomplish this task, in a fraction of a second, using our vast computing power.
 
 ## **Formal ideas and definitions**
-<span style="text-decoration:underline;"> </span>Before we present a solution to our main problem, we first define some mathematical terms and explore a few key ideas. We will then redefine the main problem statement using those mathematical terms. We will explore the following ideas.
+
+Before we present a solution to our main problem, we first define some mathematical terms and explore a few key ideas. We will then redefine the main problem statement using those mathematical terms. We will explore the following ideas.
 * The idea of a graph
 * Exploring a graph
 * DFS (Depth First Search)
