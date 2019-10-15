@@ -203,7 +203,7 @@
 
 <p>I have downloaded a leaked password database called <strong>hak5.txt</strong> containing 2351 passwords and converted all the passwords to their MD5 hashes for the sake of this exercise. This means that these are real passwords that real people have used, which is significant because it puts into perspective how weak passwords in real life actually are. This is the file containing the hashes, ‘<strong>hashes.txt</strong>’:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/1.png" alt="File Containing Hashes" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/1.png" alt="File Containing Hashes" height="350px" /></p>
 
 <p>There are a lot of ways of cracking hashes. But for this demonstration, we will use three of some of the most used cracking techniques: <strong>Brute force attacks</strong>, <strong>Dictionary attacks</strong> and <strong>Rule-based Dictionary attacks</strong>. In general, there is only one approach to cracking a hash: keep guessing strings and compare their hashes with the hashes to be cracked. The different techniques are merely ways of guessing strings.</p>
 
@@ -214,15 +214,15 @@
 
 <p>Running the Command:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/2.png" alt="Running the Command" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/2.png" alt="Running the Command" height="350px" /></p>
 
 <p>Stats after completion:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/3.png" alt="Stats after completion" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/3.png" alt="Stats after completion" height="350px" /></p>
 
 <p>Cracked Passwords:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/4.png" alt="Cracked Passwords" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/4.png" alt="Cracked Passwords" height="350px" /></p>
 
 <p>So let’s go about this process step by step:</p>
 
@@ -248,15 +248,15 @@
 
 <p>Running the Command:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/5.png" alt="Running the Command" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/5.png" alt="Running the Command" height="350px" /></p>
 
 <p>Stats after completion:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/6.png" alt="Stats after completion" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/6.png" alt="Stats after completion" height="350px" /></p>
 
 <p>Cracked Passwords:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/7.jpg" alt="Cracked Passwords" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/7.jpg" alt="Cracked Passwords" height="350px" /></p>
 
 <p>This time, we get a lot more passwords. Everything in the command remains the same except we change the attack type from <code class="highlighter-rouge">3</code> to <code class="highlighter-rouge">0</code> to denote dictionary attack and specify the path to the wordlist, which, in this case is <code class="highlighter-rouge">rockyou.txt</code>. Certain points to note:</p>
 
@@ -275,19 +275,19 @@
 
 <p>Running the Command:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/8.png" alt="Running the Command" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/8.png" alt="Running the Command" height="350px" /></p>
 
 <p>Stats at the end of execution:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/9.png" alt="Stats at the end of execution" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/9.png" alt="Stats at the end of execution" height="350px" /></p>
 
 <p>Cracked Passwords:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/10.jpg" alt="Cracked Passwords" height="350px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/10.jpg" alt="Cracked Passwords" height="350px" /></p>
 
 <p>I terminated the process at 0.77% completion. It would take hours for hashcat to complete the process with the computing power that my computer can provide. Let me put up an image to compare how many passwords we have obtained with each technique:</p>
 
-<p><img src="/blog_src/assets/img/password-security-techniques-and-challenges/11.png" alt="Comparison" height="150px" /></p>
+<p><img src="/blog/assets/img/password-security-techniques-and-challenges/11.png" alt="Comparison" height="150px" /></p>
 
 <p>The differences between the techniques are apparent. Even though the rule-based attack completed only 0.77% of its procedure, it got more passwords than basic dictionary attack which completed 100% of its procedure. This should put into perspective how powerful rule-based dictionary attacks are, while being sufficiently fast.</p>
 

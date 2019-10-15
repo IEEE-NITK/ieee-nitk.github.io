@@ -26,7 +26,7 @@ Can you imagine deploying solar panels in space and efficiently converting the s
 - Why spend so much effort on implementing this system in space?
 
 
-# Here's why,
+# Why we implement it in Space:
 In space there is no atmosphere, it's never cloudy and in geosynchronous orbit, it is never night. The intensity of sunlight in space is 10 times more compared to its intensity on earth. Moreover, 30% of all incoming solar radiation is reflected by the earth's atmosphere and doesn't even make it to the ground. Solar power on earth is greatly affected by weather conditions and isn't an uninterrupted source of energy. Space is the perfect place for a solar power station to harvest uninterrupted power and can provide the earth with massive amounts of clean and renewable energy. lt has the potential to solve the energy crisis in the near future.
 
 In the near future humanity will have to make a transition from an energy based on fossil fuels, an exhaustible resource that is damaging our atmosphere and causing unknown long term effects on the climate-to a system based on clean, safe, reliable and renewable source of energy. Space-based solar power seems to be a perfect fit solution to this. It is an innovation designed to retain the advantages of traditional solar power while at the same time eliminating its disadvantages.
@@ -39,7 +39,7 @@ This technology is not something that has been thought of recently but has been 
 
 # How does it work?
 Design for a Space-based solar power system was developed by an American engineer, Peter Glacer, who in 1973 also received a patent for his design (which is as shown in the figure):
- ![how it works](/blog_src/assets/img/space-based-solar-power/first_im.jpg)
+ ![how it works](/blog/assets/img/space-based-solar-power/first_im.jpg)
  According to this design, the solar power that would be collected by the solar panels is converted into electrical energy and would be transmitted by a microwave antenna, which is built onto the satellite, to a large ground-based receiver called Rectenna.
  
 After Glacer's patent work, significant developments in this design have been taken place in the US, Canada, Europe, Japan, China, and India.
@@ -52,26 +52,26 @@ Space-based solar power essentially consists of three elements:
 - A means of `collecting solar power` in space. For example, via solar concentrators, solar cells or heat engines.
 - A means of `transmitting power` to earth. For example, via microwave or laser.
 - A means of `receiving power` on earth. For example, via a microwave antenna or rectenna.
-![receiving power](/blog_src/assets/img/space-based-solar-power/second_im.jpg)
+![receiving power](/blog/assets/img/space-based-solar-power/second_im.jpg)
 
 ## According to the IAA, there are 3 types of satellite architectures that can perform this task :
 ### 1.  Type one architecture :
 
-![type one architecture](/blog_src/assets/img/space-based-solar-power/third_im.jpg)
+![type one architecture](/blog/assets/img/space-based-solar-power/third_im.jpg)
 
 Very large PV array with microwave power transmission, i.e.,
 Multiple solar panel arrays are deployed in space and all of them integrated into one singular system that converts solar energy into electrical energy and this energy can be beamed down to earth using microwaves.
 ### 2. Type two configuration:
 
-![type two config](/blog_src/assets/img/space-based-solar-power/fourth_im.jpg)
+![type two config](/blog/assets/img/space-based-solar-power/fourth_im.jpg)
 
 Large PV array with laser power transmission, i.e.,
 A constellation of small satellites can be used, where each satellite has its own solar power conversion unit and all the converted energy is beamed down to earth in the form of laser energy, which is close to the visible spectrum. They are typically placed about 100 kilometers above the earth’s surface.
 
 ### 3. Type three configuration: 
-![type three config1](/blog_src/assets/img/space-based-solar-power/fifth_im.jpg)
+![type three config1](/blog/assets/img/space-based-solar-power/fifth_im.jpg)
 
-![type three config2](/blog_src/assets/img/space-based-solar-power/sixth_im.jpg)
+![type three config2](/blog/assets/img/space-based-solar-power/sixth_im.jpg)
 
 Optical concentrator with microwave power transmission, i.e.,
 
@@ -108,7 +108,7 @@ Type three systems may, therefore, prove the most viable to construct. Power in 
 - The long-distance of the satellite from earth would make it nearly impossible to repair.
 
 # Rectenna
-![rectenna](/blog_src/assets/img/space-based-solar-power/seventh_im.jpg)
+![rectenna](/blog/assets/img/space-based-solar-power/seventh_im.jpg)
 
 The beam terminates on an earth-based receiver called a Rectenna with a maximum intensity at the rectenna’s center and tapering to nearly nothing at the periphery. The rectenna could be just about the size of a municipal airport and is made up of a mesh of dipole antennas that capture all the incident energy from the beam. It is nevertheless 80% transparent to sunlight, allowing the land beneath to remain available for agricultural uses.
 

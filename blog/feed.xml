@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Oct 2019 22:41:47 +0530</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2019 22:41:47 +0530</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2019 13:00:49 +0530</pubDate>
+    <lastBuildDate>Tue, 15 Oct 2019 13:00:49 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Forward Swept Wings</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher speed...</description>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher speed...</description>
         <pubDate>Tue, 08 Oct 2019 01:00:30 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/forward-swept-wings/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/forward-swept-wings/</guid>
