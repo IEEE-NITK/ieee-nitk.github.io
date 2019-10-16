@@ -193,13 +193,16 @@ Clients started sending more frequent requests to the server requesting for data
 A good example of this is web apps that need real-time data (like gaming or chat apps). These require an abuse of the HTTP protocol to establish bidirectional data transfer.</p>
 
 <h1 id="problem">Problem</h1>
-<p>The main problem in the traditional HTTP model was that it was <strong>always the client that initiated transactions, ie. it was unidirectional</strong>. So a number of strategies were proposed to enable the server to ‘push’ data to the client.
-An other reason was increasing overhead due to HTTP. Every time a HTTP request is made, a bunch of headers and cookie data are transferred to the server. This can add up to a reasonably large amount of data that needs to be transferred, which in turn increases latency.</p>
+<p>The main problem in the traditional HTTP model was that it was <strong>always the client that initiated transactions, ie. it was unidirectional</strong>. 
+An other reason was increasing overheads due to HTTP. Every time a HTTP request is made, a bunch of headers and cookie data are transferred to the server. This can add up to a reasonably large amount of data that needs to be transferred, which in turn increases latency.</p>
 
-<p><em>Basically imagine that each time to get an updated stock’s price/a new message from your friend you had to refresh the page, and wait until the new price/message</em> <em>loaded. Firstly how would you even know that there has been a change in price/a new message has been sent to to you? And even if you did, it would take</em>
-<em>quite a while to load.</em></p>
+<blockquote>
+  <p>Basically imagine that each time to get an updated stock’s price/a new message from your friend you had to refresh the page, and wait until the new price/message loaded. Firstly how would you even know that there has been a change in price/a new message has been sent to to you? And even if you did, it would take*
+quite a while to load.</p>
+</blockquote>
 
-<p>Some of the <strong>startegies</strong> devised to combat the issue were:</p>
+<p>So a number of strategies were proposed to enable the server to ‘push’ data to the client.
+Some of the <strong>startegies</strong> devised to combat the issue were:</p>
 <h3 id="1-optimising-http-polling">1. Optimising HTTP Polling</h3>
 <ul>
   <li><strong>Periodic Polling:</strong>
@@ -247,7 +250,6 @@ If the server supports WS, the handshake is completed and the initial HTTP conne
   <li><a href="https://medium.com/@yassimortensen/an-introduction-to-websockets-10b131182559">Intro tutorial</a></li>
   <li><a href="https://blog.logrocket.com/websockets-tutorial-how-to-go-real-time-with-node-and-react-8e4693fbf843/">Implementation with Node and React</a></li>
 </ul>
-
 
                 </article>
                 <div class="sidebar">

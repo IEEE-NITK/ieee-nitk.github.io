@@ -32,12 +32,13 @@ Clients started sending more frequent requests to the server requesting for data
 A good example of this is web apps that need real-time data (like gaming or chat apps). These require an abuse of the HTTP protocol to establish bidirectional data transfer.
 
 # Problem
-The main problem in the traditional HTTP model was that it was **always the client that initiated transactions, ie. it was unidirectional**. So a number of strategies were proposed to enable the server to 'push' data to the client.
-An other reason was increasing overhead due to HTTP. Every time a HTTP request is made, a bunch of headers and cookie data are transferred to the server. This can add up to a reasonably large amount of data that needs to be transferred, which in turn increases latency.
+The main problem in the traditional HTTP model was that it was **always the client that initiated transactions, ie. it was unidirectional**. 
+An other reason was increasing overheads due to HTTP. Every time a HTTP request is made, a bunch of headers and cookie data are transferred to the server. This can add up to a reasonably large amount of data that needs to be transferred, which in turn increases latency.
 
-*Basically imagine that each time to get an updated stock's price/a new message from your friend you had to refresh the page, and wait until the new price/message* *loaded. Firstly how would you even know that there has been a change in price/a new message has been sent to to you? And even if you did, it would take*
-*quite a while to load.* 
+>Basically imagine that each time to get an updated stock's price/a new message from your friend you had to refresh the page, and wait until the new price/message loaded. Firstly how would you even know that there has been a change in price/a new message has been sent to to you? And even if you did, it would take*
+quite a while to load.
 
+So a number of strategies were proposed to enable the server to 'push' data to the client.
 Some of the **startegies** devised to combat the issue were:
 ### 1. Optimising HTTP Polling
 - **Periodic Polling:**
@@ -45,7 +46,7 @@ The very first attempt to solve the problem was by polling the server at regular
 - **Long Polling:**
 After the server receives a request, it holds the request open until new data(if any) is available. There were no notification delays.But more server resources were used.
 - **Streaming:**
-Basically infinitely polling...But the connection could get interrupted!
+Basically infinitely polling...But the connection could get interrupted by intermediaries serving other requests in a Round-Robin manner.
 
 ### 2. AJAX
 This technology can be used to create better, faster and more interactive applications using XML, HTML, CSS, and JavaScript. With Ajax, once you submit a form, JavaScript makes a request to the server, finds the result and updates the screen. The end user remains unaware of the fact that information was actually transmitted to the server.
@@ -84,13 +85,3 @@ WebSockets can be implemented practically using Node.js(using Socket.IO), Rails(
 
 - [Intro tutorial](https://medium.com/@yassimortensen/an-introduction-to-websockets-10b131182559) 
 - [Implementation with Node and React](https://blog.logrocket.com/websockets-tutorial-how-to-go-real-time-with-node-and-react-8e4693fbf843/)
-
-
-
-
-
-
-
-
-
-
