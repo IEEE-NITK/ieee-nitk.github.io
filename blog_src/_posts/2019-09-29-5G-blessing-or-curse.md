@@ -10,7 +10,7 @@ tags:
 - Wireless Networks
 - Cellular Networks
 categories:
-- Compsoc
+- CompSoc
 github_username: 'harsh2338'
 ---
 
