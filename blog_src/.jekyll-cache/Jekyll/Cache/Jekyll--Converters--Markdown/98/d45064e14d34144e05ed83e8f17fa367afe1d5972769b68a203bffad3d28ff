@@ -1,0 +1,85 @@
+I"�!<p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:</p>
+<ul>
+  <li>It is too simple</li>
+  <li>It’s performance is limited</li>
+  <li>It does not feels like embedded programming</li>
+  <li>There is a library for literally everything (sounds like an advantage?)</li>
+</ul>
+
+<p>Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “<em>It Kills the Spirit of Embedded Programming.</em>” And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it’s the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL’s (now owned by Microchip) AVR Studio to program these boards, it’s yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. <em>Arduino does have advantages over its primitive alternatives.</em></p>
+
+<h3 id="whats-my-point-then">What’s my point then?</h3>
+
+<p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
+</span></code></pre></div></div>
+<p>“<em>Done!</em>”</p>
+
+<p>So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one’s comfort Arduino IDE supports it out of the box. (right after installation?)</p>
+
+<h3 id="the-conservative-face-of-arduino">The conservative face of Arduino</h3>
+
+<p>Not many people might know but Arduino is <strong>backward compatible</strong>. For those who do not come from programming background (like myself) backward compatibility means support for primitive functions on which the newer abstract functions are based. For example the function cout and cin in C++ are the abstract functions while scanf and printf are the primitive ones. C++ however supports both so if performance is a major concern using printf (which is faster) instead of cout might save you a couple of micro-seconds. The analogy in embedded implies that instead of digitalWrite(8,HIGH), PORTB = 0b10000000 will do the exact same thing but a lot faster.</p>
+
+<p>Another example is the widely used analogWrite() function in arduino that outputs a PWM signal with a rather low frequency of 980 Hz and 490 Hz which might be slow depending on the application. In such a case instead of using the rather good looking analogWrite(), set the clocks to the counter units manually to achieve frequencies as high as 200KHz. All this might sound very simple to a person with a lot of experience programming micro-controllers but where does a noob starts from? Don’t worry, I got your back.</p>
+
+<h3 id="how-and-where-to-begin">How and where to begin?</h3>
+
+<p>To start off how about reading some theory on the architecture? Sounds very interesting right? Well yeah it might not be the most entertaining part but it is indeed an essential part (especially the register view of peripherals). A basic image of the architecture in mind allows the programmer to use architectural exploits to make the code run faster.</p>
+
+<ul>
+  <li>
+    <p>Quality tutorials can be found on <a href="http://www.avr-tutorials.com/">avr-tutorials</a> with examples. Added bonus is their assembly equivalent for every line of C code.</p>
+  </li>
+  <li>
+    <p>Ever feel lost? All good projects are complimented with ever helping communities. People at <a href="http://www.avrfreaks.net/">AVRfreaks</a> will be glad to help you.</p>
+  </li>
+  <li>
+    <p>Although there will be examples on internet explaining how to manipulate registers to do certain tasks (like setting up ADC) it is recommended to figure that out using the <a href="http://www.atmel.com/products/microcontrollers/avr/megaavr.aspx">data sheet of the micro-controller used in Arduino.</a></p>
+  </li>
+</ul>
+
+<h3 id="an-example">An Example</h3>
+<p>Enough with the blabbering, lets look at a simple example.</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
+</span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<span class="p">{</span>
+ <span class="c1">//set pin 5 of PORTB to output</span>
+ <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
+ <span class="p">}</span>
+ 
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="c1">//set pin 5 high to turn led on</span>
+  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
+  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
+  <span class="c1">//set pin 5 low to turn led off</span>
+  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
+  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>If you copy-paste the above code to Arduino IDE and upload it, it will mimic the classic Blink LED  code. The catch is that the built in Blink example takes 928 bytes of program memory while the above code takes just 486 bytes. (Almost half the space!)</p>
+
+<p><img src="https://i.stack.imgur.com/NxqQs.jpg" alt="ATmega 328P pinmapping to Arduino UNO Pins" /></p>
+
+<h3 id="comparison-of-performance">Comparison of performance</h3>
+
+<p>Still not convinced about the boost in performance possible by coding using primitive methods? Julian Ilett did a nice <a href="https://www.youtube.com/watch?v=U7I0GkwW1yE">comparison video</a> so you might want to check that out.</p>
+
+<p>If you think that speed and space is the only argument then let me include power considerations. AVR micro-controllers come with a bunch of peripherals that may or maynot be used by your code. In a scenario where the entire setup runs on a battery you might want to shut down unused peripherals (like ADC or counter units) to save power and increase the running time. Kevin Darrah’s <a href="https://www.youtube.com/watch?v=urLSDi7SD8M">video</a> will help you appreciate the power saver modes the micro-controller offers.</p>
+
+<p>On the already fantastic recipe of Arduino the icing is yet to come. You can code the <strong>blocks that need to be fast</strong> for your project using primitive C codes and still use the abstract arduino functions for the <strong>less time critical part</strong> of the code. For example, If you are working on a fast multiplexing application like an LED cube where data is sent to Arduino from PC, you would want to make sure that multiplexing is done at a very high speed (enough to fool human eyes at least) whereas you can still use the Serial.read() function to fetch data over serial port.</p>
+
+<blockquote>
+  <p>A word of advice: While programming in such a mixed style make sure the code doesn’t create conflicts with itself (like trying digitalWrite() on a pin which is configured to read analog values).</p>
+</blockquote>
+
+<h3 id="ready-steady-go">Ready, Steady, Go!</h3>
+
+<p>Congratulations if you made it till the end of this blog. Hopefully your arduino sketches are more optimized and gives you that <em>sense of pride</em>. Now what are you waiting for? Find your arduino and maybe make an 8x8x8 multiplexed L.E.D cube or something!</p>
+
+<p><img src="http://www.avrfreaks.net/sites/default/files/4CubeWave.gif" alt="Credits AVRfreaks" /></p>
+:ET
