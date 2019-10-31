@@ -2,14 +2,17 @@
 <sitemapindex xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
 	<sitemap>
-    <loc>https://ieee.nitk.ac.in/sitemap.xml</loc>
+        <loc>https://ieee.nitk.ac.in/sitemap.xml</loc>
+		<changefreq>daily</changefreq>
     </sitemap>
 
     <sitemap>
-    <loc>https://ieee.nitk.ac.in/blog/sitemap.xml</loc>
+        <loc>https://ieee.nitk.ac.in/blog/sitemap.xml</loc>
+		<changefreq>daily</changefreq>
     </sitemap>
 
     <sitemap>
-    <loc>https://ieee.nitk.ac.in/gyan/sitemap.xml</loc>
+        <loc>https://ieee.nitk.ac.in/gyan/sitemap.xml</loc>
+		<changefreq>daily</changefreq>
     </sitemap>
 </sitemapindex>
