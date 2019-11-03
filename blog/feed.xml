@@ -5,9 +5,49 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Oct 2019 13:00:49 +0530</pubDate>
-    <lastBuildDate>Tue, 15 Oct 2019 13:00:49 +0530</lastBuildDate>
+    <pubDate>Sun, 03 Nov 2019 15:10:44 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2019 15:10:44 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Generate Strange Text with GPT-2</title>
+        <description>&lt;p&gt;GPT-2 refers to a set of &lt;em&gt;Language Models&lt;/em&gt; released recently by OpenAI. My objective is to find weird ways that GPT-2 can fail, and also some smart things it is capable of. I’ll be using &lt;a href=&quot;https://talktotransformer.com/&quot;&gt;talktotransformer&lt;/a&gt; for this task. It’s a convenient tool that asks for a short text prompt, and then generates several lines of text to continue the prompt (no coding required!).&lt;/p&gt; &lt;p&gt;First, let’s see if you’re paying attention. Check out the following two samples:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on...</description>
+        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</guid>
+        
+        <category>NLP</category>
+        
+        <category>ML/AI</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Future of Drones</title>
+        <description>&lt;p&gt;The word &lt;strong&gt;Drone&lt;/strong&gt; is used pretty often in today’s world. Today the term has broadened to include anything from highly sophisticated $100M Global Hawk to $30 teeny-tiny UDI 839 Quadcopter. Even flightless vehicle such as Drone ship are occasionally referred to as drones.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/FutureOfDrones/drones1.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;p&gt;​ &lt;strong&gt;Global Hawk&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/FutureOfDrones/drones2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;p&gt;​ &lt;strong&gt;Quadcopter&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So what exactly is a drone?&lt;/p&gt; &lt;p&gt;It is called as an unmanned aerial vehicle essentially if it flies in a controlled way and their isn’t anybody on board. Whether it is controlled by computers or entirely controlled by a remote makes little difference. But...</description>
+        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/future-of-drones/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/future-of-drones/</guid>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Concorde: Why did it fail?</title>
+        <description>&lt;p&gt;Concorde: Why did it fail?&lt;/p&gt; &lt;p&gt;We had it.&lt;/p&gt; &lt;p&gt;From January 21st, 1976 to October 24, 2003, we had a commercial supersonic passenger service, called the Concorde, that would bring people from London to New York in just 3.5 hours, a journey that now takes about seven. Alongside the Tupolev Tu 144, Concorde was an aircraft that could brag about its supersonic speed, at a time when other jets could only manage speeds of about 800kmph.&lt;/p&gt; &lt;p&gt;Over the years, Concorde came to represent class and style among the elite class in England, France and the United States. With tickets costing up...</description>
+        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/concorde/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/concorde/</guid>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Forward Swept Wings</title>
@@ -128,62 +168,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Solving Switch Riddle using RL</title>
-        <description>&lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once...</description>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</guid>
-        
-        <category>Switch Riddle</category>
-        
-        <category>Reinforcement Learning</category>
-        
-        <category>DIAL</category>
-        
-        <category>RNN</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>How machine translation works</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“How does Google translate work? How do Alexa and Siri know what and when to respond to your queries?”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-does-machine-translation-mean&quot;&gt;What does Machine Translation mean?&lt;/h1&gt; &lt;p&gt;Machine Translation is essentially software that automatically renders text from one language into another. Formally speaking it falls under computational linguistics and language engineering. Machine translation needn’t just be conversion across human readable languages but can also be used for tasks like trigger word detection, converting human readable dates like ‘Tuesday, the 29th of Jan,2019’ to formats like 29-01-2019.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-translation/machine-translation-diagram2.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;various-methods-of-machine-translation&quot;&gt;Various Methods of Machine Translation.&lt;/h2&gt; &lt;p&gt;In the late 80’s,...</description>
-        <pubDate>Sat, 02 Feb 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/machine-translation/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-translation/</guid>
-        
-        <category>Natural Language Processing</category>
-        
-        <category>Supervised learning</category>
-        
-        <category>Machine translation</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Machine Learning Magic</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“Did you ever wonder how ML algorithms work?” “How is the weather forecast done?” “How does the self-driving car mimic the way humans drive?” “Let’s try to find answers to some of those questions…”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-is-this-machine-learning-&quot;&gt;WHAT IS THIS MACHINE LEARNING ?&lt;/h1&gt; &lt;p&gt;Assume you have some data, it could be anything like a set of tweets or Images of handwritten numbers or Emails marked as spam. But you don’t know what to do with it!!!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-learning-magic/1.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;So you look for an algorithm which can use this data and give you something you are interested in!&lt;/p&gt; &lt;p&gt;&lt;img...</description>
-        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/machine-learning-magic/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-learning-magic/</guid>
-        
-        <category>Machine learning</category>
-        
-        <category>Supervised learning</category>
-        
-        <category>tweets</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
