@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="description" content="Where we explore the funny world of recent language models">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="You don't really know Arduino">
-        <meta name="twitter:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="twitter:title" content="Generate Strange Text with GPT-2">
+        <meta name="twitter:description" content="Where we explore the funny world of recent language models">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/you-dont-really-know-arduino/" />
-        <meta property="og:title" content="You don't really know Arduino">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/" />
+        <meta property="og:title" content="Generate Strange Text with GPT-2">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta property="og:description" content="Where we explore the funny world of recent language models">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="You don't really know Arduino"/>
-        <meta itemprop="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta itemprop="name" content="Generate Strange Text with GPT-2"/>
+        <meta itemprop="description" content="Where we explore the funny world of recent language models">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>You don't really know Arduino</title>
+        <title>Generate Strange Text with GPT-2</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/you-dont-really-know-arduino/">
+        <link rel="canonical" href="/blog/generate-text-with-gpt2/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
@@ -122,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-12 05:02:44 +0530" class="date">12 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2019-11-02 07:06:00 +0530" class="date">02 Nov 2019</time>
         
-        <h1 class="post-title" itemprop="name">You don't really know Arduino</h1>
-        <p itemprop="description" class="subtitle">Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.</p>
+        <h1 class="post-title" itemprop="name">Generate Strange Text with GPT-2</h1>
+        <p itemprop="description" class="subtitle">Where we explore the funny world of recent language models</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -176,97 +176,172 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:</p>
-<ul>
-  <li>It is too simple</li>
-  <li>It’s performance is limited</li>
-  <li>It does not feels like embedded programming</li>
-  <li>There is a library for literally everything (sounds like an advantage?)</li>
-</ul>
+                    <p>GPT-2 refers to a set of <em>Language Models</em> released recently by OpenAI. My objective is to find weird ways that GPT-2 can fail, and also some smart things it is capable of. I’ll be using <a href="https://talktotransformer.com/">talktotransformer</a> for this task. It’s a convenient tool that asks for a short text prompt, and then generates several lines of text to continue the prompt (no coding required!).</p>
 
-<p>Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “<em>It Kills the Spirit of Embedded Programming.</em>” And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it’s the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL’s (now owned by Microchip) AVR Studio to program these boards, it’s yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. <em>Arduino does have advantages over its primitive alternatives.</em></p>
-
-<h3 id="whats-my-point-then">What’s my point then?</h3>
-
-<p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
-
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
-</span></code></pre></div></div>
-<p>“<em>Done!</em>”</p>
-
-<p>So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one’s comfort Arduino IDE supports it out of the box. (right after installation?)</p>
-
-<h3 id="the-conservative-face-of-arduino">The conservative face of Arduino</h3>
-
-<p>Not many people might know but Arduino is <strong>backward compatible</strong>. For those who do not come from programming background (like myself) backward compatibility means support for primitive functions on which the newer abstract functions are based. For example the function cout and cin in C++ are the abstract functions while scanf and printf are the primitive ones. C++ however supports both so if performance is a major concern using printf (which is faster) instead of cout might save you a couple of micro-seconds. The analogy in embedded implies that instead of digitalWrite(8,HIGH), PORTB = 0b00000001 will do the exact same thing but a lot faster.</p>
-
-<p>Another example is the widely used analogWrite() function in arduino that outputs a PWM signal with a rather low frequency of 980 Hz and 490 Hz which might be slow depending on the application. In such a case instead of using the rather good looking analogWrite(), set the clocks to the counter units manually to achieve frequencies as high as 200KHz. All this might sound very simple to a person with a lot of experience programming micro-controllers but where does a noob starts from? Don’t worry, I got your back.</p>
-
-<h3 id="how-and-where-to-begin">How and where to begin?</h3>
-
-<p>To start off how about reading some theory on the architecture? Sounds very interesting right? Well yeah it might not be the most entertaining part but it is indeed an essential part (especially the register view of peripherals). A basic image of the architecture in mind allows the programmer to use architectural exploits to make the code run faster.</p>
-
-<ul>
-  <li>
-    <p>Quality tutorials can be found on <a href="http://www.avr-tutorials.com/">avr-tutorials</a> with examples. Added bonus is their assembly equivalent for every line of C code.</p>
-  </li>
-  <li>
-    <p>Ever feel lost? All good projects are complimented with ever helping communities. People at <a href="http://www.avrfreaks.net/">AVRfreaks</a> will be glad to help you.</p>
-  </li>
-  <li>
-    <p>Although there will be examples on internet explaining how to manipulate registers to do certain tasks (like setting up ADC) it is recommended to figure that out using the <a href="http://www.atmel.com/products/microcontrollers/avr/megaavr.aspx">data sheet of the micro-controller used in Arduino.</a></p>
-  </li>
-</ul>
-
-<h3 id="an-example">An Example</h3>
-<p>Enough with the blabbering, lets look at a simple example.</p>
-
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
-</span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
-<span class="p">{</span>
- <span class="c1">//set pin 5 of PORTB to output</span>
- <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
- <span class="p">}</span>
- 
-<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
-<span class="p">{</span>
-  <span class="c1">//set pin 5 high to turn led on</span>
-  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-  <span class="c1">//set pin 5 low to turn led off</span>
-  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>If you copy-paste the above code to Arduino IDE and upload it, it will mimic the classic Blink LED  code. The catch is that the built in Blink example takes 928 bytes of program memory while the above code takes just 486 bytes. (Almost half the space!)</p>
-
-<p><img src="https://i.stack.imgur.com/NxqQs.jpg" alt="ATmega 328P pinmapping to Arduino UNO Pins" /></p>
-
-<h3 id="comparison-of-performance">Comparison of performance</h3>
-
-<p>Still not convinced about the boost in performance possible by coding using primitive methods? Julian Ilett did a nice <a href="https://www.youtube.com/watch?v=U7I0GkwW1yE">comparison video</a> so you might want to check that out.</p>
-
-<p>If you think that speed and space is the only argument then let me include power considerations. AVR micro-controllers come with a bunch of peripherals that may or maynot be used by your code. In a scenario where the entire setup runs on a battery you might want to shut down unused peripherals (like ADC or counter units) to save power and increase the running time. Kevin Darrah’s <a href="https://www.youtube.com/watch?v=urLSDi7SD8M">video</a> will help you appreciate the power saver modes the micro-controller offers.</p>
-
-<p>On the already fantastic recipe of Arduino the icing is yet to come. You can code the <strong>blocks that need to be fast</strong> for your project using primitive C codes and still use the abstract arduino functions for the <strong>less time critical part</strong> of the code. For example, If you are working on a fast multiplexing application like an LED cube where data is sent to Arduino from PC, you would want to make sure that multiplexing is done at a very high speed (enough to fool human eyes at least) whereas you can still use the Serial.read() function to fetch data over serial port.</p>
+<p>First, let’s see if you’re paying attention. Check out the following two samples:</p>
 
 <blockquote>
-  <p>A word of advice: While programming in such a mixed style make sure the code doesn’t create conflicts with itself (like trying digitalWrite() on a pin which is configured to read analog values).</p>
+  <p><strong>Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on coastal reservoirs as a sustainable strategy for water security on its Srinivasnagar premises from July 22. T G Seetharam, director, IIT Guwahati, will be the chief guest and inaugurate the seminar. K Uma Maheshwar Rao, director, NITK will preside over the inaugural function.</strong><br /><br />
+The seminar will offer a comprehensive overview of the coastal water management sector including hydrometeorology, hydrodynamic, hydrometeorology and hydrography.<br /><br />
+It will be addressed by experts in the various fields including engineering, hydraulics, hydrology, hydrography and marine ecology/oceanography, besides coastal water managers and engineers.<br /><br />
+Seetharam said while it was an emerging sector with great potential, no clear strategies were being pursued for conservation and recovery of flood prone areas.</p>
 </blockquote>
 
-<h3 id="ready-steady-go">Ready, Steady, Go!</h3>
+<p>Makes sense? What about this one:</p>
 
-<p>Congratulations if you made it till the end of this blog. Hopefully your arduino sketches are more optimized and gives you that <em>sense of pride</em>. Now what are you waiting for? Find your arduino and maybe make an 8x8x8 multiplexed L.E.D cube or something!</p>
+<blockquote>
+  <p><strong>Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on coastal reservoirs as a sustainable strategy for water security on its Srinivasnagar premises from July 22. T G Seetharam, director, IIT Guwahati, will be the chief guest and inaugurate the seminar. K Uma Maheshwar Rao, director, NITK will preside over the inaugural function.</strong><br /><br />
+“We will address the problem of coastal development in a holistic way and in many ways, the sea cannot be separated from the land. We have to look at the whole development area and take the sea into account,” M S Rathore, head of the Centre for Research in Development and Environment (CRED), said.<br /><br />
+This is the second such seminar under CRED. The first seminar was held on August 6.</p>
+</blockquote>
 
-<p><img src="http://www.avrfreaks.net/sites/default/files/4CubeWave.gif" alt="Credits AVRfreaks" /></p>
+<p>Which one do you think is real, and which one was generated?</p>
+
+<p>I’m dead serious: which one do you think is fake?</p>
+
+<p>You can re-read them carefully to make your choice.</p>
+
+<p><br /><br /><br /><br /><br /><br />
+Okay ready?
+<br /><br /><br /><br /><br /><br /></p>
+
+<p>Hah, Trick question! Turns out, <em>both</em> were generated by GPT-2. The real article is <a href="https://timesofindia.indiatimes.com/home/education/news/three-day-workshop-on-coastal-reservoir-at-nitk-concludes-today/articleshow/70356325.cms">this one from the Times Of India</a></p>
+
+<p>I took the first paragraph from that article (<strong>bold</strong> in the generated samples), fed it into the transformer, and after a few trials, out came the above two examples.</p>
+
+<p>Notice, in the second fake sample, the thing was talking about a certain <em>Centre for Research in Development and Environment</em>, which does sound like a typical government-style name for an organization. Also, it gave an <em>acronym</em> as well, and the initials match up! <em>CRED</em> isn’t even a real organization as far as I know, and the model somehow birthed it out of thin air.</p>
+
+<p>Now the obvious question is - can it generate poetry?</p>
+
+<p>Let’s see what the transformer spews out when prompted with Dylan Thomas’ famous piece:</p>
+
+<blockquote>
+  <p><strong>Do not go gentle into that good night,</strong><br />
+<strong>Old age should burn and rave at close of day;</strong><br />
+<strong>Rage, rage against the dying of the light.</strong>
+<br /><br />
+When the night is past and the moon is down,<br />
+I shall sit and watch it, till I have heard the dawn,<br />
+Which I shall know to be a new life.
+<br /><br />
+Old age ought not to be fathomed,<br />
+Forthwith shall we know it to be a night;<br />
+Rage is, and a good song shall be sung.
+<br /><br />
+And in the hour of my death I shall not sleep;<br />
+I shall sing and tell of the night long;<br />
+I shall hear your song and say: How sweet the evening</p>
+</blockquote>
+
+<p>Much deep, so poetry.</p>
+
+<p>Somehow the model knows how poems like these are structured, where the lines should break, and what kind of deep and wise sounding words a romantic poet writes.</p>
+
+<p>And now for some pure mischief:</p>
+
+<blockquote>
+  <p><strong>Kejriwal announces: “I’m a vampire. I’m actually from outer space”</strong><br />
+-On his alleged visit in 2013, to the Indian Space Research Organisation (ISRO) to observe the launch of a satellite of its foreign rivals<br />
+-Claims to have created the world’s second most powerful economy with “nearly double” of the GDP.<br />
+But that’s not all. Mr Kejriwal, who is the chief minister of Delhi, claims to have been abducted last year by the security forces, tortured and forced to drink demon urine.<br />
+And he has also said that he is a vampire, which is a type of supernatural creature that feeds on blood.<br />
+He said: “So that’s how I was born. It’s not my fault. I got stolen by the forces during a traffic raid. It took my arm off.”<br />
+Mr Kejriwal, the former Delhi chief minister, says he is a “vampire” because he believes God has cursed him.<br />
+A video obtained by Daily News India of Mr Kejriwal during his first public address was shown in front of the National Conference’s main square in Delhi.<br /></p>
+</blockquote>
+
+<p>Among other things:</p>
+
+<ol>
+  <li>It knows what a vampire does (<em>supernatural creature that feeds on blood.</em>)</li>
+  <li>It associates Kejriwal with the position of CM of Delhi, which is great! But it first says he is the CM, then says he’s the former CM. So it has problems with consistency.</li>
+  <li>The article seems to match the general flow of a news piece, albeit confused by the mention of vampires.</li>
+</ol>
+
+<p>How exactly does this thing work?</p>
+
+<hr />
+
+<h3 id="birds-eye-view-of-gpt-2">Birds eye view of GPT-2</h3>
+
+<p>GPT-2 stands for Generative Pretrained Transformer 2. Generative because it is, well, generating text. Pretrained because the guys who made it trained it on a HUGE corpus of outgoing links from Reddit. Pretraining is useful because this let’s us fine-tune the model to our particular use case with a lot fewer examples. Transformer because that’s what the building blocks of this thing are called.</p>
+
+<p><img src="/blog_src/assets/img/GPT2_gen/decoder.png" alt="Stack of Decoders" />
+<em><a href="https://jalammar.github.io/illustrated-bert/"><center>Source</center></a></em></p>
+
+<p>GPT-2 is a <strong>Language Model</strong>, which is a fancy way of saying that, when given a prompt, it gives a distribution of which word should come next.</p>
+
+<p>(It’s not exactly words that it gives probabilities for, more like pieces of words. For simplicity, let’s just assume that it has a vocabulary of words among which it decides.)</p>
+
+<p>But neural networks deal with numbers, not strings. So we convert each word into a fixed-length vector of numbers, so that the input sentences are converted into an array of vectors (all of the same length). This is what’s called an <strong>Embedding</strong>. GPT-2 also considers the context in which each word is used, and gives a slightly different set of numbers for different contexts.</p>
+
+<p>As an example of why context matters, notice that the word ‘break’ has different meanings in ‘break the glass’ vs ‘summer break’.</p>
+
+<p>So now have converted the input string into a list of vectors. Now we feed it into the <strong>Decoder</strong> block, which essentially looks like this::</p>
+
+<p><img src="/blog_src/assets/img/GPT2_gen/transformer_block.svg" alt="Transformer Block" />
+<em><a href="http://www.peterbloem.nl/blog/transformers"><center>Source</center></a></em></p>
+
+<p>Attention is an operation which converts an input sequence to an output sequence of the <em>same length</em>. The output is also a list of vectors of fixed length, just like the input sequence.</p>
+
+<p>MLP is just your garden variety vanilla feedforward net, although it can be a convolutional block as well.</p>
+
+<p>Layer norm is a method of speeding up the training (by allowing gradients to flow more easily), and adding regularization to the network.</p>
+
+<p>Also, we use skip connections (those arrows that go around blocks) because this let’s us directly propagate information from earlier layers to later layers.</p>
+
+<p>(For more in-depth and hands-on explanations, check out the resources at the end.)</p>
+
+<hr />
+
+<h3 id="closing-thoughts">Closing thoughts</h3>
+
+<p>You can make GPT-2 do all kinds of fun stuff: generate Lord of the Rings fanfiction, brew up some recipes, fake popular science news and generate some sweet, sweet political propaganda.</p>
+
+<p>When it works, it’s language use can be wicked good at fooling people who are just skimming (including me, of course). It can hold onto a topic over several sentences, and flow of words is also quite natural on the surface.</p>
+
+<p>It’s when you read beyond just the words themselves and try to grasp the big picture, it feels more like it took a big pile of what makes up the internet, mixed the sentences around thoroughly, and spit out a barely coherent soup.</p>
+
+<p>So does this thing have <em>actual</em> language understanding?</p>
+
+<hr />
+
+<h3 id="resources">Resources</h3>
+
+<p>If you wanna play around with GPT-2 yourself:</p>
+<ul>
+  <li><a href="https://talktotransformer.com/">Talk To Transformer</a></li>
+  <li><a href="https://transformer.huggingface.co/">Write With Transformer</a>
+<br /><br /></li>
+</ul>
+
+<p>If you want to dive deep and get your hands dirty with real code, here are some resources:</p>
+<ul>
+  <li><a href="http://www.peterbloem.nl/blog/transformers">Transformers from Scratch</a>: Really intuitive explanations of how the transformer works, including the reasoning behind attention. Shows how to implement one in PyTorch.</li>
+  <li><a href="https://jalammar.github.io/illustrated-bert/">The illustrated BERT, ELMo and co.</a>: A great overview of the various developments that led to the awesomeness of recent NLP models.</li>
+  <li><a href="https://huggingface.co/transformers/index.html">HuggingFace’s transformers library</a>
+<br /><br /></li>
+</ul>
+
+<p>For introduction to more fundamental concepts:</p>
+<ul>
+  <li><a href="https://cs231n.github.io/">Stanford CS231n Convolutional Neural Networks for Visual Recognition</a>: Nice introduction to machine learning in general, and convolutional nets in particular.</li>
+  <li><a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a>: A short and really approachable book that explains the foundations of neural networks, and how to implement some from scratch.</li>
+</ul>
+
+<p>For more fun stuff that Neural Nets do:</p>
+<ul>
+  <li><a href="https://aiweirdness.com/">AI Weirdness</a></li>
+  <li><a href="https://srconstantin.wordpress.com/2019/02/25/humans-who-are-not-concentrating-are-not-general-intelligences/">Humans Who Are Not Concentrating Are Not General Intelligences</a></li>
+  <li><a href="https://slatestarcodex.com/2019/02/19/gpt-2-as-step-toward-general-intelligence/">GPT-2 as a step toward General Intelligence</a></li>
+</ul>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
-        <span id="category">Diode</span>
-        <span id="title">You don't really know Arduino</span>
+        <span id="category">Compsoc</span>
+        <span id="title">Generate Strange Text with GPT-2</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -275,13 +350,13 @@
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/vibhore.jpg" alt="Vibhore Jain">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/kinshuk.jpg" alt="Kinshuk Kashyap">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Vibhore Jain</a>
+            <a itemprop="name" href="/">Kinshuk Kashyap</a>
         </h3>
-        <p class="desc">"Everyone is special" - a classic example of Oxymoron...</p>
-        <a itemprop="email" class="email" href="mailto:jainvibhore1997@gmail.com">jainvibhore1997@gmail.com</a>
+        <p class="desc">Randomized statistical pattern matcher</p>
+        <a itemprop="email" class="email" href="mailto:kinshuk.other@gmail.com">kinshuk.other@gmail.com</a>
     </div>
 </section>
 
@@ -299,23 +374,17 @@
 	</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/you-dont-really-know-arduino/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/you-dont-really-know-arduino/%20via%20&#64;IEEE_NITK&hashtags=Arduino,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/%20via%20&#64;IEEE_NITK&hashtags=NLP,ML/AI,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//generate-text-with-gpt2/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//generate-text-with-gpt2/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

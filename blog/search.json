@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Generate Strange Text with GPT-2",
+      "category" : "Compsoc",
+      "tags"     : "NLP and ML/AI",
+      "url"      : "http://ieee.nitk.ac.in/blog//generate-text-with-gpt2/",
+      "date"     : "02 Nov 2019",
+      "author"   : "Kinshuk Kashyap"
+    } ,
+  
+    {
+      "title"    : "Future of Drones",
+      "category" : "Diode",
+      "tags"     : "",
+      "url"      : "http://ieee.nitk.ac.in/blog//future-of-drones/",
+      "date"     : "02 Nov 2019",
+      "author"   : "Sai Kumar Dande"
+    } ,
+  
+    {
+      "title"    : "Concorde: Why did it fail?",
+      "category" : "Piston",
+      "tags"     : "",
+      "url"      : "http://ieee.nitk.ac.in/blog//concorde/",
+      "date"     : "02 Nov 2019",
+      "author"   : "Kartik Udaya Nayak"
+    } ,
+  
+    {
       "title"    : "Forward Swept Wings",
       "category" : "Piston",
       "tags"     : "Piston and Aeronautics",

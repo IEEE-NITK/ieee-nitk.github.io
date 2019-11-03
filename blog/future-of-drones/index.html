@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="description" content="">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="You don't really know Arduino">
-        <meta name="twitter:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="twitter:title" content="Future of Drones">
+        <meta name="twitter:description" content="">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/you-dont-really-know-arduino/" />
-        <meta property="og:title" content="You don't really know Arduino">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/future-of-drones/" />
+        <meta property="og:title" content="Future of Drones">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta property="og:description" content="">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="You don't really know Arduino"/>
-        <meta itemprop="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta itemprop="name" content="Future of Drones"/>
+        <meta itemprop="description" content="">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>You don't really know Arduino</title>
+        <title>Future of Drones</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/you-dont-really-know-arduino/">
+        <link rel="canonical" href="/blog/future-of-drones/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
@@ -122,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-12 05:02:44 +0530" class="date">12 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2019-11-02 07:06:00 +0530" class="date">02 Nov 2019</time>
         
-        <h1 class="post-title" itemprop="name">You don't really know Arduino</h1>
-        <p itemprop="description" class="subtitle">Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.</p>
+        <h1 class="post-title" itemprop="name">Future of Drones</h1>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -176,97 +176,70 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:</p>
+                    <p>The word <strong>Drone</strong> is used pretty often in today’s world. Today the term has broadened to include
+anything from highly sophisticated $100M Global Hawk to $30 teeny-tiny UDI 839 Quadcopter. Even flightless vehicle such as Drone ship are occasionally referred to as drones.</p>
+
+<p><img src="/blog_src/assets/img/FutureOfDrones/drones1.png" alt="img" /></p>
+
+<p>​                                                                                <strong>Global Hawk</strong></p>
+
+<p><img src="/blog_src/assets/img/FutureOfDrones/drones2.png" alt="img" /></p>
+
+<p>​                                                                                   <strong>Quadcopter</strong></p>
+
+<p>So what exactly is a drone?</p>
+
+<p>It is called as an unmanned aerial vehicle essentially if it flies in a controlled way and their isn’t anybody on board. Whether it is controlled by computers or entirely controlled by a remote makes little difference. But most often when you see a vehicle described as a drone today, it is a little bit of both: piloted by humans, but capable of some degree of navigation on its own if necessary.</p>
+
+<h3 id="the-monospinner-drone"><strong>THE MONOSPINNER DRONE</strong></h3>
+
+<p><img src="/blog_src/assets/img/FutureOfDrones/drones3.png" alt="img" /></p>
+
+<p>What do you think is the minimum number of moving parts required for a controlled flight?</p>
+
+<p>For example, helicopters have two moving parts, a propeller and tail rudder and multicopter drones hover in a place through a number of rotors which create an upward thrust to cancel out their weight, whereas mono spinner relies on just one propeller.</p>
+
+<p>This works without hinges, ailerons, flaps and servos. Because of single thrust force created by propeller it can’t just lift off from the ground, it flips over. In order to get it to flight it has to be thrown like a frisbee. For a certain constant angular speed and propeller force the torques are cancelled out by cross coupling terms, an unconventional equilibrium is found and the mono spinner is able to stay in one position.</p>
+
+<p>Feedback control keeps the mono spinner in its stable position, without active feedback control it will crash. However it produces only one thrust it can still be controllable using some advanced algorithms. This drone is robust and can recover and stabilize even after heavy disturbances.</p>
+
+<p><img src="/blog_src/assets/img/FutureOfDrones/drones4.png" alt="img" /></p>
+
+<p>What if a propeller or motor, of a quadcopter or any other with more than one propeller experiences a failure. Simple enough,  remaining propellers take over or at least they try. With  this single propeller idea we can make a drone fly  even when there is only one working
+propeller on drone.</p>
+
+<p>Similar to this drone, another single propeller drone is UNI -Copter. This drone has only one propeller, but the only difference here is it uses control surfaces to have stable flight. This has two layers of control surfaces, upper control surface and lower control surface. Upper control surface compensate the anti-torque and controls flight directions and lower control surface controls flight
+directions. Servo motors are used to control these control surfaces. The main advantage of this drone is its sphere shaped frame protects the core elements for flying and control and enables landing and take-off without constrains of terrain.</p>
+
+<h3 id="pollination-drones"><strong>POLLINATION DRONES</strong></h3>
+
+<p>Bees play a crucial role in pollination. These days bee colonies are decreasing due to increase in use of pesticides. So scientist in japan used a drone, horse hair and a sticky ionic gel which mimic the action of a bee. The pollinator drone is attached with a strip of horse hair at the bottom and it is coated with a gluey substance called ionic gel which has peculiar lift and stick ability. Pollen normally sticks to the hair of bee. Similarly pollen sticks to the drone and it can be transferred to another  flower.</p>
+
+<p>At present these drones are controlled manually. Future models of this might use Artificial Intelligence or GPS to control and plan the best paths to pollination.</p>
+
+<p>Similar to this, in 2017 Poli-X pollination Drone project was launched and it was tested in 2018. The main intention of this project is to design a drone which is capable of recognize flowering plant species and autonomously pollinate only those species. The concept prototypes, Poli-X1 and Poli-X2 are under development by OpenRobotix Labs. The drones are capable of recognizing plant species for pollination, self-charging  and remain in the fields throughout the flowering season.</p>
+
+<p><img src="/blog_src/assets/img/FutureOfDrones/drones5.png" alt="img" /></p>
+
+<p>​<strong>Pollination drone</strong></p>
+
+<p><img src="/blog_src/assets/img/FutureOfDrones/pollination.png" alt="img" /></p>
+
+<p>​                                                                                   <strong>Poli-X1 drone</strong></p>
+
+<h3 id="references"><strong>References</strong></h3>
+
 <ul>
-  <li>It is too simple</li>
-  <li>It’s performance is limited</li>
-  <li>It does not feels like embedded programming</li>
-  <li>There is a library for literally everything (sounds like an advantage?)</li>
+  <li><a href="https://www.flyingmachinearena.ethz.ch/wp-content/publications/2016/zhaIEEE16.pdf">https://www.flyingmachinearena.ethz.ch/wp-content/publications/2016/zhaIEEE16.pdf</a></li>
+  <li><a href="https://link.springer.com/content/pdf/10.1007%2Fs12206-018-0440-1.pdf">https://link.springer.com/content/pdf/10.1007%2Fs12206-018-0440-1.pdf</a></li>
 </ul>
-
-<p>Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “<em>It Kills the Spirit of Embedded Programming.</em>” And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it’s the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL’s (now owned by Microchip) AVR Studio to program these boards, it’s yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. <em>Arduino does have advantages over its primitive alternatives.</em></p>
-
-<h3 id="whats-my-point-then">What’s my point then?</h3>
-
-<p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
-
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
-</span></code></pre></div></div>
-<p>“<em>Done!</em>”</p>
-
-<p>So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one’s comfort Arduino IDE supports it out of the box. (right after installation?)</p>
-
-<h3 id="the-conservative-face-of-arduino">The conservative face of Arduino</h3>
-
-<p>Not many people might know but Arduino is <strong>backward compatible</strong>. For those who do not come from programming background (like myself) backward compatibility means support for primitive functions on which the newer abstract functions are based. For example the function cout and cin in C++ are the abstract functions while scanf and printf are the primitive ones. C++ however supports both so if performance is a major concern using printf (which is faster) instead of cout might save you a couple of micro-seconds. The analogy in embedded implies that instead of digitalWrite(8,HIGH), PORTB = 0b00000001 will do the exact same thing but a lot faster.</p>
-
-<p>Another example is the widely used analogWrite() function in arduino that outputs a PWM signal with a rather low frequency of 980 Hz and 490 Hz which might be slow depending on the application. In such a case instead of using the rather good looking analogWrite(), set the clocks to the counter units manually to achieve frequencies as high as 200KHz. All this might sound very simple to a person with a lot of experience programming micro-controllers but where does a noob starts from? Don’t worry, I got your back.</p>
-
-<h3 id="how-and-where-to-begin">How and where to begin?</h3>
-
-<p>To start off how about reading some theory on the architecture? Sounds very interesting right? Well yeah it might not be the most entertaining part but it is indeed an essential part (especially the register view of peripherals). A basic image of the architecture in mind allows the programmer to use architectural exploits to make the code run faster.</p>
-
-<ul>
-  <li>
-    <p>Quality tutorials can be found on <a href="http://www.avr-tutorials.com/">avr-tutorials</a> with examples. Added bonus is their assembly equivalent for every line of C code.</p>
-  </li>
-  <li>
-    <p>Ever feel lost? All good projects are complimented with ever helping communities. People at <a href="http://www.avrfreaks.net/">AVRfreaks</a> will be glad to help you.</p>
-  </li>
-  <li>
-    <p>Although there will be examples on internet explaining how to manipulate registers to do certain tasks (like setting up ADC) it is recommended to figure that out using the <a href="http://www.atmel.com/products/microcontrollers/avr/megaavr.aspx">data sheet of the micro-controller used in Arduino.</a></p>
-  </li>
-</ul>
-
-<h3 id="an-example">An Example</h3>
-<p>Enough with the blabbering, lets look at a simple example.</p>
-
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
-</span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
-<span class="p">{</span>
- <span class="c1">//set pin 5 of PORTB to output</span>
- <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
- <span class="p">}</span>
- 
-<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
-<span class="p">{</span>
-  <span class="c1">//set pin 5 high to turn led on</span>
-  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-  <span class="c1">//set pin 5 low to turn led off</span>
-  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>If you copy-paste the above code to Arduino IDE and upload it, it will mimic the classic Blink LED  code. The catch is that the built in Blink example takes 928 bytes of program memory while the above code takes just 486 bytes. (Almost half the space!)</p>
-
-<p><img src="https://i.stack.imgur.com/NxqQs.jpg" alt="ATmega 328P pinmapping to Arduino UNO Pins" /></p>
-
-<h3 id="comparison-of-performance">Comparison of performance</h3>
-
-<p>Still not convinced about the boost in performance possible by coding using primitive methods? Julian Ilett did a nice <a href="https://www.youtube.com/watch?v=U7I0GkwW1yE">comparison video</a> so you might want to check that out.</p>
-
-<p>If you think that speed and space is the only argument then let me include power considerations. AVR micro-controllers come with a bunch of peripherals that may or maynot be used by your code. In a scenario where the entire setup runs on a battery you might want to shut down unused peripherals (like ADC or counter units) to save power and increase the running time. Kevin Darrah’s <a href="https://www.youtube.com/watch?v=urLSDi7SD8M">video</a> will help you appreciate the power saver modes the micro-controller offers.</p>
-
-<p>On the already fantastic recipe of Arduino the icing is yet to come. You can code the <strong>blocks that need to be fast</strong> for your project using primitive C codes and still use the abstract arduino functions for the <strong>less time critical part</strong> of the code. For example, If you are working on a fast multiplexing application like an LED cube where data is sent to Arduino from PC, you would want to make sure that multiplexing is done at a very high speed (enough to fool human eyes at least) whereas you can still use the Serial.read() function to fetch data over serial port.</p>
-
-<blockquote>
-  <p>A word of advice: While programming in such a mixed style make sure the code doesn’t create conflicts with itself (like trying digitalWrite() on a pin which is configured to read analog values).</p>
-</blockquote>
-
-<h3 id="ready-steady-go">Ready, Steady, Go!</h3>
-
-<p>Congratulations if you made it till the end of this blog. Hopefully your arduino sketches are more optimized and gives you that <em>sense of pride</em>. Now what are you waiting for? Find your arduino and maybe make an 8x8x8 multiplexed L.E.D cube or something!</p>
-
-<p><img src="http://www.avrfreaks.net/sites/default/files/4CubeWave.gif" alt="Credits AVRfreaks" /></p>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
         <span id="category">Diode</span>
-        <span id="title">You don't really know Arduino</span>
+        <span id="title">Future of Drones</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -275,13 +248,13 @@
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/vibhore.jpg" alt="Vibhore Jain">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/" alt="Sai Kumar Dande">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Vibhore Jain</a>
+            <a itemprop="name" href="/">Sai Kumar Dande</a>
         </h3>
-        <p class="desc">"Everyone is special" - a classic example of Oxymoron...</p>
-        <a itemprop="email" class="email" href="mailto:jainvibhore1997@gmail.com">jainvibhore1997@gmail.com</a>
+        <p class="desc">Stars can't shine without darkness</p>
+        <a itemprop="email" class="email" href="mailto:saikumardande2001@gmail.com">saikumardande2001@gmail.com</a>
     </div>
 </section>
 
@@ -299,23 +272,17 @@
 	</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/you-dont-really-know-arduino/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/you-dont-really-know-arduino/%20via%20&#64;IEEE_NITK&hashtags=Arduino,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/future-of-drones/%20via%20&#64;IEEE_NITK&hashtags="
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//future-of-drones/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//future-of-drones/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>

@@ -41,27 +41,27 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta name="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="description" content="">
 
         <!-- Google Authorship Markup -->
         <!-- Social: Twitter -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@IEEE_NITK">
-        <meta name="twitter:title" content="You don't really know Arduino">
-        <meta name="twitter:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta name="twitter:title" content="Concorde: Why did it fail?">
+        <meta name="twitter:description" content="">
         <meta property="twitter:image:src" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="fb:app_id" content="0011038251882641" />
-        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/you-dont-really-know-arduino/" />
-        <meta property="og:title" content="You don't really know Arduino">
+        <meta property="og:url" content="http://ieee.nitk.ac.in/blog/concorde/" />
+        <meta property="og:title" content="Concorde: Why did it fail?">
         <meta property="og:image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png">
-        <meta property="og:description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta property="og:description" content="">
         <meta property="og:site_name" content="A blog about our findings and musings">
 
         <!-- Social: Google+ / Schema.org  -->
-        <meta itemprop="name" content="You don't really know Arduino"/>
-        <meta itemprop="description" content="Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.">
+        <meta itemprop="name" content="Concorde: Why did it fail?"/>
+        <meta itemprop="description" content="">
         <meta itemprop="image" content="http://ieee.nitk.ac.in/blog/assets/img/blog-image.png"/>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -86,13 +86,13 @@
         <!-- Include Font Awesome -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-        <title>You don't really know Arduino</title>
+        <title>Concorde: Why did it fail?</title>
 
         <!-- highlighter theme -->
         <link rel="stylesheet" href="/blog/assets/css/monokai-sublime.css">
 
         <link rel="stylesheet" href="/blog/assets/css/main.css">
-        <link rel="canonical" href="/blog/you-dont-really-know-arduino/">
+        <link rel="canonical" href="/blog/concorde/">
         <link rel="alternate" type="application/rss+xml" title="A blog about our findings and musings"
         href="http://ieee.nitk.ac.in/blog/feed.xml" />
 
@@ -122,10 +122,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2017-09-12 05:02:44 +0530" class="date">12 Sep 2017</time>
+            <time itemprop="datePublished" datetime="2019-11-02 07:06:00 +0530" class="date">02 Nov 2019</time>
         
-        <h1 class="post-title" itemprop="name">You don't really know Arduino</h1>
-        <p itemprop="description" class="subtitle">Are you tired of the monotonic simplicity of Arduino? Well this article might add an extra dimension for you to explore.</p>
+        <h1 class="post-title" itemprop="name">Concorde: Why did it fail?</h1>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -176,97 +176,40 @@
 
             <div class="content-box">
                 <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                    <p>Is he kiddin? Well I am not (just be patient enough to reach the end). Arduino is a very good platform to start making <strong>witty</strong> electronics projects instead of dumb L.E.D blinking circuits (apologies to the 555) but after some time electronic hobbyists loose interest due to one or more of the following reasons:</p>
-<ul>
-  <li>It is too simple</li>
-  <li>It’s performance is limited</li>
-  <li>It does not feels like embedded programming</li>
-  <li>There is a library for literally everything (sounds like an advantage?)</li>
-</ul>
+                    <p>Concorde: Why did it fail?</p>
 
-<p>Well the amount of abstraction Arduino offers hides vital details of the micro-controller that powers the board. “<em>It Kills the Spirit of Embedded Programming.</em>” And thus people tend to move over to MSP430 and PIC development boards without appreciating the power of AVR controllers (Yup it’s the family of controllers that power Arduino UNO, Mega, Nano, Mini and Duemilanove). And while people do use ATMEL’s (now owned by Microchip) AVR Studio to program these boards, it’s yet another IDE meant only for AVRs. Arduino on the other hand with proper libraries and compiler integration acts as a standalone IDE for micro-controllers by different manufacturers like the popular ESP8266. <em>Arduino does have advantages over its primitive alternatives.</em></p>
+<p>We had it.</p>
 
-<h3 id="whats-my-point-then">What’s my point then?</h3>
+<p>From January 21st, 1976 to October 24, 2003, we had a commercial supersonic passenger service, called the Concorde, that would bring people from London to New York in just 3.5 hours, a journey that now takes about seven. Alongside the Tupolev Tu 144, Concorde was an aircraft that could brag about its supersonic speed, at a time when other jets could only manage speeds of about 800kmph.</p>
 
-<p>My point is that Arduino is good for building projects quickly and hassle-free but it does not let’s the user learn the details of the micro-controller. The user friedly libraries are <strong>not so learner friendly</strong> because they make you lazy. Every one using Arduino be like “<em>hmmm so I need to control a servo(or anything) well I can use timers in arduino but wait…</em>”</p>
+<p>Over the years, Concorde came to represent class and style among the elite class in England, France and the United States. With tickets costing up to 6 times the average cost of today's airfare, flights were usually jampacked with 120 members of the elite class, who enjoyed an extensive 2.5-hour French meal during the flight.</p>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;servo.h&gt; 
-</span></code></pre></div></div>
-<p>“<em>Done!</em>”</p>
+<p>The Concorde was a sight to marvel amongst all aviation enthusiasts, featuring ogival delta wings with four Olympus engines; Concorde flew at a record speed of Mach 2, twice the speed of sound. It was the only commercial aircraft that carried passengers at supersonic speeds, at a time when long distance travel was both expensive and difficult.</p>
 
-<p>So to learn Arduino one needs to stop using the user-friendly abstract fuctions of Arduino and get down a level deeper into the realm of Embedded C coding. And to one’s comfort Arduino IDE supports it out of the box. (right after installation?)</p>
+<p>Then, on October 24th, 2003, British airways flew Concorde for the last time. For 27 long years, passengers had access to a means of super sonic transport, and then suddenly, we stopped.</p>
 
-<h3 id="the-conservative-face-of-arduino">The conservative face of Arduino</h3>
+<p>The main reason for the retirement of Concorde came on July 2000, when an Air France operated Concorde suffered a fatal crash just after take-off. The crash took 113 lives, including all of the passengers and crew and four people on ground. It was the only fatal crash involving Concorde.</p>
 
-<p>Not many people might know but Arduino is <strong>backward compatible</strong>. For those who do not come from programming background (like myself) backward compatibility means support for primitive functions on which the newer abstract functions are based. For example the function cout and cin in C++ are the abstract functions while scanf and printf are the primitive ones. C++ however supports both so if performance is a major concern using printf (which is faster) instead of cout might save you a couple of micro-seconds. The analogy in embedded implies that instead of digitalWrite(8,HIGH), PORTB = 0b00000001 will do the exact same thing but a lot faster.</p>
+<p>According to the official investigation conducted by the Bureau d'Enquêtes et d'Analyses pour la Sécurité de l'Aviation Civile (BEA), the crash was caused by a metallic strip that had fallen from a Continental Airlines flight that had taken off minutes earlier. The metal strip punctured a tire on the Concorde's main wheel, causing the wheel to explode, puncturing the fuel tank in consequence. The resulting fire forced the crew to shut down the engine 2, and with engine 1 providing only little power, the aircraft was not able to gain altitude or speed. After a rapid pitch up, the aircraft suddenly descended and crashed at Hôtelissimo Les Relais Bleus Hotel in Gonesse.</p>
 
-<p>Another example is the widely used analogWrite() function in arduino that outputs a PWM signal with a rather low frequency of 980 Hz and 490 Hz which might be slow depending on the application. In such a case instead of using the rather good looking analogWrite(), set the clocks to the counter units manually to achieve frequencies as high as 200KHz. All this might sound very simple to a person with a lot of experience programming micro-controllers but where does a noob starts from? Don’t worry, I got your back.</p>
+<p>Following this incident, Concorde was grounded for a year. Service resumed in September 2001, by which time the 9/11 attacks had already depressed the industry.</p>
 
-<h3 id="how-and-where-to-begin">How and where to begin?</h3>
+<p>While both tragedies did contribute to the ultimate grounding in 2003, they were only a couple of pieces of the ultimate challenge the aircraft faced.</p>
 
-<p>To start off how about reading some theory on the architecture? Sounds very interesting right? Well yeah it might not be the most entertaining part but it is indeed an essential part (especially the register view of peripherals). A basic image of the architecture in mind allows the programmer to use architectural exploits to make the code run faster.</p>
+<p>High levels of noise during take off were one thing, but the sonic booms had no comparison. During test runs, residents complained of broken windows and extremely high noise disturbances. All this meant limiting supersonic flights to over the ocean, which crushed the American dream of Concorde.</p>
 
-<ul>
-  <li>
-    <p>Quality tutorials can be found on <a href="http://www.avr-tutorials.com/">avr-tutorials</a> with examples. Added bonus is their assembly equivalent for every line of C code.</p>
-  </li>
-  <li>
-    <p>Ever feel lost? All good projects are complimented with ever helping communities. People at <a href="http://www.avrfreaks.net/">AVRfreaks</a> will be glad to help you.</p>
-  </li>
-  <li>
-    <p>Although there will be examples on internet explaining how to manipulate registers to do certain tasks (like setting up ADC) it is recommended to figure that out using the <a href="http://www.atmel.com/products/microcontrollers/avr/megaavr.aspx">data sheet of the micro-controller used in Arduino.</a></p>
-  </li>
-</ul>
+<p>Concorde guzzled a lot of fuel, as it was always soaring higher and higher, going faster and faster. Fuel requirements limited the flights to trans-Atlantic flights, meaning there would be no trans pacific flights. They also guzzled enough fuel that slight changes in fuel prices would affect Concorde harder than others. fitting only 120 passengers at max capacity, this meant the prices had to be exorbitant. It couldn't compete with the cost distribution of high capacity flights like the Airbus A340 that could carry way more passengers for a lower cost. Concorde also needed specially trained crew members, and the maintenance cost was extravagant.</p>
 
-<h3 id="an-example">An Example</h3>
-<p>Enough with the blabbering, lets look at a simple example.</p>
+<p>And all this came for a very demanding crowd. Air France and British Airways had to position spare Concordes in New York in case the returning flight had some problems. So, there were always a Concorde on ground, not making any money, just in case. Because Concorde passengers expected to get walk onto a Concorde, for they had paid a lot of money.</p>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#define BLINK_DELAY_MS 1000
-</span><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
-<span class="p">{</span>
- <span class="c1">//set pin 5 of PORTB to output</span>
- <span class="n">DDRB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">DDB5</span><span class="p">);</span>
- <span class="p">}</span>
- 
-<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
-<span class="p">{</span>
-  <span class="c1">//set pin 5 high to turn led on</span>
-  <span class="n">PORTB</span> <span class="o">|=</span> <span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-  <span class="c1">//set pin 5 low to turn led off</span>
-  <span class="n">PORTB</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">_BV</span><span class="p">(</span><span class="n">PORTB5</span><span class="p">);</span>
-  <span class="n">_delay_ms</span><span class="p">(</span><span class="n">BLINK_DELAY_MS</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>If you copy-paste the above code to Arduino IDE and upload it, it will mimic the classic Blink LED  code. The catch is that the built in Blink example takes 928 bytes of program memory while the above code takes just 486 bytes. (Almost half the space!)</p>
-
-<p><img src="https://i.stack.imgur.com/NxqQs.jpg" alt="ATmega 328P pinmapping to Arduino UNO Pins" /></p>
-
-<h3 id="comparison-of-performance">Comparison of performance</h3>
-
-<p>Still not convinced about the boost in performance possible by coding using primitive methods? Julian Ilett did a nice <a href="https://www.youtube.com/watch?v=U7I0GkwW1yE">comparison video</a> so you might want to check that out.</p>
-
-<p>If you think that speed and space is the only argument then let me include power considerations. AVR micro-controllers come with a bunch of peripherals that may or maynot be used by your code. In a scenario where the entire setup runs on a battery you might want to shut down unused peripherals (like ADC or counter units) to save power and increase the running time. Kevin Darrah’s <a href="https://www.youtube.com/watch?v=urLSDi7SD8M">video</a> will help you appreciate the power saver modes the micro-controller offers.</p>
-
-<p>On the already fantastic recipe of Arduino the icing is yet to come. You can code the <strong>blocks that need to be fast</strong> for your project using primitive C codes and still use the abstract arduino functions for the <strong>less time critical part</strong> of the code. For example, If you are working on a fast multiplexing application like an LED cube where data is sent to Arduino from PC, you would want to make sure that multiplexing is done at a very high speed (enough to fool human eyes at least) whereas you can still use the Serial.read() function to fetch data over serial port.</p>
-
-<blockquote>
-  <p>A word of advice: While programming in such a mixed style make sure the code doesn’t create conflicts with itself (like trying digitalWrite() on a pin which is configured to read analog values).</p>
-</blockquote>
-
-<h3 id="ready-steady-go">Ready, Steady, Go!</h3>
-
-<p>Congratulations if you made it till the end of this blog. Hopefully your arduino sketches are more optimized and gives you that <em>sense of pride</em>. Now what are you waiting for? Find your arduino and maybe make an 8x8x8 multiplexed L.E.D cube or something!</p>
-
-<p><img src="http://www.avrfreaks.net/sites/default/files/4CubeWave.gif" alt="Credits AVRfreaks" /></p>
+<p>All these reasons, combined with minimal support from the aircraft manufacturers led to the ultimate downfall of the Concorde. The beast that once rose through the skies now sits idle at the many museums around the world. The story of Concorde tells us that no matter how innovative, jaw dropping, or inspiring a business model is, without proper supply systems, political resolves and a plan to expand, it won't sustain unless it makes money. People may not like that idea, but it is a fact of life.</p>
 
                 </article>
                 <div class="sidebar">
     <h1>Related Articles</h1>
     <div class="temp-div">
-        <span id="category">Diode</span>
-        <span id="title">You don't really know Arduino</span>
+        <span id="category">Piston</span>
+        <span id="title">Concorde: Why did it fail?</span>
     </div>
     <div class="related-articles"></div>
 </div>
@@ -275,13 +218,13 @@
 
             <section class="author" itemprop="author">
     <div class="details" itemscope itemtype="http://schema.org/Person">
-        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/vibhore.jpg" alt="Vibhore Jain">
+        <img itemprop="image" class="img-rounded" src="/blog/assets/img/authors/kartik.jepg" alt="Kartik Udaya Nayak">
         <p class="def">Author</p>
         <h3 class="name">
-            <a itemprop="name" href="/">Vibhore Jain</a>
+            <a itemprop="name" href="/">Kartik Udaya Nayak</a>
         </h3>
-        <p class="desc">"Everyone is special" - a classic example of Oxymoron...</p>
-        <a itemprop="email" class="email" href="mailto:jainvibhore1997@gmail.com">jainvibhore1997@gmail.com</a>
+        <p class="desc"></p>
+        <a itemprop="email" class="email" href="mailto:kartik.nayak@rocketmail.com">kartik.nayak@rocketmail.com</a>
     </div>
 </section>
 
@@ -299,23 +242,17 @@
 	</script>
 </section>
             
-                <section class="comments">
-                    <h4>Comments</h4>
-                    <div class="fb-comments" data-href="http://ieeenitk.org/blog/you-dont-really-know-arduino/" data-colorscheme="dark" data-num-posts="4" data-width="706">
-                    </div>
-                </section>
-            
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/you-dont-really-know-arduino/%20via%20&#64;IEEE_NITK&hashtags=Arduino,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://ieee.nitk.ac.in/blog/concorde/%20via%20&#64;IEEE_NITK&hashtags="
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://ieee.nitk.ac.in//blog//concorde/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//you-dont-really-know-arduino/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://ieee.nitk.ac.in//blog//concorde/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
