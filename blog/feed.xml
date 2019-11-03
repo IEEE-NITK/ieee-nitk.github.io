@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Oct 2019 10:32:08 +0530</pubDate>
-    <lastBuildDate>Fri, 11 Oct 2019 10:32:08 +0530</lastBuildDate>
+    <pubDate>Sun, 03 Nov 2019 22:22:29 +0530</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2019 22:22:29 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Ever wondered how the Internet works</title>
-        <description>&lt;h2 id=&quot;ever-wondered-how-the-internet-works&quot;&gt;EVER WONDERED HOW THE INTERNET WORKS?&lt;/h2&gt; &lt;p&gt;From the instant I search for a website to the instant the webpage loads on our browser, there are a lot of things that happens in between these two instants. Let’s take the example of &lt;a href=&quot;http://google.com/&quot;&gt;Google&lt;/a&gt; which most of us have searched for. The browser does not know what &lt;a href=&quot;http://google.com/&quot;&gt;Google&lt;/a&gt; is, so it sends a message to the internet service provider asking if it knows what Google is. The internet service provider passes on the URL to the DNS servers. A DNS server is a computer server that contains a database...</description>
+        <description>&lt;h2 id=&quot;ever-wondered-how-the-internet-works&quot;&gt;EVER WONDERED HOW THE INTERNET WORKS?&lt;/h2&gt; &lt;p&gt;From the instant I search for a website to the instant the webpage loads on our browser, there are a lot of things that happens in between these two instants. Let’s take the example of &lt;a href=&quot;http://google.com/&quot;&gt;Google&lt;/a&gt; which most of us have searched for. The browser does not know what &lt;a href=&quot;http://google.com/&quot;&gt;Google&lt;/a&gt; is, so it sends a message to the internet service provider asking if it knows what Google is. The internet service provider passes on the URL to the DNS servers.&lt;/p&gt; &lt;p&gt;A DNS server is a computer server that contains a database...</description>
         <pubDate>Wed, 02 Oct 2019 05:54:44 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/How-the-internet-works/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/How-the-internet-works/</guid>
