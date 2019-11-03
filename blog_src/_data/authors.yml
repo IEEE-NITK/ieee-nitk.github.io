@@ -774,3 +774,19 @@ vehandoshi:
   author_image: 'vehan_doshi.jpeg'
   email: vehanh.181me184@nitk.edu
   user_description: 'Life is uncertain, eat desserts first'
+kinshukk:
+  name: Kinshuk Kashyap
+  github: kinshukk
+  author_image: 'kinshuk.jpg'
+  user_description: Randomized statistical pattern matcher
+  email: kinshuk.other@gmail.com
+kartiknayak:
+  name: Kartik Udaya Nayak
+  github: kartiknayak
+  author_image: kartik.jepg
+  email: kartik.nayak@rocketmail.com
+saikumardande:
+  name: Sai Kumar Dande
+  github: saikumardande
+  user_description: Stars can't shine without darkness
+  email: saikumardande2001@gmail.com
