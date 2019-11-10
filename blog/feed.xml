@@ -5,9 +5,67 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Nov 2019 15:10:44 +0530</pubDate>
-    <lastBuildDate>Sun, 03 Nov 2019 15:10:44 +0530</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2019 19:41:54 +0530</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2019 19:41:54 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Why do Generative Adversarial Nets matter?</title>
+        <description>&lt;p&gt;A new class of &lt;strong&gt;Generative Models&lt;/strong&gt; was proposed in 2014 by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; (a.k.a The GANfather) which brought in a novel method of dealing with issues in ML and AI. The Invention of &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (GANs) can be regarded as one of the path-breaking innovations in making computers do useful stuff. GANs have seen some crazy development from an application perspective and has been one of the hottest topics for research in the past 5 years.&lt;/p&gt; &lt;h2 id=&quot;so-what-does-a-generative-model-do&quot;&gt;So what does a Generative Model do?&lt;/h2&gt; &lt;p&gt;The main objective of a Generative Model is to create more samples of the &lt;strong&gt;same&lt;/strong&gt;...</description>
+        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/why-do-GANs-matter/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-do-GANs-matter/</guid>
+        
+        <category>Deep Learning</category>
+        
+        <category>Generative Adversarial Networks</category>
+        
+        <category>GANs</category>
+        
+        <category>Generative Models</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>CompSoc</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Who doesn't want to live on another planet?</title>
+        <description>&lt;p&gt;The colonization of Mars has been a popular theme of discussion over the past few decades. Whether it's in the spirit of exploration, expansion of human settlement or mining for additional resources, the idea of inhabiting another planet has allured us.&lt;/p&gt; &lt;p&gt;This is also evident in how often the idea of colonizing Mars appears in fiction and pop culture: from &quot;The Martian Chronicles&quot; by Ray Bradbury to &quot;The Martian&quot; by Andy Weir, the prospect of humans inhabiting the red planet has been explored from the perspectives of fantasy to science.&lt;/p&gt; &lt;p&gt;Keeping aside the political and ethical challenges that are intrinsic...</description>
+        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/colonization-of-mars/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/colonization-of-mars/</guid>
+        
+        <category>Piston</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Bionics - The Gap between disability and ability</title>
+        <description>&lt;p&gt;&lt;strong&gt;1.Bionics and its growing relevance&lt;/strong&gt; The rise of bionics has prompted some interesting questions- &lt;strong&gt;Can we trade away our biological body for a repairable one , one that won’t age?&lt;/strong&gt;. Bionics is defined as the science of connecting biological systems to artificial systems to develop machines that can imitate our biology. As bionic systems and transhuman augmentations exceed human capabilities humanity might soon face an interesting dichotomy - &lt;strong&gt;Either remain physically inferior and embody the cherished values of humanism&lt;/strong&gt; as we know them or to become a &lt;strong&gt;superior transhuman with a repairable body that can transcend the decay of aging&lt;/strong&gt;....</description>
+        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/bionics/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/bionics/</guid>
+        
+        <category>Diode</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>Generate Strange Text with GPT-2</title>
@@ -114,60 +172,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Long Short Term Memory Neural Networks</title>
-        <description>&lt;p&gt;Long Short Term Memory Neural Networks or LSTM Neural Network is a commonly used Recurrent Neural Network model that is most commonly used in tasks like speech recognition, music generation etc. Lets take a deep dive into what Recurrent Neural Networks are and why we need and use LSTMs.&lt;/p&gt; &lt;h1 id=&quot;long-short-term-memory-neural-networks&quot;&gt;Long Short Term Memory Neural Networks&lt;/h1&gt; &lt;h3 id=&quot;recurrent-neural-networks-and-why-lstms&quot;&gt;Recurrent Neural Networks and Why LSTMs?&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; are those Neural Networks that we use to process information that require us to keep informed of previous information. In simpler words, when we want a model to perform a certain category of tasks...</description>
-        <pubDate>Thu, 22 Aug 2019 16:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</guid>
-        
-        <category>Recurrent Neural Networks</category>
-        
-        <category>Long Short Term Memory Neural Networks</category>
-        
-        <category>Machine Learning</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Radar Imaging</title>
-        <description>&lt;h1 id=&quot;radar-imaging&quot;&gt;&lt;strong&gt;RADAR IMAGING&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The World Wars were undoubtedly the worst things to happen to mankind but, they also birthed some ground breaking technology that is till date being used, one such example is the RADAR, acronym for &lt;strong&gt;Radio Detection and Ranging&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;RADARs are a combination of EM transmitters and receivers that can be used to detect the presence of objects in a particular &lt;strong&gt;range&lt;/strong&gt; specified for that RADAR. The principle involved is the reflection of the EM waves off the target and detection by the receiver of the RADAR.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/Radar-Imaging/1.gif&quot; alt=&quot;firstimage&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;The diagram represents a high level representation...</description>
-        <pubDate>Thu, 22 Aug 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Radar-Imaging/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Radar-Imaging/</guid>
-        
-        <category>RADARSs</category>
-        
-        <category>Doppler Processing</category>
-        
-        <category>Image</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>ELF Files in Linux</title>
-        <description>&lt;p&gt;Have you ever tried to print the a.out file generated when you compile your C program? It prints gibberish! Ever wondered how the computer produces a valid, sensible output from this? Read ahead to find out.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;ELF stands for Executable and Linkable Format. ELF files are usually the outputs of compilers. They exist in binary format (hence, the gibberish when printed). This format helps the operating system interpret the underlying machine instructions correctly. ELF is not only used for binaries and executables but also object code, shared libraries and core dumps. Any program is first translated by a...</description>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</guid>
-        
-        <category>ELF</category>
-        
-        <category>Linux</category>
-        
-        <category>Binary</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
