@@ -1,12 +1,39 @@
 [
   
     {
+      "title"    : "Why do Generative Adversarial Nets matter?",
+      "category" : "CompSoc",
+      "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, Machine Learning, CompSoc, and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//why-do-GANs-matter/",
+      "date"     : "10 Nov 2019",
+      "author"   : "Videh Raj Nema"
+    } ,
+  
+    {
+      "title"    : "Who doesn&#39;t want to live on another planet?",
+      "category" : "Piston",
+      "tags"     : "Piston and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//colonization-of-mars/",
+      "date"     : "10 Nov 2019",
+      "author"   : "Drishika Nadella"
+    } ,
+  
+    {
+      "title"    : "Bionics - The Gap between disability and ability",
+      "category" : "Diode",
+      "tags"     : "Diode and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//bionics/",
+      "date"     : "10 Nov 2019",
+      "author"   : "Nikhil Nair"
+    } ,
+  
+    {
       "title"    : "Generate Strange Text with GPT-2",
       "category" : "Compsoc",
       "tags"     : "NLP and ML/AI",
       "url"      : "http://ieee.nitk.ac.in/blog//generate-text-with-gpt2/",
       "date"     : "02 Nov 2019",
-      "author"   : "Kinshuk Kashyap"
+      "author"   : ""
     } ,
   
     {
@@ -15,7 +42,7 @@
       "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//future-of-drones/",
       "date"     : "02 Nov 2019",
-      "author"   : "Sai Kumar Dande"
+      "author"   : ""
     } ,
   
     {
@@ -24,7 +51,7 @@
       "tags"     : "",
       "url"      : "http://ieee.nitk.ac.in/blog//concorde/",
       "date"     : "02 Nov 2019",
-      "author"   : "Kartik Udaya Nayak"
+      "author"   : ""
     } ,
   
     {
@@ -33,7 +60,7 @@
       "tags"     : "Piston and Aeronautics",
       "url"      : "http://ieee.nitk.ac.in/blog//forward-swept-wings/",
       "date"     : "08 Oct 2019",
-      "author"   : "Vehan Doshi"
+      "author"   : ""
     } ,
   
     {
@@ -42,7 +69,7 @@
       "tags"     : "Diode, Space, and Solar Power",
       "url"      : "http://ieee.nitk.ac.in/blog//space-based-solar-power/",
       "date"     : "08 Oct 2019",
-      "author"   : "Jyotsna M"
+      "author"   : ""
     } ,
   
     {
@@ -51,7 +78,7 @@
       "tags"     : "Systems, Security, and Cryptography",
       "url"      : "http://ieee.nitk.ac.in/blog//password-security-techniques-and-challenges/",
       "date"     : "02 Oct 2019",
-      "author"   : "Suhas K S"
+      "author"   : ""
     } ,
   
     {
