@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	  <url>
 		<loc>https://ieee.nitk.ac.in/</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 	
 	  <url>
 		<loc>https://ieee.nitk.ac.in/compsoc</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 	
 	  <url>
 		<loc>https://ieee.nitk.ac.in/diode</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 	
 	  <url>
 		<loc>https://ieee.nitk.ac.in/ias</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 	
 	  <url>
 		<loc>https://ieee.nitk.ac.in/piston</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 	
 	  <url>
 		<loc>https://ieee.nitk.ac.in/sight</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 	
 	  <url>
 		<loc>https://ieee.nitk.ac.in/wie</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 	
 	  <url>
 		<loc>https://ieee.nitk.ac.in/team</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 
 	  <url>
 		<loc>https://ieee.nitk.ac.in/achieve</loc>
-		<changefreq>daily</changefreq>
+		<changefreq>monthly</changefreq>
 	  </url>
 
 	  <url>

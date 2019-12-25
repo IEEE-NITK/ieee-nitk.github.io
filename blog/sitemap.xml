@@ -1,640 +1,799 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/forward-swept-wings/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/space-based-solar-power/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/Radar-Imaging/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/machine-translation/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/machine-learning-magic/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/social-engineering/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-missing-circuit-element/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/smart-contracts/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/self-healing-material/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/photocatalytic-decomposition/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/an-intro-to-the-map-reduce-programming-paradigm/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/thermal-imaging/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/nano-medicine/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/how-computers-learn-to-play-games/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/GaN/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/why-you-should-learn-flutter/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/nanosheets-decorated-with-dna/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/electronic-skin/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/nanomachines/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/gesture-controlled-robot/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/cloud-gaming/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/zero-knowledge-proof/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/microled/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/ballistics/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/organic-photovoltaics/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/mems/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/deconv/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/supercap/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/kmp-algorithm/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/by-wire/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/coronary-stents/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/electronic-aspirin/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/web-3-0/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/vortices/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/light-backscatter-application/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/why-you-need-gpu/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/varistor/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/automate-the-industries/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/why-machine-learning-matters/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/phase-change-material/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/avionics/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/segment-tree/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/nanoparticle-wonder-liquid/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/cloud-computing/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/biomicry-creating-a-truly-sustainable-environment/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/bionics/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-new-biometric-brainprint/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/pow-consensus-blockchain/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/quantum-supremacy/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/string-genetic/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/nanomotors/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/earthing-systems/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/chain-of-things/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/heap_exploitation/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/computational-approaches-of-shock-waves/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/charge-crowding/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/why-50hz/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/market-basket/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/alterego/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/regenerative-braking/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/washable-electronics/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/qemu-virtualization/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/amazon-go/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/smart-lighting-systems/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/prof-matching-envision/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/evolution-of-bicycle/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/electric-cars/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/tSNE/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/bit-manipulation/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/fluids-and-satellites/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/how-is-technology-helping-the-differently-abled-people/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/public-key-cryptography/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/war-of-the-currents/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/speed-printing/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/space-ml/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/e-Ink/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/rocker-bogie/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/future-of-computing-quantum-computing/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-airbag-system-for-two-wheeler-vehicle/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/bot/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/a-step-ahead-in-reverse-engineering/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/rfid/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/machine-learning-for-stock-market-investment/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/evacuated-tube-collector/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-halting-problem/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/design-of-aircraft-windows/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/how-qr-code-was-invented/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/smart-grid/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/magnetically-repelling-ice/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-beginning-of-the-end-have-the-machines-won/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/introduction-to-docker/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-ligo-experiment/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/wireless-power-transmission/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/using-mdns-in-iot/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-honeycomb-conjecture/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/charge-your-phone/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/augmented-reality/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-brain-behind-a-formula-one-car/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/robots-can-see-in-3d/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/generative-adversarial-networks/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/search-engine-optimisation/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/rpi-tutorial/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/aircraft-engines/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/fingerprint-recognition/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/chatbot/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/biohacking/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/quantum-computers/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/getting-started-with-gui/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/challenger-disaster/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/bit-torrent-explained/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/storing-energy-in-salt/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/what-makes-a-smart-home-smart/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/you-dont-really-know-arduino/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/water-memory-what-a-memory/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/rock-paper-scissors/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/airbus-e-fan/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/safety-issues-in-ai-systems/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/technology-in-sports/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/hashing-in-competitive-programming/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/six-stroke-engine/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/opencv/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/random-number-generator/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/smartphones-and-health/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/raspberry-pi-bluetooth/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/high-lift-devices/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/3d-printing/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/reinforcement-learning/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/number-theory/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/log-file-parsing-and-report-generation/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/cuba-and-candela-thin-shell-structures-and-their-strength-through-curvature/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/multitenancy/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/cvt/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/finfets/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/compliant-mechanisms/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/big-data/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/dealing-with-underdetermined-systems/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/hyperloop/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/graphene/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/promises-closures-and-potatoes/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/fluid-mechanics-in-everyday-life/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-fourth-industrial-revolution/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/through-the-eyes-of-a-computer/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/introduction-to-reverse-engineering/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/google-image-search-grid/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/lighting-up-your-room/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/the-class-of-np/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/why-not-chemical-engineering/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/introduction-to-gpu-computing/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/how-to-get-started-with-bots/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/hello-world/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/getting-to-love-the-terminal/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/installing-ubuntu/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
-	  <url>
+	<url>
 		<loc>http://ieee.nitk.ac.in/blog/introduction-to-ieee/</loc>
-	  </url>
+		<changefreq>weekly</changefreq>
+	</url>
 	
 </urlset>
