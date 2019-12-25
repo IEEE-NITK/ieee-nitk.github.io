@@ -2,7 +2,7 @@
 title: A blog about our findings and musings
 description: IEEE NITK is a student branch of IEEE located at NITK Surathkal. This blog serves as a collection of ideas and thoughts of different members in various technical areas.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://ieee.nitk.ac.in" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://ieee.nitk.ac.in" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: IEEE-NITK 
