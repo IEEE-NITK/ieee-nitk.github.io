@@ -506,7 +506,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #aboutimg{
-  size: 25%;
+  width: 100%;
   max-height: 350px;
   margin-bottom: 10px;
 }
@@ -742,6 +742,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #2b5cac;
 }
 
+.carousel-inner img {
+  margin: auto;
+}
+
 /* Portfolio Section
 --------------------------------*/
 
@@ -892,6 +896,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #contact {
+  text-align: center;
+
   background: #f7f7f7;
   padding: 80px 0 40px 0;
 }
@@ -902,21 +908,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info {
+  text-align: center;
   color: #333333;
+  margin-bottom: 30px;
 }
 
 #contact .info i {
   font-size: 32px;
   color: #2b5cac;
-  float: left;
+  /* float: left; */
 }
 
-#contact .info p {
-  padding: 0 0 10px 50px;
-  margin-bottom: 20px;
-  line-height: 22px;
-  font-size: 14px;
-}
 
 #contact .info .email p {
   padding-top: 5px;
