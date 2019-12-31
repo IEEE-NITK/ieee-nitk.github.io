@@ -55,5 +55,9 @@
     {
 		"name": "Join Us",
 		"link": "joinus.html"
-    }
+    },
+    {
+      "name": "Embedathon",
+      "link": "embedathon.html"
+      }
 ]    
