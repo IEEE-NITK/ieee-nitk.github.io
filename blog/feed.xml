@@ -5,9 +5,83 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Nov 2019 19:41:54 +0530</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2019 19:41:54 +0530</lastBuildDate>
+    <pubDate>Tue, 31 Dec 2019 18:13:47 +0530</pubDate>
+    <lastBuildDate>Tue, 31 Dec 2019 18:13:47 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Stem Cell Technology</title>
+        <description>&lt;h1 id=&quot;stem-cell-technology&quot;&gt;STEM CELL TECHNOLOGY&lt;/h1&gt; &lt;h3 id=&quot;what-are-stem-cells&quot;&gt;What are stem cells?&lt;/h3&gt; &lt;p&gt;Imagine waking up from a tragic accident that left you paralyzed from the neck down, will there be any hope to recover completely? Won’t it be amazing if there was a research that the use of stem cells could lead to potential treatments and cures.&lt;/p&gt; &lt;p&gt;With the advent of technology in the fields of artificial intelligence, robotics, genetics, etc., homo sapiens are finally at the threshold of a path to revitalizing and renewing our current fields of health care.&lt;/p&gt; &lt;p&gt;Stem cells are cells that can differentiate into other types or kinds...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/stem_cells/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/stem_cells/</guid>
+        
+        <category>stem cells</category>
+        
+        <category>Piston</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Bluetooth Low Energy</title>
+        <description>&lt;p&gt;We all know how infuriating it is when our devices drains battery when it uses wireless communication like wifi, bluetooth, infra-red. In every device we use, we are always concerned with the &lt;strong&gt;power consumption&lt;/strong&gt;. A device which consumes less power is always favourable. So in this article, I am going to elucidate an effective solution to the power problem in wireless communication- &lt;strong&gt;Bluetooth Low Energy&lt;/strong&gt; , also known as &lt;strong&gt;BLE&lt;/strong&gt;.&lt;/p&gt; &lt;h1 id=&quot;why-ble&quot;&gt;Why BLE?&lt;/h1&gt; &lt;p&gt;Historically, &lt;strong&gt;classic bluetooth&lt;/strong&gt; (the bluetooth we are all aware of) was mainly designed to replace cable and it covers many protocols. And with speeds increasing with new...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</guid>
+        
+        <category>low power</category>
+        
+        <category>wireless communication</category>
+        
+        <category>Diode</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>An Introduction To WebSockets</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
+        
+        <category>Web</category>
+        
+        <category>Web Sockets</category>
+        
+        <category>Networks</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>An Introduction To WebSockets</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
+        <pubDate>Thu, 26 Dec 2019 07:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
+        
+        <category>Web</category>
+        
+        <category>Web Sockets</category>
+        
+        <category>Networks</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Why do Generative Adversarial Nets matter?</title>
@@ -101,74 +175,6 @@
         <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/concorde/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/concorde/</guid>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Forward Swept Wings</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher speed...</description>
-        <pubDate>Tue, 08 Oct 2019 01:00:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/forward-swept-wings/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/forward-swept-wings/</guid>
-        
-        <category>Piston</category>
-        
-        <category>Aeronautics</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Space-based Solar Power</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Can you imagine deploying solar panels in space and efficiently converting the solar power that is received right from space and then transmitting the energy back to earth wirelessly, interesting right?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Space-based solar power&lt;/code&gt; project is a daring effort that collects the solar energy from the sun in space, converts it to energy and sends it down to Earth via microwaves. &lt;code class=&quot;highlighter-rouge&quot;&gt;Energy transmitting satellites&lt;/code&gt; that are placed in the geosynchronous orbit of the earth collect high intensity uninterrupted solar radiation by using giant mirrors that reflect huge amounts of solar rays onto two smaller solar...</description>
-        <pubDate>Tue, 08 Oct 2019 00:59:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/space-based-solar-power/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/space-based-solar-power/</guid>
-        
-        <category>Diode</category>
-        
-        <category>Space</category>
-        
-        <category>Solar Power</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Password Security: Techniques and Challenges</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Let me preface this article with something: There’s a very good chance that your password is not secure. In fact, if it’s anything less than nine characters long, any attacker could crack it in seconds if he had a decent GPU. Most of us know that ‘password’ is a very weak choice for a password, but there are some of us who think we’re smart and keep our passwords something like ‘p@$$w0r6’: It’s a terrible idea. Change it right now. ‘Hello123’ is probably safer than that. So what exactly is a safe password? And how do you even...</description>
-        <pubDate>Wed, 02 Oct 2019 14:50:10 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</guid>
-        
-        <category>Systems</category>
-        
-        <category>Security</category>
-        
-        <category>Cryptography</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Research, an informal testimony</title>
-        <description>&lt;h1 id=&quot;research-an-informal-testimony&quot;&gt;Research, an informal testimony&lt;/h1&gt; &lt;p&gt;The feeling of working with the author of textbooks that you first read to learn a subject is something beyond the ability of adjectives to explain. However, it is also the time when you begin to realize what you know is barely a fraction of what exists and that there’s always much more to learn. I am extremely privileged to have spent the summer at Stanford Microfluidics Lab as a UGVRI. Now before getting into more details I’d like you to know a little history and the following content is aimed at leaving you takeaway...</description>
-        <pubDate>Thu, 22 Aug 2019 17:00:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</guid>
-        
-        <category>Requirements</category>
-        
-        <category>Research</category>
         
         
         <category>Piston</category>

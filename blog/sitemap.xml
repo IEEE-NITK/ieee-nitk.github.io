@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/stem_cells/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</loc>
+	  </url>
+	
+	  <url>
 		<loc>http://ieee.nitk.ac.in/blog/why-do-GANs-matter/</loc>
 	  </url>
 	
