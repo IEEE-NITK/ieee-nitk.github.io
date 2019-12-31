@@ -5,8 +5,8 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Dec 2019 18:13:47 +0530</pubDate>
-    <lastBuildDate>Tue, 31 Dec 2019 18:13:47 +0530</lastBuildDate>
+    <pubDate>Tue, 31 Dec 2019 18:49:33 +0530</pubDate>
+    <lastBuildDate>Tue, 31 Dec 2019 18:49:33 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -51,24 +51,6 @@
         <title>An Introduction To WebSockets</title>
         <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
         <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
-        
-        <category>Web</category>
-        
-        <category>Web Sockets</category>
-        
-        <category>Networks</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>An Introduction To WebSockets</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
-        <pubDate>Thu, 26 Dec 2019 07:02:44 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
         
@@ -175,6 +157,22 @@
         <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/concorde/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/concorde/</guid>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Forward Swept Wings</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher speed...</description>
+        <pubDate>Tue, 08 Oct 2019 01:00:30 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/forward-swept-wings/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/forward-swept-wings/</guid>
+        
+        <category>Piston</category>
+        
+        <category>Aeronautics</category>
         
         
         <category>Piston</category>

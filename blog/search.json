@@ -28,15 +28,6 @@
     } ,
   
     {
-      "title"    : "An Introduction To WebSockets",
-      "category" : "CompSoc",
-      "tags"     : "Web, Web Sockets, and Networks",
-      "url"      : "http://ieee.nitk.ac.in/blog//An-Intro-to-WebSockets/",
-      "date"     : "26 Dec 2019",
-      "author"   : "P Akshara"
-    } ,
-  
-    {
       "title"    : "Why do Generative Adversarial Nets matter?",
       "category" : "CompSoc",
       "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, Machine Learning, CompSoc, and IEEE NITK",
