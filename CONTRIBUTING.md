@@ -5,7 +5,7 @@ Members of our community are encouraged to write articles for our blogging platf
 ## Basic Setup
 
 ### Option 1
-1. [Install Jekyll](http://jekyllrb.com)
+1. [Install Jekyll](https://jekyllrb.com/docs/installation/)
 2. Install jekyll-paginate, by
 ```
 $ gem install jekyll-paginate jemoji

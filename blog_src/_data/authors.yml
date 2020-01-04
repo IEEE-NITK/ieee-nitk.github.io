@@ -755,6 +755,75 @@ pran-p:
 nimbus98:
   name: Akash Nair
   github: nimbus98
-  author_image: 'akashnair.jpeg'
+  author_image: akashnair.jpeg
   user_description: 'I like Food'
   email: akash30121998@gmail.com
+suhasks123:
+  name: Suhas K S
+  github: suhasks123
+  author_image: 'suhas_ks.jpeg'
+  email: suhasks123@gmail.com
+JyotsnaMeda:
+  name: Jyotsna M
+  github: JyotsnaMeda
+  author_image: 'jyotsna.jpeg'
+  user_description: 'When nothing goes right, go to sleep.'
+  email: jyotsnameda@gmail.com
+vehandoshi:
+  name: Vehan Doshi
+  author_image: 'vehan_doshi.jpeg'
+  email: vehanh.181me184@nitk.edu
+  user_description: 'Life is uncertain, eat desserts first'
+kinshukk:
+  name: Kinshuk Kashyap
+  github: kinshukk
+  author_image: 'kinshuk.jpg'
+  user_description: Randomized statistical pattern matcher
+  email: kinshuk.other@gmail.com
+kartiknayak:
+  name: Kartik Udaya Nayak
+  github: kartiknayak
+  author_image: kartik.jpeg
+  email: kartik.nayak@rocketmail.com
+saikumardande:
+  name: Sai Kumar Dande
+  github: saikumardande
+  author_image: 'blog-author.jpg'
+  user_description: Stars can't shine without darkness
+  email: saikumardande2001@gmail.com
+vrn25:
+  name: Videh Raj Nema
+  github: vrn25
+  author_image: videh.png
+  user_description: 'Carpe Diem :)'
+  email: videhrn25@gmail.com
+nikhilnair:
+  name: Nikhil Nair
+  github: nikhilnair
+  author_image: nikhil.png
+  user_description: 'Live Wire'
+  email: nikhilnicky972@gmail.com
+drishikanadella:
+  name: Drishika Nadella
+  github: drishikanadella
+  author_image: drishika.png
+  user_description: 'An aspiring Rocket Engineer'
+  email: drishikanadella@gmail.com   
+aksh555:
+  name: P Akshara
+  github: aksh555
+  author_image: 'akshara.jpg'
+  user_description: 'Your limitation-it’s only your imagination!'
+  email: akshblr555@gmail.com
+surajxkulkarni:
+  name: Suraj Kulkarni
+  github: surajxkulkarni
+  author_image: 'suraj.jpg'
+  user_description: 'To dare is to do'
+  email: surajxkulkarni@gmail.com
+ishita:
+ name: Ishita Goyal
+ github: ishita
+ author_image: 'ishita.jpeg'
+ user_description: “Life is short. Laugh while you still have teeth”
+ email: ishita.181ch017@nitk.edu.in

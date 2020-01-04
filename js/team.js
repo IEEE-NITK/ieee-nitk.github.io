@@ -23,6 +23,7 @@ function loadAndRenderContacts(members) {
         success: function(result) {
             members.core = result.core;
             members.exec = result.members;
+            members.alumni = result.alumni;
             renderList(members);
         }
     });
@@ -43,6 +44,12 @@ function renderList(arr) {
     }
     $(".exec .members").html(htmlStr);
 
+    htmlStr = '';
+    for (var i = 0; i < arr.alumni.length; i++) {
+        htmlStr += '<div class="member_item member_alum" id = "alum' + i + '">' + toTitleCase(arr.alumni[i].name) + '</div>';
+    }
+    $(".alum .members").html(htmlStr);
+
     // Event Listeners
 
     $(".member_item").click(function(element) {
@@ -57,6 +64,15 @@ function renderList(arr) {
 
 
     });
+    $(".member_item_alum").click(function(element) {
+        var id = element.currentTarget.id.slice(4);
+
+        if(element.target.id.slice(0, 4) == "alum")
+            member = arr.alumni[id];
+        displayOverlay(member);
+    });
+
+    
 }
 
 function displayOverlay(member) {
