@@ -5,9 +5,57 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Dec 2019 19:02:08 +0530</pubDate>
-    <lastBuildDate>Tue, 31 Dec 2019 19:02:08 +0530</lastBuildDate>
+    <pubDate>Sun, 05 Jan 2020 11:12:06 +0530</pubDate>
+    <lastBuildDate>Sun, 05 Jan 2020 11:12:06 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>A Comprehensive Guide to Li-Fi</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/a-comprehensive-guide-to-lifi/1.jpeg&quot; alt=&quot;Li-Fi Visual&quot; /&gt;&lt;/p&gt; &lt;p&gt;Wouldn’t it be interesting if we could use our everyday LED bulbs as the transmitters of data for wirelessly accessing the internet, instead of Wi-Fi Routers or Cellular Networks? Li-Fi is a technology that does exactly that. Li-Fi was unveiled by &lt;em&gt;Dr. Harald Haas&lt;/em&gt; in his iconic 2011 TED Talk entitled &lt;a href=&quot;https://www.youtube.com/watch?v=NaoSp4NpkGg&quot;&gt;Wireless data from every light bulb&lt;/a&gt;, where he demonstrated Li-Fi in public for the first time. Li-Fi (which is an acronym for &lt;strong&gt;Light Fidelity&lt;/strong&gt;), is a light-based communication system that is capable of transmitting data at high speeds over the visible,...</description>
+        <pubDate>Tue, 07 Jan 2020 20:01:55 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</guid>
+        
+        <category>Li-Fi</category>
+        
+        <category>Wireless Networks</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>DS1: A demonstration spacecraft and its communication aspects</title>
+        <description>&lt;h1 id=&quot;deep-space-1-how-and-what-does-it-do-on-space&quot;&gt;Deep Space 1: How and what does it do on Space??&lt;/h1&gt; &lt;p&gt;Deep Space 1 or DS1 is a satellite launched by National Aeronautics and Space Administration (NASA) in 1998 to serve its purpose as a technology demonstration spacecraft. It was launched to test various upcoming technologies in space, its conditions, outcomes, threats or limitations of the proposed technology etc. in real time in space rather than earthly simulations. We are interested to learn how DS1 or any satellite in outer space carry out efficient communications to Space stations in Earth. For this, we must first be aware of Deep...</description>
+        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</guid>
+        
+        <category>RF transmission</category>
+        
+        <category>Antennas</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Autopilot</title>
+        <description>&lt;h1 id=&quot;autopilots&quot;&gt;AUTOPILOTS&lt;/h1&gt; &lt;p&gt;An autopilot is a flight control system that allows a pilot to fly an airplane without continuous hands-on control of the airplane. It allows the pilot to focus on higher-order tasks such as navigating, communicating with air traffic control, planning for weather contingencies and rerouting associated with any kind of emergency circumstance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/autopilot/Figure_1.png&quot; alt=&quot;A simple autopilot combined with conventional navigation instruments.&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;first-autopilots&quot;&gt;FIRST AUTOPILOTS&lt;/h3&gt; &lt;p&gt;In the early days of aviation, pilots had to control the aircraft all the time to fly safely. As aircraft range increased and the flight durations increased, it became a serious problem...</description>
+        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/autopilot/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/autopilot/</guid>
+        
+        <category>Autopilot</category>
+        
+        <category>Modern Aircraft</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Stem Cell Technology</title>
@@ -136,46 +184,6 @@
         
         
         <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Future of Drones</title>
-        <description>&lt;p&gt;The word &lt;strong&gt;Drone&lt;/strong&gt; is used pretty often in today’s world. Today the term has broadened to include anything from highly sophisticated $100M Global Hawk to $30 teeny-tiny UDI 839 Quadcopter. Even flightless vehicle such as Drone ship are occasionally referred to as drones.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/FutureOfDrones/drones1.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;p&gt;​ &lt;strong&gt;Global Hawk&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/FutureOfDrones/drones2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;p&gt;​ &lt;strong&gt;Quadcopter&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So what exactly is a drone?&lt;/p&gt; &lt;p&gt;It is called as an unmanned aerial vehicle essentially if it flies in a controlled way and their isn’t anybody on board. Whether it is controlled by computers or entirely controlled by a remote makes little difference. But...</description>
-        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/future-of-drones/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/future-of-drones/</guid>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Concorde: Why did it fail?</title>
-        <description>&lt;p&gt;Concorde: Why did it fail?&lt;/p&gt; &lt;p&gt;We had it.&lt;/p&gt; &lt;p&gt;From January 21st, 1976 to October 24, 2003, we had a commercial supersonic passenger service, called the Concorde, that would bring people from London to New York in just 3.5 hours, a journey that now takes about seven. Alongside the Tupolev Tu 144, Concorde was an aircraft that could brag about its supersonic speed, at a time when other jets could only manage speeds of about 800kmph.&lt;/p&gt; &lt;p&gt;Over the years, Concorde came to represent class and style among the elite class in England, France and the United States. With tickets costing up...</description>
-        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/concorde/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/concorde/</guid>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Forward Swept Wings</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher speed...</description>
-        <pubDate>Tue, 08 Oct 2019 01:00:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/forward-swept-wings/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/forward-swept-wings/</guid>
-        
-        <category>Piston</category>
-        
-        <category>Aeronautics</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

@@ -822,8 +822,25 @@ surajxkulkarni:
   user_description: 'To dare is to do'
   email: surajxkulkarni@gmail.com
 ishita:
- name: Ishita Goyal
- github: ishita
- author_image: 'ishita.jpeg'
- user_description: “Life is short. Laugh while you still have teeth”
- email: ishita.181ch017@nitk.edu.in
+  name: Ishita Goyal
+  github: ishita
+  author_image: 'ishita.jpeg'
+  user_description: 'Life is short. Laugh while you still have teeth'
+  email: ishita.181ch017@nitk.edu.in
+krithikvaidya:
+  name: Krithik Vaidya
+  github: krithikvaidya
+  author_image: 'krithikvaidya.jpeg'
+  email: krithikvaidya@gmail.com
+ashrikant39:
+  name: A Shrikant
+  github: ashrikant39
+  author_image: 'ashrikant39.jpg'
+  user_description: Try everything. You never know what's good for you.
+  email: ashrikant39@gmail.com
+sharayubrahmankar95:
+  name: Sharayu Brahmankar
+  github: sharayu_brahmankar
+  author_image: 'sharayu_brahmankar.jpg'
+  user_description: I haven't come this far to only come this far
+  email: sharayubrahmankar95@gmail.com

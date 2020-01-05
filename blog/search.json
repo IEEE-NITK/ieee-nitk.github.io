@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "A Comprehensive Guide to Li-Fi",
+      "category" : "CompSoc",
+      "tags"     : "Li-Fi and Wireless Networks",
+      "url"      : "http://ieee.nitk.ac.in/blog//A-Comprehensive-Guide-To-LiFi/",
+      "date"     : "07 Jan 2020",
+      "author"   : "Krithik Vaidya"
+    } ,
+  
+    {
+      "title"    : "DS1: A demonstration spacecraft and its communication aspects",
+      "category" : "Diode",
+      "tags"     : "RF transmission and Antennas",
+      "url"      : "http://ieee.nitk.ac.in/blog//ds1-a-demonstration-spacecraft-and-its-communication-aspects/",
+      "date"     : "07 Jan 2020",
+      "author"   : "A Shrikant"
+    } ,
+  
+    {
+      "title"    : "Autopilot",
+      "category" : "Piston",
+      "tags"     : "Autopilot and Modern Aircraft",
+      "url"      : "http://ieee.nitk.ac.in/blog//autopilot/",
+      "date"     : "07 Jan 2020",
+      "author"   : "Sharayu Brahmankar"
+    } ,
+  
+    {
       "title"    : "Stem Cell Technology",
       "category" : "Piston",
       "tags"     : "stem cells, Piston, and IEEE NITK",
