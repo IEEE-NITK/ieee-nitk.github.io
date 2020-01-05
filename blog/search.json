@@ -2,11 +2,137 @@
   
     {
       "title"    : "A Comprehensive Guide to Li-Fi",
-      "category" : "Compsoc",
+      "category" : "CompSoc",
       "tags"     : "Li-Fi and Wireless Networks",
       "url"      : "http://ieee.nitk.ac.in/blog//A-Comprehensive-Guide-To-LiFi/",
-      "date"     : "02 Oct 2019",
+      "date"     : "07 Jan 2020",
       "author"   : "Krithik Vaidya"
+    } ,
+  
+    {
+      "title"    : "DS1: A demonstration spacecraft and its communication aspects",
+      "category" : "Diode",
+      "tags"     : "RF transmission and Antennas",
+      "url"      : "http://ieee.nitk.ac.in/blog//ds1-a-demonstration-spacecraft-and-its-communication-aspects/",
+      "date"     : "07 Jan 2020",
+      "author"   : "A Shrikant"
+    } ,
+  
+    {
+      "title"    : "Autopilot",
+      "category" : "Piston",
+      "tags"     : "Autopilot and Modern Aircraft",
+      "url"      : "http://ieee.nitk.ac.in/blog//autopilot/",
+      "date"     : "07 Jan 2020",
+      "author"   : "Sharayu Brahmankar"
+    } ,
+  
+    {
+      "title"    : "Stem Cell Technology",
+      "category" : "Piston",
+      "tags"     : "stem cells, Piston, and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//stem_cells/",
+      "date"     : "30 Dec 2019",
+      "author"   : "Ishita Goyal"
+    } ,
+  
+    {
+      "title"    : "Bluetooth Low Energy",
+      "category" : "Diode",
+      "tags"     : "low power, wireless communication, Diode, and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//Bluetooth-Low-Energy/",
+      "date"     : "30 Dec 2019",
+      "author"   : "Suraj Kulkarni"
+    } ,
+  
+    {
+      "title"    : "An Introduction To WebSockets",
+      "category" : "CompSoc",
+      "tags"     : "Web, Web Sockets, and Networks",
+      "url"      : "http://ieee.nitk.ac.in/blog//An-Intro-to-WebSockets/",
+      "date"     : "30 Dec 2019",
+      "author"   : "P Akshara"
+    } ,
+  
+    {
+      "title"    : "Why do Generative Adversarial Nets matter?",
+      "category" : "CompSoc",
+      "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, Machine Learning, CompSoc, and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//why-do-GANs-matter/",
+      "date"     : "10 Nov 2019",
+      "author"   : "Videh Raj Nema"
+    } ,
+  
+    {
+      "title"    : "Who doesn&#39;t want to live on another planet?",
+      "category" : "Piston",
+      "tags"     : "Piston and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//colonization-of-mars/",
+      "date"     : "10 Nov 2019",
+      "author"   : "Drishika Nadella"
+    } ,
+  
+    {
+      "title"    : "Bionics - The Gap between disability and ability",
+      "category" : "Diode",
+      "tags"     : "Diode and IEEE NITK",
+      "url"      : "http://ieee.nitk.ac.in/blog//bionics/",
+      "date"     : "10 Nov 2019",
+      "author"   : "Nikhil Nair"
+    } ,
+  
+    {
+      "title"    : "Generate Strange Text with GPT-2",
+      "category" : "Compsoc",
+      "tags"     : "NLP and ML/AI",
+      "url"      : "http://ieee.nitk.ac.in/blog//generate-text-with-gpt2/",
+      "date"     : "02 Nov 2019",
+      "author"   : "Kinshuk Kashyap"
+    } ,
+  
+    {
+      "title"    : "Future of Drones",
+      "category" : "Diode",
+      "tags"     : "",
+      "url"      : "http://ieee.nitk.ac.in/blog//future-of-drones/",
+      "date"     : "02 Nov 2019",
+      "author"   : "Sai Kumar Dande"
+    } ,
+  
+    {
+      "title"    : "Concorde: Why did it fail?",
+      "category" : "Piston",
+      "tags"     : "",
+      "url"      : "http://ieee.nitk.ac.in/blog//concorde/",
+      "date"     : "02 Nov 2019",
+      "author"   : "Kartik Udaya Nayak"
+    } ,
+  
+    {
+      "title"    : "Forward Swept Wings",
+      "category" : "Piston",
+      "tags"     : "Piston and Aeronautics",
+      "url"      : "http://ieee.nitk.ac.in/blog//forward-swept-wings/",
+      "date"     : "08 Oct 2019",
+      "author"   : "Vehan Doshi"
+    } ,
+  
+    {
+      "title"    : "Space-based Solar Power",
+      "category" : "Diode",
+      "tags"     : "Diode, Space, and Solar Power",
+      "url"      : "http://ieee.nitk.ac.in/blog//space-based-solar-power/",
+      "date"     : "08 Oct 2019",
+      "author"   : "Jyotsna M"
+    } ,
+  
+    {
+      "title"    : "Password Security: Techniques and Challenges",
+      "category" : "CompSoc",
+      "tags"     : "Systems, Security, and Cryptography",
+      "url"      : "http://ieee.nitk.ac.in/blog//password-security-techniques-and-challenges/",
+      "date"     : "02 Oct 2019",
+      "author"   : "Suhas K S"
     } ,
   
     {

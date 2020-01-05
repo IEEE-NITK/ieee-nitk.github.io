@@ -5,14 +5,14 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Oct 2019 14:33:15 +0530</pubDate>
-    <lastBuildDate>Wed, 02 Oct 2019 14:33:15 +0530</lastBuildDate>
+    <pubDate>Sun, 05 Jan 2020 11:12:06 +0530</pubDate>
+    <lastBuildDate>Sun, 05 Jan 2020 11:12:06 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>A Comprehensive Guide to Li-Fi</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/a-comprehensive-guide-to-lifi/1.jpeg&quot; alt=&quot;Li-Fi Visual&quot; /&gt;&lt;/p&gt; &lt;p&gt;Wouldn’t it be interesting if we could use our everyday LED bulbs as the transmitters of data for wirelessly accessing the internet, instead of Wi-Fi Routers or Cellular Networks? Li-Fi is a technology that does exactly that. Li-Fi was unveiled by &lt;em&gt;Dr. Harald Haas&lt;/em&gt; in his iconic 2011 TED Talk entitled &lt;a href=&quot;https://www.youtube.com/watch?v=NaoSp4NpkGg&quot;&gt;Wireless data from every light bulb&lt;/a&gt;, where he demonstrated Li-Fi in public for the first time. Li-Fi (which is an acronym for &lt;strong&gt;Light Fidelity&lt;/strong&gt;), is a light-based communication system that is capable of transmitting data at high speeds over the visible,...</description>
-        <pubDate>Wed, 02 Oct 2019 20:01:55 +0530</pubDate>
+        <pubDate>Tue, 07 Jan 2020 20:01:55 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</guid>
         
@@ -21,56 +21,20 @@
         <category>Wireless Networks</category>
         
         
-        <category>Compsoc</category>
+        <category>CompSoc</category>
         
       </item>
     
       <item>
-        <title>Research, an informal testimony</title>
-        <description>&lt;h1 id=&quot;research-an-informal-testimony&quot;&gt;Research, an informal testimony&lt;/h1&gt; &lt;p&gt;The feeling of working with the author of textbooks that you first read to learn a subject is something beyond the ability of adjectives to explain. However, it is also the time when you begin to realize what you know is barely a fraction of what exists and that there’s always much more to learn. I am extremely privileged to have spent the summer at Stanford Microfluidics Lab as a UGVRI. Now before getting into more details I’d like you to know a little history and the following content is aimed at leaving you takeaway...</description>
-        <pubDate>Thu, 22 Aug 2019 17:00:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</guid>
+        <title>DS1: A demonstration spacecraft and its communication aspects</title>
+        <description>&lt;h1 id=&quot;deep-space-1-how-and-what-does-it-do-on-space&quot;&gt;Deep Space 1: How and what does it do on Space??&lt;/h1&gt; &lt;p&gt;Deep Space 1 or DS1 is a satellite launched by National Aeronautics and Space Administration (NASA) in 1998 to serve its purpose as a technology demonstration spacecraft. It was launched to test various upcoming technologies in space, its conditions, outcomes, threats or limitations of the proposed technology etc. in real time in space rather than earthly simulations. We are interested to learn how DS1 or any satellite in outer space carry out efficient communications to Space stations in Earth. For this, we must first be aware of Deep...</description>
+        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</guid>
         
-        <category>Requirements</category>
+        <category>RF transmission</category>
         
-        <category>Research</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Long Short Term Memory Neural Networks</title>
-        <description>&lt;p&gt;Long Short Term Memory Neural Networks or LSTM Neural Network is a commonly used Recurrent Neural Network model that is most commonly used in tasks like speech recognition, music generation etc. Lets take a deep dive into what Recurrent Neural Networks are and why we need and use LSTMs.&lt;/p&gt; &lt;h1 id=&quot;long-short-term-memory-neural-networks&quot;&gt;Long Short Term Memory Neural Networks&lt;/h1&gt; &lt;h3 id=&quot;recurrent-neural-networks-and-why-lstms&quot;&gt;Recurrent Neural Networks and Why LSTMs?&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; are those Neural Networks that we use to process information that require us to keep informed of previous information. In simpler words, when we want a model to perform a certain category of tasks...</description>
-        <pubDate>Thu, 22 Aug 2019 16:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Long-Short-Term-Neural-Networks/</guid>
-        
-        <category>Recurrent Neural Networks</category>
-        
-        <category>Long Short Term Memory Neural Networks</category>
-        
-        <category>Machine Learning</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Radar Imaging</title>
-        <description>&lt;h1 id=&quot;radar-imaging&quot;&gt;&lt;strong&gt;RADAR IMAGING&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;The World Wars were undoubtedly the worst things to happen to mankind but, they also birthed some ground breaking technology that is till date being used, one such example is the RADAR, acronym for &lt;strong&gt;Radio Detection and Ranging&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;RADARs are a combination of EM transmitters and receivers that can be used to detect the presence of objects in a particular &lt;strong&gt;range&lt;/strong&gt; specified for that RADAR. The principle involved is the reflection of the EM waves off the target and detection by the receiver of the RADAR.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/Radar-Imaging/1.gif&quot; alt=&quot;firstimage&quot; /&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;The diagram represents a high level representation...</description>
-        <pubDate>Thu, 22 Aug 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Radar-Imaging/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Radar-Imaging/</guid>
-        
-        <category>RADARSs</category>
-        
-        <category>Doppler Processing</category>
-        
-        <category>Image</category>
+        <category>Antennas</category>
         
         
         <category>Diode</category>
@@ -78,87 +42,15 @@
       </item>
     
       <item>
-        <title>ELF Files in Linux</title>
-        <description>&lt;p&gt;Have you ever tried to print the a.out file generated when you compile your C program? It prints gibberish! Ever wondered how the computer produces a valid, sensible output from this? Read ahead to find out.&lt;/p&gt; &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;ELF stands for Executable and Linkable Format. ELF files are usually the outputs of compilers. They exist in binary format (hence, the gibberish when printed). This format helps the operating system interpret the underlying machine instructions correctly. ELF is not only used for binaries and executables but also object code, shared libraries and core dumps. Any program is first translated by a...</description>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/ELF-Files-in-Linux/</guid>
+        <title>Autopilot</title>
+        <description>&lt;h1 id=&quot;autopilots&quot;&gt;AUTOPILOTS&lt;/h1&gt; &lt;p&gt;An autopilot is a flight control system that allows a pilot to fly an airplane without continuous hands-on control of the airplane. It allows the pilot to focus on higher-order tasks such as navigating, communicating with air traffic control, planning for weather contingencies and rerouting associated with any kind of emergency circumstance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/autopilot/Figure_1.png&quot; alt=&quot;A simple autopilot combined with conventional navigation instruments.&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;first-autopilots&quot;&gt;FIRST AUTOPILOTS&lt;/h3&gt; &lt;p&gt;In the early days of aviation, pilots had to control the aircraft all the time to fly safely. As aircraft range increased and the flight durations increased, it became a serious problem...</description>
+        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/autopilot/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/autopilot/</guid>
         
-        <category>ELF</category>
+        <category>Autopilot</category>
         
-        <category>Linux</category>
-        
-        <category>Binary</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Solving Switch Riddle using RL</title>
-        <description>&lt;p&gt;In this article, we will use a Reinforcement Learning based method to solve the Switch Riddle problem. So, let’s start with defining the riddle.&lt;/p&gt; &lt;h2 id=&quot;switch-riddle&quot;&gt;Switch Riddle&lt;/h2&gt; &lt;p&gt;There are n prisoners in prison and a warden. The Warden decides to free the prisoners if they can solve the following problem. So, every day the Warden will select one of the prisoners randomly and send him to an interrogation room which consists of a light bulb with a switch. If the prisoner in the room can tell that all other prisoners including him have been to the room at least once...</description>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Solving-Switch-Riddle-using-RL/</guid>
-        
-        <category>Switch Riddle</category>
-        
-        <category>Reinforcement Learning</category>
-        
-        <category>DIAL</category>
-        
-        <category>RNN</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>How machine translation works</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“How does Google translate work? How do Alexa and Siri know what and when to respond to your queries?”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-does-machine-translation-mean&quot;&gt;What does Machine Translation mean?&lt;/h1&gt; &lt;p&gt;Machine Translation is essentially software that automatically renders text from one language into another. Formally speaking it falls under computational linguistics and language engineering. Machine translation needn’t just be conversion across human readable languages but can also be used for tasks like trigger word detection, converting human readable dates like ‘Tuesday, the 29th of Jan,2019’ to formats like 29-01-2019.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-translation/machine-translation-diagram2.png&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;various-methods-of-machine-translation&quot;&gt;Various Methods of Machine Translation.&lt;/h2&gt; &lt;p&gt;In the late 80’s,...</description>
-        <pubDate>Sat, 02 Feb 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/machine-translation/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-translation/</guid>
-        
-        <category>Natural Language Processing</category>
-        
-        <category>Supervised learning</category>
-        
-        <category>Machine translation</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Machine Learning Magic</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“Did you ever wonder how ML algorithms work?” “How is the weather forecast done?” “How does the self-driving car mimic the way humans drive?” “Let’s try to find answers to some of those questions…”&lt;/p&gt; &lt;/blockquote&gt; &lt;h1 id=&quot;what-is-this-machine-learning-&quot;&gt;WHAT IS THIS MACHINE LEARNING ?&lt;/h1&gt; &lt;p&gt;Assume you have some data, it could be anything like a set of tweets or Images of handwritten numbers or Emails marked as spam. But you don’t know what to do with it!!!&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/machine-learning-magic/1.jpeg&quot; alt=&quot;img1&quot; /&gt;&lt;/p&gt; &lt;p&gt;So you look for an algorithm which can use this data and give you something you are interested in!&lt;/p&gt; &lt;p&gt;&lt;img...</description>
-        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/machine-learning-magic/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/machine-learning-magic/</guid>
-        
-        <category>Machine learning</category>
-        
-        <category>Supervised learning</category>
-        
-        <category>tweets</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>INNOVATIONS IN THE DRONE INDUSTRY</title>
-        <description>&lt;blockquote&gt; &lt;p&gt;“Do you think drones are just four rotor-legged flying machines?”&lt;br /&gt; “Have you ever thought how we can modify these machines to get maximum out of it?”&lt;br /&gt; Multiple innovations are happening currently in this very industry and here are some of them!&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;going-bladeless--the-future-of-drones-&quot;&gt;GOING BLADELESS : THE FUTURE OF DRONES ?&lt;/h2&gt; &lt;p&gt;As much crazy as it might sound , bladeless drone are becoming a reality . Bladeless ? You ask me , well , it might be a bit of misnomer . Bladeless isn’t actually bladeless in the fact the it still relies on a bladed propeller...</description>
-        <pubDate>Sat, 26 Jan 2019 15:30:30 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/innovations-in-drone-industry/</guid>
-        
-        <category>Drones</category>
+        <category>Modern Aircraft</category>
         
         
         <category>Piston</category>
@@ -166,15 +58,129 @@
       </item>
     
       <item>
-        <title>Social Engineering</title>
-        <description>&lt;p&gt;Have you ever stared into the keyboard while your friend is typing a password? Or have you ever made up stories to play a prank on your friend? If the answer to any of the above questions is yes then you are a &lt;strong&gt;Social Engineer!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/social-engineering/0.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt; &lt;p&gt;Well now that I have said that you are a social engineer let’s see what that really means. It refers to psychological manipulation of people into performing actions or giving away confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access. It may also...</description>
-        <pubDate>Fri, 18 Jan 2019 05:02:44 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/social-engineering/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/social-engineering/</guid>
+        <title>Stem Cell Technology</title>
+        <description>&lt;h1 id=&quot;stem-cell-technology&quot;&gt;STEM CELL TECHNOLOGY&lt;/h1&gt; &lt;h3 id=&quot;what-are-stem-cells&quot;&gt;What are stem cells?&lt;/h3&gt; &lt;p&gt;Imagine waking up from a tragic accident that left you paralyzed from the neck down, will there be any hope to recover completely? Won’t it be amazing if there was a research that the use of stem cells could lead to potential treatments and cures.&lt;/p&gt; &lt;p&gt;With the advent of technology in the fields of artificial intelligence, robotics, genetics, etc., homo sapiens are finally at the threshold of a path to revitalizing and renewing our current fields of health care.&lt;/p&gt; &lt;p&gt;Stem cells are cells that can differentiate into other types or kinds...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/stem_cells/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/stem_cells/</guid>
         
-        <category>Social engineering</category>
+        <category>stem cells</category>
         
-        <category>Security</category>
+        <category>Piston</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Bluetooth Low Energy</title>
+        <description>&lt;p&gt;We all know how infuriating it is when our devices drains battery when it uses wireless communication like wifi, bluetooth, infra-red. In every device we use, we are always concerned with the &lt;strong&gt;power consumption&lt;/strong&gt;. A device which consumes less power is always favourable. So in this article, I am going to elucidate an effective solution to the power problem in wireless communication- &lt;strong&gt;Bluetooth Low Energy&lt;/strong&gt; , also known as &lt;strong&gt;BLE&lt;/strong&gt;.&lt;/p&gt; &lt;h1 id=&quot;why-ble&quot;&gt;Why BLE?&lt;/h1&gt; &lt;p&gt;Historically, &lt;strong&gt;classic bluetooth&lt;/strong&gt; (the bluetooth we are all aware of) was mainly designed to replace cable and it covers many protocols. And with speeds increasing with new...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</guid>
+        
+        <category>low power</category>
+        
+        <category>wireless communication</category>
+        
+        <category>Diode</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>An Introduction To WebSockets</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
+        
+        <category>Web</category>
+        
+        <category>Web Sockets</category>
+        
+        <category>Networks</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Why do Generative Adversarial Nets matter?</title>
+        <description>&lt;p&gt;A new class of &lt;strong&gt;Generative Models&lt;/strong&gt; was proposed in 2014 by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; (a.k.a The GANfather) which brought in a novel method of dealing with issues in ML and AI. The Invention of &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (GANs) can be regarded as one of the path-breaking innovations in making computers do useful stuff. GANs have seen some crazy development from an application perspective and has been one of the hottest topics for research in the past 5 years.&lt;/p&gt; &lt;h2 id=&quot;so-what-does-a-generative-model-do&quot;&gt;So what does a Generative Model do?&lt;/h2&gt; &lt;p&gt;The main objective of a Generative Model is to create more samples of the &lt;strong&gt;same&lt;/strong&gt;...</description>
+        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/why-do-GANs-matter/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/why-do-GANs-matter/</guid>
+        
+        <category>Deep Learning</category>
+        
+        <category>Generative Adversarial Networks</category>
+        
+        <category>GANs</category>
+        
+        <category>Generative Models</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>CompSoc</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>Who doesn't want to live on another planet?</title>
+        <description>&lt;p&gt;The colonization of Mars has been a popular theme of discussion over the past few decades. Whether it's in the spirit of exploration, expansion of human settlement or mining for additional resources, the idea of inhabiting another planet has allured us.&lt;/p&gt; &lt;p&gt;This is also evident in how often the idea of colonizing Mars appears in fiction and pop culture: from &quot;The Martian Chronicles&quot; by Ray Bradbury to &quot;The Martian&quot; by Andy Weir, the prospect of humans inhabiting the red planet has been explored from the perspectives of fantasy to science.&lt;/p&gt; &lt;p&gt;Keeping aside the political and ethical challenges that are intrinsic...</description>
+        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/colonization-of-mars/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/colonization-of-mars/</guid>
+        
+        <category>Piston</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Bionics - The Gap between disability and ability</title>
+        <description>&lt;p&gt;&lt;strong&gt;1.Bionics and its growing relevance&lt;/strong&gt; The rise of bionics has prompted some interesting questions- &lt;strong&gt;Can we trade away our biological body for a repairable one , one that won’t age?&lt;/strong&gt;. Bionics is defined as the science of connecting biological systems to artificial systems to develop machines that can imitate our biology. As bionic systems and transhuman augmentations exceed human capabilities humanity might soon face an interesting dichotomy - &lt;strong&gt;Either remain physically inferior and embody the cherished values of humanism&lt;/strong&gt; as we know them or to become a &lt;strong&gt;superior transhuman with a repairable body that can transcend the decay of aging&lt;/strong&gt;....</description>
+        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/bionics/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/bionics/</guid>
+        
+        <category>Diode</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Generate Strange Text with GPT-2</title>
+        <description>&lt;p&gt;GPT-2 refers to a set of &lt;em&gt;Language Models&lt;/em&gt; released recently by OpenAI. My objective is to find weird ways that GPT-2 can fail, and also some smart things it is capable of. I’ll be using &lt;a href=&quot;https://talktotransformer.com/&quot;&gt;talktotransformer&lt;/a&gt; for this task. It’s a convenient tool that asks for a short text prompt, and then generates several lines of text to continue the prompt (no coding required!).&lt;/p&gt; &lt;p&gt;First, let’s see if you’re paying attention. Check out the following two samples:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on...</description>
+        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</guid>
+        
+        <category>NLP</category>
+        
+        <category>ML/AI</category>
         
         
         <category>Compsoc</category>
