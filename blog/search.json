@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "Web Vulnerabilities",
+      "category" : "CompSoc",
+      "tags"     : "IEEE NITK, CompSoc, web, and vulnerabilities",
+      "url"      : "http://ieee.nitk.ac.in/blog//web-vulnerabilities/",
+      "date"     : "15 Jan 2020",
+      "author"   : "Vineeth Rajesh"
+    } ,
+  
+    {
+      "title"    : "PSLV to Mars",
+      "category" : "Piston",
+      "tags"     : "IEEE NITK, Piston, PSLV, and Mars",
+      "url"      : "http://ieee.nitk.ac.in/blog//pslv-to-mars/",
+      "date"     : "15 Jan 2020",
+      "author"   : "Ekta Ramnani"
+    } ,
+  
+    {
+      "title"    : "Piezoelectricity and Piezoelectric Sensors",
+      "category" : "Diode",
+      "tags"     : "IEEE NITK, Diode, Piezoelectricity, and Sensors",
+      "url"      : "http://ieee.nitk.ac.in/blog//piezoelectricity-and-piezoelectric-sensors/",
+      "date"     : "15 Jan 2020",
+      "author"   : "Kaushik Alwala"
+    } ,
+  
+    {
       "title"    : "A Comprehensive Guide to Li-Fi",
       "category" : "CompSoc",
       "tags"     : "Li-Fi and Wireless Networks",
