@@ -5,9 +5,69 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Jan 2020 11:12:06 +0530</pubDate>
-    <lastBuildDate>Sun, 05 Jan 2020 11:12:06 +0530</lastBuildDate>
+    <pubDate>Mon, 13 Jan 2020 19:05:08 +0530</pubDate>
+    <lastBuildDate>Mon, 13 Jan 2020 19:05:08 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Web Vulnerabilities</title>
+        <description>&lt;h1 id=&quot;web-vulnerabilities&quot;&gt;Web Vulnerabilities&lt;/h1&gt; &lt;p&gt;A vulnerability is a hole or a weakness in the application, which can be a design flaw or an implementation bug, that allows an attacker to cause harm to the stakeholders of an application. Websites across the world are programmed with different programming languages. Although each specific language have specific vulnerabilities ,issues exist fundamental to the internet that can show up disregarding the choosen language or framework used.&lt;/p&gt; &lt;p&gt;Some Web Vulnerabilities&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;SQL Injection&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Cross Site Request Forgery&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Cross Site Scripting&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Server Side Request Forgery&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;sql-injection&quot;&gt;SQL INJECTION&lt;/h2&gt;...</description>
+        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/web-vulnerabilities/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/web-vulnerabilities/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>web</category>
+        
+        <category>vulnerabilities</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>PSLV to Mars</title>
+        <description>&lt;h1 id=&quot;pslv-to-mars&quot;&gt;PSLV to Mars&lt;/h1&gt; &lt;h3 id=&quot;mars-orbiter-mission&quot;&gt;(Mars Orbiter Mission)&lt;/h3&gt; &lt;p&gt;Marking the series of events in the world history, November 5,2013 is recognized to be a day of great significance all over the world. On this day, ISRO launched MOM(Mars Orbiter Mission) also called Mangalyaan,a space probe orbiting Mars since September 24,2014.This made India the first Asian nation to reach Martian Orbit and the first nation in the world to do so in its first attempt.The launch took place from Satish Dhawan Space centre in Sriharikota.Indian scientists in ISRO proposed to launch the Mars satellite using PSLV(Polar Satellite Launch Vehicle) rocket. First,...</description>
+        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/pslv-to-mars/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/pslv-to-mars/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Piston</category>
+        
+        <category>PSLV</category>
+        
+        <category>Mars</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Piezoelectricity and Piezoelectric Sensors</title>
+        <description>&lt;h1 id=&quot;piezoelectricity-and-piezoelectric-sensors&quot;&gt;PIEZOELECTRICITY AND PIEZOELECTRIC SENSORS&lt;/h1&gt; &lt;h2 id=&quot;piezoelectricity&quot;&gt;Piezoelectricity&lt;/h2&gt; &lt;p&gt;The accumulation of electric charge in solid materials in response to applied mechanical stress is called the piezoelectric effect or piezoelectricity, and those types of solid materials are called piezoelectric materials. Quartz, Berlinite (AlPO4), Sucrose (table sugar), Topaz, Tourmaline-group minerals, Lead titanate, etc. are some examples of naturally occurring piezoelectric materials. Some of the biological materials exhibiting piezoelectricity include silk, wood, enamel, tendon, etc. Barium titanate, Lead zirconate titanate, Potassium niobate, Sodium tungstate, Zinc oxide, etc., fall under the category of Synthetic ceramics that exhibit the piezoelectric effect. Piezoelectric effect is also exhibited...</description>
+        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
+        <link>http://ieee.nitk.ac.in/blog/piezoelectricity-and-piezoelectric-sensors/</link>
+        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/piezoelectricity-and-piezoelectric-sensors/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Diode</category>
+        
+        <category>Piezoelectricity</category>
+        
+        <category>Sensors</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>A Comprehensive Guide to Li-Fi</title>
@@ -136,54 +196,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Who doesn't want to live on another planet?</title>
-        <description>&lt;p&gt;The colonization of Mars has been a popular theme of discussion over the past few decades. Whether it's in the spirit of exploration, expansion of human settlement or mining for additional resources, the idea of inhabiting another planet has allured us.&lt;/p&gt; &lt;p&gt;This is also evident in how often the idea of colonizing Mars appears in fiction and pop culture: from &quot;The Martian Chronicles&quot; by Ray Bradbury to &quot;The Martian&quot; by Andy Weir, the prospect of humans inhabiting the red planet has been explored from the perspectives of fantasy to science.&lt;/p&gt; &lt;p&gt;Keeping aside the political and ethical challenges that are intrinsic...</description>
-        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/colonization-of-mars/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/colonization-of-mars/</guid>
-        
-        <category>Piston</category>
-        
-        <category>IEEE NITK</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Bionics - The Gap between disability and ability</title>
-        <description>&lt;p&gt;&lt;strong&gt;1.Bionics and its growing relevance&lt;/strong&gt; The rise of bionics has prompted some interesting questions- &lt;strong&gt;Can we trade away our biological body for a repairable one , one that won’t age?&lt;/strong&gt;. Bionics is defined as the science of connecting biological systems to artificial systems to develop machines that can imitate our biology. As bionic systems and transhuman augmentations exceed human capabilities humanity might soon face an interesting dichotomy - &lt;strong&gt;Either remain physically inferior and embody the cherished values of humanism&lt;/strong&gt; as we know them or to become a &lt;strong&gt;superior transhuman with a repairable body that can transcend the decay of aging&lt;/strong&gt;....</description>
-        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/bionics/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/bionics/</guid>
-        
-        <category>Diode</category>
-        
-        <category>IEEE NITK</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Generate Strange Text with GPT-2</title>
-        <description>&lt;p&gt;GPT-2 refers to a set of &lt;em&gt;Language Models&lt;/em&gt; released recently by OpenAI. My objective is to find weird ways that GPT-2 can fail, and also some smart things it is capable of. I’ll be using &lt;a href=&quot;https://talktotransformer.com/&quot;&gt;talktotransformer&lt;/a&gt; for this task. It’s a convenient tool that asks for a short text prompt, and then generates several lines of text to continue the prompt (no coding required!).&lt;/p&gt; &lt;p&gt;First, let’s see if you’re paying attention. Check out the following two samples:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on...</description>
-        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
-        <link>http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</link>
-        <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</guid>
-        
-        <category>NLP</category>
-        
-        <category>ML/AI</category>
-        
-        
-        <category>Compsoc</category>
         
       </item>
     
