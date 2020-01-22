@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<url>
+		<loc>https://ieee.nitk.ac.in/blog/web-vulnerabilities/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/pslv-to-mars/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/piezoelectricity-and-piezoelectric-sensors/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/autopilot/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/stem_cells/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
 		<loc>https://ieee.nitk.ac.in/blog/why-do-GANs-matter/</loc>
 		<changefreq>weekly</changefreq>
 	</url>

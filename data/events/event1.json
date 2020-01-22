@@ -1,12 +1,12 @@
 {
-  "title": "Envision",
-  "date": "1st January, 2018",
-  "sig": "All SIGs",
-  "description": "Envision is an event conducted by IEEE NITK that allows its branch’s new student members to take initiative and work on projects. First year students often do not have the opportunities and facilities to perform relevant projects that help them in their career. This event allows the first year student members propose new project ideas. These ideas can be pertaining to any fields and is not limited to any particular field like computer science or electronics. A selection process is carried out and for each SIG (Computer Society/ Circuits and Systems/ Signal Processing Society), the best ideas are selected. Theseprojects receive funding from the student branch with all the facilities. They are mentored by the Executive members of the student branch.",
+  "title": "Embedathon",
+  "date": "19th – 20th January 2020",
+  "sig": "By CAS/SPS",
+  "description": "Embedathon is a 24- hour embedded system hackathon challenge hosted by IEEE NITK student branch in association with CAS Society and IEEE Bangalore Section. It presents you with interesting problem statements to ensure a fun-filled learning experience. This is the second edition of the event promising to be bigger and better. In addition to the hackathon, a workshop will also be conducted prior to the final event to enhance your experience with us! Open to Bangalore and Kerala Section as well!",
   "links": [
-    {
-      "title": "Facebook post",
-      "url": "https://www.facebook.com/IEEENITK/photos/a.530250543696387/1949768558411238/?type=3&theater"
-    }
+      {
+          "title": "Event Page",
+          "url": "https://ieee.nitk.ac.in/embedathon.html"
+      }
   ]
 }

@@ -5,9 +5,173 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>https://ieee.nitk.ac.in/blog/</link>
     <atom:link href="https://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Dec 2019 10:48:44 +0530</pubDate>
-    <lastBuildDate>Wed, 25 Dec 2019 10:48:44 +0530</lastBuildDate>
+    <pubDate>Wed, 22 Jan 2020 13:22:32 +0530</pubDate>
+    <lastBuildDate>Wed, 22 Jan 2020 13:22:32 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Web Vulnerabilities</title>
+        <description>&lt;h1 id=&quot;web-vulnerabilities&quot;&gt;Web Vulnerabilities&lt;/h1&gt; &lt;p&gt;A vulnerability is a hole or a weakness in the application, which can be a design flaw or an implementation bug, that allows an attacker to cause harm to the stakeholders of an application. Websites across the world are programmed with different programming languages. Although each specific language have specific vulnerabilities ,issues exist fundamental to the internet that can show up disregarding the choosen language or framework used.&lt;/p&gt; &lt;p&gt;Some Web Vulnerabilities&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;SQL Injection&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Cross Site Request Forgery&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Cross Site Scripting&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Server Side Request Forgery&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;sql-injection&quot;&gt;SQL INJECTION&lt;/h2&gt;...</description>
+        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/web-vulnerabilities/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/web-vulnerabilities/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        <category>web</category>
+        
+        <category>vulnerabilities</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>PSLV to Mars</title>
+        <description>&lt;h1 id=&quot;pslv-to-mars&quot;&gt;PSLV to Mars&lt;/h1&gt; &lt;h3 id=&quot;mars-orbiter-mission&quot;&gt;(Mars Orbiter Mission)&lt;/h3&gt; &lt;p&gt;Marking the series of events in the world history, November 5,2013 is recognized to be a day of great significance all over the world. On this day, ISRO launched MOM(Mars Orbiter Mission) also called Mangalyaan,a space probe orbiting Mars since September 24,2014.This made India the first Asian nation to reach Martian Orbit and the first nation in the world to do so in its first attempt.The launch took place from Satish Dhawan Space centre in Sriharikota.Indian scientists in ISRO proposed to launch the Mars satellite using PSLV(Polar Satellite Launch Vehicle) rocket. First,...</description>
+        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/pslv-to-mars/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/pslv-to-mars/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Piston</category>
+        
+        <category>PSLV</category>
+        
+        <category>Mars</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Piezoelectricity and Piezoelectric Sensors</title>
+        <description>&lt;h1 id=&quot;piezoelectricity-and-piezoelectric-sensors&quot;&gt;PIEZOELECTRICITY AND PIEZOELECTRIC SENSORS&lt;/h1&gt; &lt;h2 id=&quot;piezoelectricity&quot;&gt;Piezoelectricity&lt;/h2&gt; &lt;p&gt;The accumulation of electric charge in solid materials in response to applied mechanical stress is called the piezoelectric effect or piezoelectricity, and those types of solid materials are called piezoelectric materials. Quartz, Berlinite (AlPO4), Sucrose (table sugar), Topaz, Tourmaline-group minerals, Lead titanate, etc. are some examples of naturally occurring piezoelectric materials. Some of the biological materials exhibiting piezoelectricity include silk, wood, enamel, tendon, etc. Barium titanate, Lead zirconate titanate, Potassium niobate, Sodium tungstate, Zinc oxide, etc., fall under the category of Synthetic ceramics that exhibit the piezoelectric effect. Piezoelectric effect is also exhibited...</description>
+        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/piezoelectricity-and-piezoelectric-sensors/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/piezoelectricity-and-piezoelectric-sensors/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Diode</category>
+        
+        <category>Piezoelectricity</category>
+        
+        <category>Sensors</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>A Comprehensive Guide to Li-Fi</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/a-comprehensive-guide-to-lifi/1.jpeg&quot; alt=&quot;Li-Fi Visual&quot; /&gt;&lt;/p&gt; &lt;p&gt;Wouldn’t it be interesting if we could use our everyday LED bulbs as the transmitters of data for wirelessly accessing the internet, instead of Wi-Fi Routers or Cellular Networks? Li-Fi is a technology that does exactly that. Li-Fi was unveiled by &lt;em&gt;Dr. Harald Haas&lt;/em&gt; in his iconic 2011 TED Talk entitled &lt;a href=&quot;https://www.youtube.com/watch?v=NaoSp4NpkGg&quot;&gt;Wireless data from every light bulb&lt;/a&gt;, where he demonstrated Li-Fi in public for the first time. Li-Fi (which is an acronym for &lt;strong&gt;Light Fidelity&lt;/strong&gt;), is a light-based communication system that is capable of transmitting data at high speeds over the visible,...</description>
+        <pubDate>Tue, 07 Jan 2020 20:01:55 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</guid>
+        
+        <category>Li-Fi</category>
+        
+        <category>Wireless Networks</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
+    
+      <item>
+        <title>DS1: A demonstration spacecraft and its communication aspects</title>
+        <description>&lt;h1 id=&quot;deep-space-1-how-and-what-does-it-do-on-space&quot;&gt;Deep Space 1: How and what does it do on Space??&lt;/h1&gt; &lt;p&gt;Deep Space 1 or DS1 is a satellite launched by National Aeronautics and Space Administration (NASA) in 1998 to serve its purpose as a technology demonstration spacecraft. It was launched to test various upcoming technologies in space, its conditions, outcomes, threats or limitations of the proposed technology etc. in real time in space rather than earthly simulations. We are interested to learn how DS1 or any satellite in outer space carry out efficient communications to Space stations in Earth. For this, we must first be aware of Deep...</description>
+        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</guid>
+        
+        <category>RF transmission</category>
+        
+        <category>Antennas</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>Autopilot</title>
+        <description>&lt;h1 id=&quot;autopilots&quot;&gt;AUTOPILOTS&lt;/h1&gt; &lt;p&gt;An autopilot is a flight control system that allows a pilot to fly an airplane without continuous hands-on control of the airplane. It allows the pilot to focus on higher-order tasks such as navigating, communicating with air traffic control, planning for weather contingencies and rerouting associated with any kind of emergency circumstance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/autopilot/Figure_1.png&quot; alt=&quot;A simple autopilot combined with conventional navigation instruments.&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;first-autopilots&quot;&gt;FIRST AUTOPILOTS&lt;/h3&gt; &lt;p&gt;In the early days of aviation, pilots had to control the aircraft all the time to fly safely. As aircraft range increased and the flight durations increased, it became a serious problem...</description>
+        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/autopilot/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/autopilot/</guid>
+        
+        <category>Autopilot</category>
+        
+        <category>Modern Aircraft</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Stem Cell Technology</title>
+        <description>&lt;h1 id=&quot;stem-cell-technology&quot;&gt;STEM CELL TECHNOLOGY&lt;/h1&gt; &lt;h3 id=&quot;what-are-stem-cells&quot;&gt;What are stem cells?&lt;/h3&gt; &lt;p&gt;Imagine waking up from a tragic accident that left you paralyzed from the neck down, will there be any hope to recover completely? Won’t it be amazing if there was a research that the use of stem cells could lead to potential treatments and cures.&lt;/p&gt; &lt;p&gt;With the advent of technology in the fields of artificial intelligence, robotics, genetics, etc., homo sapiens are finally at the threshold of a path to revitalizing and renewing our current fields of health care.&lt;/p&gt; &lt;p&gt;Stem cells are cells that can differentiate into other types or kinds...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/stem_cells/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/stem_cells/</guid>
+        
+        <category>stem cells</category>
+        
+        <category>Piston</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Bluetooth Low Energy</title>
+        <description>&lt;p&gt;We all know how infuriating it is when our devices drains battery when it uses wireless communication like wifi, bluetooth, infra-red. In every device we use, we are always concerned with the &lt;strong&gt;power consumption&lt;/strong&gt;. A device which consumes less power is always favourable. So in this article, I am going to elucidate an effective solution to the power problem in wireless communication- &lt;strong&gt;Bluetooth Low Energy&lt;/strong&gt; , also known as &lt;strong&gt;BLE&lt;/strong&gt;.&lt;/p&gt; &lt;h1 id=&quot;why-ble&quot;&gt;Why BLE?&lt;/h1&gt; &lt;p&gt;Historically, &lt;strong&gt;classic bluetooth&lt;/strong&gt; (the bluetooth we are all aware of) was mainly designed to replace cable and it covers many protocols. And with speeds increasing with new...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</guid>
+        
+        <category>low power</category>
+        
+        <category>wireless communication</category>
+        
+        <category>Diode</category>
+        
+        <category>IEEE NITK</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>An Introduction To WebSockets</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
+        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
+        
+        <category>Web</category>
+        
+        <category>Web Sockets</category>
+        
+        <category>Networks</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Why do Generative Adversarial Nets matter?</title>
@@ -32,146 +196,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Who doesn't want to live on another planet?</title>
-        <description>&lt;p&gt;The colonization of Mars has been a popular theme of discussion over the past few decades. Whether it's in the spirit of exploration, expansion of human settlement or mining for additional resources, the idea of inhabiting another planet has allured us.&lt;/p&gt; &lt;p&gt;This is also evident in how often the idea of colonizing Mars appears in fiction and pop culture: from &quot;The Martian Chronicles&quot; by Ray Bradbury to &quot;The Martian&quot; by Andy Weir, the prospect of humans inhabiting the red planet has been explored from the perspectives of fantasy to science.&lt;/p&gt; &lt;p&gt;Keeping aside the political and ethical challenges that are intrinsic...</description>
-        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/colonization-of-mars/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/colonization-of-mars/</guid>
-        
-        <category>Piston</category>
-        
-        <category>IEEE NITK</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Bionics - The Gap between disability and ability</title>
-        <description>&lt;p&gt;&lt;strong&gt;1.Bionics and its growing relevance&lt;/strong&gt; The rise of bionics has prompted some interesting questions- &lt;strong&gt;Can we trade away our biological body for a repairable one , one that won’t age?&lt;/strong&gt;. Bionics is defined as the science of connecting biological systems to artificial systems to develop machines that can imitate our biology. As bionic systems and transhuman augmentations exceed human capabilities humanity might soon face an interesting dichotomy - &lt;strong&gt;Either remain physically inferior and embody the cherished values of humanism&lt;/strong&gt; as we know them or to become a &lt;strong&gt;superior transhuman with a repairable body that can transcend the decay of aging&lt;/strong&gt;....</description>
-        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/bionics/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/bionics/</guid>
-        
-        <category>Diode</category>
-        
-        <category>IEEE NITK</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Generate Strange Text with GPT-2</title>
-        <description>&lt;p&gt;GPT-2 refers to a set of &lt;em&gt;Language Models&lt;/em&gt; released recently by OpenAI. My objective is to find weird ways that GPT-2 can fail, and also some smart things it is capable of. I’ll be using &lt;a href=&quot;https://talktotransformer.com/&quot;&gt;talktotransformer&lt;/a&gt; for this task. It’s a convenient tool that asks for a short text prompt, and then generates several lines of text to continue the prompt (no coding required!).&lt;/p&gt; &lt;p&gt;First, let’s see if you’re paying attention. Check out the following two samples:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Department of applied mechanics and hydraulics of National Institute of Technology - Karnataka (NIT-K), Suratkal will host a 3-day workshop on...</description>
-        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/generate-text-with-gpt2/</guid>
-        
-        <category>NLP</category>
-        
-        <category>ML/AI</category>
-        
-        
-        <category>Compsoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Future of Drones</title>
-        <description>&lt;p&gt;The word &lt;strong&gt;Drone&lt;/strong&gt; is used pretty often in today’s world. Today the term has broadened to include anything from highly sophisticated $100M Global Hawk to $30 teeny-tiny UDI 839 Quadcopter. Even flightless vehicle such as Drone ship are occasionally referred to as drones.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/FutureOfDrones/drones1.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;p&gt;​ &lt;strong&gt;Global Hawk&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/FutureOfDrones/drones2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt; &lt;p&gt;​ &lt;strong&gt;Quadcopter&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;So what exactly is a drone?&lt;/p&gt; &lt;p&gt;It is called as an unmanned aerial vehicle essentially if it flies in a controlled way and their isn’t anybody on board. Whether it is controlled by computers or entirely controlled by a remote makes little difference. But...</description>
-        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/future-of-drones/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/future-of-drones/</guid>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Concorde: Why did it fail?</title>
-        <description>&lt;p&gt;Concorde: Why did it fail?&lt;/p&gt; &lt;p&gt;We had it.&lt;/p&gt; &lt;p&gt;From January 21st, 1976 to October 24, 2003, we had a commercial supersonic passenger service, called the Concorde, that would bring people from London to New York in just 3.5 hours, a journey that now takes about seven. Alongside the Tupolev Tu 144, Concorde was an aircraft that could brag about its supersonic speed, at a time when other jets could only manage speeds of about 800kmph.&lt;/p&gt; &lt;p&gt;Over the years, Concorde came to represent class and style among the elite class in England, France and the United States. With tickets costing up...</description>
-        <pubDate>Sat, 02 Nov 2019 07:06:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/concorde/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/concorde/</guid>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Forward Swept Wings</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Forward Sweeping is the concept of having the wings bent in the forward direction towards the fuselage (as seen in the picture of the X-29). Forward swept wings were first developed in the 1980s as an experiment to overcome many of the disadvantages of the rear sweep but little did we know what complications it would bring with it. To understand and evaluate the forward sweep we need to first understand why wings are swept back.&lt;/p&gt; &lt;h3 id=&quot;x-29&quot;&gt;X-29:&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/forward-swept-wings/x29.jpeg&quot; alt=&quot;X-29&quot; /&gt;&lt;/p&gt; &lt;p&gt;A wing typically works on bernoulli’s principle where the air above the aerofoil has higher speed...</description>
-        <pubDate>Tue, 08 Oct 2019 01:00:30 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/forward-swept-wings/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/forward-swept-wings/</guid>
-        
-        <category>Piston</category>
-        
-        <category>Aeronautics</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Space-based Solar Power</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;Can you imagine deploying solar panels in space and efficiently converting the solar power that is received right from space and then transmitting the energy back to earth wirelessly, interesting right?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Space-based solar power&lt;/code&gt; project is a daring effort that collects the solar energy from the sun in space, converts it to energy and sends it down to Earth via microwaves. &lt;code class=&quot;highlighter-rouge&quot;&gt;Energy transmitting satellites&lt;/code&gt; that are placed in the geosynchronous orbit of the earth collect high intensity uninterrupted solar radiation by using giant mirrors that reflect huge amounts of solar rays onto two smaller solar...</description>
-        <pubDate>Tue, 08 Oct 2019 00:59:30 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/space-based-solar-power/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/space-based-solar-power/</guid>
-        
-        <category>Diode</category>
-        
-        <category>Space</category>
-        
-        <category>Solar Power</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Password Security: Techniques and Challenges</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Let me preface this article with something: There’s a very good chance that your password is not secure. In fact, if it’s anything less than nine characters long, any attacker could crack it in seconds if he had a decent GPU. Most of us know that ‘password’ is a very weak choice for a password, but there are some of us who think we’re smart and keep our passwords something like ‘p@$$w0r6’: It’s a terrible idea. Change it right now. ‘Hello123’ is probably safer than that. So what exactly is a safe password? And how do you even...</description>
-        <pubDate>Wed, 02 Oct 2019 14:50:10 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/password-security-techniques-and-challenges/</guid>
-        
-        <category>Systems</category>
-        
-        <category>Security</category>
-        
-        <category>Cryptography</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Research, an informal testimony</title>
-        <description>&lt;h1 id=&quot;research-an-informal-testimony&quot;&gt;Research, an informal testimony&lt;/h1&gt; &lt;p&gt;The feeling of working with the author of textbooks that you first read to learn a subject is something beyond the ability of adjectives to explain. However, it is also the time when you begin to realize what you know is barely a fraction of what exists and that there’s always much more to learn. I am extremely privileged to have spent the summer at Stanford Microfluidics Lab as a UGVRI. Now before getting into more details I’d like you to know a little history and the following content is aimed at leaving you takeaway...</description>
-        <pubDate>Thu, 22 Aug 2019 17:00:30 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/Requirements-and-Importance-of-Research/</guid>
-        
-        <category>Requirements</category>
-        
-        <category>Research</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     

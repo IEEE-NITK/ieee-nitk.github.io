@@ -1,6 +1,87 @@
 [
   
     {
+      "title"    : "Web Vulnerabilities",
+      "category" : "CompSoc",
+      "tags"     : "IEEE NITK, CompSoc, web, and vulnerabilities",
+      "url"      : "https://ieee.nitk.ac.in/blog//web-vulnerabilities/",
+      "date"     : "15 Jan 2020",
+      "author"   : "Vineeth Rajesh"
+    } ,
+  
+    {
+      "title"    : "PSLV to Mars",
+      "category" : "Piston",
+      "tags"     : "IEEE NITK, Piston, PSLV, and Mars",
+      "url"      : "https://ieee.nitk.ac.in/blog//pslv-to-mars/",
+      "date"     : "15 Jan 2020",
+      "author"   : "Ekta Ramnani"
+    } ,
+  
+    {
+      "title"    : "Piezoelectricity and Piezoelectric Sensors",
+      "category" : "Diode",
+      "tags"     : "IEEE NITK, Diode, Piezoelectricity, and Sensors",
+      "url"      : "https://ieee.nitk.ac.in/blog//piezoelectricity-and-piezoelectric-sensors/",
+      "date"     : "15 Jan 2020",
+      "author"   : "Kaushik Alwala"
+    } ,
+  
+    {
+      "title"    : "A Comprehensive Guide to Li-Fi",
+      "category" : "CompSoc",
+      "tags"     : "Li-Fi and Wireless Networks",
+      "url"      : "https://ieee.nitk.ac.in/blog//A-Comprehensive-Guide-To-LiFi/",
+      "date"     : "07 Jan 2020",
+      "author"   : "Krithik Vaidya"
+    } ,
+  
+    {
+      "title"    : "DS1: A demonstration spacecraft and its communication aspects",
+      "category" : "Diode",
+      "tags"     : "RF transmission and Antennas",
+      "url"      : "https://ieee.nitk.ac.in/blog//ds1-a-demonstration-spacecraft-and-its-communication-aspects/",
+      "date"     : "07 Jan 2020",
+      "author"   : "A Shrikant"
+    } ,
+  
+    {
+      "title"    : "Autopilot",
+      "category" : "Piston",
+      "tags"     : "Autopilot and Modern Aircraft",
+      "url"      : "https://ieee.nitk.ac.in/blog//autopilot/",
+      "date"     : "07 Jan 2020",
+      "author"   : "Sharayu Brahmankar"
+    } ,
+  
+    {
+      "title"    : "Stem Cell Technology",
+      "category" : "Piston",
+      "tags"     : "stem cells, Piston, and IEEE NITK",
+      "url"      : "https://ieee.nitk.ac.in/blog//stem_cells/",
+      "date"     : "30 Dec 2019",
+      "author"   : "Ishita Goyal"
+    } ,
+  
+    {
+      "title"    : "Bluetooth Low Energy",
+      "category" : "Diode",
+      "tags"     : "low power, wireless communication, Diode, and IEEE NITK",
+      "url"      : "https://ieee.nitk.ac.in/blog//Bluetooth-Low-Energy/",
+      "date"     : "30 Dec 2019",
+      "author"   : "Suraj Kulkarni"
+    } ,
+  
+    {
+      "title"    : "An Introduction To WebSockets",
+      "category" : "CompSoc",
+      "tags"     : "Web, Web Sockets, and Networks",
+      "url"      : "https://ieee.nitk.ac.in/blog//An-Intro-to-WebSockets/",
+      "date"     : "30 Dec 2019",
+      "author"   : "P Akshara"
+    } ,
+  
+    {
       "title"    : "Why do Generative Adversarial Nets matter?",
       "category" : "CompSoc",
       "tags"     : "Deep Learning, Generative Adversarial Networks, GANs, Generative Models, Machine Learning, CompSoc, and IEEE NITK",

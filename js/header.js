@@ -5,7 +5,7 @@ function displayHeader() {
         url: jsonurl,
         success: function (result) {
             var htmlStr = '<a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)">\
-            <img id="small_logo" src="res/img/nitk.png" alt="IEEE Logo"></a>\
+            <img id="small_logo" src="res/img/ieee_nitk.png" alt="IEEE Logo"></a>\
             <div class="popup_menu"><ul id="menu" class="teco">';
             for (var i = 0; i < result.length; i++) {
                 if (result[i].name!="SIGs"){
