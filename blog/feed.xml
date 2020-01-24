@@ -5,13 +5,13 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>http://ieee.nitk.ac.in/blog/</link>
     <atom:link href="http://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Oct 2019 12:43:27 +0530</pubDate>
-    <lastBuildDate>Wed, 02 Oct 2019 12:43:27 +0530</lastBuildDate>
+    <pubDate>Fri, 24 Jan 2020 21:05:50 +0530</pubDate>
+    <lastBuildDate>Fri, 24 Jan 2020 21:05:50 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>An Introduction to PyTorch</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1odpZAS42UzVk16TGol_ta24DtyX1ZB2B&quot;&gt;&lt;img src=&quot;https://colab.research.google.com/assets/colab-badge.svg&quot; alt=&quot;Open In Colab&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h1&gt;An Introduction to PyTorch&lt;/h1&gt; &lt;p&gt;PyTorch was released in early 2017 by Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan and has been making a pretty big impact in the deep learning community. It's is a Python-based scientific computing package targeted to be a: (1) A replacement for NumPy to use the power of GPUs and (2) A deep learning research platform that provides maximum flexibility and speed. It's developed as an open source project by the Facebook AI Research team, and is being adopted by teams everywhere in industry and academia and is...</description>
+        <description>&lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/drive/1odpZAS42UzVk16TGol_ta24DtyX1ZB2B&quot;&gt;&lt;img src=&quot;https://colab.research.google.com/assets/colab-badge.svg&quot; alt=&quot;Open In Colab&quot; /&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2 id=&quot;an-introduction-to-pytorch&quot;&gt;An Introduction to PyTorch&lt;/h2&gt; &lt;p&gt;PyTorch was released in early 2017 by Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan and has been making a pretty big impact in the deep learning community. It's is a Python-based scientific computing package targeted to be a: (1) A replacement for NumPy to use the power of GPUs and (2) A deep learning research platform that provides maximum flexibility and speed. It's developed as an open source project by the Facebook AI Research team, and is being adopted by teams everywhere in industry and academia and...</description>
         <pubDate>Fri, 27 Sep 2019 21:14:44 +0530</pubDate>
         <link>http://ieee.nitk.ac.in/blog/intro-to-pytorch/</link>
         <guid isPermaLink="true">http://ieee.nitk.ac.in/blog/intro-to-pytorch/</guid>
