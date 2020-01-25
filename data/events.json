@@ -1,28 +1,28 @@
 {
   "event1": {
-    "title": "Envision",
-    "sig": "All SIGs",
-    "date": "1st January, 2018"
+    "title": "Embedathon 2020",
+    "sig": "By CAS/SPS",
+    "date": "19th – 20th January 2020"
   },
   "event2": {
-    "title": "ENLIGHTEN (Talk by ISRO Mission Director)",
+    "title": "ENLIGHTEN - IEEE DAY Celebrations",
     "sig": "All SIGs",
-    "date": "19th February, 2018"
+    "date": "1st October, 2019"
   },
   "event3": {
     "title": "Annual Project Expo",
     "sig": "All SIGs",
-    "date": "24th​ March 2018"
+    "date": "23rd - 25th​ March 2019"
   },
   "event4": {
-    "title": "Computer Society Distinguished <br> Lecturer Program Speaker <br> Prof Tulika Mitra",
+    "title": "GyanDhan Talk <br> Industry-Student Branch Collaboration",
     "sig": "All SIGs",
-    "date": "13th​ August 2018"
+    "date": "10th​ January 2019"
   },
   "event5": {
-    "title": "IEEE MITE + IEEE NITK Collaboration Event – <br> One Day Workshop Series on PCB Design <br> and Image Processing",
+    "title": "Knowledge Sharing Session",
     "sig": "All SIGs",
-    "date": "18th August, 2018"
+    "date": "15th January, 2019"
   },
   "event6": {
     "title": "IEEE Praelium",
@@ -32,22 +32,22 @@
   "event7": {
     "title": "INSIGHT",
     "sig": "All SIGs",
-    "date": "24th - 25th August 2018"
+    "date": "1st October 2019"
   },
   "event8": {
     "title": "EUREKA",
     "sig": "All SIGs",
-    "date": "3rd - 6th October 2018"
+    "date": "12th - 16th October 2019"
   },
   "event9": {
-    "title": "Student Membership Drive <br> 2018 | 2019 Renewal Cycle",
+    "title": "Student Membership Drive <br> 2019 | 2020 Renewal Cycle",
     "sig": "All SIGs",
-    "date": "2nd October 2018"
+    "date": "22nd October 2019"
   },
   "event10": {
-    "title": "Athena – Women’s Hackathon",
+    "title": "REFLECT",
     "sig": "By WiE",
-    "date": "3rd - 4th November 2018"
+    "date": "25th October - 1st November 2019"
   },
   "event11": {
     "title": "Women in Technology Summit",
@@ -55,9 +55,14 @@
     "date": "21st - 23rd December 2018"
   },
   "event12": {
-    "title": "Embedathon",
-    "sig": "By CAS/SPS",
-    "date": "19th – 20th January 2019"
+    "title": "Envision",
+    "sig": "All SIGs",
+    "date": "11th January, 2019"
+  },
+  "event13": {
+    "title": "Dishaspoorthi",
+    "sig": "All SIGs",
+    "date": "12th January, 2019"
   }
   
 }

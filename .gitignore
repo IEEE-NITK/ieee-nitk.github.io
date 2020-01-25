@@ -13,3 +13,9 @@ gyan_src/node_modules/*
 gyan_src/_drafts/*
 
 .vagrant/*
+<<<<<<< HEAD
+=======
+
+.jekyll-cache/
+.jekyll-metadata
+>>>>>>> 61581f4186f80dce0a49d684196584eada56aa31
