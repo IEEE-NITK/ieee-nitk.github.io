@@ -22,7 +22,7 @@ github_username: 'shruthanr'
 In this post, we will first look at the basics of Tensors(which are the building blocks of anything you do using PyTorch), and operations on them. We will then have a look at gradients and how they are computed in PyTorch. Finally we shall build a simple Neural Network for the IRIS dataset using PyTorch 
 
 <h2>Prerequisites</h2>
-Knowledge of Python(3.x) is required. Knowledge of NumPy will be useful but is not necessary. For the last part(of building a Neural Network), a basic understanding of a simple neural network is assumed
+Knowledge of Python(3.x) is required. Knowledge of NumPy will be useful but is not necessary. For the last part (of building a Neural Network), a basic understanding of a simple neural network is assumed
 
 <h2>Installation</h2>
 Details of installation may be found <a href="https://pytorch.org/get-started/locally/">here</a>. However, to start off with, I would recommend using <a href = "https://pytorch.org/get-started/locally/">Google Colab</a> or <a href="https://azure.microsoft.com/en-us/develop/pytorch/">Microsoft Azure</a>
@@ -30,7 +30,6 @@ Details of installation may be found <a href="https://pytorch.org/get-started/lo
 <P>We'll first have a look at the building blocks of PyTorch (most other deep learning libraries also) which are Tensors.</P>
 
 <h2>Tensors</h2>
-
 All computations in PyTorch generally consist of operations on Tensors. Tensors can be thought of as a generalisation of vectors or matrices in 1 or more dimensions, or more simply, are like arrays in a programming language like C. In some cases tensors are used as a replacement for NumPy to use the power of GPUs A 1D Tensor is like a 1D array, 2D Tensor like a 2D array and so on. Let's see how we can use them.
 
 <h4>Importing torch</h4>
