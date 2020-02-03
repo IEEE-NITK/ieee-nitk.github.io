@@ -1,6 +1,24 @@
 [
   
     {
+      "title"    : "Augmented reality shaping the world",
+      "category" : "Diode",
+      "tags"     : "augmented reality",
+      "url"      : "https://ieee.nitk.ac.in/blog//AR-shaping-the-world/",
+      "date"     : "30 Jan 2020",
+      "author"   : "Chandravaran Kunjeti"
+    } ,
+  
+    {
+      "title"    : "EKRANOPLAN",
+      "category" : "Piston",
+      "tags"     : "",
+      "url"      : "https://ieee.nitk.ac.in/blog//ekranoplan/",
+      "date"     : "30 Jan 2020",
+      "author"   : "Abhishek R"
+    } ,
+  
+    {
       "title"    : "Web Vulnerabilities",
       "category" : "CompSoc",
       "tags"     : "IEEE NITK, CompSoc, web, and vulnerabilities",
@@ -136,21 +154,21 @@
     } ,
   
     {
-      "title"    : "Forward Swept Wings",
-      "category" : "Piston",
-      "tags"     : "Piston and Aeronautics",
-      "url"      : "https://ieee.nitk.ac.in/blog//forward-swept-wings/",
-      "date"     : "08 Oct 2019",
-      "author"   : "Vehan Doshi"
-    } ,
-  
-    {
       "title"    : "Space-based Solar Power",
       "category" : "Diode",
       "tags"     : "Diode, Space, and Solar Power",
       "url"      : "https://ieee.nitk.ac.in/blog//space-based-solar-power/",
       "date"     : "08 Oct 2019",
       "author"   : "Jyotsna M"
+    } ,
+  
+    {
+      "title"    : "Forward Swept Wings",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "https://ieee.nitk.ac.in/blog//forward-swept-wings/",
+      "date"     : "07 Oct 2019",
+      "author"   : ""
     } ,
   
     {
@@ -199,12 +217,12 @@
     } ,
   
     {
-      "title"    : "Solving Switch Riddle using RL",
-      "category" : "Compsoc",
-      "tags"     : "Switch Riddle, Reinforcement Learning, DIAL, and RNN",
+      "title"    : "Solving Switch Riddle Using Rl",
+      "category" : "",
+      "tags"     : "",
       "url"      : "https://ieee.nitk.ac.in/blog//Solving-Switch-Riddle-using-RL/",
       "date"     : "28 Feb 2019",
-      "author"   : "Madhuparna Bhowmik"
+      "author"   : ""
     } ,
   
     {
@@ -298,30 +316,30 @@
     } ,
   
     {
-      "title"    : "NanoMedicine",
-      "category" : "Piston",
-      "tags"     : "NanoMedicine, Targeted drug delivery, Overlooked advancements, and EPR effect",
+      "title"    : "Nano Medicine",
+      "category" : "",
+      "tags"     : "",
       "url"      : "https://ieee.nitk.ac.in/blog//nano-medicine/",
       "date"     : "22 Dec 2018",
-      "author"   : "Manoj A B"
+      "author"   : ""
     } ,
   
     {
-      "title"    : "How Computers learn to play games!",
-      "category" : "Compsoc",
-      "tags"     : "Computer Games, Reinforcement Learning, Monte Carlo Tree Search, and Alpha-Go",
+      "title"    : "How Computers Learn To Play Games",
+      "category" : "",
+      "tags"     : "",
       "url"      : "https://ieee.nitk.ac.in/blog//how-computers-learn-to-play-games/",
       "date"     : "22 Dec 2018",
-      "author"   : "Madhuparna Bhowmik"
+      "author"   : ""
     } ,
   
     {
-      "title"    : "GaN: Gate to New era",
-      "category" : "Diode",
-      "tags"     : "galliumnitride, GaN, transistors, wafers, silicon, newsilicon, and technology",
+      "title"    : "Gan",
+      "category" : "",
+      "tags"     : "",
       "url"      : "https://ieee.nitk.ac.in/blog//GaN/",
       "date"     : "22 Dec 2018",
-      "author"   : "Vishal Shukla"
+      "author"   : ""
     } ,
   
     {
@@ -352,30 +370,30 @@
     } ,
   
     {
-      "title"    : "NanoMachines",
-      "category" : "Piston",
-      "tags"     : "MEMS, NEMS, Nanotechnology, and Biomedics",
+      "title"    : "Nanomachines",
+      "category" : "",
+      "tags"     : "",
       "url"      : "https://ieee.nitk.ac.in/blog//nanomachines/",
       "date"     : "08 Dec 2018",
-      "author"   : "Shaswata Bose"
+      "author"   : ""
     } ,
   
     {
       "title"    : "Gesture Controlled Robot",
-      "category" : "Diode",
-      "tags"     : "Gesture controlled, accelerometer, RF transmitter, RF receiver, and motor driver",
+      "category" : "",
+      "tags"     : "",
       "url"      : "https://ieee.nitk.ac.in/blog//gesture-controlled-robot/",
       "date"     : "08 Dec 2018",
-      "author"   : "Deepanshi"
+      "author"   : ""
     } ,
   
     {
       "title"    : "Cloud Gaming",
-      "category" : "Compsoc",
-      "tags"     : "Gaming, Cloud, Google Project Stream, and Nvidia Now",
+      "category" : "",
+      "tags"     : "",
       "url"      : "https://ieee.nitk.ac.in/blog//cloud-gaming/",
       "date"     : "08 Dec 2018",
-      "author"   : "Aakash Singh"
+      "author"   : ""
     } ,
   
     {

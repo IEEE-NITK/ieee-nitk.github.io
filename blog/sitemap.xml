@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<url>
+		<loc>https://ieee.nitk.ac.in/blog/AR-shaping-the-world/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/ekranoplan/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
 		<loc>https://ieee.nitk.ac.in/blog/web-vulnerabilities/</loc>
 		<changefreq>weekly</changefreq>
 	</url>
@@ -77,12 +87,12 @@
 	</url>
 	
 	<url>
-		<loc>https://ieee.nitk.ac.in/blog/forward-swept-wings/</loc>
+		<loc>https://ieee.nitk.ac.in/blog/space-based-solar-power/</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	
 	<url>
-		<loc>https://ieee.nitk.ac.in/blog/space-based-solar-power/</loc>
+		<loc>https://ieee.nitk.ac.in/blog/forward-swept-wings/</loc>
 		<changefreq>weekly</changefreq>
 	</url>
 	

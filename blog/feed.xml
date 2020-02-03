@@ -5,9 +5,35 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>https://ieee.nitk.ac.in/blog/</link>
     <atom:link href="https://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jan 2020 13:22:32 +0530</pubDate>
-    <lastBuildDate>Wed, 22 Jan 2020 13:22:32 +0530</lastBuildDate>
-    <generator>Jekyll v4.0.0</generator>
+    <pubDate>Tue, 04 Feb 2020 01:42:07 +0530</pubDate>
+    <lastBuildDate>Tue, 04 Feb 2020 01:42:07 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Augmented reality shaping the world</title>
+        <description>&lt;h1 id=&quot;augmented-reality-shaping-the-world&quot;&gt;Augmented reality shaping the world&lt;/h1&gt; &lt;h3 id=&quot;what-is-ar-augmented-reality&quot;&gt;What is AR (AUGMENTED REALITY)?&lt;/h3&gt; &lt;blockquote&gt; &lt;p&gt;In layman terms, we can say that it is superimposing of computer-generated image onto the real life view of the user. It is being used almost everywhere from zoos to military training.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;### Why AR?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;AR is one of the fastest growing areas of research which will bring about a huge impact to the world, as AR is closely related to the ever fastest growing computer and technology world it will continue to grow, and we can expect a groundbreaking invention which could shake the...</description>
+        <pubDate>Thu, 30 Jan 2020 17:59:00 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/AR-shaping-the-world/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/AR-shaping-the-world/</guid>
+        
+        <category>augmented reality</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>EKRANOPLAN</title>
+        <description>&lt;h1 id=&quot;ekranoplan&quot;&gt;&lt;strong&gt;EKRANOPLAN&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;&lt;img src=&quot;https://www.google.com/imgres?imgurl=https%3A%2F%2Finteng-storage.s3.amazonaws.com%2Fimages%2Fuploads%2Fsizes%2Fekranoplan_resize_md.jpg&amp;amp;imgrefurl=https%3A%2F%2Finterestingengineering.com%2Fa-closer-look-at-the-soviet-navys-1987-lun-class-ekranoplan&amp;amp;tbnid=493vh-8Bk2dxPM&amp;amp;vet=1&amp;amp;docid=rxTlTjDsu1DA5M&amp;amp;w=744&amp;amp;h=528&amp;amp;q=ekranoplan&amp;amp;source=sh%2Fx%2Fim&quot; alt=&quot;Here&#39;s a closer look at the Ekranoplan&quot; /&gt;&lt;/p&gt; &lt;p&gt;Often referred to as the Caspian monster, the ekranoplan is one of the most freakish designs that were actually brought to life in a period where people were peaking at innovation in military hardware. It was designed to stay above the surface of water like a hovercraft but travel at far greater speeds like that of a commercial aeroplane. This was achieved with the help of an air cushion.&lt;/p&gt; &lt;p&gt;Hovercrafts have downward facing fans which generate the necessary lift while Ekranoplans used its wings. In addition to this...</description>
+        <pubDate>Thu, 30 Jan 2020 17:30:00 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/ekranoplan/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/ekranoplan/</guid>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Web Vulnerabilities</title>
@@ -152,50 +178,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>An Introduction To WebSockets</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
-        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
-        
-        <category>Web</category>
-        
-        <category>Web Sockets</category>
-        
-        <category>Networks</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Why do Generative Adversarial Nets matter?</title>
-        <description>&lt;p&gt;A new class of &lt;strong&gt;Generative Models&lt;/strong&gt; was proposed in 2014 by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; (a.k.a The GANfather) which brought in a novel method of dealing with issues in ML and AI. The Invention of &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (GANs) can be regarded as one of the path-breaking innovations in making computers do useful stuff. GANs have seen some crazy development from an application perspective and has been one of the hottest topics for research in the past 5 years.&lt;/p&gt; &lt;h2 id=&quot;so-what-does-a-generative-model-do&quot;&gt;So what does a Generative Model do?&lt;/h2&gt; &lt;p&gt;The main objective of a Generative Model is to create more samples of the &lt;strong&gt;same&lt;/strong&gt;...</description>
-        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/why-do-GANs-matter/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/why-do-GANs-matter/</guid>
-        
-        <category>Deep Learning</category>
-        
-        <category>Generative Adversarial Networks</category>
-        
-        <category>GANs</category>
-        
-        <category>Generative Models</category>
-        
-        <category>Machine Learning</category>
-        
-        <category>CompSoc</category>
-        
-        <category>IEEE NITK</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
