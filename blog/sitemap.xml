@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<url>
-		<loc>https://ieee.nitk.ac.in/blog/Solving-a-traffic-problem-using-graph-decomposition/</loc>
-		<changefreq>weekly</changefreq>
-	</url>
-	
-	<url>
 		<loc>https://ieee.nitk.ac.in/blog/web-vulnerabilities/</loc>
 		<changefreq>weekly</changefreq>
 	</url>
