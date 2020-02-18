@@ -1,15 +1,6 @@
 [
   
     {
-      "title"    : "Solving a traffic problem using graph decomposition",
-      "category" : "CompSoc",
-      "tags"     : "Algorithms and Graph Theory",
-      "url"      : "https://ieee.nitk.ac.in/blog//Solving-a-traffic-problem-using-graph-decomposition/",
-      "date"     : "21 Feb 2020",
-      "author"   : "Varun Raghavendra"
-    } ,
-  
-    {
       "title"    : "Web Vulnerabilities",
       "category" : "CompSoc",
       "tags"     : "IEEE NITK, CompSoc, web, and vulnerabilities",
