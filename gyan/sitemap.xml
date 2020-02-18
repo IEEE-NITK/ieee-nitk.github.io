@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<url>
+		<loc>https://ieee.nitk.ac.in/gyan/shanthanu-rai-summer-internship/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
 		<loc>https://ieee.nitk.ac.in/gyan/adithya-bhat-summer-internship/</loc>
 		<changefreq>weekly</changefreq>
 	</url>

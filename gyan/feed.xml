@@ -5,9 +5,27 @@
     <description>Gyan passed down from one batch to another</description>
     <link>https://ieee.nitk.ac.in/gyan/</link>
     <atom:link href="https://ieee.nitk.ac.in/gyan/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Dec 2019 10:44:49 +0530</pubDate>
-    <lastBuildDate>Wed, 25 Dec 2019 10:44:49 +0530</lastBuildDate>
+    <pubDate>Tue, 18 Feb 2020 21:36:42 +0530</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2020 21:36:42 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Summer Internship and HIPC-2019 experience - Shanthanu S Rai</title>
+        <description>&lt;h1 id=&quot;hipc-2019&quot;&gt;HiPC 2019&lt;/h1&gt; &lt;p&gt;It all began with our IEEE project. It was titled “Parallelising Graph Coloring for GPUs” and we wrote a CUDA program for graph coloring on NVIDIA GPUs. We improved on this by remotely collaborating with Sreepathi Pai, Professor at University of Rochester, NY during our summer holidays. We got to work with better tools and frameworks specific to implementing parallel graph algorithms. The collaboration led to novel technique called “Hybridization”, which is explained in our paper titled “&lt;a href=&quot;https://arxiv.org/abs/1912.01478&quot;&gt;A Hybrid Graph Coloring Algorithm for GPUs&lt;/a&gt;”.&lt;/p&gt; &lt;p&gt;The above paper was accepted in the &lt;a href=&quot;https://hipc.org/students-research-symposium/&quot;&gt;12th HiPC Student Research...</description>
+        <pubDate>Tue, 18 Feb 2020 02:59:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/gyan/shanthanu-rai-summer-internship/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/gyan/shanthanu-rai-summer-internship/</guid>
+        
+        <category>Internships</category>
+        
+        <category>Research</category>
+        
+        <category>HIPC</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Indian Statistical Institute, Kolkata, Internship Experience - Adithya Bhat</title>
@@ -154,24 +172,6 @@
         
         
         <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Advice on Computer Science - Vinay Bhat</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/gyan/assets/img/authors/vinay_bhat.jpg&quot; alt=&quot;Vinay Bhat&quot; /&gt;&lt;/p&gt; &lt;p&gt;Hi, my name is Vinay Bhat and I’m a final year undergraduate student in the IT department. This summer I had interned at Siemens Research Labs, Bangalore. I had applied there because it involved the field of Artificial Intelligence, which I’m greatly interested in.&lt;/p&gt; &lt;p&gt;As I am a part of IEEE club in campus, a senior from my club forwarded this opportunity to us. I applied and sent my resume, after which there were about two telephonic interviews and I was selected for the internship.&lt;/p&gt; &lt;h3 id=&quot;work-culture&quot;&gt;Work Culture&lt;/h3&gt; &lt;p&gt;Work culture here at Siemens was really...</description>
-        <pubDate>Sun, 27 Aug 2017 05:02:44 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/gyan/vinay-siemens/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/gyan/vinay-siemens/</guid>
-        
-        <category>Internships</category>
-        
-        <category>Career Advice</category>
-        
-        <category>Industry</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
