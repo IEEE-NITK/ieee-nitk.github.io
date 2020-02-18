@@ -5,9 +5,25 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>https://ieee.nitk.ac.in/blog/</link>
     <atom:link href="https://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jan 2020 13:22:32 +0530</pubDate>
-    <lastBuildDate>Wed, 22 Jan 2020 13:22:32 +0530</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2020 01:25:08 +0530</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2020 01:25:08 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Solving a traffic problem using graph decomposition</title>
+        <description>&lt;h1 id=&quot;solving-a-traffic-problem-using-graph-decomposition&quot;&gt;Solving a traffic problem using graph decomposition&lt;/h1&gt; &lt;p&gt;The &lt;strong&gt;Capital city&lt;/strong&gt; is known for its prosperous life and big opportunities. Its inhabitants are called &lt;em&gt;“capitolates”&lt;/em&gt;. Every capitolate in Capital city wants to live a happy and peaceful life. Now Capital city has three divisions - Residential town, Fun town and &lt;strong&gt;market city&lt;/strong&gt;. Residential town is where capitolates live. Fun town is where they meet friends and make merry. Market city is where they work to make a living. But every passing year, capitolates are becoming more and more frustrated and unhappy. The reason is that people from neighbouring lands want...</description>
+        <pubDate>Fri, 21 Feb 2020 17:51:30 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/Solving-a-traffic-problem-using-graph-decomposition/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/Solving-a-traffic-problem-using-graph-decomposition/</guid>
+        
+        <category>Algorithms</category>
+        
+        <category>Graph Theory</category>
+        
+        
+        <category>CompSoc</category>
+        
+      </item>
     
       <item>
         <title>Web Vulnerabilities</title>
@@ -167,32 +183,6 @@
         <category>Web Sockets</category>
         
         <category>Networks</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>Why do Generative Adversarial Nets matter?</title>
-        <description>&lt;p&gt;A new class of &lt;strong&gt;Generative Models&lt;/strong&gt; was proposed in 2014 by &lt;strong&gt;Ian Goodfellow&lt;/strong&gt; (a.k.a The GANfather) which brought in a novel method of dealing with issues in ML and AI. The Invention of &lt;strong&gt;Generative Adversarial Networks&lt;/strong&gt; (GANs) can be regarded as one of the path-breaking innovations in making computers do useful stuff. GANs have seen some crazy development from an application perspective and has been one of the hottest topics for research in the past 5 years.&lt;/p&gt; &lt;h2 id=&quot;so-what-does-a-generative-model-do&quot;&gt;So what does a Generative Model do?&lt;/h2&gt; &lt;p&gt;The main objective of a Generative Model is to create more samples of the &lt;strong&gt;same&lt;/strong&gt;...</description>
-        <pubDate>Sun, 10 Nov 2019 10:35:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/why-do-GANs-matter/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/why-do-GANs-matter/</guid>
-        
-        <category>Deep Learning</category>
-        
-        <category>Generative Adversarial Networks</category>
-        
-        <category>GANs</category>
-        
-        <category>Generative Models</category>
-        
-        <category>Machine Learning</category>
-        
-        <category>CompSoc</category>
-        
-        <category>IEEE NITK</category>
         
         
         <category>CompSoc</category>
