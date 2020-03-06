@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "What is machine learning?",
+      "category" : "Diode",
+      "tags"     : "IEEE NITK and Machine Learning",
+      "url"      : "https://ieee.nitk.ac.in/blog//What-is-Machine-Learning/",
+      "date"     : "07 Mar 2020",
+      "author"   : "Adithya Kannan"
+    } ,
+  
+    {
+      "title"    : "An Overview of Tarjan&#39;s Algorithm",
+      "category" : "Compsoc",
+      "tags"     : "IEEE NITK and CompSoc",
+      "url"      : "https://ieee.nitk.ac.in/blog//TarjansAlgo/",
+      "date"     : "07 Mar 2020",
+      "author"   : "Aditya Sohoni"
+    } ,
+  
+    {
+      "title"    : "SLAM Coverage Algorithms",
+      "category" : "Piston",
+      "tags"     : "IEEE NITK and Piston",
+      "url"      : "https://ieee.nitk.ac.in/blog//SLAM/",
+      "date"     : "07 Mar 2020",
+      "author"   : "Jai Mandal"
+    } ,
+  
+    {
       "title"    : "Solving a traffic problem using graph decomposition",
       "category" : "CompSoc",
       "tags"     : "Algorithms and Graph Theory",

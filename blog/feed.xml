@@ -5,9 +5,57 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>https://ieee.nitk.ac.in/blog/</link>
     <atom:link href="https://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2020 01:25:08 +0530</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2020 01:25:08 +0530</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2020 16:17:14 +0530</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2020 16:17:14 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>What is machine learning?</title>
+        <description>&lt;h1 id=&quot;what-is-machine-learning&quot;&gt;What is Machine Learning?&lt;/h1&gt; &lt;p&gt;Machine learning is a school of computer science that focuses on programming machines to improve their performance through data and iteration. The machine can learn without being explicitly programmed. Yes, you read it right. This is called Artificial intelligence, where we feed in data into the machine, and it learns the data and predicts the output for any other input given. Machine learning is broadly classified into&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Supervised Learning In supervised learning, we have an idea of the relationship between the inputs and the outputs from the dataset given. It is further classified into...</description>
+        <pubDate>Sat, 07 Mar 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/What-is-Machine-Learning/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/What-is-Machine-Learning/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Machine Learning</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>An Overview of Tarjan's Algorithm</title>
+        <description>&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;br /&gt; Strong components in directed graphs are components in which all vertices are strongly connected to each other. 2 vertices A and B are strongly connected if there is a directed path from A-&amp;gt;B and B-&amp;gt;A.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Need for Computing Strongly Connected Components&lt;/strong&gt;&lt;br /&gt; Computing strong components for graphs has been a need in computation since many years now. Biologists use the strong components to find out sub-ecosystems in a food chain. During the early advent of the internet, this became an absolute necessity as dependency graphs of various software modules needed to be processed and their strong components extracted,...</description>
+        <pubDate>Sat, 07 Mar 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/TarjansAlgo/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/TarjansAlgo/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>CompSoc</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
+    
+      <item>
+        <title>SLAM Coverage Algorithms</title>
+        <description>&lt;p&gt;&lt;strong&gt;SLAM Coverage Algorithms&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;With the increased use of robots in industries, the need for robots to be more efficient is incredibly high. One of the key concerns is the way in which they commute. Gone are the days when robots were restricted to moving in a pre-defined path, and one of the most fundamental technologies for locomotion of mobile robots are coverage algorithms. Coverage algorithms require that they allow the bot to cover the maximum area possible without any human intervention. In previously used algorithms, the coverage was achieved with robots crossing the entire length possible in a straight line...</description>
+        <pubDate>Sat, 07 Mar 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/SLAM/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/SLAM/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Piston</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
     
       <item>
         <title>Solving a traffic problem using graph decomposition</title>
@@ -130,62 +178,6 @@
         
         
         <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Stem Cell Technology</title>
-        <description>&lt;h1 id=&quot;stem-cell-technology&quot;&gt;STEM CELL TECHNOLOGY&lt;/h1&gt; &lt;h3 id=&quot;what-are-stem-cells&quot;&gt;What are stem cells?&lt;/h3&gt; &lt;p&gt;Imagine waking up from a tragic accident that left you paralyzed from the neck down, will there be any hope to recover completely? Won’t it be amazing if there was a research that the use of stem cells could lead to potential treatments and cures.&lt;/p&gt; &lt;p&gt;With the advent of technology in the fields of artificial intelligence, robotics, genetics, etc., homo sapiens are finally at the threshold of a path to revitalizing and renewing our current fields of health care.&lt;/p&gt; &lt;p&gt;Stem cells are cells that can differentiate into other types or kinds...</description>
-        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/stem_cells/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/stem_cells/</guid>
-        
-        <category>stem cells</category>
-        
-        <category>Piston</category>
-        
-        <category>IEEE NITK</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Bluetooth Low Energy</title>
-        <description>&lt;p&gt;We all know how infuriating it is when our devices drains battery when it uses wireless communication like wifi, bluetooth, infra-red. In every device we use, we are always concerned with the &lt;strong&gt;power consumption&lt;/strong&gt;. A device which consumes less power is always favourable. So in this article, I am going to elucidate an effective solution to the power problem in wireless communication- &lt;strong&gt;Bluetooth Low Energy&lt;/strong&gt; , also known as &lt;strong&gt;BLE&lt;/strong&gt;.&lt;/p&gt; &lt;h1 id=&quot;why-ble&quot;&gt;Why BLE?&lt;/h1&gt; &lt;p&gt;Historically, &lt;strong&gt;classic bluetooth&lt;/strong&gt; (the bluetooth we are all aware of) was mainly designed to replace cable and it covers many protocols. And with speeds increasing with new...</description>
-        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/Bluetooth-Low-Energy/</guid>
-        
-        <category>low power</category>
-        
-        <category>wireless communication</category>
-        
-        <category>Diode</category>
-        
-        <category>IEEE NITK</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>An Introduction To WebSockets</title>
-        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt; &lt;p&gt;&lt;em&gt;Have you ever wondered how the extremely volatile stock/share market prices are constantly updated on online portals?&lt;/em&gt; &lt;em&gt;To have a glimpse of how rapid the changes are, head here&lt;/em&gt; &lt;a href=&quot;https://cryptowat.ch/markets?types=spot%2Bfutures&quot; title=&quot;Cryptowatch&quot;&gt;Cryptowatch portal&lt;/a&gt; &lt;em&gt;Similarly how do new messages automatically pop up in Whatsapp Web or Facebook Chat?&lt;/em&gt;&lt;/p&gt; &lt;h1 id=&quot;a-brief-history-of-real-time-web-applications&quot;&gt;A Brief History of Real-Time Web Applications&lt;/h1&gt; &lt;p&gt;When a user surfs the web, the browser (client) establishes a HTTP connection with a server; sends certain requests via RESTful routes (‘GET’, ‘PATCH’, ‘POST’, etc) to the server that hosts the website. The server receives the requests and sends information as responses...</description>
-        <pubDate>Mon, 30 Dec 2019 07:02:44 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/An-Intro-to-WebSockets/</guid>
-        
-        <category>Web</category>
-        
-        <category>Web Sockets</category>
-        
-        <category>Networks</category>
-        
-        
-        <category>CompSoc</category>
         
       </item>
     
