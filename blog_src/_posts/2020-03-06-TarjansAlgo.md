@@ -32,75 +32,33 @@ These are the main steps in Tarjan's Algorithm:
 5. If the DFS hits a visited node but which is not in the stack then nothing is done.  
 
 **A Pictorial Representation**  
-![GitHub Logo](/blog_src/assets/img/TarjansAlgo/strtDFS.png)
+![Starting the DFS](/blog_src/assets/img/TarjansAlgo/strtDFS.png)
 In the above diagram we start the DFS from the node coloured orange and give it a low-link value of 0.
   
-
-
-
-
-
-
-
-![GitHub Logo](/blog_src/assets/img/TarjansAlgo/strt2.png)
+![DFS](/blog_src/assets/img/TarjansAlgo/strt2.png)
 We then proceed with the DFS, until and assign a low-link value of 1 to the neighbour of the root.
   
-
-
-
-
-
-
-![GitHub Logo](/blog_src/assets/img/TarjansAlgo/strt3.png)
+![DFS](/blog_src/assets/img/TarjansAlgo/strt3.png)
 We continue giving unique low-link ids to new nodes till node 2.  
-  
 
-
-
-
-
-
-![GitHub Logo](/blog_src/assets/img/TarjansAlgo/strt4.png)
+![DFS](/blog_src/assets/img/TarjansAlgo/strt4.png)
 We now hit an already visited node(node 0). So we make the low-link value of all these nodes as 0. We then pop this connected component out of the stack. These are a connected component.  
   
-
-
-
-
-
-
-![GitHub Logo](/blog_src/assets/img/TarjansAlgo/pickanonode.png)
+![Picking a Node](/blog_src/assets/img/TarjansAlgo/pickanonode.png)
 Next we pick another node(part of the DFS).  
   
-
-
-
-
-
-
-![GitHub Logo](/blog_src/assets/img/TarjansAlgo/dorecursively.png)
+![Recursion](/blog_src/assets/img/TarjansAlgo/dorecursively.png)
 We do these steps recursively till we obtain more strong components of the graph.  
   
-
-
-
-
-
-
-![GitHub Logo](/blog_src/assets/img/TarjansAlgo/final.png)
+![The Solution](/blog_src/assets/img/TarjansAlgo/final.png)
 The graph finally looks like this.  
   
-
-
-
 **Analysis**  
-
 The time complexity of this algorithm is O(V+E) as all it does is basically run a DFS.
 However this asymptotic analysis assumes that looking up a vertex in a stack can be done in constant time. In reality this may not be the case and thus the time complexity would be greater.
 The space complexity is linear as it makes use of additional space for the stack.
 
 **Pseudocode**   
-
 The pseudocode is provided below.  
 
 ```
@@ -151,4 +109,3 @@ The pseudocode is provided below.
 **Epilogue**  
 The legendary master of algorithms, Donald Knuth described Tarjan's Algorithm as
 > The data structures that he devised for this problem fit together in an amazingly beautiful way, so that the quantities you need to look at while exploring a directed graph are always magically at your fingertips.
-

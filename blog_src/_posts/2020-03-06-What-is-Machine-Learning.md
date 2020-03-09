@@ -57,7 +57,7 @@ The sigmoid function of x is  ```1/1+(e^(-x)).```
 
 
 
-##### Regularization
+### Regularization
 Sometimes when we try to reduce errors a lot, we end up with a function that fits the training data set correctly, but it may not be correct for predicting the output for new data(overfitting). This overfitting happens due to larger weights and more input variables, and by using regularization, it can be avoided. This is a form of Regression that regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model to avoid the risk of overfitting.In simple terms, if we utilize a curve with higher powers, we can get an equation that fits the training set but might have significant errors during prediction. Hence regularization is used.
 There is a regularization parameter(λ) multiplied with the sum of the square of the weights. This λ inflates the weights, and hence while using gradient descent, the curve is smoothened, and overfitting is avoided. Too large a value of λ can also cause problems like underfitting, so an optimum value of λ should be taken.
 ![Regularization](/blog_src/assets/img/WhatisML/overfitting_21.png)
@@ -86,52 +86,3 @@ For the algorithm refer:<https://towardsdatascience.com/everything-you-need-to-k
 - ###### Recurrent Neural Network(RNN):
     A Recurrent Neural Network is a type of ANN(Artificial Neural Network) in which the output from a particular layer is saved and given as feedback to the input. This feedback helps predict the outcome of the layer.
     The first layer is formed in the same way as it is in the feedforward network. That is, with the product of the sum of the weights and features. However, in subsequent layers, the recurrent neural network process begins.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

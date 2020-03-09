@@ -198,36 +198,34 @@ These are the main steps in Tarjan’s Algorithm:</p>
 </ol>
 
 <p><strong>A Pictorial Representation</strong><br />
-<img src="/blog_src/assets/img/TarjansAlgo/strtDFS.png" alt="GitHub Logo" />
+<img src="/blog_src/assets/img/TarjansAlgo/strtDFS.png" alt="Starting the DFS" />
 In the above diagram we start the DFS from the node coloured orange and give it a low-link value of 0.</p>
 
-<p><img src="/blog_src/assets/img/TarjansAlgo/strt2.png" alt="GitHub Logo" />
+<p><img src="/blog_src/assets/img/TarjansAlgo/strt2.png" alt="DFS" />
 We then proceed with the DFS, until and assign a low-link value of 1 to the neighbour of the root.</p>
 
-<p><img src="/blog_src/assets/img/TarjansAlgo/strt3.png" alt="GitHub Logo" />
+<p><img src="/blog_src/assets/img/TarjansAlgo/strt3.png" alt="DFS" />
 We continue giving unique low-link ids to new nodes till node 2.</p>
 
-<p><img src="/blog_src/assets/img/TarjansAlgo/strt4.png" alt="GitHub Logo" />
+<p><img src="/blog_src/assets/img/TarjansAlgo/strt4.png" alt="DFS" />
 We now hit an already visited node(node 0). So we make the low-link value of all these nodes as 0. We then pop this connected component out of the stack. These are a connected component.</p>
 
-<p><img src="/blog_src/assets/img/TarjansAlgo/pickanonode.png" alt="GitHub Logo" />
+<p><img src="/blog_src/assets/img/TarjansAlgo/pickanonode.png" alt="Picking a Node" />
 Next we pick another node(part of the DFS).</p>
 
-<p><img src="/blog_src/assets/img/TarjansAlgo/dorecursively.png" alt="GitHub Logo" />
+<p><img src="/blog_src/assets/img/TarjansAlgo/dorecursively.png" alt="Recursion" />
 We do these steps recursively till we obtain more strong components of the graph.</p>
 
-<p><img src="/blog_src/assets/img/TarjansAlgo/final.png" alt="GitHub Logo" />
+<p><img src="/blog_src/assets/img/TarjansAlgo/final.png" alt="The Solution" />
 The graph finally looks like this.</p>
 
-<p><strong>Analysis</strong></p>
-
-<p>The time complexity of this algorithm is O(V+E) as all it does is basically run a DFS.
+<p><strong>Analysis</strong><br />
+The time complexity of this algorithm is O(V+E) as all it does is basically run a DFS.
 However this asymptotic analysis assumes that looking up a vertex in a stack can be done in constant time. In reality this may not be the case and thus the time complexity would be greater.
 The space complexity is linear as it makes use of additional space for the stack.</p>
 
-<p><strong>Pseudocode</strong></p>
-
-<p>The pseudocode is provided below.</p>
+<p><strong>Pseudocode</strong> <br />
+The pseudocode is provided below.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> algorithm tarjan is  
   input: graph G = (V, E) 
@@ -278,7 +276,6 @@ The legendary master of algorithms, Donald Knuth described Tarjan’s Algorithm 
 <blockquote>
   <p>The data structures that he devised for this problem fit together in an amazingly beautiful way, so that the quantities you need to look at while exploring a directed graph are always magically at your fingertips.</p>
 </blockquote>
-
 
                 </article>
                 <div class="sidebar">
