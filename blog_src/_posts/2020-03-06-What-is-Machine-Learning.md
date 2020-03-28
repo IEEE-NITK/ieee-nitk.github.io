@@ -35,7 +35,7 @@ J(θ0,θ1)=(1/2m)*∑(i=1 to m) (y(i)−y1(i))^2 =  (1/2m)*∑(i=1 to m)(hθ(x(i
 ```
 In the given equation, the variable J is called the cost function, which calculates the error and aids in calculating the accuracy of the hypothesis, which is measured. The error term is the difference between the hypothesis and the original output y. The error term is squared and divided by two as while we calculate the gradient descent (a method of reducing the error ), it will be easier for calculation.
 
-### Gradient Descent
+## Gradient Descent
 The purpose of finding the cost function is to reduce the error in the hypothesis and improve the accuracy. Gradient Descent is an iterative algorithm used to optimize and find the minimum value for the cost function in this case.
 The gradient descent algorithm is as follows:
 ```
@@ -47,7 +47,7 @@ Here the value of θ the weight is updated so that the slope of the cost functio
 
 This iterative process is continued until J reaches its minimum value. This process can be imagined in 3-D as the two weights θ0 and θ1 as the x and y axes and the function J as the z-axes, then the lowermost point(like the lowermost pint of a basin) can be found using this algorithm.
 
-### Logistic Regression
+## Logistic Regression
 Logistic Regression is the appropriate analysis to conduct when there are only two possibilities(binary). Logistic Regression is a predictive analysis. Logistic Regression is used to describe data and to explain the relationship between one binary variable and one or more nominal, ordinal, interval, or ratio-level independent variables.
 Take an example where we need to classify whether an email is a spam or not. If we use linear Regression for this problem, there is a need for setting up a threshold around which the classification can be done. Say if the actual email is spam; if the predicted continuous value 0.4, and the threshold value is 0.5, the data point will be classified as not spam.
 The hypothesis, instead of being the weighted sum of inputs is the sigmoid function with the input as the weighted sum of inputs.
@@ -57,7 +57,7 @@ The sigmoid function of x is  ```1/1+(e^(-x)).```
 
 
 
-### Regularization
+## Regularization
 Sometimes when we try to reduce errors a lot, we end up with a function that fits the training data set correctly, but it may not be correct for predicting the output for new data(overfitting). This overfitting happens due to larger weights and more input variables, and by using regularization, it can be avoided. This is a form of Regression that regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model to avoid the risk of overfitting.In simple terms, if we utilize a curve with higher powers, we can get an equation that fits the training set but might have significant errors during prediction. Hence regularization is used.
 There is a regularization parameter(λ) multiplied with the sum of the square of the weights. This λ inflates the weights, and hence while using gradient descent, the curve is smoothened, and overfitting is avoided. Too large a value of λ can also cause problems like underfitting, so an optimum value of λ should be taken.
 ![Regularization](/blog_src/assets/img/WhatisML/overfitting_21.png)
@@ -73,7 +73,7 @@ Social Media platforms instantly identify which of your friends is in the photo 
 
 ![Image Recognition](/blog_src/assets/img/WhatisML/o-FACEBOOK-FACIAL-RECOGNITION-570.jpg)
 To determine which weight is better to modify, a particular process, called “backpropagation” is done. 
-#### Backpropogation
+## Backpropogation
 In neural networks also, the accuracy can be improved. Backpropagation algorithms are a group of methods used to train artificial neural networks following a gradient-based optimization algorithm appropriately. The critical feature of backpropagation is its iterative, recursive, and efficient method for calculating the weights updates to improve the network until it can perform the task for which it is being trained. In machine learning, backpropagation is commonly used by the gradient optimization algorithm to adjust the weight of neurons by calculating the gradient of the loss function.
 For the algorithm refer:<https://towardsdatascience.com/everything-you-need-to-know-about-neural-networks-and-backpropagation-machine-learning-made-easy-e5285bc2be3a>
 ## The Types of Neural Networks
