@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<url>
+		<loc>https://ieee.nitk.ac.in/blog/Genome-Editing/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/Applications-of-Neural-Networks-in-Power-Systems/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
 		<loc>https://ieee.nitk.ac.in/blog/What-is-Machine-Learning/</loc>
 		<changefreq>weekly</changefreq>
 	</url>

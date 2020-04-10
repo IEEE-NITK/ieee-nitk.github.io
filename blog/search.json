@@ -1,6 +1,24 @@
 [
   
     {
+      "title"    : "Genome Editing",
+      "category" : "Piston",
+      "tags"     : "IEEE NITK and Genome Editing",
+      "url"      : "https://ieee.nitk.ac.in/blog//Genome-Editing/",
+      "date"     : "14 Mar 2020",
+      "author"   : "B. Sai Prasad"
+    } ,
+  
+    {
+      "title"    : "Application of Neural Networks in Power Systems",
+      "category" : "Diode",
+      "tags"     : "IEEE NITK, Power Systems, Neural Networks, and Machine Learning",
+      "url"      : "https://ieee.nitk.ac.in/blog//Applications-of-Neural-Networks-in-Power-Systems/",
+      "date"     : "14 Mar 2020",
+      "author"   : "Aditya C"
+    } ,
+  
+    {
       "title"    : "What is machine learning?",
       "category" : "Diode",
       "tags"     : "IEEE NITK and Machine Learning",
