@@ -5,9 +5,45 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>https://ieee.nitk.ac.in/blog/</link>
     <atom:link href="https://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Apr 2020 21:18:06 +0530</pubDate>
-    <lastBuildDate>Fri, 03 Apr 2020 21:18:06 +0530</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2020 23:08:38 +0530</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2020 23:08:38 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Genome Editing</title>
+        <description>&lt;h1 id=&quot;genome-editing&quot;&gt;&lt;strong&gt;GENOME EDITING&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;&lt;em&gt;A genome is an organism’s complete set of DNAs, together with all of its genes. Every genome contains all the data required to create and maintain that organism.&lt;/em&gt; In humans, a replica of the whole genome (more than three billion DNA base pairs) is contained in all cells that have a nucleus. Modification to provide desired traits in plants, animals, and microbes used for food began around 10,000 years ago. These changes, in conjunction with natural evolutionary changes, have resulted in common food species that are currently genetically totally different from their ancestors.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog_src/assets/img/Genome-Editing/figure1.jpg&quot; alt=&quot;Genome Editing&quot;...</description>
+        <pubDate>Sat, 14 Mar 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/Genome-Editing/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/Genome-Editing/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Genome Editing</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Application of Neural Networks in Power Systems</title>
+        <description>&lt;h1 id=&quot;application-of-neural-networks-in-power-systems&quot;&gt;&lt;strong&gt;Application of Neural Networks in Power Systems&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Have you ever heard of Machine Learning or Neural Networks, but you don’t know their applications? Scroll down to find out!&lt;/p&gt; &lt;p&gt;For most beginners, the title itself might be a bit complicated to digest. So let’s split it into its 2 major components - &lt;strong&gt;Neural Networks&lt;/strong&gt; in &lt;strong&gt;Power Systems.&lt;/strong&gt;&lt;/p&gt; &lt;h2 id=&quot;what-are-neural-networks&quot;&gt;&lt;strong&gt;What are Neural Networks?&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Neural networks are a set of algorithms, modeled after the human brain, primarily designed to recognize patterns. To understand how a neural network works, one must know the related terminologies. &lt;a href=&quot;https://ieee.nitk.ac.in/blog/What-is-Machine-Learning/&quot;&gt;This&lt;/a&gt; is a blog that contains the...</description>
+        <pubDate>Sat, 14 Mar 2020 05:02:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/Applications-of-Neural-Networks-in-Power-Systems/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/Applications-of-Neural-Networks-in-Power-Systems/</guid>
+        
+        <category>IEEE NITK</category>
+        
+        <category>Power Systems</category>
+        
+        <category>Neural Networks</category>
+        
+        <category>Machine Learning</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
     
       <item>
         <title>What is machine learning?</title>
@@ -146,38 +182,6 @@
         
         
         <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>DS1: A demonstration spacecraft and its communication aspects</title>
-        <description>&lt;h1 id=&quot;deep-space-1-how-and-what-does-it-do-on-space&quot;&gt;Deep Space 1: How and what does it do on Space??&lt;/h1&gt; &lt;p&gt;Deep Space 1 or DS1 is a satellite launched by National Aeronautics and Space Administration (NASA) in 1998 to serve its purpose as a technology demonstration spacecraft. It was launched to test various upcoming technologies in space, its conditions, outcomes, threats or limitations of the proposed technology etc. in real time in space rather than earthly simulations. We are interested to learn how DS1 or any satellite in outer space carry out efficient communications to Space stations in Earth. For this, we must first be aware of Deep...</description>
-        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/ds1-a-demonstration-spacecraft-and-its-communication-aspects/</guid>
-        
-        <category>RF transmission</category>
-        
-        <category>Antennas</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>Autopilot</title>
-        <description>&lt;h1 id=&quot;autopilots&quot;&gt;AUTOPILOTS&lt;/h1&gt; &lt;p&gt;An autopilot is a flight control system that allows a pilot to fly an airplane without continuous hands-on control of the airplane. It allows the pilot to focus on higher-order tasks such as navigating, communicating with air traffic control, planning for weather contingencies and rerouting associated with any kind of emergency circumstance.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/autopilot/Figure_1.png&quot; alt=&quot;A simple autopilot combined with conventional navigation instruments.&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;first-autopilots&quot;&gt;FIRST AUTOPILOTS&lt;/h3&gt; &lt;p&gt;In the early days of aviation, pilots had to control the aircraft all the time to fly safely. As aircraft range increased and the flight durations increased, it became a serious problem...</description>
-        <pubDate>Tue, 07 Jan 2020 12:30:00 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/autopilot/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/autopilot/</guid>
-        
-        <category>Autopilot</category>
-        
-        <category>Modern Aircraft</category>
-        
-        
-        <category>Piston</category>
         
       </item>
     
