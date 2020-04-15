@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<url>
+		<loc>https://ieee.nitk.ac.in/blog/updatedekranoplan/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/communication-protocols-part1/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>https://ieee.nitk.ac.in/blog/a-dive-into-git-directory/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
 		<loc>https://ieee.nitk.ac.in/blog/Genome-Editing/</loc>
 		<changefreq>weekly</changefreq>
 	</url>

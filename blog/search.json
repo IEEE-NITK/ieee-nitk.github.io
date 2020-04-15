@@ -1,6 +1,33 @@
 [
   
     {
+      "title"    : "EKRANOPLAN",
+      "category" : "Piston",
+      "tags"     : "Ekranoplan",
+      "url"      : "https://ieee.nitk.ac.in/blog//updatedekranoplan/",
+      "date"     : "15 Apr 2020",
+      "author"   : "Abhishek R"
+    } ,
+  
+    {
+      "title"    : "Communication Protocols Part 1",
+      "category" : "Diode",
+      "tags"     : "Communication, Protocols, and Synchronous",
+      "url"      : "https://ieee.nitk.ac.in/blog//communication-protocols-part1/",
+      "date"     : "15 Apr 2020",
+      "author"   : "Rahul M Hanchate"
+    } ,
+  
+    {
+      "title"    : "A Dive into Git Directory",
+      "category" : "Compsoc",
+      "tags"     : "Git, Github, and Bash",
+      "url"      : "https://ieee.nitk.ac.in/blog//a-dive-into-git-directory/",
+      "date"     : "15 Apr 2020",
+      "author"   : "Ameya Deshpande"
+    } ,
+  
+    {
       "title"    : "Genome Editing",
       "category" : "Piston",
       "tags"     : "IEEE NITK and Genome Editing",
