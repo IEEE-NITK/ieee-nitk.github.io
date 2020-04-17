@@ -5,9 +5,59 @@
     <description>A blog documenting random findings and musings of our members</description>
     <link>https://ieee.nitk.ac.in/blog/</link>
     <atom:link href="https://ieee.nitk.ac.in/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Apr 2020 23:08:38 +0530</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2020 23:08:38 +0530</lastBuildDate>
+    <pubDate>Wed, 15 Apr 2020 22:03:37 +0530</pubDate>
+    <lastBuildDate>Wed, 15 Apr 2020 22:03:37 +0530</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>EKRANOPLAN</title>
+        <description>&lt;p&gt;Here’s a closer look at the Ekranoplan &lt;img src=&quot;/blog_src/assets/img/EKRANOPLAN/ekranoplan_resize_md.jpg&quot; alt=&quot;ekranoplan&quot; /&gt;&lt;/p&gt; &lt;p&gt;Often referred to as the Caspian monster, the ekranoplan is one of the most freakish designs that were actually brought to life in a period where people were peaking at innovation in military hardware. It was designed to stay above the surface of water like a hovercraft but travel at far greater speeds like that of a commercial aeroplane. This was achieved with the help of an air cushion.&lt;/p&gt; &lt;p&gt;Hovercrafts have downward facing fans which generate the necessary lift while Ekranoplans used its wings and built up speed to...</description>
+        <pubDate>Wed, 15 Apr 2020 17:41:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/updatedekranoplan/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/updatedekranoplan/</guid>
+        
+        <category>Ekranoplan</category>
+        
+        
+        <category>Piston</category>
+        
+      </item>
+    
+      <item>
+        <title>Communication Protocols Part 1</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;Consider a multiplayer game that involves two or more participants. As there are many multiplayer games on an online platform, there’s always a need to be a proper collaboration between the players. A game is only as good as its rules, and how well we play the game is defined by how well we follow the rules. Often, players ignore these “protocols” and end up messing the system with no result and just chaos. From this, you may guess these “protocols” are not just a necessity in games, but most of the aspects of life. Users (which include...</description>
+        <pubDate>Wed, 15 Apr 2020 17:40:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/communication-protocols-part1/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/communication-protocols-part1/</guid>
+        
+        <category>Communication</category>
+        
+        <category>Protocols</category>
+        
+        <category>Synchronous</category>
+        
+        
+        <category>Diode</category>
+        
+      </item>
+    
+      <item>
+        <title>A Dive into Git Directory</title>
+        <description>&lt;p&gt;Git is a distributed version control system. It means Git helps you manage different versions of your work, record the changes and helps different collaborators work parallelly on the same project.&lt;/p&gt; &lt;p&gt;Imagine that you are working on a big project involving many files and folders in it. You make a series of changes to your project and now finally when you compile it, you see the application is crashing or not working as expected. In such a case, Git is the best tool you could use. If you have recorded all your changes uniformly in Git, you can any time...</description>
+        <pubDate>Wed, 15 Apr 2020 15:40:44 +0530</pubDate>
+        <link>https://ieee.nitk.ac.in/blog/a-dive-into-git-directory/</link>
+        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/a-dive-into-git-directory/</guid>
+        
+        <category>Git</category>
+        
+        <category>Github</category>
+        
+        <category>Bash</category>
+        
+        
+        <category>Compsoc</category>
+        
+      </item>
     
       <item>
         <title>Genome Editing</title>
@@ -123,62 +173,6 @@
         <category>web</category>
         
         <category>vulnerabilities</category>
-        
-        
-        <category>CompSoc</category>
-        
-      </item>
-    
-      <item>
-        <title>PSLV to Mars</title>
-        <description>&lt;h1 id=&quot;pslv-to-mars&quot;&gt;PSLV to Mars&lt;/h1&gt; &lt;h3 id=&quot;mars-orbiter-mission&quot;&gt;(Mars Orbiter Mission)&lt;/h3&gt; &lt;p&gt;Marking the series of events in the world history, November 5,2013 is recognized to be a day of great significance all over the world. On this day, ISRO launched MOM(Mars Orbiter Mission) also called Mangalyaan,a space probe orbiting Mars since September 24,2014.This made India the first Asian nation to reach Martian Orbit and the first nation in the world to do so in its first attempt.The launch took place from Satish Dhawan Space centre in Sriharikota.Indian scientists in ISRO proposed to launch the Mars satellite using PSLV(Polar Satellite Launch Vehicle) rocket. First,...</description>
-        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/pslv-to-mars/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/pslv-to-mars/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Piston</category>
-        
-        <category>PSLV</category>
-        
-        <category>Mars</category>
-        
-        
-        <category>Piston</category>
-        
-      </item>
-    
-      <item>
-        <title>Piezoelectricity and Piezoelectric Sensors</title>
-        <description>&lt;h1 id=&quot;piezoelectricity-and-piezoelectric-sensors&quot;&gt;PIEZOELECTRICITY AND PIEZOELECTRIC SENSORS&lt;/h1&gt; &lt;h2 id=&quot;piezoelectricity&quot;&gt;Piezoelectricity&lt;/h2&gt; &lt;p&gt;The accumulation of electric charge in solid materials in response to applied mechanical stress is called the piezoelectric effect or piezoelectricity, and those types of solid materials are called piezoelectric materials. Quartz, Berlinite (AlPO4), Sucrose (table sugar), Topaz, Tourmaline-group minerals, Lead titanate, etc. are some examples of naturally occurring piezoelectric materials. Some of the biological materials exhibiting piezoelectricity include silk, wood, enamel, tendon, etc. Barium titanate, Lead zirconate titanate, Potassium niobate, Sodium tungstate, Zinc oxide, etc., fall under the category of Synthetic ceramics that exhibit the piezoelectric effect. Piezoelectric effect is also exhibited...</description>
-        <pubDate>Wed, 15 Jan 2020 05:02:44 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/piezoelectricity-and-piezoelectric-sensors/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/piezoelectricity-and-piezoelectric-sensors/</guid>
-        
-        <category>IEEE NITK</category>
-        
-        <category>Diode</category>
-        
-        <category>Piezoelectricity</category>
-        
-        <category>Sensors</category>
-        
-        
-        <category>Diode</category>
-        
-      </item>
-    
-      <item>
-        <title>A Comprehensive Guide to Li-Fi</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/blog/assets/img/a-comprehensive-guide-to-lifi/1.jpeg&quot; alt=&quot;Li-Fi Visual&quot; /&gt;&lt;/p&gt; &lt;p&gt;Wouldn’t it be interesting if we could use our everyday LED bulbs as the transmitters of data for wirelessly accessing the internet, instead of Wi-Fi Routers or Cellular Networks? Li-Fi is a technology that does exactly that. Li-Fi was unveiled by &lt;em&gt;Dr. Harald Haas&lt;/em&gt; in his iconic 2011 TED Talk entitled &lt;a href=&quot;https://www.youtube.com/watch?v=NaoSp4NpkGg&quot;&gt;Wireless data from every light bulb&lt;/a&gt;, where he demonstrated Li-Fi in public for the first time. Li-Fi (which is an acronym for &lt;strong&gt;Light Fidelity&lt;/strong&gt;), is a light-based communication system that is capable of transmitting data at high speeds over the visible,...</description>
-        <pubDate>Tue, 07 Jan 2020 20:01:55 +0530</pubDate>
-        <link>https://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</link>
-        <guid isPermaLink="true">https://ieee.nitk.ac.in/blog/A-Comprehensive-Guide-To-LiFi/</guid>
-        
-        <category>Li-Fi</category>
-        
-        <category>Wireless Networks</category>
         
         
         <category>CompSoc</category>

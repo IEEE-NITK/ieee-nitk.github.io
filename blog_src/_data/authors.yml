@@ -895,3 +895,21 @@ this-is-ac:
   author_image: 'aditya-c.jpeg'
   user_description: Sleeping
   email: adichand20@gmail.com
+ameyanrd:
+  name: Ameya Deshpande
+  github: ameyanrd
+  author_image: ameyanrd.png
+  user_description: 'Computer Science Enthusiast'
+  email: ameyanrd@outlook.com
+rmhanchate:
+  name: Rahul M Hanchate
+  github: rmhanchate
+  author_image: rmhanchate.png
+  user_description: 'Never think of settling in life, always be keen to learn more!'
+  email: rmhanchate2000@gmail.com
+raghunathabhishek:
+  name: Abhishek R
+  github: raghunathabhishek
+  author_image: raghunathabhishek.png
+  user_description: 'I guess humanity isn’t awful, they did make vodka, chocolate and biryani.'
+  email: raghunathabhishek@gmail.com
