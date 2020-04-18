@@ -77,7 +77,7 @@ Before we jump into the individual protocol details, you need to look upon some 
 
 1. A full-duplex system means data can be sent and received simultaneously. On the other hand, Half-duplex is referred to the method wherein data can be sent or received. It cannot be done at the same time.
 2. Master/slave describes a bus where one device is the master, and others are slaves. These buses are usually synchronous, as the master often supplies the timing clock for data being sent along in both directions.
-3. Master/slave describes a bus where one device is the master, and others are slaves. These buses are usually synchronous, as the master often supplies the timing clock for data being sent along in both directions.
+
 
 
 
