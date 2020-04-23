@@ -98,32 +98,19 @@ function loadArticles() {
         second: null
     };
     var todaysDate = getTodaysDate();
-    $.getJSON("./blog/search.json", function(result) {
-        var blogArticles = result.slice(0, 2);
-        $.getJSON("./gyan/search.json", function(result) {
-            var gyanArticles = result.slice(0, 2);
-            if (within7Days(convertDate(blogArticles[0].date), todaysDate)) {
-                renderArticle(blogArticles[0], "Blog", 1);
-                if (within7Days(convertDate(gyanArticles[0].date), todaysDate)) {
-                    renderArticle(gyanArticles[0], "Gyan", 2);
-                } else if (within7Days(convertDate(blogArticles[1].date), todaysDate)) {
-                    renderArticle(blogArticles[1], "Blog", 2);
-                } else {
-                    $("#article2").css("display", "none");
-                    $("#article1").css("width", "92%");
-                }
-            } else if (within7Days(convertDate(gyanArticles[0].date), todaysDate)) {
-                renderArticle(gyanArticles[0], "Gyan", 1);
-                if (within7Days(convertDate(gyanArticles[1].date), todaysDate)) {
-                    renderArticle(gyanArticles[1], "Gyan", 2);
-                } else {
-                    $("#article2").css("display", "none");
-                    $("#article1").css("width", "92%");
-                }
+    $.getJSON("./gyan/search.json", function(result) {
+        var gyanArticles = result.slice(0, 2);
+        if (within7Days(convertDate(gyanArticles[0].date), todaysDate)) {
+            renderArticle(gyanArticles[0], "Gyan", 1);
+            if (within7Days(convertDate(gyanArticles[1].date), todaysDate)) {
+                renderArticle(gyanArticles[1], "Gyan", 2);
             } else {
-                $(".cta_container").css("display", "none");
+                $("#article2").css("display", "none");
+                $("#article1").css("width", "92%");
             }
-        })
+        } else {
+            $(".cta_container").css("display", "none");
+        }
     })
 }
 
