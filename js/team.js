@@ -50,29 +50,6 @@ function renderList(arr) {
     }
     $(".alum .members").html(htmlStr);
 
-    // Event Listeners
-
-    $(".member_item").click(function(element) {
-        var id = element.currentTarget.id.slice(4);
-
-        if (element.target.id.slice(0, 4) == "exec")
-            member = arr.exec[id];
-        else
-            member = arr.core[id];
-
-        displayOverlay(member);
-
-
-    });
-    $(".member_item_alum").click(function(element) {
-        var id = element.currentTarget.id.slice(4);
-
-        if(element.target.id.slice(0, 4) == "alum")
-            member = arr.alumni[id];
-        displayOverlay(member);
-    });
-
-    
 }
 
 function displayOverlay(member) {
