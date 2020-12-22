@@ -1494,7 +1494,7 @@ window.particlesJS = function(tag_id, params){
       pJS_canvas_class = 'particles-js-canvas-el',
       exist_canvas = pJS_tag.getElementsByClassName(pJS_canvas_class);
 
-  /* remove canvas if exists into the pJS target tag */
+  /* remove canvas if exists into the pJS target tag */ 
   if(exist_canvas.length){
     while(exist_canvas.length > 0){
       pJS_tag.removeChild(exist_canvas[0]);

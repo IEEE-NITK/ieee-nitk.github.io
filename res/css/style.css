@@ -14,6 +14,29 @@ body {
   color: gray;
   background: whitesmoke;
 }
+
+/* Let's get this party started */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgb(0, 86, 167); 
+}
+body::-webkit-scrollbar-thumb:window-inactive {
+background: rgba(0, 86, 167, 0.5); 
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -51,6 +74,22 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
+
+.dropdown-menu {
+  background-color: #1a1a1a;
+}
+
+.dropdown-item a {
+  -webkit-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
+  transition: 0.5s !important;
+}
+.dropdown-item a:hover, a:active {
+  background-color: #252525 !important;
+  outline: none;
+  text-decoration: none;
+}
+
 p {
   margin-bottom: 20px;
   word-break: break-all;
@@ -1721,8 +1760,9 @@ input[type="text"] {
   border: 1px solid rgb(0, 86, 167);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #5ed092;
-  border-color: #5ed092;
+  background: #fff;
+  border-color: #fff;
+  color: rgb(0, 86, 167);
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1968,4 +2008,49 @@ input[type="text"] {
 .ewf-section--spacing-none-bottom
 {
   padding-bottom: 0;
+}
+
+@-webkit-keyframes blurIn {
+  0% {
+      color: rgba(255, 255, 255, 0)
+  }
+  25% {
+      color: rgba(255, 255, 255, 1)
+  }
+  75% {
+      color: rgba(255, 255, 255, 1)
+  }
+  100% {
+      color: rgba(255, 255, 255, 0)
+  }
+}
+
+
+/* Standard syntax */
+
+@keyframes blurIn {
+  0% {
+      color: rgba(255, 255, 255, 0)
+  }
+  25% {
+      color: rgba(255, 255, 255, 1)
+  }
+  75% {
+      color: rgba(255, 255, 255, 1)
+  }
+  100% {
+      color: rgba(255, 255, 255, 0)
+  }
+}
+
+.effect_char {
+  font-size: 12vh;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(255, 255, 255, 0);
+  animation-name: blurIn;
+  animation-duration: 2s;
+}
+
+#text_effect {
+  margin-top: 28vh !important;
 }

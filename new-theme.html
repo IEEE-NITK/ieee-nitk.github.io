@@ -51,47 +51,26 @@
     <!-- Linked Sheets needed -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
-    <link rel="stylesheet" href="res/css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="res/css/icomoon.css">
     <link rel="stylesheet" href="res/css/bootstrap.css">
     <link rel="stylesheet" href="res/css/magnific-popup.css">
-    <link rel="stylesheet" href="res/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="res/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="res/owl.carousel.min.css">
+    <link rel="stylesheet" href="res/owl.theme.default.min.css">
     <link rel="stylesheet" href="res/css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
     <!-- Linked Scripts needed -->
     <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+    
+    <script src="js/header.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/events.js"></script>
     <script src="js/cta.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/footer.js"></script>  
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/jquery.easing.1.3.js"></script>
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/bootstrap.min.js"></script>
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/jquery.waypoints.min.js"></script>
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/jquery.stellar.min.js"></script>
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/owl.carousel.min.js"></script>
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://preview.colorlib.com/theme/unapp/js/magnific-popup-options.js"></script>
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/jquery.countTo.js"></script>
-    
-    <script src="https://preview.colorlib.com/theme/unapp/js/main.js"></script>  
-    <script>
-		$(document).ready(function () {
-            displayHeader();
-            displayFooter();
-		});
-	</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
     <script>
@@ -100,12 +79,13 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-106590424-3');
+
+      displayHeader();
     </script>
 </head>
 <body>
     <div class="colorlib-loader"></div>
     <div id="page">
-        <div class="overlay"></div>
         <nav class="colorlib-nav" role="navigation">
             <div class="top-menu">
                     <div class="container">
@@ -114,58 +94,30 @@
                 </div>
             </div>
         </nav>
-<section id="home" class="video-hero" style="height: 700px; background-image: url(/res/img/landing.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
 
-<div class="display-t text-center">
-<div class="display-tc">
-<div class="container">
-<div class="col-md-12 col-md-offset-0">
-<div class="animate-box">
-<h2>Take on your biggest projects and goals</h2>
-<p>with Unapp's high quality features</p>
-<p><a href="gallery.html" class="btn btn-primary btn-lg btn-custom">Get premium</a></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<div class="colorlib-featured">
-<div class="row animate-box">
-<div class="featured-wrap">
-<div class="owl-carousel">
-<div class="item">
-<div class="col-md-8 col-md-offset-2">
-<div class="featured-entry">
-<img class="img-responsive" src="https://preview.colorlib.com/theme/unapp/images/dashboard_full_1.jpg" alt="">
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-md-8 col-md-offset-2">
-<div class="featured-entry">
-<img class="img-responsive" src="https://preview.colorlib.com/theme/unapp/images/dashboard_full_2.jpg" alt="">
-</div>
-</div>
-</div>
-<div class="item">
-<div class="col-md-8 col-md-offset-2">
-<div class="featured-entry">
-<img class="img-responsive" src="https://preview.colorlib.com/theme/unapp/images/dashboard_full_3.jpg" alt="">
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+        <section id="home" class="video-hero" style="height: 100vh; background-image: url(/res/img/landing.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+            <div class="display-t text-center">
+                <div class="display-tc">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0">
+                            <div id="text_effect"></div>
+                            <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo" width="250px"></a><br><br>
+                            <div class="animate-box">
+                                <p><a href="joinus.html" class="btn btn-primary btn-lg btn-custom">Virtual Project Expo 2020</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 <div class="colorlib-services colorlib-bg-white">
 <div class="container">
 <div class="row">
 <div class="col-md-4 text-center animate-box">
 <div class="services">
 <span class="icon">
-<i class="icon-browser"></i>
+<i class="fa fa-browser"></i>
 </span>
 <div class="desc">
 <h3>Create your own template</h3>
@@ -176,7 +128,7 @@
 <div class="col-md-4 text-center animate-box">
 <div class="services">
 <span class="icon">
-<i class="icon-download"></i>
+<i class="fa fa-download"></i>
 </span>
 <div class="desc">
 <h3>Automatic Backup Data</h3>
@@ -187,7 +139,7 @@
 <div class="col-md-4 text-center animate-box">
 <div class="services">
 <span class="icon">
-<i class="icon-layers"></i>
+<i class="fa fa-layers"></i>
 </span>
 <div class="desc">
 <h3>Page Builder</h3>
@@ -208,7 +160,7 @@
 </div>
 <div class="row">
 <div class="col-md-12 animate-box">
-<span class="play"><a href="https://vimeo.com/channels/staffpicks/93951774" class="pulse popup-vimeo"><i class="icon-play3"></i></a></span>
+<span class="play"><a href="https://vimeo.com/channels/staffpicks/93951774" class="pulse popup-vimeo"><i class="fa fa-play"></i></a></span>
 </div>
 </div>
 </div>
@@ -223,24 +175,24 @@
 <div class="desc">
 <h2>Real template creation</h2>
 <div class="features">
-<span class="icon"><i class="icon-lightbulb"></i></span>
+<span class="icon"><i class="fa fa-lightbulb"></i></span>
 <div class="f-desc">
 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 </div>
 </div>
 <div class="features">
-<span class="icon"><i class="icon-circle-compass"></i></span>
+<span class="icon"><i class="fa fa-circle-compass"></i></span>
 <div class="f-desc">
 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
 </div>
 </div>
 <div class="features">
-<span class="icon"><i class="icon-beaker"></i></span>
+<span class="icon"><i class="fa fa-beaker"></i></span>
 <div class="f-desc">
 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 </div>
 </div>
-<p><a href="#" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="icon-arrow-right3"></i></a></p>
+<p><a href="#" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="fa fa-arrow-right3"></i></a></p>
 </div>
 </div>
 </div>
@@ -252,24 +204,24 @@
 <div class="desc">
 <h2>Finish template creation</h2>
 <div class="features">
-<span class="icon"><i class="icon-lightbulb"></i></span>
+<span class="icon"><i class="fa fa-lightbulb"></i></span>
 <div class="f-desc">
     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 </div>
 </div>
 <div class="features">
-<span class="icon"><i class="icon-circle-compass"></i></span>
+<span class="icon"><i class="fa fa-circle-compass"></i></span>
 <div class="f-desc">
 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
 </div>
 </div>
 <div class="features">
-<span class="icon"><i class="icon-beaker"></i></span>
+<span class="icon"><i class="fa fa-beaker"></i></span>
 <div class="f-desc">
 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 </div>
 </div>
-<p><a href="#" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="icon-arrow-right3"></i></a></p>
+<p><a href="#" class="btn btn-primary btn-outline with-arrow">Start collaborating <i class="fa fa-arrow-right3"></i></a></p>
 </div>
 </div>
 </div>
@@ -282,7 +234,7 @@
 <div class="col-md-12">
 <div class="col-md-4 col-sm-4 text-center animate-box">
 <div class="counter-entry">
-<span class="icon"><i class="flaticon-ribbon"></i></span>
+<span class="icon"><i class="flatfa fa-ribbon"></i></span>
 <div class="desc">
 <span class="colorlib-counter js-counter" data-from="0" data-to="1500" data-speed="5000" data-refresh-interval="50"></span>
 <span class="colorlib-counter-label">Of customers are satisfied with our professional support</span>
@@ -291,7 +243,7 @@
 </div>
 <div class="col-md-4 col-sm-4 text-center animate-box">
 <div class="counter-entry">
-<span class="icon"><i class="flaticon-church"></i></span>
+<span class="icon"><i class="flatfa fa-church"></i></span>
 <div class="desc">
 <span class="colorlib-counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50"></span>
 <span class="colorlib-counter-label">Amazing preset options to be mixed and combined</span>
@@ -300,7 +252,7 @@
 </div>
 <div class="col-md-4 col-sm-4 text-center animate-box">
 <div class="counter-entry">
-<span class="icon"><i class="flaticon-dove"></i></span>
+<span class="icon"><i class="flatfa fa-dove"></i></span>
 <div class="desc">
 <span class="colorlib-counter js-counter" data-from="0" data-to="1200" data-speed="5000" data-refresh-interval="50"></span>
 <span class="colorlib-counter-label">Average response time on live chat support channel</span>
@@ -430,10 +382,10 @@
     <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
     <p>
     <ul class="colorlib-social-icons">
-    <li><a href="#"><i class="icon-twitter"></i></a></li>
-    <li><a href="#"><i class="icon-facebook"></i></a></li>
-    <li><a href="#"><i class="icon-linkedin"></i></a></li>
-    <li><a href="#"><i class="icon-dribbble"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
     </ul>
     </p>
     </div>
@@ -441,12 +393,12 @@
     <h4>Information</h4>
     <p>
     <ul class="colorlib-footer-links">
-    <li><a href="#"><i class="icon-check"></i> Home</a></li>
-    <li><a href="#"><i class="icon-check"></i> Gallery</a></li>
-    <li><a href="#"><i class="icon-check"></i> About</a></li>
-    <li><a href="#"><i class="icon-check"></i> Blog</a></li>
-    <li><a href="#"><i class="icon-check"></i> Contact</a></li>
-    <li><a href="#"><i class="icon-check"></i> Privacy</a></li>
+    <li><a href="#"><i class="fa fa-check"></i> Home</a></li>
+    <li><a href="#"><i class="fa fa-check"></i> Gallery</a></li>
+    <li><a href="#"><i class="fa fa-check"></i> About</a></li>
+    <li><a href="#"><i class="fa fa-check"></i> Blog</a></li>
+    <li><a href="#"><i class="fa fa-check"></i> Contact</a></li>
+    <li><a href="#"><i class="fa fa-check"></i> Privacy</a></li>
     </ul>
     </p>
     </div>
@@ -481,9 +433,9 @@
     <h4>Contact Info</h4>
     <ul class="colorlib-footer-links">
     <li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
-    <li><a href="tel://1234567920"><i class="icon-phone"></i> + 1235 2355 98</a></li>
-    <li><a href="/cdn-cgi/l/email-protection#30595e565f70495f4542435944551e535f5d"><i class="icon-envelope"></i> <span class="__cf_email__" data-cfemail="84edeae2ebc4fdebf1f6f7edf0e1aae7ebe9">[email&#160;protected]</span></a></li>
-    <li><a href="#"><i class="icon-location4"></i> yourwebsite.com</a></li>
+    <li><a href="tel://1234567920"><i class="fa fa-phone"></i> + 1235 2355 98</a></li>
+    <li><a href="google.com"><i class="fa fa-envelope"></i> <span class="__cf_email__" data-cfemail="84edeae2ebc4fdebf1f6f7edf0e1aae7ebe9">[email&#160;protected]</span></a></li>
+    <li><a href="#"><i class="fa fa-location4"></i> yourwebsite.com</a></li>
     </ul>
     </div>
     </div>
@@ -494,7 +446,7 @@
     <div class="col-md-12 text-center">
     <p>
     
-    Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+    Copyright &copy;<script data-cfasync="false" src="ieee.org"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
     <br>
     </p>
     </div>
@@ -504,7 +456,7 @@
     </footer>
     </div>
     <div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+    <a href="#" class="js-gotop"><i class="fa fa-arrow-up2"></i></a>
     </div>
 </body>
 </html>
