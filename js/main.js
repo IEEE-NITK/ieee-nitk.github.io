@@ -131,7 +131,7 @@ $(document).ready(function ( $ ) {
 							}
 
 							el.removeClass('item-animate');
-						},  k * 200, 'easeInOutExpo' );
+						},  k * 100, 'easeInOutExpo' );
 					});
 					
 				}, 100);
@@ -253,19 +253,21 @@ $(document).ready(function ( $ ) {
 
 	};
 
-	var bgVideo = function() {
-		$('.player').mb_YTPlayer();
-	};
-
 	
 	$(function(){
-		mobileMenuOutsideClick();
 		offcanvasMenu();
 		burgerMenu();
+		contentWayPoint();
 		dropdown();
 		goToTop();
 		loaderPage();
-		parallax();
+		//parallax();
 		counter();
+		counterWayPoint();
+		//owlCrouselFeatureSlide();
 	});
 });
+
+$(document).ready(function() {
+	$(window).scrollTop(0);
+})

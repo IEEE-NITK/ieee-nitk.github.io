@@ -1,0 +1,44 @@
+@-webkit-keyframes blurIn {
+    0% {
+        color: rgba(255, 255, 255, 0)
+    }
+    25% {
+        color: rgba(255, 255, 255, 1)
+    }
+    75% {
+        color: rgba(255, 255, 255, 1)
+    }
+    100% {
+        color: rgba(255, 255, 255, 0)
+    }
+  }
+  
+  
+  /* Standard syntax */
+  
+  @keyframes blurIn {
+    0% {
+        color: rgba(255, 255, 255, 0)
+    }
+    25% {
+        color: rgba(255, 255, 255, 1)
+    }
+    75% {
+        color: rgba(255, 255, 255, 1)
+    }
+    100% {
+        color: rgba(255, 255, 255, 0)
+    }
+  }
+  
+  .effect_char {
+    font-size: 12vh;
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(255, 255, 255, 0);
+    animation-name: blurIn;
+    animation-duration: 2s;
+  }
+  
+  #text_effect {
+    margin-top: 28vh !important;
+  }

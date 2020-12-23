@@ -1883,10 +1883,10 @@ input[type="text"] {
   background: url(../images/loader.gif) center no-repeat #fff;
 }
 .js .animate-box {
-  /*opacity: 0;*/
+  opacity: 0;
 }
 .js .customize-partial-edit-shortcuts-shown .animate-box{
-  /*opacity: 1;*/
+  opacity: 1;
 }
 
   /*----------------------------------------------*/
@@ -1987,47 +1987,19 @@ input[type="text"] {
   padding-bottom: 0;
 }
 
-@-webkit-keyframes blurIn {
-  0% {
-      color: rgba(255, 255, 255, 0)
-  }
-  25% {
-      color: rgba(255, 255, 255, 1)
-  }
-  75% {
-      color: rgba(255, 255, 255, 1)
-  }
-  100% {
-      color: rgba(255, 255, 255, 0)
-  }
+.overlay {
+  position: relative;
+  z-index: 0;
 }
 
-
-/* Standard syntax */
-
-@keyframes blurIn {
-  0% {
-      color: rgba(255, 255, 255, 0)
-  }
-  25% {
-      color: rgba(255, 255, 255, 1)
-  }
-  75% {
-      color: rgba(255, 255, 255, 1)
-  }
-  100% {
-      color: rgba(255, 255, 255, 0)
-  }
-}
-
-.effect_char {
-  font-size: 12vh;
-  font-family: "Times New Roman", Times, serif;
-  color: rgba(255, 255, 255, 0);
-  animation-name: blurIn;
-  animation-duration: 2s;
-}
-
-#text_effect {
-  margin-top: 28vh !important;
+.overlay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 86, 167, 0.7);
+    /* !!! */
+    z-index: -1;
 }

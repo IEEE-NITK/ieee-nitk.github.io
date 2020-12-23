@@ -25,6 +25,4 @@ function showTextEffect() {
 
 $(document).ready(function() {
     showTextEffect();
-    particlesJS.load('particles-js', 'particlesjs-config.json');
-    //The fullpage initialisation
 });
