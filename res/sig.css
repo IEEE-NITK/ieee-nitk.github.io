@@ -93,8 +93,8 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-    white-space: nowrap;
-    height: 7vh;
+    /* white-space: nowrap; */
+    height: auto;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     overflow: visible;
@@ -123,18 +123,18 @@ nav .popup_menu {
 
 nav ul {
     list-style-type: none;
-    display: inline-block;
+    /* display: inline-block; */
     z-index: 150;
-    position: absolute;
-    /* right: 0px; */
+    /* position: absolute; */
+    right: 0px;
     font-size: 1.2em;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     cursor: pointer;
-    line-height: 7vh;
+    /* line-height: 7vh; */
 }
 
 nav ul li a {
@@ -256,7 +256,7 @@ div#particles-js {
 }
 .img_holder .block_title {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
@@ -272,6 +272,13 @@ div#particles-js {
 }
 
 .sidebar {
+    height: 100%;
+    width: 270px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    overflow: auto;
     flex: 1;
     margin: 30px;
     margin-left: 0px;

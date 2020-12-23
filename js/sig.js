@@ -10,7 +10,7 @@ function loadAndDisplay(str) {
     $.ajax({
         url: jsonurl,
         success: function (result) {
-            var htmlStr = '<div class="sub_title prociono"><h3>Projects</h3></div>';
+            var htmlStr = '';
             for (var i = 0; i < result.length; i++) {
                 htmlStr += '<div class="project"><h4>' + result[i].Title;
                 if (result[i].year) {
