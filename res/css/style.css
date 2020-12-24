@@ -376,7 +376,7 @@ input[type=search] {
   left: 0;
   right: 0;
   opacity: 0.95;
-  background: #499bea;
+  background: rgb(0, 86, 167);
   background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
   background: -webkit-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
@@ -390,9 +390,8 @@ input[type=search] {
 }
 .video-hero .display-t {
   display: table;
-  height: 700px;
+  height: 500px;
   width: 100%;
-  position: relative;
   z-index: 2;
 }
 @media screen and (max-width: 768px) {
@@ -402,6 +401,9 @@ input[type=search] {
 }
 .video-hero .display-t.display-t2 {
   height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .video-hero .display-tc {
   display: table-cell;
@@ -422,10 +424,12 @@ input[type=search] {
   color: #fff;
   margin-bottom: 20px;
   font-weight: 300;
+  z-index: 2;
 }
 @media screen and (max-width: 768px) {
   .video-hero .display-tc h2 {
     font-size: 34px !important;
+    z-index: 2;
   }
 }
 .video-hero .display-tc p {
@@ -446,15 +450,15 @@ input[type=search] {
 .breadcrumb .current{
   color: rgba(255, 255, 255, 0.5);
 }
-.video-hero .display-tc p.breadcrumb {
-  font-size: 14px;
+.video-hero .display-tc p.breadcrumbs {
+  font-size: 22px;
+  text-align: center;
 }
-.video-hero .display-tc p.breadcrumb span {
-  padding-right: 10px;
-  color: rgba(255, 255, 255, 0.5);
+.video-hero .display-tc p.breadcrumbs span {
+  color: #fff;
 }
-.video-hero .display-tc p.breadcrumb span a {
-  color: rgba(255, 255, 255, 0.9);
+.video-hero .display-tc p.breadcrumbs span a {
+  color: black !important;
 }
 .video-hero .display-tc .btn-custom {
   font-size: 16px;
@@ -472,10 +476,10 @@ input[type=search] {
 .colorlib-services > .container > .row > .col-md-4:nth-child(3n+1) {
   clear: left;
 }
-/*.colorlib-work-featured, .colorlib-work-featured-left{
+.colorlib-work-featured, .colorlib-work-featured-left{
   padding-top: 7em;
   padding-bottom: 0;
-}*/
+}
 .colorlib-bg-white {
   position: relative;
   background: #fff;
@@ -529,7 +533,7 @@ input[type=search] {
 }
 .services .icon i {
   font-size: 50px;
-  color: #798eea;
+  color: rgb(0, 86, 167);
   z-index: 1;
 }
 .services .desc h3 {
@@ -912,7 +916,7 @@ input[type=search] {
 .staff-entry .desc span {
   display: block;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: 17px;
 }
 .staff-entry .colorlib-social-icons li {
   margin-left: 0;
@@ -1385,7 +1389,7 @@ input[type="text"] {
   font-size: 20px;
 }
 .colorlib-heading {
-  margin-bottom: .5em;
+  margin-bottom: 30px;
 }
 .colorlib-heading h2 {
   font-size: 50px;
@@ -2002,4 +2006,8 @@ input[type="text"] {
     background: rgba(0, 86, 167, 0.7);
     /* !!! */
     z-index: -1;
+}
+
+div#particles-js {
+  height: 500px;
 }

@@ -2,12 +2,8 @@ $(document).ready(function() {
     var members = {};
     members.core = [];
     members.exec = [];
+    members.alumni = [];
     loadAndRenderContacts(members);
-    $(".search_input").bind('input', function() {
-
-        search($(this).val(), members);
-
-    });
     particlesJS.load('particles-js', 'particlesjs-config.json', function() {});
 });
 
@@ -19,7 +15,7 @@ function toTitleCase(str) {
 
 function loadAndRenderContacts(members) {
     $.ajax({
-        url: "data/team.json",
+        url: "/data/team.json",
         success: function(result) {
             members.core = result.core;
             members.exec = result.members;
@@ -30,14 +26,21 @@ function loadAndRenderContacts(members) {
 }
 
 function renderList(arr) {
-
+    var htmlStr = "";
     for (var i = 0; i < arr.core.length; i++) {
-        var htmlStr = $(".core .members").html();
-        htmlStr += '<div class="member_item member_core" id = "core' + i + '"><div class="data_section"><h3>';
-        htmlStr += arr.core[i].name + "</h3>";
-        htmlStr += "<h4>" + arr.core[i].position + "</h4>"
-        $(".core .members").html(htmlStr);
+        if(i%4 === 0) {
+            htmlStr += '<div class="row text-center">';
+        }
+        htmlStr += '<div class="col-md-3 text-center"><h3><strong>';
+        htmlStr += toTitleCase(arr.core[i].name) + '</strong></h3>';
+        htmlStr += '<h4 class="text-center">' + arr.core[i].position + '</h4><br></div>';
+        if((i+1)%4 === 0) {
+            htmlStr += '</div>';
+        }
     }
+    $("#core").html(htmlStr);
+    
+    /*
     htmlStr = '';
     for (var i = 0; i < arr.exec.length; i++) {
         htmlStr += '<div class="member_item member_exec" id = "exec' + i + '">' + toTitleCase(arr.exec[i].name) + '</div>';
@@ -48,46 +51,32 @@ function renderList(arr) {
     for (var i = 0; i < arr.alumni.length; i++) {
         htmlStr += '<div class="member_item member_alum" id = "alum' + i + '">' + toTitleCase(arr.alumni[i].name) + '</div>';
     }
-    $(".alum .members").html(htmlStr);
+    $(".alum .members").html(htmlStr);*/
 
-}
-
-function displayOverlay(member) {
-    var email_link = "<a href='"+member.email+"' target='_blank'>email</a>";
-    $(".overLay #member_name").html(member.name);
-    $(".overLay #member_interests").html(member.interests);
-
-    $(".overLay #member_mail").html(email_link);
-
-    if (member.hasOwnProperty("position") && member.position != '')
-        $(".overLay #position").html(member.position);
-    else
-        $(".overLay #position").html('');
-
-    var links = '';
-
-    if (member.hasOwnProperty("github") && member.github != '')
-        links = "<a href='" + member.github + " 'target='_blank'>GitHub</a> ";
-    if (member.hasOwnProperty("linkedin") && member.linkedin != '')
-        links += "<a href='" + member.linkedin + " 'target='_blank'>LinkedIn</a>";
-    $(".overLay #links").html(links);
-    $(".overLay").addClass("visible");
-}
-
-function search(str, members) {
-    var re = new RegExp(str, 'gi');
-    var result = {};
-    result.core = [];
-    result.exec = [];
-    if (str == '')
-        result = members;
-    else {
-        result.core = members.core.filter(function(member) {
-            return member.name.match(re);
-        });
-        result.exec = members.exec.filter(function(member) {
-            return member.name.match(re);
-        });
+    htmlStr = "";
+    for (var i = 0; i < arr.exec.length; i++) {
+        if(i%6 === 0) {
+            htmlStr += '<div class="row">';
+        }
+        htmlStr += '<div class="col-md-2 text-center"><h4 class="member-names">';
+        htmlStr += toTitleCase(arr.exec[i].name) + '</h4><br></div>';
+        if((i+1)%6 === 0) {
+            htmlStr += '</div>';
+        }
     }
-    renderList(result);
+    $("#exec").html(htmlStr);
+
+    htmlStr = "";
+    for (var i = 0; i < arr.alumni.length; i++) {
+        if(i%6 === 0) {
+            htmlStr += '<div class="row">';
+        }
+        htmlStr += '<div class="col-md-2 text-center"><h4 class="member-names">';
+        htmlStr += toTitleCase(arr.alumni[i].name) + '</h4><br></div>';
+        if((i+1)%6 === 0) {
+            htmlStr += '</div>';
+        }
+    }
+    $("#alumni").html(htmlStr);
+
 }
