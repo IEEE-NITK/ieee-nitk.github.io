@@ -12,7 +12,7 @@ function loadAndDisplay(str) {
         success: function (result) {
             var htmlStr = '';
             for (var i = 0; i < result.length; i++) {
-                htmlStr += '<div class="project"><h4>' + result[i].Title;
+                htmlStr += '<div class="project animate-box"><h4>' + result[i].Title;
                 if (result[i].year) {
                     htmlStr += ' – ' + result[i].year;
                 }
@@ -25,7 +25,7 @@ function loadAndDisplay(str) {
                     htmlStr += '<center><br><img style="max-width:15vw" src="' + result[i].image + '" alt="img'+ i +'"' + result[i].github + '"></center>';
                 }
                 console.log(i);
-                htmlStr += " </h4><p class='sans'>" + result[i].Abstract + "</p></div>";
+                htmlStr += " </h4><p class='sans'>" + result[i].Abstract + "</p><hr></div>";
             }
             $("#projects").html(htmlStr);
         }
