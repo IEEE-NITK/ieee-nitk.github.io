@@ -12,7 +12,7 @@ function loadAndDisplay(str) {
         success: function (result) {
             var htmlStr = '';
             for (var i = 0; i < result.length; i++) {
-                htmlStr += '<div class="project animate-box"><h4>' + result[i].Title;
+                htmlStr += '<div class="project"><h4>' + result[i].Title;
                 if (result[i].year) {
                     htmlStr += ' – ' + result[i].year;
                 }

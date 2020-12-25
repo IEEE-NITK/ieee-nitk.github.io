@@ -4,9 +4,9 @@
         <!-- Give a small description in 3-4 sentences about the website -->
 		<meta name="description" content="IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section. IEEE NITK undertakes lots of projects by its various SIGs which are formed and projects undertaken by students are futher applied to help solve daily world problems.">
 		<!-- A small abstract idea about the website -->
-		<meta name="abstract" content="This Website is about IEEE NITK Student Chapter's Diode SIG">
+		<meta name="abstract" content="This Website is about IEEE NITK Student Chapter's WiE SIG">
 		<!-- Important Keywords to be noted in the website  -->
-		<meta name="keywords" content="IEEE, IEEE NITK, Diode NITK, CAS NITK, SPS NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+		<meta name="keywords" content="IEEE, IEEE NITK, WiE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
 		<!-- Tell the spider to index the first page and other pages as well-->
 		<meta name="robots" content="index, follow">    
 		<!-- How often should spiders come back to your page -->
@@ -44,7 +44,7 @@
         <meta property="og:image" content="res/img/logo.png">
 
         <!-- Page Title -->
-        <title>CAS/SPS | IEEE NITK</title>
+        <title>WiE | IEEE NITK</title>
         
         <!-- Linked Sheets needed -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
@@ -69,8 +69,8 @@
 
         <script src="js/header.js"></script>
         <script src="js/sig.js"></script>
-		<script src="js/particles.js"></script>
-
+        <script src="js/particles.js"></script>
+        
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
 		<script>
@@ -80,7 +80,7 @@
 
           gtag('config', 'UA-106590424-3');
 
-          loadAndDisplay("diode.json");
+          loadAndDisplay("wie.json");
           displayHeader();
         </script>
         <!--Structured Data-->
@@ -88,17 +88,16 @@
 			{
 				"@context": "http://schema.org",
 				"@type": "Organization",
-				"description":"Circuits and Systems SIG of IEEE NITK local chapter",
-				"url": "https://www.ieeenitk.org/diode.html",
-				"name": "CAS NITK",
+				"description":"Women in Engineering SIG of IEEE NITK local chapter",
+				"url": "https://www.ieeenitk.org/wie.html",
+				"name": "WIE NITK",
 				"member": {
 					"@type": "Person",
-					"name": "Tarun Mittal",
+					"name": "Mohita Chowdhury",
 					"jobTitle":"Chair",
-					"email":"trmittal24@gmail.com"      
+					"email":"chowdhury.mohita@gmail.com"      
 				},
 				"parentOrganization":"IEEE NITK"
-				//"logo":"cas-nitk logo url"
 			}
 		</script>
     </head>
@@ -122,7 +121,7 @@
                         <div class="container">
                             <div class="col-md-12 col-md-offset-0">
                                 <div class="animate-box">
-                                    <h2 class="page-title">Circuits and Systems & Signal Processing Society</h2>
+                                    <h2 class="page-title">Women in Engineering</h2>
                                 </div>
                             </div>
                         </div>
@@ -137,25 +136,39 @@
                         <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
                             <h2>About Us</h2>
                             <p>
-                                The Circuits and Systems and Signal Processing Society SIG works on conceiving and pioneering solutions to fundamental and applied problems in circuits, systems and signal processing.
+                                The IEEE NITK WIE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator. Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Projects -->
+            <!-- Events -->
             <div class="projects-block colorlib-bg-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
-                            <h2>Projects</h2>
-                            <img class="work-img" src="res/img/flowcharts/flowchart_ieee_diode_projects_1_v4-01.png" alt="diode_flow1">
+                            <h2>Events</h2>
                         </div>
                     </div>
-                    <hr>
-                    <!--- Projects loaded via JSON -->
-                    <div class="projects animate-box" id="projects">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                            <h4>Athena - Women's Hackathon</h4>
+                            <img class="athena-images work-img" style="max-width:17vw" src="res/img/athena.jpg" alt="athena">
+                            <p>
+                                A 24 hour hackathon was organized for the girl students of NITK under IEEE WiE Affinity Group NITK in association with Web Enthusiasts Club, NITK. The applications developed were all based on a given topic and they were judged by invited professors on the following day and winners were rewarded.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1 text-center">
+                            <img class="athena-images animate-box" src="res/img/athena1.jpg" alt="athena1">
+                            <img class="athena-images animate-box" src="res/img/athena3.jpg" alt="athena3">
+                        </div>
+                        <div class="col-md-5 text-center">
+                            <img class="athena-images animate-box" src="res/img/athena2.jpg" alt="athena2">
+                            <img class="athena-images animate-box" src="res/img/athena4.jpg" alt="athena4">
+                        </div>
                     </div>
                 </div>
             </div>

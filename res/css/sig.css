@@ -23,3 +23,8 @@ hr {
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+
+.athena-images {
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
