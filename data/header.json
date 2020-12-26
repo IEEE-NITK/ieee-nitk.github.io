@@ -1,38 +1,38 @@
 [
 	{
 		"name": "Home",
-		"link": "index.html"
+		"link": "/"
     },
     {
 		"name": "Team",
-		"link": "team.html"
+		"link": "team"
     },
     {
 		"name": "SIGs",
 		"sigs": [
             {
                 "name": "Computer Society",
-                "link": "compsoc.html"
+                "link": "compsoc"
             },
             {
-                "name": "CAS/SPS",
-                "link": "diode.html"
+                "name": "Diode",
+                "link": "diode"
             },
             {
                 "name": "Piston",
-                "link": "piston.html"
+                "link": "piston"
             },
             {
                 "name": "Women in Engineering",
-                "link": "wie.html"
+                "link": "wie"
             },
             {
                 "name": "SIGHT",
-                "link": "sight.html"
+                "link": "sight"
             },
             {
                 "name": "Industrial Applications Society",
-                "link": "ias.html"
+                "link": "ias"
             }                                            
         ]
     },
@@ -46,15 +46,15 @@
     },
     {
 		"name": "Achievements",
-		"link": "achieve.html"
+		"link": "achieve"
     },
     {
 		"name": "Publications",
-		"link": "publications.html"
+		"link": "publications"
     },
     {
 		"name": "Join Us",
-		"link": "joinus.html"
+		"link": "joinus"
     },
     {
       "name": "Virtual Project Expo",

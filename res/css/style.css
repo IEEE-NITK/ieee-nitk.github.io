@@ -1273,7 +1273,13 @@ article p.author-wrap .author {
   margin-right: 8px;
   float: left;
 }
+.f-blog .desc i {
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
 .f-blog .desc h2 {
+  display: inline-block;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -1381,7 +1387,7 @@ input[type="text"] {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  color: rgb(0, 86, 167);
+  color: #499bef;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1405,8 +1411,13 @@ input[type="text"] {
 #colorlib-footer {
   background: #303133;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 6em;
 }
+
+.footer-row {
+  padding-top: 4em;
+  padding-bottom: 3em;
+}
+
 #colorlib-footer .colorlib-widget p {
   font-size: 13px;
   color: #808080;
@@ -1416,6 +1427,8 @@ input[type="text"] {
     margin-bottom: 40px;
     width: 100%;
     float: left;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 #colorlib-footer .colorlib-footer-links {
@@ -1461,9 +1474,28 @@ input[type="text"] {
   letter-spacing: 3px;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+  #colorlib-footer .secondary {
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #colorlib-footer .secondary {
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  #colorlib-footer .secondary {
+    margin-top: 0;
+  }
+}
+
 .copy {
   background: #262626;
-  padding: 7em 0;
+  padding: 2em 0;
 }
 .copy p {
   margin-bottom: 0;
@@ -2010,4 +2042,32 @@ input[type="text"] {
 
 div#particles-js {
   height: 500px;
+}
+
+.copyright-link {
+  color: #fff;
+}
+
+.copyright-link:hover {
+  color: #499bef;
+}
+
+@media only screen and (max-width: 990px) {
+  .footer-logo {
+    width: 120px;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .footer-logo {
+    width: 90px;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-logo {
+    width: 120px;
+  }
 }
