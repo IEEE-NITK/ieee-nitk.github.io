@@ -154,7 +154,7 @@ input[type=search] {
   z-index: 9;
   margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .colorlib-nav {
     margin: 0;
   }
@@ -162,7 +162,7 @@ input[type=search] {
 .colorlib-nav .top-menu {
   padding: 15px 15px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .colorlib-nav .top-menu {
     padding: 28px 1em;
   }
@@ -173,6 +173,9 @@ input[type=search] {
   padding: 0;
   text-transform: uppercase;
   font-weight: 700;
+}
+.navbar-logo {
+  height: 40px;
 }
 .colorlib-nav #colorlib-logo a {
   position: relative;
@@ -185,7 +188,7 @@ input[type=search] {
   font-weight: normal;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .colorlib-nav .menu-1 {
     display: none;
   }
@@ -1511,7 +1514,7 @@ input[type="text"] {
   height: 500px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #map {
     height: 200px;
   }
@@ -1537,7 +1540,7 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #colorlib-offcanvas {
     display: block;
   }
@@ -1566,10 +1569,18 @@ input[type="text"] {
   list-style: none;
 }
 #colorlib-offcanvas ul li > ul {
-  padding-left: 20px;
   display: none;
+}
+#colorlib-offcanvas ul li.open > ul {
+  display: inline-block;
   background-color: #1a1a1a;
+  position: inherit;
+  width: 250px;
+  font-size: 12px;
   padding: 20px 0 20px;
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 #colorlib-offcanvas ul li.offcanvas-has-dropdown > a {
   display: block;
@@ -1578,7 +1589,6 @@ input[type="text"] {
 #colorlib-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'icomoon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1738,7 +1748,7 @@ input[type="text"] {
   z-index: 2001;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .colorlib-nav-toggle {
     display: block;
   }

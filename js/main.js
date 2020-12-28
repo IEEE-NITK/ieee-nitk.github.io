@@ -267,7 +267,3 @@ $(document).ready(function ( $ ) {
 		//owlCrouselFeatureSlide();
 	});
 });
-
-$(document).ready(function() {
-	$(window).scrollTop(0);
-})
