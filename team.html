@@ -1,240 +1,346 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Give a small description in 3-4 sentences about the website -->
-        <meta name="description" content="IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section. IEEE NITK undertakes lots of projects by its various SIGs which are formed and projects undertaken by students are futher applied to help solve daily world problems.">
-        <!-- A small abstract idea about the website -->
-        <meta name="abstract" content="This Website is about IEEE NITK Student Chapter">
-        <!-- Important Keywords to be noted in the website  -->
-        <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
-        <!-- Tell the spider to index the first page and other pages as well-->
-        <meta name="robots" content="index, follow">    
-        <!-- How often should spiders come back to your page -->
-        <meta name="revisit-after" content="3 days">
+<head>
+    <!-- Meta tags-->
+    <!-- Give a small description in 3-4 sentences about the website -->
+    <meta name="description" content="IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section. IEEE NITK undertakes lots of projects by its various SIGs which are formed and projects undertaken by students are futher applied to help solve daily world problems.">
+    <!-- A small abstract idea about the website -->
+    <meta name="abstract" content="This Website is about IEEE NITK Student Chapter">
+    <!-- Important Keywords to be noted in the website  -->
+    <meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+    <!-- Tell the spider to index the first page and other pages as well-->
+    <meta name="robots" content="index, follow">    
+    <!-- How often should spiders come back to your page -->
+    <meta name="revisit-after" content="3 days">
 
-        <!-- Copyright regarding the website -->
-        <meta name="copyright" content="IEEE NITK">
-        <!-- Tells Google Bot not to duplicate description -->
-        <meta name="googlebot" content="noodp">
-        <!-- Language for the website -->
-        <meta name="language" content="English">  
+    <!-- Copyright regarding the website -->
+    <meta name="copyright" content="IEEE NITK">
+    <!-- Tells Google Bot not to duplicate description -->
+    <meta name="googlebot" content="noodp">
+    <!-- Language for the website -->
+    <meta name="language" content="English">  
 
-        <!-- Web Author for the image -->
-        <meta name="web_author" content="IEEE NITK">
-        <meta name="author" content="Salman Shah">
-        <!-- Email ID -->
-        <meta name="contact" content="chairman.nitkieee@gmail.com" />
-        <!-- Email ID to reply to -->
-        <meta name="reply-to" content="chairman.nitkieee@gmail.com">
+    <!-- Web Author for the image -->
+    <meta name="web_author" content="IEEE NITK">
+    <meta name="author" content="Salman Shah">
+    <!-- Email ID -->
+    <meta name="contact" content="chairman.nitkieee@gmail.com" />
+    <!-- Email ID to reply to -->
+    <meta name="reply-to" content="chairman.nitkieee@gmail.com">
 
-        <!-- Refers to distribution of the page -->
-        <meta name="distribution" content="global">
-        <!-- Generator or formatter tag -->
-        <meta name="generator" content="Jekyll">
-        <!-- Disallow spammers for the webpage -->
-        <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
-        <!-- Rating for the page -->
-        <meta name="rating" content="general">
-        <!-- Content Type for the page -->
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <!-- Fixing viewport on mobile views -->
-        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+    <!-- Refers to distribution of the page -->
+    <meta name="distribution" content="global">
+    <!-- Generator or formatter tag -->
+    <meta name="generator" content="Jekyll">
+    <!-- Disallow spammers for the webpage -->
+    <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+    <!-- Rating for the page -->
+    <meta name="rating" content="general">
+    <!-- Content Type for the page -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Fixing viewport on mobile views -->
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
 
-        <title>Team | IEEE NITK</title>
+    <!-- Default Image present -->
+    <meta property="og:image" content="res/img/logo.png">
 
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="res/main.css">
-        <link rel="stylesheet" href="res/team.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
-        <script src="js/team.js"></script>
-        <script src="js/particles.js"></script>
-        <script src="js/header.js"></script>
-        <script>
-            $(document).ready(function () {
-                displayHeader();
-            });
-        </script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-106590424-3');
-        </script>
 
-    </head>
-    <body style="background-image: url('img/land.jpg')">
-        <!-- Header Loaded dynamically using the files 'header.json' and 'header.js' -->
-        <nav class="visible_nav" id="header">
+    <!-- Page Title -->
+    <title>Team | IEEE NITK</title>
+
+    <!-- Linked Sheets needed -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="res/css/icomoon.css">
+    <link rel="stylesheet" href="res/css/animate.css">
+    <link rel="stylesheet" href="res/css/bootstrap.css">
+    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Page sepcific -->
+    <link rel="stylesheet" href="res/css/team.css">
+    
+    <!-- Linked Scripts needed -->
+    <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js" integrity="sha512-xq+0+dRhI6SZOh+lDnMJEju2p2YPINflJLcYrRAsIMaXnJi6/V3lppCMCYsB2MLeF2E93r+fVo0MioY90pNzpw==" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.js" integrity="sha512-W+fE2PngAaUn114foOtj7bJNDqrqANLKjGb6gyz159hoF1+NnEWRfgQtEpn3kCLjQlUQ/FAhTsmmqQNOx/RBOw==" crossorigin="anonymous"></script>
+
+    <script src="js/header.js"></script>
+    <script src="js/team.js"></script>
+    <script src="js/particles.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-106590424-3');
+
+      displayHeader();
+    </script>
+</head>
+<body>
+    <div class="colorlib-loader"></div>
+    <div id="page">
+        <nav class="colorlib-nav" role="navigation">
+            <div class="top-menu">
+                    <div class="container">
+                    <div class="row" id="header">
+                    </div>
+                </div>
+            </div>
         </nav>
-        <div class="overLay">
-            <div class="content sans">
-                <div class="top">
-                    <h3 id = "member_name">
-                    </h3>
-                </div>
-                <h4 id="position"></h4>
-                <h4>Interests</h4>
-                <p id = "member_interests">
-                </p>
-                <p id="member_mail">
-                </p>
-                <div class="bottom">
-                    <div id="links">  
-                        <a href="/" title="">
-                        </a>
-                        <a href="/" title="">
-                        </a>
-                    </div>
-                    <button class="sans" onclick="$('.overLay').removeClass('visible')">Close</button>
-                </div>
-            </div>
-        </div>
-        <!-- <nav>
-            <a href="/" title="Home"><img id="small_logo" src="res/img/ieee_white.png" alt="IEEE Logo"></a>
-        </nav> -->
-        <div class="img_holder teco">
+
+        <!-- Landing -->
+        <section id="home" class="video-hero" style="height: 500px; background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
             <div id="particles-js"></div>
-            <div class="block_title">
-                <h1>
-                Our Team
-                </h1>
-            </div>
-        </div>
-        <div class="data_holder prociono">
-            <div class="section faculty_sec">
-                <div class="sub_title prociono">
-                    <h3>
-                    Faculty Members
-                    </h3>
-                </div>
-                <div class="sans members">
-                    
-                    <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/faculty/msbhat.png" alt="MS Bhat">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. M. S. Bhat</h3>
-                        <h4>Branch advisor</h4>
-                        <a target="_blank" href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" title="MS Bhat's Personal Page">Web page</a>
-                    </div>
-                </div>
-                <div class="member_card card_right">
-                    <div class="img_section">
-                        <img src="res/img/faculty/annappa.jpg" alt="Anappa ">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Annappa</h3>
-                        <h4>Computer Society faculty advisor</h4>
-                        <a target="_blank" href="http://cse.nitk.ac.in/faculty/annappa" title="Annappa's Personal Page">Web page</a>
-                    </div>
-                </div>
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/faculty/bvp.jpg" alt="MS Bhat">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. B Venkatesa Perumal</h3>
-                        <h4>CAS faculty advisor</h4>
-                        <a target="_blank" href="http://eee.nitk.ac.in/professor/BVP"
-                         title="BVP's Personal Page">Web page</a>
-                    </div>
-                </div>
-                <div class="member_card card_right">
-                    <div class="img_section">
-                        <img src="res/img/faculty/rekha-s-image.jpg" alt="Rekha S">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Rekha S.</h3>
-                        <h4>Faculty advisor, WiE Chapter</h4>
-                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/rekha-s" 
-                            title="Rekha S's Personal Page">Web page</a></div>
-                    </div>
-                </div>
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/faculty/deepu.jpg" alt="Deepu">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Deepu Vijayasenan</h3>
-                        <h4>SPS faculty advisor</h4>
-                        <a target="_blank" href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" title="Deepu Vijayasenan's Personal Page">Web page</a>
-                    </div>
-                </div> 
-                <div class="member_card card_right">
-                    <div class="img_section">
-                        <img src="res/img/faculty/kalpana.jpg" alt="Kalpana">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Kalpana R</h3>
-                        <h4>IAS faculty advisor</h4>
-                        <a target="_blank" href="http://www.eee.nitk.ac.in/professor/RK" title="Dr. Kalpana R's Personal Page">Web page</a>
-                    </div>
-                </div> 
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/faculty/sumam_david.jpg" alt="Sumam David">
-                    </div>
-                    <div class="data_section sans">
-                        <h3> Dr. Sumam David</h3>
-                        <h4>SIGHT Chair</h4>
-                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/sumam-david-s" 
-                            title="Sumam David's Personal Page">Web page</a></div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="section core">
-                <div class="sub_title prociono">
-                    <h3>
-                    Core Members
-                    </h3>
-                </div>
-                <div class="members">
-                    
-                </div>
-            </div>
-            
-            <div class="section exec">
-                <div class="sub_title prociono">
-                    <h3>
-                    Executive Members
-                    </h3>
-                </div>
-                <div class="members">
-                    <div class="member_item exec_member">
-                        Sample Member
+            <div class="display-t display-t2 text-center">
+                <div class="display-tc display-tc2">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0">
+                            <div class="animate-box">
+                                <h2 class="page-title">Team</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="section alum">
-                <div class="sub_title prociono">
-                    <h3>
-                    Alumni
-                    </h3>
+        </section>
+
+        <!-- Faculty -->
+        <div class="colorlib-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>Faculty Members</h2>
+                    </div>
                 </div>
-                <div class="members">
-                    <div class="member_item_alum alum_member">
-                        Sample Member
+                <div class="row">
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="res/img/faculty/msbhat.png" class="staff-img">
+                            <div class="desc">
+                                <h3>Dr. M. S. Bhat</h3>
+                                <span class="faculty-position">Branch Advisor</span>
+                                <p><a href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" title="MS Bhat's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="res/img/faculty/annappa.jpg" class="staff-img">
+                            <div class="desc">
+                                <h3>Dr. Annappa</h3>
+                                <span class="faculty-position">Computer Society Faculty Advisor</span>
+                                <p><a href="http://cse.nitk.ac.in/faculty/annappa" title="Annappa's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="res/img/faculty/bvp.jpg" class="staff-img">
+                            <div class="desc">
+                                <h3>Dr. B Venkatesa Perumal</h3>
+                                <span class="faculty-position">CAS Faculty Advisor</span>
+                                <p><a href="http://eee.nitk.ac.in/professor/BVP" title="BVP's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="res/img/faculty/rekha-s-image.jpg" class="staff-img">
+                            <div class="desc">
+                                <h3>Dr. Rekha S.</h3>
+                                <span class="faculty-position">Faculty Advisor, WiE Chapter</span>
+                                <p><a href="http://ece.nitk.ac.in/faculty/rekha-s" title="Rekha S's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="res/img/faculty/deepu.jpg" class="staff-img">
+                            <div class="desc">
+                                <h3>Dr. Deepu Vijayasenant</h3>
+                                <span class="faculty-position">SPS Faculty Advisor</span>
+                                <p><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" title="Deepu Vijayasenan's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="res/img/faculty/kalpana.jpg" class="staff-img">
+                            <div class="desc">
+                                <h3>Dr. Kalpana R</h3>
+                                <span class="faculty-position">IAS Faculty Advisor</span><br>
+                                <p><a href="http://www.eee.nitk.ac.in/professor/RK" title="Dr. Kalpana R's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="res/img/faculty/sumam_david.jpg" class="staff-img">
+                            <div class="desc">
+                                <h3>Dr. Sumam David</h3>
+                                <span class="faculty-position">SIGHT Chair</span><br>
+                                <p><a href="http://ece.nitk.ac.in/faculty/sumam-david-s" title="Sumam David's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Core -->
+        <div class="team-info colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>Core Members</h2>
+                    </div>
+                </div>
+                <div id="core" class="row animate-box">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid colorlib-bg-white"><div class="animate-box"><hr></div></div>
+
+        <!-- Exective Members -->
+        <div class="team-info colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>Executive Members</h2>
+                    </div>
+                </div>
+                <div id="exec" class="row animate-box">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid colorlib-bg-white"><div class="animate-box"><hr></div></div>
+
+        <!-- Alumni -->
+        <div class="team-info colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>Alumni</h2>
+                    </div>
+                </div>
+                <div id="alumni" class="row animate-box">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer id="colorlib-footer">
+            <div class="container">
+                <div class="row footer-row">
+                    <div class="col-md-3 colorlib-widget">
+                        <h4>About IEEE</h4>
+                        <p>A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated 
+                            to advancing technology for the benefit of humanity.
+                        </p>
+                        <p>
+                            <img src="res/img/ieee_white.png" class="footer-logo" alt="IEEE">
+                            <img src="res/img/ieee_nitk_white.png" class="footer-logo" alt="IEEE-NITK">
+                        </p>
+                    </div>
+                    <div class="col-md-3 colorlib-widget">
+                        <h4 class="secondary">Information</h4>
+                        <p>
+                            <ul class="colorlib-footer-links">
+                                <li><a href="/"><i class="fa fa-check"></i> Home</a></li>
+                                <li><a href="team"><i class="fa fa-check"></i> Team</a></li>
+                                <li><a href="blog/"><i class="fa fa-check"></i> Blog</a></li>
+                                <li><a href="gyan/"><i class="fa fa-check"></i> Gyan</a></li>
+                                <li><a href="achieve"><i class="fa fa-check"></i> Achievements</a></li>
+                                <li><a href="publications"><i class="fa fa-check"></i> Publications</a></li>
+                                <li><a href="joinus.html"><i class="fa fa-check"></i> Join Us</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-3 colorlib-widget">
+                        <h4 class="secondary">SIGs</h4>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="compsoc"><i class="fa fa-laptop"></i> &nbsp; Compsoc</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="diode"><i class="fa fa-plug"></i> &nbsp; Diode</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="piston"><i class="fa fa-cogs"></i> &nbsp; Piston</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="wie"><i class="fa fa-female"></i> &nbsp; Women in Engineering</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="sight"><i class="fa fa-users"></i> &nbsp; SIGHT</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="ias"><i class="fa fa-industry"></i> &nbsp; Industrial Applications Society</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 colorlib-widget">
+                        <h4 class="secondary">Contact Info</h4>
+                        <ul class="colorlib-footer-links">
+                            <li><strong>NITK Surathkal</strong><br>NH 66, Srinivasnagar<br>Surathkal, Mangalore<br>Karnataka 575025</li>
+                            <li><a href="mailto:ieee@nitk.edu.in" target="_blank"><i class="fa fa-envelope"></i>ieee@nitk.edu.in</a></li>
+                        </ul>
+                        <p>
+                            <ul class="colorlib-social-icons">
+                                <li><a href="https://github.com/IEEE-NITK" target="_blank"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://www.instagram.com/ieee_nitk" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/IEEE_NITK" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://facebook.com/IEEENITK" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/ieee-nitk-surathkal" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+                                <li><a href="/sitemap-main.xml" target="_blank"><i class="fa fa-rss" target="_blank"></i></a></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                        <p>
+                            Copyright &copy;<script data-cfasync="false" src="https://www.ieee.org"></script>
+                            <script>document.write(new Date().getFullYear());</script>
+                             All rights reserved | Made with <i class="fa fa-heart" aria-hidden="true"></i> 
+                             by IEEE-NITK and <a href="https://colorlib.com" target="_blank" class="copyright-link">Colorlib</a>
+                            <br>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
-<style>
-    a {
-        color: grey;
-        
-    }
-    a :hover {
-        color: black;
-    }
-</style>

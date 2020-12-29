@@ -62,7 +62,7 @@ a:hover, a:active, a:focus {
   -o-transition: 0.5s !important;
   transition: 0.5s !important;
 }
-.dropdown-item a:hover, a:active {
+.dropdown-item a:hover {
   background-color: #252525 !important;
   outline: none;
   text-decoration: none;
@@ -164,7 +164,7 @@ input[type=search] {
 }
 @media screen and (max-width: 1200px) {
   .colorlib-nav .top-menu {
-    padding: 28px 1em;
+    padding: 28px;
   }
 }
 .colorlib-nav #colorlib-logo {
@@ -369,7 +369,6 @@ input[type=search] {
 @media screen and (max-width: 768px) {
   .video-hero {
     height: inherit;
-    padding: 3em 0;
   }
 }
 .video-hero .ewf-section__overlay-color {
@@ -410,8 +409,7 @@ input[type=search] {
 }
 .video-hero .display-tc {
   display: table-cell;
-  vertical-align: bottom;
-  padding-bottom: 50px;
+  vertical-align: middle;
 }
 .video-hero .display-tc .holder {
   color: #fff;
@@ -1581,6 +1579,7 @@ input[type="text"] {
   border: none !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
+  transition-duration: .75s;
 }
 #colorlib-offcanvas ul li.offcanvas-has-dropdown > a {
   display: block;
@@ -2053,6 +2052,7 @@ input[type="text"] {
 
 div#particles-js {
   height: 500px;
+  top: 0;
 }
 
 .copyright-link {

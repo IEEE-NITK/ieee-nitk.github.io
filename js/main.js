@@ -264,6 +264,7 @@ $(document).ready(function ( $ ) {
 		//parallax();
 		counter();
 		counterWayPoint();
+		mobileMenuOutsideClick();
 		//owlCrouselFeatureSlide();
 	});
 });
