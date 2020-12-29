@@ -1588,7 +1588,6 @@ input[type="text"] {
 #colorlib-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

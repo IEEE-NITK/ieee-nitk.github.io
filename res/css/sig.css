@@ -20,3 +20,12 @@
 .event-head {
     margin-top: 100px;
 }
+
+ .row-title {
+     padding-top: 22vh;
+     padding-bottom: 9vh;
+ }
+
+ .sig-img {
+     max-height: 17vh;
+ }

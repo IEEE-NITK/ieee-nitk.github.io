@@ -82,10 +82,8 @@
 
             gtag('config', 'UA-106590424-3');
 
-            $(() => {
-                loadAndDisplay("compsoc.json");
-                displayHeader();
-            });
+            loadAndDisplay("compsoc.json");
+            displayHeader();
         </script>
     </head>
     <body>
@@ -106,10 +104,14 @@
                 <div class="display-t display-t2 text-center">
                     <div class="display-tc display-tc2">
                         <div class="container">
-                            <div class="col-md-12 col-md-offset-0">
-                                <div class="animate-box">
+                            <div class="row row-title">
+                                <div class="col-md-12 animate-box">
                                     <h2 class="page-title">Computer Society</h2>
-                                    <img src="res/img/logos/cs.png" style="padding-top: 70px; min-height: 13vh;" class="work-img">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 animate-box">
+                                    <img src="res/img/logos/compsoc.png" class="sig-img" alt="CompSoc Logo">
                                 </div>
                             </div>
                         </div>

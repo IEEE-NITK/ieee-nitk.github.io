@@ -1,6 +1,0 @@
-[{
-        "Title": "Small scale radar",
-        "Abstract": "Radar is an object-detection system that uses radio waves to determine the range, angle, or velocity of objects.Radar was used as an acronym for RAdio Detection And Ranging.The aim of the project is to build a small scale version of such a RADAR system for educational and laboratory purposes.The radar system has coffee cans for transmit and receive antennae and components from Mini circuits.The system employs a ramp generator with a trigger output for transmission and present target is achieving range and doppler radar.Simulation of the radar system was done using Advanced Design System(ADS) software.For post processing, MATLAB is used to process the received data.The following experiments are planned and the MATLAB algorithms were implemented for the same - Doppler Vs TimeRange Vs TimeSAR imaging. ",
-        "links": []
-    }
-]
