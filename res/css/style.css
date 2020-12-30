@@ -396,11 +396,6 @@ input[type=search] {
   width: 100%;
   z-index: 2;
 }
-@media screen and (max-width: 768px) {
-  .video-hero .display-t {
-    height: 600px;
-  }
-}
 .video-hero .display-t.display-t2 {
   height: 500px;
   position: absolute;
@@ -410,6 +405,7 @@ input[type=search] {
 .video-hero .display-tc {
   display: table-cell;
   vertical-align: middle;
+  height: 500px;
 }
 .video-hero .display-tc .holder {
   color: #fff;
