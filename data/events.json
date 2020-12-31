@@ -63,6 +63,55 @@
     "title": "Dishaspoorthi",
     "sig": "All SIGs",
     "date": "12th January, 2019"
+  },
+  "event14": {
+    "title": "Virtual Project Expo",
+    "sig": "All SIGs",
+    "date": "29th June, 2020"
+  },
+  "event15": {
+    "title": "Silicon Maze",
+    "sig": "IEEE and Web Enthusiasts' Club",
+    "date": "25th - 26th July, 2020"
+  },
+  "event16": {
+    "title": "Knowledge Sharing Session | How to Ace DSA Interviews",
+    "sig": "CompSoc",
+    "date": "24th July, 2020"
+  },
+  "event17": {
+    "title": "Higher Studies in a Post-Covid World",
+    "sig": "All SIGs",
+    "date": "30th July, 2020"
+  },
+  "event18": {
+    "title": "Knowledge Sharing Session | Trends in Technology",
+    "sig": "All SIGs",
+    "date": "7th August, 2020"
+  },
+  "event19": {
+    "title": "Engineering the Future",
+    "sig": "All SIGs",
+    "date": "4th October, 2020"
+  },
+  "event20": {
+    "title": "Introduction to Embedded Coding",
+    "sig": "Diode",
+    "date": "7th - 8th October, 2020"
+  },
+  "event21": {
+    "title": "Path Planning for Robotics",
+    "sig": "Piston",
+    "date": "10th October, 2020"
+  },
+  "event22": {
+    "title": "Praelium 2020",
+    "sig": "CompSoc",
+    "date": "17th October, 2020"
+  },
+  "event23": {
+    "title": "Prometheus",
+    "sig": "CompSoc",
+    "date": "1st - 4th November, 2020"
   }
-  
 }
