@@ -258,13 +258,12 @@ $(document).ready(function ( $ ) {
 		offcanvasMenu();
 		burgerMenu();
 		contentWayPoint();
-		dropdown();
+		//dropdown();
 		goToTop();
 		loaderPage();
 		//parallax();
 		counter();
 		counterWayPoint();
-		mobileMenuOutsideClick();
 		//owlCrouselFeatureSlide();
 	});
 });

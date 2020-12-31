@@ -1,8 +1,3 @@
-$(document).ready(function () {
-    particlesJS.load('particles-js', 'particlesjs-config.json', function () {
-    });
-});
-
 function loadAndDisplay(str) {
     var jsonurl = "data/projects/" + str;
 

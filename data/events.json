@@ -15,7 +15,7 @@
     "date": "23rd - 25th​ March 2019"
   },
   "event4": {
-    "title": "GyanDhan Talk <br> Industry-Student Branch Collaboration",
+    "title": "GyanDhan Talk: Industry-Student Branch Collaboration",
     "sig": "All SIGs",
     "date": "10th​ January 2019"
   },
@@ -40,7 +40,7 @@
     "date": "12th - 16th October 2019"
   },
   "event9": {
-    "title": "Student Membership Drive <br> 2019 | 2020 Renewal Cycle",
+    "title": "Student Membership Drive: 2019 | 2020 Renewal Cycle",
     "sig": "All SIGs",
     "date": "22nd October 2019"
   },
@@ -110,6 +110,11 @@
     "date": "17th October, 2020"
   },
   "event23": {
+    "title": "Around Her World in 10 Ways",
+    "sig": "WiE",
+    "date": "29th - 31st October, 2020"
+  },
+  "event24": {
     "title": "Prometheus",
     "sig": "CompSoc",
     "date": "1st - 4th November, 2020"

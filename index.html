@@ -39,37 +39,41 @@
     <!-- Content Type for the page -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!-- Fixing viewport on mobile views -->
-    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
 
     <!-- Default Image present -->
-    <meta property="og:image" content="/blog/assets/blog-image.png">
+    <meta property="og:image" content="res/img/logo.png">
 
 
     <!-- Page Title -->
     <title>Home | IEEE NITK</title>
 
     <!-- Linked Sheets needed -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-    <link rel="stylesheet" href="res/main.css">
-    <link rel="stylesheet" href="res/jquery.fullpage.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="res/css/icomoon.css">
+    <link rel="stylesheet" href="res/css/animate.css">
+    <link rel="stylesheet" href="res/css/bootstrap.css">
+    <link rel="stylesheet" href="res/css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Page sepcific -->
+    <link rel="stylesheet" href="res/css/home.css">
     
     <!-- Linked Scripts needed -->
+    <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullpage.js"></script>
-    <script src="js/particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js" integrity="sha512-xq+0+dRhI6SZOh+lDnMJEju2p2YPINflJLcYrRAsIMaXnJi6/V3lppCMCYsB2MLeF2E93r+fVo0MioY90pNzpw==" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.js" integrity="sha512-W+fE2PngAaUn114foOtj7bJNDqrqANLKjGb6gyz159hoF1+NnEWRfgQtEpn3kCLjQlUQ/FAhTsmmqQNOx/RBOw==" crossorigin="anonymous"></script>
+
+    <script src="js/header.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/events.js"></script>
-    <script src="js/cta.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/footer.js"></script>    
-    <script>
-		$(document).ready(function () {
-            displayHeader();
-            displayFooter();
-		});
-	</script>
+    <script src="js/particles.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
     <script>
@@ -78,400 +82,265 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-106590424-3');
-    </script>
 
-    <!--Structured Data-->
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "description":"IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section",
-            "email":"chairman.nitkieee@gmail.com",
-            "url": "https://www.ieeenitk.org",
-            "name": "IEEE NITK",
-            "foundingDate":"1988",
-            "location" : {
-                "@type": "Place",
-                "name": "NITK",
-                "map": "https://goo.gl/maps/qitf7bZSSBR2",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "National Institute of Technology Karnataka",
-                    "addressLocality": "Surathkal, Mangalore",
-                    "addressRegion": "Karnataka",
-                    "postalCode": "575025",
-                    "addressCountry": "India"
-                }
-            },
-            "member": {
-                "@type": "Person",
-                "name": "Salman Shah",
-                "jobTitle":"Convener",
-                "email":"sbs.191197@gmail.com"      
-            },
-            "parentOrganization":["IEEE","IEEE Bangalore"],
-            //"logo":"ieee-nitk logo url",  
-            "subOrganization":["CompSoc","Diode","Piston"],
-            "sameAs": [
-                    "https://www.facebook.com/IEEENITK/",
-                    "https://github.com/IEEE-NITK/"]
-        }
+      displayHeader();
     </script>
-
 </head>
 <body>
-    <!-- Header Loaded dynamically using the files 'header.json' and 'header.js' -->
-    <nav class="visible_nav" id="header">
-    </nav>
-    <div id="fullpage" full-page options="mainOptions">
-        <div class="landing_page section prociono">
-            <div class="main_container">
-                <div id="text_effect"></div>
-                <div id="logo">
-                    <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo"></a><br>
-                    <div class="slide_button sans">
-                        <a id="buttonsmp" href="https://ieee.nitk.ac.in/virtual-expo/" > Virtual Project Expo 2020</a>
+    <div class="colorlib-loader"></div>
+    <div id="page">
+        <nav class="colorlib-nav" role="navigation">
+            <div class="top-menu">
+                <div class="container">
+                    <div class="row" id="header">
                     </div>
-                    
                 </div>
-                
-                <!-- <div id="notif"> <center><strong>We are now recruiting !!</strong></center></div>
-                <div class = "notif_link"><center> Register <a class ="notif_link_href" target="_blank" href ="">here</a></center></div> -->
             </div>
-            <div class="cta_container teco">
-                <div class="cta" id="article1">
-                    <div class="cta_heading"></div>
-                    <div style="display: flex">
-                        <div class="cta_section"></div>
-                        <div class="tags_container"></div>
+        </nav>
+
+        <!-- Landing -->
+        <section id="home" style="height: 100vh; background-image: url(/res/img/landing.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+            <div class="display-t text-center">
+                <div class="display-tc">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0">
+                            <div id="text_effect"></div>
+                            <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo" width="250px"></a><br><br>
+                            <div class="animate-box">
+                                <p><a href="joinus" class="btn btn-primary btn-lg btn-custom">JOIN US</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="cta" id="article2">
-                    <div class="cta_heading"></div>
-                    <div style="display: flex">
-                        <div class="cta_section"></div>
-                        <div class="tags_container"></div>
+            </div>
+        </section>
+
+        <!-- About IEEE -->
+        <div class="colorlib-intro colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>About IEEE NITK</h2>
+                        <p>IEEE is the world's largest professional association advancing 
+                            innovation and technological excellence for the benefit of humanity. IEEE 
+                            and its members inspire a global community to innovate for a better tomorrow 
+                            through its highly-cited publications, conferences, technology standards, and 
+                            professional and educational activities. IEEE is the trusted "voice" for engineering, 
+                            computing and technology information around the globe. We, IEEE NITK, belong to the Region 
+                            10 of IEEE and under Bangalore section. Founded in 1988, we are an award winning student 
+                            branch and one of the biggest world wide.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+                        <p><strong>NITK Student Branch: 98631</strong></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="about section">
-            <div id="particles-js"></div>
-            <div class="wrapper">
-                <div class="col_left col prociono">
-                    <div class="text1">About</div>
-                    <div class="text2 fly_up_fast">IEEE NITK</div>
+
+        <!-- Primary SIGs -->
+        <div class="colorlib-services">
+            <div class="container">
+                <div class="row text-center colorlib-heading animate-box">
+                    <h2> Primary SIGs</h2>
                 </div>
-                <div class="col_right col fadein sans">
-                    The IEEE is the world's largest professional association advancing innovation and technological excellence for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted "voice" for engineering, computing and technology information around the globe. We, IEEE NITK, belongs to the Region 10 of IEEE and under Bangalore section. Founded in 1988, we are an award winning student branch and one of the biggest world wide.
-                <strong>NITK Student Branch: 98631</strong><br>
-                <img style="max-width:200px" src="res/img/ieee_nitk.png" alt="ieeenitk_logo"> <img style="max-width:250px" src="res/img/ieee_bangalore.png" alt="ieee_bangalore_logo">
+                <div class="row">
+                    <div class="col-md-4 text-center animate-box shadow-box">
+                        <div class="services">
+                            <span class="icon">
+                                <i class="fa fa-laptop"></i>
+                            </span>
+                            <div class="desc">
+                                <h3>CompSoc</h3>
+                                <p>The Computer Society is a conglomeration of students with a passion for Computer Science
+                                     and Information Technology.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center animate-box shadow-box">
+                        <div class="services">
+                            <span class="icon">
+                                <i class="fa fa-plug"></i>
+                            </span>
+                            <div class="desc">
+                                <h3>Diode</h3>
+                                <p>The Circuits and Systems (CAS) & Signal Processing Society (SPS), is a team of students 
+                                    with a strong interest in the field of Electronics and Electrical Science.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center animate-box shadow-box">
+                        <div class="services">
+                            <span class="icon">
+                                <i class="fa fa-cogs"></i>
+                            </span>
+                            <div class="desc">
+                                <h3>Piston</h3>
+                                <p>Piston is a special interest group dedicated to the engineering applications of 
+                                    Mechanical, Automation, Civil, Chemical and Material Sciences.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="sig section sliders">
-            <div class="content_slides">
-                <div class="slide  slide1 comps_slide">
-                    <div class="wrapper">
-                        <div class="col_left col mybox bgbox">
-                        </div>
-                        <div class="col_right col fadein mybox">
-                            <h1 class="slide_heading teco"> Computer Society</h1>
-                            <div class="slide_content sans">
-                                <p class="main" align="justify">
-                                    <br>The Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a wonderful platform for those who want to gain expertise in computer based technology.<br>
-                                </p>
-                                <p class="sub" align="justify">
-                                    <br>In true divide-and-conquer spirit, the SIG is subcategorized into three research groups, namely :<br>
-					<ul style = "list-style-position: inside;"><br>
-					  <li> Intelligence </li>
-					  <li> Systems </li>
-					  <li> Theoretical Computer Science </li><br>
-					</ul>        
-		Activities are carried out by members of the research groups under their respective heads and co-heads.                        
-				</p>
-                            </div><br>
-                            <div class="slide_button sans">
-                                <a href="./compsoc.html" title="CompSoc">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide slide2 diode_slide">
-                    <div class="wrapper">
-                        <div class="col_left col mybox bgbox">
-                        </div>
-                        <div class="col_right col fadein mybox">
-                            <h1 class="slide_heading teco">CAS/SPS</h1>
-                            <div class="slide_content sans">
-                                <p class="main" align="justify">
-                                    <br>The Circuits and Systems (CAS) & Signal Processing Society (SPS), consists of a team of students with a strong interest in the field of Electronics and Electrical Science. There are various seminars and talks organised by this SIG to encourage students to learn and gain more knowledge in their particular field of interest. CAS/SPS has contributed greatly to the development of interest in the field of robotics, microcontrollers and Signal Processing<br>
-                                </p>
-                                <p class="sub" align="justify">
-                                    <br>The main focus of the CAS/SPS is on small projects, a cross-year collaborative effort among all the members that will help in academics and give us an edge when participating in various technical competitions conducted in many prestigious institutes.<br>
-                                </p>
-                            </div><br>
-                            <div class="slide_button sans">
-                                <a href="./diode.html" title="CAS">
-                                READ MORE
-                            </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide slide3 piston_slide">
-                    <div class="wrapper">
-                        <div class="col_left col mybox bgbox">
-                        </div>
-                        <div class="col_right col fadein mybox">
-                            <h1 class="slide_heading teco">PISTON</h1>
-                            <div class="slide_content sans">
-                                <p class="main" align="justify">
-                                    <br>Piston is a special interest group dedicated to the engineering applications of Mechanical, Automation, Civil, Chemical and Material Sciences. The SIG functions as a platform for students interested in learning and advancing specific areas of knowledge and technology. The SIG members co-operate, communicate, and organise meets, talks and conferences to discuss latest technology advancement and application.<br>
-                                </p>
-                                <p class="sub" align="justify">
-                                    <br>The SIG consists of 2 societies namely Mach (Mechanical, Automation and Chemical Engineering) and RAS (Robotics and Automation). We specialise on a lot of areas like Aerospace Engineering Automobile engineering, Bio-Mechanical Applications, Chemical and Thermal Engineering, Heat and Renewable Energy Engineering, Robotics, Controls and Mechatronics and Structures and Materials.<br>
-                                </p><br>
-                            </div>
-                            <div class="slide_button sans">
-                                <a href="./piston.html" title="Piston">
-                            READ MORE
-                        </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide slide4 wie_slide">
-                    <div class="wrapper">
-                        <div class="col_left col mybox bgbox">
-                        </div>
-                        <div class="col_right col fadein mybox">
-                            <h1 class="slide_heading teco"> WiE</h1>
-                            <div class="slide_content sans" align="justify">
-                                <br>The IEEE NITK WiE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator.Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.<br>
-                            </div>
-                            <div class="slide_button sans">
-                                <br>
-                                    <a href="./wie.html" title="Piston">
-                                READ MORE
-                            </a>
+
+        <!-- Counter -->
+        <div id="colorlib-counter" class="colorlib-counters overlay" data-stellar-background-ratio="0.5">
+            <div id="particles-js" class="counter-particles"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4 col-sm-4 text-center animate-box">
+                            <div class="counter-entry">
+                                <span class="icon"><i class="fa fa-users"></i></span>
+                                <div class="desc">
+                                    <span class="colorlib-counter js-counter" data-from="0" data-to="100" data-speed="2000" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Members</span>
                                 </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section events">
-            <div class="events_wrapper">
-                <div class="box box_left">
-                    <div class="event_info">
-                        <div class="text2 fly_up_fast prociono">Events</div>
-                        <div class="event_details fly_up_fast">
-                            <h3 class="event_name teco">
-                EMBEDATHON
-                </h3>
-                            <div class="event_date sans">
-                                January 2020
-                            </div>
-                            <div class="event_type sans">
-                                CAS/SPS
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="box box_middle sans">
-                    <ul id="event_list">
-                    </ul>
-                </div>
-                <div class="box box_right sans">
-                    <button id="closebutton">
-                        CLOSE
-                    </button>
-                    <h2 class="event_title"></h2>
-                    <div class="event_sub_title"></div>
-                    <hr>
-                    <p class="event_desc_p">
-                    </p>
-                    <div class="more">
+                        <div class="col-md-4 col-sm-4 text-center animate-box">
+                            <div class="counter-entry">
+                                <span class="icon"><i class="fa fa-graduation-cap"></i></span>
+                                <div class="desc">
+                                    <span class="colorlib-counter js-counter" data-from="0" data-to="300" data-speed="2000" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Alumni</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center animate-box">
+                            <div class="counter-entry">
+                                <span class="icon"><i class="fa fa-tasks"></i></span>
+                                <div class="desc">
+                                    <span class="colorlib-counter js-counter" data-from="0" data-to="12" data-speed="2000" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Successful Projects</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section team">
-            <div class="title_image">
-                <div class="title_contents">
-                    <div class="team_title teco">
-                        Our Team
-                    </div>
-                    <a href="./team.html" title="Full Team" class="teco">View full team</a>
-                </div>
-            </div>
-            <div class="core_team">
-                <div class="pseudo team_title teco">
-                    Our Team
-                </div>
-                 <div class="member_card card_left">
-                     <br>
-                    <div class="img_section">
-                        <img src="res/img/faculty/msbhat.png" alt="MS Bhat">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. M. S. Bhat</h3>
-                        <p>Branch Counsellor</p>
-                        <div class="web-page"><a target="_blank" href="http://ece.nitk.ac.in/faculty/m-shankaranarayana-bhat" 
-                            title="MS Bhat's Personal Page">Web page</a></div>
+
+        <!-- Events -->
+        <div class="colorlib-intro colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>Events</h2>
                     </div>
                 </div>
-                <div class="member_card card_right">
-                    <div class="img_section">
-                        <img src="res/img/faculty/annappa.jpg" alt="Anappa">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Annappa</h3>
-                        <p>Computer Society - Faculty Advisor</p>
-                        <div class="web-page"><a href="http://cse.nitk.ac.in/faculty/annappa" 
-                            title="Annappa's Personal Page">Web page</a></div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-2 animate-box" id="events">
                     </div>
                 </div>
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/faculty/bvp.jpg" alt="B Venkatesa Perumal">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. B Venkatesa Perumal</h3>
-                        <p>CAS - Faculty Advisor</p>
-                        <div class="web-page"><a target="_blank" href="http://eee.nitk.ac.in/professor/BVP"
-                            title="BVP's Personal Page">Web page</a></div>
-                    </div>
-                </div>
-                <div class="member_card card_right">
-                    <div class="img_section">
-                        <img src="res/img/faculty/rekha-s-image.jpg" alt="Rekha S">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Rekha S.</h3>
-                        <p>Faculty Advisor, WiE Affinity Group</p>
-                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/rekha-s" 
-                            title="Rekha S's Personal Page">Web page</a></div>
-                    </div>
-                </div>
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/faculty/deepu.jpg" alt="Deepu">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Deepu Vijayasenan</h3>
-                        <p>SPS - Faculty Advisor</p>
-                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" 
-                            title="Deepu Vijayasenan's Personal Page">Web page</a></div>
-                    </div>
-                </div>
-                <div class="member_card card_right">
-                    <div class="img_section">
-                        <img src="res/img/faculty/kalpana.jpg" alt="Kalpana">
-                    </div>
-                    <div class="data_section sans">
-                        <h3>Dr. Kalpana R</h3>
-                        <h4>IAS faculty advisor</h4>
-                        <a target="_blank" href="http://www.eee.nitk.ac.in/professor/RK" title="Dr. Kalpana R's Personal Page">Web page</a>
-                    </div>
-                </div>
-                <div class="member_card card_left">
-                    <div class="img_section">
-                        <img src="res/img/faculty/sumam_david.jpg" alt="Sumam David">
-                    </div>
-                    <div class="data_section sans">
-                        <h3> Dr. Sumam David</h3>
-                        <h4>SIGHT Chair</h4>
-                        <div class="web-page"><a href="http://ece.nitk.ac.in/faculty/sumam-david-s" 
-                            title="Sumam David's Personal Page">Web page</a></div>
-                    </div>
-                </div>
-                <a class="pseudo teco" href="/team.html" title="Full Team">View full team</a>
+                <div id="event-modals"></div>
             </div>
         </div>
-        <!-- <div class="achievements section">
-            <div class="wrapper">
-            <div class="title_center teco">
-                <h1>
-                    Achievements
-                </h1>
+
+        <!-- Footer -->
+        <footer id="colorlib-footer">
+            <div class="container">
+                <div class="row footer-row">
+                    <div class="col-md-3 colorlib-widget">
+                        <h4>About IEEE</h4>
+                        <p>A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated 
+                            to advancing technology for the benefit of humanity.
+                        </p>
+                        <p>
+                            <img src="res/img/ieee_white.png" class="footer-logo" alt="IEEE">
+                            <img src="res/img/ieee_nitk_white.png" class="footer-logo" alt="IEEE-NITK">
+                        </p>
+                    </div>
+                    <div class="col-md-3 colorlib-widget">
+                        <h4 class="secondary">Information</h4>
+                        <p>
+                            <ul class="colorlib-footer-links">
+                                <li><a href="/"><i class="fa fa-check"></i> Home</a></li>
+                                <li><a href="team"><i class="fa fa-check"></i> Team</a></li>
+                                <li><a href="blog/"><i class="fa fa-check"></i> Blog</a></li>
+                                <li><a href="gyan/"><i class="fa fa-check"></i> Gyan</a></li>
+                                <li><a href="achieve"><i class="fa fa-check"></i> Achievements</a></li>
+                                <li><a href="publications"><i class="fa fa-check"></i> Publications</a></li>
+                                <li><a href="joinus.html"><i class="fa fa-check"></i> Join Us</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-3 colorlib-widget">
+                        <h4 class="secondary">SIGs</h4>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="compsoc"><i class="fa fa-laptop"></i> &nbsp; Compsoc</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="diode"><i class="fa fa-plug"></i> &nbsp; Diode</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="piston"><i class="fa fa-cogs"></i> &nbsp; Piston</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="wie"><i class="fa fa-female"></i> &nbsp; Women in Engineering</a></h2>
+                            </div>
+                        </div>
+                        <div class="f-blog">
+                            <div class="desc">
+                                <h2><a href="sight"><i class="fa fa-users"></i> &nbsp; SIGHT</a></h2>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3 colorlib-widget">
+                        <h4 class="secondary">Contact Info</h4>
+                        <ul class="colorlib-footer-links">
+                            <li><strong>NITK Surathkal</strong><br>NH 66, Srinivasnagar<br>Surathkal, Mangalore<br>Karnataka 575025</li>
+                            <li><a href="mailto:ieee@nitk.edu.in" target="_blank"><i class="fa fa-envelope"></i>ieee@nitk.edu.in</a></li>
+                        </ul>
+                        <p>
+                            <ul class="colorlib-social-icons">
+                                <li><a href="https://github.com/IEEE-NITK" target="_blank"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://www.instagram.com/ieee_nitk" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/IEEE_NITK" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://facebook.com/IEEENITK" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/ieee-nitk-surathkal" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+                                <li><a href="/sitemap-main.xml" target="_blank"><i class="fa fa-rss" target="_blank"></i></a></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
-                <ul class="sans">
-                    <li class="list1">
-                        R10 Exemplary Student Branch Award 2007, 2013, 2015
-                    </li>
-                    <li class="list2">
-                        R10 IEEE GINI Student Branch Award 2010
-                    </li>
-                    <li class="list3">
-                        R10 IEEE Regional Student Enterprise Award : Quadcopter Project (2012)
-                    </li>
-                    <li class="list4">
-                        R10 Outstanding Branch Counselor & Advisor : Dr. Sumam David (2013)
-                    </li>
-                    <li class="list5">
-                        Silver Medal, The Darrel Chong Student Activity Award (2014)
-                    </li>
-                    <li class="list6">
-                         2015 IEEE Student Enterprise Award - 'Mapping of Greenhouse Gases using Wireless Sensor Networks'
-                    </li>
-                    <li class="list7">
-                        The Darrel Chong Student Activity Award (Bronze) - For the Open Collaborative Learning Project, 2015
-                    </li>
-                    <li class="list8">
-                        IEEE Bangalore - Best Large Student Branch Award - 2017
-                    </li>
-                </ul>
+            <div class="copy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                        <p>
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                            All rights reserved | Made with <i class="fa fa-heart" aria-hidden="true"></i> 
+                            by IEEE-NITK and <a href="https://colorlib.com" target="_blank" class="copyright-link">Colorlib</a>
+                            <br>
+                        </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div> -->
-    
-        <div class="footer section fp-auto-height">
-            <footer class="teco">
-                <!-- <div class="online">
-                    <h3>Find us online</h3>
-                    <div class="icons">
-                        <div class="icon icon1">
-                            <a target="blank" href="https://www.facebook.com/IEEENITK/" title="Facebook"><img src="res/img/fb.png" alt="facebook"></a>
-                        </div>
-                        <div class="icon icon2">
-                            <a target="blank" href="https://github.com/IEEE-NITK/" title="Github"><img src="res/img/github.png" alt="github"></a>
-                        </div>
-                        <div class="icon icon3">
-                            <img src="res/img/yt.png" href="https://youtube.com" alt="YouTube">
-                        </div>
-                    </div>
-                </div>
-                <div class="offline">
-                    <h3>Find us offline</h3>
-                    <div class="addr">
-                        NITK,
-                        <br> Surathkal,
-                        <br> Mangalore,
-                        <br> Karnataka
-                    </div>
-                </div>
-                <div class="links">
-                    <h3>Links</h3>
-                    <a target="blank" href="http://www.ieeebangalore.org/" title="IEEE Bangalore">IEEE Bangalore Section</a>
-                    <br>
-                    <a target="blank" href="https://www.ieee.org/" title="IEEE">IEEE</a>
-                    <br>
-                    <a target="blank" href="http://nitk.ac.in/" title="NITK Surathkal">NITK Surathkal</a>
-                </div> -->
-                <div class="footer-div" id="footer">
-                    <!-- Footer loaded dynamically using JS file 'footer.js' and data from 'footer.json' -->
-                </div>
-                <div class="footer-div">
-                    <div>
-                        © Copyright 2018 IEEE – All rights reserved. Use of this website signifies your agreement to the <a href="http://www.ieee.org/about/help/site_terms_conditions.html" style="color: black">IEEE Terms and Conditions</a>.
-                    </div>
-                    <div>
-                        A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
-                    </div>
-                </div>
-            </footer>
-        </div>
+        </footer>
     </div>
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

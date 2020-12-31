@@ -3058,6 +3058,7 @@ tbody.collapse.in {
   white-space: nowrap;
 }
 
+/*
 .dropdown-backdrop {
   position: fixed;
   left: 0;
@@ -3066,6 +3067,7 @@ tbody.collapse.in {
   top: 0;
   z-index: 990;
 }
+*/
 
 .pull-right > .dropdown-menu {
   right: 0;
