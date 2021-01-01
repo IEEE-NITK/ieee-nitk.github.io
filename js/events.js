@@ -53,9 +53,17 @@ function generateModal(i, eventTitle) {
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body" id="event-content` + i + `"></div>
+        <div class="modal-body" id="event-content` + i + `">
+        <div class="colorlib-loader colorlib-event-loader">
+            <div id="loader"></div>
+            <div id="loader"></div>
+            <div id="loader"></div>
+            <div id="loader"></div>
+            <div id="loader"></div>
+        </div>
+        </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" style="color: #fff;" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>

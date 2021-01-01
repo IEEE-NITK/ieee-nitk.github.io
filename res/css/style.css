@@ -2080,6 +2080,10 @@ div#particles-js {
   z-index: 69;
 }
 
+.colorlib-event-loader {
+  background-color: transparent !important;
+}
+
 .colorlib-loader #loader{
   position:absolute;
   width:2vw;
@@ -2093,6 +2097,11 @@ div#particles-js {
   -moz-animation:forward 2.3s linear infinite;
   -o-animation:forward 2.3s linear infinite;
   animation:forward 2.3s linear infinite
+}
+
+.colorlib-event-loader #loader{
+  width:0.75vw !important;
+  height:0.75vw !important;
 }
 
 .colorlib-loader>#loader:nth-of-type(1){
