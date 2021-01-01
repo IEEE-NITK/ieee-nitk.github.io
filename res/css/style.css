@@ -1914,15 +1914,7 @@ input[type="text"] {
   padding: 0 !important;
   margin: 0 !important;
 }
-.colorlib-loader {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff;
-}
+
 .js .animate-box {
   opacity: 0;
 }
@@ -2075,5 +2067,138 @@ div#particles-js {
 @media only screen and (min-width: 1200px) {
   .footer-logo {
     width: 120px;
+  }
+}
+
+.colorlib-loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: 69;
+}
+
+.colorlib-loader #loader{
+  position:absolute;
+  width:2vw;
+  height:2vw;
+  background:#0037ff;
+  top:50%;
+  left:50%;
+  border-radius:50%;
+  z-index:1500;
+  -webkit-animation:forward 2.3s linear infinite;
+  -moz-animation:forward 2.3s linear infinite;
+  -o-animation:forward 2.3s linear infinite;
+  animation:forward 2.3s linear infinite
+}
+
+.colorlib-loader>#loader:nth-of-type(1){
+  -webkit-animation-delay:-.46s;
+  -moz-animation-delay:-.46s;
+  -o-animation-delay:-.46s;
+  animation-delay:-.46s
+}
+  
+.colorlib-loader>#loader:nth-of-type(2){
+  -webkit-animation-delay:-.92s;
+  -moz-animation-delay:-.92s;
+  -o-animation-delay:-.92s;
+  animation-delay:-.92s
+}
+
+.colorlib-loader>#loader:nth-of-type(3){
+  -webkit-animation-delay:-1.38s;
+  -moz-animation-delay:-1.38s;
+  -o-animation-delay:-1.38s;
+  animation-delay:-1.38s
+}
+
+.colorlib-loader>#loader:nth-of-type(4){
+  -webkit-animation-delay:-1.84s;
+  -moz-animation-delay:-1.84s;
+  -o-animation-delay:-1.84s;
+  animation-delay:-1.84s
+}
+
+@-webkit-keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#499bea;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
+  }
+}
+
+@-moz-keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#499bea;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
+  }
+}
+
+@-o-keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#499bea;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
+  }
+}
+
+@keyframes forward{
+  0%{
+      left:40%;
+      opacity:0;
+      background:#499bea;
+  }
+  10%{
+      left:45%;
+      opacity:1
+  }
+  90%{
+      left:55%;
+      opacity:1
+  }
+  100%{
+      left:62%;
+      opacity:0
   }
 }
