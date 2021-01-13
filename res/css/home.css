@@ -54,3 +54,7 @@
         height: 1016px !important;
     }
   }
+
+  i {
+    cursor: pointer;
+  }

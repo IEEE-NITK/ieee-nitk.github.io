@@ -21,7 +21,12 @@
             {
                 "name": "Piston",
                 "link": "piston.html"
-            },
+            }                                          
+        ]
+    },
+    {
+		"name": "Affinity Groups",
+		"groups": [
             {
                 "name": "Women in Engineering",
                 "link": "wie.html"
@@ -51,9 +56,5 @@
     {
 		"name": "Join Us",
 		"link": "joinus.html"
-    },
-    {
-      "name": "Virtual Project Expo",
-      "link": "virtual-expo/"
-      }
+    }
 ]    

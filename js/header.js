@@ -9,18 +9,29 @@ function displayHeader() {
             </div>\
             <div class="col-md-10 text-right menu-1"><ul>';;
             for (var i = 0; i < result.length; i++) {
-                if (result[i].name!="SIGs"){
+                if (result[i].name!="SIGs" && result[i].name!="Affinity Groups"){
                     htmlStr += '<li>\
                     <a href="' + result[i].link + '">' + result[i].name + '</a></li>';
                 }
                 else{
-                    htmlStr += '<li>\
-                        <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SIGs</a>\
-                        <ul class="dropdown dropdown-menu">';
-                    for(var j=0; j<result[i].sigs.length;j++){
-                        htmlStr += '<li class="dropdown-item"><a href="' + result[i].sigs[j].link + '">' + result[i].sigs[j].name + '</a></li>';
+                    if(result[i].name == "Affinity Groups") {
+                        htmlStr += '<li>\
+                            <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Affinity Groups</a>\
+                            <ul class="dropdown dropdown-menu">';
+                        for(var j=0; j<result[i].groups.length;j++){
+                            htmlStr += '<li class="dropdown-item"><a href="' + result[i].groups[j].link + '">' + result[i].groups[j].name + '</a></li>';
+                        }
+                        htmlStr += '</ul></li>';
                     }
-                    htmlStr += '</ul></li>';
+                    else {
+                        htmlStr += '<li>\
+                            <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SIGs</a>\
+                            <ul class="dropdown dropdown-menu">';
+                        for(var j=0; j<result[i].sigs.length;j++){
+                            htmlStr += '<li class="dropdown-item"><a href="' + result[i].sigs[j].link + '">' + result[i].sigs[j].name + '</a></li>';
+                        }
+                        htmlStr += '</ul></li>';
+                    }
                 }
             }
             htmlStr += '</ul></div>';

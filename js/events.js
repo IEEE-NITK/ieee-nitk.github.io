@@ -31,7 +31,7 @@ function initializeEvents() {
         success: function(result) {
             events = result;
             for (myEvent in events) {
-                htmlString += "<li id='" + myEvent + "'>";
+                htmlString += `<li id='` + myEvent + `' style='padding:1%' onclick="populateModal(` + i + `)" >`;
                 htmlString += `<span class='name'><strong>` + events[myEvent].title + `</strong></span>  <i data-toggle="modal" data-target="#exampleModalCenter` + i + `" class="fa fa-info-circle" onClick="populateModal(` + i + `)"></i></li>`;
                 $("#events").html(htmlString);
                 generateModal(i, events[myEvent].title);
