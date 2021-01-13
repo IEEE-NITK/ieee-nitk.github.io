@@ -468,7 +468,7 @@ input[type=search] {
   margin-bottom: 25px;
 }
 .colorlib-about, .colorlib-shop, .colorlib-work, .colorlib-intro, #colorlib-subscribe, .colorlib-pricing, .colorlib-services, #colorlib-contact, .colorlib-blog {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 .colorlib-services > .container > .row > .col-md-4:nth-child(3n+1) {
