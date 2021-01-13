@@ -3,66 +3,74 @@ $(document).ready(function() {
     initializeEvents();
 });
 
-function listenClick(){
-    var mobile = $(document).outerWidth(true) < 768 ? true : false;
-    
-    $("#event_list li").mouseenter(function(event) {
-        
-        var hoverEvent = events[event.target.id];
-        
-        $(".event_details h3").html(hoverEvent.title);
-        $(".event_date").html(hoverEvent.date);
-        $(".event_type").html(hoverEvent.sig);
-    
-    }).click(function(event) {
-        var clickEvent = event.target.id;
-        if(event.target.nodeName != 'LI')
-            clickEvent = event.target.parentNode.id;
-        var url = "data/events/"+clickEvent+".json";
-        console.log(url);
-        if (!mobile) {
-            $(".box_left").addClass("visible_left_menu");
-            $(".box_middle").addClass("visible_middle_menu");
-        } else {
-            $(".box_middle").addClass("visible_side_menu_mobile");
-        }
-        
-        //Load the event details and display! 
-        $.ajax({
-            url: url,
-            success : function(result){
-                displayEventData(result);
-                }
-        });
-    });
-    $("#closebutton").click(function() {
-        if (!mobile) {
-            $(".box_left").removeClass("visible_left_menu");
-            $(".box_middle").removeClass("visible_middle_menu");
-        } else {
-            $(".box_middle").removeClass("visible_side_menu_mobile");
+function populateModal(id){
+    var i = id+1;
+    var url = "/data/events/event" + i + ".json";
+    $.ajax({
+        url: url,
+        success: function(result) {
+            var body = "#event-content" + id;
+            var htmlStr = ``;
+            htmlStr += `<p><strong>Date:</strong>&nbsp;` + result.date + `</p><p><strong>SIG:</strong>&nbsp;` + result.sig + `</p><p>` + result.description + `</p><p>`;
+            for (link in result.links) {
+                htmlStr += `<a href="` + result.links[link].url + `" class="btn btn-primary" target="_blank">` + result.links[link].title + `</a>`;
+            }
+            htmlStr += `</p>`
+            $(body).html(htmlStr);
         }
     });
 }
+
 function initializeEvents() {
     var htmlString = '';
-    var i = 1;
+    var i = 0;
 
-    //Load the data
+    // Load the data
     $.ajax({
         url: "data/events.json",
         success: function(result) {
             events = result;
             for (myEvent in events) {
-                //console.log(events[myEvent].title);
-                htmlString += "<li id='" + myEvent + "'><span class='num'>0" + i++ + " </span>";
-                htmlString += "<span class='name'>" + events[myEvent].title + "</span></li>";
-                $("#event_list").html(htmlString);
-                listenClick();
+                htmlString += `<li id='` + myEvent + `' style='padding:1%' onclick="populateModal(` + i + `)" >`;
+                htmlString += `<span class='name'><strong>` + events[myEvent].title + `</strong></span>  <i data-toggle="modal" data-target="#exampleModalCenter` + i + `" class="fa fa-info-circle" onClick="populateModal(` + i + `)"></i></li>`;
+                $("#events").html(htmlString);
+                generateModal(i, events[myEvent].title);
+                i += 1;
+                
             }
         }
     });
 }
+
+function generateModal(i, eventTitle) {
+    var htmlString = $('#event-modals').html();
+    htmlString += `<div class="modal fade" id="exampleModalCenter` + i + `" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLongTitle">` + eventTitle + `</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="event-content` + i + `">
+        <div class="colorlib-loader colorlib-event-loader">
+            <div id="loader"></div>
+            <div id="loader"></div>
+            <div id="loader"></div>
+            <div id="loader"></div>
+            <div id="loader"></div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" style="color: #fff;" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>`
+  $('#event-modals').html(htmlString)
+}
+
 function displayEventData(result){
     var htmlString = '';
     $(".event_title").html(result.title);

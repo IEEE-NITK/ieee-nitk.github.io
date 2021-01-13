@@ -1,36 +1,47 @@
 function displayHeader() {
     var jsonurl = "data/header.json";
-
     $.ajax({
         url: jsonurl,
         success: function (result) {
-            var htmlStr = '<a class="logo" href="https://www.ieee.org/" title="home" onclick="$.fn.fullpage.moveTo(1)">\
-            <img id="small_logo" src="res/img/ieee_nitk.png" alt="IEEE Logo"></a>\
-            <div class="popup_menu"><ul id="menu" class="teco">';
+            var htmlStr = '<div class="col-md-2">\
+            <div id="colorlib-logo"><a href="/" title="home">\
+            <img src="res/img/ieee_nitk.png" alt="IEEE Logo" class="navbar-logo"></a></div>\
+            </div>\
+            <div class="col-md-10 text-right menu-1"><ul>';;
             for (var i = 0; i < result.length; i++) {
-                if (result[i].name!="SIGs"){
-                htmlStr += '<li>\
-                <a href="' + result[i].link + '">' + result[i].name + '</a></li>';
+                if (result[i].name!="SIGs" && result[i].name!="Affinity Groups"){
+                    htmlStr += '<li>\
+                    <a href="' + result[i].link + '">' + result[i].name + '</a></li>';
                 }
                 else{
-                    htmlStr += '<li>\
-                    <div class="dropdown">\
-                        <button class="dropbtn">SIGs</button>\
-                        <div class="dropdown-content">';
-                    for(var j=0; j<result[i].sigs.length;j++){
-                        htmlStr += '<a href="' + result[i].sigs[j].link + '">' + result[i].sigs[j].name + '</a>';
+                    if(result[i].name == "Affinity Groups") {
+                        htmlStr += '<li>\
+                            <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Affinity Groups</a>\
+                            <ul class="dropdown dropdown-menu">';
+                        for(var j=0; j<result[i].groups.length;j++){
+                            htmlStr += '<li class="dropdown-item"><a href="' + result[i].groups[j].link + '">' + result[i].groups[j].name + '</a></li>';
+                        }
+                        htmlStr += '</ul></li>';
                     }
-                    htmlStr += '</div></div></li>';
+                    else {
+                        htmlStr += '<li>\
+                            <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SIGs</a>\
+                            <ul class="dropdown dropdown-menu">';
+                        for(var j=0; j<result[i].sigs.length;j++){
+                            htmlStr += '<li class="dropdown-item"><a href="' + result[i].sigs[j].link + '">' + result[i].sigs[j].name + '</a></li>';
+                        }
+                        htmlStr += '</ul></li>';
+                    }
                 }
             }
-            htmlStr += '</ul>\
-            </div>\
-            <div class="parent">\
-                <div class="nav-icon cross">\
-                    <div class="span"></div>\
-                </div>\
-            </div>'
-        $("#header").html(htmlStr);
+            htmlStr += '</ul></div>';
+            $("#header").html(htmlStr);
         }
     });
 }
+
+$(document).ready(function () {
+    particlesJS.load('particles-js', 'particlesjs-config.json', function () {
+    });
+});
+

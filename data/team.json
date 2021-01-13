@@ -1,18 +1,16 @@
 {
   "members": [
 {
-  "email": "mailto: gvaibhav1734@gmail.com",
+  "email": "gvaibhav1734@gmail.com",
   "name": "Vaibhav G",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Android, Web development",
   "linkedin": "https://www.linkedin.com/in/gvaibhav1734",
   "github": "http://github.com/gvaibhav1734"
 },
 {
-  "email":"mailto:akash30121998@gmail.com@gmail.com",
+  "email":"akash30121998@gmail.com@gmail.com",
   "name": "Akash Nair",
-  "year": "Second Year",
   "sig": "Compsoc/Media",
   "interests": "Machine Learning, AI, Web & App Development, Systems",
   "linkedin":"https://www.linkedin.com/in/akash-nair-119588161",
@@ -22,18 +20,16 @@
 {
   "email": "rohit.khoja344@gmail.com",
   "name": "Rohit Khoja",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "Machine Learning, analog and digital electronics",
   "linkedin":"https://www.linkedin.com/in/rohit-khoja-275a71172",
   "github": "http://github.com/rohitkhoja"
 },
 
 {
-  "email": "mailto:iteesha27@gmail.com",
+  "email": "iteesha27@gmail.com",
   "name": "Iteesha V A",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "Nanoelectronics, Analog Electronics,Photovoltaics, Electronic materials",
   "linkedin": "",
   "github": "http://github.com/iteesha27"
@@ -41,8 +37,7 @@
 
 {
   "email": "kushaburra99@gmail.com",
-  "name": "kushagra rawat",
-  "year": "Second Year",
+  "name": "Kushagra Rawat",
   "sig": "piston",
   "interests": "aerodynamics, fluids and turbomachinery",
   "linkedin": "https://www.linkedin.com/in/kushagra-rawat-730584163",
@@ -50,9 +45,8 @@
 },
 
 {
-  "email": "mailto:shanthanu.s.rai9@gmail.com",
+  "email": "shanthanu.s.rai9@gmail.com",
   "name": "Shanthanu S Rai",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Competitive Programming, Systems",
   "linkedin": "https://www.linkedin.com/in/shanthanu9/",
@@ -60,9 +54,8 @@
 },
 
 {
-  "email": "mailto:aravindfn51@gmail.com",
+  "email": "aravindfn51@gmail.com",
   "name": "Aravind G",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "Biomaterials, Superalloys, Microstructure Evolution",
   "linkedin": "https://www.linkedin.com/in/aravind-g-nitk"
@@ -70,9 +63,8 @@
 
 
 {
-  "email": "mailto:deepakkavoor99@gmail.com",
+  "email": "deepakkavoor99@gmail.com",
   "name": "Deepak K",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Cryptography, security, machine learning",
   "linkedin": "https://www.linkedin.com/in/deepak-k-838a05148/",
@@ -80,10 +72,9 @@
 },
 
 {
-  "email": "mailto: suraj8730@gmail.com",
+  "email": " suraj8730@gmail.com",
   "name": "Suraj Jagannath",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "Analog Electronics,Renewable Energy systems,Power Electronics",
   "linkedin": "https://www.linkedin.com/in/suraj-jagannath-b0bb8a174/",
   "github": "https://github.com/suraj0812"
@@ -91,17 +82,15 @@
 
 
 {
-  "email": "mailto: anuragkavista@gmail.com",
+  "email": " anuragkavista@gmail.com",
   "name": "Anurag P K",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "Phase Diagrams, Mechanisms, Microstructure of Alloys, Mechanical Properties of Materials",
   "linkedin": "https://www.linkedin.com/in/anurag-kavista-a3570417a"
 },
 {
-  "email": "mailto:abmanoj99@gmail.com",
+  "email": "abmanoj99@gmail.com",
   "name": "Manoj A B",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "CFD, Rheology, Process Modelling, Fuel Cells",
   "linkedin": "https://www.linkedin.com/in/manoj-a-b-2501b1173",
@@ -110,9 +99,8 @@
 },
 
 {
-  "email": "mailto: saur.agarwala@gmail.com",
+  "email": " saur.agarwala@gmail.com",
   "name": "Saurabh Agarwala",
-  "year": "Second Year",
   "sig": "CompSoc",
   "interests": "Development",
   "linkedin": "https://www.linkedin.com/in/saurabh-agarwala-6ba109165/",
@@ -120,9 +108,8 @@
 },
 
 {
-  "email": "mailto:98.arpi@gmail.com",
+  "email": "98.arpi@gmail.com",
   "name": "Arpitha Raghunandan",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Reverse Engineering, Machine Learning and Cryptography",
   "linkedin": "https://www.linkedin.com/in/arpitha-raghunandan-2b2975166",
@@ -130,9 +117,8 @@
 },
 
 {
-  "email": "mailto:17aakashsingh1999@gmail.com",
+  "email": "17aakashsingh1999@gmail.com",
   "name": "Aakash Singh",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Web Security, Machine Learning and Backend Systems",
   "linkedin": "https://www.linkedin.com/in/aakash-singh-87205662/",
@@ -140,9 +126,8 @@
 },
 
 {
-  "email": "mailto:avinash.mgsr1998@gmail.com",
+  "email": "avinash.mgsr1998@gmail.com",
   "name": "Avinash Kumar",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "MEMS/NEMS, Materials, NVH, Vehicle Dynamics, Bio-MEMS, Bio-devices",
   "linkedin": "https://www.linkedin.com/in/avinash-kumar-458651156",
@@ -150,27 +135,24 @@
 },
 
 {
-  "email": "mailto:naman356@gmail.com",
+  "email": "naman356@gmail.com",
   "name": "Naman Agarwal",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "Robotics, Analog electronics",
   "linkedin": "https://www.linkedin.com/in/naman-agarwal-252982172",
   "github": "https://github.com/naman356"
 },
 {
-  "email": "mailto:kumar.alabhya@gmail.com",
+  "email": "kumar.alabhya@gmail.com",
   "name": "Kumar Alabhya",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "Image processing,Digital Electronics",
   "linkedin": "https://www.linkedin.com/in/kumar-alabhya-4411b1173",
   "github": "https://github.com/alabhya01"
 },
 {
-  "email": "mailto:abhinavpy@ieee.org",
+  "email": "abhinavpy@ieee.org",
   "name": "Abhinav P Y",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Systems and Security",
   "linkedin": "https://www.linkedin.com/in/abhinav-p-y-819375155",
@@ -178,9 +160,8 @@
 },
 
 {
-  "email": "mailto:saharshsonu40@gmail.com",
+  "email": "saharshsonu40@gmail.com",
   "name": "Kumar Saharsh",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Machine Learning, Development,CP",
   "linkedin": "https://www.linkedin.com/in/kumar-saharsh-767829156/",
@@ -188,10 +169,9 @@
 },
 
 {
-  "email":"mailto:deekshams222@gmail.com",
+  "email":"deekshams222@gmail.com",
   "name": "Deeksha MS",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "Signal processing, Image processing, Analog electronics",
   "linkedin": "https://www.linkedin.com/in/deeksha-ms-189a52166",
   "github": "http://github.com/deeksha-ms"
@@ -199,17 +179,15 @@
 {
   "email": "rohitmkulkarni648@gmail.com",
   "name": "Rohit M Kulkarni",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "Machine Learning,Image processing, Electronics ,IOT ",
   "linkedin":"",
   "github":"https://github.com/rohmankulkarni"
 },
 
 {
-  "email": "mailto: madhuparnabhowmik04@gmail.com",
+  "email": " madhuparnabhowmik04@gmail.com",
   "name": "Madhuparna Bhowmik",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Machine Learning, Competitive Programming",
   "linkedin": "https://www.linkedin.com/in/madhuparnabhowmik-91391a14a/",
@@ -217,27 +195,24 @@
 },
 
 {
-  "email": "mailto: shaswata11711@gmail.com",
+  "email": " shaswata11711@gmail.com",
   "name": "Shaswata Bose",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "MEMS, Vehicle Dynamics",
   "linkedin": "www.linkedin.com/in/shaswata-bose-382359167",
   "github": "https://github.com/shaswata11711"
 },
 {
-  "email": "mailto: rohitmp99@gmail.com",
+  "email": " rohitmp99@gmail.com",
   "name": "Rohit M P",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Reverse Engineering, Parallel Computing",
   "linkedin": "https://www.linkedin.com/in/rohit-m-p-836569171/",
   "github": "https://github.com/rohit-mp"
 },
 {
-  "email": "mailto:siddhartha.15.manju@gmail.com",
+  "email": "siddhartha.15.manju@gmail.com",
   "name": "Siddhartha M",
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "Development,Networks and Cryptography",
   "linkedin": "https://www.linkediy.com/in/siddhartha-m-331a6115a",
@@ -246,7 +221,6 @@
 {
   "email": "tirthsavla008@gmail.com",
   "name": "Tirth Savla",
-  "year": "Second Year",
   "sig": "piston",
   "interests": "nanotechnology, design",
   "linkedin": "https://www.linkedin.com/in/tirth-savla-3b339550/",
@@ -254,9 +228,8 @@
 
 },
 {
-"email":"mailto: nisargshah@ieee.org",
+"email":" nisargshah@ieee.org",
 "name": "Nisarg Shah",
-"year": "Second Year",
 "sig": "Piston",
 "interests": "Robotics, Machine Learning",
 "linkedin": "https://www.linkedin.com/in/nisarg-shah-a9276b166",
@@ -265,7 +238,6 @@
 {
   "email":"",
   "name": "Smit Rambhaiya",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "",
   "linkedin": "",
@@ -274,7 +246,6 @@
 {
   "email":"",
   "name": "Rahul RL",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "",
   "linkedin": "",
@@ -283,7 +254,6 @@
 {
   "email":"",
   "name": "Smriti",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "",
   "linkedin": "",
@@ -292,25 +262,6 @@
 {
   "email":"",
   "name": " Aditi Marathe",
-  "year": "Second Year",
-  "sig": "Piston",
-  "interests": "",
-  "linkedin": "",
-  "github":""
-},
-{
-  "email":"",
-  "name": "Darren Fernandes",
-  "year": "Second Year",
-  "sig": "Piston",
-  "interests": "",
-  "linkedin": "",
-  "github":""
-},
-{
-  "email":"",
-  "name": "Anurag Kavista",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "",
   "linkedin": "",
@@ -319,7 +270,6 @@
 {
   "email":"",
   "name": "Shashwat",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "",
   "linkedin": "",
@@ -329,7 +279,6 @@
 {
   "email":"",
   "name": "Preeti",
-  "year": "Second Year",
   "sig": "Piston",
   "interests": "",
   "linkedin": "",
@@ -338,27 +287,24 @@
 {
   "email":"",
   "name": "Deepanshi",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "",
   "linkedin": "",
   "github":""
 },
 
 {
-  "email":"",
+  "email":"anirudhashokaatresh@gmail.com",
   "name": "Anirudh A Aatresh",
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "",
-  "linkedin": "",
-  "github":""
+  "linkedin": "https://www.linkedin.com/in/anirudhaatresh/",
+  "github":"https://github.com/Aaatresh"
 },
 {
   "email":"",
   "name": "Prithvi Patil", 
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "",
   "linkedin": "",
   "github":""
@@ -366,70 +312,54 @@
 {
   "email":"",
   "name": "Vishal Shukla", 
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "",
   "linkedin": "",
   "github":""
 },
 {
-  "email":"",
+  "email":"sahithsunku@gmail.com",
   "name": "S R Sahith", 
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "",
-  "linkedin": "",
-  "github":""
+  "linkedin": "https://www.linkedin.com/in/sahith-s-r",
+  "github":"https://githubcom/Sahith140699"
 },
 {
-  "email":"",
+  "email":"raks139@gmail.com",
   "name": "Rakshana G", 
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "",
   "linkedin": "",
   "github":""
 },
 {
-  "email":"",
+  "email":"chetanmswamy.cm@gmail.com",
   "name": "M Chethan", 
-  "year": "Second Year",
-  "sig": "CAS/SPS",
+  "sig": "Diode",
   "interests": "",
-  "linkedin": "",
+  "linkedin": "https://www.linkedin.com/mwlite/in/chethan-m-b0a09a149",
   "github":""
 },
 {
   "email":"",
   "name": "Govardhan", 
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "",
   "linkedin": "",
   "github":""
 },
 {
-  "email":"",
-  "name": "Govardhan", 
-  "year": "Second Year",
-  "sig": "Compsoc",
-  "interests": "",
-  "linkedin": "",
-  "github":""
-},
-{
-  "email":"",
+  "email":"NJnisarg@gmail.com",
   "name": "Nisarg Sanjay Joshi", 
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "",
-  "linkedin": "",
-  "github":""
+  "linkedin": "https://www.linkedin.com/in/njnisarg",
+  "github":"https://github.com/NJnisarg"
 },
 {
   "email":"",
-  "name": "Prajwal Belagavi", 
-  "year": "Second Year",
+  "name": "Prajwal Belagavi",
   "sig": "Compsoc",
   "interests": "",
   "linkedin": "",
@@ -438,31 +368,924 @@
 {
   "email":"",
   "name": "Pranav P", 
-  "year": "Second Year",
   "sig": "Compsoc",
   "interests": "",
   "linkedin": "",
   "github":""
 },
 {
-  "email":"",
+  "email":"vvijaytanmai@gmail.com",
   "name": "Tanmai H", 
-  "year": "Second Year",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/tanmai-harish/",
+  "github":"https://github.com/tanmai-h"
+},
+{
+  "email":"",
+  "name": "T S S Chandana",
   "sig": "Compsoc",
   "interests": "",
   "linkedin": "",
   "github":""
 },
+
 {
-  "email":"",
-  "name": "T S S Chandana", 
-  "year": "Second Year",
+  "email": "sai.prasad.22092000@gmail.com",
+  "name": "B Sai Prasad",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "adityachirania97@gmail.com",
+  "name": "Aditya Chirania",
+  "sig": "Comp soc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "ansen2061@gmail.com",
+  "name": "Ansen Antony ",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "kkrishnaswaroop99@gmail.com",
+  "name": "K Krishna Swaroop",
   "sig": "Compsoc",
   "interests": "",
   "linkedin": "",
-  "github":""
+  "github": ""
+},
+{
+  "email": "varun.raghavendra1@gmail.com",
+  "name": "Varun N R",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "niranjan.sy99@gmail.com",
+  "name": "Niranjan S Yadiyala",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "shreeaithal2000@gmail.com",
+  "name": "Shreeraksha R Aithal",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "videhraj29072000@gmail.com",
+  "name": "Videh Raj Nema",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "adityasohoni@gmail.com",
+  "name": "Aditya Sohoni",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "ameyanrd@outlook.com",
+  "name": "Ameya Neeraj Deshpande",
+  "sig": "COMPSOC",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "arnavnair13@gmail.com",
+  "name": "Arnav Santosh Nair",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "lomadapraveenreddy@gmail.com",
+  "name": "LOMADA PRAVEEN KUMAR REDDY",
+  "sig": "COMPSOC",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "shruthan@outlook.com",
+  "name": "Shruthan R",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "suhasks123@gmail.com",
+  "name": "Suhas K S",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "kinshuk.other@gmail.com",
+  "name": "Kinshuk Kashyap",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "rajrocks5056677@gmail.com",
+  "name": "Raj Gupta ",
+  "sig": "Piston ",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "ashrikant39@gmail.com",
+  "name": "A Shrikant",
+  "sig": "DIODE",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "adithyaj8@gmail.com",
+  "name": "Adithya Jayan",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "jyotsnameda@gmail.com",
+  "name": "Jyotsna M",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "karthikrrao30@gmail.com",
+  "name": "Karthik R Rao",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "rmhanchate2000@gmail.com",
+  "name": "Rahul M Hanchate",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "chandravaran2000@gmail.com",
+  "name": "Chandravaran kunjeti",
+  "sig": "Diode ",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "www.shashankhollas@gmail.com",
+  "name": "Shashank Holla S",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "adithya.kannan19@gmail.com",
+  "name": "Adithya Kannan",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "gayutanks@gmail.com",
+  "name": "Gayatri Tanksali",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "nikhilnicky972@gmail.com",
+  "name": "Nikhil Nair",
+  "sig": "Diode ",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "manav.relativity@gmail.com",
+  "name": "Manav Singhal",
+  "sig": "Computer Society",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "jeetshah250@gmail.com",
+  "name": "Jeet Shah",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "kaushikalwala1729@gmail.com",
+  "name": "Kaushik Alwala",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "vineethrajesh14@gmail.com",
+  "name": "Vineeth R",
+  "sig": "COMPSOC",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "krithikvaidya@gmail.com",
+  "name": "Krithik Muralidhar Vaidya",
+  "sig": "Computer Society",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "hebbarprajna2000@gmail.com",
+  "name": "Prajna N Hebbar",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "harsh.aayush.r1@gmail.com",
+  "name": "Harshvardhan R",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "vaibhavpuri32@gmail.com",
+  "name": "Vaibhav Puri",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "raghunathabhishek@gmail.com",
+  "name": "Abhishek R",
+  "sig": "Piston ",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "sharayubrahmankar95@gmail.com",
+  "name": "Sharayu",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "ektaramnanivib@gmail.com",
+  "name": "Ekta Ramnani ",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "impnavandakar@gmail.com",
+  "name": "Impna V A",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "kartik.nayak@rocketmail.com",
+  "name": "Kartik Udaya Nayak",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "supreethsatish@gmail.com",
+  "name": "Supreeth S",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "vehanh.181me184@nitk.edu.in",
+  "name": "Vehan Doshi",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "akashwaitage54@gmail.com",
+  "name": "Akash Waitage",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "ashvin733x@gmail.com",
+  "name": "Ashvin prasanth ",
+  "sig": "Piston ",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "drishikanadella@gmail.com",
+  "name": "Drishika Nadella",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "ishita.181ch017@nitk.edu.in",
+  "name": "Ishita Goyal",
+  "sig": "Piston ",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "bhaskar.cs.vyas@gmail.com",
+  "name": "Bhaskar Vyas",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "saikumardande2001@gmail.com",
+  "name": "Saikumar Dande",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "adichand20@gmail.com",
+  "name": "Aditya C",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "surajxkulkarni@gmail.com",
+  "name": "Suraj Kulkarni",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "akshblr555@gmail.com",
+  "name": "P Akshara ",
+  "sig": "CompSoc ",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "adharshkamathr@gmail.com",
+  "name": "Adharsh Kamath",
+  "sig": "CompSoc",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "chandran0303.cn@gmail.com",
+  "name": "Chandran Nandkumar",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "jaimandal27@gmail.com",
+  "name": "Jai Mandal",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "",
+  "github": ""
+},
+{
+  "email": "tilak.madichetti@gmail.com",
+  "name": "Tilak Madichetti",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "http://bit.do/tmli",
+  "github": "https://github.com/octo-chains"
+},
+{
+  "email": "ananyap.7821@gmail.com",
+  "name": "Ananya P",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/ananya-p-2a51581b3/",
+  "github": ""
+},
+{
+  "email": "bdiptesh99@gmail.com",
+  "name": "Diptesh Banerjee",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/diptesh-banerjee-6a23a2190/",
+  "github": "https://github.com/bdiptesh99"
+},
+{
+  "email": "vibamicky@gmail.com",
+  "name": "Viba Udupa",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/vibarudupa",
+  "github": ""
+},
+{
+  "email": "pranshushukla06@gmail.com",
+  "name": "Pranshu Shukla",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/pranshu-shukla-50a79931/",
+  "github": "https://github.com/Pranshu-S"
+},
+{
+  "email": "monaldhankar@gmail.com",
+  "name": "Monal Singh",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/monal-dhankar-8457a41a5",
+  "github": ""
+},
+{
+  "email": "mallirko@gmail.com",
+  "name": "Mallikarjun G M",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/mallikarjungm/",
+  "github": ""
+},
+{
+  "email": "Kaustubh1501@gmail.com",
+  "name": "Kaustubh",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/kaustubh-6096aa1a8",
+  "github": ""
+},
+{
+  "email": "shobujpaul@hotmail.com ",
+  "name": "Shobuj Paul",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/shobuj-paul",
+  "github": "https://github.com/Shobuj-Paul"
+},
+{
+  "email": "yuvasankar.b@gmail.com",
+  "name": "Yuvasankar B",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/yuvasankar-b-85a8b01b8/",
+  "github": "https://github.com/Yuv-B"
+},
+{
+  "email": "erinsam.joe@gmail.com",
+  "name": "Erin Sam Joe",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/erin-sam-joe/",
+  "github": "https://github.com/ErinSam"
+},
+{
+  "email": "ajethesh8@gmail.com",
+  "name": "Ajethesh Kumar",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/ajethesh-kumar-25b6b3195/",
+  "github": "https://github.com/ajethesh8"
+},
+{
+  "email": "sidharth.lanka@gmail.com",
+  "name": "Sidharth Lanka",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/sidharthlanka",
+  "github": "https://github.com/SidharthLanka"
+},
+{
+  "email": "nayakpratham0@gmail.com",
+  "name": "Pratham Nayak",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/mwlite/in/pratham-nayak-bb18a11a7",
+  "github": "https://github.com/spectre900"
+},
+{
+  "email": "rakshitajps@gmail.com",
+  "name": "Rakshita Varadarajan",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "http://www.linkedin.com/in/rakshita-varadarajan-16108",
+  "github": "https://github.com/rak108"
+},
+{
+  "email": "jasonkrithik@gmail.com",
+  "name": "Jason Krithik Kumar S",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/jason-kumar-20b694196/",
+  "github": "https://github.com/jkk2000"
+},
+{
+  "email": "gaurangvelingkar@gmail.com",
+  "name": "Gaurang Jitendra Velingkar",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/gaurang-velingkar-577b1a1ab",
+  "github": "https://github.com/gaurang2001"
+},
+{
+  "email": "rohanrao.jh@gmail.com",
+  "name": "Rohan Rao H J",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/rohan-rao-h-j-a482241b8/",
+  "github": "https://github.com/Rohanrao02"
+},
+{
+  "email": "nakshatragopi2001@gmail.com",
+  "name": "Nakshatra Gopi",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/nakshatra-gopi",
+  "github": "https://github.com/lil-monk"
+},
+{
+  "email": "shreyas.rao114@gmail.com",
+  "name": "M Shreyas Rao",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/shreyas-rao-0a013b1b0",
+  "github": "https://github.com/shreyasrao114"
+},
+{
+  "email": "garvinpokhra121@gmail.com",
+  "name": "Garvin Pokhra",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/garvin-pokhra-58166a1b1",
+  "github": "https://github.com/Jimmy622"
+},
+{
+  "email": "sajee.saxena@gmail.com",
+  "name": "Sahaj Saxena",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/sahaj-saxena-0236b0179",
+  "github": "https://github.com/SAHAJ7100"
+},
+{
+  "email": "ramyapgk1887@gmail.com",
+  "name": "P.Ramyashri",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/ramyashri-p-94542518b",
+  "github": "https://github.com/ramyashri1887"
+},
+{
+  "email": "chandankum2440@gmail.com",
+  "name": "chandan kumar",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/chandan-kumar-a8a50a198",
+  "github": "https://github.com/Predator4hack "
+},
+{
+  "email": "sankarsh72000@gmail.com",
+  "name": "Sankarsh R",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/sankarsh-r-8441081a0",
+  "github": ""
+},
+{
+  "email": "sankarsh72000@gmail.com",
+  "name": "Sankarsh R",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/sankarsh-r-8441081a0",
+  "github": "https://github.com/sankronaldo"
+},
+{
+  "email": "vineethnarayan42@gmail.com",
+  "name": "Vineeth Narayan P",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/vineeth-narayan-p-565938189",
+  "github": "https://github.com/Vineeth-Narayan"
+},
+{
+  "email": "saikartikeya03@gmail.com",
+  "name": "V Kartikeya",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/kartikeya-v-4925361a7",
+  "github": "https://github.com/kartikeyavallamkonda"
+},
+{
+  "email": "sakumar2001@gmail.com",
+  "name": "Soma Anil Kumar",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/soma1809",
+  "github": "https://github.com/soma1809"
+},
+{
+  "email": "achintyakeerthi@gmail.com",
+  "name": "Achintya K N",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/achintya-noorithaya-04b1b7190",
+  "github": "https://github.com/achintya-k"
+},
+{
+  "email": "mallyarohan99@gmail.com",
+  "name": "Rohan Mallya",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/rohan-mallya-4290791a7/",
+  "github": "https://github.com/MallyaRo"
+},
+{
+  "email": "sujaychuttar@gmail.com",
+  "name": "Sujay Chuttar",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/suju01",
+  "github": "https://github.com/Sujay1101"
+},
+{
+  "email": "rahulmagesh@hotmail.com",
+  "name": "Rahul Magesh",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/rahul-magesh-bba9181a8",
+  "github": "https://github.com/Rahul Magesh"
+},
+{
+  "email": "mohamankad3@gmail.com",
+  "name": "Mankad Moha Sandip",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/moha03",
+  "github": "https://github.com/Moha-Mankad"
+},
+{
+  "email": "krutideepan123@gmail.com",
+  "name": "Kruti Deepan Panda",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/kruti-deepan-panda-0a93081a5",
+  "github": "https://github.com/krutideepanpanda"
+},
+{
+  "email": "anirudhtulasi2000@gmail.com",
+  "name": "Anirudh T",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/anirudh-t-7818ab1b8/",
+  "github": ""
+},
+{
+  "email": "akashbharadwaj2001@gmail.com",
+  "name": "Akash S Bharadwaj",
+  "sig": "Diode",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/akash-s-bharadwaj-6073651a1",
+  "github": "https://github.com/akashbharadwaj2001"
+},
+{
+  "email": "pramodsp2k1@gmail.com",
+  "name": "Pramod Sunil Parande",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/pramod-s-b98829193/",
+  "github": ""
+},
+{
+  "email": "harshakvs8@gmail.com",
+  "name": "Harshavardhan S",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/harshavardhan-s-008591189",
+  "github": ""
+},
+{
+  "email": "srujanbharadwaj44@gmail.com",
+  "name": "Srujan Bharadwaj",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/srujan-bharadwaj-1b2711188/",
+  "github": "https://github.com/srujangit123"
+},
+{
+  "email": "shreyanamath033@gmail.com ",
+  "name": "Shreya Namath",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/shreya-namath-ab0aa21b2",
+  "github": "https://github.com/Shreya301"
+},
+{
+  "email": "sanjkeetjena@gmail.com",
+  "name": "Sanjkeet Jena",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/sanjkeet-jena-1a0b401b1",
+  "github": "https://github.com/ZerothKing"
+},
+{
+  "email": "dvpranav@gmail.com",
+  "name": "Pranav DV",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/pranav-dv-5829141b8/",
+  "github": "https://github.com/pranavdv"
+},
+{
+  "email": "sravanikatasani@gmail.com",
+  "name": "Katasani Venkata Sravani",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/venkata-sravani-katasani-29a385196/",
+  "github": "https://github.com/sravanireddy1102"
+},
+{
+  "email": "dharmicksaik@gmail.com",
+  "name": "K Dharmick Sai",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/k-dharmick-498224195/",
+  "github": "https://github.com/dharmicksai"
+},
+{
+  "email": "codecraft15@gmail.com",
+  "name": "Chaithanya Shyam D",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/chaithanya-shyam-6854b9169/",
+  "github": "https://github.com/Dragonado"
+},
+{
+  "email": "aryaman2912@gmail.com",
+  "name": "Aryaman M",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/aryaman-m/",
+  "github": "https://github.com/Aryaman2912"
+},
+{
+  "email": "agarwaljanmansh@gmail.com",
+  "name": "Janmansh Agarwal",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/janmansh",
+  "github": "https://github.com/Janmansh"
+},
+{
+  "email": "adithyarajesh01@gmail.com",
+  "name": "Adithya Rajesh",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/adithya-rajesh-72774b186/",
+  "github": "https://github.com/DeltaCube23"
+},
+{
+  "email": "sureshkamediya18@gmail.com",
+  "name": "Suresh Kamediya",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/suresh-kamediya-994126193/",
+  "github": "https://github.com/SureshKamediya"
+},
+{
+  "email": "rakki22k@gmail.com",
+  "name": "Rakshit P",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/rakshit-p/",
+  "github": "https://github.com/rakki-18"
+},
+{
+  "email": "nishantnayak2001@gmail.com",
+  "name": "Nishant Nayak",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/nishant-nayak-8a20b0192",
+  "github": "https://github.com/nishant-nayak"
+},
+{
+  "email": "muditsinghal2002@gmail.com",
+  "name": "Mudit Singhal",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://cutt.ly/muditsinghal",
+  "github": "https://github.com/muditsinghal"
+},
+{
+  "email": "ikjotsd@gmail.com",
+  "name": "Ikjot Singh Dhody",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/ikjot-singh-dhody-aa64911a4/",
+  "github": "https://github.com/ikjot-2605"
+},
+{
+  "email": "iamhsrb30@gmail.com",
+  "name": "Harshwardhan Singh Rathore",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/harshwardhan-singh-rathore-b249481a4",
+  "github": ""
+},
+{
+  "email": "anirudh.achal@gmail.com",
+  "name": "Anirudh Munnur Achal",
+  "sig": "Compsoc",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/anirudh-achal/",
+  "github": "https://github.com/AnirudhAchal"
+},
+{
+  "email": "shiv.191mt044@nitk.edu.in",
+  "name": "Shivansh Joshi",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/shivansh-joshi-500429192",
+  "github": ""
+},
+{
+  "email": "varshu13chandru@gmail.com",
+  "name": "Varshini C",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/varshini-chandrashekar-31a4401a8",
+  "github": ""
+},
+{
+  "email": "sumukha.s.adiga@gmail.com",
+  "name": "Sumukha S Adiga",
+  "sig": "Piston",
+  "interests": "",
+  "linkedin": "https://www.linkedin.com/in/sumukha-adiga-2402/",
+  "github": ""
 }
-
 ],
   "core": [
     {
@@ -623,25 +1446,25 @@
   ],
   "alumni": [
     {
-      "email": "mailto:satyam.shivam76@gmail.com",
+      "email": "satyam.shivam76@gmail.com",
       "name": "Shivam ",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Digital, analog, signal processing",
       "linkedin": "",
       "github": ""
     },
     {
-      "email": "mailto:sowjanyakandula99@gmail.com",
+      "email": "sowjanyakandula99@gmail.com",
       "name": "Kandula Sowjanya",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Electronics",
       "linkedin": "",
       "github": ""
     },
     {
-      "email": "mailto:anuzenith29@gmail.com",
+      "email": "anuzenith29@gmail.com",
       "name": "Anumeha Agrawal",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -650,7 +1473,7 @@
       "github": "www.github.io/anumehaagrawal/"
     },
     {
-      "email": "mailto:mahim23agrawal@gmail.com",
+      "email": "mahim23agrawal@gmail.com",
       "name": "Mahim Agrawal",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -659,7 +1482,7 @@
       "github": "github.com/mahim23"
     },
     {
-      "email": "mailto:parab.sonal108@gmail.com",
+      "email": "parab.sonal108@gmail.com",
       "name": "Sonal Parab",
       "year": "Third Year",
       "sig": "Piston",
@@ -668,16 +1491,16 @@
       "github": ""
     },
     {
-      "email": "mailto:arangarajan834@gmail.com",
+      "email": "arangarajan834@gmail.com",
       "name": "Aditya Rangarajan",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Analog electronics",
       "linkedin": "",
       "github": ""
     },
     {
-      "email": "mailto:gurupungavn@gmail.com",
+      "email": "gurupungavn@gmail.com",
       "name": "Gurupungav Narayanan",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -686,7 +1509,7 @@
       "github": "github.com/gurupunskill"
     },
     {
-      "email": "mailto:sinchanah@gmail.com",
+      "email": "sinchanah@gmail.com",
       "name": "Sinchana Hegde",
       "year": "Third Year",
       "sig": "Piston",
@@ -695,7 +1518,7 @@
       "github": ""
     },
     {
-      "email": "mailto:adithyaprabhu98@gmail.com",
+      "email": "adithyaprabhu98@gmail.com",
       "name": "Adithya Prabhu",
       "year": "Third Year",
       "sig": "Piston",
@@ -704,16 +1527,16 @@
       "github": "https://github.com/adithyaprabhu98"
     },
     {
-      "email": "mailto:anirudhs1997@gmail.com",
+      "email": "anirudhs1997@gmail.com",
       "name": "Anirudh S Sundar",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Computer Vision, Digital Electronics",
       "linkedin": "",
       "github": ""
     },
     {
-      "email": "mailto:kirankumar.kiran78@gmail.com",
+      "email": "kirankumar.kiran78@gmail.com",
       "name": "Kiran Kumar G",
       "year": "Third Year",
       "sig": "Piston",
@@ -722,7 +1545,7 @@
       "github": ""
     },
     {
-      "email": "mailto:sirnithin98@gmail.com",
+      "email": "sirnithin98@gmail.com",
       "name": "Nithin M Eapen",
       "year": "Third Year",
       "sig": "Piston",
@@ -731,17 +1554,17 @@
       "github": ""
     },
     {
-      "email": "mailto:sssachin300@gmail.com",
+      "email": "sssachin300@gmail.com",
       "name": "SACHIN SAMPATH H",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Signal processing",
       "linkedin": "",
       "github": ""
     },
     
     {
-      "email": "mailto:ckeshavabs@gmail.com",
+      "email": "ckeshavabs@gmail.com",
       "name": "Chenna Keshava B S",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -750,16 +1573,16 @@
       "github": "https://github.com/chennakeshava1998"
     },
     {
-      "email": "mailto:yani.bh@gmail.com",
+      "email": "yani.bh@gmail.com",
       "name": "Anirudh B H",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Analog and Digital Electronics",
       "linkedin": "https://www.linkedin.com/in/anirudh-b-h-30a453149",
       "github": "https://github.com/Anirudh0707"
     },
     {
-      "email": "mailto:pvgupta24@gmail.com",
+      "email": "pvgupta24@gmail.com",
       "name": "Praveen Gupta",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -768,7 +1591,7 @@
       "github": "https://github.com/pvgupta24"
     },
     {
-      "email": "mailto:mokshjn00@gmail.com",
+      "email": "mokshjn00@gmail.com",
       "name": "Moksh Jain",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -777,16 +1600,16 @@
       "github": "http://github.com/MJ10"
     },
     {
-      "email": "mailto:megh.bhalerao@gmail.com",
+      "email": "megh.bhalerao@gmail.com",
       "name": "Megh Bhalerao",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Signal Processing/ Image processing.",
       "linkedin": "https://www.linkedin.com/in/megh-bhalerao-572b29130",
       "github": ""
     },
     {
-      "email": "mailto:sanathkshettar@gmail.com",
+      "email": "sanathkshettar@gmail.com",
       "name": "Sanath K",
       "year": "Third Year",
       "sig": "Piston",
@@ -795,7 +1618,7 @@
       "github": "https://github.com/sanathbk"
     },
     {
-      "email": "mailto:smarty1palak@gmail.com",
+      "email": "smarty1palak@gmail.com",
       "name": "Palak singhal",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -804,7 +1627,7 @@
       "github": "https://github.com/smarty1palak"
     },
     {
-      "email": "mailto:shashank2041998@gmail.com",
+      "email": "shashank2041998@gmail.com",
       "name": "Shashank R",
       "year": "Third Year",
       "sig": "Piston",
@@ -813,7 +1636,7 @@
       "github": ""
     },
     {
-      "email": "mailto:mahirjain25@gmail.com",
+      "email": "mahirjain25@gmail.com",
       "name": "Mahir Jain",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -822,7 +1645,7 @@
       "github": "https://github.com/mahirjain25"
     },
     {
-      "email": "mailto:rosageorge97@gmail.com",
+      "email": "rosageorge97@gmail.com",
       "name": "Rosa Anil George",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -831,7 +1654,7 @@
       "github": "https://github.com/RosaGeorge31"
     },
     {
-      "email": "mailto:surajnitk4@gmail.com",
+      "email": "surajnitk4@gmail.com",
       "name": "Suraj Singh",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -840,25 +1663,25 @@
       "github": "https://github.com/suraj44"
     },
     {
-      "email": "mailto:manansharma296@gmail.com",
+      "email": "manansharma296@gmail.com",
       "name": "Manan Sharma",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Embedded Systems, Image Processing",
       "linkedin": "https://www.linkedin.com/in/manan-sharma",
       "github": "https://github.com/manan-sharma"
     },
     {
-      "email": "mailto:shrutideshpande9598@gmail.com",
+      "email": "shrutideshpande9598@gmail.com",
       "name": "Shruti Deshpande",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Analog and digital electronics",
       "linkedin": "",
       "github": ""
     },
     {
-      "email": "mailto:architpandeynitk@gmail.com",
+      "email": "architpandeynitk@gmail.com",
       "name": "Archit Pandey",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -867,7 +1690,7 @@
       "github": "https://github.com/archpndy"
     },
     {
-      "email": "mailto:andy.pathak1@gmail.com",
+      "email": "andy.pathak1@gmail.com",
       "name": "Anand Pathak",
       "year": "Third Year",
       "sig": "Piston",
@@ -876,7 +1699,7 @@
       "github": ""
     },
     {
-      "email": "mailto:vanshika421@gmail.com",
+      "email": "vanshika421@gmail.com",
       "name": "Vanshika gupta",
       "year": "Third Year",
       "sig": "Piston",
@@ -885,7 +1708,7 @@
       "github": "GitHub handle - vansyo"
     },
     {
-      "email": "mailto:harshitranjan2098@gmail.com",
+      "email": "harshitranjan2098@gmail.com",
       "name": "Harshit Ranjan",
       "year": "Third Year",
       "sig": "Piston",
@@ -894,7 +1717,7 @@
       "github": ""
     },
     {
-      "email": "mailto:rajatchandavar1998@gmail.com",
+      "email": "rajatchandavar1998@gmail.com",
       "name": "Rajat A Chandavar",
       "year": "Third Year",
       "sig": "Piston",
@@ -903,7 +1726,7 @@
       "github": "https://github.com/rajatchandavar"
     },
     {
-      "email": "mailto:krishnakv98@gmail.com",
+      "email": "krishnakv98@gmail.com",
       "name": "K V Krishna",
       "year": "Third Year",
       "sig": "Piston",
@@ -912,7 +1735,7 @@
       "github": ""
     },
     {
-      "email": "mailto:mirthunraj@gmail.com",
+      "email": "mirthunraj@gmail.com",
       "name": "Mirthunraj Satheesh",
       "year": "Third Year",
       "sig": "Piston",
@@ -921,7 +1744,7 @@
       "github": ""
     },
     {
-      "email": "mailto:1997shashankp@gmail.com",
+      "email": "1997shashankp@gmail.com",
       "name": "Shashank P",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -931,7 +1754,7 @@
     },
     
     {
-      "email": "mailto:adilamrajiv@gmail.com",
+      "email": "adilamrajiv@gmail.com",
       "name": "Adila Mohammed Rajiv",
       "year": "Third Year",
       "sig": "Piston",
@@ -940,25 +1763,25 @@
       "github": ""
     },
     {
-      "email": "mailto:ayush.gs1998@gmail.com",
+      "email": "ayush.gs1998@gmail.com",
       "name": "Ayush Srivastava",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Electronics: digital and analog",
       "linkedin": "      embedded systems",
       "github": ""
     },
     {
-      "email": "mailto:satyam.shivam76@gmail.com",
+      "email": "satyam.shivam76@gmail.com",
       "name": "Shivam",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Digital, analog, signal processing",
       "linkedin": "",
       "github": ""
     },
     {
-      "email": "mailto:ashwinjoisa@gmail.com",
+      "email": "ashwinjoisa@gmail.com",
       "name": "Ashwin Joisa",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -967,10 +1790,10 @@
       "github": ""
     },
     {
-      "email": "mailto:varshini.srinivasan@gmail.com",
+      "email": "varshini.srinivasan@gmail.com",
       "name": "Varshini Srinivasan",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Digital Electronics, Embedded Systems and IOT",
       "linkedin": "https://www.linkedin.com/in/varshini-srinivasan-a65bb9136/",
       "github": "https://github.com/varsh2506"
@@ -979,12 +1802,12 @@
       "email" : "hebbarashwin@gmail.com",
       "name" : "Ashwin Hebbar",
       "year" : "Third Year",
-      "sig" : "CAS/SPS",
+      "sig" : "Diode",
       "github" : "https://github.com/hebbarashwin",
       "interests" : "Digital Electronics and Embedded Systems"
     },
     {
-      "email": "mailto:adwait.gautham@gmail.com",
+      "email": "adwait.gautham@gmail.com",
       "name": "ADWAITH V GAUTHAM",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -993,34 +1816,34 @@
       "github": "https://github.com/adwait1-G"
     },
     {
-      "email": "mailto:shreeram1739@gmail.com",
+      "email": "shreeram1739@gmail.com",
       "name": "Shreeram N Hegde",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "digital electronics",
       "linkedin": "https://www.linkedin.com/in/shreeram-hegde-80a024146",
       "github": ""
     },
     {
-      "email": "mailto:shamagvasisht23998@gmail.com",
+      "email": "shamagvasisht23998@gmail.com",
       "name": "Shama G Vasisht",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Analog",
       "linkedin": "",
       "github": ""
     },
     {
-      "email": "mailto:sampath21021999@gmail.com",
+      "email": "sampath21021999@gmail.com",
       "name": "Sampath koti",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Analog and digita.mechatronics and robotics",
       "linkedin": "www.linkedin.com/in/sampath-koti-b63a4813b",
       "github": "https://github.com/MANWHOKNEWINFINITY"
     },
     {
-      "email": "mailto:nikhil0398@gmail.com",
+      "email": "nikhil0398@gmail.com",
       "name": "Nikhil Govindarajan",
       "year": "Third Year",
       "sig": "Piston",
@@ -1029,16 +1852,16 @@
       "github": ""
     },
     {
-      "email": "mailto:hebbarashwin@gmail.com",
+      "email": "hebbarashwin@gmail.com",
       "name": "Ashwin Hebbar",
       "year": "Third Year",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "interests": "Electronics",
       "linkedin": "https://www.linkedin.com/",
       "github": "https://github.com/"
     },
     {
-      "email": "mailto:rosageorge97@gmail.com",
+      "email": "rosageorge97@gmail.com",
       "name": "Rosa Anil George",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -1047,7 +1870,7 @@
       "github": "https://github.com/RosaGeorge31"
     },
     {
-      "email": "mailto:sachitk777@gmail.com",
+      "email": "sachitk777@gmail.com",
       "name": "Sachit Krishnan",
       "year": "Third Year",
       "sig": "Piston",
@@ -1056,7 +1879,7 @@
       "github": "https://github.com/sachitkrishnan"
     },
     {
-      "email": "mailto:adilashique@gmail.com",
+      "email": "adilashique@gmail.com",
       "name": "Adil Mohammed Ashique",
       "year": "Third Year",
       "sig": "Compsoc",
@@ -1065,293 +1888,293 @@
       "github": "https://github.com/adilashique"
     },
     {
-      "email": "mailto:aneesh297@gmail.com",
+      "email": "aneesh297@gmail.com",
       "name": "Aneesh Aithal",
       "sig": "Compsoc",
       "github": "https://github.com/aneesh297"
     },
     {
-      "email": "mailto:rohanbfg@gmail.com",
+      "email": "rohanbfg@gmail.com",
       "name": "Rohan Surve",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/"
     },
     {
-      "email": "mailto:harini.25697@gmail.com",
+      "email": "harini.25697@gmail.com",
       "name": "Harini S",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/"
     },
     {
-      "email": "mailto:sbs.191197@gmail.com",
+      "email": "sbs.191197@gmail.com",
       "name": "Salman Shah",
       "sig": "Compsoc",
       "github": "https://www.github.com/salman-bhai"
     },
     {
-      "email": "mailto:vvvarun1@gmail.com",
+      "email": "vvvarun1@gmail.com",
       "name": "Venkat Varun Velpula",
       "sig": "Piston",
       "github": ""
     },
     
     {
-      "email": "mailto:santoshkvk@gmail.com",
+      "email": "santoshkvk@gmail.com",
       "name": "Santosh Kodali",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/santosh-kodali"
     },
     {
-      "email": "mailto:hrishihiraskar@gmail.com",
+      "email": "hrishihiraskar@gmail.com",
       "name": "Hrishikesh Hiraskar",
       "sig": "Compsoc",
       "github": "https://github.com/hrily"
     },
     {
-      "email": "mailto:raoshashank73@gmail.com",
+      "email": "raoshashank73@gmail.com",
       "name": "Shashank Rao",
       "sig": "Compsoc",
       "github": "https://github.com/raoshashank"
     },
     {
-      "email": "mailto:himadripal37@gmail.com",
+      "email": "himadripal37@gmail.com",
       "name": "Himadri Pal",
       "sig": "Compsoc",
       "github": "https://github.com/HimadriP"
     },
     {
-      "email": "mailto:akulasricharan.asc@gmail.com",
+      "email": "akulasricharan.asc@gmail.com",
       "name": "Sri Charan Akula",
       "sig": "Piston",
       "github": "https://github.com/AKULA-SRI-CHARAN"
     },
     {
-      "email": "mailto:anupamagvs@gmail.com",
+      "email": "anupamagvs@gmail.com",
       "name": "Anupama G",
       "sig": "Piston",
       "github": ""
     },
     
     {
-      "email": "mailto:samarth.bonthala@gmail.com",
+      "email": "samarth.bonthala@gmail.com",
       "name": "Samarth Bonthala",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": ""
     },
     {
-      "email": "mailto:mail4vinayakvgopal@gmail.com",
+      "email": "mail4vinayakvgopal@gmail.com",
       "name": "Vinayak V Gopal",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:jeshvanthtk@gmail.com",
+      "email": "jeshvanthtk@gmail.com",
       "name": "T K Jeshventh Raja",
       "sig": "Compsoc",
       "github": "https://github.com/jeshventhraja"
     },
     {
-      "email": "mailto:chowdhury.mohita@gmail.com",
+      "email": "chowdhury.mohita@gmail.com",
       "name": "Mohita Chowdhury",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/mohiitaa"
     },
     {
-      "email": "mailto:nandini.pvs@gmail.com",
+      "email": "nandini.pvs@gmail.com",
       "name": "Nandini Sreenath",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": ""
     },
     {
-      "email": "mailto:jainvibhore1997@gmail.com",
+      "email": "jainvibhore1997@gmail.com",
       "name": "Vibhore Jain",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/vibhoregit"
     },
     {
-      "email": "mailto:senapati.shuvam96@gmail.com",
+      "email": "senapati.shuvam96@gmail.com",
       "name": "Shuvam Senapati",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:dth.bht@gmail.com",
+      "email": "dth.bht@gmail.com",
       "name": "Adithya Bhat",
       "sig": "Compsoc",
       "github": "https://github.com/adithyabhatkajake"
     },
     {
-      "email": "mailto:subbalakshmi.n18@gmail.com",
+      "email": "subbalakshmi.n18@gmail.com",
       "name": "N Subbalakshmi ",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": ""
     },
     {
-      "email": "mailto:akshay.krishna.in@ieee.org",
+      "email": "akshay.krishna.in@ieee.org",
       "name": "Akshay Krishna",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:kamath.abijith.j@ieee.org",
+      "email": "kamath.abijith.j@ieee.org",
       "name": "Abijith J Kamath",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://gitlab.com/kamath.abijith.j"
     },
     {
-      "email": "mailto:adityanant@gmail.com",
+      "email": "adityanant@gmail.com",
       "name": "A Aditya",
       "sig": "Compsoc",
       "github": "https://github.com/aditya5558"
     },
     {
-      "email": "mailto:ambareesh.prakash@gmail.com",
+      "email": "ambareesh.prakash@gmail.com",
       "name": "Ambareesh Prakash",
       "sig": "Compsoc",
       "github": "https://github.com/AeroDeath/"
     },
     {
-      "email": "mailto:aneesh297@gmail.com",
+      "email": "aneesh297@gmail.com",
       "name": "Aneesh Aithal",
       "sig": "Compsoc",
       "github": "https://github.com/aneesh297"
     },
     {
-      "email": "mailto:abhithigale3@gmail.com",
+      "email": "abhithigale3@gmail.com",
       "name": "Abhishek Thigale",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:bsrevanth2011@gmail.com",
+      "email": "bsrevanth2011@gmail.com",
       "name": "Revanth B S",
       "sig": "Compsoc",
       "github": "github.com/revanth-3010"
     },
     {
-      "email": "mailto:shwethasv97@gmail.com",
+      "email": "shwethasv97@gmail.com",
       "name": "Shwetha SV",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": ""
     },
     {
-      "email": "mailto:vilasnitk19@gmail.com",
+      "email": "vilasnitk19@gmail.com",
       "name": "Vilas M",
       "sig": "Compsoc",
       "github": "https://github.com/vilas897"
     },
     {
-      "email": "mailto:kaushikskalmady@gmail.com",
+      "email": "kaushikskalmady@gmail.com",
       "name": "Kaushik S Kalmady",
       "sig": "Compsoc",
       "github": "github.com/kaushiksk"
     },
     {
-      "email": "mailto:pranay2098@gmail.com",
+      "email": "pranay2098@gmail.com",
       "name": "Pranay Praveen Nagrani",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:mkarthik2597@gmail.com",
+      "email": "mkarthik2597@gmail.com",
       "name": "Karthik M",
       "sig": "Compsoc",
       "github": ""
     },
     {
-      "email": "mailto:prajwalb9897@gmail.com",
+      "email": "prajwalb9897@gmail.com",
       "name": "Prajwal B Bharadwaj",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:swathibhat282@gmail.com",
+      "email": "swathibhat282@gmail.com",
       "name": "Swathi S Bhat",
       "sig": "Compsoc",
       "github": "https://github.com/SwathiSBhat"
     },
     {
-      "email": "mailto:sagarbharadwaj50@gmail.com",
+      "email": "sagarbharadwaj50@gmail.com",
       "name": "Sagar Bharadwaj KS",
       "sig": "Compsoc",
       "github": ""
     },
     {
-      "email": "mailto:01amalns@gmail.com",
+      "email": "01amalns@gmail.com",
       "name": "Amal Saji",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:praful.itti@gmail.com",
+      "email": "praful.itti@gmail.com",
       "name": "Praful Itti",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:s.sriram.1997@ieee.org",
+      "email": "s.sriram.1997@ieee.org",
       "name": "S M SRIRAM",
       "sig": "Piston",
       "github": ""
     },
     {
-      "email": "mailto:in.rakshith.g@gmail.com",
+      "email": "in.rakshith.g@gmail.com",
       "name": "Rakshith G",
       "sig": "Compsoc",
       "github": "http://github.com/hehaichi"
     },
     {
-      "email": "mailto:vighneshvelayudhan@gmail.com",
+      "email": "vighneshvelayudhan@gmail.com",
       "name": "Vighnesh V",
       "sig": "Compsoc",
       "github": "github.com/viggi-v"
     },
     {
-      "email": "mailto:krishnanarvind100@gmail.com",
+      "email": "krishnanarvind100@gmail.com",
       "name": "Arvind Sai K",
       "sig": "Compsoc",
       "github": "https://github.com/arvindsaik"
     },
     {
-      "email": "mailto:snganeshn19@gmail.com",
+      "email": "snganeshn19@gmail.com",
       "name": "Shriganesh N",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": ""
     },
     {
-      "email": "mailto:kanchodusandesh@gmail.com",
+      "email": "kanchodusandesh@gmail.com",
       "name": "Sandesh Kanchodu",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": ""
     },
     {
-      "email": "mailto:hansalshah1998@gmail.com",
+      "email": "hansalshah1998@gmail.com",
       "name": "Hansal Shah",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/hansalshah"
     },
     {
-      "email": "mailto:harini.25697@gmail.com",
+      "email": "harini.25697@gmail.com",
       "name": "Harini S",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/"
     },
     {
-      "email": "mailto:mittu97@gmail.com",
+      "email": "mittu97@gmail.com",
       "name": "Shwetha SV",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/"
     },
     {
-      "email": "mailto:vasista1997@gmail.com",
+      "email": "vasista1997@gmail.com",
       "name": "Vasista Ayyagari",
       "sig": "Piston",
       "github": "https://github.com/"
     },
     {
-      "email": "mailto:trmittal24@gmail.com",
+      "email": "trmittal24@gmail.com",
       "name": "Tarun Mittal",
-      "sig": "CAS/SPS",
+      "sig": "Diode",
       "github": "https://github.com/trmittal24"
     }
   ]

@@ -1,0 +1,82 @@
+@-webkit-keyframes blurIn {
+    0% {
+        color: rgba(255, 255, 255, 0)
+    }
+    25% {
+        color: rgba(255, 255, 255, 1)
+    }
+    75% {
+        color: rgba(255, 255, 255, 1)
+    }
+    100% {
+        color: rgba(255, 255, 255, 0)
+    }
+  }
+  
+  
+  /* Standard syntax */
+  
+  @keyframes blurIn {
+    0% {
+        color: rgba(255, 255, 255, 0)
+    }
+    25% {
+        color: rgba(255, 255, 255, 1)
+    }
+    75% {
+        color: rgba(255, 255, 255, 1)
+    }
+    100% {
+        color: rgba(255, 255, 255, 0)
+    }
+  }
+  
+  .effect_char {
+    font-size: 12vh;
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(255, 255, 255, 0);
+    animation-name: blurIn;
+    animation-duration: 2s;
+  }
+  
+  #text_effect {
+    margin-top: 28vh !important;
+  }
+
+  .counter-particles {
+      height: 468px !important;
+      position: absolute !important;
+      width: 100vw !important;
+  }
+
+  @media screen and (max-width: 800px) {
+    .counter-particles {
+        height: 1016px !important;
+    }
+    .flex-container {
+      flex-direction: column;
+    }
+    #cas_logo {
+      margin: auto;
+      display: block;
+    }
+    #events-div {
+      margin-left: 3%;
+    }
+  }
+  
+  i {
+    cursor: pointer;
+  }
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0; 
+  }

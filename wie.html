@@ -1,13 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-
-		<!-- Give a small description in 3-4 sentences about the website -->
+    <head>
+        <!-- Give a small description in 3-4 sentences about the website -->
 		<meta name="description" content="IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section. IEEE NITK undertakes lots of projects by its various SIGs which are formed and projects undertaken by students are futher applied to help solve daily world problems.">
 		<!-- A small abstract idea about the website -->
-		<meta name="abstract" content="This Website is about IEEE NITK Student Chapter">
+		<meta name="abstract" content="This Website is about IEEE NITK Student Chapter's WiE SIG">
 		<!-- Important Keywords to be noted in the website  -->
-		<meta name="keywords" content="IEEE, IEEE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
+		<meta name="keywords" content="IEEE, IEEE NITK, WiE NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
 		<!-- Tell the spider to index the first page and other pages as well-->
 		<meta name="robots" content="index, follow">    
 		<!-- How often should spiders come back to your page -->
@@ -41,110 +40,306 @@
 		<!-- Fixing viewport on mobile views -->
 		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
 
-		<title>WiE | IEEE NITK</title>    
+        <!-- Default Image present -->
+        <meta property="og:image" content="res/img/logo.png">
 
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Prociono">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-		<link rel="stylesheet" href="res/sig.css">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!-- Page Title -->
+        <title>WiE | IEEE NITK</title>
+        
+        <!-- Linked Sheets needed -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="res/css/icomoon.css">
+        <link rel="stylesheet" href="res/css/animate.css">
+        <link rel="stylesheet" href="res/css/bootstrap.css">
+        <link rel="stylesheet" href="res/css/style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="js/sig.js"></script>
-		<script src="js/particles.js"></script>
-		<script src="js/slider.js"></script>
-        <script>
-        	$(document).ready(function(){
-        		loadAndDisplay("wie.json");
-        	});
-        </script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- Page Specific -->
+        <link rel="stylesheet" href="res/css/sig.css">
+
+        <!-- Linked Scripts needed -->
+        <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js" integrity="sha512-xq+0+dRhI6SZOh+lDnMJEju2p2YPINflJLcYrRAsIMaXnJi6/V3lppCMCYsB2MLeF2E93r+fVo0MioY90pNzpw==" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.js" integrity="sha512-W+fE2PngAaUn114foOtj7bJNDqrqANLKjGb6gyz159hoF1+NnEWRfgQtEpn3kCLjQlUQ/FAhTsmmqQNOx/RBOw==" crossorigin="anonymous"></script>
+
+        <!-- Preload -->
+        <link rel="preload" href="js/header.js" as="script">
+        <link rel="preload" href="js/particles.js" as="script">
+
+        <script src="js/header.js"></script>
+        <script src="js/sig.js"></script>
+        <script src="js/particles.js"></script>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 
-		  gtag('config', 'UA-106590424-3');
-		</script>
+          gtag('config', 'UA-106590424-3');
 
-		<!--Structured Data-->
-		<script type="application/ld+json">
-			{
-				"@context": "http://schema.org",
-				"@type": "Organization",
-				"description":"Women in Engineering SIG of IEEE NITK local chapter",
-				"url": "https://www.ieeenitk.org/wie.html",
-				"name": "WIE NITK",
-				"member": {
-					"@type": "Person",
-					"name": "Mohita Chowdhury",
-					"jobTitle":"Chair",
-					"email":"chowdhury.mohita@gmail.com"      
-				},
-				"parentOrganization":"IEEE NITK"
-				
-			}
-		</script>
-		<script src="js/header.js"></script>
-    <script>
-		$(document).ready(function () {
-			displayHeader();
-		});
-	</script>
-</head>
-	<body>
-		<!-- Header Loaded dynamically using the files 'header.json' and 'header.js' -->
-    <nav class="visible_nav" id="header">
-    </nav>
+          displayHeader();
+        </script>
+    </head>
+    <body>
+        <div class="colorlib-loader">
+            <div id="loader"></div>
+			<div id="loader"></div>
+			<div id="loader"></div>
+			<div id="loader"></div>
+			<div id="loader"></div>
+        </div>
+        <div id="page">
+            <!-- Navbar -->
+            <nav class="colorlib-nav" role="navigation">
+                <div class="top-menu">
+                    <div class="container">
+                        <div class="row" id="header"></div>
+                    </div>
+                </div>
+            </nav>
     
-		<div class="img_holder teco">
-            <div id="particles-js"></div>
-			
-			<div class="block_title">
-				<h2>Women in Engineering
-				</h2>
-			</div>
-		</div>
-		<div class="content">
+            <!-- Landing -->
+            <section id="home" class="video-hero" style="height: 500px; background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+                <div id="particles-js"></div>
+                <div class="display-t display-t2 text-center">
+                    <div class="display-tc display-tc2">
+                        <div class="container">
+                            <div class="row row-title">
+                                <div class="col-md-12 animate-box">
+                                    <h2 class="page-title">Women in Engineering</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo-box container">
+                            <div class="row">
+                                <div class="col-md-offset-5 col-md-2 col-sm-12 col-xs-12 animate-box">
+                                    <a href="https://wie.ieee.org/" target="_blank">
+                                        <img src="res/img/logos/wie.png" class="sig-img" alt="WiE Logo">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-		<div class="data_holder  prociono">
-			<div class="intro">
-				<div class="sub_title">
-					<h3>
-					About us
-					</h3>
-				</div>
-				<p class="sans">
-				The IEEE NITK WIE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator. Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.
-				</p>
-			</div>
-			<div class="sub_title prociono">
-				<h3>Events</h3>
-				<div class="event">
-					<h4>Athena - Women's Hackathon
-					<center><br><img style="max-width:15vw" src="res/img/athena.jpg" alt="athena"></center>
-					</h4>
-					<p class="sans">
-							A 24 hour hackathon was organized for the girl students of NITK under IEEE WiE Affinity Group NITK in association with Web Enthusiasts Club, NITK. The applications developed were all based on a given topic and they were judged by invited professors on the following day and winners were rewarded.
-					</p>
-					<p>
-						<br>
-						<img class="athena-images" src="res/img/athena1.jpg" alt="athena1">
-						<img class="athena-images" src="res/img/athena3.jpg" alt="athena3">
-						<br>
-						<img class="athena-images" src="res/img/athena2.jpg" alt="athena2">
-						<img class="athena-images" src="res/img/athena4.jpg" alt="athena4">
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="sidebar">
-                <h4>Chapter Registration Code</h3>
-                    <p id="sans">SBA65481</p>
+            <!-- About Us -->
+            <div class="colorlib-intro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                            <h2>About Us</h2>
+                            <p>
+                                The Women in Engineering affinity group of IEEE NITK aims to increase 
+                                inclusivity and acceptance in tech on campus. We coordinate events and 
+                                mentorship programs to inspire our colleagues and other women and girls 
+                                to pursue a career in engineering. It is a professional organisation dedicated to promoting 
+                                technical interests among women engineers and scientists. It was launched 
+                                on February 18th 2009 by Prof. Marimuthu, the R10 WiE Coordinator. Our mission 
+                                is to inspire, engage, encourage, and empower IEEE women student members 
+                                and facilitate the recruitment and retention of women in technical disciplines globally.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Events -->
+            <div class="projects-block colorlib-bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                            <h2 style="margin-top: 40px;">Events</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                            <h3><strong>Around Her World in 10 Ways - 2020</strong></h3>
+                            <div class="col-md-6 col-md-offset-3">
+                                <img class="athena-images work-img" src="res/img/wie/ahwiew_main.png" alt="Around Her World in 10 Ways">
+                            </div>
+                            <p class="col-md-12 col-sm-12 col-xs-12">
+                                This academic year, WiE NITK organised a talk series with prolific 
+                                speakers from across the technological spectrum, called "Around Her World in 10 Ways". 
+                                We had ten amazing accomplished women from all over the globe talking about their 
+                                journey in tech and their work. The talk series was truly inspiring. It was 
+                                attended by around 200 students from NITK and received good feedback from 
+                                most of the audience it attracted.
+                            </p>
+                            <p class="col-md-12 col-sm-12 col-xs-12">
+                                <a href="https://youtube.com/playlist?list=PLiKieHRurqObnfmWQzIKH1OYfFyFsBinn" class="btn btn-primary btn-outline with-arrow" target="_blank">Watch on YouTube <i class="fa fa-youtube-play"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 animate-box">
+                            <img class="athena-images animate-box" src="res/img/wie/ahwiew_1.jpg" alt="AHWITW1">
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <img class="athena-images animate-box" src="res/img/wie/ahwiew_2.jpg" alt="AHWITW2">
+                        </div>
+                        <div class="col-md-6 col-md-offset-3 animate-box">
+                            <img class="athena-images animate-box" src="res/img/wie/ahwiew_3.jpg" alt="AHWITW3">
+                        </div>
+                    </div>
+                    <div class="row event-head">
+                        <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                            <h3><strong>REFLECT - 2019</strong></h3>
+                            <p class="col-md-12 col-sm-12 col-xs-12">
+                                REFLECT was a week-long program organized by the WiE Affinity Group from 25th October to
+                                1st November 2019, to help to enhance the professional skills of women in NITK. The program
+                                aimed to ensure that each participant was aware of various opportunities available by learning
+                                how to discover and leverage them as well to improve their professional profile. The
+                                participants were also asked to reflect on their short term and long term goals to help
+                                understand the direction they would want to follow. The activities included writing professional
+                                emails, understanding long-term, and short-term goals as well as creating a vision board.
+                                Certificates and goodies were given to all the participants who completed all the activities of the
+                                program.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1 animate-box">
+                            <img class="athena-images animate-box" src="res/img/wie/reflect1.jpg" alt="REFLECT1">
+                        </div>
+                        <div class="col-md-5 animate-box">
+                            <img class="athena-images animate-box" src="res/img/wie/reflect2.jpg" alt="REFLECT2">
+                        </div>
+                        <div class="col-md-6 col-md-offset-3 animate-box">
+                            <img class="athena-images animate-box" src="res/img/wie/reflect3.jpg" alt="REFLECT3">
+                        </div>
+                    </div>
+                    <div class="row event-head">
+                        <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                            <h3><strong>Athena - Women's Hackathon - 2018</strong></h3>
+                            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                                <img class="athena-images work-img" src="res/img/wie/athena.jpg" alt="athena">
+                            </div>
+                            <p class="col-md-12 col-sm-12 col-xs-12">
+                                A 24 hour hackathon was organized for the girl students of NITK under IEEE WiE Affinity 
+                                Group NITK in association with Web Enthusiasts Club, NITK. The applications developed 
+                                were all based on a given topic and they were judged by invited professors on the following 
+                                day and winners were rewarded.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1 text-center">
+                            <img class="athena-images animate-box" src="res/img/wie/athena1.jpg" alt="athena1">
+                            <img class="athena-images animate-box" src="res/img/wie/athena3.jpg" alt="athena3">
+                        </div>
+                        <div class="col-md-5 text-center">
+                            <img class="athena-images animate-box" src="res/img/wie/athena2.jpg" alt="athena2">
+                            <img class="athena-images animate-box" src="res/img/wie/athena4.jpg" alt="athena4">
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-		</div>
-	</div>
-
-	</body>
+            <!-- Footer -->
+            <footer id="colorlib-footer">
+                <div class="container">
+                    <div class="row footer-row">
+                        <div class="col-md-3 colorlib-widget">
+                            <h4>About IEEE</h4>
+                            <p>A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated 
+                                to advancing technology for the benefit of humanity.
+                            </p>
+                            <p>
+                                <img src="res/img/ieee_white.png" class="footer-logo" alt="IEEE">
+                                <img src="res/img/ieee_nitk_white.png" class="footer-logo" alt="IEEE-NITK">
+                            </p>
+                        </div>
+                        <div class="col-md-3 colorlib-widget">
+                            <h4 class="secondary">Information</h4>
+                            <p>
+                                <ul class="colorlib-footer-links">
+                                    <li><a href="/"><i class="fa fa-check"></i> Home</a></li>
+                                    <li><a href="team.html"><i class="fa fa-check"></i> Team</a></li>
+                                    <li><a href="https://ieee.nitk.ac.in/blog/"><i class="fa fa-check"></i> Blog</a></li>
+                                    <li><a href="https://ieee.nitk.ac.in/gyan/"><i class="fa fa-check"></i> Gyan</a></li>
+                                    <li><a href="achieve.html"><i class="fa fa-check"></i> Achievements</a></li>
+                                    <li><a href="publications.html"><i class="fa fa-check"></i> Publications</a></li>
+                                    <li><a href="joinus.html"><i class="fa fa-check"></i> Join Us</a></li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="col-md-3 colorlib-widget">
+                            <h4 class="secondary">SIGs</h4>
+                            <div class="f-blog">
+                                <div class="desc">
+                                    <h2><a href="compsoc.html"><i class="fa fa-laptop"></i> &nbsp; Compsoc</a></h2>
+                                </div>
+                            </div>
+                            <div class="f-blog">
+                                <div class="desc">
+                                    <h2><a href="diode.html"><i class="fa fa-plug"></i> &nbsp; Diode</a></h2>
+                                </div>
+                            </div>
+                            <div class="f-blog">
+                                <div class="desc">
+                                    <h2><a href="piston.html"><i class="fa fa-cogs"></i> &nbsp; Piston</a></h2>
+                                </div>
+                            </div>
+                            <br>
+                            <h4 class="secondary">Affinity Groups</h4>
+                            <div class="f-blog">
+                                <div class="desc">
+                                    <h2><a href="wie.html"><i class="fa fa-female"></i> &nbsp; Women in Engineering</a></h2>
+                                </div>
+                            </div>
+                            <div class="f-blog">
+                                <div class="desc">
+                                    <h2><a href="sight.html"><i class="fa fa-users"></i> &nbsp; SIGHT</a></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 colorlib-widget">
+                            <h4 class="secondary">Contact Info</h4>
+                            <ul class="colorlib-footer-links">
+                                <li><strong>NITK Surathkal</strong><br>NH 66, Srinivasnagar<br>Surathkal, Mangalore<br>Karnataka 575025</li>
+                                <li><a href="mailto:ieee@nitk.edu.in" target="_blank"><i class="fa fa-envelope"></i>ieee@nitk.edu.in</a></li>
+                            </ul>
+                            <p>
+                                <ul class="colorlib-social-icons">
+                                    <li><a href="https://github.com/IEEE-NITK" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://www.instagram.com/ieee_nitk" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://twitter.com/IEEE_NITK" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://facebook.com/IEEENITK" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/ieee-nitk-surathkal" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+                                    <li><a href="/sitemap-main.xml" target="_blank"><i class="fa fa-rss" target="_blank"></i></a></li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                            <p>
+                                Copyright &copy;<script data-cfasync="false" src="https://www.ieee.org"></script>
+                                <script>document.write(new Date().getFullYear());</script>
+                                 All rights reserved | Made with <i class="fa fa-heart" aria-hidden="true"></i> 
+                                 by IEEE-NITK and <a href="https://colorlib.com" target="_blank" class="copyright-link">Colorlib</a>
+                                <br>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="gototop js-top">
+            <a href="" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+        </div>
+        <script src="js/main.js"></script> 
+    </body>
 </html>
