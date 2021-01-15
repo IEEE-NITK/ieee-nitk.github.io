@@ -46,7 +46,6 @@
   .counter-particles {
       height: 468px !important;
       position: absolute !important;
-      width: 100vw !important;
   }
 
   @media screen and (max-width: 800px) {
