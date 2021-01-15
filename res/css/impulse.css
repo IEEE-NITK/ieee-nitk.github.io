@@ -1031,7 +1031,7 @@ body {
     color: #ccc;
   }
   
-  @media (min-width: 769px) {
+  @media (min-width: 800px) {
     #call-to-action .cta-btn-container {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1060,7 +1060,7 @@ body {
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     .back-to-top {
       bottom: 15px;
     }
@@ -1094,5 +1094,19 @@ body {
   
     #about .about-container .title {
       padding-top: 15px;
+    }
+  }
+
+  .img-fluid {
+    max-width:76%;
+  }
+
+  @media (max-width: 800px) {
+    #first_speaker {
+      margin-bottom: 7%;
+    }
+
+    .img-fluid {
+      max-width:85%;
     }
   }
