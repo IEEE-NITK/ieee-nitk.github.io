@@ -2070,6 +2070,10 @@ div#particles-js {
   }
 }
 
+li.dropdown-nav {
+  position: relative;
+}
+
 .colorlib-loader {
   position: fixed;
   top: 0px;

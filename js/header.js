@@ -15,7 +15,7 @@ function displayHeader() {
                 }
                 else{
                     if(result[i].name == "Affinity Groups") {
-                        htmlStr += '<li>\
+                        htmlStr += '<li class="dropdown-nav">\
                             <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Affinity Groups</a>\
                             <ul class="dropdown dropdown-menu">';
                         for(var j=0; j<result[i].groups.length;j++){
@@ -24,7 +24,7 @@ function displayHeader() {
                         htmlStr += '</ul></li>';
                     }
                     else {
-                        htmlStr += '<li>\
+                        htmlStr += '<li class="dropdown-nav">\
                             <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SIGs</a>\
                             <ul class="dropdown dropdown-menu">';
                         for(var j=0; j<result[i].sigs.length;j++){
