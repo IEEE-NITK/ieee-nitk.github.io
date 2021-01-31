@@ -43,5 +43,10 @@ function displayHeader() {
 $(document).ready(function () {
     particlesJS.load('particles-js', 'particlesjs-config.json', function () {
     });
+    
+    $(".dropdown-nav").hover(
+        function(){ $(this).addClass('open') },
+        function(){ $(this).removeClass('open') }
+    );
 });
 
