@@ -3349,3 +3349,19 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+@keyframes growDown {
+  0% {
+      opacity: 0;
+      transform: scaleY(0)
+  }
+  100% {
+      opacity: 1;
+      transform: scaleY(1)
+  }
+}
+
+.dropdown-menu {
+  animation: growDown 200ms ease-in-out forwards;
+  transform-origin: top center;
+}
