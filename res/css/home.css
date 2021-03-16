@@ -46,9 +46,10 @@
   .counter-particles {
       height: 468px !important;
       position: absolute !important;
+      width: 100% !important;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .counter-particles {
         height: 1016px !important;
     }
@@ -59,8 +60,13 @@
       margin: auto;
       display: block;
     }
-    #events-div {
-      margin-left: 3%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .sig-img {
+      max-width: 50%;
+      margin: auto;
+      display: block;
     }
   }
   
