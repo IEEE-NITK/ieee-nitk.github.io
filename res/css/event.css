@@ -25,11 +25,35 @@
     margin: 0 !important;
 }
 
+.event-card .event-expand {
+    float: right;
+    width: 7%;
+    text-align: right;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+@media only screen and (max-width: 280px) {
+    .event-card {
+        height: 15rem;
+    }
+    .event-card .event-expand {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .event-card .event-content {
-        width: 70%;
+        width: 60%;
     }
     .event-card {
         margin: 20px 10px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .event-card .event-expand {
+        display: none;
     }
 }

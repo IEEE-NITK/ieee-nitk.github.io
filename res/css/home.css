@@ -38,6 +38,12 @@
     animation-name: blurIn;
     animation-duration: 2s;
   }
+
+  @media only screen and (max-width: 450px) {
+    .effect_char {
+      font-size: 10vh;
+    }
+  }
   
   #text_effect {
     margin-top: 28vh !important;
@@ -79,9 +85,12 @@
   }
   
   .flex-container > div {
-    margin: 10px;
     padding: 20px;
     flex-basis: 20%;
     flex-grow: 0;
     flex-shrink: 0; 
+  }
+
+  .logo-box {
+    text-align: center;
   }
