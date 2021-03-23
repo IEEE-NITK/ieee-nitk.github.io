@@ -38,6 +38,12 @@
     animation-name: blurIn;
     animation-duration: 2s;
   }
+
+  @media only screen and (max-width: 450px) {
+    .effect_char {
+      font-size: 10vh;
+    }
+  }
   
   #text_effect {
     margin-top: 28vh !important;
@@ -46,9 +52,10 @@
   .counter-particles {
       height: 468px !important;
       position: absolute !important;
+      width: 100% !important;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .counter-particles {
         height: 1016px !important;
     }
@@ -59,8 +66,13 @@
       margin: auto;
       display: block;
     }
-    #events-div {
-      margin-left: 3%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .sig-img {
+      max-width: 50%;
+      margin: auto;
+      display: block;
     }
   }
   
@@ -73,9 +85,12 @@
   }
   
   .flex-container > div {
-    margin: 10px;
     padding: 20px;
     flex-basis: 20%;
     flex-grow: 0;
     flex-shrink: 0; 
+  }
+
+  .logo-box {
+    text-align: center;
   }
