@@ -54,7 +54,20 @@
 		"link": "publications.html"
     },
     {
-		"name": "Embedathon",
-		"link": "embedathon.html"
+		"name": "Virtual Expo",
+		"groups": [
+		{
+			"name": "CompSoc",
+			"link": "virtual-expo/compsoc/"
+		},
+		{
+			"name": "Diode",
+			"link": "virtual-expo/diode/"
+		},
+		{
+			"name": "Piston",
+			"link": "virtual-expo/piston/"
+		}
+		]
     }
 ]    

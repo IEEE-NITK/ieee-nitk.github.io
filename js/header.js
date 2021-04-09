@@ -9,14 +9,14 @@ function displayHeader() {
             </div>\
             <div class="col-md-10 text-right menu-1"><ul>';;
             for (var i = 0; i < result.length; i++) {
-                if (result[i].name!="SIGs" && result[i].name!="Affinity Groups"){
+                if (result[i].name!="SIGs" && result[i].name!="Affinity Groups" && result[i].name!="Virtual Expo"){
                     htmlStr += '<li>\
                     <a href="' + result[i].link + '">' + result[i].name + '</a></li>';
                 }
                 else{
-                    if(result[i].name == "Affinity Groups") {
+                    if(result[i].name === "Affinity Groups" || result[i].name === "Virtual Expo") {
                         htmlStr += '<li class="dropdown-nav">\
-                            <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Affinity Groups</a>\
+                            <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+result[i].name+'</a>\
                             <ul class="dropdown dropdown-menu">';
                         for(var j=0; j<result[i].groups.length;j++){
                             htmlStr += '<li class="dropdown-item"><a href="' + result[i].groups[j].link + '">' + result[i].groups[j].name + '</a></li>';
