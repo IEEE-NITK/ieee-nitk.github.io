@@ -24,3 +24,20 @@
 hr {
     border: 2px solid #499bea;
 }
+
+.no-tablet {
+    display: none;
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .no-tablet {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .no-tablet {
+        display: none;
+    }
+}
