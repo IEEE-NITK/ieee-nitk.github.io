@@ -67,6 +67,10 @@
 		{
 			"name": "Piston",
 			"link": "virtual-expo/piston/"
+    },
+    {
+			"name": "Envision",
+			"link": "virtual-expo/envision/"
 		}
 		]
     }
