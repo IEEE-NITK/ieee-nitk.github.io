@@ -996,7 +996,7 @@ input[type=search] {
   display: block;
   font-weight: 300;
 }
-article {
+/* article {
   background: #fff;
   padding: 35px;
   margin-bottom: 40px;
@@ -1007,27 +1007,90 @@ article {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
-}
+} */
 .colorlib-blog > .container > .row > .col-md-4:nth-child(3n + 1) {
   clear: left;
 }
-article h2 {
+
+.card {
+  background-color: #fff;
+  padding: 0;
+  margin: 20px;
+  
+  transition: .5s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  .card-deck {
+    flex-direction: column;
+  }
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-title {
+  padding: 20px 35px;
+  text-align: center;
+}
+
+.card .card-title h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card .card-title a {
+  color: #1a1a1a;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card .card-image img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .card-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.card .card-links a,
+.card .card-links button {
+  flex: 1;
+  margin: 1rem auto;
+  width: 50%;
+}
+
+.card h2 {
   font-weight: 400;
   margin-bottom: 15px;
-  word-break: break-all;
 }
-article h2 a {
+.card h2 a {
   color: #303133;
 }
-article .admin span {
+.card h2 a:hover {
+  color: rgb(0, 86, 167);
+}
+.card .admin span {
   font-size: 12px;
   color: #303133;
 }
-article p.author-wrap {
+.card p.author-wrap {
   position: relative;
-  margin-top: 30px;
 }
-article p.author-wrap .author-img {
+.card p.author-wrap .author-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -1039,10 +1102,10 @@ article p.author-wrap .author-img {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-article p.author-wrap .author-img img{
+.card p.author-wrap .author-img img{
   border-radius: 50%;
 }
-article p.author-wrap .author {
+.card p.author-wrap .author {
   padding-left: 40px;
   color: #303133;
   font-size: 12px;
@@ -1215,14 +1278,12 @@ article p.author-wrap .author {
   margin: 0 !important;
 }
 .pagination li {
-  margin: 2px;
+  margin: 2px 0;
 }
 .pagination li a {
   color: #000;
   background: #fff;
-  color: #000;
-  border: 1px solid #e6e6e6;
-  margin: 2px;
+  margin: 2px 0;
 }
 .pagination li a:first-child {
   border: 1px solid #e6e6e6;
@@ -1232,13 +1293,22 @@ article p.author-wrap .author {
   border-radius: 2px;
 }
 .pagination li a:hover, .pagination li a:focus {
-  background: rgb(0, 86, 167);
+  background: #499bea;
   color: #fff;
-  border: 1px solid rgb(0, 86, 167);
+  border: 1px solid #499bea;
 }
 @media screen and (max-width: 768px) {
   .pagination li a {
     padding: 7px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-no-screen {
+    display: none;
+  }
+  .page-no-screen a {
+    display: none !important;
   }
 }
 .pagination li.active a {
@@ -1747,6 +1817,11 @@ input[type="text"] {
     display: block;
   }
 }
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
@@ -2215,3 +2290,49 @@ li.dropdown-nav {
       opacity:0
   }
 }
+
+.nav-pills-custom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-pills-custom > li > a {
+  padding: 10px 15px;
+}
+
+.nav-pills-custom > li {
+  display: block;
+}
+
+.nav-pills-custom li:first-child {
+  border-radius: 30px 0 0 30px;
+}
+
+.nav-pills-custom li:last-child {
+  border-radius: 0 30px 30px 0;
+}
+
+.nav-item-custom {
+  background: transparent !important;
+  color: rgb(0, 86, 167);
+  border: 1px solid rgb(0, 86, 167);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav-item-custom.active,
+.nav-item-custom:focus,
+.nav-item-custom:active,
+.nav-item-custom:hover {
+  background: rgb(0, 86, 167) !important;
+  color: #fff !important;
+}
+
+.nav-item-custom.active > a,
+.nav-item-custom:focus > a,
+.nav-item-custom:active > a,
+.nav-item-custom:hover > a {
+  color: #fff !important;
+}
+
