@@ -85,8 +85,8 @@
   }
   
   .flex-container > div {
-    padding: 20px;
-    flex-basis: 20%;
+    padding: 30px 80px;
+    flex-basis: 33.333333%;
     flex-grow: 0;
     flex-shrink: 0; 
   }
