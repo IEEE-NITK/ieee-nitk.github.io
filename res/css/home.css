@@ -82,6 +82,7 @@
   .flex-container {
     display: flex;
     align-items: stretch;
+    justify-content: center;
   }
   
   .flex-container > div {
