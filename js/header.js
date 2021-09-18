@@ -9,12 +9,12 @@ function displayHeader() {
             </div>\
             <div class="col-md-10 text-right menu-1"><ul>';;
             for (var i = 0; i < result.length; i++) {
-                if (result[i].name!="SIGs" && result[i].name!="Affinity Groups" && result[i].name!="Virtual Expo"){
+                if (result[i].name!="SIGs" && result[i].name!="Affinity Groups" && result[i].name!="Virtual Expo" && result[i].name!="Achievements"){
                     htmlStr += '<li>\
                     <a href="' + result[i].link + '">' + result[i].name + '</a></li>';
                 }
                 else{
-                    if(result[i].name === "Affinity Groups" || result[i].name === "Virtual Expo") {
+                    if(result[i].name === "Affinity Groups" || result[i].name === "Virtual Expo" || result[i].name === "Achievements") {
                         htmlStr += '<li class="dropdown-nav">\
                             <a class="nav-link dropdown-toggle has-dropdown" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+result[i].name+'</a>\
                             <ul class="dropdown dropdown-menu">';

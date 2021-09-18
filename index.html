@@ -55,7 +55,7 @@
     <link rel="stylesheet" href="res/css/icomoon.css">
     <link rel="stylesheet" href="res/css/animate.css">
     <link rel="stylesheet" href="res/css/bootstrap.css">
-    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="stylesheet" href="res/css/style.css?version=13230018092021">
     <link rel="stylesheet" href="res/css/event.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
@@ -65,7 +65,7 @@
     <link rel="preload" href="js/events.js" as="script">
 
     <!-- Page sepcific -->
-    <link rel="stylesheet" href="res/css/home.css">
+    <link rel="stylesheet" href="res/css/home.css?version=13230018092021">
     
     <!-- Linked Scripts needed -->
     <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
@@ -75,7 +75,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.js" integrity="sha512-W+fE2PngAaUn114foOtj7bJNDqrqANLKjGb6gyz159hoF1+NnEWRfgQtEpn3kCLjQlUQ/FAhTsmmqQNOx/RBOw==" crossorigin="anonymous"></script>
 
-    <script src="js/header.js"></script>
+    <script src="js/header.js?version=13230018092021"></script>
     <script src="js/slider.js"></script>
     <script src="js/events.js"></script>
     <script src="js/particles.js"></script>
@@ -112,7 +112,7 @@
         </nav>
 
         <!-- Landing -->
-        <section id="home" style="height: 100vh; background-image: url(/res/img/landing.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+        <section id="home" style="height: 100vh; background-image: url(/res/img/landing-min.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
             <div class="display-t text-center">
                 <div class="display-tc">
                     <div class="container">
@@ -120,7 +120,7 @@
                             <div id="text_effect"></div>
                             <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo" width="250px"></a><br><br>
                             <div class="animate-box">
-                                <p><a href="https://ieee.nitk.ac.in/virtual-expo/envision/" class="btn btn-primary btn-lg btn-custom">Virtual Project Expo</a></p>
+                                <p><a href="/joinus.html" class="btn btn-primary btn-lg btn-custom">Join Us!</a></p>
                             </div>
                         </div>
                     </div>
@@ -225,6 +225,8 @@
                             </a>
                         </div>
                     </div>
+                </div>
+                <div class="flex-container row">
                     <div class="animate-box shadow-box">
                         <div class="logo-box">
                             <a href="https://ias.ieee.org/" target="_blank">
@@ -236,6 +238,13 @@
                         <div class="logo-box">
                             <a href="https://www.photonicssociety.org/" target="_blank">
                                 <img src="res/img/logos/photonics.png" class="sig-img" alt="Photonics Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="animate-box shadow-box">
+                        <div class="logo-box">
+                            <a href="https://www.ieee-ras.org/" target="_blank">
+                                <img src="res/img/logos/ras.png" class="sig-img" alt="| replace_first: 'target', 'replace' Logo">
                             </a>
                         </div>
                     </div>
@@ -253,7 +262,7 @@
                             <div class="counter-entry">
                                 <span class="icon"><i class="fa fa-users"></i></span>
                                 <div class="desc">
-                                    <span class="colorlib-counter js-counter" data-from="0" data-to="158" data-speed="2000" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter js-counter" data-from="0" data-to="108" data-speed="2000" data-refresh-interval="50"></span>
                                     <span class="colorlib-counter-label">Members</span>
                                 </div>
                             </div>
@@ -262,17 +271,17 @@
                             <div class="counter-entry">
                                 <span class="icon"><i class="fa fa-graduation-cap"></i></span>
                                 <div class="desc">
-                                    <span class="colorlib-counter js-counter" data-from="0" data-to="97" data-speed="2000" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter js-counter" data-from="0" data-to="146" data-speed="2000" data-refresh-interval="50"></span>
                                     <span class="colorlib-counter-label">Alumni</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 text-center animate-box">
                             <div class="counter-entry">
-                                <span class="icon"><i class="fa fa-tasks"></i></span>
+                                <span class="icon"><i class="fa fa-book"></i></span>
                                 <div class="desc">
-                                    <span class="colorlib-counter js-counter" data-from="0" data-to="27" data-speed="2000" data-refresh-interval="50"></span>
-                                    <span class="colorlib-counter-label">Ongoing Projects</span>
+                                    <span class="colorlib-counter js-counter" data-from="0" data-to="22" data-speed="2000" data-refresh-interval="50"></span>
+                                    <span class="colorlib-counter-label">Publications</span>
                                 </div>
                             </div>
                         </div>
@@ -281,21 +290,42 @@
             </div>
         </div>
 
-        <!-- Events -->
-        <div class="colorlib-intro">
+        <!-- Join us -->
+        <!-- <div class="colorlib-intro">
             <div class="container" id="events-div">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
-                        <h2>Events</h2>
+                        <h2>Join us!</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="animate-box" id="events">
+                    <div class="col-md-6 text-center animate-box shadow-box">
+                        <div class="services">
+                            <span class="icon">
+                                <i class="fa fa-cogs"></i>
+                            </span>
+                            <div class="desc">
+                                <h3>Projects</h3>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center animate-box shadow-box">
+                        <div class="services">
+                            <span class="icon">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                            <div class="desc">
+                                <h3>Events</h3>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="event-modals"></div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Footer -->
         <footer id="colorlib-footer">

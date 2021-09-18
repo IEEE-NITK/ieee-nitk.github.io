@@ -1,59 +1,213 @@
 .event-card {
-    background-color: #fff;
-    margin: 10px;
-    padding: 5% 20px;
-    height: 10rem;
-    cursor: pointer;
+  background-color: #fff;
+  margin: 20px;
+  width: 33.3333% !important;
+  cursor: pointer;
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  float: left !important;
+  position: relative;
+}
+
+.card-image-slideshow {
+  position: relative;
+  margin: auto;
+}
+
+.event-image {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.imgFade {
+  -webkit-animation-name: imgFade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: imgFade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes imgFade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes imgFade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.event-image img {
+  height: 350px !important;
+  width: 100%;
+  object-fit: cover;
+}
+
+.event-card .card-title {
+  padding: 20px 35px 0px 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.event-card .card-links {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .event-card:hover {
-    -webkit-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
 }
 
 .event-card .event-content {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 80%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 80%;
 }
 
 .event-card .event-content p {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .event-card .event-expand {
-    float: right;
-    width: 7%;
-    text-align: right;
-    top: 50%;
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
+  float: right;
+  width: 7%;
+  text-align: right;
+  top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
 }
 
 @media only screen and (max-width: 280px) {
-    .event-card {
-        height: 15rem;
-    }
-    .event-card .event-expand {
-        display: none;
-    }
+  .event-card {
+    height: 15rem;
+  }
+  .event-card .event-expand {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .event-card .event-content {
-        width: 60%;
-    }
-    .event-card {
-        margin: 20px 10px;
-    }
+  .event-card .event-content {
+    width: 60%;
+  }
+  .event-card {
+    margin: 20px 20px 20px 0px;
+  }
 }
 
-@media only screen and (min-width: 991px) {
-    .event-card .event-expand {
-        display: none;
-    }
+@media only screen and (max-width: 986px) {
+  .event-card {
+    display: block !important;
+    width: 100% !important;
+  }
+  .event-card-deck {
+    display: block !important;
+    flex: none;
+  }
+}
+
+.event-card-deck {
+  display: flex;
+  width: 100% !important;
+}
+
+/* .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 700;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header #close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+} */
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
 }

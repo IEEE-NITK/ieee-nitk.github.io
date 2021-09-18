@@ -38,6 +38,10 @@
         ]
     },
     {
+      "name": "Events",
+      "link": "events.html"
+    },
+    {
 		"name": "Blog",
 		"link": "blog/"
     },
@@ -46,12 +50,17 @@
 		"link": "gyan/"
     },
     {
-		"name": "Achievements",
-		"link": "achieve.html"
-    },
-    {
-		"name": "Publications",
-		"link": "publications.html"
+      "name": "Achievements",
+      "groups": [
+        {
+          "name": "Awards",
+          "link": "achieve.html"
+        },
+        {
+          "name": "Publications",
+          "link": "publications.html"
+        }
+      ]
     },
     {
 		"name": "Virtual Expo",
