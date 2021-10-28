@@ -92,6 +92,20 @@
 
             displayHeader();
         </script>
+
+        <style>
+            @media only screen and (min-width: 992px) {
+                .wie-event-2021-top {
+                    margin-bottom: 15px;
+                }
+                .wie-event-2021-bottom {
+                    margin-top: 15px;
+                }
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
 </head>
 <body>
     <div class="colorlib-loader">
@@ -120,13 +134,50 @@
                             <div id="text_effect"></div>
                             <a href ="https://www.ieee.org/"><img src="res/img/ieee_white.png" alt="IEEE Logo" width="250px"></a><br><br>
                             <div class="animate-box">
-                                <p><a href="/joinus.html" class="btn btn-primary btn-lg btn-custom">Join Us!</a></p>
+                                <p>
+                                    <a class="btn btn-primary btn-lg btn-custom" href="#wie-workshops">
+                                        Workshops
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <div class="modal fade" id="event-modal-wie" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLongTitle">Workshop On Recent Cutting Edge Technologies In Computing</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Date: </strong>29th October 2021 - 02nd November 2021 <br>
+                        <strong>SIG: </strong>WiE and CompSoc<br>
+                        Join us in this one week workshop on Advances in Computer Science that brings together global experts and researchers and highlights novel contributions along with various challenges in the domain of Computer Science. The workshop is being organized by CompSoc and WiE. Talk Schedule:
+                        <ol>
+                            <li>October 29, 2021 - <strong>Mobile Sensing at Scale</strong> by Prasant Misra</li>
+                            <li>October 30, 2021 - <strong>Blockchain: Myth vs Reality</strong> by Sandip Chakraborty</li>
+                            <li>October 31, 2021 - <strong>Security Challenges in Cloud Computing</strong> by Rajesh P. Barnwal</li>
+                            <li>November 1, 2021 - <strong>5G</strong> by Dr. Debasis Das</li>
+                            <li>November 2, 2021 - <strong>Quantum Computing</strong> by Dr. Aswath Babu</li>
+                        </ol>
+                        For more details, contact: 
+                        <ul>
+                            <li>Jason : +91 99013 14292</li>
+                            <li>Sravani: +91 86888 06986</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- About IEEE -->
         <div class="colorlib-intro colorlib-bg-white">
@@ -290,42 +341,42 @@
             </div>
         </div>
 
-        <!-- Join us -->
-        <!-- <div class="colorlib-intro">
-            <div class="container" id="events-div">
+        <!-- Upcoming Events -->
+        <div class="colorlib-intro" id="wie-workshops">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
-                        <h2>Join us!</h2>
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading">
+                        <h2>Workshop On Recent Cutting Edge Technologies In Computing</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 text-center animate-box shadow-box">
-                        <div class="services">
-                            <span class="icon">
-                                <i class="fa fa-cogs"></i>
-                            </span>
-                            <div class="desc">
-                                <h3>Projects</h3>
-                                <p>
-                                </p>
-                            </div>
-                        </div>
+                <div class="row wie-event-2021-top">
+                    <div class="col-md-4 text-center animate-box">
+                        <img style="margin: 2px;" src="/res/img/events/wie-workshop-oct-29.jpeg" alt="img">
                     </div>
-                    <div class="col-md-6 text-center animate-box shadow-box">
-                        <div class="services">
-                            <span class="icon">
-                                <i class="fa fa-calendar"></i>
-                            </span>
-                            <div class="desc">
-                                <h3>Events</h3>
-                                <p>
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-md-4 text-center animate-box">
+                        <img style="margin: 2px;" src="/res/img/events/wie-workshop-oct-30.jpeg" alt="img">
+                    </div>
+                    <div class="col-md-4 text-center animate-box">
+                        <img style="margin: 2px;" src="/res/img/events/wie-workshop-oct-31.jpeg" alt="img">
+                    </div>
+                </div>
+                <div class="row wie-event-2021-bottom">
+                    <div class="col-md-4 col-md-offset-2 text-center animate-box">
+                        <img style="margin: 2px;" src="/res/img/events/wie-workshop-nov-1.jpeg" alt="img">
+                    </div>
+                    <div class="col-md-4 text-center animate-box">
+                        <img style="margin: 2px;" src="/res/img/events/wie-workshop-nov-2.jpeg" alt="img">
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="animate-box text-center">
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#event-modal-wie">
+                            <strong> Read More </strong>
+                        </button>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- Footer -->
         <footer id="colorlib-footer">
