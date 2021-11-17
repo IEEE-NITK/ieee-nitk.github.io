@@ -5,11 +5,11 @@ url: "https://ieee.nitk.ac.in" # the base hostname & protocol for your site e.g.
 baseurl: ""
 
 # User settings
-username: IEEE-NITK 
+username: IEEE-NITK
 user_description: IEEE Student chapter at NITK Surathkal
 description: The official website of IEEE NITK
 email: ieee@nitk.edu.in
-twitter_username: IEEE_NITK 
+twitter_username: IEEE_NITK
 github_username: IEEE-NITK
 facebook_username: IEEENITK
 
@@ -31,3 +31,6 @@ compress_html:
 exclude: ['package.json', 'src', 'node_modules']
 
 future: true
+
+sass:
+  style: compressed

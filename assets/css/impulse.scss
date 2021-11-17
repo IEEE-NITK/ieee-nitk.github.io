@@ -1,0 +1,231 @@
+---
+---
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    background: #fff;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  a {
+    color: #2b5cac;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: #2dca98;
+    outline: none;
+    text-decoration: none;
+  }
+
+  p {
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+
+  hr{
+    border: 1px solid black;
+    border-radius: 1px;
+  }
+
+
+  h2,
+  h3,
+  h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+  /* Prelaoder */
+
+  /* Back to top button */
+
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+
+  #header {
+    padding: 30px 0;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+
+  /* Nav Menu Essentials */
+
+  /* Nav Menu Arrows */
+
+  /* Nav Meu Container */
+
+  /* Nav Meu Styling */
+
+  /* Mobile Nav Toggle */
+
+  /* Mobile Nav Styling */
+
+  /* Mobile Nav body classes */
+
+  /*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/
+
+  /* Sections Header
+  --------------------------------*/
+  #logos{
+    background-color: rgb(128, 128, 128);
+  }
+
+  /* About Us Section
+  --------------------------------*/
+
+  #about {
+    background: #fff;
+    padding: 80px 0;
+  }
+
+  /* Facts Section
+  --------------------------------*/
+
+  /* Services Section
+  --------------------------------*/
+
+  #services {
+    background: #fff;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+  }
+
+  #services .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2b5cac;
+  }
+
+  #services .icon a {
+    display: inline-block;
+  }
+
+  #services .icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  #services .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  #services .title a {
+    color: #111;
+  }
+
+  #services .description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* Call To Action Section
+  --------------------------------*/
+
+  /* Portfolio Section
+  --------------------------------*/
+
+  /* Team Section
+  --------------------------------*/
+
+  #team {
+    background: #fff;
+    padding: 80px 0 60px 0;
+  }
+
+  /* Contact Section
+  --------------------------------*/
+
+  #contact {
+    text-align: center;
+
+    background: #f7f7f7;
+    padding: 20px 0 10px 0;
+  }
+
+  #contact .info {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+
+  #contact .info i {
+    font-size: 32px;
+    color: #2b5cac;
+    /* float: left; */
+  }
+
+
+  #contact .form .show {
+    display: block;
+  }
+
+  #contact .form input {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+
+  #footer {
+    background: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  #footer .copyright {
+    text-align: center;
+  }
