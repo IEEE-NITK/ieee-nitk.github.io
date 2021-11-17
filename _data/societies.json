@@ -1,0 +1,100 @@
+{
+    "Computer Society (Compsoc)" : {
+
+        "description" : "The IEEE NITK Computer Society Chapter intends to explore and contribute to the rapidly evolving world of computer technologies by carrying out research and projects in the broad domains of computer science in the form of three focus groups: Intelligence, Systems and Theoretical Computer Science",
+      
+        "image" : "/assets/img/logos/compsoc.png",
+
+        "alt" : "Computer Society",
+
+        "link" : "https://www.computer.org/"
+    },
+
+    "Industry Applications Society (IAS)" : {
+
+        "description" : "The IEEE IAS vision “to be a world leader in the advancement of technology and dissemination of technical information to support professionals engaged in the applications of electrical and electronic engineering to industry” has become possible with the professional connection of Industry Professionals in Electrical and Electronic Engineering.",
+
+        "image" : "/assets/img/logos/ias.png",
+
+        "alt" : "IAS",
+
+        "link" : "https://ias.ieee.org/"
+    },
+
+    "Geoscience and Remote Sensing Society (GRSS)" : {
+
+        "description" : "GRSS - The Geoscience and Remote Sensing Society (GRSS) is a technical Society of the  Institute of Electrical and Electronics Engineers (IEEE).  GRSS encourages its members to participate in science, engineering, applications, and education linked to the advancement of geoscience and remote sensing for the benefit of society.",
+
+        "image" : "/assets/img/logos/grss.png",
+
+        "alt" : "GRSS",
+
+        "link" : "https://grss-ieee.org/"
+    },
+
+    "Circuits and Systems Society (CASS)" : {
+
+        "description" : "The IEEE NITK Circuits and Systems Society Chapter focuses on areas around electrical and electronic circuits with applications in healthcare, industry appliances, home appliances and electronics systems research.",
+
+        "image" : "/assets/img/logos/cas.png",
+
+        "alt" : "CASS",
+
+        "link" : "https://ieee-cas.org/"
+    },
+
+    "Robotics and Automation Society (RAS)" : {
+
+        "description" : "The IEEE RAS Student Chapter focuses on the interdisciplinary nature of technology and engineering and strives to advance robotics and intelligent systems technology in various fields of biomedical engineering, security, industry and home automation through research and ingenuity.",
+
+        "image" : "/assets/img/logos/ras.png",
+
+        "alt" : "RAS",
+
+        "link" : "https://ieee-ras.org/"
+    },
+
+    "Signal Processing Society (SPS)" : {
+
+        "description" : "The IEEE NITK Signal Processing Society Chapter focuses projects and research in areas of signal processing and machine learning. Projects undertaken here are oriented towards healthcare and solutions to humanitarian needs.",
+
+        "image" : "/assets/img/logos/sps.png",
+
+        "alt" : "SPS",
+
+        "link" : "https://www.signalprocessingsociety.org/"
+    },
+
+    "Photonics Society" : {
+
+        "description" : "The IEEE Photonics Society forms the hub of a vibrant technical community dedicated to transforming breakthroughs in quantum physics into the devices, systems and products to revolutionize our daily lives. From ubiquitous and inexpensive global communications via fiber optics, to lasers for medical and other applications, to flat-screen displays, to photovoltaic devices for solar energy, to LEDs for energy-efficient illumination, there are myriad examples of the society’s impact on the world around us.",
+
+        "image" : "/assets/img/logos/photonics.png",
+
+        "alt" : "Photonics Society",
+
+        "link" : "https://www.photonicssociety.org/"
+    },
+
+    "SIGHT" : {
+
+        "description" : "IEEE Special Interest Group on Humanitarian Technology (SIGHT) provides IEEE members with the opportunity to work with a large network of volunteers around the world carrying out and/or supporting impactful humanitarian activities on the local level. IEEE SIGHT focuses on sustainable solutions that make a long-term difference in the lives of people. SIGHT operates through local volunteers and partners working with local communities.",
+
+        "image" : "/assets/img/logos/sight.png",
+
+        "alt" : "SIGHT",
+
+        "link" : "https://sight.ieee.org/"
+    },
+
+    "Women in Engineering" : {
+
+        "description" : "The IEEE NITK WIE is a professional organisation dedicated to promoting technical interests among women engineers and scientists. It was launched on February 18th 2009 by Prof Marimuthu, the R10 WIE Coordinator. Our mission is to inspire, engage, encourage, and empower IEEE women student members and facilitate the recruitment and retention of women in technical disciplines globally.",
+
+        "image" : "/assets/img/logos/wie.png",
+
+        "alt" : "Women in Engineering",
+
+        "link" : "https://wie.ieee.org/"
+    }
+}

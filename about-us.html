@@ -1,0 +1,121 @@
+---
+layout: default
+title: About Us
+css : /assets/css/about-us.css
+---
+<!-- TODO: Add Branch Counselor/Convener's Address (tentative) -->
+
+<!-- About IEEE -->
+<div class="colorlib-intro">
+    <div class="container">
+        <div class="row col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+            <h2>About IEEE</h2>
+            <p>
+                IEEE is the world's largest technical professional organization, devoted to fostering innovation and technological excellence for the benefit of mankind.
+                It is intended to serve professionals working in all areas of electrical, electronic, and computing engineering, as well as allied scientific and technology domains that underlie modern society.
+            </p>
+            <p>
+                Through its more than 400,000 members in more than 160 countries, widely referenced publications, conferences, technological standards, and professional and educational events, IEEE and its members encourage a worldwide community to create for a better tomorrow.
+                IEEE is the world's most trusted "voice" for engineering, computer, and technology news.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="colorlib-work colorlib-bg-white animate-box">
+    <div class="container">
+        <div class="row text-center col-md-10 col-md-offset-1 colorlib-heading">
+            <h2>IEEE NITK Global View</h2>
+            <p>
+                The IEEE NITK Student Branch is one of the largest student branches in the IEEE Bangalore Section.
+                The IEEE Bangalore Section is governed by the IEEE India Council, which falls under Region 10 of the IEEE Global Organization.
+            </p>
+            <img class="work-img" src="/assets/img/ieee-global-view.png" alt="IEEE Global View">
+        </div>
+    </div>
+</div>
+
+<!-- IEEE Bangalore and Mangalore Sub-Section -->
+
+<div class="colorlib-intro animate-box">
+    <div class="container">
+        <div class="row col-md-12">
+            <a href="/"><img class="work-img" src="/assets/img/ieee_nitk.png" alt="IEEE NITK" style="width : 35%; padding-top: 5%; margin-right: 6%; float: left;"></a>
+            <a href="http://www.ieee-mangalore.org/" target="_blank"><img class="work-img" src="/assets/img/ieee_mangalore.png" alt="IEEE Mangalore Section" style="width : 20%; float: left;"></a>
+            <a href="https://ieeebangalore.org/" target="_blank"><img class="work-img" src="/assets/img/ieee_bangalore.png" alt="IEEE Bangalore Section" style="width : 35%; padding-top: 4%; margin-left: 4%; float: right;"></a>
+        </div>
+    </div>
+</div>
+
+<div class="colorlib-work animate-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 colorlib-heading">
+                <h3 class="text-center">IEEE Bangalore Section</h3>
+                <p class="text-justify">
+                    IEEE Bangalore Section was established in 1977 and is one of the most vibrant and dynamic IEEE Sections across the globe.
+                    Over the years the strength of the section has grown steadily and currently the Section membership stands at more than 8600.
+                    This membership is spread across various sectors and has a nice blend of Industry, Academia and Research organizations.
+                    IEEE Bangalore Section won the prestigious MGA Outstanding Large Section Award (2013 & 2019) and
+                    R10 Distinguished Large Section Award for the year 2013.
+                </p>
+            </div>
+
+            <div class="col-md-6 colorlib-heading">
+                <h3 class="text-center">IEEE Mangalore Sub-Section</h3>
+                <p class="text-justify">
+                    IEEE Mangalore Sub-Section, a Sub-Section of IEEE Bangalore Section, was formed on 19th April 2014 with the aim to conduct
+                    various student and professional activities like invited talks, student internships, workshops and conferences.
+                    The Engineering Colleges from Mangalore, Udupi, Karwar, Shivamogga and Chikmagalur district come under this Sub-Section.
+                    At present, it has more than 1000 IEEE Members in total including Professional and Student Members.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Societies -->
+<div class="colorlib-work colorlib-bg-white animate-box">
+    <div class="row">
+        <div class="colorlib-heading">
+            <h2 class="text-center colorlib-heading">Societies</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        {% assign len = site.data.societies.size %}
+        {% assign remain = len | modulo : 3 %}
+        {% assign i = 0 %}
+        {% assign comp = len | minus : remain | minus : 1 %}
+        {% assign offset = 1 %}
+        {% for society in site.data.societies %}
+            {% assign j = i | modulo : 3 %}
+            {% if j == 0 %}
+            <div class="row">
+            {% endif %}
+                {% if i > comp %}
+                    {% if remain == 1 %}
+                    <div class="colorlib-heading col-md-4 col-md-offset-4">
+                    {% else %}
+                        {% if remain == 2 and offset != 0 %}
+                        {% assign offset = 0 %}
+                        <div class="colorlib-heading col-md-4 col-md-offset-2">
+                        {% else %}
+                        <div class="colorlib-heading col-md-4">
+                        {% endif %}
+                    {% endif %}
+                {% else %}
+                <div class="col-md-4 colorlib-heading">
+                {% endif %}
+                    <div class="row">
+                        <a href={{society[1].link}} target="_blank"><img class="society-image" src={{society[1].image}} alt={{society[1].alt}}></a>
+                    </div>
+                    <p class="text-justify">{{society[1].description}}</p>
+                </div>
+            {% assign i = i | plus : 1 %}
+            {% assign k = i | modulo : 3 %}
+            {% if k == 0 or i == len %}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+    "title": "Robotrix",
+    "thumbnails": ["robotrix2021.jpg"],
+    "date": "24th - 25th July 2021",
+    "sig": "Piston & SIGHT",
+    "description": "The event was conducted under SIGHT to spread awareness of Covid-19 among the students. It will involve a 24-hour hackathon which was extended by 6 hours, preceded by a workshop to provide the necessary information to the participants. The problem statement was implemented in PyBullet and Drake using MeshCat as a simulator."
+}

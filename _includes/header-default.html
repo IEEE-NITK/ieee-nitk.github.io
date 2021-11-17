@@ -1,0 +1,81 @@
+<nav class="colorlib-nav" role="navigation">
+    <div class="top-menu">
+        <div class="container">
+            <div class="row" id="header">
+                <div class="col-md-2">
+                    <div id="colorlib-logo">
+                        <a href="{{ site.url }}" title="home">
+                            <img src="{{ site.baseurl }}/assets/img/ieee_nitk.png" alt="IEEE Logo" class="navbar-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-10 text-right menu-1">
+                    <ul>
+                        {% for nav in site.data.header %}
+                            {% if nav.name == "SIGs" %}
+                                <li class="dropdown-nav">
+                                    <a class="nav-link dropdown-toggle has-dropdown" style="cursor: pointer;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        SIGs
+                                    </a>
+                                    <ul class="dropdown dropdown-menu">
+                                    {% for sigs in nav.sigs %}
+                                        <li class="dropdown-item"><a href="{{sigs.link}}">{{sigs.name}}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </li>
+                            {% elsif nav.name == "Affinity Groups" %}
+                                <li class="dropdown-nav">
+                                    <a class="nav-link dropdown-toggle has-dropdown"  style="cursor: pointer;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Affinity Groups
+                                    </a>
+                                    <ul class="dropdown dropdown-menu">
+                                    {% for groups in nav.groups %}
+                                        <li class="dropdown-item"><a href="{{groups.link}}">{{groups.name}}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </li>
+                            {% elsif nav.name == "Virtual Expo" %}
+                                <li class="dropdown-nav">
+                                    <a class="nav-link dropdown-toggle has-dropdown"  style="cursor: pointer;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Virtual Expo
+                                    </a>
+                                    <ul class="dropdown dropdown-menu">
+                                    {% for sigs in nav.groups %}
+                                        <li class="dropdown-item"><a href="{{site.url}}/{{sigs.link}}">{{sigs.name}}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </li>
+                            {% elsif nav.name == "Achievements" %}
+                                <li class="dropdown-nav">
+                                    <a class="nav-link dropdown-toggle has-dropdown"  style="cursor: pointer;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Achievements
+                                    </a>
+                                    <ul class="dropdown dropdown-menu">
+                                    {% for sigs in nav.groups %}
+                                        <li class="dropdown-item"><a href="{{sigs.link}}">{{sigs.name}}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </li>
+                            {% elsif nav.name == "About" %}
+                                <li class="dropdown-nav">
+                                    <a class="nav-link dropdown-toggle has-dropdown"  style="cursor: pointer;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        About
+                                    </a>
+                                    <ul class="dropdown dropdown-menu">
+                                    {% for item in nav.groups %}
+                                        <li class="dropdown-item"><a href="{{item.link}}">{{item.name}}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </li>
+                            {% elsif nav.name == "Blog" or nav.name == "Gyan" %}
+                                <li><a href="{{site.url}}/{{nav.link}}">{{nav.name}}</a></li>
+                            {% else %}
+                                <li><a href="{{nav.link}}">{{nav.name}}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,316 +1,149 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- Meta tags-->
-        <!-- Give a small description in 3-4 sentences about the website -->
-        <meta name="description" content="Computer Society, IEEE NITK Student Branch is one of the three SIG Groups of IEEE NITK which promotes Computer Science related work at IEEE NITK. CompSoc has a diverse set of members engaging in different projects at different levels.">
-        <!-- A small abstract idea about the website -->
-        <meta name="abstract" content="This Website is about IEEE NITK Student Chapter's CompSoc SIG">
-        <!-- Important Keywords to be noted in the website  -->
-        <meta name="keywords" content="IEEE, IEEE NITK, CompSoc NITK, NITK Surathkal, NITK, Clubs in NITK, Technical Clubs in NITK">
-        <!-- Tell the spider to index the first page and other pages as well-->
-        <meta name="robots" content="index, follow">    
-        <!-- How often should spiders come back to your page -->
-        <meta name="revisit-after" content="3 days">
+---
+layout: default
+title: Computer Society
+css : /assets/css/virtual-expo.css
+---
 
-        <!-- Copyright regarding the website -->
-        <meta name="copyright" content="IEEE NITK">
-        <!-- Tells Google Bot not to duplicate description -->
-        <meta name="googlebot" content="noodp">
-        <!-- Language for the website -->
-        <meta name="language" content="English">  
+<link rel="stylesheet" href="/assets/css/sig.css">
 
-        <!-- Web Author for the image -->
-        <meta name="web_author" content="IEEE NITK">
-        <meta name="author" content="Salman Shah">
-        <!-- Email ID -->
-        <meta name="contact" content="chairman.nitkieee@gmail.com" />
-        <!-- Email ID to reply to -->
-        <meta name="reply-to" content="chairman.nitkieee@gmail.com">
+<!-- About Us -->
+<div class="colorlib-intro colorlib-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                <h2>About Us</h2>
+                <p>
+                    The NITK-IEEE Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a great platform for those who want to gain expertise in computer based technology. 
+                </p>
+                <p>
+                    In the true spirit of divide and conquer, our community intends to explore and contribute to the rapidly evolving world of computer technologies
+                    by carrying out research and projects in the broad domains of computer science, in the form of 3 research groups :
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center colorlib-heading animate-box">
+                <h4>Intelligence</h4>
+                <p>
+                    Machine Learning, Artificial Intelligence, Deep Learning, Computer Vision, NLP
 
-        <!-- Refers to distribution of the page -->
-        <meta name="distribution" content="global">
-        <!-- Generator or formatter tag -->
-        <meta name="generator" content="Jekyll">
-        <!-- Disallow spammers for the webpage -->
-        <meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
-        <!-- Rating for the page -->
-        <meta name="rating" content="general">
-        <!-- Content Type for the page -->
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <!-- Fixing viewport on mobile views -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+                </p>
+            </div>
+            <div class="col-md-4 text-center colorlib-heading animate-box">
+                <h4>Systems</h4>
+                <p>
+                    Operating Systems, Parallel Computing, Network Security, Distributed Systems
+                </p>
+            </div>
+            <div class="col-md-4 text-center colorlib-heading animate-box">
+                <h4>Core Computer Science</h4>
+                <p>
+                    Algorithms, Cryptography, Databases, Game Theory, Web & Software Development
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
-        <!-- Default Image present -->
-        <meta property="og:image" content="res/img/logo.png">
+<!-- Projects -->
+<div class="colorlib-work">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+                <h2>Projects</h2>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center animate-box">
+                <h2>Proposed Projects</h2>
+            </div>
+            <div class="col-md-12 text-center animate-box">
+                <p><h4>The Proposed Projects for the Academic Year 2021-22 are as follows</h4></p>
+                <ul class="text-justify col-md-6 col-md-offset-3">
+                    {% for sig in site.data.projects.proposed_projects %}
+                        {% if sig[0] == "Compsoc" %}
+                            {% for list in sig[1] %}
+                            <li>{{ list }}</li>
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
 
-        <!-- Page Title -->
-        <title>Computer Society | IEEE NITK</title>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center animate-box">
+                <h2>Completed Projects</h2>
+            </div>
+            <div class="col-md-12 text-center animate-box">
+                <p><h4>Projects completed during Academic Years 2019-20 and 2020-21 can be found at</h4></p>
+                <p><a href="https://ieee.nitk.ac.in/virtual-expo/compsoc/" class="btn btn-primary btn-outline">Compsoc Virtual Expo</a></p>
+            </div>
+        </div>
+    </div>
 
-        <!-- Linked Sheets needed -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="res/css/icomoon.css">
-        <link rel="stylesheet" href="res/css/bootstrap.css">
-        <link rel="stylesheet" href="res/css/animate.css">
-        <link rel="stylesheet" href="res/css/style.css?version=13230018092021">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center animate-box">
+                <h2>Past Projects</h2>
+            </div>
+        </div>
+
+        <div class="container animate-box">
+            <ul class="nav-pills-custom" style="padding-right: 35px; padding-left: 0px;">  
+                {% assign count = 0 %}  
+                {% for year in site.data.projects.compsoc %}
+                    {% assign id_variable = year[0] | append : "-projects-tab" %}
+                    {% assign href_variable = "#" | append : year[0] | append : "-projects" %}
+                    {% assign aria_variable = year[0] | append : "-projects" %}
+                    {% if count == 0 %}
+                    <li class="nav-item-custom active">
+                    {% else %}
+                    <li class="nav-item-custom">
+                    {% endif %}
+                        <a id={{id_variable}} data-toggle="pill" href={{href_variable}} role="tab" aria-controls={{aria_variable}} aria-selected="true">{{ year[0] }}</a>
+                    </li>
+                    {% assign count = 1 %}
+                {% endfor %}
+            </ul>
+        </div>
         
-        <!-- Page Specific -->
-        <link rel="stylesheet" href="res/css/sig.css">
-
-        <!-- Linked Scripts needed -->
-        <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.js" integrity="sha512-W+fE2PngAaUn114foOtj7bJNDqrqANLKjGb6gyz159hoF1+NnEWRfgQtEpn3kCLjQlUQ/FAhTsmmqQNOx/RBOw==" crossorigin="anonymous"></script>
-
-        <!-- Preload -->
-        <link rel="preload" href="js/header.js" as="script">
-        <link rel="preload" href="js/particles.js" as="script">
-
-        <script src="js/sig.js"></script>
-        <script src="js/header.js?version=13230018092021"></script>
-        <script src="js/particles.js"></script>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- This property belongs to IEEE NITK -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6M5H3BJC8"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-L6M5H3BJC8');
-
-            loadAndDisplay("compsoc.json");
-            displayHeader();
-        </script>
-    </head>
-    <body>
-        <div class="colorlib-loader">
-            <div id="loader"></div>
-			<div id="loader"></div>
-			<div id="loader"></div>
-			<div id="loader"></div>
-			<div id="loader"></div>
+        <div class="tab-content" id="pills-tabContent">
+            {% assign count_2 = 0 %}
+        
+            {% for year in site.data.projects.compsoc %}
+        
+                {% assign id_variable_2 = year[0] | append : "-projects" %}
+                {% assign aria_variable_2 = year[0] | append : "-projects-tab" %}
+        
+                {% if count_2 == 0 %}
+                <div class="tab-pane fade active in" id={{id_variable_2}} role="tabpanel" aria-labelledby={{aria_variable_2}}>
+                {% else %}
+                <div class="tab-pane fade" id={{id_variable_2}} role="tabpanel" aria-labelledby={{aria_variable_2}}> 
+                {% endif %} 
+                    <div id="projects" class="animate-box">
+                        {% for project in year[1] %}
+                            <div class="row colorlib-bg-white project-card">
+                                <div class="col-md-12">
+                                    <h3>{{ project.Title }}</h3>
+                                    <div class="desc">
+                                        <p>{{ project.Abstract }}</p>
+                                        {% if project.github != "" %}
+                                            <p><a href= {{project.github}} class="btn btn-primary btn-outline with-arrow" target="_blank">View on Github<i class="fa fa-github"></i></a></p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>                                      
+                </div>
+                {% assign count_2 = 1 %}
+            {% endfor %}
         </div>
-        <div id="page">
-            <!-- Navbar -->
-            <nav class="colorlib-nav" role="navigation">
-                <div class="top-menu">
-                    <div class="container">
-                        <div class="row" id="header"></div>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- Landing -->
-            <section id="home" class="video-hero" style="height: 500px; background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
-                <div id="particles-js"></div>
-                <div class="display-t display-t2 text-center">
-                    <div class="display-tc display-tc2">
-                        <div class="container">
-                            <div class="col-md-12 animate-box">
-                                <h2 class="page-title">Computer Society</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- About Us -->
-            <div class="colorlib-intro colorlib-bg-white">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
-                            <h2>About Us</h2>
-                            <p>
-                                The NITK-IEEE Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a great platform for those who want to gain expertise in computer based technology. 
-                            </p>
-                            <p>
-                                In the true spirit of divide and conquer, our community intends to explore and contribute to the rapidly evolving world of computer technologies
-                                by carrying out research and projects in the broad domains of computer science, in the form of 3 research groups :
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 text-center colorlib-heading animate-box">
-                            <h4>Intelligence</h4>
-                            <p>
-                                Machine Learning, Artificial Intelligence, Deep Learning, Computer Vision, NLP
-
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center colorlib-heading animate-box">
-                            <h4>Systems</h4>
-                            <p>
-                                Operating Systems, Parallel Computing, Network Security, Distributed Systems
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center colorlib-heading animate-box">
-                            <h4>Core Computer Science</h4>
-                            <p>
-                                Algorithms, Cryptography, Databases, Game Theory, Web & Software Development
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Projects -->
-            <div class="colorlib-work">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
-                            <h2>Projects</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center animate-box">
-                            <h2>Proposed Projects</h2>
-                        </div>
-                        <div class="col-md-12 text-center animate-box">
-                            <p><h4>The Proposed Projects for the Academic Year 2021-22 are as follows</h4></p>
-                            <ul class="text-justify col-md-6 col-md-offset-3">
-                                <li>Anchor: The Docker Clone</li>
-                                <li>Collaborative Code Editor with Audio Rooms</li>
-                                <li>Disk Space Rental System</li>
-                                <li>Generative Image Inpainting using GANs</li>
-                                <li>Lung Disease Detection</li>
-                                <li>Modelling Epidemic Outbreak in NITK using GNNs</li>
-                                <li>Visual Question Answering</li>
-                                <li>PyPseudoFlow: Generating Psuedocode and Flowcharts from Python in VSCode</li>
-                                <li>Programming Judge</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="container" style="margin-top: 50px;">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center animate-box">
-                            <h2>Completed Projects</h2>
-                        </div>
-                        <div class="col-md-12 text-center animate-box">
-                            <p><h4>Projects completed during Academic Years 2019-20 and 2020-21 can be found at</h4></p>
-                            <p><a href="https://ieee.nitk.ac.in/virtual-expo/compsoc/" class="btn btn-primary btn-outline">Compsoc Virtual Expo</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container" style="margin-top: 50px;">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center animate-box">
-                            <h2>Past Projects</h2>
-                        </div>
-                    </div>
-                    <div id="projects" class="animate-box"></div>
-                </div>
-            </div>
-
-            <!-- Footer -->
-            <footer id="colorlib-footer">
-                <div class="container">
-                    <div class="row footer-row">
-                        <div class="col-md-3 colorlib-widget">
-                            <h4>About IEEE</h4>
-                            <p>A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated 
-                                to advancing technology for the benefit of humanity.
-                            </p>
-                            <p>
-                                <img src="res/img/ieee_white.png" class="footer-logo" alt="IEEE">
-                                <img src="res/img/ieee_nitk_white.png" class="footer-logo" alt="IEEE-NITK">
-                            </p>
-                        </div>
-                        <div class="col-md-3 colorlib-widget">
-                            <h4 class="secondary">Information</h4>
-                            <p>
-                                <ul class="colorlib-footer-links">
-                                    <li><a href="/"><i class="fa fa-check"></i> Home</a></li>
-                                    <li><a href="team.html"><i class="fa fa-check"></i> Team</a></li>
-                                    <li><a href="https://ieee.nitk.ac.in/blog/"><i class="fa fa-check"></i> Blog</a></li>
-                                    <li><a href="https://ieee.nitk.ac.in/gyan/"><i class="fa fa-check"></i> Gyan</a></li>
-                                    <li><a href="achieve.html"><i class="fa fa-check"></i> Achievements</a></li>
-                                    <li><a href="publications.html"><i class="fa fa-check"></i> Publications</a></li>
-                                    <li><a href="joinus.html"><i class="fa fa-check"></i> Join Us</a></li>
-                                </ul>
-                            </p>
-                        </div>
-                        <div class="col-md-3 colorlib-widget">
-                            <h4 class="secondary">SIGs</h4>
-                            <div class="f-blog">
-                                <div class="desc">
-                                    <h2><a href="compsoc.html"><i class="fa fa-laptop"></i> &nbsp; Compsoc</a></h2>
-                                </div>
-                            </div>
-                            <div class="f-blog">
-                                <div class="desc">
-                                    <h2><a href="diode.html"><i class="fa fa-plug"></i> &nbsp; Diode</a></h2>
-                                </div>
-                            </div>
-                            <div class="f-blog">
-                                <div class="desc">
-                                    <h2><a href="piston.html"><i class="fa fa-cogs"></i> &nbsp; Piston</a></h2>
-                                </div>
-                            </div>
-                            <br>
-                            <h4 class="secondary">Affinity Groups</h4>
-                            <div class="f-blog">
-                                <div class="desc">
-                                    <h2><a href="wie.html"><i class="fa fa-female"></i> &nbsp; Women in Engineering</a></h2>
-                                </div>
-                            </div>
-                            <div class="f-blog">
-                                <div class="desc">
-                                    <h2><a href="sight.html"><i class="fa fa-users"></i> &nbsp; SIGHT</a></h2>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-3 colorlib-widget">
-                            <h4 class="secondary">Contact Info</h4>
-                            <ul class="colorlib-footer-links">
-                                <li><strong>NITK Surathkal</strong><br>NH 66, Srinivasnagar<br>Surathkal, Mangalore<br>Karnataka 575025</li>
-                                <li><a href="mailto:ieee@nitk.edu.in" target="_blank"><i class="fa fa-envelope"></i>ieee@nitk.edu.in</a></li>
-                            </ul>
-                            <p>
-                                <ul class="colorlib-social-icons">
-                                    <li><a href="https://github.com/IEEE-NITK" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li><a href="https://www.instagram.com/ieee_nitk" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://twitter.com/IEEE_NITK" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://facebook.com/IEEENITK" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/ieee-nitk-surathkal" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
-                                    <li><a href="/sitemap-main.xml" target="_blank"><i class="fa fa-rss" target="_blank"></i></a></li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="copy">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                            <p>
-                                Copyright &copy;<script data-cfasync="false" src="https://www.ieee.org"></script>
-                                <script>document.write(new Date().getFullYear());</script>
-                                All rights reserved | Made with <i class="fa fa-heart" aria-hidden="true"></i> 
-                                by IEEE-NITK and <a href="https://colorlib.com" target="_blank" class="copyright-link">Colorlib</a>
-                                <br>
-                            </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-        <div class="gototop js-top">
-            <a href="" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
-        </div>
-        <script src="js/main.js"></script>
-    </body>
-</html>
+    </div>
+</div>
