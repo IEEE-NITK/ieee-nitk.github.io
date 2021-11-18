@@ -11,12 +11,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Jekyll Site
-        uses: jerryjvl/jekyll-build-action@v1
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
 
       - name: Run HTML Proofer
-        run: |
-          sudo gem install html-proofer
-          htmlproofer --assume-extension ./_site --url-swap '^/:/' --disable-external
+        run: htmlproofer --assume-extension ./_site --url-swap '^/:/' --disable-external
 
   deploy:
     name: "Deploy to GitHub Pages"
