@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Team
-css: /assets/css/virtual-expo.css
 ---
 
 <!-- Faculty -->
@@ -164,8 +163,8 @@ css: /assets/css/virtual-expo.css
                 <h2>Executive Members</h2>
             </div>
         </div>
-        <div class="container" style="padding-bottom: 50px;">
-            <ul class="nav-pills-custom" style="padding-right: 35px; padding-left: 0px;">  
+        <div class="container animate-box" style="padding-bottom: 50px;">
+            <ul class="nav-pills-custom" style="padding: 0 !important;">  
                 {% assign count = 0 %}  
                 {% for title in site.data.array.teams %}
                     {% assign id_variable = title.name | append : "-projects-tab" %}
