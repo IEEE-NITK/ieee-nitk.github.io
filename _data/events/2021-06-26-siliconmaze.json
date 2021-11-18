@@ -1,0 +1,13 @@
+{
+    "title": "Silicon Maze 2021",
+    "thumbnails": ["siliconmaze2021.jpg"],
+    "date": "26th - 27th June 2021",
+    "sig": "CompSoc",
+    "description": "Conducted in collaboration with Web Enthusiast's Club NITK, this was a 24 hour programming contest based on various disciplines of Computer Science like Data Structures and Algorithms, Systems, Machine Learning and Development. Themed around the Avengers, the 4 tracks were held on 3 different platforms: Algorithms on CodeDrills, Machine Learning on Kaggle, Systems and Development on HackerEarth, with equal weightage given to all tracks. Participants could take part in teams of three.",
+    "links": [
+        {
+            "title": "Silicon Maze Website",
+            "url": "https://silicon-maze.github.io"
+        }
+    ]
+}

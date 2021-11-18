@@ -1,0 +1,13 @@
+{
+    "title": "Hacktoberfest Meetup 2021",
+    "thumbnails": ["hacktoberfest2021.jpg"],
+    "date": "4th October 2021",
+    "sig": "CompSoc",
+    "description": "Hacktoberfest NITK aimed to generate awareness of Hacktoberfest by Digital Ocean, a global month-long event that promotes Open Source culture. The NITK Meet-up consisted of a talk from Dr. Mohit P Tahiliani about Open Source fundamentals, and how to start contributing as an inexperienced or a veteran developer. A few students gave the audience a peek into Git/Github and how version control works, also providing them with the resources to get started. The IEEE team also set up a repository on GitHub for the juniors to get acquainted with how Pull Requests, issues and commits work.",
+    "links": [
+        {
+            "title": "Hacktoberfest Repository",
+            "url": "https://github.com/WebClub-NITK/Hacktoberfest-2k21"
+        }
+    ]
+}

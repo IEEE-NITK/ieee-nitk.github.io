@@ -1,0 +1,20 @@
+---
+layout: default
+title: Publications
+---
+
+
+<div class="colorlib-intro colorlib-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 colorlib-heading">
+                <h2 class="animate-box">List of Papers Submitted to Conferences by IEEE NITK Members</h2>
+                <ul>
+                    {% for item in site.data.publications %}
+                        <li class="animate-box"><strong>{{ item.title }}</strong>, {{ item.abstract }}</li><br>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

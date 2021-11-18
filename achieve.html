@@ -1,0 +1,21 @@
+---
+layout: default
+title: Awards
+--- 
+
+<div class="colorlib-intro colorlib-bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 colorlib-heading">
+                {% for item in site.data.achievements %}
+                <h2 class="animate-box"> {{ item[0] }}</h2>
+                <ul>
+                    {% for i in item[1] %}
+                        <li class="animate-box"><strong>{{ i.title }}</strong> - {{ i.details }}</li><br>
+                    {% endfor %}
+                </ul>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

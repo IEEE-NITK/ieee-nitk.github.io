@@ -1,0 +1,36 @@
+# Site settings
+title: IEEE NITK
+description: IEEE NITK is a student branch of IEEE located at NITK Surathkal. This is the official website of IEEE NITK
+url: "https://ieee.nitk.ac.in" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: ""
+
+# User settings
+username: IEEE-NITK
+user_description: IEEE Student chapter at NITK Surathkal
+description: The official website of IEEE NITK
+email: ieee@nitk.edu.in
+twitter_username: IEEE_NITK
+github_username: IEEE-NITK
+facebook_username: IEEENITK
+
+#Facebook Sharing
+facebook_app_id: 0011038251882641
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+
+future: true
+
+sass:
+  style: compressed

@@ -1,0 +1,13 @@
+{
+    "title": "INSIGHT Talk Series",
+    "thumbnails": ["insight2021_1.jpg", "insight2021_2.jpg", "insight2021_3.jpg"],
+    "date": "28th - 30th August 2021",
+    "sig": "All SIGs",
+    "description": "Insight Talks aim to provide a full picture of the opportunities present in various fields of Engineering. Over the course of 3 days, final year students from all Student Interest Groups will present their experiences within and outside NITK, ranging from research internship experiences to industrial experience to switching fields to pursue your interests.",
+    "links": [
+        {
+            "title": "YouTube Playlist",
+            "url": "https://www.youtube.com/playlist?list=PLiKieHRurqOacm5tNfGCDOPp4mlAAac4I"
+        }
+    ]
+}

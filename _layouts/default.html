@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+    <script src="{{site.baseurl}}/assets/js/particles.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            particlesJS.load('particles-js', '{{site.baseurl}}/particlesjs-config.json', function () {
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="https://ieee.nitk.ac.in/virtual-expo/assets/css/style.css">
+</head>
+
+<body>
+    <div class="colorlib-loader">
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+    </div>
+    <div id="page">
+
+        {% include header-default.html %}
+
+        <!-- Landing -->
+        <section class="video-hero"
+            style="height: 500px; background-size:cover; background-position: center center;background-attachment:fixed;"
+            data-section="home">
+            <div id="particles-js"></div>
+            <div class="display-t display-t2 text-center">
+                <div class="display-tc display-tc2">
+                    <div class="container">
+                        <div class="row row-title">
+                            <div class="col-md-12 animate-box">
+                                <h2 class="page-title">{{page.title}}</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    {% if page.title == "Women in Engineering" or page.title == "SIGHT" %}
+                    <div class="logo-box container">
+                        <div class="row">
+                            <div class="col-md-offset-5 col-md-2 col-sm-12 col-xs-12 animate-box">
+                                {% if page.title == "Women in Engineering" %}
+                                <a href="https://wie.ieee.org/" target="_blank">
+                                    <img src="assets/img/logos/wie.png" class="sig-img" alt="WiE Logo">
+                                </a>
+                                {% else %}
+                                <a href="https://sight.ieee.org/" target="_blank">
+                                    <img src="assets/img/logos/sight.png" class="sig-img" alt="SIGHT Logo">
+                                </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </section>
+
+        {{ content }}
+
+
+        {% include footer.html %}
+    </div>
+
+    <div id="modals"></div>
+    <script src="{{site.baseurl}}/assets/js/main.js"></script>
+    <script id="dsq-count-scr" src="//ieeenitk.disqus.com/count.js" async></script>
+</body>
+
+</html>

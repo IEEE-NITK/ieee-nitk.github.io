@@ -1,0 +1,59 @@
+.event-card {
+    background-color: #fff;
+    margin: 10px;
+    padding: 5% 20px;
+    height: 10rem;
+    cursor: pointer;
+}
+
+.event-card:hover {
+    -webkit-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 38px -13px rgba(0, 0, 0, 0.2);
+}
+
+.event-card .event-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80%;
+}
+
+.event-card .event-content p {
+    margin: 0 !important;
+}
+
+.event-card .event-expand {
+    float: right;
+    width: 7%;
+    text-align: right;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+@media only screen and (max-width: 280px) {
+    .event-card {
+        height: 15rem;
+    }
+    .event-card .event-expand {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .event-card .event-content {
+        width: 60%;
+    }
+    .event-card {
+        margin: 20px 10px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .event-card .event-expand {
+        display: none;
+    }
+}

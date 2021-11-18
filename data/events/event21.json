@@ -1,0 +1,12 @@
+{
+    "title": "Path Planning for Robotics",
+    "date": "10th October, 2020",
+    "sig": "Piston",
+    "description": "The event was a 2 hour workshop by Vasista Ayyagari, who is currently pursuing his MEng in Robotics at University of Maryland, USA. Vasista introduced the topic by speaking about the importance of path planning in robotics and its wide range of applications. He thoroughly explained and executed the codes of basic motion algorithms namely A*, RRT and RRT*. He further explained the use of potential fields in autonomous navigation and how it can be implemented.",
+    "links":[
+        {
+            "title": "Facebook Post",
+            "url": "https://www.facebook.com/IEEENITK/posts/3328031710584909"
+        }
+    ]
+}

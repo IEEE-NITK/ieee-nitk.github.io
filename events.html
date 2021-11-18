@@ -1,0 +1,79 @@
+---
+layout: default
+title: Events
+css: /assets/css/event.css
+js: /assets/js/events.js
+---
+
+{% assign numEvents = site.data.events | size %}
+{% assign sorted_events = site.data.events | sort %}
+
+<!-- Events -->
+<div class="colorlib-blog">
+  <div class="container">
+      <div class="animate-box fade" id="events">
+        {% for event in sorted_events reversed %}
+        {% assign idx = forloop.index0 | modulo: 3 %}
+        {% if idx == 0 %}
+          <div class="event-card-deck">
+        {% endif %}
+        <div class="event-card" data-target="#event-modal-{{forloop.index}}">
+          <div class="card-image-slideshow" id="{{event[1].title | slugify }}-images">
+            {% for img_name in event[1].thumbnails %}
+              <div class="imgFade event-image">
+                <img src="/assets/img/events/{{img_name}}" alt="{{event[1].title}}">
+              </div>
+            {% endfor %}
+
+            {% if event[1].thumbnails.size > 1 %}
+              <a class="prev" onclick="changeImg(`{{event[1].title | slugify}}-images`, -1)">&#10094;</a>
+              <a class="next" onclick="changeImg(`{{event[1].title | slugify}}-images`, 1)">&#10095;</a>
+            {% endif %}
+          </div>
+          <div class="card-title">
+            <h2>{{event[1].title}}</h2>
+          </div>
+          <div class="card-links">
+            <button type="button" class="btn btn-primary btn-outline" data-toggle="modal" data-target="#event-modal-{{forloop.index}}">
+              Read More
+            </button>
+          </div>
+        </div>
+        {% if idx == 2 or forloop.last %}
+          </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Modals -->
+{% for event in sorted_events reversed %}
+<div class="modal fade" id="event-modal-{{forloop.index}}" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="overflow-y: auto;">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle">{{event[1].title}}</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <strong>Date: </strong>{{event[1].date}} <br>
+        <strong>SIG: </strong>{{event[1].sig}} <br>
+        {{event[1].description}} <br>
+        {%if event[1].links[0].url%}
+        <a href="{{event[1].links[0].url}}" class="btn btn-primary">{{event[1].links[0].title}}</a>
+        {%endif%}
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

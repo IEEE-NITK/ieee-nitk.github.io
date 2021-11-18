@@ -1,0 +1,12 @@
+{
+    "title": "Knowledge Sharing Session | Public Key Cryptography",
+    "date": "15th Januuary, 2019",
+    "sig": "All SIGs",
+    "description": "Knowledge Sharing Session introducing Public Key Cryptography(PKC) <br> - Discussion on RSA- principal algorithm used in PKC <br> - Applications of RSA in creating Digital Certificates <br> - Attended by 20 student members <br> - Subsequent sessions on Elliptic Curve Cryptography and Diffie Hellman Key Exchange to be taken up",
+    "links": [
+        {
+            "title": "Facebook post",
+            "url": "https://www.facebook.com/IEEENITK"
+        }
+    ]
+}

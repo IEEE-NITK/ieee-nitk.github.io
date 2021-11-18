@@ -1,0 +1,43 @@
+.page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    text-align: center;
+}
+
+#core {
+    display: block;
+}
+
+.member-names {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.team-info {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+hr {
+    border: 2px solid #499bea;
+}
+
+.no-tablet {
+    display: none;
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .no-tablet {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .no-tablet {
+        display: none;
+    }
+}
