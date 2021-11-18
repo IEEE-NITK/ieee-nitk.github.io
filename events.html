@@ -52,8 +52,8 @@ js: /assets/js/events.js
 <!-- Modals -->
 {% for event in sorted_events reversed %}
 <div class="modal fade" id="event-modal-{{forloop.index}}" tabindex="-1" role="dialog"
-  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
+  aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="overflow-y: auto;">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal-title" id="exampleModalLongTitle">{{event[1].title}}</h3>

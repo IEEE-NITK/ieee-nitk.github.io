@@ -109,6 +109,7 @@
   .event-card-deck {
     display: block !important;
     flex: none;
+    flex-direction: column;
   }
 }
 
