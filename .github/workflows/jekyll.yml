@@ -1,4 +1,4 @@
-name: Jekyll HTMLProofer
+name: Jekyll HTMLProofer and Deployment
 
 on: [push, pull_request]
 
@@ -10,14 +10,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Build Jekyll Site
+      - name: Setup Ruby Environment
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
           bundler-cache: true
 
-      - name: Run HTML Proofer
-        run: htmlproofer --assume-extension ./_site --url-swap '^/:/' --disable-external
+      - name: Build Site and run HTMLProofer
+        run: |
+          bundle exec jekyll build
+          bundle exec htmlproofer --assume-extension ./_site --url-swap '^/:/' --disable-external
 
   deploy:
     name: "Deploy to GitHub Pages"
