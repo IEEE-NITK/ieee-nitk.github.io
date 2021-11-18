@@ -1,0 +1,13 @@
+{
+    "title": "Praelium 2021",
+    "thumbnails": ["praelium-2021.jpg"],
+    "date": "17th October 2021",
+    "sig": "CompSoc",
+    "description": "This event aimed to serve as a mock simulation of the global IEEExtreme contest. It was conducted for 3 hours with 6 questions to solve. It was hosted on Codedrills and hence scored by the traditional Codedrills scoring which is similar to ICPC. It aimed to give participants a feel for the duration, format and difficulty level of IEEExtreme. Problems were curated and tested keeping in mind the level of the original contest. All problems were original and prepared by students of NITK.",
+    "links": [
+        {
+            "title": "Contest Link",
+            "url": "https://codedrills.io/contests/praelium-2021"
+        }
+    ]
+}

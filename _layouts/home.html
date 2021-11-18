@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+    <script src="{{site.baseurl}}/assets/js/particles.js"></script>
+    <script src="{{site.baseurl}}/assets/js/slider.js"></script>
+    <link rel="stylesheet" href="{{ "/assets/css/home.css" | prepend: site.baseurl }}">
+
+    <script>
+        $(document).ready(function () {
+            particlesJS.load('particles-js', '{{site.baseurl}}/particlesjs-config.json', function () {
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="colorlib-loader">
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+    </div>
+    <div id="page">
+
+        {% include header-default.html %}
+
+        <!-- Landing -->
+
+        <section id="home"
+            style="height: 100vh; background-image: url(/assets/img/landing.jpg);  background-size:cover; background-position: center center;"
+            data-section="home">
+            <div class="display-t text-center">
+                <div class="display-tc">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0">
+                            <div id="text_effect"></div>
+                            <a href="https://www.ieee.org/"><img src="/assets/img/ieee_white.png" alt="IEEE Logo"
+                                    width="250px"></a><br><br>
+                            <div class="animate-box">
+                                <p><a href="/about-us"
+                                        class="btn btn-primary btn-lg btn-custom">About IEEE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About IEEE -->
+        <div class="colorlib-intro colorlib-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>About IEEE NITK</h2>
+                        <p>IEEE is the world's largest professional association advancing
+                            innovation and technological excellence for the benefit of humanity. IEEE
+                            and its members inspire a global community to innovate for a better tomorrow
+                            through its highly-cited publications, conferences, technology standards, and
+                            professional and educational activities. IEEE is the trusted "voice" for engineering,
+                            computing and technology information around the globe. We, IEEE NITK, belong to the Region
+                            10 of IEEE and under Bangalore section. Founded in 1988, we are an award winning student
+                            branch and one of the biggest world wide.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center animate-box">
+                    <p><strong>NITK Student Branch: 98631</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primary SIGs -->
+    <div class="colorlib-services">
+        <div class="container">
+            <div class="row text-center colorlib-heading animate-box">
+                <h2> Special Interest Groups</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center animate-box shadow-box">
+                    <div class="services">
+                        <span class="icon">
+                            <i class="fa fa-laptop"></i>
+                        </span>
+                        <div class="desc">
+                            <h3>CompSoc</h3>
+                            <p>The Computer Society is a conglomeration of students with a passion for Computer Science
+                                and Information Technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box shadow-box">
+                    <div class="services">
+                        <span class="icon">
+                            <i class="fa fa-plug"></i>
+                        </span>
+                        <div class="desc">
+                            <h3>Diode</h3>
+                            <p>The Circuits and Systems (CAS) & Signal Processing Society (SPS), is a team of students
+                                with a strong interest in the field of Electronics and Electrical Science.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box shadow-box">
+                    <div class="services">
+                        <span class="icon">
+                            <i class="fa fa-cogs"></i>
+                        </span>
+                        <div class="desc">
+                            <h3>Piston</h3>
+                            <p>Piston is a special interest group dedicated to the engineering applications of
+                                Mechanical, Automation, Civil, Chemical and Material Sciences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center colorlib-heading animate-box">
+                <h2> Societies </h2>
+            </div>
+            <div class="flex-container row">
+                <div class="animate-box shadow-box">
+                    <div class="logo-box">
+                        <a href="https://www.computer.org/" target="_blank">
+                            <img src="/assets/img/logos/compsoc.png" class="sig-img" alt="CompSoc Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="animate-box shadow-box">
+                    <div class="logo-box">
+                        <a href="https://signalprocessingsociety.org/" target="_blank">
+                            <img src="/assets/img/logos/sps.png" class="sig-img" alt="SPS Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="animate-box shadow-box">
+                    <div class="logo-box">
+                        <a href="https://ieee-cas.org/" target="_blank">
+                            <img src="/assets/img/logos/cas.png" class="sig-img" alt="CAS Logo" id="cas_logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container row">
+                <div class="animate-box shadow-box">
+                    <div class="logo-box">
+                        <a href="https://ias.ieee.org/" target="_blank">
+                            <img src="/assets/img/logos/ias.png" class="sig-img" alt="IAS Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="animate-box shadow-box">
+                    <div class="logo-box">
+                        <a href="https://www.photonicssociety.org/" target="_blank">
+                            <img src="/assets/img/logos/photonics.png" class="sig-img" alt="Photonics Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="animate-box shadow-box">
+                    <div class="logo-box">
+                        <a href="https://www.ieee-ras.org/" target="_blank">
+                            <img src="/assets/img/logos/ras.png" class="sig-img" alt="RAS Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="animate-box shadow-box">
+                    <div class="logo-box">
+                        <a href="https://www.grss-ieee.org/" target="_blank">
+                            <img src="/assets/img/logos/grss.png" class="sig-img" alt="GRSS Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Counter -->
+    <div id="colorlib-counter" class="colorlib-counters overlay" data-stellar-background-ratio="0.5">
+        <div id="particles-js" class="counter-particles"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4 col-sm-4 text-center animate-box">
+                        <div class="counter-entry">
+                            <span class="icon"><i class="fa fa-users"></i></span>
+                            <div class="desc">
+                                <span class="colorlib-counter js-counter" data-from="0" data-to="179" data-speed="2000" data-refresh-interval="50"></span>
+                                <span class="colorlib-counter-label">Members</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center animate-box">
+                        <div class="counter-entry">
+                            <span class="icon"><i class="fa fa-graduation-cap"></i></span>
+                            <div class="desc">
+                                <span class="colorlib-counter js-counter" data-from="0" data-to="146" data-speed="2000" data-refresh-interval="50"></span>
+                                <span class="colorlib-counter-label">Alumni</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center animate-box">
+                        <div class="counter-entry">
+                            <span class="icon"><i class="fa fa-book"></i></span>
+                            <div class="desc">
+                                <span class="colorlib-counter js-counter" data-from="0" data-to="22" data-speed="2000" data-refresh-interval="50"></span>
+                                <span class="colorlib-counter-label">Publications</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- IEEE TWITTER SECTION -->
+
+    <div class="colorlib-intro">
+        <div class="container">
+            <div class="row text-center colorlib-heading animate-box">
+                <h2> News from IEEE </h2>
+            </div>
+            <div class="ieee-global-deck">
+                <div class="ieee-global-inner-1 animate-box">
+                    <div class="twitter-container">
+                        <div class="panel panel-primary">
+                            <div class="panel-body">
+                                <a class="twitter-timeline" href="https://twitter.com/IEEEorg?ref_src=twsrc%5Etfw"
+                                    data-chrome="nofooter noborders" data-tweet-limit="5">Tweets by @IEEEorg</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ieee-global-inner-2">
+                    <div class="card animate-box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="card-img-top col-md- 4" src="/assets/img/IEEE-XploreDigitalLibrary.jpg"
+                                    alt="Card image cap">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text">The IEEE Xplore Digital Library is a powerful resource for
+                                    discovery
+                                    of scientific and technical content.
+                                </p>
+                                <a href="https://ieeexplore.ieee.org/" class="btn btn-primary btn-outline"
+                                    target="_blank">IEEE Xplore</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card animate-box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="card-img-top" src="/assets/img/IEEE_Spectru.png" alt="Card image cap">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text">IEEE Spectrum is an award-winning technology magazine and the
+                                    flagship publication of IEEE.
+                                </p>
+                                <a href="https://spectrum.ieee.org/" class="btn btn-primary btn-outline"
+                                    target="_blank">IEEE Spectrum</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card animate-box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="card-img-top" src="/assets/img/IEEE-Blue.jpg" alt="Card image cap">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text">Join IEEE, the world’s largest professional organization devoted to
+                                    engineering and the applied sciences.
+                                </p>
+                                <a href="https://www.ieee.org/content/ieee-org/en/membership/join/"
+                                    class="btn btn-primary btn-outline" target="_blank">Join IEEE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Recent Blogs -->
+    <div class="colorlib-intro">
+        <div class="container" id="events-div">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                    <h2>Recent Blogs</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="animate-box" id="blogs">
+                    <!-- content -->
+                </div>
+
+                <div class="row text-center mt-5">
+                    <p><a href="https://ieee.nitk.ac.in/blog/" title="IEEE NITK Blog"
+                            class="btn btn-primary btn-outline with-arrow" target="_blank">READ ALL BLOGS<i
+                                class="fa fa-arrow-right"></i></a></p>
+                </div>
+                <div id="event-modals"></div>
+            </div>
+            <div id="event-modals"></div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+    </div>
+
+    <script src="{{site.baseurl}}/assets/js/main.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script>
+        $.ajax({
+            method: "get",
+            url: "https://ieee.nitk.ac.in/blog/search.json",
+            success: function (result) {
+                add_blogs(result)
+            }
+        });
+
+        function add_blogs(result) {
+            blog = result;
+            var i = 1;
+
+            var html_str = '<div class="card-deck">';
+
+            if (i <= 3) {
+                for (items in blog) {
+                    if (i > 3)
+                        break;
+
+                    var category = blog[items].category;
+
+                    html_str += `<div class="card blog-card">`;
+                    html_str += `<article class="blog-card-article" role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">`;
+                    html_str += `<span class="card-label"><a href="https://ieee.nitk.ac.in/blog/series/#${category.toLowerCase()}">${category.toUpperCase()}</a></span>`;
+                    html_str += `<h3 class="card-title"><a href="${blog[items].url}">${blog[items].title}</a></h3>`;
+                    html_str += `<p class="author-wrap"><i class="fa fa-calendar"></i><span class="date">&nbsp;&nbsp;${blog[items].date.split(" ")[1]}&nbsp${blog[items].date.split(" ")[0]}, ${blog[items].date.split(" ")[2]}</span></p>`;
+                    html_str += `<p class="author-wrap"><span class="author-img" style="background-image: url(${blog[items].author_image}), url(https://ieee.nitk.ac.in/blog/assets/img/authors/blog-author.jpg);"></span>`;
+                    html_str += `<span class="author">by ${blog[items].author}</span></p>`;
+                    html_str += `</article></div>`;
+
+                    i += 1;
+                }
+            }
+            html_str += `</div>`;
+            $("#blogs").html(html_str);
+        }
+    </script>
+</body>
+
+</html>

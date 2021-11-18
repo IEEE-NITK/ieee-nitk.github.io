@@ -1,0 +1,13 @@
+{
+    "title": "GPU Programming using CUDA",
+    "thumbnails": ["cuda-workshop-2021.png"],
+    "date": "9th October 2021",
+    "sig": "Diode",
+    "description": "This was a hands-on workshop conducted by Dr Rupesh Nasre from IIT Madras. After the initial introduction, Dr Nasre took over and proceeded with the workshop which involved a mix of theory and practical coding. The workshop progressed in an ascending manner, with concepts getting increasingly complicated. This was followed by some exercises and a small section on the application of GPUs. After CUDA, graph algorithms were introduced to the participants and how GPU programming can be helped to solve those problems.",
+    "links": [
+        {
+            "title": "YouTube Link",
+            "url": "https://youtu.be/-TLJT2maWfg"
+        }
+    ]
+}

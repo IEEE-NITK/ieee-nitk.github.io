@@ -1,0 +1,148 @@
+---
+---
+/* Standard syntax */
+
+@keyframes blurIn {
+  0% {
+      color: rgba(255, 255, 255, 0)
+  }
+  25% {
+      color: rgba(255, 255, 255, 1)
+  }
+  75% {
+      color: rgba(255, 255, 255, 1)
+  }
+  100% {
+      color: rgba(255, 255, 255, 0)
+  }
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.effect_char {
+  font-size: 12vh;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(255, 255, 255, 0);
+  animation-name: blurIn;
+  animation-duration: 2s;
+}
+
+@media only screen and (max-width: 450px) {
+  .effect_char {
+    font-size: 10vh;
+  }
+}
+
+#text_effect {
+  margin-top: 28vh !important;
+}
+
+.counter-particles {
+    height: 468px !important;
+    position: absolute !important;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .counter-particles {
+      height: 1016px !important;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  #cas_logo {
+    margin: auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sig-img {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+  }
+}
+
+i {
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-container > div {
+  padding: 20px;
+  flex-basis: 20%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex: 1;
+}
+
+.logo-box {
+  text-align: center;
+}
+
+.twitter-container {
+  overflow: auto;
+  margin: 20px auto;
+  max-height: 800px;
+}
+
+.blog-card {
+  margin: 20px !important;
+}
+
+.ieee-global-deck {
+  display: flex;
+}
+
+.ieee-global-deck > div {
+  margin: 50px 20px;
+}
+
+.ieee-global-inner-1 {
+  flex-basis: 33.33%;
+  flex-shrink: 1;
+}
+
+.ieee-global-inner-2 {
+  flex-basis: 66.67%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ieee-global-inner-2 .card {
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ieee-global-deck {
+    flex-direction: column;
+  }
+
+  .ieee-global-deck > div {
+    margin: 50px auto;
+  }
+
+  .twitter-container {
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+  }
+
+  .blog-card {
+    margin: 20px auto !important;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .twitter-container {
+    max-height: 870px;
+  }
+}

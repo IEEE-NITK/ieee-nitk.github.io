@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "name": "About",
+    "groups": [
+      {
+        "name": "About Us",
+        "link": "about-us.html"
+      },
+      {
+        "name": "Team",
+        "link": "team.html"
+      }
+    ]
+  },
+  {
+    "name": "SIGs",
+    "sigs": [
+      {
+        "name": "Computer Society",
+        "link": "compsoc.html"
+      },
+      {
+        "name": "Diode",
+        "link": "diode.html"
+      },
+      {
+        "name": "Piston",
+        "link": "piston.html"
+      }
+    ]
+  },
+  {
+    "name": "Affinity Groups",
+    "groups": [
+      {
+        "name": "Women in Engineering",
+        "link": "wie.html"
+      },
+      {
+        "name": "SIGHT",
+        "link": "sight.html"
+      }
+    ]
+  },
+  {
+    "name": "Events",
+    "link": "events.html"
+  },
+  {
+    "name": "Blog",
+    "link": "blog/"
+  },
+  {
+    "name": "Gyan",
+    "link": "gyan/"
+  },
+  {
+    "name": "Achievements",
+    "groups": [
+      {
+        "name": "Awards",
+        "link": "achieve.html"
+      },
+      {
+        "name": "Publications",
+        "link": "publications.html"
+      }
+    ]
+  },
+  {
+    "name": "Virtual Expo",
+    "groups": [
+      {
+        "name": "CompSoc",
+        "link": "virtual-expo/compsoc/"
+      },
+      {
+        "name": "Diode",
+        "link": "virtual-expo/diode/"
+      },
+      {
+        "name": "Piston",
+        "link": "virtual-expo/piston/"
+      },
+      {
+        "name": "Envision",
+        "link": "virtual-expo/envision/"
+      }
+    ]
+  }
+]

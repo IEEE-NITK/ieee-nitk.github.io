@@ -1,0 +1,38 @@
+name: Jekyll HTMLProofer and Deployment
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: "Jekyll Build and Test"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Ruby Environment
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+
+      - name: Build Site and run HTMLProofer
+        run: |
+          bundle exec jekyll build
+          bundle exec htmlproofer --assume-extension ./_site --url-swap '^/:/' --disable-external
+
+  deploy:
+    name: "Deploy to GitHub Pages"
+    if: ${{ github.ref_name == github.event.repository.default_branch }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          enable_jekyll: true
