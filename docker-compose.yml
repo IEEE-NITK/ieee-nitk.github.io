@@ -1,7 +1,9 @@
-jekyll:
-    image: jekyll/jekyll:pages
-    command: jekyll serve --watch --incremental
-    ports:
-        - 4000:4000
-    volumes:
-        - .:/srv/jekyll
+version: '2'
+services:
+    jekyll:
+        image: jekyll/jekyll:latest
+        command: jekyll serve --watch --force_polling
+        ports:
+            - 4000:4000
+        volumes:
+            - .:/srv/jekyll
