@@ -17,7 +17,7 @@ $ gem install jekyll-paginate jemoji
 docker-compose up
 ```
 * In case you want to shut down your docker container, kindly do it by running `docker-compose down`. It should allow you to shut down your docker container.
-* In case you have shut down you docker container with Ctrl+C you will still need to shut it down using `docker-compose down`.  
+* In case you have shut down you docker container with Ctrl+C you will still need to shut it down using `docker-compose down`.
 
 ## Further Installation
 
@@ -184,7 +184,7 @@ sudo gem install html-proofer
 ```
 - If you get the below output, you're good to go
 ```
-Running ["ScriptCheck", "LinkCheck", "ImageCheck"] on ["./_site"] on *.html... 
+Running ["ScriptCheck", "LinkCheck", "ImageCheck"] on ["./_site"] on *.html...
 
 
 Ran on xxx files!
@@ -222,4 +222,3 @@ This article explains why every web developer should know Angular in 2015.
 - Please ask someone to review the article, once you have submitted a Pull Request!
 
 - As soon as your article is merged, it'll also be live on our blog (usually takes around 2 minutes to publish).
-

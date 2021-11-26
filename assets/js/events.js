@@ -16,7 +16,7 @@ function changeImg(id, n) {
     nextImage.show();
 
     image.removeClass("active");
-    nextImage.addClass("active"); 
+    nextImage.addClass("active");
 }
 
 $(document).ready(() => {

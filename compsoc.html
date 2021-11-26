@@ -11,7 +11,7 @@ css : /assets/css/sig.css
             <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
                 <h2>About Us</h2>
                 <p>
-                    The NITK-IEEE Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a great platform for those who want to gain expertise in computer based technology. 
+                    The NITK-IEEE Computer Society is a conglomeration of students with a passion for Computer Science and Information Technology. This SIG is a great platform for those who want to gain expertise in computer based technology.
                 </p>
                 <p>
                     In the true spirit of divide and conquer, our community intends to explore and contribute to the rapidly evolving world of computer technologies
@@ -93,8 +93,8 @@ css : /assets/css/sig.css
         </div>
 
         <div class="container animate-box">
-            <ul class="nav-pills-custom" style="padding: 0;">  
-                {% assign count = 0 %}  
+            <ul class="nav-pills-custom" style="padding: 0;">
+                {% assign count = 0 %}
                 {% for year in site.data.projects.compsoc %}
                     {% assign id_variable = year[0] | append : "-projects-tab" %}
                     {% assign href_variable = "#" | append : year[0] | append : "-projects" %}
@@ -110,20 +110,20 @@ css : /assets/css/sig.css
                 {% endfor %}
             </ul>
         </div>
-        
+
         <div class="tab-content" id="pills-tabContent">
             {% assign count_2 = 0 %}
-        
+
             {% for year in site.data.projects.compsoc %}
-        
+
                 {% assign id_variable_2 = year[0] | append : "-projects" %}
                 {% assign aria_variable_2 = year[0] | append : "-projects-tab" %}
-        
+
                 {% if count_2 == 0 %}
                 <div class="tab-pane fade active in" id={{id_variable_2}} role="tabpanel" aria-labelledby={{aria_variable_2}}>
                 {% else %}
-                <div class="tab-pane fade" id={{id_variable_2}} role="tabpanel" aria-labelledby={{aria_variable_2}}> 
-                {% endif %} 
+                <div class="tab-pane fade" id={{id_variable_2}} role="tabpanel" aria-labelledby={{aria_variable_2}}>
+                {% endif %}
                     <div id="projects" class="animate-box">
                         {% for project in year[1] %}
                             <div class="row colorlib-bg-white project-card">
@@ -138,7 +138,7 @@ css : /assets/css/sig.css
                                 </div>
                             </div>
                         {% endfor %}
-                    </div>                                      
+                    </div>
                 </div>
                 {% assign count_2 = 1 %}
             {% endfor %}
