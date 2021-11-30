@@ -8,44 +8,24 @@ $(document).ready(function ( $ ) {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
 		},
-			BlackBerry: function() {
+		BlackBerry: function() {
 			return navigator.userAgent.match(/BlackBerry/i);
 		},
-			iOS: function() {
+		iOS: function() {
 			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
 		},
-			Opera: function() {
+		Opera: function() {
 			return navigator.userAgent.match(/Opera Mini/i);
 		},
-			Windows: function() {
+		Windows: function() {
 			return navigator.userAgent.match(/IEMobile/i);
 		},
-			any: function() {
+		any: function() {
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
 
-	var mobileMenuOutsideClick = function() {
-
-		$(document).click(function (e) {
-	    var container = $("#colorlib-offcanvas, .js-colorlib-nav-toggle");
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-
-	    	if ( $('body').hasClass('offcanvas') ) {
-
-    			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
-
-	    	}
-
-	    }
-		});
-
-	};
-
-
 	var offcanvasMenu = function() {
-
 		$('#page').prepend('<div id="colorlib-offcanvas" />');
 		$('#page').prepend('<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle colorlib-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
@@ -141,29 +121,6 @@ $(document).ready(function ( $ ) {
 		} , { offset: '85%' } );
 	};
 
-
-	var dropdown = function() {
-
-		$('.has-dropdown').mouseenter(function(){
-
-			var $this = $(this);
-			$this
-				.find('.dropdown')
-				.css('display', 'block')
-				.addClass('animated-fast fadeInUpMenu');
-
-		}).mouseleave(function(){
-			var $this = $(this);
-
-			$this
-				.find('.dropdown')
-				.css('display', 'none')
-				.removeClass('animated-fast fadeInUpMenu');
-		});
-
-	};
-
-
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
@@ -194,19 +151,6 @@ $(document).ready(function ( $ ) {
 	// Loading page
 	var loaderPage = function() {
 		$(".colorlib-loader").fadeOut("slow");
-	};
-
-
-	var parallax = function() {
-
-		if ( !isMobile.any() ) {
-			$(window).stellar({
-				horizontalScrolling: false,
-				hideDistantElements: false,
-				responsive: true
-
-			});
-		}
 	};
 
 	var counter = function() {
