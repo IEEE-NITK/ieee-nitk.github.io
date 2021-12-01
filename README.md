@@ -7,7 +7,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![GitHub issues:](https://img.shields.io/github/issues/IEEE-NITK/ieee-nitk.github.io.svg)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
-![All Platforms!](https://img.shields.io/badge/Windows,%20OS/X,%20Linux-%20%20-brightgreen.svg)
+![All Platforms!](https://img.shields.io/badge/Windows,%20OS/X,%20Linux-%20%E2%9C%85%20-brightgreen.svg)
 
 ## CONTRIBUTING
 
