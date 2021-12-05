@@ -72,8 +72,8 @@ css : /assets/css/sig.css
             </div>
         </div>
 
-        <div class="container animate-box">
-            <ul class="nav-pills-custom" style="padding: 0;">
+        <div class="row animate-box">
+            <ul class="nav-pills-custom">
                 {% assign count = 0 %}
                 {% for year in site.data.projects.piston %}
                     {% assign id_variable = year[0] | append : "-projects-tab" %}
