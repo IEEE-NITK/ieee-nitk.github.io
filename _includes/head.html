@@ -49,13 +49,13 @@
 <meta name="twitter:description"
     content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta property="twitter:image:src"
-    content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    content="https://github.com/IEEE-NITK/website-assets/raw/main/img/logos/ieee_nitk.png">
 
 <!-- Social: Facebook / Open Graph -->
 <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:image" content="https://github.com/IEEE-NITK/website-assets/raw/main/img/logos/ieee_nitk.png">
 <meta property="og:description"
     content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
@@ -64,7 +64,7 @@
 <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta itemprop="description"
     content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta itemprop="image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}" />
+<meta itemprop="image" content="https://github.com/IEEE-NITK/website-assets/raw/main/img/logos/ieee_nitk.png" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -85,9 +85,11 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link rel="stylesheet" href="/assets/css/animate.css">
-<link rel="stylesheet" href="/assets/css/bootstrap.css">
-<link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Linked Sheets to be fetched from common repo -->
+<link rel="stylesheet" type="text/css" href="https://ieee.nitk.ac.in/website-assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="https://ieee.nitk.ac.in/website-assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="https://ieee.nitk.ac.in/website-assets/css/style.css">
 
 <!-- Linked Scripts needed -->
 <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
@@ -101,7 +103,7 @@
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<link rel="manifest" href="/assets/img/icons/manifest.json">
+<link rel="manifest" href="https://ieee.nitk.ac.in/website-assets/img/icons/manifest.json">
 
 <title>{{page.title}} | IEEE NITK</title>
 
