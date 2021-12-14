@@ -1,4 +1,6 @@
 <!-- Meta tags-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- Give a small description in 3-4 sentences about the website -->
 <meta name="description"
     content="IEEE NITK is a local chapter of the IEEE Organisation belonging in the Bangalore R10 Section. IEEE NITK undertakes lots of projects by its various SIGs which are formed and projects undertaken by students are futher applied to help solve daily world problems.">
@@ -38,9 +40,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- Fixing viewport on mobile views -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <!-- Google Authorship Markup -->
 <!-- Social: Twitter -->
@@ -86,7 +85,6 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link rel="stylesheet" href="/assets/css/icomoon.css">
 <link rel="stylesheet" href="/assets/css/animate.css">
 <link rel="stylesheet" href="/assets/css/bootstrap.css">
 <link rel="stylesheet" href="/assets/css/style.css">
@@ -107,23 +105,15 @@
 
 <title>{{page.title}} | IEEE NITK</title>
 
-<!-- highlighter theme  -->
-<link rel="stylesheet" href="{{ "/assets/css/monokai-sublime.css" | prepend: site.baseurl }}">
-
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
     href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-{% if page.use_math %}
-{% include math.html %}
-{% endif %}
-
-<link rel="stylesheet" href="{{page.css}}">
-<script src="{{page.js}}"></script>
-
+{% if page.use_math %}{% include math.html %}{% endif %}
+{% if page.css %}<link rel="stylesheet" href="{{page.css}}">{% endif %}
+{% if page.js %}<script src="{{page.js}}"></script>{% endif %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
-<!--<script src="{{ "/assets/js/sidebar.js" | prepend: site.baseurl }}"></script>-->
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }

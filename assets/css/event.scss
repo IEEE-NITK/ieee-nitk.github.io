@@ -3,12 +3,12 @@
 .event-card {
   background-color: #fff;
   margin: 20px;
-  width: 33.3333% !important;
+  width: 33.3333%;
   cursor: pointer;
   flex-basis: 0%;
   flex-grow: 1;
   flex-shrink: 1;
-  float: left !important;
+  float: left;
   position: relative;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .event-image img {
-  height: 350px !important;
+  height: 350px;
   width: 100%;
   object-fit: cover;
 }

@@ -1,41 +1,13 @@
 ---
 ---
+// TODO: Have a unified definition for cards
 .project-card {
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.project > h4 {
-    text-align: center;
-    font-weight: bold;
+    padding: 60px 30px 30px;
 }
 
 .athena-images {
     margin-bottom: 32px;
     border-radius: 8px;
 }
-
-.event-head {
-    margin-top: 100px;
-}
-
- .row-title {
-     padding-top: 200px;
-     padding-bottom: 70px;
- }
-
- .sig-img {
-    max-height: 100px;
- }
- .logo-box {
-     margin-bottom: 50px;
- }
- @media screen and (max-width: 768px) {
-    .logo-box {
-      display: none;
-    }
-  }

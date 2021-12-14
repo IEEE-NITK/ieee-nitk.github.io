@@ -8,44 +8,24 @@ $(document).ready(function ( $ ) {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
 		},
-			BlackBerry: function() {
+		BlackBerry: function() {
 			return navigator.userAgent.match(/BlackBerry/i);
 		},
-			iOS: function() {
+		iOS: function() {
 			return navigator.userAgent.match(/iPhone|iPad|iPod/i);
 		},
-			Opera: function() {
+		Opera: function() {
 			return navigator.userAgent.match(/Opera Mini/i);
 		},
-			Windows: function() {
+		Windows: function() {
 			return navigator.userAgent.match(/IEMobile/i);
 		},
-			any: function() {
+		any: function() {
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
 
-	var mobileMenuOutsideClick = function() {
-
-		$(document).click(function (e) {
-	    var container = $("#colorlib-offcanvas, .js-colorlib-nav-toggle");
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-
-	    	if ( $('body').hasClass('offcanvas') ) {
-
-    			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
-				
-	    	}
-	    	
-	    }
-		});
-
-	};
-
-
 	var offcanvasMenu = function() {
-
 		$('#page').prepend('<div id="colorlib-offcanvas" />');
 		$('#page').prepend('<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle colorlib-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
@@ -65,14 +45,14 @@ $(document).ready(function ( $ ) {
 			$this
 				.addClass('active')
 				.find('ul')
-				.slideDown(500, 'easeOutExpo');				
+				.slideDown(500, 'easeOutExpo');
 		}).mouseleave(function(){
 
 			var $this = $(this);
 			$this
 				.removeClass('active')
 				.find('ul')
-				.slideUp(500, 'easeOutExpo');				
+				.slideUp(500, 'easeOutExpo');
 		});
 
 
@@ -82,7 +62,7 @@ $(document).ready(function ( $ ) {
 
     			$('body').removeClass('offcanvas');
     			$('.js-colorlib-nav-toggle').removeClass('active');
-				
+
 	    	}
 		});
 	};
@@ -103,14 +83,14 @@ $(document).ready(function ( $ ) {
 
 		});
 	};
-	
+
 
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -133,47 +113,24 @@ $(document).ready(function ( $ ) {
 							el.removeClass('item-animate');
 						},  k * 100, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
 	};
 
-
-	var dropdown = function() {
-
-		$('.has-dropdown').mouseenter(function(){
-
-			var $this = $(this);
-			$this
-				.find('.dropdown')
-				.css('display', 'block')
-				.addClass('animated-fast fadeInUpMenu');
-
-		}).mouseleave(function(){
-			var $this = $(this);
-
-			$this
-				.find('.dropdown')
-				.css('display', 'none')
-				.removeClass('animated-fast fadeInUpMenu');
-		});
-
-	};
-
-
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
-			
+
 			event.preventDefault();
 
 			$('html, body').animate({
 				scrollTop: $('html').offset().top
 			}, 500, 'easeInOutExpo');
-			
+
 			return false;
 		});
 
@@ -187,26 +144,13 @@ $(document).ready(function ( $ ) {
 			}
 
 		});
-	
+
 	};
 
 
 	// Loading page
 	var loaderPage = function() {
 		$(".colorlib-loader").fadeOut("slow");
-	};
-
-
-	var parallax = function() {
-
-		if ( !isMobile.any() ) {
-			$(window).stellar({
-				horizontalScrolling: false,
-				hideDistantElements: false, 
-				responsive: true
-
-			});
-		}
 	};
 
 	var counter = function() {
@@ -221,44 +165,21 @@ $(document).ready(function ( $ ) {
 	var counterWayPoint = function() {
 		if ($('.colorlib-counters').length > 0 ) {
 			$('.colorlib-counters').waypoint( function( direction ) {
-										
+
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);					
+					setTimeout( counter , 400);
 					$(this.element).addClass('animated');
 				}
 			} , { offset: '90%' } );
 		}
 	};
 
-	// Owl Carousel
-	var owlCrouselFeatureSlide = function() {
-		var owl = $('.unapp_slider');
-		owl.owlCarousel({
-			animateOut: 'fadeOut',
-		   animateIn: 'fadeIn',
-			autoplay: true,
-			items: 1,
-		   loop: true,
-		   margin: 0,
-		   responsiveClass: true,
-		   nav: false,
-		   dots: true,
-		   autoplayHoverPause: true,
-		   smartSpeed: 500,
-		   navText: [
-		      "<i class='icon-arrow-left3 owl-direction'></i>",
-		      "<i class='icon-arrow-right3 owl-direction'></i>"
-	     	]
-		});
-
-	};
-    
     $(".dropdown-nav").hover(
         function(){ $(this).addClass('open') },
         function(){ $(this).removeClass('open') }
     );
 
-	
+
 	$(function(){
 		offcanvasMenu();
 		burgerMenu();
@@ -269,6 +190,5 @@ $(document).ready(function ( $ ) {
 		//parallax();
 		counter();
 		counterWayPoint();
-		//owlCrouselFeatureSlide();
 	});
 });

@@ -163,9 +163,9 @@ title: Team
                 <h2>Executive Members</h2>
             </div>
         </div>
-        <div class="container animate-box" style="padding-bottom: 50px;">
-            <ul class="nav-pills-custom" style="padding: 0 !important;">  
-                {% assign count = 0 %}  
+        <div class="row animate-box" style="padding-bottom: 50px;">
+            <ul class="nav-pills-custom">
+                {% assign count = 0 %}
                 {% for title in site.data.array.teams %}
                     {% assign id_variable = title.name | append : "-projects-tab" %}
                     {% assign href_variable = "#" | append : title.name | append : "-projects" %}
@@ -180,7 +180,7 @@ title: Team
                     {% assign count = 1 %}
                 {% endfor %}
             </ul>
-        </div>        
+        </div>
 
         <div class="tab-content" id="pills-tabContent">
             {% assign count_2 = 0 %}
@@ -190,8 +190,8 @@ title: Team
                 {% if count_2 == 0 %}
                 <div class="tab-pane fade active in" id={{id_variable_2}} aria-labelledby={{aria_variable_2}} role="tabpanel">
                 {% else %}
-                <div class="tab-pane fade" id={{id_variable_2}} aria-labelledby={{aria_variable_2}} role="tabpanel"> 
-                {% endif %} 
+                <div class="tab-pane fade" id={{id_variable_2}} aria-labelledby={{aria_variable_2}} role="tabpanel">
+                {% endif %}
                     <div id="exec" class="row animate-box">
                         {% assign len = site.data.team.members.size %}
                         {% assign i = 0 %}{% assign count = 0 %}
