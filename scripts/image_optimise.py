@@ -1,9 +1,4 @@
-#!/usr/bin/python2
-
 from PIL import Image
-from os import walk
-from os import listdir
-from os.path import isfile, join
 from sys import argv
 
 #files_list = [f for f in listdir(".") if isfile(join(".", f))]
