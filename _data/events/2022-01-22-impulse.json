@@ -1,0 +1,13 @@
+{
+    "title": "Impulse 2022",
+    "thumbnails": ["impulse-22.jpeg"],
+    "date": "22nd-25th January 2022",
+    "sig": "Diode",
+    "description": "Ever thought about the possibility of sampling below the Nyquist Rate? Enter compressed sensing! IEEE NITK's premier signal processing event, Impulse is back with a special focus on Compressed Sensing and Sparse Reconstruction!<br>Join us for introductory talks by esteemed professors and online workshops to bolster your fundamentals. Test your mettle on the final day with a 24-hour hackathon and win prizes up to ₹4000 and exciting goodies!",
+    "links": [
+        {
+            "title": "Registration Link",
+            "url": "https://forms.gle/UdYpA6rG4LLeNYcYA"
+        }
+    ]
+}
