@@ -1364,163 +1364,168 @@
 ],
   "core": [
     {
-      "email": "jeetshah250@gmail.com",
-      "name": "Jeet Shah",
+      "email": "nishantnayak2001@gmail.com",
+      "name": "Nishant Nayak",
       "position": "Convenor"
     },
     {
-      "email": "karthikrrao30@gmail.com",
-      "name": "Karthik Rao",
+      "email": "shobujpaul@hotmail.com m",
+      "name": "Shobuj Paul",
       "position": "Chairperson"
     },
     {
-      "email": "vineethnarayan42@gmail.com",
-      "name": "Vineeth Narayan P",
+      "email": "dharaneedaran2017@gmail.com",
+      "name": "Dharaneedaran K S",
       "position": "Vice Chairperson"
-    },
-    {
-      "email": "arnavnair13@gmail.com",
-      "name": "Arnav Santosh Nair",
-      "position": "Secretary"
-    },
-    {
-      "email": "nishantnayak2001@gmail.com",
-      "name": "Nishant N Nayak",
-      "position": "Joint Secretary"
-    },
-    {
-      "email": "chandran0303.cn@gmail.com",
-      "name": "Chandran Nandkumar",
-      "position": "Chief Coordinator"
     },
     {
       "email": "nakshatragopi2001@gmail.com",
       "name": "Nakshatra Gopi",
-      "position": "Treasurer"
+      "position": "Secretary"
     },
     {
-      "email": "Kaustubh1501@gmail.com",
-      "name": "Kaustubh",
-      "position": "Treasurer"
-    },
-    {
-      "email": "gaurangvelingkar@gmail.com",
-      "name": "Gaurang Jitendra Velingkar",
-      "position": "Webmaster"
-    },
-    {
-      "email": "shreyanamath033@gmail.com",
-      "name": "Shreya Namath",
-      "position": "Media Lead"
+      "email": "sunainasunil9@gmail.com",
+      "name": "Sunaina Sunil",
+      "position": "Joint Secretary"
     },
     {
       "email": "pranshushukla06@gmail.com",
       "name": "Pranshu Shukla",
+      "position": "SAC Lead"
+    },
+    {
+      "email": "anirudhprabhakaran3@gmail.com ",
+      "name": "Anirudh Prabhakaran",
+      "position": "Treasurer"
+    },
+    {
+      "email": "hsshashank9@gmail.com",
+      "name": "Shashank H S",
+      "position": "Webmaster"
+    },
+    {
+      "email": "inba2002.p@gmail.com",
+      "name": "Inbasekaran P",
+      "position": "Media and Outreach Lead"
+    },
+    {
+      "email": "ashishbharath2002@gmail.com",
+      "name": "Ashish Bharath",
       "position": "Envision Coordinator"
-    },
-    {
-      "email": "anirudhtulasi2000@gmail.com",
-      "name": "Anirudh T",
-      "position": "Student Outreach Lead"
-    },
-    {
-      "email": "adityasohoni@gmail.com",
-      "name": "Aditya Sohoni",
-      "position": "Computer Society Chair"
-    },
-    {
-      "email": "adityachirania97@gmail.com",
-      "name": "Aditya Chirania",
-      "position": "Computer Society Vice Chair"
-    },
-    {
-      "email": "rakshitajps@gmail.com",
-      "name": "Rakshita Varadarajan",
-      "position": "Computer Society Secretary"
-    },
-    {
-      "email": "anirudh.achal@gmail.com",
-      "name": "Anirudh Munnur Achal",
-      "position": "Computer Society Secretary"
-    },
-    {
-      "email": "bhaskar.cs.vyas@gmail.com",
-      "name": "Bhaskar Vyas",
-      "position": "Diode Chair"
-    },
-    {
-      "email": "ashrikant39@gmail.com",
-      "name": "A Shrikant",
-      "position": "SPS Chair"
-    },
-    {
-      "email": "saikartikeya03@gmail.com",
-      "name": "V Kartikeya",
-      "position": "SPS Secretary"
-    },
-    {
-      "email": "rmhanchate2000@gmail.com",
-      "name": "Rahul M Hanchate",
-      "position": "CAS Chair"
-    },
-    {
-      "email": "shobujpaul@hotmail.com",
-      "name": "Shobuj Paul",
-      "position": "CAS Secretary"
-    },
-    {
-      "email": "kartik.nayak@rocketmail.com",
-      "name": "Kartik Udaya Nayak",
-      "position": "Piston Chair"
-    },
-    {
-      "email": "vehanh.181me184@nitk.edu.in",
-      "name": "Vehan Doshi",
-      "position": "Piston Vice Chair"
-    },
-    {
-      "email": "vibamicky@gmail.com",
-      "name": "Viba Udupa",
-      "position": "Piston Secretary"
-    },
-    {
-      "email": "bdiptesh99@gmail.com",
-      "name": "Diptesh Banerjee",
-      "position": "Piston Secretary"
-    },
-    {
-      "email": "chandravaran2000@gmail.com",
-      "name": "Chandravaran Kunjeti",
-      "position": "SIGHT Chair"
-    },
-    {
-      "email": "adithya.kannan19@gmail.com",
-      "name": "Adithya Kannan",
-      "position": "IAS Chair"
-    },
-    {
-      "email": "rohanrao.jh@gmail.com",
-      "name": "Rohan Rao H J",
-      "position": "IAS Secretary"
-    },
-    {
-      "email": "varshu13chandru@gmail.com",
-      "name": "Varshini C",
-      "position": "WiE Chair"
-    },
-    {
-      "email": "krithikvaidya@gmail.com",
-      "name": "Krithik Muralidhar Vaidya",
-      "position": "Computer Society Project Head"
-    },
-    {
-      "email": "kkrishnaswaroop99@gmail.com",
-      "name": "K Krishna Swaroop",
-      "position": "Computer Society Project Head"
     },
     {
       "email": "dvpranav@gmail.com",
       "name": "Pranav D V",
+      "position": "Computer Society Chair"
+    },
+    {
+      "email": "jasonkrithik@gmail.com",
+      "name": "Jason Kumar",
+      "position": "Computer Society Vice Chair"
+    },
+    {
+      "email": "madhavkumar1523@gmail.com",
+      "name": "Madhav Kumar",
+      "position": "Computer Society Secretary"
+    },
+    {
+      "email": "kavyabhat@gmail.com",
+      "name": "Kavya Bhat",
+      "position": "Computer Society Secretary"
+    },
+    {
+      "email": "garvinpokhra121@gmail.com",
+      "name": "Garvin Pokhra",
+      "position": "Diode Head"
+    },
+    {
+      "email": "shreyas.rao114@gmail.com",
+      "name": "Shreyas Rao",
+      "position": "SPS Chair"
+    },
+    {
+      "email": "pranavmkoundinya@gmail.com ",
+      "name": "Pranav M Koundinya",
+      "position": "SPS Secretary"
+    },
+    {
+      "email": "krutideepan123@gmail.com",
+      "name": "Kruti Deepan Panda",
+      "position": "CAS Chair"
+    },
+    {
+      "email": "gaganas315@gmail.com",
+      "name": "K A Gaganashree",
+      "position": "CAS Secretary"
+    },
+    {
+      "email": "bdiptesh99@gmail.com",
+      "name": "Diptesh Banerjee",
+      "position": "Piston Chair"
+    },
+    {
+      "email": "varshu13chandru@gmail.com",
+      "name": "Varshini C",
+      "position": "Piston Vice Chair"
+    },
+    {
+      "email": "harishrkale20@gmail.com",
+      "name": "Harish Ravi Kale",
+      "position": "Piston Secretary"
+    },
+    {
+      "email": "spandan.patkar19@gmail.com",
+      "name": "Spandan Patkar",
+      "position": "Piston Secretary"
+    },
+    {
+      "email": "nikhil2002s@gmail.com",
+      "name": "Nikhil P Reddy",
+      "position": "SIGHT Chair"
+    },
+    {
+      "email": "rohanrao.jh@gmail.com",
+      "name": "Rohan Rao H J",
+      "position": "IAS Chair"
+    },
+    {
+      "email": "deepanshugupt77@gmail.com ",
+      "name": "Deepanshu Gupta",
+      "position": "IAS Secretary"
+    },
+    {
+      "email": "virenvarma007@gmail.com",
+      "name": "Viren Varma",
+      "position": "RAS Chair"
+    },
+    {
+      "email": "shinchan7972@gmail.com",
+      "name": "Shivani Chanda",
+      "position": "RAS Secretary"
+    },
+    {
+      "email": "shannoncarlo2561@gmail.com",
+      "name": "Shannon Britney Carlo",
+      "position": "WiE Chair"
+    },
+    {
+      "email": "gaurangvelingkar@gmail.com",
+      "name": "Gaurang Velingkar",
+      "position": "Computer Society Project Head"
+    },
+    {
+      "email": "rakki22k@gmail.com",
+      "name": "Rakshit P",
+      "position": "Computer Society Project Head"
+    },
+    {
+      "email": "adithyarajesh01@gmail.com",
+      "name": "Adithya Rajesh",
+      "position": "Computer Society Project Head"
+    },
+    {
+      "email": "advaithcurpod@gmail.com",
+      "name": "Advaith Curpod",
       "position": "Computer Society Project Coordinator"
     }
   ],
