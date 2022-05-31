@@ -1183,6 +1183,20 @@ h1.intro-header::before {
   transition: all 0.5s ease-in-out;
 }
 
+#about img{
+  width: 60%;
+}
+.about-image-1 {
+  flex-basis: 30%;
+}
+
+.about-image-2 {
+  flex-basis: 30%;
+}
+
+.about-image-3 {
+  flex-basis: 30%;
+}
 
 /* ------------------------------------------------------------------- 
  * menu trigger - (_site-layout.css) 
@@ -2414,10 +2428,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .sponsors-container {
+  text-align: center;
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
