@@ -1916,7 +1916,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #about {
-  /* min-height: 500px; */
+  min-height: 650px;
   background: #ebebeb;
   padding-top: 18rem;
   overflow: hidden;
