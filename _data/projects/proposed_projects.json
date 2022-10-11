@@ -1,39 +1,38 @@
 {
     "Compsoc" : [
-            "Anchor: The Docker Clone",
-            "Collaborative Code Editor with Audio Rooms", 
-            "Generative Image Inpainting using GANs",
-            "Lung Disease Detection",
-            "Modelling Epidemic Outbreak in NITK using GNNs",
-            "Visual Question Answering",
-            "PyPseudoFlow: Generating Psuedocode and Flowcharts from Python in VSCode",
-            "Programming Judge"
+        "μLiST : Multilingual Speech to Text",
+        "CodeBook",
+        "Concerto Web Editor",
+        "Email-2-FAQ",
+        "gofer : A CLI-based file transfer tool",
+        "MIM - A Torrent Client",
+        "Social Media Dapp",
+        "StockSpy",
+        "Vertex, the web browser"
+        
     ],
 
     "Diode" : [
-            "Anti-Anti-Masker",
-            "Robot Control using Smartphone", 
-            "Battery Management System for Electric Vehicles",
-            "Quantum Circuits",
-            "RDNA2 based Computing Unit",
-            "VLSI Design of RISC Processor using openLane",
-            "Segmentation of Medical Images",
-            "Stock Price Predictor using Twitter and News Feeds",
-            "Brain Image Analysis",
-            "Short Wave Listening using Software Defined Radio",
-            "Time Sensitive Networks"
+        "8-bit Computer",
+        "IoT Stethoscope",
+        "Low-light Image Enhancement",
+        "Password Cracker on FPGA",
+        "RISC-V SoC",
+        "Rubik's Cube Solver",
+        "Speech-to-Image Translation without Text",
+        "Three-Level DC-DC Converter with Maximum Power Point Tracker(MPPT)"
+        
     ],
 
     "Piston" : [
-            "Design and Analysis of Underwater Tunnel",
-            "3D Printing in construction using concrete and additive materials",
-            "Anti-Anti-Masker",
-            "Critical heat analysis of blast furnace",
-            "Deep Learning based Trajectory Optimization of Bipedal Robots",
-            "Design and Control of Omnidirectional robot in an uneven terrain",
-            "Electrochemical Treatment of Tumours",
-            "Lattice Boltzmann Method Fluid Solver",
-            "Lithium Ion Batteries",
-            "Reactive Flow Solver for Combustion Chamber Analysis"
+        "Soft amphibious vehicle",
+        "Optimization of Shell and Tube Heat Exchanger",
+        "String Bicycle",
+        "Simulation of Coal Integrated Gasification process combined with the slag waste recovery system Aspen Plus",
+        "Generating LU/LC Maps in Google Earth Engine and locating different area inside NITK Campus",
+        "Synthesis of Graphene quantum dot",
+        "Geo-Fencing of drones",
+        "Suspension Tuning of an Automobile : A Critical Analysis",
+        "Phase Field Modelling of Grain Growth"
     ]
 }
