@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Team
+css: /assets/css/core.css
 ---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- Faculty -->
 <div class="colorlib-intro">
@@ -122,35 +125,37 @@ title: Team
 
 <!-- Core -->
 <div class="team-info colorlib-bg-white">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box" style="margin-top: 30px;">
                 <h2>Core Members</h2>
             </div>
         </div>
-        <div id="core" class="row animate-box">
-            {% assign i = 0 %}
+        <div id="core" class="animate-box core-container">
             {% for item in site.data.team.core %}
-            {% assign k = i|modulo:4 %}
-            {% if k == 0 %}
-            <div class="row text-center">
-            {% endif %}
-                <div class="col-md-3 text-center">
-                    <h3><strong>{{ item.name }}</strong></h3>
-                    <h4 class="text-center">{{ item.position }}</h4>
-                    <br>
+                <div class="core-card" data-aos="fade-up">
+                    <div class="core-card-body">
+                        <div class="core-card-image">
+                            <img src="/assets/img/core/{{item.image}}" alt="member">
+                        </div>
+                
+                        <hr>
+                        <p class="text-center">
+                            <h2 class="text-center m-2">{{item.name}}</h2>
+                            <h4 class="text-center m-2">{{item.position}}</h4>
+                        </p>
+                    </div>
+                    <div class="core-card-footer">
+                        <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl core-card-icon"></i></a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2xl core-card-icon"></i></a>
+                        <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope fa-2xl core-card-icon"></i></a>
+                    </div>
                 </div>
-            {% if k == 3 %}
-            </div>
-            {% endif %}
-            {% assign i = i|plus:1 %}
-            {% if forloop.index == site.data.team.core.size and k != 3 %}
-            </div>
-            {% endif %}
             {% endfor %}
         </div>
     </div>
 </div>
+<!-- --------------------- -->
 
 <div class="container-fluid colorlib-bg-white"><div class="animate-box"><hr></div></div>
 
