@@ -1,49 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Sarabun:wght@500&display=swap');
 
-.core-container {
+.card-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.core-card {
+.contact-card {
     width: 275px;
     height: 365px;
-    
     margin: 30px;
-
     background: rgba( 217, 217, 217, 0.1);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-    
     border-width: 0;
     overflow: hidden;
 }
 
-.core-card-body {
+.contact-card-body {
     width: 80%;
     height: 290px;
-
-
-
-    background-color: rgba( 0, 1, 2, 0.1);
+    /* background-color: rgba( 0, 1, 2, 0.1); */
     /* background-color: rgba( 0, 86, 167, 0.15); */
     backdrop-filter: blur(35px);
     -webkit-backdrop-filter: blur(35px);
-
-
     margin: 0px auto auto;
     padding-bottom: 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
-.core-card-footer {
+#core .contact-card-body {
+    /* background-color: rgba( 0, 1, 2, 0.1); */
+    background-color: rgba( 0, 86, 167, 0.15);
+}
+
+#faculty .contact-card-body {
+    /* background-color: rgba( 0, 1, 2, 0.1); */
+    background-color: rgba( 0, 86, 167, 0.15);
+}
+
+.contact-card-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -56,62 +57,70 @@
     -webkit-backdrop-filter: blur(5px);
 }
 
-.core-card-image {
+.contact-card-image {
     max-height: 180px;
     overflow: hidden;
 }
 
-.core-card-icon {
+.contact-card-icon {
     transition-duration: 0.5s;
 }
 
-.core-card-icon.fa-linkedin {
+.contact-card-icon.fa-linkedin {
     color: #0A66C2;
 }
-.core-card-icon.fa-github {
+.contact-card-icon.fa-github {
     color: #000;
 }
-.core-card-icon.fa-envelope {
+.contact-card-icon.fa-envelope {
     color: #BB001B;
 }
 
-.core-card-icon:hover {
+.contact-card-icon:hover {
     transition-duration: 0.5s;
     transform: rotate(360deg) scale(1.2);
 }
 
-.core-card img {
+.contact-card img {
     min-width: 160px;
     max-width: 160px;
     min-height: 160px;
     max-height: 160px;
-    clip-path: circle(40% at 50% 40%);
     object-fit: cover;
-    /* border-radius: 50%; */
     display: block;
     margin: 20px auto 5px;
 }
 
-.core-card .m-2 {
+#core .contact-card img {
+    clip-path: circle(40% at 50% 40%);
+}
+
+#faculty .contact-card img {
+    min-width: 140px;
+    max-width: 140px;
+    min-height: 140px;
+    max-height: 140px;
+    border-radius: 50%;
+}
+
+.contact-card .m-2 {
     margin: 5px auto;
 }
 
-.core-card h2 {
+.contact-card h2 {
     font-weight: bold;
     font-size: 2.0rem;
     font-family: 'Sarabun', sans-serif;
-    /* color: white; */
-    /* font-family: 'Jua', sans-serif; */
 }
 
-.core-card h4 {
+.contact-card h4 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.5rem;
     color: rgba(0, 36, 165, 0.823);
     font-weight: normal;
 }
 
-.core-card hr {
+.contact-card hr {
     width: 50%;
     border-style: solid;
     border-width: 0;
