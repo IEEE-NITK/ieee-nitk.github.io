@@ -1,4 +1,67 @@
 {
+  "faculty": [
+    {
+      "name": "Dr. Annappa",
+      "position": "Branch Counselor",
+      "image": "annappa.jpg",
+      "link": "http://cse.nitk.ac.in/faculty/annappa"
+    },
+    {
+      "name": "Dr. Sourav Kanti Addya",
+      "position": "CompSoc Faculty Advisor",
+      "image": "Sourav.jpg",
+      "link": "https://souravkaddya.in/"
+    },
+    {
+      "name": "Dr. B Venkatesa Perumal",
+      "position": "CAS Faculty Advisor",
+      "image": "bvp.jpg",
+      "link": "http://eee.nitk.ac.in/professor/BVP"
+    },
+    {
+      "name": "Dr. Deepu Vijayasenan",
+      "position": "SPS Faculty Advisor",
+      "image": "deepu.jpg",
+      "link": "http://ece.nitk.ac.in/faculty/deepu-vijayasenan"
+    },
+    {
+      "name": "Dr. Mandeep Singh",
+      "position": "Photonic Society Faculty Advisor",
+      "image": "mandeep_singh.png",
+      "link": "https://ece.nitk.ac.in/professor/mandeep-singh"
+    },
+    {
+      "name": "Dr. Bhawana Rudra",
+      "position": "WiE Faculty Advisor",
+      "image": "bhawanarudra.jpg",
+      "link": "http://infotech.nitk.ac.in/faculty/bhawana-rudra"
+    },
+    {
+      "name": "Dr. Kalpana R",
+      "position": "IAS Faculty Advisor",
+      "image": "kalpana.jpg",
+      "link": "http://www.eee.nitk.ac.in/professor/RK"
+    },
+    {
+      "name": "Dr. Sumam David",
+      "position": "SIGHT Chair",
+      "image": "sumam_david.jpg",
+      "link": "http://ece.nitk.ac.in/faculty/sumam-david-s"
+    },
+    {
+      "name": "Dr. Guruprasad K R",
+      "position": "RAS Faculty Advisor",
+      "image": "guruprasad_kr.jpg",
+      "link": "https://mech.nitk.ac.in/faculty/kr-guruprasad"
+    },
+    {
+      "name": "Dr. Shyam Lal",
+      "position": "GRSS Faculty Advisor",
+      "image": "shyam_lal.jpg",
+      "link": "https://ece.nitk.ac.in/faculty/shyam-lal"
+    }
+  ],
+
   "members": [
 {
   "email": "sai.prasad.22092000@gmail.com",
@@ -1366,167 +1429,266 @@
     {
       "email": "nishantnayak2001@gmail.com",
       "name": "Nishant Nayak",
-      "position": "Convenor"
+      "position": "Convenor",
+      "image": "NishantNayak.jpg",
+      "linkedin": "https://www.linkedin.com/in/nishant-nayak-01/",
+      "github": "nishant-nayak"
     },
     {
       "email": "shobujpaul@hotmail.com",
       "name": "Shobuj Paul",
-      "position": "Chairperson"
+      "position": "Chairperson",
+      "image": "Shobuj.jpg",
+      "linkedin": "https://www.linkedin.com/in/shobuj-paul",
+      "github": "Shobuj-Paul"
     },
     {
       "email": "dharaneedaran2017@gmail.com",
       "name": "Dharaneedaran K S",
-      "position": "Vice Chairperson"
+      "position": "Vice Chairperson",
+      "image": "DHARANEEDARAN.jpg",
+      "linkedin": "https://www.linkedin.com/in/dharaneedaran-k-s-724497206/",
+      "github": "DharaneedaranKS"
     },
     {
       "email": "nakshatragopi2001@gmail.com",
       "name": "Nakshatra Gopi",
-      "position": "Secretary"
+      "position": "Secretary",
+      "image": "NAKSHATRA-GOPI.jpg",
+      "linkedin": "https://www.linkedin.com/in/nakshatra-gopi",
+      "github": "lil-monk"
     },
     {
       "email": "sunainasunil9@gmail.com",
       "name": "Sunaina Sunil",
-      "position": "Joint Secretary"
+      "position": "Joint Secretary",
+      "image": "SUNAINA-SUNIL.jpg",
+      "linkedin": "https://www.linkedin.com/in/sunaina-sunil-8467009113/",
+      "github": "SunainaSunil"
     },
     {
       "email": "pranshushukla06@gmail.com",
       "name": "Pranshu Shukla",
-      "position": "SAC Lead"
+      "position": "SAC Lead",
+      "image": "pranshu.png",
+      "linkedin": "https://www.linkedin.com/in/pranshu-shukla-50a79931/",
+      "github": "Pranshu-S"
     },
     {
       "email": "anirudhprabhakaran3@gmail.com",
       "name": "Anirudh Prabhakaran",
-      "position": "Treasurer"
+      "position": "Treasurer",
+      "image": "Anirudh-Prabhakaran.jpg",
+      "linkedin": "https://linkedin.com/in/anirudhprabhakaran",
+      "github": "anirudhprabhakaran3"
     },
     {
       "email": "hsshashank9@gmail.com",
       "name": "Shashank H S",
-      "position": "Webmaster"
+      "position": "Webmaster",
+      "image": "SHASHANK-H-S.jpg",
+      "linkedin": "https://www.linkedin.com/in/shashank-h-s-hs1712",
+      "github": "Shashankhs17"
     },
     {
       "email": "inba2002.p@gmail.com",
       "name": "Inbasekaran P",
-      "position": "Media and Outreach Lead"
+      "position": "Media and Outreach Lead",
+      "image": "INBASEKARAN.png",
+      "linkedin": "https://www.linkedin.com/in/inbasekaran-perumal-8a41811bb/",
+      "github": "the-pinbo"
     },
     {
       "email": "ashishbharath2002@gmail.com",
       "name": "Ashish Bharath",
-      "position": "Envision Coordinator"
+      "position": "Envision Coordinator",
+      "image": "Ashish-Bharath.jfif",
+      "linkedin": "https://www.linkedin.com/in/ashish-bharath-b73240221/",
+      "github": "MistaAsh"
     },
     {
       "email": "dvpranav@gmail.com",
       "name": "Pranav D V",
-      "position": "Computer Society Chair"
+      "position": "Computer Society Chair",
+      "image": "pranav.png",
+      "linkedin": "https://www.linkedin.com/in/pranav-dv-5829141b8/",
+      "github": "pranavdv"
     },
     {
       "email": "jasonkrithik@gmail.com",
       "name": "Jason Kumar",
-      "position": "Computer Society Vice Chair"
+      "position": "Computer Society Vice Chair",
+      "image": "Jason-Krithik.jpg",
+      "linkedin": "https://www.linkedin.com/in/jason-kumar-20b694196/",
+      "github": "jkk2000"
     },
     {
       "email": "madhavkumar1523@gmail.com",
       "name": "Madhav Kumar",
-      "position": "Computer Society Secretary"
+      "position": "Computer Society Secretary",
+      "image": "MADHAV-KUMAR.jpeg",
+      "linkedin": "https://linkedin.com/in/minimaddy",
+      "github": "miniMaddy"
     },
     {
       "email": "kavyabhat@gmail.com",
       "name": "Kavya Bhat",
-      "position": "Computer Society Secretary"
+      "position": "Computer Society Secretary",
+      "image": "KavyaBhat.png",
+      "linkedin": "https://www.linkedin.com/in/kavya-bhat-4134a9200/",
+      "github": "kavyabhat02"
     },
     {
       "email": "garvinpokhra121@gmail.com",
       "name": "Garvin Pokhra",
-      "position": "Diode Head"
+      "position": "Diode Head",
+      "image": "Garvin-Pokhra.jpg",
+      "linkedin": "https://www.linkedin.com/in/garvin-pokhra-58166a1b1",
+      "github": "Jimmy622"
     },
     {
       "email": "shreyas.rao114@gmail.com",
       "name": "Shreyas Rao",
-      "position": "SPS Chair"
+      "position": "SPS Chair",
+      "image": "Shreyas-Rao.jpg",
+      "linkedin": "https://www.linkedin.com/in/shreyas-rao-0a013b1b0",
+      "github": "shreyasrao114"
     },
     {
       "email": "pranavmkoundinya@gmail.com ",
       "name": "Pranav M Koundinya",
-      "position": "SPS Secretary"
+      "position": "SPS Secretary",
+      "image": "PRANAV-M-KOUNDINYA.jpg",
+      "linkedin": "https://www.linkedin.com/in/pranav-m-koundinya-4a7597207",
+      "github": "pranavmkoundinya"
     },
     {
       "email": "krutideepan123@gmail.com",
       "name": "Kruti Deepan Panda",
-      "position": "CAS Chair"
+      "position": "CAS Chair",
+      "image": "Kruti-Deepan-Panda.jpg",
+      "linkedin": "https://www.linkedin.com/in/kruti-deepan-panda-0a93081a5",
+      "github": "krutideepanpanda"
     },
     {
       "email": "gaganas315@gmail.com",
       "name": "K A Gaganashree",
-      "position": "CAS Secretary"
+      "position": "CAS Secretary",
+      "image": "Gagana.jpg",
+      "linkedin": "https://www.linkedin.com/in/k-a-gaganashree-2a7bb21ba/",
+      "github": "gagana-05"
     },
     {
       "email": "bdiptesh99@gmail.com",
       "name": "Diptesh Banerjee",
-      "position": "Piston Chair"
+      "position": "Piston Chair",
+      "image": "DIPTESH-BANERJEE.jpg",
+      "linkedin": "https://www.linkedin.com/in/diptesh-banerjee-6a23a2190/",
+      "github": "bdiptesh99"
     },
     {
       "email": "varshu13chandru@gmail.com",
       "name": "Varshini C",
-      "position": "Piston Vice Chair"
+      "position": "Piston Vice Chair",
+      "image": "Varshini-C.jpg",
+      "linkedin": "https://www.linkedin.com/in/varshini-chandrashekar-31a4401a8",
+      "github": ""
     },
     {
       "email": "harishrkale20@gmail.com",
       "name": "Harish Ravi Kale",
-      "position": "Piston Secretary"
+      "position": "Piston Secretary",
+      "image": "Harish-R.jpg",
+      "linkedin": "https://www.linkedin.com/in/harish-kale-04393a202",
+      "github": "harishA3"
     },
     {
       "email": "spandan.patkar19@gmail.com",
       "name": "Spandan Patkar",
-      "position": "Piston Secretary"
+      "position": "Piston Secretary",
+      "image": "Spandan.png",
+      "linkedin": "https://www.linkedin.com/in/spandan-patkar-01a5b7222/",
+      "github": ""
     },
     {
       "email": "nikhil2002s@gmail.com",
       "name": "Nikhil P Reddy",
-      "position": "SIGHT Chair"
+      "position": "SIGHT Chair",
+      "image": "Nikhil-P-Reddy.jpg",
+      "linkedin": "https://www.linkedin.com/in/nikhil-reddy-b51080202/",
+      "github": "nikhilreddy2002"
     },
     {
       "email": "rohanrao.jh@gmail.com",
       "name": "Rohan Rao H J",
-      "position": "IAS Chair"
+      "position": "IAS Chair",
+      "image": "Rohan-H-J.jpg",
+      "linkedin": "https://www.linkedin.com/in/rohan-rao-h-j-a482241b8/",
+      "github": "Rohanrao02"
     },
     {
       "email": "deepanshugupt77@gmail.com",
       "name": "Deepanshu Gupta",
-      "position": "IAS Secretary"
+      "position": "IAS Secretary",
+      "image": "DEEPANSHU-GUPTA.jpeg",
+      "linkedin": "https://www.linkedin.com/in/deepanshu-gupta-519631224/",
+      "github": "deepanshug77"
     },
     {
       "email": "virenvarma007@gmail.com",
       "name": "Viren Varma",
-      "position": "RAS Chair"
+      "position": "RAS Chair",
+      "image": "Viren-Verma.jpg",
+      "linkedin": "https://www.linkedin.com/mwlite/in/viren-varma-b162b4148",
+      "github": "virenvarma007"
     },
     {
       "email": "shinchan7972@gmail.com",
       "name": "Shivani Chanda",
-      "position": "RAS Secretary"
+      "position": "RAS Secretary",
+      "image": "CHANDA-SHIVANI.jpg",
+      "linkedin": "https://www.linkedin.com/in/shivani-chanda",
+      "github": "Shivani-Chanda"
     },
     {
       "email": "shannoncarlo2561@gmail.com",
       "name": "Shannon Britney Carlo",
-      "position": "WiE Chair"
+      "position": "WiE Chair",
+      "image": "SHANNON-BRITNEY-CARLO.jpg",
+      "linkedin": "https://www.linkedin.com/in/shannon-carlo-666945216/",
+      "github": ""
     },
     {
       "email": "gaurangvelingkar@gmail.com",
       "name": "Gaurang Velingkar",
-      "position": "Computer Society Project Head"
+      "position": "Computer Society Project Head",
+      "image": "Gaurang-Velingkar.png",
+      "linkedin": "https://www.linkedin.com/in/gaurang-velingkar-577b1a1ab",
+      "github": "gaurang2001"
     },
     {
       "email": "rakki22k@gmail.com",
       "name": "Rakshit P",
-      "position": "Computer Society Project Head"
+      "position": "Computer Society Project Head",
+      "image": "RAKSHIT-P.jpeg",
+      "linkedin": "https://www.linkedin.com/in/rakshit-p/",
+      "github": "rakki-18"
     },
     {
       "email": "adithyarajesh01@gmail.com",
       "name": "Adithya Rajesh",
-      "position": "Computer Society Project Head"
+      "position": "Computer Society Project Head",
+      "image": "Adithya-Rajesh-Chandrassery.jpg",
+      "linkedin": "https://www.linkedin.com/in/adithya-rajesh-72774b186/",
+      "github": "DeltaCube23"
     },
     {
       "email": "advaithcurpod@gmail.com",
       "name": "Advaith Curpod",
-      "position": "Computer Society Project Coordinator"
+      "position": "Computer Society Project Coordinator",
+      "image": "ADVAITH-PRASAD-CURPOD.jpg",
+      "linkedin": "https://www.linkedin.com/in/advaith-curpod-1031b9204/",
+      "github": "advaithcurpod"
     }
   ],
   "alumni": [
