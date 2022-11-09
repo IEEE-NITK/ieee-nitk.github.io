@@ -1,161 +1,80 @@
 ---
 layout: default
 title: Team
+css: /assets/css/team.css
 ---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- Faculty -->
 <div class="colorlib-intro">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
                 <h2>Faculty Members</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/annappa.jpg" class="staff-img" alt="Dr. Annappa">
-                    <div class="desc">
-                        <h3>Dr. Annappa</h3>
-                        <span class="faculty-position">Branch Counselor</span><!-- <div class="no-tablet"><br></div> -->
-                        <p><a href="http://cse.nitk.ac.in/faculty/annappa" title="Dr. Annappa's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
+
+        <div id="faculty" class="animate-box card-container">
+            {% for item in site.data.team.faculty %}
+            <div class="contact-card" data-aos="fade-up">
+                <div class="contact-card-body">
+                    <div class="contact-card-image">
+                        <img src="/assets/img/faculty/{{item.image}}" alt="{{item.name}}">
                     </div>
+                    <hr>
+                    <p class="text-center">
+                        <h2 class="text-center m-2">{{item.name}}</h2>
+                        <h4 class="text-center m-2">{{item.position}}</h4>
+                    </p>
+                </div>
+                <div class="contact-card-footer">
+                    <a href="{{item.link}}" title="{{item.name}}'s Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="col-md-4 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/Sourav.jpg" class="staff-img" alt="Dr. Sourav Kanti Addya">
-                    <div class="desc">
-                        <h3>Dr. Sourav Kanti Addya</h3>
-                        <span class="faculty-position">CompSoc Faculty Advisor</span>
-                        <p><a href="https://souravkaddya.in/" title="Dr. Sourav K Addya's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/bvp.jpg" class="staff-img" alt="Dr. B Venkatesa Perumal">
-                    <div class="desc">
-                        <h3>Dr. B Venkatesa Perumal</h3>
-                        <span class="faculty-position">CAS Faculty Advisor</span>
-                        <p><a href="http://eee.nitk.ac.in/professor/BVP" title="Dr. BVP's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/deepu.jpg" class="staff-img" alt="Dr. Deepu Vijayasenant">
-                    <div class="desc">
-                        <h3>Dr. Deepu Vijayasenan</h3>
-                        <span class="faculty-position">SPS Faculty Advisor</span>
-                        <p><a href="http://ece.nitk.ac.in/faculty/deepu-vijayasenan" title="Dr. Deepu Vijayasenan's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/mandeep_singh.png" class="staff-img" alt="Dr. Mandeep Singh">
-                    <div class="desc">
-                        <h3>Dr. Mandeep Singh</h3>
-                        <span class="faculty-position">Photonic Society Faculty Advisor</span>
-                        <p><a href="https://ece.nitk.ac.in/professor/mandeep-singh" title="Dr. Mandeep Singh's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/bhawanarudra.jpg" class="staff-img" alt="Dr. Bhawana Rudra">
-                    <div class="desc">
-                        <h3>Dr. Bhawana Rudra</h3>
-                        <span class="faculty-position">WiE Faculty Advisor</span>
-                        <p><a href="http://infotech.nitk.ac.in/faculty/bhawana-rudra" title="Dr. Bhawana Rudra's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/kalpana.jpg" class="staff-img" alt="Dr. Kalpana R">
-                    <div class="desc">
-                        <h3>Dr. Kalpana R</h3>
-                        <span class="faculty-position">IAS Faculty Advisor</span>
-                        <p><a href="http://www.eee.nitk.ac.in/professor/RK" title="Dr. Kalpana R's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/sumam_david.jpg" class="staff-img" alt="Dr. Sumam David">
-                    <div class="desc">
-                        <h3>Dr. Sumam David</h3>
-                        <span class="faculty-position">SIGHT Chair</span>
-                        <p><a href="http://ece.nitk.ac.in/faculty/sumam-david-s" title="Dr. Sumam David's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/guruprasad_kr.jpg" class="staff-img" alt="Dr. Guruprasad K R">
-                    <div class="desc">
-                        <h3>Dr. Guruprasad KR</h3>
-                        <span class="faculty-position">RAS Faculty Advisor</span>
-                        <p><a href="https://mech.nitk.ac.in/faculty/kr-guruprasad" title="Dr. Guruprasad K R's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 text-center animate-box">
-                <div class="staff-entry">
-                    <img src="assets/img/faculty/shyam_lal.jpg" class="staff-img" alt="Dr. Shyam Lal">
-                    <div class="desc">
-                        <h3>Dr. Shyam Lal</h3>
-                        <span class="faculty-position">GRSS Faculty Advisor</span>
-                        <p><a href="https://ece.nitk.ac.in/faculty/shyam-lal" title="Dr. Shyam Lal's Personal Page" class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Web Page <i class="fa fa-arrow-right"></i></a></p>
-                    </div>
-                </div>
-            </div>
+        {% endfor %}
         </div>
     </div>
 </div>
+<!-- ------------------------------- -->
 
 <!-- Core -->
 <div class="team-info colorlib-bg-white">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box" style="margin-top: 30px;">
                 <h2>Core Members</h2>
             </div>
         </div>
-        <div id="core" class="row animate-box">
-            {% assign i = 0 %}
+        <div id="core" class="animate-box card-container">
             {% for item in site.data.team.core %}
-            {% assign k = i|modulo:4 %}
-            {% if k == 0 %}
-            <div class="row text-center">
-            {% endif %}
-                <div class="col-md-3 text-center">
-                    <h3><strong>{{ item.name }}</strong></h3>
-                    <h4 class="text-center">{{ item.position }}</h4>
-                    <br>
+                <div class="contact-card" data-aos="fade-up">
+                    <div class="contact-card-body">
+                        <div class="contact-card-image">
+                            <img src="/assets/img/core/{{item.image}}" alt="member">
+                        </div>
+                
+                        <hr>
+                        <p class="text-center">
+                            <h2 class="text-center m-2">{{item.name}}</h2>
+                            <h4 class="text-center m-2">{{item.position}}</h4>
+                        </p>
+                    </div>
+                    <div class="contact-card-footer">
+                        <a href="{{item.linkedin}}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl contact-card-icon"></i></a>
+                        <a href="https://github.com/{{item.github}}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2xl contact-card-icon"></i></a>
+                        <a href="mailto:{{item.email}}" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope fa-2xl contact-card-icon"></i></a>
+                    </div>
                 </div>
-            {% if k == 3 %}
-            </div>
-            {% endif %}
-            {% assign i = i|plus:1 %}
-            {% if forloop.index == site.data.team.core.size and k != 3 %}
-            </div>
-            {% endif %}
             {% endfor %}
         </div>
     </div>
 </div>
+<!-- --------------------- -->
 
 <div class="container-fluid colorlib-bg-white"><div class="animate-box"><hr></div></div>
 
 <!-- Exective Members -->
-
 <div class="team-info colorlib-bg-white">
     <div class="container">
         <div class="row">
