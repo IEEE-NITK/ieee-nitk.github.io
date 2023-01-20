@@ -1,13 +1,5 @@
 $(document).ready(function () {
 
-    AOS.init({
-        offset: 200,
-        duration: 400,
-        easing: 'ease-in-sine',
-        delay: 75,
-        once: true,
-    });
-    
     // Navigation bar
     // Toggling between top and side navigation based on screen width
     function toggleNav () {
@@ -135,4 +127,11 @@ $(document).ready(function () {
         }
     });
 
+    // AOS.init({
+    //     offset: 200,
+    //     duration: 400,
+    //     easing: 'ease-in-sine',
+    //     delay: 75,
+    //     once: true,
+    // });
 });
