@@ -67,13 +67,24 @@
 
     "Photonics Society" : {
 
-        "description" : "The IEEE Photonics Society forms the hub of a vibrant technical community dedicated to transforming breakthroughs in quantum physics into the devices, systems and products to revolutionize our daily lives. From ubiquitous and inexpensive global communications via fiber optics, to lasers for medical and other applications, to flat-screen displays, to photovoltaic devices for solar energy, to LEDs for energy-efficient illumination, there are myriad examples of the society’s impact on the world around us.",
+        "description" : "The IEEE Photonics Society forms the hub of a vibrant technical community dedicated to transforming breakthroughs in quantum physics into the devices, systems and products to revolutionize our daily lives. From ubiquitous and inexpensive global communications via fiber optics, to lasers for medical and other applications, to flat-screen displays, to photovoltaic devices for solar energy, to LEDs for energy-efficient illumination, there are myriad examples of the society's impact on the world around us.",
 
         "image" : "/assets/img/logos/photonics.png",
 
         "alt" : "Photonics Society",
 
         "link" : "https://www.photonicssociety.org/"
+    },
+
+    "Computational Intelligence Society (CIS)" : {
+
+        "description" : "The IEEE Computational Intelligence Society (CIS) is a vibrant community working towards a common goal - to unravel the mysteries of the ever-evolving field of computational intelligence with its focus on neural networks, fuzzy systems, and evolutionary computation. The society hosts conferences, publishes journals, and provides educational resources to foster learning and collaboration leading to the development of cutting-edge applications and forging the future of AI.",
+
+        "image" : "/assets/img/logos/cis.png",
+
+        "alt" : "CIS",
+
+        "link" : "https://cis.ieee.org/"
     },
 
     "SIGHT" : {
