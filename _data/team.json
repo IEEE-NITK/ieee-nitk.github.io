@@ -2,7 +2,7 @@
   "faculty": [
     {
       "name": "Dr. Annappa",
-      "position": "Branch Counselor",
+      "position": "Branch Counselor,<br>CIS Faculty Advisor",
       "image": "annappa.jpg",
       "link": "http://cse.nitk.ac.in/faculty/annappa"
     },
@@ -1579,12 +1579,12 @@
       "github": "gagana-05"
     },
     {
-      "email": "bdiptesh99@gmail.com",
-      "name": "Diptesh Banerjee",
+      "email": "mallirko@gmail.com",
+      "name": "Mallikarjun G M",
       "position": "Piston Chair",
-      "image": "DIPTESH-BANERJEE.jpg",
-      "linkedin": "https://www.linkedin.com/in/diptesh-banerjee-6a23a2190/",
-      "github": "bdiptesh99"
+      "image": "mallikarjun.jpg",
+      "linkedin": "https://www.linkedin.com/in/mallikarjungm/",
+      "github": ""
     },
     {
       "email": "varshu13chandru@gmail.com",
@@ -1617,6 +1617,38 @@
       "image": "Nikhil-P-Reddy.jpg",
       "linkedin": "https://www.linkedin.com/in/nikhil-reddy-b51080202/",
       "github": "nikhilreddy2002"
+    },
+    {
+      "email": "sidharth.lanka@gmail.com",
+      "name": "Sidharth Lanka",
+      "position": "CIS Chair",
+      "image": "siddarth_lanka.jpg",
+      "linkedin": "https://www.linkedin.com/in/sidharthlanka",
+      "github": "https://github.com/SidharthLanka"
+    },
+    {
+      "email": "nishantnayak2001@gmail.com",
+      "name": "Nishant Nayak",
+      "position": "CIS Vice Chair",
+      "image": "NishantNayak.jpg",
+      "linkedin": "https://www.linkedin.com/in/nishant-nayak-01/",
+      "github": "nishant-nayak"
+    },
+    {
+      "name": "Swetha Mary Thomas",
+      "email": "swethathomas.201it262@nitk.edu.in",
+      "position": "CIS Secretary",
+      "image": "swetha_thomas.jpg",
+      "github": "swetha-thomas",
+      "linkedin": "https://www.linkedin.com/in/swetha-thomas01"
+    },
+    {
+      "name": "VAISHALI S",
+      "email": "vaish.201ee263@nitk.edu.in",
+      "position": "CIS Secretary",
+      "image": "vaishali.jpg",
+      "github": "Vaish-922",
+      "linkedin": "https://www.linkedin.com/in/vaishali-s-a1490a218/"
     },
     {
       "email": "rohanrao.jh@gmail.com",
