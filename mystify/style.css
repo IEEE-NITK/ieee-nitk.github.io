@@ -107,6 +107,9 @@ h3 {
     font-weight: bold;
 }
 
+
+
+
 @media only screen and (max-width: 991.5px) {
     h3 {
         font-size: 1.75rem;
@@ -157,6 +160,22 @@ header {
 /* ------------------
 NAVIGATION BAR
 ------------------ */
+
+.logo-img{
+   
+    float: left;
+    position: relative;
+    width:200px ;
+    height:60px;
+    margin: 0 0.2rem;
+    padding: 1rem 1rem;
+    
+    
+
+}
+
+
+
 nav {
     background-color: rgba(0, 0, 0, 0.388);
     overflow: hidden;
