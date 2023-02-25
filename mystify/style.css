@@ -165,9 +165,9 @@ NAVIGATION BAR
    
     float: left;
     position: relative;
-    width:200px ;
-    height:60px;
-    margin: 0 0.2rem;
+    width:250px ;
+    height:65px;
+    /* margin: 0 0.2rem; */
     padding: 1rem 1rem;
     
     
