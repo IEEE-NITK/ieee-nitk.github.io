@@ -165,10 +165,11 @@ NAVIGATION BAR
    
     float: left;
     position: relative;
-    width:250px ;
+    width:150px ;
     height:65px;
-    /* margin: 0 0.2rem; */
+    margin: 0 0.2rem;
     padding: 1rem 1rem;
+    z-index: 3;
     
     
 

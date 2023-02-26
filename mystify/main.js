@@ -30,10 +30,12 @@ $(document).ready(function () {
     let prev = 0;
     let $window = $(window);
     let nav = $('.top-nav');
+    let navLogo=$('.logo-img');
 
     $window.on('scroll', function() {
         var scrollTop = $window.scrollTop();
         nav.toggleClass('hidden', scrollTop > prev);
+        navLogo.toggleClass('hidden',scrollTop>prev);
         prev = scrollTop;
     }); 
 
