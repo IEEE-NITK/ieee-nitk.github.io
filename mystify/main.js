@@ -16,10 +16,16 @@ $(document).ready(function () {
             nav.removeClass('side-nav');
             nav.removeClass('top-nav');
             nav.addClass('side-nav');
+            $('.navbar-logo').css({'position': 'fixed', 'opacity': '0.7'});
+            $('.top-logo').css({'display': 'none'});
+            $('.side-logo').css({'display': 'block'});
         } else {
             nav.removeClass('side-nav');
             nav.removeClass('top-nav');
             nav.addClass('top-nav');
+            $('.navbar-logo').css({'position': 'absolute', 'opacity': '1'});
+            $('.side-logo').css({'display': 'none'});
+            $('.top-logo').css({'display': 'block'});
         }
     }
     toggleNav();

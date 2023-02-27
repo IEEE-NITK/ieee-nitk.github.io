@@ -176,6 +176,15 @@ nav .bar {
     width: 1.6rem;
 }
 
+.navbar-logo {
+    display: none;
+    left: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    width: 100px;
+    z-index: 3;
+}
+
 /* .navbar-title {
     font-size: 1.5rem;
     width: 40%;
