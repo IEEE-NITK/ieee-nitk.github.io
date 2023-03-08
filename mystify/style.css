@@ -151,7 +151,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 
 /* ------------------
@@ -310,8 +310,8 @@ nav .bar {
 /* Navigation bar ends  */
 
 .intro-video {
-    margin: 5rem auto 2rem;
-    width: 40%;
+    margin: 10vh auto 2rem !important;
+    width: 60%;
 }
 
 .title {
@@ -321,7 +321,7 @@ nav .bar {
     flex-wrap: nowrap;
     justify-content: center;
     position: relative;
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     margin: auto;
 }
@@ -338,7 +338,10 @@ nav .bar {
 
 .title-image {
     margin: 3rem auto 1rem;
-    width: 50%;
+    width: 40%;
+
+    position: relative;
+    left: 15px;
 }
 
 .title-description {
@@ -396,8 +399,13 @@ nav .bar {
         font-size: 1rem;
     }
 
+    .intro-video {
+        width: 80%;
+    }
+
     .title-image {
-        width: 90%;
+        margin-top: 2rem;
+        width: 80%;
     }
 
     .title-description {
@@ -418,8 +426,12 @@ nav .bar {
         font-size: 0.9rem;
     }
 
+    .intro-video {
+        width: 90%;
+    }
+
     .title-image {
-        width: 100%;
+        width: 75%;
     }
 
     .title-description {
@@ -428,6 +440,16 @@ nav .bar {
 
     .registration-btn {
         font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .title-image {
+        width: 85%;
+    }
+
+    .registration-btn {
+        font-size: 0.7rem;
     }
 }
 

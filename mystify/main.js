@@ -152,5 +152,5 @@ $(document).ready(function () {
             $('.lottie-animation').html(lottieHtml);
         }
     }
-    RandomlyScatterAnimation('600px');
+    RandomlyScatterAnimation('60px');
 });
