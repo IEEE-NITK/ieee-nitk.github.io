@@ -27,17 +27,20 @@ body {
 /* ------------------
 Lottie Files
 ------------------ */
-
-lottie-player {
-    height: 300px;
-    opacity: 0.1;
-    position: absolute;
-    width: 20%;
-    z-index: -2;
+.lottie-animation {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
 }
 
-lottie-animation {
-    height: 100%;
+.background-animation {
+    filter: blur(8px);
+    height: 300px;
+    /* opacity: 0.2; */
+    position: absolute;
+    width: 300px;
+    z-index: -2;
 }
 
 /* ---------------------
@@ -152,6 +155,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    width: 100vw;
 }
 
 /* ------------------
@@ -310,8 +314,9 @@ nav .bar {
 /* Navigation bar ends  */
 
 .intro-video {
+    height: 502px;
     margin: 10vh auto 2rem !important;
-    width: 60%;
+    width: 892px;
 }
 
 .title {
@@ -322,6 +327,7 @@ nav .bar {
     justify-content: center;
     position: relative;
     min-height: 100vh;
+    max-height: 100vh;
     width: 100%;
     margin: auto;
 }
@@ -374,7 +380,8 @@ nav .bar {
 }
 
 .registration-btn:hover {
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(5px);
+    color: #ffffff;
     box-shadow: 0 0 15px 1px #ffffff;
     transform: scale(105%);
 }
@@ -542,12 +549,16 @@ Prizes
 }
 
 .card {
-    /* backdrop-filter: blur(5px); */
-    background-color: #CEDDEF;
+    backdrop-filter: blur(5px);
+    /* background-color: #CEDDEF; */
+    background-color: #ceddef1c;
+    /* background-color: transparent; */
     /* box-shadow: 0 1px 4px 1px #45cee9; */
-
+    border: 2px solid #CEDDEF;
+    /* border-color: #CEDDEF; */
     border-radius: 0.5rem;
-    border-top: 0;
+    /* border-top: 0; */
+    /* border-width: 1px; */
     margin-top: 2rem;
     padding: 2rem;
     /* position: relative; */
@@ -586,29 +597,39 @@ Prizes
 } */
 
 .card h3 {
-    color: #070D59;
+    /* color: #070D59; */
+    color: #ec255a;
     /* color: #fe6464; */
     font-size: 1.3rem;
     font-weight: 300;
 }
 
 .card hr {
-    color: black;
+    /* color: black; */
+    color: #CEDDEF;
     margin: 1rem auto 3rem;
     width: 65%;
 }
 
 .card p {
-    color: #1F3C88;
+    /* color: #1F3C88; */
+    color: #F7F7F8;
     /* font-size: 3rem;
     font-weight: 900; */
     line-height: 1.3;
 }
 
 .card p span {
-    color: #070D59;
+    /* color: #070D59; */
+    color: #CEDDEF;
     font-size: 3rem;
     font-weight: 900;
+}
+
+@media only screen and (max-width: 576px) {
+    .card {
+        width: 75%;
+    }
 }
 
 /* ------------------

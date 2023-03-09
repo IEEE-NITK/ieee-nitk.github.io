@@ -100,7 +100,7 @@ $(document).ready(function () {
             var hash = this.hash;
     
             $('html, body').animate({
-            scrollTop: $(hash).offset().top
+            scrollTop: $(hash).offset().top - 60
             }, 800, function(){
             return false;
             });
@@ -134,23 +134,61 @@ $(document).ready(function () {
     });
 
     // Randomly Scatter lottie files in the background
-    function RandomlyScatterAnimation (width) {
-        if (window.matchMedia(`(min-width : ${width})`).matches) {
-            let lottieHtml = $('.lottie-animation').html();
-            let height = $('body').outerHeight();
-            console.log(height);
-            let increment = Math.floor(100/(height/($('body').outerWidth()/5)));
-            for (let i = 0; i < 95; i+=increment) {
-                for (let j = 0; j < 100; j+=20) {
-                    lottieHtml += 
-                    `
-                    <lottie-player src="/mystify/assets/animation/background-animation.json" background="transparent" speed="0.1" mode="bounce" loop autoplay style="top: ${i}%; left: ${j}%"></lottie-player>
-                    `;
+    // function RandomlyScatterAnimation (width) {
+    //     if (window.matchMedia(`(min-width : ${width})`).matches) {
+    //         let lottieHtml = $('.lottie-animation').html();
+    //         let height = $('body').outerHeight();
+    //         let outerWidth = $('body').outerWidth();
+    //         console.log(height);
+    //         let increment = Math.floor(100/(height/(outerWidth/5)));
+    //         for (let i = 0; i < 95; i+=increment) {
+    //             for (let j = 0; j < 100; j+=20) {
+    //                 lottieHtml += 
+    //                 `
+    //                 <lottie-player src="/mystify/assets/animation/background-animation.json" background="transparent" speed="0.1" mode="bounce" loop autoplay style="top: ${i}%; left: ${j}%"></lottie-player>
+    //                 `;
 
-                }
+    //             }
+    //         }
+    //         $('.lottie-animation').html(lottieHtml);
+    //     }
+    // }
+    // RandomlyScatterAnimation('600px');
+
+    function RandomlyScatterAnimation (size=300) {
+        let lottieHtml = '';
+        $('.lottie-animation').html(lottieHtml);
+
+        setTimeout(function () {
+            $(window).resize(function () {
+                return;
+            });
+        }, 3000);
+
+        let outerHeight = $('body').outerHeight(), outerWidth = $('body').outerWidth();
+
+        let xCount = Math.floor(outerWidth/size);
+        let yCount = Math.floor(outerHeight/size);
+
+        let xStart = Math.floor(outerWidth-xCount*size)/2;
+
+        // let increment = Math.floor(100/(outerHeight/(outerWidth/5)));
+
+        for (let i = 0; i < yCount; i++) {
+            for (let j = 0; j < xCount; j++) {
+                lottieHtml += 
+                `
+                <lottie-player class="background-animation" src="/mystify/assets/animation/background-animation.json" background="transparent" speed="0.1" mode="bounce" loop autoplay style="top: ${i*size}px; left: ${xStart+j*size}px"></lottie-player>
+                `;
             }
-            $('.lottie-animation').html(lottieHtml);
         }
+
+        $('.lottie-animation').html(lottieHtml);
     }
-    RandomlyScatterAnimation('60px');
+    
+    RandomlyScatterAnimation(300);
+
+    $(window).resize(function () {
+        RandomlyScatterAnimation(300);
+    });
 });
