@@ -1,3 +1,6 @@
+// TODO: Remove commented unnecessary code 
+//       Add responsive behavior to the background
+
 $(document).ready(function () {
 
     // AOS.init({
@@ -159,12 +162,6 @@ $(document).ready(function () {
         let lottieHtml = '';
         $('.lottie-animation').html(lottieHtml);
 
-        setTimeout(function () {
-            $(window).resize(function () {
-                return;
-            });
-        }, 3000);
-
         let outerHeight = $('body').outerHeight(), outerWidth = $('body').outerWidth();
 
         let xCount = Math.floor(outerWidth/size);
@@ -188,7 +185,13 @@ $(document).ready(function () {
     
     RandomlyScatterAnimation(300);
 
-    $(window).resize(function () {
-        RandomlyScatterAnimation(300);
-    });
+    // $(window).resize(function () {
+    //     let start = new Date().getTime();
+    //     while (new Date().getTime() < start+3000) {
+    //         if ($(window).resize()) {
+    //             return;
+    //         }
+    //     }
+    //     RandomlyScatterAnimation(300);
+    // });
 });
