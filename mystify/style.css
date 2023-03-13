@@ -689,6 +689,10 @@ Schedule
     color: #070D59;
 }
 
+.docs-btn {
+    color: #ec255a;
+}
+
 @media only screen and (max-width: 991.5px) {
     .timeline {
         margin: 1rem auto;
