@@ -6,13 +6,25 @@ import os
 import glob
 
 failed_downloads = []
-core_positions = ['Convener', 'Chairperson', 'Vice Chairperson', 'Secretary', 'Joint Secretary', 'Treasurer(Branch)', 'Treasurer(Institute)', 'Webmaster', 'Media Lead', 'Outreach Lead', 'Envision Lead', 'Labs Lead', 'Project Head','Project Coordinator' ,'CompSoc Chair', 'CompSoc Vice Chair', 'CompSoc Secretary', 'Compsoc Project Head', 'Diode Chair', 'SPS Chair', 'SPS Vice Chair', 'SPS Secretary', 'CAS Chair', 'CAS Vice Chair', 'CAS Secretary', 'Piston Chair', 'Piston Vice Chair', 'Piston Secretary', 'Piston Project Head', 'SIGHT Chair', 'CIS Chair', 'CIS Secretary', 'CIS Project Head', 'IAS Chair', 'IAS Secretary', 'RAS Chair', 'RAS Secretary', 'WiE Chair']
+
+with open('../_data/sheets/core_posts.txt', 'r') as f:
+    core_positions = f.read().split('\n')
+
 files = glob.glob('../assets/img/core/*')
 for f in files:
     os.remove(f)
 
-csv_file = "../_data/sheets/IEEE NITK Executive Member Info 23-24 - Executive Member Info.csv"
-img_csv = "../_data/sheets/Image For Core Poster (Responses) - Form Responses 1.csv"
+img_csv_url = "https://docs.google.com/spreadsheets/d/1lvjc4ydQYiU9tH08PHDaXvmu3uVUhezln1iMp3Kw9ok/export?gid=143041081&format=csv"
+#download the csv file
+gdown.download(img_csv_url, '../_data/sheets/core_images.csv', quiet=False)
+
+ieee_mem_url = "https://docs.google.com/spreadsheets/d/12gCnWjDN_kkOVT7sbFDEZJHNc-98-ET4vZ5dMPy_bPo/export?gid=0&format=csv"
+#download the csv file
+gdown.download(ieee_mem_url, '../_data/sheets/executive_member_info.csv', quiet=False)
+
+
+csv_file = "../_data/sheets/executive_member_info.csv"
+img_csv = "../_data/sheets/core_images.csv"
 
 core_mem = []
 
