@@ -33,9 +33,10 @@
 
 * For more guidelines on how to post an article, kindly refer our [Contributing Guidelines](CONTRIBUTING.md) for how to contribute to our blog!
 
+
 ## Bugs
 
-* In case you find bugs on the website, please create an Issue in the Issue Tab or [email](mailto:gaurangvelingkar@gmail.com) one of the Contributors.
+* In case you find bugs on the website, please create an Issue in the Issue Tab or [email](mailto:vignarajpai@gmail.com) one of the Contributors.
 
 ## Wiki
 
