@@ -107,6 +107,9 @@ prev_core = data['core']
 
 alumni = data['alumni']
 
+with open('../_data/team_old.json', 'w') as fout:
+    json.dump(data, fout, indent=2)
+
 # all the prev_members that are not in non_core_mem are appended to alumni
 for x in prev_members:
     flag = 0
@@ -121,8 +124,6 @@ for x in prev_members:
 # sort core_mem according to core_positions
 core_mem.sort(key=lambda x: core_positions.index(x['position'].strip()))
 
-print("Alumni: ", alumni)
-
 data['members'] = non_core_mem
 
 data['core'] = core_mem
@@ -131,5 +132,5 @@ data['alumni'] = alumni
 
 
 
-with open('../_data/team_new.json', 'w') as fout:
+with open('../_data/team.json', 'w') as fout:
     json.dump(data, fout, indent=2)

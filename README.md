@@ -33,6 +33,31 @@
 
 * For more guidelines on how to post an article, kindly refer our [Contributing Guidelines](CONTRIBUTING.md) for how to contribute to our blog!
 
+## Updating Team
+
+* Run the "team_update.py" script to update the team information.
+* This needs to link (Anyone can view) to the members sheet and the core images sheet.
+* `img_csv_url` is the core members images sheet
+  
+  `ieee_mem_url` is the Executive memberes sheet.
+
+* The url needs to be in the form :
+```html
+https://docs.google.com/spreadsheets/d/<KEY>/export?gid=<GID>&format=csv`
+```
+&nbsp;&nbsp;&nbsp;&nbsp; Where \<KEY> and \<GID> need to be obtained from the sheets url, for example:
+```html
+https://docs.google.com/spreadsheets/d/1lvjc4ydQYiU9tH08PHDaXvmu3uVUhezln1iMp3Kw9ok/edit?resourcekey#gid=143041081
+```
+&nbsp;&nbsp;&nbsp;&nbsp; \<KEY> = 1lvjc4ydQYiU9tH08PHDaXvmu3uVUhezln1iMp3Kw9ok
+
+
+&nbsp;&nbsp;&nbsp;&nbsp; \<GID> = 143041081
+
+* The format for the csv files is stored in `_data/sheets/sheet_format/`
+* The Google form has to be made to satisfy this format in order for the script to work.
+
+* The Final output will be `team.json` in `_data` and the old team will be moved to the file `team_old.json`, after ensuring there are no errors delete the old file.
 
 ## Bugs
 
