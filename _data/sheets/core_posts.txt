@@ -1,0 +1,38 @@
+Convener
+Chairperson
+Vice Chairperson
+Secretary
+Joint Secretary
+Treasurer(Branch)
+Treasurer(Institute)
+Webmaster
+Media Lead
+Outreach Lead
+Envision Lead
+Labs Lead
+Project Head
+Project Coordinator
+CompSoc Chair
+CompSoc Vice Chair
+CompSoc Secretary
+CompSoc Project Head
+Diode Chair
+SPS Chair
+SPS Vice Chair
+SPS Secretary
+CAS Chair
+CAS Vice Chair
+CAS Secretary
+Piston Chair
+Piston Vice Chair
+Piston Secretary
+Piston Project Head
+SIGHT Chair
+CIS Chair
+CIS Secretary
+CIS Project Head
+IAS Chair
+IAS Secretary
+RAS Chair
+RAS Secretary
+WiE Chair
