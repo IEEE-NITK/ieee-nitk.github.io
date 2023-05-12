@@ -62,13 +62,18 @@ with open(csv_file, newline='') as ieee_info:
         for x in core_mem:
             if x['name'] == row['name']:
                 x['email'] = row['Personal Email']
-                if 'email' not in x.keys():
+                if 'email' not in x or x['email'] == '':
                     x['email'] = row['NITK EDU Email']
                 x['sig'] = row['SIG']
                 x['github'] = row['GitHub Username']
                 if x['github'].startswith('http'):
                     x['github'] = row['Gender']
                 x['linkedin'] = row['LinkedIn Profile URL']
+                # add www. to linkedin url if not present
+                if not x['linkedin'].startswith('https://www.'):
+                    if not x['linkedin'].startswith('www.'):
+                        x['linkedin'] = 'www.' + x['linkedin']
+                    x['linkedin'] = 'https://' + x['linkedin']
                 break
         row['email'] = row.pop('Personal Email')
         if row['email'] == '':
@@ -86,6 +91,11 @@ with open(csv_file, newline='') as ieee_info:
         except:
             pass
         row['linkedin'] = row.pop('LinkedIn Profile URL')
+        # add www. to linkedin url if not present
+        if not row['linkedin'].startswith('https://www.'):
+            if not row['linkedin'].startswith('www.'):
+                row['linkedin'] = 'www.' + row['linkedin']
+            row['linkedin'] = 'https://' + row['linkedin']
         row.pop('IEEE Email')
         row.pop('IEEE Membership Number')
         row.pop('Member Details Update Form')
