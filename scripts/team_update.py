@@ -117,6 +117,13 @@ prev_core = data['core']
 
 alumni = data['alumni']
 
+# Fix all linkedin urls
+for x in prev_members:
+    if not x['linkedin'].startswith('https://www.'):
+        if not x['linkedin'].startswith('www.'):
+            x['linkedin'] = 'www.' + x['linkedin']
+        x['linkedin'] = 'https://' + x['linkedin']
+
 with open('../_data/team_old.json', 'w') as fout:
     json.dump(data, fout, indent=2)
 
