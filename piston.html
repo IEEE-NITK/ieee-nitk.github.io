@@ -33,33 +33,13 @@ css : /assets/css/sig.css
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center animate-box">
-                <h2>Proposed Projects</h2>
-            </div>
-            <div class="col-md-12 text-center animate-box">
-                <p><h4>The Proposed Projects for the Academic Year 2022-23 are as follows</h4></p>
-                <ul class="text-justify col-md-6 col-md-offset-3">
-                    {% for sig in site.data.projects.proposed_projects %}
-                        {% if sig[0] == "Piston" %}
-                            {% for list in sig[1] %}
-                            <li>{{ list }}</li>
-                            {% endfor %}
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </div>
-
     <div class="container" style="margin-top: 50px;">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center animate-box">
                 <h2>Completed Projects</h2>
             </div>
             <div class="col-md-12 text-center animate-box">
-                <p><h4>Projects completed during Academic Years 2019 to 2022 can be found at</h4></p>
+                <p><h4>Projects completed during Academic Years 2019 to 2023 can be found at</h4></p>
                 <p><a href="https://ieee.nitk.ac.in/virtual-expo/piston/" class="btn btn-primary btn-outline">Piston Virtual Expo</a></p>
             </div>
         </div>
