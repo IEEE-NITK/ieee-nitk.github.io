@@ -1,8 +1,14 @@
 {
   "faculty": [
     {
+      "name": "Dinesh Naik",
+      "position": "Branch Counselor",
+      "image": "dineshnaik.png",
+      "link": "https://infotech.nitk.ac.in/faculty/dinesh-naik"
+    },
+    {
       "name": "Dr. Annappa",
-      "position": "Branch Counselor,<br>CIS Faculty Advisor",
+      "position": "CIS Faculty Advisor",
       "image": "annappa.jpg",
       "link": "http://cse.nitk.ac.in/faculty/annappa"
     },
