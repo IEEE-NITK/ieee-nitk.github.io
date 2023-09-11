@@ -11,7 +11,7 @@ title: Publications
                 <h2 class="animate-box">List of Papers Submitted to Conferences by IEEE NITK Members</h2>
                 <ul>
                     {% for item in site.data.publications %}
-                        <li class="animate-box"><strong>{{ item.title }}</strong>, {{ item.abstract }}</li><br>
+                        <li class="animate-box"><a href="{{ item.url }}"><strong>{{ item.title }}</strong></a>, {{ item.abstract }}</li><br>
                     {% endfor %}
                 </ul>
             </div>
