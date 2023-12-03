@@ -1,11 +1,20 @@
-[
+[   {
+    "title": "Improving Dynamic TDMA for Wireless Sensor Networks",
+    "url" : "https://ieeexplore.ieee.org/document/10306566",
+    "abstract": "2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT) - Bharadwaja M Chittapragada, Rohit Kumar, Violina Doley, B. R. Chandavarkar"
+    },
+    {
+        "title": "Predictive Selective Repeat - an Optimized Selective Repeat for Noisy Channels",
+        "url" : "https://ieeexplore.ieee.org/document/10308035",
+        "abstract": "2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT) - Praveen Kumar P, Rati Preethi S, Shriya Anil, B. R. Chandavarkar"
+    },
     {
         "title": "Communication Architecture for Autonomous Aerial Traffic Management",
         "url" : "https://ieeexplore.ieee.org/document/10054266",
         "abstract": "2022 IEEE 7th International Conference on Recent Advances and Innovations in Engineering (ICRAIE) - Shobuj Paul, Shuvrangshu Jana, Onkar Chopra, Ashwini Ratnoo, Debasish Ghose"
     },
     {
-        "title": "An Enhancer-Driven Stem Cell–Like Program Mediated by SOX9 Blocks Intestinal Differentiation in Colorectal Cancer",
+        "title": "An Enhancer-Driven Stem Cell-Like Program Mediated by SOX9 Blocks Intestinal Differentiation in Colorectal Cancer",
         "url" : "https://pubmed.ncbi.nlm.nih.gov/34571027/",
         "abstract": "Volume 162, Issue 1, Gastroenterology, Xiaoyan Liang, Gina N. Duronio, Yaying Yang, Pratyusha Bala, Prajna Hebbar, Sandor Spisak, Pranshu Sahgal, Harshabad Singh, Yanxi Zhang, Yingtian Xie, Paloma Cejas, Henry W. Long, Adam J. Bass, Nilay S. Sethi"
     },
