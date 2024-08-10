@@ -68,7 +68,15 @@ js: /assets/js/events.js
         {%if event[1].links[0].url%}
         <a href="{{event[1].links[0].url}}" class="btn btn-primary">{{event[1].links[0].title}}</a>
         {%endif%}
-
+        {%if event[1].description_images %}
+          <br>
+          <h4>
+            Images
+          </h4>
+          {% for img_name in event[1].description_images %}
+              <img src="/assets/img/events/{{img_name}}" alt="{{event[1].title}}">
+          {% endfor %}
+        {%endif%}
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
